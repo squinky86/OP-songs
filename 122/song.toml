@@ -1,0 +1,66 @@
+title = "We Live In A Changing World"
+copyrights = [
+  "Lyrics: Melvin Stanton, 1971",
+  "Music: L. O. Sanderson, 1971",
+  "This work is under copyright through 12/31/2067. Used by permission.",
+]
+key_signature = "F"
+time_sig_numerator = 6
+time_sig_denominator = 4
+tempo_bpm = 110
+verse_count = 3
+optional_phrase_breaks = ["3:80", "7:80", "11:80", "15:80"]
+phrase_breaks = ["5:80", "9:80", "13:80"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s1 s4 c'4 | f'4 g'4 a'4 g'4( f'4) d'4 | f'2.~ f'2 g'4 | a'4 c''4 a'4 bes'4( f'4) g'4 | a'2.~ a'2 bes'4
+| c''4 c''4 cis''4 d''2 cis''4 | c''4 bes'4 a'4 g'2 gis'4 | a'4 a'4 a'4 a'4( g'4) f'4
+| g'1 r4 c'4 | f'4 g'4 a'4 g'4( f'4) d'4 | f'2.~ f'4. r8 g'4 | a'4 c''4 c''4 bes'4( a'4) g'4 | a'2.~ a'2 c''4
+| d''2 bes'4 f''2 d''4 | c''4( a'4) g'4 f'2 g'4 | a'4 c''4 bes'4 a'2 g'4 | f'2.~ f'2 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s1 s4 c'4 | c'4 c'4 f'4 d'2 d'4 | c'2.~ c'2 e'4 | f'4 f'4 f'4 f'2 f'4 | f'2.~ f'2 e'4
+| f'4 f'4 g'4 fis'2 fis'4 | a'4 g'4 fis'4 g'2 fis'4 | f'4 f'4 f'4 f'2 f'4
+| e'1 r4 c'4 | c'4 c'4 f'4 d'2 d'4 | c'2.~ c'4. r8 e'4 | f'4 f'4 f'4 e'4( f'4) e'4 | f'2.~ f'2 f'4
+| f'2 f'4 bes'2 gis'4 | a'4( f'4) e'4 d'2 e'4 | f'4 f'4 g'4 f'4( d'4) e'4 | c'2.~ c'2 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s1 s4 a4 | a4 bes4 c'4 bes2 g4 | a2.~ a2 c'4 | c'4 a4 c'4 d'2 des'4 | c'2.~ c'2 c'4
+| c'4 a4 a4 a2 a4 | d'4 d'4 d'4 d'2 d'4 | c'4 c'4 c'4 b2 b4
+| c'1 r4 g4 | a4 bes4 c'4 bes2 gis4 | a2.~ a4. r8 c'4 | c'4 a4 a4 g4( c'4) c'4 | c'2.~ c'2 a4
+| bes2 d'4 d'2 f'4 | f'4( c'4) bes4 a2 c'4 | c'4 c'4 d'4 c'2 bes4 | a2.~ a2 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s1 s4 f4 | f4 f4 f4 bes,2 bes,4 | f,2.~ f,2 c4 | f4 f4 f4 bes,2 bes,4 | f2.~ f2 g4
+| a4 f4 e4 d2 d4 | fis4 g4 a4 bes2 b,4 | c4 c4 c4 d2 d4
+| c1 r4 e4 | f4 f4 f4 bes,2 bes,4 | f,2.~ f,4. r8 c4 | f4 f4 f4 c2 c4 | f2.~ f2 f4
+| bes,2 bes,4 bes,2 b,4 | c2 cis4 d2 cis4 | f4 a,4 bes,4 c2 c4 | f,2.~ f,2 s4
+"""
+
+[lyrics.1]
+text = "We live in a chang -- ing world Of mo -- ments and life un -- furled; The fa -- ces once known have si -- lent -- ly gone— A few left a path im -- pearled; God lives and the Lord will be— He ruled all the land and sea; He chang -- es not, He knows our lot, And fash -- ions e -- ter -- ni -- ty."
+
+[lyrics.2]
+text = "The voic -- es of yes -- ter- -- years Speak mem -- o -- ries no one hears; But yet not a -- lone, the Lord tends His own And He can be -- calm our fears. Our Sav -- ior sub -- dued the sea, He trod o -- ver Gal -- i -- lee, He raised the dead— 'twas He who said: With you I will al -- ways be."
+
+[lyrics.3]
+text = "The chang -- es are all a -- round, The hills and the plains a -- bound; Tho' far we may go, from re -- gions be -- low, Je -- ho -- vah will there be found— Far out in the dis -- tant skies, Be -- yond all the sad good -- byes, The God of man, the a -- ges scan, On Him ev -- 'ry soul re -- lies."
