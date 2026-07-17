@@ -1,0 +1,41 @@
+title = "Bread of the World"
+subtitle = ""
+copyrights = [
+  "Lyrics: Reginald Heber, 1827 (public domain)",
+  "Music: Davide Marney, 1996 and released under the CC-BY 4.0 license",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "C"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 94
+verse_count = 2
+phrase_breaks = ["4:64", "8:64", "12:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+g'2. e'8 f'8 | g'2. g'4 | g'2. a'4 | c'2 d'2 |
+g'2. e'8 f'8 | g'2. g'4 | c''2 b'4( a'4) | g'1 |
+c''2. c''8 d''8 | e''2. d''4 | c''2. a'4 | a'2 g'2 |
+g'2. e'8 f'8 | g'2. f'4 | e'2. d'4 | c'1 |
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+e'2. c'8 d'8 | d'2. d'4 | c'2. c'4 | a2 a2 |
+e'2. c'8 d'8 | d'2. g'4 | a'2 d'4( f'4) | d'1 |
+a'2. a'8 b'8 | c''2. g'4 | a'2. f'4 | f'2 e'2 |
+e'2. c'8 d'8 | d'2. f'4 | c'2. d'4 | g1 |
+"""
+
+[lyrics.1]
+text = "Bread of the world in mer -- cy bro -- ken, Wine of the soul in mer -- cy shed, By whom the words of life were spo -- ken, And in whose death our sins are dead."
+
+[lyrics.2]
+text = "Look on the heart by sor -- row bro -- ken, Look on the tears by sin -- ners shed, And, by thy feast to us the to -- ken That by thy grace our souls are fed."

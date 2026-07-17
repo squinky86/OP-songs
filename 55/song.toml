@@ -1,0 +1,60 @@
+title = "Anywhere with Jesus"
+copyrights = [
+  "Lyrics: Jessie Brown Pounds, 1887 (public domain)",
+  "Music: Daniel B. Towner, 1887 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "D"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 120
+verse_count = 4
+phrase_breaks = ["4:48", "8:48", "12:48", "16:48", "20:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+a'4 a'8 b'4 b'8 | a'4 fis'8 d'4 e'8 | fis'4. g'4. | a'2. | g'4 fis'8 e'4 fis'8 | g'4 a'8 cis''4 b'8 | a'4. g'4. | fis'2. | a'4 a'8 b'4 b'8 | a'4 fis'8 d'4 e'8 | fis'4. g'4. | a'2. | d''4 cis''8 d''4 a'8 | cis''4 b'8 a'4 g'8 | fis'4. e'4. | d'2. | e'4@c fis'8 g'4. | fis'4 g'8 a'4. | b'4 b'8 a'4 gis'8 | a'2. | d''4 d''8 d''4 a'8 | cis''4 b'8 a'4 g'8 | fis'4. e'4. | d'2.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+fis'4 fis'8 g'4 g'8 | fis'4 d'8 d'4 d'8 | d'4. e'4. | fis'2. | e'4 d'8 cis'4 d'8 | e'4 e'8 g'4 g'8 | fis'4. e'4. | d'2. | fis'4 fis'8 g'4 g'8 | fis'4 d'8 a4 a8 | d'4. e'4. | fis'2. | fis'4 g'8 a'4 fis'8 | a'4 g'8 fis'4 e'8 | d'4. cis'4. | a2. | cis'4@c d'8 e'4. | d'4 e'8 fis'4. | fis'4 fis'8 e'4 d'8 | cis'2. | fis'4 g'8 a'4 fis'8 | a'4 g'8 fis'4 e'8 | d'4. cis'4. | d'2.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+d'4 d'8 d'4 d'8 | d'4 a8 fis4 g8 | a4. a4. | d'2. | a4 a8 a4 a8 | a4 cis'8 e'4 cis'8 | d'4. cis'4. | d'2. | d'4 d'8 d'4 d'8 | d'4 a8 fis4 g8 | a4. a4. | d'2. | a4 a8 d'4 d'8 | d'4 d'8 d'4 b8 | a4. g4. | fis2. | a4@c a8 a4. | a4 a8 d'4. | d'4 d'8 cis'4 b8 | a2. | a4 a8 d'4 d'8 | d'4 d'8 d'4 b8 | a4. g4. | fis2.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+d4 d8 d4 d8 | d4 d8 d4 d8 | d4. d4. | d2. | a4 a8 a4 a8 | a4 a8 a4 a8 | a,4. a,4. | d2. | d4 d8 d4 d8 | d4 d8 d4 d8 | d4. d4. | d2. | d4 e8 fis4 d8 | g4 g8 g4 g8 | a4. a,4. | d2. | a,4@c a,8 a,4. | d4 d8 d4. | b,4 b,8 e4 e8 | a,2. | d4 e8 fis4 d8 | g4 g8 g4 g8 | a4. a,4. | d2.
+"""
+
+[lyrics.1]
+text = "An -- y -- where with Je -- sus I can safe -- ly go, An -- y -- where He leads me in this world be -- low; An -- y -- where with -- out Him dear -- est joys would fade; An -- y -- where with Je -- sus I am not a -- fraid."
+
+[lyrics.2]
+text = "A -- ny -- where with Je -- sus I am not a -- lone; O -- ther friends may fail me, He is still my own; Though His hand may lead me o -- ver drear -- est ways, A -- ny -- where with Je -- sus is a house of praise."
+
+[lyrics.3]
+text = "A -- ny -- where with Je -- sus, o -- ver land and sea, Tell -- ing souls in dark -- ness of sal -- va -- tion free; Rea -- dy as He sum -- mons me to go or stay, A -- ny -- where with Je -- sus when He points the way."
+
+[lyrics.4]
+text = "A -- ny -- where with Je -- sus I can go to sleep, When the dark -- 'ning sha -- dows round a -- bout me creep, Know -- ing I shall wak -- en nev -- er -- more to roam; A -- ny -- where with Je -- sus will be home, sweet home."
+
+[lyrics.chorus]
+text = "An -- y -- where, an -- y -- where! Fear I can -- not know; An -- y -- where with Je -- sus I can safe -- ly go."

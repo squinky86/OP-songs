@@ -1,0 +1,60 @@
+title = "The Lord's My Shepherd, I'll Not Want"
+subtitle = "Psalm 23"
+copyrights = [
+  "Lyrics: Scottish Psalter, 1650 (public domain)",
+  "Music: 'Crimond' by Jessie Seymour Irvine, 1872 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license"
+]
+key_signature = "C"
+time_sig_numerator = 3
+time_sig_denominator = 2
+tempo_bpm = 184
+verse_count = 5
+phrase_breaks = ["5:64", "8:64", "12:64", "15:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s1 g'2 | g'2( e'2) f'2 | g'2( c''2) b'2 | b'1 a'2 | g'1 g'2 | g'2( d'2) e'2 | f'1 f'2 | e'1 g'2 | g'2( e'2) f'2 | g'2( c''2) b'2 | d''2( c''2) a'2 | g'1 e'2 | a'1 g'2 | f'1 e'2 | f'1 f'2 | e'2( g'2) f'2 | e'2( c'2) d'2 | c'1 s2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s1 e'2 | e'2( c'2) b2 | c'2( e'2) g'2 | g'1 f'2 | f'2( e'2) c'2 | b1 c'2 | c'2( a2) d'2 | c'1 e'2 | e'2( c'2) b2 | c'1 d'2 | e'1 fis'2 | g'1 c'2 | c'2( f'2) e'2 | d'2( a2) cis'2 | d'1 d'2 | c'1 d'2 | c'1 g2 | c'1 s2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s1 g2 | c'2( g2) g2 | g1 c'2 | c'1 c'2 | c'1 g2 | g1 g2 | a1 g2 | g1 g2 | c'2( g2) g2 | g2( fis2) g2 | g2( a2) c'2 | b1 bes2 | a1 bes2 | a1 a2 | a1 g2 | c'2( bes2) a2 | g2( e2) f2 | e1 s2
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s1 c2 | c1 d2 | e2( c2) e2 | f2( g2) a2 | c'2( g2) e2 | d2( f2) e2 | d1 g,2 | c1 c2 | c1 d2 | e2( a,2) b,2 | c1 d2 | g1 g2 | f2( f,2) g,2 | a,1 a,2 | d1 b,2 | c2( e,2) f,2 | g,1 g,2 | e1 s2
+"""
+
+[lyrics.1]
+text = "The Lord's my shep -- herd, I'll not want. He makes me down to lie In pas -- tures green: he lead -- eth me the qui -- et wa -- ters by, the qui -- et wa -- ters by."
+
+[lyrics.2]
+text = "My soul he doth re -- store a -- gain; and me to walk doth make With -- in the paths of right -- eous -- ness, ev'n for his own name's sake, ev'n for his own name's sake."
+
+[lyrics.3]
+text = "Yea, though I walk in death's dark vale, yet will I fear none ill: For thou art with me; and thy rod and staff me com -- fort still, and staff me com -- fort still."
+
+[lyrics.4]
+text = "My ta -- ble thou hast fur -- nish -- èd In pres -- ence of my foes; My head thou dost with oil an -- oint, And my cup o -- ver -- flows, And my cup o -- ver -- flows."
+
+[lyrics.5]
+text = "Good -- ness and mer -- cy all my life Shall sure -- ly fol -- low me, And in God's house for -- ev -- er -- more My dwell -- ing place shall be, My dwell -- ing place shall be."

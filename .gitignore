@@ -1,0 +1,23 @@
+# Copyright permission records and copyrighted source editions are deliberately
+# NOT published here — they live in the private OpenPsalm repo under copyrights/.
+# Each song published by permission carries a copyright.txt instead.
+*.pdf
+
+# Import scratch: source files a song was transcribed from, and render output.
+# These are often the rights holders' published editions — keep them out.
+*.xml
+*.musicxml
+*.nwc
+*.abc
+*.mid
+*.midi
+*.ly
+*.jpg
+*.jpeg
+*.bmp
+*.log
+
+# Editor droppings
+*.swp
+*.kate-swp
+.DS_Store

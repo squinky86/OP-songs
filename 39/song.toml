@@ -1,0 +1,64 @@
+title = "All Is Well"
+copyrights = [
+  "Lyrics and Music: Ira L. Winterrowd, 1911 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 3
+phrase_breaks = ["4:64", "8:64", "10:48", "12:64", "14:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+c''4.%p b'8 c''8[ bes'8] aes'8 g'8 | f'4 aes'4 ees'2 | aes'2 c''2 | bes'2. r4 |
+c''4. b'8 c''8[ bes'8] aes'8 g'8 | f'4 aes'4 ees'2 | c''2 ees'4( bes'4) | aes'2. r4 |
+bes'4.%mf g'8 ees'4 aes'8 bes'8 | c''4. bes'8 aes'4 aes'4 | bes'4. g'8 ees'4 des''8 des''8 |
+c''4. b'8 c''4 r4 | c''4. bes'8 aes'4 g'8 aes'8 | bes'4. aes'8 f''4 des''4 | c''2 bes'2 | aes'2. r4 |
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+ees'4. d'8 ees'8[ des'8] c'8 ees'8 | des'4 des'4 c'2 | ees'2 ees'2 | ees'2. r4 |
+ees'4. d'8 ees'8[ des'8] c'8 ees'8 | des'4 des'4 c'2 | ees'2 bes4( des'4) | c'2. r4 |
+ees'4. ees'8 bes4 ees'8 ees'8 | ees'4. ees'8 ees'4 ees'4 | ees'4. ees'8 bes4 ees'8 ees'8 |
+ees'4. d'8 ees'4 r4 | ees'4. des'8 c'4 ees'8 ees'8 | des'4. des'8 des'4 f'4 | ees'2 des'2 | c'2. r4 |
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+aes4. aes8 aes4 aes8 aes8 | aes4 aes4 aes2 | c'2 aes2 | g2. r4 |
+aes4. aes8 aes4 aes8 aes8 | aes4 aes4 aes2 | aes2 g2 | ees2. r4 |
+g4. bes8 g4 aes8 g8 | aes4. des'8 c'4 aes4 | g4. bes8 g4 g8 g8 |
+aes4. aes8 aes4 r4 | aes4. aes8 ees4 ees8 ees8 | f4. f8 aes4 aes4 | aes2 g2 | aes2. r4 |
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+aes,4. aes,8 aes,4 aes,8 c8 | des4 f4 aes2 | aes4( ees4) c4( aes,4) | ees2. r4 |
+aes,4. aes,8 aes,4 aes,8 c8 | des4 f4 aes2 | ees2 ees2 | aes,2. r4 |
+ees4. ees8 ees4 c8 ees8 | aes4. ees8 aes4 c4 | ees4. ees8 ees4 ees8 ees8 |
+aes,4. aes,8 aes,4 r4 | aes,4. aes,8 aes,4 bes,8 c8 | des4. des8 des4 des4 | ees2 ees2 | <aes, ees>2. r4 |
+"""
+
+[lyrics.1]
+text = "All is well with my soul to -- day, All is well; Far from Je -- sus I would not stray, All is well. Christ, the Sav -- iour, has let me in, And cleansed me from all the stains of sin, In a new life I now be -- gin, And all is well."
+
+[lyrics.2]
+text = "As I come to His throne of grace, All is well; While I toil in life's wea -- ry race, All is well. Tho' the tri -- als up -- on me frown, And all the fruits of my work cast down, Yet I strug -- gle to win the crown, And all is well."
+
+[lyrics.3]
+text = "May I sing as I on -- ward go, All is well; In the pow'r of His word I know All is well. Dark may be all the shades of night, And stars of hope fail to give their light, Words of Je -- sus are ev -- er bright, And all is well."

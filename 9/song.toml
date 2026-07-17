@@ -1,0 +1,57 @@
+title = "All Hail the Power of Jesus' Name"
+subtitle = ""
+copyrights = [
+  "Lyrics: Edward Perronet, 1779 (public domain)",
+  "Music: 'Coronation' by Oliver Holden, 1793 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 106
+verse_count = 4
+phrase_breaks = ["3:48", "5:48", "7:48", "10:48", "12:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. d'4 | g'4 g'4 b'4 b'4 | a'4 g'4 a'4 b'4 | a'4 g'4 b'4 a'4 | g'2. a'4 | b'4 a'4 g'4 b'4 | d''8[ c''8] b'8[ a'8] b'4 d''4 | d''2 d''2 | e''2 d''4( cis''4) | d''2. b'4 | d''4 b'4 g'4 b'4 | a'8[ g'8] a'8[ b'8] a'4 g'4 | d''2 c''2 | b'4.( c''8 a'4) a'4 | g'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. b4 | d'4 d'4 g'4 g'4 | fis'4 e'4 fis'4 g'4 | fis'4 g'4 d'4 c'4 | b2. d'4 | g'4 d'4 b4 g'4 | b'8[ a'8] g'8[ fis'8] g'4 fis'4 | g'2 a'2 | g'2 fis'4( e'4) | fis'2. g'4 | g'4 g'4 g'4 d'4 | d'4 d'4 fis'4 g'4 | g'2 e'2 | d'2. c'4 | b2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. g4 | b4 b4 d'4 d'4 | c'4 b4 c'4 d'4 | c'4 b4 g4 fis4 | g2. a4 | b4 a4 g4 b4 | d'8[ c'8] b8[ a8] b4 a4 | b2 a2 | b2 a2 | a2. g4 | b4 d'4 d'4 d'4 | c'8[ b8] c'8[ d'8] c'4 b4 | g2 g2 | g2. fis4 | g2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. g4 | g4 g4 d4 d4 | d4 e4 d4 g4 | d4 e4 d4 d4 | g2. d4 | g4 d4 b,4 g4 | b8[ a8] g8[ fis8] g4 d4 | g2 fis2 | e2 a2 | d2. g4 | g4 g4 b4 g4 | d4 d4 d4 e4 | b,2 c2 | d2. d4 | g,2. s4
+"""
+
+[lyrics.1]
+text = "All hail the pow'r of Je -- sus' name! Let an -- gels pros -- trate fall. Bring forth the roy -- al di -- a -- dem, and crown Him Lord of all. Bring forth the roy -- al di -- a -- dem, and crown Him Lord of all!"
+
+[lyrics.2]
+text = "O seed of Is -- rael's cho -- sen race now ran -- somed from the fall, Hail Him who saves you by His grace, and crown Him Lord of all. Hail Him who saves you by His grace, and crown Him Lord of all!"
+
+[lyrics.3]
+text = "Let ev -- 'ry tongue and ev -- 'ry tribe re -- spon -- sive to His call, To Him all maj -- es -- ty a -- scribe, and crown Him Lord of all. To Him all maj -- es -- ty a -- scribe, and crown Him Lord of all!"
+
+[lyrics.4]
+text = "Oh, that with all the sa -- cred throng we at His feet may fall! We'll join the ev -- er -- last -- ing song and crown Him Lord of all. We'll join the ev -- er -- last -- ing song and crown Him Lord of all!"

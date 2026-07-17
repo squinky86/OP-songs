@@ -1,0 +1,57 @@
+title = "God Is Everywhere"
+subtitle = ""
+copyrights = [
+  "Lyrics: James C. Wallace, 1825 (public domain)",
+  "Music: 'Green Hills' by Albert Lister Peace, 1885 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+phrase_breaks = ["5:48"]
+key_signature = "Eb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 90
+verse_count = 4
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. g'4 | g'4. g'8 f'4 ees'4 | aes'4. aes'8 g'4 f'4 | bes'4 bes'4 aes'4 g'4 | c''2. c''4 | c''4. c''8 d''4 ees''4 | ees''4 bes'4 aes'4 g'4 | f'4 g'8[ aes'8] g'4 f'4 | ees'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. ees'4 | ees'4. ees'8 d'4 ees'4 | ees'4. ees'8 ees'4 d'4 | ees'4 ees'4 e'4 e'4 | f'2. f'4 | f'4. f'8 f'4 f'4 | ees'4 ees'4 ees'4 ees'4 | ees'4 ees'4 ees'4 d'4 | ees'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. bes4 | bes4. bes8 bes4 bes4 | c'4. c'8 bes4 bes4 | bes4 bes4 c'4 c'4 | c'2. c'4 | c'4. c'8 ces'4 ces'4 | bes4 g4 aes4 bes4 | c'4 bes8[ aes8] bes4 aes4 | g2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. ees4 | ees4. ees8 f4 g4 | f4. f8 bes4 aes4 | g4 g4 c'4 bes4 | aes2. aes4 | aes4. aes8 aes4 aes4 | g4 g,4 c4 bes,4 | aes,4 g,8[ f,8] bes,4 bes,4 | ees2. s4
+"""
+
+[lyrics.1]
+text = "There's not a place in earth's vast round, In o -- cean deep, or air, Where skill and wis -- dom are not found, For God is ev -- ery -- where."
+
+[lyrics.2]
+text = "A -- round, with -- in, be -- low, a -- bove, Wher -- ev -- er space ex -- tends, There heav'n dis -- plays its bound -- less love, And pow'r with mer -- cy blends."
+
+[lyrics.3]
+text = "Then rise, my soul, and sing his name, And all his praise re -- hearse, Who spread a -- broad earth's won -- drous frame, And built the u -- ni -- verse."
+
+[lyrics.4]
+text = "Wher -- e'er thine earth -- ly lot is cast, His pow'r and love de -- clare; Nor think the might -- y theme too vast, For God is ev -- ery -- where."

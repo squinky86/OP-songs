@@ -1,0 +1,76 @@
+title = "The Wanderer No More Will Roam"
+subtitle = ""
+copyrights = [
+  "Lyrics: Mary Jane Deck Walker, 1869 (public domain)",
+  "Music: 'Stille Nacht' by Franz X. Gruber, 1818 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "C"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 5
+phrase_breaks = ["4:48", "8:48", "12:48", "16:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+g'4 a'4 g'4 | e'2. | g'4 a'4 g'4 | e'2. |
+d''4 d''4 d''8( b'8) | b'2 b'4 | c''2 c''8( g'8) | g'2. |
+a'4 gis'4 a'4 | c''4.( b'8) a'4 | g'4.( a'8) g'4 | e'2. |
+d''4 d''4 d''4 | f''4( d''4) b'4 | c''2.( | e''2.) |
+c''4 g'4 e'4 | g'4( f'4) d'4 | c'2. |
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+e'4 f'4 e'4 | c'2. | e'4 f'4 e'4 | c'2. |
+f'4 f'4 f'4 | f'2 f'4 | e'2 e'4 | e'2. |
+f'4 f'4 f'4 | a'4.( g'8) f'4 | e'4.( f'8) e'4 | c'2. |
+g'4 g'4 g'4 | g'2 g'4 | g'2.~ | g'2. |
+e'4 e'4 c'4 | e'4( d'4) b4 | c'2. |
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+c'4 c'4 c'4 | g2. | c'4 c'4 c'4 | g2. |
+b4 b4 b8( d'8) | d'2 d'4 | c'2 c'4 | c'2. |
+c'4 b4 c'4 | c'2 c'4 | c'2 c'4 | g2. |
+b4 b4 b4 | d'4( b4) d'4 | c'2.~ | c'2. |
+g4 g4 g4 | g2 f4 | e2. |
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+c4 c4 c4 | c2. | c4 c4 c4 | c2. |
+g4 g4 g4 | g2 g4 | c2 c4 | c2. |
+f4 f4 f4 | f2 f4 | c2 c4 | c2. |
+g4 g4 g4 | g2 g8( f8) | e2.( | c2.) |
+c4 c4 c4 | g,2 g,4 | c2. |
+"""
+
+[lyrics.1]
+text = "The wan -- der -- er no more will roam, The lost one to the fold hath come, The prod -- i -- gal is wel -- comed home, O Lamb of God, to Thee! O Lamb of God, to Thee!"
+
+[lyrics.2]
+text = "Tho’ clothed in rags, by sin de -- filed, The Fa -- ther did em -- brace His child; And I am par -- doned, rec -- on -- ciled, O Lamb of God, in Thee! O Lamb of God, in Thee!"
+
+[lyrics.3]
+text = "It is the Fa -- ther’s joy to bless, His love has found for me a dress, A robe of spot -- less right -- eous -- ness, O Lamb of God, in Thee! O Lamb of God, in Thee!"
+
+[lyrics.4]
+text = "And now my fam -- ished soul is fed, A feast of love for me is spread, I feed up -- on the chil -- dren’s bread, O Lamb of God, in Thee! O Lamb of God, in Thee!"
+
+[lyrics.5]
+text = "Yea, in the full -- ness of His grace, God put me in the chil -- dren’s place, Where I may gaze up -- on His face, O Lamb of God, in Thee! O Lamb of God, in Thee!"

@@ -1,0 +1,71 @@
+title = "Sweeter Than All"
+verse_count = 4
+key_signature = "E"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 96
+phrase_breaks = ["4:48", "8:48", "12:48"]
+copyrights = [
+  "Lyrics: Johnson Oatman Jr., 1900 (public domain)",
+  "Music: J. Howard Entwisle, 1900 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+e'4 e'8 gis'4 cis''8 | b'4 gis'8 e'4. | e'8 fis'8 gis'8 fis'4. | fis'8 gis'8 a'8 gis'4.
+| gis'4 a'8 b'4 e''8 | e''4 cis''8 b'4. | cis''8 a'8 cis''8 b'4. | b'8 a'8 fis'8 e'4.
+| fis'8@c gis'8 a'8 gis'4 fis'8 | gis'8 a'8 cis''8 b'4. | cis''8 dis''8 e''8 dis''4 cis''8 | b'4 gis'8 fis'4.
+| gis'4 gis'8 a'4 a'8 | b'4 b'8 cis''4. | e''8 dis''8 cis''8 b'4. | a'8 gis'8 fis'8 e'4. |
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+b4 b8 e'4 a'8 | gis'4 e'8 b4. | b8 dis'8 e'8 dis'4. | dis'8 e'8 fis'8 e'4.
+| e'4 fis'8 gis'4 gis'8 | a'4 a'8 gis'4. | a'8 e'8 e'8 e'4. | dis'8 dis'8 dis'8 b4.
+| dis'8@c e'8 fis'8 e'4 dis'8 | e'8 e'8 e'8 e'4. | e'8 e'8 e'8 e'4 e'8 | e'4 e'8 dis'4.
+| e'4 e'8 dis'4 dis'8 | e'4 e'8 e'4. | e'8 e'8 e'8 e'4. | dis'8 dis'8 b8 b4. |
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+gis4 gis8 b4 e'8 | e'4 b8 gis4. | b8 b8 b8 b4. | b8 b8 b8 b4.
+| b4 b8 e'4 b8 | cis'4 e'8 e'4. | e'8 cis'8 a8 gis4. | fis8 fis8 a8 gis4.
+| b8@c b8 b8 b4 b8 | b8 cis'8 a8 gis4. | a8 b8 cis'8 b4 a8 | gis4 b8 b4.
+| b4 b8 b4 b8 | b4 b8 a4. | cis'8 b8 a8 gis4. | fis8 gis8 a8 gis4. |
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+e4 e8 e4 e8 | e4 e8 e4. | gis8 fis8 e8 b,4. | b,8 b,8 b,8 e4.
+| e4 e8 e4 e8 | a4 a8 e4. | a,8 a,8 a,8 b,4. | b,8 b,8 b,8 e4.
+| b,8@c b,8 b,8 b,4 b,8 | e8 e8 e8 e4. | a8 a8 a8 a4 a8 | e4 e8 b,4.
+| e4 e8 fis4 fis8 | gis4 gis8 a4. | a,8 a,8 a,8 b,4. | b,8 b,8 b,8 e4. |
+"""
+
+[lyrics.1]
+text = "Christ will me His aid af -- ford, Nev -- er to fall, nev -- er to fall; While I find my pre -- cious Lord Sweet -- er than all, sweet -- er than all."
+
+[lyrics.2]
+text = "I can fol -- low all the way, Hear -- ing Him call, hear -- ing Him call; Find -- ing Him from day to day, Sweet -- er than all, sweet -- er than all."
+
+[lyrics.3]
+text = "Tho' a ves -- sel I may be, Bro -- ken and small, bro -- ken and small; Yet His bless -- ings fall on me, Sweet -- er than all, sweet -- er than all."
+
+[lyrics.4]
+text = "When I reach the crys -- tal sea, Voi -- ces will call, voi -- ces will call; But my Sav -- ior's voice will be Sweet -- er than all, sweet -- er than all."
+
+[lyrics.chorus]
+text = "Je -- sus is now and ev -- er will be, Sweet -- er than all the world to me, Since I heard His lov -- ing call, Sweet -- er than all, Sweet -- er than all."

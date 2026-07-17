@@ -1,0 +1,82 @@
+title = "Crossing the Bar"
+subtitle = ""
+copyrights = [
+  "Lyrics: Alfred, Lord Tennyson, 1889 (public domain)",
+  "Music: L. O. Sanderson, 1935, renewed 1963",
+  "This work is under copyright through 12/31/2030. Used by permission.",
+]
+key_signature = "Db"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 84
+verse_count = 2
+phrase_breaks = ["4:40", "8:40", "12:40"]
+optional_phrase_breaks = ["2:48", "6:48", "10:48", "14:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+aes'4 f'8 des'8 bes'4 bes'4 | aes'2. f'4 | ees'4 f'4 ges'4 aes'4 | f'2 r8 f'8 ges'8 aes'8 |
+bes'4 bes'4 c''4 bes'4 | bes'4. aes'8 aes'4 bes'4 | c''4. ees'8 f'4 g'4 | aes'2 r8 aes'8 aes'8 aes'8 |
+c''4 c''4 bes'8 aes'8 aes'8 ges'8 | f'2. aes'4 | ees''4. ees''8 bes'4 c''4 | des''2 r8 aes'8 aes'8 aes'8 |
+f''4 f''4 ees''4 ees''4 | des''4. c''8 bes'2 | r4 aes'4. aes'8 aes'4 | aes'2.\\rit aes'4 | aes'2.\\spanend r4 |
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+f'4 des'8 des'8 des'4 ges'4 | f'2. des'4 | c'4 des'4 ees'4 ees'4 | des'2 r8 des'8 c'8 des'8 |
+des'4 ges'4 aes'4 ges'4 | ges'4. f'8 f'4 fes'4 | ees'4. c'8 des'4 des'4 | c'2 r8 ges'8 ges'8 ges'8 |
+ges'4 ges'4 ges'8 f'8 f'8 ees'8 | f'2. aes'4 | ges'4. ges'8 ges'4 ges'4 | f'2 r8 f'8 f'8 f'8 |
+aes'4 aes'4 a'4 a'4 | bes'4. aes'8 ges'2 | r4 f'4. f'8 f'4 | ees'2( f'4) ges'4 | f'2. r4 |
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+des'4 aes8 f8 ges4 des'4 | des'2. aes4 | aes4 aes4 aes4 aes4 | aes2 r8 aes8 aes8 aes8 |
+ges4 des'4 des'4 des'4 | des'4. des'8 des'4 aes4 | aes4. aes8 g4 ees4 | ees2 r8 c'8 c'8 c'8 |
+ees'4 ees'4 c'8 des'8 des'8 aes8 | aes2. des'4 | c'4. c'8 ees'4 aes4 | aes2 r8 des'8 des'8 des'8 |
+des'4 des'4 c'4 c'4 | bes4. c'8 des'2 | r4 des'4. des'8 des'4 | c'2( des'4) ees'4 | des'2. r4 |
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+des4 des8 des8 ges4 ges4 | des2. des4 | aes,4 aes,4 aes,4 aes,4  | des2 r8 des8 ees8 f8 |
+ges4 ges4 ges4 ges4 | des4. des8 des4 des4 | ees4. ees8 ees4 ees4 | aes,2 r8 aes8 aes8 aes8 |
+aes4 aes4 aes8 aes8 aes,8 aes,8 | des2. f4 | aes4. aes8 aes,4 aes,4 | des2 r8 des8 des8 des8 |
+des4 des4 f4 f4 | ges4. ges8 ges2 | r4 aes4. aes8 aes4 | aes2. aes,4 | des2. r4 |
+"""
+
+[lyrics.1]
+text = """
+Sun -- set and eve -- ning star,
+And one clear call for me!
+And may there be no moan -- ing of the bar
+When I put out to sea.
+But such a tide as mov -- ing seems a -- sleep,
+Too full for sound and foam,
+When that which drew from out the bound -- less deep
+Turns a -- gain home, turns home.
+"""
+
+[lyrics.2]
+text = """
+Twi -- light and eve -- ning bell,
+And af -- ter that the dark!
+And may there be no sad -- ness of fare -- well
+When I, when I em -- bark;
+For, tho' from out our bourne of time and place
+The flood may bear me far,
+I hope to see my Pi -- lot face to face
+When I have crossed the bar.
+"""

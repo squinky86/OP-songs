@@ -1,0 +1,68 @@
+title = "In the Desert of Sorrow and Sin"
+copyrights = [
+  "Lyrics: Henry Robert Trickett, 1887 (public domain)",
+  "Music: Frederick Augustus Fillmore, 1887 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "C"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 107
+verse_count = 3
+optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
+phrase_breaks = ["5:48", "9:48", "13:48"]
+non_breaking_phrase_breaks = ["10:0", "10:16", "10:48", "11:16", "13:16", "14:0", "14:16", "14:48", "15:16"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. c'8 e'8 | g'4 g'8 g'8 a'8 a'8 g'4 | e'2. g'8 c''8 | b'4 b'8 b'8 b'4 a'8 b'8 | c''2. c'8 e'8 | g'4 g'8 g'8 a'8 a'8 g'4 | e'2. e'8 e'8 | d'4 g'8 a'8 b'4 b'8. a'16 | g'2. g'4@c | b'2. a'8 g'8 | c''2. g'8 g'8 | a'4 a'8 a'8 c''4 b'8 a'8 | g'2. g'8 c''8 | b'2. g'8 d''8 | c''2. g'8 g'8 | a'8[ b'8] c''8 d''8 e''8 e''4! d''8 | c''2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. c'8 c'8 | e'4 e'8 e'8 f'8 f'8 e'4 | c'2. e'8 e'8 | d'4 d'8 d'8 f'4 f'8 f'8 | e'2. c'8 c'8 | e'4 e'8 e'8 f'8 f'8 e'4 | c'2. c'8 c'8 | b4 d'8 d'8 g'4 g'8. fis'16 | g'2. r4@c | r4 f'4 f'4 f'8 f'8 | e'4 e'8 e'8 e'4 e'8 e'8 | f'4 f'8 f'8 f'4 f'8 f'8 | e'4 e'8 e'8 e'4 g'8 c''8 | r4 f'8 f'8 f'4 f'8 f'8 | e'4 e'8 e'8 e'4 e'8 e'8 | f'4 g'8 a'8 g'8 g'4! f'8 | e'2. s4
+"""
+
+[parts.Alto.lyrics.chorus]
+text = "I thirst, let me drink, let me drink Of the life -- giv -- ing stream let me drink; let me drink; ’Tis the ’Tis the rock, cleft for me, cleft for me ’Tis the wa -- ter, the wa -- ter of life."
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. e8 g8 | c'4 c'8 c'8 c'8 c'8 c'4 | g2. g8 g8 | g4 g8 g8 g4 g8 g8 | g2. e8 g8 | c'4 c'8 c'8 c'8 c'8 c'4 | g2. g8 g8 | g4 b8 c'8 d'4 d'8. c'16 | b2. r4@c | r4 d'4 d'4 c'8 b8 | c'4 g8 g8 g4 c'8 c'8 | c'4 c'8 c'8 a4 b8 c'8 | c'4 c'8 c'8 c'4 r4 | r4 d'8 d'8 d'4 b8 b8 | c'4 g8 g8 g4 c'8 c'8 | c'8[ d'8] c'8 c'8 c'8 c'4! b8 | c'2. s4
+"""
+
+[parts.Tenor.lyrics.chorus]
+text = "I thirst, let me drink, let me drink Of the life -- giv -- ing stream let me drink; let me drink; ’Tis the rock, cleft for me, cleft for me ’Tis the wa -- ter, the wa -- ter of life."
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. c8 c8 | c4 c8 c8 c8 c8 c4 | c2. c8 e8 | g4 g8 g8 g4 g8 g8 | c2. c8 c8 | c4 c8 c8 c8 c8 c4 | c2. c8 c8 | d4 d8 d8 d4 d8. d16 | <g, g>2. r4@c | r4 g4 g4 g8 g8 | c4 c8 c8 c4 c8 c8 | f4 f8 f8 f4 f8 f8 | c4 c8 c8 c4 r4 | r4 g8 g8 g4 g8 g8 | c4 c8 c8 c4 c8 c8 | f8[ d8] e8 f8 g8 g4! <g, g>8 | c2. s4
+"""
+
+[parts.Bass.lyrics.chorus]
+text = "I thirst, let me drink, let me drink Of the life -- giv -- ing stream let me drink; let me drink; ’Tis the rock, cleft for me, cleft for me ’Tis the wa -- ter, the wa -- ter of life."
+
+[lyrics.1]
+text = "In the de -- sert of sor -- row and sin, Lo! I faint as I jour -- ney a -- long; With the war -- fare with -- out and with -- in, See my strength and my hope near -- ly gone."
+
+[lyrics.2]
+text = "In my weak -- ness I turn to the fount, From the Rock that was smit -- ten for me; And I drink, and I joy -- ful -- ly count All my tri -- als a bless -- ing to be."
+
+[lyrics.3]
+text = "O Thou God of com -- pas -- sion, I pray, Let me ev -- er a -- bide in Thy sight; Let me drink of the fount day by day, Till I join Thee in man -- sions of light."
+
+[lyrics.chorus]
+text = "I thirst, let me drink, Of the life -- giv -- ing stream let me drink; ’Tis the Rock, cleft for me, ’Tis the wa -- ter, the wa -- ter of life."

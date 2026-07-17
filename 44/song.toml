@@ -1,0 +1,59 @@
+title = "Above the Bright Blue"
+subtitle = ""
+phrase_breaks = ["3:40", "5:40", "7:40", "9:40", "11:48", "13:48", "15:48"]
+copyrights = [
+  "Lyrics and Music: Charles Edward Pollock, 1903 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "A"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 85
+verse_count = 4
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s8 cis'16-( d'16-) | e'8. dis'16 e'8 cis''4 b'8 | b'8 a'4. r8 a'16-( a'16-) | a'8. gis'16 a'8 b'8 a'8 fis'8 | e'4.~ e'4 e'16-( e'16-) | e'8. a'16 a'8 a'8 b'8 cis''8 | d''8 d''4. r8 d''16-( d''16-) | cis''8. b'16 a'8 gis'8 a'8 b'8 | a'4.~ a'4 cis''8@c | cis''8. bis'16 cis''8 a'4 a'8 | b'8. a'16 fis'8 e'4. | a'8. a'16 a'8 a'8 gis'8 a'8 | b'8 b'8 cis''8 b'4. | cis''8. bis'16 cis''8 a'4 a'8 | b'8 a'8 fis'8 e'4. | fis'8 a'8 d''8 cis''16 cis''8. b'8 | a'4.~ a'4 s8
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s8 a16-( b16-) | cis'8. bis16 cis'8 e'4 d'8 | d'8 cis'4. r8 e'16-( e'16-) | fis'8. eis'16 fis'8 fis'8 fis'8 d'8 | cis'4.~ cis'4 cis'16-( cis'16-) | cis'8. cis'16 cis'8 e'8 e'8 g'8 | fis'8 fis'4. r8 fis'16-( fis'16-) | e'8. d'16 cis'8 d'8 cis'8 d'8 | cis'4.~ cis'4 e'8@c | e'8. dis'16 e'8 cis'4 e'8 | d'8. d'16 d'8 cis'4. | cis'8. cis'16 cis'8 cis'8 cis'8 cis'8 | dis'8 d'8 d'8 e'4. | e'8. dis'16 e'8 cis'4 e'8 | fis'8 fis'8 d'8 cis'4. | d'8 fis'8 fis'8 e'16 e'8. d'8 | cis'4.~ cis'4 s8
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 s8 e16-( e16-) | a8. a16 a8 a4 gis8 | a8 e4. r8 a16-( a16-) | a8. a16 a8 d'8 d'8 a8 | a4.~ a4 a16-( a16-) | a8. e16 e8 a8 gis8 a8 | a8 a4. r8 a16-( a16-) | a8. a16 a8 b8 a8 gis8 | a4.~ a4 a8@c | a8. a16 a8 e4 e8 | fis8. fis16 a8 a4. | a8. a16 a8 a8 b8 a8 | fis8 fis8 a8 gis4. | a8. a16 a8 e4 a8 | a8 a8 a8 a4. | a8 a8 a8 a16 a8. gis8 | a4.~ a4 s8
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 s8 a,16-( a,16-) | a,8. a,16 a,8 e4 e8 | a,8 a,4. r8 cis16-( cis16-) | d8. d16 d8 d8 d8 d8 | a,4.~ a,4 a,16-( a,16-) | a,8. a,16 a,8 cis8 e8 a8 | d8 d4. r8 d16-( d16-) | e8. e16 e8 e8 e8 e8 | <a, e>4.~ <a, e>4 a,8@c | a,8. a,16 a,8 a,4 cis8 | d8. d16 d8 a,4. | fis8. fis16 fis8 fis8 fis8 fis8 | b,8 b,8 b,8 e4. | a,8. a,16 a,8 a,4 cis8 | d8 d8 d8 a,4. | d8 d8 d8 e16 e8. e8 | a,4.~ a,4 s8
+"""
+
+[lyrics.1]
+text = "There's a beau -- ti -- ful place called Hea -- ven, It is hid -- den a -- bove the bright blue; Where the good, who from earth ties are riv -- en, Live and love an e -- ter -- ni -- ty through."
+
+[lyrics.2]
+text = "This _ land of sweet rest a -- waits us; Some _ day it will break on our view; 'Tis _ prom -- ised by Christ the Re -- deem -- er, To His fol -- low -- ers faith -- ful and true."
+
+[lyrics.3]
+text = "When He left His be -- loved dis -- ci -- ples, He _ said, as He bade them a -- dieu, \"I _ go to pre -- pare you a man -- sion, And _ soon I'll be send -- ing for you.\""
+
+[lyrics.4]
+text = "We _ know not when He shall call us, Whe -- ther soon, the glad sum -- mons shall be; But we know, when we pass o'er the ri -- ver, The _ glo -- ry of Je -- sus we'll see."
+
+[lyrics.chorus]
+text = "A -- bove the bright blue, the beau -- ti -- ful blue, Je -- sus is wait -- ing for me and for you; Hea -- ven is there, not far from our sight, Beau -- ti -- ful ci -- ty of light."

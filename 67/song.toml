@@ -1,0 +1,63 @@
+title = "Beautiful Isle of Somewhere"
+copyrights = [
+  "Lyrics: Jessie Brown Pounds, 1897 (Public Domain)",
+  "Music: J. S. Fearis, 1897 (Public Domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "A"
+time_sig_numerator = 6
+time_sig_denominator = 8
+verse_count = 3
+tempo_bpm = 96
+phrase_breaks = ["4:48", "8:48", "12:48"]
+non_breaking_phrase_breaks = ["10:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+cis''8 b'8 a'8 e'4 a'8 | a'4. gis'4. | d''8 cis''8 b'8 fis'4 gis'8 | fis'4.( e'4.) | cis''8 b'8 a'8 e'4 a'8 | gis'4. b'4. | b'8 cis''8 b'8 a'8[ gis'8] fis'8 | e'2. | b'4.@c e'4. | a'4. e'4. | a'8 a'8 a'8 a'8[ gis'8] a'8 | b'4( cis''8) d''4.! | cis''8 d''8 cis''8 b'4 b'16 b'16 | e''4 a'8 d''4.! | cis''8 b'8 a'8 e'8[ a'8] cis''8 | b'4. a'4.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+e'8 d'8 cis'8 cis'4 cis'8 | d'4. d'4. | e'8 e'8 e'8 d'4 d'8 | cis'4.~ cis'4. | e'8 d'8 cis'8 cis'4 e'8 | e'4. e'4. | dis'8 dis'8 dis'8 dis'4 dis'8 | e'2. | d'4.@c d'4. | cis'4. cis'4. | cis'8 cis'8 cis'8 dis'4 dis'8 | e'4. e'4.! | e'8 fis'8 e'8 e'4 e'16 e'16 | e'4 g'8 fis'4.! | e'8 e'8 e'8 cis'4 e'8 | d'4. cis'4.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+a8 fis8 e8 a4 e8 | e4. e4. | b8 a8 gis8 b4 b8 | a4.~ a4. | a8 fis8 e8 a4 cis'8 | b4. gis4. | fis8 fis8 fis8 b4 a8 | gis2. | gis4@c gis8 gis8 a8 b8 | a8 a8 a8 a4. | a8 a8 a8 b4 b8 | gis4( a8) b4.! | a8 a8 a8 gis4 gis16 gis16 | a4 a8 a4.! | a8 d'8 cis'8 a4 a8 | gis4. a4.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+a,8 a,8 a,8 a,4 a,8 | b,4. b,4. | e8 e8 e8 e4 e8 | a,4.~ a,4. | a,8 a,8 a,8 a,4 a,8 | b,4. b,4. | b,8 b,8 b,8 b,4 b,8 | e2. | e4@c e8 e8 fis8 g8 | a8 e8 cis8 a,4. | fis8 fis8 fis8 b,4 b,8 | e4. e4.! | a8 a8 a8 e4 d16 d16 | cis4 cis8 d4.! | e8 e8 e8 e4 e8 | e4. a,4.
+"""
+
+[lyrics.1]
+text = "Some -- where the sun is shin -- ing, Some -- where the song -- birds dwell; Hush, then, thy sad re -- pin -- ing, God lives, and all is well."
+
+[lyrics.2]
+text = "Some -- where the day is long -- er, Some -- where the task is done; Some -- where the heart is strong -- er, Some -- where the guer -- don won."
+
+[lyrics.3]
+text = "Some -- where the load is lift -- ed, Close by an o -- pen gate; Some -- where the clouds are rift -- ed, Some -- where the an -- gels wait."
+
+[lyrics.chorus]
+text = "Some -- where, some -- where, Beau -- ti -- ful Isle of some -- where; Land of the true, where we live a -- new, Beau -- ti -- ful Isle of some -- where."
+
+[parts.Tenor.lyrics.chorus]
+text = "Some -- where, beau -- ti -- ful, beau -- ti -- ful Isle, Beau -- ti -- ful Isle of some -- where; Land of the true, where we live a -- new, Beau -- ti -- ful Isle of some -- where."
+
+[parts.Bass.lyrics.chorus]
+text = "Some -- where, beau -- ti -- ful, beau -- ti -- ful Isle, Beau -- ti -- ful Isle of some -- where; Land of the true, where we live a -- new, Beau -- ti -- ful Isle of some -- where."

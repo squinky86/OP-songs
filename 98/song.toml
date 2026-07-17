@@ -1,0 +1,65 @@
+title = "Exhortation"
+copyrights = [
+  "Lyrics: Vana R. Raye, 1971",
+  "Music: L. O. Sanderson, 1971",
+  "This work is under copyright through 12/31/2066. Used by permission.",
+]
+key_signature = "F"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 3
+phrase_breaks = ["4:64", "8:64", "12:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+a'2 g'4 f'4 | e'8 f'8 g'2. | e'2 f'4 g'4 | a'2. r4
+| a'2 g'4 f'4 | g'8 a'8 bes'2. | g'2 a'4 bes'4 | c''2. r4
+| c''2 c''4. d''8 | c''4 bes'4 bes'2 | bes'2 bes'4 bes'4 | a'2. r4
+| d''2 d''4 d''4 | d''8 c''8 c''2 bes'4 | a'2 a'4. g'8 | f'1
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+f'2 c'4 c'4 | c'8 c'8 e'2. | c'2 c'4 e'4 | f'2. r4
+| f'2 f'4 c'4 | e'8 f'8 e'2. | e'2 f'4 e'4 | f'2. r4
+| ees'2 ees'4. ees'8 | d'4 d'4 d'2 | f'2 f'4 f'4 | f'2. r4
+| f'2 f'4 f'4 | f'8 f'8 f'2 g'4 | f'2 e'4. e'8 | c'1
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+c'2 bes4 a4 | g8 a8 bes2. | g2 a4 c'4 | c'2. r4
+| c'2 bes4 a4 | c'8 c'8 c'2. | c'2 c'4 bes4 | a2. r4
+| a2 a4. f8 | f4 f4 f2 | d'2 des'4 des'4 | c'2. r4
+| bes2 gis4 gis4 | a8 a8 a2 d'4 | c'2 c'4. bes8 | a1
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+f2 f4 f4 | c8 c8 c2. | c2 c4 c4 | f2. r4
+| f2 f4 f4 | bes8 a8 g2. | c2 c4 c4 | f2. r4
+| f2 f4. a,8 | bes,4 bes,4 bes,2 | bes,2 bes,4 bes,4 | f2. r4
+| bes,2 b,4 b,4 | c8 c8 f2 bes,4 | c2 c4. c8 | <f, f>1
+"""
+
+[lyrics.1]
+text = "Look to the might -- y One, Fa -- ther of all; Trust in His on -- ly Son, an -- swer His call! Cling to the gra -- cious One, great is the gain; Look to the faith -- ful One, for He will sus -- tain."
+
+[lyrics.2]
+text = "Walk with the liv -- ing One, much He will give; Hold to the lov -- ing One, lov -- ing to live! Pray thru the rul -- ing One, you will be heard; Hope in the kind -- ly One, He fails not His word."
+
+[lyrics.3]
+text = "Think of the dy -- ing One, hon -- or -- ing Him; Joy in the ris -- en sun, death could not dim! Yield to the reign -- ing One, live in His peace; Long for the com -- ing One, for per -- fect re -- lease."

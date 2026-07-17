@@ -1,0 +1,63 @@
+title = "On the Rock of Ages"
+subtitle = ""
+copyrights = [
+  "Lyrics: Austin Taylor, 1910 (public domain)",
+  "Music: Frank Grammer, 1910 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license"
+]
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 4
+phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "11:48", "13:48", "14:48", "15:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s4 ees'8. ees'16 | aes'8. aes'16 bes'8. bes'16 c''4 des''4 | ees''2 c''4 ees'8. ees'16 | aes'8. aes'16 aes'8. aes'16 bes'4 g'4 | aes'2. ees'8. ees'16 | aes'8. aes'16 bes'8. bes'16 c''4 des''4 | ees''2 c''4 ees'8. ees'16 | aes'8. aes'16 aes'8. aes'16 bes'4 g'4 | aes'2. aes'8.@c c''16 | ees''2 c''2 | bes'8. aes'16 g'8. f'16 ees'4 ees'8. ees'16 | aes'8. aes'16 bes'8. bes'16 c''4 des''4 | c''2 bes'4 c''8. des''16 | c''8. bes'16 aes'8. c''16 ees''4 aes'8. aes'16 | bes'8. aes'16 g'8. f'16 ees'4 ees'8. ees'16 | aes'8. aes'16 bes'8. bes'16 c''4 aes'4 | bes'2 aes'4 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s4 c'8. c'16 | c'8. c'16 des'8. des'16 ees'4 ees'4 | aes'2 ees'4 c'8. c'16 | ees'8. ees'16 ees'8. ees'16 des'4 des'4 | c'2. c'8. c'16 | c'8. c'16 des'8. des'16 ees'4 ees'4 | aes'2 ees'4 c'8. c'16 | ees'8. ees'16 ees'8. ees'16 des'4 des'4 | c'2. c'8.@c ees'16 | aes'4 aes'4 ees'4 ees'4 | f'8. f'16 ees'8. des'16 c'4 c'8. c'16 | ees'8. ees'16 ees'8. ees'16 ees'4 ees'4 | ees'2 ees'4 ees'8. f'16 | ees'8. des'16 c'8. ees'16 aes'4 ees'8. ees'16 | f'8. f'16 ees'8. des'16 c'4 c'8. c'16 | ees'8. ees'16 f'8. f'16 ees'4 ees'4 | ees'2 ees'4 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 s4 aes8. aes16 | ees8. ees16 ees8. ees16 aes4 bes4 | c'2 aes4 aes8. aes16 | c'8. c'16 aes8. aes16 g4 bes4 | aes2. aes8. aes16 | ees8. ees16 ees8. ees16 aes4 bes4 | c'2 aes4 aes8. aes16 | c'8. c'16 aes8. aes16 g4 bes4 | aes2. aes8.@c aes16 | c'4 c'4 aes4 aes4 | aes8. aes16 aes8. aes16 aes4 aes8. aes16 | aes8. aes16 g8. g16 aes4 bes4 | aes2 g4 aes8. aes16 | aes8. aes16 aes8. aes16 c'4 aes8. aes16 | aes8. aes16 aes8. aes16 aes4 aes8. aes16 | aes8. aes16 aes8. aes16 aes4 c'4 | des'2 c'4 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 s4 aes,8. aes,16 | aes,8. aes,16 aes,8. aes,16 aes,4 aes,4 | aes,2 aes,4 aes,8. aes,16 | aes,8. aes,16 c8. c16 ees4 ees4 | aes,2. aes,8. aes,16 | aes,8. aes,16 aes,8. aes,16 aes,4 aes,4 | aes,2 aes,4 aes,8. aes,16 | aes,8. aes,16 c8. c16 ees4 ees4 | aes,2. aes8.@c aes16 | aes4 aes4 aes,4 aes,4 | des8. des16 des8. des16 aes,4 aes,8. aes,16 | c8. c16 ees8. ees16 aes4 g4 | aes2 ees4 aes8. aes16 | aes8. aes16 aes8. aes16 aes4 c8. c16 | des8. des16 des8. f16 aes4 aes,8. aes,16 | c8. c16 des8. des16 ees4 ees4 | ees2 aes,4 s4
+"""
+
+[lyrics.1]
+text = "Are you build -- ing on the Rock of Ag -- es? Are you build -- ing on the sink -- ing sand? Are you build -- ing on a sure foun -- da -- tion? Will your house the rains and tem -- pests stand?"
+
+[lyrics.2]
+text = "Are you build -- ing for the life e -- ter -- nal? Are you firm -- ly set on Christ, the Rock? Is your hope on sol -- id ground a -- bid -- ing? Can you stand the aw -- ful judg -- ment shock?"
+
+[lyrics.3]
+text = "Are you build -- ing on the Rock of Ag -- es? Are you build -- ing for e -- ter -- ni -- ty? Are you go -- ing to the home su -- per -- nal? With the an -- gels then to ev -- er be?"
+
+[lyrics.4]
+text = "Are you build -- ing for a home in Hea -- ven? Are you care -- ful how you lay each stone? Is your hope and faith in God un -- chang -- ing? Have you built your house on Christ a -- lone?"
+
+[lyrics.chorus]
+text = "Are you build -- ing, build -- ing, build -- ing on the Rock? Are you build -- ing on the Rock of Ag -- es? When you an -- swer judg -- ment's call, Will your build -- ing stand or fall? Are you build -- ing on the Rock of Ag -- es?"
+
+[parts.Soprano.lyrics.chorus]
+text = "Are you build -- ing, build -- ing on the Rock? Are you build -- ing on the Rock of Ag -- es? When you an -- swer judg -- ment's call, Will your build -- ing stand or fall? Are you build -- ing on the Rock of Ag -- es?"

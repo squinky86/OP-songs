@@ -1,0 +1,43 @@
+title = "The Humble Suit of a Sinner"
+subtitle = "O Lord on whom I do depend"
+copyrights = [
+  "Lyrics: John Marckant, 1562 (public domain)",
+  "Music: John Farmer, 1592 (public domain)",
+  "Adaptation: Jon Hood, 2026 and released to the public domain under the CC-0",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license"
+]
+key_signature = "F"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 90
+verse_count = 7
+phrase_breaks = ["5:64", "10:32", "14:64"]
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "treble_8"
+staff_number = 1
+notes = """
+d'2 a'2 | g'4 f'4 d'4 f'4 | e'4 d'2. | d'4 g'2 c'4 | e'4 d'4 c'2 | c'2 f'4 e'4 | f'4 g'4 a'4 bes'4 | a'2 d'2 | g'4 f'4 e'4 e'4 | d'2 d'2 | d'4 c'4 f'4 d'4 | e'4 e'4 d'2 | a'2 g'4 f'4 | g'4 g'4 f'2 | f'2 bes'4 bes'4 | a'4 d'4 g'4 f'4 | e'2 c'2 | d'4 f'4 e'4 e'4 | d'1
+"""
+
+[lyrics.1]
+text = "O Lord on whom I do de -- pend, be -- hold my care- -- full heart: And when thy will and plea -- sure is, re -- lease me of my smart. Thou seest my sor -- rows what they are, my grief is known to thee: And there is none that can re -- move, or take the same from me."
+
+[lyrics.2]
+text = "But on -- ly thou whose aid I crave whose mer -- cy still is prest, To ease all those that come to thee, for suc -- cor and for rest. And since thou seest my rest -- less eyes, my tears and grie -- vous groan At -- tend un -- to my suit O Lord, mark well my plaint and moan."
+
+[lyrics.3]
+text = "For sin hath so en -- clo -- sed me, and com -- past me a -- bout: That I am now re -- me -- di -- less, if mer -- cy help not out. For mor -- tal man can -- not re -- lease, or mi -- ti -- gate this pain: But e'en thy Christ, my Lord and God, who for my sins was slain."
+
+[lyrics.4]
+text = "Whose bloo -- dy wounds are yet to see, though not with mor -- tal eye, Yet do thy Saints be -- hold them all, and so I trust shall I. Though sin doth hin -- der me a while, when thou shalt see it good, I shall en -- joy the sight of him, and see his wounds and blood."
+
+[lyrics.5]
+text = "And as thine An -- gels and thy Saints do now be -- hold the same, So trust I to pos -- sess that place, with them to praise thy Name, But whilst I live here in this vale, where sin -- ners do fre -- quent As -- sist me ev -- er with thy grace, my sins still to la -- ment."
+
+[lyrics.6]
+text = "Lest that I tread the sin -- ners trace, and give them my con -- sent, To dwell with them in wi -- cked -- ness, where -- to na -- ture is bent. On -- ly thy grace must be my stay, lest that I fall down flat And be -- ing down, then of my self can -- not re -- co -- ver that."
+
+[lyrics.7]
+text = "Where -- fore this is yet once a -- gain my suit and my re -- quest To grant me par -- don for my sin, that I in thee may rest. Then shall my heart and tongue al -- so be in -- stru -- ments of praise: And in thy Church and house of Saints sing Psalms to thee al -- ways."

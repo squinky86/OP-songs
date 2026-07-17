@@ -1,0 +1,69 @@
+title = "At the Lamb's High Feast We Sing"
+subtitle = ""
+copyrights = [
+  "Lyrics: from 7th century Latin, translated by Robert Campbell, 1849 (public domain)",
+  "Music: 'Salzburg' by Jacob Hintze, 1678, harmonized by J.S. Bach (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "D"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 110
+verse_count = 4
+phrase_breaks = ["2:64", "4:64", "6:64", "8:64", "10:64", "12:64", "14:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+a'4 d''4 a'4 b'4 | a'4. g'8/-24 fis'2 | a'4 a'4 g'4 fis'4 | e'4 e'4 d'2 |
+a'4 d''4 a'4 b'4 | a'4. g'8/-24 fis'2 | a'4 a'4 g'4 fis'4 | e'4 e'4 d'2 |
+e'4 e'4 fis'8[ gis'8] a'4 | a'4 gis'4 a'2 | b'4. cis''8/-24 d''4 d''4 | cis''4 cis''4 b'2 |
+fis'4 fis'4 b'4 a'4 | a'4 gis'4 a'2 | b'4 a'4 g'4 fis'4 | e'4 e'4 d'2 |
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+d'4 d'4 d'4 d'4 | d'4 cis'4 d'2 | d'4 d'8[ cis'8] b8[ cis'8] d'4 | d'4 cis'4 d'2 |
+d'4 d'4 d'4 d'4 | d'4 cis'4 d'2 | d'4 d'8[ cis'8] b8[ cis'8] d'4 | d'4 cis'4 d'2 |
+cis'4 cis'4 d'4 cis'4 | fis'4 e'8[ d'8] cis'2 | e'8[ fis'8] g'4 fis'4 fis'4 | fis'4 fis'8[ e'8] d'2 |
+d'4 d'4 d'4 cis'4 | d'4 d'4 cis'2 | d'4 d'8[ cis'8] b8[ cis'8] d'4 | d'4 cis'4 d'2 |
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+fis4 fis8[ g8] a4 g8[ fis8] | e8[ d8] e4 d2 | fis4 fis4 g4 a4 | b4 a4 fis2 |
+fis4 fis8[ g8] a4 g8[ fis8] | e8[ d8] e4 d2 | fis4 fis4 g4 a4 | b4 a4 fis2 |
+a4 a4 a4 a4 | b4 b4 a2 | g4. a8/-24 b4 b4 | b4 ais4 b2 |
+a4 a4 g8[ fis8] e4 | d8[ fis8] e8[ d8] e2 | g4 fis4 g4 a4 | b4 a8[ g8] fis2 |
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+d4 b,4 fis,4 g,4 | a,4 a,4 d2 | d4 d4 e4 fis4 | g8[ e8] a4 d2 |
+d4 b,4 fis,4 g,4 | a,4 a,4 d2 | d4 d4 e4 fis4 | g8[ e8] a4 d2 |
+a,4 a,4 d4 fis8[ e8] | d4 e4 a,2 | e4 e4 b,8[ cis8] d8[ e8] | fis4 fis4 b,2 |
+d4 d4 g,4 a,4 | b,4 b,4 a,2 | g,4 d4 e4 fis4 | g8[ e8] a4 d2 |
+"""
+
+[lyrics.1]
+text = "At the Lamb’s high feast we sing Praise to our vic -- to -- rious King, Who hath washed us in the tide Flow -- ing from His pierc -- èd side; Praise we Him, whose love di -- vine, Gives His sa -- cred Blood for wine, Gives His Bod -- y for the feast, Christ the Vic -- tim, Christ the Priest."
+
+[lyrics.2]
+text = "Where the Pas -- chal blood is poured, Death’s dark an -- gel sheaths his sword Is -- rael’s hosts tri -- umph -- ant go Through the wave that drowns the foe. Praise we Christ, Whose Blood was shed, Pas -- chal Vic -- tim, Pas -- chal Bread; With sin -- cer -- i -- ty and love Eat we man -- na from a -- bove."
+
+[lyrics.3]
+text = "Might -- y Vic -- tim from on high! Pow’rs of hell be -- neath Thee lie; Death is bro -- ken in the fight, Thou hast brought us life and light: Now Thy ban -- ner Thou dost wave, Con -- quering Sa -- tan and the grave. See the prince of dark -- ness quell’d; Heav’n’s bright gates are o -- pen held."
+
+[lyrics.4]
+text = "Pas -- chal tri -- umph, Pas -- chal joy, Sin a -- lone can this de -- stroy; From sin’s death do Thou set free Souls re -- born, dear Lord, in Thee. Hymns of glo -- ry, songs of praise, Fa -- ther, un -- to Thee we raise; Ris -- en Lord, all praise to Thee, With the Spir -- it, ev -- er be."

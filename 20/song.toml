@@ -1,0 +1,75 @@
+title = "A Lamb Goes Uncomplaining Forth"
+copyrights = [
+  "Lyrics: Paul Gerhardt, 1648 (public domain)",
+  "Music: 'An Wasserflüssen Babylon' Wolfgang Dachstein, 1525 (public domain)",
+  "Obtained from the [Open Hymnal Project](http://openhymnal.org/), 2008 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 120
+verse_count = 10
+phrase_breaks = ["3:64", "6:64", "9:64", "12:64", "15:64", "19:32", "21:64", "25:64", "29:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+c''2 d''4 c''4 | a'2 c''2 | bes'4 bes'4 a'2 | g'2 a'4 bes'4 | c''2 bes'4( a'4) | g'2 f'2 | c''2 d''4 c''4 | a'2 c''2 | bes'4 bes'4 a'2 | g'2 a'4 bes'4 | c''2 bes'4( a'4) | g'2 f'2 | f'2 g'4 a'4 | bes'2 g'2 | a'4 g'4 f'2 | f'2 a'4 bes'4 | c''2 d''2 | a'4 b'4 c''2 | r2 a'2 | c''4 d''4 c''4 a'4 | bes'2 a'2 | d''2 d''4 d''4 | g'2 c''2 | bes'2 a'2 | g'1 | bes'2 a'4 g'4 | f'2 g'2 | e'4( f'4) d'2 | c'2 c'2 | f'4 g'4 a'4 bes'4 | c''4.( bes'8 a'4 bes'4 | g'2) f'2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+f'2 f'4 e'4 | f'2 f'2 | f'4 e'4 f'2 | e'2 f'4 f'4 | f'2 f'2 | f'4( e'4) f'2 | f'2 f'4 e'4 | f'2 f'2 | f'4 e'4 f'2 | e'2 f'4 f'4 | f'2 f'2 | f'4( e'4) f'2 | c'2 e'4 f'4 | f'2 e'2 | f'4 e'4 c'2 | d'2 f'4 f'4 | e'2 f'2 | f'4 f'4 e'2 | r2 f'2 | f'4 f'4 e'4 d'4 | d'2 d'2 | f'2 f'4 f'4 | ees'2 g'2 | g'2 g'4( fis'4) | d'1 | d'2 f'4 e'4 | d'2 d'2 | c'2. b4/-48 | c'2 c'2 | d'4 e'4 f'4 f'4 | e'2( f'2~ | f'4 e'4) f'2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+a2 bes4 g4 | f2 c'2 | d'4 bes4 c'2 | c'2 c'4 d'4 | c'2 d'4( c'4) | c'2 a2 | a2 bes4 g4 | f2 c'2 | d'4 bes4 c'2 | c'2 c'4 d'4 | c'2 d'4( c'4) | c'2 a2 | a2 c'4 c'4 | d'2 c'2 | c'4 c'4 a2 | bes2 c'4 f4 | g2 bes2 | a4 f4 g2 | r2 f2 | f4 bes4 g4 f4 | g2 fis2 | f2 bes4 bes4 | bes2 ees'2 | d'2 d'2 | bes1 | g2 c'4 c'4 | a2 bes2 | a2 g2 | e2 a2 | a4 c'4 c'4 d'4 | g4( c'2 d'4 | c'2) a2
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+f2 bes,4 c4 | d2 a,2 | bes,4 g,4 f,2 | c2 f4 d4 | a,2 bes,4( f4) | c2 f,2 | f2 bes,4 c4 | d2 a,2 | bes,4 g,4 f,2 | c2 f4 d4 | a,2 bes,4( f4) | c2 f,2 | f2 c4 f4 | bes,2 c2 | f4 c4 f,2 | bes,2 f4 d4 | c2 bes,2 | d4 d4 c2 | r2 d2 | a,4 bes,4 c4 d4 | g,2 d2 | bes,2 d4 bes,4 | ees2 c2 | g,2 d2 | g,1 | g,2 a,4 c4 | d2 g,2 | a,4( f,4) g,2 | c2 f2 | d4 c4 f4 d4 | c2( f4 bes,4 | c2) f,2
+"""
+
+[lyrics.1]
+text = "A Lamb goes un -- com -- plain -- ing forth, The guilt of all men bear -- ing; And la -- den with the sins of earth, None else the bur -- den shar -- ing! Goes pa -- tient on, grow weak and faint, To slaugh -- ter led with -- out com -- plaint, That spot -- less life to o -- ffer; Bears shame and stripes, and wounds and death, An -- guish and mock -- er -- y, and saith, \"Will -- ing all this I suf -- fer.\""
+
+[lyrics.2]
+text = "This Lamb is Christ, the soul's great Friend, The Lamb of God, our Sa -- vior; Him God the Fa -- ther chose to send To gain for us His fa -- vor. \"Go forth, My Son,\" the Fa -- ther saith, \"And free men from the fear of death, From guilt and con -- dem -- na -- tion. The wrath and stripes are hard to bear, But by Thy Pa -- ssion men shall share The fruit of Thy sal -- va -- tion.\""
+
+[lyrics.3]
+text = "\"Yea, Fa -- ther, yea, most will -- ing -- ly I'll bear what Thou com -- man -- dest; My will con -- forms to Thy de -- cree, I do what Thou de -- man -- dest.\" O won -- drous Love, what hast Thou done! The Fa -- ther o -- ffers up His Son! The Son, con -- tent, de -- scend -- eth! O Love, how strong Thou art to save! Thou bed -- dest Him with -- in the grave Whose word the moun -- tains ren -- deth."
+
+[lyrics.4]
+text = "Thou lay'st Him, Love, u -- pon the cross, With nails and spear Him bruis -- ing; Thou slay'st Him as a lamb, His loss from soul and bod -- y ooz -- ing; From bo -- dy 'tis the crim -- son flood Of pre -- cious sac -- ri -- fi -- cial blood From soul, the strength of an -- guish: My gain it is; sweet Lamb to Thee What can I give, whose love to me For me doth make Thee lan -- guish?"
+
+[lyrics.5]
+text = "Lord, all my life I'll cleave to Thee, Thy love for -- e'er be -- hold -- ing, Thee ev -- er, as Thou ev -- er me, With lo -- ving arms en -- fold -- ing. Yea, Thou shalt be my Bea -- con -- light, To guide me safe through death's dark night. And cheer my heart in sor -- row; Hence -- forth my -- self and all that's mine To Thee, my Sa -- vior, I con -- sign, From whom all things I bor -- row."
+
+[lyrics.6]
+text = "From morn till eve my theme shall be Thy mer -- cy's won -- drous mea -- sure; To sac -- ri -- fice my -- self for Thee Shall be my aim and plea -- sure. My stream of life shall ev -- er be A cur -- rent flow -- ing cease -- less -- ly, Thy con -- stant praise out -- pour -- ing. I'll trea -- sure in my me -- mo -- ry, O Lord, all Thou hast done for me, Thy gra -- cious love a -- dor -- ing."
+
+[lyrics.7]
+text = "En -- large, my heart's own shrine, and swell, To thee shall now be gi -- ven A trea -- sure that doth far ex -- cel The worth of earth and hea -- ven. A -- way with the A -- ra -- bian gold, With trea -- sures of an earth -- ly mold! I've found a bet -- ter jew -- el. My price -- less trea -- sure, Lord my God, Is Thy most ho -- ly, pre -- cious blood, Which flowed from wounds so cru -- el."
+
+[lyrics.8]
+text = "This trea -- sure ev -- er I'll em -- ploy, This ev -- ery aid shall yield me; In sor -- row it shall be my joy, In con -- flict it shall shield me; In joy, the mu -- sic of my feast, And when all else has lost its zest, This man -- na still shall feed me; In thirst my drink; in want my food; My com -- pa -- ny in so -- li -- tude, To com -- fort and to lead me."
+
+[lyrics.9]
+text = "Of death I am no more a -- fraid, New life from Thee is flow -- ing; Thy cross af -- fords me cool -- ing shade When noon -- day's sun is glow -- ing. When by my grief I am op -- pressed, On Thee my wea -- ry soul shall rest Se -- rene -- ly as on pil -- lows. Thou art my An -- chor when by woe My bark is dri -- ven to and fro On trou -- ble's sur -- ging bil -- lows."
+
+[lyrics.10]
+text = "And when Thy glo -- ry I shall see And taste Thy king -- dom's plea -- sure, Thy blood my roy -- al robe shall be, My joy be -- yond all mea -- sure. When I ap -- pear be -- fore Thy throne, Thy righ -- teous -- ness shall be my crown- With these I need not hide me. And there, in gar -- ments rich -- ly wrought As Thine own bride, I shall be brought To stand in joy be -- side Thee."

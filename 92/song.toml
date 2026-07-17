@@ -1,0 +1,129 @@
+title = "Jesus of Nazareth Passeth By"
+subtitle = ""
+copyrights = [
+    "Lyrics: Emma Campbell, 1863 (public domain)",
+    "Music: Theodore E. Perkins, 1868 (public domain)",
+    "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license"
+]
+key_signature = "G"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 86
+verse_count = 4
+phrase_breaks = [
+    "3:40",
+    "5:40",
+    "7:40",
+    "9:40",
+    "11:48",
+    "13:40",
+    "15:48"
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s4 s4 s8 d'8 |
+d'4 g'8 g'4 a'8 |
+b'4 c''8 d''4 e''8 |
+d''4 b'8 g'8.[ fis'16] g'8 |
+a'4 b'8 a'4 d'8 |
+d'4 g'8 g'4 a'8 |
+b'4 c''8 d''4 e''8 |
+d''4 b'8 g'8.[ fis'16] g'8 |
+b'4 a'8 g'4 b'8 |
+a'4 b'8 c''4 a'8 |
+b'4 c''8 d''4. |
+g'8. g'16 g'8 g'8. fis'16 g'8 |
+a'4 b'8 a'4 d'8 |
+d'4 g'8 g'4 a'8 |
+b'4 c''8 d''4. |
+d''8. e''16 d''8 d''8 b'8 g'8 |
+b'4 a'8 g'4 s8
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s4 s4 s8 d'8 |
+d'4 d'8 d'4 fis'8 |
+g'4 g'8 g'4 g'8 |
+g'4 g'8 d'4 d'8 |
+fis'4 g'8 fis'4 d'8 |
+d'4 d'8 d'4 fis'8 |
+g'4 g'8 g'4 g'8 |
+g'4 g'8 d'4 d'8 |
+g'4 fis'8 g'4 g'8 |
+fis'4 g'8 a'4 fis'8 |
+g'4 g'8 g'4. |
+d'8. d'16 d'8 d'8. d'16 g'8 |
+fis'4 g'8 fis'4 d'8 |
+d'4 d'8 d'4 fis'8 |
+g'4 g'8 g'4. |
+g'8. g'16 g'8 g'8 g'8 g'8 |
+g'4 fis'8 g'4 s8
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s4 s4 s8 b8 |
+b4 b8 b4 d'8 |
+d'4 a8 b4 c'8 |
+b4 d'8 d'8.[ c'16] b8 |
+d'4 d'8 d'4 c'8 |
+b4 b8 b4 d'8 |
+d'4 a8 b4 c'8 |
+b4 d'8 d'8.[ c'16] b8 |
+d'4 c'8 b4 d'8 |
+d'4 d'8 d'4 d'8 |
+d'4 a8 b4. |
+b8. b16 b8 d'8. c'16 b8 |
+d'4 d'8 d'4 c'8 |
+b4 b8 b4 d'8 |
+d'4 a8 b4. |
+b8. c'16 b8 b8 d'8 b8 |
+d'4 c'8 b4 s8
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s4 s4 s8 g8 |
+g4 g8 g4 d8 |
+g4 g8 g4 g8 |
+g4 g8 b8.[ a16] g8 |
+d4 d8 d4 d8 |
+g4 g8 g4 d8 |
+g4 g8 g4 g8 |
+g4 g8 b8.[ a16] g8 |
+d4 d8 g,4 g8 |
+d4 d8 d4 d8 |
+g4 g8 g4. |
+g8. g16 g8 b8. a16 g8 |
+d4 d8 d4 fis8 |
+g4 g8 g4 d8 |
+g4 g8 g4. |
+g8. g16 g8 g8 g8 g8 |
+d4 d8 g,4 s8
+"""
+
+[lyrics.1]
+text = "What means this ea -- ger, anx -- ious throng, Which moves with bus -- y haste a -- long, These won -- drous gath -- 'rings day by day? What means this strange com -- mo -- tion, pray? In ac -- cents hushed the throng re -- ply, \"Je -- sus of Naz -- a -- reth pass -- eth by.\" In ac -- cents hushed the throng re -- ply, \"Je -- sus of Naz -- a -- reth pass -- eth by.\""
+
+[lyrics.2]
+text = "Je -- sus! 'tis He who once be -- low Man's path -- way trod, mid pain and woe; And bur -- dened ones, wher -- e'er He came, Brought out their sick, and deaf, and lame. The blind re -- joiced to hear the cry, \"Je -- sus of Naz -- a -- reth pass -- eth by.\" The blind re -- joiced to hear the cry, \"Je -- sus of Naz -- a -- reth pass -- eth by.\""
+
+[lyrics.3]
+text = "Ho! all ye heav -- y la -- den, come! Here's par -- don, com -- fort, rest and home. Ye wan -- d'rers from a Fa -- ther's face, Re -- turn, ac -- cept His prof -- fered grace. Ye tempt -- ed ones, there's ref -- uge nigh: \"Je -- sus of Naz -- a -- reth pass -- eth by.\" Ye tempt -- ed ones, there's ref -- uge nigh: \"Je -- sus of Naz -- a -- reth pass -- eth by.\""
+
+[lyrics.4]
+text = "But if you still His call re -- fuse, And all His won -- drous love a -- buse, Soon will He sad -- ly from you turn, Your bit -- ter prayer for par -- don spurn. \"Too late, too late\" will be the cry— \"Je -- sus of Naz -- a -- reth has passed by.\" \"Too late, too late\" will be the cry— \"Je -- sus of Naz -- a -- reth has passed by.\""

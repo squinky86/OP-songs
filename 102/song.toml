@@ -1,0 +1,68 @@
+title = "I'll Never Forsake My Lord"
+copyrights = [
+  "Lyrics: Mrs. Damon Canter Snoddy, 1935, renewed 1963",
+  "Music and Arrangement: L. O. Sanderson, 1935, renewed 1963",
+  "This work is under copyright through 12/31/2030. Used by permission.",
+]
+key_signature = "Db"
+time_sig_numerator = 6
+time_sig_denominator = 4
+tempo_bpm = 146
+verse_count = 3
+phrase_breaks = ["4:96", "8:80", "12:80"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+des'2 f'4 bes'4 aes'4 f'4 | des'2 ees'4 f'2. | ges'2 bes'4 des''4 c''4 bes'4 | aes'2 f'4 ees'2.
+| f'2 f'4 ges'4 f'4 ges'4 | aes'2 des''4 des''2 bes'4 | aes'4 f'4 des'4 f'2 ees'4 | des'1 r4 des''4@c
+| c''4 c''4 des''4 ees''2 c''4 | des''2. aes'2 aes'8 aes'8 | bes'4 c''4 des''4 c''2 bes'4 | aes'2.~ aes'2 f'8 ges'8
+| aes'4 aes'4 des''4 f''2 ees''8 des''8 | ees''4 des''4 bes'4 des''2 bes'4 | aes'4 des''4 des''4 c''4( des''4) ees''4 | des''2.~ des''2 r4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+des'2 des'4 f'4 f'4 des'4 | des'2 c'4 des'2. | des'2 ges'4 ges'4 ges'4 ges'4 | f'2 des'4 c'2.
+| des'2 des'4 c'4 c'4 c'4 | des'2 des'4 ges'2 ges'4 | f'4 des'4 des'4 des'2 c'4 | des'1 r4 f'4@c
+| ees'4 ees'4 ges'4 ges'2 ges'4 | f'2. f'2 f'8 f'8 | ges'4 ges'4 ges'4 aes'2 ges'4 | f'2.~ f'2 des'8 ees'8
+| f'4 f'4 f'4 aes'2 aes'8 aes'8 | ges'4 ges'4 ges'4 ges'2 ges'4 | f'4 f'4 f'4 ees'4( f'4) ges'4 | f'2.~ f'2 r4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+f2 aes4 des'4 des'4 aes4 | f2 aes4 aes2. | bes2 des'4 bes4 c'4 des'4 | des'2 aes4 aes2.
+| aes2 aes4 aes4 aes4 aes4 | aes2 ces'4 bes2 des'4 | des'4 aes4 g4 aes2 ges4 | f1 r4 aes4@c
+| aes4 aes4 bes4 c'2 aes4 | aes2. des'2 des'8 des'8 | des'4 c'4 bes4 c'2 des'4 | des'2.~ des'2 aes8 aes8
+| des'4 des'4 aes4 des'2 c'8 des'8 | bes4 bes4 des'4 bes2 des'4 | des'4 aes4 aes4 aes2 aes4 | aes2.~ aes2 r4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+des2 des4 des4 des4 des4 | des2 aes,4 des2. | ges2 ges4 ges4 ges4 ges4 | des2 des4 aes,2.
+| des2 des4 ees4 d4 ees4 | f2 f4 ges2 ges4 | des4 des4 bes,4 aes,2 aes,4 | des1 r4 des4@c
+| aes4 aes4 aes4 aes2 aes4 | des2. des2 des8 des8 | ges4 ges4 ges4 ges2 ges4 | des2.~ des2 des8 des8
+| des4 des4 des4 des2 ees8 f8 | ges4 ges4 ges4 ges2 ges4 | aes4 aes4 aes4 aes,2 aes,4 | des2.~ des2 r4
+"""
+
+[lyrics.1]
+text = "Though my cross may be hard to bear, Though my life may be filled with care; Though mis -- for -- tune be mine to share— I'll nev -- er for -- sake my Lord."
+
+[lyrics.2]
+text = "Though the tempt -- er in ef -- forts bold, Or in sub -- tle -- ty as of old, Should es -- say to al -- lure my soul— I'll nev -- er for -- sake my Lord."
+
+[lyrics.3]
+text = "Though so help -- less I can -- not see What the fu -- ture may hold for me; Je -- sus knows and my guide will be— I'll nev -- er for -- sake my Lord."
+
+[lyrics.chorus]
+text = "I'll nev -- er for -- sake the Sav -- ior; He has nev -- er for -- sak -- en me! 'Neath His shel -- ter -- ing arm I am safe from all harm— I'll nev -- er for -- sake my Lord."

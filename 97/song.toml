@@ -1,0 +1,57 @@
+title = "Come, Thou Almighty King"
+copyrights = [
+  "Lyrics: Anonymous, 1757 (public domain)",
+  "Music: 'Italian Hymn' by Felice de Giardini, 1769 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 4
+phrase_breaks = ["6:48", "12:48"]
+optional_phrase_breaks = ["3:48", "8:48", "10:48", "14:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+c''4 a'4 f'4 | g'4( f'4) e'4 | f'2. | f'4 g'4 a'4 | bes'8( c''8 bes'4) a'4 | g'2. | c''4 a'4 f'4 | c'2. | g'4 a'4 bes'4 | a'4. g'8 f'4 | g'4 a'4 bes'4 | a'4. g'8 f'4 | f'4 a'4 c''4 | c''4. d''8 c''4 | bes'4 a'4 g'4 | f'2.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+f'4 c'4 c'4 | d'4( c'4) c'4 | c'2. | c'4 c'4 f'4 | e'4( g'4) f'4 | e'2. | c''4 a'4 f'4 | c'2. | e'4 f'4 g'4 | f'4. e'8 f'4 | d'4 d'4 d'4 | cis'4. e'8 d'4 | d'4 f'4 e'4 | f'4. f'8 f'4 | g'4 f'4 e'4 | c'2.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+a4 f4 c'4 | bes4( a4) g4 | a2. | a4 c'4 c'4 | c'2 c'4 | c'2. | c'4 a4 f4 | c2. | c'4 c'4 c'4 | c'4. bes8 a4 | g4 fis4 g4 | e4. a8 a4 | bes4 c'4 bes4 | a4. bes8 a4 | d'4 c'4 bes4 | a2.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+f4 f4 a,4 | bes,4( c4) c4 | f2. | f4 e4 f4 | g4( e4) f4 | c2. | c'4 a4 f4 | c2. | c4 f4 e4 | f4. c8 f4 | bes,4 a,4 g,4 | a,4. cis8 d4 | bes,4 a,4 g,4 | f,4. f,8 f,4 | bes,4 c4 c4 | f2.
+"""
+
+[lyrics.1]
+text = "Come, Thou al -- might -- y King, help us Thy name to sing; help us to praise. Fa -- ther all glo -- ri -- ous, o'er all vic -- to -- ri -- ous; come and reign o -- ver us, An -- cient of Days."
+
+[lyrics.2]
+text = "Come, Thou in -- car -- nate Word, gird on thy might -- y sword; scat -- ter thy foes. Let Thine al -- might -- y aid our sure de -- fense be made, our souls on Thee be stayed; Thy won -- ders show."
+
+[lyrics.3]
+text = "Come, ho -- ly Com -- for -- ter, Thy sa -- cred wit -- ness bear in this glad hour. Thou who al -- might -- y art, rule now in ev -- ery heart, and ne'er from us de -- part, Spi -- rit of power."
+
+[lyrics.4]
+text = "To Thee, great One in Three, e -- ter -- nal prais -- es be hence ev -- er -- more! Thy sov -- ereign maj -- es -- ty may we in glo -- ry see, and to e -- ter -- ni -- ty love and a -- dore."

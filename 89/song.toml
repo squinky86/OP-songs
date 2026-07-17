@@ -1,0 +1,79 @@
+title = "Psalm 139"
+subtitle = ""
+tempo_bpm = 126
+time_sig_numerator = 6
+time_sig_denominator = 4
+key_signature = "D"
+verse_count = 3
+phrase_breaks = ["2:80", "4:80", "6:80", "8:80", "10:80", "12:96", "14:96", "16:96", "18:80"]
+copyrights = [
+  "Lyrics and Music: Edwin B. Holder, 1998. All rights reserved. Used by permission."
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+fis'4 eis'4 fis'4 g'2 a'8-( g'8-) | g'2. fis'2 fis'8-( e'8-) | d'4. d'8 d'4 e'2 fis'4 | e'2.~ e'2 a'8-( g'8-)
+| fis'2 a'4 d''2 a'4 | b'2 g'4 d'2 d'8-( e'8-) | fis'2 a'4\\< a'2 a'8-( b'8-) | cis''2\\! b'4\\> a'2\\! a'4
+| b'2 b'4 b'4 cis''4 d''4 | a'2. d''2 b'4 | a'2\\< a'4 cis''4-( d''4-) e''4 | d''2.~%f\\! d''2.
+| f'4@e%mp e'4 d'4 d'2 a'4 | b'2 g'4 g'2. | a'4 fis'4 e'4 d'2 d'4 | fis'2 e'4 e'2.
+| a'4 a'4 g'4 fis'2 a'4 | b'2 g'4 d''2! cis''8[ b'8] | a'4 fis'4\\rit fis'8 g'8 fis'2 d'4 | e'2 cis'4 d'2.\\spanend |
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+d'4 d'4 d'4 e'2 e'8-( e'8-) | e'2. d'2 d'8-( cis'8-) | b4. b8 b4 b2 d'4 | cis'2.~ cis'2 cis'8-( e'8-)
+| d'2 fis'4 fis'2 fis'4 | g'2 d'4 d'2 d'8-( d'8-) | d'2 fis'4\\< fis'2 fis'8-( g'8-) | g'2\\! g'4\\> g'2\\! g'4
+| g'2 g'4 g'4 g'4 g'4 | fis'2. a'2 g'4 | fis'2\\< fis'4 a'4-( gis'4-) g'4 | fis'2.~%f\\! fis'2.
+| d'4@e%mp d'4 d'4 a2 d'4 | d'2 d'4 d'2. | fis'4 d'4 cis'4 d'2 d'4 | d'2 d'4 cis'2.
+| fis'4 fis'4 e'4 d'2 fis'4 | g'2 g'4 g'2! a'8[ g'8] | fis'4 d'4\\rit d'8 d'8 d'2 d'4 | cis'2 a4 a2.\\spanend |
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+a4 gis4 a4 cis'2 cis'8-( a8-) | a2. a2 a8-( g8-) | fis4. fis8 fis4 gis2 gis4 | a2.~ a2 a8-( a8-)
+| a2 d'4 a2 d'4 | d'2 b4 b2 b8-( bes8-) | a2 a4\\< d'2 d'8-( d'8-) | e'2\\! d'4\\> cis'2\\! cis'4
+| d'2 d'4 d'4 cis'4 b4 | d'2. d'2 d'4 | d'2\\< d'4 e'4-( e'4-) cis'4 | a2.~%f\\! a2.
+| a4@e%mp g4 fis4 fis2 fis4 | g2 b4 b2. | d'4 a4 g4 fis2 fis4 | gis2 gis4 a2.
+| d'4 d'4 b4 a2 d'4 | d'2 b4 b2! cis'8[ d'8] | d'4 a4\\rit a8 b8 a2 fis4 | g2 e4 fis2.\\spanend |
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+d4 d4 d4 a,2 a,8-( cis8-) | d2. d2 a,8-( ais,8-) | b,4. b,8 b,4 e2 e4 | a,2.~ a,2 a,8-( cis8-)
+| d2 d4 d2 d4 | g,2 g,4 g2 g8-( g8-) | d2 d4\\< d2 d8-( d8-) | a,2\\! a,4\\> a,2\\! a,4
+| g2 g4 g4 g4 g4 | d2. fis2 g4 | a2\\< a4 a4-( b4-) a4 | d2.~%f\\! d2.
+| d4@e%mp d4 d4 d2 d4 | g,2 g4 g2. | d4 d4 a,4 d2 d4 | b,2 e4 a,2.
+| d4 d4 d4 d2 d4 | g2 g4 g2! g8[ g8] | a4 d4\\rit d8 d8 fis2 d4 | a,2 a,4 d2.\\spanend |
+"""
+
+[lyrics.1]
+text = """
+O Lord you've searched me and known me; My _ sit -- ting my ris -- ing up. You _ un -- der -- stand my thoughts a -- far. You _ com -- pre -- hend my _ path, my sleep. Be -- hold! You know al -- to -- geth -- er, E'er words have formed on my tongue.
+"""
+
+[lyrics.2]
+text = """
+Where can I go from your spir -- it, Or _ where from your pres -- ence flee? Not in heav'n a -- bove nor dark -- est pit; Not on mor -- ning's wing, nor the far -- thest sea; O Lord your path has no lim -- it; Your right hand still _ guides me.
+"""
+
+[lyrics.3]
+text = """
+You formed my in -- most _ be -- ing; Cov -- ered me in my moth -- er's womb. I will praise you Lord, for I am made; Most _ won -- drous -- ly and _ fear -- ful -- ly. How mar -- vel -- ous are your works, Lord, And that my soul knows full well.
+"""
+
+[lyrics.coda]
+text = """
+Search me O God and know my heart; Try me and know my anx -- ious thoughts. Find an -- y wick -- ed way in me; And lead me in the e -- ver -- last -- ing way.
+"""

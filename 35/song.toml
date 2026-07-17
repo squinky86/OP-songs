@@ -1,0 +1,47 @@
+title = "Abba, Father! We Approach Thee"
+subtitle = "Erie"
+commentary = "<p>This same song is also available with music for <a href=\"/songs/32\">Calon Lân</a>, <a href=\"/songs/33\">Beecher</a>, and <a href=\"/songs/34\">Deerhurst</a>.</p>"
+copyrights = [ "Lyrics: James G. Deck, 1841 (public domain)", "Music: 'Erie' by Charles C. Converse, 1868 (public domain)", "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)", "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",]
+key_signature = "F"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 98
+verse_count = 4
+phrase_breaks = ["4:64", "8:64", "12:64"]
+optional_phrase_breaks = ["2:64", "6:64", "10:64", "14:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = "c''4. c''8 d''8 c''8 a'8 f'8 | f'2 d'2 | c'4. f'8 a'8 f'8 c''8 a'8 | g'1 | c''4. c''8 d''8 c''8 a'8 f'8 | f'2 d'2 | c'4. f'8 a'8 g'8 f'8 e'8 | f'1 | g'4. fis'8 g'8 a'8 bes'8 g'8 | a'2 c''2 | d''4. d''8 c''8 a'8 bes'8 a'8 | g'1 | c''4. c''8 d''8 c''8 a'8 f'8 | f'2 d'2 | c'4. f'8 a'8 g'8 f'8 e'8 | f'1\n"
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = "f'4. f'8 f'8 f'8 f'8 c'8 | d'2 bes2 | c'4. c'8 c'8 c'8 f'8 f'8 | e'1 | f'4. f'8 f'8 f'8 f'8 c'8 | d'2 bes2 | a4. c'8 f'8 c'8 c'8 c'8 | c'1 | e'4. dis'8 e'8 f'8 g'8 e'8 | f'2 f'2 | f'4. f'8 f'8 f'8 g'8 f'8 | e'1 | f'4. f'8 f'8 f'8 f'8 c'8 | d'2 bes2 | a4. c'8 f'8 c'8 c'8 c'8 | c'1\n"
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = "a4. a8 bes8 a8 c'8 a8 | bes2 f2 | a4. a8 a8 a8 a8 c'8 | c'1 | c'4. c'8 bes8 c'8 c'8 a8 | bes2 f2 | f4. a8 c'8 bes8 a8 g8 | a1 | c'4. c'8 c'8 c'8 c'8 c'8 | c'2 a2 | bes4. bes8 c'8 c'8 c'8 c'8 | c'1 | c'4. c'8 bes8 a8 c'8 a8 | bes2 f2 | f4. a8 c'8 bes8 a8 g8 | a1\n"
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = "f4. f8 f8 f8 f8 f8 | bes,2 bes,2 | f4. f8 f8 f8 f8 f8 | c1 | a4. a8 bes8 a8 f8 f8 | bes,2 bes,2 | c4. c8 c8 c8 c8 c8 | f1 | c4. c8 c8 c8 c8 c8 | f2 f2 | bes4. bes8 a8 f8 e8 f8 | c1 | a4. f8 f8 f8 f8 f8 | bes,2 bes,2 | c4. c8 c8 c8 c8 c8 | f1\n"
+
+[lyrics.1]
+text = "Ab -- ba, Fa -- ther! We ap -- proach Thee\nIn our Sa -- vior’s pre -- cious name;\nWe, Thy chil -- dren, here as -- sem -- bled,\nNow Thy prom -- ised bless -- ing claim;\nFrom our sins His blood hath washed us,\n’Tis through Him our souls draw nigh,\nAnd Thy Spir -- it, too, hath taught us,\nAb -- ba, Fa -- ther, thus to cry."
+
+[lyrics.2]
+text = "Once as prod -- i -- gals we wan -- dered\nIn our fol -- ly far from Thee,\nBut Thy grace, o’er sin a -- bound -- ing,\nRes -- cued us from mis -- er -- y;\nThou Thy prod -- i -- gals hast par -- doned,\nKissed us with a Fa -- ther’s love,\nSpread the fes -- festive board, and called us,\nE’er to dwell with Thee a -- bove."
+
+[lyrics.3]
+text = "Clothed in gar -- ments of sal -- va -- tion,\nAt Thy ta -- ble is our place,\nWe re -- joice, and Thou re -- joic -- est,\nIn the rich -- es of Thy grace;\nIt is meet, we hear Thee say -- ing,\nWe should mer -- ry and be glad,\nI have found My once lost chil -- dren,\nNow they live who once were dead."
+
+[lyrics.4]
+text = "Ab -- ba, Fa -- ther! all a -- dore Thee,\nAll re -- joice in Heav’n a -- bove,\nWhile in us they learn the won -- ders\nOf Thy wis -- dom, grace, and love;\nSoon be -- fore Thy throne as -- sem -- bled,\nAll Thy chil -- dren shall pro -- claim,\nGlo -- ry, ev -- er -- last -- ing glo -- ry,\nBe to God and to the Lamb!"

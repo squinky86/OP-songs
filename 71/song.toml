@@ -1,0 +1,72 @@
+title = "Come, Weary, Anxious, Laden Soul"
+subtitle = ""
+copyrights = [
+  "Lyrics: Anonymous, obtained from Messages of Love Hymn Book, 1920 (public domain)",
+  "Music: Arthur H. D. Troyte, 1857 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 88
+verse_count = 5
+phrase_breaks = ["4:64", "8:64", "12:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+a'2 a'4 a'4 | a'2. a'4 | a'2 bes'2 | c''1 |
+bes'2 bes'4 bes'4 | bes'2. bes'4 | a'2 g'2 | a'1 |
+a'2 a'4 a'4 | a'2. a'4 | a'2 g'2 | f'1 |
+g'2 g'4 g'4 | f'2 e'2 | f'1 |
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+f'2 f'4 f'4 | f'2. f'4 | f'2 e'2 | f'1 |
+e'2 e'4 e'4 | e'2. e'4 | f'2 e'2 | f'1 |
+f'2 f'4 f'4 | f'2. f'4 | e'2 e'2 | d'1 |
+d'2 d'4 d'4 | c'2 c'2 | c'1 |
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+c'2 c'4 c'4 | c'2. c'4 | c'2 c'2 | c'1 |
+c'2 c'4 c'4 | c'2. c'4 | c'2 c'2 | c'1 |
+c'2 c'4 c'4 | c'2. c'4 | a2 a2 | a1 |
+bes2 bes4 bes4 | a2 g2 | a1 |
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+f2 f4 f4 | f2. f4 | f2 g2 | a1 |
+g2 g4 g4 | g2. g4 | f2 c2 | f1 |
+f2 f4 f4 | f2. f4 | cis2 cis2 | d1 |
+bes,2 bes,4 bes,4 | c2 c2 | f1 |
+"""
+
+[lyrics.1]
+text = "Come, wear -- y, anx -- ious, la -- den soul, To Je -- sus come, and be made whole; On Him your heav -- y bur -- den roll— Come, anx -- ious sin -- ner, come!"
+
+[lyrics.2]
+text = "Be -- hold the cross on which He died; Be -- hold His wound -- ed, bleed -- ing side: Come, in His pre -- cious love con -- fide— Come, anx -- ious sin -- ner, come!"
+
+[lyrics.3]
+text = "True joy the world can ne’er af -- ford, ’Tis found a -- lone in Christ the Lord, In Him for wretch -- ed sin -- ners stored— Come, anx -- ious sin -- ner, come!"
+
+[lyrics.4]
+text = "God loves to hear the con -- trite cry, He loves to see the tear -- ful eye, To read the spir -- it’s deep -- felt sigh— Come, anx -- ious sin -- ner, come!"
+
+[lyrics.5]
+text = "Oh, if to Je -- sus you re -- pair, You’ll find e -- ter -- nal com -- fort there, And soon shall heaven -- ly glo -- ry share— Come, anx -- ious sin -- ner, come!"

@@ -1,0 +1,78 @@
+title = "Cling to His Hand"
+copyrights = [
+  "Lyrics: Laurene Highfield, 1914 (public domain)",
+  "Music: Samuel W. Beazley, 1914 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 6
+time_sig_denominator = 4
+verse_count = 3
+tempo_bpm = 105
+phrase_breaks = ["2:96", "4:96", "6:96", "8:96", "10:96", "12:96", "14:80"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+b'4 g'4 a'4 b'4 c''4 b'4 | a'4 b'4 a'4 g'2. | g'4 e'4 g'4 c''4 e''4 c''4 
+| b'2.~ b'2. | b'4 g'4 a'4 b'4 c''4 b'4 | a'4 b'4 a'4 g'2. 
+| a'4 b'4 a'4 cis''4 b'4 a'4 | d''2.~ d''2. | b'2.~@c b'4 e''4 b'4 | d''2.~ d''2. 
+| d''2.~ d''4 a'4 c''4 | b'2.~ b'2. | b'4 ais'4 b'4 d''4 e''4 d''4 
+| c''4 g'4 a'4 b'2! c''4! | b'4 d''4 b'4 c''4 b'4 a'4 | g'2.~ g'2.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+g'4 d'4 d'4 g'4 g'4 g'4 | fis'4 fis'4 fis'4 g'2. | e'4 c'4 e'4 e'4 g'4 e'4 
+| d'2.~ d'2. | g'4 g'4 g'4 g'4 g'4 g'4 | fis'4 fis'4 fis'4 e'2. 
+| g'4 g'4 g'4 g'4 g'4 g'4 | fis'2.~ fis'2. | g'2.~@c g'4 g'4 g'4 | b'2.( g'2.) 
+| fis'4 d'4 e'4 fis'2. | g'4 fis'4 e'4 d'2. | g'4 g'4 g'4 f'4 f'4 f'4 
+| e'4 e'4 e'4 dis'2! e'4! | d'4 d'4 g'4 fis'4 fis'4 fis'4 | g'2.~ g'2.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+d'4 b4 c'4 d'4 e'4 d'4 | c'4 d'4 c'4 b2. | c'4 g4 c'4 g4 c'4 g4 
+| g2.~ g2. | d'4 b4 c'4 d'4 e'4 d'4 | c'4 d'4 c'4 b2. 
+| cis'4 cis'4 cis'4 e'4 dis'4 c'4 | d'2.~ d'2. | d'4@c e'4 b4 d'2. | d'4 b4 e'4 d'2. 
+| c'2.~ c'4 c'4 e'4 | d'2.~ d'2. | d'4 cis'4 d'4 b4 b4 b4 
+| g4 g4 e4 f2! g4! | g4 b4 d'4 e'4 d'4 c'4 | b2.~ b2.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+g4 g4 g4 g4 g4 g4 | d4 d4 d4 g2. | c4 c4 c4 c4 c4 c4 
+| g,2.~ g,2. | g4 g4 g4 g4 g4 g4 | d4 d4 d4 e2. 
+| e4 e4 e4 a4 a4 a4 | d2.~ d2. | g2.~@c g4 g4 g4 | g4 d4 g4 b2. 
+| a4 fis4 g4 a4 d4 d4 | g2.~ g2. | g4 g4 g4 g4 g4 g4 
+| c4 c4 c4 b,2 a,4 | d4 d4 d4 d4 d4 d4 | g,2.~ g,2.
+"""
+
+[lyrics.1]
+text = "When you are anx -- ious and bur -- dened with care, Lis -- ten to hear Je -- sus' voice; Soft -- ly He'll say, \"Bring your tri -- als to Me, And I will make you re -- joice.\""
+
+[lyrics.2]
+text = "When you are lost in the per -- il -- ous dark, Reach for the dear Mas -- ter's hand; Feel -- ing His hand -- clasp will stead -- y your feet: He will the way un -- der -- stand."
+
+[lyrics.3]
+text = "When sore temp -- ta -- tions en -- com -- pass you round, Kneel at the dear Sav -- ior's feet; He who was tempt -- ed can show you the way All of life's test -- ing to meet."
+
+[lyrics.chorus]
+text = "Cling to His hand, Cling to His hand, Cling to His hand, Je -- sus will help you life's test -- ing to meet, O cling to the dear Sav -- ior's hand."
+
+[parts.Soprano.lyrics.chorus]
+text = "Cling to His hand, Cling to His hand, Je -- sus will help you life's test -- ing to meet, O cling to the dear Sav -- ior's hand."
+
+[parts.Bass.lyrics.chorus]
+text = "Cling to His hand, to His hand, Cling to His hand, to His hand, Je -- sus will help you life's test -- ing to meet, O cling to the dear Sav -- ior's hand."

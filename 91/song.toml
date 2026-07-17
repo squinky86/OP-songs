@@ -1,0 +1,56 @@
+title = "Bring Christ Your Broken Life"
+copyrights = [
+  "Lyrics: Thomas O. Chisholm, 1935, renewed 1963",
+  "Music: L. O. Sanderson, 1935, renewed 1963",
+  "This work is under copyright through 12/31/2030. Used by permission.",
+]
+key_signature = "F"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 4
+phrase_breaks = ["4:48", "8:48", "12:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+c''4 a'4 f'4 | f'8. e'16 e'2 | bes'4 a'4 g'4 | a'2. | c''4 a'4 f'4 | f'8. e'16 e'2 | bes'4 a'4 g'4 | f'2. | d'4 f'4 d''4 | c''8 a'8 c''2 | bes'4 a'4 g'4 | a'2. | d'4 f'4 d''4 | c''8 a'8 f'4! g'4 | a'4 f'4 g'4 | f'2.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+f'4 f'4 c'4 | c'8. c'16 c'2 | e'4 e'4 e'4 | f'2. | f'4 f'4 c'4 | c'8. c'16 c'2 | e'4 f'4 e'4 | c'2. | bes4 d'4 f'4 | f'8 f'8 f'2 | e'4 e'4 e'4 | f'2. | f'4 d'4 f'4 | f'8 f'8 d'4! f'4 | f'4 c'4 c'4 | c'2.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+a4 c'4 a4 | bes8. bes16 bes2 | g4 c'4 c'4 | c'2. | a4 c'4 a4 | bes8. bes16 bes2 | g4 c'4 bes4 | a2. | f4 bes4 bes4 | a8 c'8 a2 | g4 c'4 c'4 | c'2. | bes4 bes4 bes4 | a8 c'8 b4! b4 | c'4 a4 bes4 | a2.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+f4 f4 f4 | g8. g16 g2 | c4 c4 c4 | f2. | f4 f4 f4 | g8. g16 g2 | c4 c4 c4 | f2. | bes,4 bes,4 bes,4 | f8 f8 f2 | c4 c4 c4 | f2. | bes,4 bes,4 bes,4 | f8 c8 d4! des4 | c4 c4 c4 | <f f,>2.
+"""
+
+[lyrics.1]
+text = "Bring Christ your bro -- ken life, So marred by sin, He will cre -- ate a -- new, Make whole a -- gain; Your emp -- ty, wast -- ed years He will re -- store, And your in -- i -- qui -- ties Re -- mem -- ber no more."
+
+[lyrics.2]
+text = "Bring Him your ev -- 'ry care If great or small— What -- ev -- er trou -- bles you— O bring it all! Bring Him the haunt -- ing fears, The name -- less dread, Thy heart He will re -- lieve, And lift up thy head."
+
+[lyrics.3]
+text = "Bring Him your wea -- ri -- ness, Re -- ceive His rest; Weep out your blind -- ing tears Up -- on His breast; His love is won -- der -- ful, His pow'r is great, \"And none that trust in Him Shall be des -- o -- late.\""
+
+[lyrics.4]
+text = "Blest Sav -- ior of us all! Al -- might -- y Friend! His pres -- ence shall be ours Un -- to the end; With -- out Him life would be How dark, how drear! But with Him morn -- ing breaks— And heav -- en is near!"

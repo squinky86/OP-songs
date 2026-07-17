@@ -1,0 +1,72 @@
+title = "The Providence of God"
+copyrights = [
+  "Lyrics: W. E. Brightwell, 1937",
+  "Music: L. O. Sanderson, 1937",
+  "This work is under copyright through 12/31/2032. Used by permission.",
+]
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 108
+verse_count = 4
+optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
+phrase_breaks = ["5:48", "9:48", "13:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. ees'4 | aes'4 aes'4 aes'4 g'8[ aes'8] | bes'4 bes'4 bes'4 aes'8[ bes'8] | c''4 c''4 des''4 bes'4 | c''2. ees''4
+| ees''4 ees''4 ees''4 ees''4 | ees''4 ees''4 ees''4 c''4 | bes'4 aes'4 g'4 f'4 | ees'2 r4 ees'4@c
+| ees''4 ees''4 ees''4 des''8[ c''8] | des''4 des''4 des''4 ees''8[ des''8] | c''4 bes'4 aes'4 bes'4 | c''2. des''4
+| ees''4 aes'4 des''4 ees''8[ des''8] | c''4 aes'4 bes'4 c''8 bes'8 | aes'4 bes'4 g'4 g'4 | aes'2. s4 |
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. ees'4 | c'4 c'4 c'4 bes8[ c'8] | des'4 des'4 des'4 c'8[ des'8] | ees'4 ees'4 ees'4 ees'4 | ees'2. aes'4
+| aes'4 g'4 aes'4 g'4 | aes'4 g'4 aes'4 ees'4 | ees'4 d'4 ees'4 d'4 | ees'2 r4 ees'4@c
+| aes'4 aes'4 aes'4 g'8[ aes'8] | g'4 g'4 g'4 bes'4 | aes'4 g'4 f'4 g'4 | aes'2. g'4
+| aes'4 aes'4 g'4 g'4 | aes'4 ees'4 f'4 f'8 f'8 | ees'4 ees'4 ees'4 ees'4 | ees'2. s4 |
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. ees4 | ees4 ees4 ees4 ees4 | g4 g4 g4 f8[ g8] | aes4 aes4 bes4 g4 | aes2. c'4
+| c'4 bes4 c'4 bes4 | c'4 bes4 c'4 aes4 | bes4 bes4 bes4 aes4 | g2 r4 ees4@c
+| c'4 c'4 c'4 ees'4 | ees'4 bes4 bes4 ees'4 | ees'4 des'4 c'4 ees'4 | ees'2. ees'4
+| ees'4 ees'4 ees'4 ees'4 | ees'4 c'4 des'4 ees'8 des'8 | c'4 des'4 bes4 bes4 | c'2. s4 |
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. ees4 | aes, aes,4 aes,4 ees4 | ees4 ees4 ees4 ees4 | aes4 aes4 g4 ees4 | aes2. aes4
+| aes4 ees4 aes4 ees4 | aes4 ees4 aes4 aes4 | g4 f4 ees4 bes,4 | ees2 r4 ees4@c
+| aes4 aes4 aes4 bes8[ aes8] | ees4 ees4 ees4 f8[ g8] | aes4 ees4 f4 ees4 | aes2. bes4
+| c'4 c'4 bes4 ees4 | aes4 aes4 des4 des8 des8 | ees4 ees4 ees4 ees4 | aes,2. s4 |
+"""
+
+[lyrics.1]
+text = "The might -- y God, Om -- ni -- scient One! His ways we can -- not trace. He reck -- ons ev -- 'ry good be -- gun And crowns it with His grace."
+
+[lyrics.2]
+text = "Lo! I can see Him in His word— I will not doubt or fear; My steps are or -- dered of the Lord, His guid -- ing hand is near."
+
+[lyrics.3]
+text = "No tri -- al can my spir -- it break, For God will not for -- sake; He will with each temp -- ta -- tion make A way for my es -- cape."
+
+[lyrics.4]
+text = "The fu -- ture beck -- ons and I bow— My God re -- moves the care! Be -- hold, He goes be -- fore me now, And will my way pre -- pare."
+
+[lyrics.chorus]
+text = "He's here, and there, and ev -- 'ry -- where In all the ways I've trod. I've nev -- er passed be -- yond the sphere of the prov -- i -- dence of God."

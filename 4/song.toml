@@ -1,0 +1,67 @@
+title = "A Pilgrim and a Stranger"
+subtitle = ""
+copyrights = [
+  "Lyrics: Paul Gerhardt, 1607-1676 (public domain)",
+  "Translation: Jane Borthwick, 1858 (public domain)",
+  "Music: Hans Leo Hassler, 1601 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license"
+]
+key_signature = "C"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 145
+verse_count = 7
+phrase_breaks = ["6:64", "13:16", "16:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+e'2 a'2 | g'4 f'2 e'4 | d'2 e'2 | b'2 c''2 | c''4 b'2 b'4 | a'1 | e'2 a'2 | g'4 f'2 e'4 | d'2 e'2 | b'2 c''2 | c''4 b'2 b'4 | a'1 | r4 c''4 b'4 g'4 | a'4 b'4 c''2 | c''4 g'4 a'4 g'4 | a'4 f'4 e'2 | c''2 b'2 | d''4 c''2 b'4 | a'2 b'2 | e'2 f'2 | e'4 d'2 d'4 | e'1
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+c'2 f'2 | d'4 c'2 c'4 | b2 b2 | e'2 e'2 | e'4 e'2 e'4 | cis'1 | c'2 f'2 | d'4 c'2 c'4 | b2 b2 | e'2 e'2 | e'4 e'2 e'4 | cis'1 | r4 e'4 g'4 e'4 | f'4 f'4 f'4( e'8 d'8) | e'4 e'4 f'4 e'4 | e'4 d'4 b2 | e'2 e'2 | d'4 e'2 d'4 | d'2 d'2 | c'2 c'2 | c'4 b2 b4 | b1
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+a2 c'2 | b4 a2 g4 | g4( a4) gis2 | b2 a2 | a4 a2 gis4 | a1 | a2 c'2 | b4 a2 g4 | g4( a4) gis2 | a2 a2 | a4 a2 gis4 | a1 | r4 c'4 d'4 c'4 | c'4 g4 g2 | g4 c'4 c'4 c'4 | c'4 a4 gis2 | a2 g2 | g4 g2 g4 | g4( fis4) g2 | g2 f2 | g4 g2 a4 | gis1
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+a,2 f,2 | g,4 a,2 c4 | g,4( f,4) e,2 | gis,2 a,2 | c4 e2 e4 | a,1 | a,2 f,2 | g,4 a,2 c4 | g,4( f,4) e,2 | gis,2 a,2 | c4 e2 e4 | a,1 | r4 a,4 a,4 c4 | f4 d4 c2 | c4 c4 f4 c4 | a,4 d4 e2 | a,2 e2 | b,4 g,2 g,4 | d4( fis4) g,2 | c2 a,2 | c4 g,2 f,4 | e,1
+"""
+
+[lyrics.1]
+text = "A pil -- grim and a stran -- ger, I jour -- ney here be -- low; Far dis -- tant is my coun -- try, The home to which I go. Here I must toil and tra -- vel, Oft wea -- ry and op -- prest, But there my God shall lead me To ev -- er -- las -- ting rest."
+
+[lyrics.2]
+text = "I've met with storm and dan -- ger, E'en from my ear -- ly years, With e -- ne -- mies and con -- flicts, With figh -- tings and with fears. There's no -- thing here that tempts me To wish a lon -- ger stay, So I must has -- ten for -- wards, No hal -- ting or de -- lay."
+
+[lyrics.3]
+text = "It is a well -- worn path -- way; A host has gone be -- fore, The ho -- ly saints and pro -- phets, The pa -- tri -- archs of yore. They trod the toil -- some jour -- ney In pa -- tience and in faith; And them I fain would fol -- low, Like them in life and death."
+
+[lyrics.4]
+text = "Who would share Abra -- ham's bles -- sing, Must Abra -- ham's path pur -- sue, A stran -- ger and a pil -- grim, Like him, must jour -- ney through. The foes must be en -- coun -- tered, The dan -- gers must be passed; On -- ly a faith -- ful sol -- dier Re -- ceives the crown at last."
+
+[lyrics.5]
+text = "So I must has -- ten for -- wards- Thank God, the end will come! This land of my so -- jour -- ning Is not my des -- tined home. That ev -- er -- more a -- bi -- deth, Je -- ru -- sa -- lem a -- bove, The ev -- er -- las -- ting ci -- ty, The land of light and love."
+
+[lyrics.6]
+text = "There still my thoughts are dwel -- ling, 'Tis there I long to be! Come, Lord, and call Thy ser -- vant To bles -- sed -- ness with Thee! Come, bid my toils be en -- ded, Let all my wan -- d'rings cease; Call from the way -- side lod -- ging, To the sweet home of peace!"
+
+[lyrics.7]
+text = "There I shall dwell for -- ev -- er, No more a stran -- ger guest, With all Thy blood -- bought chil -- dren In ev -- er -- las -- ting rest. The pil -- grim toils for -- got -- ten, The pil -- grim con -- flicts o'er, All earth -- ly griefs be -- hind us, E -- ter -- nal joys be -- fore!"

@@ -1,0 +1,61 @@
+title = "I Love to Tell the Story"
+subtitle = ""
+copyrights = [
+  "Lyrics: Katherine Hankey, 1866 (public domain)",
+  "Refrain and Music: William G. Fischer, 1869 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 108
+verse_count = 4
+phrase_breaks = ["5:48", "9:48", "13:48", "17:48", "21:48"]
+optional_phrase_breaks = ["7:48", "11:48","19:48", "23:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. ees'4 | aes'4. ees'8 ees'4 aes'4 | c''4.( bes'8) aes'4 aes'4 | aes'4. f'8 bes'8[ aes'8] f'4 | ees'2. ees'4 | bes'4. a'8 bes'4 c''4 | bes'4 aes'2 aes'8[ c''8] | ees''4. c''8 c''8[ bes'8] aes'4 | bes'2. bes'4 | bes'4. c''8 des''4 des''4 | des''4 c''2 c''4 | c''4. bes'8 aes'4 bes'8[ aes'8] | g'2. g'4 | f'4. g'8 aes'4 f'4 | f'4 ees'2 aes'4 | bes'4. aes'8 c''4. bes'8 | aes'2. ees'4@c | ees'4. g'8 bes'4. c''8 | bes'4 aes'2 aes'4 | aes'4. des''8 des''4 des''4 | des''4 c''2 c''4 | ees''4. c''8 c''8[ bes'8] aes'4 | bes'4 aes'2 f'4 | ees'4 aes'4 bes'4. aes'8 | aes'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. c'4 | c'4. c'8 c'4 c'4 | ees'4.( des'8) c'4 ees'4 | f'4. des'8 bes'8[ aes'8] des'4 | c'2. ees'4 | g'4. fis'8 g'4 g'4 | ees'4 ees'2 aes'8[ c''8] | aes'4. ees'8 c''8[ bes'8] ees'4 | g'2. ees'4 | ees'4. ees'8 ees'4 ees'4 | ees'4 ees'2 ees'4 | aes'4. g'8 f'4 g'8[ f'8] | e'2. e'4 | f'4. ees'8 f'4 des'4 | des'4 c'2 ees'4 | g'4. aes'8 aes'4. ees'8 | ees'2. c'4@c | ees'4. ees'8 ees'4. ees'8 | ees'4 ees'2 ees'4 | f'4. f'8 f'4 ees'4 | ees'4 ees'2 ees'4 | aes'4. ees'8 ees'8[ des'8] aes'4 | f'4 f'2 des'4 | c'4 ees'4 g'4. ees'8 | ees'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. aes4 | ees4. aes8 aes4 aes4 | aes2 aes4 aes4 | aes4. aes8 aes4 aes4 | aes2. aes4 | des'4. c'8 des'4 ees'4 | des'4 c'2 c'4 | c'4. ees'8 ees'8[ des'8] c'4 | ees'2. g4 | g4. aes8 bes4 bes4 | bes4 aes2 aes4 | aes4. bes8 c'4 c'4 | c'2. bes4 | aes4. aes8 aes4 aes4 | aes4 aes2 c'4 | des'4. c'8 ees'4. des'8 | c'2. aes4@c | g4. bes8 des'4. ees'8 | des'4 c'2 aes4 | aes4. aes8 aes4 aes4 | aes4 aes2 aes4 | c'4. aes8 aes8[ g8] aes4 | des'4 des'2 aes4 | aes4 c'4 des'4. c'8 | c'2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. aes,4 | aes,4. aes,8 aes,4 aes4 | aes2 aes,4 c4 | des4. des8 des4 des4 | aes,2. aes4 | ees4. ees8 ees4 ees4 | aes,4 aes,2 aes4 | aes4. aes8 ees'8[ des'8] aes4 | ees2. ees4 | ees4. ees8 ees4 ees4 | aes4 aes2 aes4 | f4. f8 f4 f4 | c2. c4 | des4. des8 des4 des4 | aes,4 aes,2 aes,4 | ees4. ees8 ees4. ees8 | aes,2. aes,4@c | ees4. ees8 ees4. ees8 | aes,4 aes,2 c4 | des4. des8 des4 des4 | aes,4 aes,2 aes4 | aes4. aes,8 aes,8[ bes,8] c4 | des4 des2 des4 | ees4 ees4 ees4. aes,8 | aes,2. s4
+"""
+
+[lyrics.1]
+text = "I love to tell the sto -- ry of un -- seen things a -- bove, Of Je -- sus and His glo -- ry, of Je -- sus and His love; I love to tell the sto -- ry, be -- cause I know 'tis true, It sat -- is -- fies my long -- ings as noth -- ing else would do."
+
+[lyrics.2]
+text = "I love to tell the sto -- ry, more won -- der -- ful it seems Than all the gold -- en fan -- cies of all our gold -- en dreams; I love to tell the sto -- ry, it did so much for me, And that is just the rea -- son I tell it now to thee."
+
+[lyrics.3]
+text = "I love to tell the sto -- ry, 'tis pleas -- ant to re -- peat, What seems each time I tell it more won -- der -- ful -- ly sweet; I love to tell the sto -- ry, for some have nev -- er heard The mes -- sage of sal -- va -- tion from God's own ho -- ly Word."
+
+[lyrics.4]
+text = "I love to tell the sto -- ry, for those who know it best Seem hun -- ger -- ing and thirst -- ing to hear it like the rest; And when in scenes of glo -- ry I sing the new, new song, 'Twill be the old, old sto -- ry that I have loved so long."
+
+[lyrics.chorus]
+text = "I love to tell the sto -- ry, 'Twill be my theme in glo -- ry, To tell the old, old sto -- ry Of Je -- sus and His love."

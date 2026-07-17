@@ -1,0 +1,57 @@
+title = "Again the Lord of Life and Light"
+subtitle = ""
+copyrights = [
+  "Lyrics: Anna L. Barbauld, 1772 (public domain)",
+  "Music: 'Arlington' by Thomas Augustine Arne, 1762 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license"
+]
+key_signature = "F"
+time_sig_numerator = 3
+time_sig_denominator = 2
+tempo_bpm = 90
+verse_count = 4
+phrase_breaks = ["3:64", "5:64", "7:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s1 f'2 | a'4. a'8 a'2 g'2 | f'4. f'8 f'2 g'2 | a'4 c''4 d'4( e'4) a'2 | a'2( g'2) bes'2 | a'4. a'8 a'2 d''2 | c''4. c''8 c''2 f'2 | g'4 bes'4 a'2 g'2 | f'1 s2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s1 f'2 | f'4. f'8 f'2 e'2 | d'4. d'8 d'2 e'2 | f'4 c'4 d'4( e'4) f'2 | f'2( e'2) g'2 | f'4. f'8 f'2 f'2 | f'4. f'8 f'2 c'2 | d'4 g'4 f'2 e'2 | f'1 s2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s1 a2 | c'4. c'8 c'2 bes2 | a4. a8 a2 c'2 | c'4 a4 bes2 c'2 | c'1 c'2 | c'4. c'8 c'2 bes2 | a4. a8 a2 c'2 | bes4 d'4 c'2 c'4( bes4) | a1 s2
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s1 f2 | f4. f8 f2 c2 | d4. d8 d2 c2 | f4 a4 g2 f2 | c1 e2 | f4. f8 f2 bes,2 | f4. f8 f2 a,2 | bes,4 g,4 c2 c'4( bes4) | f1 s2
+"""
+
+[lyrics.1]
+text = "A -- gain the Lord of life and light, A -- wakes the kin -- dling ray, Dis -- pels the dark -- ness of the night, And pours in -- creas -- ing day."
+
+[lyrics.2]
+text = "O what a night was that which wrapt A guil -- ty world in gloom! O what a sun which rose this day Tri -- um -- phant from the tomb!"
+
+[lyrics.3]
+text = "This day be grate -- ful hom -- age paid, And loud ho -- san -- nas sung; Let glad -- ness dwell in ev -- 'ry heart, And praise on ev -- 'ry tongue."
+
+[lyrics.4]
+text = "Ten thou -- sand thou -- sand lips shall join To hail this hap -- py morn, Which scat -- ters bless -- ings from its wings On na -- tions yet un -- born."

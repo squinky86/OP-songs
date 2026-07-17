@@ -1,0 +1,72 @@
+title = "Blessed Be the Name"
+copyrights = [
+  "Lyrics: William H. Clark, 1888 (public domain)",
+  "Refrain and Music: Ralph E. Hudson, 1888 (public domain)",
+  "Harmonized: William J. Kirkpatrick, 1888 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "A"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 115
+verse_count = 4
+phrase_breaks = ["5:48", "9:64", "11:64", "13:64", "15:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. e'4 | e'4 a'4 cis''4. b'8 | a'4 fis'4 e'4. e'8 | e'4 a'4 cis''4 a'4 | b'2. d''4
+| cis''4 b'4 a'4 b'4 | cis''4 a'4 fis'4. fis'8 | e'4 a'4 cis''4 b'4 | a'2. r4
+| e'8@c e'8 a'8. b'16 cis''4. r8 | a'8 b'8 a'8. fis'16 e'4. r8 | e'8 e'8 a'8. b'16 cis''4 d''8. cis''16 | b'2. r4
+| e'8 e'8 a'8. b'16 cis''4. r8 | a'8 b'8 a'8. fis'16 e'4. r8 | e'8 e'8 a'8. b'16 cis''4 b'8. b'16 | a'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. cis'4 | cis'4 cis'4 e'4. eis'8 | fis'4 d'4 cis'4. cis'8 | cis'4 cis'4 e'4 e'4 | e'2. e'4
+| e'4 d'4 cis'4 d'4 | e'4 e'4 d'4. d'8 | cis'4 cis'4 e'4 d'4 | cis'2. r4
+| cis'8@c cis'8 cis'8. d'16 e'4. r8 | fis'8 fis'8 fis'8. d'16 cis'4. r8 | cis'8 cis'8 e'8. e'16 e'4 e'8. e'16 | e'2. r4
+| cis'8 cis'8 cis'8. d'16 e'4. r8 | fis'8 fis'8 fis'8. d'16 cis'4. r8 | cis'8 cis'8 e'8. e'16 e'4 d'8. d'16 | cis'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. a4 | a4 e4 a4. a8 | a4 a4 a4. a8 | a4 e4 a4 a4 | gis2. b4
+| a4 gis4 a4 gis4 | a4 a4 a4. a8 | a4 a4 a4 gis4 | a2. r4
+| a8@c a8 e8. e16 a4. r8 | d'8 d'8 d'8. a16 a4. r8 | a8 a8 a8. gis16 a4 b8. a16 | gis2. r4
+| a8@c a8 a8. a16 a4. r8 | d'8 d'8 d'8. a16 a4. r8 | a8 a8 a8. gis16 a4 gis8. gis16 | a2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. a,4 | a,4 a,4 a,4. cis8 | d4 d4 a,4. a,8 | a,4 a,4 a,4 cis4 | e2. g4
+| a4 e4 fis4 e4 | a4 cis4 d4. d8 | e4 e4 e4 e4 | <e a,>2. r4
+| a,8@c a,8 a,8. a,16 a,4. r8 | d8 d8 d8. d16 a,4. r8 | a,8 a,8 cis8. e16 a4 gis8. a16 | e2. r4
+| a8 a8 e8. e16 a4. r8 | d8 d8 d8. d16 a,4. r8 | a,8 a,8 cis8. d16 e4 e8. e16 | <e a,>2. s4
+"""
+
+[lyrics.1]
+text = "All praise to Him who reigns a -- bove In ma -- jes -- ty su -- preme, Who gave His Son for man to die, That He might man re -- deem!"
+
+[lyrics.2]
+text = "His name a -- bove all names shall stand, Ex -- alt -- ed more and more, At God the Fa -- ther's own right hand, Where an -- gel hosts a -- dore."
+
+[lyrics.3]
+text = "Re -- deem -- er, Sav -- ior, friend of man Once ru -- ined by the fall, Thou hast de -- vised sal -- va -- tion's plan, For Thou hast died for all."
+
+[lyrics.4]
+text = "His name shall be the Coun -- se -- lor, The might -- y Prince of Peace, Of all earth's king -- doms con -- quer -- or, Whose reign shall ne -- ver cease."
+
+[lyrics.chorus]
+text = "Bless -- ed be the name! Bless -- ed be the name! Bless -- ed be the name of the Lord! Bless -- ed be the name! Bless -- ed be the name! Bless -- ed be the name of the Lord!"

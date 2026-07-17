@@ -1,0 +1,69 @@
+name: Problem with a song
+description: Report a wrong note, missing lyric, bad line break, or incorrect attribution.
+title: "[Song] "
+labels: ["song-problem"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping fix the corpus. If you came from a song page on
+        openpsalm.com, the fields below are already filled in — just describe
+        what's wrong.
+
+  - type: input
+    id: song
+    attributes:
+      label: Song
+      description: Which song is this about?
+      placeholder: "#42 — Amazing Grace"
+    validations:
+      required: true
+
+  - type: input
+    id: song-url
+    attributes:
+      label: Song page
+      placeholder: https://openpsalm.com/songs/42
+    validations:
+      required: false
+
+  - type: dropdown
+    id: problem
+    attributes:
+      label: What kind of problem?
+      options:
+        - Wrong notes or rhythm
+        - Wrong or missing lyrics
+        - Wrong copyright or attribution
+        - Layout, line breaks, or page breaks
+        - Playback (MIDI/MP3) sounds wrong
+        - Something else
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: Where in the song?
+      description: Measure number, verse number, or voice part — whatever you can give.
+      placeholder: "Verse 2, measure 9, tenor"
+    validations:
+      required: false
+
+  - type: textarea
+    id: details
+    attributes:
+      label: What's wrong?
+      description: What you see, and what it should be instead. A photo of the source is welcome.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: rights
+    attributes:
+      label: Copyright
+      options:
+        - label: >-
+            If I've attached or quoted source material, I believe I have the
+            right to share it here.
+          required: false

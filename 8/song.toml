@@ -1,0 +1,61 @@
+title = "Savior, When In Dust To Thee"
+copyrights = [
+  "Lyrics: Robert Grant, 1815 (public domain)",
+  "Music: 'Aberystwyth' by Joseph Parry, 1879 (public domain)",
+  "Obtained from the [Open Hymnal Project](http://openhymnal.org/), 2008 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 5
+phrase_breaks = ["4:64", "8:64", "12:64"]
+optional_phrase_breaks = ["2:64", "6:64", "10:64", "14:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+d'4 d'8[ e'8] f'8[ g'8] a'4 | f'4 e'4 d'2 | f'4 e'4 d'4 cis'4 | d'8[ e'8] f'4 e'2 | d'4 d'8[ e'8] f'8[ g'8] a'4 | f'4 e'4 d'2 | e'4 f'8[ g'8] a'4 g'4 | f'4 e'4 d'2 | d'4 c'4 d'4 e'4 | f'4 a'8[ g'8] f'2 | f'4 e'4 f'4 g'4 | a'4 c''8[ b'8] a'2 | d''4 d''4 c''4 a'4 | f'4 g'4 a'2 | d'4 d'8[ e'8] f'8[ g'8] a'4 | f'4 e'4 d'2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+a4 d'8[ cis'8] d'8[ e'8] f'4 | d'4 cis'4 a2 | d'4 cis'4 d'4 a4 | a4 d'4 cis'2 | a4 a8[ cis'8] d'8[ e'8] f'4 | d'4 cis'4 a2 | cis'4 d'8[ e'8] f'4 e'4 | d'4 cis'4 a2 | bes4 a4 bes4 bes4 | c'4 e'4 c'2 | d'4 cis'4 d'4 e'8[ c'8] | c'4 e'8[ d'8] c'2 | d'4 f'8[ e'8] f'4 c'4 | d'4 d'4 e'2 | d'4 d'8[ cis'8] d'8[ e'8] f'4 | d'4 cis'4 a2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+f4 a4 a4 a4 | a4 a8[ g8] f2 | a4 a4 a4 a4 | a4 a4 a2 | f8[ g8] a4 a4 a4 | a4 e8[ g8] f2 | a4 a8[ c'8] c'4 bes4 | a4 a8[ g8] f2 | f4 f4 f4 g4 | a4 c'8[ bes8] a2 | a4 a4 a4 c'4 | f8 a4/+24( gis8) a2 | f4 bes4 c'4 f4 | a4 d'4 cis'2 | a8[ bes8] a8[ g8] a4 a4 | a4 e16[ f16 g8] f2
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+d4 f,8[ a,8] d4 f,8[ g,8] | a,4 a,4 d2 | d4 e4 f4 g4 | f8[ e8] d4 a,2 | d8[ e8] f8[ e8] d4 f,8[ g,8] | a,4 a,4 d2 | a,4 d8[ c8] f4 g4 | a4 a,4 d2 | bes,4 f,4 bes,8[ a,8] g,4 | f,4 c4 f,2 | d4 a,4 d4 c8[ e8] | f4 e4 a,2 | bes,4 bes4 a4 f4 | d4 bes,4 a,2 | f8[ g8] f8[ e8] d4 f,8[ g,8] | a,4 a,4 d2
+"""
+
+[lyrics.1]
+text = "Sa -- vior, when in dust to Thee Low we bow th'a -- dor -- ing knee, When, re -- pent -- ant, to the skies Scarce we lift our weep -- ing eyes, O by all the pains and woes Suff -- ered once for man be -- low, Bend -- ing from Thy throne on high, Hear our pen -- i -- ten -- tial cry!"
+
+[lyrics.2]
+text = "By Thy help -- less in -- fant years, By Thy life of want and tears, By Thy days of sore dis -- tress In the sa -- vage wild -- er -- ness, By the dread mys -- ter -- ious hour Of th'in -- sult -- ing temp -- ter's pow'r, Turn, O turn a fav'r -- ing eye, Hear our pen -- i -- ten -- tial cry!"
+
+[lyrics.3]
+text = "By the sac -- red griefs that wept O'er the grave where La -- z'rus slept, By the bod -- ing tears that flowed O -- ver Sa -- lem's loved a -- bode, By the an -- guished sigh that told Treach -- 'ry lurked with -- in Thy fold, From Thy seat a -- bove the sky, Hear our pen -- i -- ten -- tial cry!"
+
+[lyrics.4]
+text = "By Thine hour of dire de -- spair, By Thine a -- go -- ny of prayer, By the cross, the nail, the thorn, Pier -- cing spear, and tor -- turing scorn, By the gloom that veiled the skies O'er the dread -- ful sac -- ri -- fice, Lis -- ten to our hum -- ble cry, Hear our pen -- i -- ten -- tial cry!"
+
+[lyrics.5]
+text = "By Thy deep ex -- pir -- ing groan, By the sad sep -- ul -- chral stone, By the vault whose dark a -- bode Held in vain the ri -- sing God, O from earth to heaven re -- stored, Might -- y, re -- as -- cend -- ed Lord, Lis -- ten, lis -- ten to the sigh Of our pen -- i -- ten -- tial cry!"

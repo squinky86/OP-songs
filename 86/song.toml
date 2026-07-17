@@ -1,0 +1,77 @@
+title = "God in Mercy Sent His Son"
+subtitle = ""
+copyrights = [
+  "Lyrics: Hannah K. Burlingham, 1901 (public domain)",
+  "Music: Felix Mendelssohn-Bartholdy, 1840 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 80
+verse_count = 4
+phrase_breaks = ["5:32", "9:32", "13:32", "17:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 d'4 g'4 | g'4. fis'8 g'4 b'4 | b'4( a'4) d''4 d''4 | d''4. c''8/-24 b'4 a'4 |
+b'2 d'4 g'4 | g'4. fis'8 g'4 b'4 | b'4( a'4) d''4 a'4 | a'4. fis'8 fis'4 e'4 |
+d'2 d''4@c d''4 | d''4. g'8 c''4 b'4 | b'4( a'4) d''4 d''4 | d''4. g'8 c''4 b'4 |
+b'4( a'4) e''4 e''4 | e''4. d''8 c''4 b'4 | c''2 a'4 b'8[ c''8] | d''4. g'8 g'4 a'4 |
+b'2 e''4. e''8/-24 | e''4 d''4 c''4 b'4 | c''2 a'4 b'8[ c''8] | d''4. g'8 g'4 a'4 |
+g'2 s2 |
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 d'4 d'4 | d'4. d'8 d'4 g'4 | g'4( fis'4) g'4 fis'4 | e'4 a'4 g'4 fis'4 |
+g'2 d'4 d'4 | d'4. d'8 b4 g'4 | g'2 fis'4 e'4 | fis'4. d'8 d'4 cis'4 |
+d'2 d'4@c d'4 | d'4. g'8 a'4 g'4 | g'4( fis'4) d'4 d'4 | d'4. g'8 a'4 g'4 |
+g'4( fis'4) c''4 c''4 | c''4. b'8 a'4 gis'4 | a'2 fis'4 fis'4 | g'4. d'8 d'4 fis'4 | g'2 c''4 c''4 | c''4 b'4 a'4 gis'4 | a'2 d'4 fis'4 | g'4. d'8 d'4 <d' fis'>4 | d'2 s2 |
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 b4 b4 | b4. a8 g4 d'4 | d'2 d'4 d'4 | e'4 e'4 d'4 d'4 |
+d'2 b4 b4 | b4. a8 g4 d'4 | e'2 b4 a4 | a4. a8 b4 g4 |
+fis2 d'4@c d'4 | d'4. d'8 d'4 d'4 | d'2 d'4 d'4 | d'4. d'8 d'4 d'4 |
+d'2 e'4 e'4 | e'4. e'8 e'4 e'4 | e'2 d'4 d'4 | d'4. b8 b4 c'4 |
+b2 e'4 e'4 | e'4 d'4 c'4 b4 | c'2 d'4 d'4 | d'4. b8 b4 c'4 |
+b2 s2 |
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 g4 g4 | g4 d4/+24 b,4 g,4 | d2 b,4 b,4 | c4 c4 d4 d4 |
+g,2 g4 g4 | g4 d4/+24 e4 d4 | cis2 b,4 cis4 | d4 fis,4/+24 g,4 a,4 |
+d2 d'4@c d'4 | d'4. b8 fis4 g4 | d2 d'4 d'4 | d'4. b8 fis4 g4 | d2 c4 c4 |
+c4. c8 c4 e4 | a2 c'4 c'4 | b4. g8 d4 d4 | g,2 c4 c4 |
+c4 b4 a4 gis4 | a4( g4) fis4 c'4 | b4 g4/+24 d4 d4 | g2 s2 |
+"""
+
+[lyrics.1]
+text = "God in mer -- cy sent His Son To a world by sin un -- done; Je -- sus Christ was cru -- ci -- fied— ’Twas for sin -- ners Je -- sus died."
+
+[lyrics.2]
+text = "Sin and death no more shall reign, Je -- sus died, and lives a -- gain! In the glo -- ry’s high -- est height, See Him, God’s su -- preme de -- light."
+
+[lyrics.3]
+text = "All who in His name be -- lieve Ev -- er -- last -- ing life re -- ceive; Lord of all is Je -- sus now, Ev -- ’ry knee to Him must bow."
+
+[lyrics.4]
+text = "Christ the Lord will come a -- gain, He who suf -- fered once will reign, Ev -- ’ry tongue at last will own, “Je -- sus Christ is Lord” a -- lone."
+
+[lyrics.chorus]
+text = "Oh, the glo -- ry of the grace, Shin -- ing in the Sav -- iour’s face! Tell -- ing sin -- ners from a -- bove, “God is light” and “God is love,” Tell -- ing sin -- ners from a -- bove, “God is light” and “God is love.”"

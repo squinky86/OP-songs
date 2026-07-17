@@ -1,0 +1,72 @@
+title = "When I Survey the Wondrous Cross"
+subtitle = ""
+copyrights = [
+  "Lyrics: Isaac Watts, 1707 (public domain)",
+  "Music: 'Hamburg' by Lowell Mason, 1824 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license"
+]
+key_signature = "F"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 5
+phrase_breaks = ["4:64", "8:64", "12:64", "16:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+f'2 f'4 g'4 | a'2 g'4( a'4) | bes'2 a'4( g'4) | a'1 |
+a'2 a'4 a'4 | bes'2 a'4( g'4) | f'2 e'4( f'4) | g'1 |
+f'2 f'4 g'4 | a'2 g'4( a'4) | bes'2 a'4( g'4) | a'1 |
+a'2 a'4 a'4 | g'2 f'2 | g'2 a'4( g'4) | f'1
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+c'2 c'4 e'4 | f'2 g'4( fis'4) | g'2 f'4( e'4) | f'1 |
+f'2 f'4 f'4 | f'2 f'4( e'4) | f'2 c'2 | e'1 |
+c'2 c'4 e'4 | f'2 g'4( fis'4) | g'2 f'4( e'4) | f'1 |
+f'2 f'4 f'4 | e'2 f'2 | f'2 e'2 | f'1
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+a2 a4 c'4 | c'2 d'2 | d'2 c'2 | c'1 |
+c'2 c'4 c'4 | d'2 c'2 | c'2 bes4( a4) | c'1 |
+a2 a4 c'4 | c'2 d'4( c'4) | d'2 c'2 | c'1 |
+c'2 c'4 c'4 | c'4( bes4) a2 | d'2 c'4( bes4) | a1
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+f2 f4 c4 | f2 bes4( a4) | g2 c2 | f1 |
+f2 f4 f4 | f2 f4( bes4) | a2 g4( f4) | c1 |
+f2 f4 c4 | f2 bes4( a4) | g2 c2 | f1 |
+f2 f4 f4 | c2 d2 | bes,2 c2 | f1
+"""
+
+[lyrics.1]
+text = "When I sur -- vey the won -- drous cross On which the Prince of glo -- ry died, My rich -- est gain I count but loss, And pour con -- tempt on all my pride."
+
+[lyrics.2]
+text = "For -- bid it, Lord, that I should boast, Save in the death of Christ my God! All the vain things that charm me most, I sac -- ri -- fice them to His blood."
+
+[lyrics.3]
+text = "See from His head, His hands, His feet, Sor -- row and love flow min -- gled down! Did e'er such love and sor -- row meet, Or thorns com -- pose so rich a crown?"
+
+[lyrics.4]
+text = "His dy -- ing crim -- son, like a robe, Spreads o'er His bo -- dy on the tree; Then am I dead to all the globe, And all the globe is dead to me."
+
+[lyrics.5]
+text = "Were the whole realm of na -- ture mine, That were a pre -- sent far too small; Love so a -- maz -- ing, so di -- vine, De -- mands my soul, my life, my all."

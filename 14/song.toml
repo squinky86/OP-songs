@@ -1,0 +1,66 @@
+title = "How Shall the Young Direct Their Way?"
+copyrights = [
+  "Lyrics: The Psalter, #322, 1912 (public domain)",
+  "Music: Thomas Campbell, 1825 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 135
+verse_count = 2
+phrase_breaks = ["4:48", "8:64", "12:48", "16:64", "20:48", "24:48", "28:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+g'2 g'4. a'8 | b'2. d''4 | c''4( e'4) fis'4( a'4) | g'2. b4 | c'4( a'4) fis'4( d'4) | g'2 a'4( g'4) | fis'2 e'2 | d'1 | d'2 fis'4 g'4 | g'2( fis'4) d'4 | g'2 b'2 | a'2. d'4 | e'4( g'2) e'4 | d'4( g'2) a'4 | b'2 a'2 | g'1 | b'2 a'4 d'4 | g'2 a'4( b'4) | c''4( e'4) a'4( g'4) | fis'4.( e'8 d'4) d'4 | b4( d'4 g'4) d'4 | e'4( g'4 c''4) e'4 | fis'4( a'4 d''4) fis'4 | g'2. g'4 | b'2 b'2 | a'2. a'4 | c''2 c''2 | b'2. b'4 | e''4 g'4 e''2 | d''2 c''4( a'4) | g'2( fis'2) | g'1
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+b2 d'4. d'8 | d'2. d'4 | e'4( c'4) c'2 | b2. b4 | c'2 a2 | d'2 d'2 | d'2 cis'2 | d'1 | d'2 d'4 d'4 | d'2. d'4 | d'2 d'2 | d'2. d'4 | c'4( e'2) c'4 | d'2. e'4 | d'2 c'2 | b1 | d'2 d'4 d'4 | d'2 d'2 | e'2 e'2 | d'2. d'4 | b2. b4 | c'4( e'2) e'4 | d'2. c'4 | b2. g'4 | b'2 d'2 | d'2. a'4 | c''2 d'2 | d'2. b'4 | e''4 g'4 g'2 | g'2 e'2 | d'2( c'2) | b1
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+suppress_verses = [1, 2]
+suppress_verses_when = ["soprano", "alto"]
+notes = """
+d2 g4. fis8 | g2. b4 | a2 a4( fis4) | g2. d4 | e2 d4( fis4) | g2 c'4( b4) | a2 g2 | fis1 | fis2 a4 b4 | b2( a4) fis4 | g2 g2 | fis2. g4 | g2. g4 | g2. g4 | g2 fis2 | g1 | g2 fis4 fis4 | g2 fis4( g4) | g2 e4( a4) | a4.( g8 fis4) fis4 | g2. g4 | g2. a4 | a4( fis2) a4 | g2. r4 | r2 g2 | fis2. r4 | r2 fis2 | g4( b4 g4) r4 | r4 c'4 c'2 | b2 a4( c'4) | b2( a2) | g1
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+suppress_verses = [1, 2]
+suppress_verses_when = ["soprano", "alto"]
+notes = """
+g,2 b,4. d8 | g4( d4 b,4) g,4 | c2 d2 | g,2. g,4 | c2 d4( c4) | b,2 a,4( g,4) | a,2 a,2 | d1 | d2 d4 d4 | d2. c4 | b,2 g,2 | d2. b,4 | c2. c4 | b,2. c4 | d2 d2 | g,1 | g,2 d4 c4 | b,2 a,4( g,4) | c2 cis2 | d2. d4 | g,2. g,4 | c2. c4 | d2. d4 | g,2. r4 | r2 g,2 | d2. r4 | r2 d2 | g2. r4 | r4 c4 e4( c4) | g2 c2 | d1 | g,1
+"""
+[lyrics.1]
+text = "How shall the young di -- rect their way? What light shall be their per -- fect guide? Thy Word, O Lord, will safe -- ly lead, If in its wis -- dom they con -- fide. Sin -- cere -- ly I have sought Thee, Lord, O let me not from Thee de -- part; To know Thy will and keep from sin Thy Word I cher -- ish in my heart."
+
+[lyrics.2]
+text = "O bless -- èd Lord, teach me Thy law, Thy right -- eous judg -- ments I de -- clare; Thy tes -- ti -- mo -- nies make me glad, For they are wealth be -- yond com -- pare. Up -- on Thy pre -- cepts and Thy ways My heart will me -- di -- tate with awe; Thy Word shall be my chief de -- light, And I will not for -- get Thy law."
+
+[parts.Tenor.lyrics.1]
+text = "How shall the young di -- rect their way? What light shall be their per -- fect guide? Thy Word, O Lord, will safe -- ly lead, If in its wis -- dom they con -- fide. Sin -- cere -- ly I have sought Thee, Lord, O let me not from Thee de -- part; Thy will from sin I cher -- ish in my heart."
+
+[parts.Tenor.lyrics.2]
+text = "O bless -- èd Lord, teach me Thy law, Thy right -- eous judg -- ments I de -- clare; Thy tes -- ti -- mo -- nies make me glad, For they are wealth be -- yond com -- pare. Up -- on Thy pre -- cepts and Thy ways My heart will me -- di -- tate with awe; shall be de -- light, will not for -- get Thy law."
+
+[parts.Bass.lyrics.1]
+text = "How shall the young di -- rect their way? What light shall be their per -- fect guide? Thy Word, O Lord, will safe -- ly lead, If in its wis -- dom they con -- fide. Sin -- cere -- ly I have sought Thee, Lord, O let me not from Thee de -- part; Thy will from sin I cher -- ish in my heart."
+
+[parts.Bass.lyrics.2]
+text = "O bless -- èd Lord, teach me Thy law, Thy right -- eous judg -- ments I de -- clare; Thy tes -- ti -- mo -- nies make me glad, For they are wealth be -- yond com -- pare. Up -- on Thy pre -- cepts and Thy ways My heart will me -- di -- tate with awe; shall be de -- light, will not for -- get Thy law."

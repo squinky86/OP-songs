@@ -1,0 +1,62 @@
+title = "Beneath the Cross of Jesus"
+copyrights = [
+  "Lyrics: Elizabeth Cecilia Clephane, 1868 (Public Domain)",
+  "Music: Frederick C. Maker, 1881 (Public Domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Db"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 4
+phrase_breaks = ["5:48", "9:48", "13:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. aes'4 | aes'4. aes'8 g'4 bes'4 | aes'2 f'4 des'4 | ees'4. f'8 ges'4 ges'4 | f'2. f'4 | des''4. des''8 des''4 c''4 | bes'4 aes'4 ges'4 f'4 | ees'4. ees'8 e'4 e'4 | f'2. f'4 
+| f'4. ees'8 des'4 ees'4 | f'4 ges'4 aes'4 aes'4 | bes'4. bes'8 bes'4 f'4 | ges'2. ges'8-( ges'8-) | c''4. bes'8 aes'4 ges'4 | f'4 f'4 aes'4 ges'8-( ges'8-) | f'4. des'8 f'4 ees'4 | des'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. f'4 | f'4. f'8 e'4 e'4 | f'2 des'4 des'4 | c'4. des'8 des'4 c'4 | des'2. ees'4 
+| des'4. des'8 des'4 ees'4 | f'4 f'4 ees'4 des'4 | des'4. des'8 des'4 bes4 | c'2. des'4 
+| des'4. c'8 des'4 des'4 | des'4 des'4 des'4 des'4 | des'4. des'8 d'4 d'4 | ees'2. ees'8-( ees'8-) | ges'4. ges'8 ges'4 c'4 | des'4 des'4 des'4 des'8-( des'8-) | des'4. des'8 c'4 c'4 | des'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. aes4 | aes4. aes8 bes4 g4 | aes2 aes4 aes4 | aes4. aes8 bes4 aes4 | aes2. a4 
+| bes4. bes8 bes4 a4 | bes4 bes4 bes4 bes4 | bes4. bes8 bes4 bes4 | a2. aes4 
+| aes4. ges8 f4 ges4 | aes4 bes4 ces'4 ces'4 | bes4. bes8 bes4 bes4 | bes2. bes8-( bes8-) | ees'4. des'8 c'4 aes4 | aes4 aes4 ces'4 bes8-( bes8-) | aes4. f8 aes4 ges4 | f2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. des4 | des4. des8 des4 des4 | des2 des4 f4 | ges4. f8 ees4 aes,4 | des2. c4 
+| bes,4. bes,8 bes,4 c4 | des4 d4 ees4 f4 | ges4. ges8 ges4 ges4 | f2. des4 | des4. des8 des4 des4 | des4 des4 des4 des4 | ges4. ges8 f4 bes,4 | ees2. ees8-( ees8-) | aes,4. aes,8 aes,4 aes,4 | des4 des4 f,4 ges,8-( ges,8-) | aes,4. aes,8 aes,4 aes,4 | des2. s4
+"""
+
+[lyrics.1]
+text = "Be -- neath the cross of Je -- sus I fain would take my stand, The sha -- dow of a migh -- ty rock With -- in a wea -- ry land; A home with -- in the wil -- der -- ness, A rest up -- on the way, From the burn -- ing of the noon -- tide heat And the bur -- den of the day."
+
+[lyrics.2]
+text = "O safe and hap -- py shel -- ter! O ref -- uge tried and sweet! O tryst -- ing place where heav -- en's love And heav -- en's jus -- tice meet! As to the ho -- ly pa -- tri -- arch That won -- drous dream was giv'n, So _ seems my Sav -- ior's cross to me: A _ lad -- der up to heav'n."
+
+[lyrics.3]
+text = "Up -- on that cross of Je -- sus Mine eyes at times can see The ve -- ry dy -- ing form of One Who suf -- fered there for me; And from my smit -- ten heart, with tears, Two won -- ders I con -- fess: The _ won -- ders of His glo -- rious love, And _ my own worth -- less -- ness."
+
+[lyrics.4]
+text = "I take, O cross, your sha -- dow For my a -- bi -- ding place; I ask no oth -- er sun -- shine than The sun -- shine of His face; Con -- tent to let the world go by, To know no gain nor loss; My _ sin -- ful self my on -- ly shame, My _ glo -- ry all the cross!"

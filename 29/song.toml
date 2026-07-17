@@ -1,0 +1,59 @@
+title = "We Plow the Fields and Scatter"
+subtitle = ""
+copyrights = [
+  "Lyrics: Matthias Claudius, 1782 (public domain)",
+  "Translation: Jane M. Campbell, 1861 (public domain)",
+  "Music: Johann A. P. Schulz, 1800 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license"
+]
+key_signature = "A"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 140
+verse_count = 3
+phrase_breaks = ["5:48", "9:48", "13:48", "17:64", "21:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. e'4 | a'4 a'4 e'4 e'4 | cis''2 a'4 e'4 | d'4 cis'4 b4 a4 | e'2. a'4 | gis'4 fis'4 e'4 cis''4 | b'4( a'4) gis'4 e'4 | fis'4 cis''4 b'4 dis'4 | e'2. e'4 | b'4 b'4 cis''4 cis''4 | d''2 b'4 b'4 | e''4 e''4 d''4 cis''4 | b'2. e'4 | a'4 a'4 e'4 e'4 | fis'2 cis'4 cis'4 | d'4. b8 e'4 gis'4 | a'1 | a'4@c a'4 a'4 a'4 | b'2 b'4 b'4 | cis''4. e''8 d''4 cis''4 | b'2. b'4 | cis''4 b'4 cis''4. b'8 | a'4 gis'4 a'4. e'8 | fis'4( b'4 a'4) gis'4 | a'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. e'4 | a'4 a'4 e'4 e'4 | cis''2 a'4 e'4 | d'4 cis'4 b4 a4 | e'2. e'4 | e'4 dis'4 e'4 e'4 | e'4( dis'4) e'4 e'4 | e'4 e'4 dis'4 b4 | b2. e'4 | e'4 e'4 e'4 e'4 | e'2 e'4 e'4 | e'4 e'4 e'4 e'4 | e'2. e'4 | a'4 a'4 e'4 e'4 | fis'2 cis'4 cis'4 | d'4. b8 e'4 d'4 | cis'1 | cis'4@c cis'4 cis'4 cis'4 | e'2 e'4 gis'4 | a'4. a'8 gis'4 a'4 | gis'2. e'4 | e'4 e'4 e'4. e'8 | cis'4 eis'4 fis'4. e'8 | d'4( fis'4 a'4) gis'4 | e'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. e4 | a4 a4 e4 e4 | cis'2 a4 e4 | d4 cis4 b,4 a,4 | e2. a4 | b4 b4 b4 a4 | gis4( fis4) e4 b4 | cis'4 fis4 fis4 a4 | gis2. e4 | gis4 gis4 a4 a4 | a2 gis4 gis4 | a4 a4 gis4 a4 | gis2. e4 | a4 a4 e4 e4 | fis2 cis4 cis4 | d4. b,8 e4 b4 | a1 | e4@c e4 a4 cis'4 | gis2 gis4 e'4 | e'4. e'8 e'4 e'4 | e'2. b4 | a4 gis4 a4. gis8 | fis4 cis'4 cis'4. a8 | a4( d'4 cis'4) b4 | cis'2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. e4 | a4 a4 e4 e4 | cis'2 a4 e4 | d4 cis4 b,4 a,4 | e2. cis4 | b,4 a,4 gis,4 a,4 | gis4( fis4) cis4 gis,4 | a,4 a,4 b,4 b,4 | e2. e4 | d4 d4 cis4 cis4 | b,2 e4 d4 | cis4 cis4 b,4 a,4 | e2. e4 | a4 a4 e4 e4 | fis2 cis4 cis4 | d4. b,8 e4 e4 | a,1 | a,4@c e4 cis4 a,4 | e2 e4 e4 | a4. cis'8 b4 a4 | e2. e4 | a4 e4 a4. e8 | fis4 cis4 fis4. cis8 | d4( b,4 cis'4) b4 | a,2. s4
+"""
+
+
+[lyrics.1]
+text = "We plow the fields and scat -- ter the good seed on the land, but it is fed and wa -- tered by God's al -- might -- y hand. God sends the snow in win -- ter, the warmth to swell the grain, the breez -- es, and the sun -- shine, and soft re -- fresh -- ing rain."
+
+[lyrics.2]
+text = "You on -- ly are the Mak -- er of all things near and far. You paint the way -- side flow -- er, you light the eve -- ning star. The winds and waves o -- bey you, by you the birds are fed; much more to us, your chil -- dren, you give our da -- ly bread."
+
+[lyrics.3]
+text = "We thank you, then, Cre -- a -- tor, for all things bright and good, the seed -- time, and the har -- vest, our life, our health, our food. Ac -- cept the gifts we of -- fer for all your love im -- parts, and what you most would wel -- come: our hum -- ble thank -- ful hearts."
+
+[lyrics.chorus]
+text = "All good gifts a -- round us are sent from heav'n a -- bove. We thank you, God, we thank you, God, for all your love."

@@ -1,0 +1,64 @@
+title = "Blest Be the Tie That Binds"
+subtitle = ""
+copyrights = [
+  "Lyrics: John Fawcett, 1782 (public domain)",
+  "Music: 'Dennis' by Johann G. Nägeli, 1828 (public domain)",
+  "Arrangement: Lowell Mason, 1845 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 88
+verse_count = 6
+phrase_breaks = ["4:32", "7:32", "11:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 a'4 | a'4( f'4) a'4 | g'4( e'4) g'4 | f'2 f'4 | f'4( d'4) f'4 | f'4( c'4) f'4 | e'2 g'4 | g'4( e'4) g'4 | f'4( a'4) c''4 | c''4( g'4) bes'4 | a'4( c''4) d''4 | c''4( a'4) bes'4 | a'4( f'4) g'4 | f'2 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 f'4 | f'4( c'4) f'4 | e'4( c'4) c'4 | c'2 ees'4 | d'4( bes4) d'4 | c'4( a4) c'4 | c'2 e'4 | e'4( c'4) c'4 | c'4( f'4) f'4 | e'2 g'4 | f'2 f'4 | f'2 f'4 | f'4( c'4) c'4 | c'2 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 c'4 | c'4( a4) c'4 | c'4( g4) bes4 | a2 a4 | bes4( f4) bes4 | a4( f4) a4 | g2 c'4 | c'4( g4) bes4 | a4( c'4) a4 | g4( c'4) c'4 | c'4( a4) bes4 | a4( c'4) d'4 | c'4( a4) bes4 | a2 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 f4 | f2 f4 | e2 c4 | f2 f4 | bes,2 bes,4 | f2 f4 | c2 c4 | c2 c4 | f2 c4 | c2 c4 | f2 f4 | f2 bes,4 | c2 c4 | f2 s4
+"""
+
+[lyrics.1]
+text = "Blest be the tie that binds Our hearts in Chris -- tian love; The fel -- low -- ship of kin -- dred minds Is like to that a -- bove."
+
+[lyrics.2]
+text = "Be -- fore our Fa -- ther's throne We pour our ar -- dent prayers; Our fears, our hopes, our aims are one, Our com -- forts and our cares."
+
+[lyrics.3]
+text = "We share our mu -- tual woes, Our mu -- tual bur -- dens bear, And of -- ten for each oth -- er flows The sym -- pa -- thiz -- ing tear."
+
+[lyrics.4]
+text = "When we are called to part, It gives us in -- ward pain; But we shall still be joined in heart, And hope to meet a -- gain."
+
+[lyrics.5]
+text = "This glo -- rious hope re -- vives Our cour -- age by the way; While each in ex -- pec -- ta -- tion lives And waits to see the day."
+
+[lyrics.6]
+text = "From sor -- row, toil, and pain, And sin, we shall be free; And per -- fect love and friend -- ship reign Through all e -- ter -- ni -- ty."

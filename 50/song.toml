@@ -1,0 +1,66 @@
+title = "Amazing Grace"
+subtitle = ""
+copyrights = [
+  "Lyrics: John Newton, 1779 (public domain)",
+  "Music: 'New Britain' by James P. Carrell and David L. Clayton, 1831 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license"
+]
+key_signature = "G"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 100
+phrase_breaks = ["5:32", "9:32", "13:32"]
+verse_count = 7
+
+[lyrics.1]
+text = "A -- maz -- ing grace! How sweet the sound That saved a wretch like me! I once was lost, but now am found; Was blind, but now I see."
+
+[lyrics.2]
+text = "'Twas grace that taught my heart to fear, And grace my fears re -- lieved; How pre -- cious did that grace ap -- pear The hour I first be -- lieved."
+
+[lyrics.3]
+text = "Through man -- y dan -- gers, toils and snares I have al -- read -- y come: 'tis grace has brought me safe thus far, and grace will lead me home."
+
+[lyrics.4]
+text = "The Lord has prom -- ised good to me, his word my hope se -- cures; he will my shield and por -- tion be as long as life en -- dures."
+
+[lyrics.5]
+text = "Yes, when this flesh and heart shall fail, and mor -- tal life shall cease: I shall pos -- sess, with -- in the veil, a life of joy and peace."
+
+[lyrics.6]
+text = "The earth shall soon dis -- solve like snow, the sun for -- bear to shine; but God, who called me here be -- low, will be for -- ev -- er mine."
+
+[lyrics.7]
+text = "When we've been there ten thou -- sand years, Bright shin -- ing as the sun, We've no less days to sing God's praise Than when we'd first be -- gun."
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 d'4 | g'2 b'8[ g'8] | b'2 a'4 | g'2 e'4 | d'2 d'4 | g'2 b'8[ g'8] | b'2 a'4 | d''2.~ | d''2 b'4 | d''4.( b'8) d''8[ b'8] | g'2 d'4 | e'4.( g'8) g'8[ e'8] | d'2 d'4 | g'2 b'8[ g'8] | b'2 a'4 | g'2.~ | g'2 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 b4 | b2 d'4 | d'2 c'4 | b2 c'4 | b2 b4 | b2 d'4 | d'2 d'4 | d'2.~ | d'2 d'4 | d'2 d'4 | d'2 d'4 | c'4.( d'8) c'4 | b2 d'4 | b2 d'4 | g'2 fis'4 | d'2.~ | d'2 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 g4 | d2 g4 | g2 fis4 | g2 g4 | g2 g4 | b2 g4 | g2 fis4 | g2.~ | g2 g4 | b4.( g8) b8[ g8] | g2 g4 | g2 e8[ g8] | g2 g4 | g2 g8[ b8] | d'2 d'4 | b2.~ | b2 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 g,4 | g,2 g,8[ b,8] | d2 d4 | e2 c4 | g,2 g,4 | g,2 g,8[ b,8] | d2 c4 | b,2.~ | b,2 g,4 | g2 g4 | b,2 b,4 | c4.( b,8) c4 | g,2 b,4 | e2 d4 | d2 d4 | g2.~ | g2 s4
+"""

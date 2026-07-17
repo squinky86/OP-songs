@@ -1,0 +1,64 @@
+title = "Just As I Am Without One Plea"
+phrase_breaks = ["3:80", "5:80", "7:80"]
+copyrights = [
+  "Lyrics: Charlotte Elliott, 1835 (public domain)",
+  "Music: 'Woodworth' by William B. Bradbury, 1849 (public domain)",
+  "Setting: \"The New Hymnal (Episcopal)\", 1916 (public domain)",
+  "Obtained from the [Open Hymnal Project](http://openhymnal.org/), 2006 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "D"
+time_sig_numerator = 6
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 6
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s1 s4 d'8[ e'8] | fis'2 fis'4 a'4.( g'8) fis'4 | e'4.( fis'8) g'4 fis'2 a'4 | a'4( e'4) fis'4 g'2 b'4 | b'2 a'4 fis'2 d'8[ e'8] | fis'2 fis'4 a'4.( g'8) fis'4 | b'2 b'4 d''4.( cis''8) b'4 | a'2 a'4 a'4.( g'8) fis'4 | e'2. a'2. | fis'1(~ fis'4) s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s1 s4 d'4 | d'2 d'4 fis'4.( e'8) d'4 | cis'4.( d'8) e'4 d'2 fis'4 | e'2 d'4 e'2 g'4 | g'2 fis'4 d'2 d'4 | d'2 d'4 fis'4.( e'8) d'4 | g'2 g'4 g'2 g'4 | fis'2 fis'4 fis'4.( e'8) d'4 | cis'2. cis'2. | d'1(~ d'4) s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s1 s4 fis8[ g8] | a2 a4 a2 a4 | a2 a4 a2 d'4 | cis'2 a4 a2 cis'4 | d'2 d'4 a2 fis8[ g8] | a2 a4 a2 d'4 | d'2 d'4 b4.( cis'8) d'4 | d'2 d'4 a2 a4 | a2. a2. | a1(~ a4) s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s1 s4 d4 | d2 d4 d2 d4 | a,2 a,4 d2 d4 | a2 a4 a2 a,4 | d2 d4 d2 d4 | d2 d4 d4.( e8) fis4 | g2 g4 g2 g4 | d2 d4 d2 d4 | a2. a,2. | d1(~ d4) s4
+"""
+
+[lyrics.1]
+text = "Just as I am, wi -- thout one plea, But that Thy blood was shed for me, And that Thou bid'st me come to Thee, O Lamb of God, I come, I come."
+
+[lyrics.2]
+text = "Just as I am, and wai -- ting not To rid my soul of one dark blot, To Thee, Whose blood can cleanse each spot, O Lamb of God, I come, I come."
+
+[lyrics.3]
+text = "Just as I am, though tossed a -- bout With ma -- ny'a con -- flict, ma -- ny'a doubt, Figh -- tings and fears with -- in, with -- out, O Lamb of God, I come, I come."
+
+[lyrics.4]
+text = "Just as I am, poor, wre -- tched, blind; Sight ri -- ches hea -- ling of the mind, Yea, all I need, in Thee to find, O Lamb of God, I come, I come."
+
+[lyrics.5]
+text = "Just as I am, Thou wilt re -- ceive, Wilt wel -- come, par -- don, cleanse, re -- lieve, Be -- cause Thy pro -- mise I be -- lieve, O Lamb of God, I come, I come."
+
+[lyrics.6]
+text = "Just as I am, Thy love un -- known Has bro -- ken ev -- ery bar -- rier down; Now to be Thine, yea Thine a -- lone, O Lamb of God, I come, I come."

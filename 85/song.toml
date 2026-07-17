@@ -1,0 +1,78 @@
+title = "Father, Hear the Prayer We Offer"
+subtitle = ""
+tempo_bpm = 96
+key_signature = "F"
+time_sig_numerator = 3
+time_sig_denominator = 2
+phrase_breaks = ["2:96", "4:96", "6:96", "8:96"]
+copyrights = [
+  "Lyrics: Love M. Whitcomb Willis, 1859 (public domain)",
+  "Music: 'St. Sylvester' by John B. Dykes, 1862 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license"
+]
+
+verse_count = 4
+
+[lyrics.1]
+text = """
+Fa -- ther, hear the prayer we of -- fer:
+not for ease that prayer shall be,
+but for strength that we may ev -- er
+live our lives cour -- a -- geous -- ly.
+"""
+
+[lyrics.2]
+text = """
+Not for ev -- er in green pas -- tures
+do we ask our way to be;
+but the steep and rug -- ged path -- way
+may we tread re -- joi -- cing -- ly.
+"""
+
+[lyrics.3]
+text = """
+Not for ev -- er by still wa -- ters
+would we id -- ly rest and stay;
+but would smite the liv -- ing foun -- tains
+from the rocks a -- long our way.
+"""
+
+[lyrics.4]
+text = """
+Be our strength in hours of weak -- ness,
+in our wan -- der -- ings be our guide;
+through en -- dea -- vour, fai -- lure, dan -- ger,
+Fa -- ther, be thou at our side.
+"""
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+a'4. a'8 a'4 a'4 g'4 a'4 | bes'4( c''4) a'1 | a'4. a'8 a'4 a'4 a'4 g'4 | g'1. | f'4. f'8 f'4 f'4 a'4 c''4 | c''4( bes'4) a'1 | g'4. g'8 g'4 g'4 a'4 g'4 | f'1.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+f'4. f'8 f'4 f'4 e'4 f'4 | f'4( e'4) f'1 | f'4. f'8 f'4 f'4 f'4 f'4 | e'1. | f'4. d'8 c'4 f'4 f'4 f'4 | c''4( bes'4) f'1 | f'4. f'8 f'4 f'4 e'4 e'4 | f'1.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+c'4. c'8 c'4 a4 bes4 a4 | g2 a2( c'2) | d'4. d'8 d'4 c'4 b4 b4 | c'2( g2 bes2) | a4. bes8 a4 a4 c'4 ees'4 | d'2 c'2( a2) | b4. b8 b4 b4 c'4 bes4 | a1.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+f4. f8 f4 f4 g4 f4 | c2 f1 | d4. d8 d4 d4 g4 g4 | c1. | f4. f8 f4 f4 f4 f4 | bes,2 f1 | g4. g8 g4 d4 c4 c4 | f1.
+"""

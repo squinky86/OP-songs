@@ -1,0 +1,73 @@
+title = "Jesus Paid It All"
+copyrights = [
+  "Lyrics: Elvina M. Hall, 1865 (public domain)",
+  "Music: John T. Grape, 1868 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Db"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 105
+verse_count = 6
+phrase_breaks = ["5:32", "9:48", "13:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 des'8[ f'8] | aes'4. bes'8 aes'8 f'8 | des'2 des'4 | ees'4. ees'8 des'8 ees'8
+| f'2 des'8-( f'8-) | aes'4. bes'8 aes'8 f'8 | des'2 des'8-( ees'8-) | f'4. ges'8 f'8 ees'8 | des'2.
+| aes'4.@c bes'8 aes'8 f'8 | des''2. | aes'4. bes'8 aes'8 f'8 | ees'2. | aes'4. bes'8 aes'8 f'8 | des''8 c''8 bes'4! des''4 | f'4. ges'8 f'8 ees'8 | des'2 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 des'4 | f'4. ges'8 f'8 des'8 | des'2 des'4 | c'4. c'8 bes8 c'8
+| des'2 des'8-( des'8-) | f'4. ges'8 f'8 des'8 | des'2 des'8-( des'8-) | des'4. ees'8 des'8 c'8 | des'2.
+| f'4.@c ges'8 f'8 des'8 | f'2. | f'4. ges'8 f'8 des'8 | c'2. | f'4. ges'8 f'8 des'8 | f'8 aes'8 ges'4! des'4 | des'4. ees'8 des'8 c'8 | aes2 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 f8[ aes8] | des'4. des'8 des'8 aes8 | f2 aes4 | aes4. ges8 f8 aes8
+| aes2 f8-( aes8-) | des'4. des'8 des'8 aes8 | f2 aes8-( bes8-) | aes4. aes8 aes8 ges8 | f2.
+| des'4.@c des'8 des'8 aes8 | aes2. | des'4. des'8 des'8 aes8 | aes2. | des'4. des'8 des'8 aes8 | aes8 des'8 des'4! bes4 | aes4. aes8 aes8 ges8 | f2 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 des4 | des4. des8 des8 des8 | des2 f,4 | aes,4. aes,8 bes,8 aes,8
+| des2 des8-( des8-) | des4. des8 des8 des8 | des2 f8-( ges8-) | aes4. aes,8 aes,8 aes,8 | des2.
+| des4.@c des8 des8 des8 | des2. | des4. des8 des8 f8 | aes2. | des4. des8 des8 des8 | des8 f8 ges4! g4 | aes4. aes,8 aes,8 aes,8 | des2 s4
+"""
+
+[lyrics.1]
+text = "I hear the Sav -- ior say, “Thy strength in -- deed is small; Child of weak -- ness, watch and pray, Find in Me thine all in all.”"
+
+[lyrics.2]
+text = "Lord, now in -- deed I find Thy pow’r and Thine a -- lone, Can _ change the lep -- er’s spots And _ melt the heart of stone."
+
+[lyrics.3]
+text = "For noth -- ing good have I Where -- by Thy grace to claim; I’ll _ wash my gar -- ments white In the blood of Cal -- v’ry’s Lamb."
+
+[lyrics.4]
+text = "And now com -- plete in Him My robe His right -- eous -- ness, Close _ shel -- tered ’neath His side, I _ am di -- vine -- ly blest."
+
+[lyrics.5]
+text = "When from my dy -- ing bed My ran -- somed soul shall rise, “Je -- sus died my soul to save,” Shall _ rend the vault -- ed skies."
+
+[lyrics.6]
+text = "And when be -- fore the throne I stand in Him com -- plete, I’ll _ lay my tro -- phies down All _ down at Je -- sus’ feet."
+
+[lyrics.chorus]
+text = "Je -- sus paid it all, All to Him I owe; Sin had left a crim -- son stain, He washed it white as snow."

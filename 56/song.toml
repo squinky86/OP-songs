@@ -1,0 +1,61 @@
+title = "All the Way My Savior Leads Me"
+subtitle = ""
+tempo_bpm = 96
+key_signature = "G"
+time_sig_numerator = 3
+time_sig_denominator = 4
+verse_count = 3
+phrase_breaks = [ "5:32", "9:32", "13:32", "17:32", "21:48" ]
+copyrights = [
+    "Lyrics: Fanny J. Crosby, 1875 (public domain)",
+    "Music: Robert Lowry, 1875 (public domain)",
+    "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license"
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 b'8. b'16 | b'4. b'8 a'8 g'8 | d'4 g'4 g'8 b'8 | a'4. fis'8 g'8 a'8
+| b'2 b'8. b'16 | c''4. b'8 a'8 g'8 | b'4 a'4 a'8 a'8 | a'4. e'8 fis'8 g'8 | fis'2 e'8 d'8 | g'4. a'8 g'8 e'8 | d'4 g'4 g'8 a'8 | b'4. g'8 c''8 b'8 | a'2 b'8 c''8 | d''4. b'8 a'8 g'8 | a'4 g'4 fis'8 e'8 | d'8 g'8 b'4 a'4 | b'2 b'8 c''8 | d''4. b'8 a'8 g'8 | a'4 g'4 fis'8 e'8 | d'8 g'8 b'4 a'4 | g'2 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 d'8. d'16 | d'4. d'8 c'8 b8 | b4 b4 b8 d'8 | d'4. d'8 d'8 d'8
+| d'2 d'8. d'16 | e'4. d'8 c'8 b8 | d'4 d'4 d'8 d'8 | cis'4. cis'8 cis'8 cis'8 | d'2 c'8 c'8 | b4. c'8 b8 c'8 | b4 b4 d'8 d'8 | d'4. b8 e'8 d'8 | d'2 d'8 d'8 | d'4. d'8 d'8 d'8 | c'4 e'4 d'8 c'8 | b8 d'8 d'4 d'4 | g'2 d'8 d'8 | d'4. d'8 d'8 d'8 | c'4 e'4 d'8 c'8 | b8 d'8 g'4 fis'4 | d'2 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 g8. g16 | g4. g8 g8 g8 | g4 d4 d8 g8 | fis4. a8 g8 fis8
+| g2 g8. g16 | g4. g8 fis8 g8 | g4 fis4 fis8 fis8 | e4. g8 a8 b8 | a2 g8 fis8 | g4. g8 g8 g8 | g4 d4 g8 fis8 | g4. g8 g8 g8
+| fis2 g8 a8 | b4. g8 fis8 g8 | e4 g4 g8 g8 | g8 g8 g4 fis4
+| g2 g8 a8 | b4. g8 fis8 g8 | e4 g4 g8 g8 | g8 g8 g4 fis4 | b2 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 g,8. g,16 | g,4. g,8 g,8 g,8 | g,4 g,4 g,8 g,8 | d4. c8 b,8 a,8
+| g,2 g8. g16 | g4. g8 d8 e8 | d4 d4 d8 d8 | a,4. a,8 a,8 a,8 | d2 d8 d8 | g,4. g,8 g,8 g,8 | g,4 g,4 b,8 d8 | g4. g8 g8 g8 | d2 g8 g8 | g4. g,8 a,8 b,8 | c4 c4 c8 c8 | d8 d8 d4 d4
+| g2 g8 g8 | g4. g,8 a,8 b,8 | c4 c4 c8 c8 | d8 d8 d4 d4 | <g, g>2 s4
+"""
+
+[lyrics.1]
+text = "All the way my Sa -- vior leads me; what have I to ask be -- side? Can I doubt his ten -- der mer -- cy, who through life has been my guide? Heav'n -- ly peace, di -- vin -- est com -- fort, here by faith in him to dwell! For I know, what -- e'er be -- fall me, Je -- sus do -- eth all things well; for I know, what -- e'er be -- fall me, Je -- sus do -- eth all things well."
+
+[lyrics.2]
+text = "All the way my Sa -- vior leads me; cheers each wind -- ing path I tread, gives me grace for ev -- 'ry tri -- al, feeds me with the liv -- ing bread. Though my wea -- ry steps may fal -- ter and my soul a -- thirst may be, gush -- ing from the rock be -- fore me, lo! A spring of joy I see; gush -- ing from the rock be -- fore me, lo! A spring of joy I see."
+
+[lyrics.3]
+text = "All the way my Sa -- vior leads me; O the full -- ness of his love! Per -- fect rest to me is pro -- mised in my Fa -- ther's house a -- bove. When my spir -- it, clothed im -- mor -- tal, wings its flight to realms of day, this my song through end -- less a -- ges: Je -- sus led me all the way; this my song through end -- less a -- ges: Je -- sus led me all the way."

@@ -1,0 +1,72 @@
+title = "Behold! Behold the Lamb of God."
+subtitle = "On the Cross"
+copyrights = [
+  "Lyrics: Joseph Hoskins, 1789 (public domain)",
+  "Music: 'Ephesus' (a.k.a. 'Mercy's Free') by D. F. E. Auber, 1828 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 9
+time_sig_denominator = 8
+tempo_bpm = 80
+verse_count = 5
+phrase_breaks = ["4:72", "8:72", "12:72"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+c''4(%mp bes'8) a'4 a'8 a'4 a'8\\< | a'8[ bes'8] c''8 d''4.-(\\! c''4.-) | c''8[ bes'8] a'8 g'4.( bes'4.)\\> | a'4 g'8\\! f'4.~ f'4. |
+c''4( bes'8) a'4 a'8 a'4 a'8 | a'8[ bes'8]\\< c''8 d''4.-(\\! c''4.-) | c''8[ bes'8] a'8 g'4.( bes'4.) | a'4\\> g'8\\! f'4.~ f'4. |
+c''4.%mf c''4 bes'8 g'4 d''8 | d''4 c''8 a'4.~ a'4. | c''4. c''4 bes'8 g'4 d''8 | f''8[\\> d''8] c''8\\! a'4.~ a'4. |
+c''4(%mp bes'8) a'4 a'8 a'4 a'8\\< | a'8[ bes'8] c''8 d''4.(\\! c''4.) | c''8[ bes'8] a'8 g'4.(\\> bes'4.) | a'4\\! g'8 f'4.~ f'4. |
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+a'4(%mp g'8) f'4 f'8 f'4 f'8\\< | f'8[ g'8] a'8 bes'4.-(\\! f'4.-) | a'8[ g'8] f'8 e'4.( g'4.)\\> | f'4 e'8\\! f'4.~ f'4. |
+a'4( g'8) f'4 f'8 f'4 f'8 | f'8[ g'8]\\< a'8 bes'4.-(\\! f'4.-) | a'8[ g'8] f'8 e'4.( g'4.) | f'4\\> e'8\\! f'4.~ f'4. |
+f'4.%mf e'4 g'8 e'4 e'8 | f'4 f'8 f'4.~ f'4. | f'4. e'4 g'8 e'4 e'8 | g'8[\\> f'8] f'8\\! f'4.~ f'4. |
+a'4(%mp g'8) f'4 f'8 f'4 f'8\\< | f'8[ g'8] a'8 bes'4.(\\! f'4.) | a'8[ g'8] f'8 e'4.(\\> g'4.) | f'4\\! e'8 f'4.~ f'4. |
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+c'4.%mp c'4 c'8 c'4 c'8\\< | c'4 c'8 bes4.-(\\! a4.-) | c'4 c'8 c'4.~ c'4.\\> | c'4 bes8\\! a4.~ a4. |
+c'4. c'4 c'8 c'4 c'8 | c'4\\< c'8 bes4.-(\\! a4.-) | c'4 c'8 c'4.~ c'4. | c'4\\> bes8\\! a4.~ a4. |
+a4.%mf g4 c'8 c'4 bes8 | bes4 a8 c'4.~ c'4. | a4. g4 c'8 c'4 bes8 | bes4\\> a8\\! c'4.~ c'4. |
+c'4.%mp c'4 c'8 c'4 c'8\\< | c'4 c'8 bes4.(\\! a4.) | c'4 c'8 c'4.~\\> c'4. | c'4\\! bes8 a4.~ a4. |
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+f4.%mp f4 f8 f4 f8\\< | f4 f8 bes,4.-(\\! f4.-) | f4 f8 c4.~ c4.\\> | c4 c8\\! f4.~ f4. |
+f4. f4 f8 f4 f8 | f4\\< f8 bes,4.-(\\! f4.-) | f4 f8 c4.~ c4. | c4\\> c8\\! f4.~ f4. |
+f4.%mf c4 c8 c4 c8 | f4 f8 f4.~ f4. | f4. c4 c8 c4 c8 | f4\\> f8\\! f4.~ f4. |
+f4.%mp f4 f8 f4 f8\\< | f4 f8 bes,4.(\\! f4.) | f4 f8 c4.~\\> c4. | c4\\! c8 f4.~ f4. |
+"""
+
+[lyrics.1]
+text = "Be -- hold, be -- hold the Lamb of God _ On the cross! On the cross! For us He shed His pre -- cious blood _ On the cross! On the cross! Oh hear His all- im -- port -- ant cry― \"Why per -- ish, blood- bought sin -- ner, why?\" Draw near and see the Sav -- iour die On the cross! On the cross!"
+
+[lyrics.2]
+text = "Be -- hold His arms ex -- tend -- ed wide _ On the cross! On the cross! Be -- hold His bleed -- ing hands and side _ On the cross! On the cross! The sun with -- holds his rays of light, The heav'ns are clothed in shades of night; While Je -- sus wins the glo -- rious fight On the cross! On the cross!"
+
+[lyrics.3]
+text = "Come, sin -- ners, see Him lift -- ed up _ On the cross! On the cross! He drinks for you the bit -- ter cup _ On the cross! On the cross! The rocks do rend, the moun -- tains quake, While Je -- sus doth a -- tone -- ment make, While Je -- sus suf -- fers for our sake, On the cross! On the cross!"
+
+[lyrics.4]
+text = "And now the might -- y deed is done _ On the cross, On the cross; The ba -- ttle’s fought, the vic -- 'try’s won _ On the cross, On the cross. To heav'n He turns His dy -- ing eyes; ‘Tis fin -- ished! now the con -- qu'ror cries; Then bows his sac -- red head and dies On the cross, On the cross."
+
+[lyrics.5]
+text = "Wher -- e'er I go I'll tell the sto -- ry Of the cross! Of the cross! In noth -- ing else my soul shall glo -- ry, Save the cross! Save the cross! Yes; this my con -- stant theme shall be, Thro' time, and in e -- ter -- ni -- ty, That Je -- sus tast -- ed death for me On the cross! On the cross!"

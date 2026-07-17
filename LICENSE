@@ -1,0 +1,94 @@
+OpenPsalm Songs — Licensing
+===========================
+
+READ THIS FIRST: this repository is NOT under a single license.
+
+Each song directory contains a `song.toml` whose `copyrights` field is the
+authoritative statement of copyright and licensing for that song. Where anything
+in this file conflicts with a song's `copyrights` field, THE `copyrights` FIELD
+GOVERNS. This file only summarizes the categories those fields fall into.
+
+
+1. The repository as a collection
+---------------------------------
+
+The selection, arrangement, structure, and encoding of this collection — the
+TOML schema, the note/lyric encoding, and the documentation in `docs/` — are
+copyright © Jon Hood and released under the Creative Commons Attribution 4.0
+International license (CC-BY-4.0), https://creativecommons.org/licenses/by/4.0/
+
+This grant covers the collection and the encoding work only. It does not, and
+cannot, grant rights in the underlying musical works, which are licensed
+individually as described below.
+
+
+2. Public-domain works with an OpenPsalm arrangement
+----------------------------------------------------
+
+Most songs here set a public-domain text and tune. Their `copyrights` fields
+read like:
+
+    "Lyrics: Henry F. Lyte, 1847 (public domain)"
+    "Music: William H. Monk, 1861 (public domain)"
+    "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license"
+
+For these, the underlying text and tune are in the public domain, and the
+OpenPsalm arrangement and encoding are offered under CC-BY-4.0. You may use,
+modify, perform, and redistribute them, including commercially, with attribution
+to OpenPsalm.
+
+
+3. Works used by permission — NOT open licensed
+-----------------------------------------------
+
+Some songs in this repository are still under copyright and appear here BY
+PERMISSION OF THE RIGHTS HOLDERS. Their `copyrights` fields say so explicitly,
+for example:
+
+    "Lyrics and Music: L. O. Sanderson, 1971"
+    "This work is under copyright through 12/31/2066. Used by permission."
+
+Each such song directory also carries a `copyright.txt` recording that
+permission. The underlying documentation of each grant is retained by the
+OpenPsalm team and is available on request.
+
+These songs are NOT licensed under CC-BY-4.0 and are NOT yours to redistribute,
+modify, perform for profit, or relicense. The permission granted to OpenPsalm
+does not extend to you. If you want to use one of these works, you must obtain
+permission from the copyright holder yourself.
+
+The CC-BY grant in sections 1 and 2 explicitly does not apply to any song whose
+`copyrights` field contains "Used by permission", "All rights reserved", or a
+copyright term end date.
+
+Any redistribution of this repository, in whole or in part, must preserve each
+song's `copyrights` field and its `copyright.txt`, where present, intact.
+
+
+4. Attribution-bearing sources
+------------------------------
+
+Some public-domain songs were transcribed from sources that ask for credit, and
+their `copyrights` fields carry that credit — for instance the Cyber Hymnal™
+(http://www.hymntime.com/tch), the Timeless Truths Free Online Library
+(https://library.timelesstruths.org/), and the Open Hymnal Project
+(http://openhymnal.org/). Keep those lines with the song.
+
+
+5. Contributions
+----------------
+
+By contributing a song or a correction, you affirm that you have the right to do
+so, and you license your contribution to this project under CC-BY-4.0 — unless
+the work is under copyright and used by permission, in which case say so in the
+song's `copyrights` field and include the basis of that permission in your pull
+request. Do not add songs under copyright unless permission is documented.
+
+
+6. No warranty
+--------------
+
+This collection is provided "as is", without warranty of any kind, express or
+implied. Copyright status, especially for works whose renewal or authorship is
+uncertain, is recorded here in good faith but is not legal advice. If you intend
+to rely on a song's copyright status, verify it independently.

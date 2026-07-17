@@ -1,0 +1,73 @@
+title = "A Mighty Fortress Is Our God"
+subtitle = ""
+phrase_breaks = ["5:48", "9:48", "12:48", "15:48"]
+optional_phrase_breaks = ["3:48", "7:48", "11:16", "14:16"]
+copyrights = [
+  "Lyrics: Martin Luther, 1529 (public domain)",
+  "Translation: Frederic Henry Hedge, 1853 (public domain)",
+  "Music: 'Ein Feste Burg (Isorhythmic)' by Martin Luther, 1529 (public domain)",
+  "Setting: Common Service Book (ULCA), 1917, alt (public domain)",
+  "Obtained from the [Open Hymnal Project](http://openhymnal.org/), 2013 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "D"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 110
+verse_count = 4
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. d''4 | d''4 d''4 a'8[ b'8] cis''4 | d''8[ cis''8] b'4 a'4! d''4 | cis''4 b'4 a'4 b'4 | g'8( fis'8 e'4) d'4! d''4 |
+d''4 d''4 a'8[ b'8] cis''4 | d''8[ cis''8] b'4 a'4! d''4 | cis''4 b'4 a'4 b'4 | g'8( fis'8 e'4) d'4! d'4 |
+fis'4 a'4 b'4 gis'4 | a'4! d'4 a'4 a'4 | b'4 cis''4 d''4! cis''4 | d''4 cis''4 b'4 b'4 |
+a'4! b'4 b'4 a'4 | b'4 g'4 fis'4! d''4 | cis''4 b'4 a'4 b'4 | g'8( fis'8 e'4) d'2!
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. fis'4 | d'4 fis'4 e'4 e'4 | d'4 e'4 cis'4! d'4 | fis'4 d'4 d'4 d'4 | b4( cis'4) d'4! fis'4 |
+d'4 fis'4 e'4 e'4 | d'4 e'4 cis'4! d'4 | fis'4 d'4 d'4 d'4 | b4( cis'4) d'4! d'4 |
+d'4 e'4 fis'4 e'4 | e'4! d'4 e'4 fis'4 | g'4 g'4 fis'4! fis'4 | fis'4 e'4 fis'4 e'8[ d'8] |
+cis'4! g'4 g'4 fis'4 | fis'4 e'4 cis'4! fis'4 | fis'8[ e'8] d'4 d'8[ c'8] b4 | b4( c'4) d'2!
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. a4 | a4 a4 a8[ gis8] a4 | fis4 gis4 a4! fis4 | a4 g4 fis4 fis4 | g4( a4) fis4! a4 |
+a4 a4 a8[ gis8] a4 | fis4 gis4 a4! fis4 | a4 g4 fis4 fis4 | g4( a4) fis4! fis4 |
+a4 a4 d'4 b4 | cis'4! fis4 a4 d'4 | d'4 e'4 a4! a4 | fis4 a4 a4 gis4 |
+a4! d'4 d'4. c'8/-24 | b4 b4 ais4! b4 | a4 g4 fis4 fis4 | g4( a8 g8) fis2!
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. d4 | fis4 d4 cis8[ b,8] a,4 | b,4 e4 a,4! b,4 | fis4 g4 d4 b,4 | e4( a,4) d4! d4 |
+fis4 d4 cis8[ b,8] a,4 | b,4 e4 a,4! b,4 | fis4 g4 d4 b,4 | e4( a,4) d4! d4 |
+d4 cis4 b,4 e4 | a,4! b,4 cis4 d4 | g4 e4 d4! fis4 | b,4 cis4 d4 e4 |
+a,4! g,4 b,4 d4 | dis4 e4 fis4! b,4 | fis4 g4 d4 dis4 | e4( a,4) d2!
+"""
+
+[lyrics.1]
+text = "A might -- y for -- tress is our God, a bul -- wark nev -- er fail -- ing; Our help -- er He, a -- mid the flood of mor -- tal ills pre -- vail -- ing: For still our an -- cient foe doth seek to work us woe; His craft and pow'r are great, and, armed with cru -- el hate, On earth is not his e -- qual."
+
+[lyrics.2]
+text = "Did we in our own strength con -- fide, our striv -- ing would be lo -- sing; Were not the right Man on our side, the Man of God's own choos -- ing: Dost ask who that may be? Christ Je -- sus, it is He; Lord Sa -- ba -- oth, His name, from age to age the same, And He must win the bat -- tle."
+
+[lyrics.3]
+text = "And though this world, with dev -- ils filled, should threat -- en to un -- do us, We will not fear, for God hath willed His truth to tri -- umph through us: The Prince of Dark -- ness grim, we trem -- ble not for him; His rage we can en -- dure, for lo, his doom is sure, One lit -- tle word shall fell him."
+
+[lyrics.4]
+text = "That word a -- bove all earth -- ly pow'rs, no thanks to them, a -- bid -- eth; The Spi -- rit and the gifts are ours through Him who with us si -- deth: Let goods and kin -- dred go, this mor -- tal life al -- so; The bo -- dy they may kill: God's truth a -- bi -- deth still, His king -- dom is for -- ev -- er."

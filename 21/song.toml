@@ -1,0 +1,63 @@
+title = "Abide, O Dearest Jesus"
+copyrights = [
+  "Lyrics: Joshua Stegmann, 1628. Translated by August Crull circa 1892. (public domain)",
+  "Music: 'Christus der ist mein Leben' Melchior Vulpius, 1609. (public domain)",
+  "Obtained from the [Open Hymnal Project](http://openhymnal.org/), 2013 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Eb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 120
+verse_count = 6
+phrase_breaks = ["3:48", "5:48", "7:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. ees'4 | g'4 f'4 g'4 aes'4 | bes'2 g'4 c''4 | bes'4. aes'8 g'4 f'4 | g'2 r4 bes'4 | c''4 c''4 d''4 ees''4 | c''2 bes'4 g'4 | f'4 ees'4 ees'4 d'4 | ees'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. bes4 | ees'4 d'4 ees'4 ees'4 | d'2 ees'4 ees'4 | ees'4. c'8 ees'4 d'4 | ees'2 r4 ees'4 | ees'4 ees'4 f'4 ees'4 | ees'2 ees'4 ees'4 | c'4 bes4 c'4 bes4 | bes2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. g4 | bes4 bes4 bes4 ees4 | f4( bes4) bes4 aes4 | g4. aes8 bes4 bes4 | bes2 r4 g4 | aes4 g4 bes4 bes4 | aes2 g4 bes4 | aes4 g4 f4 f4 | g2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. ees4 | ees4 bes,4 ees4 c4 | bes,2 ees4 aes,4 | ees4. f8 ees4 bes,4 | ees2 r4 ees4 | aes,4 c4 bes,4 g,4 | aes,2 ees4 ees,4 | f,4 g,4 aes,4 bes,4 | ees,2. s4
+"""
+
+[lyrics.1]
+text = "A -- bide, O dear -- est Je -- sus, A -- mong us with Thy grace, That Sa -- tan may not harm us, Nor we to sin give place."
+
+[lyrics.2]
+text = "A -- bide, O dear Re -- deem -- er, A -- mong us with Thy Word, And thus now and here -- af -- ter True peace and joy af -- ford."
+
+[lyrics.3]
+text = "A -- bide with heav'n -- ly bright -- ness A -- mong us, pre -- cious Light; Thy truth di -- rect, and keep us From er -- ror's gloom -- y night."
+
+[lyrics.4]
+text = "A -- bide with rich -- est bless -- ings A -- mong us, boun -- teous Lord; Let us in grace and wis -- dom Grow dai -- ly through Thy Word."
+
+[lyrics.5]
+text = "A -- bide with Thy pro -- tec -- tion A -- mong us, Lord, our Strength, Lest world and Sa -- tan fell us And o -- ver -- come at length."
+
+[lyrics.6]
+text = "A -- bide, O faith -- ful Sa -- vior, A -- mong us with Thy love; Grant stead -- fast -- ness, and help us To reach our home a -- bove."

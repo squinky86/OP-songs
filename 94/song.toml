@@ -1,0 +1,72 @@
+title = "Gracious Pilot, Straitly Guide Me"
+copyrights = [
+  "Lyrics: Lassie Taylor Moates, 1971",
+  "Music: L. O. Sanderson, 1971",
+  "This work is under copyright through 12/31/2066. Used by permission.",
+]
+key_signature = "Eb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 3
+phrase_breaks = ["4:64", "8:64", "12:64"]
+non_breaking_phrase_breaks = ["10:64", "14:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+g'4. f'8 ees'8 f'8 g'8 c''8 | bes'2 g'2 | bes'4. aes'8 g'8 f'8 ees'8 f'8 | g'1
+| g'4. f'8 ees'8 f'8 g'8 c''8 | bes'2 c''2 | d''8 c''8 bes'8 f'8 g'4 a'4 | bes'2. r4
+| ees''4.@c ees''8/-24 ees''8 ees''8 c''8 ees''8 | bes'2 g'2 | bes'4. bes'8 c''4 fis'4 | g'1
+| ees''4. ees''8/-24 ees''8 ees''8 c''8 aes'8 | bes'2 g'4 ees'4 | g'4. g'8/-24 ees'4 f'4 | ees'1
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+ees'4. ees'8 bes8 bes8 ees'8 ees'8 | ees'2 ees'2 | f'4. f'8 ees'8 d'8 c'8 d'8 | ees'1
+| ees'4. bes8 bes8 bes8 ees'8 ees'8 | ees'2 ees'2 | f'8 ees'8 d'8 d'8 ees'4 c'4 | d'2. r4
+| g'4@c g'4 a'4 f'8[ fis'8] | g'4 g'4 ees'4 ees'4 | f'4. d'8 d'4 d'4 | ees'1
+| g'4 bes'4 aes'4 fis'4 | g'4 g'4 ees'4 ees'4 | ees'4 ees'4 c'4 d'4 | bes1
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+bes4. aes8 g8 aes8 bes8 aes8 | g2 bes2 | d'4. c'8 bes8 aes8 g8 bes8 | bes1
+| bes4. aes8 g8 aes8 bes8 aes8 | g2 bes2 | bes8 a8 bes8 bes8 aes4 f4 | f2. r4
+| bes4@c bes4 c'4 ees'8[ c'8] | ees'4 ees'4 bes4 bes4 | d'4. f8 aes4 c'4 | bes1
+| bes4 des'4 c'4 ees'8[ c'8] | ees'4 ees'4 bes4 a4 | bes4 bes4 a4 aes4 | g1
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+ees4. ees8 ees8 ees8 ees8 ees8 | ees2 ees2 | bes,4. bes,8 bes,8 bes,8 bes,8 bes,8 | ees1
+| ees4. d8 ees8 ees8 ees8 ees8 | ees2 g2 | f8 f8 f8 f8 f4 f4 | bes2. r4
+| ees4@c ees4 aes,4 aes,4 | ees4 ees4 ees4 ees4 | bes,4. bes,8 bes,4 bes,4 | ees1
+| ees4 g4 aes4 aes4 | ees4 ees4 ees4 c4 | bes,4 bes,4 c4 bes,4 | ees1
+"""
+
+[lyrics.1]
+text = "Christ the mas -- ter of the o -- cean, On the which I set my sail, Wilt Thou or -- der ev -- 'ry mo -- tion, And o'er all my state pre -- vail."
+
+[lyrics.2]
+text = "When the gates of life be -- set me, And the light -- 'ning kind -- les fear, Let not an -- y force in -- debt me— May I know that Thou art near."
+
+[lyrics.3]
+text = "Lead me on, be -- lov -- ed Sav -- ior, And a -- bide with -- in my heart, Let me bask in truth and fa -- vor, And my all to Thee im -- part."
+
+[lyrics.chorus]
+text = "Gra -- cious Pi -- lot, strait -- ly guide me O'er life's trou -- bled way; From the per -- ils hide Thou me! And ev -- er be my stay."
+
+[parts.Soprano.lyrics.chorus]
+text = "Gra -- cious Pi -- lot, strait -- ly guide me O'er life's trou -- bled way; From the per -- ils safe -- ly hide me! And ev -- er be my stay."

@@ -1,0 +1,61 @@
+title = "How Vain Is All Beneath the Skies"
+subtitle = ""
+copyrights = [
+  "Lyrics: David Everard Ford, 1828 (public domain)",
+  "Music: `Desire` by Isaac Baker Woodbury, c. 1850 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "A"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 88
+verse_count = 4
+phrase_breaks = ["9:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 e'4 | a'2 b'4 | cis''2 a'4 | b'4( a'4) gis'4 | a'2 b'4 | cis''2 cis''4 | e''2 cis''4 | b'2 b'4 | b'2 e'4
+| a'2 b'4 | cis''2 a'4 | b'4( a'4) gis'4 | a'2 e'4 | fis'2 a'8[ fis'8] | e'2 a'4 | cis''2 b'4 | a'2 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 cis'4 | cis'2 e'4 | e'2 e'4 | fis'4( e'4) e'4 | e'2 e'4 | e'2 e'4 | e'2 e'4 | e'2 dis'4 | e'2 e'4
+| e'2 e'4 | e'2 e'4 | fis'4( e'4) e'4 | e'2 cis'4 | d'2 fis'8[ d'8] | e'2 cis'4 | e'2 d'4 | cis'2 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 a4 | a2 gis4 | a2 a4 | d'4( cis'4) b4 | cis'2 gis4 | a2 a4 | cis'2 a4 | gis2 fis4 | gis2 gis4
+| a2 gis4 | a2 a4 | d'4( cis'4) b4 | cis'2 a4 | a2 a4 | a2 a4 | a2 gis4 | a2 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 a,4 | a,2 e4 | a,2 cis4 | d4( e4) e4 | a,2 e4 | a2 a4 | a2 a,4 | b,2 b,4 | e2 e4
+| cis2 e4 | a2 cis4 | d4( e4) e4 | a,2 a,4 | d2 d4 | cis2 fis4 | e2 e4 | a,2 s4
+"""
+
+[lyrics.1]
+text = "How vain is all be -- neath the skies! How tran -- sient ev -- 'ry earth -- ly bliss! How slen -- der all the fond -- est ties That bind us to a world like this!"
+
+[lyrics.2]
+text = "The eve -- ning cloud, the morn -- ing dew, The with -- 'ring grass, the fad -- ing flow'r, Of earth -- ly hopes our em -- blems true— The glo -- ries of a pass -- ing hour."
+
+[lyrics.3]
+text = "But though earth's fair -- est blos -- soms die, And all be -- neath the skies is vain, There is a land whose con -- fines lie Be -- yond the reach of care and pain."
+
+[lyrics.4]
+text = "Then let the hope of joys to come Dis -- pel our cares and chase our fears; If God be ours, we're trav -- 'ling home, Though pass -- ing through a vale of tears."

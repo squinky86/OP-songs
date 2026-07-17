@@ -1,0 +1,105 @@
+title = "A Beautiful Life"
+copyrights = [
+  "Lyrics and Music: William M. Golden, 1918 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "C"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 5
+phrase_breaks = ["3:40", "5:40", "7:40", "9:40", "11:40", "13:40", "15:40"]
+optional_phrase_breaks = ["2:40", "4:40", "6:40", "8:40", "10:40", "12:40", "14:40"]
+non_breaking_phrase_breaks = ["9:0", "9:8", "16:40", "17:0", "17:8"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s8 c''8 e''8 d''8 | c''2~ c''8 d''8 c''8 a'8 | g'2~ g'8 g'8 b'8 c''8 | d''2~ d''8 d''8 c''8 d''8 | e''2~ e''8 c''8 e''8 d''8 | c''2~ c''8 d''8 c''8 a'8 | g'2~ g'8 g'8 a'8 c''8 | e''2~ e''8 c''8 d''8 d''8 | c''2~ c''8 r8@c r4 | r8 g'8 a'8 a'8 g'8 r8 r4 | r8 a'8 a'8 a'8 a'8 r8 r4 | r8 g'8 g'8 g'8 g'8 r8 r4 | r8 g'8 a'8 a'8 g'8 c''8 e''8 d''8 | c''2~ c''8 d''8 c''8 a'8 | g'2~ g'8 g'8 a'8 c''8 | e''2~ e''8 c''8 d''8 d''8 | c''2~ c''8 s4 s8
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+splice_lyrics_into = "soprano"
+notes = """
+s2 s8 e'8 g'8 f'8 | e'2~ e'8 f'8 a'8 f'8 | e'2~ e'8 e'8 d'8 e'8 | f'2~ f'8 f'8 e'8 f'8 | g'2~ g'8 e'8 g'8 f'8 | e'2~ e'8 f'8 a'8 f'8 | e'2~ e'8 e'8 f'8 a'8 | g'2~ g'8 e'8 f'8 f'8 | e'8 e'8 f'8 dis'8 e'8 r8@c r4 | r8 e'8 f'8 f'8 e'8 r8 r4 | r8 f'8 f'8 f'8 f'8 r8 r4 | r8 d'8 d'8 d'8 d'8 r8 r4 | r8 e'8 f'8 f'8 e'8 e'8 g'8 f'8 | e'2~ e'8 f'8 a'8 f'8 | e'2~ e'8 e'8 f'8 a'8 | g'2~ g'8 e'8 f'8 f'8 | e'8 e'8 f'8 dis'8 e'8 s4 s8
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3, 4, 5]
+suppress_verses_when = ["soprano", "alto"]
+notes = """
+s2 s8 r4. | r8 g8 g8 g8 g8 r4. | r8 c'8 c'8 c'8 c'8 r4. | r8 b8 b8 b8 b8 r4. | r8 c'8 c'8 c'8 c'8 r4. | r8 g8 g8 g8 g8 r4. | r8 c'8 c'8 c'8 c'8 r4. | r8 c'8 c'8 c'8 c'8 c'8 b8 b8 | c'8 g8 a8 fis8 g8 r8@c r4 | r8 c'8 c'8 c'8 c'8 r8 r4 | r8 c'8 c'8 c'8 c'8 r8 r4 | r8 b8 b8 b8 b8 r8 r4 | r8 c'8 c'8 c'8 c'8 r4. | r8 g8 g8 g8 g8 r4. | r8 c'8 c'8 c'8 c'8 r4. | r8 c'8 c'8 c'8 c'8 c'8 b8 b8 | c'8 g8 a8 fis8 g8 s4 s8
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3, 4, 5]
+suppress_verses_when = ["soprano", "alto"]
+notes = """
+s2 s8 r4. | r8 c8 c8 c8 c8 r4. | r8 c8 c8 c8 c8 r4. | r8 g8 g8 g8 g8 r4. | r8 c8 c8 c8 c8 r4. | r8 c8 c8 c8 c8 r4. | r8 c8 c8 c8 c8 r4. | r8 g8 g8 g8 g8 a8 g8 g8 | c2~ c8 c8@c e8 d8 | c2~ c8 c8 d8 e8 | f2~ f8 d8 e8 f8 | g2~ g8 g,8 a,8 b,8 | c2~ c8 r4. | r8 c8 c8 c8 c8 r4. | r8 c8 c8 c8 c8 r4. | r8 g8 g8 g8 g8 a8 g8 g8 | c2~ c8 s4 s8
+"""
+
+[lyrics.1]
+text = "Each day I'll do a gold -- en deed, By help -- ing those who are in need, My life on earth is but a span, And so I'll do the best I can,"
+
+[parts.Alto.lyrics.1]
+text = "Each day I'll do a gold -- en deed, By help -- ing those who are in need, My life on earth is but a span, And so I'll do the best I can, (the best I can)."
+
+[parts.Tenor.lyrics.1]
+text = "Each day I'll do a gold -- en deed, By help -- ing those who are in need, My life on earth is but a span, And so I'll do the best I can, (the best I can)."
+
+[lyrics.2]
+text = "To be a child of God each day, My light must shine a -- long the way; I'll sing His praise while ag -- es roll And strive to help some trou -- bled soul,"
+
+[parts.Alto.lyrics.2]
+text = "To be a child of God each day, My light must shine a -- long the way; I'll sing His praise while ag -- es roll And strive to help some trou -- bled soul, (some trou -- bled soul)."
+
+[parts.Tenor.lyrics.2]
+text = "To be a child of God each day, My light must shine a -- long the way; I'll sing His praise while ag -- es roll And strive to help some trou -- bled soul, (some trou -- bled soul)."
+
+[lyrics.3]
+text = "The on -- ly life that will en -- dure, Is one that's kind and good and pure; And so for God I'll take my stand, Each day I'll lend a help -- ing hand,"
+
+[parts.Alto.lyrics.3]
+text = "The on -- ly life that will en -- dure, Is one that's kind and good and pure; And so for God I'll take my stand, Each day I'll lend a help -- ing hand, (a help -- ing hand)."
+
+[parts.Tenor.lyrics.3]
+text = "The on -- ly life that will en -- dure, Is one that's kind and good and pure; And so for God I'll take my stand, Each day I'll lend a help -- ing hand, (a help -- ing hand)."
+
+[lyrics.4]
+text = "I'll help some -- one in time of need, And jour -- ney on with ra -- pid speed; I'll help the sick and poor and weak, And words of kind -- ness to them speak,"
+
+[parts.Alto.lyrics.4]
+text = "I'll help some -- one in time of need, And jour -- ney on with ra -- pid speed; I'll help the sick and poor and weak, And words of kind -- ness to them speak, (kind words I'll speak)."
+
+[parts.Tenor.lyrics.4]
+text = "I'll help some -- one in time of need, And jour -- ney on with ra -- pid speed; I'll help the sick and poor and weak, And words of kind -- ness to them speak, (kind words I'll speak)."
+
+[lyrics.5]
+text = "While go -- ing down life's wear -- y road, I'll try to lift some trav -- eler's load; I'll try to turn the night to day, Make flow -- ers bloom a -- long the way,"
+
+[parts.Alto.lyrics.5]
+text = "While go -- ing down life's wear -- y road, I'll try to lift some trav -- eler's load; I'll try to turn the night to day, Make flow -- ers bloom a -- long the way, (the lone -- ly way)."
+
+[parts.Tenor.lyrics.5]
+text = "While go -- ing down life's wear -- y road, I'll try to lift some trav -- eler's load; I'll try to turn the night to day, Make flow -- ers bloom a -- long the way, (the lone -- ly way)."
+
+[lyrics.chorus]
+text = "Life's eve -- ning sun is sink -- ing low, A few more days and I must go To meet the deeds that I have done, Where there will be no set -- ting sun,"
+
+[parts.Alto.lyrics.chorus]
+text = "Life's eve -- ning sun is sink -- ing low, A few more days and I must go To meet the deeds that I have done, Where there will be no set -- ting sun, (no set -- ting sun)."
+
+[parts.Tenor.lyrics.chorus]
+text = "Life's eve -- ning sun is sink -- ing low, A few more days and I must go To meet the deeds that I have done, Where there will be no set -- ting sun, (no set -- ting sun)."

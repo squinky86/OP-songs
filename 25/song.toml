@@ -1,0 +1,105 @@
+title = "Praise the Lord: Ye Heavens, Adore Him"
+subtitle = "Perez"
+copyrights = [
+  "Lyrics: Foundling Hospital Collection, 1796 (public domain)",
+  "Lyrics verses 5-6: Edward Osler, 1836 (public domain)",
+  "Music: Perez, Lowell Mason, c. 1850 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+verse_count = 6
+key_signature = "A"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 110
+phrase_breaks = ["2:64", "4:64", "6:64", "8:48"]
+optional_phrase_breaks = ["9:48", "10:64"]
+
+commentary = "<p>This same song is also available with the <a href=\"/songs/23\">Austrian Hymn</a> music.</p>"
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+e'4. dis'8 e'4. d'8 | e'8[ a'8] gis'8[ fis'8] fis'4 e'4 | e'4 a'8[ cis''8] e''4 d''8[ b'8] | a'4 gis'4 a'2 |
+b'4. cis''8 e''8 d''8 cis''8 b'8 | cis''4 cis''4 r4 r4 | b'4. cis''8 e''8 d''8 cis''8 b'8 | 
+cis''2 r4 b'8.@c b'16 | cis''8 cis''8 b'4 cis''4 r4 | r4 b'4 cis''4 r4 | a'1 | a'1
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+cis'4. bis8 cis'4. b8 | cis'8[ fis'8] e'8[ d'8] d'4 cis'4 | cis'4 cis'8[ e'8] a'8[ e'8] fis'8[ d'8] | cis'4 b4 cis'2 |
+gis'4. a'8 cis''8 b'8 a'8 gis'8 | a'4 a'4 r4 r4 | gis'4. a'8 cis''8 b'8 a'8 gis'8 | 
+a'2 r4 e'8.@c e'16 | a'8 a'8 e'4 e'4 r4 | r4 gis'4 a'4 r4 | e'4 cis'4 f'2 | e'1
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3, 4, 5, 6]
+suppress_verses_when = ["soprano", "alto"]
+notes = """
+a4. a8 a4. a8 | a4 a4 a4 a4 | a4 a4 cis'4 fis4 | e4 e4 e2 | e'2.. e8 | a8 e8 a8 cis'8 b4 b4 | e'2.. e8 | a8 e8 a8 cis'8 b4 r4@c | r4 gis4 a4 b8. b16 | cis'8 cis'8 e'4 e'4 r4 | cis'4 a4 a4.( b8) | cis'1
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3, 4, 5, 6]
+suppress_verses_when = ["soprano", "alto"]
+notes = """
+a,4. a,8 a,4. a,8 | a,4 a,4 a,4 a,4 | a,4 a,4 a4 d4 | e4 e4 a,2 | e2.. e8 | a8 e8 cis8 a,8 e4 e4 | e2.. e8 | a8 e8 cis8 a,8 e4 r4@c | r4 e4 a4 e8. e16 | a8 a8 e4 a4 r4 | a,4 a,4 d2 | a,1
+"""
+
+[lyrics.1]
+text = """Praise the Lord: ye heavens, a -- dore Him;
+Praise Him, an -- gels in the height.
+Sun and moon, re -- joice be -- fore Him;
+Praise Him, all ye stars of light."""
+
+[lyrics.2]
+text = """Praise the Lord, for He hath spo -- ken;
+Worlds His migh -- ty voice o -- beyed.
+Laws which ne -- ver shall be bro -- ken
+For their guid -- ance He hath made."""
+
+[lyrics.3]
+text = """Praise the Lord, for He is glor -- ious;
+Ne -- ver shall His pro -- mise fail.
+God hath made His saints vic -- tor -- ious;
+Sin and death shall not pre -- vail."""
+
+[lyrics.4]
+text = """Praise the God of our sal -- va -- tion;
+Hosts on high, His power pro -- claim.
+Heaven and earth and all cre -- a -- tion,
+Laud and mag -- ni -- fy His name."""
+
+[lyrics.5]
+text = """Wor -- ship, ho -- nor, glo -- ry, bless -- ing,
+Lord, we off -- er un -- to Thee.
+Young and old, Thy praise ex -- press -- ing,
+In glad hom -- age bend the knee."""
+
+[lyrics.6]
+text = """All the saints in Heaven a -- dore Thee;
+We would bow be -- fore Thy throne.
+As Thine an -- gels serve be -- fore Thee,
+So on earth Thy will be done."""
+
+[parts.Soprano.lyrics.chorus]
+text = """Hal -- le -- lu -- jah! A -- men, A -- men, A -- men."""
+
+[parts.Alto.lyrics.chorus]
+text = """Hal -- le -- lu -- jah! A -- men, A -- men, A -- men, A -- men."""
+
+[parts.Tenor.lyrics.chorus]
+text = """A -- men, Hal -- le -- lu -- jah! A -- men, A -- men, A -- men."""
+
+[parts.Bass.lyrics.chorus]
+text = """A -- men, Hal -- le -- lu -- jah! A -- men, A -- men, A -- men."""

@@ -1,0 +1,56 @@
+title = "Be With Me, Lord"
+copyrights = [
+  "Lyrics: Thomas O. Chisholm, 1935, renewed 1963",
+  "Music: L. O. Sanderson, 1935, renewed 1963",
+  "This work is under copyright through 12/31/2030. Used by permission.",
+]
+key_signature = "Eb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 78
+verse_count = 4
+phrase_breaks = ["2:64", "4:64", "6:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+g'4 g'8 g'8 g'4. f'8 | ees'8 d'8 ees'8 f'8 g'4 g'4 | bes'4 bes'8 bes'8 bes'4. aes'8 | g'8 ees'8 aes'8 g'8 f'2 | ees'4 g'8 bes'8 ees''4. d''8 | f''8 ees''8 d''8 c''8 bes'4 g'4 | c''4 d''8 c''8 bes'4. g'8 | aes'8 g'8 g'8! f'8 ees'2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+ees'4 ees'8 ees'8 ees'4. des'8 | c'8 b8 c'8 ces'8 bes4 ees'4 | ees'4 d'8 d'8 ees'4. ees'8 | ees'8 ees'8 d'8 ees'8 d'2 | ees'4 ees'8 ees'8 g'4. g'8 | aes'8 aes'8 bes'8 aes'8 g'4 ees'4 | ees'4 ees'8 ees'8 ees'4. ees'8 | ees'8 ees'8 d'8! d'8 bes2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+bes4 bes8 bes8 bes4. g8 | aes8 aes8 aes8 aes8 g4 bes4 | bes4 aes8 aes8 g4. c'8 | bes8 bes8 bes8 bes8 bes2 | g4 bes8 g8 bes4. b8 | c'8 c'8 d'8 ees'8 ees'4 bes4 | aes4 fis8 fis8 g4. bes8 | c'8 bes8 bes8! aes8 g2
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+ees4 ees8 ees8 ees4. ees8 | aes,8 aes,8 aes,8 aes,8 ees4 ees4 | g4 f8 f8 ees4. ees8 | ees8 g8 f8 ees8 bes,2 | ees4 ees8 ees8 ees4. ees8 | aes8 aes8 aes8 aes8 ees4 ees4 | aes,4 a,8 a,8 bes,4. bes,8 | bes,8 bes,8 bes,8! bes,8 ees2
+"""
+
+[lyrics.1]
+text = "Be with me, Lord, I can -- not live with -- out Thee, I dare not try to take one step a -- lone; I can -- not bear the loads of life un -- aid -- ed, I need Thy strength to lean my -- self up -- on."
+
+[lyrics.2]
+text = "Be with me, Lord, and then if dan -- gers threat -- en, If storms of tri -- al burst a -- bove my head; If lash -- ing seas leap eve -- ry -- where a -- bout me, They can -- not harm or make my heart a -- fraid."
+
+[lyrics.3]
+text = "Be with me, Lord! No oth -- er gift or bless -- ing Thou couldst be -- stow could with this one com -- pare; A con -- stant sense of Thy a -- bid -- ing pres -- ence, Wher -- e'er I am, to feel that Thou art near."
+
+[lyrics.4]
+text = "Be with me, Lord, when lone -- li -- ness o'er -- takes me, When I must weep a -- mid the fires of pain, And when shall come the hour of \"my de -- par -- ture\" For \"worlds un -- known,\" O Lord, be with me then."

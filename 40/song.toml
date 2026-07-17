@@ -1,0 +1,71 @@
+title = "A Wonderful Savior"
+subtitle = ""
+key_signature = "D"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 96
+verse_count = 4
+
+copyrights = [
+  "Lyrics: Fanny J. Crosby, 1890 (public domain)",
+  "Music: William James Kirkpatrick, 1890 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license"
+]
+
+phrase_breaks = [
+  "3:40",
+  "5:40",
+  "7:40",
+  "9:40",
+  "11:40",
+  "13:40",
+  "15:40",
+  "17:40"
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. s4 a'8 | a'8. g'16 fis'8 fis'8 e'8 d'8 | b'8. b'16 b'8 a'4 a'8 | a'8. g'16 fis'8 fis'8 g'8 fis'8 | e'4.~ e'4 a'8 | a'8. g'16 fis'8 fis'8 e'8 d'8 | b'8. b'16 b'8 d''4 b'8 | a'8. a'16 a'8 a'8 g'8 e'8 | d'4.~ d'4 a'8@c | cis''8. cis''16 cis''8 cis''4 b'16 cis''16 | d''8. cis''16 b'8 a'4 a'8 | g'8 fis'8 g'8 e'8 b'8 a'8 | fis'4.~ fis'4 a'8 | d''8. d''16 d''8 d''4 d''16 d''16 | e''8. d''16 d''8 d''4! b'8 | a'8. a'16 a'8 a'8 a'8 a'8 | a'4.~ a'4 b'8 | a'8. fis'16 d'8 fis'8. cis'16 cis'8 | d'4.~ d'4 s8
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. s4 fis'8 | fis'8. e'16 d'8 d'8 d'8 d'8 | g'8. g'16 g'8 fis'4 fis'8 | fis'8. e'16 d'8 d'8 e'8 d'8 | cis'4.~ cis'4 g'8 | fis'8. e'16 d'8 d'8 d'8 d'8 | g'8. g'16 g'8 g'4 g'8 | fis'8. fis'16 d'8 cis'8 cis'8 cis'8 | d'4.~ d'4 a'8@c | g'8. g'16 g'8 g'4 g'16 g'16 | fis'8. a'16 g'8 fis'4 fis'8 | e'8 dis'8 e'8 cis'8 cis'8 cis'8 | d'4.~ d'4 fis'8 | fis'8. fis'16 fis'8 fis'4 fis'16 fis'16 | g'8. g'16 g'8 g'4! g'8 | fis'8. fis'16 fis'8 e'8 fis'8 g'8 | fis'4( g'8 a'4) g'8 | fis'8. d'16 d'8 cis'8. a16 a8 | a4.~ a4 s8
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. s4 a8 | a8. a16 a8 a8 g8 fis8 | d'8. d'16 d'8 d'4 a8 | a8. a16 a8 a8 a8 a8 | a4.~ a4 cis'8 | d'8. a16 a8 a8 g8 fis8 | d'8. d'16 d'8 b4 d'8 | d'8. a16 fis8 e8 e8 g8 | fis4.~ fis4 a8@c | e'8. e'16 e'8 e'4 a16 a16 | a8. a16 d'8 d'4 a8 | a8 a8 a8 a8 a8 a8 | a4.~ a4 a8 | a8. a16 a8 a4 a16 a16 | b8. b16 b8 b4! d'8 | d'8. d'16 d'8 cis'8 d'8 e'8 | d'4( cis'8 d'4) d'8 | d'8. a16 fis8 e8. g16 g8 | fis4.~ fis4 s8
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. s4 d8 | d8. d16 d8 d8 d8 d8 | g,8. g,16 g,8 d4 d8 | d8. d16 d8 d8 cis8 d8 | a,4.~ a,4 a,8 | d8. d16 d8 d8 d8 d8 | g,8. g,16 g,8 g,4 g,8 | a,8. a,16 a,8 a,8 a,8 a,8 | d4.~ d4 a8@c | a8. a16 a8 a4 a16 a16 | d8. d16 d8 d4 d8 | a,8 a,8 a,8 a,8 a,8 a,8 | d4.~ d4 d8 | d8. d16 d8 d4 d16 d16 | g8. g16 g8 g4! g8 | a8. a16 a8 a,8 a,8 a,8 | d4( e8 fis4) g,8 | a,8. a,16 a,8 a,8. a,16 a,8 | d4.~ d4 s8
+"""
+
+[lyrics.1]
+text = "A won -- der -- ful Sav -- ior is Je -- sus my Lord, A won -- der -- ful Sav -- ior to me; He hid -- eth my soul in the cleft of the rock, Where riv -- ers of plea -- sure I see."
+
+[lyrics.2]
+text = "A won -- der -- ful Sav -- ior is Je -- sus my Lord, He tak -- eth my bur -- den a -- way; He hold -- eth me up, and I shall not be moved, He giv -- eth me strength as my day."
+
+[lyrics.3]
+text = "With num -- ber -- less bless -- ings each mo -- ment He crowns, And filled with His full -- ness di -- vine, I sing in my rap -- ture, oh, glo -- ry to God For such a Re -- deem -- er as mine!"
+
+[lyrics.4]
+text = "When clothed in His bright -- ness, trans -- port -- ed I rise To meet Him in clouds of the sky, His per -- fect sal -- va -- tion, His won -- der -- ful love I’ll shout with the mil -- lions on high."
+
+[lyrics.Chorus]
+text = "He hid -- eth my soul in the cleft of the rock That shad -- ows a dry, thirst -- y land; He hid -- eth my life in the depths of His love, And cov -- ers me there with His hand, And cov -- ers me there with His hand."

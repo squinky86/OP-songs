@@ -1,0 +1,94 @@
+title = "Lord, I Turn from All Rebellion"
+subtitle = ""
+verse_count = 3
+key_signature = "G"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 110
+phrase_breaks = ["4:64", "8:64", "12:64", "16:64", "19:32", "23:32", "25:64", "27:64", "29:64"]
+copyrights = [
+  "Lyrics: Jon Hood, 2026 (CC-BY 4.0)",
+  "Music: 'Hymn to Joy' by Ludwig van Beethoven, 1824 (public domain)",
+  "Music: 'Austria' by Joseph Haydn, 1797 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license"
+]
+
+[[time_sig_changes]]
+measure = 17
+numerator = 2
+denominator = 4
+duration = 7
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+b'4 b'4 c''4 d''4 | d''4 c''4 b'4 a'4 | g'4 g'4 a'4 b'4 | b'4. a'8 a'2 |
+b'4 b'4 c''4 d''4 | d''4 c''4 b'4 a'4 | g'4 g'4 a'4 b'4 | a'4. g'8 g'2 |
+a'4 a'4 b'4 g'4 | a'4 b'8[ c''8] b'4 g'4 | a'4 b'8[ c''8] b'4 a'4 | g'4 a'4 d'2 |
+b'4 b'4 c''4 d''4 | d''4 c''4 b'4 a'4 | g'4 g'4 a'4 b'4 | a'4. g'8 g'2 |
+r2@c | r4 d''4 | d''8 c''8 b'4~ | b'4 r4 | r4 e''4 | d''8 d''8 c''8 c''8 | b'2 |
+g'4. a'8 b'4 a'4 | c''4 b'4 a'8[ fis'8] g'4 | e''4 d''4 c''4 b'4 | a'4 b'8[ g'8] d''2 |
+g''4. fis''8 fis''8[ e''8] d''4 | e''4. d''8 d''8[ c''8] b'4 | a'4 b'8[ c''8] d''8[ e''8] c''8[ a'8] | g'4 b'8[ a'8] g'2
+"""
+
+[lyrics.1]
+text = "Lord, I turn from all re -- bel -- lion, Leav -- ing ev -- ery sin be -- hind; Yield -- ing to Your great sal -- va -- tion, Life and mer -- cy now I find. I con -- fess with full con -- vic -- tion: Je -- sus is the Son of God! Res -- cued by His cru -- ci -- fix -- ion, Walk -- ing where His saints have trod."
+
+[lyrics.2]
+text = "From in -- i -- qui -- ty He washed me, Blot -- ted out all of my sin; Pu -- ri -- fied my stains with hys -- sop, I am now made clean with -- in. Wash me, Lord, and make my spi -- rit, Whi -- ter than the fall -- ing snow; God, cre -- ate in me a clean heart, That Your good -- ness I may know."
+
+[lyrics.3]
+text = "Ris -- ing up from cleans -- ing wa -- ters, I am made a crea -- ture new; Num -- bered with Your sons and daugh -- ters, I will live my life for You. Keep me faith -- ful on the jour -- ney, Clothed in righ -- teous -- ness and grace; Ser -- ving You in ev -- ery mo -- ment, Till I see my Sa -- vior's face."
+
+[lyrics.chorus]
+text = "In Je -- sus' blood! By wa -- ter with the word! Now in har -- mo -- ny we ga -- ther, Voi -- ces raised in sweet ac -- cord; Ev -- ery heart and knee now bow -- ing Down be -- fore Christ Je -- sus, Lord!"
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+d'4 d'4 e'4 fis'4 | g'4 g'4 g'4 fis'4 | e'4 e'4 fis'4 g'4 | g'4. fis'8 fis'2 |
+d'4 d'4 e'4 fis'4 | g'4 g'4 g'4 fis'4 | e'4 e'4 fis'4 g'4 | fis'4. d'8 d'2 |
+fis'4 fis'4 g'4 e'4 | fis'4 g'4 g'4 e'4 | fis'4 g'4 g'4 fis'4 | e'4 c'4 d'2 |
+d'4 d'4 e'4 fis'4 | g'4 g'4 g'4 fis'4 | e'4 e'4 fis'4 g'4 | fis'4. d'8 d'2 |
+r2@c | r4 b'4 | b'8 a'8 g'4~ | g'4 r4 | r4 c''4 | b'8 b'8 a'8 a'8 | g'2 |
+d'4. d'8 g'4 fis'4 | a'4 g'4 fis'4 d'4 | e'8[ fis'8] g'4 a'4 g'4 | e'4 g'4 fis'2 |
+g'4. g'8 g'4 g'4 | g'4. g'8 fis'4 g'4 | fis'4 fis'4 g'4 e'4 | d'4 fis'4 g'2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+g4 g4 a4 b4 | b4 a4 g4 fis4 | g4 g4 fis4 g4 | g4. fis8 fis2 |
+g4 g4 g4 a8[ b8] | b4 c'4 d'4 c'4 | b4 b4 c'4 d'4 | c'4. b8 b2 |
+fis4 fis4 g4 b4 | d'4 g8[ a8] g4 b4 | c'4 b8[ a8] b4 b4 | b4 a4 fis2 |
+g4 g4 g4 a8[ b8] | c'4 c'4 d'4 c'4 | b4 b4 c'4 d'4 | c'4. b8 b2 |
+g4@c g4 | d'4 r4 | r2 | e'4 e'4 | c'4 r4 | r2 | r2 |
+b4. c'8 d'4 d'4 | d'4 d'4 c'4 b4 | c'4 d'4 d'4 d'4 | c'4 e'4 a2 |
+e'4. d'8 c'4 b4 | c'4. d'8 d'4 d'4 | d'4 d'4 d'8[ g8] e'8[ c'8] | b4 c'4 g2
+"""
+
+[parts.Tenor.lyrics.chorus]
+text = "We are washed! We are cleansed! Now in har -- mo -- ny we ga -- ther, Voi -- ces raised in sweet ac -- cord; Ev -- ery heart and knee now bow -- ing Down be -- fore Christ Je -- sus, Lord!"
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+g4 g4 g4 g4 | d4 d4 d4 c4 | b,4 b,4 a,4 g,4 | d4. d8 d2 |
+g4 g4 g4 g4 | c4 c4 c4 c4 | d4 d4 d4 d4 | d4. g8 g,2 |
+d4 d4 d4 d4 | d4 d4 d4 d4 | d4 d4 dis4 b,4 | e4 a,4 d2 |
+g,4 g4 g4 g4 | c4 c4 c4 c4 | d4 d4 d4 d4 | d4. g8 g,2 |
+g,4@c b,4 | d4 r4 | r2 | e,4 g,4 | c4 r4 | r2 | r2 |
+g4. g8 g4 d4 | fis4 g4 d4 g4 | c'4 b4 fis4 g4 | c4 cis4 d2 |
+b4. b8 c'4 g4 | c'4. b8 a4 g4 | d4 c4 b,4 c4 | d4 d4 g,2
+"""
+
+[parts.Bass.lyrics.chorus]
+text = "We are washed! We are cleansed! Now in har -- mo -- ny we ga -- ther, Voi -- ces raised in sweet ac -- cord; Ev -- ery heart and knee now bow -- ing Down be -- fore Christ Je -- sus, Lord!"

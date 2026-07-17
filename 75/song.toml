@@ -1,0 +1,119 @@
+title = "Grace! 'Tis a Charming Sound"
+subtitle = ""
+key_signature = "C"
+time_sig_numerator = 2
+time_sig_denominator = 2
+tempo_bpm = 150
+verse_count = 6
+copyrights = [
+  "Lyrics: Philip Doddridge, 1755 (public domain)",
+  "Music: 'Cranbrook' by Thomas Clark, 1804 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license"
+]
+phrase_breaks = ["3:48", "6:64", "10:64", "13:48", "15:48", "17:48"]
+optional_phrase_breaks = ["9:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+c''2 g'4. a'8 | g'4( f'4) e'4( d'4) | c'2. g'4 | c''4( b'4) a'4( g'4) | a'4( g'4) f'4( e'4) | e'2( d'4) r4
+| g'2 g'4. a'8 | b'4 g'4 a'4 b'4 | c''2 r2 | r1
+| d''2 d''4. c''8 | b'4 d''4 d'4 fis'4 | g'2. g'4 | c''4. c''8 c''4 b'4
+| c''2. d''4 | e''4. e''8 e''4 d''4 | e''2. e''4 | d''2 c''2 | c''2 b'2 | c''1
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+suppress_verses = [2, 3, 4, 5, 6]
+suppress_verses_when = ["soprano", "tenor"]
+notes = """
+e'2 g'4. f'8 | e'4( d'4) c'4( b4) | c'2. e'4 | e'4( g'4) f'4( e'4) | c'2 b4( c'4) | c'2( b4) r4
+| r1 | r1 | g'2 e'4. f'8 | g'4 e'4 g'4 a'4
+| g'4 g'4 fis'4. f'8 | g'4 d'4 b4 d'4 | d'2. g'4 | e'4. e'8 e'4 d'4
+| e'2. g'4 | g'4. g'8 g'4 g'4 | g'2. g'4 | f'2 g'4( f'4) | e'2 d'4( f'4) | e'1
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3, 4, 5, 6]
+suppress_verses_when = ["soprano"]
+notes = """
+g2 c'4. c'8 | c'4( g2) f4/-48 | e2. c'4 | c'2 c'2 | c'2 g2 | g2. r4
+| b2 b4. c'8 | d'4 b4 c'4 d'4 | e'2 r2 | r1
+| b2 a4. a8 | b4 g4 g4 c'4 | b2. r4 | r2 r4 d'4
+| c'4. c'8 c'4 b4 | c'2. b4 | c'4. c'8 c'4 g4 | b2 g4( a4) | g2 g2 | g1
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3, 4, 5, 6]
+suppress_verses_when = ["soprano", "alto", "tenor"]
+notes = """
+c2 e4. f8 | g2 g,2 | c2. c4 | c2 c2 | f4( e4) d4( c4) | g,2. r4
+| r1 | r1 | c2 c4. d8 | e4 c4 e4 fis4
+| g4 g4 d4. d8 | g4 b,4 d4 d4 | g2. r4 | r2 r4 g4
+| c4. c8 e4 g4 | c'2. g4 | c'4. c'8 c'4 c4 | g2 e4( f4) | g2 g,2 | c1
+"""
+
+
+[lyrics.1]
+text = "Grace! 'Tis a charm -- ing sound, Har -- mo -- nious to the ear; Heav'n with the ech -- o shall re -- sound, Heav'n with the ech -- o shall re -- sound, And all the earth shall hear, And all the earth shall hear, And all the earth shall hear."
+
+[parts.Tenor.lyrics.1]
+text = "Grace! 'Tis a charm -- ing sound, Har -- mo -- nious to the ear; Heav'n with the ech -- o shall re -- sound, Heav'n with the ech -- o shall re -- sound, And all the earth shall hear, And all the earth, And all the earth shall hear."
+
+[parts.Bass.lyrics.1]
+text = "Grace! 'Tis a charm -- ing sound, Har -- mo -- nious to the ear; Heav'n with the ech -- o shall re -- sound, Heav'n with the ech -- o shall re -- sound, And all the earth shall hear, And all the earth, And all the earth shall hear."
+
+[lyrics.2]
+text = "Grace first con -- trived a way To save re -- bel -- lious man; And all the steps that grace dis -- play, And all the steps that grace dis -- play, Which drew the won -- drous plan, Which drew the won -- drous plan, Which drew the won -- drous plan."
+
+[parts.Tenor.lyrics.2]
+text = "Grace first con -- trived a way To save re -- bel -- lious man; And all the steps that grace dis -- play, And all the steps that grace dis -- play, Which drew the won -- drous plan, Which drew the won, Which drew the won -- drous plan."
+
+[parts.Bass.lyrics.2]
+text = "Grace first con -- trived a way To save re -- bel -- lious man; And all the steps that grace dis -- play, And all the steps that grace dis -- play, Which drew the won -- drous plan, Which drew the won, Which drew the won -- drous plan."
+
+[lyrics.3]
+text = "'Twas grace that wrote my name In God's e -- ter -- nal book: 'Twas grace that gave me to the Lamb 'Twas grace that gave me to the Lamb Who all my sor -- rows took, Who all my sor -- rows took, Who all my sor -- rows took."
+
+[parts.Tenor.lyrics.3]
+text = "'Twas grace that wrote my name In God's e -- ter -- nal book: 'Twas grace that gave me to the Lamb 'Twas grace that gave me to the Lamb Who all my sor -- rows took, Who all my sor, Who all my sor -- rows took."
+
+[parts.Bass.lyrics.3]
+text = "'Twas grace that wrote my name In God's e -- ter -- nal book: 'Twas grace that gave me to the Lamb 'Twas grace that gave me to the Lamb Who all my sor -- rows took, Who all my sor, Who all my sor -- rows took."
+
+[lyrics.4]
+text = "Grace led my ro -- ving feet To tread the heaven -- ly road; And new sup -- plies each hour I meet, And new sup -- plies each hour I meet, While press -- ing on to God, While press -- ing on to God, While press -- ing on to God."
+
+[parts.Tenor.lyrics.4]
+text = "Grace led my ro -- ving feet To tread the heaven -- ly road; And new sup -- plies each hour I meet, And new sup -- plies each hour I meet, While press -- ing on to God, While press -- ing on, While press -- ing on to God."
+
+[parts.Bass.lyrics.4]
+text = "Grace led my ro -- ving feet To tread the heaven -- ly road; And new sup -- plies each hour I meet, And new sup -- plies each hour I meet, While press -- ing on to God, While press -- ing on, While press -- ing on to God."
+
+[lyrics.5]
+text = "Grace taught my soul to pray, And made my eyes o'er -- flow: 'Twas grace which kept me to this day, 'Twas grace which kept me to this day, And will not let me go, And will not let me go, And will not let me go."
+
+[parts.Tenor.lyrics.5]
+text = "Grace taught my soul to pray, And made my eyes o'er -- flow: 'Twas grace which kept me to this day, 'Twas grace which kept me to this day, And will not let me go, And will not let, And will not let me go."
+
+[parts.Bass.lyrics.5]
+text = "Grace taught my soul to pray, And made my eyes o'er -- flow: 'Twas grace which kept me to this day, 'Twas grace which kept me to this day, And will not let me go, And will not let, And will not let me go."
+
+[lyrics.6]
+text = "Grace all the work shall crown, Thro' e -- ver -- last -- ing days; It lays in heaven the top -- most stone; It lays in heaven the top -- most stone; And well de -- serves the praise, And well de -- serves the praise, And well de -- serves the praise."
+
+[parts.Tenor.lyrics.6]
+text = "Grace all the work shall crown, Thro' e -- ver -- last -- ing days; It lays in heaven the top -- most stone; It lays in heaven the top -- most stone; And well de -- serves the praise, And well de -- serves, And well de -- serves the praise."
+
+[parts.Bass.lyrics.6]
+text = "Grace all the work shall crown, Thro' e -- ver -- last -- ing days; It lays in heaven the top -- most stone; It lays in heaven the top -- most stone; And well de -- serves the praise, And well de -- serves, And well de -- serves the praise."

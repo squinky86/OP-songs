@@ -1,0 +1,50 @@
+title = "Abba, Father! We Approach Thee"
+subtitle = "Calon Lân"
+commentary = "<p>This same song is also available with music for <a href=\"/songs/33\">Beecher</a>, <a href=\"/songs/34\">Deerhurst</a>, and <a href=\"/songs/35\">Erie</a>.</p>"
+copyrights = [ "Lyrics: James G. Deck, 1841 (public domain)",
+  "Music: 'Calon Lân' by John Hughes c. 1900 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license"
+]
+key_signature = "A"
+time_sig_numerator = 6
+time_sig_denominator = 4
+tempo_bpm = 145
+verse_count = 4
+phrase_breaks = ["5:64", "9:64", "13:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = "s1 e'4 a'4 | cis''2. a'4 b'4 cis''4 | a'2 e'2 fis'4 gis'4 | a'2. fis'4 d''4 cis''4 | cis''2( b'2) e'4 a'4 | cis''2. a'4 b'4 cis''4 | a'2 fis'2 a'4 gis'8[ fis'8] | e'2. a'4 a'4 gis'4 | a'1 cis''4. a'8 | e''2. cis''4 b'4 a'4 | a'2 gis'2 b'4. cis''8 | d''2. d''4 cis''4 b'4 | cis''1 e'4 e'4 | fis'2. fis'4 gis'4 gis'4 | a'2 b'2 a'4 b'4 | cis''2. a'4 b'8[ a'8] gis'4 | a'1 s2\n"
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = "s1 cis'4 cis'4 | e'2. cis'4 d'4 e'4 | e'2 cis'2 d'4 d'4 | cis'2. d'4 fis'4 e'4 | e'1 cis'4 e'4 | e'2. e'4 e'4 a'4 | e'2 d'2 fis'4 e'8[ d'8] | cis'2. e'4 e'4 e'4 | e'1 e'4. e'8 | a'2. a'4 gis'4 a'4 | e'2 e'2 e'4. a'8 | gis'2. gis'4 a'4 gis'4 | a'1 e'4 e'4 | d'2. d'4 e'4 e'4 | e'2 e'2 cis'4 d'4 | e'2. e'4 e'4 e'4 | e'1 s2\n"
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = "s1 a4 a4 | a2. a4 a4 a4 | cis'2 a2 a4 b4 | a2. a4 a4 a4 | a2( gis2) a4 a4 | a2. cis'4 d'4 e'4 | cis'4( a4) a2 a4 a4 | a2. cis'4 b4 d'4 | cis'1 a4. cis'8 | cis'2. e'4 e'4 e'4 | cis'4( b4) b2 gis4. a8 | b2 e'2/+48 e'4 e'4 | e'1 a4 a4 | a2. b4 b4 d'4 | cis'2 e'2 a4 a4 | a2. cis'4 d'8[ cis'8] b4 | cis'1 s2\n"
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = "s1 a,4 a,4 | a,2. a,4 a,4 a,4 | a,2 a,2 d4 b,4 | fis2. d4 b,4 cis8[ d8] | e1 e4 cis4 | a,2. a,4 a,4 a,4 | a,4( cis4) d2 d4 d4 | e2. e4 e4 e4 | a,1 a4. a8 | a2. a,4 b,4 cis4 | e2 e2 e4. e8 | e2. e4 e4 e4 | a1 cis4 cis4 | d2. b,4 e4 e4 | a2 gis2 fis4 f4 | e2. e4 e4 e4 | a,1 s2\n"
+
+[lyrics.1]
+text = "Ab -- ba, Fa -- ther! We ap -- proach Thee\nIn our Sa -- vior’s pre -- cious name;\nWe, Thy chil -- dren, here as -- sem -- bled,\nNow Thy prom -- ised bless -- ing claim;\nFrom our sins His blood hath washed us,\n’Tis through Him our souls draw nigh,\nAnd Thy Spir -- it, too, hath taught us,\nAb -- ba, Fa -- ther, thus to cry."
+
+[lyrics.2]
+text = "Once as prod -- i -- gals we wan -- dered\nIn our fol -- ly far from Thee,\nBut Thy grace, o’er sin a -- bound -- ing,\nRes -- cued us from mis -- er -- y;\nThou Thy prod -- i -- gals hast par -- doned,\nKissed us with a Fa -- ther’s love,\nSpread the fes -- tive board, and called us,\nE’er to dwell with Thee a -- bove."
+
+[lyrics.3]
+text = "Clothed in gar -- ments of sal -- va -- tion,\nAt Thy ta -- ble is our place,\nWe re -- joice, and Thou re -- joic -- est,\nIn the rich -- es of Thy grace;\nIt is meet, we hear Thee say -- ing,\nWe should mer -- ry and be glad,\nI have found My once lost chil -- dren,\nNow they live who once were dead."
+
+[lyrics.4]
+text = "Ab -- ba, Fa -- ther! all a -- dore Thee,\nAll re -- joice in Heav’n a -- bove,\nWhile in us they learn the won -- ders\nOf Thy wis -- dom, grace, and love;\nSoon be -- fore Thy throne as -- sem -- bled,\nAll Thy chil -- dren shall pro -- claim,\nGlo -- ry, ev -- er -- last -- ing glo -- ry,\nBe to God and to the Lamb!"

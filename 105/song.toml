@@ -1,0 +1,76 @@
+title = "The Great Physician"
+subtitle = ""
+copyrights = [
+  "Lyrics: William Hunter, 1851 (public domain)",
+  "Music: John H. Stockton, 1869 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Eb"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 80
+verse_count = 4
+phrase_breaks = ["5:40", "9:48", "13:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s8 bes'8 | bes'4 g'8 ees'4 f'8 | g'4 aes'8 bes'4 bes'8 | bes'4 ees'8 g'4 ees'8 |
+f'4. ees'4 bes'8 | bes'4 g'8 ees'4 f'8 | g'4 aes'8 bes'4 bes'8 | bes'4 ees'8 g'4 ees'8 |
+f'4. ees'4. | bes'8(@c c''8) d''8 ees''4 bes'8 | d''4 c''8 bes'4. | bes'8( c''8) d''8 ees''4 bes'8 |
+d''4 c''8 bes'4. | bes'4 g'8 ees'4 f'8 | g'4 aes'8 bes'4. | bes'4 ees'8 g'4 ees'8 |
+f'4. ees'4 s8 |
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s8 g'8 | g'4 ees'8 bes4 d'8 | ees'4 f'8 g'4 g'8 | g'4 bes8 ees'4 bes8 |
+d'4. ees'4 g'8 | g'4 ees'8 bes4 d'8 | ees'4 f'8 g'4 g'8 | g'4 bes8 ees'4 bes8 |
+d'4. ees'4. | g'4@c g'8 g'4 g'8 | bes'4 aes'8 g'4. | g'4 g'8 g'4 g'8 |
+bes'4 aes'8 g'4. | g'4 ees'8 bes4 d'8 | ees'4 f'8 g'4. | g'4 bes8 ees'4 bes8 |
+d'4. ees'4 s8 |
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 s8 bes8 | bes4 bes8 g4 bes8 | bes4 bes8 bes4 bes8 | bes4 g8 bes4 g8 |
+aes4. g4 bes8 | bes4 bes8 g4 bes8 | bes4 bes8 bes4 bes8 | bes4 g8 bes4 g8 |
+aes4. g4. | bes4@c bes8 bes4 ees'8 | ees'4 ees'8 ees'4. | bes4 bes8 bes4 ees'8 |
+ees'4 ees'8 ees'4. | ees'4 bes8 g4 bes8 | bes4 bes8 bes4. | bes4 g8 bes4 g8 |
+aes4. g4 s8 |
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 s8 ees8 | ees4 ees8 ees4 bes,8 | ees4 ees8 ees4 ees8 | ees4 ees8 ees4 ees8 |
+bes,4. ees4 ees8 | ees4 ees8 ees4 bes,8 | ees4 ees8 ees4 ees8 | ees4 ees8 ees4 ees8 |
+bes,4. ees4. | ees4@c ees8 ees4 ees8 | aes4 aes8 ees4. | ees4 ees8 ees4 ees8 |
+aes4 aes8 ees4. | ees4 ees8 ees4 bes,8 | ees4 ees8 ees4. | ees4 ees8 ees4 ees8 |
+bes,4. ees4 s8 |
+"""
+
+[lyrics.1]
+text = "The great Phy -- si -- cian now is near, The sym -- pa -- thiz -- ing Je -- sus; He speaks the droop -- ing heart to cheer: O hear the voice of Je -- sus."
+
+[lyrics.2]
+text = "“All glo -- ry to the dy -- ing Lamb! I now be -- lieve in Je -- sus; I love the bless -- ed Sav -- ior's name, I love the name of Je -- sus."
+
+[lyrics.3]
+text = "His name dis -- pels my guilt and fear, No oth -- er name but Je -- sus; O how my soul de -- lights to hear The char -- ming name of Je -- sus."
+
+[lyrics.4]
+text = "And when to that bright world a -- bove, We rise to see our Je -- sus, We'll sing a -- round the throne of love His name, the name of Je -- sus."
+
+[lyrics.chorus]
+text = "Sweet -- est note in ser -- aph song, Sweet -- est name on mor -- tal tongue, Sweet -- est car -- ol ev -- er sung, Je -- sus bless -- ed Je -- sus."

@@ -1,0 +1,81 @@
+title = "Behold the Saviour at the Door"
+subtitle = "St. Catherine"
+commentary = "<p>This same hymn text is also available set to the tune <a href=\"/songs/66\">Holley</a>.</p>"
+copyrights = [
+  "Lyrics: Joseph Grigg, 1765 (public domain)",
+  "Music: 'St. Catherine' by Henri F. Hemy, 1864; arr. by J. G. Walton, 1874 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 4
+phrase_breaks = ["4:48", "8:48", "12:48", "16:48", "20:48", "24:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+c''4 bes'4 aes'4 | aes'4( g'4) aes'4 | bes'4( f'4) g'4 | aes'2. |
+aes'4 g'4 f'4 | ees'2 aes'4 | aes'4( g'4) aes'4 | bes'2. |
+c''4 bes'4 aes'4 | aes'4( g'4) aes'4 | bes'4( f'4) g'4 | aes'2. |
+aes'4 g'4 f'4 | ees'2 c''4 | bes'4( c''4) bes'4 | aes'2. |
+des''4 des''4 des''4 | c''2 c''4 | bes'2 bes'4 | c''2. |
+c''4 bes'4 aes'4 | f'2 aes'4 | bes'2 bes'4 | aes'2. |
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+ees'4 ees'4 ees'4 | ees'2 ees'4 | f'2 ees'4 | ees'2. |
+f'4 ees'4 des'4 | c'2 ees'4 | d'2 d'4 | ees'2. |
+ees'4 ees'4 ees'4 | ees'2 ees'4 | f'2 ees'4 | ees'2. |
+f'4 ees'4 des'4 | c'2 ees'4 | d'2 des'4 | c'2. |
+f'4 f'4 f'4 | ees'2 aes'4 | g'2 g'4 | aes'2. |
+ees'4 ees'4 ees'4 | f'2 f'4 | g'2 ees'4 | ees'2. |
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+aes4 des'4 c'4 | c'4( des'4) c'4 | des'2 bes4 | c'2. |
+aes4 aes4 aes4 | aes2 aes4 | bes2 aes4 | g2. |
+aes4 des'4 c'4 | c'4( des'4) c'4 | des'2 bes4 | c'2. |
+aes4 aes4 aes4 | aes2 aes4 | aes2 g4 | aes2. |
+aes4 aes4 aes4 | aes2 ees4 | ees'2 ees'4 | ees'2. |
+ees'4 des'4 c'4 | des'2 c'4 | ees'4( bes4) des'4 | c'2. |
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+aes4 aes4 aes4 | aes4( bes4) aes4 | des2 ees4 | aes,2. |
+des4 des4 des4 | aes,2 c4 | bes,2 bes,4 | ees2. |
+aes4 aes4 aes4 | aes4( bes4) aes4 | des2 ees4 | aes,2. |
+des4 des4 f4 | aes2 f4 | bes,2 ees4 | aes,2. |
+des4 des4 des4 | aes,2 aes,4 | ees2 ees4 | aes2. |
+aes4 aes4 aes4 | des2 f4 | ees2 ees4 | aes,2. |
+"""
+
+[lyrics.1]
+text = "Be -- hold the Sav -- iour at the door! He gen -- tly knocks— has knocked be -- fore; Has wait -- ed long— is wait -- ing still; You use no oth -- er friend so ill."
+
+[lyrics.2]
+text = "Oh love -- ly at -- ti -- tude! He stands With o -- pen heart and out -- stretched hands; Oh match -- less kind -- ness! and He shows His match -- less kind -- ness to His foes."
+
+[lyrics.3]
+text = "Ad -- mit Him, ere His an -- ger burn, Lest He de -- part and ne’er re -- turn; Ad -- mit Him, or the hour’s at hand When at His door de -- nied you’ll stand."
+
+[lyrics.4]
+text = "Ad -- mit Him, for the hu -- man breast Ne’er en -- ter -- tained so kind a guest; No mor -- tal tongue their joys can tell, With whom He con -- de -- scends to dwell."
+
+[lyrics.chorus]
+text = "O -- pen the door, He’ll en -- ter in, And sup with you, and you with Him."

@@ -1,0 +1,57 @@
+title = "This Is For Me"
+copyrights = [
+  "Lyrics and Music: L. O. Sanderson, 1971",
+  "This work is under copyright through 12/31/2066. Used by permission.",
+]
+key_signature = "Db"
+time_sig_numerator = 6
+time_sig_denominator = 4
+tempo_bpm = 130
+verse_count = 3
+phrase_breaks = ["3:96"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+f'4. f'8 f'4 aes'2 bes'4 | aes'2. bes'4 bes'4 bes'4 | ges'2 bes'4 aes'2.
+| des''4.%f des''8 des''4 des''2. | des''4 c''4 bes'4 aes'4( f'4.) r8 | aes'4 ees'4 f'4 ges'2 f'4 | des'1. |
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+des'4. des'8 des'4 f'2 ges'4 | f'2. ges'4 ges'4 ges'4 | des'2 ges'4 f'2.
+| f'4.%f f'8 ges'4 f'2( aes'4) | ges'4 aes'4 ges'4 f'4( des'4.) r8 | c'4 c'4 des'4 c'2 c'4 | des'1. |
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+aes4. aes8 aes4 des'2 des'4 | des'2. des'4 des'4 des'4 | bes2 des'4 des'2.
+| aes4. aes8 bes4 aes2( ces'4) | bes4 c'4 des'4 des'4( aes4.) r8 | ges4 ges4 f4 ees2 aes4 | f1. |
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+des4. des8 des4 des2 des4 | des2. ges4 ges4 ges4 | ges2 ges4 des2.
+| des4. des8 des4 des2( f4) | ges4 ges4 ges4 des4~ des4. r8 | aes,4 aes,4 aes,4 aes,2 aes,4 | des1. |
+"""
+
+[lyrics.1]
+text = "Je -- sus from heav -- en came, Emp -- tied of home and fame; Now I can see, this was for me— Blest be His ho -- ly name."
+
+[lyrics.2]
+text = "Je -- sus on Cal -- v'ry died, Ha -- ted, a -- bused, de -- nied; Now I can see, this was for me; Now I am jus -- ti -- fied."
+
+[lyrics.3]
+text = "Christ is the Lord and King, Born was He to this end; Now I can see, this is for me— He is my ev -- 'ry -- thing."
+

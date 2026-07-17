@@ -1,0 +1,95 @@
+title = "The Little Missionary"
+subtitle = "Abana was a River"
+copyrights = [
+  "Lyrics: Hezekiah Butterworth, 1881 (public domain)",
+  "Editor: William F. Sherwin, 1881 (public domain)",
+  "Music: George Frederick Root, 1881 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license"
+]
+key_signature = "A"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 105
+verse_count = 4
+phrase_breaks = ["5:40", "9:40", "13:40", "17:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s8 e'8 | cis''4 b'8 a'4 b'8 | a'8 gis'2 a'8 | b'4 gis'8 fis'4 gis'8 | fis'4.( e'4) e'8 | eis'4 gis'8 cis''4 b'8 | b'8 a'2 gis'8 | fis'4 gis'8 a'4 b'8 | b'4.( e'4) e'8 | cis''4 b'8 a'4 b'8 | a'8 gis'2 a'8 | b'4 gis'8 fis'4 gis'8 | fis'4.( e'4) cis''8 | cis''4 d''8 cis''4 b'8 | b'8 a'2 fis'8 | e'4 fis'8 gis'4 b'8 | a'4.~ a'4 s8
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s8 cis'8 | e'4 d'8 cis'4 d'8 | cis'8 b2 cis'8 | d'4 d'8 d'4 d'8 | d'4.( cis'4) cis'8 | cis'4 e'8 e'4 e'8 | fis'8 fis'2 e'8 | dis'4 e'8 fis'4 d'8 | d'4.~ d'4 d'8 | cis'4 cis'8 cis'4 d'8 | cis'8 b2 cis'8 | d'4 d'8 d'4 d'8 | d'4.( cis'4) e'8 | eis'4 e'8 e'4 e'8 | fis'8 fis'2 d'8 | d'4 d'8 d'4 d'8 | cis'4.~ cis'4 s8
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 s8 a8 | a4 a8 a4 a8 | e8 e2 a8 | gis4 gis8 b4 b8 | a4.~ a4 a8 | gis4 gis8 gis4 cis'8 | cis'8 cis'2 cis'8 | b4 b8 b4 b8 | gis4.~ gis4 gis8 | a4 a8 a4 a8 | e8 e2 a8 | gis4 gis8 b4 b8 | a4.~ a4 a8 | gis4 gis8 gis4 gis8 | fis8 a2 a8 | gis4 a8 b4 gis8 | a4.~ a4 s8
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 s8 a,8 | a,4 a,8 a,4 a,8 | e8 e2 e8 | e4 e8 e4 e8 | a,4.~ a,4 a,8 | cis4 cis8 cis4 cis8 | fis8 fis2 fis8 | b,4 b,8 b,4 b,8 | e4.~ e4 e8 | a,4 a,8 a,4 a,8 | e8 e2 e8 | e4 e8 e4 e8 | a,4.~ a,4 a,8 | cis4 cis8 cis4 cis8 | d8 d2 d8 | e4 e8 e4 e8 | a,4.~ a,4 s8
+"""
+
+[lyrics.1]
+text = """
+A -- ba -- na was a ri -- ver
+That near Da -- mas -- cus run;
+Its bank of palms and ro -- ses
+Lay beau -- teous in the sun.
+Now by the bright A -- ba -- na
+Did Na -- a -- man re -- side,
+And oft the dimp -- ling wa -- ters
+Be -- held with joy and pride.
+"""
+
+[lyrics.2]
+text = """
+But Na -- a -- man, the vic -- tor,
+Be -- came a le -- per there;
+Was pi -- tied by a cap -- tive,
+A child of faith and prayer;
+She told him of a pro -- phet
+That could a le -- per heal,
+And to his mind in sor -- row
+The li -- ving God re -- veal.
+"""
+
+[lyrics.3]
+text = """
+This lit -- tle mis -- sion -- a -- ry
+The con -- que -- ror be -- lieved,
+And jour -- neyed to the pro -- phet,
+Who glad -- ly him re -- ceived.
+He washed in Jor -- dan's ri -- ver,
+And was to health re -- stored,
+Then came he to A -- ba -- na,
+Re -- joi -- cing in the Lord.
+"""
+
+[lyrics.4]
+text = """
+All may be mis -- sion -- a -- ries,
+A -- bout their dai -- ly care,
+And speak of faith in Je -- sus,
+And help that comes from prayer.
+Some soul op -- pressed by sor -- row
+May lis -- ten to the word,
+Like Na -- a -- man the le -- per,
+And turn and seek the Lord.
+"""

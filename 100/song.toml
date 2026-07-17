@@ -1,0 +1,63 @@
+title = "Stricken, Smitten, and Afflicted"
+subtitle = ""
+copyrights = [
+  "Lyrics: Thomas Kelly, 1804 (public domain)",
+  "Music: 'Austria' by Franz Joseph Haydn, 1797 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 4
+time_sig_denominator = 2
+tempo_bpm = 145
+verse_count = 2
+phrase_breaks = ["2:128", "4:128", "6:128", "8:128", "10:128", "12:128", "14:128"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+f'2. g'4 a'2 g'2 | bes'2 a'2 g'4( e'4) f'2 | d''2 c''2 bes'2 a'2 | g'2 a'4( f'4) c''1 |
+f'2. g'4 a'2 g'2 | bes'2 a'2 g'4( e'4) f'2 | d''2 c''2 bes'2 a'2 | g'2 a'4( f'4) c''1 |
+g'2 a'2 g'4( e'4) c'2 | bes'2 a'2 g'4( e'4) c'2 | c''2 bes'2 a'2. a'4 | b'2 b'2 c''1 |
+f''2. e''4 d''2 c''2 | d''2. c''4 c''4( bes'4) a'2 | g'2 a'4( bes'4) c''4( d''4) bes'4( g'4) | f'2 e'2 f'1 |
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+f'2. f'4 f'2 e'2 | g'2 f'2 e'4( c'4) c'2 | f'2 f'2 g'2 f'2 | d'2 f'2 e'1 |
+f'2. f'4 f'2 e'2 | g'2 f'2 e'4( c'4) c'2 | f'2 f'2 g'2 f'2 | d'2 f'2 e'1 |
+c'2 c'2 c'2 c'2 | g'2 f'2 e'4( c'4) c'2 | c'2 d'4( e'4) f'2. f'4 | f'2 f'2 e'1 |
+f'2. f'4 f'2 f'2 | f'2. f'4 g'2 f'2 | e'2 e'2 f'2 d'2 | c'2 c'2 c'1 |
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+a2. bes4 c'2 c'2 | c'2 c'2 c'4( bes4) a2 | bes2 c'2 c'2 c'2 | d'2 d'2 c'1 |
+a2. bes4 c'2 c'2 | c'2 c'2 c'4( bes4) a2 | bes2 c'2 c'2 c'2 | d'2 d'2 c'1 |
+e2 f2 e4( g4) e2 | c'2 c'2 c'4( g4) e2 | a2 g2 f2. d'4 | d'2 d'2 c'1 |
+c'2. c'4 bes2 a2 | bes2. c'4 c'2 c'2 | c'2 c'2 f2 d'4( bes4) | a2 g2 a1 |
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+f2. f4 f2 c2 | e2 f2 c2 f2 | bes2 a2 e2 f2 | bes,2 b,2 c1 |
+f2. f4 f2 c2 | e2 f2 c2 f2 | bes2 a2 e2 f2 | bes,2 b,2 c1 |
+c2 c2 c2 c2 | e2 f2 c2 c4( bes,4) | a,2 bes,4( c4) d2. d4 | g2 g2 c1 |
+a2. a4 bes2 f2 | bes2. a4 e2 f2 | c2 bes,2 a,2 bes,2 | c2 c2 f1 |
+"""
+
+[lyrics.1]
+text = "“Strick -- en, smit -- ten and af -- flict -- ed,” See Him dy -- ing on the tree! ’Tis the Christ by man re -- ject -- ed! Yes, my soul, ’tis He! ’tis He! Mark the sac -- ri -- fice ap -- point -- ed! See who bears the aw -- ful load! ’Tis the Word, ’tis God’s A -- noint -- ed— Son of Man and Son of God."
+
+[lyrics.2]
+text = "Here we have a firm foun -- da -- tion; Here’s the ref -- uge of the lost; Christ’s the Rock of our sal -- va -- tion— His the name of which we boast. Lamb of God, for sin -- ners wound -- ed— Sac -- ri -- fice to can -- cel guilt, None shall ev -- er be con -- found -- ed Who on Thee their hope have built."

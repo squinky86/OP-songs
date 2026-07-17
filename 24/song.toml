@@ -1,0 +1,98 @@
+title = "Mighty God, While Angels Bless Thee"
+subtitle = ""
+copyrights = [
+  "Lyrics: Robert Robinson, 1774 (public domain)",
+  "Lyrics: adapted from A Collection of Evangelical Hymns #IX, 1793 (public domain)",
+  "Lyrics v. 5 stanza 1: Jon Hood, 2026 and released under the CC-0 (public domain)",
+  "Music: François Hippolyte Barthélemon, 1785 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 90
+verse_count = 5
+phrase_breaks = ["3:32", "5:32", "7:32", "9:32", "11:32", "13:32", "15:32"]
+commentary = "<p>For more information on the life and theological journey of the author, Robert Robinson, see the <a href=\"/blog/20260409-robert-robinson\">Prone to Wander</a> blog article.</p>"
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 g'8. a'16 | b'4. a'8 g'8 e'8 | d'4 b4 g'8. a'16 | b'4. a'8 b'8 d''8 | a'2 g'8. a'16 | b'4. a'8 g'8 e'8 | d'4 b4 g'8. e''16 | d''4. b'8 a'8 b'8 | g'2 b'8. c''16 | d''4. e''8 d''8. b'16 | d''4 b'4 g'8. a'16 | b'4. b'8 a'8 g'8 | g'4( fis'4) g'8. a'16 | b'4. a'8 g'8 e'8 | d'4 b4 g'8. e''16 | d''4. b'8 a'8 b'8 | g'2 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 b8. c'16 | d'4. b8 c'8 c'8 | b4 g4 d'8. d'16 | d'4. d'8 d'8 d'8 | d'2 b8. c'16 | d'4. d'8 e'8 c'8 | b4 b4 c'8. e'16 | g'4. d'8 c'8 d'8 | b2 d'8. d'16 | g'4. g'8 g'8. d'16 | g'4 d'4 d'8. d'16 | d'4. d'8 e'8 e'8 | g'4( fis'4) b8. c'16 | d'4. d'8 e'8 c'8 | b4 b4 c'8. e'16 | g'4. d'8 c'8 d'8 | b2 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 d8. d16 | g4. d8 e8 g8 | g4 d4 g8. fis16 | g4. fis8 g8 b8 | fis2 g8. g16 | g4. g8 g8 g8 | g4 g4 e8. g16 | b4. g8 fis8 fis8 | g2 g8. a16 | b4. c'8 b8. g16 | b4 g4 g8. fis16 | g4. g8 c'8 b8 | b4( a4) g8. g16 | g4. g8 g8 g8 | g4 g4 e8. g16 | b4. g8 fis8 fis8 | g2 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 g,8. g,16 | g,4. g,8 c8 c8 | g,4 g,4 b,8. d16 | g4. d8 b,8 g,8 | d2 g,8. g,16 | g,4. b,8 c8 e8 | g4 g,4 c8. c16 | d4. d8 d8 d8 | g,2 g,8. g,16 | g4. g8 g8. g16 | g4 g,4 b,8. d16 | g4. g8 c8 cis8 | b4( a4) g,8. g,16 | g,4. b,8 c8 e8 | g4 g,4 c8. c16 | d4. d8 d8 d8 | g,2 s4
+"""
+
+[lyrics.1]
+text = """Might -- y God, while an -- gels bless thee,
+May an in -- fant lisp thy name?
+Lord of men as well as an -- gels,
+Thou art ev -- 'ry crea -- ture's theme.
+Lord of ev -- 'ry land and na -- tion,
+An -- cient of e -- ter -- nal days;
+Sound -- ed through the wide cre -- a -- tion
+Be thy just and law -- ful praise."""
+
+[lyrics.2]
+text = """For the gran -- deur of thy na -- ture,
+Grand be -- yond a ser -- aph's thought,
+For cre -- a -- ted works of pow -- er,
+Works with skill and kind -- ness wrought.
+For thy prov -- i -- dence that gov -- erns
+Thro' thine em -- pire's wide do -- main;
+Wings an an -- gel, guides a spar -- row,
+Bless -- ed be thy gen -- tle reign."""
+
+[lyrics.3]
+text = """But thy rich, thy free re -- demp -- tion,
+Dark thro' bright -- ness all a -- long;
+Thought is poor, and poor ex -- pres -- sion,
+Who dare sing that aw -- ful song?
+Bright -- ness of the fa -- ther's glo -- ry,
+Shall thy praise un -- ut -- ter'd lie?
+Fly my tongue such guil -- ty si -- lence!
+Sing the Lord who came to die."""
+
+[lyrics.4]
+text = """Did arch -- an -- gels sing thy com -- ing?
+Did the shep -- herds learn their lays?
+Shame would cov -- er me un -- grate -- ful,
+Should my tongue re -- fuse to praise.
+From the high -- est throne in glo -- ry,
+To the cross of deep -- est woe;
+All to ran -- som guil -- ty cap -- tives,
+Flow my praise, for -- ev -- er flow."""
+
+[lyrics.5]
+text = """See the glor -- ious morn -- ing break -- ing,
+When the dead in Christ shall rise;
+Ev -- 'ry soul in joy a -- wak -- ing,
+Meets the Sav -- ior in the skies.
+Go re -- turn im -- mor -- tal Sa -- viour,
+Leave thy foot -- stool, take thy throne;
+Thence re -- turn, and reign for -- ev -- er,
+Be the king -- dom all thine own."""

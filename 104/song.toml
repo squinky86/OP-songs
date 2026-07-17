@@ -1,0 +1,57 @@
+title = "Thus Remember Me"
+copyrights = [
+  "Lyrics: Vana R. Raye, 1971",
+  "Music: L. O. Sanderson, 1971",
+  "This work is under copyright through 12/31/2066. Used by permission.",
+]
+key_signature = "Ab"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 90
+verse_count = 3
+phrase_breaks = ["8:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+ees'2 ees'4 | f'4( aes'4) bes'4 | aes'2 f'4 | f'4( ees'2) | aes'2 aes'4 | aes'4 bes'4 f'4 | g'2 aes'4 | bes'2.
+| c''2 c''4 | bes'4( c''4) bes'4 | aes'2 aes'4 | aes'2 r4 | ees'2 f'4 | g'4( aes'4) bes'4 | aes'2.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+c'2 c'4 | des'2 des'4 | des'2 des'4 | des'4( c'2) | c'2 c'4 | d'4 d'4 d'4 | ees'2 d'4 | ees'2.
+| ees'2 ees'4 | e'2 g'4 | f'2 ges'4 | f'2 r4 | c'2 des'4 | des'2 des'4 | c'2.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+aes2 aes4 | aes4( f4) e4 | f2 aes4 | aes2. | aes2 aes4 | f4 f4 bes4 | bes2 aes4 | g2.
+| aes2 aes4 | g2 c'4 | c'2 c'4 | des'2 r4 | aes2 aes4 | bes4( f4) g4 | aes2.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+aes,2 aes,4 | des2 des4 | des2 des4 | aes,2. | f2 f4 | bes,4 bes,4 bes,4 | ees2 f4 | ees2.
+| aes,2 aes,4 | c2 e4 | f2 ees4 | des2 r4 | ees2 ees4 | ees2 ees4 | <ees aes,>2.
+"""
+
+[lyrics.1]
+text = "Je -- sus, on the night be -- trayed, Honor -- 'd God as He blest the bread, And to His dis -- ci -- ples said: Thus re -- mem -- ber me."
+
+[lyrics.2]
+text = "Je -- sus, giv -- en in our stead, Blest the fruit of the vine, and said: This, my blood, for you is shed; So re -- mem -- ber me."
+
+[lyrics.3]
+text = "Lord, we thank Thee for the bread, And the cup from the name -- less dread; Help us to dis -- cern our head; And re -- mem -- ber Thee."

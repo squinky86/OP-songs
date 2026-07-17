@@ -1,0 +1,57 @@
+title = "Jesus, Friend of All the Children"
+subtitle = ""
+verse_count = 4
+tempo_bpm = 100
+key_signature = "D"
+time_sig_numerator = 4
+time_sig_denominator = 4
+phrase_breaks = ["2:64", "4:64", "6:64"]
+copyrights = [
+  "Lyrics: Walter John Mathams, 1882 (public domain)",
+  "Music: 'Cuttle Mills' by William Griffith, 1906 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+fis'4 fis'4 e'4 fis'4 | g'4 b'4 a'4 g'4 | fis'4 d''4 b'4 g'4 | e'1 | a'4 d''4 cis''4 d''4 | a'4 g'4 fis'4 b'4 | fis'2 e'2 | d'1
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+d'4 d'4 d'4 d'4 | d'4 cis'4 d'4 e'4 | d'4 d'4 d'4 d'4 | d'2( cis'2) | d'4 d'4 g'4 fis'4 | e'4 e'4 d'4 d'4 | d'2 cis'2 | d'1
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+a4 a4 b4 a4 | b4 g4 fis4 a4 | a4 a4 g4 b4 | a1 | a4 a4 a4 a4 | a4 a4 a4 e4 | fis2 g2 | fis1
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+d4 d4 g4 fis4 | e4 a,4 b,4 cis4 | d4 fis4 g4 b4 | a2.( g4) | fis4 fis4 e4 d4 | cis4 cis4 d4 g,4 | a,2 a,2 | d1
+"""
+
+[lyrics.1]
+text = "Je -- sus, friend of lit -- tle chil -- dren, be a friend to me; take my hand and ev -- er keep me close to Thee."
+
+[lyrics.2]
+text = "Teach me how to grow in good -- ness dai -- ly as I grow; Thou hast been a child, and sure -- ly Thou dost know."
+
+[lyrics.3]
+text = "Step by step, O lead me on -- ward, up -- ward in -- to youth; wis -- er, strong -- er, still be -- com -- ing in Thy truth."
+
+[lyrics.4]
+text = "Nev -- er leave me nor for -- sake me, ev -- er be my friend, for I need Thee from life's dawn -- ing to its end."

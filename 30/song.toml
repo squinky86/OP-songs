@@ -1,0 +1,64 @@
+title = "God Knows Thy Need"
+copyrights = [
+  "Lyrics: Attributed to Ada Neilson, 1907 (public domain)",
+  "Music: 'Zulia' by Charles Hutchinson Gabriel, 1904 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license"
+]
+key_signature = "Eb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 85
+verse_count = 3
+non_breaking_phrase_breaks = ["16:40"]
+phrase_breaks = ["3:40", "5:40", "7:40", "9:40", "11:40", "13:40", "15:40"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s8 g'8 f'8 ees'8 | g'2~ g'8 bes'8 c''8 g'8 | bes'2~ bes'8 g'8 bes'8 ees''8 | d''2~ d''8 c''8 bes'8 aes'8 | g'2~ g'8 g'8 f'8 ees'8 | g'2~ g'8 bes'8 c''8 g'8 | bes'2~ bes'8 bes'8 bes'8 c''8 | d''2~ d''8 ees''8 d''8 c''8 | bes'2~ bes'8! bes'8@c c''8 d''8 | ees''2~ ees''8 d''8 c''8 d''8 | g'2~ g'8 g'8 fis'8 g'8 | bes'2~ bes'8 f'8 ees'8 f'8 | g'2~ g'8 bes'8 c''8 d''8 | ees''2~ ees''8 d''8 c''8 d''8 | g'2~ g'8 g'8 fis'8 g'8 | bes'2~ bes'8 aes'8 g'8 f'8 | ees'2. s4
+"""
+
+[parts.Alto]
+suppress_verses = [2, 3]
+suppress_verses_when = ["soprano", "tenor"]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s8 r4. | r8 ees'8 ees'8 ees'8 ees'8 r4. | r8 ees'8 ees'8 ees'8 ees'8 ees'8 g'8 g'8 | f'2~ f'8 aes'8 g'8 f'8 | ees'2~ ees'8 r4. | r8 ees'8 ees'8 ees'8 ees'8 r4. | r8 ees'8 ees'8 ees'8 ees'8 g'8 g'8 ges'8 | f'2~ f'8 g'8 f'8 ees'8 | d'2~ d'8! r8@c r4 | r8 g'8 bes'8 aes'8 g'8 r4. | r8 ees'8 ees'8 ees'8 ees'8 r4. | r8 f'8 e'8 f'8 aes'8 r4. | r8 ees'8 ees'8 ees'8 ees'8 r4. | r8 g'8 bes'8 aes'8 g'8 r4. | r8 ees'8 ees'8 ees'8 ees'8 r4. | r8 f'8 e'8 f'8 d'8 d'8 d'8 c'8 | bes2. s4
+"""
+
+[parts.Tenor]
+suppress_verses = [2, 3]
+suppress_verses_when = ["soprano"]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 s8 bes8 aes8 g8 | bes2~ bes8 g8 aes8 ees8 | g2~ g4 s4 | r8 bes8 bes8 bes8 bes8 r4. | r8 bes8 bes8 bes8 bes8 bes8 aes8 g8 | bes2~ bes8 g8 aes8 ees8 | g2~ g8 r4. | r8 bes8 bes8 bes8 a8 r4. | r8 g8 aes8 bes8 d'8! r8@c r4 | r8 ees'8 d'8 c'8 bes8 r4. | r8 ees'8 d'8 c'8 bes8 r4. | r8 aes8 g8 aes8 d'8 r4. | r8 ees'8 d'8 c'8 bes8 r4. | r8 ees'8 d'8 c'8 bes8 r4. | r8 ees'8 d'8 c'8 bes8 r4. | r8 aes8 g8 aes8 f8 c'8 bes8 aes8 | g2. s4
+"""
+
+[parts.Bass]
+suppress_verses = [2, 3]
+suppress_verses_when = ["soprano", "tenor"]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 s8 r4. | r8 ees8 ees8 ees8 ees8 r4. | r8 ees8 ees8 ees8 ees8 r4. | r8 bes,8 bes,8 bes,8 bes,8 r4. | r8 ees8 ees8 ees8 ees8 r4. | r8 ees8 ees8 ees8 ees8 r4. | r8 ees8 ees8 ees8 ees8 r4. | r8 f8 f8 f8 f8 r4. | r8 bes,8 bes,8 bes,8 bes,8! r8@c r4 | r8 ees8 ees8 ees8 ees8 r4. | r8 ees8 ees8 ees8 ees8 r4. | r8 bes,8 bes,8 bes,8 bes,8 r4. | r8 ees8 ees8 ees8 ees8 r4. | r8 ees8 ees8 ees8 ees8 r4. | r8 ees8 ees8 ees8 ees8 r4. | r8 bes,8 bes,8 bes,8 bes,8 bes,8 bes,8 bes,8 | ees2. s4
+"""
+
+
+[lyrics.1]
+text = "Oh hearts that ache, and bleed, and break, God knows the depths of all thy woes; He will Him -- self thy bur -- dens take, And shield thee from the heav -- iest blows."
+
+[lyrics.2]
+text = "Tho' oth -- er eyes be dull and blind, To mark thy grief, to note thy tear, He sees; His heart is true and kind; He ev -- ery prayer is swift to hear."
+
+[lyrics.3]
+text = "Tho' dark the clouds a -- bove thy head, The heav'ns be -- yond are full of light; Dis -- miss thy fears, sup -- press thy dread; For thee the days are bright a -- head."
+
+[lyrics.chorus]
+text = "God knows thy need, He will sup -- ply; He know -- eth what for thee is best; Soon thou shalt see with clear -- er eye, Soon en -- ter His e -- ter -- nal rest."

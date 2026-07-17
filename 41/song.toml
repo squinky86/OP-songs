@@ -1,0 +1,76 @@
+title = "I Want to Work for Jesus"
+copyrights = [
+  "Lyrics and Music: Woodie W. Smith, 1911 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+verse_count = 3
+tempo_bpm = 106
+phrase_breaks = ["5:48", "9:48", "13:48", "17:48", "21:48"]
+optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48", "19:48", "23:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s4 aes'4 | c''8. c''16 c''2 aes'4 | c''4 c''2 bes'4 | aes'8. bes'16 aes'2 f'4 |
+aes'2. ees'4 | g'8. g'16 g'2 ees'4 | g'8. aes'16 bes'2 c''4 | bes'8. aes'16 g'2 f'4 |
+ees'2. aes'4 | c''8. c''16 c''2 aes'4 | c''4 c''2 bes'4 | aes'8. bes'16 aes'2 f'4 |
+aes'2. ees'4 | aes'8. aes'16 aes'2 bes'4 | c''8. des''16 ees''2 f''4 | c''8. c''16 c''2 bes'4 | 
+aes'2. c''4@c | ees''8. ees''16 ees''2 f''4 | c''2. c''4 | bes'8. aes'16 aes'2 f'4 | 
+aes'2. ees'4 | aes'8. aes'16 aes'2 bes'4 | c''8. des''16 ees''2 f''4 | c''8. c''16 c''2 bes'4 | aes'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s4 c'4 | ees'8. ees'16 ees'2 c'4 | ees'4 ees'2 e'4 | f'8. f'16 f'2 des'4 |
+c'2. des'4 | des'8. des'16 des'2 des'4 | des'8. c'16 ees'2 ees'4 | d'8. des'16 des'2 des'4 |
+ees'2. c'4 | ees'8. ees'16 ees'2 c'4 | ees'4 ees'2 e'4 | f'8. f'16 f'2 des'4 |
+c'2. c'4 | c'8. des'16 ees'2 ees'4 | ees'8. ees'16 aes'2 aes'4 | aes'8. aes'16 aes'2 g'4 | 
+ees'2. ees'4@c | aes'8. aes'16 aes'2 aes'4 | aes'2. ges'4 | f'8. f'16 f'2 des'4 | 
+c'2. c'4 | c'8. des'16 ees'2 ees'4 | ees'8. ees'16 aes'2 aes'4 | aes'8. aes'16 aes'2 g'4 | ees'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 s4 ees4 | aes8. aes16 aes2 ees4 | aes4 aes2 aes4 | des'8. des'16 des'2 aes4 |
+aes2. g4 | bes8. bes16 bes2 g4 | bes8. aes16 g2 aes4 | aes8. f16 bes2 aes4 |
+g2. ees4 | aes8. aes16 aes2 ees4 | aes4 aes2 aes4 | des'8. des'16 des'2 aes4 |
+aes2. aes4 | ees8. ees16 aes2 g4 | aes8. bes16 c'2 des'4 | ees'8. ees'16 ees'2 des'4 | 
+c'2. aes4@c | c'8. c'16 c'2 des'4 | ees'2. ees'4 | des'8. des'16 des'2 aes4 | 
+aes2. aes4 | ees8. ees16 aes2 g4 | aes8. bes16 c'2 des'4 | ees'8. ees'16 ees'2 des'4 | c'2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 s4 aes,4 | aes,8. aes,16 aes,2 aes,4 | aes,4 aes,2 c4 | des8. des16 des2 des4 |
+aes,2. ees4 | ees8. ees16 ees2 ees4 | ees8. ees16 ees2 ees4 | bes,8. bes,16 bes,2 bes,4 |
+ees2. aes,4 | aes,8. aes,16 aes,2 aes,4 | aes,4 aes,2 c4 | des8. des16 des2 des4 |
+aes,2. aes,4 | aes,8. bes,16 c2 ees4 | aes8. aes16 aes2 aes4 | ees8. ees16 ees2 ees4 | 
+aes,2. aes4@c | aes8. aes16 aes2 aes4 | aes2. aes4 | des8. des16 des2 des4 | 
+aes,2. aes,4 | aes,8. bes,16 c2 ees4 | aes8. aes16 aes2 aes4 | ees8. ees16 ees2 ees4 | aes,2. s4
+"""
+
+[lyrics.1]
+text = "I want to work for Je -- sus, I want to praise His name; I want to live for Him each day, His bles -- sings to pro -- claim. I want to be a win -- ner Of pre -- cious souls for Him; I want to lead some wand' -- ring one From paths of death and sin."
+
+[lyrics.2]
+text = "I want to fol -- low Je -- sus Wher -- ev -- er He shall lead, Tho' steep the path or rough the way, His bid -- dings I will heed. I'm not a -- shamed of Je -- sus, Why should I ev -- er be, When He hath died my soul to save, Thro' all e -- ter -- ni -- ty?"
+
+[lyrics.3]
+text = "I want to live for Je -- sus, My life to Him I owe; I want to wear His yoke di -- vine, My ev -- 'ry du -- ty know. I want to serve Him dai -- ly, And strong in pa -- tience grow; That I may help to save the world From dark dis -- pair and woe."
+
+[lyrics.chorus]
+text = "Oh, help me Lord, I pray, To win some souls each day; My mis -- sion help me to ful -- fill, Ac -- cord -- ing to Thy will."

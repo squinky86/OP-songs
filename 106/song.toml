@@ -1,0 +1,102 @@
+title = "Come Unto Me"
+subtitle = ""
+key_signature = "Eb"
+time_sig_numerator = 2
+time_sig_denominator = 4
+tempo_bpm = 108
+verse_count = 4
+
+copyrights = [
+  "Lyrics: Nathaniel Norton, 1876 (public domain)",
+  "Music: George C. Stebbins, 1876 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license"
+]
+
+phrase_breaks = ["4:32", "8:32", "12:32", "16:32", "20:48", "24:48", "28:48"]
+non_breaking_phrase_breaks = ["18:24", "25:48", "26:48"]
+
+[[time_sig_changes]]
+measure = 17
+numerator = 6
+denominator = 8
+duration = 12
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+g'4 ees'8. f'16 | g'4. g'8 | aes'8. aes'16 aes'8 aes'8 | g'4. r8 |
+bes'4 c''8. bes'16 | g'4 ees'4 | ees'8. ees'16 f'8 g'8 | f'4. r8 |
+g'4 ees'8. f'16 | g'4. g'8 | aes'8. aes'16 bes'8 aes'8 | g'4. r8 |
+bes'4 aes'8 g'8 | c''8. ees'16 ees'8 f'8 | g'4 f'4 | ees'4. r8 |
+g'2@c f'8 g'8 | bes'2. | bes'2 c''8 bes'8 | ees''4.~ ees''4 r8 |
+ees''2 d''8 c''8 | bes'4. g'4. | aes'4 aes'8 aes'4 aes'8 | aes'4.( g'4) r8 |
+bes'4 bes'8 bes'8[ c''8] bes'8 | g'2. | g'4 g'8 g'8[ aes'8] g'8 | ees'4.~ ees'4~ ees'8! |
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+ees'4 bes8. bes16 | ees'4. ees'8 | ees'8. ees'16 ees'8 ees'8 | ees'4. r8 |
+ees'4 ees'8. ees'16 | ees'4 bes4 | c'8. c'16 c'8 ees'8 | d'4. r8 |
+ees'4 bes8. bes16 | ees'4. ees'8 | ees'8. ees'16 ees'8 ees'8 | ees'4. r8 |
+ees'4 d'8 ees'8 | ees'8. c'16 ees'8 ees'8 | ees'4 d'4 | ees'4. r8 |
+ees'2@c ees'8 ees'8 | g'2. | aes'2 aes'8 aes'8 | bes'4.~ bes'4 r8 |
+aes'2 aes'8 ees'8 | ees'4. ees'4. | f'4 f'8 f'4 ees'8 | ees'4.~ ees'4 r8 |
+ees'4 ees'8 ees'4 ees'8 | ees'2. | ees'4 ees'8 ees'4 ees'8 | bes4 bes8 c'4( bes8)! |
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+bes4 g8. aes16 | bes4. bes8 | c'8. c'16 c'8 c'8 | bes4. r8 |
+g4 aes8. g16 | bes4 g4 | g8. bes16 a8 a8 | bes4. r8 |
+bes4 g8. aes16 | bes4. bes8 | c'8. c'16 d'8 c'8 | bes4. r8 |
+bes4 bes8 bes8 | aes8. aes16 c'8 ces'8 | bes4 aes4 | g4. r8 |
+bes2@c aes8 bes8 | ees'2. | d'2 d'8 d'8 | ees'4.~ ees'4 r8 |
+c'2 bes8 aes8 | g4. bes4. | bes4 ees'8 d'4 c'8 | c'4.( bes4) r8 |
+g4 g8 g8[ aes8] g8 | bes4 bes8 c'4( bes8) | bes4 bes8 bes8[ c'8] bes8 | g4 g8 aes4( g8)! |
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+ees4 ees8. ees16 | ees4. ees8 | ees8. ees16 ees8 ees8 | ees4. r8 |
+ees4 ees8. ees16 | ees4 ees4 | c8. c16 f8 f8 | bes,4. r8 |
+ees4 ees8. ees16 | ees4. ees8 | ees8. ees16 ees8 ees8 | ees4. r8 |
+g4 f8 ees8 | aes,8. aes,16 aes,8 aes,8 | bes,4 bes,4 | ees4. r8 |
+ees4.@c ees4/+24 ees8 | ees4. ees4. | f4. f4 f8 | g4.~ g4 r8 |
+aes4. aes4/+24 aes8 | ees4. ees4. | bes,4 bes,8 bes,4 bes,8 | ees4.~ ees4 r8 |
+ees4 ees8 ees4 ees8 | ees2. | ees4 ees8 ees4 ees8 | ees4.~ ees4~ ees8! |
+"""
+
+[lyrics.1]
+text = "“Come un -- to Me.” It is the Sav -- iour’s voice— The Lord of life, who bids thy heart re -- joice; O wear -- y heart, with heav -- y cares op -- pressed, “Come un -- to Me,” and I will give you rest."
+
+[lyrics.2]
+text = "Wear -- y with life’s long strug -- gle, full of pain, O doubt -- ing soul, thy Sav -- iour calls a -- gain; Thy doubts shall van -- ish, and thy sor -- rows cease: “Come un -- to Me,” and I will give you peace."
+
+[lyrics.3]
+text = "O dy -- ing man, with guilt and sin dis -- mayed, With con -- science wak -- ened, of thy God a -- fraid; ’Twixt hopes and fears— oh, end the anx -- ious strife! “Come un -- to Me,” and I will give you life."
+
+[lyrics.4]
+text = "Life, rest and peace, the flow’rs of death -- less bloom, The Sav -- iour gives us— not be -- yond the tomb, But here, and now, on earth, the taste is giv’n Of joys which wait us thro’ the gates of heaven."
+
+[lyrics.chorus]
+text = "“Come un -- to Me,” “Come un -- to Me,” “Come un -- to Me, and I will give you rest,” I will give you rest, I will give you rest."
+
+[parts.Alto.lyrics.chorus]
+text = "“Come un -- to Me,” “Come un -- to Me,” “Come un -- to Me, and I will give you rest,” I will give you rest, I will give will give you rest."
+
+[parts.Tenor.lyrics.chorus]
+text = "“Come un -- to Me,” “Come un -- to Me,” “Come un -- to Me, and I will give you rest,” I will give will give you rest, I will give will give you rest."
+
+[parts.Bass.lyrics.chorus]
+text = "“Come un -- to Me,” “O come un -- to Me,” “Come un -- to Me, and I will give you rest,” I will give you rest, I will give you rest."

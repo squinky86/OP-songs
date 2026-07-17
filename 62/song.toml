@@ -1,0 +1,121 @@
+title = "By Faith I See the Saviour Dying"
+subtitle = "Mercy's Free"
+copyrights = [
+  "Lyrics: Richard Jukes, 1845 (public domain)",
+  "Music: D. F. E. Auber, 1830 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 9
+time_sig_denominator = 8
+tempo_bpm = 80
+verse_count = 4
+phrase_breaks = ["5:48", "9:48", "11:48", "13:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. c''4( bes'8) |
+a'4 a'8 a'4 a'8 a'8[ bes'8] c''8 |
+d''4. c''4. c''8[ bes'8] a'8 |
+g'4.( bes'4.) a'4 g'8 |
+f'4.~ f'4. c''4( bes'8) |
+a'4 a'8 a'4 a'8 a'8[ bes'8] c''8 |
+d''4. c''4. c''8[ bes'8] a'8 |
+g'4.( bes'4.) a'4 g'8 |
+f'4.~ f'4. c''4. |
+c''4 bes'8 g'4 d''8 d''4 c''8 |
+a'4.~ a'4. c''4. |
+c''4 bes'8 g'4 d''8 d''4 c''8 |
+a'4.~ a'4. c''4( bes'8) |
+a'4 a'8 a'4 a'8 a'8[ bes'8] c''8 |
+d''4.( c''4.) c''8[ bes'8] a'8 |
+g'4.( bes'4.) a'4 g'8 |
+f'4.~ f'4. s4. |
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. a'4( g'8) |
+f'4 f'8 f'4 f'8 f'8[ g'8] a'8 |
+bes'4. f'4. a'8[ g'8] f'8 |
+e'4.( g'4.) f'4 e'8 |
+f'4.~ f'4. a'4( g'8) |
+f'4 f'8 f'4 f'8 f'8[ g'8] a'8 |
+bes'4. f'4. a'8[ g'8] f'8 |
+e'4.( g'4.) f'4 e'8 |
+f'4.~ f'4. f'4. |
+e'4 g'8 e'4 e'8 f'4 f'8 |
+f'4.~ f'4. f'4. |
+e'4 g'8 e'4 e'8 f'4 f'8 |
+f'4.~ f'4. a'4( g'8) |
+f'4 f'8 f'4 f'8 f'8[ g'8] a'8 |
+bes'4.( f'4.) a'8[ g'8] f'8 |
+e'4.( g'4.) f'4 e'8 |
+f'4.~ f'4. s4. |
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. c'4. |
+c'4 c'8 c'4 c'8 c'4 c'8 |
+bes4. a4. c'4 c'8 |
+c'4.~ c'4. c'4 bes8 |
+a4.~ a4. c'4. |
+c'4 c'8 c'4 c'8 c'4 c'8 |
+bes4. a4. c'4 c'8 |
+c'4.~ c'4. c'4 bes8 |
+a4.~ a4. a4. |
+g4 c'8 c'4 bes8 bes4 a8 |
+c'4.~ c'4. a4. |
+g4 c'8 c'4 bes8 bes4 a8 |
+c'4.~ c'4. c'4. |
+c'4 c'8 c'4 c'8 c'4 c'8 |
+bes4.( a4.) c'4 c'8 |
+c'4.~ c'4. c'4 bes8 |
+a4.~ a4. s4. |
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. f4. |
+f4 f8 f4 f8 f4 f8 |
+bes,4. f4. f4 f8 |
+c4.~ c4. c4 c8 |
+f4.~ f4. f4. |
+f4 f8 f4 f8 f4 f8 |
+bes,4. f4. f4 f8 |
+c4.~ c4. c4 c8 |
+f4.~ f4. f4. |
+c4 c8 c4 c8 f4 f8 |
+f4.~ f4. f4. |
+c4 c8 c4 c8 f4 f8 |
+f4.~ f4. f4. |
+f4 f8 f4 f8 f4 f8 |
+bes,4.( f4.) f4 f8 |
+c4.~ c4. c4 c8 |
+f4.~ f4. s4. |
+"""
+
+[lyrics.1]
+text = "By faith I see the Sav -- iour dy -- ing On the tree, on the tree; To ru -- ined sin -- ners He is cry -- ing— Look to Me, look to Me. He bids the guilt -- y now draw near; Hark, hark! His pre -- cious words I hear— So soft, so sweet, they ban -- ish fear: Mer -- cy’s free, mer -- cy’s free."
+
+[lyrics.2]
+text = "Did Christ, when I was sin pur -- su -- ing, Think of me, think of me? And did He save my soul from ru -- in? Can it be, can it be? Oh, yes, He did sal -- va -- tion bring; He is a Proph -- et, Priest and King; And now my hap -- py soul can sing, Mer -- cy’s free, mer -- cy’s free."
+
+[lyrics.3]
+text = "Long as I live I’d still be cry -- ing— Mer -- cy’s free, mer -- cy’s free; Point to the Lamb for sin -- ners dy -- ing On the tree, on the tree. There all my foes He hath with -- stood, Washed all my sins a -- way in blood, Made man -- i -- manifest the love of God, E’en to me, e’en to me."
+
+[lyrics.4]
+text = "How sweet the truth, ye sin -- ners, hear it, Mer -- cy’s free, mer -- cy’s free. Ye saints of God, to all de -- clare it, Mer -- cy’s free, mer -- cy’s free. Vis -- it your neigh -- bor’s dark a -- bode, Pro -- claim to all this love of God, Oh, spread the joy -- ful news a -- broad, Mer -- cy’s free, mer -- cy’s free."

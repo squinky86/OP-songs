@@ -1,0 +1,78 @@
+title = "Can the Master Call Me Faithful?"
+verse_count = 4
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+phrase_breaks = ["4:64", "8:64", "12:64"]
+non_breaking_phrase_breaks = ["12:16", "16:16"]
+copyrights = [
+  "Lyrics: Jennie Wilson, 1907 (public domain)",
+  "Music: Leonard Daugherty, 1907 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+c''4. aes'8 bes'8. aes'16 ees'8. aes'16 | aes'2 g'4 r4 | g'4. aes'8 bes'8. ees'16 aes'8. bes'16 | c''2. r4
+| c''4. aes'8 bes'8. aes'16 ees'8. aes'16 | bes'2 f'4 r4 | g'4. aes'8 bes'8. des''16 c''8. bes'16 | aes'2. r4
+| des''4.@c des''8 des''8. des''16 aes'8. bes'16 | c''2 aes'4 r4 | bes'4. bes'8 c''8. c''16 d''8. d''16 | ees''2. r4
+| c''4. aes'8 bes'8. aes'16 ees'8. aes'16 | bes'2 f'4 r4 | g'4. aes'8 bes'8. des''16 c''8. bes'16 | aes'2. r4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+ees'4. c'8 des'8. c'16 c'8. c'16 | des'2 des'4 r4 | bes4. ees'8 ees'8. ees'16 ees'8. ees'16 | ees'2. r4
+| ees'4. c'8 des'8. c'16 c'8. c'16 | des'2 des'4 r4 | bes4. ees'8 ees'8. ees'16 ees'8. des'16 | c'2. r4
+| f'4.@c f'8 f'8. f'16 f'8. f'16 | ees'2 ees'4 r4 | ees'4. ees'8 ees'8. ees'16 aes'8. aes'16 | g'4 aes'8. aes'16 bes'4 r4
+| ees'4. c'8 des'8. c'16 c'8. c'16 | des'2 des'4 r4 | bes4. ees'8 ees'8. ees'16 ees'8. des'16 | c'4 des'8. des'16 c'4 r4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+aes4. ees8 ees8. ees16 ees8. ees16 | ees2 ees4 r4 | des'4. c'8 des'8. g16 aes8. g16 | aes2. r4
+| aes4. ees8 ees8. ees16 ees8. ees16 | f2 aes4 r4 | des'4. c'8 des'8. bes16 aes8. g16 | aes2. r4
+| aes4.@c aes8 aes8. aes16 aes8. aes16 | aes2 c'4 r4 | g4. g8 aes8. aes16 bes8. bes16 | bes4 c'8. c'16 des'4 r4
+| aes4. ees8 ees8. ees16 ees8. ees16 | f2 aes4 r4 | des'4. c'8 des'8. bes16 aes8. g16 | aes4 f8. f16 ees4 r4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+aes,4. aes,8 aes,8. aes,16 aes,8. aes,16 | bes,2 bes,4 r4 | ees4. ees8 ees8. ees16 c8. ees16 | aes2. r4
+| aes,4. aes,8 aes,8. aes,16 aes,8. aes,16 | des2 des4 r4 | ees4. ees8 ees8. ees16 ees8. ees16 | aes,2. r4
+| des4.@c des8 des8. des16 des8. des16 | aes,2 aes,4 r4 | ees4. ees8 aes8. aes16 f8. f16 | ees2. r4
+| aes,4. aes,8 aes,8. aes,16 aes,8. aes,16 | des2 des4 r4 | ees4. ees8 ees8. ees16 ees8. ees16 | aes,2. r4
+"""
+
+[lyrics.1]
+text = "Can the Mas -- ter call me faith -- ful When the dark -- ness falls for me? Leav -- ing earth -- ly fields of la -- bor Heav -- en's glo -- ry shall I see?"
+
+[lyrics.2]
+text = "Am I toil -- ing in the har -- vest Where for Him I ought to reap, Gath -- 'ring sheaves all bright and gold -- en Ere the shades of night grow deep?"
+
+[lyrics.3]
+text = "Out on sin's bleak, lone -- ly moun -- tains Pre -- cious souls have gone a -- stray; Je -- sus bids me help to save them, Am I seek -- ing to o -- bey?"
+
+[lyrics.4]
+text = "May the ho -- ly Spir -- it guide me In the work that I should do, So that to the lov -- ing Mas -- ter I may nev -- er be un -- true."
+
+[lyrics.chorus]
+text = "Can the Mas -- ter call me faith -- ful When time's fleet -- ing day is done? By my glad, whole -- heart -- ed serv -- ice Will the crown of life be won?"
+
+[parts.Alto.lyrics.chorus]
+text = "Can the Mas -- ter call me faith -- ful When time's fleet -- ing day is done? day is done? By my glad, whole -- heart -- ed serv -- ice Will the crown of life be won? life be won?"
+
+[parts.Tenor.lyrics.chorus]
+text = "Can the Mas -- ter call me faith -- ful When time's fleet -- ing day is done? day is done? By my glad, whole -- heart -- ed serv -- ice Will the crown of life be won? life be won?"

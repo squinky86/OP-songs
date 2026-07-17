@@ -1,0 +1,58 @@
+title = "To God Be the Glory"
+subtitle = ""
+copyrights = [
+  "Lyrics: Fanny J. Crosby, 1875 (public domain)",
+  "Music: William H. Doane, 1875 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 115
+verse_count = 3
+phrase_breaks = ["5:32", "9:32", "13:32", "17:32", "21:32", "25:32", "29:32"]
+optional_phrase_breaks = ["19:32", "23:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 d'4 | d'2 e'8 fis'8 | g'4 d'4 g'4 | a'4 d'4 a'4 | b'2 b'4 | c''4 e'4 c''4 | b'4 g'4 b'4 | b'4 a'4 e'4 | a'2 d'4 | d'2 e'8 fis'8 | g'4 d'4 g'4 | a'4 d'4 a'4 | b'2 b'4 | d''4 c''4 a'4 | g'4 fis'4 g'4 | b'4 b'4 a'4 | g'2 b'8.@c c''16 | d''2 b'8. c''16 | d''2 d''8. b'16 | g'4 a'4 b'4 | a'2 a'8. b'16 | c''2 a'8. b'16 | c''2 c''8 a'8 | d''4 d''4 c''4 | b'2 d'4 | d'2 e'8 fis'8 | g'4 d'4 g'4 | a'4 d'4 a'4 | b'2 b'4 | d''4 c''4 a'4 | g'4 fis'4 g'4 | b'4 b'4 a'4 | g'2 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 b4 | b4( d'4) c'8 d'8 | b4 b4 d'4 | d'4 d'4 d'4 | d'2 d'4 | e'4 c'4 e'4 | d'4 d'4 d'4 | cis'4 cis'4 e'4 | d'2 c'4 | b4( d'4) c'8 c'8 | b4 b4 d'4 | d'4 d'4 d'4 | d'2 f'4 | e'4 e'4 e'4 | d'4 d'4 d'4 | d'4 d'4 c'4 | b2 d'8.@c d'16 | g'2 d'8. d'16 | g'2 d'8. d'16 | d'4 d'4 d'4 | d'2 d'8. d'16 | d'2 d'8. d'16 | d'2 d'8 d'8 | d'4 d'4 d'4 | d'2 b4 | b4( d'4) c'8 c'8 | b4 b4 d'4 | d'4 d'4 d'4 | d'2 f'4 | e'4 e'4 e'4 | d'4 d'4 d'4 | d'4 d'4 c'4 | b2 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 g4 | g2 fis8 d8 | d4 g4 g4 | fis4 fis4 fis4 | g2 g4 | g4 g4 g4 | g4 g4 g4 | e4 e4 a8[ g8] | fis2 fis4 | g2 fis8 d8 | d4 g4 g4 | fis4 fis4 fis4 | g2 g4 | g4 a4 c'4 | b4 a4 b4 | g4 g4 fis4 | g2 g8.@c a16 | b2 g8. a16 | b2 b8. g16 | g4 fis4 g4 | fis2 fis8. g16 | a2 fis8. g16 | a2 a8 fis8 | g4 g4 fis4 | g2 g4 | g2 fis8 d8 | d4 g4 g4 | fis4 fis4 fis4 | g2 g4 | g4 a4 c'4 | b4 a4 b4 | g4 g4 fis4 | g2 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 g,4 | g,4( b,4) d8 d8 | g,4 g,4 b,4 | d4 d4 d4 | g2 g4 | c4 c4 c4 | g,4 b,4 g,4 | a,4 a,4 cis4 | d2 d4 | g,4( b,4) d8 d8 | g,4 g,4 b,4 | d4 d4 d4 | g2 g4 | c4 c4 c4 | d4 d4 d4 | d4 d4 d4 | g,2 g8.@c g16 | g2 g8. g16 | g2 g8. g,16 | b,4 a,4 g,4 | d2 d8. d16 | d2 d8. d16 | d2 d8 c8 | b,4 b,4 a,4 | g,2 g,4 | g,4( b,4) d8 d8 | g,4 g,4 b,4 | d4 d4 d4 | g2 g4 | c4 c4 c4 | d4 d4 d4 | d4 d4 d4 | g,2 s4
+"""
+
+[lyrics.1]
+text = "To God be the glo -- ry, great things he has done; so loved he the world that he gave us his Son, who yield -- ed his life an a -- tone -- ment for sin, and o -- pened the life -- gate that we may go in."
+
+[lyrics.2]
+text = "O per -- fect re -- demp -- tion, the pur -- chase of blood, to ev -- ery be -- liev -- er the prom -- ise of God; the vil -- est of -- fend -- er who tru -- ly be -- lieves, that mo -- ment from Je -- sus a par -- don re -- ceives."
+
+[lyrics.3]
+text = "Great things he has taught us, great things he has done, and great our re -- joic -- ing through Je -- sus the Son; but pur -- er and high -- er and great -- er will be our won -- der, our glad -- ness, when Je -- sus we see."
+
+[lyrics.chorus]
+text = "Praise the Lord, praise the Lord; let the earth hear his voice! Praise the Lord, praise the Lord; let the peo -- ple re -- joice! O come to the Fa -- ther through Je -- sus the Son, and give him the glo -- ry; great things he has done."

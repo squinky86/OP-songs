@@ -1,0 +1,88 @@
+title = "He Bore It All"
+copyrights = [
+  "Lyrics: J. R. Baxter, Jr., 1926 (public domain)",
+  "Music: Virgil O. Stamps, 1926 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 3
+
+phrase_breaks = ["3:40", "5:40", "7:40", "9:40", "11:40", "13:40", "15:40"]
+optional_phrase_breaks = ["12:40", "14:40"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s8 c''8 d''8 c''8 | a'4 bes'4 a'4 g'4 | f'8 f'8 f'8 g'8 a'8 c''8 d''8 c''8 | a'2~ a'8 a'8 bes'8 a'8 | g'2~ g'8 c''8 b'8 bes'8 | a'4 bes'4 a'4 g'4 | f'8 f'8 f'8 g'8 a'8 r4. | r8 bes'8 r8 bes'8 r8 bes'8 r8 bes'8 | r8 a'16 a'16 bes'8 bes'8 a'8 c''8@c d''8 c''8 | a'4 a'4 a'8 d''8 c''8 bes'8 | a'4 g'4 f'8 r4. | bes'8 bes'8 bes'8 bes'8 bes'8 r4. | a'8 a'8 a'8 a'8 a'8 c''8 d''8 c''8 | a'4 a'4 a'8 d''8 c''8 bes'8 | a'4 g'4 g'8 r4. | r8 bes'8 r8 bes'8 r8 bes'8 r8 bes'8 | r8 a'16 a'16 bes'8 bes'8 a'8 s4 s8
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s8 f'8 f'8 f'8 | f'4 f'4 f'4 e'4 | d'8 d'8 d'8 e'8 f'8 a'8 bes'8 a'8 | f'2~ f'8 f'8 g'8 f'8 | f'2( e'8) e'8 f'8 g'8 | f'4 f'4 f'4 e'4 | d'8 d'8 d'8 e'8 f'8 r4. | r8 g'8 r8 e'8 r8 f'8 r8 g'8 | r8 f'16 f'16 f'8 f'8 f'8 a'8@c bes'8 a'8 | f'4 f'4 f'8 bes'8 a'8 g'8 | f'4 e'4 f'8 r4. | e'8 f'8 g'8 f'8 e'8 r4. | f'8 f'8 f'8 f'8 f'8 a'8 bes'8 a'8 | f'4 f'4 f'8 bes'8 a'8 g'8 | f'4 f'4 f'8 r4. | r8 g'8 r8 e'8 r8 f'8 r8 g'8 | r8 f'16 f'16 f'8 f'8 f'8 s4 s8
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 s8 a8 bes8 a8 | c'4 d'4 c'4 bes4 | a8 a8 a8 c'8 c'8 r4. | c'8 d'8 f'8 d'8 c'8 r4. | b8 b8 b8 b8 c'8 g8 g8 c'8 | c'4 d'4 c'4 bes4 | a8 a8 a8 c'8 c'8 r4. | r8 c'8 r8 c'8 r8 c'8 r8 c'8 | r8 c'16 c'16 d'8 d'8 c'8 r4.@c | c'8 c'8 f'8 d'8 c'8 r4. | c'8 c'8 bes8 bes8 a8 r4. | c'8 d'8 e'8 d'8 c'8 r4. | c'8 c'8 f'8 e'8 d'8 r4. | c'8 c'8 f'8 d'8 c'8 r4. | c'8 c'8 b8 b8 b8 r4. | r8 c'8 r8 c'8 r8 c'8 r8 c'8 | r8 c'16 c'16 d'8 d'8 c'8 s4 s8
+"""
+
+# The tenor sings the verse-specific lines with everyone (inherited from the
+# global [lyrics.N]); only the call-and-response lines differ, so only the
+# shared sections are overridden here.
+[parts.Tenor.lyrics.s1]
+text = "Free -- ly bore it all I with Him might live;"
+
+[parts.Tenor.lyrics.chorus]
+text = "Je -- sus bore it all, see His shin -- ing face, Free -- ly bore it all, I with Him might live; Stood con -- demned to die, free -- ly took my place, All that I might in His pres -- ence live."
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 s8 f8 f8 f8 | f4 f4 f4 c4 | d8 d8 d8 c8 f8 r4. | f8 f8 f8 f8 f8 r4. | g8 g8 g8 g8 c8 c8 d8 e8 | f4 f4 f4 c4 | d8 d8 d8 c8 f8 a8 g8 f8 | e4/+24 c4/+24 d4/+24 e4/+24 | f2/+24~ f8 r4.@c | f8 f8 f8 f8 f8 r4. | f8 f8 c8 c8 d8 c8 d8 c8 | g2~ g8 c8 d8 c8 | f2~ f8 r4. | f8 f8 f8 f8 f8 r4. | f8 f8 g8 g8 g8 a8 g8 f8 | e4/+24 c4/+24 d4/+24 e4/+24 | f2/+24~ f8 s4 s8
+"""
+
+# The bass answers on the beat where the tenor echoes off it (m8/m9 and
+# m16/m17); the /+24 offsets shift its dedup fingerprint one eighth so the
+# shared response text collapses into the tenor's row.
+[parts.Bass.lyrics.s1]
+text = "Free -- ly bore it all I with Him might live;"
+
+[parts.Bass.lyrics.s2]
+text = "He bore it all that I might live"
+
+[parts.Bass.lyrics.chorus]
+text = "Je -- sus bore it all, see His shin -- ing face, He bore it all that I might live; Stood con -- demned to die, free -- ly took my place, He bore it all that I might live."
+
+# Lines 2 and 4 of every verse are the same call-and-response, printed once:
+# the shared sections below are spliced in at @s1/@s2 and converge across
+# verses in the PDF (rows 2/3 skip them; slides and the web keep full text).
+[lyrics.1]
+text = "My pre -- cious Sav -- ior suf -- fered pain and ag -- o -- ny, @s1 He broke the bonds of sin and set the cap -- tive free, @s2"
+
+[lyrics.2]
+text = "They placed a crown of thorns up -- on my Sav -- ior’s head, @s1 By cru -- el man with spear His side was pierced and bled, @s2"
+
+[lyrics.3]
+text = "Up Cal -- v’ry’s hill in shame the bless -- ed Sav -- ior trod, @s1 Be -- tween two thieves they cru -- ci -- fied the Son of God, @s2"
+
+[lyrics.s1]
+text = "He bore it all that I might live;"
+
+[lyrics.s2]
+text = "All that I might in His pres -- ence live."
+
+[lyrics.chorus]
+text = "He bore it all that I might see His shin -- ing face, Free -- ly bore it all, I with Him might live; I stood con -- demned to die, But Je -- sus took my place, All that I might in His pres -- ence live."

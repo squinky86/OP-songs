@@ -1,0 +1,65 @@
+title = "Beulah Land"
+subtitle = "I've Reached the Land of Corn and Wine"
+copyrights = [
+  "Lyrics: Edgar Page Stites, 1876 (public domain)",
+  "Music: 'Beulah Land' by John Robson Sweney, 1876 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 4
+phrase_breaks = ["3:32", "5:32", "7:32", "9:32", "11:32", "13:32", "15:32", "17:32", "19:32"]
+non_breaking_phrase_breaks = ["9:48", "10:32", "10:48"]
+commentary = "<p>In older translations of the bible, the archaic definition of <em>corn</em> is used, meaning grain or flour.</p>"
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 d'4 | b'8. b'16 b'4 a'4 | g'8. g'16 g'4 d'4 | c''8. c''16 c''4 b'4 | a'8. a'16 a'4 d'4 | b'8. b'16 b'4 c''4 | d''8. d''16 d''4 b'4 | a'8 d''8 c''4 fis'4 | a'8. g'16 g'4! d''4@c | a'8. a'16 a'4 d''4 | b'8. b'16 b'4 d''4 | e''8. d''16 c''4 a'4 | d''8. c''16 b'4 b'4 | a'8. gis'16 a'4 b'4 | c''8. b'16 c''4 a'4 | b'8. a'16 b'4 c''4 | d''8. cis''16 d''4 d''4 | e''8. dis''16 e''4 c''4 | d''8. cis''16 d''4 b'4 | a'8 d''8 c''4 fis'4 | a'8. g'16 g'4! s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 d'4 | g'8. g'16 g'4 d'4 | d'8. d'16 d'4 d'4 | fis'8. fis'16 fis'4 g'4 | fis'8. fis'16 fis'4 d'4 | g'8. g'16 g'4 fis'4 | g'8. g'16 g'4 g'4 | fis'8 fis'8 fis'4 d'4 | d'8. d'16 d'4! r4@c | fis'8. fis'16 fis'4 s4 | g'8. g'16 g'4 g'4 | fis'8. fis'16 fis'4 fis'4 | b'8. a'16 g'4 g'4 | fis'8. eis'16 fis'4 g'4 | a'8. gis'16 a'4 fis'4 | g'8. fis'16 g'4 a'4 | g'8. g'16 g'4 g'4 | g'8. g'16 g'4 g'4 | g'8. g'16 g'4 g'4 | fis'8 fis'8 fis'4 d'4 | d'8. d'16 d'4! s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 b4 | d'8. d'16 d'4 c'4 | b8. b16 b4 b4 | a8. a16 a4 d'4 | d'8. d'16 d'4 d'4 | d'8. d'16 d'4 d'4 | d'8. d'16 d'4 d'4 | d'8 d'8 a4 c'4 | c'8. b16 b4! r4@c | d'8. d'16 d'4 r4 | d'8. d'16 d'4 b4 | c'8. b16 a4 d'4 | d'8. d'16 d'4 d'4 | d'8. d'16 d'4 d'4 | d'8. d'16 d'4 d'4 | d'8. d'16 d'4 c'4 | b8. ais16 b4 b4 | c'8. c'16 c'4 c'4 | b8. ais16 b4 d'4 | d'8 d'8 a4 c'4 | c'8. b16 b4! s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 g4 | g8. g16 g4 g4 | g8. g16 g4 g4 | d8. d16 d4 d4 | d8. d16 d4 d4 | g8. g16 g4 a4 | b8. b16 b4 g4 | d8 d8 d4 d4 | d8. <g g,>16 <g g,>4! r4@c | d8. d16 d4 s4 | g8. g16 g4 g4 | d8. d16 d4 d4 | d8. d16 g4 g4 | d8. d16 d4 d4 | d8. d16 d4 d4 | g8. g16 g4 g4 | g8. g16 g4 g4 | c8. c16 c4 e4 | g8. g16 g4 g4 | d8 d8 d4 d4 | d8. <g g,>16 <g g,>4! s4
+"""
+
+[lyrics.1]
+text = "I’ve reached the land of corn and wine, And all its rich -- es free -- ly mine; Here shines un -- dimmed one bliss -- ful day, For all my night has passed a -- way."
+
+[lyrics.2]
+text = "My Sav -- ior comes and walks with me, And sweet com -- mun -- ion here have we; He gent -- ly leads me by His hand, For this is Heav -- en’s bor -- der land."
+
+[lyrics.3]
+text = "A sweet per -- fume up -- on the breeze, Is borne from ev -- er ver -- nal trees, And flow’rs, that ne -- ver fad -- ing grow Where streams of life for -- ev -- er flow."
+
+[lyrics.4]
+text = "The ze -- phyrs seem to float to me, Sweet sounds to Hea -- ven’s mel -- o -- dy, As an -- gels with the white robed throng Join in the sweet re -- demp -- tion song."
+
+[lyrics.chorus]
+text = "Beu -- lah Land, Beu -- lah Land, As on thy high -- est mount I stand, I look a -- way a -- cross the sea, Where man -- sions are pre -- pared for me, And view the shin -- ing glor -- y shore, My Heav’n, my home for -- ev -- er more!"
+
+[parts.Soprano.lyrics.chorus]
+text = "O Beu -- lah Land, sweet Beu -- lah Land, As on thy high -- est mount I stand, I look a -- way a -- cross the sea, Where man -- sions are pre -- pared for me, And view the shin -- ing glor -- y shore, My Heav’n, my home for -- ev -- er more!"
