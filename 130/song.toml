@@ -1,0 +1,64 @@
+title = "Come to Jesus Today"
+subtitle = ""
+copyrights = [
+  "Lyrics: Eden Reeder Latta, 1878 (public domain)",
+  "Music: John Harrison Tenney, 1878 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "D"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 120
+verse_count = 3
+phrase_breaks = ["5:48", "9:48", "11:48", "13:48"]
+optional_phrase_breaks = ["3:48", "7:48", "15:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s4 fis'8. g'16 | a'4 d'4 d''4 b'4 | a'2 fis'4 d'8. e'16 | fis'4 g'4 a'4 fis'4 | e'2. fis'8. g'16 | a'4 d'4 d''4 b'4 | a'2 fis'4 a'8. b'16 | cis''4 d''4 cis''4 b'4 | a'2. a'8.@c b'16 | a'2 fis'4 d''8. b'16 | a'2 fis'4 e''8. d''16 | cis''4 b'4 a'4 g'4 | fis'2. a'8. b'16 | a'2 fis'4 d''8. b'16 | a'2 fis'4 d''8. d''16 | e''4 e''4 d''4 cis''8. cis''16 | d''2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s4 d'8. e'16 | fis'4 d'4 fis'4 g'4 | fis'2 d'4 d'8. d'16 | d'4 e'4 fis'4 d'4 | cis'2. d'8. e'16 | fis'4 d'4 g'4 g'4 | fis'2 d'4 cis'8. d'16 | e'4 fis'4 e'4 d'4 | cis'2. fis'8.@c g'16 | fis'2 d'4 fis'8. g'16 | fis'2 d'4 g'8. fis'16 | e'4 g'4 fis'4 e'4 | d'2. fis'8. g'16 | fis'2 d'4 fis'8. g'16 | fis'2 d'4 fis'8. fis'16 | g'4 g'4 fis'4 e'8. e'16 | fis'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 s4 a8. a16 | a4 fis4 a4 d'4 | d'2 a4 fis8. g16 | a4 a4 d'4 a4 | a2. a8. a16 | a4 fis4 a4 d'4 | d'2 a4 a8. a16 | a4 a4 a4 gis4 | a2. r4@c | d'4 d'8. d'16 a4 r4 | d'4 d'8. d'16 a4 a8. a16 | a4 cis'4 d'4 a4 | a4 a8. a16 a4 r4 | d'4 d'8. d'16 a4 r4 | d'4 d'8. d'16 a4 a8. a16 | b4 b4 a4 a8. a16 | a2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 s4 d8. d16 | d4 d4 d4 d4 | d2 d4 d8. d16 | d4 d4 d4 d4 | a,2. d8. d16 | d4 d4 d4 d4 | d2 d4 a,8. a,16 | a,4 d4 e4 e4 | a,2. r4@c | d4 d8. d16 d4 r4 | d4 d8. d16 d4 a,8. a,16 | a,4 a,4 a,4 a,4 | d4 d8. d16 d4 r4 | d4 d8. d16 d4 r4 | d4 d8. d16 d4 d8. d16 | g4 g4 a4 a,8. a,16 | d2. s4
+"""
+
+[lyrics.1]
+text = "Come to Je -- sus! He will save you, Though your sins as crim -- son glow; If you give your heart to Je -- sus, He will make it white as snow."
+
+[lyrics.2]
+text = "Come to Je -- sus! do not tar -- ry, En -- ter in at mer -- cy's gate; Oh, de -- lay not til the mor -- row, Lest thy com -- ing be too late."
+
+[lyrics.3]
+text = "Come to Je -- sus, dy -- ing sin -- ner! O -- ther Sav -- ior there is none; He will share with you His glo -- ry, When your pil -- grim -- age is done."
+
+[lyrics.chorus]
+text = "Come to Je -- sus! Come to Je -- sus! Come to Je -- sus! come to -- day! Come to Je -- sus! Come to Je -- sus! Come to Je -- sus! come, come to -- day!"
+
+[parts.Tenor.lyrics.chorus]
+text = "Come, come to -- day! Come, come to -- day! Come to Je -- sus! Come, yes, come, come to -- day! Come, come to -- day! Come, come to -- day! Come to Je -- sus! come, come to -- day!"
+
+[parts.Bass.lyrics.chorus]
+text = "Come, come to -- day! Come, come to -- day! Come to Je -- sus! Come, yes, come, come to -- day! Come, come to -- day! Come, come to -- day! Come to Je -- sus! come, come to -- day!"
