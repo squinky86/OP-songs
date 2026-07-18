@@ -1,0 +1,85 @@
+title = "Wonderful Story of Love"
+subtitle = ""
+copyrights = [
+  "Lyrics and Music: John M. Driver, 1885 & 1892 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "C"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 100
+verse_count = 3
+phrase_breaks = ["4:48", "8:48", "12:48", "16:48", "20:48"]
+optional_phrase_breaks = ["2:48", "6:48", "10:48", "14:48", "18:48", "22:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+c''8 c''8 c''8 c''8 b'8 a'8 | g'4.~ g'4 r8 | c''8 c''8 c''8 b'4 d''8 | c''4.~ c''4 r8 | c''8 c''8 c''8 c''8 b'8 a'8 | g'4.~ g'4 r8 | c''8 b'8 c''8 e''4 d''8 | c''4.~ c''4 r8 | c''8 c''8 c''8 c''8 b'8 a'8 | a'4. g'4 r8 | c''8 c''8 c''8 c''8 b'8 c''8 | d''4. d''4 r8 | e''8 e''8 e''8 e''8 d''8 c''8 | d''4. a'4 r8 | g'8 g'8 c''8 b'8 a'8 b'8 | c''4.~ c''4 r8 | g'4.@c a'4. | g'4.~ g'4 r8 | c''4. c''4. | c''4.~ c''4 r8 | e''4. c''4. | d''4.( a'4) r8 | g'8 g'8 c''8 b'8 a'8 b'8 | c''4.~ c''4 r8
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+e'8 e'8 e'8 e'8 g'8 f'8 | e'4.~ e'4 r8 | e'8 e'8 e'8 d'4 f'8 | e'4.~ e'4 r8 | e'8 e'8 e'8 e'8 g'8 f'8 | e'4.~ e'4 r8 | e'8 e'8 e'8 g'4 f'8 | e'4.~ e'4 r8 | a'8 a'8 a'8 a'8 g'8 f'8 | f'4. e'4 r8 | e'8 e'8 e'8 e'8 d'8 e'8 | f'4. f'4 r8 | g'8 g'8 g'8 g'8 g'8 g'8 | f'4. f'4 r8 | e'8 e'8 e'8 f'8 f'8 f'8 | e'4.~ e'4 r8 | e'4.@c f'4. | e'4.~ e'4 r8 | e'4. f'4. | e'4.~ e'4 r8 | g'4. e'4. | f'4.~ f'4 r8 | e'8 e'8 e'8 g'8 fis'8 f'8 | e'4.~ e'4 r8
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3]
+suppress_verses_when = ["soprano", "alto"]
+notes = """
+r2. | r2. | g8 g8 g8 g4 b8 | c'4.~ c'4 r8 | r2. | r2. | g8 g8 g8 c'4 b8 | c'4.~ c'4 r8 | c'8 c'8 c'8 c'8 c'8 c'8 | c'4. c'4 r8 | g8 g8 g8 g8 g8 g8 | b4. b4 r8 | c'8 c'8 c'8 c'8 b8 bes8 | a4. c'4 r8 | c'8 c'8 c'8 d'8 d'8 g8 | c'4.~ c'4 r8 | c'8@c c'8 c'8 c'8 c'8 c'8 | c'4.~ c'4 r8 | g8 g8 g8 a8 a8 a8 | g4.~ g4 r8 | c'8 c'8 c'8 g8 g8 g8 | a4.( c'4) r8 | c'8 c'8 c'8 d'8 d'8 g8 | c'4.~ c'4 r8
+"""
+
+[parts.Tenor.lyrics.1]
+text = "Tell it to me a -- gain; Wake the im -- mor -- tal strain! An -- gels with rap -- ture an -- nounce it, Shep -- herds with won -- der re -- ceive it; Sin -- ner, O won’t you be -- lieve it? Won -- der -- ful sto -- ry of love."
+
+[parts.Tenor.lyrics.2]
+text = "Though you are far a -- way; Still He doth call to -- day; Call -- ing from Cal -- va -- ry’s moun -- tain, Down from the crys -- tal bright foun -- tain, E’en from the dawn of cre -- a -- tion, Won -- der -- ful sto -- ry of love."
+
+[parts.Tenor.lyrics.3]
+text = "Je -- sus pro -- vides a rest; For all the pure and blest, Rest in those man -- sions a -- bove us, With those who’ve gone on be -- fore us, Sing -- ing the rap -- tur -- ous cho -- rus, Won -- der -- ful sto -- ry of love."
+
+[parts.Tenor.lyrics.chorus]
+text = "Won -- der -- ful sto -- ry of love; Won -- der -- ful sto -- ry of love; Won -- der -- ful sto -- ry of love; won -- der -- ful sto -- ry of love."
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3]
+suppress_verses_when = ["soprano", "alto"]
+notes = """
+r2. | r2. | c8 c8 c8 g4 g8 | c4.~ c4 r8 | r2. | r2. | c8 c8 c8 g4 g8 | c4.~ c4 r8 | f8 f8 f8 f8 f8 f8 | c4. c4 r8 | c8 c8 c8 c8 c8 c8 | g4. g4 r8 | c8 c8 c8 c8 d8 e8 | f4. f4 r8 | g8 g8 g8 g8 g8 g8 | c4.~ c4 r8 | c8@c c8 c8 c8 c8 c8 | c4.~ c4 r8 | c8 c8 c8 c8 c8 c8 | c4.~ c4 r8 | c8 c8 c8 c8 c8 c8 | f4.~ f4 r8 | g8 g8 g8 g8 g8 g8 | c4.~ c4 r8
+"""
+
+[parts.Bass.lyrics.1]
+text = "Tell it to me a -- gain; Wake the im -- mor -- tal strain! An -- gels with rap -- ture an -- nounce it, Shep -- herds with won -- der re -- ceive it; Sin -- ner, O won’t you be -- lieve it? Won -- der -- ful sto -- ry of love."
+
+[parts.Bass.lyrics.2]
+text = "Though you are far a -- way; Still He doth call to -- day; Call -- ing from Cal -- va -- ry’s moun -- tain, Down from the crys -- tal bright foun -- tain, E’en from the dawn of cre -- a -- tion, Won -- der -- ful sto -- ry of love."
+
+[parts.Bass.lyrics.3]
+text = "Je -- sus pro -- vides a rest; For all the pure and blest, Rest in those man -- sions a -- bove us, With those who’ve gone on be -- fore us, Sing -- ing the rap -- tur -- ous cho -- rus, Won -- der -- ful sto -- ry of love."
+
+[parts.Bass.lyrics.chorus]
+text = "Won -- der -- ful sto -- ry of love; Won -- der -- ful sto -- ry of love; Won -- der -- ful sto -- ry of love; won -- der -- ful sto -- ry of love."
+
+[lyrics.1]
+text = "Won -- der -- ful sto -- ry of love; Tell it to me a -- gain; Won -- der -- ful sto -- ry of love; Wake the im -- mor -- tal strain! An -- gels with rap -- ture an -- nounce it, Shep -- herds with won -- der re -- ceive it; Sin -- ner, O won’t you be -- lieve it? Won -- der -- ful sto -- ry of love."
+
+[lyrics.2]
+text = "Won -- der -- ful sto -- ry of love; Though you are far a -- way; Won -- der -- ful sto -- ry of love; Still He doth call to -- day; Call -- ing from Cal -- va -- ry’s moun -- tain, Down from the crys -- tal bright foun -- tain, E’en from the dawn of cre -- a -- tion, Won -- der -- ful sto -- ry of love."
+
+[lyrics.3]
+text = "Won -- der -- ful sto -- ry of love; Je -- sus pro -- vides a rest; Won -- der -- ful sto -- ry of love; For all the pure and blest, Rest in those man -- sions a -- bove us, With those who’ve gone on be -- fore us, Sing -- ing the rap -- tur -- ous cho -- rus, Won -- der -- ful sto -- ry of love."
+
+[lyrics.chorus]
+text = "Won -- der -- ful! Won -- der -- ful! Won -- der -- ful, won -- der -- ful sto -- ry of love."
