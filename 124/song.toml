@@ -1,0 +1,73 @@
+title = "We're Marching to Zion"
+subtitle = ""
+copyrights = [
+  "Lyrics: Isaac Watts, 1707; refrain by Robert Lowry, 1867 (public domain)",
+  "Music: 'Marching to Zion' by Robert Lowry, 1867 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 108
+verse_count = 4
+non_breaking_phrase_breaks = ["18:48"]
+optional_phrase_breaks = ["3:40", "11:40", "15:40", "19:40"]
+phrase_breaks = ["5:40",  "7:40", "9:40", "13:40", "17:40"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s8 f'8 | a'4. f'4. | c'8[ d'8] e'8 f'4 g'8 | a'4 f'8 c''8[ bes'8] a'8 | g'4.~ g'4 g'8 | a'4 a'8 bes'4 a'8 | g'4 f'8 d'4 f'8 | g'4 g'8 a'4 g'8 | f'4 d'8 c'4 c'8 | f'4. g'4. | a'4 c''8 bes'4 g'8 | f'4 f'8 g'4 e'8 | f'4.~ f'4 a'8@c | c''4. a'4 a'8 | a'4. f'4 r8 | a'8. g'16 f'8 c''8. bes'16 a'8 | g'4. c''4 bes'8 | a'4 a'8 a'8 bes'8 c''8 | d''4. d''8[ c''8] bes'8 | a'8. a'16 a'8 g'16 g'8. g'8 | f'4.~ f'4 s8
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s8 c'8 | f'4. c'4. | c'4 c'8 c'4 e'8 | f'4 c'8 a'8[ g'8] f'8 | e'4.~ e'4 e'8 | f'4 f'8 f'4 f'8 | d'4 d'8 d'4 c'8 | e'4 e'8 f'4 e'8 | d'4 b8 c'4 c'8 | c'4. e'4. | f'4 a'8 g'4 d'8 | c'4 c'8 c'4 c'8 | c'4.~ c'4 f'8@c | a'4. f'4 f'8 | f'4. c'4 r8 | f'8. c'16 c'8 f'8. f'16 f'8 | e'4. e'4 g'8 | f'4 f'8 f'8 f'8 f'8 | f'4. d''8[ c''8] g'8 | f'8. f'16 f'8 e'16 e'8. e'8 | f'4.~ f'4 s8
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3, 4]
+suppress_verses_when = ["soprano", "alto"]
+notes = """
+s2 s8 a8 | c'4. a4. | bes4 bes8 a4 c'8 | c'4 a8 c'4 c'8 | c'4.~ c'4 c'8 | c'4 c'8 d'4 c'8 | bes4 bes8 f4 a8 | c'4 c'8 c'4 g8 | g4 f8 e4 a8 | a4 a8 c'4 c'8 | c'4 c'8 d'4 bes8 | a4. bes4. | a4.~ a4 c'8@c | c'4 c'8 c'4 c'8 | c'4. a4 r8 | c'8. bes16 a8 a8. d'16 f'8 | c'4. g4 c'8 | c'4 c'8 c'8 bes8 a8 | bes4 bes8 bes8 c'8 d'8 | c'8. c'16 c'8 bes16 bes8. bes8 | a4.~ a4 s8
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3, 4]
+suppress_verses_when = ["soprano", "alto"]
+notes = """
+s2 s8 f8 | f4. f,4. | c4 c8 f4 c8 | f4 f8 f4 f8 | c4.~ c4 c8 | f4 f8 f4 f8 | bes,4 bes,8 bes,4 f,8 | c4 c8 c4 c8 | g,4 g,8 c4 f8 | f4 f8 c4 c8 | f4 f8 bes,4 bes,8 | c4. c4. | f,4.~ f,4 f8@c | f4 f8 f4 f8 | f4. f4 r8 | f8. f16 f8 f8. f16 c'8 | c4. c4 c8 | f4 f8 f8 f8 f8 | bes,4 bes,8 bes,8 a,8 bes,8 | c8. c16 c8 c16 c8. c8 | f,4.~ f,4 s8
+"""
+
+[lyrics.1]
+text = "Come, we that love the Lord, and let our joys be known; join in a song with sweet ac -- cord, join in a song with sweet ac -- cord and thus sur -- round the throne, and thus sur -- round the throne."
+
+[lyrics.2]
+text = "Let those re -- fuse to sing who ne -- ver knew our God; but chil -- dren of the heav'n -- ly King, but chil -- dren of the heav'n -- ly King may speak their joys a -- broad, may speak their joys a -- broad."
+
+[lyrics.3]
+text = "The hill of Zi -- on yields a thou -- sand sa -- cred sweets be -- fore we reach the heav'n -- ly fields, be -- fore we reach the heav'n -- ly fields, or walk the gol -- den streets, or walk the gol -- den streets."
+
+[lyrics.4]
+text = "Then let our songs a -- bound, and ev -- ery tear be dry; we're march -- ing through Em -- ma -- nuel's ground, we're march -- ing through Em -- ma -- nuel's ground, to fair -- er worlds on high, to fair -- er worlds on high."
+
+[lyrics.chorus]
+text = "We're march -- ing to Zi -- on, beau -- ti -- ful, beau -- ti -- ful Zi -- on; we're march -- ing up -- ward to Zi -- on, the beau -- ti -- ful ci -- ty of God."
+
+
+[parts.Tenor.lyrics.chorus]
+text = "We're march -- ing on to Zi -- on, beau -- ti -- ful, beau -- ti -- ful Zi -- on; we're march -- ing up -- ward to Zi -- on, Zi -- on, the beau -- ti -- ful ci -- ty of God."
+
+[parts.Bass.lyrics.chorus]
+text = "We're march -- ing on to Zi -- on, beau -- ti -- ful, beau -- ti -- ful Zi -- on; we're march -- ing up -- ward to Zi -- on, Zi -- on, the beau -- ti -- ful ci -- ty of God."

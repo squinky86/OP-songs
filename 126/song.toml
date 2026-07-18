@@ -1,0 +1,63 @@
+title = "There’s a Fountain Free"
+subtitle = "Free Waters"
+copyrights = [
+  "Lyrics: Mary B. Slade, 1876 (public domain)",
+  "Music: Asa B. Everett, 1876 (public domain)",
+  "Courtesy of the [Timeless Truths Free Online Library](https://library.timelesstruths.org/)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 95
+verse_count = 4
+phrase_breaks = ["5:48", "9:48", "13:48"]
+optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
+non_breaking_phrase_breaks = ["10:48", "12:48", "14:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. g'8 a'8 | b'4 b'4 b'4 c''8 b'8 | a'4 a'4 a'4 b'8 a'8 | g'4 g'4 g'4 fis'8 g'8 | a'2. g'8 a'8 | b'4 b'4 b'4 c''8 b'8 | a'4 a'4 a'4 b'8 a'8 | g'4 g'4 a'4 g'8 fis'8 | g'2. b'8@c c''8 | d''2. c''8 b'8 | a'4 a'4 a'4 a'8 b'8 | c''2. b'8 a'8 | b'4 b'4 b'4 b'8 c''8 | d''2. c''8 b'8 | a'4 a'4 a'4 b'8 a'8 | g'4 g'4 a'4 g'8 fis'8 | g'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. d'8 d'8 | g'4 g'4 g'4 a'8 g'8 | fis'4 fis'4 fis'4 g'8 fis'8 | e'4 e'4 e'4 e'8 e'8 | fis'2. d'8 d'8 | g'4 g'4 g'4 a'8 g'8 | fis'4 fis'4 fis'4 g'8 fis'8 | e'4 e'4 e'4 d'8 d'8 | d'2. g'8@c a'8 | b'2. a'8 g'8 | fis'4 fis'4 fis'4 fis'8 g'8 | a'2. g'8 fis'8 | g'4 g'4 g'4 g'8 a'8 | b'2. a'8 g'8 | fis'4 fis'4 fis'4 g'8 fis'8 | e'4 e'4 e'4 d'8 d'8 | d'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. b8 c'8 | d'4 d'4 d'4 d'8 d'8 | d'4 d'4 d'4 d'8 c'8 | b4 b4 b4 b8 b8 | d'2. b8 c'8 | d'4 d'4 d'4 d'8 d'8 | d'4 d'4 d'4 d'8 c'8 | b4 b4 c'4 b8 a8 | b2. r4@c | r4 d'8. d'16 d'4 d'8 d'8 | d'4 d'4 d'4 r4 | r4 d'8. d'16 d'4 d'8 d'8 | d'4 d'4 d'4 r4 | r4 d'8. d'16 d'4 d'8 d'8 | d'4 d'4 d'4 d'8 c'8 | b4 b4 c'4 b8 a8 | b2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. g8 g8 | g4 g4 g4 fis8 g8 | d4 d4 d4 d8 d8 | e4 e4 e4 e8 e8 | d2. g8 g8 | g4 g4 g4 fis8 g8 | d4 d4 d4 d8 d8 | e4 e4 c4 d8 d8 | g,2. r4@c | r4 g8. g16 g4 fis8 g8 | d4 d4 d4 r4 | r4 d8. d16 d4 d8 d8 | g4 g4 g4 r4 | r4 g8. g16 g4 fis8 g8 | d4 d4 d4 d8 d8 | e4 e4 c4 d8 d8 | g,2. s4
+"""
+
+[lyrics.1]
+text = "There’s a foun -- tain free, ’tis for you and me: Let us haste, oh, haste to its brink; ’Tis the fount of love from the Source a -- bove, And He bids us all free -- ly drink."
+
+[lyrics.2]
+text = "There’s a liv -- ing stream, with a crys -- tal gleam: From the throne of life now it flows; While the wa -- ters roll let the wea -- ry soul Hear the call that forth free -- ly goes."
+
+[lyrics.3]
+text = "There’s a liv -- ing well and its wa -- ters swell, And e -- ter -- nal life they can give; And we joy -- ful sing, ev -- er spring, oh, spring, As we haste to drink and to live."
+
+[lyrics.4]
+text = "There’s a rock that’s cleft and no soul is left That may not its pure wa -- ters share; ’Tis for you and me, and its stream I see: Let us has -- ten joy -- ful -- ly there."
+
+[lyrics.chorus]
+text = "Will you come to the foun -- tain free? Will you come? ’Tis for you and me; Thirst -- y soul, hear the wel -- come call: ’Tis a foun -- tain o -- pened for all."
