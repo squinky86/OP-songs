@@ -1,0 +1,81 @@
+title = "Yes, For Me He Careth"
+copyrights = [
+  "Lyrics: Horatius Bonar, 1861 (public domain)",
+  "Music: L. O. Sanderson, 1962",
+  "This work is under copyright through 12/31/2057. Used by permission.",
+]
+key_signature = "Bb"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 130
+verse_count = 3
+phrase_breaks = ["7:48", "14:48", "22:48"]
+optional_phrase_breaks = ["4:32", "11:32", "18:48", "26:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+f'2 d'4 | f'2 bes'4 | bes'2 bes'4 | c''4 bes'4 g'4 | f'2 f'4 | bes'4( a'4) bes'4 | c''2.
+| f'2 d'4 | f'2 bes'4 | bes'2 bes'4 | c''4 bes'4 g'4 | f'2 bes'4 | d''2 c''4 | bes'2.
+| c''2 b'4 | c''2 f'4 | d''2 c''4 | bes'4 d''2 | ees''2 ees''4 | d''2 d''4 | d''4( c''4) bes'4 | c''2.
+| f'2 d'4 | f'2 bes'4 | bes'2 bes'4 | c''4 bes'4 g'4 | f'2 bes'4 | d''2 c''4 | bes'2.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+d'2 bes4 | d'2 f'4 | ees'2 ees'4 | ees'4 ees'4 ees'4 | d'2 d'4 | d'4( ees'4) f'4 | f'2.
+| d'2 bes4 | d'2 f'4 | g'2 g'4 | g'4 g'4 ees'4 | d'2 d'4 | f'2 ees'4 | d'2.
+| ees'2 d'4 | ees'2 f'4 | f'2 ees'4 | d'4 f'2 | g'2 g'4 | f'2 f'4 | e'2 e'4 | ees'2.
+| d'2 bes4 | d'2 f'4 | g'2 g'4 | g'4 g'4 ees'4 | d'2 d'4 | f'2 ees'4 | d'2.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+bes2 f4 | bes2 bes4 | g2 g4 | g4 g4 bes4 | bes2 bes4 | f2 bes4 | a2.
+| bes2 f4 | bes2 bes4 | bes2 ees'4 | ees'4 ees'4 bes4 | bes2 bes4 | bes2 a4 | bes2.
+| a2 gis4 | a2 a4 | bes2 f4 | f4 bes2 | bes2 bes4 | bes2 bes4 | bes2 bes4 | a2.
+| bes2 f4 | bes2 bes4 | bes2 bes4 | ees'4 ees'4 bes4 | bes2 bes4 | bes2 a4 | bes2.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+bes,2 bes,4 | bes,2 d4 | ees2 ees4 | ees4 ees4 ees4 | bes,2 bes,4 | bes,4( c4) d4 | f2.
+| bes,2 bes,4 | bes,2 d4 | ees2 ees4 | ees4 ees4 ees4 | f2 g4 | f2 f4 | <f bes,>2.
+| f2 f4 | f2 f4 | bes,2 bes,4 | bes,4 bes,2 | ees2 g4 | bes2 bes4 | g2 c4 | f2.
+| bes,2 bes,4 | bes,2 d4 | ees2 ees4 | ees4 ees4 ees4 | f2 g4 | f2 f4 | <f bes,>2.
+"""
+
+[lyrics.1]
+text = """
+Yes, for me, for me He car -- eth, With lov -- ing, ten -- der care;
+Yes, with me, with me He shar -- eth Each bur -- den and each fear.
+Yes, o'er me, o'er me He watch -- eth, Cease -- less watch -- eth night and day;
+Yes, e'en me, e'en me He snatch -- eth From per -- ils of the way.
+"""
+
+[lyrics.2]
+text = """
+Yes, for me, He stand -- eth plead -- ing At mer -- cy's seat a -- bove,
+Ev -- er for me in -- ter -- ced -- ing In love, un -- tir -- ing love.
+Yes, in me a -- broad He shed -- deth Joys un -- earth -- ly, love and light;
+And to cov -- er me He spread -- eth His lov -- ing wings of might.
+"""
+
+[lyrics.3]
+text = """
+Yes, in me, in me He dwell -- eth! In me and I in Him,
+And my soul with hope He fill -- eth, Tho' fu -- ture plans are dim.
+Thus I wait for His re -- turn -- ing, Sing -- ing all the way to heav'n;
+Such the joy -- ful song of morn -- ing, Such tran -- quil song of ev'n.
+"""
