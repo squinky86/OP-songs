@@ -9,7 +9,8 @@ key_signature = "G"
 time_sig_numerator = 3
 time_sig_denominator = 4
 tempo_bpm = 100
-phrase_breaks = ["5:32", "9:32", "13:32"]
+phrase_breaks = ["9:32"]
+optional_phrase_breaks = ["5:32", "13:32"]
 verse_count = 7
 
 [lyrics.1]
