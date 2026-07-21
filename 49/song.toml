@@ -10,6 +10,8 @@ time_sig_denominator = 4
 tempo_bpm = 100
 verse_count = 3
 
+phrase_breaks = ["5:32", "9:32", "11:32", "13:32"]
+
 [parts.Soprano]
 choral_type = "soprano"
 clef = "treble"
