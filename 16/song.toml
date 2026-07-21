@@ -5,7 +5,8 @@ tempo_bpm = 100
 key_signature = "D"
 time_sig_numerator = 4
 time_sig_denominator = 4
-phrase_breaks = ["2:64", "4:64", "6:64"]
+optional_phrase_breaks = ["2:64", "6:64"]
+phrase_breaks = ["4:64"]
 copyrights = [
   "Lyrics: Walter John Mathams, 1882 (public domain)",
   "Music: 'Cuttle Mills' by William Griffith, 1906 (public domain)",

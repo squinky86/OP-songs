@@ -46,19 +46,22 @@ s1 s4 d4 | d2 d4 d2 d4 | a,2 a,4 d2 d4 | a2 a4 a2 a,4 | d2 d4 d2 d4 | d2 d4 d4.(
 """
 
 [lyrics.1]
-text = "Just as I am, wi -- thout one plea, But that Thy blood was shed for me, And that Thou bid'st me come to Thee, O Lamb of God, I come, I come."
+text = "Just as I am, wi -- thout one plea, But that Thy blood was shed for me, And that Thou bid'st me come to Thee, @s1"
 
 [lyrics.2]
-text = "Just as I am, and wai -- ting not To rid my soul of one dark blot, To Thee, Whose blood can cleanse each spot, O Lamb of God, I come, I come."
+text = "Just as I am, and wai -- ting not To rid my soul of one dark blot, To Thee, Whose blood can cleanse each spot, @s1"
 
 [lyrics.3]
-text = "Just as I am, though tossed a -- bout With ma -- ny'a con -- flict, ma -- ny'a doubt, Figh -- tings and fears with -- in, with -- out, O Lamb of God, I come, I come."
+text = "Just as I am, though tossed a -- bout With ma -- ny'a con -- flict, ma -- ny'a doubt, Figh -- tings and fears with -- in, with -- out, @s1"
 
 [lyrics.4]
-text = "Just as I am, poor, wre -- tched, blind; Sight ri -- ches hea -- ling of the mind, Yea, all I need, in Thee to find, O Lamb of God, I come, I come."
+text = "Just as I am, poor, wre -- tched, blind; Sight ri -- ches hea -- ling of the mind, Yea, all I need, in Thee to find, @s1"
 
 [lyrics.5]
-text = "Just as I am, Thou wilt re -- ceive, Wilt wel -- come, par -- don, cleanse, re -- lieve, Be -- cause Thy pro -- mise I be -- lieve, O Lamb of God, I come, I come."
+text = "Just as I am, Thou wilt re -- ceive, Wilt wel -- come, par -- don, cleanse, re -- lieve, Be -- cause Thy pro -- mise I be -- lieve, @s1"
 
 [lyrics.6]
-text = "Just as I am, Thy love un -- known Has bro -- ken ev -- ery bar -- rier down; Now to be Thine, yea Thine a -- lone, O Lamb of God, I come, I come."
+text = "Just as I am, Thy love un -- known Has bro -- ken ev -- ery bar -- rier down; Now to be Thine, yea Thine a -- lone, @s1"
+
+[lyrics.s1]
+text = "O Lamb of God, I come, I come."
