@@ -1,0 +1,62 @@
+title = "Moment by Moment"
+subtitle = "Dying with Jesus"
+verse_count = 4
+key_signature = "F"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 100
+optional_phrase_breaks = ["20:48", "28:48"]
+phrase_breaks = ["4:48", "8:48", "12:48", "16:48", "24:48"]
+copyrights = [
+  "Lyrics: Daniel W. Whittle, 1893 (public domain)",
+  "Music: 'Moment by Moment' by May Whittle Moody, 1893 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+c'4 f'4 g'4 | a'4 a'4 a'4 | bes'4 f'4 g'4 | a'2. | a'4 g'4 fis'4 | g'4 a'4 g'4 | f'4 e'4. d'8 | g'2. | c'4 f'4 g'4 | a'4 a'4 a'4 | bes'4 bes'4 b'4 | c''2. | c''4 bes'4 a'4 | d'4 g'4 f'4 | e'4 a'4! g'4 | f'2. | a'4@c bes'4 c''4 | a'4 g'4 f'4 | e'4. f'8 g'4 | a'2. | a'4 bes'4 c''4 | a'4 g'4 f'4 | d'4. e'8 f'4 | g'2. | c'4 f'4 g'4 | a'4 a'4 a'4 | d''4 d''4. c''8 | bes'2. | bes'4 a'4 g'4 | d'4 g'4 f'4 | e'4 a'4. g'8 | f'2.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+c'4 c'4 c'4 | f'4 f'4 f'4 | f'4 f'4 f'4 | f'2. | e'4 e'4 dis'4 | e'4 e'4 e'4 | c'4 b4. b8 | c'2. | c'4 c'4 c'4 | f'4 f'4 f'4 | f'4 f'4 f'4 | f'2. | ees'4 ees'4 ees'4 | d'4 d'4 d'4 | c'4 e'4! e'4 | c'2. | f'4@c g'4 a'4 | f'4 c'4 c'4 | c'4. d'8 e'4 | f'2. | f'4 f'4 f'4 | f'4 e'4 d'4 | b4. c'8 d'4 | e'2. | c'4 c'4 c'4 | f'4 f'4 g'4 | fis'4 fis'4. a'8 | g'2. | d'4 d'4 d'4 | d'4 d'4 d'4 | c'4 e'4. c'8 | c'2.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+a4 a4 bes4 | c'4 c'4 cis'4 | d'4 d'4 d'4 | c'2. | c'4 bes4 a4 | bes4 c'4 bes4 | a4 aes4. aes8 | g2( bes4) | a4 a4 bes4 | c'4 c'4 c'4 | bes4 bes4 gis4 | a2. | a4 g4 f4 | g4 g4 g4 | g4 c'4 bes4! | a2. | c'4@c c'4 c'4 | c'4 bes4 a4 | g4. c'8 c'4 | c'2. | c'4 g4 a4 | c'4 bes4 a4 | g4. g8 g4 | g2( bes4) | a4 a4 bes4 | c'4 c'4 c'4 | a4 a4. d'8 | d'2. | bes4 c'4 bes4 | g4 g4 g4 | g4 c'4. bes8 | a2.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+f4 f4 f4 | f4 f4 f4 | f4 f4 f4 | f2. | c4 c4 c4 | c4 c4 c4 | f4 f4. f8 | e2. | f4 f4 f4 | f4 f4 ees4 | d4 d4! des4 | c2. | f4 f4 f4 | bes,4 bes,4 b,4 | c4 c4 c4 | <f, f>2. | f4@c f4 f4 | f4 f4 f4 | c4. c8 c4 | f2. | f4 f4 f4 | f4 c4 d4 | f4. e8 d4 | c2. | f4 f4 f4 | f4 f4 ees4 | d4 d4. d8 | g2. | g,4 a,4 bes,4 | bes,4 bes,4 b,4 | c4 c4. c8 | <f, f>2.
+"""
+
+[lyrics.1]
+text = "Dy -- ing with Je -- sus, by death reck -- oned mine; Liv -- ing with Je -- sus, a new life di -- vine; Look -- ing to Je -- sus till glor -- y doth shine, Mo -- ment by mo -- ment, O Lord, I am Thine."
+
+[lyrics.2]
+text = "Nev -- er a tri -- al that He is not there, Nev -- er a bur -- den that He doth not bear, Nev -- er a sor -- row that He doth not share; Mo -- ment by mo -- ment, I'm un -- der His care."
+
+[lyrics.3]
+text = "Nev -- er a heart -- ache, and nev -- er a groan, Nev -- er a tear -- drop and nev -- er a moan; Nev -- er a dan -- ger but there on the throne, Mo -- ment by mo -- ment He thinks of His own."
+
+[lyrics.4]
+text = "Nev -- er a weak -- ness that He doth not feel, Nev -- er a sick -- ness that He can -- not heal; Mo -- ment by mo -- ment, in woe or in weal, Je -- sus, my Sav -- ior, a -- bides with me still."
+
+[lyrics.chorus]
+text = "Mo -- ment by mo -- ment, I'm kept in His love; Mo -- ment by mo -- ment, I've life from a -- bove; Look -- ing to Je -- sus till glor -- y doth shine; Mo -- ment by mo -- ment, O Lord, I am Thine."
