@@ -1,0 +1,69 @@
+title = "Call for Workers"
+subtitle = "In the Vineyard of the Lord"
+verse_count = 4
+key_signature = "F"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+phrase_breaks = ["4:64", "8:48", "12:48"]
+optional_phrase_breaks = ["2:48", "6:48", "10:48", "14:48"]
+copyrights = [
+  "Lyrics and Music: John Henry Sheppard, 1906 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+f'4 f'4 a'4 a'4 | c''4 d''4 c''4 a'8. g'16 | f'4 f'4 g'4 g'4 | a'2. r4 | f'4 f'4 a'4 a'4 | c''4 d''4 c''4 a'8. g'16 | f'4 f'4 a'4 g'4 | f'2. a'8.@c c''16 | f''2. d''8. d''16 | c''2. a'4 | a'2. f'8. a'16 | c''2. a'8. c''16 | f''2. d''8. d''16 | c''2. f'4 | a'2. f'8. g'16 | f'2. r4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+c'4 c'4 f'4 f'4 | f'4 f'4 f'4 f'8. e'16 | d'4 d'4 e'4 e'4 | f'2. r4 | c'4 c'4 f'4 f'4 | f'4 f'4 f'4 f'8. e'16 | d'4 d'4 f'4 c'4 | c'2. c'8.@c f'16 | a'4 a'8. a'16 a'4 f'8. f'16 | f'4 f'8. f'16 f'4 r4 | r4 f'4 f'4 f'8. d'16 | e'4 e'8. e'16 e'4 c'8. f'16 | a'4 a'8. a'16 a'4 f'8. f'16 | f'4 f'8. f'16 f'4 c'4 | c'4 f'4 f'4 c'8. c'16 | c'2. r4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+a4 a4 c'4 c'4 | a4 bes4 a4 c'8. bes16 | a4 a4 c'4 c'4 | c'2. r4 | a4 a4 c'4 c'4 | a4 bes4 a4 c'8. bes16 | a4 a4 c'4 bes4 | a2. f8.@c a16 | c'4 c'8. c'16 c'4 bes8. bes16 | a4 a8. a16 a4 r4 | r4 c'4 d'4 a8. f16 | g4 g8. g16 g4 f8. a16 | c'4 c'8. c'16 c'4 bes8. bes16 | a4 a8. a16 a4 a4 | f4 a4 c'4 a8. bes16 | a2. r4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+f4 f4 f4 f4 | f4 f4 f4 f8. c16 | d4 d4 c4 c4 | f2. r4 | f4 f4 f4 f4 | f4 f4 f4 f8. c16 | d4 d4 c4 c4 | f2. f8.@c f16 | f4 f8. f16 f4 f8. f16 | f4 f8. f16 f4 r4 | r4 f4 d4 d8. d16 | c4 e8. g16 c4 f8. f16 | f4 f8. f16 f4 f8. f16 | f4 f8. f16 f4 f4 | f4 d4 c4 c8. c16 | f2. r4
+"""
+
+[lyrics.1]
+text = "In the vine -- yard of the Lord, There is work for all to do; Will you go and work to -- day, With a pur -- pose strong and true?"
+
+[lyrics.2]
+text = "Bro -- ther, sis -- ter, hear the call! All a -- long, your aid af -- ford, Let us strive to save the lost Strive to save by work and word."
+
+[lyrics.3]
+text = "Mark the spir -- it's dire -- ful fate, Where -- so -- ev -- er sin is found; Come, and lend a help -- ing hand, Let the shack -- les be un -- bound."
+
+[lyrics.4]
+text = "Oh, for work -- ers strong and brave, Who will lift the ban -- ner high; So the lost can see the way, To the man -- sions in the sky."
+
+[lyrics.chorus]
+text = "Heed the call, bro -- ther dear, For work -- ers to -- day; Let your eyes see the need Of work -- ers to -- day."
+
+[parts.Alto.lyrics.chorus]
+text = "Heed the call, bro -- ther dear, head the call, bro -- ther dear. For work -- ers, for work -- ers to -- day; Let your eyes see the need, let your eyes see the need Of work -- ers, work -- ers, to -- day."
+
+[parts.Tenor.lyrics.chorus]
+text = "Heed the call, bro -- ther dear, head the call, bro -- ther dear. For work -- ers, for work -- ers to -- day; Let your eyes see the need, let your eyes see the need Of work -- ers, work -- ers, to -- day."
+
+[parts.Bass.lyrics.chorus]
+text = "Heed the call, bro -- ther dear, head the call, bro -- ther dear. For work -- ers, for work -- ers to -- day; Let your eyes see the need, let your eyes see the need Of work -- ers, work -- ers, to -- day."
