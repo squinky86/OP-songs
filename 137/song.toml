@@ -1,0 +1,61 @@
+title = "By and By"
+subtitle = "The Glorious By and By"
+copyrights = [
+  "Words: Author unknown (public domain)",
+  "Music: R. M. McIntosh (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "E"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 80
+verse_count = 4
+
+phrase_breaks = ["3:24", "7:24", "5:24", "9:32", "11:32", "13:24", "15:24"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. b8 e'8 gis'8 | b'4. cis''8 b'8 gis'8 | fis'4. fis'8 fis'8 gis'8 | a'4. b'8 cis''8 b'8 | gis'4. b8 e'8 gis'8 | b'4. gis'8 a'8 b'8 | cis''4. cis''8 e''8 cis''8 | b'4. e'8 gis'8 fis'8 | e'4. r8 b'8@c gis'8 | b'4. cis''8 b'8 gis'8 | fis'4. r8 fis'8 gis'8 | a'4. b'8 cis''8 b'8 | gis'4. b8 e'8 gis'8 | b'4. gis'8 a'8 b'8 | cis''4. cis''8 e''8 cis''8 | b'4. e'8 gis'8 fis'8 | e'4. s4.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. gis8 b8 e'8 | gis'4. a'8 gis'8 e'8 | dis'4. dis'8 dis'8 e'8 | fis'4. gis'8 a'8 gis'8 | e'4. gis8 b8 e'8 | gis'4. e'8 e'8 e'8 | e'4. e'8 e'8 e'8 | e'4. gis8 e'8 dis'8 | gis4. r8 gis'8 e'8 | gis'4. a'8 gis'8 e'8 | dis'4. r8 dis'8 e'8 | fis'4. gis'8 a'8 gis'8 | e'4. gis8 b8 e'8 | gis'4. e'8 e'8 e'8 | e'4. e'8 e'8 e'8 | e'4. gis8 e'8 dis'8 | gis4. s4.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. gis8 gis8 b8 | b4. e'8 e'8 b8 | b4. b8 b8 b8 | b4. b8 b8 b8 | b4. gis8 gis8 b8 | b4. b8 a8 gis8 | a4. a8 cis'8 a8 | gis4. gis8 b8 a8 | gis4. r8 e'8 e'8 | e'4. e'8 e'8 b8 | b4. r8 b8 b8 | b4. b8 b8 b8 | b4. gis8 gis8 b8 | b4. b8 a8 gis8 | a4. a8 cis'8 a8 | gis4. gis8 b8 a8 | gis4. s4.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. e8 e8 e8 | e4. e8 e8 e8 | b,4. b,8 b,8 b,8 | b,4. b,8 b,8 b,8 | e4. e8 e8 e8 | e4. e8 e8 e8 | a,4. a,8 a,8 a,8 | b,4. b,8 b,8 b,8 | e4. r8 e8 e8 | e4. e8 e8 e8 | b,4. r8 b,8 b,8 | b,4. b,8 b,8 b,8 | e4. e8 e8 e8 | e4. e8 e8 e8 | a,4. a,8 a,8 a,8 | b,4. b,8 b,8 b,8 | e4. s4.
+"""
+
+[lyrics.s1]
+text = "By and by, yes, \"by and by,\" By and by, yes, \"by and by;\""
+
+[lyrics.1]
+text = "It may be far, it may be near, There is a hope, there is a fear, But in the fu -- ture wait -- ing I Shall Je -- sus see, yes, \"by and by.\" @s1 But in the fu -- ture wait -- ing, I Shall Je -- sus see, yes, \"by and by.\""
+
+[lyrics.2]
+text = "Im -- pa -- tient soul, and murm' -- ring heart, Your murm' -- ring cease and bear your part Of pain and la -- bor on life's road, For soon 'twill lead thee to thy God. @s1 There's pain and la -- bor on life's road, But soon 'twill lead thee to thy God."
+
+[lyrics.3]
+text = "Yes, \"by and by\" will soon be now, And God will wipe each tear -- stain'd brow; The Lamb shall feed them from the throne, To liv -- ing foun -- tains lead his own. @s1 The Lamb shall feed them from the throne; To liv -- ing foun -- tains lead his own."
+
+[lyrics.4]
+text = "O ver -- dant fields! O shin -- ing shore! The Lamb of God spreads wide the door; Ah, gold -- en cit -- y, sure -- ly I Shall see thy glo -- ries \"by and by.\" @s1 Ah, gold -- en cit -- y, sure -- ly I Shall see thy glo -- ries \"by and by.\""
