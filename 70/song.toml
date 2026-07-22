@@ -9,7 +9,9 @@ time_sig_numerator = 6
 time_sig_denominator = 4
 verse_count = 3
 tempo_bpm = 105
-phrase_breaks = ["2:96", "4:96", "6:96", "8:96", "10:96", "12:96", "14:80"]
+optional_phrase_breaks = ["2:96", "6:96", "10:96", "14:80"]
+phrase_breaks = ["4:96", "8:96", "12:96"]
+non_breaking_phrase_breaks = ["9:64", "9:96", "11:64", "11:96"]
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -75,4 +77,4 @@ text = "Cling to His hand, Cling to His hand, Cling to His hand, Je -- sus will 
 text = "Cling to His hand, Cling to His hand, Je -- sus will help you life's test -- ing to meet, O cling to the dear Sav -- ior's hand."
 
 [parts.Bass.lyrics.chorus]
-text = "Cling to His hand, to His hand, Cling to His hand, to His hand, Je -- sus will help you life's test -- ing to meet, O cling to the dear Sav -- ior's hand."
+text = "Cling to His Cling to His hand, Cling to His hand, to His hand, Je -- sus will help you life's test -- ing to meet, O cling to the dear Sav -- ior's hand."
