@@ -1,0 +1,55 @@
+title = "Come, Ye Disconsolate"
+copyrights = [
+  "Lyrics: vv 1-2 Thomas Moore, 1816 (public domain)",
+  "Lyrics: ed vv 1-2, v 3 Thomas Hastings, 1831 (public domain)",
+  "Music: 'Consolator' by Samuel Webbe, 1792 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "C"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 3
+phrase_breaks = ["4:64", "8:64", "12:64"]
+optional_phrase_breaks = ["2:64", "6:64", "10:64", "14:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+g'2 e'4 c'4 | a'4. g'8 g'2 | f'4.( g'8) a'4 b'4 | c''4.( g'8) g'2 | e'2 e'4 e'4 | f'4. f'8 a'2 | g'2 fis'4 fis'4 | g'2. r4 | c''2 b'4 a'4 | g'4. f'8 e'2 | c''2 d''8[ c''8] b'8[ a'8] | g'4.( f'8) e'2 | g'4( e''4) e''4 c''4 | c''4 a'2 f'4 | e'2 d'4. c'8 | c'1
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+c'2 c'4 c'4 | c'4. c'8 c'2 | c'2 c'4 f'4 | e'4.( d'8) c'2 | c'2 c'4 c'4 | c'4. c'8 f'2 | d'2 c'4 c'4 | d'2. r4 | e'2 g'4 f'4 | e'4. d'8 c'2 | e'2 f'4 f'4 | e'4.( d'8) c'2 | e'4( g'4) g'4 e'4 | f'4 f'2 d'4 | c'2 b4. c'8 | c'1
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+e2 g4 e4 | f4. e8 e2 | c'2 c'4 g4 | g4.( f8) e2 | g2 g4 g4 | c'4. c'8 c'2 | b2 a4 a4 | g2. r4 | g2 g4 a8[ b8] | c'4. g8 g2 | g2 a4 c'4 | c'4.( g8) g2 | g4( c'4) c'4 g4 | a4 c'2 a4 | g2 f4. e8 | e1
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+c2 c4 c4 | c4. c8 c2 | a4.( e8) f4 d4 | c2 c2 | c2 c4 bes,4 | a,4. a,8 f,2 | d2 d4 d4 | g,2. r4 | c2 c4 c4 | c4. c8 c2 | c2 f4 f4 | c2 c2 | c2 c4 c4 | f4 f2 f4 | g2 g,4. c8 | c1
+"""
+
+[lyrics.1]
+text = "Come, ye dis -- con -- so -- late, wher -- e'er ye lan -- guish; Come at the mer -- cy seat, fer -- vent -- ly kneel. Here bring your wound -- ed hearts, here tell your an -- guish; Earth has no sor -- row that heav'n can -- not heal."
+
+[lyrics.2]
+text = "Joy of the des -- o -- late, light of the stray -- ing, Hope of the pen -- i -- tent, fade -- less and pure! Here speaks the Com -- fort -- er, ten -- der -- ly say -- ing, \"Earth has no sor -- row that heav'n can -- not cure.\""
+
+[lyrics.3]
+text = "Here see the bread of life; see wa -- ters flow -- ing Forth from the throne of God, pure from a -- bove. Come to the feast of love; come, ev -- er know -- ing Earth has no sor -- row but heav'n can re -- move."
