@@ -1,0 +1,57 @@
+title = "Christ for the World We Sing"
+copyrights = [
+  "Lyrics: Samuel Wolcott, 1869 (public domain)",
+  "Music: 'Italian Hymn' by Felice de Giardini, 1769 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 4
+phrase_breaks = ["6:48", "12:48"]
+optional_phrase_breaks = ["3:48", "8:48", "10:48", "14:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+c''4 a'4 f'4 | g'4( f'4) e'4 | f'2. | f'4 g'4 a'4 | bes'8( c''8 bes'4) a'4 | g'2. | c''4 a'4 f'4 | c'2. | g'4 a'4 bes'4 | a'4. g'8 f'4 | g'4 a'4 bes'4 | a'4. g'8 f'4 | f'4 a'4 c''4 | c''4. d''8 c''4 | bes'4 a'4 g'4 | f'2.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+f'4 c'4 c'4 | d'4( c'4) c'4 | c'2. | c'4 c'4 f'4 | e'4( g'4) f'4 | e'2. | c''4 a'4 f'4 | c'2. | e'4 f'4 g'4 | f'4. e'8 f'4 | d'4 d'4 d'4 | cis'4. e'8 d'4 | d'4 f'4 e'4 | f'4. f'8 f'4 | g'4 f'4 e'4 | c'2.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+a4 f4 c'4 | bes4( a4) g4 | a2. | a4 c'4 c'4 | c'2 c'4 | c'2. | c'4 a4 f4 | c2. | c'4 c'4 c'4 | c'4. bes8 a4 | g4 fis4 g4 | e4. a8 a4 | bes4 c'4 bes4 | a4. bes8 a4 | d'4 c'4 bes4 | a2.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+f4 f4 a,4 | bes,4( c4) c4 | f2. | f4 e4 f4 | g4( e4) f4 | c2. | c'4 a4 f4 | c2. | c4 f4 e4 | f4. c8 f4 | bes,4 a,4 g,4 | a,4. cis8 d4 | bes,4 a,4 g,4 | f,4. f,8 f,4 | bes,4 c4 c4 | f2.
+"""
+
+[lyrics.1]
+text = "Christ for the world we sing; the world to Christ we bring with lov -- ing zeal: the poor and them that mourn, the faint and o -- ver -- borne, sin -- sick and sor -- row -- worn, for Christ doth heal."
+
+[lyrics.2]
+text = "Christ for the world we sing; the world to Christ we bring with fer -- vent pray'r: the way -- ward and the lost, by rest -- less pas -- sions tossed, re -- deemed at count -- less cost from dark de -- spair."
+
+[lyrics.3]
+text = "Christ for the world we sing; the world to Christ we bring with one ac -- cord: with us the work to share, with us re -- proach to dare, with us the cross to bear, for Christ our Lord."
+
+[lyrics.4]
+text = "Christ for the world we sing; the world to Christ we bring with joy -- ful song: the new -- born souls whose days, re -- claimed from er -- ror's ways, in -- spired with hope and praise, to Christ be -- long."
