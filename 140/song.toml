@@ -1,0 +1,77 @@
+title = "Christ the Lord Is Risen Today"
+subtitle = ""
+copyrights = [
+  "Words: Charles Wesley, 1739 (public domain)",
+  "Music: 'Easter Hymn' from Lyra Davidica, 1708 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "C"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 104
+verse_count = 5
+phrase_breaks = ["4:64", "8:64", "12:64"]
+optional_phrase_breaks = ["2:64", "6:64", "10:64", "14:64"]
+commentary = "<p>Charles Wesley published this hymn in 1739 in <em>Hymns and Sacred Poems</em>, and it has become one of the most widely sung Easter hymns in the English language. The tune EASTER HYMN first appeared anonymously in <em>Lyra Davidica</em> (1708), where each line of text is answered by a soaring 'Alleluia' melisma.</p>"
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+c'4 e'4 g'4 c'4 | f'4 a'4 a'4( g'4) | e'8[( f'8] g'8[ c'8] f'4) e'8[ f'8] | e'4( d'4) c'2 |
+f'4 g'4 a'4 g'4 | f'4 e'4 e'4( d'4) | e'8[( f'8] g'8[ c'8] f'4) e'8[ f'8] | e'4( d'4) c'2 |
+b'4 c''4 d''4 g'4 | c''4 d''4 e''2 | b'8[( c''8] d''8[ g'8] c''4) b'8[ c''8] | b'4( a'4) g'2 |
+g'8[ a'8] b'8[ g'8] c''4 e'4 | f'4 a'4 a'4( g'4) | c''8[( b'8] c''8[ g'8] a'8[ b'8]) c''8[ d''8] | c''4( b'4) c''2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+c'4 c'4 d'4 c'4 | c'4 f'4 f'4( e'4) | c'2~ c'8[ b8] c'4 | c'4( b4) c'2 |
+c'4 c'4 c'4 c'4 | c'8[ b8] c'4 c'4( b4) | c'2~ c'8[ b8] c'4 | c'4( b4) c'2 |
+g'4. fis'8/-24 g'4 g'4 | g'4 f'4 e'2 | g'2~ g'8[ fis'8] g'4 | g'4( fis'4) g'2 |
+b8[ c'8] d'8[ b8] c'4 c'4 | c'4 f'4 f'4( e'4) | e'8[( f'8] g'8[ e'8] f'4) g'8[ f'8] | e'4( g'8[ f'8]) e'2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+e4 g4 g4 e4 | c'4 c'4 c'2 | g2( a8[ f8]) g8[ f8] | g4.( f8) e2 |
+f4 e4 f4 g4 | a8[ g8] g4 g2 | g2( a8[ f8]) g8[ f8] | g4.( f8) e2 |
+d'4 c'4 b4 b4 | c'4. b8/-24 c'2 | d'2. d'8[ c'8] | d'4.( c'8) b2 |
+g4 g4 g4 g4 | f4 c'4 c'2 | c'8[( g8] c'4 c'4) c'4 | c'4( d'4) c'2
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+c4 c4 b,4 c4 | a4 f4 c2 | c8[( d8] e4 d4) c8[ a,8] | g,2 c2 |
+a,4 c4 f4 e4 | d4 e8[ f8] g2 | c8[( d8] e4 d4) c8[ a,8] | g,2 c2 |
+g,4 a,4 b,4 g8[ f8] | e4 d4 c2 | g8[( a8] b4 a4) g8[ e8] | d2 g,2 |
+g4. f8/-24 e4 c8[ b,8] | a,4 f,4 c2 | c8[( d8] e8[ c8] f8[ g8]) a8[ f8] | g2 c2
+"""
+
+[lyrics.1]
+text = "Christ the Lord is ris'n to -- day, @s1 Sons of men and an -- gels say: @s1 Raise your joys and tri -- umphs high. @s1 Sing, ye heav'ns, and earth re -- ply: @s1"
+
+[lyrics.2]
+text = "Love's re -- deem -- ing work is done. @s1 Fought the fight, the bat -- tle won. @s1 Death in vain for -- bids Him rise. @s1 Christ has o -- pened par -- a -- dise. @s1"
+
+[lyrics.3]
+text = "Lives a -- gain, our glo -- rious King. @s1 Where, O death, is now thy sting? @s1 Dy -- ing once, He all doth save. @s1 Where thy vic -- to -- ry, O grave? @s1"
+
+[lyrics.4]
+text = "Soar we now where Christ has led. @s1 Fol -- l'wing our ex -- alt -- ed Head. @s1 Made like Him, like Him we rise. @s1 Ours the cross, the grave, the skies. @s1"
+
+[lyrics.5]
+text = "Hail, the Lord of earth and heav'n! @s1 Praise to Thee by both be giv'n; @s1 Thee we greet tri -- um -- phant now; @s1 Hail, the Res -- ur -- rec -- tion Thou! @s1"
+
+[lyrics.s1]
+text = "Al -- le -- lu -- ia!"
