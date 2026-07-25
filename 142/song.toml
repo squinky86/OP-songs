@@ -1,0 +1,59 @@
+title = "Rise Up, O Men of God!"
+subtitle = ""
+copyrights = [
+  "Lyrics: William Pierson Merrill, 1911 (public domain)",
+  "Music: 'Festal Song' by William Howard Walter, 1872 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 4
+phrase_breaks = ["5:48"]
+optional_phrase_breaks = ["3:48", "7:48"]
+commentary = ""
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. d'4 | g'4 g'4 b'4 a'8[ g'8] | b'2. b'8[ c''8] | d''4 c''8[ b'8] c''4 b'4 | b'2. d''4 | b'4 g'4 a'4 d'4 | g'4 b'4 d''4 d''4 | e''4 d''8[ c''8] b'4 a'4 | g'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. d'4 | d'4 d'4 d'4 d'8[ cis'8] | d'2. d'4 | g'4 fis'8[ g'8] e'8[ fis'8] g'4 | g'2. d'4 | d'4 d'4 d'4 d'4 | d'4 g'4 fis'4 g'4 | g'4 g'4 g'4 fis'4 | d'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. b4 | b4 b4 b4 fis8[ e8] | d'2. d'4 | d'4 d'4 c'4 d'4 | d'2. a4 | g4 g4 fis4 a4 | b4 g4 a4 d'4 | c'4 d'8[ e'8] d'4 c'4 | b2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. g4 | g4 g4 g4 d8[ a,8] | g2. g8[ a8] | b4 d4 a4 g4 | g2. fis4 | g,4 b,4 d4 fis4 | g4 e4 d4 b,4 | c4 b,8[ c8] d4 d4 | g2. s4
+"""
+
+[lyrics.1]
+text = "Rise up, O men of God! Have done with les -- ser things; Give heart and mind and soul and strength To serve the King of kings."
+
+[lyrics.2]
+text = "Rise up, O men of God! His king -- dom tar -- ries long; Bring in the day of bro -- ther -- hood And end the night of wrong."
+
+[lyrics.3]
+text = "Rise up, O men of God! The church for you doth wait, Her strength un -- e -- qual to her task; Rise up, and make her great!"
+
+[lyrics.4]
+text = "Lift high the cross of Christ! Tread where his feet have trod; As bro -- thers of the Son of man, Rise up, O men of God!"
