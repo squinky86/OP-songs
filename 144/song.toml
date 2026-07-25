@@ -1,0 +1,70 @@
+title = "Can You Count the Stars?"
+subtitle = ""
+copyrights = [
+  "Lyrics: Johann Wilhelm Hey, 1837 (public domain)",
+  "Translation: Elmer Leon Jorgenson, 1921 (public domain)",
+  "Music: 'Weisst Du, Wie', traditional German melody, 1818 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 3
+phrase_breaks = ["5:32", "9:32", "13:32"]
+optional_phrase_breaks = ["3:32", "7:32", "11:32", "15:32"]
+commentary = ""
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 f'8 g'8 | a'4 a'4 bes'8 g'8 | d''4 c''4 a'8 c''8 | c''8[ bes'8] bes'4 c''8 bes'8 | a'2 f'8 g'8
+| a'4 a'4 bes'8 g'8 | d''4 c''4 a'8 c''8 | c''8[ bes'8] bes'4 c''8 bes'8 | a'2 c''8 a'8
+| a'8[ g'8] g'4 d''8 bes'8 | bes'8[ a'8] a'4 c''8 a'8 | a'8[ g'8] g'4 d''8 bes'8 | bes'8[ a'8] a'4 f'8 g'8
+| a'4 a'4 bes'8 g'8 | d''4( c''4) a'8 c''8 | c''8[ bes'8] bes'4 c''8 bes'8 | a'2 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 f'8 e'8 | f'4 f'4 e'8 e'8 | e'4 f'4 f'8 a'8 | a'8[ g'8] g'4 g'8 e'8 | f'2 f'8 e'8
+| f'4 f'4 e'8 e'8 | e'4 f'4 f'8 a'8 | a'8[ g'8] g'4 g'8 e'8 | f'2 f'8 f'8
+| f'8[ e'8] e'4 e'8 e'8 | f'4 f'4 f'8 f'8 | f'8[ e'8] e'4 e'8 e'8 | f'4 f'4 c'8 e'8
+| f'4 f'4 e'8 e'8 | e'4( f'4) f'8 a'8 | a'8[ g'8] g'4 g'8 e'8 | f'2 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 a8 bes8 | c'4 c'4 c'8 c'8 | c'4 c'4 c'8 a8 | c'4 c'4 c'8 c'8 | c'2 a8 bes8
+| c'4 c'4 c'8 c'8 | c'4 c'4 c'8 a8 | c'4 c'4 c'8 c'8 | c'2 a8 c'8
+| c'4 c'4 bes8 g8 | c'4 c'4 a8 c'8 | c'4 c'4 bes8 g8 | c'4 c'4 a8 bes8
+| c'4 c'4 c'8 c'8 | c'2 c'8 c'8 | c'4 c'4 c'8 c'8 | c'2 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 f8 c8 | f4 f4 g8 bes8 | bes4 a4 f8 f8 | c4 c4 e8 c8 | f2 f8 c8
+| f4 f4 g8 bes8 | bes4 a4 f8 f8 | c4 c4 e8 c8 | f2 f8 a8
+| c'4 c4 c8 e8 | f4 f4 f8 a8 | c'4 c4 c8 e8 | f4 f4 f8 f8
+| f4 f4 g8 bes8 | bes4( a4) f8 f8 | c4 c4 e8 c8 | f2 s4
+"""
+
+[lyrics.1]
+text = "Can you count the stars of eve -- ning That are shin -- ing in the sky? Can you count the clouds that dai -- ly O -- ver all the world go by? God the Lord, who doth not slum -- ber, Keep -- eth all the bound -- less num -- ber: But He car -- eth more for thee, But He car -- eth more for thee."
+
+[lyrics.2]
+text = "Can you count the birds that war -- ble In the sun -- shine all the day? Can you count the lit -- tle fish -- es That in spar -- kling wa -- ters play? God the Lord their num -- ber know -- eth, For each one His care He show -- eth: Shall He not re -- mem -- ber thee? Shall He not re -- mem -- ber thee?"
+
+[lyrics.3]
+text = "Can you count the man -- y chil -- dren In their lit -- tle beds at night, Who with -- out a thought of sor -- row Rise a -- gain at morn -- ing light? God the Lord, Who dwells in heav -- en, Lov -- ing care to each has giv -- en. He has not for -- got -- ten thee, He has not for -- got -- ten thee."
