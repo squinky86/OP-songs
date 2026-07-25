@@ -1,0 +1,137 @@
+title = "O Heart Bowed Down with Sorrow"
+subtitle = "Come Unto Me"
+verse_count = 3
+key_signature = "C"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 100
+phrase_breaks = ["5:32", "9:48", "13:64", "17:64", "21:64", "23:48"]
+optional_phrase_breaks = ["3:32", "7:32", "11:48", "15:48", "19:48"]
+non_breaking_phrase_breaks = ["15:64", "22:64"]
+copyrights = [
+  "Lyrics: F. E. Belden, 1895 (public domain)",
+  "Music: 'Come Unto Me' by F. E. Belden, 1895 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+commentary = ""
+
+[[time_sig_changes]]
+measure = 10
+numerator = 4
+denominator = 4
+duration = 16
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 g'4 | g'4. e'8 a'8 g'8 | g'4 f'4 f'4 | f'4. d'8 g'8 f'8 | e'2 g'4
+| a'4. c''8 b'8 a'8 | a'4 g'4 a'4 | b'4. a'8 g'8 fis'8 | g'2~ g'4!
+| g'2~@c\\< g'8[ a'8] b'8 c''8 | c''2(\\! b'4)\\> b'4\\! | f'2~ f'8[ g'8] a'8[ b'8] | a'2( g'4) e'4
+| e'2~ e'8 g'8 a'8 e'8 | g'2 f'4 f'4 | fis'2~ fis'8 g'8 a'8 fis'8 | g'2~%p g'4! r4
+| g'2~%mf g'8 a'8 b'8 c''8 | c''2 b'4 b'4 | f'2~ f'8[ g'8] a'8[ b'8] | a'2( g'4) g'4
+| e''2~ e''8 d''8 c''8 c''8 | d''8 d''8 c''4 a'4! a'4 | g'8 g'8 g'4 g'2\\rit | g'8 g'8 g'4 g'2!\\spanend
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 e'4 | e'4. c'8 f'8 e'8 | e'4 d'4 d'4 | d'4. b8 e'8 d'8 | c'2 e'4
+| f'4. a'8 g'8 f'8 | f'4 e'4 e'4 | d'4. c'8 b8 a8 | b2( f'4)!
+| e'4@c\\< e'4 e'4 r4 | f'4\\! f'8 f'8\\> f'4\\! r4 | d'4 d'4 d'4 r4 | e'4 e'8 e'8 e'4 e'4
+| c'2~ c'8 e'8 e'8 e'8 | e'2 d'4 d'4 | d'2~ d'4 d'4 | d'4%p e'4 f'4! r4
+| e'4%mf e'4 e'4 r4 | f'4 f'8 f'8 f'4 r4 | d'4 d'4 d'4 r4 | e'4 e'8 e'8 e'4 e'4
+| g'2~ g'8 f'8 e'8 g'8 | f'8 f'8 f'4 f'4! f'4 | e'8 e'8 e'4 d'4(\\rit e'4) | f'8 e'8 d'4 e'2!\\spanend
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. | s2. | s2. | s2. | s2.
+| s2. | s2. | s2. | s2.
+| c'4@c\\< c'4 c'4 r4 | g4\\! g8 g8\\> g4\\! r4 | b4 b4 b4 r4 | c'4 c'8 c'8 c'4 g4
+| g4 g4 bes4 a8 a8 | a4 a4 a4 r4 | a2~ a8[ b8] c'8[ a8] | b4%p c'4 d'4! r4
+| c'4%mf c'4 c'4 r4 | g4 g8 g8 g4 r4 | b4 b4 b4 r4 | c'4 c'8 c'8 c'4 g4
+| c'4 c'4 c'4 g8[ bes8] | a8 a8 a4 c'4! c'4 | c'8 c'8 c'4 b4(\\rit c'4) | d'8 c'8 b4 c'2!\\spanend
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. | s2. | s2. | s2. | s2.
+| s2. | s2. | s2. | s2.
+| c4@c\\< c4 c4 r4 | d4\\! d8 d8\\> d4\\! r4 | g,4 g,4 g,4 r4 | c4 c8 c8 c4 c4
+| c4 c4 c4 cis8 cis8 | d4 d4 d4 r4 | d4 d4 d4 d4 | g,2~%p g,4! r4
+| c4%mf c4 c4 r4 | d4 d8 d8 d4 r4 | g,4 g,4 g,4 r4 | c4 c8 c8 c4 cs4
+| c4 c4 c8[ d8] e4 | f8 f8 f4 f4! f4 | g8 g8 g4 g2\\rit | g,8 g,8 g,4 c2!\\spanend
+"""
+
+[lyrics.1]
+text = """
+O heart bowed down with sor -- row! O eyes that long for sight!
+There's glad -- ness in be -- liev -- ing; In Je -- sus there is light.
+"""
+
+[lyrics.2]
+text = """
+Earth's fleet -- ing gain and pleas -- ure Can nev -- er sat -- is -- fy:
+'Tis love our joy doth meas -- ure, For love can nev -- er die.
+"""
+
+[lyrics.3]
+text = """
+His peace is like a riv -- er, His love is like a song;
+His yoke's a bur -- den nev -- er; 'Tis eas -- y all day long.
+"""
+
+[parts.Tenor.lyrics.1]
+text = ""
+
+[parts.Tenor.lyrics.2]
+text = ""
+
+[parts.Tenor.lyrics.3]
+text = ""
+
+[parts.Bass.lyrics.1]
+text = ""
+
+[parts.Bass.lyrics.2]
+text = ""
+
+[parts.Bass.lyrics.3]
+text = ""
+
+[lyrics.chorus]
+text = """
+“Come un -- to Me, all ye that la -- bor and are heav -- y -- la -- den,
+and I will give you rest. Take My yoke up -- on you, and learn of Me: for I am meek and low -- ly in heart: and ye shall find rest un -- to your souls.”
+"""
+
+[parts.Alto.lyrics.chorus]
+text = """
+“Come, O come, come un -- to Me, Come, O come, all ye that la -- bor;
+and are heav -- y -- la -- den, and I will give you rest.
+Come, O come, Come, take My yoke, come, O come, come, learn of Me; for I am meek and low -- ly in heart: and ye shall find rest un -- to your souls.”
+"""
+
+[parts.Tenor.lyrics.chorus]
+text = """
+“Come, O come, come un -- to Me, Come, O come, all ye that la -- bor;
+Come, O Come, heav -- y -- la -- den souls, I will give you rest.
+Come, O come, Come, take My yoke, come, O come, come, learn of Me; for I am meek and low -- ly in heart: and ye shall find rest un -- to your souls.”
+"""
+
+[parts.Bass.lyrics.chorus]
+text = """
+“Come, O come, come un -- to Me, Come, O come, all ye that la -- bor;
+Come, O Come, heav -- y -- la -- den souls, I will give you rest.
+Come, O come, Come, take My yoke, come, O come, come, learn of Me; for I am meek and low -- ly in heart: and ye shall find rest un -- to your souls.”
+"""
