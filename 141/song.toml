@@ -1,0 +1,64 @@
+title = "Christ’s Love Is All I Need"
+subtitle = ""
+verse_count = 3
+key_signature = "Eb"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 100
+optional_phrase_breaks = ["3:40", "7:40","11:40", "15:40", "19:40", "23:40", "27:40"]
+phrase_breaks = ["5:40", "9:40", "13:40", "17:40", "21:40", "25:40", "29:40"]
+copyrights = [
+  "Lyrics and Music: George William Sides, 1923 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s8 bes8 | g'4 fis'8 g'4 aes'8 | g'4 ees'8 g'4 bes'8 | c''4 d''8 ees''4 c''8 | bes'4.~ bes'4 g'8
+| f'4 e'8 f'4 g'8 | aes'4 g'8 g'4 g'8 | f'4 f'8 g'4 a'8 | bes'4.~ bes'4 bes8 | g'4 fis'8 g'4 aes'8 | g'4 ees'8 g'4 bes'8 | c''4 d''8 ees''4 c''8 | bes'4.~ bes'4 bes'8 | a'4 g'8 f'4 bes'8 | a'4 g'8 f'4 bes'8 | bes4 aes'8 g'4 f'8 | ees'4.~ ees'4 r8@c
+| bes'4 bes'8 bes'4 r8 | g'4 g'8 g'4 r8 | aes'4 aes'8 ees'4 r8 | g'4 g'8 g'4 r8 | aes'4 aes'8 aes'4 r8 | aes'4 aes'8 aes'4 r8 | aes'4 r8 aes'4 r8 | aes'4 aes'8 aes'4! r8 | bes'4 bes'8 bes'4 r8 | g'4 g'8 g'4 r8 | aes'4 aes'8 aes'4 r8 | g'4 g'8 g'4 r8 | aes'4 r8 aes'4 r8 | aes'4 r8 bes'4 r8 | aes'4 c''8 bes'4 aes'8 | g'4 aes'8 g'4 s8
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s8 bes8 | ees'4 ees'8 ees'4 ees'8 | ees'4 ees'8 ees'4 g'8 | aes'4 bes'8 c''4 aes'8 | g'4.~ g'4 ees'8
+| d'4 cis'8 d'4 e'8 | f'4 ees'8 ees'4 ees'8 | d'4 d'8 ees'4 ees'8 | d'4.~ d'4 bes8 | ees'4 ees'8 ees'4 ees'8 | ees'4 bes8 ees'4 g'8 | aes'4 bes'8 c''4 aes'8 | g'4.~ g'4 bes'8 | a'4 g'8 f'4 bes'8 | a'4 g'8 f'4 d'8 | bes4 f'8 ees'4 d'8 | ees'4.~ ees'4 bes8@c
+| g'4.~ g'4 f'8 | ees'4.~ ees'4 d'8 | c'4.~ c'4 ees'8 | bes4.~ bes4 ees'8 | f'4.~ f'4 e'8 | f'4.~ f'4 g'8 | f'4 bes8 f'4 bes8 | f'4 ees'8 d'4! bes8 | g'4.~ g'4 f'8 | ees'4.~ ees'4 d'8 | c'4.~ c'4 ees'8 | bes4.~ bes4 ees'8 | f'4 e'8 f'4 g'8 | f'4 ees'8 d'4 c'8 | bes4 aes'8 g'4 f'8 | ees'4.~ ees'4 s8
+"""
+
+[parts.Alto.lyrics.chorus]
+text = "Christ’s love is all I need each day, I know, I know, Christ’s pre -- cious love is all I need, He’ll lead me safe -- ly on life’s way, I know, I know, Christ’s pre -- cious, pre -- cious love is all I need."
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 s8 g8 | bes4 a8 bes4 c'8 | bes4 g8 bes4 ees'8 | ees'4 ees'8 ees'4 ees'8 | ees'4.~ ees'4 bes8 | bes4 bes8 bes4 bes8 | bes4 bes8 bes4 bes8 | bes4 bes8 a4 c'8 | bes4.~ bes4 g8 | bes4 a8 bes4 c'8 | bes4 g8 bes4 ees'8 | ees'4 ees'8 ees'4 ees'8 | ees'4.~ ees'4 bes8 | a4 g8 f4 bes8 | a4 g8 f4 bes8 | bes4 bes8 bes4 aes8 | g4.~ g4 r8@c | ees'4 ees'8 ees'4 r8 | bes4 bes8 bes4 r8 | ees4 ees8 ees4 r8 | ees4 ees8 ees4 r8 | bes4 bes8 bes4 r8 | bes4 bes8 bes4 r8 | bes4 r8 bes4 r8 |bes4 bes8 bes4! r8 | ees'4 ees'8 ees'4 r8 | bes4 bes8 bes4 r8 | ees4 ees8 ees4 r8 | ees4 ees8 ees4 r8 | bes4 r8 bes4 r8 | bes4 r8 bes4 r8 | bes4 bes8 bes4 bes8 | bes4 c'8 bes4 s8
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 s8 ees8 | ees4 ees8 ees4 ees8 | ees4 ees8 ees4 ees8 | aes4 aes8 aes4 aes8 | ees4.~ ees4 ees8 | bes,4 bes,8 bes,4 bes,8 | ees4 ees8 ees4 ees8 | f4 f8 f4 f8 | bes,4.~ bes,4 ees8 | ees4 ees8 ees4 ees8 | ees4 ees8 ees4 ees8 | aes4 aes8 aes4 aes8 | ees4.~ ees4 bes8 | a4 g8 f4 bes8 | a4 g8 f4 bes,8 | bes,4 bes,8 bes,4 bes,8 | ees4.~ ees4 r8@c | ees4 ees8 ees4 r8 | ees4 ees8 ees4 r8 | aes,4 aes,8 aes,4 r8 | ees4 ees8 ees4 r8 | bes,4 bes,8 bes,4 r8 | bes,4 bes,8 bes,4 r8 | bes,4 r8 bes,4 r8 | bes,4 bes,8 bes,4! r8 | ees4 ees8 ees4 r8 | ees4 ees8 ees4 r8 | aes,4 aes,8 aes,4 r8 | ees4 ees8 ees4 r8 | bes,4 r8 bes,4 r8 | bes,4 r8 bes,4 r8 | bes,4 bes,8 bes,4 bes,8 | ees4 ees8 ees4 s8
+"""
+
+[lyrics.1]
+text = "Tho’ dark and drear -- y be life’s way, And bur -- dens hard to bear; There’s One whose love will ne -- ver fail— My heart shall ne’er des -- pair. My hope is stayed in Him to -- day; And He will safe -- ly lead, To that sweet home be -- yond the sea— Christ’s love is all I need."
+
+[lyrics.2]
+text = "Tho’ tri -- als press on ev -- ery side, And ma -- ny snares there be, I look in sim -- ple faith to Him, Who calmed the stor -- my sea. He is the Shep -- herd kind and true, His sheep He’ll ev -- er feed; This cheers me on and makes me strong— Christ’s love is all I need."
+
+[lyrics.3]
+text = "And when I hear the boat -- man’s call Come cross the chil -- ly tide, I shall not fear to launch my barque, For Christ is at my side. He bore the sting of death for me, Has met my ev -- ery need; And so I sing the sweet re -- frain— Christ’s love is all I need."
+
+[lyrics.chorus]
+text = "Oh, His love, pre -- cious love’s all I need, need each day, Yes, I know, pre -- cious love is all, all I need, Oh, He’ll lead, yes, He’ll lead safe -- ly on, on life’s way; Oh, I know His love is all I need; I need."
