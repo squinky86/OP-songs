@@ -1,0 +1,106 @@
+title = "Come, Let Us All Unite to Sing"
+subtitle = "God Is Love"
+verse_count = 4
+key_signature = "D"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 115
+phrase_breaks = ["4:64", "8:64", "12:64", "16:64", "20:64"]
+optional_phrase_breaks = ["2:64", "6:64", "10:64", "14:48", "22:48"]
+copyrights = [
+  "Lyrics: Anonymous, 1859 (public domain)",
+  "Music: Edmund S. Lorenz, 1886 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+commentary = ""
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+d'4 fis'8. g'16 a'4 a'4 | b'4 cis''4 d''2 | e''2 cis''2 | d''1 |
+d'4 fis'8. g'16 a'4 a'4 | b'4 cis''4 d''2 | cis''2 b'2 | a'1 |
+g'4 g'8. fis'16 e'4 g'4 | fis'4 d''4 a'2 | g'4 g'8. fis'16 e'4 g'4 | fis'4 d''4 a'2 |
+d''4 d''8. d''16 d''4 d''4 | e''4 d''4 cis''4 b'4 | a'2 cis''2 | d''1 |
+a'2@c b'2 | g'1 | g'2 a'2 | fis'1 |
+d''4 d''8. d''16 d''4 d''4 | e''4 d''4 cis''4 b'4 | a'2 cis''2 | d''1
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+d'4 d'8. e'16 fis'4 fis'4 | g'4 g'4 fis'2 | g'2 e'2 | fis'1 |
+d'4 d'8. e'16 fis'4 fis'4 | g'4 g'4 fis'2 | e'2 d'2 | cis'1 |
+e'4 e'8. d'16 cis'4 e'4 | d'4 fis'4 fis'2 | e'4 e'8. d'16 cis'4 e'4 | d'4 fis'4 fis'2 |
+fis'4 fis'8. g'16 a'4 fis'4 | g'4 g'4 g'4 g'4 | fis'2 g'2 | fis'1 |
+fis'2@c g'2 | e'1 | e'2 fis'2 | d'1 |
+fis'4 fis'8. g'16 a'4 fis'4 | g'4 g'4 g'4 g'4 | fis'2 g'2 | fis'1
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+fis4 a8. a16 d'4 d'4 | d'4 a4 a2 | b2 a2 | a1 |
+fis4 a8. a16 d'4 d'4 | d'4 a4 a2 | a2 gis2 | a1 |
+r1 | r1 | r1 | r1 |
+a4 a8. a16 a4 a4 | b4 b4 cis'4 d'4 | d'2 a2 | a1 |
+r1@c | a4 a4 a2 | r1 | a4 a4 a2 |
+a4 a8. a16 a4 a4 | b4 b4 cis'4 d'4 | d'2 a2 | a1
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+d4 d8. d16 d4 d4 | g4 e4 d2 | g2 a2 | d1 |
+d4 d8. d16 d4 d4 | g4 e4 d2 | e2 e2 | a,1 |
+r1 | r1 | r1 | r1 |
+d4 d8. e16 fis4 d4 | g4 g4 g4 g4 | a2 a,2 | d1 |
+r1@c | a,4 a,4 a,2 | r1 | d4 d4 d2 |
+d4 d8. e16 fis4 d4 | g4 g4 g4 g4 | a2 a,2 | d1
+"""
+
+[lyrics.1]
+text = "Come, let us all u -- nite to sing, God is love; Let heav'n and earth their prais -- es bring, God is love; Let ev -- 'ry soul from sin a -- wake, Each in his heart sweet mu -- sic make, And sing with us for Je -- sus' sake, For God is love."
+
+[parts.Tenor.lyrics.1]
+text = "Come, let us all u -- nite to sing, God is love; Let heav'n and earth their prais -- es bring, God is love; And sing with us for Je -- sus' sake, For God is love."
+
+[parts.Bass.lyrics.1]
+text = "Come, let us all u -- nite to sing, God is love; Let heav'n and earth their prais -- es bring, God is love; And sing with us for Je -- sus' sake, For God is love."
+
+[lyrics.2]
+text = "Oh, tell to earth's re -- mot -- est bound, God is love; In Christ we have re -- demp -- tion found, God is love; His blood has washed our sins a -- way, His Spir -- it turned our night to day, And now we can re -- joice to say, That God is love."
+
+[parts.Tenor.lyrics.2]
+text = "Oh, tell to earth's re -- mot -- est bound, God is love; In Christ we have re -- demp -- tion found, God is love; And now we can re -- joice to say, That God is love."
+
+[parts.Bass.lyrics.2]
+text = "Oh, tell to earth's re -- mot -- est bound, God is love; In Christ we have re -- demp -- tion found, God is love; And now we can re -- joice to say, That God is love."
+
+[lyrics.3]
+text = "What though our mor -- tal flesh shall fail, God is love; Through Christ we shall o'er death pre -- vail, God is love; While end -- less a -- ges roll a -- long, We'll tri -- umph with the heav'n -- ly throng, And this shall be our sweet -- est song, That God is love."
+
+[parts.Tenor.lyrics.3]
+text = "What though our mor -- tal flesh shall fail, God is love; Through Christ we shall o'er death pre -- vail, God is love; And this shall be our sweet -- est song, That God is love."
+
+[parts.Bass.lyrics.3]
+text = "What though our mor -- tal flesh shall fail, God is love; Through Christ we shall o'er death pre -- vail, God is love; And this shall be our sweet -- est song, That God is love."
+
+[lyrics.4]
+text = "How hap -- py is our por -- tion here, God is love; His prom -- is -- es our spir -- its cheer, God is love; He is our sun and shield by day, Our help, our hope, our strength and stay, He will be with us all the way, Our God is love."
+
+[parts.Tenor.lyrics.4]
+text = "How hap -- py is our por -- tion here, God is love; His prom -- is -- es our spir -- its cheer, God is love; He will be with us all the way, Our God is love."
+
+[parts.Bass.lyrics.4]
+text = "How hap -- py is our por -- tion here, God is love; His prom -- is -- es our spir -- its cheer, God is love; He will be with us all the way, Our God is love."
+
+[lyrics.chorus]
+text = "God is love! God is love! Come, let us all u -- nite to sing that God is love."
