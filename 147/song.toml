@@ -1,0 +1,92 @@
+title = "Consider the Lilies"
+subtitle = ""
+verse_count = 1
+key_signature = "Eb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 92
+phrase_breaks = ["5:56", "9:56", "13:44", "15:64", "18:64", "22:64", "24:64", "27:64", "31:64"]
+optional_phrase_breaks = ["3:60", "7:64", "11:64", "20:64", "29:64"]
+non_breaking_phrase_breaks = ["7:60", "8:64", "11:60", "15:16", "16:48", "18:44", "19:44", "21:48", "23:32", "26:44", "27:44"]
+copyrights = [
+  "Lyrics and Music: E. H. Packard, 1890 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. s8 bes'8%p | bes'4 g'8. bes'16 a'8. bes'16 aes'8. bes'16 | g'2. r8. bes'16 | aes'4 f'8. g'16 aes'8. g'16 aes'8. bes'16
+| g'2. r8 bes'8%mf | bes'4 g'4 r4 r8 aes'8 | aes'4 f'4 r4 r8. f'16 | g'4 bes'4 aes'8. g'16 f'8. ees'16
+| f'2. r8 bes'8%mf | bes'4 g'4 r4 r8 aes'8 | aes'4 f'4 r4 r8. f'16 | g'4 bes'4 aes'8. g'16 f'8. f'16
+| ees'2 r8. g'16 g'8. g'16 | c''2. g'8. g'16 | bes'2~ bes'8.! r16 r4 | r8. g'16%p g'8. g'16 g'2
+| r4 aes'8. aes'16 aes'2 | r8. aes'16 aes'8. aes'16 aes'8. aes'16 aes'8. aes'16
+| g'8.[ aes'16] bes'4.. bes16 ees'8. g'16
+| bes'2~ bes'8. ees'16%ff g'8. bes'16 | ees''2~ ees''4! a'4%p | c''4 bes'8.[ g'16] f'8. e'16 f'8. g'16 | ees'2 r2 | r8. g'16%p g'8. g'16 g'2
+| r4 aes'8. aes'16 aes'2 | r8. aes'16 aes'8. aes'16 aes'8. aes'16 aes'8. aes'16
+| g'8.[ aes'16] bes'4.. bes16 ees'8. g'16
+| bes'2~ bes'8. ees'16%ff g'8. bes'16 | ees''2~ ees''4! a'4%p\\rit | c''4 bes'8.[ g'16] f'8. e'16 f'8. g'16 | ees'2. r8\\spanend s8
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. s8 g'8%p | g'4 ees'8. g'16 fis'8. g'16 f'8. g'16 | ees'2. r8. g'16 | f'4 d'8. ees'16 f'8. ees'16 f'8. g'16
+| ees'2. r8 g'8%mf | g'4 ees'4 r4 r8 f'8 | f'4 d'4 r4 r8. d'16 | ees'4 g'4 f'8. ees'16 ees'8. ees'16
+| d'2. r8 g'8%mf | g'4 ees'4 r4 r8 f'8 | f'4 d'4 r4 r8. d'16 | ees'4 g'4 f'8. ees'16 ees'8. d'16
+| ees'2 r8. g'16 g'8. g'16 | ees'2. g'8. g'16 | f'4 ees'8. ees'16 d'8.! r16 r4 | r8. ees'16%p ees'8. ees'16 ees'2
+| r4 d'8. d'16 d'2 | r8. d'16 d'8. d'16 d'8. d'16 d'8. d'16
+| ees'8.[ d'16] ees'4.. r16 r4
+| r8. ees'16 ees'8. ees'16 ees'2 | r8. ees'16 ees'8. ees'16 ees'4! ees'4 | ees'4 ees'4 d'8. cis'16 d'8. <d' bes>16 | bes2 r2 | r8. ees'16%p ees'8. ees'16 ees'2
+| r4 d'8. d'16 d'2 | r8. d'16 d'8. d'16 d'8. d'16 d'8. d'16
+| ees'8.[ d'16] ees'4.. r16 r4
+| r8. ees'16 ees'8. ees'16 ees'2 | r8. ees'16 ees'8. ees'16 ees'4! ees'4\\rit | ees'4 ees'4 d'8. cis'16 d'8. <d' bes>16 | bes2. r8\\spanend s8
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. s8 r8 | r1 | r1 | r1
+| r1 | r4. ees8%mf g4 bes4 | r4. d8 f4 aes8. bes16 | bes4 bes4 bes8. bes16 a8. a16
+| bes2. r4 | r4. ees8%mf g4 bes4 | r4. d8 f4 aes8. bes16 | bes4 bes4 bes8. bes16 aes8. aes16
+| g2 r8. g16 g8. g16 | g2. g8. g16 | aes4 g8. g16 f8.! r16 r4 | r8. bes16%p bes8. bes16 bes2
+
+| r4 bes8. bes16 bes2 | r8. bes16 bes8. bes16 bes8. bes16 bes8. bes16 | bes4 bes4.. r16 r4
+
+| r8. g16 g8. g16 g2 | r8. g16 g8. g16 ges4! fis4 | g4 g8.[ bes16] aes8. g16 aes8. aes16 | g2 r2 | r8. bes16%p bes8. bes16 bes2
+
+| r4 bes8. bes16 bes2 | r8. bes16 bes8. bes16 bes8. bes16 bes8. bes16 | bes4 bes4.. r16 r4
+
+| r8. g16 g8. g16 g2 | r8. g16 g8. g16 ges4! fis4\\rit | g4 g8.[ bes16] aes8. g16 aes8. aes16 | g2. r8\\spanend s8
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. s8 r8 | r1 | r4 bes,8.%p c16 bes,4. r8 | r1
+| r4 bes,8. c16 bes,4. r8 | r4. bes,8%mf ees4 g4 | r4. bes,8 d4 f8. f16 | ees4 ees4 ees8. ees16 c8. c16
+| bes,8. c16 bes,8. c16 bes,4. r8 | r4. bes,8%mf ees4 g4 | r4. bes,8 d4 f8. f16 | ees4 ees4 ees8. ees16 bes,8. bes,16
+| ees2 r8. g16 g8. g16 | c2. g8. g16 | bes,2~ bes,8.! bes,16 c8. d16 | ees2(~ ees8.[ bes,16]) c8. bes,16 | f2 r8. bes,16 d8. f16 | bes8. bes16 bes4.. bes,16 c8. d16 | ees8.[ f16] g4.. r16 r4
+| r8. ees16 ees8. ees16 des2 | r8. c16 c8. c16 ces4! ces4 | bes,4 bes,4 bes,8. bes,16 bes,8. bes,16 | <ees ees,>2 r8. bes,16 c8. d16 | ees2(~ ees8.[ bes,16]) c8. bes,16 | f2 r8. bes,16 d8. f16 | bes8. bes16 bes4.. bes,16 c8. d16 | ees8.[ f16] g4.. r16 r4
+| r8. ees16 ees8. ees16 des2 | r8. c16 c8. c16 ces4! ces4\\rit | bes,4 bes,4 bes,8. bes,16 bes,8. bes,16 | <ees ees,>2. r8\\spanend s8
+"""
+
+[lyrics.1]
+text = "Con -- sid -- er the lil -- ies of the field, Con -- sid -- er the lil -- ies of the field, They toil not, they toil not, they toil not, nei -- ther do they spin, They toil not, they toil not, they toil not, nei -- ther do they spin: And yet I say un -- to you, And yet I say un -- to you, That Sol -- o -- mon in all his glo -- ry was not ar -- rayed, was not ar -- rayed like one of these, like one of these. And yet I say un -- to you, That Sol -- o -- mon in all his glo -- ry was not ar -- rayed, was not ar -- rayed like one of these, like one of these."
+
+[parts.Alto.lyrics.1]
+text = "Con -- sid -- er the lil -- ies of the field, Con -- sid -- er the lil -- ies of the field, They toil not, they toil not, they toil not, nei -- ther do they spin, They toil not, they toil not, they toil not, nei -- ther do they spin: And yet I say un -- to you, un -- to you, And yet I say un -- to you, That Sol -- o -- mon in all his glo -- ry was not ar -- rayed, was not ar -- rayed like one of these, like one of these. And yet I say un -- to you, That Sol -- o -- mon in all his glo -- ry was not ar -- rayed, was not ar -- rayed like one of these, like one of these."
+
+[parts.Tenor.lyrics.1]
+text = "They toil not, they toil not, they toil not, nei -- ther do they spin, They toil not, they toil not, they toil not, nei -- ther do they spin: And yet I say un -- to you, un -- to you, And yet I say un -- to you, That Sol o -- mon in all his glo -- ry was not ar -- rayed, was not ar -- rayed like one of these, like one of these. And yet I say un -- to you, That Sol o -- mon in all his glo -- ry was not ar -- rayed, was not ar -- rayed like one of these, like one of these."
+
+[parts.Bass.lyrics.1]
+text = "how they grow; how they grow; They toil not, they toil not, they toil not, nei -- ther do they nei -- ther do they spin. They toil not, they toil not, they toil not, nei -- ther do they spin: And yet I say un -- to you, And yet I say un -- to you, That e -- ven Sol o -- mon in all his glo -- ry was not ar -- rayed, was not ar -- rayed like one of these, like one of these. And yet I say un -- to you, That e -- ven Sol o -- mon in all his glo -- ry was not ar -- rayed, was not ar -- rayed like one of these, like one of these."
