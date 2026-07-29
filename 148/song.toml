@@ -1,0 +1,61 @@
+title = "O Worship the King"
+subtitle = "LYONS"
+copyrights = [
+  "Lyrics: Robert Grant, 1833 (public domain)",
+  "Music: 'Lyons' by Johann Michael Haydn (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 104
+verse_count = 5
+phrase_breaks = ["5:32", "9:32", "13:32"]
+optional_phrase_breaks = ["3:32", "7:32", "11:32", "15:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 d'4 | g'4 g'4 a'4 | b'2 g'4 | c''4 c''4 b'4 | a'2 d'4 | g'4 g'4 a'4 | b'2 c''4 | d''8.[ c''16] b'4 a'4 | g'2 d'4 | d'4 d'4 e'4 | fis'4 fis'4 g'4 | a'4 a'4 b'4 | c''2 d'4 | g'4 g'4 a'4 | b'4 b'4 c''4 | d''8.[ c''16] b'4 a'4 | g'2 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 b4 | d'4 d'4 d'4 | d'2 d'4 | c'4 d'4 d'4 | d'2 d'8[ c'8] | b4 d'4 d'4 | d'2 e'4 | d'8.[ e'16] d'4 c'4 | b2 d'4 | d'4 d'4 cis'4 | c'4 c'4 b4 | a4 d'4 g'4 | fis'2 d'8[ c'8] | b4 d'4 d'4 | d'4 d'4 e'4 | d'8.[ e'16] d'4 c'4 | b2 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 g4 | b4 g4 fis4 | g2 g4 | g4 a4 g4 | fis2 fis4 | g4 g4 fis4 | g2 g4 | g4 g4 fis4 | g2 fis4 | fis4 fis4 g4 | a4 a4 g4 | fis4 fis4 g4 | a2 fis4 | g4 g4 fis4 | g4 g4 g4 | g4 g4 fis4 | g2 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 g,4 | g,4 b,4 d4 | g2 b,4 | e4 fis4 g4 | d2 d4 | g,4 b,4 d4 | g2 e4 | b,8.[ c16] d4 d4 | g,2 d4 | d4 d4 d4 | d4 d4 d4 | d4 d4 d4 | d2 d4 | g,4 b,4 d4 | g4 g4 e4 | b,8.[ c16] d4 d4 | g,2 s4
+"""
+
+[lyrics.1]
+text = "O wor -- ship the King, all glo -- rious a -- bove, And grate -- ful -- ly sing his won -- der -- ful love; Our Shield and De -- fend -- er, the An -- cient of Days, pa -- vil -- ioned in splen -- dor and gird -- ed with praise."
+
+[lyrics.2]
+text = "O tell of His might and sing of His grace, Whose robe is the light, Whose can -- o -- py space. His char -- iots of wrath the deep thun -- der -- clouds form, And dark is His path on the wings of the storm."
+
+[lyrics.3]
+text = "Thy boun -- ti -- ful care, what tongue can re -- cite? It breathes in the air, it shines in the light; It streams from the hills, it de -- scends to the plain, and sweet -- ly dis -- tills in the dew and the rain."
+
+[lyrics.4]
+text = "Frail chil -- dren of dust, and fee -- ble as frail, in Thee do we trust, nor find Thee to fail. Thy mer -- cies, how ten -- der, how firm to the end, our Mak -- er, De -- fend -- er, Re -- deem -- er, and Friend!"
+
+[lyrics.5]
+text = "O mea -- sure -- less Might, un -- change -- a -- ble Love, whom an -- gels de -- light to wor -- ship a -- bove! Thy ran -- somed cre -- a -- tion, with glo -- ry a -- blaze, In true ad -- o -- ra -- tion shall sing to thy praise!"
