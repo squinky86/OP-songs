@@ -1,0 +1,64 @@
+title = "Father, Hear Thy Children's Call"
+subtitle = ""
+key_signature = "D"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 84
+verse_count = 5
+optional_phrase_breaks = ["2:64", "6:64"]
+phrase_breaks = ["4:64"]
+copyrights = [
+  "Lyrics: Thomas Benson Pollock, 1875 (public domain)",
+  "Music: 'Gower's Litany' by John Henry Gower, 1891 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+fis'4 fis'4 e'4 fis'4 | a'4. e'8 e'2 | g'4 g'4 fis'4 g'4 | b'4. a'8 a'2 | a'4 a'4 d''4 cis''4 | b'4 fis'4 a'4( g'4) | fis'4. d'8 fis'4 d'4 | e'2 d'2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+d'4 d'4 cis'4 d'4 | cis'4. cis'8 cis'2 | cis'4 cis'4 c'4 cis'4 | d'4. d'8 d'4( e'4) | fis'4 cis'4 d'4 e'4 | dis'4 fis'4 fis'4( e'4) | d'4. b8 cis'4 b4 | cis'2 d'2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+a4 a4 a4 a4 | a4. a8 a2 | a4 a4 a4 a4 | gis4. a8 a4( g4) | fis4 g4 a4 ais4 | b4 b4 c'4( b4) | a4. fis8 a4 fis4 | g2 fis2
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+d4 fis4 g4 fis4 | a,4. a,8 e2 | e4 e4 dis4 e4 | eis4. fis8 fis4( e4) | d4 e4 fis4 fis4 | b,4 dis4 e2 | a,4. b,8 fis,4 b,4 | a,2 d2
+"""
+
+[lyrics.1]
+text = "Fa -- ther, hear Thy chil -- dren's call, Hum -- bly at Thy feet we fall, Prod -- i -- gals, con -- fess -- ing all: @s1"
+
+[lyrics.2]
+text = "Christ, be -- neath Thy cross we blame All our life of sin and shame; Pen -- i -- tent, we breathe Thy name: @s1"
+
+[lyrics.3]
+text = "Sick, we come to Thee for cure; Guilt -- y, seek Thy mer -- cy sure; E -- vil, long to be made pure: @s1"
+
+[lyrics.4]
+text = "Blind, we pray that we may see; Bound, we pray to be made free; Stained, we pray for sanc -- ti -- ty: @s1"
+
+[lyrics.5]
+text = "By Thy love that bids Thee spare, By the heav'n Thou dost pre -- pare By Thy prom -- is -- es to prayer: @s1"
+
+[lyrics.s1]
+text = "We be -- seech Thee, hear us."
