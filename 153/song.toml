@@ -1,0 +1,61 @@
+title = "Day Is Dying in the West"
+subtitle = ""
+copyrights = [
+  "Lyrics: Mary A. Lathbury, 1878 (public domain)",
+  "Music: 'Chautauqua' by William Fiske Sherwin, 1877 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 72
+verse_count = 4
+phrase_breaks = ["4:48", "8:40", "12:48", "16:48"]
+optional_phrase_breaks = ["2:48", "6:48", "10:48", "14:48", "18:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+aes'4 aes'8 aes'4 f'8 | ees'4 d'8 ees'4. | aes'4 aes'8 aes'4 f'8 | ees'4 d'8 ees'4. | g'4 g'8 aes'4 aes'8 | bes'8[ aes'8] bes'8 c''4. | des''4 des''8 c''4 c''8 | d''8[ c''8] d''8 ees''4 c''8 | bes'4. bes'4. | ees'2. | aes'4@c ees'8 aes'4 ees'8 | c''4. aes'4. | ees''4. des''4 bes'8 | aes'2. | aes'4 g'8 aes'4 f'8 | ees'4 aes'8 c''4. | bes'4 a'8 bes'4 g'8 | aes'4 c''8 ees''4 f''8 | ees''4. g'4. | aes'2.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+c'4 c'8 des'4 des'8 | c'4 b8 c'4. | c'4 c'8 des'4 des'8 | c'4 b8 c'4. | des'4 des'8 c'4 c'8 | des'8[ c'8] des'8 ees'4. | ees'4 ees'8 ees'4 ees'8 | aes'4 aes'8 g'4 ees'8 | ees'4. d'4. | ees'2. | c'4@c c'8 c'4 c'8 | ees'4. c'4. | aes'4. ees'4 ees'8 | ees'2. | f'4 e'8 f'4 des'8 | c'4 ees'8 ees'4. | ees'4 ees'8 ees'4 ees'8 | ees'4 ees'8 aes'4 aes'8 | aes'4. ees'4. | ees'2.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+ees4 ees8 f4 aes8 | aes4 f8 ees4. | ees4 ees8 f4 aes8 | aes4 f8 ees4. | ees4 bes8 aes4 aes8 | ees4 g8 aes4. | bes4 bes8 aes4 aes8 | bes4 bes8 bes4 aes8 | g4. aes4. | g2. | aes4@c aes8 ees4 aes8 | aes4. aes4. | c'4. bes4 des'8 | c'2. | aes4 bes8 aes4 aes8 | aes4 c'8 aes4. | des'4 c'8 des'4 bes8 | c'4 aes8 c'4 des'8 | c'4. des'4. | c'2.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+aes,4 aes,8 aes,4 aes,8 | aes,4 aes,8 aes,4. | aes,4 aes,8 aes,4 aes,8 | aes,4 aes,8 aes,4. | ees4 ees8 ees4 ees8 | ees4 ees8 aes4. | g4 g8 aes4 aes8 | f4 bes,8 ees4 aes,8 | bes,4. bes,4. | ees2. | aes,4@c aes,8 aes,4 aes,8 | aes4. aes4. | ees4. ees4 ees8 | aes2. | des4 des8 des4 des8 | aes,4 aes8 aes4. | ees4 ees8 ees4 ees8 | aes4 aes8 aes4 des8 | ees4. ees4. | aes,2.
+"""
+
+[lyrics.1]
+text = "Day is dy -- ing in the west; Heav'n is touch -- ing earth with rest; Wait and wor -- ship while the night Sets the eve -- ning lamps a -- light Through all the sky."
+
+[lyrics.2]
+text = "Lord of life, be -- neath the dome Of the un -- i -- verse, Thy home, Ga -- ther us who seek Thy face To the fold of Thy em -- brace, For Thou art nigh."
+
+[lyrics.3]
+text = "While the deep -- 'ning sha -- dows fall, Heart of love en -- fold -- ing all, Through the glo -- ry and the grace Of the stars that veil Thy face, Our hearts a -- scend."
+
+[lyrics.4]
+text = "When for -- ev -- er from our sight Pass the stars, the day, the night, Lord of an -- gels, on our eyes Let e -- ter -- nal morn -- ing rise And sha -- dows end."
+
+[lyrics.chorus]
+text = "Ho -- ly, ho -- ly, ho -- ly, Lord God of Hosts! Heav'n and earth are full of Thee! Heav'n and earth are prais -- ing Thee, O Lord most high!"
