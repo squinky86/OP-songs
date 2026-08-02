@@ -1,0 +1,62 @@
+title = "Heaven Holds All to Me"
+subtitle = "Earth Holds No Treasures"
+verse_count = 3
+key_signature = "Ab"
+time_sig_numerator = 6
+time_sig_denominator = 4
+tempo_bpm = 108
+non_breaking_phrase_breaks = ["10:32"]
+phrase_breaks = ["2:96", "6:96", "10:96", "14:96"]
+optional_phrase_breaks = ["4:96", "8:96", "10:96", "12:96"]
+copyrights = [
+  "Lyrics and Music: Tillit S. Teddlie, 1916 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+c''4 b'4 c''4 bes'4 aes'4 bes'4 | aes'4 g'4 f'4 f'4 ees'2 | c''4 ees''4 f''4 ees''4 c''4 aes'4 | bes'1. | c''4 b'4 c''4 bes'4 aes'4 bes'4 | aes'4 g'4 f'4 f'4 ees'2 | c''4 ees''4 f''4 ees''4( c''4)! bes'4 | aes'1. | c''4@c bes'4 aes'4 ees'2 f'4 | ees'2.( aes'2.) | c''4 ees''4 f''4 ees''4 c''4 aes'4 | bes'1. | c''4 b'4 c''4 bes'4 <ees' aes'>2 | bes'4 aes'4 aes'4 f'4 ees'2! | c''4 ees''4\\rit f''4 ees''4( c''4)! bes'4 | aes'1.\\spanend
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+ees'4 d'4 ees'4 des'4 c'4 c'4 | des'4 des'4 des'4 des'4 c'2 | ees'4 aes'4 aes'4 aes'4 aes'4 aes'4 | g'1. | aes'4 aes'4 aes'4 ees'4 ees'4 e'4 | f'4 ees'4 des'4 des'4 c'2 | ees'4 aes'4 aes'4 aes'4~ aes'4! ees'4 | ees'1. | ees'4@c des'4 c'4 c'2 des'4 | c'2.( ees'2.) | ees'4 aes'4 aes'4 aes'4 aes'4 aes'4 | g'1. | aes'4 aes'4 aes'4 ees'4 ees'4( ges'4) | f'4 f'4 f'4 des'4 c'2! | ees'4 aes'4 aes'4 aes'4~ aes'4! ees'4 | ees'1.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+aes4 aes4 aes4 ees4 ees4 ges4 | f4 f4 aes4 aes4 aes2 | aes4 c'4 des'4 c'4 ees'4 d'4 | ees'1. | ees'4 d'4 ees'4 des'4 c'4 aes4 | des'4 des'4 aes4 aes4 aes2 | aes4 c'4 des'4 c'4( ees'4)! des'4 | c'1. | aes4@c aes4 ees4 aes2 aes4 | aes2.( c'2.) | aes4 c'4 des'4 c'4 ees'4 ees'4 | ees'1. | ees'4 d'4 ees'4 des'4 c'2 | des'4 des'4 aes4 aes4 aes2! | aes4 c'4 des'4 c'4( ees'4)! des'4 | c'1.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+aes,4 aes,4 aes,4 aes,4 aes,4 aes,4 | des4 des4 des4 aes,4 aes,2 | aes4 aes4 aes4 aes4 aes4 f4 | ees1. | aes,4 aes,4 aes,4 aes,4 aes,4 c4 | des4 des4 des4 aes,4 aes,2 | aes4 aes4 des4 ees4~ ees4! ees4 | <aes aes,>1. | aes,4@c aes,4 aes,4 aes,2 aes,4 | aes,4( c4) ees4 <aes aes,>2. | aes4 aes4 aes4 aes4 aes4 c4 | ees1. | aes,4 aes,4 aes,4 aes,4 aes,2 | des4 des4 des4 aes,4 aes,2! | aes4 aes4 des4 ees4~ ees4! ees4 | aes,1.
+"""
+
+[lyrics.1]
+text = "Earth holds no trea -- sures but per -- ish with us -- ing, How -- ev -- er pre -- cious they be; Yet there’s a coun -- try to which I am go -- ing: Hea -- ven holds all to me."
+
+[lyrics.2]
+text = "Out on the hills of that won -- der -- ful coun -- try, Hap -- py, con -- tent -- ed and free, Loved ones are wait -- ing and watch -- ing my com -- ing: Hea -- ven holds all to me."
+
+[lyrics.3]
+text = "Why should I long for the world with its sor -- rows, When in that home o’er the sea, Mil -- lions are sing -- ing the won -- der -- ful sto -- ry? Hea -- ven holds all to me."
+
+[lyrics.chorus]
+text = "Hea -- ven holds all to me, Bright -- er its glo -- ry will be; Joy with -- out mea -- sure will be my trea -- sure: Hea -- ven holds all to me."
+
+[parts.Bass.lyrics.chorus]
+text = "Hea -- ven holds all to me, to me, Bright -- er its glo -- ry will be; Joy with -- out mea -- sure will be my trea -- sure: Hea -- ven holds all to me."
