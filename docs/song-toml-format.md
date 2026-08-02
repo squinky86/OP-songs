@@ -606,9 +606,125 @@ text = "Yes, Je -- sus loves me! Yes, Je -- sus loves me! Yes, Je -- sus loves m
 
 ---
 
+## Translations
+
+A song may carry singing translations. The base `song.toml` is the song; each
+translation lives beside it as `song_{lang}.toml`, where `{lang}` is a BCP-47
+code:
+
+```
+162/song.toml       Face to Face with Christ My Savior   (English — the base)
+162/song_es.toml    En presencia estar de Cristo          (Spanish)
+```
+
+All versions of a song share its directory number, so they share a page id:
+`/songs/162` serves the base version and `/songs/162/es` the Spanish one. The
+song page shows a language switcher whenever more than one exists.
+
+The base file's language is `en` unless it says otherwise with a top-level
+`language = "es"` — so a Spanish-origin hymn can carry an English translation
+in `song_en.toml`.
+
+### Translation files are overlays
+
+A `song_{lang}.toml` states **only what differs**. Everything it leaves out —
+the tune, key, tempo, time signature, phrase breaks, verse count, and every
+`[parts.*]` — is inherited from `song.toml`. This is what keeps a later fix to
+the base notation from silently leaving the translations wrong.
+
+Most translations are lyrics-only and look like this in full:
+
+```toml
+title = "En presencia estar de Cristo"
+copyrights = [
+  "Letra: Carrie E. Breck, 1898 (dominio público)",
+  "Traducción: Vicente Mendoza, 1905 (dominio público)",
+  "Música: 'Face to Face' de Grant Colfax Tullar, 1898 (dominio público)",
+  "Arreglo de OpenPsalm, 2026, publicado bajo la licencia CC-BY 4.0",
+]
+
+[lyrics.1]
+text = "En pre -- sen -- cia‿es -- tar de Cris -- to, …"
+
+[lyrics.chorus]
+text = "¡Ca -- ra‿a ca -- ra‿es -- pe -- ro ver -- le, …"
+```
+
+**Write the `copyrights` block in the translation's own language.** The page is
+in Spanish, so its credits are too — `Letra:`, `Música:`, `Traducción:`,
+`(dominio público)`. Only proper names stay as they are: people, and the tune
+name (`'Face to Face'`). This is the main reason a translation restates the
+block instead of appending a line to it.
+
+| Construct | Rule |
+|---|---|
+| Top-level scalar/array (`title`, `subtitle`, `key_signature`, `tempo_bpm`, `verse_count`, `phrase_breaks`, `commentary`, `converge_verses`, `active`, …) | Present → **replaces** the inherited value. Absent → inherited. |
+| `copyrights` | Replaces the whole list. A translation should always set this: the credits are written in the translation's language, and the translator line belongs beside the original lyricist rather than appended at the end. |
+| `[parts.X]` | **Field-wise merge** with the base part `X`, so `notes = """…"""` alone overrides the notation and keeps `clef`, `choral_type`, `staff_number`. |
+| `[parts.X]` not in the base | Added as a new part; must be complete. |
+| Base part not mentioned | Inherited unchanged. |
+| `[parts.X.lyrics]` | Defining **any** entry replaces that part's *entire* lyric map. |
+| `[lyrics.*]` | Defining **any** entry replaces the *entire* global lyric map. |
+| `[[time_sig_changes]]` | Replaces the whole array. |
+
+Lyric maps replace wholesale rather than merging verse by verse on purpose: a
+per-verse merge would let a translation supply verses 1–2 and silently inherit
+the base language's verses 3–4, producing a half-translated page.
+
+`active = false` is read per file, so a draft translation can sit beside a
+published song.
+
+### Overriding notes
+
+Override a part's `notes` when the translation genuinely does not fit the
+original rhythm — a line that needs one more syllable than the tune has notes.
+Split the note in the part(s) that carry the syllable and leave the others
+alone:
+
+```toml
+# The Spanish line has one syllable more than the English at measure 3.
+[parts.Soprano]
+notes = """
+… | c''4. bes'8 a'8 g'8 f'8 g'8 | f'2 f'2 | …
+"""
+```
+
+The merged result is validated exactly like a base file: every measure must sum
+to its time signature, and every verse must have one syllable per lyric slot in
+every part. A mismatched syllable count is the most common authoring error in a
+translation and the seeder rejects it by name.
+
+### Elisions (synalepha)
+
+A lyric slot cannot contain a space — syllables are split on whitespace. When
+two words are sung on one note, as Spanish synalepha constantly requires, join
+them with an **undertie** `‿` (U+203F), the standard engraving mark for an
+elision:
+
+```
+"En pre -- sen -- cia‿es -- tar de Cris -- to,"
+```
+
+`presencia estar` is five syllables of text but four notes: `cia‿es` is one
+slot. The score prints the undertie; the lyrics page and the search index
+expand it back to a space, so the poem reads "En presencia estar de Cristo" and
+a search for "cara a cara" matches.
+
+### Registering a language
+
+A `song_{lang}.toml` whose code is not in the language registry is a hard seed
+error, not a skip — so a translation can never sit silently unimported. Add new
+codes to `LANGUAGES` in `src/i18n.rs` (OpenPsalm side), appending only: the
+`ordinal` values are part of every translation row's database identity and must
+never be reused or renumbered.
+
+---
+
 ## Seeding and Database
 
-Songs are seeded on startup from `songs/{N}/song.toml` if the song title does not already exist in the database. To re-seed after changes to a TOML (including `phrase_breaks` or `optional_phrase_breaks`), clear the songs table and restart:
+Songs are seeded on startup from `songs/{N}/song.toml`, plus any
+`songs/{N}/song_{lang}.toml` translations, if that (song directory, language)
+has not already been imported. To re-seed after changes to a TOML (including `phrase_breaks` or `optional_phrase_breaks`), clear the songs table and restart:
 
 **SQLite (local dev):**
 ```bash

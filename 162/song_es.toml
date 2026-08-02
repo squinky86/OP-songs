@@ -1,0 +1,22 @@
+title = "En presencia estar de Cristo"
+copyrights = [
+  "Letra: Carrie E. Breck, 1898 (dominio público)",
+  "Traducción: Vicente Mendoza, 1905 (dominio público)",
+  "Música: 'Face to Face' de Grant Colfax Tullar, 1898 (dominio público)",
+  "Arreglo de OpenPsalm, 2026, publicado bajo la licencia CC-BY 4.0",
+]
+
+[lyrics.1]
+text = "En pre -- sen -- cia‿es -- tar de Cris -- to, ver su ros -- tro ¿qué se -- rá? cuan -- do‿al fin, en ple -- no go -- zo, mi‿al -- ma le con -- tem -- pla -- rá?"
+
+[lyrics.2]
+text = "So -- lo tras os -- cu -- ro ve -- lo, hoy lo pue -- do‿a -- quí mi -- rar; mas ya pron -- to vie -- ne‿el dí -- a que su glo -- ria‿ha de mos -- trar."
+
+[lyrics.3]
+text = "¡Cuán -- to go -- zo‿ha -- brá con Cris -- to! cuan -- do no‿ha -- ya más do -- lor, cuan -- do ce -- sen los pe -- li -- gros y ya‿es -- te -- mos en su‿a -- mor."
+
+[lyrics.4]
+text = "Ca -- ra‿a ca -- ra, ¡cuán glo -- rio -- so ha de ser a -- sí vi -- vir!, ver el ros -- tro de quien qui -- so nues -- tras al -- mas re -- di -- mir."
+
+[lyrics.chorus]
+text = "¡Ca -- ra‿a ca -- ra‿es -- pe -- ro ver -- le, más a -- llá del cie -- lo‿a -- zul; ca -- ra‿a ca -- ra‿en ple -- na glo -- ria he de ver a mi Je -- sús!"
