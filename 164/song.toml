@@ -1,0 +1,62 @@
+title = "Did You Think to Pray?"
+subtitle = ""
+verse_count = 4
+key_signature = "F"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+phrase_breaks = ["4:64", "8:64", "12:64"]
+optional_phrase_breaks = ["2:64", "6:64", "10:64", "14:64", "16:64"]
+copyrights = [
+  "Lyrics: M. A. Kidder, 1876 (public domain)",
+  "Music: W. O. Perkins, 1876 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+a'4. a'8 bes'8 a'8 g'8 f'8 | c'2 f'2 | g'4. g'8 bes'4 a'4 | g'1 | g'4. g'8 g'8 g'8 f'8 g'8 | a'2 c''2 | a'4. a'8 bes'8 a'8 g'8 f'8 | d'2 f'2 | e'4. f'8 g'4. a'8 | f'1 | c''4.@c c''8 d''8 c''8 b'8 c''8 | f''2 c''2 | a'4. c''8 d''8 c''8 bes'8 a'8 | g'1 | a'4. a'8 bes'8 a'8 g'8 f'8 | d'2 f'2 | e'4. f'8 g'4. a'8 | f'1
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+f'4. f'8 f'8 f'8 c'8 c'8 | c'2 c'2 | e'4. e'8 g'4 f'4 | e'1 | e'4. e'8 e'8 e'8 f'8 e'8 | f'2 f'2 | f'4. f'8 f'8 f'8 c'8 c'8 | d'2 d'2 | c'4. c'8 e'4. e'8 | f'1 | a'4.@c a'8 bes'8 a'8 gis'8 a'8 | a'2 a'2 | f'4. a'8 bes'8 a'8 g'8 f'8 | e'1 | f'4. f'8 f'8 f'8 c'8 c'8 | d'2 d'2 | c'4. c'8 e'4. f'8 | f'1
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+c'4. c'8 d'8 c'8 bes8 a8 | a2 a2 | c'4. c'8 c'4 c'4 | c'1 | c'4. c'8 c'8 c'8 c'8 c'8 | c'2 a2 | c'4. c'8 d'8 c'8 bes8 a8 | bes2 bes2 | g4. a8 bes4. c'8 | a1 | c'4.@c f'8 f'8 f'8 f'8 f'8 | c'2 f'2 | c'4. f'8 f'8 f'8 c'8 c'8 | c'1 | c'4. c'8 d'8 c'8 bes8 a8 | bes2 bes2 | g4. a8 bes4. c'8 | a1
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+f4. f8 f8 f8 f8 f8 | f2 f2 | c4. c8 e4 f4 | c1 | c4. c8 c8 c8 a,8 c8 | f2 f2 | f4. f8 f8 f8 f8 f8 | bes,2 bes,2 | c4. c8 c4. c8 | f1 | f4.@c f8 f8 f8 f8 f8 | f2 f2 | f4. f8 f8 f8 f8 f8 | c1 | f4. f8 f8 f8 f8 f8 | bes,2 bes,2 | c4. c8 c4. c8 | f1
+"""
+
+[lyrics.1]
+text = "Ere you left your room this morn -- ing, Did you think to pray? In the name of Christ our Sav -- ior, Did you sue for lov -- ing fa -- vor, As a shield to -- day?"
+
+[lyrics.2]
+text = "When you met with great temp -- ta -- tion, Did you think to pray? By His dy -- ing love and mer -- it, Did you claim the Ho -- ly Spir -- it As your guide and stay?"
+
+[lyrics.3]
+text = "When your heart was filled with an -- ger, Did you think to pray? Did you plead for grace, my bro -- ther, That you might for -- give a -- no -- ther Who had crossed your way?"
+
+[lyrics.4]
+text = "When sore tri -- als came up -- on you, Did you think to pray? When your soul was bowed in sor -- row, Balm of Gil -- ead did you bor -- row At the gates of day?"
+
+[lyrics.chorus]
+text = "O how pray -- ing rests the wea -- ry! Prayer will change the night to day; So when life seems dark and drea -- ry, Don't for -- get to pray."
