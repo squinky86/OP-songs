@@ -1,0 +1,59 @@
+title = "Fairest Lord Jesus"
+subtitle = ""
+key_signature = "E"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 4
+optional_phrase_breaks = ["2:64", "8:64", "12:64"]
+phrase_breaks = ["4:64", "8:64", "10:64"]
+copyrights = [
+  "Lyrics: Anonymous, 1677 (public domain)",
+  "Translation: Anonymous, 1850 (public domain)",
+  "Music: 'Crusaders' Hymn' by Anonymous, 1677 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+e'2 e'4 e'4 | fis'4( dis'4) e'2 | gis'4. gis'8 gis'4 gis'4 | a'4( fis'4) gis'2 | b'2 e''4-( cis''4-) | b'2 a'4( gis'4) | a'2 gis'2 | fis'1 | b'2 cis''4 b'4 | b'4( gis'4) fis'2 | a'2 b'4 a'4 | a'4( fis'4) gis'4 gis'4 | gis'4 gis'4 b'4 a'4 | gis'2 fis'2 | e'1
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+b2 cis'4 cis'4 | cis'4( b4) b2 | e'4. e'8 e'4 eis'4 | fis'4( dis'4) e'2 | e'2 e'4-( e'4-) | e'2 fis'4( e'4) | fis'2 e'2 | dis'1 | e'2 e'4 e'4 | eis'2 fis'4( e'4) | dis'2 dis'4 dis'4 | dis'2 e'4 e'4 | fis'4 e'4 e'4 e'4 | e'2 dis'2 | e'1
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+gis2 gis4 gis4 | a4( fis4) gis2 | b4 b4/+24 cis'4 cis'4 | cis'4( b4) b2 | gis2 cis'4-( a4-) | gis2 b2 | b2 b2 | b1 | b2 a4 gis4 | gis4( cis'4) cis'2 | b4( fis4) gis4 fis4 | fis4( b4) b4 b4 | bis4 cis'4  d'4 cis'4 | b2 a2 | gis1
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+e2 cis4 cis4 | a,4( b,4) e2 | e4 dis4/+24 cis4 b,4 | a,4( b,4) e2 | e2 a,4-( cis4-) | e2 dis4( e4) | fis2 e2 | b,1 | gis,2 a,4 b,4 | cis2 fis2 | b,2 b,4 b,4 | b,2 e4 e4 | dis4 cis4 gis,4 a,4 | b,2 b,2 | e1
+"""
+
+[lyrics.1]
+text = "Fair -- est Lord Je -- sus, rul -- er of all na -- ture, O thou of God and man the Son, Thee will I cher -- ish, Thee will I hon -- or, thou, my soul's glo -- ry, joy, and crown."
+
+[lyrics.2]
+text = "Fair are the mead -- ows, fair -- er still the wood -- lands, robed in the bloom -- ing garb of spring: Je -- sus is fair -- er, Je -- sus is pur -- er who makes the woe -- ful heart to sing."
+
+[lyrics.3]
+text = "Fair is the sun -- shine, fair -- er still the moon -- light, and all the twin -- kling star -- ry host: Je -- sus shines bright -- er, Je -- sus shines pur -- er than all the an -- gels heav'n can boast."
+
+[lyrics.4]
+text = "Beau -- ti -- ful Sav -- ior! Lord of all the na -- tions! Son of _ God and Son of Man! Glo -- ry and hon -- or, praise, ad -- o -- ra -- tion, now and for -- ev -- er -- more be thine!"
