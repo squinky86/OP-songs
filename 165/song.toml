@@ -1,0 +1,64 @@
+title = "Far Away In the Depths"
+subtitle = "Wonderful Peace"
+key_signature = "Ab"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 84
+verse_count = 5
+phrase_breaks = ["3:40", "5:40", "7:40", "9:48", "13:40", "15:40"]
+optional_phrase_breaks = ["2:36", "6:40", "11:40", "14:40"]
+copyrights = [
+  "Lyrics: Warren D. Cornell, 1889 (public domain)",
+  "Music: W. George Cooper, 1889 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s4 s4 s8 aes'16-( bes'16-) | c''8. c''16 c''8 c''8. bes'16 aes'8 | bes'8 aes'8 f'8 ees'4 aes'16 bes'16 | c''8. c''16 c''8 c''8 bes'8. c''16 | bes'4.~ bes'4 aes'16-( bes'16-) | c''8. c''16 c''8 c''8. bes'16 aes'8 | bes'8 aes'8 f'8 aes'4 aes'16 bes'16 | c''8. c''16 c''8 bes'8 bes'8 bes'8 | aes'2. | c''4.@c aes'4. | bes'8. aes'16 f'8 ees'4 ees'16 ees'16 | aes'8. aes'16 aes'8 c''8 bes'8. bes'16 | bes'4.~ bes'4 c''16[ des''16] | ees''8. ees''16 ees''8 c''8 bes'8 aes'8 | bes'16 aes'8. f'8 aes'4! aes'16[ bes'16] | c''8. c''16 c''8 bes'16 bes'8. bes'8 | aes'2 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s4 s4 s8 c'16-( des'16-) | ees'8. ees'16 ees'8 ees'8. des'16 c'8 | des'8 des'8 des'8 c'4 c'16 des'16 | ees'8. ees'16 ees'8 d'8 d'8. d'16 | ees'4.~ ees'4 c'16-( des'16-) | ees'8. ees'16 ees'8 ees'8. des'16 c'8 | des'8 des'8 des'8 f'4 f'16 fes'16 | ees'8. ees'16 ees'8 des'8 des'8 des'8 | c'2. | ees'4.@c c'4. | des'8. des'16 des'8 c'4 c'16 c'16 | f'8. f'16 f'8 aes'8 aes'8. g'16 | g'4.~ g'4 ees'8 | aes'8. aes'16 aes'8 aes'8 ees'8 ees'8 | f'16 f'8. des'8 f'4! f'16[ fes'16] | ees'8. aes'16 aes'8 g'16 g'8. ees'8 | ees'2 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s4 s4 s8 ees16-( ees16-) | aes8. aes16 aes8 aes8. ees16 ees8 | f8 f8 aes8 aes4 ees16 ees16 | aes8. aes16 aes8 f8 f8. aes16 | g4.~ g4 ees16-( ees16-) | aes8. aes16 aes8 aes8. ees16 ees8 | f8 f8 aes8 des'4 aes16 aes16 | aes8. aes16 aes8 g8 g8 g8 | aes2. | aes4.@c ees4. | f8. f16 aes8 aes4 aes16 aes16 | c'8. c'16 c'8 d'8 d'8. d'16 | ees'4.~ ees'4 aes16[ bes16] | c'8. c'16 c'8 ees'8 des'8 c'8 | des'16 des'8. aes8 des'4! aes8 | aes8. c'16 ees'8 des'16 des'8. des'8 | c'2 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s4 s4 s8 aes,16-( aes,16-) | aes,8. aes,16 aes,8 aes,8. aes,16 aes,8 | des8 des8 des8 aes,4 aes,16 aes,16 | aes,8. aes,16 aes,8 bes,8 bes,8. bes,16 | ees4.~ ees4 aes,16-( aes,16-) | aes,8. aes,16 aes,8 aes,8. aes,16 aes,8 | des8 des8 des8 des4 des16 des16 | ees8. ees16 ees8 ees8 ees8 ees8 | <ees aes,>2. | aes,4.@c aes,4. | des8. des16 des8 aes,4 aes16 aes16 | f8. f16 f8 bes,8 bes,8. bes,16 | ees4.~ ees4 aes8 | aes8. aes16 aes8 aes8 aes8 aes8 | des16 des8. des8 des4! des8 | ees8. ees16 ees8 ees16 ees8. ees8 | aes,2 s4
+"""
+
+[lyrics.1]
+text = "Far a -- way in the depths of my spir -- it to -- night Rolls a mel -- o -- dy sweet -- er than psalm; In ce -- les -- tial -- like strains it un -- ceas -- ing -- ly falls O’er my soul like an in -- fi -- nite calm."
+
+[lyrics.2]
+text = "What a trea -- sure I have in this won -- der -- ful peace, Bur -- ied deep in the heart of my soul, So se -- cure that no pow -- er can mine it a -- way, While the years of e -- ter -- ni -- ty roll!"
+
+[lyrics.3]
+text = "I am rest -- ing to -- night in this won -- der -- ful peace, Rest -- ing sweet -- ly in Je -- sus’ con -- trol; For I’m kept from all dan -- ger by night and by day, And His glo -- ry is flood -- ing my soul!"
+
+[lyrics.4]
+text = "And I think when I rise to that cit -- y of peace, Where the An -- chor of peace I shall see, That one strain of the song which the ran -- somed will sing In that heav -- en -- ly king -- dom will be:"
+
+[lyrics.5]
+text = "Ah, _ soul! are you here with -- out com -- fort and rest, March -- ing down the rough path -- way of time? Make _ Je -- sus your Friend ere the shad -- ows grow dark; Oh, ac -- cept this sweet peace so sub -- lime!"
+
+[lyrics.chorus]
+text = "Peace, peace, won -- der -- ful peace, Com -- ing down from the Fa -- ther a -- bove! Sweep o -- ver my spir -- it for -- ev -- er, I pray In fath -- om -- less bil -- lows of love!"
