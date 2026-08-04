@@ -1,0 +1,52 @@
+title = "Father, We Thank Thee for the Night"
+subtitle = ""
+verse_count = 2
+key_signature = "F"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+optional_phrase_breaks = ["3:48", "7:48"]
+phrase_breaks = ["5:48"]
+copyrights = [
+  "Lyrics: Rebecca J. Weston, 1885 (public domain)",
+  "Music: 'Weston' by Anonymous (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s4 f'4 | f'4. f'8 f'8 f'8 e'8 f'8 | g'2. g'4 | g'4. g'8 g'8 g'8 f'8 g'8 | a'2. a'4 | c''4. a'8 g'8 f'8 e'8 f'8 | d'2( bes'4) bes'4 | a'4. f'8 a'8 g'8 f'8 e'8 | f'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s4 c'4 | c'4. c'8 c'8 c'8 c'8 c'8 | e'2. e'4 | e'4. e'8 e'8 e'8 f'8 e'8 | f'2. f'4 | f'4. f'8 c'8 c'8 c'8 c'8 | bes2( d'4) d'4 | c'4. f'8 f'8 e'8 c'8 c'8 | c'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 s4 a4 | a4. a8 a8 c'8 bes8 a8 | c'2. c'4 | c'4. c'8 c'8 c'8 c'8 c'8 | c'2. c'4 | a4. c'8 bes8 a8 bes8 f8 | f2. g4 | f4. a8 c'8 bes8 a8 g8 | a2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 s4 f4 | f4. f8 f8 a8 g8 f8 | c2. c4 | c4. c8 bes8 bes8 a8 g8 | f2. f4 | f4. f8 f8 f,8 g,8 a,8 | bes,2. g,4 | c4. d8 c8 c8 c8 c8 | f2. s4
+"""
+
+[lyrics.1]
+text = "Fa -- ther, we thank Thee for the night, And for the pleas -- ant morn -- ing light; For rest and food and lov -- ing care, And all that makes the day so fair."
+
+[lyrics.2]
+text = "Help us to do the things we should, To be to oth -- ers kind and good; In all we do, in work or play, To grow more lov -- ing ev -- 'ry day."
