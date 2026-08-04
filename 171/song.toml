@@ -1,0 +1,66 @@
+title = "More Holiness Give Me"
+subtitle = ""
+copyrights = [
+  "Lyrics and Music: Philip P. Bliss, 1873 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Eb"
+time_sig_numerator = 12
+time_sig_denominator = 8
+tempo_bpm = 80
+verse_count = 3
+phrase_breaks = ["2:96", "4:96", "6:96"]
+optional_phrase_breaks = ["1:96", "3:96", "5:96", "7:96"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+g'4. g'8 c''8 bes'8 a'4. bes'4. | ees'4. ees'8 d'8 ees'8 g'4.( f'4.) |
+g'4. g'8 c''8 bes'8 a'4. bes'4. | bes'4. a'8 g'8 a'8 bes'2. |
+aes'4. aes'8 aes'8 aes'8 aes'4. g'4. | c''4. c''8 c''8 c''8 bes'2. |
+ees''4. ees''8 ees''8 ees''8 ees''4. c''4. | bes'4. bes'8 aes'8 f'8 ees'2.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+ees'4. ees'8 ees'8 ees'8 ees'4. ees'4. | bes4. bes8 bes8 ees'8 ees'4.( d'4.) |
+ees'4. ees'8 ees'8 ees'8 ees'4. ees'4. | ees'4. ees'8 ees'8 ees'8 d'2. |
+d'4. d'8 ees'8 f'8 f'4. ees'4. | ees'4. ees'8 ees'8 ees'8 ees'2. |
+ees'4. ees'8 ees'8 ees'8 ees'4. ees'4. | ees'4. d'8 d'8 d'8 ees'2.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+bes4. bes8 aes8 g8 fis4. g4. | g4. bes8 aes8 g8 bes4.( bes4.) |
+bes4. bes8 aes8 g8 fis4. g4. | g4. f8 f8 c'8 bes2. |
+bes4. bes8 bes8 bes8 bes4. bes4. | aes4. aes8 aes8 aes8 g2. |
+g4. g8 aes8 bes8 c'4. aes4. | g4. f8 f8 aes8 g2.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+ees4. ees8 ees8 ees8 ees4. ees4. | ees4. g8 f8 ees8 bes,4.( bes,4.) |
+ees4. ees8 ees8 ees8 ees4. ees4. | c4. f8 f8 f8 bes,2. |
+bes,4. bes,8 c8 d8 ees4. ees4. | aes,4. aes,8 bes,8 c8 ees2. |
+ees4. ees8 f8 g8 aes4. aes,4. | bes,4. bes,8 bes,8 bes,8 ees2.
+"""
+
+[lyrics.1]
+text = "More ho -- li -- ness give me, more striv -- ings with -- in, More pa -- tience in suf -- fering, more sor -- row for sin. More faith in my Sav -- ior, more sense of His care. More joy in His ser -- vice, more pur -- pose in prayer. _"
+
+[lyrics.2]
+text = "More gra -- ti -- tude give me, more trust in the Lord, More zeal for His glor -- y, more hope in His word. More tears for His sor -- rows, more pain at His grief. More meek -- ness in tri -- al, more praise for re -- lief. _"
+
+[lyrics.3]
+text = "More pur -- i -- ty give me, more strength to o'er -- come, More free -- dom from earth -- stains, more long -- ings for home. More fit for the king -- dom, more use -- ful I'd be, More bless -- èd and ho -- ly, more, Sav -- ior, like Thee."
