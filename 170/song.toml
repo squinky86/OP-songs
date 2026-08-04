@@ -1,0 +1,135 @@
+title = "Fear Not, Little Flock"
+subtitle = "Whiter Than the Snow"
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 4
+
+copyrights = [
+  "Lyrics: M. A. Kidder, 1893 (public domain)",
+  "Music: J. G. Dailey, 1893 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license"
+]
+
+phrase_breaks = ["3:56", "5:56", "7:56", "9:64", "11:64", "13:64", "15:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s4 s8 ees'8 |
+ees'4 ees'8 ees'8 ees'4 ees'8 ees'8 |
+f'8[ aes'8] g'8 f'8 ees'4 r8 ees'8 |
+ees'4 f'8 g'8 aes'4 aes'8 bes'8 |
+c''4 bes'8 aes'8 bes'4 r8 ees'8 |
+ees'4 ees'8 ees'8 ees'4 ees'8 ees'8 |
+f'8[ aes'8] g'8 f'8 ees'4 r8 ees'8 |
+ees'8[ aes'8] c''8 ees''8 des''4 f'8 f'8 |
+ees'4 g'8 g'8 aes'4 r4 |
+c''2~@c c''8[ aes'8] aes'8 f'8 |
+ees'2. r4 |
+bes'2~ bes'8[ ees'8] aes'8 bes'8 |
+c''2. r4 |
+c''2~ c''8[ aes'8] aes'8 f'8 |
+ees'2. r4 |
+ees''2~ ees''8[ bes'8] c''8 bes'8 |
+aes'2. r8 s8
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s4 s8 c'8 |
+c'4 des'8 des'8 c'4 c'8 c'8 |
+des'8[ f'8] ees'8 des'8 c'4 r8 c'8 |
+c'4 des'8 des'8 c'4 ees'8 ees'8 |
+ees'4 ees'8 d'8 ees'4 r8 des'8 |
+c'4 des'8 des'8 c'4 c'8 c'8 |
+des'8[ f'8] ees'8 des'8 c'4 r8 c'8 |
+c'8[ ees'8] ees'8 ges'8 f'4 des'8 des'8 |
+c'4 des'8 des'8 c'4 r4 |
+ees'2~@c ees'8[ c'8] c'8 des'8 |
+c'2. r4 |
+ees'2~ ees'8[ des'8] c'8 des'8 |
+ees'2. r4 |
+ees'2~ ees'8[ c'8] c'8 des'8 |
+c'2. r4 |
+g'8 g'8 g'8 g'8 g'4 r4 |
+aes'8 ees'8 f'8 fes'8 ees'4 r8 s8
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 s4 s8 aes8 |
+aes4 g8 g8 aes4 aes8 aes8 |
+aes4 aes8 aes8 aes4 r8 aes8 |
+aes4 aes8 aes8 aes4 aes8 g8 |
+aes4 bes8 bes8 g4 r8 g8 |
+aes4 g8 g8 aes4 aes8 aes8 |
+aes4 aes8 aes8 aes4 r8 aes8 |
+aes8[ c'8] aes8 aes8 aes4 aes8 aes8 |
+aes4 bes8 bes8 aes4 r4 |
+aes8@c aes8 aes8 aes8 aes4 r4 |
+r8 aes8 aes8 aes8 c'8 c'8 bes8 aes8 |
+g8 g8 g8 g8 g4 r4 |
+r8 aes8 aes8 aes8 aes4 r4 |
+aes8 aes8 aes8 aes8 aes4 r4 |
+r8 aes8 aes8 aes8 c'8 c'8 bes8 aes8 |
+g8 bes8 des'8 des'8 des'4 r4 |
+c'8 c'8 des'8 des'8 c'4 r8 s8
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 s4 s8 aes,8 |
+aes,4 ees8 ees8 aes,4 aes,8 aes,8 |
+des4 des8 des8 aes,4 r8 aes,8 |
+aes,4 aes,8 aes,8 aes,4 c8 ees8 |
+aes4 g8 f8 ees4 r8 ees8 |
+aes,4 ees8 ees8 aes,4 aes,8 aes,8 |
+des4 des8 des8 aes,4 r8 aes,8 |
+aes,4 aes,8 c8 des4 des8 des8 |
+ees4 ees8 ees8 aes,4 r4 |
+aes,8@c aes,8 aes,8 aes,8 aes,4 r4 |
+r8 aes,8 c8 ees8 aes8 aes8 g8 f8 |
+ees8 ees8 ees8 ees8 ees4 r4 |
+r8 aes8 ees8 c8 aes,4 r4 |
+aes,8 aes,8 aes,8 aes,8 aes,4 r4 |
+r8 aes,8 c8 ees8 aes8 aes8 g8 f8 |
+ees2. ees8 ees8 |
+aes,2. r8 s8
+"""
+
+[lyrics.1]
+text = "Fear not, lit -- tle flock, says the Sav -- ior di -- vine; The Fa -- ther has willed that the king -- dom be thine; O soil not your gar -- ments with sin here be -- low: My sheep and my lambs must be whit -- er than snow."
+
+[lyrics.2]
+text = "Far whit -- er than snow, and as fair as the day, For Christ is the foun -- tain to wash guilt a -- way; O give Him, poor sin -- ner, that bur -- den of thine, And en -- ter the fold with the nine -- ty -- and -- nine."
+
+[lyrics.3]
+text = "Yon sheep, that was lost in the val -- ley of sin, Was found by the Shep -- herd, who gath -- ered him in; With songs of thanks -- giv -- ing the hills did re -- sound, \"My friends and my neigh -- bors, the lost sheep is found.\""
+
+[lyrics.4]
+text = "Ride o -- ver temp -- ta -- tion and cease your a -- larms: Your Shep -- herd is Je -- sus, your ref -- uge His arms; He'll nev -- er for -- sake you, a Broth -- er and Friend, But love you and save you in worlds with -- out end."
+
+[lyrics.chorus]
+text = "Whit -- er than snow, Whit -- er than snow, Whit -- er than snow, Whit -- er than snow."
+
+[parts.Alto.lyrics.chorus]
+text = "Whit -- er than snow, Whit -- er than snow, Whit -- er than snow, Whit -- er than the snow, Whit -- er than the snow."
+
+[parts.Tenor.lyrics.chorus]
+text = "Whit -- er than the snow, I long to be, dear Sav -- ior, Whit -- er than the snow, I long to be, Whit -- er than the snow, I long to be, dear Sav -- ior, Whit -- er than the snow, Whit -- er than the snow."
+
+[parts.Bass.lyrics.chorus]
+text = "Whit -- er than the snow, I long to be, dear Sav -- ior, Whit -- er than the snow, I long to be, Whit -- er than the snow, I long to be, dear Sav -- ior, Whit -- er than snow."
