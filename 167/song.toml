@@ -1,0 +1,57 @@
+title = "Father and Friend, Thy Light, Thy Love"
+subtitle = ""
+verse_count = 4
+key_signature = "F"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 90
+phrase_breaks = ["4:48", "8:48", "12:48"]
+copyrights = [
+  "Lyrics: John Bowring, 1824 (public domain)",
+  "Music: 'Whitburn' by Henry Baker, 1854 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+a'4 a'4 a'4 | c''2 f'4 | g'2 g'4 | a'2. | c''4 c''4 c''4 | bes'2 g'4 | a'2 bes'4 | g'2. | g'4 g'4 g'4 | g'2 g'4 | b'2 b'4 | c''2. | a'4 a'4 a'4 | a'4( g'4) f'4 | f'2 e'4 | f'2.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+f'4 f'4 f'4 | f'2 f'4 | f'2 e'4 | f'2. | f'4 f'4 f'4 | f'2 e'4 | f'2 g'4 | e'2. | e'4 e'4 e'4 | d'2 d'4 | f'2 f'4 | e'2. | f'4 f'4 ees'4 | d'2 d'4 | c'2 c'4 | c'2.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+c'4 c'4 c'4 | c'2 c'4 | d'2 c'4 | c'2. | c'4 c'4 c'4 | d'2 c'4 | c'2 d'4 | c'2. | c'4 c'4 c'4 | b2 c'4 | d'2 d'4 | c'2. | c'4 c'4 c'4 | c'4( bes4.) a8/-24 | g4( a4) bes4 | a2.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+f4 f4 f4 | a,2 d4 | bes,2 c4 | f2. | a4 a4 a4 | g2 c4 | f2 bes,4 | c2. | c4 c4 c4 | g2 g4 | g2 g4 | c2. | f4 f4 f4 | bes,2 b,4 | c2 c4 | f2.
+"""
+
+[lyrics.1]
+text = "Fa -- ther and Friend, Thy light, Thy love Beam -- ing through all Thy works we see; Thy glo -- ry gilds the heav'ns a -- bove, And all the earth is full of Thee."
+
+[lyrics.2]
+text = "Thy voice we hear, Thy pres -- ence feel, While Thou, too pure for mor -- tal sight, In -- volved in clouds, in -- vis -- i -- ble, Reign -- est the Lord of life and light."
+
+[lyrics.3]
+text = "We know not in what hal -- lowed part Of the wide heav'ns Thy throne may be, But this we know, that where Thou art, Strength, wis -- dom, good -- ness dwell with Thee."
+
+[lyrics.4]
+text = "Thy chil -- dren shall not faint nor fear, Sus -- tained by this ex -- alt -- ed thought; Since Thou, their God, art ev -- 'ry -- where, They can -- not be where Thou art not!"
