@@ -1,0 +1,58 @@
+title = "In the Cross of Christ I Glory"
+subtitle = ""
+key_signature = "C"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 4
+phrase_breaks = ["8:48"]
+optional_phrase_breaks = ["4:48", "12:48"]
+copyrights = [
+  "Lyrics: John Bowring, 1825 (public domain)",
+  "Music: 'Rathbun' by Ithamar Conkey, 1849 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+g'2 c''4 | e''2 c''4 | b'4( a'4) g'4 | c''4 g'4 r4 | g'2 a'4 | e'2 d'4 | e'2 fis'4 | g'2 r4 | g'2 c''4 | e''2 c''4 | d''4( c''8[ b'8]) a'8[ g'8] | c''4 g'4 r4 | g'2 a'4 | g'2 c''4 | e'2 d'4 | c'2 r4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+e'2 e'4 | g'2 g'4 | f'2 f'4 | e'4 e'4 r4 | e'2 c'4 | c'2 b4 | c'4( e'4) d'4 | d'2 r4 | e'2 e'4 | g'2 g'4 | f'2 f'4 | e'4 e'4 r4 | e'2 f'4 | e'2 e'4 | c'2 b4 | c'2 r4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+c'2 g4 | c'2 c'4 | d'2 b4 | g4 c'4 r4 | c'2 a4 | g2 g4 | g4( c'4) c'4 | b2 r4 | c'2 g4 | c'2 c'4 | b4( d'4) b4 | g4 c'4 r4 | c'2 c'4 | c'2 g4 | g2 f4 | e2 r4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+c2 c4 | c2 g4 | g2 g4 | c4 c4 r4 | c2 f4 | g2 g,4 | c4( a,4) d4 | g,2 r4 | c2 c4 | c2 e4 | g2 g4 | c4 c4 r4 | c2 c4 | c2 c8[ e8] | g2 g,4 | c2 r4
+"""
+
+[lyrics.1]
+text = "In the cross of Christ I glo -- ry, Tow -- 'ring o’er the wrecks of time; All the light of sa -- cred sto -- ry Gath -- ers round its head sub -- lime."
+
+[lyrics.2]
+text = "When the woes of life o’er -- take me, Hopes de -- ceive and fears an -- noy, Nev -- er shall the cross for -- sake me; Lo! it glows with peace and joy."
+
+[lyrics.3]
+text = "When the sun of bliss is beam -- ing Light and love up -- on my way, From the cross the ra -- diance stream -- ing, Adds more lus -- ter to the day."
+
+[lyrics.4]
+text = "Bane and bless -- ing, pain and plea -- sure, By the cross are sanc -- ti -- fied; Peace is there that knows no mea -- sure, Joys that through all time a -- bide."
