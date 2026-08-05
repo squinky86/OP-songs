@@ -1,0 +1,63 @@
+title = "Take My Life and Let It Be"
+subtitle = ""
+verse_count = 6
+key_signature = "G"
+time_sig_numerator = 9
+time_sig_denominator = 8
+tempo_bpm = 130
+phrase_breaks = ["3:48", "5:48", "7:48"]
+copyrights = [
+  "Words: Frances R. Havergal, 1874 (public domain)",
+  "Music: William B. Bradbury, 1827 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. d'4 g'8 | b'4. b'4. b'8[ a'8] g'8 | a'2. d'4 fis'8 | a'4. c''4. c''8[ b'8] a'8 | b'2. b'8[ a'8] b'8 | d''4. b'4. a'8[ g'8] e'8 | g'2. a'8[ g'8] e'8 | d'4. g'4. b'4 a'8 | g'2. s4 s8
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. b4 b8 | d'4. d'4. d'8[ c'8] b8 | d'2. d'4 d'8 | fis'4. a'4. a'8[ g'8] fis'8 | g'2. g'8[ fis'8] g'8 | g'4. d'4. e'4 e'8 | e'2. e'4 c'8 | b4. d'4. g'4 d'8 | d'2. s4 s8
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. g4 d8 | g4. g4. g4 g8 | fis2. fis4 a8 | d'4. d'4. d'4 d'8 | d'2. d'4 d'8 | b4. g4. c'4 c'8 | c'2. c'4 g8 | g4. b4. d'4 c'8 | b2. s4 s8
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. g,4 g,8 | g,4. g,4. g,4 g,8 | d2. d4 d8 | d4. d4. d4 d8 | g2. g4 g8 | g4. g4. c4 c8 | c2. c4 c8 | d4. d4. d4 d8 | g,2. s4 s8
+"""
+
+[lyrics.1]
+text = "Take my life and let it be con -- se -- crat -- ed, Lord, to thee. Take my mo -- ments and my days; let them flow in end -- less praise."
+
+[lyrics.2]
+text = "Take my hands and let them move at the im -- pulse of thy love. Take my feet and let them be swift and beau -- ti -- ful for thee."
+
+[lyrics.3]
+text = "Take my voice and let me sing al -- ways, on -- ly, for my King. Take my lips and let them be filled with mes -- sag -- es from thee."
+
+[lyrics.4]
+text = "Take my sil -- ver and my gold; not a mite would I with -- hold. Take my in -- tel -- lect and use ev -- ery pow -- er thou shalt choose."
+
+[lyrics.5]
+text = "Take my will and make it thine; it shall be no lon -- ger mine. Take my heart, it is thine own; it shall be thy roy -- al throne."
+
+[lyrics.6]
+text = "Take my love; my Lord, I pour at thy feet its trea -- sure store. Take my -- self, and I will be ev -- er, on -- ly, all for thee."
