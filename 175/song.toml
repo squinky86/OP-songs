@@ -1,0 +1,66 @@
+title = "I Stand Amazed in the Presence"
+subtitle = ""
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 5
+phrase_breaks = ["5:48", "9:64", "13:64"]
+optional_phrase_breaks = ["3:48", "7:48", "10:64", "11:64", "14:64", "15:64"]
+copyrights = [
+  "Lyrics and Music: Charles H. Gabriel, 1905 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. ees'4 | ees'4 c'4 ees'4 aes'8. bes'16 | c''2 aes'4 aes'4 | g'4 g'8. g'16 aes'4 bes'4 | aes'2. ees'4 | f'4 f'4 aes'4 g'8. f'16 | ees'2 aes'4 bes'4 | c''4 c''8. c''16 bes'4 bes'4 | aes'2. r4 | c''2@c c''8. bes'16 aes'4 | ees''2 ees''8. des''16 c''4 | bes'4 bes'4 bes'4. c''8 | des''4 c''4 bes'2 | c''2 c''8. bes'16 aes'4 | ees''2 ees''8. des''16 c''4 | bes'4 c''8[ des''8] c''4. bes'8 | aes'4 g'4 aes'4! s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. c'4 | c'4 c'4 c'4 c'8. des'16 | ees'2 c'4 ees'4 | ees'4 ees'8. ees'16 ees'4 ees'4 | ees'2. c'4 | des'4 des'4 f'4 ees'8. des'16 | c'2 ees'4 f'4 | ees'4 ees'8. ees'16 des'4 des'4 | c'2. r4 | ees'4@c ees'4 ees'8. des'16 c'4 | ees'4 ees'4 ees'8. ees'16 ees'4 | ees'4 ees'4 ees'4. ees'8 | ees'4 ees'4 ees'2 | ees'4 ees'4 ees'8. des'16 c'4 | ees'4 ees'4 ees'8. ees'16 ees'4 | f'4 f'4 ees'4. ees'8 | ees'4 des'4 c'4! s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. aes4 | aes4 ees4 aes4 aes8. aes16 | aes2 aes4 aes4 | bes4 bes8. bes16 c'4 des'4 | c'2. aes4 | aes4 aes4 aes4 aes8. aes16 | aes2 aes4 aes4 | aes4 aes8. aes16 g4 g4 | aes2. r4 | aes4@c aes4 aes8. aes16 aes4 | c'4 c'4 c'8. bes16 aes4 | g4 g4 g4. aes8 | bes4 aes4 g2 | aes4 aes4 aes8. aes16 aes4 | c'4 c'4 c'8. bes16 aes4 | aes4 aes4 aes4. des'8 | c'4 bes4 aes4! s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. aes,4 | aes,4 aes,4 aes,4 aes,8. aes,16 | aes,2 aes,4 c4 | ees4 ees8. ees16 ees4 ees4 | aes,2. aes,4 | des4 des4 des4 des8. des16 | aes,2 c4 des4 | ees4 ees8. ees16 ees4 ees4 | aes,2. r4 | aes,4@c aes,4 aes,8. aes,16 aes,4 | aes4 aes4 aes8. aes16 aes4 | ees4 ees4 ees4. ees8 | ees4 ees4 ees2 | aes,4 aes,4 aes,8. aes,16 aes,4 | aes4 aes4 aes8. aes16 aes4 | des4 des4 ees4. ees8 | ees4 ees4 aes,4! s4
+"""
+
+[lyrics.1]
+text = "I stand a -- mazed in the pres -- ence Of Je -- sus the Naz -- a -- rene, And won -- der how He could love me, A sin -- ner, con -- demned, un -- clean."
+
+[lyrics.2]
+text = "For me it was in the gar -- den He prayed: “Not My will, but Thine.” He had no tears for His own griefs, But sweat drops of blood for mine."
+
+[lyrics.3]
+text = "In pi -- ty an -- gels be -- held Him, And came from the world of light To com -- fort Him in the sor -- rows He bore for my soul that night."
+
+[lyrics.4]
+text = "He took my sins and my sor -- rows, He made them His ve -- ry own; He bore the bur -- den to Cal -- v’ry, And suf -- fered and died a -- lone."
+
+[lyrics.5]
+text = "When with the ran -- somed in glo -- ry His face I at last shall see, ’Twill be my joy through the ag -- es To sing of His love for me."
+
+[lyrics.chorus]
+text = "O how mar -- vel -- ous! O how won -- der -- ful! And my song shall ev -- er be: O how mar -- vel -- ous! O how won -- der -- ful Is my Sav -- ior’s love for me!"
+
+[parts.Soprano.lyrics.chorus]
+text = "How mar -- vel -- ous! How won -- der -- ful! And my song shall ev -- er be: How mar -- vel -- ous! How won -- der -- ful Is my Sav -- ior’s love for me!"
