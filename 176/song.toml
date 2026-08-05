@@ -1,0 +1,60 @@
+title = "From Every Stormy Wind That Blows"
+subtitle = ""
+key_signature = "C"
+time_sig_numerator = 6
+time_sig_denominator = 4
+tempo_bpm = 88
+verse_count = 5
+phrase_breaks = ["3:80", "5:80", "7:80"]
+copyrights = [
+  "Lyrics: Hugh Stowell, 1828 (public domain)",
+  "Music: 'Retreat' by Thomas Hastings, 1842 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s1 s4 e'8[ f'8] | g'2 g'4 g'4( f'4) e'4 | a'2 a'4 g'2 b'8[ c''8] | d''2 d''4 d''4( c''4) b'4 | c''2 e''4 d''2 d''4 | e''2 d''4 c''2 a'4 | g'2 e'4 d'2 e'8[ f'8] | g'2 g'4 g'4( f'4) e'4 | a'2\\rit b'4 c''2\\spanend s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s1 s4 c'8[ d'8] | e'2 e'4 e'4( d'4) c'4 | c'4[ f'4] f'4 e'2 d'8[ e'8] | f'2 f'4 f'4( e'4) d'4 | e'2 g'4 g'2 g'4 | g'2 g'4 e'2 f'4 | e'2 c'4 b2 c'8[ d'8] | e'2 e'4 e'4( d'4) c'4 | c'2\\rit f'4 e'2\\spanend s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s1 s4 g4 | c'2 c'4 c'4[ g4] c'4 | c'2 c'4 c'2 g4 | b2 b4 b4( c'4) g4 | g2 c'4 b2 b4 | c'2 g4 g2 c'4 | c'2 g4 g2 g4 | c'2 c'4 g2 c'4 | c'2\\rit g4 g2\\spanend s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s1 s4 c4 | c2 c4 c2 c4 | f2 f4 c2 g4 | g2 g4 g2 g4 | c2 c4 g2 g4 | c2 c4 c2 c4 | c2 e4 g2 c4 | c2 c4 c4( d4) c4 | f2\\rit g4 c2\\spanend s4
+"""
+
+[lyrics.1]
+text = "From ev -- ery storm -- y wind that blows, From ev -- ery swell -- ing tide of woes, There is a calm, a sure re -- treat: ’Tis found be -- neath the mer -- cy seat."
+
+[lyrics.2]
+text = "There is a place where Je -- sus sheds The oil of glad -- ness on our heads; A place than all be -- sides more sweet: It is the blood -- bought mer -- cy seat."
+
+[lyrics.3]
+text = "There is a scene where spir -- its blend, Where friend holds fel -- low -- ship with friend; Though sun -- dered far, by faith they meet A -- round one com -- mon mer -- cy seat."
+
+[lyrics.4]
+text = "Ah, whith -- er could we flee for aid, When tempt -- ed, des -- o -- late, dis -- mayed? Or how the hosts of hell de -- feat, Had suf -- f’ring saints no mer -- cy seat?"
+
+[lyrics.5]
+text = "There, there, on ea -- gles’ wings we soar, And time and sense seem all no more; And heav’n comes down, our souls to greet, And glo -- ry crowns the mer -- cy seat."
