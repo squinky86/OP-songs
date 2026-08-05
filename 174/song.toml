@@ -1,0 +1,71 @@
+title = "Footprints of Jesus"
+subtitle = "Footsteps of Jesus"
+key_signature = "Eb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 7
+phrase_breaks = ["4:64", "8:64", "12:64"]
+optional_phrase_breaks = ["2:64", "6:64", "10:48", "14:64"]
+copyrights = [
+  "Lyrics: Mary B. C. Slade, 1871 (public domain)",
+  "Music: Asa B. Everett, 1871 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+g'4 g'4 g'4 g'8. f'16 | ees'4 c''4 c''4 bes'4 | bes'2 g'4 ees'4 | f'1 | g'4 g'4 g'4 g'8. f'16 | ees'4 c''4 c''4 bes'4 | ees'2 g'4 f'4 | ees'1 | c''2@c aes'4 c''4 | c''2 bes'4 bes'4 | bes'4 c''4 bes'4 g'4 | f'1 | g'4 g'4 g'4 g'8. f'16 | ees'4 c''4 c''4 bes'4 | ees'2 g'4 f'4 | ees'1
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+ees'4 ees'4 ees'4 ees'8. ees'16 | ees'4 ees'4 ees'4 ees'4 | ees'2 ees'4 ees'4 | d'1 | ees'4 ees'4 ees'4 ees'8. ees'16 | ees'4 ees'4 ees'4 ees'4 | ees'2 ees'4 d'4 | ees'1 | ees'2@c ees'4 ees'4 | ees'2 ees'4 ees'4 | ees'4 ees'4 ees'4 ees'4 | d'1 | ees'4 ees'4 ees'4 ees'8. ees'16 | ees'4 ees'4 ees'4 ees'4 | ees'2 ees'4 d'4 | ees'1
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+bes4 bes4 bes4 bes8. bes16 | c'4 aes4 aes4 g4 | g2 bes4 g4 | bes1 | bes4 bes4 bes4 bes8. bes16 | c'4 aes4 aes4 g4 | g2 bes4 aes4 | g1 | aes2@c c'4 aes4 | aes2 g4 g4 | g4 aes4 g4 bes4 | bes1 | bes4 bes4 bes4 bes8. bes16 | c'4 aes4 aes4 g4 | g2 bes4 aes4 | g1
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+ees4 ees4 ees4 ees8. ees16 | aes,4 aes,4 aes,4 ees4 | ees2 ees4 ees4 | bes,1 | ees4 ees4 ees4 ees8. ees16 | aes,4 aes,4 aes,4 ees4 | c2 bes,4 bes,4 | ees1 | aes,2@c aes,4 aes,4 | ees2 ees4 ees4 | ees4 ees4 ees4 ees4 | bes,1 | ees4 ees4 ees4 ees8. ees16 | aes,4 aes,4 aes,4 ees4 | c2 bes,4 bes,4 | ees1
+"""
+
+[lyrics.1]
+text = "Sweet -- ly, Lord, have we heard Thee call -- ing, Come, fol -- low Me! And we see where Thy foot -- prints fall -- ing Lead us to Thee."
+
+[lyrics.2]
+text = "Though they lead o’er the cold, dark moun -- tains, Seek -- ing His sheep; Or a -- long by Si -- lo -- am’s foun -- tains, Help -- ing the weak."
+
+[lyrics.3]
+text = "If they lead through the tem -- ple ho -- ly, Preach -- ing the Word; Or in homes of the poor and low -- ly, Serv -- ing the Lord."
+
+[lyrics.4]
+text = "Though, dear Lord, in Thy path -- way keep -- ing, We fol -- low Thee; Through the gloom of that place of weep -- ing, Geth -- sem -- a -- ne!"
+
+[lyrics.5]
+text = "If Thy way and its sor -- rows bear -- ing, We go a -- gain, Up the slope of the hill -- side, bear -- ing Our cross of pain."
+
+[lyrics.6]
+text = "By and by, through the shin -- ing por -- tals, Turn -- ing our feet, We shall walk, with the glad im -- mor -- tals, Heav’n’s gold -- en street."
+
+[lyrics.7]
+text = "Then at last, when on high He sees us, Our jour -- ney done, We will rest where the steps of Je -- sus End at His throne."
+
+[lyrics.chorus]
+text = "Foot -- prints of Je -- sus, that make the path -- way glow; We will fol -- low the steps of Je -- sus Wher -- e’er they go."
