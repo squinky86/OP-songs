@@ -1,0 +1,87 @@
+title = "Follow On"
+subtitle = ""
+copyrights = [
+  "Lyrics: Mrs. E. Greer Floyd, adapted by F. L. Eiland, 1899 (public domain)",
+  "Music: Jas. B. Franklin, 1899 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Eb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 4
+phrase_breaks = ["5:48", "9:48", "13:48"]
+optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
+non_breaking_phrase_breaks = ["10:64", "12:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. ees'4 | g'4 g'4 bes'4 bes'4 | g'4 f'4 ees'4 bes'4 | c''4 c''4 aes'4 c''4 |
+bes'2. g'4 | bes'4 bes'4 c''4 bes'4 | ees''4 ees''4 ees'4 ees'8[ f'8] | g'4 g'4 ees'4 f'4 |
+ees'2. bes'4@c | ees''4 ees''4 ees''4 f''4 | ees''2. bes'4 | c''4 ees''4 ees''4 c''4 |
+bes'2. bes'4 | ees''4 ees''4 bes'4 g'4 | bes'4 c''4 bes'4 ees'4 | g'4 g'4 ees'4 f'4 |
+ees'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. bes4 | ees'4 ees'4 g'4 g'4 | ees'4 d'4 ees'4 g'4 | aes'4 aes'4 aes'4 aes'4 |
+g'2. ees'4 | g'4 g'4 aes'4 g'4 | g'4 g'4 ees'4 ees'4 | ees'4 ees'4 ees'4 d'4 |
+ees'2. g'4@c | g'4 g'4 g'4 aes'4 | g'4 g'4 g'4 g'4 | aes'4 aes'4 aes'4 aes'4 |
+g'4 g'4 g'4 g'4 | g'4 g'4 g'4 ees'4 | g'4 aes'4 g'4 ees'4 | ees'4 ees'4 ees'4 d'4 |
+ees'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. g4 | bes4 bes4 ees'4 ees'4 | bes4 aes4 g4 ees'4 | ees'4 ees'4 c'4 ees'4 |
+ees'2. bes4 | ees'4 ees'4 ees'4 ees'4 | bes4 bes4 g4 g8[ aes8] | bes4 bes4 g4 aes4 |
+g2. ees'4@c | bes4 bes4 bes4 bes4 | bes4 bes4 bes4 ees'4 | ees'4 c'4 c'4 ees'4 |
+ees'4 ees'4 ees'4 ees'4 | bes4 bes4 ees'4 bes4 | ees'4 ees'4 ees'4 g4 | bes4 bes4 g4 aes4 |
+g2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. ees4 | ees4 ees4 ees4 ees4 | ees4 bes,4 ees4 ees4 | aes4 aes4 aes4 aes4 |
+ees2. ees4 | ees4 ees4 ees4 ees4 | ees4 ees4 ees4 ees4 | bes,4 bes,4 bes,4 bes,4 |
+ees2. ees4@c | ees4 ees4 ees4 ees4 | ees4 ees4 ees4 ees4 | aes4 aes4 aes4 aes4 |
+ees4 ees4 ees4 ees4 | ees4 ees4 ees4 ees4 | ees4 ees4 ees4 ees4 | bes,4 bes,4 bes,4 bes,4 |
+ees2. s4
+"""
+
+[lyrics.1]
+text = "My soul o'er -- flows with joy and peace, Where Je -- sus shows His face, And bids all doubt and sor -- rows cease, And saves me by His grace!"
+
+[lyrics.2]
+text = "Thro' shad -- ows deep, He lights the way; And leads my soul a -- long, To man -- sions fair and end -- less day, The land of praise and song."
+
+[lyrics.3]
+text = "When to death's nar -- row stream I come, Tho' dark the wave, and cold; My Lord doth call my spir -- it home, In -- to His peace -- ful fold."
+
+[lyrics.4]
+text = "All glo -- ry to His pre -- cious name; Who gave His life for me; His grace, His good -- ness, I'll pro -- claim, Thro' all e -- ter -- ni -- ty."
+
+[lyrics.chorus]
+text = "O, will you fol -- low, on? O, will you fol -- low, on? O, will you fol -- low where He leads? O, will you fol -- low on?"
+
+[parts.Alto.lyrics.chorus]
+text = "O, will you fol -- low, fol -- low on? O, will you fol -- low, fol -- low on? O, will you fol -- low where He leads? O, will you fol -- low on?"
+
+[parts.Tenor.lyrics.chorus]
+text = "O, will you fol -- low, fol -- low on? O, will you fol -- low, fol -- low on? O, will you fol -- low where He leads? O, will you fol -- low on?"
+
+[parts.Bass.lyrics.chorus]
+text = "O, will you fol -- low, fol -- low on? O, will you fol -- low, fol -- low on? O, will you fol -- low where He leads? O, will you fol -- low on?"
