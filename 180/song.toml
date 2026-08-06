@@ -1,0 +1,71 @@
+title = "Father of Mercies"
+subtitle = ""
+copyrights = [
+  "Lyrics: Frederick W. Faber, et al. (public domain)",
+  "Music: 'Elos' c. 1864 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 3
+optional_phrase_breaks = ["2:48", "6:48", "11:32", "13:32", "17:32"]
+phrase_breaks = ["4:32", "8:32", "12:32", "16:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+a'4 a'4 a'4 | bes'2 bes'4 | c''2 bes'4 | a'2 a'4 |
+a'2 a'4 | g'2 c''4 | b'2 b'4 | c''2 bes'4 |
+a'2 a'4 | bes'2 bes'4 | c''2 bes'4 | a'2 d''4 |
+d''2 d''4 | c''2 d''4 | c''2 bes'4 | a'2 a'4 |
+bes'2 bes'4 | a'2 bes'4 | a'2 g'4 | f'2 r4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+f'4 f'4 f'4 | g'2 g'4 | g'2 g'4 | f'2 f'4 |
+d'2 d'4 | e'2 g'4 | f'2 f'4 | e'2 e'4 |
+f'2 f'4 | g'2 g'4 | g'2 g'4 | f'2 f'4 |
+e'2 e'4 | f'2 f'4 | e'2 g'4 | f'2 f'4 |
+g'2 g'4 | f'2 g'4 | f'2 e'4 | f'2 r4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+c'4 c'4 c'4 | d'2 d'4 | c'2 c'4 | c'2 c'4 |
+c'2 c'4 | c'2 e'4 | d'2 d'4 | c'2 c'4 |
+c'2 c'4 | d'2 d'4 | c'2 c'4 | c'2 bes4 |
+bes2 bes4 | c'2 bes4 | g2 c'4 | c'2 d'4 |
+d'2 d'4 | d'2 d'4 | c'2 bes4 | a2 r4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+f4 f4 f4 | f2 f4 | e2 e4 | f2 f4 |
+fis2 fis4 | g2 g4 | g2 g4 | c2 c4 |
+f2 f4 | f2 f4 | e2 e4 | f2 bes4 |
+g2 g4 | a2 bes,4 | c2 e4 | f2 d4 |
+g2 g4 | d2 g4 | c'2 c4 | f2 r4
+"""
+
+[lyrics.1]
+text = "Fa -- ther of mer -- cies, day by day My love to Thee grows more and more; Thy gifts are strewn up -- on my way Like sands up -- on the great sea -- shore, Like sands up -- on the great sea -- shore."
+
+[lyrics.2]
+text = "Fa -- ther of mer -- cies, God of love, Whose gen -- tle gifts all crea -- tures share, The roll -- ing sea -- sons as they move Pro -- claim to all Thy con -- stant care, Pro -- claim to all Thy con -- stant care."
+
+[lyrics.3]
+text = "Fa -- ther of mer -- cies, may our hearts Ne’er o -- ver -- look Thy boun -- teous care; But what our Fa -- ther’s hand im -- parts Still own in grate -- ful praise and prayer, Still own in grate -- ful praise and prayer."
