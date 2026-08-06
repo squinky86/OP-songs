@@ -1,0 +1,71 @@
+title = "Peace, Perfect Peace"
+subtitle = ""
+copyrights = [
+  "Lyrics: Edward H. Bickersteth, 1875 (public domain)",
+  "Music: 'Pax Tecum' by George T. Caldbeck, 1877 (public domain)",
+  "Harmonization: Charles J. Vincent, 1877 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license"
+]
+key_signature = "C"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 7
+phrase_breaks = ["4:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+g'2 g'4 g'4 | g'2. g'4 | a'4 a'4 a'4 g'4 | g'2. g'4 |
+c''2 d''2 | e''4 d''4 c''4 a'4 | g'2 g'4( f'4) | e'1 |
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+e'2 f'4 f'4 | e'2. e'4 | f'4 f'4 f'4 f'4 | f'2( e'4) e'4 |
+f'2 fis'2 | g'4 g'4 g'4 f'4 | e'2 d'2 | c'1 |
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+c'2 b8[ c'8] d'4 | c'2. c'4 | c'4 d'4 d'4 d'4 | c'2. c'4 |
+c'2 c'2 | c'4 c'4 c'4 c'4 | c'2 b2 | g1 |
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+c2 g4 g4 | c2. c4 | f4 d8[ c8] b,4 b,4 | c2. bes4 |
+a2 aes2 | g4 f4 e4 f4 | g2 g,2 | c1 |
+"""
+
+[lyrics.1]
+text = "Peace, per -- fect peace, in this dark world of sin: The blood of Je -- sus whis -- pers peace with -- in."
+
+[lyrics.2]
+text = "Peace, per -- fect peace, by throng -- ing du -- ties pressed: To do the will of Je -- sus, this is rest."
+
+[lyrics.3]
+text = "Peace, per -- fect peace, with sor -- rows surg -- ing round: On Je -- sus' bo -- som naught but calm is found."
+
+[lyrics.4]
+text = "Peace, per -- fect peace, with loved ones far a -- way: In Je -- sus' keep -- ing we are safe, and they."
+
+[lyrics.5]
+text = "Peace, per -- fect peace, our fu -- ture all un -- known: Je -- sus we know, and He is on the throne."
+
+[lyrics.6]
+text = "Peace, per -- fect peace, death shad'w -- ing us and ours: Je -- sus has van -- quished death and all its pow'rs."
+
+[lyrics.7]
+text = "It is e -- nough: earth's strug -- gles soon shall cease, And Je -- sus calls us to heav'n's per -- fect peace."
