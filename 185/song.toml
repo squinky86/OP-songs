@@ -1,0 +1,65 @@
+title = "O God, Our Help in Ages Past"
+subtitle = ""
+key_signature = "G"
+time_sig_numerator = 3
+time_sig_denominator = 2
+tempo_bpm = 126
+verse_count = 6
+phrase_breaks = ["3:64", "7:64"]
+optional_phrase_breaks = ["5:64", "9:64"]
+copyrights = [
+  "Lyrics: Isaac Watts, 1719 (public domain)",
+  "Music: 'Harvey's Chant' by William B. Bradbury, 1853 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+commentary = ""
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s1 g'2 | g'4 g'4 g'4 g'4 fis'4 g'4 | a'1 a'2 | a'4 a'4 a'2 a'2 | b'1 b'2 | b'4 b'4 b'4 b'4 a'4 b'4 | c''1 a'2 | b'4 a'4 g'2 fis'2 | g'1 d'2 | e'4 g'4 d'2 d'2 | d'1 s2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s1 d'2 | d'4 d'4 d'4 d'4 d'4 d'4 | fis'1 fis'2 | fis'4 fis'4 fis'2 fis'2 | g'1 g'2 | g'4 g'4 g'4 g'4 fis'4 g'4 | g'1 fis'2 | g'4 e'4 d'2 d'2 | d'1 d'2 | c'4 c'4 b2 a2 | b1 s2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s1 b2 | b4 b4 b4 b4 c'4 b4 | d'1 d'2 | d'4 d'4 d'2 d'2 | d'1 d'2 | d'4 d'4 d'4 d'4 d'4 d'4 | e'1 d'2 | d'4 c'4 b2 a2 | b1 g2 | g4 e4 g2 fis2 | g1 s2
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s1 g2 | g4 g4 g4 g4 a4 g4 | d1 d2 | d4 d4 d2 d2 | g1 g2 | g4 g4 g4 g4 d4 g4 | c1 d2 | g4 c4 d2 d2 | g1 b,2 | c4 c4 d2 d2 | g,1 s2
+"""
+
+[lyrics.1]
+text = "O God, our help in a -- ges past, Our hope for years to come, Our shel -- ter from the storm -- y blast, And our e -- ter -- nal home, and our e -- ter -- nal home."
+
+[lyrics.2]
+text = "Un -- der the shad -- ow of Thy throne Thy saints have dwelt se -- cure; Suf -- fi -- cient is Thine arm a -- lone, And our de -- fense is sure, and our de -- fense is sure."
+
+[lyrics.3]
+text = "Be -- fore the hills in or -- der stood, Or earth re -- ceived her frame, From ev -- er -- last -- ing Thou art God, To end -- less years the same, to end -- less years the same."
+
+[lyrics.4]
+text = "A thou -- sand a -- ges in Thy sight Are like an eve -- ning gone; Short as the watch that ends the night Be -- fore the ris -- ing sun, be -- fore the ris -- ing sun."
+
+[lyrics.5]
+text = "Time, like an ev -- er- -- roll -- ing stream, Bears all its sons a -- way; They fly for -- got -- ten, as a dream Dies at the op -- ’ning day, dies at the op -- ’ning day."
+
+[lyrics.6]
+text = "O God, our help in a -- ges past, Our hope for years to come, Be Thou our guard while trou -- bles last, And our e -- ter -- nal home, and our e -- ter -- nal home."
