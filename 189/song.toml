@@ -1,0 +1,66 @@
+title = "God Moves in a Mysterious Way"
+subtitle = ""
+key_signature = "Eb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 88
+verse_count = 6
+optional_phrase_breaks = ["3:48", "7:48"]
+phrase_breaks = ["5:48"]
+copyrights = [
+  "Lyrics: William Cowper, 1774 (public domain)",
+  "Music: 'Dundee' by Guillaume Franc, 1545; Scottish Psalter edition, 1615 (public domain)",
+  "Harmony: Thomas Ravenscroft, 1621 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+commentary = ""
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. ees'4 | g'4 aes'4 bes'4 ees'4 | f'4 g'4 aes'4! g'4 | f'4 ees'4 ees'4 d'4 | ees'2. bes'4 | ees''4 d''4 c''4 bes'4 | bes'4 a'4 bes'4! g'4 | f'4 ees'4 ees'4 d'4 | ees'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. bes4 | ees'4 ees'4 d'4 c'4 | des'4 ees'4 ees'4! ees'4 | d'4 c'4 c'4 bes4 | bes2. ees'4 | g'4 f'4 ees'4 d'4 | c'4 ees'4 d'4! ees'4 | d'4 c'4 c'4 bes4 | bes2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. g4 | bes4 ees4 f4 ees4 | bes4 bes4 c'4! bes4 | bes4 g4 aes4 f4 | g2. g4 | bes4 bes4 g4 f4 | g4 c'4 bes4! bes4 | bes4 g4 f4 f4 | g2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. ees4 | ees4 c4 bes,4 c4 | bes,4 ees4 aes,4! ees4 | bes,4 c4 aes,4 bes,4 | ees2. ees4 | ees4 bes,4 c4 d4 | ees4 f4 bes,4! ees4 | bes,4 c4 aes,4 bes,4 | ees2. s4
+"""
+
+[lyrics.1]
+text = "God moves in a mys -- te -- rious way His won -- ders to per -- form; He plants His foot -- steps in the sea and rides up -- on the storm."
+
+[lyrics.2]
+text = "Deep in un -- fath -- om -- a -- ble mines of nev -- er -- fail -- ing skill; He treas -- ures up His bright de -- signs, and works His sov' -- reign will."
+
+[lyrics.3]
+text = "Ye fear -- ful saints, fresh cour -- age take; the clouds ye so much dread are big with mer -- cy and shall break in bless -- ings on your head."
+
+[lyrics.4]
+text = "Judge not the Lord by fee -- ble sense, but trust Him for His grace; be -- hind a frown -- ing prov -- i -- dence He hides a smil -- ing face."
+
+[lyrics.5]
+text = "His pur -- pos -- es will rip -- en fast, un -- fold -- ing ev -- ery hour; the bud may have a bit -- ter taste, but sweet will be the flow'r."
+
+[lyrics.6]
+text = "Blind un -- be -- lief is sure to err, and scan His work in vain; God is His own in -- ter -- pret -- er, and He will make it plain."
