@@ -1,6 +1,6 @@
 title = "God Be With You Till We Meet Again"
 subtitle = ""
-key_signature = "C"
+key_signature = "Db"
 time_sig_numerator = 4
 time_sig_denominator = 4
 tempo_bpm = 105
@@ -19,7 +19,7 @@ choral_type = "soprano"
 clef = "treble"
 staff_number = 1
 notes = """
-e'4. e'8 e'8 e'8 e'8 e'8 | g'4 d'4 e'2 | a'4. a'8 a'8 a'8 a'8 a'8 | a'2 g'2 | g'4. g'8 g'8 g'8 g'8 g'8 | g'2 e'2 | e'4. e'8 a'8 g'8 c'8 d'8 | e'4 d'4 c'4! e'8.@c f'16 | g'4( c''4 e''4) d''8. c''16 | a'4( c''2) b'8. a'16 | g'4. a'8 g'8[ e'8] c'8[ e'8] | d'2. e'8. f'16 | g'4( c''4 e''4) d''8. c''16 | a'4( c''2!) c''8.! a'16 | g'8 e'8 c'8 d'8 e'4 d'4 | c'2. s4
+f'4. f'8 f'8 f'8 f'8 f'8 | aes'4 ees'4 f'2 | bes'4. bes'8 bes'8 bes'8 bes'8 bes'8 | bes'2 aes'2 | aes'4. aes'8 aes'8 aes'8 aes'8 aes'8 | aes'2 f'2 | f'4. f'8 bes'8 aes'8 des'8 ees'8 | f'4 ees'4 des'4! f'8.@c ges'16 | aes'4( des''4 f''4) ees''8. des''16 | bes'4( des''2) c''8. bes'16 | aes'4. bes'8 aes'8[ f'8] des'8[ f'8] | ees'2. f'8. ges'16 | aes'4( des''4 f''4) ees''8. des''16 | bes'4( des''2!) des''8.! bes'16 | aes'8 f'8 des'8 ees'8 f'4 ees'4 | des'2. s4
 """
 
 [parts.Alto]
@@ -27,7 +27,7 @@ choral_type = "alto"
 clef = "treble"
 staff_number = 1
 notes = """
-c'4. c'8 c'8 c'8 c'8 c'8 | c'4 b4 c'2 | c'4. f'8 f'8 f'8 f'8 f'8 | f'2 e'2 | d'4. d'8 d'8 d'8 f'8 f'8 | e'2 c'2 | c'4. c'8 f'8 e'8 c'8 c'8 | c'4 b4 c'4! c'8.@c d'16 | e'2( g'4) g'8. g'16 | f'4( a'2) g'8. f'16 | e'4. f'8 e'8[ c'8] c'4 | b2. c'8. d'16 | e'2( g'4) g'8. g'16 | f'4( a'2!) f'8.! f'16 | e'8 c'8 c'8 c'8 c'4 b4 | c'2. s4
+des'4. des'8 des'8 des'8 des'8 des'8 | des'4 c'4 des'2 | des'4. ges'8 ges'8 ges'8 ges'8 ges'8 | ges'2 f'2 | ees'4. ees'8 ees'8 ees'8 ges'8 ges'8 | f'2 des'2 | des'4. des'8 ges'8 f'8 des'8 des'8 | des'4 c'4 des'4! des'8.@c ees'16 | f'2( aes'4) aes'8. aes'16 | ges'4( bes'2) aes'8. ges'16 | f'4. ges'8 f'8[ des'8] des'4 | c'2. des'8. ees'16 | f'2( aes'4) aes'8. aes'16 | ges'4( bes'2!) ges'8.! ges'16 | f'8 des'8 des'8 des'8 des'4 c'4 | des'2. s4
 """
 
 [parts.Tenor]
@@ -35,7 +35,7 @@ choral_type = "tenor"
 clef = "bass"
 staff_number = 2
 notes = """
-g4. g8 g8 g8 g8 g8 | g4 g4 g2 | f4. c'8 c'8 c'8 c'8 c'8 | c'2 c'2 | b4. b8 b8 b8 d'8 d'8 | c'2 g2 | g4. g8 c'8 c'8 g8 a8 | g4 f4 e4! r4@c | r4 g8 g8 c'4 c'8. c'16 | c'4 c'8 c'8 c'4 c'8. c'16 | c'4. c'8 c'8[ g8] e8[ g8] | g4 g8 g8 g4 r4 | r4 g8 g8 c'4 c'8. c'16 | c'4 c'4 c'4! a8.! c'16 | c'8 g8 g8 a8 g4 f4 | e2. s4
+aes4. aes8 aes8 aes8 aes8 aes8 | aes4 aes4 aes2 | ges4. des'8 des'8 des'8 des'8 des'8 | des'2 des'2 | c'4. c'8 c'8 c'8 ees'8 ees'8 | des'2 aes2 | aes4. aes8 des'8 des'8 aes8 bes8 | aes4 ges4 f4! r4@c | r4 aes8 aes8 des'4 des'8. des'16 | des'4 des'8 des'8 des'4 des'8. des'16 | des'4. des'8 des'8[ aes8] f8[ aes8] | aes4 aes8 aes8 aes4 r4 | r4 aes8 aes8 des'4 des'8. des'16 | des'4 des'4 des'4! bes8.! des'16 | des'8 aes8 aes8 bes8 aes4 ges4 | f2. s4
 """
 
 [parts.Bass]
@@ -43,7 +43,7 @@ choral_type = "bass"
 clef = "bass"
 staff_number = 2
 notes = """
-c4. c8 c8 c8 c8 c8 | e4 g4 c2 | f4. f8 f8 f8 f8 f8 | c2 c2 | g4. g8 g8 g8 g,8 g,8 | c2 c2 | c4. c8 c8 c8 e8 f8 | g4 g,4 c4! r4@c | r4 c8 c8 c4 e8. e16 | f4 f8 f8 f4 f8. f16 | c4. c8 c4 c4 | g,4 g,8 g,8 g,4 r4 | r4 c8 c8 c4 e8. e16 | f4 f4 f4! f8.! f16 | c8 c8 e8 f8 g4 g,4 | c2. s4
+des4. des8 des8 des8 des8 des8 | f4 aes4 des2 | ges4. ges8 ges8 ges8 ges8 ges8 | des2 des2 | aes4. aes8 aes8 aes8 aes,8 aes,8 | des2 des2 | des4. des8 des8 des8 f8 ges8 | aes4 aes,4 des4! r4@c | r4 des8 des8 des4 f8. f16 | ges4 ges8 ges8 ges4 ges8. ges16 | des4. des8 des4 des4 | aes,4 aes,8 aes,8 aes,4 r4 | r4 des8 des8 des4 f8. f16 | ges4 ges4 ges4! ges8.! ges16 | des8 des8 f8 ges8 aes4 aes,4 | des2. s4
 """
 
 [lyrics.1]
