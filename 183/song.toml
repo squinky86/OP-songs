@@ -1,0 +1,59 @@
+title = "Give Me Thy Heart"
+subtitle = ""
+key_signature = "F"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 104
+verse_count = 3
+phrase_breaks = ["3:24", "5:24", "7:24", "9:24", "13:24", "15:24"]
+optional_phrase_breaks = ["10:24", "11:24"]
+copyrights = [
+  "Lyrics: Eliza E. Hewitt, 1898 (public domain)",
+  "Music: William J. Kirkpatrick, 1898 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+commentary = ""
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. c'8 f'8 g'8 | a'4 a'16 a'16 bes'8 f'8 g'8 | a'4. c''8 g'8 a'8 | bes'8. a'16 bes'8 d''8 c''8 bes'8 | a'4. c'8 f'8 g'8 | a'8. gis'16 a'8 bes'8 f'8 g'8 | a'4. g'8. g'16 g'8 | c''8 e'8 e'8 g'8 f'8 d'8 | c'4.! a'8@c c''8. a'16 | c''4. f'8%p a'8. f'16 | a'4. d''8.%mf d''16 d''8 | c''8 a'8 f'8 f'8 e'8 f'8 | g'4. c'8 f'8 g'8 | a'8. gis'16 a'8 bes'8 f'8 g'8 | a'4. bes'8 c''8 d''8 | c''8. a'16 f'8! a'8\\rit a'8 g'8 | f'2.\\spanend
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. c'8 c'8 c'8 | f'4 f'16 f'16 f'8 f'8 f'8 | f'4. e'8 e'8 f'8 | g'8. fis'16 g'8 bes'8 a'8 g'8 | f'4. c'8 c'8 c'8 | f'8. f'16 f'8 f'8 f'8 f'8 | f'4. e'8. e'16 e'8 | e'8 c'8 c'8 b8 b8 b8 | c'4.! f'8@c f'8. f'16 | f'4. c'8%p f'8. c'16 | f'4. f'8.%mf f'16 f'8 | f'8 c'8 d'8 d'8 d'8 d'8 | e'4. c'8 c'8 c'8 | f'8. f'16 f'8 f'8 f'8 f'8 | f'4. f'8 f'8 f'8 | f'8. f'16 f'8! f'8\\rit e'8 e'8 | f'2.\\spanend
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. a8 a8 bes8 | c'4 c'16 c'16 d'8 d'8 des'8 | c'4. c'8 c'8 c'8 | c'8. c'16 c'8 c'8 c'8 c'8 | c'4. a8 a8 bes8 | c'8. b16 c'8 d'8 d'8 des'8 | c'4. c'8. c'16 c'8 | g8 g8 g8 d8 d8 f8 | e4.! f8@c f8. f16 | f4. a8%p c'8. a16 | c'4. bes8.%mf bes16 bes8 | a8 a8 a8 b8 b8 b8 | bes4. a8 a8 bes8 | c'8. b16 c'8 d'8 d'8 des'8 | c'4. bes8 a8 bes8 | a8. c'16 b8! c'8\\rit c'8 bes8 | a2.\\spanend
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. f8 f8 f8 | f4 f16 f16 f8 f8 f8 | f4. c8 c8 c8 | c8. c16 c8 c8 d8 e8 | f4. f8 f8 f8 | f8. f16 f8 f8 f8 f8 | f4. g8. g16 g8 | g8 g8 g8 g,8 g,8 g,8 | c4.! f8@c f8. f16 | f4. f8%p f8. f16 | f4. bes,8.%mf bes,16 bes,8 | f8 c8 d8 g,8 g,8 g,8 | c4. f8 f8 f8 | f8. f16 f8 f8 f8 f8 | f4. d8 c8 bes,8 | c8. c16 d8! c8\\rit c8 c8 | f2.\\spanend
+"""
+
+[lyrics.1]
+text = "“Give Me thy heart,” says the Fa -- ther a -- bove— No gift so pre -- cious to Him as our love; Soft -- ly He whis -- pers wher -- ev -- er thou art, “Grate -- ful -- ly trust Me and give Me thy heart.”"
+
+[lyrics.2]
+text = "“Give Me thy heart,” says the Sav -- ior of men, Call -- ing in mer -- cy a -- gain and a -- gain; “Trust in Me on -- ly, I’ll nev -- er de -- part— Have I not died for thee? Give Me thy heart.”"
+
+[lyrics.3]
+text = "“Give Me thy heart,” says the Spir -- it di -- vine; “All that thou hast to My keep -- ing re -- sign; Grace more a -- bound -- ing is Mine to im -- part— Make full sur -- ren -- der and give Me thy heart.”"
+
+[lyrics.chorus]
+text = "“Give Me thy heart, give Me thy heart,” Hear the soft whis -- per, wher -- ev -- er thou art; From this dark world He would draw thee a -- part, Speak -- ing so ten -- der -- ly, “Give Me thy heart.”"
