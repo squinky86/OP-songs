@@ -1,0 +1,56 @@
+title = "God Is the Fountain Whence"
+subtitle = ""
+key_signature = "F"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 3
+phrase_breaks = ["3:32", "6:32", "10:32"]
+copyrights = [
+  "Lyrics: Benjamin Beddome, 1817 (public domain)",
+  "Music: 'Gerar' by Lowell Mason, 1839 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+commentary = ""
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+f'4 a'4 f'4 | c''2 e'4 | f'2 a'4 | a'4( g'4) c''4 | c''4( b'4) d''4 | c''2 c''4 | c''8.[( bes'16] a'4) a'4 | bes'8.[( c''16] d''4) bes'4 | bes'8.[( a'16] g'4) g'4 | a'8.[( bes'16] c''4) c''4 | f''4( c''4) a'4 | a'4( f'4) g'4 | f'2.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+f'4 a'4 f'4 | e'2 c'4 | c'2 f'4 | f'4( e'4) g'4 | g'2 f'4 | e'2 a'4 | a'8.[( g'16] f'4) f'4 | g'8.[( a'16] bes'4) g'4 | g'8.[( f'16] e'4) e'4 | f'8.[( g'16] a'4) f'4 | a'4( f'4) f'4 | f'4( c'4) c'4 | c'2.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+f4 a4 f4 | g2 bes4 | a2 c'4 | c'2 e'4 | e'4( d'4) b4 | c'2 c'4 | c'8.[( bes16] a4) a4 | bes8.[( c'16] d'4) bes4 | bes8.[( a16] g4) g4 | a8.[( bes16] c'4) a4 | c'4( a4) c'4 | c'4( a4) bes4 | a2.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+f4 a4 f4 | c2 c4 | f2 f4 | c2 c4 | g2 g4 | c2 a4 | a8.[( g16] f4) f4 | g8.[( a16] bes4) g4 | g8.[( f16] e4) e4 | f8.[( g16] a4) f4 | f2 f4 | c2 c4 | f2.
+"""
+
+[lyrics.1]
+text = "God is the foun -- tain whence Ten thou -- sand bless -- ings flow; To Him my life, my health, and friends, And ev -- 'ry good, I owe."
+
+[lyrics.2]
+text = "The com -- forts He af -- fords Are nei -- ther few nor small; He is the source of fresh de -- lights, My por -- tion and my all."
+
+[lyrics.3]
+text = "He fills my heart with joy, My lips at -- tunes for praise; And to His glo -- ry I'll de -- vote The rem -- nant of my days."
