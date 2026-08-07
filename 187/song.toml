@@ -1,0 +1,58 @@
+title = "I Love Thee"
+subtitle = ""
+key_signature = "Eb"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 4
+phrase_breaks = ["5:32", "9:32", "13:32"]
+copyrights = [
+  "Lyrics: Anonymous (public domain)",
+  "Music: 'I Love Thee' from Jeremiah Ingalls' Christian Harmony, 1805 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+commentary = ""
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 bes4 | ees'4 ees'4 g'4 | bes'4 bes'4 c''8[ bes'8] | g'4 ees'4 f'4 | g'2 bes4 | ees'4 ees'4 g'4 | bes'4 bes'4 c''8[ bes'8] | g'4 ees'4 f'4 | ees'2 bes'4 | bes'4 g'4 bes'4 | ees''4 c''4 c''4 | bes'4 g'4 ees'4 | bes'2 bes4 | ees'4 ees'4 g'4 | bes'4 bes'4 c''8[ bes'8] | g'4 ees'4 f'4 | ees'2 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 bes4 | bes4 bes4 ees'4 | g'4 g'4 aes'8[ g'8] | ees'4 bes4 d'4 | ees'2 bes4 | bes4 bes4 ees'4 | g'4 g'4 aes'8[ g'8] | ees'4 bes4 d'4 | ees'2 ees'4 | ees'4 ees'4 g'4 | aes'4 aes'4 aes'4 | g'4 ees'4 ees'4 | d'2 bes4 | bes4 bes4 ees'4 | g'4 g'4 aes'8[ g'8] | ees'4 bes4 d'4 | bes2 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 g4 | g4 g4 bes4 | ees'4 ees'4 ees'4 | bes4 g4 bes4 | bes2 g4 | g4 g4 bes4 | ees'4 ees'4 ees'4 | bes4 g4 aes4 | g2 g4 | g4 bes4 ees'4 | c'4 ees'4 ees'4 | ees'4 bes4 a4 | bes2 aes4 | g4 g4 bes4 | ees'4 ees'4 ees'4 | bes4 g4 aes4 | g2 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 ees4 | ees4 ees4 ees4 | ees4 ees4 aes,4 | bes,4 bes,4 bes,4 | ees2 ees4 | ees4 ees4 ees4 | ees4 ees4 aes,4 | bes,4 bes,4 bes,4 | ees2 ees4 | ees4 ees4 ees4 | aes,4 aes,4 aes,4 | ees4 ees4 c4 | bes,2 bes,4 | ees4 ees4 ees4 | ees4 ees4 aes,4 | bes,4 bes,4 bes,4 | ees2 s4
+"""
+
+[lyrics.1]
+text = "I love Thee, I love Thee, I love Thee, my Lord; I love Thee, my Sav -- ior, I love Thee, my God. I love Thee, I love Thee, and that Thou dost know; But how much I love Thee my ac -- tions will show."
+
+[lyrics.2]
+text = "I'm hap -- py, I'm hap -- py, oh, won -- drous ac -- count! My joys are im -- mor -- tal, I stand on the mount! I gaze on my treas -- ure and long to be there, With Je -- sus and an -- gels, and kin -- dred so dear."
+
+[lyrics.3]
+text = "O Je -- sus, my Sav -- ior, with Thee I am blest, My life and sal -- va -- tion, my joy and my rest: Thy name be my theme, and Thy love be my song; Thy grace shall in -- spire both my heart and my tongue."
+
+[lyrics.4]
+text = "Oh, who's like my Sav -- ior? He's Sa -- lem's bright King; He smiles, and He loves me, and helps me to sing. I'll praise Him, I'll praise Him, with notes loud and clear, While riv -- ers of pleas -- ure my spir -- it do cheer."
