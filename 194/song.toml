@@ -1,0 +1,74 @@
+title = "My Jesus, I Love Thee"
+subtitle = ""
+verse_count = 4
+key_signature = "F"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 92
+phrase_breaks = ["5:48", "9:48", "13:48"]
+optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
+copyrights = [
+  "Lyrics: William R. Featherston, 1862 (public domain)",
+  "Music: 'Gordon' by Adoniram J. Gordon, 1876 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. f'4 | a'2 bes'4 bes'4 | a'4.( g'8) f'4 a'4 | g'2 e'4 e'4 |
+f'2. f'4 | a'2 bes'4 bes'4 | a'4.( g'8) f'4 a'4 | g'2 e'4 e'4 |
+f'2. a'4 | c''2 d''4 c''4 | bes'4( a'4) g'4 c'4 | a'4( c''4) bes'4 g'4 |
+f'2( e'4) f'4 | a'2 bes'4 bes'4 | a'4.( g'8) f'4 a'4 | c''4( bes'4) a'4 g'4 |
+f'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. c'4 | f'2 f'4 f'4 | f'4.( c'8) c'4 f'4 | e'2 c'4 c'4 |
+c'2. c'4 | f'2 f'4 f'4 | f'4.( c'8) c'4 f'4 | e'2 c'4 c'4 |
+c'2. f'4 | f'2 f'4 f'4 | e'4( f'4) c'4 c'4 | c'2 d'4 d'4 |
+c'2. c'4 | f'2 f'4 f'4 | f'4.( c'8) c'4 f'4 | f'2 e'4 e'4 |
+f'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. a4 | c'2 d'4 d'4 | c'4.( bes8) a4 c'4 | bes2 g4 bes4 |
+a2. a4 | c'2 d'4 d'4 | c'4.( bes8) a4 c'4 | bes2 g4 bes4 |
+a2. c'4 | c'2 bes4 c'4 | c'2 c'4 c'4 | c'4( a4) g4 bes4 |
+a2( g4) a4 | c'2 d'4 d'4 | c'4.( bes8) a4 c'4 | a4( g4) c'4 bes4 |
+a2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. f4 | f2 f4 f4 | f2 f4 f4 | c2 c4 c4 |
+f2. f4 | f2 f4 f4 | f2 f4 f4 | c2 c4 c4 |
+f2. f4 | a2 bes4 a4 | g4( f4) e4 c4 | f2 bes,4 bes,4 |
+c2. f4 | f2 f4 f4 | f2 f4 f4 | c2 c4 c4 |
+f2. s4
+"""
+
+[lyrics.1]
+text = "My Je -- sus, I love Thee, I know Thou art mine; For Thee all the fol -- lies of sin I re -- sign; My gra -- cious Re -- deem -- er, my Sav -- ior art Thou; If ev -- er I loved Thee, my Je -- sus, ’tis now."
+
+[lyrics.2]
+text = "I love Thee be -- cause Thou hast first lov -- ed me, And pur -- chased my par -- don on Cal -- va -- ry’s tree; I love Thee for wear -- ing the thorns on Thy brow; If ev -- er I loved Thee, my Je -- sus, ’tis now."
+
+[lyrics.3]
+text = "I’ll love Thee in life, I will love Thee in death, And praise Thee as long as Thou lend -- est me breath; And say when the death dew lies cold on my brow, If ev -- er I loved Thee, my Je -- sus, ’tis now."
+
+[lyrics.4]
+text = "In man -- sions of glo -- ry and end -- less de -- light, I’ll ev -- er a -- dore Thee in heav -- en so bright; I’ll sing with the glit -- ter -- ing crown on my brow, If ev -- er I loved Thee, my Je -- sus, ’tis now."
