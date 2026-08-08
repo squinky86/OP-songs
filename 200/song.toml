@@ -1,0 +1,152 @@
+title = "Happy Am I"
+subtitle = "Sweetly I Trust in My Redeemer"
+verse_count = 3
+key_signature = "G"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 86
+phrase_breaks = ["3:40", "5:48", "7:40", "9:48", "11:40", "13:48", "15:40"]
+non_breaking_phrase_breaks = ["8:40", "8:48", "9:8", "10:8", "10:48", "11:8"]
+copyrights = [
+  "Words: J. M. Henson, 1930 (public domain)",
+  "Music: J. E. Marsh, 1930 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. {3 d'8 e'8 fis'8 } |
+g'8 b'8 ais'8 b'8 g'8 g'8 {3 b'8 ais'8 g'8 } |
+d''8 d''8 d''8 d''8 d''8 g'8 {3 b'8 a'8 g'8 } |
+b'2~ b'8 g'8 {3 b'8 a'8 g'8 } |
+b'2. {3 b'8 a'8 g'8 } |
+d''8 b'8 d''8 b'8 d''8 g'8 {3 b'8 a'8 g'8 } |
+b'8 b'8 b'8 b'8 b'8 g'8 {3 b'8 a'8 g'8 } |
+b'2~ b'8 g'8 {3 b'8 g'8 a'8 } |
+g'2. r4@c |
+r8 d''8 cis''8 d''8 b'8 d''8 r4 |
+r8 d''8 cis''8 d''8 b'8 r8 r4 |
+r8 e''8 r8 e''8 r8 e''8 r8 cis''8 |
+d''8 d''8 c''8 b'8 a'8 d''8 r4 |
+r8 d''8 cis''8 d''8 b'8 d''8 r4 |
+r8 d''8 cis''8 d''8 b'8 r8 r4 |
+r8 e''8 r8 e''8 e''8 {3 g'8 a'8 b'8} a'8  |
+g'8 d''8 cis''8 d''8 b'8 g'8! s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. {3 d'8 d'8 d'8 } |
+d'8 g'8 g'8 g'8 d'8 d'8 {3 g'8 g'8 d'8 } |
+g'8 g'8 fis'8 fis'8 g'8 r8 r4 |
+g'8 g'8 fis'8 fis'8 g'8 r8 r4 |
+fis'8 fis'8 e'8 g'8 fis'4 {3 g'8 g'8 g'8 } |
+g'8 g'8 g'8 g'8 g'8 g'8 {3 fis'8 fis'8 g'8 } |
+e'8 e'8 dis'8 dis'8 e'8 r8 r4 |
+e'8 dis'8 e'8 dis'8 e'8 d'8 {3 g'8 g'8 f'8} |
+g'8 d'8 {3 e'8 d'8 cis'8} d'4 r4@c |
+r8 g'8 g'8 g'8 g'8 g'8 r4 |
+r8 g'8 g'8 g'8 g'8 r8 r4 |
+r8 g'8 r8 g'8 r8 g'8 r8 g'8 |
+fis'8 fis'8 a'8 g'8 fis'8 fis'8 r4 |
+r8 g'8 g'8 g'8 g'8 g'8 r4 |
+r8 g'8 g'8 g'8 g'8 r8 r4 |
+r8 g'8 r8 g'8 g'8 {3 g'8 g'8 g'8} fis'8 |
+g'8 b'8 ais'8 b'8 g'8 d'8! s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. {3 b8 b8 b8 } |
+b8 d'8 cis'8 d'8 b8 b8 {3 d'8 c'8 b8 } |
+b8 b8 a8 a8 b8 r8 r4 |
+e'8 e'8 dis'8 dis'8 e'8 r8 r4 |
+d'8 d'8 cis'8 e'8 d'4 {3 d'8 c'8 b8 } |
+b8 d'8 b8 d'8 b8 b8 {3 d'8 c'8 b8 } |
+g8 g8 fis8 fis8 g8 r8 r4 |
+g8 a8 b8 a8 b8 g8 {3 d'8 b8 c'8} |
+b8 b8 {3 c'8 b8 ais8 } b4 r4@c |
+r8 d'8 e'8 d'8 d'8 d'8 r4 |
+r8 d'8 e'8 d'8 d'8 r8 r4 |
+r8 b8 r8 b8 r8 b8 r8 a8 |
+a8 a8 d'8 d'8 d'8 a8 r4 |
+r8 d'8 e'8 d'8 d'8 d'8 r4 |
+r8 d'8 e'8 d'8 d'8 r8 r4 |
+r8 b8 r8 e'8 b8 {3 cis'8 e'8 d'8} c'8 |
+b8 d'8 e'8 d'8 g8 b8! s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. {3 g8 g8 g8 } |
+g8 g8 e8 d8 g8 g8 {3 g8 g8 g8 } |
+g8 g8 d8 d8 g8 r8 r4 |
+e8 e8 b,8 b,8 e8 r8 r4 |
+d8 d8 a,8 a,8 d4 {3 g8 g8 g8 } |
+g8 g8 g8 g8 g8 g8 {3 g8 g8 g8 } |
+e8 e8 b,8 b,8 e8 r8 r4 |
+e8 fis8 g8 fis8 g8 b,8 {3 d8 d8 d8} |
+g2. {3 d8@c e8 fis8 } |
+g8 e8 e8 e8 g8 g8 {3 e8 d8 c8 } |
+g8 g8 e8 g8 g8 g8 {3 b8 a8 g8} |
+e4 b,4 e4 a,4 |
+d2. {3 d8 e8 fis8 } |
+g8 b8 ais8 b8 g8 b8 {3 d8 e8 fis8 } |
+g8 b8 ais8 b8 g8 g8 {3 b8 ais8 g8 } |
+e4 b,4 e8 {3 e8 d8 d8} d8 |
+g2.! s4
+"""
+
+[lyrics.1]
+text = "Sweet -- ly I trust in my Re -- deem -- er, as I go sing -- ing on my way, @s1 Ev -- er I know that He is with me keep -- ing my soul from day to day, @s2"
+
+[lyrics.2]
+text = "Sweet -- ly I sing a -- long the jour -- ney, help -- ing the lost to know His love, @s1 Hop -- ing to meet Him in the morn -- ing, in that sweet hap -- py home a -- bove, @s2"
+
+[lyrics.3]
+text = "Look -- ing for Him most an -- y mo -- ment, read -- y when Je -- sus shall ap -- pear, @s1 Keep -- ing my lamp all trimmed and burn -- ing, feel -- ing His com -- ing now is near, @s2"
+
+[lyrics.s1]
+text = "So hap -- py am I, yes hap -- py am I;"
+
+[lyrics.s2]
+text = "So hap -- py am I, yes, hap -- py am I."
+
+[lyrics.chorus]
+text = "with my Re -- deem -- er, the home -- ward way, Tell -- ing all the lost of His great mer -- cy; I'm al -- ways hap -- py, yes day by day, Yes, I'm hap -- py a -- long the way, a -- long the jour -- ney."
+
+[parts.Alto.lyrics.s1]
+text = "Yes, so hap -- py now, ver -- y hap -- py now."
+
+[parts.Alto.lyrics.s2]
+text = "Hap -- py now am I, yes, hap -- py am I. yes, hap -- py am I."
+
+[parts.Tenor.lyrics.s1]
+text = "Yes, so hap -- py now, ver -- y hap -- py now."
+
+[parts.Tenor.lyrics.s2]
+text = "Hap -- py now am I, yes, hap -- py am I. yes, hap -- py am I."
+
+#[parts.Tenor.lyrics.chorus]
+#text = "with my Re -- deem -- er, the home -- ward way, Tell -- ing all the lost of His great mer -- cy; Hap -- py am I to know He's with me, keep -- ing me spot -- less day by day, I'm hap -- py a -- long the way to Heav'n a -- bove."
+
+[parts.Bass.lyrics.s1]
+text = "Yes, so hap -- py now, ver -- y hap -- py now."
+
+[parts.Bass.lyrics.s2]
+text = "Hap -- py now am I, yes, hap -- py am I."
+
+[parts.Bass.lyrics.chorus]
+text = "Hap -- py am I with my Re -- deem -- er, sing -- ing a -- long the home -- ward way, And tell -- ing the lost of His great love; Hap -- py am I to know He's with me, keep -- ing me spot -- less day by day, I'm hap -- py a -- long the way to Hea -- ven a -- bove."
