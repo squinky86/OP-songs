@@ -1,0 +1,78 @@
+title = "Guide Me, O Thou Great Jehovah"
+subtitle = ""
+verse_count = 4
+key_signature = "D"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 80
+phrase_breaks = ["5:32", "9:32", "12:32"]
+optional_phrase_breaks = ["3:32", "7:32"]
+copyrights = [
+  "Lyrics: William Williams, 1745 (public domain)",
+  "Translation: Peter Williams, 1771 (public domain)",
+  "Music: 'Zion' by Thomas Hastings, 1830 (public domain)",
+  "Courtesy of the [Timeless Truths Free Online Library](https://library.timelesstruths.org)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 a'8. a'16 | a'4 fis'4 d''8. a'16 | b'4 a'4 d''8. d''16 | e''8. e''16 d''4 cis''4 | d''2 a'8. a'16 | a'4 fis'4 d''8. a'16 | b'4 a'4 d''8. d''16 | e''8. e''16 d''4 cis''4 | d''2 r4 | r2. | r2. | r2 a'8. a'16 | a'4 fis'4! a'8. a'16 | g'8. g'16 fis'4 e'4 | fis'2 s4
+"""
+
+[parts.Soprano.lyrics.1]
+text = "Guide me, O Thou great Je -- ho -- vah, Pil -- grim through this bar -- ren land; I am weak, but Thou art might -- y, Hold me with Thy pow’r -- ful hand. Bread of heav -- en, feed me till I want no more."
+[parts.Soprano.lyrics.2]
+text = "O -- pen now the crys -- tal foun -- tain, Whence the heal -- ing stream doth flow; Let the fire and cloud -- y pil -- lar Lead me all my jour -- ney through. Strong De -- liv -- ’rer, be Thou still my Strength and Shield."
+[parts.Soprano.lyrics.3]
+text = "Lord, I trust Thy might -- y pow -- er, Won -- drous are Thy works of old; Thou de -- liv -- er’st Thine from thrall -- dom, Who for naught them -- selves had sold: Thou didst con -- quer sin and Sa -- tan and the grave."
+[parts.Soprano.lyrics.4]
+text = "When I tread the verge of Jor -- dan, Bid my anx -- ious fears sub -- side; Death of death and hell’s De -- struc -- tion, Land me safe on Ca -- naan’s side. Songs of prais -- es, I will ev -- er give to Thee."
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 fis'8. fis'16 | fis'4 d'4 fis'8. fis'16 | g'4 fis'4 a'8. a'16 | g'8. g'16 fis'4 e'4 | fis'2 fis'8. fis'16 | fis'4 d'4 fis'8. fis'16 | g'4 fis'4 a'8. a'16 | g'8. g'16 fis'4 e'4 | fis'2 fis'8. fis'16 | fis'4 d'4 fis'8. fis'16 | e'8. e'16 d'4 cis'4 | d'2 fis'8. fis'16 | fis'4 d'4! d'8. d'16 | e'8. e'16 d'4 cis'4 | d'2 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 d'8. d'16 | d'4 a4 a8. d'16 | d'4 d'4 a8. a16 | b8. b16 a4 a4 | a2 d'8. d'16 | d'4 a4 a8. d'16 | d'4 d'4 a8. a16 | b8. b16 a4 a4 | a2 a8. a16 | a4 fis4 a8. a16 | g8. g16 fis4 e4 | fis2 d'8. d'16 | d'4 a4! d'8. d'16 | b8. b16 a4 a4 | a2 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 d8. d16 | d4 d4 d8. d16 | g4 d4 fis8. fis16 | g8. g16 a4 a,4 | d2 d8. d16 | d4 d4 d8. d16 | g4 d4 fis8. fis16 | g8. g16 a4 a,4 | d2 r4 | r2. | r2. | r2 d8. d16 | d4 d4! fis8. fis16 | g8. g16 a4 a,4 | d2 s4
+"""
+
+[parts.Bass.lyrics.1]
+text = "Guide me, O Thou great Je -- ho -- vah, Pil -- grim through this bar -- ren land; I am weak, but Thou art might -- y, Hold me with Thy pow’r -- ful hand. Bread of heav -- en, feed me till I want no more."
+[parts.Bass.lyrics.2]
+text = "O -- pen now the crys -- tal foun -- tain, Whence the heal -- ing stream doth flow; Let the fire and cloud -- y pil -- lar Lead me all my jour -- ney through. Strong De -- liv -- ’rer, be Thou still my Strength and Shield."
+[parts.Bass.lyrics.3]
+text = "Lord, I trust Thy might -- y pow -- er, Won -- drous are Thy works of old; Thou de -- liv -- er’st Thine from thrall -- dom, Who for naught them -- selves had sold: Thou didst con -- quer sin and Sa -- tan and the grave."
+[parts.Bass.lyrics.4]
+text = "When I tread the verge of Jor -- dan, Bid my anx -- ious fears sub -- side; Death of death and hell’s De -- struc -- tion, Land me safe on Ca -- naan’s side. Songs of prais -- es, I will ev -- er give to Thee."
+
+[lyrics.1]
+text = "Guide me, O Thou great Je -- ho -- vah, Pil -- grim through this bar -- ren land; I am weak, but Thou art might -- y, Hold me with Thy pow’r -- ful hand. Bread of heav -- en, feed me till I want no more; Bread of heav -- en, feed me till I want no more."
+
+[lyrics.2]
+text = "O -- pen now the crys -- tal foun -- tain, Whence the heal -- ing stream doth flow; Let the fire and cloud -- y pil -- lar Lead me all my jour -- ney through. Strong De -- liv -- ’rer, be Thou still my Strength and Shield; Strong De -- liv -- ’rer, be Thou still my Strength and Shield."
+
+[lyrics.3]
+text = "Lord, I trust Thy might -- y pow -- er, Won -- drous are Thy works of old; Thou de -- liv -- er’st Thine from thrall -- dom, Who for naught them -- selves had sold: Thou didst con -- quer sin and Sa -- tan and the grave; Thou didst con -- quer sin and Sa -- tan and the grave."
+
+[lyrics.4]
+text = "When I tread the verge of Jor -- dan, Bid my anx -- ious fears sub -- side; Death of death and hell’s De -- struc -- tion, Land me safe on Ca -- naan’s side. Songs of prais -- es, I will ev -- er give to Thee; Songs of prais -- es, I will ev -- er give to Thee."

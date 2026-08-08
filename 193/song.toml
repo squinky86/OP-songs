@@ -1,0 +1,70 @@
+title = "Zion Stands with Hills Surrounded"
+subtitle = ""
+verse_count = 3
+key_signature = "D"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 80
+phrase_breaks = ["5:32", "9:32", "12:32"]
+optional_phrase_breaks = ["3:32", "7:32"]
+copyrights = [
+  "Lyrics: Thomas Kelly, 1806 (public domain)",
+  "Music: 'Zion' by Thomas Hastings, 1830 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 a'8. a'16 | a'4 fis'4 d''8. a'16 | b'4 a'4 d''8. d''16 | e''8. e''16 d''4 cis''4 | d''2 a'8. a'16 | a'4 fis'4 d''8. a'16 | b'4 a'4 d''8. d''16 | e''8. e''16 d''4 cis''4 | d''2 r4 | r2. | r2. | r2 a'8. a'16 | a'4 fis'4! a'8. a'16 | g'8. g'16 fis'4 e'4 | fis'2 s4
+"""
+
+[parts.Soprano.lyrics.1]
+text = "Zi -- on stands with hills sur -- round -- ed, Zi -- on, kept by pow’r di -- vine; All her foes shall be con -- found -- ed, Though the world in arms com -- bine; Hap -- py Zi -- on, what a fa -- vored lot is thine!"
+[parts.Soprano.lyrics.2]
+text = "Ev -- ’ry hu -- man tie may per -- ish; Friend to friend un -- faith -- ful prove; Moth -- ers cease their own to cher -- ish; Heav’n and earth at last re -- move; But no chang -- es can at -- tend Je -- ho -- vah’s love."
+[parts.Soprano.lyrics.3]
+text = "In the fur -- nace God may prove thee, Thence to bring thee forth more bright, But can nev -- er cease to love thee; Thou art pre -- cious in His sight; God is with thee, God, thine ev -- er -- last -- ing Light."
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 fis'8. fis'16 | fis'4 d'4 fis'8. fis'16 | g'4 fis'4 a'8. a'16 | g'8. g'16 fis'4 e'4 | fis'2 fis'8. fis'16 | fis'4 d'4 fis'8. fis'16 | g'4 fis'4 a'8. a'16 | g'8. g'16 fis'4 e'4 | fis'2 fis'8. fis'16 | fis'4 d'4 fis'8. fis'16 | e'8. e'16 d'4 cis'4 | d'2 fis'8. fis'16 | fis'4 d'4! d'8. d'16 | e'8. e'16 d'4 cis'4 | d'2 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 d'8. d'16 | d'4 a4 a8. d'16 | d'4 d'4 a8. a16 | b8. b16 a4 a4 | a2 d'8. d'16 | d'4 a4 a8. d'16 | d'4 d'4 a8. a16 | b8. b16 a4 a4 | a2 a8. a16 | a4 fis4 a8. a16 | g8. g16 fis4 e4 | fis2 d'8. d'16 | d'4 a4! d'8. d'16 | b8. b16 a4 a4 | a2 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 d8. d16 | d4 d4 d8. d16 | g4 d4 fis8. fis16 | g8. g16 a4 a,4 | d2 d8. d16 | d4 d4 d8. d16 | g4 d4 fis8. fis16 | g8. g16 a4 a,4 | d2 r4 | r2. | r2. | r2 d8. d16 | d4 d4! fis8. fis16 | g8. g16 a4 a,4 | d2 s4
+"""
+
+[parts.Bass.lyrics.1]
+text = "Zi -- on stands with hills sur -- round -- ed, Zi -- on, kept by pow’r di -- vine; All her foes shall be con -- found -- ed, Though the world in arms com -- bine; Hap -- py Zi -- on, what a fa -- vored lot is thine!"
+[parts.Bass.lyrics.2]
+text = "Ev -- ’ry hu -- man tie may per -- ish; Friend to friend un -- faith -- ful prove; Moth -- ers cease their own to cher -- ish; Heav’n and earth at last re -- move; But no chang -- es can at -- tend Je -- ho -- vah’s love."
+[parts.Bass.lyrics.3]
+text = "In the fur -- nace God may prove thee, Thence to bring thee forth more bright, But can nev -- er cease to love thee; Thou art pre -- cious in His sight; God is with thee, God, thine ev -- er -- last -- ing Light."
+
+[lyrics.1]
+text = "Zi -- on stands with hills sur -- round -- ed, Zi -- on, kept by pow’r di -- vine; All her foes shall be con -- found -- ed, Though the world in arms com -- bine; Hap -- py Zi -- on, what a fa -- vored lot is thine! Hap -- py Zi -- on, what a fa -- vored lot is thine!"
+
+[lyrics.2]
+text = "Ev -- ’ry hu -- man tie may per -- ish; Friend to friend un -- faith -- ful prove; Moth -- ers cease their own to cher -- ish; Heav’n and earth at last re -- move; But no chang -- es can at -- tend Je -- ho -- vah’s love, But no chang -- es can at -- tend Je -- ho -- vah’s love."
+
+[lyrics.3]
+text = "In the fur -- nace God may prove thee, Thence to bring thee forth more bright, But can nev -- er cease to love thee; Thou art pre -- cious in His sight; God is with thee, God, thine ev -- er -- last -- ing Light, God is with thee, God, thine ev -- er -- last -- ing Light."

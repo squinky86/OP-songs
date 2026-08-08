@@ -1,0 +1,77 @@
+title = "On the Mountain’s Top Appearing"
+subtitle = ""
+verse_count = 4
+key_signature = "D"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 80
+phrase_breaks = ["5:32", "9:32", "12:32"]
+optional_phrase_breaks = ["3:32", "7:32"]
+copyrights = [
+  "Lyrics: Thomas Kelly, 1802 (public domain)",
+  "Music: 'Zion' by Thomas Hastings, 1830 (public domain)",
+  "Courtesy of the [Timeless Truths Free Online Library](https://library.timelesstruths.org)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 a'8. a'16 | a'4 fis'4 d''8. a'16 | b'4 a'4 d''8. d''16 | e''8. e''16 d''4 cis''4 | d''2 a'8. a'16 | a'4 fis'4 d''8. a'16 | b'4 a'4 d''8. d''16 | e''8. e''16 d''4 cis''4 | d''2 r4 | r2. | r2. | r2 a'8. a'16 | a'4 fis'4! a'8. a'16 | g'8. g'16 fis'4 e'4 | fis'2 s4
+"""
+
+[parts.Soprano.lyrics.1]
+text = "On the moun -- tain’s top ap -- pear -- ing, Lo! the sa -- cred her -- ald stands, Wel -- come news to Zi -- on bear -- ing, Zi -- on, long in hos -- tile lands: Mourn -- ing cap -- tive, God Him -- self shall loose thy bands."
+[parts.Soprano.lyrics.2]
+text = "Has thy night been long and mourn -- ful? Have thy friends un -- faith -- ful proved? Have thy foes been proud and scorn -- ful, By thy sighs and tears un -- moved? Cease thy mourn -- ing, Zi -- on still is well be -- loved."
+[parts.Soprano.lyrics.3]
+text = "God, thy God, will now re -- store thee; He Him -- self ap -- pears thy Friend; All thy foes shall flee be -- fore thee; Here their boasts and tri -- umphs end: Great de -- liv -- ’rance Zi -- on’s King will sure -- ly send."
+[parts.Soprano.lyrics.4]
+text = "Peace and joy shall now at -- tend thee; All thy war -- fare now is past; God thy Sav -- ior will de -- fend thee; Vic -- to -- ry is thine at last: All thy con -- flicts end in ev -- er -- last -- ing rest."
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 fis'8. fis'16 | fis'4 d'4 fis'8. fis'16 | g'4 fis'4 a'8. a'16 | g'8. g'16 fis'4 e'4 | fis'2 fis'8. fis'16 | fis'4 d'4 fis'8. fis'16 | g'4 fis'4 a'8. a'16 | g'8. g'16 fis'4 e'4 | fis'2 fis'8. fis'16 | fis'4 d'4 fis'8. fis'16 | e'8. e'16 d'4 cis'4 | d'2 fis'8. fis'16 | fis'4 d'4! d'8. d'16 | e'8. e'16 d'4 cis'4 | d'2 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 d'8. d'16 | d'4 a4 a8. d'16 | d'4 d'4 a8. a16 | b8. b16 a4 a4 | a2 d'8. d'16 | d'4 a4 a8. d'16 | d'4 d'4 a8. a16 | b8. b16 a4 a4 | a2 a8. a16 | a4 fis4 a8. a16 | g8. g16 fis4 e4 | fis2 d'8. d'16 | d'4 a4! d'8. d'16 | b8. b16 a4 a4 | a2 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 d8. d16 | d4 d4 d8. d16 | g4 d4 fis8. fis16 | g8. g16 a4 a,4 | d2 d8. d16 | d4 d4 d8. d16 | g4 d4 fis8. fis16 | g8. g16 a4 a,4 | d2 r4 | r2. | r2. | r2 d8. d16 | d4 d4! fis8. fis16 | g8. g16 a4 a,4 | d2 s4
+"""
+
+[parts.Bass.lyrics.1]
+text = "On the moun -- tain’s top ap -- pear -- ing, Lo! the sa -- cred her -- ald stands, Wel -- come news to Zi -- on bear -- ing, Zi -- on, long in hos -- tile lands: Mourn -- ing cap -- tive, God Him -- self shall loose thy bands."
+[parts.Bass.lyrics.2]
+text = "Has thy night been long and mourn -- ful? Have thy friends un -- faith -- ful proved? Have thy foes been proud and scorn -- ful, By thy sighs and tears un -- moved? Cease thy mourn -- ing, Zi -- on still is well be -- loved."
+[parts.Bass.lyrics.3]
+text = "God, thy God, will now re -- store thee; He Him -- self ap -- pears thy Friend; All thy foes shall flee be -- fore thee; Here their boasts and tri -- umphs end: Great de -- liv -- ’rance Zi -- on’s King will sure -- ly send."
+[parts.Bass.lyrics.4]
+text = "Peace and joy shall now at -- tend thee; All thy war -- fare now is past; God thy Sav -- ior will de -- fend thee; Vic -- to -- ry is thine at last: All thy con -- flicts end in ev -- er -- last -- ing rest."
+
+[lyrics.1]
+text = "On the moun -- tain’s top ap -- pear -- ing, Lo! the sa -- cred her -- ald stands, Wel -- come news to Zi -- on bear -- ing, Zi -- on, long in hos -- tile lands: Mourn -- ing cap -- tive, God Him -- self shall loose thy bands; Mourn -- ing cap -- tive, God Him -- self shall loose thy bands."
+
+[lyrics.2]
+text = "Has thy night been long and mourn -- ful? Have thy friends un -- faith -- ful proved? Have thy foes been proud and scorn -- ful, By thy sighs and tears un -- moved? Cease thy mourn -- ing, Zi -- on still is well be -- loved; Cease thy mourn -- ing, Zi -- on still is well be -- loved."
+
+[lyrics.3]
+text = "God, thy God, will now re -- store thee; He Him -- self ap -- pears thy Friend; All thy foes shall flee be -- fore thee; Here their boasts and tri -- umphs end: Great de -- liv -- ’rance Zi -- on’s King will sure -- ly send; Great de -- liv -- ’rance Zi -- on’s King will sure -- ly send."
+
+[lyrics.4]
+text = "Peace and joy shall now at -- tend thee; All thy war -- fare now is past; God thy Sav -- ior will de -- fend thee; Vic -- to -- ry is thine at last: All thy con -- flicts end in ev -- er -- last -- ing rest; All thy con -- flicts end in ev -- er -- last -- ing rest."

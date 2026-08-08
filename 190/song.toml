@@ -7,8 +7,8 @@ tempo_bpm = 152
 phrase_breaks = ["4:96", "8:96", "12:96", "16:96", "20:96", "24:96", "28:96"]
 non_breaking_phrase_breaks = ["31:96"]
 copyrights = [
-  "Words: Mabel J. Rosemon (public domain)",
-  "Music: Samuel W. Beazley (public domain)",
+  "Words: Mabel J. Rosemon, 1916 (public domain)",
+  "Music: Samuel W. Beazley, 1916 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
 commentary = ""
