@@ -130,6 +130,7 @@ bes'4 g'4 g'4 f'4 | g'4 bes'4 bes'2 | ...
 | `notes` | string | Note stream in OpenPsalm note notation (see below) |
 | `suppress_verses` | int array | Verse numbers to omit from the PDF/LilyPond output for this part (see [Verse Suppression](#verse-suppression)) |
 | `suppress_verses_when` | string array | Choral types (lowercase) whose presence triggers the suppression (see [Verse Suppression](#verse-suppression)) |
+| `splice_lyrics_into` | string | Choral type of the voice whose verse row absorbs this part's trailing echo syllables (see [Echo Lyric Splice](#echo-lyric-splice-splice_lyrics_into)) |
 
 ### Verse Suppression
 
@@ -149,6 +150,63 @@ suppress_verses_when = ["soprano", "alto"]
 - The choral type comparison is case-insensitive.
 - Suppression only affects verse lyrics; chorus lyrics are unaffected.
 - If none of the `suppress_verses_when` types are present (e.g. the user exports only tenor and bass), all verses are printed normally.
+
+### Echo Lyric Splice (`splice_lyrics_into`)
+
+Many hymns close a verse line with an **echo**: the melody holds a long note
+while a lower voice answers with a short tag. The echo is part of the same
+numbered verse, and hymnals print it that way — inline in the melody's verse
+row, positioned under the notes that actually sing it — not as a second stack of
+lyric rows below the staff.
+
+`splice_lyrics_into` goes on the *echoing* part and names the `choral_type` of
+the voice whose verse row should absorb the tag (song 13, "A Beautiful Life", is
+the reference example):
+
+```toml
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+splice_lyrics_into = "soprano"
+notes = """..."""
+
+[parts.Alto.lyrics.1]
+text = "... And so I'll do the best I can, (the best I can)."
+```
+
+**Behavior:** for each verse, the alto's syllables that fall *after* the
+soprano's last one are appended to the soprano's verse row instead of being
+printed as the alto's own lyric rows. In the LilyPond/PDF output the tail is
+emitted behind a `\set associatedVoice = "Alto"` handoff (switched back after
+the tail) so the echo words sit under the alto's notes while remaining part of
+the numbered verse row. The alto's own row for that verse is suppressed.
+
+**Rules:**
+- The value is a **choral type** (`"soprano"`, `"bass"`, …), not a part name,
+  and is matched case-insensitively.
+- **Only pure tails splice.** Every one of the source part's surviving
+  syllables in a verse must fall strictly after the target's last surviving
+  syllable of that verse. If any lands earlier — the two texts interleave rather
+  than the echo trailing — that verse falls back to its own lyric row. The
+  decision is per verse: verse 1 may splice while verse 2 does not.
+- The splice only applies when the target choral type is among the exported
+  voices. Export the alto alone and it prints its full text on its own row.
+- Verses hidden by [Verse Suppression](#verse-suppression) on either part, or
+  with no surviving syllables on either side after phrase/verse deduplication,
+  are left alone.
+- Splicing changes only *where* syllables print. The source part still needs one
+  syllable per lyric slot of its own notes, so the echo text is authored as
+  ordinary [per-part lyrics](#per-part-lyrics) covering the whole verse.
+- MusicXML export follows the same intent with a simpler rule: secondary voices
+  normally drop their lyrics so SATB text isn't duplicated, but a spliced part
+  keeps its syllables at every onset where the target voice has no
+  lyric-bearing note.
+- Presentation/PPTX slides do not implement the splice — the echo prints on its
+  own lyric row there (phrases identical across parts are still deduplicated).
+  The song page's lyrics tab reads the first lyric-bearing part (normally the
+  target voice), so an echo tag that appears only in the source part's text will
+  not show up there.
 
 ### Note Notation
 
