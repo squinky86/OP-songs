@@ -9,7 +9,7 @@ phrase_breaks = ["4:64", "8:64", "12:64"]
 optional_phrase_breaks = ["2:64", "6:64", "10:64"]
 copyrights = [
   "Words: James G. Deck, 1842 (public domain)",
-  "Music: 'LYTE' by Joseph P. Holbrook, 1865 (public domain)",
+  "Music: 'Lyte' by Joseph P. Holbrook, 1865 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
 
