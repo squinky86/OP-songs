@@ -50,7 +50,7 @@ choral_type = "bass"
 clef = "bass"
 staff_number = 2
 notes = """
-s2. ees4 | aes, aes,4 aes,4 ees4 | ees4 ees4 ees4 ees4 | aes4 aes4 g4 ees4 | aes2. aes4
+s2. ees4 | aes,4 aes,4 aes,4 ees4 | ees4 ees4 ees4 ees4 | aes4 aes4 g4 ees4 | aes2. aes4
 | aes4 ees4 aes4 ees4 | aes4 ees4 aes4 aes4 | g4 f4 ees4 bes,4 | ees2 r4 ees4@c
 | aes4 aes4 aes4 bes8[ aes8] | ees4 ees4 ees4 f8[ g8] | aes4 ees4 f4 ees4 | aes2. bes4
 | c'4 c'4 bes4 ees4 | aes4 aes4 des4 des8 des8 | ees4 ees4 ees4 ees4 | aes,2. s4 |
