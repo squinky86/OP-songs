@@ -7,7 +7,7 @@ tempo_bpm = 96
 verse_count = 4
 phrase_breaks = ["5:32", "9:32", "13:32"]
 copyrights = [
-  "Lyrics: Anonymous (public domain)",
+  "Lyrics: Anonymous, 1805 (public domain)",
   "Music: 'I Love Thee' from Jeremiah Ingalls' Christian Harmony, 1805 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
