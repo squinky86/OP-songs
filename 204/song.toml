@@ -3,13 +3,15 @@ key_signature = "D"
 time_sig_numerator = 4
 time_sig_denominator = 4
 verse_count = 4
+tempo_bpm = 100
+phrase_breaks = ["2:64", "4:64", "6:64", "8:64", "10:64", "12:64", "14:64", "16:64"]
 
 [parts.Soprano]
 choral_type = "soprano"
 clef = "treble"
 staff_number = 1
 notes = """
-s2. a'4 | fis'4. e'8 d'4 a'4 | b'4 g'4 g'4 b'4 | a'4. fis'8 fis'4 e'8[ d'8] | fis'4 fis'4 e'4 a'4 | fis'4. e'8 d'4 a'4 | b'4 g'4 d''4 cis''8[ b'8] | a'4 fis'4 fis'8[ e'8] d'8[ e'8] | fis'4. e'8 d'4 a'4 | a'4 d''4 cis''4 e''4 | d''4 cis''8[ b'8] a'4 b'4 | a'4 fis'4 fis'8[ e'8] d'8[ e'8] | fis'4 fis'4 e'4 a'4 | a'4 d''4 cis''4 e''4 | d''4 cis''8[ b'8] a'4 b'4 | a'4 fis'4 fis'8[ e'8] d'8[ e'8] | fis'4. e'8 d'4 s4
+s2. a'4 | fis'4. e'8 d'4 a'4 | b'4 g'4 g'4 b'4 | a'4. fis'8 fis'4 e'8[ d'8] | fis'4 fis'4 e'4 a'4 | fis'4. e'8 d'4 a'4 | b'4 g'4 d''4 cis''8[ b'8] | a'4 fis'4 fis'8[ e'8] d'8[ e'8] | fis'4.@c e'8 d'4 a'4 | a'4 d''4 cis''4 e''4 | d''4 cis''8[ b'8] a'4 b'4 | a'4 fis'4 fis'8[ e'8] d'8[ e'8] | fis'4 fis'4 e'4 a'4 | a'4 d''4 cis''4 e''4 | d''4 cis''8[ b'8] a'4 b'4 | a'4 fis'4 fis'8[ e'8] d'8[ e'8] | fis'4. e'8 d'4 s4
 """
 
 [parts.Alto]
@@ -17,7 +19,7 @@ choral_type = "alto"
 clef = "treble"
 staff_number = 1
 notes = """
-s2. d'4 | d'4. a8 a4 d'4 | d'4 d'4 d'4 g'4 | fis'4. d'8 d'4 d'4 | d'4 d'4 cis'4 cis'4 | d'4. a8 a4 d'4 | d'4 g'4 g'4 g'4 | fis'4 d'4 d'8[ cis'8] b8[ cis'8] | d'4. cis'8 d'4 fis'4 | fis'4 d'4 e'4 a'4 | a'4 g'4 fis'4 g'4 | fis'4 d'4 d'8[ cis'8] b8[ cis'8] | d'4 d'4 cis'4 e'4 | fis'4 d'4 e'4 a'4 | a'4 g'4 fis'4 g'4 | fis'4 d'4 d'8[ cis'8] b8[ cis'8] | d'4. cis'8 d'4 s4
+s2. d'4 | d'4. a8 a4 d'4 | d'4 d'4 d'4 g'4 | fis'4. d'8 d'4 d'4 | d'4 d'4 cis'4 cis'4 | d'4. a8 a4 d'4 | d'4 g'4 g'4 g'4 | fis'4 d'4 d'8[ cis'8] b8[ cis'8] | d'4.@c cis'8 d'4 fis'4 | fis'4 d'4 e'4 a'4 | a'4 g'4 fis'4 g'4 | fis'4 d'4 d'8[ cis'8] b8[ cis'8] | d'4 d'4 cis'4 e'4 | fis'4 d'4 e'4 a'4 | a'4 g'4 fis'4 g'4 | fis'4 d'4 d'8[ cis'8] b8[ cis'8] | d'4. cis'8 d'4 s4
 """
 
 [parts.Tenor]
@@ -25,7 +27,7 @@ choral_type = "tenor"
 clef = "bass"
 staff_number = 2
 notes = """
-s2. fis4 | a4. g8 fis4 fis4 | g4 b4 b4 d'4 | d'4. a8 a4 g8[ fis8] | a4 a4 a4 a4 | a4. g8 fis4 fis4 | g4 b4 b4 d'4 | d'4 a4 b4 fis4 | a4. g8 fis4 a4 | d'4 a4 a4 cis'4 | d'4 d'4 d'4 d'4 | d'4 a4 b4 fis4 | a4 a4 a4 cis'4 | d'4 a4 a4 cis'4 | d'4 d'4 d'4 d'4 | d'4 a4 b4 fis4 | a4. g8 fis4 s4
+s2. fis4 | a4. g8 fis4 fis4 | g4 b4 b4 d'4 | d'4. a8 a4 g8[ fis8] | a4 a4 a4 a4 | a4. g8 fis4 fis4 | g4 b4 b4 d'4 | d'4 a4 b4 fis4 | a4.@c g8 fis4 a4 | d'4 a4 a4 cis'4 | d'4 d'4 d'4 d'4 | d'4 a4 b4 fis4 | a4 a4 a4 cis'4 | d'4 a4 a4 cis'4 | d'4 d'4 d'4 d'4 | d'4 a4 b4 fis4 | a4. g8 fis4 s4
 """
 
 [parts.Bass]
@@ -33,17 +35,20 @@ choral_type = "bass"
 clef = "bass"
 staff_number = 2
 notes = """
-s2. d4 | d4. d8 d4 d4 | g4 g4 g4 g4 | d4. d8 d4 d4 | a,4 a,4 a,4 a,4 | d4. d8 d4 d4 | g4 g4 g4 g4 | d4 d4 b,4 b,4 | a,4. a,8 d4 d4 | d4 fis4 a4 g4 | fis4 g4 fis4 g4 | d4 d4 b,4 b,4 | a,4 a,4 a,4 a,4 | d4 fis4 a4 g4 | fis4 g4 d4 d4 | d4 d4 b,4 b,4 | a,4. a,8 d4 s4
+s2. d4 | d4. d8 d4 d4 | g4 g4 g4 g4 | d4. d8 d4 d4 | a,4 a,4 a,4 a,4 | d4. d8 d4 d4 | g4 g4 g4 g4 | d4 d4 b,4 b,4 | a,4.@c a,8 d4 d4 | d4 fis4 a4 g4 | fis4 g4 fis4 g4 | d4 d4 b,4 b,4 | a,4 a,4 a,4 a,4 | d4 fis4 a4 g4 | fis4 g4 d4 d4 | d4 d4 b,4 b,4 | a,4. a,8 d4 s4
 """
 
 [lyrics.1]
-text = "He lead -- eth me: O bless -- ed thought! O words with heav -- enly com -- fort fraught! What -- e'er I do, wher -- e're I be, still 'tis God's hand that lead -- eth me. He lead -- eth me, he lead -- eth me; by his own hand he lead -- eth me: his faith -- ful fol -- lower I would be, for by his hand he lead -- eth me."
+text = "He lead -- eth me: O bless -- ed thought! O words with heav -- enly com -- fort fraught! What -- e'er I do, wher -- e're I be, still 'tis God's hand that lead -- eth me."
 
 [lyrics.2]
-text = "Some -- times mid scenes of deep -- est gloom, some -- times where E -- den's flow -- ers bloom, by wa -- ters calm, o'er trou -- bled sea, still 'tis God's hand that lead -- eth me. He lead -- eth me, he lead -- eth me; by his own hand he lead -- eth me: his faith -- ful fol -- lower I would be, for by his hand he lead -- eth me."
+text = "Some -- times mid scenes of deep -- est gloom, some -- times where E -- den's flow -- ers bloom, by wa -- ters calm, o'er trou -- bled sea, still 'tis God's hand that lead -- eth me."
 
 [lyrics.3]
-text = "Lord, I would clasp thy hand in mine, nor ev -- er mur -- mur nor re -- pine; con -- tent, what -- ev -- er lot I see, since 'tis my God that lead -- eth me. He lead -- eth me, he lead -- eth me; by his own hand he lead -- eth me: his faith -- ful fol -- lower I would be, for by his hand he lead -- eth me."
+text = "Lord, I would clasp thy hand in mine, nor ev -- er mur -- mur nor re -- pine; con -- tent, what -- ev -- er lot I see, since 'tis my God that lead -- eth me."
 
 [lyrics.4]
-text = "And when my task on earth is done, when, by thy grace, the vic -- tory's won, e'en death's cold wave I will not flee, since God through Jor -- dan lead -- eth me. He lead -- eth me, he lead -- eth me; by his own hand he lead -- eth me: his faith -- ful fol -- lower I would be, for by his hand he lead -- eth me."
+text = "And when my task on earth is done, when, by thy grace, the vic -- tory's won, e'en death's cold wave I will not flee, since God through Jor -- dan lead -- eth me."
+
+[lyrics.chorus]
+text = "He lead -- eth me, he lead -- eth me; by his own hand he lead -- eth me: his faith -- ful fol -- lower I would be, for by his hand he lead -- eth me."
