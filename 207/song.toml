@@ -1,0 +1,67 @@
+title = "’Tis Marvelous and Wonderful"
+subtitle = "The Savior Has Come in His Mighty Power"
+copyrights = [
+  "Lyrics and Music: Mrs. C. H. Morris, 1919 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Bb"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 92
+verse_count = 4
+phrase_breaks = ["5:40", "9:24", "11:48", "15:40", "19:48", "23:40"]
+optional_phrase_breaks = ["3:40", "7:40", "13:48", "17:40", "21:32", "25:40"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s8 f'8 | bes'8. bes'16 bes'8 bes'8 d'8 g'8 | f'4 d'8 bes4 ees'8 | d'4 d'8 f'8 ees'8 d'8 | c'4.~ c'4 f'8 | bes'8. bes'16 bes'8 d''8 c''8 bes'8 | g'4 f'8 f'4 g'8 | a'8 a'8 a'8 bes'4 g'8 | c''4. d''4. | c''8 f'8 bes'8 a'4 g'8 | f'2. | d''4@c d''8 d''4 r8 | d''4 d''8 d''4 r8 | ees''4 ees''8 ees''4 ees''8 | d''4 d''8 d''4 d''8 | ees''4. ees''4. | d''8 d''8 d''8 d''4 d''8 | c''4. c''4. | c''8\\rit c''8 d''8 ees''4.!\\spanend | d''4.~\\atempo d''8 c''8 bes'8 | g'4 f'8 f'8 bes'8 bes'8 | c''4 c''8 c''8[ bes'8] c''8 | d''4 d''8 c''4! c''8 | d''8 d''8 d''8 c''8 c''8 c''8 | bes'4 bes'8 ees''4! c''8 | f''4\\rit ees''8 d''16 d''8. c''8 | bes'4.~\\spanend bes'4 s8
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s8 f'8 | bes'8. bes'16 bes'8 bes'8 d'8 g'8 | f'4 d'8 bes4 c'8 | bes4 bes8 bes8 a8 bes8 | a4.~ a4 ees'8 | d'8. d'16 d'8 f'8 ees'8 d'8 | ees'4 d'8 d'4 f'8 | f'8 f'8 f'8 e'4 e'8 | f'4. f'4. | f'8 f'8 f'8 f'4 e'8 | c'2. | f'4@c f'8 f'4 r8 | bes'4 bes'8 bes'4 r8 | a'4 a'8 a'4 a'8 | bes'4 bes'8 bes'4 bes'8 | bes'4. bes'4. | bes'8 bes'8 bes'8 bes'4 bes'8 | f'4. e'4. | f'8 f'8 f'8 f'4.! | f'4.~ f'8 ees'8 d'8 | ees'4 d'8 d'8 d'8 d'8 | ees'4 ees'8 ees'8[ d'8] ees'8 | f'4 f'8 f'4! f'8 | f'8 f'8 f'8 ees'8 ees'8 ees'8 | d'4 aes'8 g'4! g'8 | aes'4 g'8 bes'16 bes'8. a'8 | f'4.~ f'4 s8
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 s8 f8 | bes8. bes16 bes8 bes8 d8 g8 | f4 d8 bes,4 f8 | f4 f8 f8 f8 f8 | f4.~ f4 f8 | f8. f16 f8 bes8 f8 f8 | bes4 bes8 bes4 d'8 | c'8 c'8 c'8 g4 g8 | f4. f4. | a8 a8 d'8 c'4 bes8 | a2. | bes2@c d8 g8 | f4 d8 bes,8 d8 g8 | f4 ees8 c8[ ees8] g8 | f4 d8 bes,4 f8 | g8. g16 g8 g8 a8 bes8 | f4 f8 d4 f8 | a4 a8 bes8 a8 g8 | a4( bes8 c'4.!) | bes4 bes8 bes4 r8 | bes4 bes8 bes4 r8 | a4 a8 a4 a8 | bes4 bes8 a4! a8 | bes8 bes8 bes8 a8 a8 a8 | bes4 bes8 bes4! bes8 | bes4 bes8 f'16 f'8. ees'8 | d'4.~ d'4 s8
+"""
+
+[parts.Tenor.lyrics.chorus]
+text = "Oh, it is won -- der -- ful! It is mar -- vel -- ous and won -- der -- ful, What Je -- sus has done for this soul of mine! The half has nev -- er been told; Won -- der -- ful, won -- der -- ful, mar -- vel -- ous and won -- der -- ful, What Je -- sus has done for this soul of mine! The half has nev -- er been told."
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 s8 f8 | bes8. bes16 bes8 bes8 d8 g8 | f4 d8 bes,4 a,8 | bes,4 bes,8 d8 c8 bes,8 | f,4.~ f,4 f,8 | bes,8. bes,16 bes,8 bes,8 bes,8 bes,8 | bes,4 bes,8 bes,4 bes,8 | c8 c8 c8 c4 bes,8 | a,4. bes,4. | c8 d8 bes,8 c4 c8 | f2. | bes2@c d8 g8 | f4 d8 bes,8 d8 g8 | f4 ees8 c8[ ees8] g8 | f4 d8 bes,4 f8 | g8. g16 g8 g8 a8 bes8 | f4 f8 d4 f8 | a4 a8 bes8 a8 g8 | a4( bes8 c'4.!) | bes,4 bes,8 bes,4 r8 | bes,4 bes,8 bes,4 r8 | f4 f8 f4 f8 | bes4 bes8 f4! f8 | bes,8 bes,8 bes,8 f8 f8 f8 | g4 d8 ees4! ees8 | d4 ees8 f16 f8. f8 | bes,4.~ bes,4 s8
+"""
+
+[parts.Bass.lyrics.chorus]
+text = "Oh, it is won -- der -- ful! It is mar -- vel -- ous and won -- der -- ful, What Je -- sus has done for this soul of mine! The half has nev -- er been told; Won -- der -- ful, won -- der -- ful, mar -- vel -- ous and won -- der -- ful, What Je -- sus has done for this soul of mine! The half has nev -- er been told."
+
+[lyrics.1]
+text = "The Sav -- ior has come in His might -- y pow'r, And spo -- ken peace to my soul; And all of my life from that ve -- ry hour I’ve yield -- ed to His con -- trol, I’ve yield -- ed to His con -- trol."
+
+[lyrics.2]
+text = "’Twas on -- ly a fore -- taste of joys di -- vine In Ca -- naan wait -- ing for me, Where sweet -- est of hon -- ey and milk and wine Were drip -- ping from ev -- ery tree, Were drip -- ping from ev -- ery tree."
+
+[lyrics.3]
+text = "From glo -- ry to glo -- ry He leads me on, From grace to grace ev -- ery day; And bright -- er and bright -- er the glo -- ry dawns, While press -- ing my home -- ward way, While press -- ing my home -- ward way."
+
+[lyrics.4]
+text = "If fel -- low -- ship here with my Lord can be So in -- ex -- press -- i -- bly sweet, Oh, what will it be when His face we see, When ’round the bright throne we meet? When ’round the bright throne we meet?"
+
+[lyrics.chorus]
+text = "Won -- der -- ful, won -- der -- ful, Mar -- vel -- ous and won -- der -- ful, What He has done for my soul! The half has nev -- er been told; Oh, it is won -- der -- ful. It is mar -- vel -- ous and won -- der -- ful, What Je -- sus has done for this soul of mine! The half has nev -- er been told."
