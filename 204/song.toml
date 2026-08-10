@@ -4,14 +4,14 @@ time_sig_numerator = 4
 time_sig_denominator = 4
 verse_count = 4
 tempo_bpm = 100
-phrase_breaks = ["2:64", "4:64", "6:64", "8:64", "10:64", "12:64", "14:64", "16:64"]
+phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "11:48", "13:48", "15:48", "17:48"]
 
 [parts.Soprano]
 choral_type = "soprano"
 clef = "treble"
 staff_number = 1
 notes = """
-s2. a'4 | fis'4. e'8 d'4 a'4 | b'4 g'4 g'4 b'4 | a'4. fis'8 fis'4 e'8[ d'8] | fis'4 fis'4 e'4 a'4 | fis'4. e'8 d'4 a'4 | b'4 g'4 d''4 cis''8[ b'8] | a'4 fis'4 fis'8[ e'8] d'8[ e'8] | fis'4.@c e'8 d'4 a'4 | a'4 d''4 cis''4 e''4 | d''4 cis''8[ b'8] a'4 b'4 | a'4 fis'4 fis'8[ e'8] d'8[ e'8] | fis'4 fis'4 e'4 a'4 | a'4 d''4 cis''4 e''4 | d''4 cis''8[ b'8] a'4 b'4 | a'4 fis'4 fis'8[ e'8] d'8[ e'8] | fis'4. e'8 d'4 s4
+s2. a'4 | fis'4. e'8 d'4 a'4 | b'4 g'4 g'4 b'4 | a'4. fis'8 fis'4 e'8([ d'8]) | fis'4 fis'4 e'4 a'4 | fis'4. e'8 d'4 a'4 | b'4 g'4 d''4 cis''8([ b'8]) | a'4 fis'4 fis'8([ e'8]) d'8([ e'8]) | fis'4. e'8 d'4 a'4@c | a'4 d''4 cis''4 e''4 | d''4 cis''8([ b'8]) a'4 b'4 | a'4 fis'4 fis'8([ e'8]) d'8([ e'8]) | fis'4 fis'4 e'4 a'4 | a'4 d''4 cis''4 e''4 | d''4 cis''8([ b'8]) a'4 b'4 | a'4 fis'4 fis'8([ e'8]) d'8([ e'8]) | fis'4. e'8 d'4 s4
 """
 
 [parts.Alto]
@@ -19,7 +19,7 @@ choral_type = "alto"
 clef = "treble"
 staff_number = 1
 notes = """
-s2. d'4 | d'4. a8 a4 d'4 | d'4 d'4 d'4 g'4 | fis'4. d'8 d'4 d'4 | d'4 d'4 cis'4 cis'4 | d'4. a8 a4 d'4 | d'4 g'4 g'4 g'4 | fis'4 d'4 d'8[ cis'8] b8[ cis'8] | d'4.@c cis'8 d'4 fis'4 | fis'4 d'4 e'4 a'4 | a'4 g'4 fis'4 g'4 | fis'4 d'4 d'8[ cis'8] b8[ cis'8] | d'4 d'4 cis'4 e'4 | fis'4 d'4 e'4 a'4 | a'4 g'4 fis'4 g'4 | fis'4 d'4 d'8[ cis'8] b8[ cis'8] | d'4. cis'8 d'4 s4
+s2. d'4 | d'4. a8 a4 d'4 | d'4 d'4 d'4 g'4 | fis'4. d'8 d'4 d'4 | d'4 d'4 cis'4 cis'4 | d'4. a8 a4 d'4 | d'4 g'4 g'4 g'4 | fis'4 d'4 d'8([ cis'8]) b8([ cis'8]) | d'4. cis'8 d'4 fis'4@c | fis'4 d'4 e'4 a'4 | a'4 g'4 fis'4 g'4 | fis'4 d'4 d'8([ cis'8]) b8([ cis'8]) | d'4 d'4 cis'4 e'4 | fis'4 d'4 e'4 a'4 | a'4 g'4 fis'4 g'4 | fis'4 d'4 d'8([ cis'8]) b8([ cis'8]) | d'4. cis'8 d'4 s4
 """
 
 [parts.Tenor]
@@ -27,7 +27,7 @@ choral_type = "tenor"
 clef = "bass"
 staff_number = 2
 notes = """
-s2. fis4 | a4. g8 fis4 fis4 | g4 b4 b4 d'4 | d'4. a8 a4 g8[ fis8] | a4 a4 a4 a4 | a4. g8 fis4 fis4 | g4 b4 b4 d'4 | d'4 a4 b4 fis4 | a4.@c g8 fis4 a4 | d'4 a4 a4 cis'4 | d'4 d'4 d'4 d'4 | d'4 a4 b4 fis4 | a4 a4 a4 cis'4 | d'4 a4 a4 cis'4 | d'4 d'4 d'4 d'4 | d'4 a4 b4 fis4 | a4. g8 fis4 s4
+s2. fis4 | a4. g8 fis4 fis4 | g4 b4 b4 d'4 | d'4. a8 a4 g8([ fis8]) | a4 a4 a4 a4 | a4. g8 fis4 fis4 | g4 b4 b4 d'4 | d'4 a4 b4 fis4 | a4. g8 fis4 a4@c | d'4 a4 a4 cis'4 | d'4 d'4 d'4 d'4 | d'4 a4 b4 fis4 | a4 a4 a4 cis'4 | d'4 a4 a4 cis'4 | d'4 d'4 d'4 d'4 | d'4 a4 b4 fis4 | a4. g8 fis4 s4
 """
 
 [parts.Bass]
@@ -35,7 +35,7 @@ choral_type = "bass"
 clef = "bass"
 staff_number = 2
 notes = """
-s2. d4 | d4. d8 d4 d4 | g4 g4 g4 g4 | d4. d8 d4 d4 | a,4 a,4 a,4 a,4 | d4. d8 d4 d4 | g4 g4 g4 g4 | d4 d4 b,4 b,4 | a,4.@c a,8 d4 d4 | d4 fis4 a4 g4 | fis4 g4 fis4 g4 | d4 d4 b,4 b,4 | a,4 a,4 a,4 a,4 | d4 fis4 a4 g4 | fis4 g4 d4 d4 | d4 d4 b,4 b,4 | a,4. a,8 d4 s4
+s2. d4 | d4. d8 d4 d4 | g4 g4 g4 g4 | d4. d8 d4 d4 | a,4 a,4 a,4 a,4 | d4. d8 d4 d4 | g4 g4 g4 g4 | d4 d4 b,4 b,4 | a,4. a,8 d4 d4@c | d4 fis4 a4 g4 | fis4 g4 fis4 g4 | d4 d4 b,4 b,4 | a,4 a,4 a,4 a,4 | d4 fis4 a4 g4 | fis4 g4 d4 d4 | d4 d4 b,4 b,4 | a,4. a,8 d4 s4
 """
 
 [lyrics.1]
