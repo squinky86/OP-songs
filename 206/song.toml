@@ -1,0 +1,65 @@
+title = "Revive Us Again"
+subtitle = "We Praise Thee, O God"
+key_signature = "G"
+time_sig_numerator = 3
+time_sig_denominator = 4
+bpm = 96
+verse_count = 5
+phrase_breaks = ["5:32", "9:32", "13:32"]
+optional_phrase_breaks = ["3:32", "7:32", "11:32", "16:32"]
+copyrights = [
+  "Lyrics: William P. Mackay, 1863 (public domain)",
+  "Music: John J. Husband, 1815 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license"
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 d'4 | g'4 g'4 g'4 | g'2 g'8 a'8 | b'4 b'4 b'4 | b'2 g'8-( b'8-) | d''4 d''4 d''4 | e''4 d''4 b'4 | b'4 a'4 a'4 | a'2 d''8.@c d''16 | e''4 d''4 b'8. a'16 | g'4 g'4 d''8. d''16 | e''4 d''4 b'4 | a'2 d''8.@c d''16 | e''4 d''4 b'8. a'16 | g'4 g'4 b'4 | c''4 b'4 a'4 | g'2 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 d'4 | d'4 d'4 d'4 | d'2 d'8 d'8 | d'4 d'4 d'4 | d'2 d'8-( d'8-) | g'4 g'4 g'4 | g'4 g'4 d'4 | g'4 fis'4 fis'4 | fis'2 g'8.@c g'16 | g'4 g'4 g'8. d'16 | d'4 d'4 g'8. g'16 | g'4 g'4 g'4 | fis'2 g'8.@c g'16 | g'4 g'4 g'8. d'16 | d'4 d'4 g'4 | g'4 g'4 fis'4 | d'2 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 b4 | b4 b4 b4 | b2 d'8 c'8 | b4 g4 g4 | g2 b8-( b8-) | b4 b4 b4 | c'4 b4 g4 | d'4 d'4 d'4 | d'2 b8.@c b16 | c'4 b4 d'8. c'16 | b4 b4 b8. b16 | c'4 b4 d'4 | d'2 b8.@c b16 | c'4 b4 d'8. c'16 | b4 b4 d'4 | e'4 d'4 c'4 | b2 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 g4 | g4 d4 b,4 | g,2 b8 a8 | g4 d4 b,4 | g,2 g8-( g8-) | g4 g4 g4 | g4 g4 g4 | d4 d4 d4 | d2 g8.@c g16 | c4 g4 g8. g16 | g4 g4 g8. g16 | c4 g4 g4 | d2 g8.@c g16 | c4 g4 g8. g16 | g4 g4 g4 | c4 d4 d4 | <g, g>2 s4
+"""
+
+[lyrics.1]
+text = "We praise Thee, O God! For the Son of Thy love, For _ Je -- sus who died, And is now gone a -- bove."
+
+[lyrics.2]
+text = "We praise Thee, O God! For Thy Spir -- it of light, Who has shown us our Sav -- ior, And scat -- tered our night."
+
+[lyrics.3]
+text = "All glo -- ry and praise To the Lamb that was slain, Who hath borne all our sins, And has cleansed ev -- 'ry stain."
+
+
+[lyrics.4]
+text = "All glo -- ry and praise To the God of all grace, Who has bought us and sought us and guid -- ed our ways."
+
+[lyrics.5]
+text = "Re -- vive us a -- gain; Fill each heart with Thy love; May each soul be re -- kin -- dled With fire from a -- bove."
+
+[lyrics.chorus]
+text = "Hal -- le -- lu -- jah! Thine the glo -- ry, Hal -- le -- lu -- jah! A -- men. Hal -- le -- lu -- jah! Thine the glo -- ry, Re -- vive us a -- gain."
