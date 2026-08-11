@@ -41,7 +41,7 @@ choral_type = "tenor"
 clef = "bass"
 staff_number = 2
 notes = """
-s2. ees8 ees8 ees8 | aes4. aes4. g8 aes8 bes8 | aes4. ees4. ees8 ees8 ees8 | g4. g4 g8 g8 aes8 g8 | aes2. aes8 aes8 aed8
+s2. ees8 ees8 ees8 | aes4. aes4. g8 aes8 bes8 | aes4. ees4. ees8 ees8 ees8 | g4. g4 g8 g8 aes8 g8 | aes2. aes8 aes8 aes8
 | aes4. aes4. aes8 aes8 aes8 | aes4. aes4. f8 f8 aes8  | aes4. ees4. bes8 f8 g8 | aes2. aes8@c aes8 aes8 |
 g4. g4. g8 g8 g8 | aes4. ees4. aes8 aes8 aes8 | g4. g4. g8 aes8 g8 | aes2. aes8 f8 ees8
 | c'4. aes4. aes8 aes8 aes8 | aes4. aes4. aes8 aes8 aes8 | aes4. ees4. bes8 f8 g8 | aes2. s4.
@@ -52,7 +52,7 @@ choral_type = "bass"
 clef = "bass"
 staff_number = 2
 notes = """
-s2. aes,8 aes,8 aes,8 | aes,4. aes,4. ees8 ees8 ees8 | aes,4. aes,4. aes,8 aes,8 aes,8 | ees4. ees4 ees8 ees8 ees8 ees8 | aes,2. aes,8 aes,8 aed,8
+s2. aes,8 aes,8 aes,8 | aes,4. aes,4. ees8 ees8 ees8 | aes,4. aes,4. aes,8 aes,8 aes,8 | ees4. ees4 ees8 ees8 ees8 ees8 | aes,2. aes,8 aes,8 aes,8
 | aes,4. aes,4. aes,8 aes,8 aes,8 | des4. des4. des8 des8 des8  | ees4. ees4. ees8 ees8 ees8 | <ees aes,>2. aes,8@c aes,8 c8 |
 ees4. ees4. ees8 ees8 ees8 | aes,4. aes,4. aes,8 aes,8 c8 | ees4. ees4. ees8 ees8 ees8 | aes,2. aes,8 aes,8 aes,8
 | aes4. aes4. aes,8 aes,8 aes,8 | des4. des4. des8 c8 bes,8 | ees4. ees4. ees8 ees8 ees8 | <ees aes,>2. s4.

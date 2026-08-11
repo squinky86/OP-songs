@@ -39,7 +39,7 @@ choral_type = "tenor"
 clef = "bass"
 staff_number = 2
 notes = """
-bes4. bes8 aes8 g8 fis4. g4. | g4. bes8 aes8 g8 bes4.( bes4.) |
+bes4. bes8 aes8 g8 fis4. g4. | g4. bes8 aes8 g8 bes4.~ bes4. |
 bes4. bes8 aes8 g8 fis4. g4. | g4. f8 f8 c'8 bes2. |
 bes4. bes8 bes8 bes8 bes4. bes4. | aes4. aes8 aes8 aes8 g2. |
 g4. g8 aes8 bes8 c'4. aes4. | g4. f8 f8 aes8 g2.
@@ -50,7 +50,7 @@ choral_type = "bass"
 clef = "bass"
 staff_number = 2
 notes = """
-ees4. ees8 ees8 ees8 ees4. ees4. | ees4. g8 f8 ees8 bes,4.( bes,4.) |
+ees4. ees8 ees8 ees8 ees4. ees4. | ees4. g8 f8 ees8 bes,4.~ bes,4. |
 ees4. ees8 ees8 ees8 ees4. ees4. | c4. f8 f8 f8 bes,2. |
 bes,4. bes,8 c8 d8 ees4. ees4. | aes,4. aes,8 bes,8 c8 ees2. |
 ees4. ees8 f8 g8 aes4. aes,4. | bes,4. bes,8 bes,8 bes,8 ees2.

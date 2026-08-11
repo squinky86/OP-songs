@@ -34,7 +34,7 @@ clef = "bass"
 staff_number = 2
 notes = """
 aes4. aes8 aes4 des'2 des'4 | des'2. des'4 des'4 des'4 | bes2 des'4 des'2.
-| aes4. aes8 bes4 aes2( ces'4) | bes4 c'4 des'4 des'4( aes4.) r8 | ges4 ges4 f4 ees2 aes4 | f1. |
+| aes4.%f aes8 bes4 aes2( ces'4) | bes4 c'4 des'4 des'4( aes4.) r8 | ges4 ges4 f4 ees2 aes4 | f1. |
 """
 
 [parts.Bass]
@@ -43,7 +43,7 @@ clef = "bass"
 staff_number = 2
 notes = """
 des4. des8 des4 des2 des4 | des2. ges4 ges4 ges4 | ges2 ges4 des2.
-| des4. des8 des4 des2( f4) | ges4 ges4 ges4 des4~ des4. r8 | aes,4 aes,4 aes,4 aes,2 aes,4 | des1. |
+| des4.%f des8 des4 des2( f4) | ges4 ges4 ges4 des4~ des4. r8 | aes,4 aes,4 aes,4 aes,2 aes,4 | des1. |
 """
 
 [lyrics.1]

@@ -5,7 +5,7 @@ time_sig_numerator = 4
 time_sig_denominator = 4
 tempo_bpm = 80
 verse_count = 6
-optionql_phrase_breaks = ["3:48", "7:48"]
+optional_phrase_breaks = ["3:48", "7:48"]
 phrase_breaks = ["5:48", "9:48"]
 copyrights = [
   "Lyrics: John Greenleaf Whittier, 1872 (public domain)",
