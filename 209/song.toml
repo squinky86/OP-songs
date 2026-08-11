@@ -1,0 +1,83 @@
+title = "Beside Blue Galilee"
+subtitle = ""
+key_signature = "G"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 4
+copyrights = [
+  "Lyrics and Music: Charles H. Gabriel, 1928 (public domain)",
+  "First four measures of chorus: H. R. Palmer, 1928 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+phrase_breaks = ["5:48", "9:48", "13:48"]
+optional_phrase_breaks = ["3:48", "7:16", "11:48", "15:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. d'4 | b'4. c''8 b'8 a'8 d'8 a'8 | g'2. d'4 | e'4. g'8 fis'8 a'8 g'8 e'8 |
+d'2. d'4 | fis'4. g'8 a'8 fis'8 g'8 a'8 | b'4 c''4 d''4 b'4 | a'4 g'4 fis'4 e'4 |
+d'2. d'4@c | g'8. a'16 b'2 d'4 | g'8. a'16 b'2 b'4 | a'8. b'16 c''2 a'4 |
+b'8. c''16 d''2 d''4 | d''8. c''16 g'2 c''4 | c''8. b'16 d'2 b'4 |
+b'8\\rit a'8 b'8 a'8 c''4 r8 fis'8 | g'2.\\spanend s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. b4 | d'4. e'8 d'8 c'8 c'8 c'8 | b2. d'4 | c'4. e'8 dis'8 fis'8 e'8 c'8 |
+b2. d'4 | d'4. d'8 d'8 d'8 d'8 d'8 | d'4 d'4 d'4 d'4 | cis'4 cis'4 cis'4 cis'4 |
+d'2. c'4@c | b8. c'16 d'2 c'4 | b8. c'16 d'2 g'4 | fis'8. g'16 a'2 fis'4 |
+g'8. a'16 b'2 f'4 | e'8. e'16 e'2 e'4 | ees'8. d'16 b2 d'8[ g'8] |
+fis'8 fis'8 fis'8 fis'8 fis'4 r8 d'8 | d'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. g4 | g4. g8 g8 fis8 fis8 fis8 | g2. g4 | g4. c'8 c'8 c'8 c'8 g8 |
+g2. g4 | a4. b8 c'8 a8 g8 fis8 | g4 fis4 g4 g4 | e4 b4 a4 g4 |
+fis2. r4@c | r4 {3 g8~ g8 g8 } g2~ | g4 {3 g8~ g8 g8 } g4 r4 | r8. d'16 d'8. d'16 d'4 r4 |
+r8. d'16 d'8. d'16 d'4 b4 | g8. g16 c'2 g4 | g8. g16 g2 g8[ b8] |
+d'8 c'8 d'8 c'8 e'4 r8 c'8 | b2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. g,4 | g,4. g,8 d8 d8 d8 d8 | g,2. b,4 | c4. c8 c8 c8 c8 c8 |
+g,2. b,4 | d4. d8 d8 c8 b,8 a,8 | g,4 a,4 b,4 g,4 | a,4 a,4 a,4 a,4 |
+d2. r4@c | r4 {3 g,8[ b,8] d8 } g2~ | g4 {3 g,8[ b,8] d8} g4 r4 | r8. d16 d8. d16 d4 r4 |
+r8. g16 g8. g16 g4 g4 | c8. c16 c2 c4 | g8. g16 g2 g4 |
+d8 d8 d8 d8 d4 r8 d8 | g,2. s4
+"""
+
+[lyrics.1]
+text = "Be -- side blue Gal -- i -- lee I stand Where once Thy foot -- steps marked the sand; I dream that Thou art with me, Lord— That I am list -- ’ning to Thy word."
+
+[lyrics.2]
+text = "I look out o’er the rest -- less sea, And muse and dream, my Lord, of Thee— O how the waves o -- beyed Thy will, When Thou didst say to them, “Be still!”"
+
+[lyrics.3]
+text = "And now ap -- pears a hal -- o’d wraith! It speaks! “O ye of lit -- tle faith!” It is Thy form, Thy voice di -- vine, That speaks to ev -- ’ry heart, and mine!"
+
+[lyrics.4]
+text = "Dear Mas -- ter, hear my earn -- est plea For grace, to walk up -- on the sea; If such should be Thy wise be -- hest, Oh, give me faith to stand the test!"
+
+[lyrics.chorus]
+text = "“O Gal -- i -- lee, blue Gal -- i -- lee, Where Je -- sus loved so much to be,” Teach me, O Lord, Thy ho -- ly will, And whis -- per to me, “Peace, be still!”"
+
+[parts.Tenor.lyrics.chorus]
+text = "Gal -- i -- lee, Gal -- i -- lee, Where Je -- sus loved so much to be, Teach me, O Lord, Thy ho -- ly will, And whis -- per to me, “Peace, be still!”"
+
+[parts.Bass.lyrics.chorus]
+text = "Gal -- i -- lee, Gal -- i -- lee, Where Je -- sus loved so much to be, Teach me, O Lord, Thy ho -- ly will, And whis -- per to me, “Peace, be still!”"
