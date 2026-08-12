@@ -7,7 +7,7 @@ tempo_bpm = 157
 phrase_breaks = ["4:96", "8:96", "12:96", "16:96", "20:96"]
 optional_phrase_breaks = ["2:96", "6:96", "10:96", "14:48", "18:96", "22:96"]
 copyrights = [
-  "Lyrics: Charles H. Gabriel (as Charlotte G. Homer), 1926 (public domain)",
+  "Lyrics: Charlotte G. Homer, 1926 (public domain)",
   "Music: Charles H. Gabriel, 1926 (public domain)",
   "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
