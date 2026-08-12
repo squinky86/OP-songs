@@ -1,0 +1,64 @@
+title = "O That Will Be Glory"
+verse_count = 3
+key_signature = "Ab"
+time_sig_numerator = 6
+time_sig_denominator = 4
+tempo_bpm = 140
+phrase_breaks = ["2:96", "4:96", "6:96", "8:96", "10:96", "12:96", "14:96", "16:96"]
+copyrights = [
+  "Lyrics and Music: Charles H. Gabriel, 1900 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+ees'4 aes'4 g'4 f'4 ees'4 des'4 | c'4 ees'4 aes'4 c''2. | c''4 bes'4 a'4 c''4 bes'4 g'4 | bes'4 aes'4 f'4 ees'2. | ees'4 d'4 ees'4 f'4 g'4 aes'4 | g'4 g'4 aes'4 bes'2. | bes'4 d''4 c''4 bes'4 aes'4 g'4 | aes'4\\rit g'4 f'4 ees'2.!\\spanend
+| c''4@c\\atempo c''4 c''4 c''2. | c''4 bes'4 c''4 des''2. | des''4 des''4 des''4 des''2. | des''4 ees''4 bes'4 c''2. | ees''4 c''4 bes'4 aes'4 bes'4 c''4 | des''4 f'4 aes'4 c''2.! | bes'4 aes'4 f'4 ees'4 ees''4! des''4 | c''4\\rit ees'4 bes'4 aes'2.\\spanend
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+c'4 c'4 c'4 c'4 c'4 bes4 | aes4 c'4 c'4 ees'2. | ees'4 des'4 c'4 ees'4 des'4 des'4 | des'4 c'4 des'4 c'2. | bes4 bes4 bes4 d'4 ees'4 f'4 | ees'4 ees'4 f'4 g'2. | g'4 bes'4 aes'4 g'4 f'4 ees'4 | d'4 d'4 d'4 ees'4!( c'4! des'4!) |
+ees'2.~@c ees'4 aes'4 f'4 | ees'2. ees'4 g'4 f'4 | ees'2. ees'4 g'4 f'4 | ees'2. ees'4 aes'4 f'4 | ees'2.~ ees'4 des'4 ees'4 | f'4 des'4 f'4 e'2.! | des'4 des'4 des'4 ees'4 ees'4! f'4 | ees'4 c'4 des'4 c'2.
+"""
+
+[parts.Alto.lyrics.chorus]
+text = "O that will be glo -- ry for me, Glo -- ry for me, glo -- ry for me; I shall look on His face, That will be glo -- ry, be glo -- ry for me."
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+# Bar 8, beat 4: the source XML leaves the tenor doubling the bass on e-flat;
+# the engravings give the tenor g here, completing the E-flat chord.
+notes = """
+aes4 aes4 aes4 aes4 aes4 ees4 | ees4 aes4 ees4 aes2. | aes4 g4 g4 g4 g4 bes4 | aes4 aes4 aes4 aes2. | g4 f4 g4 bes4 bes4 bes4 | bes4 bes4 bes4 bes2. | bes4 bes4 bes4 bes4 bes4 bes4 | c'4 bes4 aes4 g4!( aes4! bes4!) |
+aes4@c aes4 aes4 aes2. | aes4 des'4 c'4 bes2( aes4) | g4 g4 g4 g4( bes4 aes4) | g4 g4 g4 aes2. | c'4 aes4 des'4 c'4 aes4 aes4 | aes4 aes4 f4 g2.! | f4 f4 aes4 aes4 aes4! aes4 | aes4 aes4 g4 aes2.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+aes,4 aes,4 aes,4 aes,4 aes,4 aes,4 | aes,4 aes,4 aes,4 aes,2. | ees4 ees4 ees4 ees4 ees4 ees4 | aes,4 aes,4 aes,4 aes,2. | bes,4 bes,4 bes,4 bes,4 bes,4 bes,4 | ees4 ees4 ees4 ees2. | bes,4 bes,4 bes,4 bes,4 bes,4 bes,4 | bes,4 bes,4 bes,4 ees2.!
+| aes,4@c c4 ees4 aes2. | aes4 g4 aes4 ees2. | ees4 ees4 ees4 ees2. | ees4 ees4 ees4 aes2. | aes4 aes4 aes4 aes4 aes4 aes4 | des4 des4 des4 c2.! | des4 des4 des4 c4 c4! des4 | ees4 ees4 ees4 aes,2.
+"""
+
+[lyrics.1]
+text = "When all my la -- bors and tri -- als are o’er, And I am safe on that beau -- ti -- ful shore, Just to be near the dear Lord I a -- dore, Will through the ag -- es be glo -- ry for me."
+
+[lyrics.2]
+text = "When, by the gift of His in -- fi -- nite grace, I am ac -- cord -- ed in heav -- en a place, Just to be there and to look on His face, Will through the ag -- es be glo -- ry for me."
+
+[lyrics.3]
+text = "Friends will be there I have loved long a -- go; Joy like a riv -- er a -- round me will flow; Yet, just a smile from my Sav -- ior, I know, Will through the ag -- es be glo -- ry for me."
+
+[lyrics.chorus]
+text = "O that will be glo -- ry for me, Glo -- ry for me, glo -- ry for me; When by His grace I shall look on His face, That will be glo -- ry, be glo -- ry for me."
