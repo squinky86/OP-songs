@@ -1,0 +1,57 @@
+title = "Jesus, Lover of My Soul"
+verse_count = 4
+key_signature = "F"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 92
+phrase_breaks = ["5:48", "10:48", "16:48"]
+optional_phrase_breaks = ["2:48", "7:48", "13:48", "18:48"]
+copyrights = [
+  "Lyrics: Charles Wesley, 1740 (public domain)",
+  "Music: Simeon Butler Marsh, 1834 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+a'4 a'8 a'4 f'8 | g'4 g'8 g'4. | a'4 a'8 c''4 bes'8 | a'4. g'4. | f'2. | a'4 a'8 a'4 f'8 | g'4 g'8 g'4. | a'4 a'8 c''4 bes'8 | a'4. g'4. | f'2. | c''4 c''8 c''4 c''8 | d''4. d''4. | c''2. | c''4 c''8 c''4 c''8 | d''4. d''4. | c''2. | a'4 a'8 a'4 f'8 | g'4 g'8 g'4. | a'4 a'8 c''4 bes'8 | a'4. g'4. | f'2.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+f'4 f'8 f'4 f'8 | e'4 e'8 e'4. | f'4 f'8 a'4 g'8 | f'4. e'4. | f'2. | f'4 f'8 f'4 f'8 | e'4 e'8 e'4. | f'4 f'8 a'4 g'8 | f'4. e'4. | f'2. | f'4 f'8 f'4 f'8 | f'4. f'4. | f'2. | f'4 f'8 f'4 f'8 | f'4. f'4. | f'2. | f'4 f'8 f'4 f'8 | e'4 e'8 e'4. | f'4 f'8 a'4 g'8 | f'4. e'4. | f'2.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+c'4 c'8 c'4 a8 | c'4 c'8 c'4. | c'4 c'8 c'4 d'8 | c'4. bes4. | a2. | c'4 c'8 c'4 a8 | c'4 c'8 c'4. | c'4 c'8 c'4 d'8 | c'4. bes4. | a2. | a4 a8 a4 a8 | bes4. bes4. | a2. | a4 a8 a4 a8 | b4. b4. | a2. | c'4 c'8 c'4 a8 | c'4 c'8 c'4. | c'4 c'8 c'4 d'8 | c'4. bes4. | a2.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+f4 f8 f4 f8 | c4 c8 c4. | f4 f8 f4 bes,8 | c4. c4. | f2. | f4 f8 f4 f8 | c4 c8 c4. | f4 f8 f4 bes,8 | c4. c4. | f2. | f4 f8 f4 f8 | bes,4. bes,4. | f2. | f4 f8 f4 f8 | bes,4. bes,4. | f2. | f4 f8 f4 f8 | c4 c8 c4. | f4 f8 f4 bes,8 | c4. c4. | f2.
+"""
+
+[lyrics.1]
+text = "Je -- sus, lov -- er of my soul, Let me to Thy bo -- som fly, While the near -- er wa -- ters roll, While the tem -- pest still is high! Hide me, O my Sav -- ior, hide, Till the storm of life is past; Safe in -- to the ha -- ven guide, O re -- ceive my soul at last!"
+
+[lyrics.2]
+text = "Oth -- er ref -- uge have I none; Hangs my help -- less soul on Thee: Leave, ah, leave me not a -- lone, Still sup -- port and com -- fort me! All my trust on Thee is stayed, All my help from Thee I bring; Cov -- er my de -- fense -- less head With the shad -- ow of Thy wing."
+
+[lyrics.3]
+text = "Thou, O Christ, art all I want: More than all in Thee I find; Raise the fall -- en, cheer the faint, Heal the sick, and lead the blind. Just and ho -- ly is Thy name. I am all un -- right -- eous -- ness; False and full of sin I am, Thou art full of truth and grace."
+
+[lyrics.4]
+text = "Plen -- teous grace with Thee is found, Grace to cov -- er all my sin; Let the heal -- ing streams a -- bound; Make and keep me pure with -- in. Thou of life the foun -- tain art: Free -- ly let me take of Thee; Spring Thou up with -- in my heart, Rise to all e -- ter -- ni -- ty."
