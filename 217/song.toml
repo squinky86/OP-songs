@@ -1,0 +1,71 @@
+title = "I Need Jesus"
+subtitle = ""
+copyrights = [
+  "Lyrics: George O. Webster, 1924 (public domain)",
+  "Music: Charles H. Gabriel, 1924 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Eb"
+time_sig_numerator = 2
+time_sig_denominator = 2
+tempo_bpm = 120
+verse_count = 3
+phrase_breaks = ["4:48", "8:64", "12:48", "16:64", "20:64", "24:64", "28:64"]
+optional_phrase_breaks = ["14:48", "26:64", "30:48"]
+non_breaking_phrase_breaks = ["18:32", "18:64", "20:32", "23:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+g'2 f'2 | f'4 ees'2 g'4 | bes'4. bes'8 bes'4 c''4 | bes'2. bes'4 | c''2 c''2 | bes'2. ees'4 | aes'4 aes'4 g'4 g'4 | f'2. r4 | g'2 f'2 | f'4 ees'2 g'4 | bes'4 bes'4 ees''4 d''4 | c''2. c''4 | ees''4 ees''4 d''4 c''4 | bes'4. c''8 bes'4 aes'4 | g'2 f'2 | f'4 ees'2. | bes'2@c bes'2 | g'4 bes'2. | ees''2 ees''2 | c''4 ees''2. | bes'2 bes'2 | c''4 bes'4 bes'4 g'4 | f'1~ | f'2. r4 | g'4 g'4 g'4 f'4 | f'4 ees'4 ees'2 | bes'4 bes'4 bes'4 aes'4 | g'4 aes'4 bes'2 | c''4 ees''4 ees''4. c''8 | bes'4 ees''4 ees''4 ees''4 | g'2 f'2 | f'4 ees'2.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+ees'2 d'2 | d'4 bes2 ees'4 | g'4. g'8 g'4 aes'4 | g'2. g'4 | aes'2 aes'2 | ees'2. ees'4 | d'4 d'4 ees'4 ees'4 | d'2. r4 | ees'2 d'2 | d'4 bes2 ees'4 | g'4 aes'4 bes'4 bes'4 | aes'2. aes'4 | aes'4 aes'4 aes'4 aes'4 | g'4. aes'8 ees'4 ees'4 | ees'2 d'2 | d'4 bes2. | g'2@c g'2 | ees'4 g'4 aes'4 bes'4 | aes'2 aes'2 | aes'4 aes'4 aes'4 aes'4 | g'2 g'2 | aes'4 g'4 g'4 ees'4 | d'2 ees'4 ees'4 | d'2. r4 | ees'4 ees'4 ees'4 d'4 | d'4 bes4 bes2 | g'4 g'4 g'4 f'4 | ees'4 f'4 g'2 | aes'4 aes'4 aes'4. aes'8 | g'4 g'4 ees'4 ees'4 | ees'2 d'2 | d'4 bes2.
+"""
+
+[parts.Alto.lyrics.chorus]
+text = "I need Je -- sus, with me, I need Je -- sus, al -- ways, I need Je -- sus ev -- 'ry day; ev -- 'ry day; Need Him in the sun -- shine hour, Need Him when the storm clouds lower; Ev -- 'ry day a -- long my way, Yes, I need Je -- sus."
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+bes2 aes2 | aes4 g2 bes4 | ees'4. ees'8 ees'4 ees'4 | ees'2. ees'4 | ees'2 ees'2 | ees'2. bes4 | bes4 bes4 bes4 bes4 | bes2. r4 | bes2 aes2 | aes4 g2 bes4 | ees'4 d'4 ees'4 ees'4 | ees'2. ees'4 | c'4 c'4 c'4 ees'4 | ees'4. ees'8 ees'4 c'4 | bes2 aes2 | aes4 g2. | ees'2@c ees'2 | bes4 ees'2. | c'2 c'2 | ees'4 c'2. | ees'2 ees'2 | ees'4 ees'4 ees'4 bes4 | aes2 a4 a4 | bes2. r4 | bes4 bes4 bes4 aes4 | aes4 g4 g2 | ees'4 ees'4 ees'4 bes4 | bes4 bes4 ees'2 | ees'4 c'4 c'4. ees'8 | ees'4 bes4 bes4 c'4 | bes2 aes2 | aes4 g2.
+"""
+
+[parts.Tenor.lyrics.chorus]
+text = "I need Je -- sus, I need Je -- sus, I need Je -- sus ev -- 'ry day; ev -- 'ry day; Need Him in the sun -- shine hour, Need Him when the storm clouds lower; Ev -- 'ry day a -- long my way, Yes, I need Je -- sus."
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+ees2 bes,2 | bes,4 ees2 ees4 | ees4. ees8 ees4 ees4 | ees2. ees4 | aes2 aes2 | g2. g4 | f4 f4 ees4 ees4 | bes,2. r4 | ees2 bes,2 | bes,4 ees2 ees4 | ees4 f4 g4 g4 | aes2. aes4 | aes4 aes4 aes4 aes4 | ees4. ees8 g4 aes4 | bes2 bes,2 | bes,4 ees2. | ees2@c ees2 | ees4 ees4 f4 g4 | aes2 aes2 | aes,4 bes,4 c4 d4 | ees2 ees2 | ees4 ees4 ees4 ees4 | bes,2 f4 f4 | bes,2. r4 | ees4 ees4 ees4 bes,4 | bes,4 ees4 ees2 | ees4 ees4 ees4 ees4 | ees4 ees4 ees2 | aes4 aes4 aes4. aes8 | ees4 ees4 g4 aes4 | bes2 bes,2 | bes,4 ees2.
+"""
+
+[parts.Bass.lyrics.chorus]
+text = "I need Je -- sus, with me, I need Je -- sus, al -- ways, I need Je -- sus ev -- 'ry day; ev -- 'ry day; Need Him in the sun -- shine hour, Need Him when the storm clouds lower; Ev -- 'ry day a -- long my way, Yes, I need Je -- sus."
+
+[lyrics.1]
+text = "I need Je -- sus, my need I now con -- fess; No friend like Him in times of deep dis -- tress; I need Je -- sus, the need I glad -- ly own; Tho’ some may bear their load a -- lone, Yet I need Je -- sus."
+
+[lyrics.2]
+text = "I need Je -- sus, I need a friend like Him, A friend to guide when paths of life are dim; I need Je -- sus, when foes my soul as -- sail; A -- lone I know I can but fail, So I need Je -- sus."
+
+[lyrics.3]
+text = "I need Je -- sus, I need Him to the end; No one like Him, He is the sin -- ner’s friend; I need Je -- sus, no oth -- er friend will do; So con -- stant, kind, so strong and true, Yes, I need Je -- sus."
+
+# "lower" here is the hymnal's spelling of "low'r" — it occupies a single note
+# (rhymes with "hour"), so it is one lyric slot, not two.
+[lyrics.chorus]
+text = "I need Je -- sus, I need Je -- sus, I need Je -- sus ev -- 'ry day; Need Him in the sun -- shine hour, Need Him when the storm clouds lower; Ev -- 'ry day a -- long my way, Yes, I need Je -- sus."
