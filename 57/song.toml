@@ -5,8 +5,8 @@ key_signature = "Bb"
 time_sig_numerator = 4
 time_sig_denominator = 4
 verse_count = 3
-phrase_breaks = ["2:48", "3:48", "4:48", "5:48", "6:48", "7:48", "8:48", "9:48", "13:48"]
-optional_phrase_breaks = ["16:48"]
+phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "13:48"]
+optional_phrase_breaks = ["2:48", "4:48", "6:48", "8:48", "16:48"]
 # Non-breaking breaks: affect lyric deduplication only — no line breaks.
 # Chorus is call-and-response: S/A sing a 3-note phrase, then T/B echo the same
 # text on the next three notes. Soprano/Alto use dotted-half+dotted-8+16th
