@@ -1,0 +1,61 @@
+title = "The Wealth of All Heaven Is Mine"
+subtitle = "I Own Not the Riches of Silver or Gold"
+verse_count = 4
+key_signature = "G"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 92
+phrase_breaks = ["3:40", "5:40", "7:40", "9:48", "13:48"]
+optional_phrase_breaks = ["11:48", "15:40"]
+copyrights = [
+  "Lyrics: A. H. Ackley, 1928 (public domain)",
+  "Music: B. D. Ackley, 1928 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s8 d'8 | c''8 b'8 a'8 c''8 b'8 a'8 | d''8 b'8 a'8 g'4 g'16-( a'16-) | b'8 a'8 g'8 b'8 a'8 g'8 | fis'4.~ fis'4 fis'8 | g'8 g'8 g'8 a'8 a'8 a'8 | b'8 b'8 b'8 cis''4 cis''16 cis''16 | d''8 a'8 g'8 fis'8 a'8 a'8 | d''4.( <c'' d''>4.) | d''4.@c cis''4. | c''8 e'8 fis'8 b'4 a'8 | g'4. e''4. | d''8 b'8 g'8 b'4 a'8 | c''4. fis'4. | g'8 a'8 b'8 c''8 d''8 e''8 | d''8 b'8 d''8 d''8 c''8 a'8 | g'4.~ g'4 s8
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s8 d'8 | e'8 fis'8 fis'8 e'8 fis'8 fis'8 | g'8 g'8 fis'8 e'4 e'16-( fis'16-) | g'8 fis'8 e'8 g'8 fis'8 e'8 | dis'4.~ dis'4 dis'8 | e'8 e'8 e'8 fis'8 fis'8 fis'8 | g'8 g'8 g'8 g'4 g'16 g'16 | fis'8 d'8 d'8 d'8 fis'8 g'8 | fis'4.~ fis'4. | g'4.@c g'4. | fis'8 e'8 d'8 fis'4 fis'8 | e'4( f'8) <e' g'>4. | g'8 g'8 g'8 g'4 fis'8 | e'4. d'4. | d'8 fis'8 g'8 g'8 g'8 g'8 | g'8 g'8 g'8 fis'8 fis'8 fis'8 | d'4.~ d'4 s8
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 s8 b8 | a8 d'8 c'8 a8 d'8 d'8 | d'8 d'8 c'8 b4 b16-( b16-) | e'8 b8 b8 e'8 b8 b8 | b4.~ b4 b8 | b8 b8 b8 d'8 d'8 d'8 | d'8 d'8 d'8 a4 a16 a16 | a8 a8 b8 a8 d'8 cis'8 | d'4.~ d'4. | d'4.@c e'4. | d'8 c'8 a8 d'4 c'8 | b4. c'4. | b8 d'8 cis'8 d'4 cis'8 | c'4. a4. | g8 d'8 d'8 c'8 b8 bis8 | b8 d'8 b8 a8 d'8 c'8 | b4.~ b4 s8
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 s8 g8 | d8 d8 d8 d8 d8 c'8 | b8 g8 d8 e4 e16-( e16-) | e8 e8 e8 e8 e8 e8 | b,4.~ b,4 b,8 | e8 e8 e8 d8 d8 d8 | g8 g8 g8 e4 a,16 a,16 | d8 fis8 g8 a8 a8 a8 | <d a>4.~ <d a>4. | b4.@c bes4. | a8 d8 d8 d4 dis8 | e4( d8) c4. | g8 g8 e8 d4 d8 | a4. d4( c8) | b,8 d8 f8 e8 d8 cis8 | d8 d8 d8 d8 d8 d8 | <g g,>4.~ <g g,>4 s8
+"""
+
+[lyrics.1]
+text = "I own not the rich -- es of sil -- ver or gold, Nor the glit -- ter -- ing jew -- els of time; But I am con -- tent with the Treas -- ures of Old, For the wealth of all heav -- en is mine."
+
+[lyrics.2]
+text = "No pleas -- ures of E -- gypt shall draw me a -- way From the joys that are tru -- ly di -- vine; And so in the land of the prom -- ise I'll stay, For the wealth of all heav -- en is mine."
+
+[lyrics.3]
+text = "I know that some day when the sum -- mons shall come, No _ tomb shall my spir -- it con -- fine; A le -- gion of an -- gels will car -- ry me home, For the wealth of all heav -- en is mine."
+
+[lyrics.4]
+text = "His Spir -- it is guid -- ing my pil -- grim -- age here, His _ love- -- beams from heav -- en shall shine Thro' all of life's shad -- ows till He shall ap -- pear, For the wealth of all heav -- en is mine."
+
+[lyrics.chorus]
+text = "Mine, mine, wait -- ing be -- fore me! Mine, mine, won -- der -- ful sto -- ry! Mine, mine, His be the glo -- ry, The wealth of all heav -- en is mine."
