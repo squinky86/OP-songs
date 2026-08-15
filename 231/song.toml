@@ -1,0 +1,60 @@
+title = "The Church's One Foundation"
+subtitle = "Aurelia"
+verse_count = 4
+key_signature = "Eb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "11:48", "13:48", "15:48"]
+copyrights = [
+  "Lyrics: Samuel J. Stone, 1866 (public domain)",
+  "Music: 'Aurelia' by Samuel Sebastian Wesley, 1864 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+commentary = """
+<p>These same lyrics are also set to entirely different music, George James Webb's 1830 tune (the setting more familiar to many singers) also under the title <a href="/songs/235">The Church's One Foundation</a>.</p>
+"""
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. g'4 | g'4 g'4 aes'4 g'4 | g'2 f'4 ees'4 | ees'4 c''4 bes'4 aes'4 | g'2. aes'4 | bes'4 ees''4 ees''4 d''4 | d''2 c''4 bes'4 | aes'4 bes'4 g'4 ees'4 | f'2. f'4 | g'4 aes'4 bes'4 c''4 | c''2 bes'4 ees''4 | ees''4. d''8 c''4 g'4 | aes'2. f'4 | g'4 g'4 aes'4 g'4 | g'2 f'4 ees'4 | ees'4 f'4 ees'4 d'4 | ees'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. ees'4 | ees'4 ees'4 ees'4 ees'4 | ees'2 d'4 ees'4 | c'4 ees'4 ees'4 d'4 | ees'2. d'4 | ees'4 ees'4 ees'4 f'4 | f'2 ees'4 g'4 | g'4 f'4 ees'4 ees'4 | d'2. d'4 | ees'4 d'4 ees'4 ees'4 | ees'2 ees'4 g'4 | g'4. g'8 g'4 g'4 | f'2. f'4 | ees'4 ees'4 ees'4 ees'4 | c'2 c'4 c'4 | c'4 c'4 bes4 bes4 | bes2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. bes4 | bes4 bes4 c'4 bes4 | bes2 bes4 bes4 | f4 f4 g4 bes4 | bes2. bes4 | bes4 bes4 b4 b4 | b2 c'4 d'4 | ees'4 bes4 bes4 a4 | bes2. bes4 | bes4 bes4 bes4 aes4 | aes2 bes4 c'4 | c'4. b8 c'4 c'4 | c'2. bes4 | bes4 bes4 c'4 bes4 | bes2 aes4 aes4 | aes4 aes4 f4 aes4 | g2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. ees4 | ees4 ees4 ees4 ees4 | bes,2 aes,4 g,4 | aes,4 aes,4 bes,4 bes,4 | ees2. f4 | g4 g4 g4 g,4 | aes,2 aes,4 bes,4 | c4 d4 ees4 c4 | bes,2. bes,4 | ees4 f4 g4 aes4 | aes2 g4 c4 | g4. g8 ees4 e4 | f2. d4 | ees4 ees4 ees4 ees4 | aes,2 aes,4 aes,4 | f,4 f,4 bes,4 bes,4 | ees2. s4
+"""
+
+[lyrics.1]
+text = "The chur -- ch's one foun -- da -- tion is Je -- sus Christ, her Lord; she is his new cre -- a -- tion by wa -- ter and the Word. From heaven he came and sought her to be his ho -- ly bride; with his own blood he bought her, and for her life he died."
+
+[lyrics.2]
+text = "E -- lect from ev -- ery na -- tion, yet one o'er all the earth; her char -- ter of sal -- va -- tion: one Lord, one faith, one birth. One ho -- ly name she bless -- es, par -- takes one ho -- ly food, and to one hope she press -- es, with ev -- ery grace en -- dued."
+
+[lyrics.3]
+text = "Though with a scorn -- ful won -- der the world sees her op -- pressed, by schi -- sms rent a -- sun -- der, by her -- e -- sies dis -- tressed, yet saints their watch are keep -- ing; their cry goes up: \"How long?\" and soon the night of weep -- ing shall be the morn of song."
+
+[lyrics.4]
+text = "Mid toil and trib -- u -- la -- tion, and tu -- mult of her war, she waits the con -- sum -- ma -- tion of peace for -- ev -- er -- more, till with the vi -- sion glo -- rious her long -- ing eyes are blest, and the great church vic -- to -- rious shall be the church at rest."
