@@ -1,0 +1,95 @@
+title = "Sweet Peace, the Gift of God’s Love"
+subtitle = ""
+key_signature = "A"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 100
+verse_count = 4
+copyrights = [
+  "Lyrics and Music: P. P. Bilhorn, 1887 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+phrase_breaks = ["3:40", "5:40", "9:48", "13:40"]
+non_breaking_phrase_breaks = ["3:16", "5:16", "13:16"]
+optional_phrase_breaks = ["7:40", "11:48", "15:40"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s8 e'8 | cis''8. b'16 a'8 cis'8 e'8 a'8 | gis'4.~ gis'4 e'8 | d''8. cis''16 b'8 fis'8 gis'8. fis'16 | e'4.~ e'4 e'8 | e''8. d''16 cis''8 b'8 a'8 gis'8 | gis'4.( fis'4) fis'8 | e'4 a'8 gis'8. a'16 b'8 | a'2. | cis''4.@c a'4. | d''4. cis''4. | b'8. b'16 b'8 b'8 a'8 fis'8 | e'4.~ e'4! e'8 | a'8. a'16 a'8 a'8 b'8 cis''8 | d''4.~ d''4 fis'8 | e'4 a'8 gis'8. a'16 b'8 | a'2.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+suppress_verses = [2, 3, 4]
+suppress_verses_when = ["soprano", "bass"]
+notes = """
+s2 s8 cis'8 | e'8. d'16 cis'8 a8 cis'8 cis'8 | d'4 d'8 d'4 d'8 | e'8. e'16 e'8 d'8 d'8. d'16 | cis'4 d'8 cis'4 cis'8 | e'8. e'16 e'8 e'8 e'8 eis'8 | eis'4.( fis'4) d'8 | cis'4 cis'8 d'8. cis'16 d'8 | cis'2. | e'4.@c cis'4. | fis'4. e'4. | dis'8. dis'16 dis'8 dis'8 dis'8 dis'8 | e'8[ b8] cis'8 d'4! d'8 | cis'8. cis'16 cis'8 a'8 gis'8 g'8 | fis'4.~ fis'4 d'8 | cis'4 cis'8 d'8. cis'16 d'8 | cis'2.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3, 4]
+suppress_verses_when = ["soprano", "bass"]
+notes = """
+s2 s8 a8 | a8. a16 a8 e8 a8 a8 | b4 b8 b4 gis8 | b8. a16 gis8 gis8 b8. gis16 | a4 fis8 e4 a8 | cis'8. b16 a8 gis8 a8 b8 | b4.( a4) a8 | a4 a8 b8. a16 gis8 | a2. | a4.@c a4. | a4. a4. | fis8. fis16 fis8 fis8 b8 a8 | gis4 a8 b4! gis8 | a8. e16 e8 cis'8 d'8 e'16[ a16] | a4.~ a4 a8 | a4 a8 b8. a16 gis8 | a2.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 s8 a,8 | a,8. a,16 a,8 a,8 a,8 a,8 | e4.~ e4 e8 | e8. e16 e8 e8 e8. e16 | a,4.~ a,4 a,8 | a,8. a,16 a,8 b,8 cis8 cis8 | d4.( d4) d8 | e4 e8 e8. e16 e8 | a,2. | a,4.@c a,4. | a,4. a,4. | b,8. b,16 b,8 b,8 b,8 b,8 | e4.~ e4! e8 | a,8. a,16 a,8 a8 a8 a8 | d4.~ d4 d8 | e4 e8 e8. e16 e8 | a,2.
+"""
+
+[lyrics.1]
+text = "There comes to my heart one sweet strain, A glad and a joy -- ous re -- frain; I sing it a -- gain and a -- gain, Sweet peace, the gift of God’s love."
+
+[lyrics.2]
+text = "Through Christ on the cross peace was made, My debt by His death was all paid; No oth -- er foun -- da -- tion is laid, For peace, the gift of God’s love."
+
+[lyrics.3]
+text = "When Je -- sus as Lord I had crowned, My heart with this peace did a -- bound; In Him the rich bless -- ing I found, Sweet peace, the gift of God’s love."
+
+[lyrics.4]
+text = "In Je -- sus for peace I a -- bide, And as I keep close to His side; There’s noth -- ing but peace doth be -- tide, Sweet peace, the gift of God’s love."
+
+[lyrics.chorus]
+text = "Peace, peace, sweet peace! Won -- der -- ful gift from a -- bove! Oh, won -- der -- ful, won -- der -- ful peace! Sweet peace, the gift of God’s love!"
+
+[parts.Alto.lyrics.1]
+text = "There comes to my heart one sweet strain, (sweet strain,) A glad and a joy -- ous re -- frain; (re -- frain;) I sing it a -- gain and a -- gain, Sweet peace, the gift of God’s love."
+
+[parts.Alto.lyrics.2]
+text = "Through Christ on the cross peace was made, (was made,) My debt by His death was all paid; (all paid;) No oth -- er foun -- da -- tion is laid, For peace, the gift of God’s love."
+
+[parts.Alto.lyrics.3]
+text = "When Je -- sus as Lord I had crowned, (had crowned,) My heart with this peace did a -- bound; (a -- bound;) In Him the rich bless -- ing I found, Sweet peace, the gift of God’s love."
+
+[parts.Alto.lyrics.4]
+text = "In Je -- sus for peace I a -- bide, (a -- bide,) And as I keep close to His side; (His side,) There’s noth -- ing but peace doth be -- tide, Sweet peace, the gift of God’s love."
+
+[parts.Alto.lyrics.chorus]
+text = "Peace, peace, sweet peace! Won -- der -- ful gift from a -- bove! a -- bove! Oh, won -- der -- ful, won -- der -- ful peace! Sweet peace, the gift of God’s love!"
+
+[parts.Tenor.lyrics.1]
+text = "There comes to my heart one sweet strain, (sweet strain,) A glad and a joy -- ous re -- frain; (re -- frain;) I sing it a -- gain and a -- gain, Sweet peace, the gift of God’s love."
+
+[parts.Tenor.lyrics.2]
+text = "Through Christ on the cross peace was made, (was made,) My debt by His death was all paid; (all paid;) No oth -- er foun -- da -- tion is laid, For peace, the gift of God’s love."
+
+[parts.Tenor.lyrics.3]
+text = "When Je -- sus as Lord I had crowned, (had crowned,) My heart with this peace did a -- bound; (a -- bound;) In Him the rich bless -- ing I found, Sweet peace, the gift of God’s love."
+
+[parts.Tenor.lyrics.4]
+text = "In Je -- sus for peace I a -- bide, (a -- bide,) And as I keep close to His side; (His side,) There’s noth -- ing but peace doth be -- tide, Sweet peace, the gift of God’s love."
+
+[parts.Tenor.lyrics.chorus]
+text = "Peace, peace, sweet peace! Won -- der -- ful gift from a -- bove! a -- bove! Oh, won -- der -- ful, won -- der -- ful peace! Sweet peace, the gift of God’s love!"
