@@ -1,0 +1,57 @@
+title = "God's Tomorrow"
+subtitle = ""
+copyrights = [
+  "Lyrics and Music: Alfred Henry Ackley, 1928 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Db"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 90
+verse_count = 3
+phrase_breaks = ["4:64", "8:48", "11:48", "14:48"]
+optional_phrase_breaks = ["2:48", "6:48", "10:48", "12:48", "15:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+f'8. aes'16 bes'16 aes'8. des'8. c'16 des'8 ees'8 | f'4 aes'2 aes'8 f'8 | ees'2~ ees'8 bes'8 aes'8 ges'8 | f'2. r4 | f'8. aes'16 bes'16 aes'8. des'8. c'16 des'8 ees'8 | f'4 aes'2 aes'8 f'8 | ees'2~ ees'8 c''8 bes'8 c''8 | aes'2. f'8.@c ees'16 | ees'4 des'2 des''8. c''16 | c''4 bes'2 bes'8 des''8 | c''8. ges'16 ges'8. f'16 ges'4 bes'8 c''8 | bes'8 f'8 bes'8 f'8 aes'4 f'8. ees'16 | ees'4 des'2 des''8 d''8 | ees''4 bes'2 a'8 bes'8 | ees''8 des''8 c''8 bes'8 des''8 aes'8 g'8 aes'8 | bes'16 des''8. des''8. c''16 des''2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+des'8. f'16 ges'16 f'8. des'8. c'16 des'8 des'8 | des'4 des'2 des'8 des'8 | c'2~ c'8 ges'8 f'8 ees'8 | des'2. r4 | des'8. f'16 ges'16 f'8. des'8. c'16 des'8 des'8 | des'4 des'2 des'8 des'8 | c'2~ c'8 ees'8 des'8 ees'8 | c'2. c'8.@c c'16 | c'4 des'2 f'8. aes'16 | aes'4 ges'2 ges'8 ges'8 | f'8. ees'16 ees'8. d'16 ees'4 ges'8 ges'8 | f'8 des'8 f'8 f'8 ges'4 c'8. c'16 | c'4 des'2 f'8 aes'8 | ges'4 ges'2 ges'8 ges'8 | ges'8 ges'8 e'8 e'8 f'8 f'8 e'8 f'8 | g'16 g'8. ges'8. ges'16 f'2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+aes8. des'16 des'16 des'8. bes8. bes16 bes8 beses8 | aes4 f2 f8 aes8 | aes2~ aes8 aes8 aes8 aes8 | aes2. r4 | aes8. des'16 des'16 des'8. bes8. bes16 bes8 beses8 | aes4 f2 f8 aes8 | aes2~ aes8 aes8 g8 g8 | aes2. aes8.@c ges16 | aes4 f2 aes8. des'16 | des'4 des'2 des'8 ees'8 | ees'8. c'16 c'8. b16 c'4 c'8 c'8 | des'8 aes8 des'8 b8 ces'4 aes8. ges16 | aes4 f2 aes8 bes8 | bes4 des'2 c'8 des'8 | bes8 bes8 b8 des'8 des'8 des'8 des'8 des'8 | des'16 ees'8. ees'8. aes16 aes2
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+des8. des16 des16 des8. ges8. ges16 ges8 ges8 | des4 des2 des8 des8 | aes,2~ aes,8 aes,8 bes,8 c8 | des2. r4 | des8. des16 des16 des8. ges8. ges16 ges8 ges8 | des4 des2 des8 des8 | ees2~ ees8 ees8 ees8 ees8 | aes,2. aes,8.@c aes,16 | des4 des2 des8. f16 | ges4 ges2 ges8 ees8 | aes8. aes16 aes8. aes16 aes4 aes8 aes8 | des8 des8 des8 d8 ees4 aes,8. aes,16 | des4 des2 des8 f8 | ges4 ges2 ges8 ges8 | ges8 ges8 g8 g8 aes8 aes8 beses8 aes8 | ees16 ees8. aes8. aes16 des2
+"""
+
+[lyrics.1]
+text = "God's to -- mor -- row is a day of glad -- ness, And its joys shall ne -- ver fade; No more weep -- ing, no more sense of sad -- ness, No more foes to make a -- fraid."
+
+[lyrics.2]
+text = "God's to -- mor -- row is a day of greet -- ing: We shall see the Sav -- ior's face; And our long -- ing hearts a -- wait the meet -- ing In that ho -- ly, hap -- py place."
+
+[lyrics.3]
+text = "God's to -- mor -- row is a day of glo -- ry: We shall wear the crown of life; Sing thro' count -- less years love's old, old sto -- ry, Free for -- ev -- er from all strife."
+
+[lyrics.chorus]
+text = "God's to -- mor -- row, God's to -- mor -- row, Ev -- ery cloud will pass a -- way At the dawn -- ing of that day; God's to -- mor -- row, No more sor -- row, For I know that God's to -- mor -- row Will be bet -- er than to -- day!"

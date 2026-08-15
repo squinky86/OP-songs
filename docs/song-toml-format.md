@@ -217,12 +217,27 @@ OpenPsalm uses a LilyPond-inspired notation. Notes are space-separated within a 
 | Component | Syntax | Examples |
 |---|---|---|
 | Step | `c d e f g a b` (lowercase) | `c`, `g`, `b` |
-| Accidental | `is` = sharp, `es` = flat | `fis` = F♯, `bes` = B♭ |
+| Accidental | `is` = sharp, `es` = flat, `isis` = double sharp, `eses` = double flat | `fis` = F♯, `bes` = B♭, `fisis` = F𝄪, `beses` = B𝄫 |
 | Octave marks | `'` raises one octave above base (3), `,` lowers one | `c'` = C4, `c''` = C5, `c,` = C2 |
 | Base octave | No marks = octave 3 (C3) | `g` = G3 |
 | Duration | `1 2 4 8 16` | `4` = quarter, `8` = eighth |
 | Dots | `.` after duration | `2.` = dotted half |
 | Flags | `(` slur start, `)` slur end, `-(` dashed slur start, `-)` dashed slur end, `!` fermata | `d'8-( e'8-)` |
+
+**Double accidentals:** Suffix the step with `isis` (double sharp) or `eses`
+(double flat). Unlike LilyPond's shorthand spellings, OpenPsalm does *not* elide
+the repeated vowel — write `aeses` and `eeses`, never `asas`/`eses` for A𝄫/E𝄫,
+just as single flats are written `aes`/`ees` and never `as`/`es`. An
+unrecognized accidental suffix parses as a natural without warning, so a typo
+here is silent.
+
+Use a double accidental only where the harmony genuinely calls for it — a
+lowered/raised scale degree in an already-flat/sharp key (song 219 is in D♭
+major, where the tenor's flat 6 of the flat 6 is `beses`, not `a`). Enharmonic
+respelling costs nothing in the score and is easier to sing, but the double
+accidental is correct when the voice leading demands that letter name.
+Transposing exports (`?key=`) respell every pitch with single accidentals, so
+the double accidental only survives at the song's written key.
 
 **Special note types:**
 
