@@ -130,7 +130,7 @@ bes'4 g'4 g'4 f'4 | g'4 bes'4 bes'2 | ...
 | `notes` | string | Note stream in OpenPsalm note notation (see below) |
 | `suppress_verses` | int array | Verse numbers to omit from the PDF/LilyPond output for this part (see [Verse Suppression](#verse-suppression)) |
 | `suppress_verses_when` | string array | Choral types (lowercase) whose presence triggers the suppression (see [Verse Suppression](#verse-suppression)) |
-| `splice_lyrics_into` | string | Choral type of the voice whose verse row absorbs this part's trailing echo syllables (see [Echo Lyric Splice](#echo-lyric-splice-splice_lyrics_into)) |
+| `splice_lyrics_into` | string | Choral type of the voice whose verse row absorbs this part's echo syllables (see [Echo Lyric Splice](#echo-lyric-splice-splice_lyrics_into)) |
 
 ### Verse Suppression
 
@@ -153,15 +153,18 @@ suppress_verses_when = ["soprano", "alto"]
 
 ### Echo Lyric Splice (`splice_lyrics_into`)
 
-Many hymns close a verse line with an **echo**: the melody holds a long note
-while a lower voice answers with a short tag. The echo is part of the same
+Many hymns answer a verse line with an **echo**: the melody holds a long note
+while a lower voice replies with a short tag. The echo is part of the same
 numbered verse, and hymnals print it that way — inline in the melody's verse
 row, positioned under the notes that actually sing it — not as a second stack of
 lyric rows below the staff.
 
 `splice_lyrics_into` goes on the *echoing* part and names the `choral_type` of
-the voice whose verse row should absorb the tag (song 13, "A Beautiful Life", is
-the reference example):
+the voice whose verse row should absorb the tag. The echo may close the line
+(song 13, "A Beautiful Life", whose alto answers `(the best I can)` at the end
+of the verse) or fall in the middle of it (song 221, "Wonderful Jesus", whose
+bass answers `(so long,)` under the soprano's held note and then hands the row
+back for `But the soul…`):
 
 ```toml
 [parts.Alto]
@@ -175,21 +178,43 @@ notes = """..."""
 text = "... And so I'll do the best I can, (the best I can)."
 ```
 
-**Behavior:** for each verse, the alto's syllables that fall *after* the
-soprano's last one are appended to the soprano's verse row instead of being
-printed as the alto's own lyric rows. In the LilyPond/PDF output the tail is
-emitted behind a `\set associatedVoice = "Alto"` handoff (switched back after
-the tail) so the echo words sit under the alto's notes while remaining part of
-the numbered verse row. The alto's own row for that verse is suppressed.
+**Behavior:** for each verse, the alto's surviving syllables are grouped into
+runs and each run is moved into the soprano's verse row at the point it belongs,
+instead of being printed as the alto's own lyric rows. In the LilyPond/PDF
+output a run is emitted behind a `\set associatedVoice = "Alto"` handoff and
+switched back afterwards, so the echo words sit under the alto's notes while
+remaining part of the numbered verse row, and the soprano's row picks up again
+where it left off. The alto's own row for that verse is suppressed. A verse may
+carry several echoes; each is handed off and handed back independently.
 
 **Rules:**
 - The value is a **choral type** (`"soprano"`, `"bass"`, …), not a part name,
   and is matched case-insensitively.
-- **Only pure tails splice.** Every one of the source part's surviving
-  syllables in a verse must fall strictly after the target's last surviving
-  syllable of that verse. If any lands earlier — the two texts interleave rather
-  than the echo trailing — that verse falls back to its own lyric row. The
-  decision is per verse: verse 1 may splice while verse 2 does not.
+- **Every echo syllable needs a target syllable before it.** Each surviving
+  source syllable is attached behind the last target syllable that starts
+  strictly before it. A source syllable with no target syllable before it — an
+  echo that opens the line — has nothing to hand off from, and that verse falls
+  back to its own lyric row.
+- **The two voices may not sing different text at the same moment.** If a
+  surviving source syllable lands on the exact tick of a surviving target
+  syllable, the texts are simultaneous rather than an echo, and one row cannot
+  express them; that verse falls back to its own lyric row.
+- **A mid-verse echo needs at least two syllables.** The switch back to the
+  target voice is written one syllable early (LilyPond applies an
+  `associatedVoice` change starting with the *second* syllable after the
+  `\set`), so a one-syllable run that still has target text after it has nowhere
+  to put the switch-back and falls back to its own row. A one-syllable echo that
+  *closes* the verse is fine, since nothing follows it.
+- All of these decisions are per verse, and all-or-nothing within a verse: verse
+  1 may splice while verse 2 does not, but a verse never splices some of its
+  echoes and prints the rest on a separate row.
+- **The echo must be its own phrase for dedup purposes.** A source part whose
+  text merely repeats the target's is deduplicated phrase by phrase, and only
+  the surviving syllables are spliced. An echo buried inside a phrase that
+  otherwise matches the target keeps the whole phrase alive, which then trips
+  the same-tick rule above. Put a boundary at the echo's start — usually a
+  [`non_breaking_phrase_breaks`](#phrase-breaks) entry, as song 221 does with
+  `"5:16"` — so the tag forms a phrase of its own.
 - The splice only applies when the target choral type is among the exported
   voices. Export the alto alone and it prints its full text on its own row.
 - Verses hidden by [Verse Suppression](#verse-suppression) on either part, or
