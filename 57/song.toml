@@ -7,19 +7,6 @@ time_sig_denominator = 4
 verse_count = 3
 phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "13:48"]
 optional_phrase_breaks = ["2:48", "4:48", "6:48", "8:48", "16:48"]
-# Non-breaking breaks: affect lyric deduplication only — no line breaks.
-# Chorus is call-and-response: S/A sing a 3-note phrase, then T/B echo the same
-# text on the next three notes. Soprano/Alto use dotted-half+dotted-8+16th
-# rhythm (ticks 0, 48, 60); Tenor/Bass subdivide every beat (ticks 0, 16, 28,
-# 32, 48, 60) so their first statement ends at tick 16 of each chorus measure.
-# Breaks at tick 16 split each voice after its own first statement so that
-# soprano's single phrase deduplicates against T/B's first-statement phrase,
-# leaving T/B's echo phrase as the only retained copy below.
-#   10:16  after "As the life"
-#   11:16  after "of a flow'r,"
-#   14:16  after "So the years"
-#   15:16  after "glide a -- way,"
-#   16:16  after "And a -- las,"
 non_breaking_phrase_breaks = [
     "10:16", "10:48",
     "11:16", "11:48",

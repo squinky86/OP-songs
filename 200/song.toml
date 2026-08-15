@@ -139,9 +139,6 @@ text = "Yes, so hap -- py now, ver -- y hap -- py now."
 [parts.Tenor.lyrics.s2]
 text = "Hap -- py now am I, yes, hap -- py am I. yes, hap -- py am I."
 
-#[parts.Tenor.lyrics.chorus]
-#text = "with my Re -- deem -- er, the home -- ward way, Tell -- ing all the lost of His great mer -- cy; Hap -- py am I to know He's with me, keep -- ing me spot -- less day by day, I'm hap -- py a -- long the way to Heav'n a -- bove."
-
 [parts.Bass.lyrics.s1]
 text = "Yes, so hap -- py now, ver -- y hap -- py now."
 
