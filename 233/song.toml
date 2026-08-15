@@ -1,0 +1,100 @@
+title = "O, What a Wonderful Savior"
+subtitle = ""
+verse_count = 4
+key_signature = "Db"
+time_sig_numerator = 6
+time_sig_denominator = 4
+tempo_bpm = 126
+phrase_breaks = ["4:96", "8:96", "12:96"]
+optional_phrase_breaks = ["2:96", "6:96", "10:96", "14:96"]
+copyrights = [
+  "Lyrics and Music: A. H. Ackley, 1928 (public domain)",
+  "Music: A. H. Ackley, 1928 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+r1. | r1. | aes'4. bes'8 aes'4 aes'4 ges'4 f'4 | ees'2. aes'2 r4 | r1. | r1. | c''4. des''8 c''4 c''4 bes'4 aes'4 | bes'2. aes'2 r4 | aes'4@c bes'4 c''4 c''4 bes'4 aes'4 | aes'4 bes'4 c''4 des''2. | des''4 c''4 bes'4 aes'4 ges'4 f'4 | f'4 ees'4 des'4 ees'2. | des'4 aes4 des'4 f'4 des'4 f'4 | aes'4 bes'4 c''4 des''2( ees''4!) | f''4 des''4 bes'4 aes'4 bes'4 des''4 | ees''2. des''2.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+r1. | r1. | f'4. ges'8 f'4 des'4 c'4 des'4 | c'2. c'2 r4 | r1. | r1. | ees'4. ees'8 ees'4 ees'4 des'4 c'4 | des'2. c'2 r4 | ges'4@c ges'4 ges'4 ges'4 ges'4 ges'4 | ges'4 ges'4 ges'4 f'2. | ges'4 ges'4 ges'4 f'4 ees'4 des'4 | des'4 des'4 des'4 c'2. | des'4 aes4 des'4 f'4 des'4 f'4 | aes'4 g'4 ges'4 f'2( g'4!) | aes'4 f'4 e'4 f'4 f'4 f'4 | ges'2. f'2.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+r1. | r1. | des'4. des'8 des'4 des'4 aes4 aes4 | aes2. ees2 r4 | r1. | r1. | aes4. bes8 aes4 aes4 g4 aes4 | g2. aes2 r4 | c'4@c des'4 ees'4 ees'4 des'4 c'4 | c'4 des'4 ees'4 des'2. | bes4 c'4 des'4 des'4 aes4 aes4 | g4 g4 g4 aes2. | des4 aes,4 des4 f4 des4 f4 | c'4 des'4 ees'4 des'2~ des'4! | des'4 des'4 des'4 des'4 des'4 des'4 | c'2. des'2.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+des4 aes,4 des4 f4 des4 f4 | aes4 bes4 c'4 des'2 r4 | des4. des8 des4 f4 ees4 des4 | aes,2. aes,2 r4 | des4 aes,4 des4 f4 des4 f4 | aes4 bes4 c'4 des'2 r4 | ees4. ees8 ees4 ees4 ees4 ees4 | ees2. aes,2 r4 | aes4@c aes4 aes4 aes4 aes4 aes4 | aes4 aes4 aes4 des2. | ges4 ges4 ges4 des4 c4 des4 | bes,4 bes,4 ees4 aes,2. | des4 aes,4 des4 f4 des4 f4 | aes4 aes4 a4 bes2( a4!) | aes4 aes4 g4 aes4 aes4 aes4 | aes2. des2.
+"""
+
+[lyrics.s1]
+text = "O, what a won -- der -- ful Sav -- ior!"
+
+[lyrics.1]
+text = "I have a Friend who a -- bides in my heart, @s1 I can -- not live from His pres -- ence a -- part, @s1"
+
+[lyrics.2]
+text = "Nev -- er a foe that His eye can -- not see, @s1 Nev -- er a mo -- ment that He for -- gets me, @s1"
+
+[lyrics.3]
+text = "He will the vil -- est of sin -- ners for -- give, @s1 No heart so dead but His touch can make live, @s1"
+
+[lyrics.4]
+text = "There is a home at the end of life’s way, @s1 Where in His pres -- ence for -- ev -- er I’ll stay, @s1"
+
+[lyrics.chorus]
+text = "O, what a won -- der -- ful Sav -- ior is He, Won -- der of won -- ders that He should love me! Some day His glo -- ri -- ous face I shall see, O, what a won -- der -- ful Sav -- ior!"
+
+[parts.Soprano.lyrics.1]
+text = "@s1 @s1"
+
+[parts.Soprano.lyrics.2]
+text = "@s1 @s1"
+
+[parts.Soprano.lyrics.3]
+text = "@s1 @s1"
+
+[parts.Soprano.lyrics.4]
+text = "@s1 @s1"
+
+[parts.Alto.lyrics.1]
+text = "@s1 @s1"
+
+[parts.Alto.lyrics.2]
+text = "@s1 @s1"
+
+[parts.Alto.lyrics.3]
+text = "@s1 @s1"
+
+[parts.Alto.lyrics.4]
+text = "@s1 @s1"
+
+[parts.Tenor.lyrics.1]
+text = "@s1 @s1"
+
+[parts.Tenor.lyrics.2]
+text = "@s1 @s1"
+
+[parts.Tenor.lyrics.3]
+text = "@s1 @s1"
+
+[parts.Tenor.lyrics.4]
+text = "@s1 @s1"
