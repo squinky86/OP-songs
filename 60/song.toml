@@ -10,7 +10,8 @@ time_sig_numerator = 9
 time_sig_denominator = 8
 tempo_bpm = 80
 verse_count = 5
-phrase_breaks = ["4:72", "8:72", "12:72"]
+phrase_breaks = ["4:72", "8:72", "10:72", "12:72"]
+optional_phrase_breaks = ["2:72", "6:72", "14:72"]
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -66,7 +67,7 @@ text = "Be -- hold His arms ex -- tend -- ed wide _ On the cross! On the cross! 
 text = "Come, sin -- ners, see Him lift -- ed up _ On the cross! On the cross! He drinks for you the bit -- ter cup _ On the cross! On the cross! The rocks do rend, the moun -- tains quake, While Je -- sus doth a -- tone -- ment make, While Je -- sus suf -- fers for our sake, On the cross! On the cross!"
 
 [lyrics.4]
-text = "And now the might -- y deed is done _ On the cross, On the cross; The ba -- ttle’s fought, the vic -- 'try’s won _ On the cross, On the cross. To heav'n He turns His dy -- ing eyes; ‘Tis fin -- ished! now the con -- qu'ror cries; Then bows his sac -- red head and dies On the cross, On the cross."
+text = "And now the might -- y deed is done _ On the cross, On the cross; The ba -- ttle’s fought, the vic -- 'try’s won _ On the cross, On the cross. To heav'n He turns His dy -- ing eyes; ‘Tis fin -- ished! now the con -- q'ror cries; Then bows his sac -- red head and dies On the cross, On the cross."
 
 [lyrics.5]
 text = "Wher -- e'er I go I'll tell the sto -- ry Of the cross! Of the cross! In noth -- ing else my soul shall glo -- ry, Save the cross! Save the cross! Yes; this my con -- stant theme shall be, Thro' time, and in e -- ter -- ni -- ty, That Je -- sus tast -- ed death for me On the cross! On the cross!"
