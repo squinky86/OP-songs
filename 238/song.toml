@@ -1,4 +1,4 @@
-title = "If I could Hie to Kolob"
+title = "If You Should Look to Kolob"
 copyrights = [
   "Lyrics: Jon Hood, 2026 (CC-BY 4.0)",
   "Music: English Folk Tune 'Kingsfold' (public domain)",
@@ -15,7 +15,7 @@ choral_type = "soprano"
 clef = "treble"
 staff_number = 1
 notes = """
-s2. g'8( fis'8) | e'4 e'4 e'4 d'4 | g'4 g'4 a'4 g'8( a'8) | b'4 b'4 a'8( g'8) e'4 | d'2. g'8( fis'8) | e'4 e'4 e'4 d'4 | g'4 g'4 a'4 g'8( a'8) | b'4 b'4 a'8( g'8) e'4 | e'2. b'8( c''8) | d''4 b'4 b'8( a'8) g'4 | a'4 a'4 b'2 | b'4 b'8 a'8 g'4 e'4 | d'2. g'8( fis'8) | e'4 e'4 e'8( d'8) e'8( fis'8) | g'4 g'4 a'4 g'8( a'8) | b'4 b'4 a'8( g'8) e'4 | e'2. s4
+s2. g'8[ fis'8] | e'4 e'4 e'4 d'4 | g'2 a'4 g'8[ a'8] | b'4 b'4 a'8[ g'8] e'4 | d'2. g'8[ fis'8] | e'4 e'4 e'4 d'4 | g'4 g'4 a'4 g'8[ a'8] | b'4 b'4 a'8[ g'8] e'4 | e'2. b'8[ c''8] | d''4 b'4 b'8[ a'8] g'4 | a'2 b'4 g'8[ a'8] | b'4 b'8[ a'8] g'4 e'4 | d'2. g'8[ fis'8] | e'4 e'4 e'8[ d'8] e'8[ fis'8] | g'2 a'4 g'8[ a'8] | b'4 b'4 a'8[ g'8] e'4 | e'2. s4
 """
 
 [parts.Alto]
@@ -23,7 +23,7 @@ choral_type = "alto"
 clef = "treble"
 staff_number = 1
 notes = """
-s2. e'4 | b4 b4 c'4 a4 | d'4 b4 d'4 d'8( fis'8 | g'4 g'4 e'4 c'4 | a2. d'4 | d'4 c'4 c'8( b8) a4 | d'4 cis'4 d'4 d'8( c'8 | b4 d'4 c'4 c'4 | b2. e'4 | fis'4 fis'4 g'8( d'8 d'4 | e'4 d'4 d'2 | g'4 g'8 fis'8 d'4 c'8( b8) | a2. d'4 | d'4 c'4 c'4 c'4 | d'4 d'8( cis'8) d'4 d'8( c'8 | b4 d'4 e'4 c'4 | b2. s4
+s2. e'4 | b4 b4 c'4 a4 | d'4( b4) d'4 d'8[ fis'8] | g'4 g'4 e'4 c'4 | a2. d'4 | d'4 c'4 c'8[ b8] a4 | d'4 cis'4 d'4 d'8[ c'8] | b4 d'4 c'4 c'4 | b2. e'4 | fis'4 fis'4 g'8[ d'8] d'4 | e'4( d'4) d'4 d'8[ fis'8] | g'4 g'8[ fis'8] d'4 c'8[ b8] | a2. d'4 | d'4 c'4 c'4 c'4 | d'4.( cis'8) d'4 d'8[ c'8] | b4 d'4 e'4 c'4 | b2. s4
 """
 
 [parts.Tenor]
@@ -31,7 +31,7 @@ choral_type = "tenor"
 clef = "bass"
 staff_number = 2
 notes = """
-s2. b8( a8) | g4 g4 g4 fis4 | g4 g4 fis4 g8( c'8) | b4 d'4 c'4 g4 | g2( fis4) g4 | g4 g4 g4 fis4 | g4 g4 fis4 g8( fis8) | g4 g4 e4 e8( fis8) | g2. g4 | b4 d'4 d'8( c'8) b4 | a8( g8) fis4 g2 | d'4 d'8 c'8 b4 g4 | g2( fis4) g4 | g4 g4 a4 c'4 | b8( a8) g4 fis4 g8( fis8) | g4 fis4 e4 e8( fis8) | g2. s4
+s2. b8[ a8] | g4 g4 g4 fis4 | g2 fis4 g8[ c'8] | b4 d'4 c'4 g4 | g2( fis4) g4 | g4 g4 g4 fis4 | g4 g4 fis4 g8[ fis8] | g4 g4 e4 e8[ fis8] | g2. g4 | b4 d'4 d'8[ c'8] b4 | a8( g8 fis4) g4 d'8[ c'8] | d'4 d'8[ c'8] b4 g4 | g2( fis4) g4 | g4 g4 a4 c'4 | b8( a8 g4) fis4 g8[ fis8] | g4 fis4 e4 e8[ fis8] | g2. s4
 """
 
 [parts.Bass]
@@ -39,17 +39,17 @@ choral_type = "bass"
 clef = "bass"
 staff_number = 2
 notes = """
-s2. e4 | e4 e8( d8) c4 c4 | b,4 e4 d4 b,8( a,8 | g,4 g,4 a,4 c4 | d2. b,4 | c4 c8( b,8) a,4 d4 | b,4 e4 d8( c8) b,8( a,8 | g,4 b,4 c4 a,4 | e2. e4 | b,4 b4 e8( fis8 g4 | c4 d4 g,2 | g,4 g,8 a,8 b,4 c4 | d2. b,4 | c4 c8( b,8) a,4 a4 | g8( fis8 e4 d4 b,8( a,8 | g,4 b,4 c4 a,4 | e2. s4
+s2. e4 | e4 e8[ d8] c4 c4 | b,4( e4) d4 b,8[ a,8] | g,4 g,4 a,4 c4 | d2. b,4 | c4 c8[ b,8] a,4 d4 | b,4 e4 d8[ c8] b,8[ a,8] | g,4 b,4 c4 a,4 | e2. e4 | b,4 b4 e8[ fis8] g4 | c4( d4) g,4 b,8[ a,8] | g,4 g,8[ a,8] b,4 c4 | d2. b,4 | c4 c8[ b,8] a,4 a4 | g8( fis8 e4) d4 b,8[ a,8] | g,4 b,4 c4 a,4 | e2. s4
 """
 
 [lyrics.1]
-text = "If you should look to Ko -- _ lob, To find a god in space, Who start -- ed as a sin -- ful man, And had to grow in grace; You will not find the Ma -- _ ker, Who framed the star -- ry sky, Who au -- thored time and mat -- _ ter, The Sov -- ereign Lord Most High."
+text = "If you should look to Ko -- lob, To find a god in space, Who start -- ed as a sin -- ful man, And had to grow in grace; You will not find the Ma -- ker, Who framed the star -- ry sky, Who au -- thored space and mat -- ter, The Sov -- 'reign Lord Most High."
 
 [lyrics.2]
-text = "From no -- thing -- ness He formed the earth, Be -- fore the world be -- gan, The un -- cre -- a -- ted Great I AM, Whose Son then came as man. He did not earn His glo -- _ ry, He did not have to strive, He spoke the u -- ni -- verse to be, And brought the stars a -- live."
+text = "From no -- thing -- ness He formed earth, Be -- fore the world be -- gan, The un -- cre -- a -- ted Great I AM, Whose Son then came as man. He did not earn His glo -- ry, He did not have to strive, He spoke all in -- to be -- ing, And brought the stars a -- live."
 
 [lyrics.3]
-text = "These a -- lien gods of Ko -- _ lob, Are fa -- bles made by men, To turn our hearts from ser -- ving Him, Who died and rose a -- gain. For ev -- ery knee is bow -- _ ing, And ev -- ery tongue will claim, The one true God of all the earth, And praise His ho -- ly name."
+text = "These a -- lien gods of Ko -- lob, Are fa -- bles made by men, To turn our hearts from ser -- ving Him, Who died and rose a -- gain. For ev -- ery knee is bow -- ing, And ev -- ery tongue will claim, The true God of all the earth, And praise His ho -- ly name."
 
 [lyrics.4]
-text = "There is no grand pro -- gres -- _ sion, There is but just one Throne, We wor -- ship the Cre -- a -- tor God, We wor -- ship Him a -- lone. No end -- less line of de -- i -- ties, Through all e -- ter -- ni -- ty, Just one Al -- migh -- ty Sov -- ereign Lord, Who was, and is to be."
+text = "There is no grand pro -- gres -- sion, There is but just one Throne, We wor -- ship the Cre -- a -- tor God, We wor -- ship Him a -- lone. No end -- less line of dei -- ties, Through all e -- ter -- ni -- ty, The One, Ho -- ly, Sov -- 'reign Lord, Who was, and is to be."
