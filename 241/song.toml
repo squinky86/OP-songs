@@ -11,6 +11,8 @@ copyrights = [
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
 optional_phrase_breaks = ["10:96", "14:96"]
+subtitle = "Ackley"
+commentary = "<p>This same hymn text is also available set to music by <a href=\"/songs/242\">Charles H. Gabriel</a>.</p>"
 
 [parts.Soprano]
 choral_type = "soprano"

@@ -1,0 +1,59 @@
+title = "Wonderful Mercy"
+subtitle = "Gabriel"
+verse_count = 3
+key_signature = "F"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 96
+phrase_breaks = ["2:48", "4:48", "6:48", "8:48", "12:48"]
+copyrights = [
+  "Lyrics: E. E. Hewitt, 1918 (public domain)",
+  "Music: Charles H. Gabriel, 1920 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+commentary = "<p>This same hymn text is also available set to music by <a href=\"/songs/241\">B. D. Ackley</a>.</p>"
+optional_phrase_breaks = ["10:48", "14:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+c''8. c''16 c''8 c''8 a'8 g'8 | f'8. f'16 f'8 f'4. | g'8. g'16 g'8 g'8 a'8 bes'8 | bes'8 a'8 g'8 a'4. | c''8. c''16 c''8 c''8 a'8 g'8 | f'8 g'8 a'8 bes'4. | bes'8. a'16 g'8 c''8 a'8 f'8 | a'8 a'8 g'8 f'4. | g'8.@c g'16 g'8 g'8 a'8 bes'8 | a'8 a'8 bes'8 c''4. | b'8. b'16 b'8 b'8 c''8 d''8 | c''8 c''8 d''8 e''4. | f''8. e''16 d''8 c''8 bes'8 a'8 | bes'8 bes'8 c''8 d''4. | c''8. b'16 d''8 c''8 a'8 f'8 | a'8. a'16 g'8 f'4.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+f'8. f'16 f'8 f'8 f'8 c'8 | c'8. c'16 d'8 c'4. | e'8. e'16 e'8 e'8 f'8 g'8 | g'8 f'8 e'8 f'4. | f'8. f'16 f'8 f'8 f'8 c'8 | c'8 c'8 f'8 f'4. | g'8. fis'16 g'8 f'8 f'8 f'8 | f'8 f'8 c'8 c'4. | e'8.@c e'16 e'8 e'8 f'8 g'8 | f'8 f'8 f'8 f'4. | f'8. f'16 f'8 f'8 f'8 f'8 | e'8 e'8 f'8 g'4( bes'8) | a'8. a'16 bes'8 a'8 g'8 f'8 | f'8 f'8 f'8 f'4. | f'8. f'16 f'8 f'8 f'8 f'8 | f'8. f'16 c'8 c'4.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+a8. a16 a8 a8 c'8 bes8 | a8. a16 bes8 a4. | c'8. c'16 c'8 c'8 c'8 c'8 | c'8 c'8 c'8 c'4. | a8. a16 a8 a8 c'8 bes8 | a8 bes8 c'8 d'4. | d'8. d'16 d'8 c'8 c'8 c'8 | c'8 c'8 bes8 a4. | c'8.@c c'16 c'8 c'8 c'8 c'8 | c'8 c'8 g8 a4. | d'8. d'16 d'8 d'8 a8 b8 | c'8 c'8 c'8 c'4. | c'8. c'16 d'8 f'8 c'8 c'8 | bes8 bes8 a8 bes4. | a8. aes16 bes8 a8 c'8 a8 | c'8. c'16 bes8 a4.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+f8. f16 f8 f8 f8 f8 | f8. f16 f8 f4. | c8. c16 c8 c8 c8 c8 | c8 c8 c8 f4. | f8. f16 f8 f8 f8 f8 | f8 f8 f8 bes,4. | g8. a16 bes8 a8 f8 a8 | c8 c8 c8 f4. | c8.@c c16 c8 c8 c8 c8 | f8 f8 f8 f4. | g8. g16 g8 g8 g8 g8 | c8 c8 c8 c4. | f8. f16 f8 f8 f8 ees8 | d8 d8 c8 bes,4. | f8. f16 f8 f8 f8 f8 | c8. c16 c8 f4.
+"""
+
+[lyrics.1]
+text = "Won -- der -- ful foun -- tain that cleans -- eth from sin, Won -- der -- ful com -- fort, a -- bid -- ing with -- in, Peace roll -- ing in like the waves of the sea; Won -- der -- ful free -- dom, when Christ makes me free."
+
+[lyrics.2]
+text = "Won -- der -- ful prom -- is -- es, meet -- ing my need, Won -- der -- ful an -- swers, my pray’rs far ex -- ceed; Won -- der -- ful help for the work of each hour; Strength for the con -- flict, vic -- to -- ri -- ous pow’r."
+
+[lyrics.3]
+text = "Won -- der -- ful man -- sion that shin -- eth so far, Lit by my Sav -- ior, e -- ter -- ni -- ty’s Star; There shall I praise Him with E -- den’s bright throng, Won -- der -- ful coun -- try, O won -- der -- ful song!"
+
+[lyrics.chorus]
+text = "Won -- der -- ful, won -- der -- ful mer -- cy I sing, Won -- der -- ful grace of my won -- der -- ful King: Won -- der -- ful fa -- vor from Heav -- en a -- bove, Won -- der -- ful mer -- cy and won -- der -- ful love."
