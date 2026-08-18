@@ -1,0 +1,57 @@
+title = "Wonderful Mercy"
+verse_count = 3
+key_signature = "Ab"
+time_sig_numerator = 6
+time_sig_denominator = 4
+tempo_bpm = 120
+phrase_breaks = ["2:96", "4:96", "6:96", "8:96", "12:96"]
+copyrights = [
+  "Lyrics: E. E. Hewitt, 1918 (public domain)",
+  "Music: B. D. Ackley, 1929 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+optional_phrase_breaks = ["10:96", "14:96"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+ees'4. f'8 ees'4 ees'4 f'4 ees'4 | g'4 aes'4 bes'4 c''2. | bes'4. c''8 bes'4 aes'4 bes'4 aes'4 | g'4 aes'4 f'4 ees'2. | ees'4. f'8 ees'4 ees'4 f'4 ees'4 | g'4 aes'4 bes'4 c''2. | c''4. d''8 c''4 bes'4 c''4 bes'4 | aes'4 g'4 f'4 ees'2. | ees'4.@c c''8 c''4 c''4 des''4 c''4 | c''4 bes'4 a'4 bes'2. | ees'4. bes'8 bes'4 bes'4 c''4 bes'4 | bes'4 aes'4 g'4 aes'2. | aes'4. aes'8 aes'4 aes'4 g'4 f'4 | ees'4 aes'4 bes'4 c''2. | <ees'' aes'>4. des''8 c''4 bes'4 des''2 | c''4 aes'4 bes'4 aes'2.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+c'4. c'8 c'4 des'4 des'4 des'4 | des'4 des'4 des'4 ees'2. | e'4. e'8 e'4 f'4 g'4 f'4 | ees'4 d'4 d'4 bes2( des'4) | c'4. c'8 c'4 des'4 des'4 des'4 | des'4 des'4 des'4 ees'2. | ees'4. ees'8 ees'4 ees'4 ees'4 ees'4 | d'4 d'4 d'4 bes2( des'4) | c'4.@c ees'8 ees'4 ees'4 f'4 ees'4 | ees'4 des'4 c'4 des'2. | des'4. des'8 des'4 des'4 ees'4 des'4 | des'4 c'4 c'4 c'4( des'4 ees'4) | f'4. f'8 f'4 f'4 ees'4 des'4 | c'4 ees'4 ees'4 ees'2. | ees'4. ees'8 ees'4 f'4 f'2 | ees'4 c'4 des'4 c'2.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+aes4. aes8 aes4 g4 g4 g4 | bes4 f4 g4 aes2. | g4. g8 c'4 c'4 c'4 c'4 | bes4 f4 aes4 g2. | aes4. aes8 aes4 g4 g4 g4 | bes4 f4 g4 aes2. | fis4. fis8 fis4 g4 aes4 g4 | f4 bes4 aes4 g2. | aes4.@c aes8 aes4 aes4 aes4 aes4 | g4 g4 fis4 g2. | g4. g8 g4 g4 aes4 g4 | aes4 aes4 aes4 aes2. | aes4. aes8 aes4 des'4 des'4 aes4 | aes4 aes4 g4 aes2. | c'4. bes8 aes4 des'4 aes2 | aes4 aes4 g4 aes2.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+aes,4. aes,8 aes,4 bes,4 bes,4 ees4 | ees4 ees4 ees4 aes,2. | c4. c8 c4 f4 e4 f4 | bes,4 bes,4 bes,4 ees2. | aes,4. aes,8 aes,4 bes,4 bes,4 ees4 | ees4 ees4 ees4 aes,2. | a,4. a,8 a,4 bes,4 bes,4 bes,4 | bes,4 bes,4 bes,4 ees2. | aes,4.@c aes,8 aes,4 aes4 aes4 aes4 | ees4 ees4 ees4 ees2. | ees4. ees8 ees4 ees4 ees4 ees4 | aes,4 aes,4 aes,4 aes,4( bes,4 c4) | des4. des8 des4 des4 des4 des4 | aes,4 c4 ees4 aes2. | aes4. g8 aes4 des4 des2 | ees4 ees4 ees4 <aes, ees>2.
+"""
+
+[lyrics.1]
+text = "Won -- der -- ful foun -- tain that cleans -- eth from sin, Won -- der -- ful com -- fort, a -- bid -- ing with -- in, Peace roll -- ing in like the waves of the sea; Won -- der -- ful free -- dom, when Christ makes me free."
+
+[lyrics.2]
+text = "Won -- der -- ful prom -- is -- es, meet -- ing my need, Won -- der -- ful an -- swers, my pray’rs far ex -- ceed; Won -- der -- ful help for the work of each hour; Strength for the con -- flict, vic -- to -- ri -- ous pow’r."
+
+[lyrics.3]
+text = "Won -- der -- ful man -- sion that shin -- eth so far, Lit by my Sav -- ior, e -- ter -- ni -- ty’s Star; There shall I praise Him with E -- den’s bright throng, Won -- der -- ful coun -- try, O won -- der -- ful song!"
+
+[lyrics.chorus]
+text = "Won -- der -- ful, won -- der -- ful mer -- cy I sing, Won -- der -- ful grace of my won -- der -- ful King: Won -- der -- ful fa -- vor from Heav -- en a -- bove, Won -- der -- ful mer -- cy, won -- der -- ful love."
