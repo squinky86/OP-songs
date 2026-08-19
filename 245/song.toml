@@ -1,0 +1,60 @@
+title = "Father, Lead Me Day by Day"
+verse_count = 4
+key_signature = "F"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+phrase_breaks = ["4:64", "8:64"]
+optional_phrase_breaks = ["2:64", "6:64", "10:64"]
+copyrights = [
+  "Lyrics: John P. Hopps, 1877 (public domain)",
+  "Music: Charles H. Gabriel, 1928 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+f'4 f'4 e'4 e'4 | f'4 g'4 a'2 | bes'4 a'4 g'4 f'4 | f'4 e'4 e'2 | f'4 f'4 g'4 g'4 | a'4 bes'4 c''2 | c''4 bes'4 a'4 g'4 | f'4 e'4 f'2 | e'4@c( f'4) g'2 | f'4( g'4) a'2 | c''4 f'4 bes'4 a'8[ g'8] | f'4 e'4 f'2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+c'4 c'4 c'4 c'4 | c'4 e'4 f'2 | f'4 f'4 f'4 d'4 | c'4 c'4 c'2 | c'4 c'4 e'4 c'4 | f'4 e'4 f'4( ees'4) | d'4 d'4 d'4 des'4 | c'4 c'4 c'2 | c'2@c c'2 | c'2 c'2 | f'4 f'4 g'4 d'4 | c'4 c'4 c'2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+a4 a4 bes4 bes4 | c'4 c'4 c'2 | bes4 c'4 d'4 g4 | a4 g4 g2 | f4 f4 c'4 c'4 | c'4 c'4 c'4( a4) | f4 g4 fis4 g4 | a4 g4 a2 | g4@c( a4) bes2 | a4( bes4) c'2 | c'4 d'4 d'4 c'8[ bes8] | a4 bes4 a2
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+f4 f4 g4 g4 | a4 g4 f4( ees4) | d4 c4 bes,4 b,4 | c4 c4 c4( bes,4) | a,4 a,4 c4 e4 | f4 g4 a4( f4) | bes,4 g,4 a,4 bes,4 | c4 c4 <f f,>2 | r4@c r4 c4 c4 | r4 r4 f4 f4 | a,4 d4 g,4 a,8[ bes,8] | c4 c4 f,2
+"""
+
+[lyrics.1]
+text = "Fa -- ther, lead me day by day, Ev -- er in Thine own sweet way; Teach me to be pure and true, Show me what I ought to do."
+
+[lyrics.2]
+text = "When in dan -- ger make me brave, Make me know that Thou canst save; Keep me safe by Thy dear side; Let me in Thy love a -- bide."
+
+[lyrics.3]
+text = "When I’m tempt -- ed to do wrong, Keep me stead -- fast, wise, and strong; And when all a -- lone I stand, Shield me with Thy might -- y hand."
+
+[lyrics.4]
+text = "May I do the good I know, Serv -- ing glad -- ly here be -- low, Then at last go home to Thee, Ev -- er -- more Thine own to be."
+
+[lyrics.chorus]
+text = "Lead me, lead me, Fa -- ther, lead me day by day."

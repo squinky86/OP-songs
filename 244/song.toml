@@ -31,7 +31,6 @@ ees'2. s4
 choral_type = "alto"
 clef = "treble"
 staff_number = 1
-splice_lyrics_into = "soprano"
 notes = """
 s2. ees'4 | ees'4. ees'8 bes4 bes4 | g'4. g'8 f'4 ees'4 | ees'4 ees'4 ees'4 ees'4 |
 ees'2( d'4) f'4 | ees'4. ees'8 bes4 bes4 | g'4. g'8 f'4 ees'4 | g'4 g'4 ees'4 ees'4 |
@@ -46,7 +45,6 @@ bes2. s4
 choral_type = "tenor"
 clef = "bass"
 staff_number = 2
-splice_lyrics_into = "soprano"
 notes = """
 s2. g4 | bes4. bes8 aes4 g4 | ees'4. ees'8 bes4 bes4 | aes4 aes4 g4 bes4 |
 bes2. bes4 | bes4. bes8 aes4 g4 | ees'4. ees'8 bes4 bes4 | c'4 c'4 ees'4 c'4 |
@@ -61,7 +59,6 @@ g2. s4
 choral_type = "bass"
 clef = "bass"
 staff_number = 2
-splice_lyrics_into = "soprano"
 notes = """
 s2. ees4 | ees4. ees8 ees4 ees4 | ees4. ees8 ees4 ees4 | aes,4 c4 ees4 ees4 |
 bes,2. bes,4 | ees4. ees8 ees4 ees4 | ees4. ees8 ees4 ees4 | c4 ees4 f4 a4 |
