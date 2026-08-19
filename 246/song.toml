@@ -1,0 +1,86 @@
+title = "True-Hearted, Whole-Hearted"
+subtitle = ""
+copyrights = [
+  "Lyrics: Frances R. Havergal, 1878 (public domain)",
+  "Music: George C. Stebbins, 1878 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 132
+verse_count = 8
+default_verses = [1, 2, 3]
+phrase_breaks = ["4:48", "8:48", "12:48", "16:48", "20:48", "24:48", "28:48"]
+non_breaking_phrase_breaks = ["17:32", "18:48", "19:32", "21:32", "22:40", "23:32", "25:32", "26:48", "27:32", "29:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+f'4. c'4 f'8 | a'4. f'4 a'8 | c''4. d''8[ c''8] b'8 | c''4. a'4. | bes'4. c''4 c''8 | d''4. c''4 c''8 | b'4. a'4 g'8 | c''2.
+| f'4. c'4 f'8 | a'4. f'4 a'8 | c''4. d''8[ c''8] b'8 | c''4. a'4. | bes'4. c''4 c''8 | d''4. c''4 bes'8 | a'4. a'4 g'8 | f'2.
+| c''4.~@c c''8 b'8 c''8 | d''4. c''4. | a'4.~ a'8 gis'8 a'8 | bes'4. a'4. | d''4.~ d''8 c''8 b'8 | c''4. a'4 a'8 | b'4.~ b'8 a'8 b'8 | c''2.
+| c''4.~ c''8 b'8 c''8 | d''4. c''4. | a'4.~ a'8 gis'8 a'8 | bes'4. a'4. | d''4.~ d''8 c''8 b'8 | c''4. f'4 bes'8 | a'4. a'4 g'8 | f'2.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+c'4. c'4 c'8 | f'4. f'4 f'8 | a'4. bes'8[ a'8] gis'8 | a'4. f'4. | f'4. f'4 f'8 | f'4. f'4 f'8 | f'4. f'4 f'8 | e'2.
+| c'4. c'4 c'8 | f'4. f'4 f'8 | a'4. bes'8[ a'8] gis'8 | a'4. f'4. | f'4. f'4 f'8 | f'4. f'4 e'8 | f'4. e'4 e'8 | f'2.
+| a'4.~@c a'8 gis'8 a'8 | bes'4. a'4. | f'4.~ f'8 f'8 f'8 | g'4. f'4. | bes'4.~ bes'8 a'8 gis'8 | a'4. f'4 f'8 | g'4.( f'8) f'8 f'8 | e'4.( bes'4.)
+| a'4.~ a'8 gis'8 a'8 | bes'4. a'4. | f'4.~ f'8 f'8 f'8 | f'4. f'4. | bes'4.~ bes'8 a'8 gis'8 | a'4. f'4 f'8 | f'4. e'4 e'8 | c'2.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+a4. a4 a8 | c'4. a4 c'8 | f'4. f'4 d'8 | f'4. c'4. | bes4. a4 a8 | bes4. c'4 c'8 | d'4. c'4 b8 | c'2.
+| a4. a4 a8 | c'4. a4 c'8 | f'4. f'4 d'8 | f'4. c'4. | bes4. a4 a8 | bes4. c'4 c'8 | c'4. c'4 bes8 | a2.
+| r4.@c c'8 d'8 c'8 | f'4. f'4. | r4. c'8 b8 c'8 | d'4. c'4. | r4. f'8 f'8 f'8 | f'4. c'4 r8 | r4 g8 g8 b8 d'8 | c'2.
+| r4. c'8 d'8 c'8 | f'4. f'4. | r4. c'8 b8 c'8 | d'4. c'4. | r4. f'8 f'8 f'8 | f'4. c'4 d'8 | c'4. c'4 bes8 | a2.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+f4. f4 f8 | f4. f4 f8 | f4. f4 f8 | f4. f4. | d4. f4 f8 | bes4. a4 a8 | g4. g4 g8 | c2.
+| f4. f4 f8 | f4. f4 f8 | f4. f4 f8 | f4. f4. | d4. f4 f8 | bes4. a4 g8 | c'4. c4 c8 | f2.
+| r4.@c f8 f8 f8 | f4. f4. | r4. f8 f8 f8 | f4. f4. | r4. f8 f8 f8 | f4. f4 r8 | r4 g8 g8 g8 g8 | c2.
+| r4. f8 f8 f8 | f4. f4. | r4. f8 f8 f8 | f4. f4. | r4. f8 f8 f8 | f4. a4 bes8 | c'4. c4 c8 | f2.
+"""
+
+[lyrics.1]
+text = "True- -- heart -- ed, whole- -- heart -- ed, faith -- ful and loy -- al, King of our lives, by Thy grace we will be; Un -- der the stand -- ard ex -- alt -- ed and roy -- al, Strong in Thy strength we will bat -- tle for Thee."
+
+[lyrics.2]
+text = "True- -- heart -- ed, whole- -- heart -- ed, Sav -- ior all glo -- rious! Take Thy great pow -- er and reign there a -- lone, O -- ver our wills and af -- fec -- tions vic -- to -- rious, Free -- ly sur -- ren -- dered and whol -- ly Thine own."
+
+[lyrics.3]
+text = "True- -- heart -- ed, whole- -- heart -- ed, Full -- est al -- le -- giance Yield -- ing hence -- forth to our glo -- ri -- ous king! Val -- iant en -- deav -- or and lov -- ing o -- be -- dience Free -- ly and joy -- ous -- ly now would we bring."
+
+[lyrics.4]
+text = "True- -- heart -- ed! Sav -- ior, Thou know -- est our sto -- ry, Weak are the hearts that we lay at Thy feet, Sin -- ful and treach -- er -- ous! yet, for Thy glo -- ry, Heal them, and cleanse them from sin and de -- ceit."
+
+[lyrics.5]
+text = "Whole- -- heart -- ed! Sav -- ior be -- lov -- èd and glo -- rious, Take Thy great pow -- er and reign Thou a -- lone, O -- ver our wills and af -- fec -- tions vic -- to -- rious— Free -- ly sur -- ren -- dered and whol -- ly Thine own."
+
+[lyrics.6]
+text = "Half- -- heart -- ed, false- -- heart -- ed! Heed we the warn -- ing! On -- ly the whole can be per -- fect -- ly true; Bring the whole of -- f'ring, all tim -- id thought scorn -- ing, True- -- heart -- ed on -- ly if whole- -- heart -- ed too."
+
+[lyrics.7]
+text = "Half- -- heart -- ed! Sav -- ior, shall aught be with -- hold -- en, Giv -- ing Thee part who has giv -- en us all? Bless -- ings out -- pour -- ing, and prom -- is -- es gold -- en Pledg -- ing, with nev -- er re -- serve or re -- call!"
+
+[lyrics.8]
+text = "Half- -- heart -- ed? Mas -- ter, shall a -- ny who know Thee Grudge Thee their lives, Who has laid down Thine own? Nay! we would of -- fer the hearts that we owe Thee, Live for Thy love and Thy glo -- ry a -- lone."
+
+[lyrics.chorus]
+text = "Peal out the watch -- word! Si -- lence it nev -- er! Song of our spir -- its, re -- joic -- ing and free; Peal out the watch -- word! Loy -- al for -- ev -- er! King of our lives, by Thy grace we will be."

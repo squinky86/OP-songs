@@ -32,6 +32,7 @@ copyrights = [
 | `active` | boolean | no | If `false`, song is not loaded into the database. Defaults to `true`. |
 | `subtitle` | string | no | Subtitle, meter, or tune name |
 | `verse_count` | integer | yes | Number of numbered verses |
+| `default_verses` | integer array | no | Verse numbers ticked in the song page's "Verses" column when the page first loads. Omit it (the usual case) and every verse starts selected. See [Default Verse Selection](#default-verse-selection). |
 | `key_signature` | string | yes | Key: `C G D A E B F# F Bb Eb Ab` (major) or append `m` for minor |
 | `time_sig_numerator` | integer | yes | Beats per measure |
 | `time_sig_denominator` | integer | yes | Beat unit (2, 4, 8, etc.) |
@@ -43,6 +44,39 @@ copyrights = [
 | `copyrights` | string array | no | Copyright lines displayed in the PDF footer (see [Copyright Format](#copyright-format)) |
 | `commentary` | string | no | HTML-formatted text displayed below the sheet music on the song's detail page (historical context, musical notes, etc.) |
 | `converge_verses` | boolean | no | When `true`, any phrase sung identically by every verse is printed once in the PDF (kept in verse 1, skipped in later verses) instead of stacked in each numbered row. Defaults to `true` when the song uses shared lyric sections (`[lyrics.sN]`), otherwise `false` — ordinary hymns whose verses intentionally repeat a tag line keep the repeat (see [Converged Verses](#converged-verses-shared-lyric-sections)). |
+
+---
+
+## Default Verse Selection
+
+A long hymn is often sung from only its first few stanzas, with the rest printed
+for completeness. `default_verses` lets the song say which ones the page starts
+with:
+
+```toml
+verse_count = 8
+default_verses = [1, 2, 3]
+```
+
+Verses 1–3 load ticked; 4–8 load unticked. It only sets the **initial state** of
+the checkboxes — the reader can tick any of them, and everything downstream
+(sheet music, lyrics, MIDI/MP3, presentation) follows the boxes as it always
+has.
+
+Notes:
+
+- Omitting the key means "all verses", which is what every song did before the
+  key existed. Listing every verse is the same thing.
+- Numbers outside `1..=verse_count` are dropped, and the list is sorted and
+  deduplicated, so `[3, 1, 3, 99]` on a 4-verse song stores as verses 1 and 3.
+- A list that selects nothing at all is treated as "all verses" rather than
+  rendering a page with no verse chosen.
+- The export API is unaffected: `/api/songs/{n}/export/...` with no `verses`
+  parameter still returns every verse. The song page always sends its checkbox
+  state explicitly, and a link shared from the page carries `verses=` whenever
+  the selection differs from the song's default.
+- A translation overlay inherits the base song's `default_verses` unless it
+  states its own.
 
 ---
 
@@ -756,7 +790,7 @@ block instead of appending a line to it.
 
 | Construct | Rule |
 |---|---|
-| Top-level scalar/array (`title`, `subtitle`, `key_signature`, `tempo_bpm`, `verse_count`, `phrase_breaks`, `commentary`, `converge_verses`, `active`, …) | Present → **replaces** the inherited value. Absent → inherited. |
+| Top-level scalar/array (`title`, `subtitle`, `key_signature`, `tempo_bpm`, `verse_count`, `default_verses`, `phrase_breaks`, `commentary`, `converge_verses`, `active`, …) | Present → **replaces** the inherited value. Absent → inherited. |
 | `copyrights` | Replaces the whole list. A translation should always set this: the credits are written in the translation's language, and the translator line belongs beside the original lyricist rather than appended at the end. |
 | `[parts.X]` | **Field-wise merge** with the base part `X`, so `notes = """…"""` alone overrides the notation and keeps `clef`, `choral_type`, `staff_number`. |
 | `[parts.X]` not in the base | Added as a new part; must be complete. |
