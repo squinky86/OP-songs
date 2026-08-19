@@ -281,7 +281,7 @@ OpenPsalm uses a LilyPond-inspired notation. Notes are space-separated within a 
 | Base octave | No marks = octave 3 (C3) | `g` = G3 |
 | Duration | `1 2 4 8 16` | `4` = quarter, `8` = eighth |
 | Dots | `.` after duration | `2.` = dotted half |
-| Flags | `(` slur start, `)` slur end, `-(` dashed slur start, `-)` dashed slur end, `!` fermata | `d'8-( e'8-)` |
+| Flags | `(` slur start, `)` slur end, `-(` dashed slur start, `-)` dashed slur end, `!` fermata, `-.` staccato, `^` accent, `^^` marcato | `d'8-( e'8-)` |
 
 **Double accidentals:** Suffix the step with `isis` (double sharp) or `eses`
 (double flat). Unlike LilyPond's shorthand spellings, OpenPsalm does *not* elide
@@ -368,6 +368,25 @@ c''4@c-. ← staccato may follow a chorus marker
 ```
 Staccatos are deduplicated per staff exactly like fermatas: a staccato on the same beat in soprano and alto renders once above the top staff; on the same beat in tenor and bass it renders once below the bottom staff (via `\voiceOne`/`\voiceTwo` direction).
 
+**Accents:** Append `^` to the note for an accent (`>` over the notehead — attack the note with extra emphasis):
+```
+c''4^     ← accented quarter note
+c''4@c^   ← accent may follow a chorus marker
+c''8-.^   ← accent + staccato on the same note (accented staccato)
+```
+Accents are deduplicated per staff exactly like fermatas and staccatos: an accent on the same beat in soprano and alto renders once above the top staff; on the same beat in tenor and bass it renders once below the bottom staff. Like fermatas, accents are engraving-only — they do not change MIDI velocity.
+
+**Marcato:** Append `^^` for a marcato (`^` over the notehead — a heavier, more detached emphasis than the plain accent):
+```
+c''4^^     ← marcato quarter note
+c''8-.^^   ← marcato + staccato (marcato-staccato)
+```
+`^^` is a marcato, not two accents: a note carries either the accent flag or the marcato flag, never both. Marcato dedups per staff on its own flag, so a marcato in the soprano does not suppress a plain accent in the alto — a staff that genuinely carries both still engraves both. Like the accent, it is engraving-only.
+
+Exports:
+- **MusicXML**: `<notations><articulations><accent/></articulations></notations>`, or `<strong-accent type="up"/>` for marcato (alongside `<staccato/>` when both are present).
+- **LilyPond (PDF and presentation)**: emitted as the `\accent` / `\marcato` post-event.
+
 **Dynamics:** Append `%name` to the duration to attach a dynamic marking above the note. The marking appears above the uppermost staff in the exported score.
 
 | Suffix | Symbol | Meaning |
@@ -390,7 +409,7 @@ c''4.%p b'8    ← piano marking above the dotted quarter; b'8 continues at pian
 g'2%mf         ← mezzo-forte marking above this half note
 ```
 
-The `%` suffix may be combined with other flags. It must appear after the duration digits but may appear before or after fermata (`!`), tie (`~`), slur (`(`/`)`), and beam (`[`/`]`) suffixes:
+The `%` suffix may be combined with other flags. It must appear after the duration digits but may appear before or after fermata (`!`), accent/marcato (`^` / `^^`), tie (`~`), slur (`(`/`)`), and beam (`[`/`]`) suffixes:
 ```
 c''4%p!   ← piano dynamic + fermata
 f'8%f(    ← forte dynamic + slur start
@@ -440,7 +459,7 @@ f8/-48    ← eighth F; dedup tick shifted -48 (one quarter backward)
 
 **When to use:** Some voices (typically tenor) sing the same lyrics as soprano/alto/bass but with a slightly different rhythmic subdivision — for example, an eighth-note pickup before the beat where the other voices begin. Without an offset, the dedup fingerprinter sees different cumulative ticks and prints the lyrics again. Adding `/+N` or `/-N` to the pickup note shifts its fingerprint tick to match the other voices, allowing deduplication to correctly suppress the duplicate.
 
-**Combining with other flags:** The `/N` suffix is extracted before beam, slur, tie, fermata, and dynamic flags, so any order of the remaining suffixes is valid:
+**Combining with other flags:** The `/N` suffix is extracted before beam, slur, tie, fermata, accent/marcato, and dynamic flags, so any order of the remaining suffixes is valid:
 ```
 a4/+24(     ← dedup offset +24, slur start
 f8/-24[     ← dedup offset -24, beam start

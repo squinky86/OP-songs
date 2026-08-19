@@ -93,10 +93,10 @@ g'2~ | g'4 ...      ← one sound held across the barline
 2. Every hairpin `\<` or `\>` must be terminated with `\!` (or superseded by an explicit dynamic) — on every part that opened one.
 3. **Tempo/expression spanners (`\rit`, `\accel`, `\atempo`, …) go on the soprano line only**, terminated with `\spanend` on the last covered note. They are song-level, not per-voice.
 
-## 6. Fermatas and staccatos
+## 6. Fermatas, staccatos, and accents
 
-1. Mark a held/detached moment on **every voice** that sounds at that moment (`g'2!` in all four parts). Per-staff dedup engraves it once above the top staff and once below the bottom staff.
-2. Fermatas are engraving-only — they do not lengthen MIDI playback. Do not compensate with longer note values; write the notation as sung from the page.
+1. Mark a held/detached/accented moment on **every voice** that sounds at that moment (`g'2!` in all four parts; likewise `-.`, `^`, and `^^`). Use the same mark on every voice — do not write `^` in one part and `^^` in another for the same moment; they dedup separately and both will engrave. Per-staff dedup engraves it once above the top staff and once below the bottom staff.
+2. Fermatas, accents, and marcatos are engraving-only — they do not lengthen MIDI playback or change velocity. Do not compensate with longer note values or a stray `%f`; write the notation as sung from the page.
 
 ## 7. Parts, chords, and divisi
 
@@ -186,7 +186,7 @@ Before committing a new `song.toml`:
 - [ ] Same-pitch sustains tied, not slurred; no syllable on tied-to notes
 - [ ] Syllable count per verse = lyric slots per part, for every part
 - [ ] Dynamics/hairpins duplicated on all parts; tempo spanners on soprano only
-- [ ] Fermatas/staccatos on every sounding voice
+- [ ] Fermatas/staccatos/accents on every sounding voice
 - [ ] `@c` on the chorus's first event (rest included); `@e` for a coda
 - [ ] `phrase_breaks` at every poetic line end; optional breaks at caesuras
 - [ ] Lines identical in every verse written once as `[lyrics.sN]` shared sections (§12), never pasted per verse
