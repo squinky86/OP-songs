@@ -1,0 +1,60 @@
+title = "Living for Jesus"
+verse_count = 4
+key_signature = "F"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+phrase_breaks = ["4:64", "8:64", "12:64", "16:48", "20:48", "24:48", "28:48"]
+optional_phrase_breaks = ["2:48", "6:48", "10:48", "18:48", "22:48", "26:48", "30:48"]
+copyrights = [
+  "Lyrics: Thomas O. Chisholm, 1917 (public domain)",
+  "Music: Carl H. Lowden, 1915 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+a'4 bes'2 a'4 | c''4 g'2 a'4 | bes'4 f'2 g'4 | a'1 | a'4 g'2 a'4 | g'4 f'2 e'4 | d'4 a'2 g'4 | g'1 | a'4 bes'2 a'4 | c''4 g'2 a'4 | bes'4 f'2 g'4 | a'1 | g'4 e''2 d''4 | c''4 f'2 g'4 | a'4 a'2 g'4 | f'2. c'4@c | c'4 a'4 a'4 g'4 | g'4 f'2 d'4 | d'4 bes'4 bes'4 a'4 | g'2. f'4 | e'4 c''4 c''4 bes'4 | bes'4 a'2 a'4 | a'4 g'4 d'4 a'4 | g'2. c'4 | c'4 a'4 a'4 g'4 | g'4 f'2 f'4 | f'4 d''4 d''4 c''4 | bes'2. d'4 | f'4 e'4 f'4 g'4 | a'4 a'4 bes'4! a'4 | a'4 g'4 d'4 e'4 | f'1
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+f'4 f'2 f'4 | e'4 e'2 ees'4 | d'4 d'2 des'4 | c'1 | e'4 e'2 e'4 | c'4 c'2 c'4 | b4 f'2 dis'4 | e'1 | f'4 f'2 f'4 | e'4 e'2 ees'4 | d'4 d'2 e'4 | e'1 | g'4 gis'2 gis'4 | a'4 f'2 f'4 | f'4 e'2 e'4 | f'2. c'4@c | c'4 f'4 e'4 e'4 | c'4 c'2 d'4 | d'4 g'4 fis'4 fis'4 | d'2. d'4 | c'4 e'4 e'4 e'4 | f'4 f'2 f'4 | f'4 f'4 d'4 f'4 | e'2. c'4 | c'4 f'4 e'4 e'4 | c'4 c'2 c'4 | c'4 f'4 f'4 ees'4 | d'2. bes4 | d'4 cis'4 d'4 f'4 | f'4 f'4 ges'4! ges'4 | f'4 f'4 d'4 c'4 | c'1
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+c'4 d'2 c'4 | c'4 c'2 c'4 | bes4 bes2 f4 | f1 | c'4 bes2 c'4 | bes4 a2 c'4 | g4 b2 b4 | c'1 | c'4 d'2 c'4 | c'4 c'2 c'4 | bes4 bes2 d'4 | cis'1 | d'4 e'2 f'4 | f'4 c'2 d'4 | c'4 c'2 bes4 | a2. c'4@c | a4 c'4 c'4 bes4 | bes4 a2 c'4 | bes4 d'4 d'4 c'4 | bes2. bes4 | bes4 g4 g4 c'4 | d'4 c'2 c'4 | b4 b4 b4 b4 | bes2. bes4 | a4 c'4 c'4 bes4 | bes4 a2 a4 | a4 bes4 bes4 a4 | f2. f4 | bes4 bes4 bes4 des'4 | c'4 c'4 c'4! c'4 | b4 b4 bes4 bes4 | a1
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+f4 f2 f4 | c4 c2 f4 | bes,4 bes,2 bes,4 | f1 | c4 c2 c4 | f4 f2 f4 | g4 g2 g4 | c1 | f4 f2 f4 | c4 c2 f4 | bes,4 bes2 bes4 | a1 | bes4 b2 b4 | c'4 a2 bes4 | c'4 c2 c4 | f2. c4@c | f4 f4 c4 c4 | f4 f2 fis4 | g4 g4 d4 d4 | g2. g,4 | c4 c4 c4 c4 | f4 f2 f4 | d4 d4 g,4 g,4 | c2. e4 | f4 f4 c4 c4 | f4 f2 f4 | f4 f4 f4 f4 | bes,2. bes,4 | bes,4 bes,4 bes,4 bes,4 | c4 ees4 d4! d4 | g,4 g,4 c4 c4 | f,1
+"""
+
+[lyrics.1]
+text = "Liv -- ing for Je -- sus, a life that is true, Striv -- ing to please Him in all that I do; Yield -- ing al -- le -- giance, glad- -- heart -- ed and free, This is the path -- way of bless -- ing for me."
+
+[lyrics.2]
+text = "Liv -- ing for Je -- sus Who died in my place, Bear -- ing on Cal -- v'ry my sin and dis -- grace; Such love con -- strains me to an -- swer His call, Fol -- low His lead -- ing and give Him my all."
+
+[lyrics.3]
+text = "Liv -- ing for Je -- sus, wher -- ev -- er I am, Do -- ing each du -- ty in His ho -- ly Name; Will -- ing to suf -- fer af -- flic -- tion and loss, Deem -- ing each tri -- al a part of my cross."
+
+[lyrics.4]
+text = "Liv -- ing for Je -- sus through earth's lit -- tle while, My dear -- est treas -- ure, the light of His smile; Seek -- ing the lost ones He died to re -- deem, Bring -- ing the wear -- y to find rest in Him."
+
+[lyrics.chorus]
+text = "O Je -- sus, Lord and Sav -- ior, I give my -- self to Thee, For Thou, in Thy a -- tone -- ment, didst give Thy -- self for me; I own no oth -- er Mas -- ter, my heart shall be Thy throne; My life I give, hence -- forth to live, O Christ, for Thee a -- lone."
