@@ -1,0 +1,59 @@
+title = "Sweet Hour of Prayer"
+subtitle = ""
+copyrights = [
+  "Lyrics: William W. Walford, 1845 (public domain)",
+  "Music: William B. Bradbury, 1861 (public domain)",
+  "Courtesy of the [Timeless Truths Free Online Library](https://library.timelesstruths.org/)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "D"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 84
+verse_count = 4
+phrase_breaks = ["5:40", "9:40", "13:40"]
+optional_phrase_breaks = ["3:40", "7:40", "11:40", "15:40"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. s4 d'8 | fis'4 g'8 a'4 a'8 | b'4 cis''8 d''4 b'8 | a'4 fis'8 fis'8[ e'8] d'8 | e'4 fis'8 e'4 d'8 | fis'4 g'8 a'4 a'8 | b'4 cis''8 d''4 b'8 | a'4 fis'8 fis'8[ e'8] d'8 | fis'4 e'8 d'4! a'8 | d''4 cis''8 d''4 b'8 | a'4 fis'8 a'4 a'8 | d''4 cis''8 d''4 b'8 | a'4 fis'8 e'4 d'8 | fis'4 g'8 a'4 a'8 | b'4 cis''8 d''4! b'8 | a'4 fis'8 fis'8[ e'8] d'8 | fis'4 e'8 d'4.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. s4 d'8 | d'4 e'8 fis'4 fis'8 | g'4 a'8 b'4 g'8 | fis'4 d'8 d'8[ cis'8] d'8 | cis'4 d'8 cis'4 d'8 | d'4 e'8 fis'4 fis'8 | g'4 a'8 b'4 g'8 | fis'4 d'8 d'8[ cis'8] d'8 | d'4 cis'8 d'4! fis'8 | fis'4 g'8 a'4 g'8 | fis'4 d'8 fis'4 d'8 | fis'4 g'8 a'4 g'8 | fis'4 d'8 cis'4 d'8 | d'4 e'8 fis'4 fis'8 | g'4 a'8 b'4! g'8 | fis'4 d'8 d'8[ cis'8] d'8 | d'4 cis'8 d'4.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. s4 fis8 | a4 a8 d'4 d'8 | d'4 d'8 d'4 d'8 | d'4 a8 a8[ g8] fis8 | a4 a8 a4 fis8 | a4 a8 d'4 d'8 | d'4 d'8 d'4 d'8 | d'4 a8 a8[ g8] fis8 | a4 g8 fis4! a8 | a4 a8 a4 d'8 | d'4 a8 d'4 fis8 | a4 a8 a4 d'8 | d'4 a8 a4 fis8 | a4 a8 d'4 d'8 | d'4 d'8 d'4! d'8 | d'4 a8 a8[ g8] fis8 | a4 g8 fis4.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. s4 d8 | d4 d8 d4 d8 | g4 g8 g4 g8 | d4 d8 d4 d8 | a,4 a,8 a,4 d8 | d4 d8 d4 d8 | g4 g8 g4 g8 | d4 d8 d4 d8 | a,4 a,8 d4! d8 | d4 e8 fis4 g8 | d4 d8 d4 d8 | d4 e8 fis4 g8 | d4 d8 a,4 d8 | d4 d8 d4 d8 | g4 g8 g4! g8 | d4 d8 d4 d8 | a,4 a,8 d4.
+"""
+
+[lyrics.1]
+text = "Sweet hour of prayer! sweet hour of prayer! That calls me from a world of care, And bids me at my Fa -- ther's throne Make all my wants and wish -- es known. In sea -- sons of dis -- tress and grief, My soul has of -- ten found re -- lief, And oft es -- caped the temp -- ter's snare, By thy re -- turn, sweet hour of prayer!"
+
+[lyrics.2]
+text = "Sweet hour of prayer! sweet hour of prayer! The joys I feel, the bliss I share, Of those whose anx -- ious spir -- its burn With strong de -- sires for thy re -- turn! With such I has -- ten to the place Where God my Sav -- ior shows His face, And glad -- ly take my sta -- tion there, And wait for thee, sweet hour of prayer!"
+
+[lyrics.3]
+text = "Sweet hour of prayer! sweet hour of prayer! Thy wings shall my pe -- ti -- tion bear To Him whose truth and faith -- ful -- ness En -- gage the wait -- ing soul to bless. And since He bids me seek His face, Be -- lieve His Word and trust His grace, I'll cast on Him my eve -- ry care, And wait for thee, sweet hour of prayer!"
+
+[lyrics.4]
+text = "Sweet hour of prayer! sweet hour of prayer! May I thy con -- so -- la -- tion share, Till, from Mount Pis -- gah's loft -- y height, I view my home and take my flight. This robe of flesh I'll drop, and rise To seize the ev -- er -- last -- ing prize, And shout, while pass -- ing through the air, “Fare -- well, fare -- well, sweet hour of prayer!”"
