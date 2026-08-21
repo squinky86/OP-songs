@@ -1,0 +1,70 @@
+title = "Holy, Holy, Holy"
+subtitle = ""
+verse_count = 4
+key_signature = "E"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+phrase_breaks = ["4:64", "8:64", "12:64"]
+optional_phrase_breaks = ["2:64", "6:48", "10:64", "14:64"]
+copyrights = [
+  "Lyrics: Reginald Heber, 1826 (public domain)",
+  "Music: 'Nicaea' by John B. Dykes, 1861 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+e'4 e'4 gis'4 gis'4 | b'2 b'2 | cis''4.-( cis''8-) cis''4 cis''4 | b'2 gis'2
+| b'4. b'8 b'4 b'4 | e''4-( e''4-) dis''4 b'4 | fis'4 b'4 cis''4. b'8 | b'1
+| e'4 e'4 gis'4 gis'4 | b'4-( b'4-) b'2 | cis''4. cis''8 cis''4 cis''4 | b'2 b'2
+| e''2 b'4 b'4 | cis''2 gis'2 | a'4 fis'4 fis'4. e'8 | e'1
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+b4 b4 e'4 e'4 | dis'4( fis'4) e'4( dis'4) | cis'4-( dis'4-)/+24 e'4 fis'4 | gis'2 e'2
+| fis'4 fis'4/+24 gis'4 fis'4 | e'4-( fis'4-) fis'4 gis'4 | fis'4 dis'4 e'4. dis'8 | dis'1
+| b4 b4 e'4 e'4 | dis'4-( fis'4-) e'4( dis'4) | cis'4 dis'4/+24 e'4 fis'4 | gis'2 e'2
+| e'2 e'4 e'4 | e'2 e'4( d'4) | cis'4 cis'4 dis'4. e'8 | e'1
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+gis4 gis4 e4 e4 | fis4( a4) gis4( b4) | a4-( b4-)/+24 cis'4 dis'4 | e'4( b4) b2
+| b4 b4/+24 b4 b4 | gis4-( ais4-) b4 b4 | dis'4 b4 ais4. b8 | b2( a2)
+| gis4 gis4 e4 e4 | fis4-( a4-) gis4( b4) | a4 b4/+24 cis'4 dis'4 | e'4( b4) gis2
+| gis4( a4) b4 d'4 | cis'2 b2 | a4 a4 a4. gis8 | gis1
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+e4 e4 cis4 cis4 | b,2 e2 | a,4.-( a,8-) a4 a4 | e2 e2
+| dis4 dis4/+24 e4 dis4 | cis4-( cis4-) dis4 e4 | fis4 fis4 fis4. b,8 | b,1
+| e4 e4 cis4 cis4 | b,4-( b,4-) e2 | a,4. a,8 a4 a4 | e2 e2
+| cis2 gis,4 gis,4 | a,2 e2 | a,4 a,4 b,4. e8 | e1
+"""
+
+[lyrics.1]
+text = "Ho -- ly, ho -- ly, ho -- ly! Lord _ God Al -- might -- y! Ear -- ly in the morn -- _ -- ing our song shall rise to thee. Ho -- ly, ho -- ly, ho -- _ -- ly! mer -- ci -- ful and might -- y! God in three Per -- sons, bless -- ed Trin -- i -- ty!"
+
+[lyrics.2]
+text = "Ho -- ly, ho -- ly, ho -- ly! all the saints a -- dore thee, Cast -- ing down their gold -- en crowns a -- round the glass -- y sea. Cher -- u -- bim and ser -- a -- phim, fall -- ing down be -- fore thee, Who was and is and ev -- er -- more shall be."
+
+[lyrics.3]
+text = "Ho -- ly, ho -- ly, ho -- ly! though the dark -- ness hide thee, Though the eye of sin -- ful man thy glo -- ry may not see, On -- ly thou art ho -- _ -- ly; there is none be -- side thee, Per -- fect in pow'r, in love, and pu -- ri -- ty."
+
+[lyrics.4]
+text = "Ho -- ly, ho -- ly, ho -- ly! Lord _ God Al -- might -- y! All thy works shall praise thy name, in earth, and sky, and sea; Ho -- ly, ho -- ly, ho -- _ -- ly! mer -- ci -- ful and might -- y! God in three Per -- sons, bless -- ed Trin -- i -- ty."
