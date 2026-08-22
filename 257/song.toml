@@ -1,0 +1,134 @@
+# Music source: hymnary.org NWC-origin MusicXML export of The Cyber Hymnal #3067
+#   ("/mnt/win/temp/i-s-h-I Shall See the King.xml", NWC2MusicXML 2011-07-29).
+#   Source-quality check passed: 64 quarter-notes tile 4/4 exactly, and four
+#   independent voices persist through the refrain (S/A as chords on the treble
+#   staff, T/B as chords on the bass staff). Timeless Truths does NOT carry this
+#   hymn (verified: its only near match is "We Shall See the King"), so no
+#   substitute edition was available; the supplied file is the sole music source.
+#
+# Lyrics source: The Cyber Hymnal text page, via the Internet Archive Wayback
+#   snapshot 2020-02-20 of hymntime.com/tch/htm/i/s/s/isstking.htm, cross-checked
+#   against https://hymnary.org/text/i_shall_see_the_king_where_the_angels_si
+#   (fetched 200 OK) and against the MusicXML's own three-verse underlay.
+title = "I Shall See the King"
+subtitle = ""
+verse_count = 3
+key_signature = "Bb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 104
+phrase_breaks = ["3:48", "6:48", "9:48", "13:48"]
+optional_phrase_breaks = ["2:48", "5:48", "7:48", "10:48", "11:48", "15:64"]
+copyrights = [
+  "Lyrics: William C. Poole, 1915 (public domain)",
+  "Music: Bentley D. Ackley, 1915 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. d'8. ees'16 |
+f'4 g'4 f'4 d''8. c''16 |
+bes'4 bes'4 bes'4 a'8. bes'16 |
+c''4. c''8 bes'4 c''4 |
+d''2. d'8. ees'16 |
+f'4 g'4 f'4 d''8. c''16 |
+bes'4 bes'4 bes'4 a'8. bes'16 |
+c''4. ees''8 d''4 c''4 |
+bes'2. d'8.@c ees'16 |
+f'4 f'2 bes'8. c''16 |
+d''8. cis''16 d''2 d''8. c''16 |
+bes'4 bes'2 a'8. g'16 |
+g'8. f'16 f'2 d'8. ees'16 |
+f'4 g'4 f'4 bes'8. c''16 |
+d''4 ees''4 d''2 |
+d''8 c''8 b'8 c''8 f''4 a'4 |
+bes'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. bes8. c'16 |
+d'4 ees'4 d'4 f'8. ees'16 |
+d'4 ees'4 d'4 ees'8. f'16 |
+f'4. ees'8 d'4 f'4 |
+f'2. bes8. c'16 |
+d'4 ees'4 d'4 f'8. ees'16 |
+d'4 ees'4 d'4 ees'8. f'16 |
+f'4. f'8 f'4 ees'4 |
+d'2. bes8.@c c'16 |
+d'4 d'2 d'8. ees'16 |
+f'8. e'16 f'2 f'8. fis'16 |
+g'4 g'2 f'8. ees'16 |
+ees'8. d'16 d'2 bes8. c'16 |
+d'4 ees'4 d'4 f'8. f'16 |
+f'4 g'4 f'2 |
+f'8 ees'8 d'8 ees'8 a'4 ees'4 |
+d'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. f8. f16 |
+bes4 bes4 bes4 bes8. bes16 |
+f4 g4 f4 f8. bes16 |
+a4. a8 bes4 a4 |
+bes2. f8. f16 |
+bes4 bes4 bes4 bes8. bes16 |
+f4 g4 f4 f8. bes16 |
+a4. c'8 bes4 a8[ f8] |
+f2. f8.@c f16 |
+bes4 bes2 f8. f16 |
+bes8. bes16 bes2 bes8. bes16 |
+bes4 ees'2 bes8. bes16 |
+bes8. bes16 bes2 f8. f16 |
+bes4 bes4 bes4 bes8. a16 |
+bes4 bes4 bes2 |
+a8 a8 gis8 a8 c'4 c'4 |
+bes2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. bes,8. bes,16 |
+bes,4 bes,4 bes,4 bes,8. bes,16 |
+bes,4 bes,4 bes,4 c8. d16 |
+f4. f8 g4 f4 |
+bes2. bes,8. bes,16 |
+bes,4 bes,4 bes,4 bes,8. bes,16 |
+bes,4 bes,4 bes,4 c8. d16 |
+f4. f8 f4 f4 |
+bes,2. bes,8.@c bes,16 |
+bes,4 bes,2 bes,8. bes,16 |
+bes,8. bes,16 bes,2 bes,8. bes,16 |
+ees4 ees2 ees8. ees16 |
+bes,8. bes,16 bes,2 bes,8. bes,16 |
+bes,4 bes,4 bes,4 d8. f16 |
+bes,4 bes,4 bes,2 |
+f8 f8 f8 f8 f4 f4 |
+bes,2. s4
+"""
+
+[lyrics.1]
+text = "I shall see the King, Where the an -- gels sing; I shall see the King some day, In the bet -- ter land, On the gold -- en strand, And with Him shall ev -- er stay."
+
+[lyrics.2]
+text = "In the land of song, In the glo -- ry- -- throng, Where there nev -- er comes a night, With my Lord once slain I shall ev -- er reign In the glo -- ry- -- land of light."
+
+[lyrics.3]
+text = "I shall see the King, All my trib -- utes bring, And shall look up -- on His face; Then my song shall be How He ran -- somed me And has kept me by His grace."
+
+[lyrics.chorus]
+text = "In His glo -- ry, I shall see the King, And for -- ev -- er end -- less prais -- es sing; ’Twas on Cal -- va -- ry Je -- sus died for me; I shall see the King some day."
