@@ -1,0 +1,96 @@
+title = "What Did He Do?"
+subtitle = ""
+verse_count = 4
+key_signature = "Db"
+time_sig_numerator = 2
+time_sig_denominator = 2
+tempo_bpm = 146
+phrase_breaks = ["6:64", "12:64", "17:32", "20:64", "24:64"]
+copyrights = [
+  "Lyrics: James M. Gray, 1903 (public domain)",
+  "Music: William Owen, 1852 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+optional_phrase_breaks = ["3:64", "9:64", "15:64", "18:64"]
+non_breaking_phrase_breaks = ["21:48", "22:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+des''2 aes'4 bes'4 | aes'4 des''4 c''4 bes'4 | aes'2 aes'2 |
+f'4 aes'4 bes'4 ees''4 | des''2 c''2 | des''1 |
+des''2 aes'4 bes'4 | aes'4 des''4 c''4 bes'4 | aes'2 aes'2 |
+f'4 aes'4 bes'4 ees''4 | des''2 c''2 | des''1 |
+r2@c aes'2 | f'4 aes'4 aes'4 bes'4 | aes'4 ges'4 f'2 |
+r1 | r2 des''2 | des''4 c''4 bes'2 |
+r2 ees''2 | ees''4 des''4 c''2 | r2 f''2 |
+f''4 ees''4 des''4 ees''4 | des''2( c''2) | des''1
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+f'2 f'4 f'4 | f'4 f'4 g'4 g'4 | aes'2 f'2 |
+des'4 f'4 ges'4 ges'4 | f'2 ees'2 | f'1 |
+f'2 f'4 f'4 | f'4 f'4 g'4 g'4 | aes'2 f'2 |
+des'4 f'4 ges'4 ges'4 | f'2 ees'2 | f'1 |
+r2@c f'2 | des'4 f'4 f'4 ges'4 | f'4 ees'4 des'2 |
+r1 | r2 f'2 | f'4 ees'4 des'2 |
+r2 ges'2 | ges'4 f'4 ees'2 | r2 aes'2 |
+aes'4 aes'8[ ges'8] f'4 ges'4 | f'2( ees'2) | f'1
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+aes2 des'4 des'4 | des'4 des'4 des'4 des'4 | c'2 des'2 |
+aes4 des'4 des'4 bes4 | aes2 aes2 | aes1 |
+aes2 des'4 des'4 | des'4 des'4 des'4 des'4 | c'2 des'2 |
+aes4 des'4 des'4 bes4 | aes2 aes2 | aes1 |
+r1@c | r1 | r2 aes2 |
+f4 aes4 aes4 bes4 | aes4 ges4 f2 | r2 bes2 |
+bes4 aes4 ges2 | r2 c'2 | c'4 bes4 aes4 des'4 |
+des'4 c'4 des'4 bes4 | aes1 | aes1
+"""
+
+[parts.Tenor.lyrics.chorus]
+text = "Who but God’s Son up -- on the cross? He died for you! Be -- lieve it thou, In heav -- en in -- ter -- ced -- ing!"
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+des2 des4 des4 | des4 des4 ees4 ees4 | aes2 des2 |
+des4 des4 ges4 ges4 | aes2 aes,2 | des1 |
+des2 des4 des4 | des4 des4 ees4 ees4 | aes2 des2 |
+des4 des4 ges4 ges4 | aes2 aes,2 | des1 |
+r1@c | r1 | r2 f2 |
+des4 f4 f4 ges4 | f4 ees4 des2 | r2 ges2 |
+ges4 f4 ees2 | r2 aes2 | aes4 ges4 f4 aes4 |
+des'4 aes4 bes4 ges4 | aes2( aes,2) | des1
+"""
+
+[parts.Bass.lyrics.chorus]
+text = "Who but God’s Son up -- on the cross? He died for you! Be -- lieve it thou, In heav -- en in -- ter -- ced -- ing!"
+
+[lyrics.1]
+text = "O lis -- ten to our won -- drous sto -- ry, Count -- ed once a -- mong the lost; Yet One came down from heav -- en’s glo -- ry, Sav -- ing us at aw -- ful cost!"
+
+[lyrics.2]
+text = "No an -- gel could His place have tak -- en, High -- est of the high though he; The loved One on the cross for -- sak -- en Was One of the God -- head three!"
+
+[lyrics.3]
+text = "And yet this won -- drous tale pro -- ceed -- eth, Stir -- ring heart and tongue a -- flame! As our high priest in heav’n He plead -- eth, And Christ Je -- sus is His name!"
+
+[lyrics.4]
+text = "Will you sur -- ren -- der to this Sav -- ior? To His scep -- ter hum -- bly bow? You, too, shall come to know His fa -- vor, He will save you, save you now."
+
+[lyrics.chorus]
+text = "Who saved us from e -- ter -- nal loss? What did He do? Where is He now? In heav -- en in -- ter -- ced -- ing!"
