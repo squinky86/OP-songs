@@ -1,0 +1,99 @@
+title = "The Captain Is Calling"
+subtitle = ""
+verse_count = 3
+key_signature = "Eb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 110
+phrase_breaks = ["5:48", "9:48", "13:48", "17:48", "21:48"]
+non_breaking_phrase_breaks = ["9:16", "24:64"]
+copyrights = [
+  "Lyrics: Elsie Duncan Yale, 1916 (public domain)",
+  "Music: J. Lincoln Hall, 1916 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48", "19:48", "23:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. ees'8. f'16 | g'4 g'4 g'4 g'8. aes'16 | bes'4 bes'4 bes'4 c''4 | bes'4 f'2 c''4 | bes'4 g'2 ees'8. f'16 | g'4 g'4 g'4 g'8. aes'16 | bes'4 bes'4 bes'4 c''4 | d''8 d''4. d''4 c''4 | bes'2. bes'4@c | ees''4 ees''4 ees''8. d''16 c''8. bes'16 | c''4 bes'2 r4 | r1 | r2. bes'4 | ees''4 ees''4 ees''8. d''16 c''8. bes'16 | c''4 bes'2 r4 | r1 | r2. f'8. g'16 | aes'8. g'16 aes'8. bes'16 d''4 c''4 | c''4 bes'2 f'8. g'16 | aes'8. g'16 aes'8. bes'16 d''4 c''4 | bes'2. bes'4 | ees''4-. ees''4-. r4 ees''4 | ees''4 ees''4 r4 f''4 | ees''2 d''2 | ees''2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+
+suppress_verses = [2, 3]
+suppress_verses_when = ["soprano"]
+notes = """
+s2. ees'8. ees'16 | ees'4 ees'4 ees'4 ees'8. f'16 | g'4 aes'4 g'4 r4 | r4 d'4 d'4 r4 | r4 ees'4 ees'4 ees'8. ees'16 | ees'4 ees'4 ees'4 ees'8. f'16 | g'4 aes'4 g'4 ges'4 | f'8 f'4. f'4 ees'4 | d'2. aes'4@c | g'4 g'4 g'8. bes'16 aes'8. g'16 | aes'4 g'2 r4 | r1 | r2. aes'4 | g'4 g'4 g'8. bes'16 aes'8. g'16 | aes'4 g'2 r4 | r1 | r2. d'8. ees'16 | f'8. e'16 f'8. g'16 bes'4 aes'4 | aes'4 g'2 d'8. ees'16 | f'8. e'16 f'8. g'16 bes'4 aes'4 | g'2. g'4 | g'4-. g'4-. r4 g'4 | aes'4 aes'4 r4 aes'4 | g'2 aes'2 | g'4( aes'4 g'4) s4
+"""
+
+[parts.Alto.lyrics.1]
+text = "In the ranks so true there's a place for you, He calls, He calls; Then en -- list to -- day, serve Him while you may, The Cap -- tain calls for you."
+
+[parts.Alto.lyrics.2]
+text = "To a con -- flict long 'gainst a foe so strong, He calls, He calls; As a com -- rade brave come the lost to save, The Cap -- tain calls for you."
+
+[parts.Alto.lyrics.3]
+text = "To a rich re -- ward by His won -- drous word, He calls, He calls; Win a crown of life when shall end earth's strife, The Cap -- tain calls for you."
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3]
+suppress_verses_when = ["soprano", "alto"]
+notes = """
+s2. g8. aes16 | bes4 bes4 bes4 bes8. bes16 | ees'4 d'4 ees'4 r4 | r4 bes4 bes4 r4 | r4 bes4 bes4 g8. aes16 | bes4 bes4 bes4 bes8. bes16 | ees'4 d'4 ees'4 ees'4 | bes8 bes4. a4 a4 | bes4 bes4 bes4 r4@c | r1 | r2. g4 | bes4 f2 bes4 | c'4 bes2 r4 | r1 | r2. c'4 | d'8 d'4. d'4 c'4 | bes2. r4 | r1 | r1 | r1 | r2. ees'4 | bes4-. bes4-. r4 des'4 | c'4 c'4 r4 c'4 | ees'4 ees'4 f'4 f'4 | ees'4 c'4 bes4 s4
+"""
+
+[parts.Tenor.lyrics.1]
+text = "In the ranks so true there's a place for you, He calls, He calls; Then en -- list to -- day, serve Him while you may, The Cap -- tain calls for you. for you."
+
+[parts.Tenor.lyrics.2]
+text = "To a con -- flict long 'gainst a foe so strong, He calls, He calls; As a com -- rade brave come the lost to save, The Cap -- tain calls for you. for you."
+
+[parts.Tenor.lyrics.3]
+text = "To a rich re -- ward by His won -- drous word, He calls, He calls; Win a crown of life when shall end earth's strife, The Cap -- tain calls for you. for you."
+
+[parts.Tenor.lyrics.chorus]
+text = "The Cap -- tain is call -- ing, The Cap -- tain calls for you. The Cap -- tain is call -- ing, He calls, the Cap -- tain calls for you."
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3]
+suppress_verses_when = ["soprano", "alto"]
+notes = """
+s2. ees8. ees16 | ees4 ees4 ees4 ees8. ees16 | ees4 f4 g4 r4 | r4 bes,4 bes,4 r4 | r4 ees4 ees4 ees8. ees16 | ees4 ees4 ees4 ees8. ees16 | ees4 f4 g4 ees4 | f8 f4. f4 f4 | bes,4 bes,4 bes,4 r4@c | r1 | r2. g4 | bes4 f2 bes4 | c'4 bes2 r4 | r1 | r2. c'4 | d'8 d'4. d'4 c'4 | bes2. r4 | r1 | r1 | r1 | r2. ees4 | ees4-. ees4-. r4 ees4 | aes4 aes4 r4 aes4 | bes4 bes4 bes4 bes4 | ees2. s4
+"""
+
+[parts.Bass.lyrics.1]
+text = "In the ranks so true there's a place for you, He calls, He calls; Then en -- list to -- day, serve Him while you may, The Cap -- tain calls for you. for you."
+
+[parts.Bass.lyrics.2]
+text = "To a con -- flict long 'gainst a foe so strong, He calls, He calls; As a com -- rade brave come the lost to save, The Cap -- tain calls for you. for you."
+
+[parts.Bass.lyrics.3]
+text = "To a rich re -- ward by His won -- drous word, He calls, He calls; Win a crown of life when shall end earth's strife, The Cap -- tain calls for you. for you."
+
+[parts.Bass.lyrics.chorus]
+text = "The Cap -- tain is call -- ing, The Cap -- tain calls for you. The Cap -- tain is call -- ing, He calls, the Cap -- tain you."
+
+[lyrics.1]
+text = "In the ranks so true there's a place for you, The Cap -- tain is call -- ing; Then en -- list to -- day, serve Him while you may, The Cap -- tain calls for you."
+
+[lyrics.2]
+text = "To a con -- flict long 'gainst a foe so strong, The Cap -- tain is call -- ing; As a com -- rade brave come the lost to save, The Cap -- tain calls for you."
+
+[lyrics.3]
+text = "To a rich re -- ward by His won -- drous word, The Cap -- tain is call -- ing; Win a crown of life when shall end earth's strife, The Cap -- tain calls for you."
+
+[lyrics.chorus]
+text = "For com -- rades loy -- al- -- heart -- ed ev -- er, O come with glad and true en -- deav -- or, Then en -- list be -- neath His stan -- dard roy -- al, Then be read -- y both to dare and do, The Cap -- tain is call -- ing, He calls for you."
