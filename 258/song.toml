@@ -1,0 +1,135 @@
+title = "Somehow"
+subtitle = ""
+verse_count = 4
+key_signature = "F"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 85
+phrase_breaks = ["4:64", "8:40", "10:40", "12:64", "14:40"]
+copyrights = [
+  "Lyrics and Music: A. H. Ackley, 1928 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+optional_phrase_breaks = ["2:40", "6:40"]
+non_breaking_phrase_breaks = ["10:16", "12:16", "14:16", "16:16"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+a'8 a'4 a'8 c''8 bes'8 f'8 g'8 | a'2~ a'8 c'8 a'8 bes'8 |
+a'4 g'4. fis'8 g'8 a'8 | f'2. r4 |
+a'8 a'4 a'8 c''8 bes'8 f'8 g'8 | a'2~ a'8 c'8 a'8 bes'8 |
+a'4 g'4. fis'8 g'8 a'8 | f'2 r8 f'8@c f'8 f'8 |
+d''4. d''8 d''8 c''8 c''8 a'8 | c''2~ c''8 c''8 b'8 a'8 |
+g'4. e''8 e''8 f''8 d''8 e''8 | c''2~ c''4 r4 |
+a'8 a'4 a'8 c''8 bes'8 f'8 g'8 | a'2~ a'8 c''8 bes'8 a'8 |
+g'4 d'4 e'8 g'4. | f'2~ f'2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+f'8 e'4 ees'8 d'8 d'8 d'8 des'8 | c'2~ c'8 a8 c'8 d'8 |
+c'4 bes4. a8 bes8 c'8 | a2. r4 |
+f'8 e'4 ees'8 d'8 d'8 d'8 des'8 | c'2~ c'8 a8 c'8 d'8 |
+c'4 bes4. a8 bes8 c'8 | a2 r8 f'8@c e'8 ees'8 |
+f'4. f'8 f'8 f'8 f'8 f'8 | f'4 e'8 e'8 f'8 f'8 ees'8 ees'8 |
+e'4. g'8 g'8 a'8 f'8 g'8 | e'8[ bes'8] a'8 aes'8 g'4 r4 |
+f'8 e'4 ees'8 d'8 d'8 d'8 d'8 | cis'8[ e'8] d'8 cis'8 d'8 fis'8 fis'8 fis'8 |
+d'4 d'4 c'8 c'4. | c'4 d'4 c'2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+r1 |
+r1 |
+r1 |
+r1 |
+r1 |
+r1 |
+r1 |
+r2 r8 a8@c a8 a8 |
+bes4. bes8 bes8 a8 a8 c'8 |
+a4 bes8 bes8 a8 a8 b8 c'8 |
+c'4. c'8 c'8 c'8 b8 b8 |
+g8[ d'8] c'8 b8 bes4 r4 |
+c'8 c'4 c'8 bes8 bes8 bes8 g8 |
+e8[ g8] f8 e8 fis8 a8 d'8 c'8 |
+b4 b4 bes8 bes4. |
+a4 bes4 a2
+"""
+
+[parts.Tenor.lyrics.1]
+text = ""
+
+[parts.Tenor.lyrics.2]
+text = ""
+
+[parts.Tenor.lyrics.3]
+text = ""
+
+[parts.Tenor.lyrics.4]
+text = ""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+r1 |
+r1 |
+r1 |
+r1 |
+r1 |
+r1 |
+r1 |
+r2 r8 f8@c f8 f8 |
+bes,4. bes,8 f8 f8 f8 f8 |
+f4 g8 c8 f8 f8 fis8 fis8 |
+g4. g8 g8 g8 g8 g8 |
+c2~ c4 r4 |
+f8 f4 f8 bes,8 bes,8 bes,8 bes,8 |
+a,2( d8) d8 d8 d8 |
+g4 g4 c8 c4. |
+f2~ f2
+"""
+
+[parts.Bass.lyrics.1]
+text = ""
+
+[parts.Bass.lyrics.2]
+text = ""
+
+[parts.Bass.lyrics.3]
+text = ""
+
+[parts.Bass.lyrics.4]
+text = ""
+
+[lyrics.1]
+text = "Some -- how I know that Christ is mine, No pow'r can take me out of His care, He holds me with His arm di -- vine, And in His King -- dom I have a share."
+
+[lyrics.2]
+text = "Some -- how I feel that He is near, When -- e'er I'm tempt -- ed to go a -- stray, His pres -- ence calms my ev' -- ry fear, And keeps me sing -- ing a -- long the way."
+
+[lyrics.3]
+text = "Some -- how I hear Him gent -- ly call, When -- e'er I'm lone -- ly and need a friend, His mer -- cy lifts me when I fall, And will sup -- port me un -- til the end."
+
+[lyrics.4]
+text = "Some -- how I trust Him for to -- day, And for to -- mor -- row what -- e'er it be, My anx -- ious fears up -- on Him lay, For Je -- sus watch -- es and cares for me."
+
+[lyrics.chorus]
+text = "Some -- how His love will nev -- er let me go, let me go, Some -- how He loves me bet -- ter than I know, than I know, Some -- how, some day when life is o'er, life is o'er, I'll dwell with Him for ev -- er -- more some day."
+
+[parts.Soprano.lyrics.chorus]
+text = "Some -- how His love will nev -- er let me go, Some -- how He loves me bet -- ter than I know, Some -- how, some day when life is o'er, I'll dwell with Him for ev -- er -- more"
+
+[parts.Bass.lyrics.chorus]
+text = "Some -- how His love will nev -- er let me go, let me go, Some -- how He loves me bet -- ter than I know, Some -- how, some day when life is o'er, I'll dwell with Him for ev -- er -- more"
