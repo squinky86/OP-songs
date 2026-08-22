@@ -1,0 +1,54 @@
+title = "Lead On, O King Eternal"
+verse_count = 3
+key_signature = "D"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+phrase_breaks = ["5:48", "9:48", "13:48"]
+copyrights = [
+  "Lyrics: Ernest W. Shurtleff, 1887, (public domain)",
+  "Music: 'Lancashire' by Henry T. Smart, 1836 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
+
+[lyrics.1]
+text = "Lead on, O King e -- ter -- nal, The day of march has come; Hence -- forth in fields of con -- quest Thy tents shall be our home. Thro' days of prep -- a -- ra -- tion Thy grace has made us strong, and now, O King e -- ter -- nal, We lift our bat -- tle song."
+
+[lyrics.2]
+text = "Lead on, O King e -- ter -- nal, Till sin's fierce war shall cease, And ho -- li -- ness shall whis -- per The sweet A -- men of peace; For not with swords' loud clash -- ing Nor roll of stir -- ring drums; With deeds of love and mer -- cy The heav'n -- ly king -- dom comes."
+
+[lyrics.3]
+text = "Lead on, O King e -- ter -- nal, We fol -- low, not with fears; For glad -- ness breaks like morn -- ing Wher -- e'er Thy face ap -- pears. Thy cross is lift -- ed o'er us; We jour -- ney in its light; The crown a -- waits the con -- quest; Lead on, O God of might."
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. a'4 | a'4 fis'4 g'4 b'4 | a'2 fis'4 d''4 | d''4 g'4 a'4 b'4 | e'2. a'4 | a'4 fis'4 g'4 b'4 | a'2 fis'4 fis'4 | e'4 cis''4 b'4 gis'4 | a'2. a'4 | a'4 fis'4 e'4 d''4 | d''4.( b'8) g'4 b'4 | b'4 gis'4 e'4 e''4 | e''2( cis''4) a'4 | d''4 d''4 d''4 d''4 | d''2 cis''4 b'4 | a'4 fis'4 e'4 cis'4 | d'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. d'4 | d'4 d'4 d'4 d'4 | d'2 d'4 fis'4 | g'4 d'4 d'4 d'4 | cis'2. cis'4 | d'4 d'4 d'4 d'4 | d'2 d'4 d'4 | cis'4 e'4 d'4 d'4 | cis'2. cis'4 | d'4 d'4 a4 fis'4 | g'2 d'4 dis'4 | e'4 e'4 b4 gis'4 | a'2. e'4 | d'4 d'4 e'4 fis'4 | g'2 d'4 d'4 | d'4 d'4 a4 a4 | a2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. fis4 | fis4 a4 b4 g4 | fis2 a4 a4 | g4 d'4 cis'4 b4 | a2. g4 | fis4 c'4 b4 g4 | fis2 a4 a4 | a4 a4 gis4 b4 | a2. g4 | fis4 c'4 c'4 c'4 | b4.( d'8) b4 a4 | gis4 d'4 d'4 d'4 | cis'2( e'4) cis'4 | a4 a4 b4 c'4 | d'2 d'4 g4 | fis4 a4 g4 e4 | fis2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. d4 | d4 d4 d4 d4 | d2 d4 c4 | b,4 b,4 a,4 g,4 | a,2. a,4 | d4 d4 d4 d4 | d2 d4 d4 | e4 e4 e4 e4 | a,2. a,4 | d4 a4 fis4 d4 | g2 g4 fis4 | e4 b4 gis4 e4 | a2. g4 | fis4 fis4 g4 a4 | b2 g4 g,4 | a,4 a,4 a,4 a,4 | d2. s4
+"""
