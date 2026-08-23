@@ -17,6 +17,13 @@
 *.bmp
 *.log
 
+# Audio: too large to version. Each song commits a pointer (mp3/{lang}.txt)
+# instead, and the audio itself is downloaded next to it at publish time.
+*.mp3
+*.mp3.part
+*.wav
+*.svp
+
 # Editor droppings
 *.swp
 *.kate-swp
