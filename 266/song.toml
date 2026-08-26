@@ -1,0 +1,58 @@
+title = "Consolation"
+subtitle = ""
+verse_count = 4
+key_signature = "C"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 88
+phrase_breaks = ["5:40"]
+copyrights = [
+  "Lyrics: Georgie Tillman Snead, 1929 (public domain)",
+  "Music: B. D. Ackley, 1929 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+optional_phrase_breaks = ["3:32", "7:24"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 c'4 | e'4. d'8 c'8 c'8 | g'8 fis'8 f'4 g'4 | b'4. a'8 g'8 a'8 | g'8 f'8 e'4. g'8 | c''4. c''8 b'8 b'8 | a'8 a'8 g'8 c'8 g'8 g'8 | g'8 f'8 e'4 d'4 | c'2 s4 |
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 c'4 | c'4. c'8 c'8 c'8 | c'8 c'8 b4 b4 | f'4. f'8 f'8 f'8 | e'8 d'8 c'4. e'8 | e'4. e'8 d'8 d'8 | c'8 c'8 c'8 c'8 e'8 f'8 | c'8 c'8 c'4 b4 | g2 s4 |
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 e4 | g4. f8 e8 e8 | g8 a8 g4 g4 | d'4. c'8 b8 b8 | c'8 g8 g4. c'8 | g4. a8 gis8 gis8 | a8 c'8 c'8 c'8 ais8 b8 | c'8 a8 g4 f4 | e2 s4 |
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 c4 | c4. c8 c8 c8 | e8 ees8 d4 d4 | g,4. g,8 g,8 g,8 | a,8 b,8 c4. c8 | c4. a,8 e8 e8 | f8 f8 e8 e8 cis8 d8 | e8 f8 g4 g,4 | c2 s4 |
+"""
+
+[lyrics.1]
+text = "How sweet a -- mid earth's wild a -- larms, To feel the ev -- er -- last -- ing arms; To know He car -- eth day by day, And will not turn our pray'r a -- way."
+
+[lyrics.2]
+text = "He hears our plea, He sends re -- lief, He gives us so -- lace from our grief; He sends re -- fresh -- ing show -- ers down, And thus our lives with bless -- ings crown."
+
+[lyrics.3]
+text = "We'll 'bide in Him, then ev -- 'ry hour, And we will feel His sov' -- reign pow'r; He'll be our strength, our ref -- uge sweet, And all our faith He will com -- plete."
+
+[lyrics.4]
+text = "Oh, let our pray'rs like in -- cense rise Un -- to the Lord of earth and skies; Give thanks for all His mer -- cy shown, Praise Him who claims us for His own."
