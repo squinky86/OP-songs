@@ -1,0 +1,77 @@
+title = "Good Night and Good Morning"
+subtitle = ""
+verse_count = 3
+key_signature = "Db"
+time_sig_numerator = 6
+time_sig_denominator = 4
+tempo_bpm = 144
+phrase_breaks = ["3:80", "5:80", "7:80", "9:80", "11:80", "13:80", "15:80"]
+copyrights = [
+  "Lyrics: Lizzie DeArmond, 1922 (public domain)",
+  "Music: Homer A. Rodeheaver, 1922 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s1 s4 aes'4 | aes'4 f'4 ges'4 aes'4 bes'4 aes'4 | aes'4 ges'4 f'4 ges'2 ges'4 |
+ges'4 ees'4 f'4 ges'4 aes'4 ges'4 | ges'4 f'4 e'4 f'2 des'4 | f'4 f'4 ges'4 aes'4 f'4 des'4 |
+ges'4 ges'4 aes'4 bes'2 bes'4 | aes'4 g'4 bes'4 aes'2 des'8 ges'8 | f'4 des'4 ees'4 des'2 aes'4@c |
+aes'4 f'4 aes'4 des''2 aes'4 | aes'4 ges'4. f'8 ges'2 ges'4 | ges'4 ees'4 ges'4 c''2 bes'4 |
+bes'4 aes'4 g'4 aes'2 f'8 ees'8 | des'4 f'4 aes'4 des''2 aes'8 f'8 | ges'4 ges'4 aes'4 bes'2 bes'4 |
+aes'4 g'4 bes'4 aes'2 c''8 des''8 | ees''4 bes'4 c''4 des''2 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s1 s4 f'4 | f'4 des'4 ees'4 f'4 ges'4 f'4 | f'4 ees'4 d'4 ees'2 ees'4 |
+ees'4 c'4 des'4 ees'4 f'4 ees'4 | ees'4 des'4 des'4 des'2 des'4 | des'4 des'4 ees'4 f'4 des'4 des'4 |
+des'4 des'4 des'4 des'2 ges'4 | f'4 e'4 e'4 f'2 des'8 des'8 | des'4 des'4 c'4 des'2 f'4@c |
+f'4 des'4 f'4 f'2 f'4 | f'4 ees'4. d'8 ees'2 ees'4 | ees'4 c'4 ees'4 ges'2 ges'4 |
+ges'4 f'4 e'4 f'2 des'8 des'8 | des'4 des'4 f'4 f'2 f'8 des'8 | des'4 des'4 des'4 des'2 ges'4 |
+f'4 e'4 e'4 f'2 ges'8 aes'8 | g'4 g'4 ges'4 f'2 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s1 s4 des'4 | des'4 aes4 aes4 des'4 des'4 des'4 | aes4 aes4 aes4 aes2 aes4 |
+aes4 aes4 aes4 aes4 aes4 aes4 | aes4 aes4 g4 aes2 f4 | aes4 aes4 aes4 des'4 aes4 f4 |
+ges4 ges4 f4 ges2 des'4 | des'4 des'4 des'4 des'2 aes8 bes8 | aes4 f4 ges4 f2 des'4@c |
+des'4 aes4 des'4 aes2 aes4 | aes4 aes4. aes8 aes2 aes4 | aes4 aes4 aes4 ees'2 c'4 |
+des'4 des'4 des'4 des'2 aes8 ges8 | f4 aes4 des'4 aes2 des'8 aes8 | ges4 ges4 f4 ges2 des'4 |
+des'4 des'4 des'4 des'2 aes8 des'8 | des'4 ees'4 aes4 aes2 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s1 s4 des4 | des4 des4 des4 des4 des4 des4 | aes4 aes4 aes4 aes2 aes4 |
+aes,4 aes,4 aes,4 aes,4 aes,4 aes,4 | des4 des4 des4 des2 des4 | des4 des4 des4 des4 des4 ces4 |
+bes,4 bes,4 aes,4 ges,2 ges,4 | des4 des4 des4 des2 f8 ges8 | aes4 aes,4 aes,4 des2 des4@c |
+des4 des4 des4 des2 des4 | aes,4 aes,4. aes,8 aes,2 aes,4 | aes,4 aes,4 aes,4 aes,2 aes,4 |
+des4 des4 des4 des2 des8 des8 | des4 des4 des4 des2 des8 ces8 | bes,4 bes,4 aes,4 ges,2 ges,4 |
+des4 des4 des4 des2 ees8 f8 | ees4 ees4 aes4 des2 s4
+"""
+
+[lyrics.1]
+text = "When comes to the wear -- y a bless -- ed re -- lease, When up -- ward we pass to His king -- dom of peace, When free from the woes that on earth we must bear, We'll say “good- -- night” here, but “good- -- morn -- ing” up there."
+
+[lyrics.2]
+text = "When fad -- eth the day and dark sha -- dows draw nigh, With Christ close at hand, it is not death to die; He'll wipe ev -- ery tear, roll a -- way ev -- ery care; We'll say “good- -- night” here, but “good- -- morn -- ing” up there."
+
+[lyrics.3]
+text = "When home- -- lights we see shin -- ing bright -- ly a -- bove, Where we shall be soon, through His won -- der -- ful love, We'll praise Him Who called us His heav -- en to share, We'll say “good- -- night” here, but “good- -- morn -- ing” up there."
+
+[lyrics.chorus]
+text = "Good morn -- ing up there where Christ is the Light, Good morn -- ing up there where com -- eth no night; When we step from this earth to God's heav -- en so fair, We'll say “good- -- night” here, but “good- -- morn -- ing” up there."
