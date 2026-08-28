@@ -1,0 +1,87 @@
+
+title = "Under the Blood"
+subtitle = ""
+verse_count = 3
+key_signature = "C"
+time_sig_numerator = 6
+time_sig_denominator = 4
+tempo_bpm = 120
+phrase_breaks = ["4:96", "8:96", "12:96"]
+optional_phrase_breaks = ["2:96", "6:96", "10:96", "14:96"]
+copyrights = [
+  "Lyrics: Ina Pearl Whaley, 1927 (public domain)",
+  "Music: Homer Hammontree, 1927 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+g'4. e'8 g'4 c''4 b'4 a'4 | g'4 fis'4 g'4 e'2. |
+g'4 d'4 e'4 f'4 b'4 a'4 | g'4 fis'4 g'4 e'2. |
+g'4 g'4 g'4 e''4 d''4 c''4 | c''4 b'4 a'4 g'2. |
+b'4. b'8 b'4 d''4( c''4) a'4 | g'2.~ g'2 r4 |
+g'4.@c e'8 f'4 g'2. | b'4. b'8 b'4 c''2. |
+a'4 c''4 a'4 g'4 c''4 e'4 | e'4 d'4 e'4 d'2. |
+g'4 e'4 g'4 c''2. | a'4 c''4 d''4 e''2.! |
+d''4 c''4 a'4 g'4 c''4 c''4 | b'4\\rit a'4 b'4 c''2.\\spanend
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+e'4. c'8 e'4 e'4 g'4 f'4 | e'4 dis'4 e'4 c'2. |
+d'4 b4 c'4 d'4 f'4 f'4 | e'4 dis'4 e'4 c'2. |
+e'4 e'4 e'4 g'4 g'4 g'4 | a'4 g'4 f'4 e'2. |
+g'4. g'8 g'4 fis'2 fis'4 | d'2.( f'2) r4 |
+e'4.@c c'8 d'4 e'2. | g'4. g'8 g'4 e'2. |
+f'4 f'4 f'4 e'4 e'4 c'4 | c'4 c'4 c'4 b2. |
+e'4 c'4 e'4 e'2. | f'4 e'4 a'4 gis'2.! |
+g'4 g'4 f'4 e'4 e'4 e'4 | g'4 f'4 f'4 e'2.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+c'4. g8 c'4 g4 c'4 c'4 | c'4 c'4 c'4 g2. |
+b4 g4 g4 b4 d'4 b4 | c'4 c'4 c'4 g2. |
+c'4 c'4 c'4 c'4 b4 c'4 | c'4 c'4 c'4 c'2. |
+d'4. d'8 d'4 d'2 c'4 | b2.~ b2 r4 |
+c'4.@c g8 g4 c'2. | d'4. d'8 d'4 c'2. |
+c'4 a4 c'4 c'4 g4 g4 | a4 a4 fis4 g2. |
+c'4 c'4 c'4 c'2. | c'4 a4 a4 b2.! |
+b4 c'4 c'4 c'4 g4 g4 | g4 g4 g4 g2.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+c4. c8 c4 c4 c4 c4 | c4 c4 c4 c2. |
+g,4 g,4 g,4 g,4 g,4 g,4 | c4 c4 c4 c2. |
+c4 c4 c4 c4 d4 e4 | f4 f4 f4 c2. |
+g4. g8 g4 d2 d4 | g2.~ g2 r4 |
+c4.@c c8 c4 c2. | g,4. g,8 g,4 c2. |
+f4 f4 f4 c4 c4 g4 | fis4 fis4 d4 g2. |
+c4 c4 c4 c2. | f4 a4 f4 e2.! |
+f4 e4 f4 c4 c4 g4 | g4 g4 g,4 c2.
+"""
+
+[lyrics.1]
+text = "Un -- der the blood of God’s own pre -- cious Son, Shed on the cross, for my sin to a -- tone; I have sweet peace, for my guilt is all gone, Un -- der the cleans -- ing blood."
+
+[lyrics.2]
+text = "Un -- der the blood I am kept so se -- cure, None of sin’s pleas -- ures can ev -- er al -- lure; Ful -- ly I’m cleansed, all my heart is made pure, Un -- der the cleans -- ing blood."
+
+[lyrics.3]
+text = "Un -- der the blood— O how hap -- py each day! Un -- der the blood let me ev -- er -- more stay; Joy -- ous -- ly liv -- ing for Him ev -- ’ry day, Un -- der the cleans -- ing blood."
+
+[lyrics.chorus]
+text = "Un -- der the blood, His pre -- cious blood, Je -- sus has saved me— I’m un -- der the blood; Free from all sin, Joy reigns with -- in! Glo -- ry to Je -- sus— I’m un -- der the blood."
