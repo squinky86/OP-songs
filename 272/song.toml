@@ -1,0 +1,76 @@
+title = "Closer Still"
+subtitle = ""
+verse_count = 5
+key_signature = "Db"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 80
+phrase_breaks = ["4:48", "8:48", "12:48"]
+copyrights = [
+  "Lyrics: David J. Beattie, 1913 (public domain)",
+  "Music: 'Ordu' by Charles H. Gabriel, 1913 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+optional_phrase_breaks = ["2:48", "6:48", "10:48", "14:48"]
+
+[lyrics.1]
+text = "Sav -- ior, draw me to Thy side, Near -- er still, near -- er still! There would I in peace a -- bide, Near -- er still, near -- er still!"
+
+[lyrics.2]
+text = "Songs of prais -- es I would sing Loud -- er still, loud -- er still! Praise to glo -- ri -- fy my King, Loud -- er still, loud -- er still!"
+
+[lyrics.3]
+text = "May Thy love with -- in me shine Bright -- er still, bright -- er still! As a bea -- con light of Thine, Bright -- er still, bright -- er still!"
+
+[lyrics.4]
+text = "Lord I would be in Thy sight Pur -- er still, pur -- er still! Make and keep me by Thy might, Pur -- er still, pur -- er still!"
+
+[lyrics.5]
+text = "More than life Thou art to me, Dear -- er still, dear -- er still! Dai -- ly grows my walk with Thee Dear -- er still, dear -- er still!"
+
+[lyrics.chorus]
+text = "Draw me clos -- er, Lord, to Thee, Let me now Thy beau -- ty see; Help me, Lord, to know Thy will, Draw me clos -- er, clos -- er still."
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+f'4. f'8 ees'8 des'8 | f'8 aes'8 aes'2 | aes'8 f'8 f'2 | ees'8 des'8 des'2 |
+f'4. f'8 ees'8 des'8 | f'8 aes'8 aes'2 | des''8 aes'8 aes'4.( f'8) | ees'8 des'8 des'2 |
+des''4.@c ees''8 des''8 aes'8 | bes'8 des''8 aes'2 | des''4. ees''8 des''8 aes'8 | f'8 des'8 ees'2 |
+f'4. f'8 ees'8 des'8 | f'8 aes'8 aes'2 | des''8 aes'8 aes'4. f'8 | ees'8 des'8 des'2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+des'4. des'8 ees'8 des'8 | des'8 f'8 f'2 | f'8 des'8 des'2 | c'8 des'8 des'2 |
+des'4. des'8 ees'8 des'8 | des'8 f'8 f'2 | f'8 f'8 f'4.( des'8) | c'8 des'8 des'2 |
+f'4.@c ges'8 f'8 f'8 | ges'8 ges'8 f'2 | f'4. ges'8 f'8 f'8 | des'8 des'8 c'2 |
+des'4. des'8 des'8 des'8 | des'8 f'8 f'2 | f'8 f'8 f'4. des'8 | c'8 aes8 aes2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+aes4. aes8 ges8 f8 | aes8 des'8 des'2 | des'8 aes8 aes2 | ges8 f8 f2 |
+aes4. aes8 ges8 f8 | aes8 des'8 des'2 | aes8 des'8 des'4.( aes8) | ges8 f8 f2 |
+aes4.@c aes8 aes8 des'8 | des'8 des'8 des'2 | aes4. aes8 aes8 des'8 | aes8 f8 aes2 |
+aes4. aes8 ges8 f8 | aes8 des'8 des'2 | aes8 des'8 des'4. aes8 | ges8 f8 f2
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+des4. des8 des8 des8 | des8 des8 des2 | des8 des8 des2 | aes,8 des8 des2 |
+des4. des8 des8 des8 | des8 des8 des2 | des8 des8 des2 | aes,8 des8 des2 |
+des4.@c des8 des8 des8 | ges,8 bes,8 des2 | des4. des8 des8 des8 | des8 des8 aes,2 |
+des4. des8 des8 des8 | des8 des8 des2 | des8 des8 des4. des8 | aes,8 des8 des2
+"""
