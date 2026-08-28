@@ -1,0 +1,64 @@
+title = "Savior, More than Life to Me"
+subtitle = "Every Day and Hour"
+verse_count = 3
+key_signature = "Ab"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 80
+phrase_breaks = ["5:32", "9:32", "13:32"]
+copyrights = [
+  "Lyrics: Fanny J. Crosby, 1875 (public domain)",
+  "Music: William H. Doane, 1875 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+optional_phrase_breaks = ["3:32", "7:32", "11:32", "15:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 c''8. bes'16 | aes'4. bes'8 aes'8. f'16 | ees'2 ees'8 ees'8 | f'16 aes'8. ees'16 aes'8. c''8.! bes'16 | bes'2 c''8. bes'16 | aes'4. bes'8 aes'8. f'16 | ees'2 ees'8 ees'8 | f'16 aes'8. ees'16 aes'8. c''8.! bes'16 | aes'2 aes'8.@c bes'16 | c''2 c''8. des''16 | ees''2 c''8. bes'16 | aes'4. aes'8 bes'8 c''8 | bes'2 c''8. bes'16 | aes'4. bes'8 aes'8. f'16 | ees'2 ees'8 ees'8 | f'16 aes'8. ees'16 aes'8. c''8.! bes'16 | aes'2 s4 | 
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 ees'8. des'16 | c'4. ees'8 f'8. des'16 | c'2 c'8 c'8 | des'16 f'8. ees'16 ees'8. ees'8.! ees'16 | ees'2 ees'8. des'16 | c'4. ees'8 f'8. des'16 | c'2 c'8 c'8 | des'16 f'8. ees'16 ees'8. ees'8.! des'16 | c'2 ees'8.@c ees'16 | aes'2 aes'8. aes'16 | aes'2 aes'8. ees'16 | ees'4. ees'8 ees'8 ees'8 | ees'2 ees'8. des'16 | c'4. ees'8 f'8. des'16 | c'2 c'8 c'8 | des'16 f'8. ees'16 ees'8. ees'8.! des'16 | c'2 s4 | 
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 aes8. ees16 | ees4. aes8 aes8. aes16 | aes2 aes8 aes8 | aes16 aes8. aes16 aes8. aes8.! g16 | g2 aes8. ees16 | ees4. aes8 aes8. aes16 | aes2 aes8 aes8 | aes16 aes8. aes16 aes8. aes8.! g16 | aes2 c'8.@c des'16 | ees'8 ees'8 ees'4 ees'8. bes16 | c'8 c'8 c'4 ees'8. des'16 | c'4. aes8 g8 aes8 | g2 aes8. ees16 | ees4. aes8 aes8. aes16 | aes2 aes8 aes8 | aes16 aes8. aes16 aes8. aes8.! g16 | aes2 s4 | 
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 aes,8. aes,16 | aes,4. c8 des8. des16 | aes,2 aes,8 aes,8 | des16 des8. c16 c8. ees8.! ees16 | ees2 aes,8. aes,16 | aes,4. c8 des8. des16 | aes,2 aes,8 aes,8 | des16 des8. c16 c8. ees8.! ees16 | aes,2 aes8.@c aes16 | aes8 aes8 aes4 aes8. aes16 | aes8 aes8 aes4 ees8. ees16 | aes,4. c8 bes,8 aes,8 | ees2 aes,8. aes,16 | aes,4. c8 des8. des16 | aes,2 aes,8 aes,8 | des16 des8. c16 c8. ees8.! ees16 | aes,2 s4 | 
+"""
+
+[parts.Tenor.lyrics.chorus]
+text = "Ev -- ery day and hour, ev -- ery day and hour, Let me feel Thy cleans -- ing pow'r; May Thy ten -- der love to me Bind me clos -- er, clos -- er, Lord, to Thee."
+
+[parts.Bass.lyrics.chorus]
+text = "Ev -- ery day and hour, ev -- ery day and hour, Let me feel Thy cleans -- ing pow'r; May Thy ten -- der love to me Bind me clos -- er, clos -- er, Lord, to Thee."
+
+[lyrics.1]
+text = "Sav -- ior, more than life to me, I am cling -- ing, cling -- ing close to Thee; Let Thy pre -- cious blood ap -- plied, Keep me ev -- er, ev -- er near Thy side."
+
+[lyrics.2]
+text = "Through this chang -- ing world be -- low, Lead me gent -- ly, gent -- ly as I go; Trust -- ing Thee, I can -- not stray, I can nev -- er, nev -- er lose my way."
+
+[lyrics.3]
+text = "Let me love Thee more and more, Till this fleet -- ing, fleet -- ing life is o'er; Till my soul is lost in love, In a bright -- er, bright -- er world a -- bove."
+
+[lyrics.chorus]
+text = "Ev -- ery day, ev -- ery hour, Let me feel Thy cleans -- ing pow'r; May Thy ten -- der love to me Bind me clos -- er, clos -- er, Lord, to Thee."
