@@ -1,0 +1,92 @@
+title = "I Will Sing of My Redeemer"
+subtitle = ""
+verse_count = 4
+key_signature = "Ab"
+time_sig_numerator = 9
+time_sig_denominator = 8
+tempo_bpm = 135
+phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "11:72", "13:72", "15:72"]
+copyrights = [
+  "Lyrics: Philip P. Bliss, 1876 (public domain)",
+  "Music: James McGranahan, 1877 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+non_breaking_phrase_breaks = ["12:16", "12:64", "12:72", "13:16", "16:16", "16:64", "17:16"]
+
+[[time_sig_changes]]
+measure = 10
+numerator = 12
+denominator = 8
+duration = 8
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. ees'8[ aes'8] bes'8 | c''4. c''4. c''8[ bes'8] aes'8 | bes'4. bes'4. ees'8[ g'8] bes'8 | des''4.~ des''4 des''8 des''8[ c''8] bes'8 |
+c''2. ees'8[ aes'8] bes'8 | c''4. c''4. c''8[ bes'8] aes'8 | bes'4. bes'4. ees'8[ g'8] aes'8 | bes'4.~ bes'4 bes'8 bes'8[ aes'8] g'8 |
+aes'2. aes'8[@c bes'8] c''8 | des''2.~ des''4 des''8 f'8[ aes'8] des''8 | c''4. c''2. ees'8[ aes'8] c''8 | bes'2.~ bes'4 bes'8 bes'8[ aes'8] bes'8 |
+c''2.~ c''4. aes'8[ bes'8] c''8 | des''2.~ des''4 des''8 f'8[ aes'8] des''8 | c''4. c''2. ees'8[ aes'8] c''8 | ees''2.~ ees''4 des''8 c''4 bes'8 |
+aes'2.~ aes'4. s4.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. c'4 des'8 | ees'4. ees'4. ees'8[ des'8] c'8 | ees'4. ees'4. ees'4 ees'8 | ees'4.~ ees'4 ees'8 ees'4 ees'8 |
+ees'2. c'4 des'8 | ees'4. ees'4. ees'8[ des'8] c'8 | ees'4. ees'4. ees'4 ees'8 | ees'4.~ ees'4 ees'8 ees'4 ees'8 |
+ees'2. c'8[@c des'8] ees'8 | f'2.~ f'4 f'8 des'8[ f'8] f'8 | ees'4. ees'2. c'8[ ees'8] ees'8 | ees'4 ees'8 ees'4 ees'8 ees'4 ees'8 ees'4 ees'8 |
+ees'2.~ ees'4. c'8[ des'8] ees'8 | f'2.~ f'4 f'8 des'8[ f'8] f'8 | ees'4. ees'2. c'8[ ees'8] aes'8 | c''2.~ c''4 bes'8 aes'4 g'8 |
+aes'4 ees'8 f'4 f'8 ees'4. s4.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. aes4 aes8 | aes4. aes4. aes4 aes8 | g4. g4. g4 g8 | bes4.~ bes4 bes8 bes8[ aes8] g8 |
+aes2. aes4 aes8 | aes4. aes4. aes4 aes8 | g4. g4. g8[ bes8] c'8 | des'4.~ des'4 des'8 des'8[ c'8] bes8 |
+c'2. aes4@c aes8 | aes4 aes8 aes4 aes8 aes4 aes8 aes4 aes8 | aes4 aes8 aes4 aes8 aes4 aes8 aes8[ c'8] ees'8 | des'2.~ des'4 des'8 des'8[ c'8] bes8 |
+aes4 aes8 aes4 aes8 aes4. aes4 aes8 | aes4 aes8 aes4 aes8 aes4 aes8 aes4 aes8 | aes4 aes8 aes4 aes8 aes4 aes8 aes8[ c'8] ees'8 | ees'4 ees'8 ees'4 ees'8 ees'4 ees'8 ees'4 ees'8 |
+c'4 c'8 des'4 des'8 c'4. s4.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. aes4 aes8 | aes4. aes4. aes4 aes8 | ees4. ees4. ees4 ees8 | ees4.~ ees4 ees8 ees4 ees8 |
+aes,2. aes,4 aes,8 | aes,4. aes,4. aes,4 aes,8 | ees4. ees4. ees4 ees8 | ees4.~ ees4 ees8 ees4 ees8 |
+<aes aes,>2. aes4@c aes8 | des4 des8 des4 des8 des4 des8 des4 des8 | aes,4 aes,8 aes,4 aes,8 aes,4 aes,8 aes,4 aes,8 | ees4 ees8 ees4 ees8 ees4. ees8[ f8] g8 |
+aes4 aes8 aes4 aes8 aes4. aes4 aes8 | des4 des8 des4 des8 des4 des8 des4 des8 | aes,4 aes,8 aes,4 aes,8 aes,4 aes,8 aes4 aes8 | ees4 ees8 ees4 ees8 ees4 ees8 ees4 ees8 |
+<aes, aes>2.~ <aes, aes>4. s4.
+"""
+
+[lyrics.1]
+text = "I will sing of my Re -- deem -- er and his won -- drous love to me; on the cru -- el cross he suf -- fered, from the curse to set me free."
+
+[lyrics.2]
+text = "I will tell the won -- drous sto -- ry, how my lost es -- tate to save, in his bound -- less love and mer -- cy, he the ran -- som free -- ly gave."
+
+[lyrics.3]
+text = "I will praise my dear Re -- deem -- er, his tri -- um -- phant power I'll tell: how the vic -- to -- ry he gives me o -- ver sin and death and hell."
+
+[lyrics.4]
+text = "I will sing of my Re -- deem -- er and his heav -- enly love for me; he from death to life has brought me, Son of God, with him to be."
+
+[lyrics.chorus]
+text = "Sing, oh, sing of my Re -- deem -- er, With His blood He pur -- chased me; on the cross He sealed my par -- don, paid the debt, and made me free."
+
+[parts.Alto.lyrics.chorus]
+text = "Sing, oh, sing of my Re -- deem -- er, With His blood He pur -- chased me, He pur -- chased me; on the cross He sealed my par -- don, paid the debt, and made me free. and made me free."
+
+[parts.Tenor.lyrics.chorus]
+text = "Sing, oh, sing of my Re -- deem -- er, Sing, oh, sing of my Re -- deem -- er, With His blood He pur -- chased me; He pur -- chased me; on the cross He sealed my par -- don, on the cross He sealed my par -- don, paid the debt, and made me free, and made me free. and made me free."
+
+[parts.Bass.lyrics.chorus]
+text = "Sing, oh, sing of my Re -- deem -- er, Sing, oh, sing of my Re -- deem -- er, With His blood He pur -- chased me, With His blood He pur -- chased me; on the cross He sealed my par -- don, on the cross He sealed my par -- don, paid the debt, and made me free, and made me free."
