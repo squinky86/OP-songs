@@ -1,0 +1,95 @@
+title = "Take the Name of Jesus with You"
+subtitle = ""
+verse_count = 4
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+phrase_breaks = ["4:64", "8:48", "12:48"]
+copyrights = [
+  "Lyrics: Lydia Baxter, 1870 (public domain)",
+  "Music: William H. Doane, 1871 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+optional_phrase_breaks = ["2:64", "6:64", "10:48", "14:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+ees'4 aes'4 c''8. bes'16 aes'8. bes'16 | aes'2 ees'2 |
+f'4 aes'4 g'8. f'16 aes'8. f'16 | ees'2. r4 |
+ees'4 bes'4 aes'8. g'16 aes'8. bes'16 | c''2 aes'2 |
+bes'4 ees'4 c''8. bes'16 aes'8. g'16 | aes'2. aes'8.@c g'16 |
+f'2. aes'8. f'16 | ees'2. aes'8. bes'16 |
+c''4 ees'4 aes'4 c''4 | bes'2. c''8. bes'16 |
+aes'2. aes'8. g'16 | f'2( aes'4!) aes'8. bes'16 |
+c''4 ees'4 c''4 bes'4 | aes'1
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+c'4 c'4 ees'8. des'16 c'8. des'16 | c'2 c'2 |
+des'4 f'4 ees'8. des'16 f'8. des'16 | c'2. r4 |
+ees'4 ees'4 ees'8. ees'16 ees'8. ees'16 | ees'2 ees'2 |
+ees'4 ees'4 ees'8. ees'16 ees'8. des'16 | c'2. c'8.@c ees'16 |
+des'2. f'8. des'16 | c'2. ees'8. ees'16 |
+ees'4 c'4 ees'4 aes'4 | g'2. ees'8. des'16 |
+c'2. c'8. ees'16 | des'2( f'4!) f'8. fes'16 |
+ees'4 ees'4 ees'4 des'4 | c'1
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+aes4 aes4 aes8. aes16 aes8. aes16 | aes2 aes2 |
+aes4 aes4 aes8. aes16 aes8. aes16 | aes2. r4 |
+g4 des'4 c'8. bes16 c'8. g16 | aes2 c'2 |
+des'4 g4 aes8. des'16 c'8. bes16 | aes2. r4@c |
+r4 aes8. aes16 aes4 r4 | r4 aes8. aes16 aes4 aes8. g16 |
+aes4 aes4 c'4 ees'4 | ees'2. r4 |
+r4 aes8. aes16 aes4 aes8. aes16 | aes4 aes4 aes4! aes8. aes16 |
+aes4 c'4 aes4 g4 | aes1
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+aes,4 aes,4 aes,8. aes,16 aes,8. aes,16 | aes,2 aes,2 |
+des4 des4 des8. des16 des8. des16 | aes,2. r4 |
+ees4 ees4 ees8. ees16 ees8. ees16 | aes,2 aes,2 |
+ees4 ees4 ees8. ees16 ees8. ees16 | aes,2. r4@c |
+r4 des8. des16 des4 r4 | r4 aes,8. aes,16 aes,4 c8. ees16 |
+aes4 aes4 aes4 aes,4 | ees2. r4 |
+r4 aes,8. aes,16 aes,4 aes,8. c16 | des4 des4 des4! des8. des16 |
+ees4 ees4 ees4 ees4 | aes,1
+"""
+
+[lyrics.1]
+text = "Take the name of Je -- sus with you, Child of sor -- row and of woe, It will joy and com -- fort give you; Take it then, wher -- e'er you go."
+
+[lyrics.2]
+text = "Take the name of Je -- sus ev -- er, As a shield from ev -- ery snare; If temp -- ta -- tions round you gath -- er, Breathe that ho -- ly name in prayer."
+
+[lyrics.3]
+text = "O the pre -- cious name of Je -- sus! How it thrills our souls with joy, When His lov -- ing arms re -- ceive us, And His songs our tongues em -- ploy!"
+
+[lyrics.4]
+text = "At the name of Je -- sus bow -- ing, Fall -- ing pros -- trate at His feet, King of kings in Heav'n we'll crown Him, When our jour -- ney is com -- plete."
+
+[lyrics.chorus]
+text = "Pre -- cious name, O how sweet! Hope of earth and joy of Heav'n; Pre -- cious name, O how sweet! Hope of earth and joy of Heav'n."
+
+[parts.Tenor.lyrics.chorus]
+text = "Pre -- cious name, O how sweet! Hope of earth and joy of Heav'n; Pre -- cious name, O how sweet, how sweet! Hope of earth and joy of Heav'n."
+
+[parts.Bass.lyrics.chorus]
+text = "Pre -- cious name, O how sweet! Hope of earth and joy of Heav'n; Pre -- cious name, O how sweet, how sweet! Hope of earth and joy of Heav'n."
