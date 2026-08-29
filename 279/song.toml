@@ -1,0 +1,61 @@
+title = "In the Service of the King"
+subtitle = ""
+verse_count = 4
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 104
+phrase_breaks = ["5:48", "9:48", "13:48"]
+copyrights = [
+  "Lyrics: Alfred H. Ackley, 1912 (public domain)",
+  "Music: B. D. Ackley, 1912 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. c'8. des'16 | ees'8. ees'16 d'8. ees'16 f'8. ees'16 d'8. ees'16 | c''2. c''8 des''8 | c''4 bes'4 ees'4 c''4 | bes'4 aes'2 c'8. des'16 | ees'8. ees'16 d'8. ees'16 f'8. ees'16 d'8. ees'16 | c''2. c''8 des''8 | c''4 bes'4 f'4 g'4 | aes'2. ees'8@c aes'8 | c''4 c''4 des''4 c''4 | f'2. g'8 aes'8 | bes'4 g'4 aes'4 bes'4 | c''2. c''8 des''8 | ees''4 c''4 des''4 c''4 | bes'4 aes'4 g'4 f'4 | ees'8 c''4. c''4. bes'8 | aes'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. aes8. bes16 | c'8. c'16 b8. c'16 c'8. c'16 b8. c'16 | ees'2. ees'8 f'8 | ees'4 des'4 des'4 ees'4 | des'4 c'2 aes8. bes16 | c'8. c'16 b8. c'16 c'8. c'16 b8. c'16 | ees'2. ees'8 f'8 | ees'4 des'4 des'4 des'4 | c'2. c'8@c c'8 | ees'4 ees'4 f'4 ees'4 | d'2. des'8 c'8 | des'4 ees'4 ees'4 ees'4 | ees'2. ees'8 ees'8 | ees'4 ees'4 f'4 ees'4 | des'4 des'4 des'4 b4 | c'8 ees'4. ees'4. des'8 | c'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. ees8. ees16 | aes8. aes16 aes8. aes16 aes8. aes16 aes8. aes16 | aes2. aes8 aes8 | g4 g4 g4 g4 | g4 aes2 ees8. ees16 | aes8. aes16 aes8. aes16 aes8. aes16 aes8. aes16 | aes2. aes8 aes8 | g4 g4 aes4 bes4 | aes2. aes8@c ees8 | aes4 aes4 aes4 aes4 | aes2. bes8 aes8 | g4 bes4 aes4 g4 | aes2. aes8 bes8 | c'4 aes4 aes4 aes4 | f4 f4 g4 aes4 | aes8 aes4. g4. g8 | ees2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. aes,8. aes,16 | aes,8. aes,16 aes,8. aes,16 aes,8. aes,16 aes,8. aes,16 | aes2. aes8 aes8 | ees4 ees4 ees4 ees4 | ees4 aes,2 aes,8. aes,16 | aes,8. aes,16 aes,8. aes,16 aes,8. aes,16 aes,8. aes,16 | aes2. aes8 aes8 | ees4 ees4 ees4 ees4 | aes,2. aes,8@c aes,8 | aes,4 aes,4 aes,4 aes,4 | bes,2. ees8 ees8 | ees4 des4 c4 ees4 | aes2. aes8 aes8 | aes4 aes,4 aes,4 aes,4 | des4 des4 des4 d4 | ees8 ees4. ees4. ees8 | aes,2. s4
+"""
+
+[lyrics.1]
+text = "I am hap -- py in the ser -- vice of the King, I am hap -- py, Oh so hap -- py! I have peace and joy that noth -- ing else can bring, In the ser -- vice of the King."
+
+[lyrics.2]
+text = "I am hap -- py in the ser -- vice of the King, I am hap -- py, Oh so hap -- py! Through the sun -- shine and the shad -- ow I can sing, In the ser -- vice of the King."
+
+[lyrics.3]
+text = "I am hap -- py in the ser -- vice of the King, I am hap -- py, Oh so hap -- py! To His guid -- ing hand for -- ev -- er I will cling, In the ser -- vice of the King."
+
+[lyrics.4]
+text = "I am hap -- py in the ser -- vice of the King, I am hap -- py, Oh so hap -- py! All that I pos -- sess to Him I glad -- ly bring, In the ser -- vice of the King."
+
+[lyrics.chorus]
+text = "In the ser -- vice of the King, Ev -- ery tal -- ent I will bring; I have peace and joy and bless -- ing In the ser -- vice of the King."
