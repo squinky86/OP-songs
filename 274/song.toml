@@ -1,0 +1,89 @@
+title = "Jesus, Rose of Sharon"
+subtitle = ""
+verse_count = 4
+key_signature = "E"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 96
+phrase_breaks = ["4:48", "8:48", "12:48", "16:48", "20:48"]
+copyrights = [
+  "Lyrics: Ida A. Guirey, 1922 (public domain)",
+  "Music: Charles H. Gabriel, 1922 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[lyrics.1]
+text = "Je -- sus, Rose of Shar -- on, bloom with -- in my heart; Beau -- ties of Thy truth and ho -- li -- ness im -- part, That wher -- e’er I go my life may shed a -- broad Fra -- grance of the know -- ledge of the love of God."
+
+[lyrics.2]
+text = "Je -- sus, Rose of Shar -- on, sweet -- er far to see Than the fair -- est flow’rs of earth could ev -- er be, Fill my life com -- plete -- ly, add -- ing more each day Of Thy grace di -- vine and pur -- i -- ty, I pray."
+
+[lyrics.3]
+text = "Je -- sus, Rose of Shar -- on, balm for ev -- ’ry ill, May Thy ten -- der mer -- cy’s heal -- ing pow’r dis -- til For af -- flict -- ed souls of wea -- ry bur -- dened men, Giv -- ing need -- y mor -- tals health and hope a -- gain."
+
+[lyrics.4]
+text = "Je -- sus, Rose of Shar -- on, bloom for -- ev -- er -- more; Be Thy glo -- ry seen on earth from shore to shore, Till the na -- tions own Thy sov -- ’reign -- ty com -- plete, Lay their hon -- ors down and wor -- ship at Thy feet."
+
+[lyrics.chorus]
+text = "Je -- sus, Rose of Shar -- on, Bloom in ra -- diance and in love with -- in my heart."
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+gis'4. fis'8 e'8 fis'8 | gis'4 b'2 | cis''4. b'8 e'8 fis'8 | gis'2. |
+fis'4. eis'8 fis'8 gis'8 | a'4. b'8 dis''8 cis''8 | b'2 a'4 | gis'2. |
+gis'4. fis'8 e'8 fis'8 | gis'4. a'8 b'8 e'8 | e''2 dis''4 | cis''2. |
+e''4( dis''4) cis''4 | b'4. cis''8 b'8 gis'8 | e'8 a'8 gis'4 fis'4 | e'2. |
+b'4@c b'2~ | b'2 cis''8 b'8 | b'4 b'2~ | b'2. |
+e''4( dis''4) cis''4 | b'4. cis''8 b'8 gis'8 | e'8 a'8 gis'4 fis'4 | e'2. |
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+e'4. b8 b8 b8 | e'4 e'2 | e'4. e'8 e'8 dis'8 | e'2. |
+dis'4. cisis'8 dis'8 e'8 | dis'4. dis'8 fis'8 a'8 | gis'2 fis'4 | e'2. |
+e'4. b8 b8 b8 | e'4. e'8 e'8 e'8 | e'2 e'4 | e'2. |
+e'2 e'4 | e'4. e'8 e'8 e'8 | e'8 fis'8 e'4 dis'4 | e'2. |
+r2@c dis'8 e'8 | fis'8[ e'8] dis'2 | r2 e'8 fis'8 | gis'8[ fis'8] e'2 |
+e'2 e'4 | e'4. e'8 e'8 e'8 | e'8 fis'8 e'4 b4 | b2. |
+"""
+
+[parts.Alto.lyrics.chorus]
+text = "bless -- ed Je -- sus, Rose of Shar -- on, Bloom in ra -- diance and in love with -- in my heart."
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+b4. a8 gis8 a8 | b4 gis2 | a4. gis8 b8 b8 | b2. |
+a4. gis8 a8 gis8 | fis4. fis8 b8 b8 | b2 b4 | b2. |
+b4. a8 gis8 a8 | b4. fis8 gis8 gis8 | b2 b4 | a2. |
+cis'4( b4) a4 | gis4. a8 gis8 b8 | cis'8 cis'8 b4 a4 | gis2. |
+r2@c fis8 gis8 | a8[ gis8] fis2 | r2 gis8 a8 | b8[ a8] gis2 |
+cis'4( b4) a4 | gis4. a8 gis8 b8 | cis'8 cis'8 b4 a4 | gis2. |
+"""
+
+[parts.Tenor.lyrics.chorus]
+text = "bless -- ed Je -- sus, Rose of Shar -- on, Bloom in ra -- diance and in love with -- in my heart."
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+e4. e8 e8 e8 | e4 e2 | e4. e8 gis8 b8 | e2. |
+b,4. b,8 b,8 b,8 | b,4. b,8 b,8 b,8 | b,2 cis8[ dis8] | e2. |
+e4. e8 e8 e8 | e4. e8 e8 e8 | gis2 gis4 | a2. |
+a,4.( b,8) cis8[ dis8] | e4. e8 e8 e8 | cis8 a,8 b,4 b,4 | e2. |
+r2@c b,8 b,8 | b,4 b,2 | r2 e8 e8 | e4 e2 |
+a,4.( b,8) cis8[ dis8] | e4. e8 e8 e8 | cis8 a,8 b,4 b,4 | e2.
+"""
+
+[parts.Bass.lyrics.chorus]
+text = "bless -- ed Je -- sus, Rose of Shar -- on, Bloom in ra -- diance and in love with -- in my heart."
