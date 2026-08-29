@@ -127,8 +127,9 @@ g'2~ | g'4 ...      ← one sound held across the barline
 ## 11. Lyric text style
 
 1. Syllables within a word are separated by ` -- ` (space, two hyphens, space); words by single spaces.
-2. Punctuation attaches to the syllable it follows (`know,` `so.`); keep the source hymnal's punctuation and capitalization (capital at each poetic line start).
-3. Do not encode line breaks in the text — line structure comes from `phrase_breaks` (§9).
+2. Punctuation attaches to the syllable it follows (`know,` `so.`); keep the source hymnal's punctuation and capitalization (capital at each poetic line start), except as required by rule 3.
+3. **Nouns and pronouns referring to Deity are capitalized**, even where the source prints them lowercase. This covers names and titles (`God`, `Lord`, `Jesus`, `Christ`, `Savior`, `Redeemer`, `Father`, `Son`, `Holy Spirit`, `Lamb`, `King`, `Almighty`) and every pronoun standing for Him (`He`, `Him`, `His`, `Himself`, `Thee`, `Thou`, `Thy`, `Thine`, `Who` when its antecedent is Deity). Capitalize the syllable that carries the letter: a word split across slots is written `Sav -- ior`, `Je -- sus`, `Al -- might -- y`. The same applies to translations (`Dios`, `Señor`, `Él`, `Su`). Words that merely describe rather than name Him stay lowercase (`the love of God`, `a lamb led to slaughter`), as do pronouns whose antecedent is the singer or the church.
+4. Do not encode line breaks in the text — line structure comes from `phrase_breaks` (§9).
 
 ## 12. Converged call-and-response verses
 
@@ -189,5 +190,6 @@ Before committing a new `song.toml`:
 - [ ] Fermatas/staccatos/accents on every sounding voice
 - [ ] `@c` on the chorus's first event (rest included); `@e` for a coda
 - [ ] `phrase_breaks` at every poetic line end; optional breaks at caesuras
+- [ ] Nouns and pronouns referring to Deity capitalized in every verse and every translation (§11.3)
 - [ ] Lines identical in every verse written once as `[lyrics.sN]` shared sections (§12), never pasted per verse
 - [ ] Render the PDF and play the MIDI: lyrics aligned, no swallowed syllables, all voices audible at intended volume
