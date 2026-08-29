@@ -1,0 +1,110 @@
+title = "Resting in His Love"
+subtitle = ""
+verse_count = 3
+key_signature = "D"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+phrase_breaks = ["4:64", "8:48", "10:64", "12:48", "14:64"]
+copyrights = [
+  "Lyrics: Virgil P. Brock, 1915 (public domain)",
+  "Music: Blanche Kerr Brock, 1928 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+optional_phrase_breaks = ["2:64", "6:64"]
+
+[lyrics.1]
+text = "God has shown His lov -- ing face From His throne in heav'n a -- bove; And I've found a rest -- ing- -- place, In the shel -- ter of His love."
+
+[lyrics.2]
+text = "When the cares of life op -- press, When the sky is dark a -- bove; I can al -- ways find a rest, In the shel -- ter of His love."
+
+[lyrics.3]
+text = "O, if you were nev -- er blest, With this peace from heav'n a -- bove; There's for you a won -- drous rest, In the shel -- ter of His love."
+
+[parts.Bass.lyrics.1]
+text = ""
+
+[parts.Bass.lyrics.2]
+text = ""
+
+[parts.Bass.lyrics.3]
+text = ""
+
+
+[parts.Bass2.lyrics.1]
+text = ""
+
+[parts.Bass2.lyrics.2]
+text = ""
+
+[parts.Bass2.lyrics.3]
+text = ""
+
+[lyrics.chorus]
+text = "I am rest -- ing, rest -- ing, Rest -- ing, sweet -- ly rest -- ing in His love; I am rest -- ing in His love, Rest -- ing in the shel -- ter of His love."
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+a'4. g'8 fis'8 e'8 g'8 fis'8 | a'1 | a'4. b'8 a'8 a'8 a'8 gis'8 | g'1 |
+a'4. g'8 fis'8 e'8 g'8 fis'8 | a'1 | b'4. b'8 a'8 fis'8 g'8 g'8 | fis'2. fis'8@c fis'8 |
+g'2 g'2 | fis'2 fis'2 | a'4 a'4 a'4 a'4 | a'8 d''8 cis''8 b'8 a'4 fis'8 fis'8 |
+g'2 g'2 | fis'4 eis'4 fis'2 | fis'8 e'8 d'8 e'8 fis'8 fis'8 g'8 fis'8 | d'1
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+fis'4. e'8 d'8 cis'8 e'8 d'8 | fis'1 | fis'4. g'8 fis'8 fis'8 e'8 d'8 | e'1 |
+fis'4. e'8 d'8 cis'8 e'8 d'8 | fis'1 | g'4. g'8 fis'8 d'8 e'8 cis'8 | d'2. d'8@c d'8 |
+cis'2 e'2 | d'2 d'2 | a'8 g'8 fis'8 e'8 a'8 g'8 e'8 eis'8 | fis'2. d'8 d'8 |
+cis'2 e'2 | d'4 d'4 d'2 | d'8 d'8 d'8 d'8 d'8 d'8 cis'8 cis'8 | a1
+"""
+
+[parts.Alto.lyrics.chorus]
+text = "I am rest -- ing, rest -- ing, Rest -- ing in the shel -- ter of His love; I am rest -- ing in His love, Rest -- ing in the shel -- ter of His love."
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+a4. g8 fis8 e8 g8 fis8 | a1 | fis4. g8 fis8 a8 a8 gis8 | a1 |
+a4. g8 fis8 e8 g8 fis8 | a1 | b4. b8 a8 fis8 g8 g8 | fis2. a8@c a8 |
+b8 e'8 d'8 b8 cis'8 a8 a8 a8 | b8 d'8 b8 cis'8 a2 | cis'8 b8 a8 g8 cis'8 b8 g8 gis8 | a2. a8 a8 |
+b8 e'8 d'8 b8 cis'8 a8 a8 a8 | b8 d'8 b8 d'8 a2 | gis8 gis8 gis8 gis8 a8 a8 b8 a8 | fis1
+"""
+
+[parts.Tenor.lyrics.chorus]
+text = "I am rest -- ing, sweet -- ly rest -- ing, In the shel -- ter of His love, Rest -- ing in the shel -- ter of His love; I am rest -- ing, sweet -- ly rest -- ing in the shel -- ter of His ​love, Rest -- ing in the shel -- ter of His love."
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+r1 | r1 | r1 | r1 | r1 | r1 | r1 | r2. d8@c d8 |
+a,2 a,2 | d2 d2 | a,4 a,4 a,4 a,4 | d8 d8 d8 d8 d4 d8 d8 |
+a,2 a,2 | d4 d4 d2 | b,2( a,8) a,8 a,8 a,8 | d1
+"""
+
+[parts.Bass2]
+choral_type = "bass"
+clef = "bass"
+staff_number = 3
+notes = """
+s1 | s1 | s1 | s1 | s1 | s1 | s1 | s2. s4@c |
+s1 | s1 | s1 | s1 |
+s1 | s1 | b,2 a,2 | d8 b,8 a,8 fis,8 d,2
+"""
+
+[parts.Bass.lyrics.chorus]
+text = "I am rest -- ing, rest -- ing, Rest -- ing, sweet -- ly rest -- ing in His love; I am rest -- ing in His love, Rest -- ing in His love."
+
+[parts.Bass2.lyrics.chorus]
+text = "Rest -- ing  rest -- ing in His love."

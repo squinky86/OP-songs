@@ -94,3 +94,6 @@ text = "There is no tri -- al, grief, or pain, No mo -- ment of the day, But tha
 
 [lyrics.chorus]
 text = "Pray in the Morn -- ing, Pray at the Noon -- time, Pray in the Eve -- ning, Pray an -- y -- time; Pray when you're hap -- py, Pray when in sor -- row, Pray when you're temp -- ted, Pray all the time."
+
+[parts.Bass2.lyrics.chorus]
+text = "Pray in the Morn -- ing, Pray at the Noon -- time, Pray in the Eve -- ning, ​Pray an -- y -- time; Pray when you're hap -- py, Pray when in sor -- row, Pray when you're temp -- ted, ​Pray all the time."
