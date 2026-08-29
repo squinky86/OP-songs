@@ -1,0 +1,64 @@
+title = "O Day of Rest and Gladness"
+subtitle = ""
+verse_count = 6
+key_signature = "F"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 103
+phrase_breaks = ["5:48", "9:48", "13:48"]
+copyrights = [
+  "Lyrics: Christopher Wordsworth, 1862 (public domain)",
+  "Music: 'Mendebras' by Lowell Mason, 1839 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. f'8.[ g'16] | a'4. a'8 a'8[ g'8] f'8[ g'8] | f'4 c'2 f'8[ a'8] | c''4 c''4 c''8[ bes'8] a'8[ bes'8] | a'2. f'8.[ g'16] | a'4. a'8 a'8[ g'8] f'8[ g'8] | f'4 c'2 f'8[ a'8] | c''4 c''4 c''8[ bes'8] a'8[ bes'8] | a'2. c''4 | d''4. d''8 d''4 d''4 | c''4 a'2 c''4 | c''4 bes'8[ a'8] bes'4 c''4 | a'2. c''4 | d''4. d''8 f''4 d''4 | c''4 a'2 c''4 | c''4 a'8[ c''8] c''8[ bes'8] a'8[ g'8] | f'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. c'4 | c'4. c'8 c'4 c'4 | c'4 c'2 c'8[ f'8] | a'4 a'4 a'8[ g'8] f'8[ g'8] | f'2. c'4 | c'4. c'8 c'4 c'4 | c'4 c'2 c'8[ f'8] | a'4 a'4 a'8[ g'8] f'8[ g'8] | f'2. f'4 | f'4. f'8 f'4 f'4 | f'4 f'2 f'4 | a'4 g'8[ f'8] g'4 e'4 | f'2. f'4 | f'4. f'8 f'4 f'4 | f'4 c'2 f'4 | f'4 f'8[ a'8] a'8[ g'8] f'8[ e'8] | f'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. a8.[ bes16] | c'4. c'8 c'8[ bes8] a8[ bes8] | a4 a2 a8[ c'8] | f'4 c'4 c'4 c'4 | c'2. a8.[ bes16] | c'4. c'8 c'8[ bes8] a8[ bes8] | a4 a2 a8[ c'8] | f'4 c'4 c'4 c'4 | c'2. a4 | bes4. bes8 bes4 bes4 | a4 c'2 a4 | c'4 c'4 c'4 c'4 | c'2. a4 | bes4. bes8 d'4 bes4 | a4 c'2 a4 | a4 c'4 c'4 c'8[ bes8] | a2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. f4 | f4. f8 c4 c4 | f4 f2 f4 | f4 f4 c4 c4 | f2. f4 | f4. f8 c4 c4 | f4 f2 f4 | f4 f4 c4 c4 | f2. f4 | bes,4. bes,8 bes,8[ c8] d8[ e8] | f4 f2 f4 | c4 c4 c4 c4 | f2. f4 | bes,4. bes,8 bes,4 d4 | f4 f2 f4 | c4 c4 c4 c4 | f2. s4
+"""
+
+[lyrics.1]
+text = "O day of rest and glad -- ness, O day of joy and light, O balm of care and sad -- ness, Most beau -- ti -- ful, most bright; On thee, the high and low -- ly, Through ag -- es joined in tune, Sing Ho -- ly, ho -- ly, ho -- ly, To God, the great Tri -- une."
+
+[lyrics.2]
+text = "On thee, at the cre -- a -- tion, The light first had its birth; On thee, for our sal -- va -- tion, Christ rose from depths of earth; On thee, our Lord vic -- to -- rious, The Spir -- it sent from Heav'n, And thus on thee most glo -- rious A tri -- ple light was giv'n."
+
+[lyrics.3]
+text = "Thou art a port pro -- tect -- ed From storms that round us rise; A gar -- den in -- ter -- sect -- ed With streams of pa -- ra -- dise; Thou art a cool -- ing foun -- tain In life's dry, drea -- ry sand; From thee, like Pis -- gah's moun -- tain, We view our prom -- ised land."
+
+[lyrics.4]
+text = "Thou art a ho -- ly lad -- der, Where an -- gels go and come; Each Sun -- day finds us glad -- der, Near -- er to Heav'n, our home; A day of sweet re -- flec -- tion, Thou art, a day of love, A day of res -- ur -- rec -- tion From earth to things a -- bove."
+
+[lyrics.5]
+text = "To -- day on wea -- ry na -- tions The heav'n -- ly man -- na falls; To ho -- ly con -- vo -- ca -- tions The sil -- ver trum -- pet calls, Where Gos -- pel light is glow -- ing With pure and ra -- diant beams; And liv -- ing wa -- ter flow -- ing, With soul- -- re -- fresh -- ing streams."
+
+[lyrics.6]
+text = "New grac -- es ev -- er gain -- ing From this our day of rest, We reach the rest re -- main -- ing To spir -- its of the blest. To Ho -- ly Ghost be prais -- es, To Fa -- ther, and to Son; The Church her voice up -- rais -- es To Thee, blest Three in One."
