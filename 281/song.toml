@@ -1,0 +1,64 @@
+title = "Jesus, Savior, Pilot Me"
+subtitle = ""
+verse_count = 6
+key_signature = "Bb"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 84
+phrase_breaks = ["5:32", "9:32"]
+optional_phrase_breaks = ["3:32", "7:32", "11:32"]
+copyrights = [
+  "Lyrics: Edward Hopper, 1871 (public domain)",
+  "Music: John Edgar Gould, 1871 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 d''8. c''16 | bes'4. a'8 {3 c''8[ bes'8] g'8 } | f'2 ees''8. d''16 | d''4. c''8 bes'8 a'8 | bes'2 c''8. c''16 | c''4. f'8 g'8 f'8 | bes'2 c''8. c''16 | c''4. f'8 g'8 f'8 | bes'2 d''8. c''16 | bes'4. a'8 {3 c''8[ bes'8] g'8 } | f'2 ees''8. d''16 | d''4. c''8 bes'8 a'8 | bes'2 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 f'8. ees'16 | d'4. d'8 {3 ees'4 ees'8 } | d'2 f'8. f'16 | g'4. g'8 f'8 ees'8 | d'2 ees'8. ees'16 | ees'4. ees'8 ees'8 ees'8 | d'8([ g'8] f'4) ees'8. ees'16 | ees'4. ees'8 ees'8 ees'8 | d'8([ ees'8] d'4) f'8. ees'16 | d'4. d'8 {3 ees'4 ees'8 } | d'2 f'8. f'16 | g'4. g'8 f'8 ees'8 | d'2 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 f8. f16 | f4. fis8 {3 g4 bes8 } | bes2 a8. bes16 | bes4. ees'8 d'8 c'8 | bes2 a8. a16 | a4. a8 bes8 a8 | bes8([ ees'8] d'4) a8. a16 | a4. a8 bes8 a8 | bes8([ g8] f4) f8. f16 | f4. fis8 {3 g4 bes8 } | bes2 a8. bes16 | bes4. ees'8 d'8 c'8 | bes2 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 bes,8. bes,16 | bes,4. bes,8 {3 bes,4 bes,8 } | bes,2 c8. d16 | ees4. ees8 f8 f8 | bes,2 f8. f16 | f4. f8 f8 f8 | bes,2 f8. f16 | f4. f8 f8 f8 | bes,2 bes,8. bes,16 | bes,4. bes,8 {3 bes,4 bes,8 } | bes,2 c8. d16 | ees4. ees8 f8 f8 | bes,2 s4
+"""
+
+[lyrics.1]
+text = "Je -- sus, Sav -- ior, pi -- lot me O -- ver life's tem -- pes -- tuous sea; Un -- known waves a -- round me roll, Hid -- ing rock and treach -- 'rous shoal. Chart and com -- pass come from Thee; Je -- sus, Sav -- ior, pi -- lot me."
+
+[lyrics.2]
+text = "While th'a -- pos -- tles' fra -- gile bark Strug -- gled with the bil -- lows dark, On the storm -- y Ga -- li -- lee, Thou didst walk up -- on the sea; And when they be -- held Thy form, Safe they glid -- ed through the storm."
+
+[lyrics.3]
+text = "Though the sea be smooth and bright, Spark -- ling with the stars of night, And my ship's path be a -- blaze With the light of hal -- cyon days, Still I know my need of Thee; Je -- sus, Sav -- ior, pi -- lot me."
+
+[lyrics.4]
+text = "When the dark -- ling heav -- ens frown, And the wrath -- ful winds come down, And the fierce waves, tossed on high, Lash them -- selves a -- gainst the sky, Je -- sus, Sav -- ior, pi -- lot me, O -- ver life's tem -- pes -- tuous sea."
+
+[lyrics.5]
+text = "As a moth -- er stills her child, Thou canst hush the o -- cean wild; Bois -- terous waves o -- bey Thy will, When Thou say'st to them, “Be still!” Won -- drous Sov -- 'reign of the sea, Je -- sus, Sav -- ior, pi -- lot me."
+
+[lyrics.6]
+text = "When at last I near the shore, And the fear -- ful break -- ers roar 'Twixt me and the peace -- ful rest, Then, while lean -- ing on Thy breast, May I hear Thee say to me, “Fear not, I will pi -- lot thee.”"
