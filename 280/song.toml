@@ -1,0 +1,52 @@
+title = "O Thou, In Whose Presence"
+subtitle = ""
+copyrights = [
+  "Lyrics: Joseph Swain, 1791 (public domain)",
+  "Music: 'Davis' by Freeman Lewis, 1813 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Db"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 110
+verse_count = 5
+phrase_breaks = ["5:48", "8:48", "12:32", "15:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = "s2. des'4 | des'4.( ees'8) f'4 ges'4 | aes'4.( bes'8) aes'4 ges'4 | f'2 ees'4 ees'4 | des'2. aes'4 | des''2 des''4 ees''4 | des''2 bes'4 bes'4 | aes'2. aes'4 | des''2 des''4 bes'4 | aes'2 f'4 aes'4 | bes'2 aes'4 f'4 | ees'2 des'4-( f'4-) | aes'4.( bes'8) aes'4 des'4 | f'2 ees'4 ees'4 | des'2. s4"
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = "s2. des'4 | des'2 des'4 ees'4 | f'4.( ges'8) f'4 ees'4 | des'2 c'4 c'4 | des'2. f'4 | f'2 f'4 ges'4 | f'2 ees'4 des'4 | c'2. f'4 | f'2 f'4 ges'4 | f'2 des'4 des'4 | des'2 des'4 des'4 | c'2 des'4-( des'4-) | f'4.( ges'8) f'4 des'4 | des'2 c'4 c'4 | aes2. s4"
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = "s2. f4 | f4.( ges8) aes4 aes4 | des'2 des'4 bes4 | aes2 aes4 ges4 | f2. des'4 | aes2 aes4 aes4 | aes2 aes4 g4 | aes2. aes4 | aes2 aes4 des'4 | des'2 aes4 des'4 | des'2 des'4 aes4 | aes2 f4-( aes4-) | des'2 des'4 aes4 | aes2 aes4 ges4 | f2. s4"
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = "s2. des4 | des2 des4 des4 | des2 des4 ges,4 | aes,2 aes,4 aes,4 | des2. des4 | des2 des4 des4 | des2 ees4 ees4 | aes,2. des4 | des2 des4 des4 | des2 des4 f4 | ges2 f4 des4 | aes,2 des4-( des4-) | des2 des4 f4 | aes2 aes,4 aes,4 | des2. s4"
+
+[lyrics.1]
+text = "O Thou, in whose pres -- ence my soul takes de -- light, On whom in af -- flic -- tion I call; My com -- fort by day, and my song in the night, My _ hope, my sal -- va -- tion, my all."
+
+[lyrics.2]
+text = "Where dost Thou, dear Shep -- herd, re -- sort with Thy sheep, To feed them in pas -- tures of love? Say, why in the val -- ley of death should I weep, Or a -- lone in this wil -- der -- ness rove?"
+
+[lyrics.3]
+text = "O why should I wan -- der an al -- ien from Thee, Or cry in the des -- ert for bread? Thy foes will re -- joice, when my sor -- rows they see, And _ smile at the tears I have shed."
+
+[lyrics.4]
+text = "He looks, and ten thou -- sands of an -- gels re -- joice, And myr -- i -- ads wait for His word; He speaks and e -- ter -- ni -- ty, filled with His voice, Re- -- _ -- e -- choes the praise of the Lord."
+
+[lyrics.5]
+text = "Dear Shep -- herd! I hear, and will fol -- low Thy call; I know the sweet sound of Thy voice; Re -- store and de -- fend me, for Thou art my All, And in Thee I will ev -- er re -- joice."
