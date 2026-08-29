@@ -1,0 +1,57 @@
+title = "I Shall Dwell Forever There"
+subtitle = ""
+verse_count = 3
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 102
+phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "11:64", "13:48", "15:64"]
+copyrights = [
+  "Lyrics: Alfred Henry Ackley, 1911 (public domain)",
+  "Music: Bentley DeForest Ackley, 1911 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. c''8 des''8 | c''4 bes'4 aes'4 ees'8 f'8 | ees'4 des'4 c'4 des'8 ees'8 | f'8 g'8 bes'8 c''8 c''8 aes'8 des''8 c''8 | c''4 bes'4 bes'4! c''8 des''8 | c''4 bes'4 aes'4 bes'8 c''8 | des''4 des''4 f'4 g'8 aes'8 | bes'4 bes'4 bes'8 ees''8 c''8 aes'8 | g'8 aes'8 g'8 f'8 ees'4 ees''8@c des''8 | c''4 ees'4 c''4 b'8 c''8 | ees''8 des''4 bes'8 f'2 | g'8 aes'8 a'8 bes'8 ees''4 des''4 | c''4 c''4 des''4! ees''8 des''8 | c''4 ees'4 c''2 | c''8 bes'8 des''8 bes'8 f'2 | ees''8 d''8 des''8 g'8 c''4 bes'4 | aes'2 s2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. ees'8 f'8 | ees'4 des'4 c'4 c'8 des'8 | c'4 bes4 aes4 bes8 c'8 | des'8 ees'8 ees'8 ees'8 ees'8 ees'8 aes'8 aes'8 | aes'4 aes'4 g'4! ees'8 f'8 | ees'4 des'4 c'4 des'8 ees'8 | f'4 f'4 des'4 des'8 ees'8 | ees'4 d'4 ees'8 g'8 ees'8 f'8 | ees'8 f'8 ees'8 d'8 ees'4 g'8@c g'8 | aes'4 ees'4 ees'4 d'8 ees'8 | f'8 f'4 f'8 des'2 | des'8 des'8 c'8 des'8 g'4 g'4 | aes'4 fis'4 g'4! g'8 g'8 | aes'4 ees'4 ees'2 | f'8 f'8 f'8 f'8 des'2 | g'8 g'8 g'8 ees'8 aes'4 ees'4 | ees'2 s2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. aes8 aes8 | aes4 g4 aes4 aes8 aes8 | aes4 g4 ees4 ees8 aes8 | aes8 bes8 aes8 g8 aes8 c'8 f'8 ees'8 | d'4 des'4 ees'4! aes8 aes8 | aes4 g4 aes4 g8 aes8 | aes4 aes4 aes4 bes8 aes8 | g4 f8[ aes8] g8 bes8 ees'8 c'8 | bes8 bes8 bes8 aes8 g4 bes8@c ees'8 | ees'4 c'4 aes4 aes8 aes8 | aes8 aes4 aes8 bes2 | bes8 f8 fis8 g8 bes4 ees'4 | ees'4 ees'4 ees'4! bes8 ees'8 | ees'4 c'4 aes2 | aes8 aes8 aes8 aes8 bes2 | bes8 bes8 bes8 bes8 ees'4 des'4 | c'2 s2
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. aes,8 aes,8 | aes,4 ees4 aes,4 aes,8 aes,8 | ees4 ees4 aes,4 aes,8 aes,8 | des8 des8 c8 ees8 aes8 aes8 aes8 aes8 | f4 bes,4 f4! aes8 aes8 | ees4 ees4 f4 ees8 aes8 | des4 des4 des4 des8 c8 | bes,4 bes,4 ees8 ees8 aes,8 aes,8 | bes,8 bes,8 bes,8 bes,8 ees4 ees8@c ees8 | aes4 aes4 aes,4 aes,8 aes,8 | des8 des4 des8 des2 | ees8 ees8 ees8 ees8 ees4 ees4 | aes4 a4 bes4! ees8 ees8 | aes4 aes4 aes,2 | des8 des8 des8 des8 des2 | ees8 ees8 ees8 ees8 ees4 ees4 | <aes, aes>2 s2
+"""
+
+[lyrics.1]
+text = "When the night is o’er and the sha -- dows past, And e -- ter -- nal dawn dis -- pels the gloom of earth -- ly care; In the home of God I shall rest at last, In the land of E -- den I shall dwell for -- ev -- er there."
+
+[lyrics.2]
+text = "Tho’ my sky be filled with the clouds of time, And my soul is bur -- dened with fore -- bod -- ings of des -- pair, Yet, my heart is cheered, for the hope is mine, If I trust in Je -- sus I shall dwell for -- ev -- er there."
+
+[lyrics.3]
+text = "How my heart will sing when I see the King, For there is no sover -- eign that with Je -- sus can com -- pare; So the sac -- ri -- fice of a life I’ll bring, And with Him in glo -- ry, I shall dwell for -- ev -- er there."
+
+[lyrics.chorus]
+text = "I shall walk the streets of the ci -- ty of God With its tree of life so bright, so fair, There will be no night— Je -- sus is the light, I shall dwell for -- ev -- er there."
