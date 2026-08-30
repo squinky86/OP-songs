@@ -1,0 +1,58 @@
+title = "Safely Through Another Week"
+subtitle = ""
+verse_count = 4
+key_signature = "G"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 88
+phrase_breaks = ["5:32", "9:32", "13:32"]
+optional_phrase_breaks = ["3:32", "7:32", "11:32", "15:32"]
+copyrights = [
+  "Lyrics: John Newton, 1774 (public domain)",
+  "Music: 'Sabbath' by Lowell Mason, 1824 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 g'8. a'16 | b'4. b'8 c''8 b'8 | a'2 fis'8. g'16 | a'4. c''8 b'8 a'8 | g'2 g'8. a'16 | b'4. b'8 c''8 b'8 | a'2 d''8. c''16 | b'8 g'8 fis'4 e'4 | d'2 d''8. c''16 | b'4. d''8 c''8 b'8 | a'2 b'8. c''16 | d''4. g'8 c''8 b'8 | a'2 d''8. c''16 | b'4. d''8 c''8 b'8 | a'2 b'8. c''16 | d''16[ g'16] a'16[ c''16] b'4 a'4 | g'2 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 g'8. g'16 | g'4. g'8 a'8 g'8 | fis'2 d'8. d'16 | d'4. fis'8 g'8 d'8 | d'2 g'8. g'16 | g'4. g'8 a'8 g'8 | fis'2 a'8. a'16 | g'8 e'8 d'4 cis'4 | d'2 b'8. a'16 | g'4. g'8 fis'8 g'8 | fis'2 g'8. g'16 | g'4. g'8 a'8 g'8 | fis'2 d'8. d'16 | d'4. g'8 fis'8 g'8 | fis'2 g'8. g'16 | g'8 g'8 g'4 fis'4 | g'2 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 b8. c'16 | d'4. d'8 d'8 d'8 | d'2 a8. b16 | c'4. a8 d'8 c'8 | b2 b8. c'16 | d'4. d'8 d'8 d'8 | d'2 d'8. d'16 | d'8 b8 a4 a8[ g8] | fis2 d'8. d'16 | d'4. d'8 d'8 d'8 | d'2 g8. a16 | b4. b8 d'8 d'8 | d'2 b8. a16 | g4. d'8 d'8 d'8 | d'2 g8. a16 | b8 e'8 d'4 c'4 | b2 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 g8. g16 | g4. g8 fis8 g8 | d2 d8. d16 | d4. d8 d8 d8 | g2 g8. g16 | g4. g8 fis8 g8 | d2 fis8. fis16 | g8 g8 a4 a,4 | d2 d8. fis16 | g4. b8 a8 g8 | d2 d8. d16 | d4. e8 fis8 g8 | d2 d8. fis16 | g4. b8 a8 g8 | d2 g8. g16 | g8 c8 d4 d4 | g,2 s4
+"""
+
+[lyrics.1]
+text = "Safe -- ly through an -- oth -- er week, God has brought us on our way; Let us now a bless -- ing seek, Wait -- ing in His courts to -- day; Day of all the week the best, Em -- blem of e -- ter -- nal rest; Day of all the week the best, Em -- blem of e -- ter -- nal rest."
+
+[lyrics.2]
+text = "While we pray for pard' -- ning grace, Through the dear Re -- deem -- er's name; Show Thy rec -- on -- cil -- ing face, Take a -- way our sin and shame; From our world -- ly cares set free, May we rest this day in Thee; From our world -- ly cares set free, May we rest this day in Thee."
+
+[lyrics.3]
+text = "Here we come Thy name to praise, Let us feel Thy pres -- ence near; May Thy glo -- ry meet our eyes, While we in Thy house ap -- pear: Here af -- ford us, Lord, a taste Of our ev -- er -- last -- ing feast; Here af -- ford us, Lord, a taste Of our ev -- er -- last -- ing feast."
+
+[lyrics.4]
+text = "May Thy gos -- pel's joy -- ful sound Con -- quer sin -- ners, com -- fort saints; May the fruits of grace a -- bound, Bring re -- lief for all com -- plaints: Thus may all our Sab -- baths prove, Till we join the church a -- bove; Thus may all our Sab -- baths prove, Till we join the church a -- bove."
