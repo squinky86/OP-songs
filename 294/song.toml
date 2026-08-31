@@ -1,0 +1,57 @@
+title = "Fade, Fade, Each Earthly Joy"
+copyrights = [
+  "Lyrics: Mrs. Catherine J. Bonar, 1845 (public domain)",
+  "Music: 'Lundie' by Theodore E. Perkins, 1868 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Eb"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 100
+verse_count = 4
+phrase_breaks = ["4:48", "8:48", "12:48"]
+optional_phrase_breaks = ["2:48", "6:48", "10:48", "14:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+bes'4. c''4 bes'8 | g'4 f'8 ees'4. | f'4. ees'4 f'8 | g'4( bes'2) | bes'4. c''4 bes'8 | g'4 f'8 ees'4( f'8) | g'4( ees'8) f'4 f'8 | ees'2. | f'4. bes'4 f'8 | g'4 aes'8 bes'4. | c''4. ees''4 c''8 | bes'4 g'8 f'4. | bes'4. c''4 bes'8 | g'4 f'8 ees'4( f'8) | g'4( bes'8) f'4 g'8 | ees'2.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+g'4. aes'4 g'8 | ees'4 d'8 ees'4. | d'4. c'4 d'8 | ees'4( g'2) | g'4. aes'4 g'8 | ees'4 d'8 ees'4. | ees'4. d'4 d'8 | ees'2. | d'4. d'4 d'8 | ees'4 f'8 g'4. | aes'4. aes'4 aes'8 | g'4 ees'8 d'4. | g'4. aes'4 g'8 | ees'4 d'8 ees'4. | ees'4. d'4 d'8 | ees'2.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+ees'4. ees'4 ees'8 | bes4 aes8 g4. | bes4. bes4 bes8 | bes4.( ees'4.) | ees'4. ees'4 ees'8 | bes4 aes8 g4( c'8) | bes4( g8) aes4 aes8 | g2. | bes4. f4 bes8 | bes4 bes8 ees'4. | ees'4. c'4 ees'8 | ees'4 bes8 bes4. | g4. ees'4 ees'8 | bes4 aes8 g4( c'8) | bes4( g8) aes4 bes8 | g2.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+ees4. ees4 ees8 | ees4 bes,8 ees4. | bes,4. bes,4 bes,8 | ees4.~ ees4. | ees4. ees4 ees8 | ees4 bes,8 c4( aes,8) | bes,4. bes,4 bes,8 | ees2. | bes,4. bes,4 bes,8 | ees4 ees8 ees4. | aes4. aes4 aes8 | ees4 g8 bes4. | ees4. ees4 ees8 | ees4 bes,8 c4( aes,8) | bes,4. bes,4 bes,8 | ees2.
+"""
+
+[lyrics.1]
+text = "Fade, fade, each earth -- ly joy, Je -- sus is mine! Break ev -- 'ry ten -- der tie, Je -- sus is mine! Dark is the wil -- der -- ness, Earth has no rest -- ing place, Je -- sus a -- lone can bless, Je -- sus is mine!"
+
+[lyrics.2]
+text = "Tempt not my soul a -- way, Je -- sus is mine! Here would I ev -- er stay, Je -- sus is mine! Per -- ish -- ing things of clay, Born but for one brief day, Pass from my heart a -- way, Je -- sus is mine!"
+
+[lyrics.3]
+text = "Fare -- well, ye dreams of night, Je -- sus is mine! Lost in this dawn -- ing bright, Je -- sus is mine! All that my soul has tried Left but a dis -- mal void; Je -- sus has sat -- is -- fied, Je -- sus is mine!"
+
+[lyrics.4]
+text = "Fare -- well, mor -- tal -- i -- ty, Je -- sus is mine! Wel -- come, e -- ter -- ni -- ty, Je -- sus is mine! Wel -- come, O loved and blest, Wel -- come, sweet scenes of rest, Wel -- come, my Sav -- ior's breast, Je -- sus is mine!"
