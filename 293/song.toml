@@ -1,0 +1,61 @@
+title = "Must Jesus Bear the Cross Alone?"
+subtitle = ""
+verse_count = 5
+key_signature = "Bb"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 92
+phrase_breaks = ["9:32"]
+optional_phrase_breaks = ["5:32", "13:32"]
+copyrights = [
+  "Lyrics: Thomas Shepherd, 1693 (public domain)",
+  "Music: 'Maitland' by George N. Allen, 1844 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 d'8[ ees'8] | f'2 f'4 | bes'2 d''4 | c''2 bes'4 | g'8( bes'4.) g'4 | f'2 f'4 | bes'2 d''4 | c''2.~ | c''2 d''8[ ees''8] | f''2 d''4 | bes'2 d''4 | c''2 bes'4 | g'8( bes'4.) g'4 | f'2 bes'4 | d''2 c''4 | bes'2.~ | bes'2 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 bes8[ c'8] | d'2 d'4 | d'2 f'4 | ees'2 ees'4 | ees'8( g'4.) ees'4 | f'2 c'4 | f'2 f'4 | f'2.~ | f'2 f'4 | f'2 f'4 | d'2 f'4 | ees'2 ees'4 | ees'8( g'4.) ees'4 | f'2 d'4 | f'2 ees'4 | d'2.~ | d'2 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 f4 | bes2 bes4 | f2 bes4 | g2 g4 | bes2 bes4 | bes2 a4 | bes2 bes4 | a2.~ | a2 bes8[ c'8] | d'2 bes4 | f2 bes4 | g2 g4 | bes2 bes4 | bes2 bes4 | bes2 a4 | bes2.~ | bes2 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 bes,4 | bes,2 bes,4 | bes,2 bes,4 | ees2 ees4 | ees2 ees4 | d2 f8[ ees8] | d2 bes,4 | f2.~ | f2 bes4 | bes2 bes4 | bes,2 bes,4 | ees2 ees4 | ees2 ees4 | d2 bes,4 | f2 f4 | bes,2.~ | bes,2 s4
+"""
+
+[lyrics.1]
+text = "Must Je -- sus bear the cross a -- lone, And all the world go free? No, there’s a cross for ev -- ery -- one, And there’s a cross for me."
+
+[lyrics.2]
+text = "How hap -- py are the saints a -- bove, Who once went sorr’ -- wing here! But now they taste un -- min -- gled love, And joy with -- out a tear."
+
+[lyrics.3]
+text = "The con -- se -- crat -- ed cross I’ll bear Till death shall set me free; And then go home my crown to wear, For there’s a crown for me."
+
+[lyrics.4]
+text = "Up -- on the crys -- tal pave -- ment down At Je -- sus’ pierc -- èd feet, Joy -- ful I’ll cast my gold -- en crown And His dear name re -- peat."
+
+[lyrics.5]
+text = "O pre -- cious cross! O glo -- rious crown! O res -- ur -- rec -- tion day! When Christ the Lord from Heav’n comes down And bears my soul a -- way."
