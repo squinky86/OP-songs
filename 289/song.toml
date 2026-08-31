@@ -1,0 +1,99 @@
+title = "Satisfied There"
+subtitle = ""
+copyrights = [
+  "Lyrics: Eliza E. Hewitt, 1926 (public domain)",
+  "Music: Bentley D. Ackley, 1926 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Db"
+time_sig_numerator = 6
+time_sig_denominator = 4
+tempo_bpm = 144
+verse_count = 4
+phrase_breaks = ["3:80", "5:80", "7:80", "9:80", "13:80"]
+optional_phrase_breaks = ["11:96", "15:80"]
+non_breaking_phrase_breaks = ["8:96", "10:96", "12:96", "16:96"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. s2 aes'4 | aes'4 g'4 aes'4 bes'4 aes'4 f'4 | aes'4 ges'4 f'4 ges'2 ges'4 | ges'4 f'4 ges'4 aes'4 ges'4 ees'4 | f'2.~ f'2 aes'4 | aes'4 g'4 aes'4 bes'4 aes'4 f'4 | ees'4 aes'4 bes'4 c''2 c''4 | des''4 f'4 f'4 g'4 aes'4 bes'4 | aes'2.~ aes'2 aes'4@c | des''4 c''4 des''4 ees''4 des''4 bes'4 | c''2.~ c''2. | bes'4 a'4 bes'4 c''4 bes'4 ees'4 | aes'2.~ aes'2 aes'4 | des''4 c''4 des''4 ees''4 des''4 aes'4 | bes'4 a'4 bes'4 des''2 ees''4 | f''4 des''4 aes'4 c''4 des''4 ees''4 | des''2.~ des''2 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+suppress_verses = [2, 3, 4]
+suppress_verses_when = ["soprano", "bass"]
+notes = """
+s2. s2 f'4 | f'4 e'4 f'4 ges'4 f'4 des'4 | f'4 ees'4 d'4 ees'2 ees'4 | ees'4 d'4 ees'4 f'4 ees'4 c'4 | des'2.~ des'2 f'4 | f'4 e'4 f'4 ges'4 f'4 des'4 | c'4 ees'4 ees'4 ees'2 ges'4 | f'4 des'4 des'4 des'4 des'4 des'4 | c'4 ees'4 f'4 ges'2 ges'4@c | f'4 f'4 f'4 f'4 f'4 f'4 | ges'4 ges'4 ges'4 ges'2. | ges'4 ges'4 ges'4 ges'4 ges'4 ees'4 | des'4 des'4 f'4 ges'2 ges'4 | f'4 ges'4 f'4 f'4 f'4 f'4 | ges'4 ges'4 ges'4 bes'2 a'4 | aes'4 f'4 f'4 ges'4 f'4 ges'4 | f'4 aes'4 ges'4 f'2 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3, 4]
+suppress_verses_when = ["soprano", "bass"]
+notes = """
+s2. s2 des'4 | des'4 des'4 des'4 des'4 des'4 des'4 | c'4 c'4 b4 c'2 c'4 | c'4 b4 c'4 c'4 c'4 aes4 | aes2.~ aes2 des'4 | des'4 des'4 des'4 des'4 des'4 aes4 | aes4 aes4 g4 aes2 aes4 | aes4 aes4 bes4 bes4 f4 g4 | aes4 c'4 des'4 c'2 c'4@c | aes4 aes4 aes4 aes4 aes4 des'4 | ees'2.~ ees'2. | c'4 c'4 c'4 ees'4 c'4 c'4 | des'4 des'4 b4 c'2 c'4 | aes4 aes4 aes4 aes4 aes4 des'4 | des'4 c'4 des'4 des'2 des'4 | des'4 des'4 des'4 ees'4 des'4 c'4 | des'4 c'4 bes4 aes2 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. s2 des4 | des4 des4 des4 des4 des4 des4 | aes4 aes4 aes4 aes2 aes4 | aes4 aes4 aes4 aes4 aes4 aes4 | des2.~ des2 des4 | des4 des4 des4 des4 des4 des4 | aes,4 c4 ees4 aes2 aes4 | des4 des4 bes,4 ees4 ees4 ees4 | <aes, aes>2.~ <aes, aes>2 aes4@c | des4 des4 des4 des4 des4 des4 | aes,4 c4 ees4 aes2. | aes4 aes4 aes4 aes4 aes4 ges4 | f4 f4 d4 ees4( bes4) aes4 | des4 des4 des4 des4 des4 des4 | ges4 ges4 ges4 ges2 ges4 | aes4 aes4 aes4 aes4 aes4 aes4 | des2.~ des2 s4
+"""
+
+[lyrics.1]
+text = "I'll trust the dear Fa -- ther Who knows what is best, The cross He will help me to bear; In yon -- der bright home there re -- main -- eth a rest, And I shall be sat -- is -- fied there."
+
+[lyrics.2]
+text = "He'll show me the mean -- ing of ev -- 'ry dark day, Of seem -- ing de -- ni -- al to pray'r; I'll see that His love free -- ly bright -- ened the way, And I shall be sat -- is -- fied there."
+
+[lyrics.3]
+text = "I know not what won -- der -- ful joys shall be mine, When clad in His beau -- ty so fair, There, fade -- less, for -- ev -- er, His glo -- ry will shine, And I shall be sat -- is -- fied there."
+
+[lyrics.4]
+text = "I know not the form of the friends I shall greet, When called in their rap -- ture to share, But when at the feet of the Mas -- ter we meet, I know we'll be sat -- is -- fied there."
+
+[lyrics.chorus]
+text = "Yes, I shall be sat -- is -- fied there, I shall be sat -- is -- fied there; In realms ev -- er blest there re -- main -- eth a rest, And I shall be sat -- is -- fied there."
+
+[parts.Alto.lyrics.1]
+text = "I'll trust the dear Fa -- ther Who knows what is best, The cross He will help me to bear; In yon -- der bright home there re -- main -- eth a rest, And I shall be sat -- is -- fied sat -- is -- fied there."
+
+[parts.Alto.lyrics.2]
+text = "He'll show me the mean -- ing of ev -- 'ry dark day, Of seem -- ing de -- ni -- al to pray'r; I'll see that His love free -- ly bright -- ened the way, And I shall be sat -- is -- fied sat -- is -- fied there."
+
+[parts.Alto.lyrics.3]
+text = "I know not what won -- der -- ful joys shall be mine, When clad in His beau -- ty so fair, There, fade -- less, for -- ev -- er, His glo -- ry will shine, And I shall be sat -- is -- fied sat -- is -- fied there."
+
+[parts.Alto.lyrics.4]
+text = "I know not the form of the friends I shall greet, When called in their rap -- ture to share, But when at the feet of the Mas -- ter we meet, I know we'll be sat -- is -- fied sat -- is -- fied there."
+
+[parts.Alto.lyrics.chorus]
+text = "Yes, I shall be sat -- is -- fied sat -- is -- fied there, I shall be sat -- is -- fied sat -- is -- fied there; In realms ev -- er blest there re -- main -- eth a rest, And I shall be sat -- is -- fied sat -- is -- fied there."
+
+[parts.Tenor.lyrics.1]
+text = "I'll trust the dear Fa -- ther Who knows what is best, The cross He will help me to bear; In yon -- der bright home there re -- main -- eth a rest, And I shall be sat -- is -- fied sat -- is -- fied there."
+
+[parts.Tenor.lyrics.2]
+text = "He'll show me the mean -- ing of ev -- 'ry dark day, Of seem -- ing de -- ni -- al to pray'r; I'll see that His love free -- ly bright -- ened the way, And I shall be sat -- is -- fied sat -- is -- fied there."
+
+[parts.Tenor.lyrics.3]
+text = "I know not what won -- der -- ful joys shall be mine, When clad in His beau -- ty so fair, There, fade -- less, for -- ev -- er, His glo -- ry will shine, And I shall be sat -- is -- fied sat -- is -- fied there."
+
+[parts.Tenor.lyrics.4]
+text = "I know not the form of the friends I shall greet, When called in their rap -- ture to share, But when at the feet of the Mas -- ter we meet, I know we'll be sat -- is -- fied sat -- is -- fied there."
+
+[parts.Tenor.lyrics.chorus]
+text = "Yes, I shall be sat -- is -- fied there, I shall be sat -- is -- fied sat -- is -- fied there; In realms ev -- er blest there re -- main -- eth a rest, And I shall be sat -- is -- fied sat -- is -- fied there."
+
+[parts.Bass.lyrics.chorus]
+text = "Yes, I shall be sat -- is -- fied sat -- is -- fied there, I shall be sat -- is -- fied sat -- is -- fied there; In realms ev -- er blest there re -- main -- eth a rest, And I shall be sat -- is -- fied there."
