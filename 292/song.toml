@@ -1,0 +1,54 @@
+title = "Work, for the Night Is Coming"
+verse_count = 3
+key_signature = "F"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 115
+phrase_breaks = ["4:64", "8:64", "12:64"]
+copyrights = [
+  "Lyrics: Anna L. Coghill, 1854 (public domain)",
+  "Music: 'Work Song' by Lowell Mason, 1864 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+optional_phrase_breaks = ["2:64", "6:64", "10:64", "14:64"]
+
+[lyrics.1]
+text = "Work, for the night is com -- ing, Work through the morn -- ing hours; Work while the dew is spark -- ling, Work ’mid spring -- ing flow’rs; Work when the day grows bright -- er, Work in the glow -- ing sun; Work, for the night is com -- ing, When man’s work is done."
+
+[lyrics.2]
+text = "Work, for the night is com -- ing, Work through the sun -- ny noon; Fill bright -- est hours with la -- bor, Rest comes sure and soon. Give ev -- ery fly -- ing min -- ute, Some -- thing to keep in store; Work, for the night is com -- ing, When man works no more."
+
+[lyrics.3]
+text = "Work, for the night is com -- ing, Un -- der the sun -- set skies; While their bright tints are glow -- ing, Work, for day -- light flies. Work till the last beam fad -- eth, Fad -- eth to shine no more; Work, while the night is dark -- ’ning, When man’s work is o’er."
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+c''4 a'8. bes'16 c''4 c''4 | d''2 c''2 | f'4 f'8. f'16 f'4 g'4 | a'1 | c''4 a'8. bes'16 c''4 c''4 | d''2 c''2 | f'4 g'4 a'4 g'4 | f'1 | g'4 g'8. g'16 g'4 a'4 | bes'4.( a'8) g'2 | a'4 a'8. a'16 a'4 b'4 | c''1 | c''4 a'8. bes'16 c''4 c''4 | d''2 c''2 | f'4 g'4 a'4 g'4 | f'1
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+f'4 f'8. f'16 f'4 f'4 | f'2 f'2 | c'4 c'8. c'16 d'4 e'4 | f'1 | f'4 f'8. f'16 f'4 f'4 | f'2 f'2 | f'4 f'4 f'4 e'4 | c'1 | e'4 e'8. e'16 e'4 f'4 | e'4.( f'8) e'2 | f'4 f'8. f'16 f'4 f'4 | e'1 | f'4 f'8. f'16 f'4 f'4 | f'2 f'2 | f'4 f'4 f'4 e'4 | c'1
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+a4 c'8. c'16 c'4 a4 | bes2 a2 | a4 a8. a16 a4 c'4 | c'1 | a4 c'8. c'16 c'4 a4 | bes2 a2 | c'4 d'4 c'4 bes4 | a1 | c'4 c'8. c'16 c'4 c'4 | c'2 c'2 | c'4 c'8. c'16 c'4 g4 | g1 | a4 c'8. bes16 a4 a4 | bes2 a2 | c'4 d'4 c'4 bes4 | a1
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+f4 f8. g16 a4 f4 | bes,4( d4) f2 | f4 f8. f16 d4 c4 | f1 | f4 f8. g16 a4 f4 | bes,4( d4) f2 | a4 bes4 c'4 c4 | f1 | c4 c8. c16 bes4 a4 | g4.( f8) c2 | f4 f8. f16 e4 d4 | c1 | f4 f8. f16 f4 f4 | bes,4( d4) f2 | a4 bes4 c'4 bes,4 | f1
+"""
