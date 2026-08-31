@@ -1,0 +1,70 @@
+title = "We Thank Thee, O God"
+subtitle = ""
+verse_count = 5
+key_signature = "G"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 126
+phrase_breaks = ["5:32", "9:32", "13:32", "17:32", "21:32", "25:32", "29:32"]
+non_breaking_phrase_breaks = ["24:16"]
+copyrights = [
+  "Lyrics: Thomas O. Chisholm, 1926 (public domain)",
+  "Music: B. D. Ackley, 1926 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 d'4 | g'4 g'4 a'4 | b'2 b'8 c''8 | d''4 e''4 d''4 | b'2 c''4 | d''4 e''4 d''4 | b'4 a'4 g'4 | a'2.~ | a'2 d''4 | e''4 d''4 b'4 | a'4 g'4 d'4 | e'4 g'4 a'4 | b'2 b'8[ c''8] | d''4 d''4 c''4 | b'4 g'4 a'4 | g'2.~ | g'2 fis'8@c[ g'8] | a'4 a'4 a'4 | b'4 a'4 fis'4 | g'4 a'4 g'4 | fis'2 a'4 | b'4 b'4 b'4 | cis''4 b'4 a'4 | d''2.~ | d''2 d''4 | e''4 d''4 b'4 | a'4 g'4 d'4 | e'4 g'4 a'4 | b'2 b'8[ c''8] | d''4 d''4 c''4 | b'4 g'4 a'4 | g'2.~ | g'2 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 d'4 | d'4 d'4 fis'4 | g'2 g'8 g'8 | g'4 g'4 g'4 | g'2 g'4 | g'4 g'4 g'4 | g'4 d'4 d'4 | fis'2.~ | fis'2 fis'4 | g'4 g'4 g'4 | d'4 d'4 b4 | c'4 e'4 e'4 | d'2 d'4 | g'4 g'4 g'4 | g'4 d'4 d'4 | d'2.~ | d'2 d'8@c[ e'8] | fis'4 fis'4 fis'4 | g'4 fis'4 d'4 | e'4 fis'4 e'4 | d'2 fis'4 | g'4 g'4 gis'4 | g'4 g'4 g'4 | fis'4 fis'4 g'4 | fis'2 fis'4 | g'4 g'4 g'4 | d'4 d'4 b4 | c'4 e'4 e'4 | g'2 d'4 | g'4 g'4 g'4 | g'4 d'4 d'4 | d'2.~ | d'2 s4
+"""
+
+[parts.Alto.lyrics.chorus]
+text = "How great is Thy mer -- cy and good -- ness and love To us- -- ward, our God and our King! and our King! Of all Thou hast done for the chil -- dren of men, Our voic -- es for -- ev -- er could sing."
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 b4 | b4 b4 d'4 | d'2 d'8 a8 | b4 c'4 b4 | d'2 a4 | b4 c'4 b4 | d'4 c'4 b4 | d'2.~ | d'2 c'4 | b4 b4 d'4 | c'4 b4 g4 | g4 c'4 g4 | g2 g8[ a8] | b4 b4 e'4 | d'4 b4 c'4 | b2.~ | b2 a4@c | d'4 d'4 d'4 | d'4 d'4 a4 | a4 a4 a4 | a2 d'4 | d'4 d'4 e'4 | e'4 d'4 cis'4 | d'4 a4 b4 | c'2 c'4 | b4 b4 d'4 | c'4 b4 g4 | g4 c'4 g4 | g2 g8[ a8] | b4 b4 e'4 | d'4 b4 c'4 | b2.~ | b2 s4
+"""
+
+[parts.Tenor.lyrics.chorus]
+text = "How great is Thy mer -- cy and good -- ness and love To us- -- ward, our God and our King! and our King! Of all Thou hast done for the chil -- dren of men, Our voic -- es for -- ev -- er could sing."
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 g4 | g4 g4 d4 | g2 g8 g8 | g4 g4 g4 | g2 g4 | g4 g4 g4 | g4 g4 g4 | d2.~ | d2 d4 | g4 g4 g4 | g4 g4 g4 | c4 c4 c4 | g,2 g4 | g4 g4 c4 | d4 d4 d4 | g,2.~ | g,2 d4@c | d4 d4 d4 | d4 d4 d4 | a,4 a,4 cis4 | d2 d4 | g4 g4 e4 | a4 a4 a4 | d2.~ | d2 d4 | g4 g4 g4 | g4 g4 g4 | c4 c4 c4 | g,2 g4 | g4 g4 c4 | d4 d4 d4 | <g g,>2.~ | <g g,>2 s4
+"""
+
+[lyrics.1]
+text = "We thank Thee, O God, for the gifts Thou hast giv’n, The bless -- ings Thy love hath be -- stowed; Thy good -- ness and mer -- cy our tongues would re -- cite, And pub -- lish Thy prais -- es a -- broad."
+
+[lyrics.2]
+text = "We thank Thee, O God, for all things Thou hast made, Our sens -- es, our souls to de -- light; The beau -- ties and glo -- ries that greet us by day, The won -- ders and splen -- dors of night."
+
+[lyrics.3]
+text = "We thank Thee for life, that mys -- ter -- i -- ous gift, How strange, how e -- lu -- sive, how sweet! For be -- ing cre -- a -- ted and quick -- ened by Thee, With pow -- ers so won -- drous, re -- plete."
+
+[lyrics.4]
+text = "We thank Thee for love, that most won -- der -- ful gift, For friend -- ships and fel -- low -- ships dear; For all the en -- joy -- ment and pleas -- ures they yield, For home with its glad -- ness and cheer."
+
+[lyrics.5]
+text = "We thank Thee for Him,— “Thy un -- speak -- a -- ble gift,” With -- out Whom all oth -- ers were vain; For Je -- sus, our Light, our Sal -- va -- tion, our All, Our Hope till His com -- ing a -- gain."
+
+[lyrics.chorus]
+text = "How great is Thy mer -- cy and good -- ness and love To us- -- ward, our God and our King! Of all Thou hast done for the chil -- dren of men, Our voic -- es for -- ev -- er could sing."
