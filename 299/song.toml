@@ -1,0 +1,70 @@
+title = "To the Work!"
+subtitle = "Toiling On"
+verse_count = 4
+key_signature = "F"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 112
+phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "11:48", "13:48", "15:48"]
+optional_phrase_breaks = ["2:48", "4:48", "6:56", "10:48", "12:48", "14:48"]
+copyrights = [
+  "Lyrics: Fanny J. Crosby, 1869 (public domain)",
+  "Music: William H. Doane, 1871 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[lyrics.1]
+text = "To the work! To the work! We are ser -- vants of God; Let us fol -- low the path that our Mas -- ter has trod; With the balm of His coun -- sel our strength to re -- new, Let us do with our might what our hands find to do."
+
+[lyrics.2]
+text = "To the work! To the work! Let the hun -- gry be fed; To the foun -- tain of life let the wea -- ry be led; In the cross and its ban -- ner our glo -- ry shall be, While we her -- ald the tid -- ings, “Sal -- va -- tion is free!”"
+
+[lyrics.3]
+text = "To the work! To the work! There is la -- bor for all; For the king -- dom of dark -- ness and er -- ror shall fall; And the love of our Fa -- ther ex -- alt -- ed shall be, In the loud- -- swell -- ing cho -- rus, “Sal -- va -- tion is free!”"
+
+[lyrics.4]
+text = "To the work! To the work! In the strength of the Lord, And a robe and a crown shall our la -- bor re -- ward; When the home of the faith -- ful our dwell -- ing shall be, And we shout with the ran -- somed, “Sal -- va -- tion is free!”"
+
+[lyrics.chorus]
+text = "Toil -- ing on, toil -- ing on, Toil -- ing on, toil -- ing on, Let us hope, let us watch, And la -- bor till the Mas -- ter comes."
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. a'8. bes'16 | c''4 c''8. c''16 c''4 f'8 g'8 | a'4 a'8. a'16 a'4 g'8 a'8 | bes'4 bes'8. a'16 bes'4 a'8 bes'8 | d''4 c''8. b'16 c''4 a'8. bes'16 | c''4 c''8. c''16 c''4 f'8 g'8 | a'4 a'8. a'16 a'4 a'8 a'8 | g'4 c''8. c''16 b'4 c''8 d''8 | c''4 c''8. d''16 c''4 a'8.@c bes'16 | c''2. f''8. a'16 | g'2. g'8. a'16 | bes'2. c''8. bes'16 | a'2. a'8. bes'16 | c''2. f''8. e''16 | d''2. e''4 | f''8 c''8 d''8. bes'16 a'4 g'4 | f'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. f'8. g'16 | a'4 a'8. a'16 a'4 c'8 c'8 | f'4 f'8. f'16 f'4 e'8 f'8 | g'4 g'8. ges'16 g'4 ges'8 g'8 | bes'4 a'8. aes'16 a'4 f'8. g'16 | a'4 a'8. a'16 a'4 c'8 c'8 | f'4 f'8. f'16 f'4 f'8 f'8 | g'4 g'8. g'16 g'4 g'8 g'8 | g'4 g'8. f'16 e'4 f'8.@c g'16 | a'2. a'8. f'16 | e'2. e'8. f'16 | g'2. e'8. g'16 | f'2. f'8. f'16 | f'4 e'4 f'4 a'8. f'16 | f'4 ges'4 g'4 g'4 | f'8 f'8 f'8. g'16 f'4 e'4 | c'2. s4
+"""
+
+[parts.Alto.lyrics.chorus]
+text = "Toil -- ing on, toil -- ing on, Toil -- ing on, toil -- ing on, Let us hope, and trust, let us watch, and pray, And la -- bor till the Mas -- ter comes."
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. c'8. c'16 | c'4 c'8. c'16 c'4 a8 bes8 | c'4 c'8. c'16 c'4 c'8 c'8 | c'4 c'8. c'16 c'4 c'8 c'8 | c'4 c'8. c'16 c'4 c'8. c'16 | c'4 c'8. c'16 c'4 a8 bes8 | c'4 c'8. c'16 c'4 c'8 c'8 | c'4 e'8. e'16 d'4 e'8 b8 | c'4 c'8. b16 c'4 r4@c | r4 c'8. c'16 c'4 c'8. c'16 | c'4 c'8. c'16 c'4 r4 | r4 c'8. c'16 c'4 c'8. c'16 | c'4 c'8. c'16 c'4 c'8. c'16 | c'4 bes4 a4 c'8. c'16 | bes4 c'4 bes4 c'4 | c'8 a8 bes8. d'16 c'4 bes4 | a2. s4
+"""
+
+[parts.Tenor.lyrics.chorus]
+text = "Toil -- ing on, toil -- ing on, toil -- ing on, Toil -- ing on, toil -- ing on, toil -- ing on, Let us hope, and trust, let us watch, and pray, And la -- bor till the Mas -- ter comes."
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. f8. f16 | f4 f8. f16 f4 f8 f8 | f4 f8. f16 f4 f8 f8 | c4 c8. c16 c4 c8 c8 | f4 f8. f16 f4 f8. f16 | f4 f8. f16 f4 f8 f8 | f4 f8. f16 f4 f8 f8 | e4 c8. e16 g4 g8 g8 | g4 g8. g16 c4 r4@c | r4 f8. f16 f4 f8. f16 | c4 c8. c16 c4 r4 | r4 c8. c16 c4 c8. e16 | f4 f8. f16 f4 f8. g16 | a4 g4 f4 f8. a16 | bes4 a4 g4 c'8[ bes8] | a8 f8 bes,8. bes,16 c4 c4 | f2. s4
+"""
+
+[parts.Bass.lyrics.chorus]
+text = "Toil -- ing on, toil -- ing on, toil -- ing on, Toil -- ing on, toil -- ing on, toil -- ing on, Let us hope, and trust, let us watch, and pray, And la -- bor till the Mas -- ter comes."
