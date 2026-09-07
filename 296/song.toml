@@ -1,0 +1,63 @@
+title = "I Will Not Forget Thee"
+subtitle = ""
+copyrights = [
+  "Lyrics and Music: Charles H. Gabriel, 1889 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 112
+verse_count = 3
+phrase_breaks = ["2:64", "4:64", "6:64", "8:64", "10:64", "12:64"]
+optional_phrase_breaks = ["11:64", "14:64", "15:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+ees'4 aes'8 bes'8 c''4 c''4 | c''8 des''8 bes'8 c''8 aes'4 ees'4 | aes'8 bes'8 c''8 des''8 ees''4 c''4 | des''8 c''8 bes'8 aes'8 bes'2 | ees'4 aes'8 bes'8 c''4 c''4 | c''8 des''8 bes'8 c''8 aes'4 ees'4 | f'8 g'8 aes'8 des''8 c''4 aes'4 | g'8 aes'8 bes'8 c''8 aes'2 | ees''2@c~ ees''8. des''16 c''8 bes'8 | aes'8[ bes'8] c''8 aes'8 f'4 ees'4 | ees'8 g'8 g'8 bes'8 bes'8[ des''8] des''4 | ees'8 aes'8 aes'8 c''8 c''8[ ees''8] ees''4 | ees''2~ ees''8. des''16 c''8 bes'8 | aes'8[ bes'8] c''8 ees''8 ees''4 des''4 | aes'8 g'8 aes'8 des''8 c''4 aes'4 | g'8 aes'8 bes'8 c''8 aes'2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+c'4 c'8 des'8 ees'4 ees'4 | ees'8 f'8 des'8 ees'8 c'4 c'4 | ees'8 ees'8 ees'8 ees'8 ees'4 ees'4 | ees'8 ees'8 ees'8 d'8 des'2 | c'4 c'8 des'8 ees'4 ees'4 | ees'8 f'8 des'8 ees'8 c'4 c'4 | des'8 ees'8 f'8 f'8 ees'4 ees'4 | ees'8 ees'8 ees'8 ees'8 ees'2 | aes'2@c~ aes'8. ees'16 ees'8 des'8 | c'8[ des'8] ees'8 c'8 des'4 c'4 | bes8 ees'8 ees'8 g'8 g'4 ees'4 | c'8 ees'8 ees'8 aes'8 aes'4 aes'4 | aes'2~ aes'8. ees'16 ees'8 des'8 | c'8[ des'8] ees'8 ges'8 ges'4 f'4 | f'8 e'8 f'8 f'8 ees'4 ees'4 | ees'8 ees'8 ees'8 ees'8 ees'2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+aes4 aes8 aes8 aes4 aes4 | aes8 aes8 g8 g8 aes4 aes4 | aes8 g8 aes8 bes8 c'4 aes4 | bes8 aes8 bes8 bes8 g2 | aes4 aes8 aes8 aes4 aes4 | aes8 aes8 g8 g8 aes4 aes4 | aes8 aes8 aes8 aes8 bes4 c'4 | bes8 c'8 des'8 ees'8 c'2 | c'8@c des'8 ees'8 des'8 c'8.[ bes16] aes4 | aes8 aes8 aes8 aes8 aes4 aes4 | g8 bes8 bes8 ees'8 bes4 g4 | aes8 c'8 c'8 ees'8 ees'8[ c'8] c'4 | c'8 des'8 ees'8 des'8 c'8.[ bes16] aes8 aes8 | aes4 aes8 aes8 aes4 aes4 | aes8 aes8 aes8 aes8 aes4 c'4 | bes8 c'8 des'8 ees'8 c'2
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+aes,4 aes,8 aes,8 aes,4 aes,4 | ees8 ees8 ees8 ees8 aes,4 aes,4 | c8 ees8 aes,8 aes,8 aes4 aes,4 | aes8 aes8 g8 f8 ees2 | aes,4 aes,8 aes,8 aes,4 aes,4 | ees8 ees8 ees8 ees8 aes,4 aes,4 | des8 des8 des8 des8 ees4 ees4 | ees8 ees8 ees8 ees8 <aes aes,>2 | aes8@c bes8 c'8 bes8 aes8.[ g16] aes,4 | aes,8 aes,8 aes,8 aes,8 aes,4 aes,4 | ees8 ees8 des8 ees8 ees4 ees4 | aes8 aes8 aes8 aes8 aes4 aes4 | aes8 bes8 c'8 bes8 aes4 aes8 aes8 | aes,4 aes,8 c8 des4 des4 | des8 des8 des8 des8 ees4 ees4 | ees8 ees8 ees8 ees8 aes,2
+"""
+
+[lyrics.1]
+text = "Sweet is the prom -- ise— “I will not for -- get thee,” No -- thing can mo -- lest or turn my soul a -- way; E’en though the night be dark with -- in the val -- ley, Just be -- yond is shin -- ing an e -- tern -- al day."
+
+[lyrics.2]
+text = "Trust -- ing the prom -- ise— “I will not for -- get thee,” On -- ward I will go with songs of joy and love, Though earth de -- spise me, Though my friends for -- sake me, I shall be re -- mem -- bered in my home a -- bove."
+
+[lyrics.3]
+text = "When at the gold -- en por -- tals I am stand -- ing, All my trib -- u -- la -- tions, all my sor -- rows past; How sweet to hear the bless -- èd proc -- la -- ma -- tion, “En -- ter, faith -- ful serv -- ant, wel -- come home at last.”"
+
+[lyrics.chorus]
+text = "I will not for -- get thee or leave thee, In My hands I'll hold thee, In My arms I'll fold thee, I will not for -- get thee or leave thee; I am thy Re -- deem -- er, I will care for thee."
+
+[parts.Tenor.lyrics.chorus]
+text = "I will not for -- get thee; I will nev -- er leave thee, In My hands I'll hold thee, In My arms I'll fold thee, I will not for -- get thee, for -- get thee or leave thee; I am thy Re -- deem -- er, I will care for thee."
+
+[parts.Bass.lyrics.chorus]
+text = "I will not for -- get thee; I will nev -- er leave thee, In My hands I'll hold thee, In My arms I'll fold thee, I will not for -- get thee, for -- get thee or leave thee; I am thy Re -- deem -- er, I will care for thee."
