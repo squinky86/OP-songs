@@ -1,0 +1,68 @@
+title = "How You Will Love Him!"
+subtitle = ""
+verse_count = 4
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 112
+phrase_breaks = ["2:64", "4:64", "6:64", "8:64", "12:64"]
+optional_phrase_breaks = ["10:64", "14:64"]
+non_breaking_phrase_breaks = ["11:64"]
+copyrights = [
+  "Lyrics: Eben E. Rexford, 1910 (public domain)",
+  "Music: Bentley D. Ackley, 1910 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+ees'4 ees'4 f'4 g'8 aes'8 | bes'4 ees''4 des''4 c''4 | c''4 g'8 bes'8 aes'4 f'8 g'8 | aes'4 bes'4 bes'2 | ees'4 ees'4 f'4 g'8 aes'8 | bes'4 ees''4 des''4 c''4 | c''4 ees''4 ees''4 g'8 aes'8 | g'4 f'4 ees'2 | ees''4@c d''8 ees''8 des''8 g'8 c''8 bes'8 | aes'2 c''2 | bes'8 bes'8 d''8 c''8 bes'8 aes'8 g'8 f'8 | ees'2. r4 | ees'4 d'8 ees'8 f'8 aes'8 des''8 f''8 | ees''2 c''2 | c''8 bes'8 a'8 bes'8 ees''4.! g'8 | aes'1
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+c'4 c'4 des'4 ees'8 ees'8 | ees'4 ees'4 f'4 ees'4 | e'4 e'8 g'8 f'4 c'8 c'8 | c'4 d'4 des'2 | c'4 c'4 des'4 ees'8 ees'8 | ees'4 ees'4 f'4 ees'4 | ees'4 fis'4 g'4 ees'8 f'8 | d'4 d'4 ees'2 | g'4@c g'8 g'8 g'8 ees'8 g'8 ees'8 | ees'2 aes'2 | aes'8 aes'8 aes'8 aes'8 aes'8 d'8 d'8 d'8 | ees'8 c'8 c'8 des'8( ees'4) r4 | c'4 b8 c'8 des'8 f'8 f'8 aes'8 | aes'2 aes'2 | g'8 g'8 fis'8 g'8 g'4.! ees'8 | ees'1
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+aes4 aes4 aes4 bes8 aes8 | g8[ aes8] bes8[ g8] aes4 aes4 | g4 c'8 c'8 c'4 aes8 bes8 | aes4 aes4 g2 | aes4 aes4 aes4 bes8 aes8 | g8[ aes8] bes8[ g8] aes4 aes4 | aes4 c'4 bes4 bes8 bes8 | bes4 aes4 g2 | bes4@c bes8 bes8 bes8 bes8 ees'8 des'8 | c'2 ees'2 | d'8 d'8 f'8 ees'8 d'8 c'8 bes8 aes8 | g8 g8 g8 aes8( bes4) r4 | aes4 aes8 aes8 aes8 des'8 aes8 des'8 | c'2 ees'2 | ees'8 des'8 c'8 des'8 bes4.! des'8 | c'1
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+aes,4 aes,4 des4 des8 c8 | ees8[ f8] g8[ ees8] aes4 aes4 | c4 c8 c8 f4 f8 f8 | f4 bes,4 ees2 | aes,4 aes,4 des4 des8 c8 | ees8[ f8] g8[ ees8] aes4 aes4 | aes,4 a,4 bes,4 bes,8 bes,8 | bes,4 bes,4 ees2 | ees4@c ees8 ees8 ees8 ees8 ees8 ees8 | aes2 aes2 | bes8 bes8 bes8 bes8 bes,8 bes,8 bes,8 bes,8 | ees2. r4 | aes,4 aes,8 aes,8 des8 des8 des8 des8 | aes2 aes2 | ees8 ees8 ees8 des8 ees4.! ees8 | aes,1
+"""
+
+[parts.Alto.lyrics.chorus]
+text = "O, how you’ll love Him when you know Him! Know the Christ Who died to set you to set you free On Cal -- v’ry’s cross His heart was brok -- en, Brok -- en there for you, for me!"
+
+[parts.Tenor.lyrics.chorus]
+text = "O, how you’ll love Him when you know Him! Know the Christ Who died to set you to set you free On Cal -- v’ry’s cross His heart was brok -- en, Brok -- en there for you, for me!"
+
+[lyrics.1]
+text = "Ye who wan -- der, of sin grown wear -- y, Lone -- ly and far from the safe home -- fold, Come and learn what the love of Christ is, Love whose glad -- ness can ne’er be told."
+
+[lyrics.2]
+text = "Come, and com -- ing, find peace and par -- don Wait -- ing for you at the place of prayer; Kneel and ask for a soul for -- giv -- en, Christ is yearn -- ing to meet you there."
+
+[lyrics.3]
+text = "You should know of this love so ten -- der, Love that is stead -- fast, and deep, and true; Come and share in its sweet -- ness with me, Come, and find that my Christ loves you."
+
+[lyrics.4]
+text = "Come, and find that you can -- not fa -- thom Love li -- ke Christ’s till you taste and see; Height and depths of the love of Je -- sus No man knows till it sets Him free."
+
+[lyrics.chorus]
+text = "O, how you’ll love Him when you know Him! Know the Christ Who died to set you free; On Cal -- v’ry’s cross His heart was brok -- en, Brok -- en there for you, for me!"
