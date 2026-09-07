@@ -1,0 +1,66 @@
+title = "The Wonderful Story"
+subtitle = ""
+verse_count = 3
+key_signature = "Db"
+time_sig_numerator = 9
+time_sig_denominator = 8
+tempo_bpm = 118
+phrase_breaks = ["5:48", "9:48", "11:48", "13:32", "15:48"]
+optional_phrase_breaks = ["3:48", "7:48", "10:64", "12:64", "14:64", "16:64"]
+copyrights = [
+  "Lyrics and Music: Charles H. Gabriel, 1897 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[lyrics.1]
+text = "O sweet is the sto -- ry of Je -- sus, The won -- der -- ful Sav -- ior of men, Who suf -- fered and died for the sin -- ner, I’ll tell it a -- gain and a -- gain!"
+
+[lyrics.2]
+text = "He came from the bright -- est of glo -- ry; His blood as a ran -- som He gave, To pur -- chase e -- ter -- nal re -- demp -- tion; And, O, He is might -- y to save!"
+
+[lyrics.3]
+text = "His mer -- cy flows on like a riv -- er; His love is un -- mea -- sured and free; His grace is for -- ev -- er suf -- fi -- cient, It reach -- es and pur -- i -- fies me."
+
+[lyrics.chorus]
+text = "O won -- der -- ful, won -- der -- ful sto -- ry, The dear -- est that ev -- er was told; I’ll re -- peat it in glo -- ry, The won -- der -- ful sto -- ry, Where I shall His beau -- ty be -- hold."
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. aes'4. | aes'2 g'8 aes'8 bes'8 aes'8 ges'8 | f'4. aes'4. des''4. | des''2 c''8 des''8 ees''8 des''8 bes'8 | aes'2. f'4. | ges'2 f'8 ges'8 bes'8 aes'8 ges'8 | f'4. aes'4. des''4. | c''2 bes'8 aes'8 bes'8 aes'8 g'8 | aes'2. aes'4.@c | des''4.~ des''8 c''8 des''8 ees''8 des''8 bes'8 | aes'4. f'4. aes'4. | des''4.~ des''8 c''8 des''8 bes'8 c''8 des''8 | ees''4.~ ees''8 aes'8 bes'8 c''8 des''8 ees''8 | f''4.~ f''8 ees''8 des''8 c''8 des''8 bes'8 | aes'4. f'4. des''4. | c''4.~ c''8 bes'8 aes'8 c''8 bes'8 aes'8 | des''4.~\\rit des''4.\\spanend s4.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. f'4. | f'2 e'8 f'8 ges'8 f'8 ees'8 | des'4. f'4. aes'4. | ges'2 ges'8 ges'8 ges'8 ges'8 ges'8 | f'2. des'4. | ees'2 d'8 ees'8 ges'8 f'8 ees'8 | des'4. f'4. f'4. | ees'2 des'8 c'8 des'8 c'8 des'8 | c'2. ges'4.@c | f'8 f'8 f'8 f'4. ges'4 ges'8 | f'8 f'8 f'8 des'4 des'8 f'4. | f'8 f'8 f'8 f'4. f'4 g'8 | aes'8 aes'8 aes'8 aes'8 r4 r4. | aes'4 aes'8 aes'8 ges'8 f'8 ges'8 ges'8 ges'8 | f'8 f'8 f'8 des'4 des'8 f'4. | ges'8 ges'8 ges'8 ges'4. ges'4 ges'8 | f'8 f'8 ges'8 f'4. s4.
+"""
+
+[parts.Alto.lyrics.chorus]
+text = "O won -- der -- ful sto -- ry, O won -- der -- ful sto -- ry, The dear -- est that ev -- er, that ev -- er was told, I’ll re -- peat it in glo -- ry, The won -- der -- ful sto -- ry, Where I shall His beau -- ty, His beau -- ty be -- hold."
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. des'4. | des'2 des'8 des'8 des'8 des'8 aes8 | aes4. des'4. ces'4. | bes2 a8 bes8 bes8 bes8 des'8 | des'2. aes4. | aes2 aes8 aes8 aes8 aes8 aes8 | aes4. des'4. aes4. | aes2 g8 aes8 g8 aes8 bes8 | aes2. aes4.@c | aes8 aes8 aes8 aes4. bes4 des'8 | des'8 des'8 des'8 aes4 aes8 des'4. | des'8 des'8 des'8 bes4. des'4 bes8 | c'8 c'8 c'8 c'8 r4 r4. | des'4 des'8 des'8 des'8 aes8 bes8 bes8 des'8 | des'8 des'8 des'8 aes4 aes8 aes4. | aes8 aes8 aes8 ees'4. aes4 aes8 | aes8 aes8 bes8 aes4. s4.
+"""
+
+[parts.Tenor.lyrics.chorus]
+text = "O won -- der -- ful sto -- ry, O won -- der -- ful sto -- ry, The dear -- est that ev -- er, that ev -- er was told, I’ll re -- peat it in glo -- ry, The won -- der -- ful sto -- ry, Where I shall His beau -- ty, His beau -- ty be -- hold."
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. des4. | des2 des8 des8 des8 des8 des8 | des4. des4. f4. | ges2 ges8 ges8 ges8 ges8 ges8 | des2. des4. | aes,2 aes,8 aes,8 aes,8 aes,8 aes,8 | des4. des4. des4. | ees2 ees8 ees8 ees8 ees8 ees8 | aes,2. aes4.@c | des8 f8 aes8 des4. des4 des8 | des8 des8 des8 des4 des8 des4. | bes,8 bes,8 bes,8 bes,4. bes,4 bes,8 | aes,8 c8 ees8 aes8 r4 r4. | des4 des8 des8 des8 des8 des8 des8 des8 | des8 des8 des8 des4 des8 des4. | aes8 aes8 aes8 aes4. aes,4 aes8 | des8 des8 des8 des4. s4.
+"""
+
+[parts.Bass.lyrics.chorus]
+text = "O won -- der -- ful sto -- ry, O won -- der -- ful sto -- ry, The dear -- est that ev -- er, that ev -- er was told, I’ll re -- peat it in glo -- ry, The won -- der -- ful sto -- ry, Where I shall His beau -- ty, His beau -- ty be -- hold."
