@@ -1,0 +1,125 @@
+title = "Just Outside the Door"
+subtitle = ""
+verse_count = 4
+key_signature = "A"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 90
+phrase_breaks = ["5:32", "9:32", "13:32"]
+copyrights = [
+  "Lyrics: James Rowe, 1910 (public domain)",
+  "Music: 'Chouteau' by Bentley D. Ackley, 1910 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+optional_phrase_breaks = ["3:32", "7:32", "11:32", "15:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 cis''4 |
+e''8. dis''16 e''4. d''8 |
+cis''8 d''8 cis''4 cis''4 |
+b'4. b'8 cis''8 d''8 |
+cis''2 cis''4 |
+e''8. dis''16 e''4. d''8 |
+cis''8 d''8 cis''4 cis''4 |
+d''8 d''8 e''4. d''8 |
+cis''2 cis''8@c fis''8 |
+e''8. dis''16 d''4 d''8 e''8 |
+d''8. cis''16 cis''4 cis''4 |
+d''4. d''8 d''8 d''16[ e''16] |
+e''2 cis''8 fis''8 |
+e''8. dis''16 d''4 d''8 e''8 |
+d''8 d''8 cis''4 bis'4 |
+cis''4. e''8 e''8. d''16 |
+cis''2 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 e'4 |
+cis''8. bis'16 cis''4. b'8 |
+a'8 fis'8 e'4 a'4 |
+gis'4. gis'8 a'8 b'8 |
+a'2 e'4 |
+cis''8. bis'16 cis''4. b'8 |
+a'8 fis'8 e'4 a'4 |
+gis'8 e'8 cis''4. b'8 |
+a'2 e'8@c d''8 |
+cis''8. bis'16 b'4 e'8 cis''8 |
+b'8. a'16 a'4 e'8[ a'8] |
+gis'4. gis'8 fis'8 e'8 |
+cis''2 e'8 d''8 |
+cis''8. bis'16 b'4 e'8 cis''8 |
+b'8 gis'8 a'4 fis'4 |
+e'4. cis''8 cis''8. b'16 |
+a'2 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 a4 |
+a8. a16 a4. e8 |
+e8 a8 a4 e4 |
+e4. e8 e8 e8 |
+e2 a4 |
+a8. a16 a4. e8 |
+e8 a8 a4 e4 |
+e8 gis8 a4. e8 |
+e2 a8@c a8 |
+a8. fisis16 gis4 gis8 e8 |
+e8. e16 e4 a8[ e8] |
+e4. e8 gis8 gis8 |
+a2 a8 a8 |
+a8. fisis16 gis4 gis8 a8 |
+gis8 b8 a4 a4 |
+a4. a8 a8. e16 |
+e2 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 a,4 |
+a,8. a,16 a,4. a,8 |
+a,8 a,8 a,4 a,4 |
+e4. e8 e8 e,8 |
+a,2 a,4 |
+a,8. a,16 a,4. a,8 |
+a,8 a,8 a,4 a,4 |
+b,8 e8 e4. e,8 |
+a,2 a,8@c a,8 |
+e8. e16 e4 e8 e8 |
+a,8. a,16 a,4 a,4 |
+b,4. b,8 e8 e8 |
+a,2 a,8 a,8 |
+e8. e16 e4 e8 e8 |
+eis8 eis8 fis4 dis4 |
+e4. e8 e8. e,16 |
+a,2 s4
+"""
+
+[lyrics.1]
+text = "O wea -- ry soul, the gate is near; In sin why still a -- bide? Both peace and rest are wait -- ing here, And you are just out -- side."
+
+[lyrics.2]
+text = "For -- give -- ness Je -- sus will im -- part— To save your soul He died; How can you still of -- fend His heart, By stay -- ing just out -- side?"
+
+[lyrics.3]
+text = "The day of life is pass -- ing by; Soon night your soul will hide; And then “too late” will be your cry, If you are just out -- side!"
+
+[lyrics.4]
+text = "Come in, be free from stains of sin; Be glad, be sa -- tis -- fied; Be -- fore the tem -- pest breaks, come in, And leave your past out -- side."
+
+[lyrics.chorus]
+text = "Just out -- side the door, just out -- side the door, Be -- hold, it stands a -- jar! Just out -- side the door, just out -- side the door, So near and yet so far!"
