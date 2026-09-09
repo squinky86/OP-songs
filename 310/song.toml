@@ -42,7 +42,7 @@ choral_type = "bass"
 clef = "bass"
 staff_number = 2
 notes = """
-aes,8. aes,16 aes,8 f8 f8. f16 | bes,4. f4 r8 | ees8. ees16 ees8 ees8 ees8. ees16 | aes4.( c4.) | des8 des8 des8 des8 des8. des16 | aes,4. aes,4 r8 | bes,8 bes,8 bes,8 bes,8 bes,8 bes,8 | ees4.~ ees4 r8 | aes,8@c aes,8 aes,8 aes,8 aes,8 aes,8 | ees4.^ ees4 ees8 | ees4.^ ees4 ees8 | aes,4. aes,8[ bes,8 c8] | des8 des8 des8 c8 c8 c8 | f4. des4.! | ees8 c8 des8 ees8 ees8 ees8 | aes,4.~ aes,4 r8
+aes,8. aes,16 aes,8 f8 f8. f16 | bes,4. f4 r8 | ees8. ees16 ees8 ees8 ees8. ees16 | aes4.( c4.) | des8 des8 des8 des8 des8. des16 | aes,4. aes,4 r8 | bes,8 bes,8 bes,8 bes,8 bes,8 bes,8 | ees4.~ ees4 r8 | aes,8@c aes,8 aes,8 aes,8 aes,8 aes,8 | ees4.^ ees4 ees8 | ees4.^ ees4 ees8 | aes,4. aes,8[ bes,8 c8] | des8 des8 des8 c8 c8 c8 | f4. des4.! | ees8 c8 des8 ees8 ees8 ees8 | <aes, ees>4.~ <aes, ees>4 r8
 """
 
 [lyrics.1]
