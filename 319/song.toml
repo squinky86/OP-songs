@@ -1,0 +1,130 @@
+# Imported 2026-09-08 from the supplied MusicXML /mnt/win/temp/m-e-r-Merrial.xml
+# — an NWC2MusicXML export (2011-07-29) of the Cyber Hymnal's Merrial.nwc.  The
+# file carries NO lyrics and no part names, only two staves of layered chords.
+#
+# Cross-checks used:
+#  * The Cyber Hymnal's own engraving of the same NWC file, pdf/m/e/r/Merrial.pdf
+#    (via Wayback), read at 600 dpi.  It supplies the tempo mark (quarter = 110)
+#    and confirms the C-natural in m6 and the single-notehead (unison) beats.
+#  * hymnary.org's tune incipit for MERRIAL, "55555 56656 76111", which matches
+#    the reconstructed soprano's first fifteen notes exactly.  The melody
+#    assignment below therefore rests on an INDEPENDENT source, not on the file.
+#
+# Voice reconstruction (the file's <voice> tags do not map to S/A/T/B):
+#  * Treble staff: the melody is the UPPER member of each dyad, the alto the
+#    lower.  Where a voice sustains, NWC pushed the other into layer 2, so the
+#    chord/backup structure alternates; rebuilt by pitch at each onset.
+#  * Bass staff, m1: beats 1 and 3 print a single notehead — tenor and bass in
+#    unison (a3, gis).  The two layer-2 notes are exactly those unison
+#    duplicates, but the exporter emitted them contiguously at beats 1 and 2
+#    instead of 1 and 3 (the known NWC slot-shift defect).  Re-seated to
+#    beats 1 and 3; the resulting harmony (A - A/E - E/G# - E7) is clean and the
+#    engraving's noteheads agree.
+#  * The arrangement decorates the lower voices: the bass sings two-note passing
+#    figures in m2 and m6 and the alto one in m1, each slurred in the source.
+#    Those slurs are real melismas and are kept.  The file carries no <beam> and
+#    no <fermata> elements at all, and the engraving shows no fermata either, so
+#    none are written here; the beams below are only the melisma beams the style
+#    guide requires.
+#
+# Two editorial calls worth the maintainer's eye:
+#  * m4 ("nigh"): the lower staff holds fis while a slurred arpeggio
+#    a - cis' - fis' - e' rises above it.  A bass cannot sing to fis', so the
+#    arpeggio is assigned to the TENOR (florid but singable, and it crosses the
+#    alto only briefly) and the held fis to the bass.  The reverse assignment is
+#    the only alternative and is unsingable.  This is a GUESS.
+#  * m5: layer 1 writes the tenor's first note as a quarter plus an eighth rest
+#    and layer 2 writes its second note as a quarter that overlaps the third.
+#    Written here as a dotted quarter + eighth so the tenor matches the rhythm
+#    every other voice has in that bar.  The tenor's dis' - fis leap is what the
+#    source says; it is an awkward interval and may be an artifact.
+#
+# The tune ends on the fifth (soprano e' over an A chord), not the tonic.  That
+# is the source's reading and is consistent with the m7 dominant pedal.
+#
+# Lyrics: all eight stanzas transcribed from the Cyber Hymnal page for this hymn
+# (hymntime.com/tch/htm/n/o/w/d/nowdayis.htm, via Wayback) — the same edition the
+# score comes from.  Not recalled from memory.  hymnary.org's representative text
+# (Christian Worship #786) is a five-stanza modernization ("your", "tend'rest")
+# and was NOT used; hymnary confirms author and date only.
+# v3 line 3 is printed "With Thy tenderest blessing" (7 syllables) but the meter
+# and the notes give 6, so it is set as the usual sung elision "tend' -- rest".
+# Date 1865 follows hymnary's author credit; the Cyber Hymnal cites first
+# publication in The Church Times, 16 February 1867.
+title = "Now the Day is Over"
+verse_count = 8
+key_signature = "A"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 110
+phrase_breaks = ["4:64"]
+copyrights = [
+  "Lyrics: Sabine Baring-Gould, 1865 (public domain)",
+  "Music: 'Merrial' by Joseph Barnby, 1868 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+optional_phrase_breaks = ["2:64", "6:64"]
+non_breaking_phrase_breaks = ["5:64", "7:48"]
+
+[lyrics.1]
+text = "Now the day is o -- ver, Night is draw -- ing nigh, Sha -- dows of the eve -- ning Steal a -- cross the sky."
+
+[lyrics.2]
+text = "Now the dark -- ness gath -- ers, Stars be -- gin to peep, Birds, and beasts and flow -- ers Soon will be a -- sleep."
+
+[lyrics.3]
+text = "Je -- sus, give the wea -- ry Calm and sweet re -- pose; With Thy tend' -- rest bless -- ing May mine eye -- lids close."
+
+[lyrics.4]
+text = "Grant to lit -- tle chil -- dren Vi -- sions bright of Thee; Guard the sail -- ors toss -- ing On the deep, blue sea."
+
+[lyrics.5]
+text = "Com -- fort those who suf -- fer, Watch -- ing late in pain; Those who plan some e -- vil From their sin re -- strain."
+
+[lyrics.6]
+text = "Through the long night watch -- es May Thine an -- gels spread Their white wings a -- bove me, Watch -- ing round my bed."
+
+[lyrics.7]
+text = "When the morn -- ing wak -- ens, Then may I a -- rise Pure, and fresh, and sin -- less In Thy ho -- ly eyes."
+
+[lyrics.8]
+text = "Glo -- ry to the Fa -- ther, Glo -- ry to the Son, And to Thee, blest Spir -- it, While all a -- ges run."
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+e'4 e'4 e'4 e'4 | e'2 e'2 | fis'4 fis'4 eis'4 fis'8[ gis'8] | fis'2( a'2) |
+a'4. a'8 gis'4 fis'4 | e'2 e'2 | e'4. e'8 e'4 e'4 | e'1
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+cis'4 cis'4 b4 cis'8[ d'8] | cis'2 cis'2 | cis'4 cis'4 cis'4 cis'4 | cis'1 |
+cis'4. cis'8 dis'4 dis'4 | e'2 e'2 | d'4. d'8 d'4 d'4 | cis'1
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+a4 a4 gis4 gis4 | a2 a2 | a4 a4 gis4 b4 | a4( cis'4 fis'4 e'4) |
+dis'4. fis8 b4 a4 | gis2 a2 | a4 gis4/+24 fis4 gis4 | a1
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3, 4, 5, 6, 7, 8]
+suppress_verses_when = ["soprano", "alto", "tenor"]
+
+notes = """
+a4 e4 gis4 e4 | a4( e4) cis4( a,4) | fis,4 a,4 cis4 cis4 | fis1 |
+b,4. b,8 b,4 b,4 | e4 d4 cis4 c4 | b,2. b,4 | a,1
+"""
