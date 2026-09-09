@@ -1,0 +1,80 @@
+title = "It Is Well With My Soul"
+subtitle = ""
+copyrights = [
+  "Lyrics: Horatio G. Spafford, 1873 (public domain)",
+  "Music: 'Ville du Havre' by Philip P. Bliss, 1876 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Db"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 92
+verse_count = 4
+phrase_breaks = ["5:48", "8:48", "12:32", "15:32", "19:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. aes'4 | aes'2 ges'4 f'4 | f'2 ees'4 f'4 | ges'4( bes'4) aes'4 ges'4 |
+f'2. aes'4 | des''2 c''4 bes'4 | bes'2 aes'4 g'4 | aes'2. aes'4 |
+des''2 des''4 c''4 | bes'2 bes'4 bes'4 | ees''2 ees''4 des''4 | c''2 bes'4 aes'4 |
+des''2 des''4 des''4 | des''2 c''4. des''8 | des''2! aes'4@c aes'4 | aes'1~ |
+aes'2 aes'4 aes'4 | aes'1~ | aes'2 f'4 aes'4 | bes'2 bes'4 des''4 |
+des''2 c''4. des''8 | des''2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. f'4 | f'2 ees'4 des'4 | des'2 c'4 des'4 | c'2 c'4 ees'4 |
+des'2. f'4 | f'2 ees'4 des'4 | f'2 ees'4 ees'4 | ees'2. ges'4 |
+f'2 f'4 aes'4 | ges'2 bes'4 aes'4 | ges'2 ges'4 g'4 | aes'2 aes'4 aes'4 |
+aes'2 des'4 ees'4 | f'2 ees'4. f'8 | f'2! r2@c | r2 f'4 f'4 |
+ees'2 r2 | r2 ees'4 ges'4 | f'2 des'4 f'4 | ges'2 ges'4 ges'4 |
+f'2 ees'4. f'8 | f'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. aes4 | aes2 aes4 aes4 | aes2 aes4 aes4 | aes2 aes4 aes4 |
+aes2. aes4 | bes2 a4 bes4 | des'2 c'4 bes4 | c'2. c'4 |
+des'2 des'4 des'4 | des'2 des'4 d'4 | ees'2 bes4 ees'4 | ees'2 des'4 c'4 |
+des'2 aes4 bes4 | aes2 aes4. aes8 | aes2! r2@c | r2 aes4 des'4 |
+c'2 r2 | r2 c'4 ees'4 | des'2 aes4 des'4 | des'2 des'4 bes4 |
+aes2 aes4. aes8 | aes2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. des4 | des2 des4 des8[ f8] | aes2 ges4 f4 | ees2 aes,4 aes,4 |
+des2. des4 | bes,2 c4 des4 | des2 ees4 ees4 | aes,2. aes4 |
+des2 des4 f4 | ges2 ges4 f4 | ees2 ees4 ees4 | aes2 aes4 aes8[ ges8] |
+f2 f4 ges4 | aes2 aes,4. aes,8 | des2! r2@c | r2 des4 f4 |
+aes2 r2 | r2 aes,4 aes,4 | des2 des4 des4 | ges2 ges4 ges4 |
+aes2 aes,4. aes,8 | des2. s4
+"""
+
+[lyrics.1]
+text = "When peace like a riv -- er at -- tend -- eth my way, When sor -- rows like sea bil -- lows roll; What -- ev -- er my lot, Thou hast taught me to say, “It is well, it is well with my soul.”"
+
+[lyrics.2]
+text = "Though Sa -- tan should buf -- fet, though tri -- als should come, Let this blest as -- su -- rance con -- trol: That Christ has re -- gard -- ed my help -- less es -- tate, And hath shed His own blood for my soul."
+
+[lyrics.3]
+text = "My sin— oh, the bliss of this glo -- ri -- ous thought!— My sin, not in part, but the whole, Is nailed to the cross, and I bear it no more; Praise the Lord, praise the Lord, O my soul!"
+
+[lyrics.4]
+text = "And, Lord, haste the day when my faith shall be sight, The clouds be rolled back as a scroll; The trump shall re -- sound and the Lord shall de -- scend; “E -- ven so,” it is well with my soul."
+
+[lyrics.chorus]
+text = "It is well with my soul; it is well, it is well with my soul."
