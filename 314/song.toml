@@ -1,0 +1,138 @@
+# Source: hymnary.org's NWC2MusicXML export of the Cyber Hymnal NWC
+# ("m-o-r-More like the Master.xml"), checked note-for-note against the Cyber
+# Hymnal's own engraving (Wayback snapshot of
+# hymntime.com/tch/pdf/m/o/r/More like the Master.pdf) and its .nwc.  The NWC
+# names its sources as American Baptist Hymnal (1960) #96 and Tabernacle Hymns
+# Number Four (1953).  Lyrics are the Cyber Hymnal page text (Wayback), which
+# is identical to the underlay printed in that score; author identity confirmed
+# from the credit line (Charles H. Gabriel, words and music).
+#
+# Export defects corrected against the print:
+#  * Lyric underlay ran one slot early from m.11 on, because a layer-2 note at
+#    m.11 beat 4 (the alto Gb of the A-dim chord) was given a slot of its own.
+#    Re-seated: each 4-bar line carries 3-2-4-1 syllables (3-3-4-1 in verse
+#    lines 3 and 4, which are 11 syllables).
+#  * Layers 1 and 2 swap voices from bar to bar wherever a voice sustains, so
+#    the four parts were rebuilt by pitch at each onset (higher = soprano /
+#    tenor) with the constraint that exactly two voices sound at every onset.
+#    That also relocates m.18's layer-2 Ab, which the export placed on beat 3
+#    but the print shows on beat 4.
+#  * Ties are serialised one occurrence late (the stop lands on the *next*
+#    matching pitch); re-derived from the printed slurs and syllable counts.
+#  * Beams in the export are plain XML beams, not melismas, and were dropped.
+#
+# GUESS / open editorial call - the refrain texture.  M.17-32 is engraved as
+# melody plus a three-part homorhythmic accompaniment, not as SATB: alto,
+# tenor and bass have only two notes where the melody has four syllables
+# (m.19, 23, 27) and four where it has two (m.18, 22, 26).  No underlay lets
+# them sing the words in step with the soprano.  The slurs below are chosen so
+# each lower part consumes exactly ten syllables per refrain line and re-syncs
+# with the melody at every line end; mid-line they run up to two syllables
+# ahead of it.  The /+72 and /+48 dedup offsets in m.18/19, 22/23 and 26/27
+# pull those parts' fingerprints back onto the melody's syllable ticks so the
+# refrain prints as one lyric row, the way the source engraves it; without
+# them the lower parts stack a second, differently-spaced row.  A genuine
+# SATB printing (Baptist Hymnal 1956 #325, American Baptist Hymnal 1960 #96)
+# would settle the whole question and is worth substituting.
+#
+# Other reconstructions:
+#  * M.16 carries no lyric of its own in the print: the melody holds "do"
+#    while alto and tenor run up in parallel thirds.  Encoded as a six-eighth
+#    beamed melisma in those two parts, tied holds in soprano and bass.
+#  * The lower staff prints a single notehead at m.30 beat 1 and m.31 beats
+#    1-2 (and m.22 beat 4, where the file is explicit); read as tenor/bass
+#    unison, which is how NWC draws a unison.  Harmonically complete either
+#    way, but a printed edition might put the bass an octave lower.
+#  * Every bare A/B/D/G below is a printed natural (m.3, 11, 13, 15, 16, 27,
+#    29) and each is corroborated harmonically - no missing <alter>.
+#  * Tempo is the printed mark, quarter = 135; the Cyber Hymnal MIDI encodes
+#    140.  Fast for congregational use; lower it if it sounds hurried.
+#  * Subtitle left empty: hymnary lists no tune name for this tune.
+title = "More Like the Master"
+subtitle = ""
+copyrights = [
+  "Lyrics: Charles H. Gabriel, 1906 (public domain)",
+  "Music: Charles H. Gabriel, 1906 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Db"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 135
+verse_count = 3
+phrase_breaks = ["4:48", "8:48", "12:48", "16:48", "20:48", "24:48", "28:48", "32:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+aes'4. bes'4 aes'8 | aes'4. f'4. | aes'4 ges'8 ges'4 f'8 | ges'4.~ ges'4. |
+bes'4. c''4 bes'8 | bes'4. ees'4. | aes'4 bes'8 aes'4 bes'8 | aes'4.~ aes'4. |
+des''4. c''4 ees''8 | des''4. f'4 aes'8 | c''4 bes'8 bes'4 a'8 | bes'4.~ bes'4. |
+bes'4. c''4 des''8 | ees''4. c''4 aes'8 | c''4 des''8 c''4 bes'8 | aes'4.~ aes'4. |
+des''4.@c c''4 bes'8 | f'4.~ f'4 aes'8 | bes'4 aes'8 bes'4 des''8 | c''4.~ c''4. |
+des''4. c''4 bes'8 | ges'4.~ ges'4 aes'8 | bes'4 c''8 bes'4 c''8 | f'4.~ f'4. |
+des''4. des''4 bes'8 | f'4.~ f'4 aes'8 | bes'4 f'8 bes'4 aes'8 | ges'4.~ ges'4. |
+g'4. aes'4 bes'8 | c''4.( des''4) ges'8 | f'4 f'8 ees'4 ees'8 | des'2.
+"""
+
+[parts.Soprano.lyrics.chorus]
+text = "Take Thou my heart, I would be Thine a -- lone; Take Thou my heart, and make it all Thine own. Purge me from sin, O Lord, I now im -- plore, Wash me and keep me Thine for -- ev -- er -- more."
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+f'4. ges'4 f'8 | f'4. des'4. | f'4 ees'8 ees'4 d'8 | ees'4.~ ees'4. |
+ges'4. ges'4 ges'8 | ges'4. c'4. | des'4 des'8 ges'4 ges'8 | f'4.~ f'4. |
+f'4. ees'4 ges'8 | f'4. des'4 f'8 | aes'4 ges'8 ges'4 ges'8 | ges'4.~ ges'4. |
+g'4. g'4 g'8 | aes'4. ees'4 ees'8 | ees'4 ees'8 ees'4 des'8 | c'8[ des'8 d'8 ees'8 f'8 ges'8] |
+f'4@c f'8 f'4 f'8 | des'4 des'8 des'4 f'8 | f'4. f'4. | ges'4 ges'8 ges'4. |
+ges'4 ges'8 ges'4 ges'8 | ees'4 ees'8 ees'4 f'8 | ges'4. ges'4. | des'4 des'8 des'4. |
+f'4 f'8 f'4 f'8 | des'4 des'8 des'4 des'8 | d'4. f'4. | ees'4 ees'8 ees'4. |
+ees'4 ees'8 ees'4 ees'8 | ees'4 ees'8 des'4 des'8 | des'4 des'8 c'4 c'8 | des'2.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+des'4. des'4 des'8 | des'4. aes4. | des'4 aes8 aes4 aes8 | aes4.~ aes4. |
+c'4. c'4 c'8 | c'4. aes4. | aes4 aes8 c'4 c'8 | des'4.~ des'4. |
+aes4. aes4 aes8 | aes4. aes4 des'8 | des'4 des'8 des'4 c'8 | des'4.~ des'4. |
+des'4( ees'8) ees'4 ees'8 | c'4. aes4 aes8 | aes4 bes8 aes4 g8 | aes8[ bes8 b8 c'8 des'8 ees'8] |
+aes4@c aes8 aes4 aes8 | aes4 aes8 aes4 des'8 | des'4. des'4. | aes4 aes8 aes4. |
+ees'4 ees'8 ees'4 c'8 | c'4 c'8 c'4 aes8 | c'4. c'4. | des'4 aes8 aes4. |
+aes4 aes8 aes4 aes8 | aes4 aes8 aes4 f8 | f4( bes8) bes4. | bes4 bes8 bes4. |
+bes4 bes8 aes4 g8 | aes4 aes8 aes4 bes8 | aes4 aes8 ges4 ges8 | f2.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+des4. des4 des8 | des4. des4. | aes,4 aes,8 aes,4 aes,8 | aes,4.~ aes,4. |
+aes,4. aes,4 aes,8 | aes,4. ges4. | f4 f8 ees4 aes,8 | des4.~ des4. |
+des4. des4 des8 | des4. des4 des8 | ges4 ges8 ges4 ges8 | ges4.~ ges4. |
+ees4( des8) c4 bes,8 | aes,4. aes,4 c8 | ees4 ees8 ees4 ees8 | aes,4.~ aes,4. |
+des4@c des8 des4 des8 | des4 des8 des4 des8 | des4. des4. | ees4 ees8 ees4. |
+aes4 aes8 aes4 aes8 | aes4 aes8 aes4 aes8 | aes,4. aes,4. | des4 des8 des4. |
+des4 des8 des4 des8 | des4 des8 des4 des8 | bes,4. d4. | ees4 ees8 ees4. |
+ees4 des8 c4 bes,8 | aes4 ges8 f4 ges8 | aes4 aes8 aes,4 aes,8 | des2.
+"""
+
+[lyrics.1]
+text = "More like the Mas -- ter I would ev -- er be, More of His meek -- ness, more hu -- mil -- i -- ty; More zeal to la -- bor, more cour -- age to be true, More con -- se -- cra -- tion for work He bids me do."
+
+[lyrics.2]
+text = "More like the Mas -- ter is my dai -- ly prayer; More strength to car -- ry cross -- es I must bear; More ear -- nest ef -- fort to bring His king -- dom in; More of His Spir -- it, the wan -- der -- er to win."
+
+[lyrics.3]
+text = "More like the Mas -- ter I would live and grow; More of His love to o -- thers I would show; More self de -- ni -- al, like His in Ga -- li -- lee, More like the Mas -- ter I long to ev -- er be."
+
+[lyrics.chorus]
+text = "Take my heart, O take my heart, I would be Thine a -- lone; Take my heart, O take my heart and make it all Thine own; Purge Thou me from ev -- 'ry sin, O Lord, I now im -- plore, Wash and keep, O wash and keep me Thine for -- ev -- er more."
