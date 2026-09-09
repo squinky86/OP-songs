@@ -1,0 +1,155 @@
+# Source: the supplied MusicXML, /mnt/win/temp/b-r-i-Brighten the Corner Where
+# You Are.xml -- an NWC2MusicXML export (encoding-date 2011-07-29) whose own
+# credit block reads "From Hymnary.org (based on a score from the Cyber
+# Hymnal)". It is the file hymnary.org links from the Cyber Hymnal #628 media
+# row.
+#
+# Verified against print: the Cyber Hymnal's own engraving of that score,
+# hymntime.com/tch/pdf/b/r/i/Brighten the Corner Where You Are.pdf, via a
+# Wayback snapshot. Rhythm, unisons, the refrain melismas and the final bars
+# below were read off that plate; pitches come from the XML (every accidental
+# there is explicit, including <alter> on the key-signature sharps, so the
+# usual NWC missing-<alter> defect is absent here) and were spot-checked
+# against the plate and harmonically.
+#
+# Lyrics: read off the plate. Cross-checked against
+# hymnary.org/text/do_not_wait_until_some_deed_of_greatness (fetched 200 on the
+# first try); identity check passes -- that page credits Ina Duley Ogdon (1913),
+# names the Cyber Hymnal #628 score, and its representative text matches the
+# plate word for word. Kept the plate's punctuation where the two differ:
+# "shed your light a-far," (comma; hymnary prints "afar;").
+#
+# TRANSPOSED: the plate and the source XML are in D major; this file is E-flat
+# major, transposed up a minor second at the maintainer's request. Every pitch
+# below is therefore a semitone above the engraving -- rhythm, lyrics, phrase
+# breaks and tempo are untouched. Chromatic spellings follow the new key: the
+# plate's f-natural passing tone (fis-f-e) is written ges (g-ges-f), and its
+# raised fourth gis is written a-natural. Ranges after transposition: soprano
+# Eb4-Eb5, alto D4-Bb4, tenor G3-Eb4, bass Bb2-Bb3.
+#
+# Tempo: quarter = 105 is printed on the plate.
+# Subtitle: the tune is unnamed (hymnary lists it as "[Do not wait until some
+# deed of greatness you may do]"); left empty.
+# No fermatas, dynamics or tempo marks appear anywhere on the plate.
+#
+# Closed score. Both staves are written as chords: the LOWER note is the <note>
+# and the UPPER note is the <chord/> member. So on the treble staff soprano =
+# chord member, alto = base note; on the bass staff tenor = chord member,
+# bass = base note. Split by hand, not by the importer's voice inference.
+#
+# Refrain underlay (the NWC pathology here): the XML carries the verse lyrics
+# on the treble staff and the ENTIRE refrain text on the BASS staff, starting
+# two onsets early -- "Bright-en" sits on m9 beats 3-4, underneath the
+# soprano's held "are." that ends the verse. Re-seated onto the melody from
+# m10 beat 1. Confirmed, not merely plausible: the refrain stream is exactly 37
+# syllables and there are exactly 37 sung onsets from m10 to the end (m18 is
+# tied, so it takes no slot), and all three verses reconcile at 43 syllables
+# against 43 onsets in m1-m9.
+#
+# Layer-2 unison duplicates re-seated onto real voices (each is a single
+# notehead on the plate):
+# - m8 and m16, first two events: tenor and bass both on A3.
+# - m9, m17 and m18, last event: soprano and alto both on D4.
+#
+# m11 bass: the plate slurs the eighth-note run in three groups (2 + 2 + 4),
+# i.e. the bass sings "where you are!" as melismas while S/A/T hold. Written as
+# beams per style guide 1.1 (all-eighth melismas beam rather than slur), so the
+# bass still takes the global chorus text. The XML's cross-voice slurs and the
+# stray tie into the layer-2 tenor note there are layer artifacts and were
+# dropped.
+#
+# Guesses / open editorial calls:
+# - m11 tenor: the XML's layer-2 tenor totals only 3.5 beats (quarter, quarter,
+#   dotted quarter) and the plate agrees, leaving the last eighth unaccounted
+#   for. Written as quarter, quarter, HALF -- the tenor simply holds A3 through
+#   the bar. A dotted quarter plus an eighth rest is the other reading.
+# - Final bars. The plate bars the last phrase as "where(q) you(q) are!(q)" |
+#   "dotted half", i.e. 3 + 3 beats, which leaves the whole piece one beat short
+#   of tiling 4/4 against its one-beat pickup. Written regularly instead:
+#   m17 = q q half~ (every parallel phrase, m11 and m13, ends on a half) and
+#   m18 = dotted half + s4. Consequence: the closing "are!" is held five beats
+#   here where the plate holds it four. Worth a second opinion.
+# - m8/m16 bass on A3 (not A2) is what both the XML and the plate give -- high
+#   for a bass, but it is the dominant pedal and the tenor is in unison with it.
+title = "Brighten the Corner Where You Are"
+subtitle = ""
+verse_count = 3
+key_signature = "Eb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 105
+phrase_breaks = ["3:48", "5:48", "7:64", "9:64", "11:64", "13:64", "15:64"]
+optional_phrase_breaks = ["14:64"]
+copyrights = [
+  "Lyrics: Ina Duley Ogdon, 1913 (public domain)",
+  "Music: Charles H. Gabriel, 1913 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+non_breaking_phrase_breaks = ["10:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. g'8 aes'8 | bes'8 bes'8 a'8 bes'8 ees''8 ees''8 bes'8 g'8 | bes'4 a'4 aes'4 aes'8 bes'8 |
+d''4. c''8 bes'8 c''8 bes'8 aes'8 | g'2. g'8 aes'8 | bes'8 bes'8 a'8 bes'8 ees''8 ees''8 g'8 bes'8 |
+d''4 c''4 c''2 | ees''8 ees''4 c''8 bes'8 c''4. | g'4 f'4 ees'2 |
+ees''8@c ees''4 ees''8 ees''8 bes'4. | d''4 d''4 d''2 | d''8 d''4 d''8 d''8 aes'4. |
+c''4 bes'4 bes'2 | ees''8 ees''8 ees''8 ees''8 ees''8 bes'8 a'8 bes'8 | d''8 c''8 c''8 c''8 c''2 |
+ees''8 ees''4 c''8 bes'8 c''4. | g'4 f'4 ees'4! s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. ees'8 f'8 | g'8 g'8 ges'8 g'8 g'8 g'8 g'8 ees'8 | ees'4 ees'4 d'4 d'8 d'8 |
+aes'4. aes'8 g'8 aes'8 g'8 f'8 | ees'2. ees'8 f'8 | g'8 g'8 ges'8 g'8 g'8 g'8 ees'8 g'8 |
+bes'4 aes'4 aes'2 | g'8 g'4 g'8 g'8 g'4. | ees'4 d'4 ees'2 |
+g'8@c g'4 g'8 g'8 ees'4. | aes'4 aes'4 aes'2 | aes'8 aes'4 aes'8 aes'8 f'4. |
+g'4 g'4 g'2 | g'8 g'8 g'8 g'8 g'8 g'8 ges'8 g'8 | bes'8 aes'8 aes'8 aes'8 aes'2 |
+g'8 g'4 g'8 g'8 g'4. | ees'4 ees'4 ees'4! s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. bes8 bes8 | ees'8 ees'8 ees'8 ees'8 bes8 bes8 ees'8 bes8 | bes4 c'4 bes4 bes8 bes8 |
+bes4. aes8 aes8 aes8 aes8 aes8 | bes2. bes8 bes8 | ees'8 ees'8 ees'8 ees'8 bes8 bes8 bes8 ees'8 |
+ees'4 ees'4 ees'2 | bes8 bes4 ees'8 ees'8 ees'4. | bes4 bes4 g2 |
+bes8@c bes4 bes8 bes8 ees'4. | bes4 bes4 bes2 | bes8 bes4 bes8 bes8 d'4. |
+ees'4 ees'4 ees'2 | bes8 bes8 bes8 bes8 bes8 ees'8 ees'8 ees'8 | ees'8 ees'8 ees'8 ees'8 ees'2 |
+bes8 bes4 ees'8 ees'8 ees'4. | bes4 aes4 g4! s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. ees8 ees8 | ees8 ees8 ees8 ees8 ees8 ees8 ees8 ees8 | g4 ges4 f4 f8 f8 |
+bes,4. bes,8 bes,8 bes,8 bes,8 bes,8 | ees2. ees8 ees8 | ees8 ees8 ees8 ees8 ees8 ees8 ees8 ees8 |
+aes4 aes4 aes2 | bes8 bes4 bes8 bes8 bes4. | bes,4 bes,4 ees2 |
+ees8@c ees4 ees8 ees8 g4. | f8 bes,8 d8 f8 bes8 aes8 g8[ d8] | bes,8 bes,4 bes,8 bes,8 bes,4. |
+ees4 ees4 ees2 | ees8 ees8 ees8 ees8 ees8 ees8 ees8 ees8 | aes8 aes8 aes8 aes8 aes2 |
+bes8 bes4 bes8 bes8 bes4. | bes,4 bes,4 ees4! s4
+"""
+
+[parts.Bass.lyrics.chorus]
+text = "Bright -- en the cor -- ner Shine for Je -- sus where you are! Bright -- en the cor -- ner where you are! Some -- one far from har -- bor you may guide a -- cross the bar; Bright -- en the cor -- ner where you are!"
+
+[lyrics.1]
+text = "Do not wait un -- til some deed of great -- ness you may do, Do not wait to shed your light a -- far, To the ma -- ny du -- ties ev -- er near you now be true, Bright -- en the cor -- ner where you are."
+
+[lyrics.2]
+text = "Just a -- bove are cloud -- ed skies that you may help to clear, Let not nar -- row self your way de -- bar; Though in -- to one heart a -- lone may fall your song of cheer, Bright -- en the cor -- ner where you are."
+
+[lyrics.3]
+text = "Here for all your tal -- ent you may sure -- ly find a need, Here re -- flect the bright and Morn -- ing Star; Ev -- en from your hum -- ble hand the Bread of Life may feed, Bright -- en the cor -- ner where you are."
+
+[lyrics.chorus]
+text = "Bright -- en the cor -- ner where you are! Bright -- en the cor -- ner where you are! Some -- one far from har -- bor you may guide a -- cross the bar; Bright -- en the cor -- ner where you are!"
