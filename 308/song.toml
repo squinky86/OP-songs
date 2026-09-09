@@ -1,0 +1,81 @@
+title = "I Never Will Cease to Love Him"
+subtitle = ""
+verse_count = 4
+key_signature = "E"
+time_sig_numerator = 2
+time_sig_denominator = 4
+tempo_bpm = 90
+phrase_breaks = ["5:24", "9:24", "13:24"]
+copyrights = [
+  "Lyrics and Music: Charles H. Gabriel, 1890 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+optional_phrase_breaks = ["3:24", "7:24", "11:16", "15:16"]
+non_breaking_phrase_breaks = ["11:24", "12:16", "12:24", "15:24"]
+
+[lyrics.1]
+text = "For all the Lord has done for me, I nev -- er will cease to love Him; And for His grace so rich and free, I nev -- er will cease to love Him."
+
+[lyrics.2]
+text = "He gives me strength for ev -- ery day, I nev -- er will cease to love Him; He leads and guides me all the way, I nev -- er will cease to love Him."
+
+[lyrics.3]
+text = "Though all the world His love ne -- glect, I nev -- er will cease to love Him; I could not such a Friend re -- ject, I nev -- er will cease to love Him."
+
+[lyrics.4]
+text = "While on my jour -- ney here be -- low, I nev -- er will cease to love Him; And when to that bright world I go, I nev -- er will cease to love Him."
+
+[lyrics.chorus]
+text = "I nev -- er will cease to love Him, He's my Sav -- ior, He's my Sav -- ior; I nev -- er will cease to love Him, For He’s done so much for me."
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. e'8 | gis'8 gis'8 gis'8 a'8 | gis'8 fis'8 fis'8 b8 | fis'16 fis'16 gis'8 a'8 cis''8 |
+cis''8 b'4 e'8 | gis'8 gis'8 gis'8 a'8 | gis'8 fis'8 fis'8 b8 | fis'16 fis'16 a'8 gis'8 fis'8 |
+fis'8 e'4 b'8@c | e''16 e''16 e''8 e''8 b'8 | cis''8 b'4 gis'8 | gis'8 fis'4 cis''8 |
+cis''8 b'4 b'8 | e''16 e''16 e''8 e''8 b'8 | cis''8 b'4 gis'8 | gis'8 e'8 gis'8 fis'8 |
+e'4. s8 |
+"""
+
+[parts.Soprano.lyrics.chorus]
+text = "I nev -- er will cease to love Him, my Sav -- ior, my Sav -- ior; I nev -- er will cease to love Him, He’s done so much for me."
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. e'8 | e'8 e'8 e'8 e'8 | e'8 dis'8 dis'8 b8 | b16 b16 e'8 fis'8 a'8 |
+a'8 gis'4 e'8 | e'8 e'8 e'8 e'8 | e'8 dis'8 dis'8 b8 | b16 b16 fis'8 e'8 dis'8 |
+b8 b4 gis'8@c | gis'16 gis'16 gis'8 gis'8 gis'8 | a'8 gis'8 gis'8 e'8 | e'8 dis'8 dis'8 a'8 |
+a'8 gis'4 gis'8 | gis'16 gis'16 gis'8 gis'8 gis'8 | a'8 gis'8 gis'8 e'8 | e'8 e'8 e'8 dis'8 |
+e'4. s8 |
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. gis8 | b8 b8 b8 cis'8 | b8 a8 a8 a8 | a16 a16 b8 dis'8 dis'8 |
+e'8 e'4 gis8 | b8 b8 b8 cis'8 | b8 a8 a8 a8 | a16 a16 b8 b8 a8 |
+a8 gis4 e'8@c | b16 b16 b8 b8 e'8 | e'8 e'8 e'8 b8 | b8 b8 b8 dis'8 |
+e'8 e'4 e'8 | b16 b16 b8 b8 e'8 | e'8 e'8 e'8 b8 | b8 gis8 b8 a8 |
+gis4. s8 |
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. e8 | e8 e8 e8 e8 | b,8 b,8 b,8 b,8 | b,16 b,16 b,8 b,8 b,8 |
+e8 e4 e8 | e8 e8 e8 e8 | b,8 b,8 b,8 b,8 | b,16 b,16 b,8 b,8 b,8 |
+e8 e4 e8@c | e16 e16 e8 e8 e8 | e8 e8 e8 e8 | b,8 b,8 b,8 b,8 |
+e8 e4 e8 | e16 e16 e8 e8 e8 | e8 e8 e8 e8 | b,8 b,8 b,8 b,8 |
+e4. s8 |
+"""
