@@ -1,0 +1,61 @@
+title = "Carry Thy Burden to Jesus"
+subtitle = ""
+copyrights = [
+  "Lyrics: Ethel Verne King, 1926 (public domain)",
+  "Music: Robert Hood Bowers, 1926 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 92
+verse_count = 4
+phrase_breaks = ["4:48", "8:48", "12:48"]
+optional_phrase_breaks = ["2:48", "6:48", "10:40", "14:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+ees'8. d'16 ees'8 c''8 des''8. c''16 | c''4. bes'4 r8 | bes'8. ees'16 g'8 bes'8 c''8. bes'16 | aes'4.( ges'4.) | aes'8 g'8 aes'8 des''8 ees''8. des''16 | des''4. c''4 r8 | bes'8 g'8 ees'8 f'8 g'8 aes'8 | bes'4.~ bes'4 r8 | c''8@c aes'8 bes'8 c''8 ees''8 des''8 | c''4.^ bes'4 ees'8 | c''4.^ bes'4 ees'8 | bes'4.^ aes'4. | f'8 f'8 f'8 g'8 fis'8 g'8 | aes'4. des''4.! | c''8 ees''8 des''8 c''8 bes'8 c''8 | aes'4.~ aes'4 r8
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+c'8. b16 c'8 ees'8 f'8. ees'16 | d'4. d'4 r8 | des'8. des'16 des'8 g'8 g'8. g'16 | aes'4.( ees'4.) | f'8 e'8 f'8 f'8 g'8. f'16 | f'4( fes'8) ees'4 r8 | ees'8 ees'8 ees'8 d'8 d'8 d'8 | des'4.~ des'4 r8 | ees'8@c c'8 des'8 ees'8 g'8 f'8 | ees'4.^ des'4 des'8 | ees'4.^ des'4 des'8 | des'4.^ c'8[ des'8 ees'8] | des'8 des'8 f'8 e'8 dis'8 e'8 | f'4. f'4.! | ees'8 ees'8 f'8 ees'8 des'8 ees'8 | c'4.~ c'4 r8
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+aes8. aes16 aes8 a8 a8. a16 | aes4. aes4 r8 | g8. g16 bes8 des'8 ees'8. des'16 | c'4.( ees'4.) | des'8 des'8 des'8 aes8 aes8. aes16 | aes4. aes4 r8 | g8 bes8 g8 aes8 g8 f8 | g4.~ g4 r8 | aes8@c ees8 aes8 aes8 aes8 aes8 | aes4.^ g4 g8 | aes4.^ g4 g8 | ees8[ f8 g8] aes4. | aes8 aes8 aes8 bes8 c'8 c'8 | c'4( aes8) aes4.! | aes8 aes8 aes8 aes8 g8 g8 | aes4.~ aes4 r8
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+aes,8. aes,16 aes,8 f8 f8. f16 | bes,4. f4 r8 | ees8. ees16 ees8 ees8 ees8. ees16 | aes4.( c4.) | des8 des8 des8 des8 des8. des16 | aes,4. aes,4 r8 | bes,8 bes,8 bes,8 bes,8 bes,8 bes,8 | ees4.~ ees4 r8 | aes,8@c aes,8 aes,8 aes,8 aes,8 aes,8 | ees4.^ ees4 ees8 | ees4.^ ees4 ees8 | aes,4. aes,8[ bes,8 c8] | des8 des8 des8 c8 c8 c8 | f4. des4.! | ees8 c8 des8 ees8 ees8 ees8 | aes,4.~ aes,4 r8
+"""
+
+[lyrics.1]
+text = "Car -- ry thy bur -- den to Je -- sus, Thou who art wea -- ry of care; Tell Him thy sor -- row and long -- ing, Ask Him thy trou -- bles to share."
+
+[lyrics.2]
+text = "Tell Him of life's dis -- ap -- point -- ments, Tell Him thy weak -- ness and sin; Ask Him for peace in the con -- flict, Ask Him for cleans -- ing with -- in."
+
+[lyrics.3]
+text = "Je -- sus is wait -- ing to save you; Grace that is bound -- less and free, Pur -- chased at Cal -- va -- ry's foun -- tain, Glad -- ly He of -- fers to thee."
+
+[lyrics.4]
+text = "There shall the right -- eous Re -- deem -- er Fill thee with pow -- er a -- new; Hands that were wound -- ed shall bless thee, Mak -- ing thee stead -- fast and true."
+
+[lyrics.chorus]
+text = "Car -- ry thy bur -- den to Je -- sus, To Je -- sus, to Je -- sus, Car -- ry thy bur -- den to Je -- sus, Ask Him thy tri -- als to share."
