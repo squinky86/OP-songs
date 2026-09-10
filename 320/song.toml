@@ -1,0 +1,87 @@
+title = "Only Shadows"
+copyrights = [
+  "Lyrics and Music: A. H. Ackley, 1928 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 6
+time_sig_denominator = 4
+tempo_bpm = 120
+verse_count = 4
+non_breaking_phrase_breaks = ["12:0"]
+phrase_breaks = ["5:80", "9:80", "11:80", "14:64"]
+optional_phrase_breaks = ["3:96", "7:96", "10:64", "13:80", "15:96"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s1 s4 c'8 des'8 | ees'4 d'4 ees'4 f'4 aes'4 bes'4 | c''4 aes'4 des''4 c''2. |
+bes'2 f'4 g'2 ees'4 | ees'4 aes'2~ aes'2 c'8 des'8 | ees'4 d'4 ees'4 f'4 aes'4 bes'4 |
+c''4 aes'4 des''4 c''2. | bes'2 f'4 bes'2 c''4 | bes'4 ees'2~ ees'2 bes'8@c c''8 |
+des''4 c''4 bes'4 des''4 c''4 bes'4 | c''4 bes'4 aes'4 c''2 aes'8 bes'8 |
+ces''4 bes'4 aes'4 ces''4 bes'4 aes'4 | c''2. bes'2 c'8 des'8 |
+ees'4 d'4 ees'4 f'4 aes'4 bes'4 | c''4 aes'4 des''4 c''2. | bes'2 f'4 g'4 ees''2 |
+c''4 aes'2~ aes'2 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s1 s4 aes8 bes8 | c'4 b4 c'4 des'4 f'4 fes'4 | ees'4 c'4 f'4 ees'2. |
+d'2 d'4 des'2 des'4 | c'4 c'2~ c'2 aes8 bes8 | c'4 b4 c'4 des'4 f'4 fes'4 |
+ees'4 c'4 f'4 ees'2. | d'2 d'4 d'2 d'4 | ees'4 ees'2~ ees'2 ees'8@c ees'8 |
+ees'4 ees'4 ees'4 ees'4 ees'4 ees'4 | ees'4 des'4 c'4 ees'2 c'8 des'8 |
+d'4 d'4 d'4 d'4 d'4 d'4 | ees'2. ees'4( des'4) aes8 bes8 |
+c'4 b4 c'4 des'4 f'4 fes'4 | ees'4 c'4 f'4 ees'2. | d'2 d'4 ees'4 des'2 |
+ees'4 c'2~ c'2 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s1 s4 ees8 ees8 | aes4 aes4 aes4 aes4 aes4 aes4 | aes4 aes4 aes4 aes2. |
+aes2 aes4 g2 g4 | aes4 aes2~ aes2 ees8 ees8 | aes4 aes4 aes4 aes4 aes4 aes4 |
+aes4 aes4 aes4 aes2. | aes2 aes4 aes2 aes4 | g4 g2~ g2 g8@c aes8 |
+bes4 aes4 g4 bes4 aes4 g4 | aes4 aes4 ees4 aes2 aes8 aes8 |
+aes4 bes4 ces'4 aes4 bes4 ces'4 | aes2. g2 ees8 ees8 |
+aes4 aes4 aes4 aes4 aes4 aes4 | aes4 aes4 aes4 aes2. | aes2 bes4 bes4 g2 |
+aes4 aes2~ aes2 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s1 s4 aes,8 aes,8 | aes,4 aes,4 aes,4 des4 des4 des4 | aes,4 aes,4 aes,4 aes,2. |
+bes,2 bes,4 ees2 ees4 | aes,4 aes,2~ aes,2 aes,8 aes,8 | aes,4 aes,4 aes,4 des4 des4 des4 |
+aes,4 aes,4 aes,4 aes,2. | bes,2 bes,4 bes,2 bes,4 | ees4 ees2~ ees2 ees8@c ees8 |
+ees4 ees4 ees4 ees4 ees4 ees4 | aes,4 aes,4 aes,4 aes,2 aes8 aes8 |
+fes4 fes4 fes4 fes4 fes4 fes4 | ees2. ees2 aes,8 aes,8 |
+aes,4 aes,4 aes,4 des4 des4 des4 | aes,4 aes,4 aes,4 aes,2. | bes,2 bes,4 ees4 ees2 |
+aes,4 aes,2~ aes,2 s4
+"""
+
+# Bass rests through the melody's "on" in m4 (as the tenor does) and also through
+# "Just re-" in m11, where the plate gives it two eighth rests under the tenor's
+# two beamed eighths.
+[lyrics.1]
+text = "There are shad -- ows of sor -- row that dark -- en life's way, They are on -- ly shad -- ows, But be -- hind the dark shad -- ows shines love's kind -- ly ray, They are on -- ly shad -- ows."
+
+[lyrics.2]
+text = "There are shad -- ows of fear bring -- ing tho'ts that dis -- may, They are on -- ly shad -- ows, If we walk in His love they will all pass a -- way, They are on -- ly shad -- ows."
+
+[lyrics.3]
+text = "There are shad -- ows of doubt that steal in -- to our mind, They are on -- ly shad -- ows, If we look to the cross blest as -- sur -- ance we find, They are on -- ly shad -- ows."
+
+[lyrics.4]
+text = "There are shad -- ows of death that are black with de -- spair, They are on -- ly shad -- ows, For Christ Je -- sus, the Light of the world, will be there, They are on -- ly shad -- ows."
+
+[lyrics.chorus]
+text = "Do not doubt, do not fear, When the shad -- ows ap -- pear, Just re -- mem -- ber that dark lone -- ly shad -- ows Can -- not hide God's dear face, If we trust in His grace, They are on -- ly shad -- ows."
