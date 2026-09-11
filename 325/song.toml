@@ -1,0 +1,62 @@
+title = "May Jesus Christ Be Praised"
+subtitle = "When Morning Gilds the Skies"
+verse_count = 5
+key_signature = "C"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+phrase_breaks = ["5:48", "9:48"]
+copyrights = [
+  "Lyrics: Anonymous c. 1800 (public domain)",
+  "Translation: Edward Caswall, 1858 (public domain)",
+  "Music: 'Laudes Domini' by Joseph Barnby, 1868 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+optional_phrase_breaks = ["3:48", "7:48", "11:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. e'4 | f'4 g'4 a'4 c''4 | b'2( a'4) g'4 | a'4 b'4 c''4 e''4 | d''2. c''4 | b'4 c''4 a'4. g'8 | g'2. g'4 | g'4 c''4 b'4 c''4 | g'2. g'4 | g'4 c''4 b'4 c''4 | g'2. g'4 | g'2 c''2 | c''2 d''2 | c''2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. c'4 | c'4 c'4 c'4 f'4 | f'2. f'4 | e'4 g'4 g'4 g'4 | fis'2( g'4) d'4 | d'4 e'4 c'4. fis'8 | b2. d'4 | c'4 c'4 f'4 f'4 | f'2( e'4) d'4 | c'4 e'4 fis'4 fis'4 | g'4( d'4 e'4) f'4 | e'4( f'4) g'2 | f'2 f'2 | e'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. g4 | g4 g4 f4 a4 | b2( c'4) d'4 | c'4 d'4 c'4 c'4 | c'2( b4) a4 | g4 g4 g4. fis8 | g2. b4 | c'4 g4 b4 a4 | d'4( c'4 b4) a4 | c'4 g4 d'4 c'4 | b2. b4 | c'4( d'4) e'2 | c'2. b4/-48 | c'2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. c4 | d4 e4 f4 d4 | g2( a4) b4 | c'4 b4 a4 a4 | d2( e4) fis4 | g4 c4 d4. d8 | g,2. f4 | e4 e4 d4 c4 | b,4( a,4 g,4) f4 | e4 c4 d4 d4 | g4( f4 e4) d4 | c2 bes2 | a2 g2 | c2. s4
+"""
+
+[lyrics.1]
+text = "When morn -- ing gilds the sky, our hearts a -- wak -- ing cry: May Je -- sus Christ be praised! in all our work and prayer we ask his lov -- ing care: May Je -- sus Christ be praised!"
+
+[lyrics.2]
+text = "To God, the Word on high, the hosts of an -- gels cry: May Je -- sus Christ be praised! Let mor -- tals too up -- raise their voice in hymns of praise: May Je -- sus Christ be praised!"
+
+[lyrics.3]
+text = "Let earth's wide cir -- cle round in joy -- ful notes re -- sound: May Je -- sus Christ be praised! Let air and sea and sky from depth to height re -- ply: May Je -- sus Christ be praised!"
+
+[lyrics.4]
+text = "Be this, when day is past, of all our thoughts the last: May Je -- sus Christ be praised! The night be -- comes as day when from the heart we say: May Je -- sus Christ be praised!"
+
+[lyrics.5]
+text = "Then let us join to sing to Christ, our lov -- ing King: May Je -- sus Christ be praised! Be this th'e -- ter -- nal song through all the a -- ges long: May Je -- sus Christ be praised!"
