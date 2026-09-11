@@ -1,0 +1,70 @@
+title = "He Made Me Every Whit Whole"
+subtitle = ""
+verse_count = 3
+key_signature = "G"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 92
+phrase_breaks = ["4:40", "8:40", "12:40"]
+optional_phrase_breaks = ["2:40", "6:40", "10:40", "14:40"]
+copyrights = [
+  "Lyrics: E. C. Baird, 1924 (public domain)",
+  "Music: D. S. B. Jackson, 1924 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+g'8 g'8 g'8 g'4 a'8 | b'4 b'8 b'4 g'8 | a'4 a'8 a'4 b'8 | c''4.~ c''4 a'8 |
+b'4 b'8 b'4 c''8 | d''4 d''8 d''4 c''8 | b'4 b'8 a'4 a'8 | g'4.~ g'4 d'8@c |
+b'4 b'8 b'8. a'16 g'8 | b'4.~ b'4 c''8 | d''4 d''8 d''8. c''16 b'8 | d''4.~ d''4 d''8 |
+e''4 e''8 c''4 e''8 | d''4 d''8 b'4 d''8 | d''4 a'8 c''8. b'16 a'8 | g'4.~ g'4 r8
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+d'8 d'8 d'8 d'4 d'8 | g'4 g'8 g'4 g'8 | fis'4 fis'8 fis'4 g'8 | a'4.~ a'4 fis'8 |
+g'4 g'8 g'4 g'8 | g'4 g'8 g'4 g'8 | g'4 g'8 fis'4 d'8 | d'4.~ d'4 d'8@c |
+g'4. g'4. | g'8. g'16 g'8 g'4 g'8 | g'4. g'4. | g'8. g'16 g'8 g'4 g'8 |
+g'4 g'8 e'4 g'8 | g'4 g'8 g'4 g'8 | fis'4 fis'8 fis'8. fis'16 fis'8 | d'4.~ d'4 r8
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+b8 b8 b8 b4 c'8 | d'4 d'8 d'4 b8 | d'4 d'8 d'4 d'8 | d'4.~ d'4 d'8 |
+d'4 d'8 d'4 a8 | b4 b8 b4 e'8 | d'4 d'8 c'4 c'8 | b4.~ b4 b8@c |
+d'4. d'8.[ c'16 b8] | d'8. d'16 d'8 d'4 a8 | b4. b8.[ c'16 d'8] | b8. b16 b8 b4 b8 |
+c'4 c'8 g4 c'8 | b4 b8 d'4 b8 | a4 d'8 e'8. d'16 c'8 | b4.~ b4 r8
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+g8 g8 g8 g4 g8 | g4 g8 g4 g8 | d4 d8 d4 d8 | d4.~ d4 d8 |
+g4 g8 g4 g8 | g4 g8 g4 c8 | d4 d8 d4 d8 | g,4.~ g,4 g8@c |
+g4. g4. | g8. g16 g8 g4 g8 | g4. g4. | g8. g16 g8 g4 g8 |
+c4 c8 c4 c8 | g4 g8 g4 g8 | d4 d8 d8. d16 d8 | <g, g>4.~ <g, g>4 r8
+"""
+
+[lyrics.1]
+text = "Je -- sus the great Phy -- si -- cian came, When I was sick with sin; His lov -- ing kind -- ness I pro -- claim,— He made me pure with -- in."
+
+[lyrics.2]
+text = "Je -- sus the great Phy -- si -- cian came, When bur -- dens stooped me low; My Friend, my Help -- er He be -- came,— All things to Him I owe."
+
+[lyrics.3]
+text = "Je -- sus the great Phy -- si -- cian came, And touched me with His love; Now glad -- ly trust -- ing in His name, My hope is fixed a -- bove."
+
+[lyrics.chorus]
+text = "He made me ev' -- ry whit whole; There's joy and peace in my soul! He came to me,— He set me free— He made me ev' -- ry whit whole."
