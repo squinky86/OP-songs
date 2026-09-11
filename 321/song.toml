@@ -1,0 +1,65 @@
+# Source: MusicXML supplied at /mnt/win/temp/s-a-v-Saved by the Blood (Henderson).xml,
+title = "Saved by the Blood"
+subtitle = ""
+verse_count = 4
+key_signature = "Eb"
+time_sig_numerator = 6
+time_sig_denominator = 4
+tempo_bpm = 130
+phrase_breaks = ["2:80", "4:80", "6:96", "8:96", "12:96"]
+copyrights = [
+  "Lyrics: S. J. Henderson, 1902 (public domain)",
+  "Music: Daniel B. Towner, 1902 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+optional_phrase_breaks = ["10:80", "14:80"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+bes'4. bes'8 bes'4 c''4 bes'4 g'4 | bes'4 aes'4 f'4 ees'2 ees'4 | f'4. g'8 aes'4 aes'4 f'4 aes'4 | c''4 bes'4. g'8 bes'2 bes'4 | ees''4. ees''8 ees''4 ees''4 d''4 c''4 | bes'4. c''8 bes'4 g'2. | bes'4. c''8 d''4 ees''4 bes'4 g'4 | bes'4. aes'8 f'4 ees'2. | ees''2.~@c ees''2. | ees''2.~ ees''2 c''4 | d''4. d''8 d''4 d''4 c''4 bes'4 | bes'4. c''8 bes'4 ees''2. | ees''2.~ ees''2. | ees''2.~ ees''2! c''8 c''8 | bes'4. c''8 d''4 ees''4 bes'4 g'4 | bes'4. aes'8 f'4 ees'2.
+"""
+
+[parts.Soprano.lyrics.chorus]
+text = "Saved! Saved! My sins are all par -- doned, my guilt is all gone! Saved! Saved! I am saved by the blood of the Cru -- ci -- fied One!"
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+ees'4. ees'8 ees'4 ees'4 ees'4 ees'4 | d'4 d'4 bes4 bes2 bes4 | d'4. ees'8 f'4 f'4 d'4 d'4 | ees'4 ees'4. ees'8 g'2 bes'4 | c''4. c''8 c''4 c''4 bes'4 aes'4 | g'4. aes'8 g'4 ees'2. | d'4. ees'8 f'4 g'4 g'4 ees'4 | d'4. d'8 d'4 ees'2. | g'4.@c g'8 g'4 g'2. | aes'4. aes'8 aes'4 aes'2 aes'4 | aes'4. aes'8 aes'4 aes'4 aes'4 aes'4 | g'4. aes'8 g'4 g'2. | g'4. g'8 g'4 g'2. | aes'4. aes'8 aes'4 aes'2! aes'8 aes'8 | aes'4. aes'8 aes'4 g'4 g'4 ees'4 | d'4. d'8 d'4 ees'2.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+g4. g8 g4 aes4 g4 bes4 | bes4 bes4 aes4 g2 g4 | bes4. bes8 bes4 bes4 bes4 bes4 | aes4 g4. bes8 ees'2 ees'4 | ees'4. ees'8 ees'4 ees'4 ees'4 ees'4 | ees'4. ees'8 ees'4 bes2. | aes4. bes8 bes4 bes4 bes4 bes4 | bes4. bes8 aes4 g2. | bes4.@c bes8 bes4 bes2. | c'4. c'8 c'4 c'2 ees'4 | bes4. d'8 f'4 f'4 f'4 d'4 | ees'4. ees'8 ees'4 bes2. | bes4. bes8 bes4 bes2. | c'4. c'8 c'4 c'2! ees'8 ees'8 | d'4. ees'8 f'4 ees'4 ees'4 bes4 | bes4. bes8 aes4 g2.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+ees4. ees8 ees4 ees4 ees4 ees4 | bes,4 bes,4 bes,4 ees2 ees4 | bes,4. bes,8 bes,4 bes,4 bes,4 bes,4 | ees4 ees4. ees8 ees2 g4 | aes4. aes8 aes4 aes4 aes4 aes4 | ees4. ees8 ees4 ees2. | bes,4. bes,8 bes,4 ees4 ees4 ees4 | bes,4. bes,8 bes,4 ees2. | ees4.@c ees8 ees4 ees2. | aes4. aes8 aes4 aes2 aes4 | bes4. bes8 bes4 bes4 bes4 bes4 | ees4. ees8 ees4 ees2. | ees4. ees8 ees4 ees2. | aes4. aes8 aes4 aes2! aes8 aes8 | bes4. bes8 bes4 ees4 ees4 ees4 | bes,4. bes,8 bes,4 ees2.
+"""
+
+[lyrics.1]
+text = "Saved by the blood of the Cru -- ci -- fied One! Now ran -- somed from sin and a new work be -- gun, Sing praise to the Fa -- ther and praise to the Son, Saved by the blood of the Cru -- ci -- fied One!"
+
+[lyrics.2]
+text = "Saved by the blood of the Cru -- ci -- fied One! The an -- gels re -- joic -- ing be -- cause it is done; A child of the Fa -- ther, joint heir with the Son, Saved by the blood of the Cru -- ci -- fied One!"
+
+[lyrics.3]
+text = "Saved by the blood of the Cru -- ci -- fied One! The Fa -- ther He spake, and His will it was done; Great price of my par -- don, His own pre -- cious Son; Saved by the blood of the Cru -- ci -- fied One!"
+
+[lyrics.4]
+text = "Saved by the blood of the Cru -- ci -- fied One! All hail to the Fa -- ther, all hail to the Son, All hail to the Spir -- it, the great Three in One! Saved by the blood of the Cru -- ci -- fied One!"
+
+[lyrics.chorus]
+text = "Glo -- ry, I’m saved! Glo -- ry, I’m saved! My sins are all par -- doned, my guilt is all gone! Glo -- ry, I’m saved! Glo -- ry, I’m saved! I am saved by the blood of the Cru -- ci -- fied One!"
