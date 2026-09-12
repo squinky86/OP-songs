@@ -1,0 +1,59 @@
+title = "In the Hour of Trial"
+subtitle = ""
+copyrights = [
+  "Lyrics: James Montgomery, 1834 (public domain)",
+  "Music: 'Penitence' by Spencer Lane, 1874 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Db"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 115
+verse_count = 4
+phrase_breaks = ["4:64", "8:64", "12:64"]
+optional_phrase_breaks = ["2:64", "6:64", "10:64", "14:64"]
+
+[lyrics.1]
+text = "In the hour of tri -- al, Je -- sus, plead for me, Lest by base de -- ni -- al I de -- part from Thee. When Thou seest me wa -- ver, With a look re -- call, Nor for fear or fa -- vor Suf -- fer me to fall."
+
+[lyrics.2]
+text = "With for -- bid -- den plea -- sures Would this vain world charm, Or its sor -- did trea -- sures Spread to work me harm, Bring to my re -- mem -- brance Sad Geth -- sem -- a -- ne, Or, in dark -- er sem -- blance, Cross- -- crowned Cal -- va -- ry."
+
+[lyrics.3]
+text = "Should Thy mer -- cy send me Sor -- row, toil and woe, Or should pain at -- tend me On my path be -- low, Grant that I may nev -- er Fail Thy hand to see; Grant that I may ev -- er Cast my care on Thee."
+
+[lyrics.4]
+text = "When my last hour com -- eth, Fraught with strife and pain, When my dust re -- turn -- eth To the dust a -- gain, On Thy truth re -- ly -- ing, Through that mor -- tal strife, Je -- sus, take me, dy -- ing To e -- ter -- nal life."
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+f'4 f'4 ges'4 f'4 | bes'2 aes'2 | des''4 f'4 aes'4 ees'4 | f'1 | f'4 f'4 ges'4 f'4 | c''2 aes'2 | g'4 c''4 bes'4 g'4 | aes'2~ aes'2 | aes'4 c''4 bes'4 aes'4 | des''4( f'4) aes'2 | aes'4 c''4 bes'4 aes'4 | des''4( bes'4 aes'2) | aes'4 f''4 ees''4 des''4 | des''2 bes'2 | aes'4 aes'4 aes'4 aes'4 | aes'1
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+des'4 des'4 des'4 des'4 | e'2 f'2 | f'4 des'4 c'4 c'4 | des'1 | des'4 des'4 des'4 des'4 | f'2 f'2 | e'4 e'4 e'4 e'4 | f'2( ges'2) | ges'4 ges'4 ges'4 ges'4 | f'4( des'4) f'2 | ges'4 ges'4 ges'4 ges'4 | f'4( e'4 f'2) | f'4 aes'4 aes'4 aes'4 | ges'2 ges'2 | f'4 ees'4 f'4 ges'4 | f'1
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+aes4 aes4 bes4 aes4 | g2 aes2 | aes4 aes4 aes4 aes4 | aes1 | aes4 aes4 bes4 aes4 | aes2 c'2 | c'4 c'4 c'4 c'4 | c'2~ c'2 | c'4 ees'4 des'4 c'4 | aes2 des'2 | c'4 ees'4 des'4 c'4 | aes4( g4 aes2) | des'4 des'4 c'4 b4 | bes2 des'2 | des'4 c'4 des'4 ees'4 | des'1
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+des4 des4 des4 des4 | des2 des2 | des4 des4 aes,4 aes,4 | des1 | des4 des4 des4 des4 | c2 c2 | c4 c4 c4 c4 | f2( aes2) | aes4 aes4 aes4 aes4 | des2 des2 | aes4 aes4 aes4 aes4 | des2~ des2 | des4 des4 ees4 f4 | ges2 ges2 | aes4 aes4 aes4 aes4 | des1
+"""
