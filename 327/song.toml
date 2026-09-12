@@ -1,0 +1,59 @@
+title = "More Love to Thee"
+subtitle = ""
+verse_count = 4
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 90
+phrase_breaks = ["4:64", "8:64", "12:64"]
+optional_phrase_breaks = ["2:64", "6:64", "10:64", "14:64"]
+copyrights = [
+  "Lyrics: Elizabeth P. Prentiss, 1856 (public domain)",
+  "Music: William H. Doane, 1870 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+default_verses = [1, 2, 4]
+
+[lyrics.1]
+text = "More love to Thee, O Christ, More love to Thee! Hear Thou the prayer I make On bend -- ed knee; This is my ear -- nest plea: More love, O Christ, to Thee; More love to Thee, More love to Thee!"
+
+[lyrics.2]
+text = "Once earth -- ly joy I craved, Sought peace and rest; Now Thee a -- lone I seek, Give what is best; This all my prayer shall be: More love, O Christ, to Thee; More love to Thee, More love to Thee!"
+
+[lyrics.3]
+text = "Let sor -- row do its work, Come grief or pain; Sweet are Thy mes -- sen -- gers, Sweet their re -- frain; When they can sing with me: More love, O Christ, to Thee; More love to Thee, More love to Thee!"
+
+[lyrics.4]
+text = "Then shall my lat -- est breath Whis -- per Thy praise; This be the part -- ing cry My heart shall raise; This still its prayer shall be: More love, O Christ, to Thee; More love to Thee, More love to Thee!"
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+ees'2 f'4 ees'4 | aes'4. bes'8 c''2 | c''2 bes'4 aes'4 | bes'2. r4 | ees'2 f'4 ees'4 | aes'4. bes'8 c''2 | bes'2 aes'4 g'4 | aes'2. r4 | des''2 des''4 des''4 | des''4. c''8 c''2 | bes'2 bes'4 bes'4 | bes'4. aes'8 aes'2 | f'2 f'4 f'4 | aes'2. r4 | bes'2 aes'4 g'4 | aes'2. r4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+c'2 des'4 c'4 | ees'4. ees'8 ees'2 | ees'2 ees'4 d'4 | ees'2. r4 | c'2 des'4 c'4 | ees'4. ees'8 ees'2 | f'2 ees'4 ees'4 | ees'2. r4 | aes'2 aes'4 aes'4 | aes'4. aes'8 aes'2 | g'2 ees'4 ees'4 | ees'4. ees'8 ees'2 | des'2 des'4 des'4 | ees'2. r4 | f'2 ees'4 ees'4 | ees'2. r4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+aes2 aes4 aes4 | aes4. g8 aes2 | aes2 bes4 bes4 | g2. r4 | aes2 aes4 aes4 | aes4. g8 aes2 | des'2 c'4 des'4 | c'2. r4 | f'2 f'4 f'4 | f'4. ees'8 ees'2 | des'2 des'4 des'4 | des'4. c'8 c'2 | aes2 aes4 aes4 | aes2. r4 | des'2 c'4 bes4 | c'2. r4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+aes,2 aes,4 aes,4 | c4. ees8 aes2 | aes2 g4 f4 | ees2. r4 | aes2 aes4 aes4 | c4. ees8 aes2 | ees2 ees4 ees4 | aes2. r4 | aes2 aes4 aes4 | aes4. aes8 aes2 | ees2 ees4 ees4 | ees4. aes8 aes2 | des2 des4 des4 | c2. r4 | bes,2 ees4 ees4 | aes,2. r4
+"""
