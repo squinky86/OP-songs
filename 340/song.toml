@@ -1,0 +1,67 @@
+title = "O Jesus, Thou Art Standing"
+verse_count = 3
+key_signature = "Eb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 115
+phrase_breaks = ["5:48", "9:48", "13:48"]
+optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
+copyrights = [
+  "Lyrics: William Walsham How, 1867 (public domain)",
+  "Music: 'St. Hilda' by Justin H. Knecht, 1799 (public domain)",
+  "Courtesy of [Hymnary.org](https://hymnary.org)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. ees'4 | ees'4 d'8[ ees'8] f'4 f'4 | f'4 ees'2 g'4 | g'4 f'8[ g'8] aes'4 f'4 | d'2. ees'4 |
+ees'4 d'8[ f'8] g'4 bes'4 | bes'2 aes'4 g'4 | f'4 g'8[ aes'8] g'4. f'8 | ees'2. bes'4 |
+ees''4. d''8 c''4 g'4 | bes'2 aes'4 g'4 | f'4 ees''4 ees''4 d''8[ c''8] | bes'2. g'4 |
+g'4 f'8[ g'8] ees'4 g'8[ bes'8] | bes'2 aes'4 g'4 | f'4 ees'4 d'4 ees'8[ f'8] | ees'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. bes4 | bes4 bes4 d'4 d'4 | d'4 ees'2 bes4 | ees'4 ees'4 ees'4 c'4 | bes2. bes4 |
+bes4 bes4 ees'4 ees'4 | ees'2 ees'4 ees'4 | c'4 c'4 d'4 d'4/+24 | ees'2. ees'4 |
+g'4. f'8 g'4 g'4 | g'2 f'4 ees'4 | ees'4 ees'8[ f'8] g'4 f'8[ ees'8] | d'2. ees'4 |
+ees'4 ees'4 ees'4 ees'4 | ees'2 ees'4 ees'4 | c'4 c'4 bes4 bes4 | bes2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. g4 | g4 f8[ g8] aes4 aes4 | aes4 g2 ees'4 | d'4 des'4 c'4 aes4 | f2. g4 |
+g4 f8[ g8] bes4 des'4 | des'2 c'4 bes4 | aes4 g8[ f8] bes4. aes8 | g2. g4 |
+g4. b8 c'4 c'4 | c'2 c'4 bes4 | a4 bes4 a4 a4 | bes2. bes4 |
+bes4 aes8[ bes8] g4 bes8[ des'8] | des'2 c'4 bes4 | aes4 g4 f4 g8[ aes8] | g2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. ees4 | ees4 ees4 ees4 ees4 | ees4 ees2 ees4 | ees4 ees4 aes,4 aes,4 | bes,2. ees4 |
+ees4 ees4 ees4 ees4 | g2 aes4 ees4 | aes,4 aes,4 bes,4 bes,4/+24 | ees2. ees4 |
+c4. d8 ees4 ees4 | f2 f4 f4 | f4 g4 f4 f4 | bes,2. ees4 |
+ees4 ees4 ees4 ees4 | aes2 aes4 ees4 | aes,4 aes,4 bes,4 bes,4 | ees2. s4
+"""
+
+[lyrics.1]
+text = "O Je -- sus, Thou art stand -- ing, Out -- side the fast closed door, In low -- ly pa -- tience wait -- ing To pass the thresh -- old o’er: Shame on us, Chris -- tian broth -- ers, His name and sign who bear, O shame, thrice shame up -- on us, To keep Him stand -- ing there!"
+
+[lyrics.2]
+text = "O Je -- sus, Thou art knock -- ing; And lo, that hand is scarred, And thorns Thy brow en -- cir -- cle, And tears Thy face have marred: O love that pass -- eth knowl -- edge, So pa -- tient -- ly to wait! O sin that hath no e -- qual, So fast to bar the gate!"
+
+[lyrics.3]
+text = "O Je -- sus, Thou art plead -- ing In ac -- cents meek and low, “I died for you, My chil -- dren, And will you treat Me so?” O Lord, with shame and sor -- row We o -- pen now the door; Dear Sav -- ior, en -- ter, en -- ter, And leave us nev -- er -- more."
