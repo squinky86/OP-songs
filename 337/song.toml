@@ -1,0 +1,91 @@
+title = "Lamp of Our Feet"
+verse_count = 11
+key_signature = "G"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 125
+phrase_breaks = ["8:48"]
+copyrights = [
+  "Lyrics: Bernard Barton, 1826 (public domain)",
+  "Music: 'Lambeth' by Wilhelm A. F. Schulthes, 1871 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+optional_phrase_breaks = ["4:48", "12:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+b'4 b'4 b'4 | c''2 fis'4 | e'2 fis'4 | g'2.
+| g'4 a'4 b'4 | d''2 c''4 | b'2.( | a'2.)
+| b'4 b'4 b'4 | c''2 fis'4 | e'2 fis'4 | g'2.
+| g'4 fis'4 g'4 | b'2 a'4 | g'2.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+g'4 g'4 g'4 | fis'2 c'4 | c'2 c'4 | b2.
+| d'4 d'4 d'4 | e'2 e'4 | g'2.( | fis'2.)
+| g'4 g'4 g'4 | fis'2 c'4 | c'2 c'4 | b2.
+| cis'4 cis'4 cis'4 | d'4( g'4) fis'4 | b2.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+d'4 d'4 d'4 | d'2 a4 | g2 a4 | g2.
+| g4 fis4 g4 | gis2 a4 | d'2.~ | d'2.
+| d'4 d'4 d'4 | d'2 a4 | g2 a4 | g2.
+| g4 a4 g4 | g4( b4) c'4 | g2.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+g4 g4 g4 | a2 d4 | d2 d4 | g,2.
+| b,4 d4 g4 | c2 c4 | d2.~ | d2.
+| g4 g4 g4 | a2 d4 | d2 d4 | e2.
+| e4 e4 e4 | d2 d4 | g,2.
+"""
+
+[lyrics.1]
+text = "Lamp of our feet! where -- by we trace Our path, when wont to stray; Stream from the fount of heav'n -- ly grace! Brook by the trav -- eler's way!"
+
+[lyrics.2]
+text = "Bread of our souls! where -- on we feed; True man -- na from on high! Our guide, and chart where -- in we read Of realms be -- yond the sky."
+
+[lyrics.3]
+text = "Pil -- lar of fire— through watch -- es dark! Or ra -- diant cloud by day! When waves would break our toss -- ing bark— Our an -- chor and our stay!"
+
+[lyrics.4]
+text = "Pole- -- star on life's tem -- pes -- tuous deep! Bea -- con! when doubts sur -- round; Com -- pass! by which our course we keep; Our deep sea- -- lead, to sound!"
+
+[lyrics.5]
+text = "Rich -- es in pov -- er -- ty! our aid In ev -- ery need -- ful hour! Un -- shak -- en rock! the pil -- grim's shade; The sol -- dier's for -- tress tower."
+
+[lyrics.6]
+text = "Our shield and buck -- ler in the fight! Vic -- tory's tri -- um -- phant palm! Com -- fort in grief! in weak -- ness, might! In sick -- ness, Gil -- ead's balm."
+
+[lyrics.7]
+text = "Child -- hood's pre -- cep -- tor! man -- hood's trust! Old ag -- e's firm al -- ly! Our hope— when we go down to dust, Of im -- mor -- tal -- i -- ty."
+
+[lyrics.8]
+text = "Pure or -- a -- cles of truth di -- vine! Un -- like each fa -- bled dream Given forth from Del -- phos' mys -- tic shrine Or groves of Ac -- a -- deme!"
+
+[lyrics.9]
+text = "Word of the ev -- er- -- liv -- ing God! Will of His glo -- rious Son! With -- out Thee, how could earth be trod? Or Heaven it -- self be won?"
+
+[lyrics.10]
+text = "Yet to un -- fold Thy hid -- den worth, Thy mys -- teries to re -- veal, That Spir -- it which first gave Thee forth, Thy vol -- ume must un -- seal!"
+
+[lyrics.11]
+text = "And we, if we a -- right would learn The wis -- dom it im -- parts, Must to its heav -- enly teach -- ing turn With sim -- ple, child- -- like hearts!"
