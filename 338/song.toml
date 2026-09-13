@@ -1,0 +1,78 @@
+title = "I Love Thy Kingdom, Lord"
+verse_count = 8
+key_signature = "G"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 115
+phrase_breaks = ["5:48"]
+copyrights = [
+  "Lyrics: Timothy Dwight, 1800 (public domain)",
+  "Music: 'St. Thomas' by Aaron Williams, 1770 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+optional_phrase_breaks = ["3:48", "7:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. d'4 | g'4 g'4 b'4 a'8[ g'8] | a'2. b'8[ c''8] | d''4 c''8[ b'8] c''4 b'4 |
+a'2. d''4 | b'4 g'4 a'4 d'4 | g'4 b'4 d''4 d''4 | e''4 d''8[ c''8] b'4 a'4 |
+g'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. b4 | d'4 d'4 g'4 fis'8[ e'8] | fis'2. g'4 | g'4 g'4 e'8[ fis'8] g'4 |
+fis'2. d'4 | d'4 d'4 d'4 d'4 | d'4 e'4 fis'4 g'4 | g'4 a'4 b'4 fis'4 |
+d'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. g4 | g4 b4 d'4 d'4 | d'2. d'4 | d'4 d'4 c'4 d'4 |
+d'2. a4 | g4 g4 fis4 a4 | b4 g4 a4 b4 | c'4 e'4 d'4 c'4 |
+b2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. g,4 | b,4 g,4 g4 d4 | d2. g8[ a8] | b4 g4 a4 g4 |
+d2. fis4 | g4 b,4 d4 fis4 | g4 e4 d4 g4 | c4 a,4 d4 d4 |
+g,2. s4
+"""
+
+[lyrics.1]
+text = "I love Thy king -- dom, Lord, The house of Thine a -- bode, The church our blest Re -- deem -- er saved With His own pre -- cious blood."
+
+[lyrics.2]
+text = "I love Thy church, O God. Her walls be -- fore Thee stand, Dear as the ap -- ple of Thine eye, And writ -- ten on Thy hand."
+
+[lyrics.3]
+text = "If e’er to bless Thy sons My voice or hands de -- ny, These hands let use -- ful skills for -- sake, This voice in si -- lence die."
+
+[lyrics.4]
+text = "Should I with scoff -- ers join Her al -- tars to a -- buse? No! Bet -- ter far my tongue were dumb, My hand its skill should lose."
+
+[lyrics.5]
+text = "For her my tears shall fall For her my prayers as -- cend, To her my cares and toils be giv’n Till toils and cares shall end."
+
+[lyrics.6]
+text = "Be -- yond my high -- est joy I prize her heav’n -- ly ways, Her sweet com -- mun -- ion, sol -- emn vows, Her hymns of love and praise."
+
+[lyrics.7]
+text = "Je -- sus, Thou Friend di -- vine, Our Sav -- ior and our King, Thy hand from ev -- ery snare and foe Shall great de -- liv’r -- ance bring."
+
+[lyrics.8]
+text = "Sure as Thy truth shall last, To Zi -- on shall be giv’n The bright -- est glo -- ries earth can yield And bright -- er bliss of Heav’n."
