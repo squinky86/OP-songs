@@ -1,0 +1,87 @@
+title = "On Jordan's Stormy Banks I Stand"
+subtitle = ""
+verse_count = 4
+key_signature = "G"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+phrase_breaks = ["5:48", "9:48", "11:48", "13:48", "15:48"]
+non_breaking_phrase_breaks = ["11:16", "12:64", "15:16"]
+copyrights = [
+  "Lyrics: Samuel Stennett, 1787 (public domain)",
+  "Music: Tullius C. O'Kane, 1877 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+optional_phrase_breaks = ["3:48", "7:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. g'8( b'8) | d''4. e''8 d''4 b'4 | g'4 a'4 g'4 g'4 | a'4 a'4 a'4 d''8( c''8) | b'2. g'8( b'8) |
+d''4. e''8 d''4 b'4 | g'4 a'4 g'4 g'4 | a'4 c''4 b'8( a'8) g'8( fis'8) | g'2. g'8@c a'8 |
+b'4 b'8. b'16 b'8 a'8 b'8 c''8 | d''2~ d''4 d''8. d''16 | e''4 e''8. e''16 d''8 d''8 b'4 |
+a'4( c''4 b'4) g'8. a'16 | b'4 b'4 b'8. a'16 b'8 c''8 | d''4 d''8. c''16 b'4 b'4 |
+a'4 c''4 b'8. a'16 g'8 fis'8 | g'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. d'8( g'8) | g'4. g'8 g'4 g'4 | e'4 e'4 e'4 g'4 | fis'4 fis'4 fis'4 b'8( a'8) | g'2. d'4 |
+g'4. g'8 g'4 g'4 | e'4 e'4 e'4 g'4 | fis'4 fis'4 fis'4 d'4 | d'2. d'8@c d'8 |
+g'4 g'8. g'16 g'8 fis'8 g'8 fis'8 | g'4 g'8. fis'16 g'4 g'8. g'16 | g'4 g'8. g'16 g'8 g'8 g'4 |
+fis'8 fis'8 a'4 g'4 d'8. d'16 | g'4 g'4 g'8. fis'16 g'8 fis'8 | g'4 g'8. fis'16 g'4 g'4 |
+e'4 e'4 fis'8. fis'16 d'8 d'8 | d'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. b8( d'8) | b4. c'8 b4 d'4 | c'4 c'4 c'4 b4 | d'4 d'4 d'4 d'4 | d'2. b8( d'8) |
+b4. c'8 b4 d'4 | c'4 c'4 c'4 b4 | c'4 a4 d'8( c'8) b8( a8) | b2. b8@c c'8 |
+d'4 d'8. d'16 d'8 d'8 d'8 d'8 | d'4 d'8. c'16 b4 b8. b16 | c'4 c'8. c'16 b8 b8 d'4 |
+d'2~ d'4 b8. c'16 | d'4 d'4 d'8. d'16 d'8 d'8 | d'2~ d'4 d'4 |
+c'4 a4 d'8. c'16 b8 a8 | b2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. g4 | g4. g8 g4 g4 | c4 c4 c4 e4 | d4 d4 d4 d4 | g2. g4 |
+g4. g8 g4 g4 | c4 c4 c4 e4 | d4 d4 d4 d4 | g,2. g8@c g8 |
+g4 g8. g16 g8 d8 g8 a8 | b4 b8. a16 g4 g8. g16 | c8( d8) e8. fis16 g8 g8 g4 |
+d8 d8 d4 g4 g8. g16 | g4 g4 g8. d16 g8 g8 | b4 b8. a16 g4 g4 |
+c4 c4 d8. d16 d8 d8 | g,2. s4
+"""
+
+[lyrics.1]
+text = "On Jor -- dan's storm -- y banks I stand, And cast a wish -- ful eye To Ca -- naan's fair and hap -- py land, Where my pos -- ses -- sions lie."
+
+[lyrics.2]
+text = "O'er all those wide ex -- tend -- ed plains Shines one e -- ter -- nal day; There God, the Sun, for -- ev -- er reigns, And scat -- ters night a -- way."
+
+[lyrics.3]
+text = "When shall I reach that hap -- py place, And be for -- ev -- er blest? When shall I see my Fa -- ther's face, And in His bos -- om rest?"
+
+[lyrics.4]
+text = "Filled with de -- light, my rap -- tured soul Would here no long -- er stay; Tho' Jor -- dan's waves a -- round me roll, Fear -- less I'd launch a -- way."
+
+[lyrics.chorus]
+text = "We will rest in the fair and hap -- py land, Just a -- cross on the ev -- er -- green shore, Sing the song of Mos -- es and the Lamb, by and by, And dwell with Je -- sus ev -- er -- more."
+
+[parts.Alto.lyrics.chorus]
+text = "We will rest in the fair and hap -- py land, by and by, Just a -- cross on the ev -- er -- green ev -- er -- green shore, Sing the song of Mos -- es and the Lamb, by and by, And dwell with Je -- sus ev -- er -- more."
+
+[parts.Tenor.lyrics.chorus]
+text = "We will rest in the fair and hap -- py land, by and by, Just a -- cross on the ev -- er -- green shore, Sing the song of Mos -- es and the Lamb, And dwell with Je -- sus ev -- er -- more."
+
+[parts.Bass.lyrics.chorus]
+text = "We will rest in the fair and hap -- py land, by and by, Just a -- cross on the ev -- er -- green ev -- er -- green shore, Sing the song of Mos -- es and the Lamb, by and by, And dwell with Je -- sus ev -- er -- more."
