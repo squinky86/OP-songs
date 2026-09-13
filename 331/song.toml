@@ -1,0 +1,119 @@
+# Source: "/mnt/win/temp/o-r-t-Ortonville.xml" — <software>NWC2MusicXML, encoded
+# 2011-07-29, MusicXML 2.0. Its own <credit> reads "From Hymnary.org (based on a score
+# from the Cyber Hymnal) / Public Domain". 2 score-parts = closed-score SATB (P1 treble
+# = S+A, P2 bass = T+B). <divisions>480, <fifths>1 = G major, 6/4, 11 measures, a
+# one-quarter pickup, no invisible barlines. Every bar tiles 6/4 exactly (2880 divisions)
+# except m1 (480, the pickup) and m11 (2400, short by the pickup's quarter).
+#
+# THE WHOLE CYBER HYMNAL SOURCE CHAIN WAS RECOVERED, so essentially nothing below is an
+# inference. Both still live on Wayback via the `if_` route:
+#   .../tch/pdf/o/r/t/Ortonville.pdf      (the engraved plate, snapshot 20191104100544)
+#   .../tch/nwc/o/r/t/o/Ortonville.nwc    (the NWC the XML was exported from, 20230609015042)
+# NOTE THE ASYMMETRIC PATHS: the .nwc is under the expected four-letter fan-out o/r/t/o/,
+# but the PDF is under a THREE-letter one, o/r/t/ — the four-letter pdf path 404s. Found
+# by CDX search, not by guessing.
+# The .nwc is an [NWZ] zlib container; inflating from byte offset 6 yields plain nwctxt.
+# Its |Chord|Pos: values are ABSOLUTE staff positions, so they settle the NWC layer
+# pathology outright instead of by inference. nwctxt == supplied XML on all 30 onsets,
+# with no disagreement, and the plate (read at 900-1200 dpi with a staff-line ruler)
+# confirms them. FINDINGS REST ON PRINT: read directly off the plate were the pickup,
+# treble m2-m5 and m7-m11, and bass m2 (partial m3), m4-m11. Only treble m6 (note-for-
+# note identical to m2) and bass m3 beats 3-6 were left to the nwctxt/XML agreement.
+#
+# PROVENANCE RECORDED IN THE .nwc: |SongInfo| carries
+#   Copyright1:"Public Domain"
+#   Copyright2:"Courtesy of the Cyber Hymnal™"
+#   Comments:"Source: The Book of Hymns (Nashville, Tennessee: United Methodist
+#             Publishing House, 1966), # 83."
+# That names the edition this arrangement was taken from. The courtesy line below is
+# therefore confirmed THREE independent ways (XML <credit>, nwctxt |Copyright2|, and the
+# plate footer, which prints "Public Domain / Courtesy of the Cyber Hymnal™").
+#
+# TEMPO. Printed on the plate as a metronome mark, quarter = 150, and |Tempo|Tempo:150
+# in the nwctxt agrees. Adopted as-is. Unlike song 330 this needs no caveat: the tune
+# moves in half+quarter pairs, so 150 quarter = 0.8 s on each stressed syllable and
+# 0.4 s on each weak one — a normal hymn pace, not a brisk one.
+#
+# VOICE EXTRACTION — inverted chord members, as flagged. In BOTH staves the XML's
+# <note> is the LOWER voice and its <chord/> partner is the UPPER voice, so Alto and
+# Bass come from the base notes and Soprano and Tenor from the chord members. The
+# nwctxt |Chord|Pos: pairs confirm it directly (m1 treble "Pos:-7,-5" = B3 below, D4
+# above; m1 bass "Pos:-4,3" = G2 below, G3 above). No mid-measure layer role swapping
+# in this file. Checked afterwards: no S/A or T/B crossings anywhere.
+#
+# TENOR/BASS SING IN UNISON IN FOUR PLACES, and this is the one thing a stock import
+# would have flattened. NWC cannot write a unison as a chord, so it writes the second
+# voice as a layered note — "|Chord|Dur:Half|Pos:3|Opts:Stem=Down|Dur2:Half|Pos2:3",
+# i.e. both voices at staff position 3. The XML export turns each of these into a bare
+# voice-1 note plus a <backup> voice-2 note, which is why those bars look like they have
+# a missing chord member. They do not. The unisons are:
+#   m3 beats 1-2   G3     m7 beats 1-2   G3
+#   m8 beats 4-6   D3     m10 beats 1-3  G3
+# On the plate each prints as a SINGLE notehead with a single stem (verified at 1200 dpi
+# — NWC merges the stems when duration and pitch match), so print cannot distinguish
+title = "Majestic Sweetness Sits Enthroned"
+verse_count = 4
+key_signature = "G"
+time_sig_numerator = 6
+time_sig_denominator = 4
+tempo_bpm = 150
+phrase_breaks = ["5:80", "9:80"]
+copyrights = [
+  "Lyrics: Samuel Stennett, 1787 (public domain)",
+  "Music: 'Ortonville' by Thomas Hastings, 1837 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+optional_phrase_breaks = ["3:80", "7:80"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. s2 d'4 | g'2 g'4 a'2 a'4 | b'2 a'4 g'2 d'4 | e'2 e'4 g'2 e'4 | d'2.~ d'2 d'4
+| g'2 g'4 a'2 a'4 | b'2 c''4 d''2 b'8[ a'8] | g'2 g'4 a'2 a'4 | g'2.~ g'2 g'4
+| b'2 b'4 a'2 a'4 | g'2.~ g'2 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. s2 b4 | d'2 d'4 d'2 d'4 | d'2 c'4 b2 b4 | c'2 c'4 e'2 c'4 | b2.~ b2 b4
+| d'2 d'4 d'2 d'4 | d'2 d'4 d'2 d'8[ c'8] | b2 b4 c'2 c'4 | b2.~ b2 b4
+| d'2 d'4 d'2 c'4 | b2.~ b2 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. s2 g4 | g2 g4 fis2 fis4 | g2 fis4 g2 g4 | g2 g4 g2 g4 | g2.~ g2 g4
+| g2 g4 fis2 fis4 | g2 a4 b2 g4 | d2 d4 d2 d4 | d2.~ d2 g4
+| g2 g4 fis2 fis4 | g2.~ g2 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. s2 g,4 | b,2 b,4 d2 d4 | g2 d4 g,2 g,4 | c2 c4 c2 c4 | g,2.~ g,2 g,4
+| b,2 b,4 d2 d4 | g2 g4 g2 g,4 | g,2 g,4 d2 d4 | g,2.~ g,2 g,4
+| g2 g4 d2 d4 | g,2.~ g,2 s4
+"""
+
+[lyrics.1]
+text = "Ma -- jes -- tic sweet -- ness sits en -- throned, Up -- on the Sav -- ior's brow; His head with ra -- diant glo -- ries crowned, His lips with grace o'er -- flow, His lips with grace o'er -- flow."
+
+[lyrics.2]
+text = "No mor -- tal can with Him com -- pare, A -- mong the sons of men; Fair -- er is He than all the fair, Who fill the heav'n -- ly train, Who fill the heav'n -- ly train."
+
+[lyrics.3]
+text = "He saw me plunged in deep dis -- tress, And flew to my re -- lief; For me He bore the shame -- ful cross, And car -- ried all my grief, And car -- ried all my grief."
+
+[lyrics.4]
+text = "To Him I owe my life and breath, And all the joys I have; He makes me tri -- umph o -- ver death, And saves me from the grave, And saves me from the grave."
