@@ -1,0 +1,70 @@
+title = "'Tis Midnight; And on Olive's Brow"
+copyrights = [
+  "Lyrics: William B. Tappan, 1822 (public domain)",
+  "Music: William Batchelder Bradbury, 1853 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 76
+verse_count = 4
+phrase_breaks = ["7:32"]
+optional_phrase_breaks = ["4:32", "10:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 ees'2 | ees'4 ees'4 f'4 f'4 | ees'2 ees'2 | ees'2 aes'2 |
+aes'4 aes'4 bes'4 c''4 | bes'2 bes'2 | aes'2 c''2 | bes'4 bes'4 bes'4 bes'4 |
+bes'2 aes'2 | g'2 g'2 | aes'4 aes'4 aes'4 f'4 | ees'2 ees'2 |
+ees'2 s2 |
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 c'2 | c'4 c'4 des'4 des'4 | c'2 bes2 | c'2 c'2 |
+c'4 c'4 ees'4 ees'4 | f'2 ees'4( des'4) | c'2 ees'2 | ees'4 ees'4 ees'4 ees'4 |
+d'2 f'2 | ees'2 ees'2 | ees'4 ees'4 f'4 des'4 | c'4( bes4) des'2 |
+c'2 s2 |
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 aes2 | aes4 aes4 aes4 aes4 | aes2 g2 | aes2 aes2 |
+aes4 aes4 g4 aes4 | aes2 g2 | aes2 aes2 | g4 g4 g4 g4 |
+f4( bes4) bes2 | bes2 bes2 | aes4 aes4 aes4 aes4 | aes4( g4) bes2 |
+aes2 s2 |
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 aes,2 | aes,4 aes,4 des4 des4 | ees2 ees2 | aes,2 aes,2 |
+f4 f4 ees4 aes,4 | des2 ees2 | aes,2 aes,2 | ees4 ees4 ees4 ees4 |
+bes,2 d2 | ees2 des2 | c4 c4 des4 des4 | ees2 ees2 |
+aes,2 s2 |
+"""
+
+[lyrics.1]
+text = "'Tis mid -- night, and on Ol -- ive's brow The star is dimmed that late -- ly shone; 'Tis mid -- night, in the gar -- den now The suf -- f'ring Sav -- ior prays a -- lone."
+
+[lyrics.2]
+text = "'Tis mid -- night, and from all re -- moved Em -- man -- uel wres -- tles lone with fears; E'en the dis -- ci -- ple whom He loved Heeds not his Mas -- ter's grief and tears."
+
+[lyrics.3]
+text = "'Tis mid -- night, and for oth -- ers' guilt The Man of Sor -- rows weeps in blood; Yet He who hath in an -- guish knelt Is not for -- sa -- ken by His God."
+
+[lyrics.4]
+text = "'Tis mid -- night, and from e -- ther plains Is borne the song that an -- gels know; Un -- heard by mor -- tals are the strains That sweet -- ly soothe the Sav -- ior's woe."
