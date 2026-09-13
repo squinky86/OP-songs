@@ -1,0 +1,45 @@
+title = "What a Friend We Have in Jesus"
+copyrights = [ "Lyrics: Joseph M. Scriven, 1855 (public domain)", "Music: 'Erie' by Charles C. Converse, 1868 (public domain)", "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)", "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",]
+key_signature = "F"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 98
+verse_count = 4
+phrase_breaks = ["4:64", "8:64", "12:64"]
+optional_phrase_breaks = ["2:64", "6:64", "10:64", "14:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = "c''4. c''8 d''8 c''8 a'8 f'8 | f'2 d'2 | c'4. f'8 a'8 f'8 c''8 a'8 | g'1 | c''4. c''8 d''8 c''8 a'8 f'8 | f'2 d'2 | c'4. f'8 a'8 g'8 f'8 e'8 | f'1 | g'4. fis'8 g'8 a'8 bes'8 g'8 | a'2 c''2 | d''4. d''8 c''8 a'8 bes'8 a'8 | g'1 | c''4. c''8 d''8 c''8 a'8 f'8 | f'2 d'2 | c'4. f'8 a'8 g'8 f'8 e'8 | f'1\n"
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = "f'4. f'8 f'8 f'8 f'8 c'8 | d'2 bes2 | c'4. c'8 c'8 c'8 f'8 f'8 | e'1 | f'4. f'8 f'8 f'8 f'8 c'8 | d'2 bes2 | a4. c'8 f'8 c'8 c'8 c'8 | c'1 | e'4. dis'8 e'8 f'8 g'8 e'8 | f'2 f'2 | f'4. f'8 f'8 f'8 g'8 f'8 | e'1 | f'4. f'8 f'8 f'8 f'8 c'8 | d'2 bes2 | a4. c'8 f'8 c'8 c'8 c'8 | c'1\n"
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = "a4. a8 bes8 a8 c'8 a8 | bes2 f2 | a4. a8 a8 a8 a8 c'8 | c'1 | c'4. c'8 bes8 c'8 c'8 a8 | bes2 f2 | f4. a8 c'8 bes8 a8 g8 | a1 | c'4. c'8 c'8 c'8 c'8 c'8 | c'2 a2 | bes4. bes8 c'8 c'8 c'8 c'8 | c'1 | c'4. c'8 bes8 a8 c'8 a8 | bes2 f2 | f4. a8 c'8 bes8 a8 g8 | a1\n"
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = "f4. f8 f8 f8 f8 f8 | bes,2 bes,2 | f4. f8 f8 f8 f8 f8 | c1 | a4. a8 bes8 a8 f8 f8 | bes,2 bes,2 | c4. c8 c8 c8 c8 c8 | f1 | c4. c8 c8 c8 c8 c8 | f2 f2 | bes4. bes8 a8 f8 e8 f8 | c1 | a4. f8 f8 f8 f8 f8 | bes,2 bes,2 | c4. c8 c8 c8 c8 c8 | f1\n"
+
+[lyrics.1]
+text = "What a friend we have in Je -- sus,\nAll our sins and griefs to bear!\nWhat a priv -- i -- lege to car -- ry\nEv -- ery -- thing to God in prayer!\nO what peace we of -- ten for -- feit,\nO what need -- less pain we bear,\nAll be -- cause we do not car -- ry\nEv -- ery -- thing to God in prayer."
+
+[lyrics.2]
+text = "Have we tri -- als and temp -- ta -- tions?\nIs there trou -- ble an -- y -- where?\nWe should nev -- er be dis -- cour -- aged;\nTake it to the Lord in prayer.\nCan we find a friend so faith -- ful\nWho will all our sor -- rows share?\nJe -- sus knows our ev -- ery weak -- ness;\nTake it to the Lord in prayer."
+
+[lyrics.3]
+text = "Are we weak and heav -- y lad -- en,\nCum -- bered with a load of care?\nPre -- cious Sav -- ior, still our ref -- uge,\nTake it to the Lord in prayer.\nDo your friends de -- spise, for -- sake you?\nTake it to the Lord in prayer!\nIn His arms He’ll take and shield you;\nYou will find a sol -- ace there."
+
+[lyrics.4]
+text = "Bless -- èd Sav -- ior, Thou hast prom -- ised\nThou wilt all our bur -- dens bear;\nMay we ev -- er, Lord, be bring -- ing\nAll to Thee in ear -- nest prayer.\nSoon in glo -- ry bright un -- cloud -- ed\nThere will be no need for prayer;\nRap -- ture, praise and end -- less wor -- ship\nWill be our sweet por -- tion there."
