@@ -1,0 +1,71 @@
+title = "Jesus, I My Cross Have Taken"
+verse_count = 4
+key_signature = "G"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 115
+phrase_breaks = ["4:64", "8:64", "12:64"]
+optional_phrase_breaks = ["2:64", "6:64", "10:64", "14:64"]
+copyrights = [
+  "Lyrics: Henry F. Lyte, 1824 (public domain)",
+  "Music: 'Ellesdie' from Joshua Leavitt's The Christian Lyre, 1831 (public domain)",
+  "Arrangement: Hubert P. Main, 1868 (public domain)",
+  "Courtesy of [Hymnary.org](https://hymnary.org)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+g'4. g'8 g'4 g'4 | b'4. a'8 a'8[ g'8] g'4 | a'4. a'8 a'4 a'4 | c''4. b'8 a'2 |
+g'4. g'8 g'4 g'4 | b'4. a'8 a'8[ g'8] g'4 | a'4 a'4 a'8[ c''8] b'8[ a'8] | g'4 fis'4 g'2 |
+a'4. a'8 a'4 a'4 | a'4. g'8 g'8[ fis'8] fis'4 | b'4. b'8 b'4 b'4 | c''4. b'8 a'2 |
+g'4. g'8 g'4 g'4 | b'4. a'8 a'8[ g'8] g'4 | a'4 a'4 a'8[ c''8] b'8[ a'8] | g'4 fis'4 g'2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+b4. b8 d'4 b4 | d'4. d'8 d'4 d'4 | d'4. d'8 d'4 d'4 | d'4. d'8 d'4( c'4) |
+b4. c'8 b4 d'4 | d'4. d'8 d'4 d'4 | d'4 cis'4 d'4 d'8[ e'8] | d'4 c'4 b2 |
+d'4. d'8 c'4 c'4 | b4. b8 c'4 c'4 | b4. d'8 d'4 d'4 | d'4. d'8 d'4( c'4) |
+b4. c'8 b4 d'4 | d'4. d'8 d'4 d'4 | d'4 cis'4 d'4 d'8[ e'8] | d'4 c'4 b2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+d4. d8 g4 g4 | g4. c'8 c'8[ b8] b4 | fis4. fis8 fis4 fis4 | a4. g8 fis2 |
+g4. e8 d4 g4 | g4. c'8 c'8[ b8] b4 | fis4 g4 a4 g8[ c'8] | b4 a4 g2 |
+fis4. fis8 fis4 fis4 | g4. g8 a4 a4 | g4. g8 g4 g4 | a4. g8 fis2 |
+g4. e8 d4 g4 | g4. c'8 c'8[ b8] b4 | fis4 g4 a4 g8[ c'8] | b4 a4 g2
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+g,4. g,8 b,4 d4 | g4. d8 d4 g,4 | d4. d8 d4 d4 | fis4. g8 d2 |
+g,4. g,8 g,4 b,4 | d4. d8 g,4 g,4 | d4 e4 fis4 g8[ c8] | d4 d4 g,2 |
+d4. d8 d4 d4 | d4. d8 d4 d4 | g4. g8 g4 g4 | fis4. g8 d2 |
+g,4. g,8 g,4 b,4 | d4. d8 g,4 g,4 | d4 e4 fis4 g8[ c8] | d4 d4 g,2
+"""
+
+[lyrics.1]
+text = "Je -- sus, I my cross have tak -- en, All to leave and fol -- low Thee; Des -- ti -- tute, de -- spised, for -- sak -- en, Thou from hence my all shalt be. Per -- ish ev -- ’ry fond am -- bi -- tion, All I’ve sought, and hoped and known; Yet how rich is my con -- di -- tion, God and heav’n are still my own!"
+
+[lyrics.2]
+text = "Let the world de -- spise and leave me, They have left my Sav -- ior too; Hu -- man hearts and looks de -- ceive me; Thou are not, like man, un -- true; And, while Thou shalt smile up -- on me, God of wis -- dom, love, and might, Foes may hate and friends may shun me; Show Thy face, and all is bright."
+
+[lyrics.3]
+text = "Man may trou -- ble and dis -- tress me, ’Twill but drive me to Thy breast; Life with tri -- als hard may press me, Heav’n will bring me sweet -- er rest. O ’tis not in grief to harm me, While Thy love is left to me; O ’twere not in joy to charm me, Were that joy un -- mixed with Thee."
+
+[lyrics.4]
+text = "Has -- ten on from grace to glo -- ry, Armed by faith and winged by prayer; Heav’n’s e -- ter -- nal days be -- fore me, God’s own hand shall guide me there. Soon shall close my earth -- ly mis -- sion, Swift shall pass my pil -- grim days, Hope shall change to glad fru -- i -- tion, Faith to sight, and prayer to praise."
