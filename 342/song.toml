@@ -1,0 +1,70 @@
+title = "Crown Him with Many Crowns"
+verse_count = 4
+key_signature = "D"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 92
+phrase_breaks = ["4:48", "8:48", "12:48"]
+copyrights = [
+  "Lyrics: Matthew Bridges, 1851 (public domain)",
+  "Music: 'Diademata' by George J. Elvey, 1868 (public domain)",
+  "Courtesy of [Hymnary.org](https://hymnary.org)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+optional_phrase_breaks = ["2:48", "6:48", "10:48", "14:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+d'4 d'8 d'8 fis'4 fis'4 | b'2. b'4 | a'4 d'4 g'4 fis'4 | e'2. e'4 |
+fis'4 a'4 b'4 a'4 | gis'4 fis'8[ e'8] a'4 d''4 | cis''4 d''4 b'4 b'4 | a'2. a'4 |
+a'4 fis'4 e'4 d'4 | b'2. b'4 | b'4 gis'4 fis'4 e'4 | cis''2. cis''4 |
+d''4. cis''8/-24 b'4 a'4 | g'4 e'4 fis'4 a'4 | g'4 fis'4 e'4 e'4 | d'1
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+a4 a8 a8 d'4 d'4 | d'2. d'4 | d'4 d'4 cis'4 d'4 | cis'2. cis'4 |
+d'4 e'4 d'4 d'4 | b4 b4 e'4 d'4 | e'4 fis'4 b4 e'4 | cis'2. cis'4 |
+d'4 d'4 cis'4 d'4 | d'2. dis'4 | e'4 e'4 d'4 e'4 | e'2. e'4 |
+d'4 d'4 d'4 d'4 | d'4 cis'4 d'4 d'4 | d'4 d'4 d'4 cis'4 | d'1
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+fis4 fis8 fis8 fis4 fis4 | g2. g4 | a4 b4 g4 a4 | a2. a4 |
+a4 a4 fis4 fis4 | gis4 gis4 a4 gis4 | a4 a4 a4 gis4 | a2. a4 |
+a4 a4 g4 a4 | b2. a4 | gis4 b4 a4 b4 | a2. a4 |
+a4 a4 g4 a4 | b4 a4 a4 a4 | b4 a4 a4. g8/-24 | fis1
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+d4 d8 d8 b,4 b,4 | g,2. g4 | fis4 g4 e4 d4 | a,2. a,4 |
+d4 cis4 b,4 d4 | e4 d4 cis4 b,4 | a,4 d4 e4 e4 | a2. g4 |
+fis4 d4 e4 fis4 | g2. fis4 | e4 e4 fis4 gis4 | a2. g4 |
+fis4 fis4 g4 fis4 | e4 a4 d4 fis,4 | g,4 d4 a,4 a,4 | d1
+"""
+
+[lyrics.1]
+text = "Crown Him with ma -- ny crowns, The Lamb up -- on His throne. Hark! how the heaven -- ly an -- them drowns All mu -- sic but its own. A -- wake, my soul, and sing Of Him Who died for thee, And hail Him as thy match -- less King Through all e -- ter -- ni -- ty."
+
+[lyrics.2]
+text = "Crown Him the Lord of life, Who tri -- umphed o'er the grave, And rose vic -- to -- rious in the strife For those He came to save; His glo -- ries now we sing Who died and rose on high, Who died e -- ter -- nal life to bring, And lives that death may die."
+
+[lyrics.3]
+text = "Crown Him the Lord of love; Be -- hold His hands and side, Rich wounds, yet vis -- i -- ble a -- bove, In beau -- ty glo -- ri -- fied; No an -- gels in the sky Can ful -- ly bear that sight, But down -- ward bends their burn -- ing eye At mys -- ter -- ies so bright."
+
+[lyrics.4]
+text = "Crown Him the Lord of years, The Po -- ten -- tate of time, Cre -- a -- tor of the roll -- ing spheres, In -- ef -- fa -- bly sub -- lime. All hail, Re -- deem -- er, hail! For Thou hast died for me; Thy praise shall nev -- er, nev -- er fail Through -- out e -- ter -- ni -- ty."
