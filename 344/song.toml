@@ -1,0 +1,53 @@
+title = "Keep Thyself Pure! Christ's Soldier, Hear"
+subtitle = ""
+copyrights = [
+  "Lyrics: Adelaide M. Plumptre, 1908 (public domain)",
+  "Music: 'Pentecost' by William Boyd, 1864 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 125
+verse_count = 4
+phrase_breaks = ["4:48", "8:48", "12:48", "16:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = "b'4 b'4 b'4 | b'2 b'4 | a'2 g'4 | c''2. | b'4 b'4 b'4 | b'2 a'4 | a'2 g'4 | a'2. | b'4 b'4 b'4 | b'2 b'4 | a'2 b'4 | c''2. | a'4 a'4 a'4 | b'2 g'4 | g'2 fis'4 | g'2."
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = "d'4 d'4 d'4 | d'2 g'4 | fis'2 g'4 | fis'2. | d'4 d'4 g'4 | e'2 e'4 | e'2 cis'4 | d'2. | d'4 d'4 dis'4 | e'2 e'4 | e'2 e'4 | e'2. | d'4 d'4 d'4 | d'2 e'4 | d'2 c'4 | b2."
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+suppress_verses = [1, 2, 3, 4]
+suppress_verses_when = ["soprano", "alto"]
+notes = "g4 g4 g4 | g4( b4) d'4 | d'2 d'4 | d'2. | g4 b4 d'4 | d'2 c'4 | a2 a4 | fis2. | b4 b4 a4 | g2 gis4 | a2 gis4 | a2. | fis4 fis4 fis4 | g4( d'4) c'4 | c'4( b4) a4 | g2."
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+suppress_verses = [1, 2, 3, 4]
+suppress_verses_when = ["soprano", "alto"]
+notes = "g4 g4 g4 | g2 b4 | c'2 b4 | a2. | g4 g4 g4 | c2 c4 | c2 e4 | d2. | g4 g4 fis4 | e2 d4 | c2 b,4 | a,2. | d4 d4 d4 | b,2 c4 | d2 d4 | g,2."
+
+[lyrics.1]
+text = "Keep thy -- self pure! Christ's sol -- dier, hear, Through life's loud strife, the call rings clear. Thy Cap -- tain speaks: His word o -- bey; So shall thy strength be as thy day."
+
+[lyrics.2]
+text = "Keep thy -- self pure! Thrice bless -- ed he Whose heart from taint of sin is free; His feet shall stand where saints have trod, He with rapt eyes shall see his God."
+
+[lyrics.3]
+text = "Keep thy -- self pure! For He who died, Him -- self for thy sake sanc -- ti -- fied; Then hear Him speak -- ing from the skies, And vic -- tor o'er temp -- ta -- tion rise."
+
+[lyrics.4]
+text = "O Ho -- ly Spir -- it, keep us pure, Grant us Thy strength when sins al -- lure; Our bod -- ies are Thy tem -- ple, Lord; Be Thou in thought and act a -- dored."
