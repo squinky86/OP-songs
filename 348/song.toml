@@ -1,0 +1,116 @@
+title = "Jesus, Thou Divine Companion"
+subtitle = "Love Divine (Le Jeune)"
+copyrights = [
+  "Lyrics: Henry van Dyke, 1909 (public domain)",
+  "Music: 'Love Divine (Le Jeune)' by George F. Le Jeune, 1872 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 115
+verse_count = 3
+phrase_breaks = ["4:64", "8:64", "12:64"]
+optional_phrase_breaks = ["2:64", "6:64", "10:64", "14:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+f'4 g'4 a'4 a'4 |
+bes'4 a'4 a'4 g'4 |
+g'4 a'4 c''4 bes'4 |
+g'4 a'4 f'2 |
+f'4 g'4 a'4 a'4 |
+bes'4 a'4 a'4 g'4 |
+g'4 a'4 c''4 b'4 |
+a'4 b'4 c''2 |
+c''4 c''4 d''4 d''4 |
+e''4 d''4 d''4 c''4 |
+c''4 d''4 bes'4 a'4 |
+bes'4 c''4 a'2 |
+f'4 g'4 a'4 a'4 |
+bes'4 a'4 a'4 g'4 |
+g'4 a'4 c''4 bes'4 |
+g'4 a'4 f'2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+f'4 f'4 f'4 f'4 |
+f'4 f'4 f'4 e'4 |
+e'4 ees'4 d'4 d'4 |
+e'4 e'4 f'2 |
+f'4 f'4 f'4 f'4 |
+f'4 f'4 f'4 e'4 |
+e'4 ees'4 e'4 f'4 |
+f'4 f'4 e'2 |
+f'4 f'4 f'4 f'4 |
+e'4 e'4 f'4 f'4 |
+a'4 a'4 g'4 g'4 |
+g'4 e'4 f'2 |
+f'4 f'4 f'4 ees'4 |
+d'4 fis'4 f'4 f'4 |
+e'4 ees'4 d'4 d'4 |
+e'4 e'4 f'2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+a4 bes4 c'4 c'4 |
+d'4 c'4 c'4 c'4 |
+bes4 a4 a4 bes4 |
+bes4 c'4 a2 |
+a4 bes4 c'4 c'4 |
+d'4 c'4 c'4 c'4 |
+c'4 c'4 c'4 d'4 |
+c'4 d'4 c'2 |
+c'4 c'4 bes4 bes4 |
+bes4 bes4 a4 c'4 |
+ees'4 d'4 d'4 d'4 |
+c'4 c'4 c'2 |
+a4 bes4 c'4 c'4 |
+bes4 c'4 b4 b4 |
+bes4 a4 a4 bes4 |
+bes4 c'4 a2
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+f4 f4 f4 f4 |
+f4 f4 c4 c4 |
+c4 f4 fis4 g4 |
+c4 c4 f2 |
+f4 f4 f4 f4 |
+f4 f4 c4 c4 |
+c4 fis4 g4 g4 |
+g,4 g,4 c2 |
+a4 a4 bes4 bes4 |
+g4 g4 a4 a4 |
+fis4 fis4 g4 f4 |
+e4 c4 f2 |
+f4 f4 f4 fis4 |
+g4 d4 g,4 g,4 |
+c4 f4 fis4 g4 |
+c4 c4 f2
+"""
+
+[lyrics.1]
+text = "Je -- sus, Thou di -- vine com -- pan -- ion, By Thy low -- ly hu -- man birth Thou hast come to join the work -- ers, Bur -- den bear -- ers of the earth. Thou, the car -- pen -- ter of Naz -- 'reth, Toil -- ing for Thy dai -- ly food, By Thy pa -- tience and Thy cour -- age, Thou hast taught us toil is good."
+
+[lyrics.2]
+text = "They who tread the path of la -- bor Fol -- low where Thy feet have trod; They who work with -- out com -- plain -- ing Do the ho -- ly will of God. Thou, the peace that pass -- eth know -- ledge, Dwell -- est in the dai -- ly strife; Thou, the bread of Heav -- en, brok -- en In the sac -- ra -- ment of life."
+
+[lyrics.3]
+text = "Ev -- 'ry task, how -- ev -- er sim -- ple, Sets the soul that does it free; Ev -- 'ry deed of love and kind -- ness Done to man is done to Thee. Je -- sus, Thou di -- vine com -- pan -- ion, Help us all to do our best; Bless us in our dai -- ly la -- bor, Lead us to the Sab -- bath rest."
