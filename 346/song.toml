@@ -1,123 +1,4 @@
-# SONG 346 — "I Would Be True", tune PEEK (Joseph Yates Peek, 1911)
-#
-# MUSIC SOURCE CHAIN (all three links recovered; every finding below is marked PRINT,
-# NWCTXT or FILE):
-#   - Supplied file: /mnt/win/temp/i-w-o-I Would Be True.xml — NWC2MusicXML export
-#     encoded 2011-07-29, <credit> "From Hymnary.org (based on a score from the Cyber
-#     Hymnal)".
-#   - Engraved plate: hymntime.com/tch/pdf/i/w/o/I%20Would%20Be%20True.pdf (Wayback
-#     if_), read at 300 dpi with zooms to ~900 dpi. PDF metadata author
-#     "The Cyber Hymnal™ (Richard W. Adams)".
-#   - Original container: hymntime.com/tch/nwc/i/w/o/u/IWouldBeTrue.nwc, [NWZ] zlib,
-#     inflated from byte 6. This one yields REAL nwctxt, so |Chord|Pos: voice
-#     assignment, |PgSetup| and |Tempo| are all directly readable:
-#       |Copyright2| "Courtesy of the Cyber Hymnal™"
-#       |Comments|   "Source: Sing to the Lord (Kansas City, Missouri: Lillenas
-#                     Publishing Company, 1993), # 493."
-#       |Tempo|Tempo:115 — and the plate PRINTS the same marking, quarter = 115.
-#   FAN-OUT DEPTH DIFFERS BETWEEN THE TWO ASSETS for this tune: the pdf exists ONLY at
-#   the three-letter i/w/o/ (i/w/o/u/ 404s) and the nwc ONLY at the four-letter
-#   i/w/o/u/ (i/w/o/ 404s). No Cyber Hymnal .mid was found at either depth.
-#   The courtesy line below is CONFIRMED from |Copyright2| AND from the plate footer
-#   ("Public Domain / Courtesy of the Cyber Hymnal™"), not assumed from the filename.
-#
-# THE 20-BAR QUESTION IS SETTLED, ON PRINT AND IN THE TEXT SOURCE: the tune is five
-# four-bar lines because EVERY STANZA REPEATS ITS LAST LINE. The plate writes all 20
-# bars out literally — no repeat sign, no volta, no D.C. — with m17-20 duplicating
-# m13-16 except for the final cadence bar (m16 ends on B-flat 4 + quarter rest, m20 on
-# a whole-note E-flat 4 unison). The Cyber Hymnal text page prints the repeated line
-# as a fifth line in all six stanzas, and its "Alternate Tunes" block says LONDONDERRY
-# "omits repeated last line of each stanza" — i.e. the repeat belongs to THIS tune
-# specifically. Syllable counts corroborate exactly: 11.10.11.10 + the 10 repeated,
-# matching soprano onsets 11/10/11/10/10 = 52 per stanza.
-#
-# VOICE ASSIGNMENT IS SETTLED, NOT INFERRED. nwctxt |PgSetup| carries AllowLayering:N
-# and every event is in layer 1, so the NWC layer-swap and shifted-underlay
-# pathologies cannot arise. Absolute |Chord|Pos: values give each voice directly
-# (treble staff Pos 0 = B4, bass staff Pos 0 = D3, key B-flat/E-flat/A-flat). Closed
-# score: treble = S over A, bass = T over B; in every chord the <note> is the LOWER
-# voice and the <chord/> member the UPPER one. No S/A or T/B crossings anywhere;
-# fix_crossovers.py was run against a COPY only and changed nothing.
-#
-# UNISONS ARE WRITTEN OUT IN BOTH VOICES (the plate prints a single notehead, or two
-# side by side, at each): S=A B-flat 3 in m2 and m7 beat 1 and E-flat 4 in m20;
-# T=B E-flat 3 in m8, B-flat 3 in m15 beat 3, A-flat 3 in m17 beats 1-2. Print alone
-# cannot distinguish a unison from a single voice; the nwctxt Dur2:/Pos2: pairs settle
-# every one of them.
-#
-# *** TWO MISSING-<alter> DEFECTS IN THE SUPPLIED XML — both corrected here. ***
-# An audit of the file found exactly two notes whose letter is in the key signature
-# and which carry no <alter>; both are wrong, and both are settled by the nwctxt and
-# CONFIRMED ON PRINT:
-#   1. m17 bass staff, beat 1, voice 2: XML writes a bare <step>A</step><octave>3</octave>.
-#      nwctxt has "|Chord|Dur:Half|Pos:4|...|Dur2:Half|Pos2:4" = A-FLAT 3, a T/B unison,
-#      and the plate prints one half notehead with no accidental. Written as aes.
-#   2. m13 bass staff, beat 4: XML writes a bare A2 where the correct pitch is
-#      A-NATURAL 2 — beat 3 of the same bar carries an explicit natural (|Pos:n-3|) and
-#      the accidental carries through the bar. The plate shows the natural on beat 3 and
-#      a bare notehead on beat 4. Written as a, (natural), not aes,.
-# The only other chromatic notes are explicitly altered in the file and all check out
-# harmonically: soprano B-natural 4 in m11 (E-flat augmented resolving to the A-flat of
-# m12), and tenor G-flat 3 with bass A-natural 2 in m13 and m17 (A dim-7 as a chromatic
-# passing chord into the E-flat/B-flat of m14 and m18).
-#
-# XML TIMING DEFECT IN m7, corrected from the nwctxt and the plate. The XML writes the
-# treble voice-2 line as "B-flat3 quarter, <forward 480>, A-flat4 quarter", which puts
-# the A-flat on beat 3 and leaves the bar 1 quarter short in that voice. The nwctxt
-# attaches the A-flat to the BEAT-4 chord as Dur2:4th|Pos2:-1, and the plate plainly
-# engraves a stem-up A-flat 4 over the beamed D4-C4 eighths on beat 4. Read that way
-# the bar is full and the syllable counts reconcile.
-#
-# THE ONLY MELISMA IN THE PIECE is the alto's D4-C4 eighth pair on beat 4 of m7 (a
-# slur on the plate; written here as a beam per style guide 1.1, which is also how the
-# plate beams it). Every other voice sings one syllable per note throughout, in all
-# five lines and all four parts — 52 slots per part per stanza, reconciled.
-#
-# THE FILE CONTAINS ZERO <lyric> ELEMENTS, the nwctxt contains no |Lyric| item and the
-# plate prints no underlay: this is a text-less tune score. SYLLABLE PLACEMENT BELOW IS
-# NOT FROM THE MUSIC SOURCE. It is arithmetically forced — the soprano's per-line onset
-# counts (11/10/11/10/10) match the poem's line lengths exactly, one note per syllable,
-# with no slack anywhere.
-#
-# LYRIC SOURCE: the Cyber Hymnal text page for THIS tune,
-# hymntime.com/tch/htm/i/w/b/iwbetrue.htm (also served at i/w/b/e/) via Wayback — the
-# text belonging to the very engraving transcribed above. Note the .htm fan-out uses
-# the SLUG's letters (i/w/b from "iwbetrue"), not the tune name. Identity check passed
-# on the page's CREDIT BLOCK, not a bare name in the body: "Words: Howard A. Walter,
-# 1906 (verses 1-3) & S. Ralph Harlow (verses 4-6), circa 1918. Music: Joseph Y. Peek,
-# 1911", title "I Would Be True", first line "I would be true, for there are those who
-# trust me". hymnary.org 403'd on every attempt during this import and was not used.
-#
-# *** SIX STANZAS, AND VERSES 4-6 ARE NOT WALTER'S. *** Verses 1-3 are Howard Arnold
-# Walter, 1906 (unambiguously public domain). Verses 4-6 are S. Ralph Harlow
-# (1885-1972), dated "circa 1918" by the Cyber Hymnal, which hosts them as public
-# domain; a US publication before 1929 is PD, but I could not independently verify a
-# pre-1929 printing. MOST HYMNALS PRINT ONLY THREE STANZAS (Walter's). If the
-# maintainer wants the conservative reading, delete [lyrics.4], [lyrics.5] and
-# [lyrics.6], set verse_count = 3 and drop the second Lyrics copyright line.
-#
-# TWO LINES OVERRUN THE TUNE AS THE CYBER HYMNAL PRINTS THEM, and each is fixed in
-# place (style-guide precedent: fix only the overrunning line, comment each one):
-#   - v5 line 3: "Who in God's heaven has passed beyond my vision?" scans to 12 against
-#     11 notes; set with the standard hymnal elision "heav'n". Every other line of all
-#     six stanzas scans exactly as printed.
-#   - v4 line 3: "Who is so poor, that I may not feel his hunger?" scans to 12 against
-#     11 notes and has no elidable word. All of Harlow's words are kept and "that I" is
-#     sung on one note, encoded with the undertie "that‿I" (one lyric slot, printed back
-#     as a space). The parallel lines in that same stanza run "Who is so low that I am
-#     not his brother?" (11) and "Who is so rich I may not pity him?" (10 — no "that"),
-#     so the line is plainly one syllable long in Harlow's own text. If the maintainer
-#     prefers, dropping the word "that" gives a clean 11 and is a one-token change.
-#
-# Verse 2 line 1 sets "all—the" across two notes; the em dash is kept on the first
-# slot, so the lyrics page reads "of all— the foe" with a space the Cyber Hymnal's
-# running text does not have. Cosmetic, and the alternative ("—the" on the second
-# slot) is no better.
-#
-# NO dynamics, hairpins, fermatas, articulations or expression marks appear anywhere on
-# the plate or in the nwctxt, so none are written. No chorus, no coda.
 title = "I Would Be True"
-subtitle = "Peek"
 copyrights = [
   "Lyrics: Howard Arnold Walter, 1906, verses 1-3 (public domain)",
   "Lyrics: S. Ralph Harlow, c. 1918, verses 4-6 (public domain)",
@@ -136,7 +17,9 @@ phrase_breaks = ["4:64", "8:64", "12:64", "16:64", "20:64"]
 choral_type = "soprano"
 clef = "treble"
 staff_number = 1
-notes = "g'2 f'4 ees'4 | bes2. bes4 | c'4 d'4 f'4 ees'4 | ees'2 d'2 | aes'2 g'4 f'4 | d'2. c'4 | bes4 d'4 f'4 aes'4 | g'1 | g'2 f'4 ees'4 | bes2. bes4 | ees'4 g'4 bes'4 b'4 | d''2 c''2 | c''2 d''4 c''4 | bes'2. g'4 | aes'4 g'4 g'4. f'8 | bes'2. r4 | c''2 d''4 c''4 | bes'2. g'4 | aes'4 g'4 g'4. f'8 | ees'1"
+notes = """
+g'2 f'4 ees'4 | bes2. bes4 | c'4 d'4 f'4 ees'4 | ees'2 d'2 | aes'2 g'4 f'4 | d'2. c'4 | bes4 d'4 f'4 aes'4 | g'1 | g'2 f'4 ees'4 | bes2. bes4 | ees'4 g'4 bes'4 b'4 | d''2 c''2 | c''2 d''4 c''4 | bes'2. g'4 | aes'4 g'4 g'4. f'8 | bes'2. r4 | c''2 d''4 c''4 | bes'2. g'4 | aes'4 g'4 g'4. f'8 | ees'1
+"""
 
 [parts.Alto]
 choral_type = "alto"

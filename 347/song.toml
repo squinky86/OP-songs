@@ -1,0 +1,85 @@
+title = "O For a Thousand Tongues to Sing"
+copyrights = [
+  "Lyrics: Charles Wesley, 1739, alt. (public domain)",
+  "Music: 'Azmon' by Carl Gotthilf Glaser, 1828 (public domain)",
+  "Adaptation: Lowell Mason, 1839 (public domain)",
+  "Courtesy of [Hymnary.org](https://hymnary.org)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 7
+# Poetic lines end on the 8th, 14th, 22nd and 28th syllables. M3:32 = after "sing",
+# M5:32 = after "praise,", M7:32 = after "King," (just BEFORE the M7 melisma, never
+# inside it). The final line needs no break.
+phrase_breaks = ["5:32"]
+optional_phrase_breaks = ["3:32", "7:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+# M7 beat 3 is the one place the two engravings disagree. The supplied file gives the
+# soprano g'8 e'8 and the alto e'8 c'8; the Cyber Hymnal plate and nwctxt instead give the
+# soprano g'8 c'8 (slurred, melody crossing below) and hold the alto on a quarter e'. The
+# SOUNDING pitches are identical either way ({G4,E4} then {E4,C4}) — only the voice
+# attribution differs. The supplied score's reading is kept; the CH reading would be
+# soprano "g'8[ c'8]" with alto "e'8 c'8" -> "e'4".
+notes = """
+s2 d'4 | g'8 g'8 a'4 a'4 | b'8 a'8 g'4 a'4 | b'8 b'8 c''4 b'4 | a'2 d''4 | d''8 b'8 b'4 g'4 | g'8 e'8 e'4 g'8[ e'8] | d'8 g'8 g'4 a'4 | g'2 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 d'4 | d'8 b8 d'4 d'4 | d'8 c'8 b4 d'4 | d'8 d'8 d'4 d'4 | d'2 fis'4 | g'8 d'8 d'4 d'4 | e'8 c'8 c'4 e'8[ c'8] | b8 b8 b4 c'4 | b2 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 d4 | d8 g8 fis4 fis4 | g8 fis8 g4 fis4 | g8 g8 a4 g4 | fis2 a4 | b8 g8 g4 g4 | g8 g8 g4 g4 | g8 g8 g4 fis4 | g2 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 d4 | b,8 g,8 d4 d4 | g8 d8 e4 d4 | g8 g8 fis4 g4 | d2 d4 | g8 g8 g4 b,4 | c8 c8 c4 c4 | d8 d8 d4 d4 | g,2 s4
+"""
+
+[lyrics.1]
+text = "Oh, for a thou -- sand tongues to sing My great Re -- deem -- er's praise, The glo -- ries of my God and King, The tri -- umphs of His grace!"
+
+[lyrics.2]
+text = "My gra -- cious Mas -- ter and my God, As -- sist me to pro -- claim, To spread through all the earth a -- broad The hon -- ors of Your name."
+
+[lyrics.3]
+text = "The name of Je -- sus charms our fears And bids our sor -- rows cease; 'Tis mu -- sic in the sin -- ner's ears, 'Tis life and health and peace."
+
+# The file's underlay for this stanza really does read "pis" + "oner" (it should be
+# "pris -- oner"). Kept as the score prints it per the editorial default; it is a
+# one-character fix if the maintainer wants it.
+[lyrics.4]
+text = "He breaks the power of can -- celed sin, He sets the pis -- oner free; His blood can make the foul -- est clean; His blood a -- vails for me."
+
+[lyrics.5]
+text = "He speaks, and, lis -- tening to His voice, New life the dead re -- ceive; The mourn -- ful, bro -- ken hearts re -- joice; The hum -- ble poor be -- lieve."
+
+# Stanzas 6 and 7 are printed as TEXT ONLY under the score in the supplied file (the two
+# <words> blocks at default-y -245); they carry no underlay, so the syllable split here is
+# mine, fitted to the 28 CM slots. Two metrical elisions were needed in stanza 7 and
+# nowhere else: the file prints "given" and "heaven", which scan to 7 against the 6 notes
+# of a CM short line, so they are written "giv'n" and "heav'n".
+[lyrics.6]
+text = "Hear Him, you deaf; you voice -- less ones, Your loos -- ened tongues em -- ploy; You blind, be -- hold your Sav -- ior come; And leap, you lame, for joy!"
+
+[lyrics.7]
+text = "To God all glo -- ry, praise, and love Be now and ev -- er giv'n By saints be -- low and saints a -- bove, The church in earth and heav'n."
