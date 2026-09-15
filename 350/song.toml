@@ -1,0 +1,123 @@
+title = "O Word of God Incarnate"
+copyrights = [
+  "Lyrics: William Walsham How, 1867 (public domain)",
+  "Music: 'Munich' from the Neuvermehrtes Gesangbuch, Meiningen, 1693 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Eb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 110
+verse_count = 4
+phrase_breaks = ["5:48", "9:48", "13:48"]
+commentary = "<p>This same song is also available with music for <a href=\"/songs/349\">Chenies</a>.</p>"
+optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. ees'8[ f'8] |
+g'4 c''4 bes'4 aes'4 |
+g'2 g'4 g'4 |
+bes'4 aes'8[ g'8] f'4 f'4 |
+ees'2. ees'8[ f'8] |
+g'4 c''4 bes'4 aes'4 |
+g'2 g'4 g'4 |
+bes'4 aes'8[ g'8] f'4 f'4 |
+ees'2. f'4 |
+f'4 g'4 aes'4 aes'4 |
+g'2 g'4 c''4 |
+ees''4 c''4 g'4 a'4 |
+bes'2. bes'4 |
+bes'4 g'4 aes'4 bes'4 |
+c''2 c''4 bes'4 |
+aes'4 g'4 f'4 f'4 |
+ees'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. ees'4 |
+ees'4 ees'4 d'4 f'4 |
+ees'2 ees'4 ees'4 |
+ees'4 ees'4 ees'4 d'4 |
+ees'2. bes8[ d'8] |
+ees'4 g'4 f'4 f'8[ ees'8] |
+d'2 d'4 ees'4 |
+ees'4 ees'4 ees'4 d'4 |
+ees'2. d'4 |
+d'4 e'4 f'4 f'4 |
+ees'2 ees'4 f'4 |
+ees'4 g'4 g'4 f'8[ ees'8] |
+d'2. f'4 |
+ees'4 ees'4 ees'4 f'8[ g'8] |
+aes'2 aes'4 ees'4 |
+ees'4 ees'4 ees'4 d'4 |
+ees'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. g8[ aes8] |
+bes4 aes8[ g8] f4 bes4 |
+bes2 bes4 bes4 |
+bes4 c'4 f8[ g8] aes4 |
+g2. g8[ f8] |
+bes4 ees'4 d'4 c'4 |
+b2 b4 c'4 |
+bes4 c'4 f8[ g8] aes4 |
+g2. bes4 |
+bes4 bes4 c'4 c'4 |
+c'2 c'4 aes4 |
+g4 ees'8[ d'8] c'4 c'4 |
+bes2. aes4 |
+g4 bes4 ees'4 des'4 |
+c'2 ees'4 ees'4 |
+aes4 c'4 f8[ g8] aes4 |
+g2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. ees4 |
+ees4 aes,4 bes,4 d4 |
+ees2 ees4 ees4 |
+g,4 aes,4 bes,4 bes,4 |
+ees2. g8[ f8] |
+ees4 c4 d8[ ees8] f4 |
+g2 g4 c4 |
+g,4 aes,4 bes,4 bes,4 |
+ees2. bes4 |
+aes4 g4 f4 f4 |
+c2 c4 c4 |
+c4 c8[ d8] ees4 f4 |
+bes,2. d4 |
+ees4 des4 c4 bes,4 |
+aes,2 aes,4 g,4 |
+c4 aes,4 bes,4 bes,4 |
+ees2. s4
+"""
+
+[lyrics.1]
+text = "O Word of God in -- car -- nate, O Wis -- dom from on high, O Truth, un -- changed, un -- chang -- ing, O Light of our dark sky, we praise Thee for the ra -- diance that from the hal -- lowed page, a lan -- tern to our foot -- steps, shines on from age to age."
+
+[lyrics.2]
+text = "The church from her dear Mas -- ter re -- ceived the gift di -- vine, and still that light she lift -- eth o'er all the earth to shine. It is the gold -- en cas -- ket, where gems of truth are stored; it is the heav'n- -- drawn pic -- ture Of Christ, the liv -- ing Word."
+
+[lyrics.3]
+text = "It float -- eth like a ban -- ner be -- fore God's host un -- furled; it shin -- eth like a bea -- con a -- bove the dark -- ling world. It is the chart and com -- pass that o'er life's surg -- ing sea, 'mid mists and rocks and quick -- sands, still guides, O Christ, to Thee."
+
+[lyrics.4]
+text = "O make Thy Church, dear Sav -- ior, a lamp of burn -- ished gold, to bear be -- fore the na -- tions Thy true light as of old. O teach Thy wand' -- ring pil -- grims by this, their path to trace, 'til, clouds and dark -- ness end -- ed, they see Thee face to face."
