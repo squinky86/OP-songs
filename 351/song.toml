@@ -1,0 +1,120 @@
+title = "Thy Word Is Like a Garden, Lord"
+subtitle = ""
+copyrights = [
+  "Lyrics: Edwin Hodder, 1863 (public domain)",
+  "Music: 'Bethlehem' by Gottfried Wilhelm Fink, 1842 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Bb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 110
+verse_count = 3
+phrase_breaks = ["5:48", "9:48", "13:48"]
+optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. f'4 |
+bes'4 bes'4 a'4 g'4 |
+f'4. g'8 f'4 f'4 |
+g'4 c''4 bes'4 a'4 |
+bes'2. f'4 |
+bes'4 bes'4 a'4 g'4 |
+f'4. g'8 f'4 d''4 |
+c''4 bes'4 a'4 g'4 |
+f'2. f'4 |
+a'4 f'4 bes'4 f'4 |
+c''4 f'4 d''4 c''4 |
+ees''4 d''4 c''4 bes'4 |
+bes'2( a'4) f'4 |
+bes'4 bes'4 c''4 c''4 |
+d''4. ees''8 f''4 bes'4 |
+c''4 ees''4 d''4 c''4 |
+bes'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. f'4 |
+d'4 f'4 f'4 ees'4 |
+d'4. ees'8 d'4 f'4 |
+ees'4 g'4 f'4 ees'4 |
+d'2. f'4 |
+d'4 f'4 f'4 ees'4 |
+d'4. ees'8 d'4 f'4 |
+f'4 f'4 f'4 e'4 |
+f'2. f'4 |
+c'4 c'4 d'4 f'4 |
+ees'4 f'4 f'4 c''4 |
+g'4 g'4 g'4 g'4 |
+f'2. f'4 |
+d'4 f'4 g'4 f'4 |
+f'4. g'8 bes'4 f'4 |
+g'4 ees'4 f'4 f'4 |
+f'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. f4 |
+bes4 f4 r8 f8/-24 g8[ a8] |
+bes4 a4/+24 bes4 bes4 |
+bes4 ees'4 d'4 c'4 |
+bes2. f4 |
+bes4 bes4 bes4 bes8[ c'8] |
+d'4 c'4/+24 d'4 bes4 |
+c'4 bes4 c'4 bes4 |
+a2. f4 |
+f4 f4 f4 bes4 |
+a4 ees'4 d'4 d'4 |
+c'4 b4 c'4 des'4 |
+c'2. f4 |
+bes4 bes4 bes4 bes8[ c'8] |
+d'4 c'4/+24 d'4 d'4 |
+c'4 c'4 bes4 ees'4 |
+d'2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. f4 |
+bes,4 d4 ees4 ees4 |
+bes,4 bes,4/+24 bes,4 d4 |
+ees4 c4 f4 f,4 |
+bes,2. f4 |
+bes,4 d4 ees8[ f8] g8[ a8] |
+bes4 a4/+24 bes4 bes,4 |
+a,4 d4 c4 c4 |
+f2. f4 |
+f,4 a,4 bes,4 d4 |
+f4 a4 bes4 g4 |
+c4 ees4 ees4 e4 |
+f2. f4 |
+bes,4 d4 ees8[ f8] g8[ a8] |
+bes4 bes4/+24 d4 d4 |
+ees4 c4 f4 f,4 |
+bes,2. s4
+"""
+
+[lyrics.1]
+text = "Thy Word is like a gar -- den, Lord, With flow -- ers bright and fair; And ev -- ery -- one who seeks may pluck A love -- ly clus -- ter there. Thy Word is like a deep, deep mine, And jew -- els rich and rare Are hid -- den in its might -- y depths For ev -- ery search -- er there."
+
+[lyrics.2]
+text = "Thy Word is like a star -- ry host: A thou -- sand rays of light Are seen to guide the trav -- el -- er And make his path -- way bright. Thy Word is like an ar -- mo -- ry Where sol -- diers may re -- pair, And find, for life's long bat -- tle day, All need -- ful weap -- ons there."
+
+[lyrics.3]
+text = "O may I love Thy pre -- cious Word, May I ex -- plore the mine, May I its fra -- grant flow -- ers glean, May light up -- on me shine! O may I find my ar -- mor there! Thy Word my trust -- y sword, I'll learn to fight with ev -- ery foe The bat -- tle of the Lord."
