@@ -1,0 +1,109 @@
+title = "For the Beauty of the Earth"
+copyrights = [
+  "Lyrics: Folliott S. Pierpoint, 1864, alt. (public domain)",
+  "Music: 'Dix' by Conrad Kocher, 1838; adapted by William H. Monk, 1861 (public domain)",
+  "Courtesy of [Hymnary.org](https://hymnary.org)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 4
+phrase_breaks = ["5:32", "9:32"]
+optional_phrase_breaks = ["3:32", "7:32", "11:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 aes'4 g'8[ aes'8] |
+bes'4 aes'4 des''4 des''4 |
+c''2 f'4 g'4 |
+aes'4 f'4 ees'4 ees'4 |
+ees'2 aes'4 g'8[ aes'8] |
+bes'4 aes'4 des''4 des''4 |
+c''2 f'4 g'4 |
+aes'4 f'4 ees'4 ees'4 |
+ees'2 c''4@c bes'4 |
+aes'4 c''4 ees''4. des''8 |
+c''2 f'4 g'4 |
+aes'4 des''4 c''4 bes'4 |
+aes'2 s2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 ees'4 ees'4 |
+ees'4 ees'4 aes'4 ees'4 |
+ees'2 des'4 ees'4 |
+ees'4 des'4 c'4 bes4 |
+c'2 ees'4 ees'4 |
+ees'4 ees'4 des'4 ees'4 |
+ees'2 des'4 ees'4 |
+ees'4 des'4 c'4 bes4 |
+c'2 ees'4@c ees'4 |
+ees'4 ees'4 ees'4 ees'4/+24 |
+ees'2 des'4 ees'4 |
+ees'4 des'4 ees'4. des'8/-24 |
+c'2 s2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 c'4 des'8[ c'8] |
+bes4 c'4 des'4 bes4 |
+aes2 aes4 bes4 |
+aes4 aes4 aes4 g4 |
+aes2 c'4 des'8[ c'8] |
+bes4 c'4 aes4 bes4 |
+aes2 aes4 bes4 |
+aes4 aes4 aes4 g4 |
+aes2 aes4@c ees'8[ des'8] |
+c'4 aes4 bes4 g4/+24 |
+aes2 aes4 bes4 |
+aes4 aes4 aes4 g4 |
+aes2 s2
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 aes4 bes8[ aes8] |
+g4 aes4 f4 g4 |
+aes2 des4 des4 |
+c4 des4 ees4 ees4 |
+aes,2 aes4 bes8[ aes8] |
+g4 aes4 f4 g4 |
+aes2 des4 des4 |
+c4 des4 ees4 ees4 |
+aes,2 aes4@c g4 |
+aes4 aes4 g4 ees4/+24 |
+aes,2 des4 des4 |
+c4 f4 ees4 ees4 |
+aes,2 s2
+"""
+
+[lyrics.1]
+text = "For the beau -- ty of the earth, for the glo -- ry of the skies, for the love which from our birth o -- ver and a -- round us lies."
+
+[lyrics.2]
+text = "For the won -- der of each hour of the day and of the night, hill and vale and tree and flower, sun and moon and stars of light,"
+
+[lyrics.3]
+text = "For the joy of hu -- man love, broth -- er, sis -- ter, pa -- rent, child, friends on earth, and friends a -- bove, for all gen -- tle thoughts and mild,"
+
+[lyrics.4]
+text = "For your -- self, best gift di -- vine, to the world so free -- ly given, a -- gent of God's grand de -- sign: peace on earth and joy in heaven."
+
+[lyrics.chorus]
+text = "Lord of all, to Thee we raise This our hymn of grate -- ful praise."
