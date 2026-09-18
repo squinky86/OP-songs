@@ -1,0 +1,118 @@
+title = "O Master, Let Me Walk With Thee"
+copyrights = [
+  "Lyrics: Washington Gladden, 1879 (public domain)",
+  "Music: 'Maryton' by H. Percy Smith, 1874 (public domain)",
+  "Courtesy of [Hymnary.org](https://hymnary.org)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Eb"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 4
+phrase_breaks = ["8:48"]
+optional_phrase_breaks = ["4:48", "12:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+g'4 g'4 g'4 |
+aes'2 g'4 |
+f'2 f'4 |
+f'2. |
+bes'4 bes'4 aes'4 |
+g'2 ees''4 |
+ees''4( d''4) c''4 |
+bes'2. |
+bes'4 c''4 bes'4 |
+ees''2 d''4 |
+d''4( c''4) bes'4 |
+aes'2 g'4 |
+f'2 ees'4 |
+aes'2 g'4 |
+f'4( c'4) d'4 |
+ees'2.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+ees'4 ees'4 ees'4 |
+ees'2 ees'4 |
+c'2 c'4 |
+d'2. |
+d'4 ees'4 f'4 |
+ees'2 g'4 |
+g'4( f'4) ees'4 |
+d'2. |
+f'4 f'4 f'4 |
+ees'2 ees'4 |
+ees'2 ees'4 |
+ees'4( d'4) ees'4 |
+d'2 c'4 |
+f'2 ees'4 |
+c'2 bes4 |
+bes2.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+bes4 bes4 bes4 |
+c'2 bes4 |
+c'2 f4 |
+bes2. |
+bes4 bes4 bes4 |
+bes2 bes4 |
+a2 a4 |
+bes2. |
+d'4 c'4 d'4 |
+bes2 bes4 |
+aes2 bes4 |
+bes2 bes4 |
+aes2 g4 |
+bes2 bes4 |
+aes2 f4 |
+g2.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+ees4 ees4 ees4 |
+ees2 ees4 |
+aes,2 a,4 |
+bes,2. |
+bes,4 c4 d4 |
+ees2 c4 |
+f2 f4 |
+bes,2. |
+aes4 aes4 aes4 |
+g2 g4 |
+aes2 g4 |
+f2 ees4 |
+bes,2 c4 |
+d2 ees4 |
+aes,4( f,4) bes,4 |
+ees2.
+"""
+
+[lyrics.1]
+text = "O Mas -- ter, let me walk with thee in low -- ly paths of ser -- vice free; tell me thy se -- cret; help me bear the strain of toil, the fret of care."
+
+[lyrics.2]
+text = "Help me the slow of heart to move by some clear, win -- ning word of love; teach me the way -- ward feet to stay, and guide them in the home -- ward way."
+
+[lyrics.3]
+text = "Teach me thy pa -- tience; still with thee in clos -- er, dear -- er com -- pa -- ny, in work that keeps faith sweet and strong, in trust that tri -- umphs o -- ver wrong."
+
+[lyrics.4]
+text = "In hope that sends a shin -- ing ray far down the fu -- ture's broad -- ening way, in peace that on -- ly thou canst give, with thee, O Mas -- ter, let me live."
