@@ -1,0 +1,77 @@
+title = "How Firm a Foundation"
+subtitle = ""
+verse_count = 5
+key_signature = "A"
+time_sig_numerator = 2
+time_sig_denominator = 2
+tempo_bpm = 108
+phrase_breaks = ["5:32", "9:32", "13:32", "17:32"]
+copyrights = [
+  "Lyrics: Unknown, 1787 (public domain)",
+  "Music: 'Foundation', American melody, 1832 (public domain)",
+  "Courtesy of the [Timeless Truths Free Online Library](https://library.timelesstruths.org)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 e'4( fis'4) | a'2 fis'4 a'4 | e'2 a'4 b'4 | cis''2 b'4 cis''4 |
+e'2 e'4( fis'4) | a'2 fis'4 a'4 | e'2 a'4 b'4 | cis''2 b'4 b'4 |
+a'2 cis''2 | e''2 cis''4 e''4 | a'2 a'4 b'4 | cis''2 b'4 cis''4 |
+e'2 e'4( fis'4) | a'2 fis'4 a'4 | e'2 a'4 b'4 | cis''2 b'4 b'4 |
+a'2 s2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 cis'4( d'4) | cis'4( e'4) d'4 d'4 | cis'2 cis'4 d'4 | e'2 e'4 e'4 |
+e'2 cis'4( d'4) | cis'2 d'4 fis'4 | e'2 cis'4 d'4 | e'2 d'4 d'4 |
+cis'2 e'2 | a'2 e'4 e'4 | fis'2 e'4 e'4 | e'2 e'4 dis'4 |
+e'2 cis'4( d'4) | cis'2 d'4 fis'4 | e'2 cis'4 d'4 | e'2 d'4 d'4 |
+cis'2 s2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 e2 | e4( a4) a4 a4 | a2 e4 e4 | a2 g4 fis4 |
+gis2 gis2 | a2 a4 a4 | a2 a4 a4 | a2 gis4 gis4 |
+e2 a2 | cis'2 a4 b4 | cis'2 a4 g4 | a2 gis4 fis4 |
+gis2 gis2 | a2 a4 a4 | a2 a4 a4 | a2 gis4 gis4 |
+a2 s2
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 e2 | a,4( cis4) d4 fis4 | a2 a,4 a,4 | a,2 b,4 b,4 |
+e2 e2 | a,2 d4 d4 | cis2 fis4 fis4 | e2 e4 e4 |
+a,2 a2 | a2 a4 gis4 | fis2 cis4 b,4 | a,2 b,4 b,4 |
+e2 e2 | a,2 d4 d4 | cis2 fis4 fis4 | e2 e4 e4 |
+<a, e>2 s2
+"""
+
+[lyrics.1]
+text = "How firm a foun -- da -- tion, ye saints of the Lord, Is laid for your faith in His ex -- cel -- lent word! What more can He say than to you He hath said— You who un -- to Je -- sus for ref -- uge have fled?"
+
+[lyrics.2]
+text = "“Fear not, I am with thee, oh, be not dis -- mayed, For I am thy God, and will still give thee aid; I’ll strength -- en thee, help thee, and cause thee to stand, Up -- held by My gra -- cious, om -- ni -- po -- tent hand."
+
+[lyrics.3]
+text = "“When through the deep wa -- ters I call thee to go, The riv -- ers of sor -- row shall not o -- ver -- flow; For I will be with thee thy trou -- ble to bless, And sanc -- ti -- fy to thee thy deep -- est dis -- tress."
+
+[lyrics.4]
+text = "“When through fier -- y tri -- als thy path -- way shall lie, My grace, all- -- suf -- fi -- cient, shall be thy sup -- ply; The flame shall not harm thee; I on -- ly de -- sign Thy dross to con -- sume and thy gold to re -- fine."
+
+[lyrics.5]
+text = "“The soul that on Je -- sus doth lean for re -- pose, I will not, I will not, de -- sert to his foes; That soul, though all hell should en -- dea -- vor to shake, I’ll nev -- er, no nev -- er, no nev -- er for -- sake.”"
