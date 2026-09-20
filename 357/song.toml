@@ -1,0 +1,86 @@
+title = "Come, Ye Thankful People"
+verse_count = 4
+key_signature = "G"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 110
+phrase_breaks = ["4:64", "8:64", "12:64"]
+copyrights = [
+  "Lyrics: Henry Alford, 1844, alt. (public domain)",
+  "Music: 'St. George's Windsor' by George J. Elvey, 1858 (public domain)",
+  "Courtesy of [Hymnary.org](https://hymnary.org)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+optional_phrase_breaks = ["2:64", "6:64", "10:64", "14:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+b'4. b'8 d''4 b'4 | g'4 a'4 b'2 |
+b'4. b'8 d''4 b'4 | g'4 a'4 b'2 |
+b'4. b'8 c''4 c''4 | a'4. a'8/-24 b'2 |
+b'4 cis''4 d''4 g'4 | fis'4 e'4 d'2 |
+fis'4. fis'8 a'4 fis'4 | g'4 a'4 b'2 |
+b'4. b'8 d''4 b'4 | c''4 d''4 e''2 |
+e''4. e''8/-24 c''4 a'4 | d''4. d''8/-24 b'2 |
+c''4 e''4 d''4 g'4 | b'4 a'4 g'2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+d'4. d'8 d'4 d'4 | e'4 fis'4 g'2 |
+d'4. d'8 d'4 d'4 | e'4 e'4 dis'2 |
+e'4. e'8 e'4 e'4 | d'4 d'4 d'2 |
+d'4 e'4 d'4 e'4 | d'4 cis'4 d'2 |
+d'4. d'8 d'4 d'4 | d'4 c'4 b2 |
+d'4. d'8 g'4 g'4 | g'4 f'4 e'2 |
+e'4 gis'4 a'4 e'4 | d'4 fis'4 g'2 |
+g'4 g'4 g'4 g'4 | g'4 fis'4 g'2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+g4. g8 a4 b4 | b4 d'4 d'2 |
+g4. g8 a4 g4 | b4 c'4 fis2 |
+b4. b8 a4 a4 | fis4 fis4 g2 |
+g4 g4 a4 b4 | a4. g8/-24 fis2 |
+a4. a8 fis4 a4 | g4. fis8/-24 g2 |
+g4. g8 b4 d'4 | c'4. b8/-24 c'2 |
+b4 e'4 e'4 c'4 | a4 d'4 d'2 |
+c'4 c'4 d'4 b4 | d'4. c'8/-24 b2
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+g4. g8 fis4 g4 | e4 d4 g2 |
+g4. g8 fis4 g4 | e4 c4 b,2 |
+g4. g8 a,4 a,4 | d4 d4 g,2 |
+g4 e4 fis4 g4 | a4 a,4 d2 |
+d4. d8 d4 c4 | b,4 a,4 g,2 |
+g4. g8 g4 f4 | e4 d4 c2 |
+gis4 e4 a4 a4 | fis4 d4 g2 |
+e4 c4 b,4 e4 | d4 d4 g2
+"""
+
+[lyrics.1]
+text = "Come, ye thank -- ful peo -- ple, come, Raise the song of har -- vest home; All is safe -- ly gath -- ered in, Ere the win -- ter storms be -- gin; God, our Mak -- er, does pro -- vide For our needs to be sup -- plied; Come, to God's own tem -- ple, come, Raise the song of har -- vest home."
+
+[lyrics.2]
+text = "All the world is God's own field, Fruit un -- to His praise to yield; Wheat and weeds to -- geth -- er sown, Un -- to joy or sor -- row grown: First the blade and then the ear, Then the full corn shall ap -- pear; Lord of har -- vest, grant that we Whole -- some grain and pure may be."
+
+[lyrics.3]
+text = "For the Lord our God shall come And shall take His har -- vest home; From His field in that great day All of -- fens -- es purge a -- way, Give His an -- gels charge at last In the fire the tares to cast, But the fruit -- ful ears to store In His gar -- ner ev -- er -- more."
+
+[lyrics.4]
+text = "E -- ven so, Lord, quick -- ly come To Thy fi -- nal har -- vest home; Gath -- er Thou Thy peo -- ple in, Free from sor -- row, free from sin— There, for -- ev -- er pu -- ri -- fied, In Thy pres -- ence to a -- bide; Come, with all Thine an -- gels come, Raise the glo -- rious har -- vest home."
