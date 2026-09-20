@@ -1,0 +1,69 @@
+title = "My Master Was a Worker"
+verse_count = 4
+key_signature = "C"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+phrase_breaks = ["5:48", "9:48", "13:48"]
+copyrights = [
+  "Lyrics: William George Tarrant, 1890 (public domain)",
+  "Music: 'Stand Up for Jesus' by Joseph Barnby, 1838-1896 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. g'4 | g'4 g'4 c''4 d''4 | e''2 c''4 a'4 | g'4 c''4 c''4 b'4 | c''2. d''4 |
+d''4. d''8 d''4 c''4 | b'2 e''4 e''4 | d''4 g'4 c''4 c''4 | b'2. b'4 |
+a'4. a'8 a'4 d''4 | d''2 g'4 g'4 | c''4 c''4 bes'4 bes'4 | a'2. a'4 |
+b'4 g'4 a'4 b'4 | c''2 d''4 d''4 | e''4 c''4 c''4 b'4 | c''2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. g'4 | e'4 g'4 f'4 f'4 | e'2 g'4 f'4 | e'4 g'4 g'4 g'4 | e'2. g'4 |
+fis'4. fis'8 g'4 fis'4 | g'4( b'4) b'4 a'4 | d'4 e'4 e'4 fis'4 | g'2. d'4 |
+e'4. e'8 d'4 d'4 | g'2 g'4 g'4 | g'4 e'4 f'4 g'4 | f'2. c'4 |
+d'4 g'4 g'4 f'4 | g'4( e'4) fis'4 fis'4 | g'4 g'4 g'4 g'8[ f'8] | e'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. g4 | c'4 d'4 c'4 b4 | c'2 c'4 c'4 | c'4 d'8[ e'8] d'4 f'4 | e'2. e'4 |
+d'4. d'8 d'4 d'4 | d'2 d'4 c'4 | b4 c'8[ b8] a4 d'4 | d'2. b4 |
+c'4. c'8 d'4 a4 | b2 b4 b4 | c'4 e'4 d'4 c'4 | c'2. c'4 |
+d'4 b4 c'4 d'4 | c'4( e'4) d'4 c'4 | c'4 d'8[ e'8] d'4 g4 | g2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. g4 | c'4 b4 a4 g4 | c'2 e4 f4 | g4 g4 g4 g4 | c2. c'4 |
+c'4. c'8 b4 a4 | g2 c4 c4 | d4 d4 d4 d4 | g2. g4 |
+g4. g8 f4 f4 | f2 f4 f4 | e4 c4 d4 e4 | f2. f4 |
+f4. f8/-24 e4 d4 | e4( c4) a,4 d4 | g,4 g4 g4 g,4 | c2. s4 
+"""
+
+[lyrics.1]
+text = "My Mas -- ter was a work -- er, With dai -- ly work to do, And he who would be like Him, Must be a work -- er, too: Then wel -- come hon -- est la -- bor, And hon -- est la -- bor's fare, For where there is a work -- er The Mas -- ter's man is there."
+
+[lyrics.2]
+text = "My Mas -- ter was a com -- rade, A trust -- y friend and true, And he who would be like Him, Must be a com -- rade, too; In hap -- py hours of sing -- ing, In si -- lent hours of care, Where goes a loy -- al com -- rade, The Mas -- ter's man is there."
+
+[lyrics.3]
+text = "My Mas -- ter was a help -- er, The woes of life He knew, And he who would be like Him, Must be a help -- er, too; The bur -- den will grow light -- er, If each will take a share, And where there is a help -- er, The Mas -- ter's man is there."
+
+[lyrics.4]
+text = "Then broth -- ers, brave and man -- ly, To -- geth -- er let us be, For He, who is our Mas -- ter, The Man of men was He; The men who would be like Him Are want -- ed ev -- 'ry -- where, And where they love each oth -- er, The Mas -- ter's men are there."
