@@ -1,0 +1,80 @@
+title = "Who Is on the Lord's Side?"
+verse_count = 5
+key_signature = "C"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 110
+phrase_breaks = ["4:64", "8:64", "12:64", "16:64", "20:64"]
+optional_phrase_breaks = ["2:64", "6:64", "10:64", "14:32", "18:64", "22:64"]
+copyrights = [
+  "Lyrics: Frances Ridley Havergal, 1877 (public domain)",
+  "Music: 'Armageddon' by C. Luise Reichardt, arr. John Goss, 1871 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+g'4 g'4 e''4 d''4 | c''2 g'2 | a'4 a'4 c''4 c''4 | g'1 |
+gis'4 gis'4 a'4 c''4 | e''2 d''2 | c''4 a'4 g'4 fis'4 | g'1 |
+g'4 g'4 a'4 e'4 | g'2 f'2 | b'4 g'4 c''4 e'4 | d'1 |
+e'4 c'4 f'4 d'4 | g'4 e'4 a'4 f'4 | e'2 d'2 | c'1 |
+c''4 g'4 e'4 c'4 | a'2 g'2 | c'4 d'4 e'4 f'4 | g'1 |
+c''4. c''8 c''4 c''4 | e''2 c''2 | g'4 c''4 d''4. c''8 | c''1
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+e'4 e'4 g'4 g'4 | g'2 e'2 | f'4 f'4 f'4 f'4 | e'1 |
+e'4 e'4 e'4 e'4 | e'2 gis'2 | a'4 e'4 d'4 d'4 | d'1 |
+e'4 e'4 cis'4 cis'4 | e'2 d'2 | f'4 f'4 e'4 c'4 | b1 |
+c'4 c'4 b4 b4 | c'4 c'4 c'4 c'4 | c'2 b2 | c'1 |
+c'4 g'4 e'4 c'4 | f'2 e'2 | c'4 d'4 e'4 f'4 | g'1 |
+e'4. e'8 a'4 a'4 | g'2 g'2 | e'4 e'4 f'4. e'8 | e'1
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+c'4 c'4 c'4 b4 | c'2 c'2 | c'4 c'4 c'4 c'4 | c'1 |
+d'4 d'4 c'4 c'4 | b2 e'2 | e'4 c'4 b4 a4 | b1 |
+g4 g4 g4 g4 | g4( a4) b4( c'4) | d'4 d'4 c'4 c'4 | g1 |
+g4 g4 g4 g4 | g4 g4 a4 c'4 | g2. f4/-48 | e1 |
+c'4 g4 e4 c4 | c'2 c'2 | c4 d4 e4 f4 | g1 |
+c'4. c'8 c'4 c'4 | c'2 c'2 | c'4 c'4 b4. c'8 | c'1
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+c4 c4 c'4 g4 | e2 c2 | f4 f4 a4 a4 | c'1 |
+b4 b4 a4 a4 | gis2 e2 | a4 c4 d4 d4 | <g, g>1 |
+g4 g4 g4 g4 | g2 g2 | g4 g4 g4 g4 | g4( f4 e4 d4) |
+c4 e4 d4 f4 | e4 g4 f4 a4 | g2 g,2 | c1 |
+c4 g4 e4 c4 | f2 c2 | c4 d4 e4 f4 | g1 |
+a4. a8 f4 f4 | c'2 e4( f4) | g4 g4 g,4. g,8 | c1
+"""
+
+[lyrics.1]
+text = "Who is on the Lord's side? Who will serve the King? Who will be His help -- ers, Oth -- er lives to bring? Who will leave the world's side? Who will face the foe? Who is on the Lord's side? Who for Him will go? By Thy call of mer -- cy, By Thy grace di -- vine, We are on the Lord's side— Sav -- ior, we are Thine."
+
+[lyrics.2]
+text = "Not for weight of glo -- ry, Not for crown and palm, En -- ter we the ar -- my, Raise the war -- rior psalm; But for love that claim -- eth Lives for whom He died: He whom Je -- sus nam -- eth Must be on His side. By Thy love con -- strain -- ing, By Thy grace di -- vine, We are on the Lord's side— Sav -- ior, we are Thine."
+
+[lyrics.3]
+text = "Je -- sus, Thou hast bought us, Not with gold or gem, But with Thine own life blood, For Thy di -- a -- dem; With Thy bless -- ing fill -- ing Each who comes to Thee, Thou hast made us will -- ing, Thou hast made us free. By Thy grand re -- demp -- tion, By Thy grace di -- vine, We are on the Lord's side— Sav -- ior, we are Thine."
+
+[lyrics.4]
+text = "Fierce may be the con -- flict, Strong may be the foe, But the King's own ar -- my None can ov -- er -- throw. 'Round His stand -- ard rang -- ing, Vict -- 'ry is se -- cure, For His truth un -- chang -- ing Makes the tri -- umph sure. Joy -- ful -- ly en -- list -- ing, By Thy grace di -- vine, We are on the Lord's side— Sav -- ior, we are Thine."
+
+[lyrics.5]
+text = "Cho -- sen to be sol -- diers, In an a -- lien land, Cho -- sen, called, and faith -- ful, For our cap -- tain's band; In the ser -- vice roy -- al, Let us not grow cold; Let us be right loy -- al, No -- ble, true and bold. Mas -- ter, Thou wilt keep us, By Thy grace di -- vine, Al -- ways on the Lord's side— Sav -- ior, al -- ways Thine."
