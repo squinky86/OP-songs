@@ -1,0 +1,83 @@
+title = "Watchman, Tell Us of the Night"
+verse_count = 3
+key_signature = "D"
+time_sig_numerator = 3
+time_sig_denominator = 2
+tempo_bpm = 130
+phrase_breaks = ["4:96", "8:96", "12:96"]
+copyrights = [
+  "Lyrics: John Bowring, 1825 (public domain)",
+  "Music: 'Watchman' by Lowell Mason, 1831 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+optional_phrase_breaks = ["2:96", "6:96", "10:96", "14:96"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+d'2 e'4 fis'2 e'4 | fis'2 g'4 a'2. |
+a'2 fis'4 a'2 b'4 | a'2 fis'4 e'2. |
+d'2 e'4 fis'2 e'4 | fis'2 g'4 a'2. |
+d''2 b'4 a'2 e'4 | fis'2 e'4 d'2. |
+a'2 fis'4 d''2 b'4 | a'2 fis'4 d''2. |
+a'2 fis'4 d''2 b'4 | cis''2 b'4 a'2. |
+fis'2 e'4 d'2 e'4 | fis'2 g'4 a'2. |
+d''2 b'4 a'2 e'4 | fis'2 e'4 d'2.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+d'2 d'4 d'2 d'4 | d'2 d'4 d'2. |
+d'2 d'4 d'2 d'4 | d'2 d'4 cis'2. |
+d'2 d'4 d'2 d'4 | d'2 d'4 d'2. |
+d'2 d'4 d'2 d'4 | d'2 cis'4 d'2. |
+d'2 d'4 d'2 d'4 | d'2 d'4 d'2. |
+d'2 d'4 fis'2 fis'4 | e'2 d'4 cis'2. |
+d'2 cis'4 d'2 d'4 | d'2 d'4 d'2. |
+d'2 d'4 d'2 d'4 | d'2 cis'4 d'2.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+fis2 g4 a2 g4 | a2 e4 fis2. |
+fis2 a4 fis2 g4 | fis2 a4 a2. |
+fis2 g4 a2 g4 | a2 e4 fis2. |
+a2 g4 a2 b4 | a2 g4 fis2. |
+fis2 a4 fis2 g4 | fis2 a4 fis2. |
+fis2 a4 b2 fis4 | a2 gis4 a2. |
+a2 g4 fis2 g4 | a2 b4 fis2. |
+a2 g4 a2 b4 | a2 g4 fis2.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+d2 d4 d2 d4 | d2 d4 d2. |
+d2 d4 d2 d4 | d2 fis4 a2. |
+d2 d4 d2 d4 | d2 d4 d2. |
+fis2 g4 fis2 g4 | a2 a,4 d2. |
+d2 d4 d2 d4 | d2 d4 d2. |
+d2 d4 b,2 d4 | e2 e4 a,2. |
+d2 d4 d2 d4 | d2 d4 d2. |
+fis2 g4 fis2 g4 | a2 a,4 d2.
+"""
+
+[lyrics.1]
+text = "Watch -- man, tell us of the night, What its signs of prom -- ise are. Trav -- eler, o’er yon mount -- ain’s height, See that glor -- y beam -- ing star. Watch -- man, does its beau -- teous ray Aught of joy or hope fore -- tell? Trav -- 'ler, yes— it brings the day, Prom -- ised day of Is -- ra -- el."
+
+[lyrics.2]
+text = "Watch -- man, tell us of the night; High -- er yet that star as -- cends. Trav -- eler, bless -- ed -- ness and light, Peace and truth its course por -- tends. Watch -- man, will its beams a -- lone Gild the spot that gave them birth? Trav -- eler, ag -- es are its own; See, it bursts o’er all the earth."
+
+[lyrics.3]
+text = "Watch -- man, tell us of the night, For the morn -- ing seems to dawn. Trav -- eler, dark -- ness takes its flight, Doubt and ter -- ror are with -- drawn. Watch -- man, let thy wan -- derings cease; Hie thee to thy qui -- et home. Trav -- 'ler, lo! the Prince of Peace, Lo! the Son of God is come!"
