@@ -29,11 +29,11 @@ choral_type = "alto"
 clef = "treble"
 staff_number = 1
 notes = """
-s2. f'4 | f'4 f'4 aes'4 ges'4 | ges'4 f'4 f'4 f'8 f'8 | ges'4 ges'4 ges'4 ges'4
-| f'2. f'4 | ges'4 ges'4 aes'4 ges'4 | ges'4 f'4 f'4 ges'8 aes'8 | g'4 ges'4 ges'4 ges'4
-| ees'2. c'8.@c c'16 | des'2 des'2 | f'2. f'8 des'8 | des'2 ges'2
-| ges'2. ges'8 ges'8 | g'4 ges'4 ges'4 ges'4 | f'4 ges'4 aes'4 bes'8 bes'8 | aes'2 ges'2
-| f'2. s4
+s2. f'4 | f'4 f'4 aes'4 ges'4 | ges'4 f'4 f'4 f'8 f'8 | ges'4 ges'4 ges'4 ges'4 |
+f'2. f'4 | ges'4 ges'4 aes'4 ges'4 | ges'4 f'4 f'4 ges'8 aes'8 | g'4 ges'4 ges'4 ges'4 |
+ees'2. c'8.@c c'16 | des'2 des'2 | f'2. f'8 des'8 | des'2 ges'2 |
+ges'2. ges'8 ges'8 | g'4 g'4 ges'4 ges'4 | f'4 ges'4 aes'4 bes'8 bes'8 | aes'2 ges'2 |
+f'2. s4
 """
 
 [parts.Tenor]
