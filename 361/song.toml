@@ -1,0 +1,82 @@
+title = "’Til the Whole World Knows"
+verse_count = 4
+key_signature = "Db"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 112
+phrase_breaks = ["5:48", "9:48", "11:48", "13:48"]
+copyrights = [
+  "Lyrics: Alfred Henry Ackley, 1923 (public domain)",
+  "Music: Bentley DeForest Ackley, 1923 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+optional_phrase_breaks = ["3:48", "7:48", "15:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. aes'4 | des''4 des''4 c''4 bes'4 | bes'4 aes'4 aes'4 des''8 ees''8 | des''4 c''4 bes'4 c''4
+| des''2. aes'4 | bes'4 bes'4 c''4 bes'4 | bes'4 aes'4 des''4 c''8 des''8 | ees''4 des''4 c''4 bes'4
+| aes'2. f'8.@c ees'16 | des'2 f'2 | aes'2. aes'8 f'8 | ges'2 bes'2
+| des''2. c''8 des''8 | ees''4 bes'4 bes'4 c''4 | des''4 des''4 des''4 des''8 ees''8 | f''2 ees''2
+| des''2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. f'4 | f'4 f'4 aes'4 ges'4 | ges'4 f'4 f'4 f'8 f'8 | ges'4 ges'4 ges'4 ges'4
+| f'2. f'4 | ges'4 ges'4 aes'4 ges'4 | ges'4 f'4 f'4 ges'8 aes'8 | g'4 ges'4 ges'4 ges'4
+| ees'2. c'8.@c c'16 | des'2 des'2 | f'2. f'8 des'8 | des'2 ges'2
+| ges'2. ges'8 ges'8 | g'4 ges'4 ges'4 ges'4 | f'4 ges'4 aes'4 bes'8 bes'8 | aes'2 ges'2
+| f'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. des'4 | aes4 aes4 aes4 des'4 | des'4 des'4 des'4 aes8 aes8 | aes4 ees'4 c'4 aes4 |
+aes2. des'4 | des'4 des'4 des'4 des'4 | des'4 des'4 aes4 aes8 des'8 | bes4 bes4 ees'4 des'4 |
+c'2. aes8.@c ges16 | f4 f8 f8 aes4 aes4 | des'2. des'8 ces'8 | bes4 bes8 bes8 des'4 des'4 |
+bes4 bes4 bes4 bes8 bes8 | bes4 ees'4 ees'4 aes4 | aes4 aes4 des'4 des'8 des'8 | des'2 c'2 |
+des'2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. des4 | des4 des4 des4 des4 | des4 des4 des4 des8 des8 | ees4 aes4 aes4 aes4
+| des2. des4 | ges4 ges4 ges4 ges4 | des4 des4 des4 des8 f8 | ees4 ees4 ees4 ees4
+| aes2. aes,8.@c aes,16 | des2 des2 | des4 des4 des4 des8 des8 | ges2 ges2
+| ges2. ges8 ges8 | ees4 ees4 ees4 aes4 | des4 ees4 f4 ges8 ges8 | aes2 aes2
+| <des aes>2. s4
+"""
+
+[parts.Bass.lyrics.chorus]
+text = "’Til the world the whole world knows, ’Til the whole world knows, I will shout and sing of Christ my king, ’Til the whole world knows."
+
+[parts.Tenor.lyrics.chorus]
+text = "’Til the world, ’til the whole world knows, ’Til the world, ’til the whole world, whole world knows, I will shout and sing of Christ my king, ’Til the whole world knows."
+
+[lyrics.1]
+text = "I’ll tell to all that God is love; For the world has ne -- ver known The great com -- pas -- sion of His heart For the way -- ward and the lone."
+
+[lyrics.2]
+text = "I’ll tell of mer -- cy’s bound -- less tide, Like the wa -- ters of the sea, That cov -- ers ev -- ery sin of man; ’Tis sal -- va -- tion full and free."
+
+[lyrics.3]
+text = "I’ll tell of grace that keeps the soul, Of a -- bid -- ing peace with -- in, Of faith that o -- ver -- comes the world, With its tu -- mult and its din."
+
+[lyrics.4]
+text = "E -- ter -- nal glo -- ry is the goal That a -- waits the sons of light; E -- ter -- nal dark -- ness, black as death, For the child -- ren of the night."
+
+[lyrics.chorus]
+text = "’Til the whole world knows, ’Til the whole world knows, I will shout and sing of Christ my king, ’Til the whole world knows."
