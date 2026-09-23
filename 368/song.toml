@@ -1,0 +1,77 @@
+title = "The Kingdom Is Coming"
+verse_count = 3
+key_signature = "Eb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 105
+phrase_breaks = ["3:56", "5:48", "7:56", "9:48", "11:56", "13:48", "15:56"]
+copyrights = [
+  "Lyrics: Mary B. C. Slade, 1876 (public domain)",
+  "Music: 'Assateague' by Rigdon M. McIntosh, 1876 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. ees'4 | g'4 g'8 g'8 g'4 ees'8 g'8 | bes'4 bes'8 bes'8 bes'4 g'8 bes'8 |
+ees''4 d''8 c''8 bes'4 ees'8 g'8 | f'2. ees'4 | g'4 g'8 g'8 g'4 ees'8 g'8 |
+bes'4 bes'8 bes'8 bes'4 g'8 bes'8 | ees''4 bes'8 c''8 g'4 g'8 f'8 | ees'2. bes'4@c |
+c''4 c''8 c''8 c''8 d''8 ees''4 | bes'4 bes'8 bes'8 bes'4 g'8 bes'8 | c''4 c''8 c''8 c''8 d''8 ees''4 |
+bes'2. ees'4 | g'4 g'8 g'8 g'4 ees'8 g'8 | bes'4 bes'8 bes'8 bes'4 g'8 bes'8 |
+ees''4 bes'8 c''8 g'4 g'8 f'8 | ees'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. ees'4 | ees'4 ees'8 ees'8 ees'4 ees'8 ees'8 | g'4 g'8 g'8 g'4 ees'8 ees'8 |
+g'4 bes'8 aes'8 g'4 ees'8 ees'8 | d'2. ees'4 | ees'4 ees'8 ees'8 ees'4 ees'8 ees'8 |
+g'4 g'8 g'8 g'4 ees'8 ees'8 | ees'4 ees'8 ees'8 ees'4 ees'8 d'8 | ees'2. g'4@c |
+aes'4 aes'8 aes'8 aes'8 bes'8 c''4 | bes'4 aes'8 aes'8 g'4 ees'8 g'8 | aes'4 aes'8 aes'8 aes'8 bes'8 c''4 |
+bes'4( aes'4 g'4) ees'4 | ees'4 ees'8 ees'8 ees'4 ees'8 ees'8 | g'4 g'8 g'8 g'4 ees'8 ees'8 |
+g'4 ees'8 ees'8 ees'4 ees'8 d'8 | ees'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. g4 | bes4 bes8 bes8 bes4 g8 bes8 | ees'4 ees'8 ees'8 ees'4 bes8 g8 |
+bes4 ees'8 ees'8 ees'4 g8 bes8 | bes2. g4 | bes4 bes8 bes8 bes4 g8 bes8 |
+ees'4 ees'8 ees'8 ees'4 bes8 g8 | g4 bes8 ees'8 bes4 bes8 aes8 | g2. ees'4@c |
+ees'4 ees'8 ees'8 ees'8 ees'8 ees'4 | ees'4 d'8 d'8 ees'4 bes8 ees'8 | ees'4 ees'8 ees'8 ees'8 ees'8 ees'4 |
+ees'4( d'4 ees'4) g4 | bes4 bes8 bes8 bes4 g8 bes8 | ees'4 ees'8 ees'8 ees'4 bes8 g8 |
+bes4 ees'8 ees'8 bes4 bes8 aes8 | g2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. ees4 | ees4 ees8 ees8 ees4 ees8 ees8 | ees4 ees8 ees8 ees4 ees8 ees8 |
+ees4 ees8 ees8 ees4 ees8 ees8 | bes,2. ees4 | ees4 ees8 ees8 ees4 ees8 ees8 |
+ees4 ees8 ees8 ees4 ees8 ees8 | ees4 g8 aes8 bes4 bes,8 bes,8 | ees2. ees4@c |
+aes4 aes8 aes8 aes8 aes8 aes4 | g4 f8 f8 ees4 ees8 ees8 | aes4 aes8 aes8 aes8 aes8 aes4 |
+g4( f4 ees4) ees4 | ees4 ees8 ees8 ees4 ees8 ees8 | ees4 ees8 ees8 ees4 ees8 ees8 |
+ees4 g8 aes8 bes4 bes,8 bes,8 | ees2. s4
+"""
+
+[lyrics.1]
+text = "From all the dark plac -- es of earth's heath -- en rac -- es, O see how the thick shad -- ows fly! The voice of sal -- va -- tion a -- wakes ev -- ery na -- tion, “Come o -- ver and help us,” they cry."
+
+[lyrics.2]
+text = "The sun -- light is glanc -- ing o'er ar -- mies ad -- vanc -- ing To con -- quer the king -- doms of sin; Our Lord shall pos -- sess them, His pres -- ence shall bless them, His beau -- ty shall en -- ter them in."
+
+[lyrics.3]
+text = "With shout -- ing and sing -- ing, and ju -- bi -- lant ring -- ing, Their arms of re -- bel -- lion cast down; At last ev -- ery na -- tion the Lord of sal -- va -- tion Their King and Re -- deem -- er shall crown!"
+
+[lyrics.chorus]
+text = "The king -- dom is com -- ing, O tell ye the sto -- ry, God's ban -- ner ex -- alt -- ed shall be! The earth shall be full of His knowl -- edge and glo -- ry, As wa -- ters that cov -- er the sea."
