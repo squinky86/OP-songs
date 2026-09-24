@@ -1,0 +1,77 @@
+title = "It Came Upon the Midnight Clear"
+verse_count = 5
+key_signature = "Bb"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 76
+phrase_breaks = ["5:40", "9:40", "13:40"]
+copyrights = [
+  "Lyrics: Edmund H. Sears, 1849 (public domain)",
+  "Music: 'Carol' by Richard S. Willis, 1850 (public domain)",
+  "Courtesy of the [Timeless Truths Free Online Library](https://library.timelesstruths.org/)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+optional_phrase_breaks = ["3:40", "7:40", "11:40", "15:40"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s8 f'8 | d''4 c''8 c''8[ bes'8] g'8 | f'4 g'8 f'4 f'8 | g'8[ a'8] bes'8 bes'8[ c''8] d''8 |
+c''4.~ c''4 f'8 | d''4 a'8 c''8[ bes'8] g'8 | f'4 g'8 f'4 f'8 | g'4 g'8 a'8[ g'8] f'8 |
+bes'4.~ bes'4 d''8 | d''4 d'8 d'8[ e'8] fis'8 | g'4 a'8 bes'4 d''8 | c''8[ bes'8] a'8 g'8[ a'8] g'8 |
+f'4.~ f'4 f'8 | d''4 a'8 c''8[ bes'8] g'8 | f'4 g'8 f'4 f'8 | g'4 g'8 a'8[ g'8] f'8 |
+bes'4.~ bes'4 s8
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s8 d'8 | d'4 d'8 ees'4 ees'8 | d'4 ees'8 d'4 d'8 | ees'4 ees'8 e'4 e'8 |
+f'4.~ f'4 d'8 | d'4 d'8 ees'4 ees'8 | d'4 ees'8 d'4 f'8 | ees'4 ees'8 ees'4 ees'8 |
+d'4.~ d'4 d'8 | d'4 d'8 d'4 d'8 | d'4 d'8 d'4 d'8 | d'4 f'8 e'4 e'8 |
+f'4.~ f'4 d'8 | d'4 d'8 ees'4 ees'8 | d'4 ees'8 d'4 f'8 | ees'4 ees'8 ees'4 ees'8 |
+d'4.~ d'4 s8
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 s8 f8 | f4 fis8 g4 a8 | bes4 f8 f4 bes8 | bes4 bes8 bes4 bes8 |
+a4.~ a4 f8 | f4 fis8 g4 a8 | bes4 f8 f4 bes8 | bes4 c'8 c'8[ bes8] a8 |
+bes4.~ bes4 d8 | d4 fis8 fis8[ g8] a8 | g4 fis8 g4 g8 | a8[ d'8] c'8 bes8[ c'8] bes8 |
+a4.~ a4 f8 | f4 fis8 g4 a8 | bes4 f8 f4 bes8 | bes4 c'8 c'8[ bes8] a8 |
+bes4.~ bes4 s8
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 s8 bes,8 | bes,4 bes,8 bes,4 bes,8 | bes,4 a,8 bes,4 bes,8 | ees8[ f8] g8 g4 c8 |
+f4.~ f4 bes,8 | bes,4 bes,8 bes,4 bes,8 | bes,4 a,8 bes,4 d8 | ees4 c8 f4 f8 |
+bes,4.~ bes,4 d8 | d4 d8 d4 c8 | bes,4 d8 g4 bes,8 | c4 c8 c4 c8 |
+f4.~ f4 bes,8 | bes,4 bes,8 bes,4 bes,8 | bes,4 a,8 bes,4 d8 | ees4 c8 f4 f8 |
+bes,4.~ bes,4 s8
+"""
+
+[lyrics.1]
+text = "It came up -- on the mid -- night clear, That glo -- rious song of old, From an -- gels bend -- ing near the earth, To touch their harps of gold; “Peace on the earth, good will to men, From Heav’n’s all- -- gra -- cious King.” The world in sol -- emn still -- ness lay, To hear the an -- gels sing."
+
+[lyrics.2]
+text = "Still through the clov -- en skies they come With peace -- ful wings un -- furled, And still their heav’n -- ly mu -- sic floats O’er all the wea -- ry world; A -- bove its sad and low -- ly plains, They bend on hov -- ’ring wing, And ev -- er o’er its Ba -- bel sounds The bless -- ed an -- gels sing."
+
+[lyrics.3]
+text = "Yet with the woes of sin and strife The world has suf -- fered long; Be -- neath the an -- gel strain have rolled Two thou -- sand years of wrong; And man, at war with man, hears not The love- -- song which they bring; Oh, hush the noise, ye men of strife And hear the an -- gels sing."
+
+[lyrics.4]
+text = "And ye, be -- neath life’s crush -- ing load, Whose forms are bend -- ing low, Who toil a -- long the climb -- ing way With pain -- ful steps and slow, Look now! for glad and gold -- en hours Come swift -- ly on the wing. Oh, rest be -- side the wea -- ry road, And hear the an -- gels sing!"
+
+[lyrics.5]
+text = "For lo! the days are has -- t’ning on, By proph -- et seen of old, When with the ev -- er- -- cir -- cling years Shall come the time fore -- told When Christ shall come and all shall own The Prince of Peace, their King, And saints shall meet Him in the air, And with the an -- gels sing."
