@@ -61,7 +61,7 @@ ges'8. ges'16 ges'4 bes'4. bes'8 | aes'4 ges'4 f'4. s8
 
 [parts.Tenor]
 choral_type = "tenor"
-clef = "treble_8"
+clef = "bass"
 staff_number = 2
 notes = """
 s2. s8 des'8 | des'4. des'8 aes4. des'8 | des'4. des'8 des'8 aes4 aes8 |

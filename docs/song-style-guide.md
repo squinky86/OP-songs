@@ -11,8 +11,8 @@ The rules below are not arbitrary engraving taste — most markings in OpenPsalm
 | Dashed slur `-(` `-)` | dashed curve | **none** — every note keeps its own slot | none |
 | Tie `~` | tie arc | continuation note takes no syllable | one sustained note |
 | Fermata `!` | fermata sign (deduped per staff) | none | none |
-| Dynamic `%f` … | marking above top staff (deduped S>A>T>B) | none | sets velocity **for that part's track only** |
-| Hairpin `\<` `\>` `\!` | hairpin (deduped S>A>T>B) | none | velocity ramp **for that part's track only** |
+| Dynamic `%f` … | marking above top staff (deduped in voice order) | none | sets velocity **for that part's track only** |
+| Hairpin `\<` `\>` `\!` | hairpin (deduped in voice order) | none | velocity ramp **for that part's track only** |
 | Dedup offset `/±N` | none | none (affects dedup fingerprint only) | none |
 
 ---
@@ -89,9 +89,9 @@ g'2~ | g'4 ...      ← one sound held across the barline
 
 ## 5. Dynamics, hairpins, and tempo
 
-1. **Dynamics and hairpins go on *every* part**, at the same musical moment with the same value. Playback velocity is computed per track, so a `%f` written only on the soprano leaves alto/tenor/bass at default volume. The print exporters dedup automatically (soprano > alto > tenor > bass), so the marking is engraved once.
+1. **Dynamics and hairpins go on *every* part**, at the same musical moment with the same value. Playback velocity is computed per track, so a `%f` written only on the soprano leaves alto/tenor/bass at default volume. The print exporters dedup automatically (SATB: soprano > alto > tenor > bass; TTBB: tenor1 > tenor2 > baritone > bass), so the marking is engraved once.
 2. Every hairpin `\<` or `\>` must be terminated with `\!` (or superseded by an explicit dynamic) — on every part that opened one.
-3. **Tempo/expression spanners (`\rit`, `\accel`, `\atempo`, …) go on the soprano line only**, terminated with `\spanend` on the last covered note. They are song-level, not per-voice.
+3. **Tempo/expression spanners (`\rit`, `\accel`, `\atempo`, …) go on the arrangement’s lead part only (Soprano in SATB, Tenor1 in TTBB, first surviving role when absent)**, terminated with `\spanend` on the last covered note. They are song-level, not per-voice.
 
 ## 6. Fermatas, staccatos, and accents
 
@@ -100,7 +100,7 @@ g'2~ | g'4 ...      ← one sound held across the barline
 
 ## 7. Parts, chords, and divisi
 
-1. Standard texture is four parts — soprano, alto, tenor, bass — one voice per part, S+A on staff 1 (treble), T+B on staff 2 (bass).
+1. SATB uses soprano, alto, tenor, bass: S+A on staff 1 (treble), T+B on staff 2 (bass). TTBB uses tenor1, tenor2, baritone, bass: T1+T2 on staff 1 (standard tenor C clef, C4 on line 4), Baritone+Bass on staff 2 (bass). Song 369 is the TTBB example. Roles come from `choral_type`, never inferred pitch height. Store absolute sounding pitches (`c` = C3); no clef-triggered octave shift is applied. See the format reference for exact filters and supported clefs.
 2. Use chord notation `<c' e'>4` only for true divisi *within* one part. Never encode two independent voices as a chord stream — give them separate parts.
 3. In a chord, the first pitch is the primary voice and carries the lyric.
 4. **Extra voices get extra parts, not chords.** When an arrangement has more than one voice of a type (e.g. a second bass line answering the choir), add a numbered part (`[parts.Bass2]`) with the same `choral_type` so export filters treat the voices together. Put it on its own staff (`staff_number = 3`) when it is rhythmically independent, or share a staff when it pairs with another voice. A part that only sings some sections fills the rest with spacers (`s1.`), never rests, and marks its first sung event with `@c`/`@e` as usual — song 103 ("Pray All The Time") is the reference example.
@@ -180,13 +180,14 @@ These are renderer defaults, not per-song choices; every example or score image 
 
 Before committing a new `song.toml`:
 
+- [ ] Roles and clefs match the source; shared staves agree on clef; TTBB is not labeled SATB
 - [ ] Every measure in every part sums to the time signature (parser will rebar/reject otherwise)
 - [ ] Pickup padded with spacers; repeats unrolled
 - [ ] Every melisma beamed (all short values) or slurred (contains quarter+); no beat-beaming anywhere
 - [ ] Verse-conflicting melismas use dashed slurs + `_` placeholders
 - [ ] Same-pitch sustains tied, not slurred; no syllable on tied-to notes
 - [ ] Syllable count per verse = lyric slots per part, for every part
-- [ ] Dynamics/hairpins duplicated on all parts; tempo spanners on soprano only
+- [ ] Dynamics/hairpins duplicated on all parts; tempo spanners on the arrangement’s lead only
 - [ ] Fermatas/staccatos/accents on every sounding voice
 - [ ] `@c` on the chorus's first event (rest included); `@e` for a coda
 - [ ] `phrase_breaks` at every poetic line end; optional breaks at caesuras

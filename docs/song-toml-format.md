@@ -158,13 +158,50 @@ bes'4 g'4 g'4 f'4 | g'4 bes'4 bes'2 | ...
 
 | Field | Values | Description |
 |---|---|---|
-| `choral_type` | `soprano alto tenor bass` | Used for filtering voices on export. Several parts may share one choral type (e.g. `Bass` and `Bass2` both `"bass"`); export filters then include or exclude them together |
-| `clef` | `treble bass treble_8` | Staff clef; `treble_8` for tenor octave clef |
+| `choral_type` | `soprano alto tenor bass tenor1 tenor2 baritone` | Used for filtering voices on export. Several parts may share one choral type (e.g. `Bass` and `Bass2` both `"bass"`); export filters then include or exclude them together |
+| `clef` | `treble bass treble_8 alto tenor` | Display clef; `alto` = C/line-3, `tenor` = C/line-4, `treble_8` = G/line-2 with octave indication |
 | `staff_number` | positive integer | Parts sharing a staff number are combined onto one staff; staves are ordered by number. The standard layout is S+A on staff 1, T+B on staff 2, but any number of staves and voices is allowed (e.g. an independent second bass voice alone on staff 3). Parts alone on a staff keep free stem directions; parts sharing a staff get opposing stems (S/T up, A/B down; duplicates fall back to the next free LilyPond voice) |
 | `notes` | string | Note stream in OpenPsalm note notation (see below) |
 | `suppress_verses` | int array | Verse numbers to omit from the PDF/LilyPond output for this part (see [Verse Suppression](#verse-suppression)) |
 | `suppress_verses_when` | string array | Choral types (lowercase) whose presence triggers the suppression (see [Verse Suppression](#verse-suppression)) |
 | `splice_lyrics_into` | string | Choral type of the voice whose verse row absorbs this part's echo syllables (see [Echo Lyric Splice](#echo-lyric-splice-splice_lyrics_into)) |
+
+### TTBB arrangements and sounding pitch
+
+Song 369, “Hide Me, Lord, in Thy Pavilion!” (HYFRYDOL), is the TTBB example.
+Use four independent parts:
+
+| Part | `choral_type` | Staff | `clef` | Shared-staff stem |
+| --- | --- | --- | --- | --- |
+| Tenor1 | tenor1 | 1 | tenor | Up |
+| Tenor2 | tenor2 | 1 | tenor | Down |
+| Baritone | baritone | 2 | bass | Up |
+| Bass | bass | 2 | bass | Down |
+
+The page labels the tenors **Tenor I** and **Tenor II**. Roles are independent
+of part names, ranges and clefs. Standard tenor clef places C4 on the fourth
+line from the bottom; it does not transpose. `baritone` is a voice role here,
+not a historical clef name. A bare `C` is not a supported clef alias. Explicit
+unsupported clefs or conflicting clefs on one staff are import errors.
+
+Notes always encode absolute sounding pitch: `c` = C3, `c'` = C4. Changing a
+clef never shifts MIDI or stored pitches. The one-time repair to song 369
+lowered its upper voices one octave in the authored data; never repeat that
+shift in an exporter. Its upper staff is engraved in standard tenor C clef
+instead of the source's historical suboctave treble glyph.
+
+Filters remain exact: `?choral_types=tenor1,tenor2` selects the upper pair;
+`?choral_types=baritone,bass` the lower pair. `tenor` still means the SATB role,
+and `bass` never includes baritone. No filter means all voices; an explicit
+empty filter returns HTTP 422 and the page disables generated play/download.
+Suppression and splice targets accept the same distinct role strings.
+Numbered siblings such as Bass2 keep grouped filtering and numeric ordering.
+
+Tempo spanners belong to the arrangement lead. Voice subsets preserve the
+original performance tempo map. Printed labels attach to the surviving lead's
+covering notes when its rhythm differs. The external sight-singing handoff
+currently supports SATB only: TTBB pages omit its active link, and direct TTBB
+handoff requests return HTTP 422. Instrumental MIDI/MP3 remains available.
 
 ### Verse Suppression
 
@@ -432,7 +469,7 @@ d''4       ← continues crescendo
 e''4\!%f   ← hairpin ends, forte dynamic begins
 ```
 
-**Tempo / Expression Spanners:** Write these on the soprano line to mark gradual tempo changes. The label is printed above the staff, with a dashed extender drawn automatically when the span covers more than one note.
+**Tempo / Expression Spanners:** Write these on the arrangement’s lead part (Soprano in SATB, Tenor1 in TTBB; first voice in role order when absent) to mark gradual tempo changes. The label is printed above the staff, with a dashed extender drawn automatically when the span covers more than one note.
 
 | Marker | Meaning |
 |---|---|
