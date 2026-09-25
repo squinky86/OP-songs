@@ -1,0 +1,106 @@
+title = "Joy to the World"
+verse_count = 4
+key_signature = "D"
+time_sig_numerator = 2
+time_sig_denominator = 4
+tempo_bpm = 112
+phrase_breaks = ["7:24", "11:24", "15:24"]
+copyrights = [
+  "Lyrics: Isaac Watts, 1719 (public domain)",
+  "Music: 'Antioch' by George Frideric Handel, arr. Lowell Mason, 1848 (public domain)",
+  "Courtesy of [Hymnary.org](https://hymnary.org)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+optional_phrase_breaks = ["4:24"]
+non_breaking_phrase_breaks = ["14:24", "15:32", "16:24"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+d''4 cis''8. b'16 | a'4. g'8 | fis'4 e'4 | d'4. a'8 |
+b'4. b'8 | cis''4. cis''8 | d''4. d''8 | d''8[ cis''8] b'8[ a'8] |
+a'8.[ g'16 fis'8] d''8 | d''8[ cis''8] b'8[ a'8] | a'8.[ g'16 fis'8] fis'8 |
+fis'8 fis'8 fis'8 fis'16[ g'16] | a'4. g'16[ fis'16] | e'8 e'8 e'8 e'16[ fis'16] |
+g'4. fis'16[ e'16] | d'8( d''4) b'8 | a'8.[ g'16 fis'8] g'8 | fis'4 e'4 |
+d'2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+d'4 d'8. d'16 | d'4. e'8 | d'4 cis'4 | d'4. a'8 |
+g'4. g'8 | e'4. e'8 | fis'4. fis'8 | fis'8[ a'8] g'8[ fis'8] |
+fis'8.[ e'16 d'8] fis'8 | fis'8[ a'8] g'8[ fis'8] | fis'8.[ e'16 d'8] d'8 |
+d'8 d'8 d'8 d'16[ e'16] | fis'4. e'16[ d'16] | cis'8 cis'8 cis'8 cis'16[ d'16] |
+e'4. d'16[ cis'16] | d'8( fis'4) g'8 | fis'8.[ e'16 d'8] e'8 | d'4 cis'4 |
+d'2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3, 4]
+suppress_verses_when = ["soprano", "alto"]
+notes = """
+fis4 a8. g16 | fis4. b8 | a4. g8/-24 | fis4. d'8 |
+d'4. d'8 | a4. a8 | a4. a8 | a4 d'4 |
+d'4. a8 | a4 d'4 | d'4. r8 | r4 r8 a8 |
+a8 a8 a8 a8 | a2~ | a4. a16[ g16] | fis8( a4) d'8 |
+d'4. b8 | a4 a8[ g8] | fis2
+"""
+
+[parts.Tenor.lyrics.1]
+text = "Joy to the world! the Lord is come: Let earth re -- ceive her King. Let ev -- 'ry heart pre -- pare Him room, And heav'n and na -- ture sing, And heav'n, and heav'n and na -- ture sing."
+
+[parts.Tenor.lyrics.2]
+text = "Joy to the earth! the Sav -- ior reigns; Let all their songs em -- ploy, While fields and floods, rocks, hills, and plains Re -- peat the sound -- ing joy, Re -- peat, re -- peat the sound -- ing joy."
+
+[parts.Tenor.lyrics.3]
+text = "No more let sin and sor -- row grow Nor thorns in -- fest the ground; He comes to make His bless -- ings flow Far as the curse is found, Far as, far as the curse is found."
+
+[parts.Tenor.lyrics.4]
+text = "He rules the world with truth and grace, And makes the na -- tions prove The glo -- ries of His right -- eous -- ness And won -- ders of His love, And won -- ders, won -- ders of His love."
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+
+suppress_verses = [2, 3, 4]
+suppress_verses_when = ["soprano", "alto"]
+notes = """
+d4 d8. d16 | d4. g,8 | a,4 a,4 | d4. fis8 |
+g4. g8 | a4. a8 | d4. d8 | d4 d4 |
+d4. d8 | d4 d4 | d4. r8 | r4 r8 d8 |
+d8 d8 d8 d8 | d4. a,8 | a,8 a,8 a,8 a,8 | d4. d8 |
+d4. g,8 | a,4 a,4 | d2
+"""
+
+[parts.Bass.lyrics.1]
+text = "Joy to the world! the Lord is come: Let earth re -- ceive her King. Let ev -- 'ry heart pre -- pare Him room, And heav'n and na -- ture sing, And heav'n and na -- ture sing, and heav'n and na -- ture sing."
+
+[parts.Bass.lyrics.2]
+text = "Joy to the earth! the Sav -- ior reigns; Let all their songs em -- ploy, While fields and floods, rocks, hills, and plains Re -- peat the sound -- ing joy, Re -- peat the sound -- ing joy, re -- peat the sound -- ing joy."
+
+[parts.Bass.lyrics.3]
+text = "No more let sin and sor -- row grow Nor thorns in -- fest the ground; He comes to make His bless -- ings flow Far as the curse is found, Far as the curse is found, far as the curse is found."
+
+[parts.Bass.lyrics.4]
+text = "He rules the world with truth and grace, And makes the na -- tions prove The glo -- ries of His right -- eous -- ness And won -- ders of His love, And won -- ders of His love, and won -- ders of His love."
+
+[lyrics.1]
+text = "Joy to the world! the Lord is come: Let earth re -- ceive her King. Let ev -- 'ry heart pre -- pare Him room, And heav'n and na -- ture sing, And heav'n and na -- ture sing, And heav'n, and heav'n and na -- ture sing."
+
+[lyrics.2]
+text = "Joy to the earth! the Sav -- ior reigns; Let all their songs em -- ploy, While fields and floods, rocks, hills, and plains Re -- peat the sound -- ing joy, Re -- peat the sound -- ing joy, Re -- peat, re -- peat the sound -- ing joy."
+
+[lyrics.3]
+text = "No more let sin and sor -- row grow Nor thorns in -- fest the ground; He comes to make His bless -- ings flow Far as the curse is found, Far as the curse is found, Far as, far as the curse is found."
+
+[lyrics.4]
+text = "He rules the world with truth and grace, And makes the na -- tions prove The glo -- ries of His right -- eous -- ness And won -- ders of His love, And won -- ders of His love, And won -- ders, won -- ders of His love."
