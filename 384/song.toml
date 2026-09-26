@@ -1,0 +1,127 @@
+title = "Holy Quietness"
+verse_count = 5
+key_signature = "A"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 105
+phrase_breaks = ["5:32", "9:32", "13:32"]
+optional_phrase_breaks = ["3:32", "7:32", "11:32", "15:32"]
+copyrights = [
+  "Lyrics: Manie P. Ferguson, 1885 (public domain)",
+  "Music: William S. Marshall, 1897 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 cis'8. d'16 |
+e'8.[ a'16] a'4 cis''8. b'16 |
+a'8.[ fis'16] a'4 gis'8 fis'8 |
+e'4. cis'8 e'8 a'8 |
+b'2 cis'8. d'16 |
+e'8.[ a'16] a'4 cis''8. b'16 |
+a'8.[ fis'16] a'4 gis'8 fis'8 |
+e'4. a'8 a'8 gis'8 |
+a'2 cis'8.@c d'16 |
+e'8. dis'16 e'4 a'8. gis'16 |
+fis'8. eis'16 fis'4 a'8 fis'8 |
+e'4. cis'8 e'8 a'8 |
+b'2 cis'8. d'16 |
+e'8. dis'16 e'4 a'8. gis'16 |
+fis'8. eis'16 fis'4 gis'8 fis'8 |
+e'4. a'8 a'8 gis'8 |
+a'2 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 a8. b16 |
+cis'4 cis'4 e'8. e'16 |
+fis'8.[ d'16] fis'4 e'8 d'8 |
+cis'4. a8 cis'8 e'8 |
+e'2 a8. b16 |
+cis'4 cis'4 e'8. e'16 |
+fis'8.[ d'16] fis'4 e'8 d'8 |
+cis'4. e'8 d'8 d'8 |
+cis'2 a8.@c b16 |
+cis'8. bis16 cis'4 e'8. e'16 |
+d'8. d'16 d'4 d'8 d'8 |
+cis'4. a8 cis'8 e'8 |
+e'2 a8. b16 |
+cis'8. bis16 cis'4 e'8. e'16 |
+d'8. d'16 d'4 d'8 d'8 |
+cis'4. e'8 d'8 d'8 |
+cis'2 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 e8. e16 |
+a8.[ e16] e4 a8. cis'16 |
+d'8.[ a16] d'4 d'8 a8 |
+a4. e8 a8 a8 |
+gis2 e8. e16 |
+a8.[ e16] e4 a8. a16 |
+d'8.[ a16] d'4 d'8 a8 |
+a4. a8 b8 gis8 |
+a2 e8.@c e16 |
+a8. a16 a4 a8. a16 |
+a8. gis16 a4 a8 a8 |
+a4. e8 a8 a8 |
+gis2 e8. e16 |
+a8. a16 a4 a8. a16 |
+a8. gis16 a4 a8 a8 |
+a4. cis'8 b8 b8 |
+a2 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 a,8. a,16 |
+a,4 a,4 a,8. a,16 |
+d4 d4 d8 d8 |
+a,4. a,8 a,8 a,8 |
+e2 a,8. a,16 |
+a,4 a,4 a,8. cis16 |
+d4 d4 d8 d8 |
+e4. e8 e8 e8 |
+a,2 a,8.@c a,16 |
+a,8. a,16 a,4 a,8. cis16 |
+d8. d16 d4 d8 d8 |
+a,4. a,8 a,8 cis8 |
+e2 a,8. a,16 |
+a,8. a,16 a,4 cis8. cis16 |
+d8. d16 d4 d8 d8 |
+e4. e8 e8 e8 |
+a,2 s4
+"""
+
+[lyrics.1]
+text = "Joys are flow -- ing like a ri -- ver, Since the Com -- fort -- er has come; He a -- bides with us for -- ev -- er, Makes the trust -- ing heart His home."
+
+[lyrics.2]
+text = "Bring -- ing life and health and glad -- ness, All a -- round this heav’n -- ly Guest, Ban -- ished un -- be -- lief and sad -- ness, Changed our wear -- i -- ness to rest."
+
+[lyrics.3]
+text = "Like the rain that falls from Hea -- ven, Like the sun -- light from the sky, So the Ho -- ly Ghost is giv -- en, Com -- ing on us from on high."
+
+[lyrics.4]
+text = "See, a fruit -- ful field is grow -- ing, Bless -- èd fruit of right -- eous -- ness; And the streams of life are flow -- ing In the lone -- ly wil -- der -- ness."
+
+[lyrics.5]
+text = "What a won -- der -- ful sal -- va -- tion, Where we al -- ways see His face! What a per -- fect ha -- bi -- ta -- tion, What a qui -- et rest -- ing place!"
+
+[lyrics.chorus]
+text = "Bless -- èd qui -- et -- ness, ho -- ly qui -- et -- ness, What as -- sur -- ance in my soul! On the storm -- y sea, Speak -- ing peace to me, How the bil -- lows cease to roll!"
