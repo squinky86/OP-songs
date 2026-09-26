@@ -1,0 +1,94 @@
+title = "I Think When I Read That Sweet Story"
+verse_count = 6
+key_signature = "Eb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 110
+phrase_breaks = ["3:48", "5:48", "7:48"]
+copyrights = [
+  "Lyrics: Jemima Thompson Luke, 1841 (public domain)",
+  "Music: 'Sweet Story', arranged by William Batchelder Bradbury, 1859 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. ees'8-( f'8-) |
+g'4 g'8 g'8 g'8[ f'8] g'8 aes'8 |
+c''4 bes'8 bes'8 bes'4 g'8-( g'8-) |
+f'4 d'8 ees'8 f'8[ d''8] c''8 a'8 |
+bes'2. g'8-( aes'8-) |
+bes'8[ ees''8] d''8 c''8 bes'4 g'8 aes'8 |
+bes'8[ ees''8] d''8 c''8 bes'4 bes'8-( bes'8-) |
+c''4 bes'8 g'8 bes'8[ aes'8] g'8 f'8 |
+ees'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. ees'8-( ees'8-) |
+ees'4 ees'8 ees'8 ees'8[ d'8] ees'8 ees'8 |
+ees'4 ees'8 ees'8 ees'4 ees'8-( ees'8-) |
+d'4 bes8 c'8 d'8[ f'8] ees'8 ees'8 |
+d'2. ees'8-( f'8-) |
+g'4 aes'8 aes'8 g'4 ees'8 ees'8 |
+ees'4 ees'8 ees'8 ees'4 ees'8-( ees'8-) |
+ees'4 ees'8 ees'8 g'8[ f'8] ees'8 d'8 |
+ees'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. g8-( aes8-) |
+bes4 bes8 bes8 bes4 bes8 c'8 |
+aes4 g8 g8 g4 bes8-( bes8-) |
+bes4 f8 f8 bes4 a8 c'8 |
+bes2. bes8-( bes8-) |
+ees'8[ bes8] c'8 d'8 ees'4 bes8 f8 |
+g8[ c'8] bes8 aes8 g4 g8-( g8-) |
+aes4 g8 bes8 bes4 bes8 aes8 |
+g2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. ees8-( ees8-) |
+ees4 ees8 ees8 ees8[ bes,8] ees8 ees8 |
+ees4 ees8 ees8 ees4 ees8-( ees8-) |
+bes,4 bes,8 bes,8 bes,4 f8 f8 |
+bes,2. ees8-( ees8-) |
+ees4 ees8 ees8 ees4 ees8 ees8 |
+ees4 aes,8 c8 ees4 ees8-( ees8-) |
+aes4 ees8 ees8 bes,4 bes,8 bes,8 |
+ees2. s4
+"""
+
+[lyrics.1]
+text = "I _ think, when I read that sweet stor -- y of old, When _ Je -- sus was here a -- mong men, How He called lit -- tle chil -- dren as lambs to His fold, I should like to have been with them then."
+
+[lyrics.2]
+text = "I _ wish that His hands had been placed on my head, That His arms had been thrown a -- round me, And that I might have seen His kind look when He said, “Let the lit -- tle ones come un -- to Me.”"
+
+[lyrics.3]
+text = "Yet _ still to His foot -- stool in prayer I may go; And _ ask for a share in His love; And _ if I thus ear -- nest -- ly seek Him be -- low, I shall see Him and hear Him a -- bove."
+
+[lyrics.4]
+text = "But _ thou -- sands and thou -- sands who wan -- der and fall, Ne -- ver heard of that heav -- en -- ly home; I _ wish they could know there is room for them all, And that Je -- sus has bid them to come."
+
+[lyrics.5]
+text = "In that beau -- ti -- ful place He has gone to pre -- pare For _ all who are washed and for -- giv’n; And _ ma -- ny dear chil -- dren shall be with Him there, For “of such is the king -- dom of Heav’n.”"
+
+[lyrics.6]
+text = "I _ long for the joy of that glo -- ri -- ous time, The _ sweet -- est and bright -- est and best, When the dear lit -- tle chil -- dren of ev -- e -- ry clime Shall _ crowd to His arms and be blest."
