@@ -1,0 +1,77 @@
+title = "O Little Town of Bethlehem"
+verse_count = 5
+key_signature = "G"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 92
+phrase_breaks = ["5:48", "9:48", "13:48"]
+copyrights = [
+  "Lyrics: Phillips Brooks, 1867 (public domain)",
+  "Music: 'St. Lewis' by Lewis H. Redner, 1868 (public domain)",
+  "Courtesy of the [Timeless Truths Free Online Library](https://library.timelesstruths.org)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. b'4 | b'4 b'4 ais'4 b'4 | d''4-( c''4-) e'4 a'4 | g'4 fis'8[ g'8] a'4 d'4 |
+b'2. b'4 | b'4 b'4 e''4 d''4 | d''4 c''4 e'4 a'4 | g'4 fis'8[ g'8] b'4. a'8 |
+g'2. b'4 | b'4 b'4 a'4 g'4 | fis'2 fis'4 fis'4 | e'4 fis'4 g'4 a'4 |
+b'2. b'4 | b'4 b'4 ais'4 b'4 | d''4 c''4 e'4 e''4 | d''4 g'4 b'4. a'8 |
+g'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. d'4 | d'4 d'4 cis'4 d'4 | f'4-( e'4-) c'4 e'4 | d'4 d'4 d'4 d'4 |
+d'2. d'4 | d'4 g'4 gis'4 gis'4 | a'4 e'4 c'4 e'4 | d'4 d'4 fis'4. fis'8 |
+g'2. g'4 | g'4 g'4 fis'4 e'4 | dis'2 dis'4 dis'4 | e'4 fis'4 g'4 e'4 |
+fis'2. g'4 | d'4 d'4 cis'4 d'4 | e'4 e'4 c'4 e'8[ fis'8] | g'4 cis'4 d'4. c'8 |
+b2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. g4 | g4 g4 g4 g4 | gis4-( a4-) a4 c'4 | b4 a8[ b8] c'4 c'4 |
+b2. g4 | g4 b4 b4 e'4 | e'4 e'4 e'4 c'4 | b4 ais8[ b8] d'4. c'8 |
+b2. d'4 | d'4 b4 c'4 cis'4 | dis'2 dis'4 b4 | e4 fis4 g4 e'4 |
+dis'2. d'4 | d'4 b4 g4 g4 | gis4 a4 a4 c'4 | b4 a8[ g8] g4. fis8 |
+g2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. g4 | g4 g4 g4 g4 | c4-( c4-) c4 c4 | d4 d4 d4 d4 |
+g2. g4 | g4 f4 e4 e4 | a4 a4 a,4 c4 | d4 d4 d4. d8 |
+g2. g4 | g4 g4 a4 ais4 | b2 b4 b,4 | e4 fis4 g4 c'4 |
+b2. g4 | g4 g4 g4 g4 | c4 c4 c4 c4 | d4 e4 d4. d8 |
+g,2. s4
+"""
+
+[lyrics.1]
+text = "O lit -- tle town of Beth -- le -- hem, how still we see thee lie! A -- bove thy deep and dream -- less sleep the si -- lent stars go by. Yet in thy dark streets shin -- eth the ev -- er -- last -- ing Light; The hopes and fears of all the years are met in thee to -- night."
+
+[lyrics.2]
+text = "For Christ is born of Ma -- _ -- ry, and gath -- ered all a -- bove, While mor -- tals sleep, the an -- gels keep their watch of won -- d’ring love. O morn -- ing stars, to -- geth -- er pro -- claim the ho -- ly birth, And prais -- es sing to God the King, and peace to men on earth!"
+
+[lyrics.3]
+text = "How si -- lent -- ly, how si -- lent -- ly, the won -- drous Gift is giv’n; So God im -- parts to hu -- man hearts the bless -- ings of His Heav’n. No ear may hear His com -- ing, but in this world of sin, Where meek souls will re -- ceive Him still, the dear Christ en -- ters in."
+
+[lyrics.4]
+text = "Where chil -- dren pure and hap -- _ -- py pray to the bless -- ed Child, Where mis -- er -- y cries out to Thee, Son of the moth -- er mild; Where char -- i -- ty stands watch -- ing and faith holds wide the door, The dark night wakes, the glo -- ry breaks, and Christ -- mas comes once more."
+
+[lyrics.5]
+text = "O ho -- ly Child of Beth -- le -- hem, des -- cend to us, we pray; Cast out our sin, and en -- ter in, be born in us to -- day. We hear the Christ -- mas an -- gels the great glad tid -- ings tell; Oh, come to us, a -- bide with us, our Lord Em -- man -- u -- el!"
