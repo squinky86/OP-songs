@@ -1,0 +1,126 @@
+title = "Higher Ground"
+subtitle = "I'm Pressing On the Upward Way"
+copyrights = [
+  "Lyrics: Johnson Oatman, Jr., 1898 (public domain)",
+  "Music: Charles H. Gabriel, 1898 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 95
+verse_count = 4
+optional_phrase_breaks = ["3:24", "7:24", "11:24", "15:24"]
+phrase_breaks = ["5:24", "9:24", "13:24"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. d'8 d'8 g'8
+b'4. b'8 a'8 g'8
+e'4. a'8 g'8 e'8
+d'4. g'8 b'8 g'8
+a'4. d'8 d'8 g'8
+b'4. b'8 a'8 g'8
+e'4. a'8 g'8 e'8
+d'8 g'8 b'4 a'4
+g'4. d'8@c g'8 b'8
+d''4. d''8 c''8 b'8
+c''4. d'8 fis'8 a'8
+c''4. c''8 b'8 a'8
+b'4. d''8 d''8 b'8
+g'4. b'8 a'8 g'8
+e'4. a'8 g'8 e'8
+d'8 g'8 b'4 a'4
+g'4. s4.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. b8 b8 b8
+d'4. d'8 d'8 d'8
+c'4. e'8 e'8 c'8
+b4. b8 d'8 d'8
+d'4. c'8 b8 b8
+d'4. d'8 d'8 d'8
+c'4. e'8 e'8 c'8
+b8 b8 d'4 c'4
+b4. b8@c b8 d'8
+d'4. d'8 d'8 d'8
+d'4. d'8 d'8 fis'8
+a'4. a'8 g'8 fis'8
+g'4. d'8 d'8 d'8
+d'4. d'8 d'8 d'8
+c'4. e'8 e'8 c'8
+b8 b8 d'4 c'4
+b4. s4.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. g8 g8 g8
+g4. g8 fis8 g8
+g4. g8 g8 g8
+g4. g8 g8 g8
+fis4. fis8 g8 g8
+g4. g8 fis8 g8
+g4. g8 g8 g8
+g8 g8 g4 fis4
+g4. g8@c g8 g8
+b4. b8 a8 g8
+a4. fis8 a8 d'8
+d'4. d'8 d'8 d'8
+d'4. b8 b8 d'8
+b4. g8 fis8 g8
+g4. g8 g8 g8
+g8 g8 g4 fis4
+d4. s4.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. g,8 g,8 g,8
+g,4. g,8 a,8 b,8
+c4. c8 c8 c8
+g,4. g,8 g,8 b,8
+d4. d8 g,8 g,8
+g,4. g,8 a,8 b,8
+c4. c8 c8 c8
+d8 d8 d4 d4
+g,4. g8@c g8 g8
+g4. g8 g8 g8
+d4. d8 d8 d8
+d4. d8 d8 d8
+g4. g8 g8 g8
+g4. g,8 a,8 b,8
+c4. c8 c8 c8
+d8 d8 d4 d4
+g,4. s4.
+"""
+
+[lyrics.1]
+text = "I'm press -- ing on the up -- ward way, New heights I'm gain -- ing ev -- ery day; Still pray -- ing as I'm on -- ward bound, “Lord, plant my feet on high -- er ground.”"
+
+[lyrics.2]
+text = "My heart has no de -- sire to stay Where doubts a -- rise and fears dis -- may; Though some may dwell where those a -- bound, My prayer, my aim, is high -- er ground."
+
+[lyrics.3]
+text = "I want to live a -- bove the world, Though Sa -- tan's darts at me are hurled; For faith has caught the joy -- ful sound, The song of saints on high -- er ground."
+
+[lyrics.4]
+text = "I want to scale the ut -- most height And catch a gleam of glo -- ry bright; But still I'll pray till heav'n I've found, “Lord, plant my feet on high -- er ground.”"
+
+[lyrics.chorus]
+text = "Lord, lift me up and let me stand, By faith, on Heav -- en's ta -- ble land, A high -- er plane than I have found; Lord, plant my feet on high -- er ground."
