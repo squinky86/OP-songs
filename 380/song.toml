@@ -1,0 +1,117 @@
+title = "Savior, Like a Shepherd Lead Us"
+verse_count = 4
+key_signature = "D"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+phrase_breaks = ["2:64", "4:64", "6:64", "8:48", "10:48", "12:48", "14:48", "16:64"]
+copyrights = [
+  "Lyrics: Attr. Dorothy A. Thrupp, 1836 (public domain)",
+  "Music: William B. Bradbury, 1859 (public domain)",
+  "Courtesy of [Hymnary.org](https://hymnary.org)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+fis'4 fis'4 fis'8 e'8 fis'8 g'8 |
+a'4( d''4) a'4( fis'4) |
+e'4 fis'4 g'8 b'8 a'8 g'8 |
+fis'1 |
+fis'4 fis'4 fis'8 e'8 fis'8 g'8 |
+a'4( d''4) a'4( fis'4) |
+e'4 fis'4 g'8 b'8 a'8 g'8 |
+fis'2. a'8 a'8 |
+b'4 d''2 cis''8 b'8 |
+a'4 fis'2 fis'8 fis'8 |
+e'4 b'4 a'4 g'4 |
+fis'2. a'8 a'8 |
+b'4 d''2 cis''8 b'8 |
+a'4 d''2 d'8 e'8 |
+fis'4 a'4 g'4. e'8 |
+d'1
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+d'4 d'4 d'8 cis'8 d'8 e'8 |
+fis'2 fis'4( d'4) |
+cis'4 d'4 e'8 g'8 fis'8 e'8 |
+d'1 |
+d'4 d'4 d'8 cis'8 d'8 e'8 |
+fis'2 fis'4( d'4) |
+cis'4 d'4 e'8 g'8 fis'8 e'8 |
+d'2. fis'8 fis'8 |
+g'4 b'2 a'8 g'8 |
+fis'4 d'2 d'8 d'8 |
+cis'4 g'4 fis'4 e'4 |
+d'2. fis'8 fis'8 |
+g'4 b'2 a'8 g'8 |
+fis'4 fis'2 d'8 d'8 |
+d'4 fis'4 e'4. cis'8 |
+d'1
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+a4 a4 a8 a8 a8 a8 |
+a2 d'4( a4) |
+a4 a4 a8 a8 a8 a8 |
+a1 |
+a4 a4 a8 a8 a8 a8 |
+a2 d'4( a4) |
+a4 a4 a8 a8 a8 a8 |
+a2. d'8 d'8 |
+d'4 d'2 d'8 d'8 |
+d'4 a2 a8 a8 |
+a4 a4 a4 a4 |
+a2. d'8 d'8 |
+d'4 d'2 d'8 d'8 |
+d'4 a2 fis8 g8 |
+a4 a4 a4. g8 |
+fis1
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+d4 d4 d8 g8 fis8 e8 |
+d2 d2 |
+a,4 a,4 a,8 a,8 a,8 a,8 |
+d1 |
+d4 d4 d8 g8 fis8 e8 |
+d2 d2 |
+a,4 a,4 a,8 a,8 a,8 a,8 |
+d2. d8 d8 |
+g4 g2 g8 g8 |
+d4 d2 d8 d8 |
+a,4 a,4 b,4 cis4 |
+d2. d8 d8 |
+g4 g2 g8 g8 |
+d4 d2 d8 d8 |
+d4 d4 a,4. a,8 |
+d1
+"""
+
+[lyrics.1]
+text = "Sa -- vior, like a shep -- herd lead us, Much we need thy ten -- der care; In thy plea -- sant pas -- tures feed us, For our use thy folds pre -- pare: Bles -- sed Je -- sus, bles -- sed Je -- sus, Thou hast bought us, thine we are; Bles -- sed Je -- sus, bles -- sed Je -- sus, Thou hast bought us, thine we are."
+
+[lyrics.2]
+text = "We are thine, do thou be -- friend us, Be the guar -- dian of our way; Keep thy flock, from sin de -- fend us, Seek us when we go as -- tray: Bles -- sed Je -- sus, bles -- sed Je -- sus, Hear, O hear us when we pray; Bles -- sed Je -- sus, bles -- sed Je -- sus, Hear, O hear us when we pray."
+
+[lyrics.3]
+text = "Thou hast pro -- mised to re -- ceive us, Poor and sin -- ful though we be; Thou hast mer -- cy to re -- lieve us, Grace to cleanse, and power to free: Bles -- sed Je -- sus, bles -- sed Je -- sus, Ear -- ly let us turn to thee; Bles -- sed Je -- sus, bles -- sed Je -- sus, eEr -- ly let us turn to thee."
+
+[lyrics.4]
+text = "Ear -- ly let us seek thy fa -- vor, Ear -- ly let us do thy will; Bles -- sed Lord and on -- ly Sa -- vior, With thy love our bo -- soms fill: Bles -- sed Je -- sus, bles -- sed Je -- sus, Thou hast loved us, love us still; Bles -- sed Je -- sus, bles -- sed Je -- sus, Thou hast loved us, love us still."
