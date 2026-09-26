@@ -37,7 +37,7 @@ copyrights = [
 | `time_sig_numerator` | integer | yes | Beats per measure |
 | `time_sig_denominator` | integer | yes | Beat unit (2, 4, 8, etc.) |
 | `time_sig_changes` | array of tables | no | Mid-song time signature changes (see [Time Signature Changes](#time-signature-changes)) |
-| `tempo_bpm` | integer | yes | Quarter-note BPM used for MIDI/MP3 export |
+| `tempo_bpm` | integer | yes | Base quarter-note BPM for MIDI/MP3 and the printed header. Tempo marks (`\rit`, `\allegro`, …) are relative to it (see [Tempo Marks](#tempo-marks)) |
 | `phrase_breaks` | string array | no | `"M:T"` entries that break both the poetry line and the sheet music/slide layout (see [Phrase Breaks](#phrase-breaks)) |
 | `optional_phrase_breaks` | string array | no | `"M:T"` entries that break only the sheet music/slide layout — poetry lines flow through them unbroken (see [Phrase Breaks](#phrase-breaks)) |
 | `non_breaking_phrase_breaks` | string array | no | `"M:T"` entries used only as phrase boundaries for cross-voice lyric deduplication — they never break the poetry line or the layout (see [Phrase Breaks](#phrase-breaks)) |
@@ -197,7 +197,7 @@ empty filter returns HTTP 422 and the page disables generated play/download.
 Suppression and splice targets accept the same distinct role strings.
 Numbered siblings such as Bass2 keep grouped filtering and numeric ordering.
 
-Tempo spanners belong to the arrangement lead. Voice subsets preserve the
+Tempo marks belong to the arrangement lead. Voice subsets preserve the
 original performance tempo map. Printed labels attach to the surviving lead's
 covering notes when its rhythm differs. The external sight-singing handoff
 currently supports SATB only: TTBB pages omit its active link, and direct TTBB
@@ -446,10 +446,12 @@ c''4.%p b'8    ← piano marking above the dotted quarter; b'8 continues at pian
 g'2%mf         ← mezzo-forte marking above this half note
 ```
 
-The `%` suffix may be combined with other flags. It must appear after the duration digits but may appear before or after fermata (`!`), accent/marcato (`^` / `^^`), tie (`~`), slur (`(`/`)`), and beam (`[`/`]`) suffixes:
+The `%` suffix may be combined with other flags, but **write it last**. Everything after the `%` is read as the dynamic's name, so a fermata, slur, tie, beam, articulation, `@c`/`@e`, or `/N` written after it is silently lost (`f'8%f(` is a dynamic named `f(` and no slur). The only markers that may follow the dynamic are one tempo mark and one hairpin, with the hairpin outermost:
 ```
-c''4%p!   ← piano dynamic + fermata
-f'8%f(    ← forte dynamic + slur start
+c''4!%p         ← fermata + piano dynamic
+f'8(%f          ← slur start + forte dynamic
+bes4@c%f        ← chorus start + forte dynamic
+c''4%p\rit\<     ← dynamic, then a tempo mark, then a crescendo
 ```
 
 **Export behavior:**
@@ -462,28 +464,72 @@ f'8%f(    ← forte dynamic + slur start
 - `\>` : Starts a diminuendo on the marked note.
 - `\!` : Ends the current hairpin on the marked note.
 
-These flags behave similarly to LilyPond syntax and can be combined with other note flags. Since the TOML note data uses raw strings (`"""`), the backslash does not need to be escaped.
+These flags behave similarly to LilyPond syntax and can be combined with other note flags. The examples here show each marker as the parser sees it. In a `notes = """…"""` string, which is a TOML *basic* string, write every backslash doubled: `\\<`, `\\!`, `\\rit`, `\\allegro`. A single backslash there is a TOML escape, so `\a` or `\<` makes the whole file fail to parse. That stops startup import at that song. A TOML literal string (`'''…'''`) takes the single backslash as written.
 ```
 c''4%p\<   ← piano dynamic + crescendo start
 d''4       ← continues crescendo
 e''4\!%f   ← hairpin ends, forte dynamic begins
 ```
 
-**Tempo / Expression Spanners:** Write these on the arrangement’s lead part (Soprano in SATB, Tenor1 in TTBB; first voice in role order when absent) to mark gradual tempo changes. The label is printed above the staff, with a dashed extender drawn automatically when the span covers more than one note.
+<a id="tempo-marks"></a>
+**Tempo Marks:** Write these on the arrangement’s lead part only (Soprano in SATB, Tenor1 in TTBB; first voice in role order when absent). They are song-level: the label prints once above the top staff, and one tempo map drives playback for every voice. A note carries at most one starting mark, and may also end the mark before it (`c'2\spanend\andante`).
+
+*Gradual* marks sweep the tempo. The label is italic, with a dashed extender drawn automatically when the span covers more than one note:
 
 | Marker | Meaning |
 |---|---|
-| `\rit`, `\ritard`, `\rall` | Gradual slowdown |
-| `\accel`, `\string` | Gradual speedup |
-| `\atempo` | Single-note label restoring the song's `tempo_bpm` |
-| `\spanend` | Terminates the current spanner on the marked note |
+| `\rit`, `\ritard`, `\rall` | Gradual slowdown (to ~0.6× the tempo in force) |
+| `\accel`, `\string` | Gradual speedup (to ~1.4× the tempo in force) |
+
+*Step* marks print a bold tempo word, with no extender, and switch at once to a fixed ratio of `tempo_bpm`, held until `\spanend` or the end of the piece:
+
+| Marker | Printed | Tempo |
+|---|---|---|
+| `\largo` | Largo | 0.60 × `tempo_bpm` |
+| `\lento` | Lento | 0.70 × |
+| `\adagio` | Adagio | 0.75 × |
+| `\andante` | Andante | 0.85 × |
+| `\moderato` | Moderato | 1.00 × |
+| `\allegretto` | Allegretto | 1.15 × |
+| `\allegro` | Allegro | 1.30 × |
+| `\vivace` | Vivace | 1.45 × |
+| `\presto` | Presto | 1.60 × |
+
+Ending and restoring:
+
+| Marker | Meaning |
+|---|---|
+| `\spanend` | Ends the current tempo mark (gradual or step) on the marked note; the tempo returns to `tempo_bpm` after that note |
+| `\atempo` | Single-note label ("a tempo") restoring `tempo_bpm` |
 
 ```
 c''4\rit d''4 e''4 f''4\spanend   ← "rit." spans four notes
 g''2\spanend\atempo               ← end the span and restore tempo here
+bes4@c%f\allegro                  ← "Allegro" from here to the end
 ```
 
-MIDI/MP3 export interpolates the BPM across each span (a slowdown targets ~0.6× and a speedup ~1.4× of the active BPM, unless a `\spanend\atempo` restores it).
+A mark that is not ended by `\spanend` runs until the next mark begins. A step mark hands its tempo on, so `\allegro … \rit … \spanend` slows down *from* Allegro and then returns to `tempo_bpm`. End a gradual span with `\spanend` before starting another mark, so that its dashed extender is closed. `\spanend` after a step mark prints nothing; add `\atempo` on the following note if the return should be marked in the score.
+
+A verse/refrain tempo contrast is a single step mark on the refrain's first lead note, with no `\spanend`. Playback runs through the score once, so the verses always start at `tempo_bpm`. The dynamics for such a contrast still go on every part (see Dynamics above):
+
+```toml
+# Inside """ strings the backslash is doubled (see Hairpins above).
+tempo_bpm = 100
+
+[parts.Soprano]   # lead: dynamics and the tempo mark
+notes = """
+f'2%p f'4 g'4 | … | f'1 |
+bes4@c%f\\allegro bes8. bes16 d'4 f'8. f'16 | …
+"""
+
+[parts.Alto]      # every other part: dynamics only
+notes = """
+d'2%p d'4 ees'4 | … | a1 |
+bes4@c%f bes8. bes16 d'4 f'8. f'16 | …
+"""
+```
+
+MIDI/MP3 export interpolates the BPM across each gradual span and jumps at each step mark. Every tempo mark is a ratio of `tempo_bpm`, so a changed tempo (the song page's tempo control, or the `bpm` export parameter) scales the whole tempo map together: at `bpm=50`, the Allegro above plays at 65. A misspelled marker (`\alegro`) is a seed error naming the song, part and measure.
 
 **Deduplication Tick Offset:** Append `/N` (where N is a signed integer, in internal ticks) to shift a note's position **for lyric deduplication only**. This does not affect playback, MIDI timing, LilyPond layout, or MusicXML output — it only adjusts the tick timestamp used when the exporter checks whether two voices are singing identical phrases.
 

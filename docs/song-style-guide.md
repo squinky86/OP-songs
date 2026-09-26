@@ -91,7 +91,9 @@ g'2~ | g'4 ...      ← one sound held across the barline
 
 1. **Dynamics and hairpins go on *every* part**, at the same musical moment with the same value. Playback velocity is computed per track, so a `%f` written only on the soprano leaves alto/tenor/bass at default volume. The print exporters dedup automatically (SATB: soprano > alto > tenor > bass; TTBB: tenor1 > tenor2 > baritone > bass), so the marking is engraved once.
 2. Every hairpin `\<` or `\>` must be terminated with `\!` (or superseded by an explicit dynamic) — on every part that opened one.
-3. **Tempo/expression spanners (`\rit`, `\accel`, `\atempo`, …) go on the arrangement’s lead part only (Soprano in SATB, Tenor1 in TTBB, first surviving role when absent)**, terminated with `\spanend` on the last covered note. They are song-level, not per-voice.
+3. **Tempo marks (`\rit`, `\accel`, `\allegro`, `\atempo`, …) go on the arrangement’s lead part only (Soprano in SATB, Tenor1 in TTBB, first surviving role when absent)**. End a gradual span with `\spanend` on the last covered note. They are song-level, not per-voice.
+4. **A verse/refrain tempo contrast is one step mark** (`\allegro`, `\andante`, …) on the refrain's first lead note, with no `\spanend`. Write the matching dynamics on every part as usual. Use a step mark only where the source prints a tempo word or the maintainer asks for one; do not infer tempo changes.
+5. **Write each dynamic after the note's other suffixes** (`f'8(%f`, `bes4@c%f`, `c''4!%p`). Anything after the `%` except one tempo mark and one hairpin becomes part of the dynamic's name, and that marker is lost.
 
 ## 6. Fermatas, staccatos, and accents
 
@@ -187,7 +189,7 @@ Before committing a new `song.toml`:
 - [ ] Verse-conflicting melismas use dashed slurs + `_` placeholders
 - [ ] Same-pitch sustains tied, not slurred; no syllable on tied-to notes
 - [ ] Syllable count per verse = lyric slots per part, for every part
-- [ ] Dynamics/hairpins duplicated on all parts; tempo spanners on the arrangement’s lead only
+- [ ] Dynamics/hairpins duplicated on all parts, each dynamic written after the note's other suffixes; tempo marks on the arrangement’s lead only
 - [ ] Fermatas/staccatos/accents on every sounding voice
 - [ ] `@c` on the chorus's first event (rest included); `@e` for a coda
 - [ ] `phrase_breaks` at every poetic line end; optional breaks at caesuras
