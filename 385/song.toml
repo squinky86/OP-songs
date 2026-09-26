@@ -1,0 +1,59 @@
+title = "I Am Thine, O Lord"
+subtitle = "Draw Me Nearer"
+verse_count = 4
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "11:48", "13:48", "15:48", "17:48"]
+non_breaking_phrase_breaks = ["9:64", "10:64"]
+copyrights = [
+  "Lyrics: Fanny J. Crosby, 1875 (public domain)",
+  "Music: William H. Doane, 1875 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """s2. c''8. des''16 | c''4 bes'4 bes'4 bes'8. c''16 | bes'4 aes'4 aes'4 aes'8. g'16 | f'4 f'4 f'4 aes'8.[ f'16] | ees'2. c''8. des''16 | c''4 bes'4 bes'4 bes'8. c''16 | bes'4 aes'4 aes'4 bes'8 c''8 | des''4 des''4 g'4 g'4 | aes'2. c''8.@c des''16 | ees''2 c''2 | bes'8 aes'8 g'8 f'8 ees'4 aes'8 g'8 | f'4 aes'4 des''4 c''4 | bes'2. c''8. des''16 | ees''4 ees''4 c''4 c''4 | bes'8 aes'8 g'8 f'8 des''4 c''8. bes'16 | aes'4 aes'4 c''4. bes'8 | aes'2. r4"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """s2. ees'8. f'16 | ees'4 des'4 des'4 des'8. ees'16 | des'4 c'4 c'4 ees'8. ees'16 | des'4 des'4 des'4 des'4 | c'2. ees'8. f'16 | ees'4 des'4 des'4 des'8. ees'16 | des'4 c'4 c'4 des'8 ees'8 | f'4 f'4 ees'4 ees'4 | ees'2. ees'8.@c ees'16 | aes'2 ees'2 | f'8 f'8 ees'8 des'8 c'4 ees'8 ees'8 | des'4 ees'4 ees'4 ees'4 | ees'2. ees'8. ees'16 | aes'4 aes'4 ees'4 ees'4 | f'8 f'8 ees'8 des'8 f'4 f'8. f'16 | ees'4 ees'4 ees'4. des'8 | c'2. r4"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """s2. aes8. aes16 | aes4 g4 g4 g8. g16 | g4 aes4 aes4 aes8. aes16 | aes4 aes4 aes4 f8.[ aes16] | aes2. aes8. aes16 | aes4 g4 g4 g8. g16 | g4 aes4 aes4 aes8 aes8 | aes4 bes4 bes4 des'4 | c'2. aes8.@c aes16 | c'4 c'4 aes4 aes4 | aes8 aes8 aes8 aes8 aes4 aes8 aes8 | aes4 aes4 g4 aes4 | g2. aes8. aes16 | c'4 c'4 aes4 aes4 | aes8 aes8 aes8 aes8 aes4 ees'8. des'16 | c'4 c'4 aes4. g8 | ees2. r4"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """s2. aes,8. aes,16 | aes,4 ees4 ees4 ees8. ees16 | ees4 aes,4 aes,4 c8. c16 | des4 des4 des4 des4 | aes,2. aes,8. aes,16 | aes,4 ees4 ees4 ees8. ees16 | ees4 aes,4 aes,4 aes,8 aes,8 | des4 bes,4 ees4 ees4 | aes,2. aes8.@c aes16 | aes4 aes4 aes,4 aes,4 | des8 des8 des8 des8 aes,4 c8 c8 | des4 c4 bes,4 aes,4 | ees2. aes8. aes16 | aes4 aes4 aes,4 aes,4 | des8 des8 des8 des8 des4 des8. des16 | ees4 ees4 ees4. ees8 | aes,2. r4"""
+
+[parts.Tenor.lyrics.chorus]
+text = "Draw me near -- er, near -- er, near -- er, bless -- ed Lord, To the cross where Thou hast died; Draw me near -- er, near -- er, near -- er, bless -- ed Lord, To Thy pre -- cious, bleed -- ing side."
+
+[parts.Bass.lyrics.chorus]
+text = "Draw me near -- er, near -- er, near -- er, bless -- ed Lord, To the cross where Thou hast died; Draw me near -- er, near -- er, near -- er, bless -- ed Lord, To Thy pre -- cious, bleed -- ing side."
+
+[lyrics.1]
+text = "I am Thine, O Lord, I have heard Thy voice, And it told Thy love to me; But I long to rise in the arms of faith, And be clos -- er drawn to Thee."
+
+[lyrics.2]
+text = "Con -- se -- crate me now to Thy serv -- ice, Lord, By the pow'r of grace di -- vine; Let my soul look up with a stead -- fast hope, And my will be lost in Thine."
+
+[lyrics.3]
+text = "O the pure de -- light of a sin -- gle hour That be -- fore Thy throne I spend, When I kneel in pray'r, and with Thee, my God, I com -- mune as friend with friend!"
+
+[lyrics.4]
+text = "There are depths of love that I can -- not know Till I cross the nar -- row sea; There are heights of joy that I may not reach Till I rest in peace with Thee."
+
+[lyrics.chorus]
+text = "Draw me near -- er, near -- er, bless -- ed Lord, To the cross where Thou hast died; Draw me near -- er, near -- er, near -- er, bless -- ed Lord, To Thy pre -- cious, bleed -- ing side."
