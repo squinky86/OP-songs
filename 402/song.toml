@@ -1,0 +1,104 @@
+title = "Rescue the Perishing"
+verse_count = 4
+key_signature = "Bb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 103
+phrase_breaks = ["2:64", "4:64", "6:64", "8:64", "10:64", "12:64"]
+copyrights = [
+  "Lyrics: Fanny Crosby, 1869 (public domain)",
+  "Music: William Howard Doane, 1870 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+f'4 d'8 ees'8 f'8 f'8 f'4
+bes'4 a'8 g'8 g'4 f'4
+f'4 g'8 a'8 bes'4 c''8 d''8
+c''4 bes'8 g'8 f'2
+f'4 d'8 ees'8 f'8 f'8 f'4
+bes'4 a'8 g'8 g'4 f'4
+f'4 g'8 a'8 bes'4 c''8 d''8
+c''4 bes'8 a'8 bes'2
+c''4@c bes'8 c''8 d''8. c''16 bes'4
+c''4 bes'8 c''8 d''4 bes'4
+bes'4 a'8 g'8 f'8 bes'8 d''4
+c''4 bes'8 a'8 bes'2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+d'4 bes8 c'8 d'8 d'8 d'4
+d'4 f'8 ees'8 ees'4 d'4
+c'4 ees'8 f'8 f'4 f'8 f'8
+f'4 e'8 e'8 f'2
+d'4 bes8 c'8 d'8 d'8 d'4
+d'4 f'8 ees'8 ees'4 d'4
+c'4 ees'8 f'8 f'4 f'8 f'8
+g'4 f'8 f'8 f'2
+f'4@c f'8 f'8 f'8. ees'16 d'4
+f'4 f'8 f'8 f'4 f'4
+g'4 f'8 ees'8 d'8 f'8 f'4
+g'4 f'8 ees'8 d'2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+bes4 f8 f8 bes8 bes8 bes4
+bes4 bes8 bes8 bes4 bes4
+a4 bes8 c'8 d'4 a8 bes8
+a4 g8 bes8 a2
+bes4 f8 f8 bes8 bes8 bes4
+bes4 bes8 bes8 bes4 bes4
+a4 bes8 c'8 bes4 a8 bes8
+bes4 d'8 c'8 d'2
+a4@c g8 a8 bes8. f16 f4
+a4 g8 a8 bes4 d'4
+ees'4 bes8 bes8 bes8 d'8 bes4
+bes4 d'8 c'8 bes2
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+bes,4 bes,8 bes,8 bes,8 bes,8 bes,4
+bes,4 ees8 ees8 bes,4 bes,4
+f4 f8 f8 f4 f8 bes,8
+c4 c8 c8 f2
+bes,4 bes,8 bes,8 bes,8 bes,8 bes,4
+bes,4 ees8 ees8 bes,4 bes,4
+f4 f8 f8 f4 f8 bes,8
+ees4 f8 f8 bes,2
+f4@c f8 f8 bes,8. bes,16 bes,4
+f4 f8 f8 bes,4 bes,4
+ees4 ees8 ees8 bes,8 bes,8 bes,4
+ees4 f8 f8 bes,2
+"""
+
+[lyrics.1]
+text = "Res -- cue the per -- ish -- ing, care for the dy -- ing, Snatch them in pi -- ty from sin and the grave; Weep o’er the err -- ing one, lift up the fall -- en, Tell them of Je -- sus, the might -- y to save."
+
+[lyrics.2]
+text = "Though they are slight -- ing Him, still He is wait -- ing, Wait -- ing the pen -- i -- tent child to re -- ceive; Plead with them ear -- nest -- ly, plead with them gent -- ly; He will for -- give if they on -- ly be -- lieve."
+
+[lyrics.3]
+text = "Down in the hu -- man heart, crushed by the tempt -- er, Feel -- ings lie bur -- ied that grace can re -- store; Touched by a lov -- ing heart, wak -- ened by kind -- ness, Chords that were brok -- en will vi -- brate once more."
+
+[lyrics.4]
+text = "Res -- cue the per -- ish -- ing, du -- ty de -- mands it; Strength for thy la -- bor the Lord will pro -- vide; Back to the nar -- row way pa -- tient -- ly win them; Tell the poor wand -- ’rer a Sav -- ior has died."
+
+[lyrics.chorus]
+text = "Res -- cue the per -- ish -- ing, care for the dy -- ing, Je -- sus is mer -- ci -- ful, Je -- sus will save."
