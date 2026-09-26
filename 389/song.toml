@@ -1,0 +1,50 @@
+title = "Have Thine Own Way, Lord"
+verse_count = 4
+key_signature = "Eb"
+time_sig_numerator = 9
+time_sig_denominator = 4
+tempo_bpm = 124
+phrase_breaks = ["3:96", "5:96", "7:96", "9:96"]
+optional_phrase_breaks = ["2:96", "4:96", "6:96", "8:96"]
+copyrights = [
+  "Lyrics: Adelaide A. Pollard, 1901 (public domain)",
+  "Music: George C. Stebbins, 1907 (public domain)",
+  "Courtesy of [Hymnary.org](https://hymnary.org)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """s2. s2. g'4 f'4 g'4 | aes'2. g'2. ees'4 d'4 ees'4 | f'1. f'4 e'4 f'4 | g'2. f'2. f'4 ees'4 d'4 | ees'1. g'4 f'4 g'4 | aes'2. g'2. bes'4 a'4 bes'4 | c''1. c''4 d''4 c''4 | bes'2. g'2. f'4 ees'4 f'4 | ees'1. r2."""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """s2. s2. ees'4 ees'4 ees'4 | ees'2. ees'2. bes4 bes4 bes4 | d'1. d'4 d'4 d'4 | d'2. d'2. bes4 bes4 bes4 | bes1. ees'4 ees'4 ees'4 | ees'2. ees'2. des'4 c'4 des'4 | ees'1. ees'4 ees'4 ees'4 | ees'2. ees'2. bes4 bes4 bes4 | bes1. r2."""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """s2. s2. bes4 aes4 bes4 | c'2. bes2. g4 f4 g4 | aes1. aes4 g4 aes4 | bes2. aes2. aes4 g4 f4 | g1. bes4 aes4 bes4 | c'2. bes2. g4 g4 g4 | aes1. aes4 bes4 aes4 | g2. bes2. aes4 g4 aes4 | g1. r2."""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """s2. s2. ees4 ees4 ees4 | ees2. ees2. ees4 ees4 ees4 | bes,1. bes,4 bes,4 bes,4 | bes,2. bes,2. bes,4 bes,4 bes,4 | ees1. ees4 ees4 ees4 | ees2. ees2. ees4 ees4 ees4 | aes,1. aes,4 aes,4 aes,4 | bes,2. bes,2. bes,4 bes,4 bes,4 | ees1. r2."""
+
+[lyrics.1]
+text = "Have Thine own way, Lord! Have Thine own way! Thou art the Pot -- ter, I am the clay. Mold me and make me af -- ter Thy will, while I am wait -- ing, yield -- ed and still."
+
+[lyrics.2]
+text = "Have Thine own way, Lord! Have Thine own way! Search me and try me, Mas -- ter, to -- day. O -- pen mine eyes, my sin show me now, as in Thy pre -- sence hum -- bly I bow."
+
+[lyrics.3]
+text = "Have Thine own way, Lord! Have Thine own way! Wound -- ed and wea -- ry, help me, I pray. Pow -- er, all pow -- er sure -- ly is Thine. Touch me and heal me, Sav -- ior di -- vine."
+
+[lyrics.4]
+text = "Have Thine own way, Lord! Have Thine own way! Hold o'er my be -- ing ab -- so -- lute sway. Fill with Thy Spir -- it till all shall see Christ on -- ly, al -- ways, liv -- ing in me."
