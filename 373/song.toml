@@ -1,0 +1,152 @@
+title = "O Come, All Ye Faithful"
+verse_count = 4
+key_signature = "G"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+phrase_breaks = ["5:48", "9:64", "13:48", "15:48", "17:48", "21:64"]
+optional_phrase_breaks = ["3:64"]
+non_breaking_phrase_breaks = ["13:64", "14:16", "15:32", "17:32"]
+copyrights = [
+  "Lyrics: John F. Wade, 1743 (public domain)",
+  "Translation: Frederick Oakeley, 1841 (public domain)",
+  "Music: 'Adeste Fideles' by John F. Wade, 1743 (public domain)",
+  "Courtesy of [Hymnary.org](https://hymnary.org)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. g'4 |
+g'2 d'4-( g'4-) |
+a'2-( d'2-) |
+b'4 a'4 b'4 c''4 |
+b'2 a'4-( g'4-) |
+g'2 fis'4 e'4 |
+fis'4( g'4) a'4 b'4 |
+fis'2( e'4.) d'8 |
+d'2. r4 |
+d''2 c''4 b'4 |
+c''2 b'4-( b'4-) |
+a'4 b'4 g'4 a'4 |
+fis'4.( e'8) d'4 g'4@c |
+g'4 fis'4 g'4 a'4 |
+g'2 d'4 b'4 |
+b'4 a'4 b'4 c''4 |
+b'2 a'4 b'4 |
+c''4 b'4 a'4 g'4 |
+fis'2 g'4( c''4) |
+b'2( a'4.) g'8 |
+g'1
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. d'4 |
+d'2 d'4-( d'4-) |
+e'2-( d'2-) |
+d'4 d'4 d'4 e'4 |
+d'2 d'4-( b4-) |
+b4( cis'4) d'4 cis'4 |
+d'2 d'4 d'4 |
+d'2( cis'4.) d'8 |
+d'2. r4 |
+d'2 e'8[ fis'8] g'4 |
+g'4( fis'4) g'4-( g'4-) |
+d'4 d'4 e'4 e'4 |
+d'2 d'4 d'4@c |
+d'1~ |
+d'2. d'4 |
+d'4 d'4 d'4 d'4 |
+d'2 d'4 g'4 |
+fis'4 g'4 d'4 d'8[ cis'8] |
+d'2 d'4( e'4) |
+d'2~ d'4. b8 |
+b1
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. b4 |
+b2 b4-( b4-) |
+c'2-( a2-) |
+g4 a4 g4 g4 |
+g2 fis4-( g4-) |
+g2 a4 a4 |
+a4( g4) fis4 d4 |
+a2( g4.) fis8 |
+fis2. r4 |
+b2 c'4 d'4 |
+c'2 d'4-( d'4-) |
+d'4 g4 b4 c'4 |
+a4.( g8) fis4 b4@c |
+b4 a4 b4 c'4 |
+b2. g4 |
+g4 fis4 g4 a4 |
+g2 fis4 d'4 |
+d'4 d'4 a4 a4 |
+a2 g2 |
+g2( fis4.) g8 |
+g1
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. g4 |
+g2 g4-( g4-) |
+g2-( fis2-) |
+g4 fis4 g4 c4 |
+d2 d4-( e4-) |
+e2 d4 a,4 |
+d4( b,4) fis,4 g,4 |
+a,2~ a,4. d8 |
+d2. r4 |
+b2 a4 g4 |
+a2 g4-( g4-) |
+fis4 g4 e4 c4 |
+d2 d4 r4@c |
+r1 |
+r1 |
+r1 |
+r2 r4 g4 |
+a4 g4 fis4 e4 |
+d4( c4) b,4( c4) |
+d2~ d4. g,8 |
+g,1
+"""
+
+[parts.Alto.lyrics.chorus]
+text = "O come, O come, let us a -- dore Him O, come, let us a -- dore Him, Christ the Lord!"
+
+[parts.Tenor.lyrics.chorus]
+text = "O come, let us a -- dore O come, let us a -- dore Him O, come, let us a -- dore Him, Christ the Lord!"
+
+[parts.Bass.lyrics.chorus]
+text = "O, come, let us a -- dore Him, Christ the Lord!"
+
+[lyrics.1]
+text = "O come, all ye faith -- ful, joy -- ful and tri -- um -- phant! O come ye, O come ye to Beth -- le -- hem! Come and be -- hold Him _ born the King of an -- gels;"
+
+[lyrics.2]
+text = "_ True God of true God, Light of Light e -- ter -- nal _ lo, He ab -- hors not the vir -- gin's womb; Son of the Fa -- ther, be -- got -- ten not cre -- at -- ed;"
+
+[lyrics.3]
+text = "_ Sing, choirs of an -- gels, sing in ex -- ul -- ta -- tion, _ sing, all ye bright hosts of heaven a -- bove; “Glo -- ry to God, all _ glo -- ry in the high -- est!”"
+
+[lyrics.4]
+text = "_ Yea, Lord, we greet Thee, born this hap -- py morn -- ing; _ Je -- sus to Thee be all glo -- ry giv'n; Word of the Fa -- ther, _ now in flesh ap -- pear -- ing"
+
+[lyrics.chorus]
+text = "O come, let us a -- dore Him, O come, let us a -- dore Him O, come, let us a -- dore Him, Christ the Lord!"
