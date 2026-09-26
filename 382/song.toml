@@ -1,0 +1,122 @@
+title = "When He Cometh"
+verse_count = 3
+key_signature = "E"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 112
+phrase_breaks = ["5:32", "9:32", "13:32"]
+optional_phrase_breaks = ["3:32", "7:32", "11:32", "15:32"]
+copyrights = [
+  "Lyrics: William Orcutt Cushing, 1856 (public domain)",
+  "Music: George Frederick Root (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 e'8 fis'8
+gis'4 gis'4 gis'8 a'8
+b'4 b'4 cis''4
+gis'4 gis'4 fis'4
+e'4 e'4 e'8 fis'8
+gis'4 gis'4 gis'8 a'8
+b'4 b'4 cis''4
+gis'4 gis'4 fis'4
+e'2 e''8@c dis''8
+cis''4 cis''4 e''4
+b'4 b'4 cis''8.[ b'16]
+e'4 e'4 fis'4
+gis'4 b'4 e''8 dis''8
+cis''4 cis''4 e''4
+b'4 b'4 cis''4
+b'4 e'4 fis'4
+e'2 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 e'8 e'8
+e'4 e'4 e'8 e'8
+e'4 e'4 e'4
+e'4 e'4 dis'4
+e'4 e'4 e'8 e'8
+e'4 e'4 e'8 e'8
+e'4 e'4 e'4
+e'4 e'4 dis'4
+e'2 e'8@c e'8
+e'4 e'4 a'4
+gis'4 gis'4 e'4
+e'4 e'4 dis'4
+e'4 e'4 e'8 e'8
+e'4 e'4 a'4
+gis'4 gis'4 e'4
+e'4 e'4 dis'4
+e'2 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 gis8 a8
+b4 b4 b8 a8
+gis4 gis4 a4
+e8[ gis8] b4 a4
+gis4 gis4 gis8 a8
+b4 b4 b8 a8
+gis4 gis4 a4
+e8[ gis8] b4 a4
+gis2 gis8@c gis8
+a4 a4 cis'4
+gis4 e4 gis4
+gis4 gis4 b4
+b4 gis4 gis8 gis8
+a4 a4 cis'4
+cis'4 gis4 a4
+gis4 gis4 a4
+gis2 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 e8 e8
+e4 e4 e8 e8
+e4 e4 a,4
+b,4 b,4 b,4
+e4 e4 e8 e8
+e4 e4 e8 e8
+e4 e4 a,4
+b,4 b,4 b,4
+e2 e8@c e8
+a4 a4 a,4
+e4 e4 e4
+cis4 cis4 b,4
+e4 e4 e8 e8
+a4 a4 a4
+e4 e4 a,4
+b,4 b,4 b,4
+e2 s4
+"""
+
+[lyrics.1]
+text = "When He com -- eth, when He com -- eth To make up His jew -- els, All His jew -- els, pre -- cious jew -- els, His loved and His own."
+
+[lyrics.2]
+text = "He will ga -- ther, He will ga -- ther The gems for His king -- dom; All the pure ones, all the bright ones, His loved and His own."
+
+[lyrics.3]
+text = "Lit -- tle child -- ren, lit -- tle child -- ren, Who love their Re -- deem -- er, Are the jew -- els, pre -- cious jew -- els, His loved and His own."
+
+[lyrics.chorus]
+text = "Like the stars of the morn -- ing, His bright crown a -- dorn -- ing, They shall shine in their beau -- ty, Bright gems for His crown."
