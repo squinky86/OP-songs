@@ -1,0 +1,153 @@
+title = "I'll Go Where You Want Me to Go"
+copyrights = [
+  "Lyrics: Mary Brown, 1892, and Charles Edward Prior (public domain)",
+  "Music: Carrie Esther Parker Rounsefell, 1894 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 95
+verse_count = 3
+phrase_breaks = ["5:40", "9:40", "13:40", "17:40", "21:40"]
+optional_phrase_breaks = ["3:40", "7:40", "11:40", "15:40", "19:40", "23:40"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. s4 a'8 |
+a'4 a'8 c''4 a'16 a'16 |
+bes'4 bes'8 d''4 d''8 |
+c''8. bes'16 a'8 c''4 a'8 |
+g'4.~ g'4 g'8 |
+a'4 a'8 bes'8. a'16 bes'8 |
+c''4 c''8 d''4! d''8 |
+c''8. bes'16 a'8 a'4 g'8 |
+f'4.~ f'4 c''8 |
+c''4 g'16 g'16 g'8[ fis'8] g'8 |
+a'4 f'8 a'4 c''8 |
+c''4 g'16-( g'16-) g'8-( f'8-) g'8 |
+a'4.~ a'4 f'8 |
+a'8.[^ g'16] a'8 bes'8. a'16 bes'8 |
+c''8.[ b'16] c''8 d''4! <d'' f''>8 |
+c''8.^ bes'16 a'8 a'8 a'8. g'16 |
+f'4.~ f'4 c''8@c |
+c''8.^ g'16 g'8 g'8 fis'8 g'8 |
+a'4 f'8 a'4 c''16 c''16 |
+c''8. g'16 g'8 g'8[ f'8] g'8 |
+a'4.~ a'4 f'8 |
+a'8.^ g'16 a'8 bes'8. a'16 bes'8 |
+c''8.[ b'16] c''8 d''4! <d'' f''>8 |
+c''8.^ bes'16 a'8 a'8 a'8. g'16 |
+f'4.~ f'4 s8
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. s4 f'8 |
+f'4 f'8 f'4 f'16 f'16 |
+f'4 f'8 f'4 f'8 |
+f'8. f'16 f'8 f'4 f'8 |
+e'4.~ e'4 e'8 |
+f'4 f'8 e'8. e'16 e'8 |
+f'4 f'8 f'4! f'8 |
+f'8. f'16 f'8 e'4 e'8 |
+f'4.~ f'4 f'8 |
+e'4 e'16 e'16 e'4 e'8 |
+f'4 c'8 f'4 f'8 |
+e'4 e'16-( e'16-) e'8-( f'8-) e'8 |
+f'4.~ f'4 f'8 |
+f'8.[^ f'16] f'8 e'8. e'16 e'8 |
+f'4 f'8 f'4! f'8 |
+f'8.^ f'16 f'8 f'8 e'8. e'16 |
+f'4.~ f'4 f'8@c |
+e'8.^ e'16 e'8 e'8 e'8 e'8 |
+f'4 f'8 f'4 f'16 f'16 |
+e'8. e'16 e'8 e'8[ f'8] e'8 |
+f'4.~ f'4 f'8 |
+f'8.^ f'16 f'8 e'8. e'16 e'8 |
+f'4 f'8 f'4! f'8 |
+f'8.^ f'16 f'8 f'8 e'8. e'16 |
+f'4.~ f'4 s8
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. s4 c'8 |
+c'4 c'8 a4 c'16 c'16 |
+d'4 d'8 bes4 bes8 |
+a8. d'16 c'8 a4 c'8 |
+c'4.~ c'4 c'8 |
+c'4 c'8 c'8. c'16 c'8 |
+ees'4 ees'8 d'4! bes8 |
+a8. d'16 c'8 c'4 bes8 |
+a4.~ a4 a8 |
+g4 bes16 bes16 bes4 bes8 |
+c'4 a8 c'4 a8 |
+g4 bes16-( bes16-) bes8-( a8-) c'8 |
+c'4.~ c'4 a8 |
+c'8.[^ c'16] c'8 c'8. c'16 c'8 |
+c'4 c'8 bes4! bes8 |
+a8.^ d'16 c'8 c'8 c'8. bes16 |
+a4.~ a4 a8@c |
+g8.^ c'16 c'8 c'8 c'8 c'8 |
+c'4 c'8 c'4 a16 a16 |
+g8. bes16 bes8 bes8[ a8] c'8 |
+c'4.~ c'4 a8 |
+c'8.^ c'16 c'8 c'8. c'16 c'8 |
+c'4 c'8 bes4! bes8 |
+a8.^ d'16 c'8 c'8 c'8. bes16 |
+a4.~ a4 s8
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. s4 f8 |
+f4 f8 f4 f16 f16 |
+bes,4 bes,8 bes,4 d8 |
+f8. f16 f8 f4 f8 |
+c4.~ c4 c8 |
+f4 f8 g8. g16 g8 |
+a4 a8 bes4! bes,8 |
+c8. c16 c8 c4 c8 |
+f4.~ f4 f8 |
+c4 c16 c16 c4 c8 |
+f4 f8 f4 f8 |
+c4 c16-( c16-) c8-( c8-) c8 |
+f4.~ f4 f8 |
+f8.[^ f16] f8 g8. g16 g8 |
+a4 a8 bes4! bes,8 |
+c8.^ c16 c8 c8 c8. c16 |
+f4.~ f4 f8@c |
+c8.^ c16 c8 c8 c8 c8 |
+f4 a8 f4 f16 f16 |
+c8. c16 c8 c4 c'8 |
+f4.~ f4 f8 |
+f8.^ f16 c8 g8. g16 g8 |
+a4 a8 bes4! bes,8 |
+c8.^ c16 c8 c8 c8. c16 |
+f4.~ f4 s8
+"""
+
+[lyrics.1]
+text = "It may not be on the mount -- ain's height, Or o -- ver the storm -- y sea; It may not be at the bat -- tle's front My Lord will have need of me; But if by a still, small voice He calls To paths that I do _ not know, I'll answer, dear Lord, with my hand in Thine, I'll go where You want me to go."
+
+[lyrics.2]
+text = "Per -- haps to -- day there are lov -- ing words Which Je -- sus would have me speak; There may be now, in the paths of sin, Some wand -- 'rer whom I should seek. O Sav -- ior, if Thou wilt be my Guide, Tho' dark and _ rug -- ged the way, My voice shall e -- cho the mes -- sage sweet, I'll say what You want me to say."
+
+[lyrics.3]
+text = "There's sure -- ly some -- where a low -- ly place In earth's har -- vest fields so wide, Where I may la -- bor thro' life's short day For Je -- sus, the Cru -- ci -- fied. So, trust -- ing my all un -- to Your care, And know -- ing _ Thou lov -- est me! I'll do Thy will with a heart sin -- cere, I'll be what You want me to be."
+
+[lyrics.chorus]
+text = "I'll go where You want me to go, dear Lord, O -- ver mount -- ain, or plain, or sea; I'll say what You want me to say, dear Lord, I'll be what You want me to be."
