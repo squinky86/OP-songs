@@ -1,0 +1,76 @@
+title = "Just As I Am, Thine Own to Be"
+verse_count = 6
+key_signature = "Ab"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 100
+phrase_breaks = ["8:48"]
+optional_phrase_breaks = ["4:48", "12:48"]
+copyrights = [
+  "Lyrics: Marianne Hearn, 1887 (public domain)",
+  "Music: 'Dunstan' by Joseph Barnby, 1893 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+ees'4 f'4 aes'4 | g'2 ees'4 | aes'2 bes'4 | c''2. |
+c''4 c''4 c''4 | des''2 c''4 | bes'2 aes'4 | g'2. |
+bes'4 c''4 des''4 | ees''2 c''4 | aes'2 g'4 | f'2. |
+f'4 g'4 aes'4 | ees''2 bes'4 | aes'2.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+c'4 c'4 c'4 | des'2 bes4 | ees'2 ees'4 | ees'2. |
+ees'4 ees'4 ees'4 | f'2 ees'4 | des'2 d'4 | ees'2. |
+ees'4 ees'4 ees'4 | ees'2 ees'4 | ees'2 e'4 | f'2. |
+des'4 des'4 des'4 | c'2 des'4 | c'2.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+ees4 f4 aes4 | g2 g4 | aes2 g4 | aes2. |
+c'4 bes4 bes4 | a2 a4 | bes2 bes4 | bes2. |
+g4 g4 g4 | aes2 aes4 | aes2 bes4 | aes2( a4) |
+f4 g4 aes4 | g2 g4 | ees2.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+aes,4 aes,4 aes,4 | bes,2 des4 | c2 ees4 | aes2. |
+aes4 ges4 ges4 | f2 f4 | bes,2 bes,4 | ees2. |
+des4 ees4 des4 | c2 aes,4 | c2 c4 | des2( f4) |
+bes,4 bes,4 bes,4 | ees2 ees4 | aes,2.
+"""
+
+[lyrics.1]
+text = "Just as I am, Thine own to be, Friend of the young, who lov -- est me, To con -- se -- crate my -- self to Thee, O Je -- sus Christ, I come."
+
+[lyrics.2]
+text = "In the glad morn -- ing of my day, My life to give, my vows to pay, With no re -- serve and no de -- lay, With all my heart I come."
+
+[lyrics.3]
+text = "I would live ev -- er in the light, I would work ev -- er for the right; I would serve Thee with all my might; There -- fore, to Thee I come."
+
+[lyrics.4]
+text = "Just as I am, young, strong, and free, To be the best that I can be For truth, and right -- eous -- ness, and Thee, Lord of my life, I come."
+
+[lyrics.5]
+text = "With man -- y dreams of fame and gold, Suc -- cess and joy to make me bold, But dear -- er still my faith to hold, For my whole life, I come."
+
+[lyrics.6]
+text = "And for Thy sake to win re -- nown, And then to take the vic -- tor’s crown, And at Thy feet to cast it down, O Mas -- ter, Lord, I come."
