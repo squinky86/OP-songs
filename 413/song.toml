@@ -1,0 +1,94 @@
+title = "Yield Not to Temptation"
+verse_count = 3
+key_signature = "Bb"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 115
+phrase_breaks = ["4:48", "8:48", "12:48", "16:48", "20:48"]
+copyrights = [
+  "Lyrics and Music: Horatio R. Palmer, 1868 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+d''4. d''8 ees''8 d''8 | c''4. c''4. | bes'4. bes'8 c''8 bes'8 | a'2. |
+g'4. g'8 a'8 bes'8 | f'4. bes'4. | c''4. c''8 bes'8 c''8 | d''2. |
+d''4. d''8 ees''8 d''8 | c''4. c''4. | bes'4. bes'8 c''8 bes'8 | a'2. |
+g'4. g'8 a'8 bes'8 | f'4. bes'4. | d''4. c''8 bes'8 c''8 | bes'2. |
+f'4@c f'8 f'8 g'8 f'8 | f'4. bes'4. | c''4 c''8 c''8 bes'8 c''8 | d''4. bes'4. |
+bes'4 bes'8 bes'8 a'8 g'8 | f'4. bes'4. | d''4 d''8 c''8 bes'8 c''8 | bes'2.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+f'4. f'8 g'8 f'8 | f'4. ees'4. | g'4. g'8 a'8 g'8 | ges'2. |
+ees'4. ees'8 f'8 g'8 | d'4. d'4. | a'4. a'8 g'8 a'8 | bes'2. |
+bes'4. bes'8 c''8 bes'8 | a'4. a'4. | g'4. g'8 a'8 g'8 | ges'2. |
+ees'4. ees'8 f'8 g'8 | d'4. d'4. | f'4. ees'8 d'8 ees'8 | d'2. |
+d'4@c d'8 d'8 ees'8 d'8 | d'4. d'4. | f'4 f'8 f'8 f'8 f'8 | f'4. f'4. |
+g'4 g'8 g'8 f'8 ees'8 | d'4. f'4. | f'4 f'8 ees'8 d'8 ees'8 | d'2.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. | s2. | s2. | s2. |
+s2. | s2. | s2. | s2. |
+s2. | s2. | s2. | s2. |
+s2. | s2. | s2. | s2. |
+bes4@c bes8 bes8 bes8 bes8 | bes4. f4. | a4 a8 a8 g8 a8 | bes4. d'4. |
+ees'4 ees'8 ees'8 ees'8 bes8 | bes4. d'4. | bes4 bes8 a8 g8 a8 | f2.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. | s2. | s2. | s2. |
+s2. | s2. | s2. | s2. |
+s2. | s2. | s2. | s2. |
+s2. | s2. | s2. | s2. |
+bes,4@c bes,8 bes,8 bes,8 bes,8 | bes,4. bes,4. | f4 f8 f8 f8 f8 | bes4. bes,4. |
+ees4 ees8 ees8 ees8 ees8 | bes,4. bes,4. | f4 f8 f8 f8 f8 | bes,2.
+"""
+
+[lyrics.1]
+text = "Yield not to temp -- ta -- tion, for yield -- ing is sin; Each vic -- tory will help you some oth -- er to win; Fight man -- ful -- ly on -- ward, dark pas -- sions sub -- due, Look ev -- er to Je -- sus, He'll car -- ry you through."
+
+[lyrics.2]
+text = "Shun e -- vil com -- pan -- ions, bad lan -- guage dis -- dain, God's name hold in rev -- erence, nor take it in vain; Be thought -- ful and ear -- nest, kind -- heart -- ed and true, Look ev -- er to Je -- sus, He'll car -- ry you through."
+
+[lyrics.3]
+text = "To him that o'er -- com -- eth, God giv -- eth a crown; Through faith we shall con -- quer, though of -- ten cast down; He who is our Sav -- ior our strength will re -- new; Look ev -- er to Je -- sus, He'll car -- ry you through."
+
+[lyrics.chorus]
+text = "Ask the Sav -- ior to help you, Com -- fort, strength -- en and keep you; He is will -- ing to aid you, He will car -- ry you through."
+
+[parts.Tenor.lyrics.1]
+text = ""
+
+[parts.Tenor.lyrics.2]
+text = ""
+
+[parts.Tenor.lyrics.3]
+text = ""
+
+[parts.Bass.lyrics.1]
+text = ""
+
+[parts.Bass.lyrics.2]
+text = ""
+
+[parts.Bass.lyrics.3]
+text = ""
