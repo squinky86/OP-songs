@@ -1,0 +1,119 @@
+title = "Something for Jesus"
+subtitle = "Savior, Thy Dying Love"
+copyrights = [
+  "Lyrics: Sylvanus D. Phelps, 1862 (public domain)",
+  "Music: Robert Lowry, 1871 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 110
+verse_count = 4
+phrase_breaks = ["4:64", "8:64", "12:64"]
+optional_phrase_breaks = ["2:64", "6:64", "10:64", "14:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+b'2 c''4 b'4
+a'4. e'8 a'2
+g'4( fis'4) e'4 fis'4
+g'2( d'2)
+b'2 c''4 b'4
+a'4. e'8 a'2
+g'4( fis'4) b'4. a'8
+g'1
+a'2 a'4 b'4
+c''4. b'8 a'2
+b'2 b'4 c''4
+d''4. c''8 b'2
+d''2 c''4 b'4
+a'4. b'8 c''2
+g'4( fis'4) b'4. a'8
+g'1
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+d'2 e'4 d'4 |
+e'4. e'8 e'2 |
+d'2 c'4 c'4 |
+b1 |
+g'2 g'4 g'4 |
+e'4. e'8 e'2 |
+d'2 g'4. fis'8 |
+g'1 |
+fis'2 fis'4 g'4 |
+a'4. g'8 fis'2 |
+d'2 d'4 d'4 |
+g'4. d'8 d'2 |
+g'2 d'4 d'4 |
+e'4. e'8 e'2 |
+d'2 g'4. d'8 |
+g'1
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+g2 g4 g4
+c'4. c'8 c'2
+b4( a4) g4 a4
+g1
+d'2 e'4 d'4
+c'4. c'8 c'2
+b4( a4) d'4. c'8
+b1
+d'2 d'4 d'4
+d'4. d'8 d'2
+g2 g4 a4
+b4. a8 g2
+b2 a4 g4
+a4. gis8 a2
+b4( a4) d'4. c'8
+b1
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+g2 g4 g4
+c4. c8 c2
+d2 d4 d4
+g,1
+g2 g4 g4
+c4. c8 c2
+d2 d4. d8
+g1
+d2 d4 d4
+d4. d8 d2
+g2 g4 g4
+g4. g8 g2
+g2 fis4 g4
+c4. b,8 a,2
+d2 d4. d8
+<g, g>1
+"""
+
+[lyrics.1]
+text = "Sav -- ior, Thy dy -- ing love Thou gav -- est me. Nor should I aught with -- hold, Dear Lord, from Thee. In love my soul would bow, My heart ful -- fill its vow, Some off' -- ring bring Thee now, Some -- thing for Thee."
+
+[lyrics.2]
+text = "O'er the blest mer -- cy seat, Plead -- ing for me, My fee -- ble faith looks up, Je -- sus, to Thee. Help me the cross to bear, Thy won -- drous love de -- clare, Some song to raise, or prayer, Some -- thing for Thee."
+
+[lyrics.3]
+text = "Give me a faith -- ful heart, Like -- ness to Thee. That each de -- part -- ing day Hence -- forth may see Some work of love be -- gun, Some deed of kind -- ness done, Some wand' -- rer sought and won, Some -- thing for Thee."
+
+[lyrics.4]
+text = "All that I am and have, Thy gifts so free, In joy, in grief, through life, O Lord, for Thee! And when Thy face I see, My ran -- somed soul shall be Through all e -- ter -- ni -- ty, Some -- thing for Thee."
