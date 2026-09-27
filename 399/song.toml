@@ -1,0 +1,115 @@
+title = "Follow Me"
+copyrights = [
+  "Lyrics: Mary B. Sleight, 1868 (public domain)",
+  "Music: Horatio Richmond Palmer (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "E"
+time_sig_numerator = 2
+time_sig_denominator = 4
+tempo_bpm = 80
+verse_count = 3
+phrase_breaks = ["4:32", "8:32", "12:32"]
+optional_phrase_breaks = ["2:32", "6:32", "10:32", "14:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+gis'8. gis'16 gis'8 gis'8
+a'8 gis'8 gis'8 e'8
+gis'8 fis'8 fis'4
+a'8 gis'8 gis'4
+gis'8. gis'16 gis'8 gis'8
+a'8 gis'8 gis'8 fis'8
+e'8 e'8 fis'8 fis'8
+gis'2
+b'8. a'16 gis'8 a'8
+b'8 gis'8 cis''8 b'8
+a'8. gis'16 fis'8 gis'8
+a'8 fis'8 b'8[ a'8]
+gis'8. gis'16 gis'8 gis'8
+a'8 gis'8 gis'8 fis'8
+e'8 e'8 fis'8 fis'8
+gis'2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+e'8. e'16 e'8 e'8
+e'8 e'8 e'8 e'8
+e'8 dis'8 dis'4
+fis'8 e'8 e'4
+e'8. e'16 e'8 e'8
+e'8 e'8 e'8 dis'8
+cis'8 cis'8 dis'8 dis'8
+e'2
+gis'8. fis'16 e'8 fis'8
+gis'8 e'8 a'8 gis'8
+fis'8. e'16 dis'8 e'8
+fis'8 dis'8 gis'8[ fis'8]
+e'8. e'16 e'8 e'8
+e'8 e'8 e'8 dis'8
+cis'8 cis'8 dis'8 dis'8
+e'2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+b8. b16 b8 b8
+cis'8 b8 b8 gis8
+b8 b8 b4
+b8 b8 b4
+b8. b16 b8 b8
+cis'8 b8 b8 b8
+gis8 gis8 b8 b8
+b2
+e8. e16 e8 e8
+e8 e8 e8 e8
+b8. b16 b8 b8
+b8 b8 b4
+b8. b16 b8 b8
+cis'8 b8 b8 a8
+gis8 gis8 b8 b8
+b2
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+e8. e16 e8 e8
+e8 e8 e8 e8
+b,8 b,8 b,4
+dis8 e8 e4
+e8. e16 e8 e8
+e8 e8 e8 b,8
+cis8 cis8 b,8 b,8
+e2
+e8. e16 e8 e8
+e8 e8 e8 e8
+b,8. b,16 b,8 b,8
+b,8 b,8 b,4
+e8. e16 e8 e8
+e8 e8 e8 b,8
+cis8 cis8 b,8 b,8
+e2
+"""
+
+[lyrics.1]
+text = "Hark! the voice of Je -- sus call -- ing, “Fol -- low Me, fol -- low Me,” Soft -- ly through the si -- lence fall -- ing, “Fol -- low, fol -- low Me.” As of old He called the fish -- ers, When He walked by Gal -- i -- lee, Still His pa -- tient voice is plead -- ing, “Fol -- low, fol -- low Me,”"
+
+[lyrics.2]
+text = "Who will heed the ho -- ly man -- date, “Fol -- low Me, fol -- low Me,” Leav -- ing all things at His bid -- ding, “Fol -- low, fol -- low Me.” Hark, that ten -- der voice en -- treat -- ing, Mar -- i -- ners on life’s rough sea, Gent -- ly, lov -- ing -- ly re -- peat -- ing, “Fol -- low, fol -- low Me.”"
+
+[lyrics.3]
+text = "Heark -- en, lest He plead no long -- er, “Fol -- low Me, fol -- low Me,” Once a -- gain, O hear Him call -- ing, “Fol -- low, fol -- low Me.” Turn -- ing swift at Thy sweet sum -- mons, Ev -- er -- more, dear Christ, would we For Thy love all else for -- sak -- ing, Fol -- low, fol -- low Thee."
