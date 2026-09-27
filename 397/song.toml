@@ -1,0 +1,117 @@
+title = "Come to the Savior"
+copyrights = [
+  "Lyrics and Music: George F. Root, 1870 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Bb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 105
+verse_count = 3
+phrase_breaks = ["4:64", "8:64", "12:64"]
+optional_phrase_breaks = ["2:64", "6:64", "10:64", "14:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+f'4 g'8. f'16 d'4 f'4
+bes'4 c''8. bes'16 g'2
+a'4 a'8. bes'16 c''4 d''4
+bes'4 a'8. g'16 f'2
+f'4 g'8. f'16 d'4 f'4
+bes'4 c''8. bes'16 g'2
+a'4 a'8. bes'16 c''4 d''4
+bes'1
+d''4@c d''4 ees''4. d''8
+d''8 c''8 c''8 g'8 c''2
+c''4 c''4 d''4. c''8
+c''8 bes'8 bes'8 g'8 f'2
+f'4 g'8. f'16 d'4 f'4
+bes'4 c''8. bes'16 g'2
+a'4 a'8. bes'16 c''4 d''4
+bes'1
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+d'4 ees'8. d'16 bes4 d'4
+f'4 f'8. f'16 ees'2
+c'4 c'8. d'16 ees'4 f'4
+d'4 ees'8. ees'16 d'2
+d'4 ees'8. d'16 bes4 d'4
+f'4 f'8. f'16 ees'2
+c'4 c'8. d'16 ees'4 f'4
+d'1
+f'4@c f'4 g'4. f'8
+ees'8 ees'8 ees'8 ees'8 ees'2
+ees'4 ees'4 f'4. ees'8
+d'8 d'8 d'8 ees'8 d'2
+d'4 ees'8. d'16 bes4 d'4
+f'4 f'8. f'16 ees'2
+c'4 c'8. d'16 ees'4 f'4
+d'1
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+bes4 bes8. bes16 f4 bes4
+bes4 bes8. bes16 bes2
+f4 f8. f16 a4 a4
+bes4 bes8. bes16 bes2
+bes4 bes8. bes16 f4 bes4
+bes4 bes8. bes16 bes2
+f4 f8. f16 a4 a4
+bes1
+bes4@c bes4 bes4. bes8
+g8 g8 g8 g8 g2
+a4 a4 a4. a8
+bes8 bes8 bes8 bes8 bes2
+bes4 bes8. bes16 f4 bes4
+bes4 bes8. bes16 bes2
+f4 f8. f16 a4 a4
+bes1
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+bes,4 bes,8. bes,16 bes,4 bes,4
+d4 d8. d16 ees2
+f4 f8. f16 f4 f4
+bes,4 bes,8. bes,16 bes,2
+bes,4 bes,8. bes,16 bes,4 bes,4
+d4 d8. d16 ees2
+f4 f8. f16 f4 f4
+bes,1
+bes,4@c bes,4 bes,4. bes,8
+ees8 ees8 ees8 ees8 ees2
+f4 f4 f4. f8
+bes,8 bes,8 bes,8 bes,8 bes,2
+bes,4 bes,8. bes,16 bes,4 bes,4
+d4 d8. d16 ees2
+f4 f8. f16 f4 f4
+bes,1
+"""
+
+[lyrics.1]
+text = "Come to the Sav -- ior, make no de -- lay; Here in His Word He’s shown us the way; Here in our midst He’s stand -- ing to -- day, Ten -- der -- ly say -- ing, “Come!”"
+
+[lyrics.2]
+text = "“Suf -- fer the chil -- dren!” oh, hear His voice! Let ev -- ’ry heart leap forth and re -- joice; And let us free -- ly make Him our choice; Do not de -- lay, but come."
+
+[lyrics.3]
+text = "Think once a -- gain, He’s with us to -- day; Heed now His blest com -- mands, and o -- bey; Hear now His ac -- cents ten -- der -- ly say, “Will you, My chil -- dren, come?”"
+
+[lyrics.chorus]
+text = "Joy -- ful, joy -- ful will the meet -- ing be, When from sin our hearts are pure and free; And we shall gath -- er, Sav -- ior, with Thee, In our e -- ter -- nal home."
