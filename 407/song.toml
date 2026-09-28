@@ -1,0 +1,64 @@
+title = "I Am Coming Home"
+verse_count = 5
+key_signature = "G"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 105
+phrase_breaks = ["2:64", "4:64", "8:64", "12:64"]
+optional_phrase_breaks = ["6:64", "10:64", "14:64"]
+copyrights = [
+  "Lyrics: Alfred H. Ackley, 1910 (public domain)",
+  "Music: Bentley D. Ackley, 1910 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+b'4. g'8 a'8 g'8 e'8 g'8 | d'4 e'4 g'4 a'4 | b'4. c''8 d''8 b'8 a'8 g'8 | fis'4 g'4 a'2 | b'4. g'8 a'8 g'8 e'8 g'8 | d'4 e'4 g'4 a'4 | b'4 d''4 b'8 a'4. | g'2. r4 | d''4.@c e''8 d''8 b'8 g'8 c''8 | b'4 d'4 b'2 | a'4. a'8 b'8 a'8 g'8 a'8 | b'4 d''4 d''2 | d''4. e''8 d''8 b'8 g'8 c''8 | b'4 d'4 g'4 a'4 | b'4 d''4 b'8 a'4. | g'2. r4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+g'4. d'8 e'8 e'8 c'8 c'8 | b4 c'4 d'4 d'4 | d'4. d'8 d'8 d'8 d'8 d'8 | d'4 d'4 fis'2 | g'4. d'8 e'8 e'8 c'8 c'8 | b4 c'4 d'4 d'4 | d'4 d'4 d'8 d'4. | d'2. r4 | g'4.@c g'8 g'8 g'8 g'8 g'8 | g'4 d'4 g'2 | fis'4. fis'8 g'8 fis'8 e'8 fis'8 | g'4 fis'4 g'4( fis'4) | g'4. g'8 g'8 g'8 g'8 g'8 | g'4 d'4 e'4 fis'4 | g'4 g'4 fis'8 fis'4. | d'2. r4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+d'4. b8 c'8 c'8 g8 g8 | g4 g4 g4 fis4 | g4. a8 b8 d'8 c'8 b8 | c'4 b4 c'2 | d'4. b8 c'8 c'8 g8 g8 | g4 g4 g4 fis4 | g4 g4 g8 c'4. | b2. r4 | b4.@c c'8 b8 d'8 b8 e'8 | d'4 b4 d'2 | d'4. d'8 d'8 c'8 b8 d'8 | d'4 c'4 d'4( c'4) | b4. c'8 b8 d'8 b8 e'8 | d'4 c'4 b4 d'4 | d'4 d'4 d'8 c'4. | b2. r4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+g4. g8 c8 c8 c8 e8 | g,4 g,4 b,4 d4 | g4. g8 g8 g8 g8 g8 | a4 g4 d2 | g4. g8 c8 c8 c8 e8 | g,4 g,4 b,4 d4 | g4 b,4 d8 fis4. | g2. r4 | g4.@c g8 g8 g8 g8 g8 | g4 g4 g2 | d4. d8 d8 d8 e8 d8 | g4 a4 b4( a4) | g4. g8 g8 g8 g8 g8 | g4 fis4 e4 d4 | g4 b,4 d8 d4. | g2. r4
+"""
+
+[lyrics.1]
+text = "Je -- sus, I am com -- ing home to -- day, for I have found there’s joy in Thee a -- lone; From the path of sin I turn a -- way; now I am com -- ing home."
+
+[lyrics.2]
+text = "Ma -- ny years my heart has strayed from Thee, and Now re -- pent -- ant to Thy throne I come; Je -- sus o -- pened up the way for me; now I am com -- ing home."
+
+[lyrics.3]
+text = "O the mis -- er -- y my sin has caused me, Naught but pain and sor -- row I have known; Now I seek Thy sav -- ing grace and mer -- cy; I am com -- ing home."
+
+[lyrics.4]
+text = "Ful -- ly trust -- ing in Thy pre -- cious prom -- ise, With no right -- eous -- ness to call my own, Plead -- ing no -- thing but the blood of Je -- sus, I am com -- ing home."
+
+[lyrics.5]
+text = "Now I seek the cross where Je -- sus died! For All my sins His blood will still a -- tone, Flow -- ing o’er till ev -- ’ry stain is cov -- ered; I am com -- ing home."
+
+[lyrics.chorus]
+text = "Je -- sus, I am com -- ing home to -- day, Nev -- er, nev -- er more from Thee to stray; Lord, I now ac -- cept Thy pre -- cious prom -- ise, I am com -- ing home."
