@@ -1,0 +1,75 @@
+title = "At the Cross"
+subtitle = "Alas! And Did My Savior Bleed?"
+verse_count = 6
+key_signature = "Eb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 90
+phrase_breaks = ["5:48", "9:48", "11:48", "13:48"]
+optional_phrase_breaks = ["3:48", "7:48", "15:48"]
+non_breaking_phrase_breaks = ["13:16"]
+copyrights = [
+    "Lyrics: Isaac Watts, 1707 (public domain)",
+    "Refrain and Music: Ralph E. Hudson, 1885 (public domain)",
+    "Courtesy of the [Timeless Truths Free Online Library](https://library.timelesstruths.org)",
+    "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[lyrics.1]
+text = "A -- las! and did my Sav -- ior bleed And did my Sov -- ’reign die? Would He de -- vote that sa -- cred head For such a worm as I?"
+
+[lyrics.2]
+text = "Thy bod -- y slain, sweet Je -- sus, Thine— And bathed in its own blood— While the firm mark of wrath di -- vine, His soul in an -- guish stood."
+
+[lyrics.3]
+text = "Was it for crimes that I had done He groaned up -- on the tree? A -- maz -- ing pit -- y! grace un -- known! And love be -- yond de -- gree!"
+
+[lyrics.4]
+text = "Well might the sun in dark -- ness hide And shut his glo -- ries in, When Christ, the might -- y Mak -- er died, For man the crea -- ture’s sin."
+
+[lyrics.5]
+text = "Thus might I hide my blush -- ing face While His dear cross ap -- pears, Dis -- solve my heart in thank -- ful -- ness, And melt my eyes to tears."
+
+[lyrics.6]
+text = "But drops of grief can ne’er re -- pay The debt of love I owe: Here, Lord, I give my -- self a -- way, ’Tis all that I can do."
+
+[lyrics.chorus]
+text = "At the cross, at the cross where I first saw the light, And the bur -- den of my heart rolled a -- way, It was there by faith I re -- ceived my sight, And now I am hap -- py all the day!"
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. ees'4 | g'4. f'8 ees'4 g'4 | bes'4. aes'8 g'4 bes'4 | c''4 bes'4 aes'4 g'4 | f'2. ees'4 | g'4. f'8 ees'4 g'4 | bes'4. c''8 bes'4 ees'4 | f'4 aes'4 g'4 f'4 | ees'2. ees'8@c f'8 | g'4 g'8. g'16 g'4 aes'8 g'8 | g'8[ f'8] f'8. ees'16 f'4 f'8 g'8 | aes'8 aes'8 aes'8. aes'16 aes'4 bes'8. aes'16 | g'2. g'8 g'8 | aes'4 aes'4 c'4 aes'8 aes'8 | g'4 g'8[ f'8] ees'4 g'4 | f'4 f'8 ees'8 d'8 aes'8 g'8. f'16 | ees'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. ees'4 | ees'4. ees'8 ees'4 ees'4 | g'4. f'8 ees'4 ees'4 | ees'4 ees'4 d'4 ees'4 | d'2. ees'4 | ees'4. ees'8 ees'4 ees'4 | g'4. aes'8 g'4 ees'4 | c'4 f'4 ees'4 d'4 | ees'2. ees'8@c ees'8 | ees'4 ees'8. ees'16 ees'4 ees'8 ees'8 | ees'8[ d'8] d'8. ees'16 d'4 d'8 ees'8 | f'8 f'8 f'8. f'16 f'4 g'8. f'16 | ees'2. ees'8 ees'8 | ees'4 ees'4 c'4 ees'8 f'8 | ees'4 ees'4 ees'4 ees'4 | c'4 c'8 c'8 bes8 f'8 ees'8. d'16 | ees'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. g4 | bes4. aes8 g4 bes4 | ees'4. bes8 bes4 ees'4 | ees'4 ees'4 bes4 bes4 | bes2. g4 | bes4. aes8 g4 bes4 | ees'4. ees'8 ees'4 g4 | aes4 c'4 bes4 aes4 | g2. g8@c aes8 | bes4 bes8. bes16 bes4 c'8 bes8 | bes4 bes8. g16 bes4 bes8 bes8 | f'8 ees'8 d'8. c'16 bes4 bes8. bes16 | bes4 ees'8. ees'16 bes4 bes8 bes8 | c'4 c'4 aes4 c'8 c'8 | bes4 bes8[ aes8] g4 bes4 | aes4 aes8 aes8 f8 bes8 bes8. aes16 | g2. s4
+"""
+
+[parts.Tenor.lyrics.chorus]
+text = "At the cross, at the cross where I first saw the light, And the bur -- den of my heart rolled a -- way, rolled a -- way, It was there by faith I re -- ceived my sight, And now I am hap -- py all the day!"
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. ees4 | ees4. ees8 ees4 ees4 | ees4. ees8 ees4 g4 | aes4 g4 f4 ees4 | bes,2. ees4 | ees4. ees8 ees4 ees4 | ees4. ees8 ees4 ees4 | aes,4 aes,4 bes,4 bes,4 | ees2. ees8@c ees8 | ees4 ees8. ees16 ees4 ees8 ees8 | bes,4 bes,8. bes,16 bes,4 bes,8 bes,8 | bes,8 bes,8 bes,8. bes,16 bes,4 bes,8. bes,16 | ees4 ees8. ees16 ees4 ees8 ees8 | aes,8[ bes,8] c8[ bes,8] aes,8[ bes,8] c8 d8 | ees4 ees4 ees4 ees4 | aes,4 aes,8 aes,8 bes,8 bes,8 bes,8. bes,16 | ees2. s4
+"""
+
+[parts.Bass.lyrics.chorus]
+text = "At the cross, at the cross where I first saw the light, And the bur -- den of my heart rolled a -- way, rolled a -- way, It was there by faith I re -- ceived my sight, And now I am hap -- py all the day!"
