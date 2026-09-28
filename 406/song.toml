@@ -1,0 +1,70 @@
+title = "Coming Home"
+subtitle = ""
+verse_count = 5
+key_signature = "Bb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 113
+phrase_breaks = ["2:64", "4:64", "8:48", "10:48", "12:40", "14:48"]
+copyrights = [
+  "Lyrics: Alfred Henry Ackley, 1917 (public domain)",
+  "Music: Bentley DeForest Ackley (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+f'4 f'4 g'8 f'8 e'8 f'8 | bes'4 c''4 d''2 | d''4 c''4 c''8 b'8 c''8 d''8 | bes'4 g'4 f'2 | f'4 f'4 g'8 f'8 e'8 f'8 | bes'4 c''4 d''2 | c''4 a'4 a'8 g'4. | f'2. d'8@c ees'8 | f'2. bes'8 c''8 | d''2. ees''4 | d''8 c''8 b'8 c''8 d''4 c''4 | bes'4 g'4 f'8 ees'8 d'8 ees'8 | f'2. bes'8 c''8 | d''2. ees''4 | d''8 c''8 b'8 c''8 d''8 c''4. | bes'1
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+d'4 d'4 ees'8 d'8 cis'8 d'8 | f'4 f'4 f'2 | f'4 ees'4 ees'8 d'8 ees'8 f'8 | d'4 ees'4 d'2 | d'4 d'4 ees'8 d'8 cis'8 d'8 | f'4 f'4 f'2 | f'4 f'4 e'8 e'4. | c'2. bes8@c c'8 | d'2. d'8 ees'8 | f'2. g'4 | f'8 ees'8 d'8 ees'8 f'4 ees'4 | d'4 ees'4 d'8 c'8 bes8 c'8 | d'2. d'8 ees'8 | f'2. g'4 | f'8 ees'8 d'8 ees'8 f'8 ees'4. | d'1
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+bes4 bes4 bes8 bes8 bes8 bes8 | bes4 a4 bes2 | a4 a4 a8 gis8 a8 f8 | f4 bes4 bes2 | bes4 bes4 bes8 bes8 bes8 bes8 | bes4 a4 bes2 | a4 c'4 c'8 bes4. | a2. r4 | bes,8@c[ bes8] bes8 bes8 bes4 r4 | r8 bes8 bes8 bes8 bes4 bes4 | bes8 a8 gis8 a8 a4 f4 | f4 bes4 bes4 r4 | r8 bes8 bes8 bes8 bes4 r4 | r8 bes8 bes8 bes8 bes4 bes4 | a8 a8 gis8 a8 a8 a4. | bes1
+"""
+
+[parts.Tenor.lyrics.chorus]
+text = "I’m com -- ing home, I’m com -- ing home, No long -- er in the path of sin to roam; I’m com -- ing home, I’m com -- ing home, Lord Je -- sus, I am com -- ing home."
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+bes,4 bes,4 bes,8 bes,8 bes,8 bes,8 | d4 f4 bes2 | f4 f4 f8 f8 f8 f8 | bes,4 bes,4 bes,2 | bes,4 bes,4 bes,8 bes,8 bes,8 bes,8 | d4 f4 bes2 | c4 c4 c8 c4. | f2. r4 | bes,8@c[ bes,8] d8 f8 bes4 r4 | r8 bes,8 d8 f8 bes4 bes4 | f8 f8 f8 f8 f4 f4 | bes,4 bes,4 bes,4 r4 | r8 bes,8 d8 f8 bes4 r4 | r8 bes,8 d8 f8 bes4 bes4 | f8 f8 f8 f8 f8 f4. | bes,1
+"""
+
+[parts.Bass.lyrics.chorus]
+text = "I’m com -- ing home, I’m com -- ing home, No long -- er in the path of sin to roam; I’m com -- ing home, I’m com -- ing home, Lord Je -- sus, I am com -- ing home."
+
+[lyrics.1]
+text = "Vile and sin -- ful tho’ my heart may be, Ful -- ly trust -- ing Lord, I come to Thee; Thou hast pow’r to cleanse and make me free, I am com -- ing home."
+
+[lyrics.2]
+text = "Like a fa -- ther seeks a way -- ward child, Thou hast sought me o’er the des -- ert wild, Sick and help -- less, by my sin de -- filed, I am com -- ing home."
+
+[lyrics.3]
+text = "Plead -- ing ten -- der -- ly, His voice I hear, Why should I re -- fuse a friend so dear? He will take a -- way my guilt and fear, I am com -- ing home."
+
+[lyrics.4]
+text = "Pre -- cious blood of Je -- sus, may its flow Cleanse from e -- vil, wash me white as snow; There is hope a -- lone in Thee, I know, I am com -- ing home."
+
+[lyrics.5]
+text = "Tell my mo -- ther what her boy has done, God has spo -- ken to her way -- ward son; To be faith -- ful till my crown is won, I am com -- ing home."
+
+[lyrics.chorus]
+text = "Com -- ing home, com -- ing home, No long -- er in the path of sin to roam; I’m com -- ing home, com -- ing home, Lord Je -- sus, I am com -- ing home."
