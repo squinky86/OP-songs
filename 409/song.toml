@@ -1,0 +1,61 @@
+title = "Softly and Tenderly"
+verse_count = 3
+key_signature = "Ab"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 80
+phrase_breaks = ["4:48", "8:40", "12:48"]
+optional_phrase_breaks = ["2:48", "6:48", "10:48", "14:48"]
+non_breaking_phrase_breaks = ["9:16", "9:40", "10:16"]
+copyrights = [
+  "Lyrics and Music: Will L. Thompson, 1880 (public domain)",
+  "Courtesy of [Hymnary.org](https://hymnary.org)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+c''8. bes'16 aes'8 aes'8 g'8 aes'8 | bes'8 aes'8 f'8 f'8 ees'4 | aes'8 aes'8 aes'8 c''8. bes'16 aes'8 | bes'2. | c''8. bes'16 aes'8 aes'8 g'8 aes'8 | bes'8 aes'8 f'8 f'8 ees'4 | aes'8 aes'8 des''8 c''8. aes'16 bes'8 | aes'4.~ aes'4 ees'8@c | bes'4.~ bes'4 c''8 | aes'4( bes'8 c''4.) | bes'8 bes'8 bes'8 c''16 c''8. d''8 | ees''4( d''8 des''4.!) | c''8. bes'16 aes'8 aes'8 g'8 aes'8 | bes'8 aes'8 f'8 f'8 ees'8 r8 | aes'16\\rit aes'8. des''8! c''16 aes'8.! bes'8! | aes'2.\\spanend
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+ees'8. des'16 c'8 ees'8 des'8 c'8 | des'8 des'8 des'8 des'8 c'4 | ees'8 ees'8 ees'8 d'8. d'16 d'8 | ees'2. | ees'8. des'16 c'8 ees'8 des'8 c'8 | des'8 des'8 des'8 des'8 c'4 | ees'8 ees'8 f'8 ees'8. c'16 des'8 | c'4.~ c'4 r8@c | r4 g'8 g'4 r8 | r4 g'8 aes'4. | g'8 g'8 bes'8 a'16 a'8. aes'8 | g'4( aes'8 bes'4.!) | ees'8. des'16 c'8 ees'8 des'8 c'8 | des'8 des'8 des'8 des'8 c'8 r8 | ees'16 ees'8. f'8! ees'16 c'8.! des'8! | c'2.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+aes8. aes16 aes8 aes8 ees8 ees8 | f8 f8 aes8 aes8 aes4 | c'8 c'8 c'8 aes8. aes16 bes8 | g2. | aes8. aes16 aes8 aes8 ees8 ees8 | f8 f8 aes8 aes8 aes4 | aes8 aes8 aes8 aes8. aes16 g8 | aes4.~ aes4 r8@c | r4 des'8 des'4 ees'8 | c'4( ees'8 ees'4.) | ees'8 ees'8 ees'8 ees'16 ees'8. bes8 | bes4.( ees'4.!) | aes8. aes16 aes8 aes8 ees8 ees8 | f8 f8 aes8 aes8 aes8 r8 | aes16 aes8. aes8! aes16 aes8.! g8! | aes2.
+"""
+
+# The tenor's 31 refrain slots against the other voices' 29: see the header
+# note. Slots 3 and 4 ("come home,", m.9 last eighth + m.10 beat 1) are the
+# tenor doubling the soprano's call; slots 1-2 and 5-6 are the echo.
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+aes,8. aes,16 aes,8 c8 bes,8 aes,8 | des8 des8 des8 aes,8 aes,4 | aes8 aes8 aes8 f8. f16 f8 | ees2. | aes,8. aes,16 aes,8 c8 bes,8 aes,8 | des8 des8 des8 aes,8 aes,4 | c8 c8 des8 ees8. ees16 ees8 | aes,4.~ aes,4 r8@c | r4 ees8 ees4 r8 | r4 ees8 aes4. | bes8 bes8 g8 f16 f8. bes8 | ees4( f8 g4.!) | aes,8. aes,16 aes,8 c8 bes,8 aes,8 | des8 des8 des8 aes,8 aes,8 r8 | c16 c8. des8! ees16 ees8.! ees8! | aes,2.
+"""
+
+[lyrics.1]
+text = "Soft -- ly and ten -- der -- ly Je -- sus is call -- ing, Call -- ing for you and for me; See, on the por -- tals He's wait -- ing and watch -- ing, Watch -- ing for you and for me."
+
+[lyrics.2]
+text = "Why should we tar -- ry when Je -- sus is plead -- ing, Plead -- ing for you and for me? Why should we lin -- ger and heed not His mer -- cies, Mer -- cies for you and for me?"
+
+[lyrics.3]
+text = "O for the won -- der -- ful love He has prom -- ised, Prom -- ised for you and for me! Though we have sinned, He has mer -- cy and par -- don, Par -- don for you and for me."
+
+[lyrics.chorus]
+text = "Come home, come home, Ye who are wea -- ry, come home; Ear -- nest -- ly, ten -- der -- ly, Je -- sus is call -- ing, Call -- ing, O sin -- ner, come home!"
