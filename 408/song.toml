@@ -1,0 +1,64 @@
+title = "I Am Praying for You"
+verse_count = 5
+key_signature = "G"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 140
+phrase_breaks = ["4:48", "8:48", "12:48", "16:48", "20:48"]
+optional_phrase_breaks = ["18:48", "22:48"]
+copyrights = [
+  "Lyrics: Samuel O’Malley Gore Cluff, 1860 (public domain)",
+  "Music: Ira David Sankey, 1874 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+d'2 d'4 g'4 | b'2 g'4 b'4 | b'4( a'4) e'4 fis'4 | g'2 d'4 d'4 | d'2 g'4 b'4 | d''2 b'4 b'4 | b'2 a'4 g'4 | a'2. d'4 | d'2 d'4 g'4 | b'2 g'4 b'4 | b'4( a'4) e'4 fis'4 | g'2 d'4 g'4 | g'2 fis'4 e'4 | d'2 g'4 a'4 | b'2 a'4 a'4 | g'2. b'4@c%f | d''2 d''4 e''4 | d''2 b'4 b'4%p | b'2 b'4 c''4 | b'2 a'4 g'4 | g'2%f fis'4 e'4 | d'2 g'4! g'4%pp | g'4( fis'4) e'4 fis'4! | g'1!
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+b2 b4 b4 | d'2 b4 d'4 | c'2 c'4 c'4 | b2 b4 b4 | b2 d'4 g'4 | g'2 g'4 g'4 | g'2 d'4 cis'4 | d'2. d'4 | b2 b4 b4 | d'2 b4 d'4 | c'2 c'4 c'4 | b2 b4 b4 | e'2 d'4 c'4 | b2 cis'4 cis'4 | d'2 fis'4 fis'4 | g'2. g'4@c%f | g'2 g'4 g'4 | g'2 g'4 g'4%p | g'2 g'4 g'4 | g'2 fis'4 e'4 | e'2%f d'4 c'4 | b2 d'4! d'4%pp | c'2 c'4 c'4! | b1!
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+g2 g4 g4 | g2 g4 g4 | fis2 a4 a4 | g2 g4 g4 | g2 b4 d'4 | b2 d'4 d'4 | d'2 d'4 a4 | fis2. fis4 | g2 g4 g4 | g2 g4 g4 | fis2 a4 a4 | g2 g4 g4 | g2 g4 g4 | g2 a4 a4 | g2 c'4 c'4 | b2. d'4@c%f | b2 b4 c'4 | b2 d'4 d'4%p | d'2 d'4 e'4 | d'2 c'4 b4 | c'2%f g4 g4 | g2 b4! b4%pp | a2 g4 a4! | g1!
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+g2 g4 g4 | g2 g4 g4 | d2 d4 d4 | g2 g4 g4 | g2 g4 g4 | g2 g4 g4 | g2 fis4 e4 | d2. d4 | g,2 g,4 g,4 | g,2 g,4 g,4 | d2 d4 d4 | g,2 g,4 g,4 | c2 c4 c4 | g2 e4 e4 | d2 d4 d4 | g2. g4@c%f | g2 g4 g4 | g2 g4 g4%p | g2 g4 g4 | g2 d4 e4 | c2%f c4 c4 | d2 d4! d4%pp | d2 d4 d4! | g,1!
+"""
+
+[lyrics.1]
+text = "I have a Sav -- ior, He’s plead -- ing in glo -- ry, A dear, lov -- ing Sav -- ior though earth friends be few; And now He is watch -- ing in ten -- der -- ness o’er me; And oh, that my Sav -- ior were your Sa -- vior, too."
+
+[lyrics.2]
+text = "I have a Fa -- ther; to me He has giv -- en A hope for e -- ter -- ni -- ty, bless -- èd and true; And soon He will call me to meet Him in hea -- ven, But, oh, that He’d let me bring you with me, too!"
+
+[lyrics.3]
+text = "I have a robe; ’tis re -- splen -- dent in white -- ness, A -- wait -- ing in glo -- ry my won -- der -- ing view; Oh, when I re -- ceive it all shin -- ing in bright -- ness, Dear friend, could I see you re -- ceiv -- ing one, too!"
+
+[lyrics.4]
+text = "When‿Je -- sus has found you, tell o -- thers the sto -- ry, That my lov -- ing Sav -- ior is your Sav -- ior, too; Then pray that your Sav -- ior may bring them to glo -- ry, And prayer will be an -- swered— ’twas an -- swered for you!"
+
+[lyrics.5]
+text = "Speak of that Sav -- ior, that Fa -- ther in hea -- ven, That harp, crown, and robe which are wait -- ing for you— That peace you pos -- sess, and that rest to be giv -- en, Still pray -- ing that Je -- sus may save them with you."
+
+[lyrics.chorus]
+text = "For you I am pray -- ing, For you I am pray -- ing, For you I am pray -- ing, I’m pray -- ing for you."
