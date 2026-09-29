@@ -1,0 +1,81 @@
+title = "Men of the Church"
+copyrights = [
+  "Lyrics: Samuel M. Glasgow, 1923 (public domain)",
+  "Music: 'St. Catherine' by Henri F. Hemy, 1864 (public domain)",
+  "Arrangement: J. G. Walton, 1874 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 4
+phrase_breaks = ["8:48", "16:48"]
+optional_phrase_breaks = ["4:48", "12:48", "20:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+c''4 bes'4 aes'4 | aes'4 g'4 aes'4 | bes'4( f'4) g'4 | aes'2. |
+aes'4 g'4 f'4 | ees'2 aes'4 | aes'4( g'4) aes'4 | bes'2. |
+c''4 bes'4 aes'4 | aes'4( g'4) aes'4 | bes'4( f'4) g'4 | aes'2. |
+aes'4 g'4 f'4 | ees'2 c''4 | bes'4( c''4) bes'4 | aes'2. |
+des''4@c des''4 des''4 | c''2 c''4 | bes'2 bes'4 | c''2. |
+c''4 bes'4 aes'4 | f'2 aes'4 | bes'2 bes'4 | aes'2. |
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+ees'4 ees'4 ees'4 | ees'4 ees'4 ees'4 | f'2 ees'4 | ees'2. |
+f'4 ees'4 des'4 | c'2 ees'4 | d'2 d'4 | ees'2. |
+ees'4 ees'4 ees'4 | ees'2 ees'4 | f'2 ees'4 | ees'2. |
+f'4 ees'4 des'4 | c'2 ees'4 | d'2 des'4 | c'2. |
+f'4@c f'4 f'4 | ees'2 aes'4 | g'2 g'4 | aes'2. |
+ees'4 ees'4 ees'4 | f'2 f'4 | g'2 ees'4 | ees'2. |
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+aes4 des'4 c'4 | c'4 des'4 c'4 | des'2 bes4 | c'2. |
+aes4 aes4 aes4 | aes2 aes4 | bes2 aes4 | g2. |
+aes4 des'4 c'4 | c'4( des'4) c'4 | des'2 bes4 | c'2. |
+aes4 aes4 aes4 | aes2 aes4 | aes2 g4 | aes2. |
+aes4@c aes4 aes4 | aes2 ees4 | ees'2 ees'4 | ees'2. |
+ees'4 des'4 c'4 | des'2 c'4 | ees'4( bes4) des'4 | c'2. |
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+aes4 aes4 aes4 | aes4 bes4 aes4 | des2 ees4 | aes,2. |
+des4 des4 des4 | aes,2 c4 | bes,2 bes,4 | ees2. |
+aes4 aes4 aes4 | aes4( bes4) aes4 | des2 ees4 | aes,2. |
+des4 des4 f4 | aes2 f4 | bes,2 ees4 | aes,2. |
+des4@c des4 des4 | aes,2 aes,4 | ees2 ees4 | aes2. |
+aes4 aes4 aes4 | des2 f4 | ees2 ees4 | aes,2. |
+"""
+
+[lyrics.1]
+text = "Men of the Church of the Liv -- ing God; Born of the wa -- ter and the Word, In His dear name let now a -- rise Our mar -- shalled strength be -- fore His eyes."
+
+[lyrics.2]
+text = "Men of the Church of the Liv -- ing God; Men who are in -- wrought with the Word, Men whose right hands the na -- tions mould, Who put no price up -- on their soul."
+
+[lyrics.3]
+text = "Men of the Church of the Liv -- ing God; Each fash -- ioned ’neath His chast’ -- ning rod, Well pan -- o -- plied for Zi -- on’s strife, May Christ- -- like cour -- age fill our life."
+
+[lyrics.4]
+text = "Men of the Church of the Liv -- ing God; In whom the a -- ge’s wealth is stored, With us He links His king -- dom’s fame, And girds us with that match -- less name."
+
+[lyrics.chorus]
+text = "Men of the Church, the Church of God, We will be loy -- al to His blood!"
