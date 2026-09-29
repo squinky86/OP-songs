@@ -1,0 +1,74 @@
+title = "Mother’s Prayers Have Followed Me"
+verse_count = 3
+key_signature = "D"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 95
+phrase_breaks = ["5:24", "9:24", "13:24"]
+optional_phrase_breaks = ["3:24", "7:24", "11:24", "15:24"]
+copyrights = [
+  "Lyrics: Lizzie Douglas Foulks DeArmond, 1912 (public domain)",
+  "Music: Bentley DeForest Ackley, 1912 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s4 s8 d'8 e'8 fis'8 | a'4. fis'8 g'8 a'8 | b'4. d''8 cis''8 b'8 | a'4. fis'8 fis'8. e'16
+e'4. d'8 e'8 fis'8 | a'4. fis'8 g'8 a'8 | b'4. d''8 cis''16 b'8. | a'4. b'8 fis'16 e'8.
+d'4. d'8@c e'8 fis'8 | a'4. fis'8 e'8 d'8 | d''4. d''8 cis''8 b'8 | a'4. fis'8 e'8 fis'8
+e'4. d'8 e'8 fis'8 | a'4. fis'8 e'8 d'8 | d''4. d''8 cis''8 b'8 | a'4. fis'8 fis'8. e'16
+d'4. s4 s8
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s4 s8 d'8 d'8 d'8 | fis'4. d'8 e'8 fis'8 | g'4. g'8 a'8 g'8 | fis'4. d'8 d'8. d'16
+cis'4. d'8 d'8 d'8 | fis'4. d'8 e'8 fis'8 | g'4. g'8 a'16 g'8. | fis'4. fis'8 d'16 cis'8.
+d'4. d'8@c d'8 d'8 | fis'4. d'8 d'8 d'8 | fis'4. fis'8 g'8 g'8 | fis'4. d'8 d'8 d'8
+cis'4. d'8 d'8 d'8 | fis'4. d'8 d'8 d'8 | fis'4. a'8 a'8 g'8 | fis'4. d'8 cis'8. cis'16
+d'4. s4 s8
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s4 s8 fis8 g8 a8 | d'4. a8 a8 d'8 | d'4. b8 cis'8 d'8 | d'4. a8 gis8. gis16
+g4. fis8 g8 a8 | d'4. a8 a8 d'8 | d'4. b8 cis'16 d'8. | d'4. d'8 a16 g8.
+fis4. fis8@c g8 a8 | d'4. a8 g8 fis8 | a4. a8 b8 cis'8 | d'4. a8 gis8 gis8
+g4. fis8 g8 a8 | d'4. a8 g8 fis8 | a4. d'8 d'8 d'8 | d'4. a8 a8. g16
+fis4. s4 s8
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s4 s8 d8 d8 d8 | d4. d8 d8 d8 | g4. g8 g8 g8 | d4. d8 b,8. e16
+a,4. d8 d8 d8 | d4. d8 d8 d8 | g4. g8 g16 g8. | a4. a8 a,16 a,8.
+d4. d8@c d8 d8 | d4. d8 d8 d8 | d4. d8 d8 d8 | d4. d8 b,8 e8
+a,4. d8 d8 d8 | d4. d8 d8 d8 | d4. fis8 g8 g8 | a4. a8 a,8. a,16
+d4. s4 s8
+"""
+
+[lyrics.1]
+text = "I grieved my Lord from day to day, I scorned His love so full and free, And though I wan -- dered far a -- way, My mo -- ther’s pray'rs have fol -- lowed me."
+
+[lyrics.2]
+text = "O’er de -- sert wild, o’er mount -- ain high A wan -- der -- er I chose to be, A wretch -- ed soul con -- demned to die, Still mo -- ther’s pray'rs have fol -- lowed me."
+
+[lyrics.3]
+text = "He turned my dark -- ness in -- to light, This bless -- èd Christ of Cal -- va -- ry, I’ll praise His name both day and night, That mo -- ther’s pray'rs have fol -- lowed me."
+
+[lyrics.chorus]
+text = "I’m com -- ing home, I’m com -- ing home, To live my wast -- ed life a -- new, For mo -- ther’s pray'rs have fol -- lowed me, Have fol -- lowed me the whole world thro’."
