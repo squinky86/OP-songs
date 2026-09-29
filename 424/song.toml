@@ -1,0 +1,90 @@
+title = "Wandering Child, O Come Home"
+verse_count = 3
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "11:48", "13:48", "15:48", "17:48", "19:48", "21:48", "23:48"]
+non_breaking_phrase_breaks = ["16:32", "17:16", "23:64", "24:48", "25:16"]
+copyrights = [
+  "Lyrics: Kem G. Bottorf, 1914 (public domain)",
+  "Music: Kem G. Bottorf, 1914 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Tenor1]
+choral_type = "tenor1"
+clef = "tenor"
+staff_number = 1
+notes = """
+s2. c'8. des'16 | ees'4 ees'8. f'16 ees'4 c'8. des'16 | c'4 bes4 bes4 bes8. c'16 | des'4 des'8. ees'16 f'4 ees'8. d'16 |
+ees'2. c'8. des'16 | ees'4 ees'8. f'16 ees'4 c'8. des'16 | c'4 bes4 bes4 bes8. c'16 | des'4 des'8. ees'16 f'4 ees'8. des'16 |
+c'2. r4@c | r4 c'8. c'16 c'4 r4 | r4 des'8. des'16 des'4 r4 | c'4 c'4 ees'4 ees'4 |
+ees'4 ees'4 ees'4 r4 | ees'4 ees'4 ees'4 ees'4 | des'4 des'4 des'4 f'8. fes'16 | ees'2 ees'4 des'4 |
+c'4 des'4 c'4 r4%pp | r4 c'8. c'16 c'4 r4 | r4 des'8. des'16 des'4 r4 | c'4 c'4 ees'4 ees'4 |
+ees'4 ees'4 ees'4 r4 | ees'4 ees'4 ees'4 ees'4 | des'4 des'4 des'4 f'8. fes'16 | ees'2 ees'4 des'4 |
+c'4 des'4 c'4 s4
+"""
+
+[parts.Tenor1.lyrics.chorus]
+text = "Child, come home, child, come home, Wan -- d'ring child, why long -- er roam? 'Tis thy Fa -- ther now en -- treats— Wan -- d'ring child, O come home. come home. Child, come home, child, come home, Wan -- d'ring child, why long -- er roam? 'Tis thy Fa -- ther now en -- treats— Wan -- d'ring child, O come home. come home."
+
+[parts.Tenor2]
+choral_type = "tenor2"
+clef = "tenor"
+staff_number = 1
+notes = """
+s2. aes8. bes16 | c'4 c'8. des'16 c'4 aes8. bes16 | aes4 g4 g4 g8. aes16 | bes4 bes8. c'16 des'4 c'8. b16 |
+c'2. aes8. bes16 | c'4 c'8. des'16 c'4 aes8. bes16 | aes4 g4 g4 g8. aes16 | bes4 bes8. c'16 des'4 c'8. bes16 |
+aes2. r4@c | r4 aes8. aes16 aes4 r4 | r4 f8. f16 f4 r4 | aes4 aes4 aes4 aes4 |
+g4 g4 g4 r4 | aes4 aes4 g4 aes4 | aes4 aes4 aes4 r4 | aes4 aes4 aes4 ees4 |
+ees4 f4 ees4 r4%pp | r4 aes8. aes16 aes4 r4 | r4 f8. f16 f4 r4 | aes4 aes4 aes4 aes4 |
+g4 g4 g4 r4 | aes4 aes4 g4 aes4 | aes4 aes4 aes4 r4 | aes4 aes4 aes4 ees4 |
+ees4 f4 ees4 s4
+"""
+
+[parts.Baritone]
+choral_type = "baritone"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. ees8. ees16 | aes4 aes8. aes16 aes4 ees8. ees16 | ees4 ees4 ees4 ees8. ees16 | ees4 ees8. ees16 ees4 aes8. aes16 |
+aes2. ees8. ees16 | aes4 aes8. aes16 aes4 ees8. ees16 | ees4 ees4 ees4 ees8. ees16 | ees4 ees8. ees16 ees4 aes8. ees16 |
+ees2. c8.@c des16 | ees2. aes8. bes16 | aes2. g8. f16 | ees4. ees8 aes4 c'4 |
+bes2. aes8. bes16 | c'2 bes4 aes4 | f2. aes8. bes16 | c'2 c'4 bes4 |
+aes2. c8.%pp des16 | ees2. aes8. bes16 | aes2. g8. f16 | ees4. ees8 aes4 c'4 |
+bes2. aes8. bes16 | c'2 bes4 aes4 | f2. aes8. bes16 | c'2 c'4 bes4 |
+aes2. s4
+"""
+
+[parts.Baritone.lyrics.chorus]
+text = "Child, come home, child, come home, Wan -- d'ring child, why long -- er roam? 'Tis thy Fa -- ther en -- treats— Wan -- d'ring child, O come home. Child, come home, child, come home, Wan -- d'ring child, why long -- er roam? 'Tis thy Fa -- ther en -- treats— Wan -- d'ring child, O come home."
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. aes,8. aes,16 | aes,4 aes,8. aes,16 aes,4 aes,8. aes,16 | ees4 ees4 ees4 ees8. ees16 | ees4 ees8. ees16 ees4 ees8. ees16 |
+aes,2. aes,8. aes,16 | aes,4 aes,8. aes,16 aes,4 aes,8. aes,16 | ees4 ees4 ees4 ees8. ees16 | ees4 ees8. ees16 ees4 ees8. ees16 |
+aes,2. r4@c | r4 aes,8. aes,16 aes,4 r4 | r4 des8. des16 des4 r4 | aes,4 ees4 c4 aes,4 |
+ees4 ees4 ees4 r4 | aes,4 aes,4 bes,4 c4 | des4 des4 des4 r4 | ees4 ees4 ees4 ees4 |
+aes,4 aes,4 aes,4 r4%pp | r4 aes,8. aes,16 aes,4 r4 | r4 des8. des16 des4 r4 | aes,4 ees4 c4 aes,4 |
+ees4 ees4 ees4 r4 | aes,4 aes,4 bes,4 c4 | des4 des4 des4 r4 | ees4 ees4 ees4 ees4 |
+aes,4 aes,4 aes,4 s4
+"""
+
+[lyrics.1]
+text = "Have you wan -- dered a -- way from your Fa -- ther's care, Heav -- y heart -- ed and sad do you roam? There's a sweet, gen -- tle voice call -- ing now to you— @s1"
+
+[lyrics.2]
+text = "Is your frail bark a -- drift on life's rag -- ing sea, Are you tossed on its bil -- lows and foam? There's a safe har -- bor home, wait -- ing now for you— @s1"
+
+[lyrics.3]
+text = "He is plead -- ing to -- day, heed His gen -- tle voice, As He bids you no long -- er to roam, To that dear Fa -- ther's house haste with -- out de -- lay— @s1"
+
+[lyrics.s1]
+text = "Wan -- d'ring child, wan -- d'ring child, O come home."
+
+[lyrics.chorus]
+text = "Child, come home, child, come home, Wan -- d'ring child, why long -- er roam? 'Tis thy Fa -- ther now en -- treats— Wan -- d'ring child, come home, come home. Child, come home, child, come home, Wan -- d'ring child, why long -- er roam? 'Tis thy Fa -- ther now en -- treats— Wan -- d'ring child, come home. come home."
