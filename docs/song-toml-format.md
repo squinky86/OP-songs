@@ -159,7 +159,7 @@ bes'4 g'4 g'4 f'4 | g'4 bes'4 bes'2 | ...
 | Field | Values | Description |
 |---|---|---|
 | `choral_type` | `soprano alto tenor bass tenor1 tenor2 baritone` | Used for filtering voices on export. Several parts may share one choral type (e.g. `Bass` and `Bass2` both `"bass"`); export filters then include or exclude them together |
-| `clef` | `treble bass treble_8 alto tenor` | Display clef; `alto` = C/line-3, `tenor` = C/line-4, `treble_8` = G/line-2 with octave indication |
+| `clef` | `treble bass treble_8 alto tenor` | Display clef; `alto` = C/line-3, `tenor` = C/line-4, `treble_8` = G/line-2 with an 8 below (read as treble, sung an octave lower) |
 | `staff_number` | positive integer | Parts sharing a staff number are combined onto one staff; staves are ordered by number. The standard layout is S+A on staff 1, T+B on staff 2, but any number of staves and voices is allowed (e.g. an independent second bass voice alone on staff 3). Parts alone on a staff keep free stem directions; parts sharing a staff get opposing stems (S/T up, A/B down; duplicates fall back to the next free LilyPond voice) |
 | `notes` | string | Note stream in OpenPsalm note notation (see below) |
 | `suppress_verses` | int array | Verse numbers to omit from the PDF/LilyPond output for this part (see [Verse Suppression](#verse-suppression)) |
@@ -173,22 +173,26 @@ Use four independent parts:
 
 | Part | `choral_type` | Staff | `clef` | Shared-staff stem |
 | --- | --- | --- | --- | --- |
-| Tenor1 | tenor1 | 1 | tenor | Up |
-| Tenor2 | tenor2 | 1 | tenor | Down |
+| Tenor1 | tenor1 | 1 | treble_8 | Up |
+| Tenor2 | tenor2 | 1 | treble_8 | Down |
 | Baritone | baritone | 2 | bass | Up |
 | Bass | bass | 2 | bass | Down |
 
 The page labels the tenors **Tenor I** and **Tenor II**. Roles are independent
-of part names, ranges and clefs. Standard tenor clef places C4 on the fourth
-line from the bottom; it does not transpose. `baritone` is a voice role here,
+of part names, ranges and clefs. Author the upper staff in `treble_8`: its
+notes sit exactly where treble puts them, one octave lower, so singers who
+read SATB treble can read the tenor staff unchanged. The song page's **Use
+tenor clef** option (`?tenor_clef=true`) re-engraves Tenor I and II in the
+standard tenor C clef (C4 on the fourth line from the bottom) instead. Neither
+clef transposes. `baritone` is a voice role here,
 not a historical clef name. A bare `C` is not a supported clef alias. Explicit
 unsupported clefs or conflicting clefs on one staff are import errors.
 
 Notes always encode absolute sounding pitch: `c` = C3, `c'` = C4. Changing a
 clef never shifts MIDI or stored pitches. The one-time repair to song 369
 lowered its upper voices one octave in the authored data; never repeat that
-shift in an exporter. Its upper staff is engraved in standard tenor C clef
-instead of the source's historical suboctave treble glyph.
+shift in an exporter. Its upper staff is engraved in `treble_8` instead of
+the source's historical suboctave treble glyph.
 
 Filters remain exact: `?choral_types=tenor1,tenor2` selects the upper pair;
 `?choral_types=baritone,bass` the lower pair. `tenor` still means the SATB role,
