@@ -1,0 +1,70 @@
+title = "Master, No Offering"
+subtitle = "Love’s Offering"
+verse_count = 4
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 115
+phrase_breaks = ["6:64", "12:64"]
+optional_phrase_breaks = ["2:64", "4:64", "8:64", "10:64"]
+copyrights = [
+  "Lyrics and Music: Edwin Pond Parker, 1888 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+c''2 bes'4 aes'4 | aes'4. g'8 g'2 | aes'2 bes'4 ees'4 | c''1 |
+c''2 bes'4 g'4 | bes'4. aes'8 aes'2 | aes'2 g'4 f'4 | ees'1 |
+c''2 bes'4 aes'4 | aes'4. g'8 f'2 | des''2 c''4 bes'4 | bes'4. aes'8 aes'2 |
+c''4( bes'4) aes'4 f'4 | ees'4( f'4 g'4) aes'4 | c''2. bes'4/-48 | aes'1
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+ees'2 ees'4 ees'4 | ees'4. ees'8 ees'2 | ees'2 ees'4 ees'4 | ees'1 |
+e'2 e'4 g'4 | g'4. f'8 f'2 | d'2 d'4 d'4 | ees'1 |
+c'2 c'4 ees'4 | des'4. des'8 des'2 | des'2 des'4 des'4 | des'4. c'8 c'2 |
+d'2 d'4 d'4 | ees'4( d'4 des'4) c'4 | ees'2 des'2 | c'1
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+c'2 c'4 c'4 | des'4. des'8 ees'2 | aes2 g4 bes4 | aes1 |
+g2 g4 c'4 | c'4. c'8 c'2 | bes4( f4) g4 aes4 | g1 |
+aes2 aes4 aes4 | bes4. bes8 bes2 | g2 g4 g4 | g4. aes8 aes2 |
+f2 f4 aes4 | g4( aes4 bes4) aes4 | aes4( f4) g2 | aes1
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+aes,2 aes,4 aes,4 | bes,4. bes,8 bes,2 | c2 ees4 g4 | aes1 |
+c2 c4 e4 | f4. f8 f2 | bes,2 bes,4 bes,4 | ees1 |
+aes,2 aes,4 c4 | ees4. ees8 ees2 | ees2 ees4 ees4 | e4. f8 f2 |
+bes,2 bes,4 bes,4 | ees2. f4 | ees2 ees2 | aes,1
+"""
+
+[lyrics.1]
+text = "Mas -- ter, no of -- fer -- ing Cost -- ly and sweet, May we, like Mag -- da -- lene, Lay at Thy feet; Yet may love’s in -- cense rise, Sweet -- er than sac -- ri -- fice, Dear Lord to Thee, dear Lord to Thee."
+
+[lyrics.2]
+text = "Dai -- ly our lives would show Weak -- ness made strong, Toil -- some and gloom -- y ways Bright -- ened by song; Some deeds of kind -- ness done, Some souls by pa -- tience won, Dear Lord to Thee, dear Lord to Thee."
+
+[lyrics.3]
+text = "Some word of hope for hearts Bur -- dened with fears, Some balm of peace for eyes Blind -- ed with tears, Some dews of mer -- cy shed, Some way -- ward foot -- steps led, Dear Lord to Thee, dear Lord to Thee."
+
+[lyrics.4]
+text = "Thus, in Thy ser -- vice, Lord, Till ev -- en -- tide Clos -- es the day of life May we a -- bide; And when earth’s la -- bors cease, Bid us de -- part in peace, Dear Lord to Thee, dear Lord to Thee."
