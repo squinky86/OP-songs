@@ -1,0 +1,73 @@
+title = "I Am Resolved"
+verse_count = 5
+key_signature = "Bb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 107
+phrase_breaks = ["4:64", "8:64", "12:64"]
+optional_phrase_breaks = ["2:64", "6:64"]
+non_breaking_phrase_breaks = ["9:64", "12:16", "13:64"]
+copyrights = [
+  "Lyrics: Palmer Hartsough, 1896 (public domain)",
+  "Music: James H. Fillmore, Sr., 1896 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+f'4 d'8. ees'16 f'4 bes'4 | bes'4 g'8. a'16 bes'4 g'4 | f'4 d'8. ees'16 f'4 bes'4 | c''1 | d''4 bes'8. c''16 d''4 bes'4 | bes'4 g'8. a'16 bes'4 g'4 | f'4 bes'8. c''16 d''4 c''4 | bes'1 | d''2@c bes'2 | c''4 bes'4 g'4 bes'4 | f'4 bes'8. c''16 d''4 d''4 | c''2. r4 | d''2 bes'2 | c''4 bes'4 g'4 bes'4 | f'4 bes'8[ c''8] d''4 c''4 | bes'1
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+d'4 bes8. c'16 d'4 f'4 | g'4 ees'8. f'16 g'4 ees'4 | d'4 bes8. c'16 d'4 f'4 | f'1 | f'4 d'8. ees'16 f'4 f'4 | g'4 ees'8. f'16 g'4 ees'4 | d'4 d'8. ees'16 f'4 ees'4 | d'1 | f'2@c f'2 | g'4 g'4 ees'4 g'4 | f'4 f'8. f'16 f'4 f'4 | f'2. r4 | f'2 f'2 | g'4 g'4 ees'4 g'4 | f'4 f'4 f'4 f'4 | f'1
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+bes4 f8. f16 bes4 bes4 | bes4 bes8. bes16 bes4 bes4 | bes4 f8. f16 bes4 bes4 | a1 | bes4 bes8. bes16 bes4 bes4 | bes4 bes8. bes16 bes4 bes4 | bes4 bes8. bes16 bes4 a4 | f1 | bes4@c bes4 d'4 d'4 | ees'4 ees'4 ees'4 ees'4 | d'4 d'8. c'16 bes4 bes4 | a2. r4 | bes4 bes4 d'4 d'4 | ees'4 ees'4 ees'4 ees'4 | d'4 d'8[ ees'8] f'4 ees'4 | d'1
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+bes,4 bes,8. bes,16 bes,4 d4 | ees4 ees8. ees16 ees4 ees4 | bes,4 bes,8. bes,16 bes,4 d4 | f1 | bes4 bes8. bes16 bes4 d4 | ees4 ees8. ees16 ees4 ees4 | f4 f8. f16 f4 f4 | bes,1 | bes4@c bes4 bes4 bes4 | ees4 ees4 ees4 ees4 | bes,4 bes,8. bes,16 bes,4 d4 | f4 f8. g16 f8 ees8 d8[ c8] | bes,4 bes,4 bes4 bes4 | ees4 ees4 ees4 ees4 | f4 f4 f4 f4 | bes,1
+"""
+
+# The tenor holds "Him," from m.10 beat 4 through the m.12 dotted half (21
+# slots against soprano/alto's 23), so it never sings the m.12 answer.
+[parts.Tenor.lyrics.chorus]
+text = "I will hast -- en, hast -- en to Him, Hast -- en so glad and free; Je -- sus, Je -- sus great -- est, high -- est, I will come to Thee."
+
+[parts.Bass.lyrics.chorus]
+text = "I will hast -- en, hast -- en to Him, Hast -- en so glad and free; Hast -- en glad and free; Je -- sus, Je -- sus great -- est, high -- est, I will come to Thee."
+
+[lyrics.1]
+text = "I am re -- solved no long -- er to lin -- ger, Charmed by the world’s de -- light, Things that are high -- er, things that are nob -- ler, These have al -- lured my sight."
+
+[lyrics.2]
+text = "I am re -- solved to go to the Sav -- ior, Leav -- ing my sin and strife; He is the true One, He is the just One, He hath the words of life."
+
+[lyrics.3]
+text = "I am re -- solved to fol -- low the Sav -- ior, Faith -- ful and true each day; Heed what He say -- eth, do what He will -- eth, He is the liv -- ing Way."
+
+[lyrics.4]
+text = "I am re -- solved to en -- ter the king -- dom Leav -- ing the paths of sin; Friends may op -- pose me, foes may be -- set me, Still will I en -- ter in."
+
+[lyrics.5]
+text = "I am re -- solved, and who will go with me? Come, friends, with -- out de -- lay, Taught by the Bi -- ble, led by the Spir -- it, We’ll walk the heav’n -- ly way."
+
+[lyrics.chorus]
+text = "I will hast -- en to Him, Hast -- en so glad and free; Je -- sus, great -- est, high -- est, I will come to Thee."
