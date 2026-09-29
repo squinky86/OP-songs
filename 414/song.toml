@@ -1,0 +1,172 @@
+title = "He Is Knocking"
+verse_count = 3
+key_signature = "C"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+phrase_breaks = ["3:48", "5:48", "7:48", "9:64", "11:64", "13:64", "15:64"]
+non_breaking_phrase_breaks = ["4:8", "4:40", "8:40", "9:8", "12:40"]
+copyrights = [
+  "Lyrics: Eliza E. Hewitt, 1920 (public domain)",
+  "Music: Bentley D. Ackley (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[lyrics.s1]
+text = "Let Him in,"
+
+[lyrics.s2]
+text = "O let Him in;"
+
+[lyrics.s3]
+text = "O let Him in!"
+
+[lyrics.s4]
+text = "O let Him in,"
+
+[lyrics.1]
+text = "He is knock -- ing, soft -- ly knock -- ing at the door; @s1 @s2 He will bring you rich -- est bless -- ing ev -- er -- more; @s1 @s3"
+
+[lyrics.2]
+text = "He is call -- ing, gent -- ly call -- ing to you now; @s1 @s2 See the plead -- ing dew of mer -- cy on His brow, @s1 @s3"
+
+[lyrics.3]
+text = "He is wait -- ing, kind -- ly wait -- ing still for you; @s1 @s2 Give Him wel -- come, joy -- ful wel -- come, warm and true; @s1 @s3"
+
+[lyrics.chorus]
+text = "Knock -- ing, knock -- ing! O -- pen wide the door, Let Him in to -- day, Ask Him in to stay; Knock -- ing, knock -- ing! Life He will re -- store, When you o -- pen wide the door."
+
+[parts.Alto.lyrics.chorus]
+text = "Knock -- ing, knock -- ing! O -- pen wide the door, Let Him in to -- day, O let Him in, Ask Him in, He's Knock -- ing, knock -- ing! Life He will re -- store, When you o -- pen wide the bolt -- ed door."
+
+[parts.Tenor.lyrics.chorus]
+text = "Knock -- ing, knock -- ing! O -- pen wide the door, Let Him in to -- day, Ask Him in to stay; Knock -- ing, knock -- ing! Life He will re -- store, When you o -- pen wide the bolt -- ed door."
+
+[parts.Bass.lyrics.chorus]
+text = "Knock -- ing, knock -- ing! O -- pen wide the door, Let Him in to -- day, O let Him in, Ask Him in, He's Knock -- ing, knock -- ing! Life He will re -- store, When you o -- pen wide the door."
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. e'8 f'8 |
+g'8 g'8 r4 c''8 c''8 b'8 a'8 |
+g'4 c''4 e'4 f'8 d'8 |
+b'2~ b'8 a'8 g'8 fis'8 |
+e'2. e'8 f'8 |
+g'4 g'4 c''8 c''8 b'8 a'8 |
+g'4 c''4 e'4 f'8 d'8 |
+b'2~ b'8 g'8 a'8 b'8 |
+c''2. r4 |
+a'8@c a'8 r4 c''8 c''8 r4 |
+d''8 c''8 b'8 a'8 g'2 |
+g'8 a'8 b'8 a'8 g'2 |
+g'8 a'8 c''8 a'8 g'2 |
+a'8 a'8 r4 c''8 c''8 r4 |
+d''8 c''8 b'8 a'8 g'2 |
+a'8 b'8 c''8 d''8 e''4 d''4 |
+c''2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. c'8 d'8 |
+e'8 e'8 r4 e'8 e'8 g'8 f'8 |
+e'4 e'4 c'4 r4 |
+r8 g'8 g'8 fis'8 f'8 f'8 e'8 dis'8 |
+c'2. c'8 d'8 |
+e'4 e'4 e'8 e'8 g'8 f'8 |
+e'4 e'4 c'4 r4 |
+r8 g'8 g'8 fis'8 f'8 g'8 fis'8 f'8 |
+e'8 e'8 f'8 f'8 e'4 r4 |
+f'8@c f'8 r4 a'8 a'8 r4 |
+a'8 a'8 g'8 f'8 e'2 |
+f'8 f'8 f'8 f'8 f'8 d'8 e'8 f'8 |
+e'2 e'8 e'8 f'8 g'8 |
+f'8 f'8 r4 a'8 a'8 r4 |
+a'8 a'8 g'8 f'8 e'2 |
+f'8 f'8 g'8 a'8 g'4 f'4 |
+e'4 f'4 e'4 s4
+"""
+
+[parts.Alto.lyrics.1]
+text = "He is knock -- ing, soft -- ly knock -- ing at the door; @s4 @s2 He will bring you rich -- est bless -- ing ev -- er -- more; @s4 @s3 @s3"
+
+[parts.Alto.lyrics.2]
+text = "He is call -- ing, gent -- ly call -- ing to you now; @s4 @s2 See the plead -- ing dew of mer -- cy on His brow, @s4 @s3 @s3"
+
+[parts.Alto.lyrics.3]
+text = "He is wait -- ing, kind -- ly wait -- ing still for you; @s4 @s2 Give Him wel -- come, joy -- ful wel -- come, warm and true; @s4 @s3 @s3"
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. g8 g8 |
+c'8 c'8 r4 g8 g8 c'8 c'8 |
+c'4 g4 g4 r4 |
+r8 d'8 d'8 d'8 d'8 r4. |
+r8 c'8 b8 a8 g4 g8 g8 |
+c'4 c'4 g8 g8 c'8 c'8 |
+c'4 g4 g4 r4 |
+r8 d'8 d'8 d'8 d'8 b8 c'8 d'8 |
+c'8 g8 a8 a8 g4 r4 |
+c'8@c c'8 r4 <c' f'>8 <c' f'>8 r4 |
+c'8 c'8 c'8 c'8 c'2 |
+b8 c'8 d'8 c'8 b2 |
+c'8 c'8 g8 a8 c'2 |
+c'8 c'8 r4 <c' f'>8 <c' f'>8 r4 |
+c'8 c'8 c'8 c'8 c'2 |
+c'8 d'8 c'8 c'8 c'4 b8[ g8] |
+g4 a4 g4 s4
+"""
+
+[parts.Tenor.lyrics.1]
+text = "He is knock -- ing, soft -- ly knock -- ing at the door; @s4 @s2 He will bring you rich -- est bless -- ing ev -- er -- more; @s4 @s3 @s3"
+
+[parts.Tenor.lyrics.2]
+text = "He is call -- ing, gent -- ly call -- ing to you now; @s4 @s2 See the plead -- ing dew of mer -- cy on His brow, @s4 @s3 @s3"
+
+[parts.Tenor.lyrics.3]
+text = "He is wait -- ing, kind -- ly wait -- ing still for you; @s4 @s2 Give Him wel -- come, joy -- ful wel -- come, warm and true; @s4 @s3 @s3"
+
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. c8 c8 |
+c8 c8 r4 c8 c8 c8 c8 |
+c4 c4 c4 r4 |
+r8 g8 g8 g8 g8 r4. |
+r8 c8 c8 c8 c4 c8 c8 |
+c4 c4 c8 c8 c8 c8 |
+c4 c4 c4 r4 |
+r8 g8 g8 g8 g8 g8 g8 g8 |
+c2. r4 |
+f8@c f8 r4 f8 f8 r4 |
+f8 f8 f8 f8 c2 |
+g8 g8 g8 g8 g8 f8 e8 d8 |
+c2 c8 c8 d8 e8 |
+f8 f8 r4 f8 f8 r4 |
+f8 f8 f8 f8 c2 |
+f8 d8 e8 f8 g4 g4 |
+c2. s4
+"""
+
+[parts.Bass.lyrics.1]
+text = "He is knock -- ing, soft -- ly knock -- ing at the door; @s4 @s2 He will bring you rich -- est bless -- ing ev -- er -- more; @s4 @s3"
+
+[parts.Bass.lyrics.2]
+text = "He is call -- ing, gent -- ly call -- ing to you now; @s4 @s2 See the plead -- ing dew of mer -- cy on His brow, @s4 @s3"
+
+[parts.Bass.lyrics.3]
+text = "He is wait -- ing, kind -- ly wait -- ing still for you; @s4 @s2 Give Him wel -- come, joy -- ful wel -- come, warm and true; @s4 @s3"
+
