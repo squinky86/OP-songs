@@ -1,0 +1,103 @@
+title = "The Day of God Is Breaking"
+subtitle = "Hear the Call"
+verse_count = 2
+key_signature = "C"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+phrase_breaks = ["4:64", "8:64", "12:48", "16:16", "18:60", "22:48", "24:64", "28:48", "32:16", "34:60", "36:48", "38:48"]
+optional_phrase_breaks = ["2:64", "6:64", "10:64", "14:48", "20:48", "24:16", "26:64", "30:48"]
+non_breaking_phrase_breaks = ["13:44", "16:64", "17:44", "18:12", "18:44", "18:64", "19:12", "19:28", "19:44", "19:60", "19:64", "29:44", "32:64", "33:12", "33:44", "34:12", "34:44", "34:64", "35:44"]
+copyrights = [
+  "Lyrics: William F. Sherwin, 1876 (public domain)",
+  "Music: 'Beecher' by  John Zundel, 1870 (public domain)",
+  "Refrain Lyrics and Music: Charles H. Gabriel, 1929 (public domain)",
+  "Arrangement: Homer A. Rodeheaver, 1929 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+g'4 g'4 a'4 g'4 | e''4 d''8[ e''8] d''4 c''4 | b'4 a'4 c''4 a'4 | g'4 f'8[ g'8] e'2 |
+g'4 g'4 a'4 g'4 | e''4 d''8[ e''8] d''4 c''4 | a'4 f''4 e''4 c''4 | b'4 a'8[ b'8] c''2 |
+a'2~@c%p a'8. b'16 c''8. b'16 | a'4 a'4 e'2 | f'2~ f'8. g'16 a'8. g'16 | f'4 f'4 e'4~ e'4 |
+e'2~ e'8. fis'16 gis'8. b'16 | a'4 b'4 c''4 e''4 | d''4 c''4 b'4 a'4 | g'4%ff r4 r4 r4 |
+d''2~%f d''8. e''16 f''8. e''16 | d''2~ d''8. cis''16 d''8. dis''16 | e''2~ e''8. d''16 c''8. b'16 | c''2. c''4 |
+f''4. c''8 c''4 f''4 | e''4. c''8 c''4 c''4 | c''4.\\rit c''8 c''4 b'4 | b'4!\\spanend e'4%mf e'4 e'4 |
+a'2~%p a'8. b'16 c''8. b'16 | a'4 a'4 e'2 | f'2~ f'8. g'16 a'8. g'16 | f'4 f'4 e'4~ e'4 |
+e'2~ e'8. fis'16 gis'8. b'16 | a'4 b'4 c''4 e''4 | d''4 c''4 b'4 a'4 | g'4%ff r4 r4 r4 |
+d''2~%f d''8. e''16 f''8. e''16 | d''2~ d''8. cis''16 d''8. dis''16 | e''2~ e''8. d''16 c''8. b'16 | c''2. c''4 |
+f''4. c''8 c''4 f''4 | e''4. c''8 c''4 g'4 | c''4 e''4 d''4! b'4 | c''2. r4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+e'4 e'4 f'4 e'4 | g'4 f'8[ g'8] f'4 e'4 | g'4 f'4 a'4 f'4 | e'4 d'8[ e'8] c'2 |
+e'4 e'4 f'4 e'4 | g'4 f'8[ g'8] f'4 e'4 | f'4 a'4 g'4 e'4 | f'4 f'4 e'2 |
+c'2~@c%p c'8. d'16 e'8. d'16 | c'4 c'4 c'2 | d'2~ d'8. e'16 f'8. e'16 | d'4 d'4 c'4~ c'4 |
+d'2~ d'8. b16 d'8. e'16 | c'4 e'4 e'4 g'4 | g'4 g'4 g'4 fis'4 | g'4%ff r4 r4 r4 |
+g'8.%f fis'16 g'8. fis'16 g'8. c''16 d''8. c''16 | g'8. fis'16 g'8. fis'16 g'8. ais'16 b'8. a'16 | gis'8. a'16 b'8. a'16 gis'8. b'16 a'8. gis'16 | a'2. g'4 |
+f'4. f'8 f'4 f'4 | g'4. e'8 e'4 a'4 | a'4. a'8 a'4 a'4 | gis'4! e'4%mf e'4 d'4 |
+c'2~%p c'8. d'16 e'8. d'16 | c'4 c'4 c'2 | d'2~ d'8. e'16 f'8. e'16 | d'4 d'4 c'4~ c'4 |
+d'2~ d'8. b16 d'8. e'16 | c'4 e'4 e'4 g'4 | g'4 g'4 g'4 fis'4 | g'4%ff r4 r4 r4 |
+g'8.%f fis'16 g'8. fis'16 g'8. c''16 d''8. c''16 | g'8. fis'16 g'8. fis'16 g'8. ais'16 b'8. a'16 | gis'8. a'16 b'8. a'16 gis'8. b'16 a'8. gis'16 | a'2. g'4 |
+f'4. f'8 f'4 f'4 | g'4. e'8 g'4 g'4 | c''4 e''4 b'4! f'4 | e'2. r4
+"""
+
+[parts.Alto.lyrics.chorus]
+text = "Though re -- ject -- ed and de -- nied, Per -- se -- cu -- ted, cru -- ci -- fied, He from out the grave a -- rose In tri -- umph o’er His foes! dare His name de -- ny, shall then de -- ny, His name de -- ny, His name, or who His pow’r de -- fy? His pow’r de -- fy? Be -- fore Him we a -- dor -- ing fall, And crown Him Lord of all. Be -- hold Him! Though re -- ject -- ed and de -- nied, Per -- se -- cu -- ted, cru -- ci -- fied, He from out the grave a -- rose In tri -- umph o’er His foes! dare His name de -- ny, shall then de -- ny, His name de -- ny, His name, or Who His pow’r de -- fy? His pow’r de -- fy? Be -- fore Him we a -- dor -- ing fall, And crown Him Lord of all."
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+c'4 c'4 c'4 c'4 | c'4 b4 b4 c'4 | c'4 c'4 c'4 c'4 | c'4 b4 g2 |
+c'4 c'4 c'4 c'4 | c'4 b4 b4 c'4 | c'4 c'4 c'4 c'4 | d'4 g4 g2 |
+a4@c%p a4 a4 a4 | a4 a4 a4 a4 | a4 a4 a4 a4 | a4 a4 a4 a4 |
+gis4 gis4 b8. b16 d'8. d'16 | c'4 d'4 c'4 cis'4 | d'4 e'4 d'4 c'4 | b4%ff g4 g4 g4 |
+b8.%f c'16 d'8. c'16 b8. r16 r4 | b8. c'16 d'8. c'16 b8. r16 r4 | b8. b16 b8. b16 e'2~ | e'2. e'4 |
+c'4. c'8 c'4 c'4 | c'4. c'8 c'4 d'4 | dis'4. dis'8 dis'4 dis'4 | e'4! r4 r4 r4 |
+a4%p a4 a4 a4 | a4 a4 a4 a4 | a4 a4 a4 a4 | a4 a4 a4 a4 |
+gis4 gis4 b8. b16 d'8. d'16 | c'4 d'4 c'4 cis'4 | d'4 e'4 d'4 c'4 | b4%ff g4 g4 g4 |
+b8.%f c'16 d'8. c'16 b8. r16 r4 | b8. c'16 d'8. c'16 b8. r16 r4 | b8. b16 b8. b16 e'2~ | e'2. e'4 |
+c'4. c'8 c'4 c'4 | c'4. c'8 c'4 g4 | c'4 e'4 d'4! d'4 | c'2. r4
+"""
+
+[parts.Tenor.lyrics.chorus]
+text = "Tho’ re -- ject -- ed and de -- nied, Tho’ per -- se -- cu -- ted, cru -- ci -- fied, A vic -- tor He from out the grave a -- rose In tri -- umph o’er His foes! Who then shall dare His name de -- ny, Who His name de -- ny, who His pow’r de -- fy? Be -- fore Him we a -- dor -- ing fall, And crown Him Lord of all. Tho’ re -- ject -- ed and de -- nied, Tho’ per -- se -- cu -- ted, cru -- ci -- fied, A vic -- tor He from out the grave a -- rose In tri -- umph o’er His foes! Who then shall dare His name de -- ny, Who His name de -- ny, Who His pow’r de -- fy? Be -- fore Him we a -- dor -- ing fall, And crown Him Lord of all."
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+c4 c4 c4 c4 | c4 g4 g4 c4 | f4 f4 f4 f4 | g4 g4 c2 |
+c4 c4 c4 c4 | c4 g4 gis4 a4 | f4 f4 g4 g4 | g4 g4 c2 |
+a,4@c%p a,4 a,4 a,4 | a,4 a,4 a,4 a,4 | a,4 a,4 a,4 a,4 | a,4 a,4 a,4 a,4 |
+e4 e4 e8. e16 e8. e16 | a4 gis4 a4 ais4 | b4 c'4 d'4 d4 | g4%ff g4 g4 g4 |
+g8.%f a16 b8. a16 g2 | g8. a16 b8. a16 g8. r16 r4 | e8. fis16 gis8. fis16 d2 | a8. b16 c'8. b16 a4 bes4 |
+a4. a8 aes4 aes4 | g4. g8 g4 fis4 | fis4. fis8 fis4 fis4 | e4! r4 r4 r4 |
+a,4%p a,4 a,4 a,4 | a,4 a,4 a,4 a,4 | a,4 a,4 a,4 a,4 | a,4 a,4 a,4 a,4 |
+e4 e4 e8. e16 e8. e16 | a4 gis4 a4 ais4 | b4 c'4 d'4 d4 | g4%ff g4 g4 g4 |
+g8.%f a16 b8. a16 g2 | g8. a16 b8. a16 g8. r16 r4 | e8. fis16 gis8. fis16 d2 | a8. b16 c'8. b16 a4 bes4 |
+a4. a8 aes4 aes4 | g4. g8 e4 g4 | c'4 e'4 g4! g4 | c2. r4
+"""
+
+[parts.Bass.lyrics.chorus]
+text = "Tho’ re -- ject -- ed and de -- nied, Tho’ per -- se -- cu -- ted, cru -- ci -- fied, A vic -- tor He from out the grave a -- rose In tri -- umph o’er His foes! Who then shall dare His name de -- ny, Who His name de -- ny, who His pow’r de -- fy? Who His pow’r de -- fy? Be -- fore Him we a -- dor -- ing fall, And crown Him Lord of all. Tho’ re -- ject -- ed and de -- nied, Tho’ per -- se -- cu -- ted, cru -- ci -- fied, A vic -- tor He from out the grave a -- rose In tri -- umph o’er His foes! Who then shall dare His name de -- ny, Who His name de -- ny, Who His pow’r de -- fy? Who His pow’r de -- fy? Be -- fore Him we a -- dor -- ing fall, And crown Him Lord of all."
+
+[lyrics.1]
+text = "Lo, the day of God is break -- ing! See the gleam -- ing from a -- far! Sons of earth from slum -- ber wak -- ing, Hail the bright and Morn -- ing Star!"
+
+[lyrics.2]
+text = "Conq’ -- ring hosts with ban -- ners wav -- ing, Sweep -- ing on o’er hill and plain, Ne’er shalt halt till swells the an -- them, “Christ o’er all the earth doth reign!”"
+
+[lyrics.chorus]
+text = "Though re -- ject -- ed and de -- nied, Per -- se -- cu -- ted, cru -- ci -- fied, He from out the grave a -- rose In tri -- umph o’er His foes! Who shall then de -- ny, His name, or who His pow’r de -- fy? Be -- fore Him we a -- dor -- ing fall, And crown Him Lord of all. Be -- hold Him! Though re -- ject -- ed and de -- nied, Per -- se -- cu -- ted, cru -- ci -- fied, He from out the grave a -- rose In tri -- umph o’er His foes! Who shall then de -- ny, His name, or Who His pow’r de -- fy? Be -- fore Him we a -- dor -- ing fall, And crown Him Lord of all."
