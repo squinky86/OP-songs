@@ -1,0 +1,56 @@
+title = "Bethany Blessing"
+verse_count = 1
+key_signature = "G"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 88
+phrase_breaks = ["5:24"]
+optional_phrase_breaks = ["3:24", "7:24"]
+copyrights = [
+  "Lyrics: Carrie Stewart-Besserer, 1928 (public domain)",
+  "Music: B. D. Ackley, 1928 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[lyrics.1]
+text = "Ac -- cept our grat -- i -- tude, Lord, For all the bless -- ings Thou dost give; Di -- rect and guide our dai -- ly paths, And teach us how to live. For Je -- sus' sake, A -- men."
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. b'8 b'8 b'8 | c''4 b'4 a'4 | g'4. g'8 g'8 g'8 | a'4. g'8 fis'8 e'8 | d'4. d'8 e'8 d'8 |
+fis'4. d'8 e'8 d'8 | g'4. g'8 fis'8 g'8 | b'2 a'4 | g'4. g'8 g'8 g'8 | g'2 g'4 |
+g'4. s4.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. d'8 d'8 d'8 | e'4 d'4 d'4 | e'4. e'8 f'8 f'8 | e'4. e'8 d'8 c'8 | b4. b8 b8 b8 |
+c'4. c'8 c'8 c'8 | b4. cis'8 cis'8 cis'8 | d'4( g'4) fis'4 | d'4. g'8 g'8 f'8 | e'2 ees'4 |
+d'4. s4.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. g8 g8 g8 | g4 g4 c'4 | b4. b8 b8 b8 | c'4. c'8 c'8 g8 | g4. g8 g8 g8 |
+a4. fis8 g8 fis8 | g4. a8 a8 a8 | g8([ b8] d'4) c'4 | b4. g8 g8 g8 | g2 a4 |
+b4. s4.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. g8 g8 g8 | g4 g4 d4 | e4. e8 d8 d8 | c4. c8 c8 c8 | g,4. g8 g8 g8 |
+d4. d8 d8 d8 | e4. e8 e8 e8 | d2 d4 | <g, g>4. g8 g8 g8 | c2 c4 |
+<g, g>4. s4.
+"""
