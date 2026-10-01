@@ -1,0 +1,79 @@
+title = "I Know My Name Is There"
+copyrights = [
+  "Lyrics: Daniel Sidney Warner, 1893 (public domain)",
+  "Music: Barney Elliott Warren, 1893 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Db"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 100
+verse_count = 4
+phrase_breaks = ["5:40", "9:40", "13:40"]
+optional_phrase_breaks = ["3:40", "7:40"]
+non_breaking_phrase_breaks = ["10:40", "12:40", "13:16", "14:40", "15:40", "16:16"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s8 aes'8 | des''4 des''8 des''8[ c''8] bes'8 | aes'4 g'8 aes'4 aes'8 | c''4 bes'8 aes'8[ bes'8] c''8 | des''4. aes'4 aes'8
+| des''4 des''8 des''8[ c''8] bes'8 | aes'4 g'8 aes'4 aes'8 | c''4 bes'8 aes'8[ bes'8] c''8 | des''4.~ des''4 aes'16@c[ ges'16] | f'4.~ f'8[ des'8] f'8 | aes'4.~ aes'4 des''8 | c''4.~ c''8[ bes'8] c''8 | des''4.~ des''4 aes'8
+| f''4.~ f''8[ ees''8] des''8 | des''4.~ des''8[ c''8] bes'8 | aes'4 aes'8 aes'8[ bes'8] c''8 | des''4.~ des''4 s8
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s8 f'8 | f'4 f'8 bes'8[ aes'8] ges'8 | f'4 e'8 f'4 f'8 | ees'4 ees'8 ges'4 ges'8 | f'4. f'4 f'8
+| f'4 f'8 bes'8[ aes'8] ges'8 | f'4 e'8 f'4 f'8 | ees'4 ees'8 ges'4 ges'8 | f'4.~ f'4 f'16@c[ ees'16] | des'4.~ des'8~ des'8 des'8 | f'4.~ f'4 f'8 | ges'4.~ ges'4 ges'8 | f'4 ges'8 f'4 f'8
+| aes'4.~ aes'4 aes'8 | bes'4.~ bes'8[ aes'8] ges'8 | f'4 f'8 ges'4 ges'8 | f'4.~ f'4 s8
+"""
+
+[parts.Alto.lyrics.chorus]
+text = "I know, I know my name is there; is there; I know, I know, my name is writ -- ten there."
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 s8 aes8 | aes4 aes8 des'4 des'8 | des'4 bes8 aes4 aes8 | aes4 des'8 c'8~ c'8 aes8 | aes4. des'4 des'8
+| aes4 aes8 des'4 des'8 | des'4 bes8 aes4 aes8 | aes4 des'8 c'8[ des'8] aes8 | aes4.~ aes4 r8@c | r4 aes8 aes8[ f8] aes8 | des'4 des'8 des'4 r8 | r4 aes8 c'8[ des'8] aes8 | aes4 bes8 aes4 r8
+| r4 des'8 des'4 des'8 | des'4 des'8 des'4 des'8 | des'4 des'8 c'8[ des'8] aes8 | aes4.~ aes4 s8
+"""
+
+[parts.Tenor.lyrics.chorus]
+text = "I know, I tru -- ly know I know my name is there; I know my name is there. my name is writ -- ten there."
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 s8 des8 | des4 des8 des4 des8 | des4 des8 des4 des8 | aes,4 aes,8 aes,4 c8 | des4. des4 des8
+| des4 des8 des4 des8 | des4 des8 des4 des8 | aes,4 aes,8 aes,4 aes,8 | des4.~ des4 r8@c | r4 des8 des4 des8 | des4 des8 des4 r8 | r4 aes8 aes4 aes8 | des4 des8 des4 r8
+| r4 des8 des8[ ees8] f8 | ges4 ges8 ges4 ges8 | aes4 aes8 aes,4 aes,8 | des4.~ des4 s8
+"""
+
+[parts.Bass.lyrics.chorus]
+text = "I know, I tru -- ly know I know my name is there; I know my name is there. my name is writ -- ten there."
+
+[lyrics.1]
+text = "My name is in the Book of Life, O bless the name of Je -- sus! I rise a -- bove all doubt and strife, And read my ti -- tle clear."
+
+[lyrics.2]
+text = "My name once stood with sin -- ners, lost, And bore a pain -- ful rec -- ord; But by His blood the Sav -- ior crossed, And placed it on His roll."
+
+[lyrics.3]
+text = "Yet in -- ward trou -- ble oft -- en cast A sha -- dow o’er my ti -- tle; But now with full sal -- va -- tion blest, Praise God! it’s ev -- er clear."
+
+[lyrics.4]
+text = "While o -- thers climb thro’ world -- ly strife, To carve a name of hon -- or, High up in Heav -- en’s Book of Life, My name is writ -- ten there."
+
+[lyrics.chorus]
+text = "I know, I know my name is there; I know, I know, my name is writ -- ten there."
