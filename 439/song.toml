@@ -1,0 +1,121 @@
+title = "I Am a Stranger Here"
+subtitle = "The King's Business"
+copyrights = [
+  "Lyrics and Music: Elijah Taylor Cassel, 1902 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "E"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 95
+verse_count = 3
+phrase_breaks = ["3:40", "5:40", "7:40", "9:40", "13:40"]
+optional_phrase_breaks = ["11:40", "15:40"]
+
+[lyrics.1]
+text = "I am a stran -- ger here, with -- in a for -- eign land; My home is far a -- way, up -- on a gold -- en strand; Am -- bas -- sa -- dor to be of realms be -- yond the sea, I’m here on busi -- ness for my King."
+
+[lyrics.2]
+text = "This is the King’s com -- mand: that all men, ev -- ery -- where, Re -- pent and turn a -- way from sin’s se -- duct -- ive snare; That all who will o -- bey, with Him shall reign for aye, And that’s my busi -- ness for my King."
+
+[lyrics.3]
+text = "My home is bright -- er far than Sha -- ron’s ro -- sy plain, E -- ter -- nal life and joy through -- out its vast do -- main; My Sov -- ereign bids me tell how mor -- tals there may dwell, And that’s my busi -- ness for my King."
+
+[lyrics.chorus]
+text = "This is the mes -- sage that I bring, A mes -- sage an -- gels fain would sing: “Oh, be ye re -- con -- ciled,” Thus saith my Lord and King, “Oh, be ye re -- con -- ciled to God.”"
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s8 b8 cis'8 e'8 |
+gis'8. gis'16 gis'4. gis'8 fis'8 e'8 |
+a'8. a'16 a'4. a'8 gis'8 fis'8 |
+a'8. a'16 a'4. a'8 gis'8 fis'8 |
+b'8. b'16 b'4. b8 cis'8 e'8 |
+gis'8. gis'16 gis'4. gis'8 fis'8 e'8 |
+e''8. e''16 e''4.! e''8 dis''8 cis''8 |
+b'8 cis''8 gis'2 fis'4 |
+e'2~ e'8 b'8@c b'8 b'8 |
+dis''2~ dis''8 dis''8 cis''8 b'8 |
+e''2~ e''8 gis'8 fis'8 gis'8 |
+a'8 b'8 dis''2 cis''4 |
+b'2~ b'8 b'8 b'8 b'8 |
+gis'8. gis'16 gis'4. gis'8 fis'8 e'8 |
+e''8. e''16 e''4.! e''8 dis''8 cis''8 |
+b'8 cis''8 gis'2 fis'4 |
+e'2~ e'8 s4 s8
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s8 b8 b8 b8 |
+e'8. e'16 e'4. e'8 b8 b8 |
+dis'8. dis'16 dis'4. fis'8 e'8 dis'8 |
+dis'8. dis'16 dis'4. fis'8 e'8 dis'8 |
+e'8. dis'16 e'4. b8 b8 b8 |
+e'8. e'16 e'4. e'8 dis'8 e'8 |
+e'8. e'16 e'4.! e'8 e'8 e'8 |
+e'8 dis'8 e'2 dis'4 |
+b2~ b8 gis'8@c gis'8 gis'8 |
+a'2~ a'8 a'8 a'8 fis'8 |
+e'2~ e'8 e'8 dis'8 e'8 |
+dis'8 e'8 fis'2 e'4 |
+dis'2~ dis'8 dis'8 e'8 fis'8 |
+e'8. e'16 e'4. e'8 dis'8 e'8 |
+e'8. e'16 e'4.! e'8 e'8 e'8 |
+e'8 dis'8 e'2 dis'4 |
+b2~ b8 s4 s8
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 s8 gis8 a8 gis8 |
+b8. b16 b4. b8 a8 gis8 |
+b8. b16 b4. b8 b8 b8 |
+b8. b16 b4. b8 b8 b8 |
+b8. a16 gis4. gis8 a8 gis8 |
+b8. b16 b4. b8 b8 b8 |
+cis'8. cis'16 cis'4.! cis'8 b8 a8 |
+gis8 a8 b2 a4 |
+gis2~ gis8 b8@c b8 b8 |
+b2~ b8 b8 b8 b8 |
+b2~ b8 b8 b8 b8 |
+b8 b8 b2 ais4 |
+b2~ b8 b8 b8 b8 |
+b8. b16 b4. b8 b8 d'8 |
+cis'8. cis'16 cis'4.! cis'8 b8 a8 |
+gis8 a8 b2 a4 |
+gis2~ gis8 s4 s8
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 s8 e8 e8 e8 |
+e8. e16 e4. e8 e8 e8 |
+b,8. fis16 b,4. b,8 b,8 b,8 |
+b,8. fis16 b,4. b,8 b,8 a8 |
+gis8. fis16 e4. e8 e8 e8 |
+e8. e16 e4. b8 a8 gis8 |
+a8. a16 a4.! a,8 a,8 a,8 |
+b,8 b,8 b,2 b,4 |
+e2~ e8 e8@c e8 e8 |
+b,2~ b,8 b,8 b,8 a8 |
+gis2~ gis8 b8 a8 gis8 |
+fis8 gis8 fis2 fis4 |
+b,2~ b,8 b,8 cis8 dis8 |
+e8. e16 e4. b8 a8 gis8 |
+a8. a16 a4.! a,8 a,8 a,8 |
+b,8 b,8 b,2 b,4 |
+e2~ e8 s4 s8
+"""
