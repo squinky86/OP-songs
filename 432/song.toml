@@ -1,0 +1,114 @@
+title = "How Shall the Young Secure Their Hearts?"
+copyrights = [
+  "Lyrics: Isaac Watts, 1719 (public domain)",
+  "Music: 'Munich' by Ludwig van Beethoven, 1851 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "E"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 3
+phrase_breaks = ["5:48", "9:48"]
+optional_phrase_breaks = ["3:48", "7:48"]
+non_breaking_phrase_breaks = ["10:16"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 b'4.( a'8) |
+gis'4 gis'4 gis'8[ a'8] b'8[ cis''8] |
+cis''4 fis'4 fis'4 gis'8[ fis'8] |
+e'4 e'4 fis'4 fis'4 |
+gis'2( fis'4) b'8.[ a'16] |
+gis'4 gis'4 gis'8[ a'8] b'8[ cis''8] |
+cis''4 fis'4 fis'4 gis'8[ fis'8] |
+e'8[ fis'8] gis'8[ a'8] b'4 b'4 |
+b'2. dis''4 |
+e''2 dis''4( cis''4) |
+b'2 a'2 |
+gis'2! s2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+suppress_verses = [2, 3]
+suppress_verses_when = ["soprano"]
+notes = """
+s2 gis'4.( fis'8) |
+e'4 e'4 e'8[ fis'8] gis'8[ a'8] |
+a'4 dis'4 dis'4 e'8[ dis'8] |
+e'4 e'4 e'4 dis'4 |
+e'2( dis'4) dis'4 |
+e'4 e'4 e'8[ fis'8] gis'8[ a'8] |
+a'4 dis'4 dis'4 dis'4 |
+e'8[ dis'8] e'8[ fis'8] gis'4 a'4 |
+gis'2( fis'4) a'4 |
+gis'4( a'4) b'4( a'4) |
+gis'2 fis'2 |
+e'2! s2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3]
+suppress_verses_when = ["soprano", "alto"]
+notes = """
+s2 b2 |
+b4 b4 b4 e'4 |
+dis'4 b4 b4 b8[ a8] |
+gis4 b4 b4 b4 |
+b2. b4 |
+b4 b4 b4 e'4 |
+dis'4 b4 b4 r4 |
+r2. dis'4 |
+e'4 e'4 dis'8[ cis'8] b4 |
+b4( e'2) e'4 |
+e'4 e'4 b4 b4 |
+b2! s2
+"""
+
+[parts.Tenor.lyrics.1]
+text = "How shall the young se -- cure their hearts, And guard their lives from sin? Thy word the choic -- est rules im -- parts To keep the con -- science clean, (To keep the con -- science clean.)"
+
+[parts.Tenor.lyrics.2]
+text = "'Tis, like the sun, a heav'n -- ly light, That guides us all the day; And, thro' the dan -- gers of the night, A lamp to lead our way, (A lamp to lead our way.)"
+
+[parts.Tenor.lyrics.3]
+text = "Thy word is ev -- er -- last -- ing truth; How pure is ev -- 'ry page! That ho -- ly book shall guide our youth, And well sup -- port our age, (And well sup -- port our age.)"
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3]
+suppress_verses_when = ["soprano", "alto", "tenor"]
+notes = """
+s2 e2 |
+e4 e4 e4 e4 |
+b,4 b,4 b,4 b,4 |
+e4 gis4 b4 b,4 |
+e2( b,4) b,4 |
+e4 e4 e4 e4 |
+b,4 b,4 b,4 r4 |
+r2. b,4 |
+e8[ fis8] gis8[ a8] b4 b,4 |
+e4 fis4 gis4 a4 |
+b2 b,2 |
+e2! s2
+"""
+
+[lyrics.1]
+text = "How shall the young se -- cure their hearts, And guard their lives from sin? Thy word the choic -- est rules im -- parts To keep the con -- science clean, To keep the con -- science clean."
+
+[lyrics.2]
+text = "'Tis, like the sun, a heav'n -- ly light, That guides us all the day; And, thro' the dan -- gers of the night, A lamp to lead our way, A lamp to lead our way."
+
+[lyrics.3]
+text = "Thy word is ev -- er -- last -- ing truth; How pure is ev -- 'ry page! That ho -- ly book shall guide our youth, And well sup -- port our age, And well sup -- port our age."
