@@ -1,0 +1,75 @@
+title = "How Sweet the Name of Jesus Sounds"
+verse_count = 7
+key_signature = "G"
+time_sig_numerator = 6
+time_sig_denominator = 4
+tempo_bpm = 150
+phrase_breaks = ["5:80", "9:80"]
+optional_phrase_breaks = ["3:80", "7:80"]
+copyrights = [
+  "Lyrics: John Newton, 1779 (public domain)",
+  "Music: 'Ortonville' by Thomas Hastings, 1837 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. s2 d'4 | g'2 g'4 a'2 a'4 | b'2 a'4 g'2 d'4 | e'2 e'4 g'2 e'4 | d'2.~ d'2 d'4
+| g'2 g'4 a'2 a'4 | b'2 c''4 d''2 b'8[ a'8] | g'2 g'4 a'2 a'4 | g'2.~ g'2 g'4
+| b'2 b'4 a'2 a'4 | g'2.~ g'2 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. s2 b4 | d'2 d'4 d'2 d'4 | d'2 c'4 b2 b4 | c'2 c'4 e'2 c'4 | b2.~ b2 b4
+| d'2 d'4 d'2 d'4 | d'2 d'4 d'2 d'8[ c'8] | b2 b4 c'2 c'4 | b2.~ b2 b4
+| d'2 d'4 d'2 c'4 | b2.~ b2 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. s2 g4 | g2 g4 fis2 fis4 | g2 fis4 g2 g4 | g2 g4 g2 g4 | g2.~ g2 g4
+| g2 g4 fis2 fis4 | g2 a4 b2 g4 | d2 d4 d2 d4 | d2.~ d2 g4
+| g2 g4 fis2 fis4 | g2.~ g2 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. s2 g,4 | b,2 b,4 d2 d4 | g2 d4 g,2 g,4 | c2 c4 c2 c4 | g,2.~ g,2 g,4
+| b,2 b,4 d2 d4 | g2 g4 g2 g,4 | g,2 g,4 d2 d4 | g,2.~ g,2 g,4
+| g2 g4 d2 d4 | g,2.~ g,2 s4
+"""
+
+[lyrics.1]
+text = "How sweet the name of Je -- sus sounds In a be -- liev -- er's ear! It soothes his sor -- rows, heals his wounds, And drives a -- way his fear, And drives a -- way his fear."
+
+[lyrics.2]
+text = "It makes the wound -- ed spir -- it whole, And calms the trou -- bled breast; 'Tis man -- na to the hun -- gry soul, And to the wea -- ry rest, And to the wea -- ry rest."
+
+[lyrics.3]
+text = "Dear name! the rock on which I build, My shield and hid -- ing place, My nev -- er fail -- ing treas' -- ry filled With bound -- less stores of grace, With bound -- less stores of grace!"
+
+[lyrics.4]
+text = "By Thee my prayers ac -- cept -- ance gain, Al -- though with sin de -- filed; Sa -- tan ac -- cus -- es me in vain, And I am owned a child, And I am owned a child."
+
+[lyrics.5]
+text = "Je -- sus! my Shep -- herd, Hus -- band, Friend, O Proph -- et, Priest and King, My Lord, my Life, my Way, my End, Ac -- cept the praise I bring, Ac -- cept the praise I bring."
+
+[lyrics.6]
+text = "Weak is the ef -- fort of my heart, And cold my warm -- est thought; But when I see Thee as Thou art, I'll praise Thee as I ought, I'll praise Thee as I ought."
+
+[lyrics.7]
+text = "Till then I would Thy love pro -- claim With ev' -- ry fleet -- ing breath, And may the mu -- sic of Thy name Re -- fresh my soul in death, Re -- fresh my soul in death!"
