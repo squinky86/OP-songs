@@ -1,0 +1,68 @@
+title = "Father, Whate'er of Earthly Bliss"
+copyrights = [
+  "Lyrics: Anne Steele, 1760 (public domain)",
+  "Music: 'Naomi' by Hans Georg Nägeli, c. 1815 (public domain)",
+  "Arrangement: Lowell Mason, 1836 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "D"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 150
+verse_count = 3
+phrase_breaks = ["7:64"]
+optional_phrase_breaks = ["4:32", "11:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+fis'2 fis'4 fis'4 | a'2 g'4( fis'4) | e'4( fis'4) g'2 | fis'2 fis'2 |
+b'2. b'4 | a'2 gis'2 | a'1 |
+fis'2 fis'4 fis'4 | a'2 g'4( fis'4) | e'4( fis'4) g'2 | fis'2 fis'2 |
+b'2. b'4 | a'4( fis'4) e'2 | fis'1
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+d'2 d'4 d'4 | fis'2 e'4( d'4) | cis'4( d'4) e'2 | d'2 d'2 |
+fis'2. fis'4 | e'2 d'2 | cis'1 |
+d'2 d'4 d'4 | fis'2 e'4( d'4) | cis'4( d'4) e'2 | d'2 d'2 |
+d'2. d'4 | d'2 cis'2 | d'1
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+a2 a4 a4 | a2 a2 | a2 a2 | a2 a2 |
+d'2. d'4 | cis'2 b2 | a1 |
+a2 a4 a4 | a2 a2 | a2 a2 | a2 a2 |
+g2. g4 | fis4( a4) a2 | a1
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+d2 d4 d4 | d2 d2 | a2 a,2 | d2 d2 |
+b,2. b,4 | e2 e2 | a,1 |
+d2 d4 d4 | d2 d2 | a2 a,2 | d2 d2 |
+g,2. g,4 | a,2 a,2 | d1
+"""
+
+[lyrics.1]
+text = "Fa -- ther, what -- e'er of earth -- ly bliss Thy sov -- ereign will de -- nies, Ac -- cept -- ed at Thy throne, let this My hum -- ble prayer, a -- rise:"
+
+[lyrics.2]
+text = "Give me a calm and thank -- ful heart, From ev -- ery mur -- mur free; The bless -- ing of Thy grace im -- part, And make me live to Thee."
+
+[lyrics.3]
+text = "Let the sweet hope that Thou art mine My life and death at -- tend, Thy pres -- ence through my jour -- ney shine, And crown my jour -- ney's end."
