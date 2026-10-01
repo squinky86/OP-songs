@@ -1,19 +1,16 @@
 title = "Bethany Blessing"
-verse_count = 1
-key_signature = "G"
-time_sig_numerator = 3
-time_sig_denominator = 4
-tempo_bpm = 88
-phrase_breaks = ["5:24"]
-optional_phrase_breaks = ["3:24", "7:24"]
 copyrights = [
   "Lyrics: Carrie Stewart-Besserer, 1928 (public domain)",
   "Music: B. D. Ackley, 1928 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
-
-[lyrics.1]
-text = "Ac -- cept our grat -- i -- tude, Lord, For all the bless -- ings Thou dost give; Di -- rect and guide our dai -- ly paths, And teach us how to live. For Je -- sus' sake, A -- men."
+key_signature = "G"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 88
+verse_count = 1
+phrase_breaks = ["5:24"]
+optional_phrase_breaks = ["3:24", "7:24"]
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -54,3 +51,6 @@ s4. g8 g8 g8 | g4 g4 d4 | e4. e8 d8 d8 | c4. c8 c8 c8 | g,4. g8 g8 g8 |
 d4. d8 d8 d8 | e4. e8 e8 e8 | d2 d4 | <g, g>4. g8 g8 g8 | c2 c4 |
 <g, g>4. s4.
 """
+
+[lyrics.1]
+text = "Ac -- cept our grat -- i -- tude, Lord, For all the bless -- ings Thou dost give; Di -- rect and guide our dai -- ly paths, And teach us how to live. For Je -- sus' sake, A -- men."
