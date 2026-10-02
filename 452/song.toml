@@ -1,0 +1,85 @@
+title = "From the Cross to the Crown"
+copyrights = [
+  "Lyrics and Music: Franklin L. Eiland, 1899 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "A"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 93
+verse_count = 3
+phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "13:48"]
+optional_phrase_breaks = ["11:48", "15:48"]
+non_breaking_phrase_breaks = ["12:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. cis''8. d''16 | e''4 cis''8. b'16 a'4 a'8. a'16 | b'16 a'8. fis'4 e'4 e'8. fis'16 |
+a'4 a'8. b'16 cis''4 cis''8. cis''16 | e''2. cis''8. d''16 |
+e''4 cis''8. b'16 a'4 a'8. a'16 | b'16 a'8. fis'4 e'4 e'8. fis'16 |
+a'4 a'8. b'16 cis''4 b'8. b'16 | a'2. cis''8.@c d''16 |
+e''2. cis''8. d''16 | e''2. a'8. a'16 | a'4 a'8. a'16 b'16 a'8. fis'4 |
+e'2. cis''8. d''16 | e''2. cis''8. d''16 | e''2. a'8. b'16 |
+cis''4 cis''8. a'16 b'16 b'8. b'4 | a'2. s4
+"""
+
+[parts.Soprano.lyrics.chorus]
+text = "Look a -- way, look a -- way, From the cross to the glit -- ter -- ing crown, Look a -- way, look a -- way, From the cross to the glit -- ter -- ing crown."
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. e'8. e'16 | a'4 a'8. e'16 e'4 e'8. e'16 | fis'16 fis'8. d'4 cis'4 cis'8. d'16 |
+e'4 e'8. gis'16 a'4 a'8. a'16 | gis'2. e'8. e'16 |
+a'4 a'8. e'16 e'4 e'8. e'16 | fis'16 fis'8. d'4 cis'4 cis'8. d'16 |
+e'4 a'8. a'16 a'4 g'8. g'16 | a'2. e'8.@c e'16 |
+a'4 a'8. a'16 a'4 e'8. fis'16 | gis'8[ a'8] b'8. b'16 a'4 e'8. e'16 | fis'4 fis'8. fis'16 fis'16 fis'8. d'4 |
+cis'16 cis'8. cis'4 cis'4 e'8. e'16 | a'4 a'8. a'16 a'4 e'8. fis'16 | gis'8[ a'8] b'8. b'16 a'4 e'8. gis'16 |
+a'4 a'8. e'16 e'16 e'8. e'4 | e'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. a8. b16 | cis'4 e'8. d'16 cis'4 cis'8. cis'16 | d'16 d'8. a4 a4 a8. a16 |
+cis'4 cis'8. d'16 e'4 a8. a16 | b2. a8. b16 |
+cis'4 e'8. d'16 cis'4 cis'8. cis'16 | d'16 d'8. a4 a4 a8. a16 |
+cis'4 dis'8. dis'16 e'4 d'8. d'16 | cis'2. a8.@c b16 |
+cis'4 cis'8. cis'16 cis'4 a8. a16 | b8[ cis'8] d'8. d'16 cis'4 cis'8. cis'16 | d'4 d'8. d'16 d'16 d'8. a4 |
+a16 a8. a4 a4 a8. b16 | cis'4 cis'8. cis'16 cis'4 a8. a16 | b8[ cis'8] d'8. d'16 cis'4 e'8. fis'16 |
+e'4 e'8. cis'16 d'16 d'8. d'4 | cis'2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. a8. a16 | a4 a8. a16 a4 a8. a16 | d16 d8. d4 a,4 a8. a16 |
+a4 a8. a16 a4 fis8. fis16 | e2. a8. a16 |
+a4 a8. a16 a4 a8. a16 | d16 d8. d4 a,4 a8. a16 |
+a4 fis8. fis16 e4 e8. e16 | a,2. a8.@c a16 |
+a4 a8. a16 a4 a8. a16 | e4 fis8. gis16 a4 a8. a16 | d4 d8. d16 d16 d8. d4 |
+a,16 a,8. a,4 a,4 a8. a16 | a4 a8. a16 a4 a8. a16 | e4 fis8. gis16 a4 a8. a16 |
+e4 e8. e16 e16 e8. e4 | a,2. s4
+"""
+
+[lyrics.1]
+text = "Look a -- way from the cross, To the glit -- ter -- ing crown, From your cares, wea -- ry one, look a -- way; There’s a home for the soul Where no sor -- row can come, And where pleas -- ures will nev -- er de -- cay."
+
+[lyrics.2]
+text = "Tho’ the bur -- dens of life May be heav -- y to bear, And your cross -- es and tri -- als se -- vere, There’s a beau -- ti -- ful hand That is beck -- on -- ing “Come,” And no heart -- aches and sigh -- ings are there."
+
+[lyrics.3]
+text = "’Mid the con -- flicts, the bat -- tles, The strug -- gles and strife, Brave -- ly on -- ward your jour -- ney pur -- sue; Look a -- way from the cross To the glit -- ter -- ing crown That’s a -- wait -- ing in Heav -- en for you."
+
+[lyrics.chorus]
+text = "Wea -- ry one, look a -- way from the cross to the crown, From the cross to the glit -- ter -- ing glit -- ter -- ing crown, Wea -- ry one, look a -- way from the cross to the crown, From the cross to the glit -- ter -- ing crown."
