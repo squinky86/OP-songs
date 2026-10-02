@@ -1,0 +1,75 @@
+title = "I Bring My Sins to Thee"
+subtitle = "O My Sins"
+verse_count = 4
+key_signature = "C"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 100
+phrase_breaks = ["5:32", "9:32", "13:32"]
+optional_phrase_breaks = ["3:32", "7:32", "11:32"]
+copyrights = [
+  "Lyrics: Frances R. Havergal, 1870 (public domain)",
+  "Music: Philip P. Bliss (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[lyrics.1]
+text = "I bring my sins to Thee, The sins I can -- not count, That all may cleans -- èd be In Thy once op -- ened fount; I bring them, Sav -- ior, all to Thee; The bur -- den is too great for me, The bur -- den is too great for me."
+
+[lyrics.2]
+text = "I bring my grief to Thee, The grief I can -- not tell; No words shall need -- ed be, Thou know -- est all so well; I bring the sor -- row laid on me, O suff’ -- ring Sav -- ior, all to Thee, O suff’ -- ring Sav -- ior, all to Thee."
+
+[lyrics.3]
+text = "My joys to Thee I bring, The joys Thy love has giv’n, That each may be a wing To lift me near -- er Heav’n; I bring them, Sav -- ior, all to Thee, Who hast pro -- cured them all for me, Who hast pro -- cured them all for me."
+
+[lyrics.4]
+text = "My life I bring to Thee, I would not be my own; O Sav -- ior, let me be Thine ev -- er, Thine a -- lone; My heart, my life, my all I bring To Thee, my Sav -- ior and my King, To Thee, my Sav -- ior and my King."
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 g'4 | c''4. g'8 a'8 g'8 | g'4( e'4) g'4 | a'8 c''8 c''4 b'4 |
+c''2 g'4 | c''4. g'8 a'8 g'8 | g'4( e'4) g'4 | a'8 c''8 c''4 b'4 |
+c''2 c''4 | d''8 d''8 d''4 e''8.[ d''16] | c''8 a'8 g'4 c''4 |
+d''8 d''8 d''4 e''8.[ d''16] | c''8 a'8 g'4 g'4 | a'8 a'8 c''4 a'4 |
+g'8 b'8 c''4! s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 e'4 | e'4. e'8 f'8 e'8 | e'4( c'4) e'4 | f'8 f'8 e'4 d'4 |
+e'2 e'4 | e'4. e'8 f'8 e'8 | e'4( c'4) e'4 | f'8 f'8 e'4 d'4 |
+e'2 e'4 | f'8 f'8 f'4 g'8.[ f'16] | e'8 f'8 e'4 e'4 |
+f'8 f'8 f'4 g'8.[ f'16] | e'8 f'8 e'4 e'4 | f'8 f'8 f'4 f'4 |
+e'8 d'8 e'4! s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 c'4 | c'4. c'8 c'8 c'8 | c'4( g4) c'4 | c'8 a8 g4 g4 |
+g2 c'4 | c'4. c'8 c'8 c'8 | c'4( g4) c'4 | c'8 a8 g4 g4 |
+g2 c'4 | b8 b8 b4 b4 | c'8 c'8 c'4 c'4 |
+b8 b8 b4 b4 | c'8 c'8 c'4 c'4 | c'8 c'8 a4 c'4 |
+c'8 g8 g4! s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 c4 | c4. c8 c8 c8 | e2 c4 | f8 f8 g4 g,4 |
+c2 c4 | c4. c8 c8 c8 | c2 c4 | f8 f8 g4 g,4 |
+c2 c4 | g8 g8 g4 g4 | c8 c8 c4 c4 |
+g8 g8 g4 g4 | c8 c8 c4 c4 | f8 f8 f4 f4 |
+g8 g8 c4! s4
+"""
