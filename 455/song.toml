@@ -1,0 +1,87 @@
+title = "They Were Gladly Baptized"
+copyrights = [
+  "Lyrics: Jennie Wilson, 1911 (public domain)",
+  "Music: Flavil Hall, 1911 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Db"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 88 
+verse_count = 3
+phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "11:48", "13:48", "15:48", "17:48", "19:48", "21:48", "23:48"]
+non_breaking_phrase_breaks = ["18:16", "19:16", "20:16", "21:16"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. des'8 f'8 | aes'4 aes'8 aes'8 aes'4 bes'8 c''8 | des''2 aes'4 aes'8 aes'8 | c''4 c''8 bes'8 aes'4 bes'8 aes'8 |
+aes'2. des'8 f'8 | aes'4 aes'8 aes'8 aes'4 bes'8 c''8 | des''2 aes'4 aes'8 aes'8 | c''4 c''8 bes'8 aes'4 ges'8 ees'8 |
+des'2. des''8 c''8 | bes'4 bes'8 c''8 des''4 c''8 bes'8 | aes'2 f'4 aes'8 aes'8 | c''4 c''8 bes'8 aes'4 bes'8 aes'8 |
+aes'2. des'8 f'8 | aes'4 aes'8 aes'8 aes'4 bes'8 c''8 | des''2 aes'4 aes'8 aes'8 | c''4 c''8 bes'8 aes'4 bes'8 c''8 |
+des''2. des''8@c des''8 | des''2~ des''8 aes'16 aes'16 {3 aes'8 bes'8 c''8 } | des''2~ des''4 aes'8 aes'8 | c''2~ c''8 bes'16 aes'16 {3 c''8 des''8 ees''8 } |
+des''2~ des''4 des'8 f'8 | aes'4 aes'8 aes'8 aes'4 bes'8 c''8 | des''2 aes'4 aes'8 aes'8 | c''4 c''8 bes'8 aes'4 bes'8 c''8 |
+des''2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. des'8 des'8 | f'4 f'8 f'8 f'4 ges'8 ges'8 | f'2 f'4 f'8 aes'8 | ges'4 ges'8 ges'8 ges'4 ges'8 ges'8 |
+f'2. des'8 des'8 | f'4 f'8 f'8 f'4 ges'8 ges'8 | f'2 f'4 f'8 aes'8 | ges'4 ges'8 ges'8 f'4 ees'8 c'8 |
+des'2. f'8 aes'8 | ges'4 ges'8 aes'8 bes'4 aes'8 ges'8 | f'2 des'4 f'8 aes'8 | ges'4 ges'8 ges'8 ges'4 ges'8 ges'8 |
+f'2. des'8 des'8 | f'4 f'8 f'8 f'4 ges'8 ges'8 | f'2 f'4 f'8 aes'8 | ges'4 ges'8 ges'8 ges'4 ges'8 ges'8 |
+f'2. f'8@c f'8 | f'2~ f'8 f'16 f'16 {3 ges'8 ges'8 ges'8 } | f'4 {3 e'8 f'8 ges'8 } f'4 f'8 aes'8 | ges'2~ ges'8 ges'16 ges'16 {3 ges'8 f'8 ges'8 } |
+f'4 {3 f'8 aes'8 ges'8 } f'4 des'8 des'8 | f'4 f'8 f'8 f'4 ges'8 ges'8 | f'2 f'4 f'8 aes'8 | ges'4 ges'8 ges'8 ges'4 ges'8 ges'8 |
+f'2. s4
+"""
+
+[parts.Alto.lyrics.chorus]
+text = "They be -- lieved and were glad -- ly bap -- tized, glad -- ly bap -- tized, They be -- lieved and were glad -- ly bap -- tized, glad -- ly bap -- tized. When they learned what the Sav -- iour com -- mand -- ed, They be -- lieved and were glad -- ly bap -- tized."
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. f8 aes8 | des'4 des'8 des'8 des'4 des'8 aes8 | aes2 des'4 des'8 des'8 | ees'4 ees'8 des'8 c'4 c'8 c'8 |
+des'2. f8 aes8 | des'4 des'8 des'8 des'4 des'8 aes8 | aes2 des'4 des'8 des'8 | ees'4 ees'8 c'8 des'4 aes8 ges8 |
+f2. aes8 des'8 | des'4 des'8 des'8 des'4 des'8 des'8 | des'2 aes4 des'8 des'8 | ees'4 ees'8 des'8 c'4 c'8 c'8 |
+des'2. f8 aes8 | des'4 des'8 des'8 des'4 des'8 aes8 | aes2 des'4 des'8 des'8 | ees'4 ees'8 des'8 c'4 des'8 aes8 |
+aes2. aes8@c aes8 | aes4 aes8 aes8 des'4 {3 c'4 aes8 } | aes4 {3 g8 aes8 bes8 } aes4 des'8 des'8 | ees'4 ees'8 ees'8 ees'8[ c'8] {3 aes4 aes8 } |
+aes4 {3 des'8 c'8 bes8 } aes4 f8 aes8 | des'4 des'8 des'8 des'4 des'8 aes8 | aes2 des'4 des'8 des'8 | ees'4 ees'8 des'8 c'4 des'8 aes8 |
+des'2. s4
+"""
+
+[parts.Tenor.lyrics.chorus]
+text = "They be -- lieved and were glad -- ly bap -- tized, glad -- ly bap -- tized, They be -- lieved and were glad -- ly bap -- tized, glad -- ly bap -- tized. When they learned what the Sav -- iour com -- mand -- ed, They be -- lieved and were glad -- ly bap -- tized."
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. des8 des8 | des4 des8 des8 des4 ges8 ees8 | des2 des4 des8 f8 | aes4 aes8 aes8 aes4 aes8 aes8 |
+des2. des8 des8 | des4 des8 des8 des4 ges8 ees8 | des2 des4 des8 f8 | aes4 aes8 aes8 aes4 aes,8 aes,8 |
+des2. des8 f8 | ges4 ges8 ges8 ges4 ges8 ges8 | des2 des4 des8 f8 | aes4 aes8 aes8 aes4 aes8 aes8 |
+des2. des8 des8 | des4 des8 des8 des4 ges8 ees8 | des2 des4 des8 f8 | aes4 aes8 aes8 aes4 aes,8 aes,8 |
+des2. des8@c des8 | des4 des8 des8 des4 {3 aes,4 aes,8 } | des2~ des4 des8 f8 | aes4 aes8 aes8 aes4 {3 aes4 aes8 } |
+des2~ des4 des8 des8 | des4 des8 des8 des4 ges8 ees8 | des2 des4 des8 f8 | aes4 aes8 aes8 aes4 aes,8 aes,8 |
+des2. s4
+"""
+
+[lyrics.1]
+text = "In the fair wick -- ed cit -- y of Cor -- inth, Paul with bold -- ness was preach -- ing the word, And the won -- der -- ful way of sal -- va -- tion Both the Jews and the Gen -- tiles there heard. Then the syn -- a -- gogue's rul -- er, named Cris -- pus, with his house -- hold the great mes -- sage prized, And with ma -- ny who learned Christ's com -- mand -- ments, They be -- lieved and were glad -- ly bap -- tized."
+
+[lyrics.2]
+text = "In the wa -- ter -- y grave they were bur -- ied, And to new -- ness of life rose a -- gain, As an em -- blem of Christ's res -- ur -- rec -- tion, Af -- ter He in the dark grave had lain. Thus his fol -- low -- ers made a con -- fes -- sion of their faith in the dear Son of God, When thro' sym -- bol -- ized death, with sub -- mis -- sion They were tread -- ing the path -- way He trod."
+
+[lyrics.3]
+text = "The com -- mand -- ments of Je -- sus are bind -- ing, And He bless -- es the faith -- ful to -- day, As of old, when the gos -- pel re -- quire -- ments They are will -- ing and glad to o -- bey. O be -- lieve in the Lord, ye sin- -- la -- den, seek the rest He doth give to the soul, And bap -- tized in -- to Him with re -- joic -- ing, Jour -- ney on to the heav -- en -- ly goal."
+
+[lyrics.chorus]
+text = "They be -- lieved and were glad -- ly bap -- tized, They be -- lieved and were glad -- ly bap -- tized, When they learned what the Sav -- iour com -- mand -- ed, They be -- lieved and were glad -- ly bap -- tized."
