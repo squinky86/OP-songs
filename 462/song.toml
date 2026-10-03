@@ -1,0 +1,73 @@
+title = "Music in Heaven"
+copyrights = [
+  "Lyrics: Mrs. J. M. Hunter, 1906 (public domain)",
+  "Music: T. B. Mosley, 1906 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 3
+phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "13:48"]
+optional_phrase_breaks = ["11:48", "15:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. a'8. bes'16 | c''8 c''4 d''8 c''8 a'8 g'8 f'8 | g'8 f'4 d'8 c'4 f'8. g'16 | a'8 a'4 c''8 d''8 c''8 c''8. a'16 |
+g'2. a'8. bes'16 | c''8 c''4 d''8 c''8 a'8 g'8 f'8 | g'8 f'4 d'8 c'4 f'8. a'16 | c''8 c''4 d''8 a'4 g'4 |
+f'2. c''8.@c c''16 | d''8 d''4 bes'8 d''8 f''8 e''8 d''8 | c''8 c''4 c''8 c''4 a'8. c''16 | d''8 c''4 a'8 d''8 c''8 c''8. a'16 |
+g'2. a'8. bes'16 | c''8 c''4 d''8 c''8 a'8 g'8 f'8 | g'8 f'4 d'8 c'4 f'8. a'16 | c''8 c''4 d''8 a'4 g'4 |
+f'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. f'8. f'16 | f'8 f'4 f'8 f'8 f'8 ees'8 ees'8 | d'8 d'4 bes8 a4 c'8. c'16 | f'8 f'4 f'8 f'8 f'8 f'8. f'16 |
+e'2. f'8. f'16 | f'8 f'4 f'8 f'8 f'8 ees'8 ees'8 | d'8 d'4 bes8 a4 c'8. f'16 | f'8 f'4 f'8 f'4 e'4 |
+f'2. f'8.@c f'16 | f'8 f'4 f'8 f'8 f'8 f'8 f'8 | f'8 f'4 e'8 f'4 f'8. f'16 | f'8 f'4 f'8 f'8 f'8 f'8. f'16 |
+e'2. c'8. c'16 | f'8 f'4 f'8 f'8 f'8 ees'8 ees'8 | d'8 d'4 bes8 a4 c'8. f'16 | f'8 f'4 f'8 f'4 c'4 |
+c'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. f8. g16 | a8 a4 bes8 a8 c'8 bes8 a8 | bes8 bes4 f8 f4 a8. bes16 | c'8 c'4 a8 bes8 a8 a8. c'16 |
+c'2. f8. g16 | a8 a4 bes8 a8 c'8 a8 a8 | bes8 bes4 f8 f4 a8. c'16 | a8 a4 bes8 c'4 bes4 |
+a2. a8.@c a16 | bes8 bes4 d'8 bes8 d'8 c'8 bes8 | a8 a4 a8 c'4 f8. a16 | bes8 a4 c'8 bes8 a8 a8. c'16 |
+c'2. f8. g16 | a8 a4 bes8 a8 c'8 a8 a8 | bes8 bes4 f8 f4 a8. c'16 | a8 a4 bes8 c'4 bes4 |
+a2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. f8. f16 | f8 f4 f8 f8 f8 f8 f8 | bes,8 bes,4 bes,8 f,4 f8. f16 | f8 f4 f8 f8 f8 f8. f16 |
+c2. f8. f16 | f8 f4 f8 f8 f8 f8 f8 | bes,8 bes,4 bes,8 f,4 f8. f16 | f8 f4 f8 c4 c4 |
+f2. f8.@c f16 | bes,8 bes,4 bes,8 bes,8 bes,8 bes,8 bes,8 | f8 f4 g8 a4 f8. f16 | f8 f4 f8 f8 f8 f8. f16 |
+c2. f8. f16 | f8 f4 f8 f8 f8 f8 f8 | bes,8 bes,4 bes,8 f,4 f8. f16 | f8 f4 f8 c4 c4 |
+f,2. s4
+"""
+
+[lyrics.1]
+text = "There is mu -- sic in heav -- en o'er the saved ones of earth, From the Bi -- ble tho sto -- ry sweet is known, When the wand -- 'rer, re -- pent -- ing, Makes the Sav -- iour his choice; When the Shep -- herd brings home His own!"
+
+[lyrics.2]
+text = "In the des -- ert, 'mid dan -- ger, strays the poor way -- ward sheep; Lo! the tem -- pest is gath -- 'ring, hear it moan! But a kind eye is watch -- ing, And a voice calls in love, See the Shep -- herd brings home His own!"
+
+[lyrics.3]
+text = "Sin -- ner can you re -- bell -- ious, wan -- der long -- er a -- way; Je -- sus for your trans -- gres -- sions, did a -- tone; Spot -- less an -- gels are wait -- ing, O, how glad -- ly they'll sing, When the Shep -- herd brings home His own!"
+
+[lyrics.chorus]
+text = "There is mu -- sic, sweet mu -- sic up in heav -- en we know, (O, what int -- 'rest for err -- ing mor -- tals shown!) Ho -- ly an -- gels re -- joic -- ing in the pres -- ence of God; When the Shep -- herd brings home His own."
