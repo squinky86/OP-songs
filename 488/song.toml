@@ -1,0 +1,82 @@
+title = "When We All Get to Heaven"
+verse_count = 4
+key_signature = "C"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+phrase_breaks = ["4:64", "8:48", "12:48"]
+optional_phrase_breaks = ["2:64", "6:64", "10:48", "14:48"]
+non_breaking_phrase_breaks = ["7:44", "9:48", "15:44"]
+copyrights = [
+  "Lyrics: Eliza Edmunds Stites Hewitt, 1898 (public domain)",
+  "Music: Emily Divine Wilson, 1898 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+g'4 g'4 g'4 c''4 | e'8[ f'8] g'8[ a'8] g'4 e'4 | f'4 f'4 f'8[ e'8] d'8[ e'8] | f'4 g'4 e'2 |
+g'4 c''4 c''4 g'4 | a'4 c''4 c''4 a'4 | g'4 c''4 c''8. b'16 a'8. b'16 | c''2. e'8.@c g'16 |
+c''2. b'8. a'16 | g'2 e'4 g'8. g'16 | c''4 c''8. c''16 c''8. c''16 b'8. c''16 | d''2. g'8. c''16 |
+e''2. c''4 | c''2 a'4 a'4 | g'4 c''4 c''8. b'16 a'8. b'16 | c''1
+"""
+
+[parts.Soprano.lyrics.chorus]
+text = "When we all get to Hea -- ven, What a day of re -- joic -- ing that will be! When we all see Je -- sus, We’ll sing and shout the vic -- to -- ry!"
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+suppress_verses = [2, 3, 4]
+suppress_verses_when = ["soprano"]
+notes = """
+e'4 e'4 e'4 e'4 | c'8[ d'8] e'8[ f'8] e'4 c'4 | d'4 d'4 d'8[ c'8] b8[ c'8] | d'4 b4 c'2 |
+e'4 e'4 e'4 e'4 | f'4 f'4 f'4 dis'4 | e'4 g'4 f'4 f'4 | e'4 f'4 e'4 r4@c |
+r4 e'8. e'16 e'4 g'8. f'16 | e'2 c'4 r4 | r4 g'8. g'16 fis'4 fis'8. fis'16 | f'8. f'16 f'8. f'16 f'4 r4 |
+r4 g'8. g'16 g'4 g'4 | f'2 f'4 dis'4 | e'4 e'4 f'4 f'4 | e'8. e'16 f'8. f'16 e'2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3, 4]
+suppress_verses_when = ["soprano", "alto"]
+notes = """
+c'4 c'4 c'4 g4 | g4 c'4 c'4 g4 | b4 b4 g4 g4 | g4 g4 g2 |
+c'4 g4 g4 c'4 | c'4 a4 a4 c'4 | c'4 c'4 d'4 g4 | g4 a4 g4 r4@c |
+r4 g8. g16 g4 c'8. c'16 | c'2 g4 r4 | r4 g8. g16 a4 a8. a16 | b8. b16 b8. b16 b4 r4 |
+r4 c'8. c'16 g4 bes4 | a2 c'4 c'4 | c'4 c'4 d'4 d'4 | c'8. g'16 a'8. a'16 g'2
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3, 4]
+suppress_verses_when = ["soprano", "alto", "tenor"]
+notes = """
+c4 c4 c4 c4 | c4 c4 c4 c4 | g,4 g,4 g,4 g,4 | b,4 g,4 c2 |
+c4 c4 c4 c4 | f4 f4 f4 fis4 | g4 g4 g4 g4 | c4 c4 c4 r4@c |
+r4 c8. c16 c4 c8. c16 | c2 c4 r4 | r4 e8. e16 d4 d8. d16 | g8. g16 g8. g16 g8.[ f16] e8. d16 |
+c2. e4 | f2 f4 fis4 | g4 g4 g4 g4 | c8. c16 c8. c16 c2
+"""
+
+[lyrics.1]
+text = "Sing the won -- drous love of Je -- sus, Sing His mer -- cy and His grace. In the man -- sions bright and bless -- ed, He’ll pre -- pare for us a place."
+
+[lyrics.2]
+text = "While we walk the pil -- grim path -- way, Clouds will o -- ver -- spread the sky; But when trav -- eling days are o -- ver, Not a sha -- dow, not a sigh."
+
+[lyrics.3]
+text = "Let us then be true and faith -- ful, Trust -- ing, serv -- ing ev -- ery day; Just one glimpse of Him in glo -- ry Will the toils of life re -- pay."
+
+[lyrics.4]
+text = "On -- ward to the prize be -- fore us! Soon His beau -- ty we’ll be -- hold; Soon the pear -- ly gates will o -- pen; We shall tread the streets of gold."
+
+[lyrics.chorus]
+text = "When we all get to Hea -- ven, What a day of re -- joic -- ing that will be! When we all see Je -- sus, We’ll sing and shout and shout the vic -- to -- ry!"
