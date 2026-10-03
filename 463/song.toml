@@ -1,24 +1,3 @@
-# Source: Cyber Hymnal NWC2MusicXML export "FCC012 Lift Him Up.xml" (md5 0980098242918872cae8a95bdf2d6f95),
-#   transcribed from its parent nwc, http://www.hymntime.com/tch/nwc/l/i/f/t/LiftHimUp(Oatman).nwc
-#   (nwctxt 2.751). The nwc |Comments| give the transcribed edition as The Broadman Hymnal (Nashville:
-#   Broadman Press, 1940), #60 -- NOT the From the Cross to the Crown (1921) printing (FCC No. 12).
-#   Credits from the nwc |SongInfo| / CH text page (lifthimu.htm): words Johnson Oatman, Jr., 1903; music
-#   Benjamin B. (Burke) Beall, no year. Courtesy line from |Copyright2|. Tempo 110 from the nwc |Tempo|.
-#   Identity checked on hymnary.org/text/how_to_reach_the_masses (credit: Johnson Oatman, Jr. (1903)).
-#   No plate or scan was opened.
-# Notes: read from the nwctxt (the XML's voice split and staff-2 underlay are scrambled). XML bars 9+10
-#   (verse end + refrain pickup, split by the double bar) are joined into bar 9. Fermatas (bar 3, "birth")
-#   come from the nwc; the XML dropped them. No dynamics in the source.
-# Lyrics: all four stanzas and the refrain from the nwc lyric rows (agree with the CH text page).
-#   The refrain was typed on stanza 2's row; moved to [lyrics.chorus].
-#   Elision restored: stanza 1 "ev-ery" -> "ev’ -- ry" (two notes, meter 11.9.11.7).
-# Refrain echo: the nwc's staff-2 row carries "Lift the pre-cious Sav-ior up, Lift the pre-cious Sav-ior up,"
-#   against the melody's "Lift Him up, Lift Him up," (bars 9-11). The alto has exactly the T/B dotted echo
-#   rhythm there (the nwc slurs its notes only to keep staff 1's melody underlay off them), so the alto
-#   is given the echo too -- an inference; the plate was not checked. From "Still He" on, all parts
-#   sing the melody's words.
-# Bar 11 soprano: "up" sung over c''-des''-c'' (three quarters). The nwc's underlay skips these notes and
-#   the T/B/A "Still He" falls on the following dotted eighth/sixteenth, which fixes it; written as a slur.
 title = "Lift Him Up"
 copyrights = [
   "Lyrics: Johnson Oatman, Jr., 1903 (public domain)",
