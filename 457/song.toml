@@ -1,0 +1,68 @@
+title = "A Sweet Beyond"
+copyrights = [
+  "Lyrics: B. W. Pirtle, 1914 (public domain)",
+  "Music: A. B. Sebren, 1914 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 4
+phrase_breaks = ["5:48", "8:48", "12:48", "16:48"]
+optional_phrase_breaks = ["3:48", "7:48", "10:48", "14:48", "17:48"]
+non_breaking_phrase_breaks = ["2:48", "6:64", "11:48", "15:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. a'8 bes'8 | c''2. d''4 | c''4 a'4 g'8 f'8 d'8 c'8 | f'4 d''4 c''4 a'4 | g'2. c''8 bes'8 | a'2. a'4 | g'4 f'4 bes8 f'8 f'8 g'8 | a'8-( a'8-) r4 r4 f'8 g'8 | a'4 f'8[ g'8] a'8[ f'8] g'8[ a'8] | f'2. c''8@c c''8 | f''2. g''4 | f''4 c''4 d''8 c''8 a'8 g'8 | f'4 d''4 c''4 a'4 | g'2. c''8 c''8 | f''2. g''4 | f''4 c''4 d''8 c''8 f'8 g'8 | a'8 a'8 r4 r4 f'8 g'8 | a'4 f'8[ g'8] a'8[ f'8] g'8[ a'8] | f'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+suppress_verses = [2, 3, 4]
+suppress_verses_when = ["soprano"]
+notes = """
+s2. c'8 c'8 | f'2. f'4 | f'4 f'4 c'8 c'8 c'8 c'8 | c'4 f'4 e'4 f'4 | e'2. a'8 g'8 | f'2. f'4 | d'4 d'4 bes8 d'8 d'8 e'8 | f'8-( f'8-) r4 r4 c'8 c'8 | f'4 c'4 f'4 e'4 | f'2. a'8@c a'8 | a'2. bes'4 | a'4 a'4 bes'8 a'8 f'8 f'8 | f'4 f'4 f'4 f'4 | e'2. bes'8 bes'8 | a'2. bes'4 | a'4 a'4 bes'8 a'8 d'8 e'8 | f'8 f'8 r4 r4 c'8 c'8 | f'4 c'4 f'4 e'4 | f'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3, 4]
+suppress_verses_when = ["soprano", "alto"]
+notes = """
+s2. r4 | a4 a4 a4 bes4 | a4 c'4 bes8 a8 bes8 a8 | a4 bes4 a4 c'4 | c'2. r4 | c'4 d'4 c'4 c'4 | bes4 bes4 f8 bes8 r4 | r4 d'8 d'8 c'8-( c'8-) a8 bes8 | c'4 a8[ bes8] c'8[ a8] bes8[ c'8] | a2. r4@c | c'4 c'4 c'4 c'4 | c'4 f'4 f'8 f'8 c'8 bes8 | a4 bes4 a4 c'4 | c'2. r4 | c'4 c'4 c'4 c'4 | c'4 f'4 f'8 f'8 r4 | r4 d'8 d'8 c'8 c'8 a8 bes8 | c'4 a8[ bes8] c'8[ a8] bes8[ c'8] | a2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+
+suppress_verses = [2, 3, 4]
+suppress_verses_when = ["soprano", "alto", "bass"]
+notes = """
+s2. r4 | f4 f4 f4 f4 | f4 f4 f8 f8 f8 f8 | f4 f4 f4 f4 | c2. r4 | f4 d4 f4 f4 | bes,4 bes,4 bes,8 bes,8 r4 | r4 bes8 bes8 a8-( a8-) f8 f8 | f4 f4 c4 c4 | f2. r4@c | f4 f4 f4 f4 | f4 f4 f8 f8 f8 f8 | f4 f4 f4 f4 | c2. r4 | f4 f4 f4 f4 | f4 f4 f8 f8 r4 | r4 bes8 bes8 a8 a8 f8 f8 | f4 f4 c4 c4 | f2. s4
+"""
+
+[lyrics.1]
+text = "There's a sweet be -- yond, dear fa -- ther, Prom -- ised un -- to ev -- 'ry one Who will meek -- ly do the bid -- dings Of the Christ, _ of the Christ, the right -- eous Son."
+
+[lyrics.2]
+text = "There's a sweet be -- yond, dear moth -- er, And I hope to meet you there, In that bright and love -- ly Cit -- y, Where the sky, _ where the sky is al -- ways fair."
+
+[lyrics.3]
+text = "There's a sweet be -- yond, dear sis -- ter, Where in peace we shall a -- bide, With the ran -- somed of all a -- ges, Who have safe -- ly, who have safe -- ly crossed the tide."
+
+[lyrics.4]
+text = "There's a sweet be -- yond, dear broth -- er, Hope -- ful be, keep press -- ing on, 'Till life's bat -- tles all are o -- ver, And e -- ter -- nal, and e -- ter -- nal day shall dawn."
+
+[lyrics.chorus]
+text = "Won't that be a glad re -- un -- ion, When we gath -- er o -- ver there,— In that hap -- py home e -- ter -- nal, Free from ev -- 'ry, Free from ev -- 'ry toil and care."
