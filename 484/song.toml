@@ -1,0 +1,81 @@
+title = "What Shall Our Answers Be?"
+verse_count = 3
+key_signature = "G"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 92
+phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "11:48", "13:48", "15:48"]
+optional_phrase_breaks = ["2:48", "4:48", "6:48", "8:48"]
+commentary = "<p>The lyrics originally had the term “awful day” which carried the meaning of “full of awe.” These lyrics have been replaced with “awesome day” to help modern readers understand the reverence of this hymn."
+copyrights = [
+  "Lyrics: Eden Reeder Latta, 1882 (public domain)",
+  "Music: David Elijah Dortch, 1882 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. b'8. c''16 | d''8. b'16 b'8. b'16 b'4 b'8. a'16 | g'8. a'16 g'8. e'16 g'4 e'8. e'16 | d'8. g'16 g'8. g'16 g'4 g'8. a'16
+| b'8. b'16 b'8. g'16 a'4! b'8. c''16 | d''8. b'16 b'8. b'16 b'4 b'8. a'16 | g'8. a'16 g'8. e'16 g'4 e'8. e'16 | d'8. d'16 d'8. e'16 d'4 g'8. a'16
+| b'8. g'16 a'8. b'16 g'4! b'8.@c c''16 | d''2~ d''8. e''16 d''8. b'16 | d''2. b'8. a'16 | g'2~ g'8. b'16 b'8. g'16
+| a'2. b'8. c''16 | d''2~ d''8. e''16 d''8. b'16 | d''2. g'8. a'16 | b'2~ b'8. g'16 a'8. b'16
+| g'2. s4
+"""
+
+[parts.Soprano.lyrics.chorus]
+text = "When that awe -- some day we see, Oh, what shall our an -- swers be? When that awe -- some day we see, Oh, what shall our an -- swers be?"
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. g'8. a'16 | b'8. g'16 g'8. d'16 d'4 d'8. d'16 | e'8. e'16 e'8. c'16 e'4 c'8. c'16 | b8. b16 d'8. d'16 g'4 g'8. g'16
+| g'8. g'16 g'8. g'16 fis'4! g'8. a'16 | b'8. g'16 g'8. d'16 d'4 d'8. d'16 | e'8. e'16 e'8. c'16 e'4 c'8. c'16 | b8. b16 b8. c'16 b4 d'8. e'16
+| d'8. b16 c'8. d'16 b4! r4@c | r4 g'8. g'16 g'8. g'16 g'8. g'16 | g'4 g'8. g'16 g'4 r4 | r4 d'8. d'16 d'8. g'16 g'8. g'16
+| fis'8. fis'16 fis'8. fis'16 fis'4 r4 | r4 g'8. g'16 g'8. g'16 g'8. g'16 | g'4 g'8. g'16 g'4 r4 | r4 g'8. g'16 g'8. d'16 fis'8. fis'16
+| g'2. s4
+"""
+
+[parts.Alto.lyrics.chorus]
+text = "When that awe -- some day we see, day we see, Oh, what shall our an -- swers be? our an -- swers be? When that awe -- some day we see, day we see, Oh, what shall our an -- swers be?"
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. g8. g16 | g8. g16 g8. g16 g4 g8. b16 | c'8. c'16 c'8. c'16 c'4 g8. g16 | g8. g16 g8. g16 b4 b8. c'16
+| d'8. d'16 d'8. b16 d'4! g8. g16 | g8. g16 g8. g16 g4 g8. b16 | c'8. c'16 c'8. c'16 c'4 g8. g16 | g8. g16 g8. g16 g4 g8. g16
+| g8. g16 fis8. fis16 g4! r4@c | r4 b8. b16 b8. c'16 b8. d'16 | b4 b8. b16 b4 r4 | r4 b8. b16 b8. d'16 d'8. b16
+| d'8. d'16 d'8. d'16 d'4 r4 | r4 b8. b16 b8. c'16 b8. d'16 | b4 b8. b16 b4 r4 | r4 d'8. d'16 d'8. b16 c'8. d'16
+| <g b>2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. g8. g16 | g8. g16 g8. g16 g4 g8. g16 | c8. c16 c8. c16 c4 c8. c16 | g,8. g,16 b,8. b,16 d4 g8. g16
+| g8. g16 g8. g16 d4! g8. g16 | g8. g16 g8. g16 g4 g8. g16 | c8. c16 c8. c16 c4 c8. c16 | g,8. g,16 g,8. g,16 g,4 b,8. c16
+| d8. d16 d8. d16 g,4! r4@c | r4 g8. g16 g8. fis16 g8. g16 | g4 g8. g16 g4 r4 | r4 g8. g16 g8. g16 g8. g16
+| d8. d16 d8. d16 d4 r4 | r4 g8. g16 g8. fis16 g8. g16 | g4 g8. g16 g4 r4 | r4 g8. g16 g8. g16 d8. d16
+| g,2. s4
+"""
+
+[lyrics.1]
+text = "When we in the judg -- ment stand, In that might -- y com -- pa -- ny, And the Judge shall quest -- ion us, Oh, what shall our an -- swers be? What for ev -- ery trif -- ling thought, And each i -- dle word we say? What for ev -- ery sin -- ful act We may do from day to day?"
+
+[lyrics.2]
+text = "When the Lord has gath -- ered there, From the land and from the sea, All the fam -- i -- lies of men, Oh, what shall our an -- swers be? What for all our want of faith, What for all our lack of love? Can we hope a crown to gain, And a man -- sion bright a -- bove?"
+
+[lyrics.3]
+text = "Lord, it is a sol -- emn thought, That we must ac -- count to Thee! In that great and awe -- some day, What shall our poor an -- swers be? Oh, pre -- pare us, Lord, we pray, In Thy pre -- sence there to stand! Purge us from each sin -- ful blot; Place us, Lord, on Thy right hand!"
+
+[lyrics.chorus]
+text = "When that awe -- some day we see, day we see, Oh, what shall our an -- swers be? our an -- swers be? When that awe -- some day we see, day we see, Oh, what shall our an -- swers be?"
