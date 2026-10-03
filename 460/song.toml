@@ -1,0 +1,61 @@
+title = "Hark! Ten Thousand Voices"
+copyrights = [
+  "Lyrics: Thomas Kelly, 1806 (public domain)",
+  "Music: Carroll C. King, 1914 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Eb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 4
+phrase_breaks = ["4:64"]
+optional_phrase_breaks = ["2:64", "6:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+g'4 ees'4 g'4 aes'4 | bes'4 d''4 ees''4 bes'4 | bes'4 bes'4 a'4 a'4 | bes'4 c''4 d''2 |
+ees''4 d''4 c''4 bes'4 | aes'4 g'4 f'4 c''4 | bes'4 ees''4 ees''4 a'4 | bes'4 d'4 ees'2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+ees'4 ees'4 ees'4 d'4 | ees'4 aes'4 g'4 g'4 | g'4 g'4 fis'4 fis'4 | g'4 f'4 f'4( aes'4) |
+g'4 g'4 ees'4 ees'4 | d'4 ees'4 c'4 ees'4 | ees'4 ees'4 ees'4 ees'4 | ees'4 bes4 bes2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+bes4 g4 bes4 bes4 | bes4 bes4 bes4 bes4 | bes4 d'4 d'4 d'4 | d'4 c'4 bes2 |
+c'4 bes4 aes4 g4 | bes4 bes4 aes4 aes4 | g4 g4 fis4 fis4 | g4 aes4 g2
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+ees4 ees4 ees4 f4 | g4 f4 ees4 ees4 | d4 d4 d4 d4 | g4 a4 bes2 |
+c'4 bes4 aes4 g4 | f4 ees4 aes,4 aes,4 | bes,4 bes,4 c4 c4 | bes,4 bes,4 ees2
+"""
+
+[lyrics.1]
+text = "Hark! ten thou -- sand voi -- ces sound -- ing Far and wide thro' -- out the sky; 'Tis the voice of joy a -- bound -- ing, Je -- sus lives, no more to die!"
+
+[lyrics.2]
+text = "Je -- sus lives, His con -- flict o -- ver, Lives to claim His great re -- ward; An -- gels round the Vic -- tor hov -- er, Crowd -- ing to be -- hold their Lord!"
+
+[lyrics.3]
+text = "Yon -- der throne for Him e -- rect -- ed Now be -- comes the Vic -- tor's seat; Lo, the Man on earth re -- ject -- ed, An -- gels wor -- ship at His feet!"
+
+[lyrics.4]
+text = "All the pow'rs of heav'n a -- dore Him, All o -- bey His sov -- 'reign word; Day and night they cry be -- fore Him, “Ho -- ly, Ho -- ly, Ho -- ly Lord!”"
