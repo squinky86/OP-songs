@@ -1,0 +1,74 @@
+title = "Glory to His Name"
+subtitle = "Down at the Cross"
+copyrights = [
+  "Lyrics: Elisha Albright Hoffman, 1878 (public domain)",
+  "Music: John Hart Stockton (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 4
+phrase_breaks = ["2:64", "4:64", "8:64", "12:64"]
+optional_phrase_breaks = ["6:64", "10:64", "14:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+c''4 c''8. bes'16 aes'4 aes'8. g'16 | f'4 aes'4 ees'2 | c''4 c''8. c''16 ees''4 ees''8. c''16 | aes'4 c''4 bes'2 |
+c''4 c''8. bes'16 aes'4 aes'8. g'16 | f'4 aes'4 ees'2 | c''4. aes'8 c''4 bes'4 | aes'1 |
+aes'4.@c bes'8 aes'4 f'4 | ees'4.( f'8 aes'2) | c''4. c''8 c''4 aes'4 | bes'4.( c''8 bes'2) |
+c''4 c''8. bes'16 aes'4 aes'8. g'16 | f'4 aes'4 ees'2 | c''4. aes'8 c''4 bes'4 | aes'1
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+ees'4 ees'8. des'16 c'4 c'8. ees'16 | des'4 des'4 c'2 | ees'4 ees'8. ees'16 aes'4 aes'8. aes'16 | ees'4 ees'4 ees'2
+| ees'4 ees'8. des'16 c'4 ees'8. ees'16 | des'4 des'4 c'2 | ees'4. c'8 ees'4 des'4 | c'1
+| des'4.@c des'8 f'4 des'4 | c'4.( des'8 c'2) | ees'4. ees'8 ees'4 ees'4 | ees'1
+| ees'4 ees'8. des'16 c'4 ees'8. ees'16 | des'4 des'4 c'2 | ees'4. c'8 ees'4 des'4 | c'1
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+aes4 aes8. aes16 aes4 aes8. aes16 | aes4 aes4 aes2 | aes4 aes8. aes16 c'4 c'8. ees'16 | c'4 aes4 g2
+| aes4 aes8. aes16 aes4 aes8. aes16 | aes4 aes4 aes2 | aes4. aes8 aes4 g4 | aes1
+| f4.@c f8 aes4 aes4 | aes1 | aes4. aes8 aes4 aes4 | g4.( aes8 g2)
+| aes4 aes8. aes16 aes4 aes8. aes16 | aes4 aes4 aes2 | aes4. aes8 aes4 g4 | aes1
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+aes,4 aes,8. aes,16 aes,4 c8. c16 | des4 f4 aes,2 | aes4 aes8. aes16 aes4 aes8. aes16 | aes4 aes4 ees2
+| aes,4 aes,8. aes,16 aes,4 c8. c16 | des4 f4 aes,2 | ees4. ees8 ees4 ees4 | aes,1
+| des4.@c des8 des4 des4 | aes,1 | aes4. aes8 aes4 c4 | ees1
+| aes,4 aes,8. aes,16 aes,4 c8. c16 | des4 f4 aes,2 | ees4. ees8 ees4 ees4 | aes,1
+"""
+
+[lyrics.1]
+text = "Down at the cross where my Sav -- ior died, Down where for cleans -- ing from sin I cried, There to my heart was the blood ap -- plied; Glo -- ry to His name!"
+
+[lyrics.2]
+text = "I am so won -- drous -- ly saved from sin, Je -- sus so sweet -- ly a -- bides with -- in; There at the cross where He took me in; Glo -- ry to His name!"
+
+[lyrics.3]
+text = "Oh, pre -- cious fount -- ain that saves from sin, I am so glad I have en -- tered in; There Je -- sus saves me and keeps me clean; Glo -- ry to His name!"
+
+[lyrics.4]
+text = "Come to this fount -- ain so rich and sweet, Cast thy poor soul at the Sav -- ior’s feet; Plunge in to -- day, and be made com -- plete; Glo -- ry to His name!"
+
+[lyrics.chorus]
+text = "Glo -- ry to His name, glo -- ry to His name: There to my heart was the blood ap -- plied; Glo -- ry to His name!"
