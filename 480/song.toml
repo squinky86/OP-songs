@@ -1,0 +1,92 @@
+title = "Happy in His Service"
+copyrights = [
+  "Lyrics and Music: Samuel W. Beazley, 1916 (public domain)",
+  "Arrangement: Thomas S. Cobb, 1916 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 96
+verse_count = 3
+phrase_breaks = ["4:48", "8:48", "12:48", "16:48", "20:48", "24:48", "28:48"]
+optional_phrase_breaks = ["2:48", "6:48", "10:48", "14:48", "18:48", "22:48", "26:48", "30:48"]
+non_breaking_phrase_breaks = ["31:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+ees'8 d'8 ees'8 f'8 g'8 aes'8 | c''8 bes'8 aes'8 ees'4. | aes'8-( aes'8-) bes'8 aes'4 f'8 | aes'4.( g'4.) |
+g'8 aes'8 bes'8 des''8 c''8 bes'8 | f'8 g'8 aes'8 g'4. | des''4 bes'8 g'4 ees'8 | f'4.( ees'4.) |
+ees'8 d'8 ees'8 f'8 g'8 aes'8 | c''8 bes'8 aes'8 ees'4. | aes'4 c''8 bes'4 c''8 | des''4.( f'4.) |
+f'8 aes'8 des''8 f'8 aes'8 des''8 | ees'8 aes'8 c''8 ees''4. | ees''4 des''8 f'4 g'8 | aes'4.~ aes'4. |
+c''4@c c''8 c''4 c''8 | c''4 bes'8 c''8 bes'8 c''8 | c''4. c''4. | des''4 des''8 des''4. |
+des''4 des''8 des''4 des''8 | des''4 des''8 des''8 des''8 des''8 | des''4. des''4. | des''4 des''8 c''4. |
+c''4 c''8 c''4 c''8 | c''4 c''8 c''4 c''8 | c''4. c''4. | des''4 des''8 des''4. |
+d''8 d''8 d''8 d''8 d''8 d''8 | ees''8[ des''8] c''8 c''4. | des''4 des''8 des''4 des''8 | c''4 c''8 c''4.
+"""
+
+[parts.Soprano.lyrics.chorus]
+text = "Hap -- py, hap -- py in His serv -- ice and Sing -- ing all the day; Work -- ing, work -- ing in His vine -- yard and Help -- ing where we may; Fo -- l'wing, fol -- l'wing His com -- mand and Trust -- ing all the while, Fac -- ing the world and its bus -- a life With a cheer -- ful, hap -- py smile."
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+c'8 b8 c'8 c'8 c'8 c'8 | ees'8 des'8 c'8 c'4. | c'8-( c'8-) c'8 c'4 c'8 | des'4.~ des'4. |
+des'8 des'8 des'8 ees'8 ees'8 des'8 | des'8 des'8 des'8 des'4. | ees'4 des'8 des'4 des'8 | b4.( c'4.) |
+c'8 b8 c'8 c'8 c'8 c'8 | ees'8 des'8 c'8 c'4. | c'4 ees'8 ees'4 ees'8 | des'4.~ des'4. |
+des'8 f'8 f'8 des'8 f'8 f'8 | c'8 c'8 ees'8 aes'4. | g'4 f'8 des'4 des'8 | c'4.~ c'4. |
+ees'8@c f'8 g'8 aes'8 g'8 f'8 | ees'8 aes'8 f'8 ees'4. | ees'4 aes'8 f'4 aes'8 | aes'4.( g'4.) |
+ees'8 f'8 g'8 bes'8 aes'8 g'8 | f'8 g'8 aes'8 g'4. | g'4 aes'8 g'4 f'8 | f'4.( ees'4.) |
+ees'8 f'8 g'8 aes'8 g'8 f'8 | ees'8 aes'8 f'8 ees'4. | ees'4 aes'8 g'4 ges'8 | f'4.~ f'4. |
+f'8 g'8 aes'8 f'8 g'8 aes'8 | c''8[ bes'8] aes'8 ees'4. | g'4 bes'8 f'4 g'8 | aes'4.~ aes'4.
+"""
+
+[parts.Alto.lyrics.chorus]
+text = "Hap -- py are we in His serv -- ice be -- low, Sing -- ing all the day; Work -- ing our best in His vine -- yard so blest, Help -- ing where we may; Fol -- low -- ing ev -- er our Sav -- iour's com -- mand, Trust -- ing all the while, Fac -- ing the world and its bus -- a life With a cheer -- ful, smile."
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+aes8 aes8 aes8 aes8 aes8 aes8 | aes8 aes8 aes8 aes4. | ees8-( ees8-) ees8 ees4 ees8 | ees4.~ ees4. |
+bes8 aes8 g8 bes8 aes8 g8 | bes8 bes8 bes8 bes4. | g4 g8 bes4 g8 | aes4.~ aes4. |
+aes8 aes8 aes8 aes8 aes8 aes8 | aes8 aes8 aes8 aes4. | aes4 aes8 bes4 aes8 | aes4.~ aes4. |
+aes8 aes8 aes8 aes8 aes8 aes8 | aes8 aes8 aes8 c'4. | bes4 bes8 bes4 bes8 | aes4.~ aes4. |
+aes4@c aes8 aes4 aes8 | aes4 aes8 aes8 aes8 aes8 | aes4. aes4. | ees4 ees8 bes4. |
+g4 bes8 g4 bes8 | bes4 bes8 bes8 bes8 bes8 | bes4. bes4. | aes4 aes8 aes4. |
+aes4 aes8 ees4 aes8 | aes4 aes8 aes4 aes8 | aes4. aes4. | aes4 aes8 aes4. |
+bes4 bes8 bes4 bes8 | aes8 aes8 aes8 aes8 aes8 aes8 | bes4 g8 g4 bes8 | aes4 aes8 aes4.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+aes,8 aes,8 aes,8 aes,8 aes,8 aes,8 | aes,8 aes,8 aes,8 aes,4. | aes,8-( aes,8-) aes,8 aes,4 aes,8 | bes,4.~ bes,4. |
+ees8 ees8 ees8 ees8 ees8 ees8 | ees8 ees8 ees8 ees4. | ees4 ees8 ees4 ees8 | aes,4.~ aes,4. |
+aes,8 aes,8 aes,8 aes,8 aes,8 aes,8 | aes,8 aes,8 aes,8 aes,4. | aes,4 aes8 g4 ges8 | f4.( des4.) |
+des8 des8 des8 des8 des8 des8 | aes,8 aes,8 aes,8 aes4. | ees4 ees8 ees4 ees8 | aes,4.~ aes,4. |
+aes,4@c aes,8 aes,4 aes,8 | aes,4 aes,8 aes,8 aes,8 aes,8 | aes,4. aes,4. | bes,4 bes,8 ees4. |
+ees4 ees8 ees4 ees8 | ees4 ees8 ees8 ees8 ees8 | ees4. ees4. | aes,4 aes,8 aes,4. |
+aes,4 aes,8 aes,4 aes,8 | aes,4 aes,8 aes,4 aes,8 | aes,4. aes,4. | des4 des8 des4. |
+bes,4 bes,8 bes,4 bes,8 | ees8 ees8 ees8 ees8 ees8 ees8 | ees4 ees8 ees4 ees8 | aes,4 aes,8 aes,4.
+"""
+
+[lyrics.1]
+text = "We are con -- tent in the beau -- ti -- ful work God _ has set in view— Help -- ing an -- oth -- er in life's bus -- y way, As He says to do; Scat -- ter -- ing sun -- shine all o -- ver the way As we pass a -- long. Cheer -- ing the hearts of com -- pan -- ions in life With a hap -- py song."
+
+[lyrics.2]
+text = "Beau -- ti -- ful work He has giv -- en to all— Beau -- ti -- ful place to fill; Beau -- ti -- ful, that He is count -- ing on us To ful -- fill His will; Beau -- ti -- ful, that in com -- pas -- sion -- ate love He doth give us room; Beau -- ti -- ful, that He is will -- ing we may Oth -- er's cares as -- sume."
+
+[lyrics.3]
+text = "Beau -- ti -- ful, won -- der -- ful that we may spend Hours _ and days for Him, Car -- ry -- ing sun -- shine and cheer -- ful good -- will In -- to pla -- ces dim; Blest be -- yond meas -- ure are all who may find In God's serv -- ice true, Hap -- py con -- tent -- ment of mind and of soul, As His will they do."
+
+[lyrics.chorus]
+text = "Hap -- py, hap -- py in His serv -- ice and Sing -- ing all the day; Work -- ing, work -- ing in His vine -- yard and Help -- ing where we may; Fo -- l'wing, fol -- l'wing His com -- mand and Trust -- ing all the while, Go -- ing on and fac -- ing the world ev -- er With a cheer -- ful, hap -- py smile."
