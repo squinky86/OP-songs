@@ -1,0 +1,107 @@
+# Source: Cyber Hymnal NWC2MusicXML export "FCC012 Lift Him Up.xml" (md5 0980098242918872cae8a95bdf2d6f95),
+#   transcribed from its parent nwc, http://www.hymntime.com/tch/nwc/l/i/f/t/LiftHimUp(Oatman).nwc
+#   (nwctxt 2.751). The nwc |Comments| give the transcribed edition as The Broadman Hymnal (Nashville:
+#   Broadman Press, 1940), #60 -- NOT the From the Cross to the Crown (1921) printing (FCC No. 12).
+#   Credits from the nwc |SongInfo| / CH text page (lifthimu.htm): words Johnson Oatman, Jr., 1903; music
+#   Benjamin B. (Burke) Beall, no year. Courtesy line from |Copyright2|. Tempo 110 from the nwc |Tempo|.
+#   Identity checked on hymnary.org/text/how_to_reach_the_masses (credit: Johnson Oatman, Jr. (1903)).
+#   No plate or scan was opened.
+# Notes: read from the nwctxt (the XML's voice split and staff-2 underlay are scrambled). XML bars 9+10
+#   (verse end + refrain pickup, split by the double bar) are joined into bar 9. Fermatas (bar 3, "birth")
+#   come from the nwc; the XML dropped them. No dynamics in the source.
+# Lyrics: all four stanzas and the refrain from the nwc lyric rows (agree with the CH text page).
+#   The refrain was typed on stanza 2's row; moved to [lyrics.chorus].
+#   Elision restored: stanza 1 "ev-ery" -> "ev’ -- ry" (two notes, meter 11.9.11.7).
+# Refrain echo: the nwc's staff-2 row carries "Lift the pre-cious Sav-ior up, Lift the pre-cious Sav-ior up,"
+#   against the melody's "Lift Him up, Lift Him up," (bars 9-11). The alto has exactly the T/B dotted echo
+#   rhythm there (the nwc slurs its notes only to keep staff 1's melody underlay off them), so the alto
+#   is given the echo too -- an inference; the plate was not checked. From "Still He" on, all parts
+#   sing the melody's words.
+# Bar 11 soprano: "up" sung over c''-des''-c'' (three quarters). The nwc's underlay skips these notes and
+#   the T/B/A "Still He" falls on the following dotted eighth/sixteenth, which fixes it; written as a slur.
+title = "Lift Him Up"
+copyrights = [
+  "Lyrics: Johnson Oatman, Jr., 1903 (public domain)",
+  "Music: Benjamin B. Beall, 1903 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 110
+verse_count = 4
+phrase_breaks = ["3:48", "5:48", "9:48", "13:48"]
+optional_phrase_breaks = ["7:48", "11:48", "15:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. ees'8 ees'8 | aes'4 aes'4 aes'8 g'4. | g'8 g'8 f'8 g'8 aes'4! aes'8 bes'8 | c''8 c''4. c''8 bes'8 aes'8 bes'8 |
+c''2. c''8[ des''8] | ees''4. ees''8 ees''8 c''8 aes'8 c''8 | ees''4 ees''8. ees''16 ees''4 des''4 | c''4 bes'4 aes'4 g'8. g'16 |
+aes'2. ees'8.@c ees'16 | aes'2~ aes'4 aes'8. bes'16 | c''4( des''4 c''4) ees''8. ees''16 | f''4 ees''8. ees''16 des''4 c''4 |
+bes'2. c''8[ des''8] | ees''4. ees''8 ees''8 c''8 aes'8 c''8 | ees''4 ees''8. ees''16 ees''4 des''4 | c''4 bes'4 aes'4 g'8. g'16 |
+aes'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. c'8 c'8 | c'4 c'4 des'8 des'4. | des'8 des'8 des'8 des'8 c'4! ees'8 ees'8 | ees'8 ees'4. ees'8 ees'8 ees'8 ees'8 |
+ees'2. aes'4 | aes'4. aes'8 aes'8 aes'8 ees'8 aes'8 | aes'4 g'8. g'16 aes'4 g'4 | aes'4 f'4 ees'4 ees'8. ees'16 |
+ees'2. c'8.@c c'16 | ees'8. ees'16 f'8. f'16 ees'4 ees'8. ees'16 | aes'8. aes'16 aes'8. aes'16 aes'4 aes'8. aes'16 | aes'4 aes'8. aes'16 g'4 aes'4 |
+g'2. aes'4 | aes'4. aes'8 aes'8 aes'8 ees'8 aes'8 | aes'4 g'8. g'16 aes'4 g'4 | aes'4 f'4 ees'4 ees'8. ees'16 |
+ees'2. s4
+"""
+
+[parts.Alto.lyrics.chorus]
+text = "Lift the pre -- cious Sav -- ior up, Lift the pre -- cious Sav -- ior up, Still He speaks from e -- ter -- ni -- ty: “And I, if I be lift -- ed up from the earth, Will draw all men un -- to Me.”"
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. aes8 aes8 | ees4 ees4 ees8 ees4. | bes8 bes8 bes8 bes8 aes4! aes8 g8 | aes8 aes4. aes8 g8 aes8 g8 |
+aes2. aes8[ bes8] | c'4. c'8 c'8 ees'8 c'8 ees'8 | c'4 des'8. des'16 ees'4 ees'4 | ees'4 des'4 c'4 bes8. bes16 |
+c'2. aes8.@c aes16 | c'8. c'16 des'8. des'16 c'4 c'8. des'16 | ees'8. ees'16 f'8. f'16 ees'4 ees'8. ees'16 | des'4 ees'8. ees'16 ees'4 ees'4 |
+ees'2. aes8[ bes8] | c'4. c'8 c'8 ees'8 c'8 ees'8 | c'4 des'8. des'16 ees'4 ees'4 | ees'4 des'4 c'4 bes8. bes16 |
+c'2. s4
+"""
+
+[parts.Tenor.lyrics.chorus]
+text = "Lift the pre -- cious Sav -- ior up, Lift the pre -- cious Sav -- ior up, Still He speaks from e -- ter -- ni -- ty: “And I, if I be lift -- ed up from the earth, Will draw all men un -- to Me.”"
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. aes,8 aes,8 | aes,4 aes,4 bes,8 bes,4. | ees8 ees8 ees8 ees8 aes,4! c8 ees8 | aes8 aes4. aes8 ees8 c8 ees8 |
+aes2. aes4 | aes4. aes8 aes8 aes8 aes8 aes8 | aes4 bes8. bes16 c'4 bes4 | aes4 des4 ees4 ees8. ees16 |
+aes,2. aes,8.@c aes,16 | aes,8. aes,16 des8. des16 aes,4 aes8. aes16 | aes8. aes16 des8. des16 aes4 c'8. c'16 | des'4 c'8. c'16 bes4 aes4 |
+ees2. aes4 | aes4. aes8 aes8 aes8 aes8 aes8 | aes4 bes8. bes16 c'4 bes4 | aes4 des4 ees4 ees8. ees16 |
+aes,2. s4
+"""
+
+[parts.Bass.lyrics.chorus]
+text = "Lift the pre -- cious Sav -- ior up, Lift the pre -- cious Sav -- ior up, Still He speaks from e -- ter -- ni -- ty: “And I, if I be lift -- ed up from the earth, Will draw all men un -- to Me.”"
+
+[lyrics.1]
+text = "How to reach the mass -- es, men of ev’ -- ry birth, For an an -- swer, Je -- sus gave the key: “And I, if I be lift -- ed up from the earth, Will draw all men un -- to Me.”"
+
+[lyrics.2]
+text = "Oh! the world is hun -- gry for the Liv -- ing Bread, Lift the Sav -- ior up for them to see; Trust Him, and do not doubt the words that He said, “I’ll draw all men un -- to Me.”"
+
+[lyrics.3]
+text = "Don’t ex -- alt the preach -- er, don’t ex -- alt the pew, Preach the Gos -- pel sim -- ple, full and free; Prove Him and you will find that prom -- ise is true, “I’ll draw all men un -- to Me.”"
+
+[lyrics.4]
+text = "Lift Him up by liv -- ing as a Christ -- ian ought, Let the world in you the Sav -- ior see; Then men will glad -- ly fol -- low Him Who once taught, “I’ll draw all men un -- to Me.”"
+
+[lyrics.chorus]
+text = "Lift Him up, Lift Him up, Still He speaks from e -- ter -- ni -- ty: “And I, if I be lift -- ed up from the earth, Will draw all men un -- to Me.”"
