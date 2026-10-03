@@ -1,0 +1,86 @@
+title = "No Peaceful Rest"
+copyrights = [
+  "Lyrics: Franklin L. Eiland, 1906 (public domain)",
+  "Music: Thomas S. Cobb, 1906 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Db"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 105
+verse_count = 3
+phrase_breaks = ["5:48", "9:48", "13:48"]
+optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. des'8 ees'8 | f'4 aes'4 aes'4 aes'8 bes'8 | aes'4 f'4 des'4 aes'4 | bes'4 c''8 des''8 ees''8 des''8 bes'4 |
+aes'2. aes'8 aes'8 | f''4 f''4 des''4 des''8~ des''8 | ees''8[ des''8] c''8 bes'8 aes'4 aes'4 | bes'4 ees''8 des''8 c''8 c''8 c''4 |
+des''2. aes'4@c | des''2. aes'8[ f'8] | ees'4( f'4 ges'4) aes'4 | bes'4 c''8 des''8 ees''8 des''8 bes'4 |
+aes'2. aes'4 | f''2. ees''8[ des''8] | bes'2.! des''4 | c''8[ bes'8] ees''8 des''8 c''8 c''8 c''4 |
+des''2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. des'8 des'8 | des'4 f'4 f'4 f'8 ges'8 | f'4 des'4 des'4 f'4 | ges'4 ges'8 ges'8 g'8 g'8 g'4 |
+aes'2. aes'8 aes'8 | aes'4 aes'4 f'4 f'8~ f'8 | ges'4 ges'8 ges'8 f'4 aes'4 | ges'4 g'8 g'8 aes'8 aes'8 ges'4 |
+f'2. f'4@c | f'4 f'4 f'4 f'8[ des'8] | des'4 d'4 ees'4 f'4 | ges'4 ges'8 ges'8 g'8 g'8 g'4 |
+aes'2. aes'4 | aes'4 aes'4 aes'4 ges'8[ f'8] | ges'4 aes'4 g'4! aes'4 | ges'4 g'8 g'8 aes'8 aes'8 ges'4 |
+f'2. s4
+"""
+
+[parts.Alto.lyrics.chorus]
+text = "No peace -- ful rest, no peace -- ful rest, out -- side of the king -- dom of God! None for thy breast, none for thy breast, out -- side of the king -- dom of God!"
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. f8 ges8 | aes4 des'4 des'4 des'8 des'8 | des'4 aes4 f4 des'4 | des'4 bes8 bes8 bes8 bes8 des'4 |
+c'2. c'8 c'8 | des'4 des'4 aes4 aes8~ aes8 | bes4 bes8 aes8 aes4 des'4 | des'4 des'8 bes8 aes8 aes8 aes4 |
+aes2. des'4@c | aes4 aes4 aes4 des'8[ aes8] | bes4 bes4 bes4 des'4 | des'4 bes8 bes8 bes8 bes8 des'4 |
+c'2. c'4 | des'4 des'4 des'4 des'4 | des'4 d'4 ees'4! des'4 | des'4 des'8 bes8 aes8 aes8 aes4 |
+aes2. s4
+"""
+
+[parts.Tenor.lyrics.chorus]
+text = "No peace -- ful rest, no peace -- ful rest, out -- side of the king -- dom of God! None for thy breast, none for thy breast, out -- side of the king -- dom of God!"
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. des8 des8 | des4 des4 des4 des8 des8 | des4 des4 des4 des4 | ges4 ges8 ges8 ees8 ees8 ees4 |
+aes,2. aes8 aes8 | des4 des4 des4 des8~ des8 | ges,8[ aes,8] bes,8 c8 des4 f4 | ges4 ees8 ees8 aes8 aes8 aes,4 |
+des2. des4@c | des4 des4 des4 des8[ f8] | ges4 f4 ees4 des4 | ges4 ges8 ges8 ees8 ees8 ees4 |
+aes,2. aes4 | des4 des4 des4 des4 | ges4 f4 ees4! f4 | ges4 ees8 ees8 aes8 aes8 aes,4 |
+des2. s4
+"""
+
+[parts.Bass.lyrics.chorus]
+text = "No peace -- ful rest, no peace -- ful rest, out -- side of the king -- dom of God! None for thy breast, none for thy breast, out -- side of the king -- dom of God!"
+
+[lyrics.1]
+text = "Are you seek -- ing heav -- en -- ly, peace -- ful rest? Look on -- ly to Je -- sus, dear one; It is there, and on -- ly there, it is found, @s1"
+
+[lyrics.2]
+text = "Go ye in -- to it, and this glo -- ry claim— Make now for this boun -- ty thy run— Haste a -- way, it there to ob -- tain, for sure— @s1"
+
+[lyrics.3]
+text = "There, this peace -- ful rest is a -- wait -- ing thee— Sad soul, wilt thou let it be won? Seek thou, it, thro’ Je -- sus, who says, “Come in,” @s1"
+
+[lyrics.chorus]
+text = "No peace -- ful rest, out -- side of the king -- dom of God! None for thy breast, out -- side of the king -- dom of God!"
+
+[lyrics.s1]
+text = "Out -- side of His king -- dom there’s none!"
