@@ -1,0 +1,101 @@
+title = "Wonderful"
+copyrights = [
+  "Lyrics: R. M. Morgan, 1908 (public domain)",
+  "Music: Emmett S. Dean, 1908 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 72
+verse_count = 3
+phrase_breaks = ["5:56", "9:64", "13:64"]
+optional_phrase_breaks = ["3:64", "7:64"]
+non_breaking_phrase_breaks = ["10:40", "12:56", "13:40", "14:40", "14:64", "15:40", "15:64", "16:56"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. s8 ees'8 | c''4 des''4 c''4 bes'4 | aes'4 g'8. f'16 ees'2 | f'8 g'8 aes'8 des''8 c''4 aes'4 |
+bes'2. r8 ees'8 | c''4 des''4 c''4 bes'4 | aes'4 g'8. f'16 ees'2 | f'8 g'8 aes'8 des''8 c''4 bes'4 |
+aes'2. r4 |
+c''4@c%p\\allegretto c''4 c''2 | des''4%mf des''4 des''2 | ees''4%f ees''4 ees''4. c''8 | c''8 bes'8 f'8\\> c''8 bes'2 |
+c''4\\!%p c''4 c''2 | des''4%mf des''4 des''2 | ees''4%f ees''4 ees''4. des''8 | c''4\\rit bes'4 aes'4.\\spanend s8
+"""
+
+[parts.Soprano.lyrics.chorus]
+text = "Won -- der -- ful, won -- der -- ful, won -- der -- ful, that Je -- sus died for me! Won -- der -- ful, won -- der -- ful, won -- der -- ful, He died for me!"
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. s8 c'8 | ees'8[ aes'8] g'8[ f'8] ees'4 des'4 | c'8[ f'8] ees'8. des'16 c'2 | des'8 des'8 c'8 ees'8 aes'8[ ees'8] ees'8[ d'8] |
+des'2. r8 ees'8 | ees'8[ aes'8] g'8[ f'8] ees'4 des'4 | c'8[ f'8] ees'8. des'16 c'2 | des'8 bes8 c'8 f'8 ees'4 des'4 |
+c'2. r4 |
+ees'4@c%p f'4 ees'8 aes'8 g'8 f'8 | g'4%mf f'4 g'8 bes'8 aes'8 g'8 | aes'4%f g'4 aes'8 c''8 aes'8 ees'8 | d'8 d'8 d'8\\> d'8 ees'2 |
+ees'4\\!%p f'4 ees'8 aes'8 g'8 f'8 | g'4%mf f'4 g'8 bes'8 aes'8 g'8 | aes'4%f g'4 aes'8 c''8 aes'8 f'8 | ees'4 des'4 c'4. s8
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. s8 r8 | r1 | r1 | r1 |
+r1 | r1 | r1 | r1 |
+r1 |
+aes4@c%p aes4 aes2 | bes4%mf bes4 bes2 | aes4%f bes4 c'4. aes8 | aes8 f8 bes8\\> aes8 g8 aes8 bes8 g8 |
+aes4\\!%p aes4 aes2 | bes4%mf bes4 bes2 | aes4%f bes4 c'4. aes8 | aes8[ ees8] f8[ g8] aes4. s8
+"""
+
+[parts.Tenor.lyrics.1]
+text = ""
+
+[parts.Tenor.lyrics.2]
+text = ""
+
+[parts.Tenor.lyrics.3]
+text = ""
+
+[parts.Tenor.lyrics.chorus]
+text = "Won -- der -- ful, won -- der -- ful, won -- der -- ful, that Je -- sus died for me! Oh, it is Won -- der -- ful, won -- der -- ful, won -- der -- ful, He died for me!"
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. s8 r8 | r1 | r1 | r1 |
+r1 | r1 | r1 | r1 |
+r1 |
+aes,4@c%p aes,4 aes,2 | ees4%mf ees4 bes,2 | c4%f ees4 aes4. aes,8 | bes,8 bes,8 bes,8\\> bes,8 ees8 f8 g8 ees8 |
+aes4\\!%p aes4 aes2 | ees4%mf ees4 bes,2 | c4%f ees4 aes4. des8 | ees4 ees4 aes,4. s8
+"""
+
+[parts.Bass.lyrics.1]
+text = ""
+
+[parts.Bass.lyrics.2]
+text = ""
+
+[parts.Bass.lyrics.3]
+text = ""
+
+[parts.Bass.lyrics.chorus]
+text = "Won -- der -- ful, won -- der -- ful, won -- der -- ful, that Je -- sus died for me! Oh, it is Won -- der -- ful, won -- der -- ful, won -- der -- ful, He died for me!"
+
+[lyrics.1]
+text = "When I was wand -- 'ring far, far from God, Go -- ing to I knew not where, I heard the sto -- ry, \"Christ died for me, That I might His glo -- ry share.\""
+
+[lyrics.2]
+text = "When clouds o'er -- hang and cares try my soul Comes to me this bless -- ed thought: 'Tis won -- der -- ful that Christ died for me, With His blood my soul was bought."
+
+[lyrics.3]
+text = "'Tis won -- der -- ful, He rose from the dead, Then as -- cend -- ed to His throne, And there is in -- ter -- ced -- ing to -- day For His blest, His loved, His own."
+
+[lyrics.chorus]
+text = "Won -- der -- ful, that Je -- sus died up -- on the rug -- ged tree; 'Tis won -- der -- ful that Je -- sus died for me! Won -- der -- ful, He died that all might be from sin set free; 'Tis won -- der -- ful, He died for me!"
