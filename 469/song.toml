@@ -1,0 +1,83 @@
+title = "Joy for the Redeemed"
+copyrights = [
+  "Lyrics and Music: James Henry Stanley, 1910 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 95
+verse_count = 3
+phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "13:48"]
+optional_phrase_breaks = ["11:48", "15:48"]
+non_breaking_phrase_breaks = ["9:64", "10:48", "10:64", "12:48", "12:64", "13:64", "14:48", "14:64", "15:64", "17:16"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. {3 ees'8 f'8 aes'8 } | c''4 c''8. bes'16 aes'4 f'8. ees'16 | aes'4 aes'8. bes'16 aes'4! aes'8. bes'16 | c''4 c''8. bes'16 aes'4 bes'8. c''16 |
+bes'2. {3 c''8 b'8 c''8 } | ees''4 ees''8. des''16 c''4 aes'8. bes'16 | c''4 c''8. bes'16 aes'4 {3 ees'8 f'8 aes'8 } | c''4 c''8. bes'16 aes'4 bes'8. bes'16 |
+aes'2. {3 aes'8@c bes'8 c''8 } | ees''2. r4 | ees''4 des''4 c''4 {3 f'8 g'8 aes'8 } | c''2. r4 |
+ees''4 d''4 ees''4! {3 aes'8 bes'8 c''8 } | ees''2. r4 | aes'4 bes'4 c''4 r4 | c''4 c''4 aes'8 aes'8 bes'8 bes'8 |
+aes'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. {3 c'8 des'8 c'8 } | ees'4 ees'8. des'16 c'4 des'8. c'16 | ees'4 ees'8. des'16 c'4! ees'8. ees'16 | aes'4 aes'8. g'16 f'4 f'8. aes'16 |
+g'2. {3 aes'8 aes'8 aes'8 } | aes'4 aes'8. aes'16 ees'4 ees'8. ees'16 | ees'4 ees'8. des'16 c'4 {3 c'8 des'8 c'8 } | ees'4 ees'8. des'16 c'4 des'8. des'16 |
+c'2. r4@c | aes'4 g'4 aes'4 r4 | aes'4 g'4 aes'4 r4 | ees'4 f'4 ees'4 r4 |
+g'4 f'4 g'4! r4 | aes'4 g'4 aes'4 r4 | aes'4 ees'4 ees'4 r4 | f'4 f'4 f'8 ees'8 ees'8 ees'8 |
+ees'4 f'4 ees'4 s4
+"""
+
+[parts.Alto.lyrics.chorus]
+text = "Joy, great joy, joy for all, Blest re -- deemed court shall come, joy, great joy, joy for all, The re -- deemed shall reach their home. sweet home."
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. {3 aes8 aes8 aes8 } | aes4 aes8. aes16 ees4 aes8. aes16 | c'4 aes8. g16 aes4! c'8. des'16 | ees'4 ees'8. des'16 c'4 d'8. d'16 |
+ees'2. {3 ees'8 d'8 ees'8 } | aes4 aes8. bes16 aes4 aes8. g16 | aes4 aes8. g16 aes4 {3 aes8 aes8 aes8 } | aes4 aes8. g16 aes4 g8. g16 |
+aes2. r4@c | c'4 bes4 c'4 {3 ees'8 d'8 ees'8 } | c'4 bes4 aes4 r4 | aes4 aes4 aes4 {3 aes8[ bes8] c'8 } |
+bes4 bes4 bes4! r4 | c'4 bes4 c'4 {3 aes8 bes8 c'8 } | ees'4 des'4 c'4 r4 | aes4 aes4 c'8 aes8 des'8 des'8 |
+c'4 des'4 c'4 s4
+"""
+
+[parts.Tenor.lyrics.chorus]
+text = "Joy, great joy, won -- der -- ful joy for all, Blest re -- deemed in the court shall come, joy, great joy, won -- der -- ful joy for all, The re -- deemed shall reach their home. sweet home."
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. {3 aes,8 aes,8 aes,8 } | aes,4 aes,8. aes,16 aes,4 aes,8. aes,16 | aes,4 c8. ees16 aes,4! aes8. aes16 | aes4 aes8. ees16 f4 bes8. bes16 |
+ees2. {3 aes8 aes8 aes8 } | f4 f8. aes16 aes4 c8. ees16 | aes4 aes8. ees16 aes,4 {3 aes8 aes8 aes8 } | aes4 ees8. ees16 f4 ees8. ees16 |
+aes,2. r4@c | aes4 ees4 aes4 {3 c'8 b8 c'8 } | aes4 ees4 f4 r4 | aes4 f4 aes4 {3 f8[ g8] aes8 } |
+bes4 bes4 ees4! r4 | aes4 ees4 aes4 {3 f8 g8 aes8 } | c'4 bes4 aes4 {3 c'8 bes8 aes8 } | f2~ f8 c8 ees8 ees8 |
+aes,2. s4
+"""
+
+[parts.Bass.lyrics.chorus]
+text = "Joy, great joy, won -- der -- ful joy for all, Blest re -- deemed in the court shall come, joy, great joy, won -- der -- ful joy for all, When the re -- deemed shall reach their home."
+
+[lyrics.1]
+text = "When the great day of all days comes to one and to all, And the King of all kings shall ap -- pear, There will be joy for the ones who are rea -- dy to go; They shall re -- joice when the day draw -- eth near."
+
+[lyrics.2]
+text = "Will you be rea -- dy to stand in the great court of God? Do you fear for the day to ar -- rive? Will there be joy wait -- ing you at the right hand of God? Do you feel sure you’ve ob -- tained last -- ing life?"
+
+[lyrics.3]
+text = "There will be joy for the ones who have fol -- lowed the Lord, Thro’ the toils of this life here be -- low; They will re -- joice in the day when the sum -- mons shall come; They will be will -- ing and rea -- dy to go."
+
+[lyrics.chorus]
+text = "There will be Joy, joy for all, When the re -- deemed, court shall come, There will be Joy, joy for all, The re -- deemed shall reach their home."
