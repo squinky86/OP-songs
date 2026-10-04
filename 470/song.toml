@@ -1,0 +1,57 @@
+title = "I've Found a Friend in Jesus"
+copyrights = [
+  "Lyrics: Charles W. Fry, 1881 (public domain)",
+  "Music: William S. Hays, adapted by Charles W. Fry, 1881 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 3
+phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "11:48", "13:48", "15:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. a'8[ bes'8] | c''8 c''8 d''8 c''8 c''8 a'4 f'8 | g'8 f'8 f'8 d'8 c'4 f'8 g'8 | a'8 a'8 a'8 a'8 d''8 c''8 c''8 a'8 | g'2. a'8[ bes'8] | c''8 c''8 d''8 c''8 c''8 a'4 f'8 | g'8 f'8 f'8 d'8 c'4 f'8 g'8 | a'8 c''8 a'8 f'8 g'8 bes'8 a'8 g'8 | f'2. f'4 | bes'8 bes'8 bes'8 bes'8 bes'8 d''4 d''8 | d''8 c''8 c''8 a'8 c''4! a'8[ g'8] | f'8 f'8 f'8 f'8 d''8 c''8 c''8 a'8 | g'2. a'8@c bes'8 | c''8 c''8 d''8 c''8 c''8 a'4 f'8 | g'8 f'8 f'8 d'8 c'4 f'8 g'8 | a'8 c''8 a'8 f'8 g'8 bes'8 a'8 g'8 | f'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. f'4 | f'8 f'8 f'8 f'8 f'8 f'4 c'8 | d'8 d'8 d'8 bes8 c'4 c'8 c'8 | f'8 f'8 f'8 f'8 f'8 f'8 a'8 f'8 | e'2. f'4 | f'8 f'8 f'8 f'8 f'8 f'4 c'8 | d'8 d'8 d'8 bes8 c'4 c'8 c'8 | f'8 a'8 f'8 c'8 e'8 g'8 f'8 e'8 | c'2. ees'4 | d'8 d'8 d'8 d'8 d'8 f'4 f'8 | f'8 f'8 a'8 f'8 a'4! c'4 | c'8 c'8 f'8 f'8 f'8 f'8 a'8 f'8 | e'2. f'8@c e'8 | f'8 f'8 f'8 f'8 f'8 f'4 c'8 | d'8 d'8 d'8 bes8 c'4 c'8 c'8 | f'8 a'8 f'8 c'8 e'8 g'8 f'8 e'8 | c'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. f8[ g8] | a8 a8 bes8 a8 a8 c'4 a8 | bes8 bes8 bes8 bes8 a4 a8 bes8 | c'8 c'8 c'8 c'8 bes8 a8 c'8 c'8 | c'2. f8[ g8] | a8 a8 bes8 a8 a8 c'4 a8 | bes8 bes8 bes8 bes8 a4 a8 bes8 | c'8 c'8 c'8 a8 c'8 d'8 c'8 bes8 | a2. a4 | bes8 f8 f8 f8 f8 bes4 bes8 | bes8 a8 c'8 c'8 c'4! c'8[ bes8] | a8 a8 a8 a8 bes8 a8 c'8 c'8 | c'2. c'8@c bes8 | a8 a8 bes8 a8 a8 c'4 a8 | bes8 bes8 bes8 bes8 a4 a8 bes8 | c'8 c'8 c'8 a8 c'8 d'8 c'8 bes8 | a2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. f4 | f8 f8 f8 f8 f8 f4 f8 | bes,8 bes,8 bes,8 d8 f4 f8 f8 | f8 f8 f8 f8 f8 f8 f8 f8 | c2. f4 | f8 f8 f8 f8 f8 f4 f8 | bes,8 bes,8 bes,8 d8 f4 f8 f8 | f8 f8 f8 f8 c8 c8 c8 c8 | f,2. f4 | bes,8 bes,8 bes,8 bes,8 bes,8 bes,4 d8 | f8 f8 f8 f8 f4! f4 | f8 f8 f8 f8 f8 f8 f8 f8 | c2. a8@c g8 | f8 f8 f8 f8 f8 f4 f8 | bes,8 bes,8 bes,8 d8 f4 f8 f8 | f8 f8 f8 f8 c8 c8 c8 c8 | f,2. s4
+"""
+
+[lyrics.1]
+text = "I've found a friend in Je -- sus, He's ev -- 'ry -- thing to me, He's the fair -- est of ten thou -- sand to my soul; The Lil -- y of the Val -- ley, in Him a -- lone I see, All I need to cleanse and make me ful -- ly whole. In sor -- row He's my com -- fort, in trou -- ble He's my stay, He tells me ev -- 'ry care on Him to roll."
+
+[lyrics.2]
+text = "He all my griefs has tak -- en, and all my sor -- rows borne; In temp -- ta -- tion He's my strong and might -- y tow'r; I've all for Him for -- sak -- en, and all my i -- dols torn From my heart, and now He keeps me by His pow'r. Tho' all the world for -- sake me, and Sa -- tan tempts me sore, Thro' Je -- sus I shall safe -- ly reach the goal."
+
+[lyrics.3]
+text = "He'll nev -- er, nev -- er leave me, nor yet for -- sake me here, While I live by faith and do His bless -- ed will; A wall of fire a -- bout me, I've noth -- ing now to fear, With His man -- na He my hun -- gry heart shall fill. Then sweep -- ing up to glo -- ry to see His bless -- ed face, Where riv -- ers of de -- light shall ev -- er roll."
+
+[lyrics.chorus]
+text = "He's the Lil -- y of the Val -- ley, the Bright and Morn -- ing Star, He's the fair -- est of ten thou -- sand to my soul."
