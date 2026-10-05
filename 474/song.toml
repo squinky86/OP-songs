@@ -1,0 +1,91 @@
+title = "Jesus Is My Sunlight"
+copyrights = [
+  "Lyrics and Music: G. E. Wright, 1920 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 2
+time_sig_denominator = 4
+tempo_bpm = 80
+verse_count = 3
+phrase_breaks = ["5:24", "9:24", "13:24", "17:32", "21:32", "25:32", "29:32"]
+optional_phrase_breaks = ["3:24", "7:24", "11:24"]
+non_breaking_phrase_breaks = ["19:32", "23:32", "26:32", "27:16", "27:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. ees'8 | f'8 ees'8 ees'8 ees'8 | f'8 ees'8 f'8 aes'8 | bes'8 aes'8 aes'8. f'16 | ees'4. ees'8 |
+f'8 ees'8 ees'8 ees'8 | f'8 ees'8 f'8 aes'8 | c''8 bes'8 bes'8. c''16 | bes'4. aes'8 |
+c''8 c''8 bes'8 aes'8 | c''8 c''8 bes'8 aes'8 | bes'8 aes'8 aes'8. f'16 | ees'4. ees'8 |
+f'8 ees'8 f'8 ees'8 | f'8 aes'4. | c''4 bes'4 | aes'4. r8 |
+c''8@c ees''4. | c''8 aes'4. | bes'8 aes'8 aes'8. f'16 | ees'4. r8 |
+c''8 ees''4. | c''8 aes'4. | c''8 bes'8 bes'8. c''16 | bes'4. r8 |
+c''8 ees''4. | c''8 aes'4. | bes'8 aes'8 aes'8. f'16 | ees'4. r8 |
+f'8 ees'8 f'8 ees'8 | f'8 aes'4. | c''4 bes'4 | aes'4. r8
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. c'8 | des'8 c'8 c'8 c'8 | des'8 c'8 des'8 c'8 | des'8 des'8 des'8. des'16 | c'4. c'8 |
+des'8 c'8 c'8 c'8 | des'8 c'8 des'8 ees'8 | d'8 d'8 d'8. d'16 | ees'4. c'8 |
+ees'8 ees'8 des'8 c'8 | ees'8 ees'8 des'8 c'8 | des'8 des'8 des'8. des'16 | c'4. c'8 |
+des'8 c'8 des'8 c'8 | des'8 c'4. | ees'4 des'4 | c'4. r8 |
+ees'8@c aes'8 aes'8 aes'8 | ees'8 c'8 c'8 c'8 | des'8 des'8 des'8. des'16 | c'4. r8 |
+ees'8 aes'8 aes'8 aes'8 | ees'8 c'8 c'8 c'8 | d'8 d'8 d'8. d'16 | ees'4. r8 |
+ees'8 aes'4. | ees'8 c'8 c'8 c'8 | des'8 des'8 des'8. des'16 | c'4. r8 |
+des'8 c'8 des'8 c'8 | des'8 c'4. | ees'4 des'4 | c'4. r8
+"""
+
+[parts.Alto.lyrics.chorus]
+text = "Sun -- light, bless -- ed sun -- light, ev -- er on my path doth shine, Bring -- ing peace and joy and glad -- ness to this heart of mine; Sun -- light, sun -- light it is shin -- ing ev -- 'ry day, Je -- sus is my sun -- light all the way."
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. aes8 | aes8 aes8 aes8 aes8 | aes8 aes8 aes8 ees8 | f8 f8 f8. aes16 | aes4. aes8 |
+aes8 aes8 aes8 aes8 | aes8 aes8 aes8 c'8 | aes8 f8 f8. aes16 | g4. ees8 |
+aes8 aes8 ees8 ees8 | aes8 aes8 ees8 ees8 | f8 f8 f8. aes16 | aes4. aes8 |
+aes8 aes8 aes8 aes8 | aes8 ees4. | aes4 ees4 | ees4. r8 |
+aes8@c c'8 c'8 c'8 | aes8 ees8 ees8 ees8 | f8 f8 f8. aes16 | aes4. r8 |
+aes8 c'8 c'8 c'8 | aes8 ees8 ees8 ees8 | aes8 f8 f8. aes16 | g4. r8 |
+aes8 c'8 c'8 c'8 | aes8 ees8 ees8 ees8 | f8 f8 f8. aes16 | aes4. r8 |
+aes8 aes8 aes8 aes8 | aes8 ees4. | aes4 ees4 | ees4. r8
+"""
+
+[parts.Tenor.lyrics.chorus]
+text = "Sun -- light, bless -- ed sun -- light, ev -- er on my path doth shine, Bring -- ing peace and joy and glad -- ness to this heart of mine; Sun -- light, bless -- ed sun -- light it is shin -- ing ev -- 'ry day, Je -- sus is my sun -- light all the way."
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. aes,8 | aes,8 aes,8 aes,8 aes,8 | aes,8 aes,8 aes,8 aes,8 | des8 des8 des8. des16 | aes,4. aes,8 |
+aes,8 aes,8 aes,8 aes,8 | aes,8 aes,8 aes,8 aes,8 | bes,8 bes,8 bes,8. bes,16 | ees4. aes,8 |
+aes,8 aes,8 aes,8 aes,8 | aes,8 aes,8 aes,8 aes,8 | des8 des8 des8. des16 | aes,4. aes,8 |
+aes,8 aes,8 aes,8 aes,8 | aes,8 aes,4. | ees4 ees4 | aes,4. r8 |
+aes8@c aes4. | aes,8 aes,4. | des8 des8 des8. des16 | aes,4. r8 |
+aes8 aes4. | aes,8 aes,4. | bes,8 bes,8 bes,8. bes,16 | ees4. r8 |
+aes8 aes4. | aes,8 aes,4. | des8 des8 des8. des16 | aes,4. r8 |
+aes,8 aes,8 aes,8 aes,8 | aes,8 aes,4. | ees4 ees4 | aes,4. r8
+"""
+
+[lyrics.1]
+text = "My path is bright, my bur -- den light, Since Je -- sus came to stay; I have no fear while He's so near To guide me in the way; He is my light by day and night, A -- long life's rug -- ged road, And of His love I'm sing -- ing all the day."
+
+[lyrics.2]
+text = "This light di -- vine doth bright -- ly shine, Dis -- pel -- ling all the night, 'Twill guide the feet a -- long the way, In -- to the paths of right; 'Twill com -- fort give to all who live, With -- in its rays so bright, Un -- til they reach those man -- sions in the sky."
+
+[lyrics.3]
+text = "Come out from sin, let's walk with -- in This glo -- rious light di -- vine; And jour -- ney to that home a -- bove, Where joy will be sub -- lime; So glad and free, we all shall be, With -- in His courts to shine, A -- mong the saints and an -- gels, o -- ver there."
+
+[lyrics.chorus]
+text = "Sun -- light, sun -- light on my path doth shine, Bring -- ing glad -- ness to this heart of mine; Sun -- light, sun -- light shin -- ing ev -- 'ry day, Je -- sus is my sun -- light all the way."
