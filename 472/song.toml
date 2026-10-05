@@ -1,0 +1,59 @@
+title = "Go to Jesus With It All!"
+copyrights = [
+  "Lyrics and Music: Franklin L. Eiland, 1908 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 76
+verse_count = 4
+phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "11:48", "13:48"]
+optional_phrase_breaks = ["2:48", "6:48", "10:48", "12:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. d'8 g'8 | b'16 b'8. ais'16 b'8. g'4 g'8 b'8 | a'16 g'8. e'16 g'8. d'4 d'8 d'8 | g'8 g'8 g'8 a'8 b'8 b'8 a'8 g'8 | a'2. d'8 g'8 | b'16 b'8. ais'16 b'8. g'4 g'8 b'8 | a'16 g'8. e'16 g'8. d'4 d'8 d'8 | g'8 g'8 b'8 d''8 b'16 b'8. a'16 a'8. | g'2. g'8@c b'8 | d''16 d''8. b'16 d''8. b'4 g'8 g'8 | b'16 b'8. a'16 g'8. a'4! d'8 g'8 | b'16 b'8. ais'16 b'8. g'4 g'8 b'8 | a'16 g'8. e'16 g'8. d'4 d'8 d'8 | g'16 g'8. b'16 d''8. b'8![ g'8!] a'16\\rit a'8. | g'2.\\spanend s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. b8 d'8 | g'16 g'8. g'16 g'8. d'4 d'8 d'8 | e'16 e'8. c'16 c'8. b4 b8 b8 | d'8 d'8 d'8 d'8 g'8 g'8 d'8 g'8 | fis'2. d'8 d'8 | g'16 g'8. g'16 g'8. d'4 d'8 d'8 | e'16 e'8. c'16 c'8. b4 b8 b8 | d'8 d'8 g'8 g'8 g'16 g'8. fis'16 d'8. | d'2. d'8@c g'8 | g'16 g'8. g'16 g'8. g'4 d'8 d'8 | g'16 g'8. d'16 g'8. fis'4! d'8 d'8 | g'16 g'8. g'16 g'8. d'4 d'8 d'8 | e'16 e'8. c'16 c'8. b4 b8 b8 | d'16 d'8. g'16 g'8. g'8![ d'8!] fis'16 d'8. | d'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. g8 b8 | d'16 d'8. cis'16 d'8. b4 b8 g8 | c'16 c'8. g16 g8. g4 g8 g8 | b8 b8 b8 c'8 d'8 d'8 c'8 b8 | d'2( c'4) b8 b8 | d'16 d'8. cis'16 d'8. b4 b8 g8 | c'16 c'8. g16 g8. g4 g8 g8 | b8 b8 d'8 b8 d'16 d'8. c'16 c'8. | b2. b8@c d'8 | b16 b8. d'16 b8. d'4 b8 b8 | d'16 d'8. c'16 b8. d'8![ c'8!] b8 b8 | d'16 d'8. cis'16 d'8. b4 b8 g8 | c'16 c'8. g16 g8. g4 g8 g8 | b16 b8. d'16 b8. d'8![ b8!] c'16 c'8. | b2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. g8 g8 | g16 g8. g16 g8. g4 g8 b,8 | c16 c8. c16 e8. g4 g8 g8 | g8 g8 g8 g8 g8 g8 fis8 e8 | d2. g8 g8 | g16 g8. g16 g8. g4 g8 b,8 | c16 c8. c16 e8. g4 g8 g8 | g8 g8 g8 g8 d16 d8. d16 d8. | g,2. g8@c g8 | g16 g8. g16 g8. g4 g8 g8 | g16 g8. fis16 e8. d4! g8 g8 | g16 g8. g16 g8. g4 g8 b,8 | c16 c8. c16 e8. g4 g8 g8 | g16 g8. g16 g8. d4! d16 d8. | g,2. s4
+"""
+
+[lyrics.1]
+text = "Is there heav -- y weight of care, In thy bo -- som an -- y -- where, And you need a friend to sym -- pa -- thize with you? Go to Je -- sus with it all, And for com -- fort on Him call, He will give you such, as oth -- ers can -- not do!"
+
+[lyrics.2]
+text = "In thy trou -- ble He is near, Oh, my broth -- er, do not fear, Ask of Him the bur -- den there to roll a -- way, That His Spir -- it en -- ter in, And its might -- y work be -- gin, And thy soul will have a hap -- py, hap -- py day!"
+
+[lyrics.3]
+text = "You can touch Him with your cry, And He'll nev -- er pass you by, For He feels the depths of all thy spir -- it's woe, He has trav -- eled sor -- row's road And has car -- ried of its load, And He'll car -- ry thine, my broth -- er, to Him go!"
+
+[lyrics.4]
+text = "When, Him trust -- ing, you have tried, You'll be ful -- ly sat -- is -- fied, That there is no oth -- er friend like this dear one, He such bless -- ing will im -- part, As will glad -- den all thy heart, Go to Him if you would have it sure -- ly done!"
+
+[lyrics.chorus]
+text = "Go to Je -- sus with it all! Go to Je -- sus with it all! He's the help -- er that you need, He's a com -- fort -- er in -- deed! Go to Je -- sus with it all, with it all!"
