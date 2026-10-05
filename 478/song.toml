@@ -1,0 +1,95 @@
+title = "King of Gloryland"
+copyrights = [
+  "Lyrics: James B. Franklin, 1921 (public domain)",
+  "Music: James B. Franklin, 1921 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 90
+verse_count = 3
+phrase_breaks = ["2:64", "4:64", "6:64", "8:64", "10:64", "13:56"]
+optional_phrase_breaks = ["9:56", "12:40", "14:64"]
+non_breaking_phrase_breaks = ["10:40", "11:56"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+c''8 aes'8 c''8 aes'8 c''8 aes'8 f'8 ees'8 | f'8 bes'8 aes'8 f'8 ees'4. r8 |
+c''8 aes'8 c''8 aes'8 c''8 aes'8 f'8 c''8 | c''8 bes'8 f'8 c''8 bes'4. r8 |
+c''8 aes'8 c''8 aes'8 c''8 aes'8 f'8 ees'8 | f'8 bes'8 aes'8 f'8 ees'4. r8 |
+aes'8 aes'8 c''8 aes'8 ees'4 bes'4 | aes'2. r4 |
+c''4@c c''4 aes'4. ees'8 | f'8 bes'8 aes'8 f'8 ees'4. r8 |
+c''4 c''4 aes'4. c''8 | c''8 bes'8 f'8 c''8 bes'8 ees''8 f''8 ees''8 |
+c''4 c''4 aes'4. ees'8 | f'8 bes'8 aes'8 f'8 ees'4. r8 |
+aes'8 aes'8 c''8 aes'8 ees'4 bes'4 | aes'2. r4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+ees'8 c'8 ees'8 c'8 ees'8 c'8 c'8 c'8 | des'8 f'8 f'8 des'8 c'4. r8 |
+ees'8 c'8 ees'8 c'8 ees'8 c'8 c'8 ees'8 | d'8 d'8 d'8 d'8 ees'4. r8 |
+ees'8 c'8 ees'8 c'8 ees'8 c'8 c'8 c'8 | des'8 f'8 f'8 des'8 c'4. r8 |
+c'8 c'8 ees'8 c'8 c'4 des'4 | c'2. r4 |
+ees'8@c ees'8 ees'8 ees'8 c'8 c'8 c'8 c'8 | des'8 f'8 f'8 des'8 c'8 c'8 c'8 r8 |
+ees'8 ees'8 ees'8 ees'8 c'8 c'8 c'8 ees'8 | d'8 d'8 d'8 aes'8 g'2 |
+ees'8 ees'8 ees'8 ees'8 c'8 c'8 c'8 c'8 | des'8 f'8 f'8 des'8 c'8 c'8 c'8 r8 |
+c'8 c'8 ees'8 c'8 c'4 des'4 | c'2. r4
+"""
+
+[parts.Alto.lyrics.chorus]
+text = "He's a friend, a lov -- ing friend, a pre -- cious friend in -- deed, in -- deed; Love and serve Him to the end, He knows our ev -- 'ry need, Bless -- ed be His ho -- ly name, U -- nit -- ed we some day will be With the King of Glo -- ry -- land."
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+aes8 ees8 aes8 ees8 aes8 aes8 aes8 aes8 | aes8 des'8 des'8 aes8 aes4. r8 |
+aes8 ees8 aes8 ees8 aes8 aes8 aes8 aes8 | f8 bes8 bes8 aes8 g4. r8 |
+aes8 ees8 aes8 ees8 aes8 aes8 aes8 aes8 | aes8 des'8 des'8 aes8 aes4. r8 |
+aes8 aes8 aes8 aes8 aes4 ees4 | ees2. r4 |
+aes8@c aes8 aes8 aes8 ees8 ees8 ees8 aes8 | aes8 des'8 des'8 aes8 aes8 aes8 aes8 r8 |
+aes8 aes8 aes8 aes8 ees8 ees8 ees8 aes8 | f8 f8 bes8 d'8 ees'8( bes4.) |
+aes8 aes8 aes8 aes8 ees8 ees8 ees8 aes8 | aes8 des'8 des'8 aes8 aes8 aes8 aes8 r8 |
+aes8 aes8 aes8 aes8 aes4 ees4 | ees2. r4
+"""
+
+[parts.Tenor.lyrics.chorus]
+text = "He's a friend, a lov -- ing friend, a pre -- cious friend in -- deed, in -- deed; Love and serve Him to the end, He knows our ev -- 'ry need, Bless -- ed be His ho -- ly name, U -- nit -- ed we some day will be With the King of Glo -- ry -- land."
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+aes,8 aes,8 aes,8 aes,8 aes,8 aes,8 aes,8 aes,8 | des8 des8 des8 des8 aes,4. r8 |
+aes,8 aes,8 aes,8 aes,8 aes,8 aes,8 aes,8 aes,8 | bes,8 bes,8 bes,8 bes,8 ees4. r8 |
+aes,8 aes,8 aes,8 aes,8 aes,8 aes,8 aes,8 aes,8 | des8 des8 des8 des8 aes,4. r8 |
+ees8 ees8 ees8 ees8 ees4 ees4 | aes,2. r4 |
+aes,8@c aes,8 aes,8 aes,8 aes,8 aes,8 aes,8 aes,8 | des8 des8 des8 des8 aes,8 aes,8 aes,8 r8 |
+aes,8 aes,8 aes,8 aes,8 aes,8 aes,8 aes,8 aes,8 | bes,8 bes,8 bes,8 bes,8 ees2 |
+aes,8 aes,8 aes,8 aes,8 aes,8 aes,8 aes,8 aes,8 | des8 des8 des8 des8 aes,8 aes,8 aes,8 r8 |
+ees8 ees8 ees8 ees8 ees4 ees4 | aes,2. r4
+"""
+
+[parts.Bass.lyrics.chorus]
+text = "He's a friend, a lov -- ing friend, a pre -- cious friend in -- deed, in -- deed; Love and serve Him to the end, He knows our ev -- 'ry need, Bless -- ed be His ho -- ly name, U -- nit -- ed we some day will be With the King of Glo -- ry -- land."
+
+[lyrics.1]
+text = "Christ is King of Glo -- ry -- land, O mag -- ni -- fy His name; From the grave He rose tri -- um -- phant, death He o -- ver -- came, Full sal -- va -- tion to the world His gos -- pel did pro -- claim, He is King of Glo -- ry -- land!"
+
+[lyrics.2]
+text = "He's a friend who's ev -- er near to com -- fort, cheer and guide; When the way is dark and lone He keeps close by our side; Past all dan -- gers He doth lead us, safe, what -- e'er be -- tide, He is King of Glo -- ry -- land!"
+
+[lyrics.3]
+text = "Praise His name, the name of Christ, o -- bey -- ing each com -- mand, Side by side thro' faith press on -- ward, hold -- ing by His hand; Face to face some day we'll meet, and with the an -- gels stand, Dwell with Him in Glo -- ry -- land!"
+
+[lyrics.chorus]
+text = "He's a friend, a pre -- cious friend in -- deed, To the end He knows our ev -- 'ry need, O bless -- ed be His name, U -- nit -- ed we will be With the King of Glo -- ry -- land."
