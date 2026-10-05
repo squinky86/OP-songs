@@ -1,0 +1,73 @@
+title = "The Paradise of Jesus"
+copyrights = [
+  "Lyrics and Music: John W. Kurfees, 1921 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 92
+verse_count = 2
+phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "13:48"]
+optional_phrase_breaks = ["11:48", "15:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. d'8 e'8 | g'8 g'8 g'8 g'8 e'8 d'8 e'8 fis'8 | g'2. g'8 b'8 |
+d''8 d''8 d''8 d''8 e''8 d''8 b'8 g'8 | a'2. c''8 c''8 | b'8 c''8 d''8 e''8 d''8 b'8 a'8 g'8 |
+e''2. g'8 a'8 | b'8 e''8 d''8 b'8 b'8 g'8 b'8. a'16 | g'2. b'8.@c c''16 |
+d''2. e''8. e''16 | d''2. b'8 c''8 | d''8 d''8 e''8 e''8 d''8 b'8 b'8 g'8 |
+a'2. b'8. c''16 | d''2. e''8. e''16 | d''2. g'8 a'8 |
+b'8 e''8 d''8 b'8 b'8 g'8 b'8. a'16 | g'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. b8 c'8 | b8 b8 b8 b8 b8 b8 c'8 c'8 | b2. g'8 g'8 |
+g'8 g'8 g'8 g'8 g'8 g'8 g'8 d'8 | d'2. fis'8 fis'8 | g'8 g'8 g'8 g'8 g'8 g'8 f'8 f'8 |
+e'2. e'8 e'8 | d'8 g'8 g'8 g'8 g'8 d'8 fis'8. fis'16 | d'2. r4@c |
+r4 g'8. g'16 g'4 r4 | r4 g'8. g'16 g'4 d'8 d'8 | g'8 g'8 g'8 g'8 g'8 g'8 g'8 g'8 |
+fis'2. r4 | r4 g'8. g'16 g'4 r4 | r4 g'8. g'16 g'4 d'8 d'8 |
+g'8 g'8 g'8 g'8 g'8 d'8 fis'8. fis'16 | d'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. g8 g8 | d8 d8 d8 d8 e8 g8 g8 d8 | d2. b8 d'8 |
+b8 b8 b8 b8 c'8 b8 g8 g8 | fis2. a8 a8 | g8 a8 b8 c'8 b8 d'8 d'8 d'8 |
+c'2. c'8 c'8 | g8 c'8 b8 d'8 d'8 b8 d'8. c'16 | b2. g8.@c a16 |
+b2. c'8. c'16 | b2. g8 a8 | b8 b8 c'8 c'8 b8 d'8 cis'8 cis'8 |
+d'2. g8. a16 | b2. c'8. c'16 | b2. b8 c'8 |
+d'8 a8 b8 d'8 d'8 b8 d'8. c'16 | b2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. g,8 g,8 | g,8 g,8 g,8 g,8 g,8 g,8 c8 a,8 | g,2. g8 g8 |
+g8 g8 g8 g8 g8 g8 g,8 b,8 | d2. d8 d8 | g8 g8 g8 g8 g8 g,8 a,8 b,8 |
+c2. c8 c8 | d8 d8 d8 d8 d8 d8 d8. d16 | g,2. r4@c |
+r4 g8. g16 g4 r4 | r4 g8. g16 g4 g8 g8 | g8 g8 g8 g8 g8 g8 e8 e8 |
+d2. r4 | r4 g8. g16 g4 r4 | r4 g8. g16 g4 g8 g8 |
+g8 g8 g8 g8 g8 g8 d8. d16 | g,2. s4
+"""
+
+[lyrics.1]
+text = "There’s a land of pure de -- light just o’er the way, Where the loved ones gone be -- fore me I shall know; I shall hope to gain an en -- trance some sweet day, To the par -- a -- dise of Je -- sus I will go."
+
+[lyrics.2]
+text = "May our loved ones meet to -- geth -- er in that land, When the trump of God shall call the right -- eous home; There to dwell for ev -- er -- more at His right hand, Hark! I hear the voice of Je -- sus bid us come."
+
+[lyrics.chorus]
+text = "I will go, I will go, To my home of bliss and glo -- ry o -- ver there; I will go, I will go, To the par -- a -- dise of Je -- sus I will go."
