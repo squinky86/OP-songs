@@ -1,0 +1,84 @@
+title = "Who Will, May Have the Morning Star"
+copyrights = [
+  "Lyrics: Carrie E. Breck, 1917 (public domain)",
+  "Music: Thomas S. Cobb, 1917 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 88
+verse_count = 4
+phrase_breaks = ["5:48", "9:48", "13:48"]
+optional_phrase_breaks = ["3:48", "7:48", "15:48", "19:48"]
+non_breaking_phrase_breaks = ["18:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. f'4 | a'4 f'4 bes'4 g'4 | c''4 bes'4 a'4 c''4 | d''4 b'4 e''4 d''4 |
+c''4 b'4 c''4! bes'4 | a'4 f'4 bes'4 g'4 | c''4 a'4 f''4! f''4 | e''4 d''4 c''8[ bes'8] a'4 |
+g'4. f'8 f'4! r4@c | r4 a'4 a'4 r4 | r4 bes'4 bes'4 bes'4 | a'4 c''4 e''4 f''4 |
+e''4 d''4 c''4 c''4 | d''4 c''4 bes'4 a'4 | g'4 b'4 c''4! r4 | r4 a'4 a'2 |
+r4 bes'4 bes'2 | r4 c''4 d''4 e''4 | f''2. f''8 f''8 | e''4 d''4 c''8[ bes'8] a'4 |
+g'4.! f'8 f'4! s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. f'4 | f'4 f'4 e'4 e'4 | f'4 e'4 f'4 f'4 | f'4 aes'4 g'4 g'4 |
+a'8[ e'8] f'8[ a'8] g'4! g'4 | f'4 f'4 e'4 e'4 | g'4 f'4 a'4! f'4 | g'4 f'4 f'8[ e'8] f'4 |
+e'4. c'8 c'4! r4@c | r4 f'4 f'4 r4 | r4 e'4 e'4 e'4 | f'4 f'4 g'4 f'4 |
+g'4 f'4 e'4 e'4 | f'4 f'4 e'4 f'4 | g'4 g'4 g'4! r4 | r4 f'4 f'2 |
+r4 e'4 e'2 | r4 f'4 f'4 g'4 | f'2. f'8 f'8 | g'4 f'4 f'8[ e'8] f'4 |
+e'4.! c'8 c'4! s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. a4 | c'4 c'4 c'4 c'4 | c'4 c'4 c'4 a4 | bes4 d'4 bes4 d'4 |
+e'8[ c'8] d'8[ f'8] e'4! c'4 | c'4 c'4 c'4 c'4 | c'4 cis'4 d'4! d'4 | c'4 a4 c'4 c'4 |
+bes4. a8 a4! r4@c | r4 c'4 c'4 r4 | r4 c'4 c'4 c'4 | c'4 c'4 c'4 c'4 |
+c'4 b4 bes4 c'4 | bes4 c'4 c'4 c'4 | c'4 d'4 e'4! r4 | r4 c'4 c'2 |
+r4 c'4 c'2 | r4 a4 bes4 g4 | a2. bes8 d'8 | c'4 a4 c'4 c'4 |
+bes4.! a8 a4! s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. f4 | f4 a4 g4 c4 | a4 g4 f4 f4 | bes4 d4 bes4 bes4 |
+a4 g4 c4! e4 | f4 a4 g4 c4 | e4 f4 d4! d4 | e4 f4 a8[ g8] f4 |
+c4. f8 f4! c4@c | f2. c4 | g2. c4 | f4 a4 c'4 a4 |
+g2. c4 | bes4 a4 g4 f4 | e4 d4 c4! c4 | f2. c4 |
+g2. c4 | a2. g8[ e8] | d2. d8 d8 | e4 f4 a8[ g8] f4 |
+c4.! f8 f4! s4
+"""
+
+[parts.Bass.lyrics.chorus]
+text = "Who will, who will, May have the morn -- ing star, And know its glo -- ry- -- beam -- ing rays; Be -- hold, its rays shine from a -- far, Heav -- en’s ra -- diant, ev -- er last -- ing day!"
+
+[lyrics.1]
+text = "Who will, may have life’s shin -- ing day, And joy with him shall ev -- er dwell; His heart shall know love’s bless -- ed sway, Yea, “God with us,”— Im -- man -- u -- el."
+
+[lyrics.2]
+text = "Who choos -- es Light shall safe -- ly go Where blos -- soms many a fra -- grant flow’r; Who choos -- es Faith shall won -- ders know, Who choos -- es Life shall feel its pow’r."
+
+[lyrics.3]
+text = "Who choos -- es Peace— he shall be calm, Who choos -- es strength, he shall be strong; Who choos -- es health, has liv -- ing balm, For Christ is all his joy and song."
+
+[lyrics.4]
+text = "O shin -- ing day! O morn -- ing star? Shed forth on all thy heal -- ing rays, Un -- til the na -- tions near and far, Re -- joice to sing a Sav -- iour’s praise!"
+
+[lyrics.chorus]
+text = "Who will, who will, May have the bright and morn -- ing star, And know its glo -- ry- -- beam -- ing rays; Be -- hold its rays shine from a -- far, Heav -- en’s ra -- diant, ev -- er last -- ing day!"
