@@ -1,38 +1,6 @@
-# SOURCES
-# - Music and words: From the Cross to the Crown, ed. Thomas S. Cobb (Fort Worth: Quartet Music
-#   Co., 1921) #30, p. 30 scan (hymnary FCC1921). Read by hand from the 7-shape plate; every
-#   pitch checked against its notehead shape. The same engraving appears in Harp of Gold (1912)
-#   #114, p. 117 (hymnary /page/fetch/HoG1912/117/high), a much sharper scan, used only to read
-#   noteheads the FCC scan blurs.
-#   Plate credits: words "F. L. E.", music "F. L. Eiland."; "Copyright, 1907, by F. L. Eiland.
-#   Used by per." Hymnary: Franklin L. Eiland (1907). Melody matches hymnary's incipit 53331 21111 11665.
-# - Plate headnote: "Written at Mineral Wells, Texas, July 13, 1906, and dedicated to the service
-#   of God, with the hope that it may be used to His glory, there and at other great sister
-#   watering-places, especially, where, seemingly, so many people are inclined to forget their
-#   soul's interest. Amen."
-#   Footer: "For day service, use 'Yield While You May,' 'Come Back To-day,' etc. All God-loving
-#   singers, compilers, publishers, etc., may get the free use of this song by addressing the
-#   author, West, Texas."
-# - Lyrics: transcribed from the FCC plate (five stanzas + refrain), with the plate's spelling and
-#   punctuation ("to-night", "Let not, the tempter you, de-ceive,", "spirit-pain", "all vain").
-#   Harp of Gold prints "spir-it pain" and "all-vain"; FCC kept. Stanza 5's last mark is a broken
-#   glyph on the FCC plate; read as "!".
-# STRUCTURE
-# - Each line is a quarter pickup + three full bars + a two-beat closing bar; the closing bar is
-#   written together with the next line's pickup, so the bars run 1 (pickup), 2-4, 5 (close + pickup), ...
-# - Fermatas as printed: on the beat-2 quarter of every full bar and on every line's last note.
-# EDITORIAL CALLS
-# - Bars 7 and 15 ("back to-night," / "come back to-night,"): over the soprano's D-Db-C, the treble
-#   staff has three noteheads per beat: G4 triangles on the soprano's stem, plus round heads at
-#   F4, F4, E4 on their own down-stems (the F has a cancelling flat). Alto is taken as the shaped
-#   G4 triangles, which is how the refrain's bar 11 is laid out with only two heads. Alternative alto:
-#   f'8. f'16 e'4! (G7 then C).
-# - Tempo: the plate prints only "Slow, with emotion."; 66 is a guess. No step tempo mark, since
-#   "Slow" is not one of the supported words.
 title = "Come Back Tonight"
 copyrights = [
-  "Lyrics: Franklin L. Eiland, 1907 (public domain)",
-  "Music: Franklin L. Eiland, 1907 (public domain)",
+  "Lyrics and Music: Franklin L. Eiland, 1907 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
 key_signature = "G"
@@ -60,9 +28,9 @@ clef = "treble"
 staff_number = 1
 notes = """
 s2 d'4 | g'8. g'16 g'4! d'4 | d'8. d'16 d'4! d'4 | e'8. e'16 e'4! c'4 | c'8 b4.! d'4 |
-d'8. d'16 d'4! g'4 | g'8. g'16 g'4! g'4 | g'8. g'16 g'4! d'4 | d'8 d'4.! d'4@c |
+d'8. d'16 d'4! g'4 | <fes' g'>8. <fes' g'>16 <fes' g'>4! g'4 | g'8. g'16 g'4! d'4 | d'8 d'4.! d'4@c |
 d'8. g'16 g'4! d'4 | e'8. g'16 g'4! g'4 | g'8. g'16 g'4! g'4 | g'8 fis'4.! d'4 |
-d'8. g'16 g'4! g'4 | g'8. g'16 g'4! g'4 | g'8. g'16 g'4! d'4 | d'8 d'4.! s4
+d'8. g'16 g'4! g'4 | <fes' g'>8. <fes' g'>16 <fes' g'>4! g'4 | g'8. g'16 g'4! d'4 | d'8 d'4.! s4
 """
 
 [parts.Tenor]
