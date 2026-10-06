@@ -1,0 +1,90 @@
+title = "O Such Wonderful Love"
+copyrights = [
+  "Lyrics: Johnson Oatman, Jr., 1918 (public domain)",
+  "Music: H. B. Hill, 1918 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Bb"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 96
+verse_count = 4
+phrase_breaks = ["5:40", "9:48", "13:48", "17:48", "21:48"]
+optional_phrase_breaks = ["3:40", "7:40", "11:48", "15:40", "19:48", "23:40"]
+non_breaking_phrase_breaks = ["17:8"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. s4 f'8 | f'4 e'8 g'4 f'8 | f'4 e'8 g'4 f'8 | f'8 g'8 bes'8 a'4 bes'8 | c''4.~ c''4 c''8 |
+d''4 bes'8 f'4 bes'8 | a'4 g'8 c''4! bes'8 | a'8 g'8 f'8 bes'4 c''8 | bes'4.~ bes'4 r8 |
+d''4.@c d''4. | d''8 c''8 bes'8 f'4 r8 | c''4. c''4. | c''8 bes'8 g'8 f'4 r8 |
+bes'4. bes'4. | bes'8 f'8 bes'8 d''4 bes'8 | c''4 c''8 c''4 g'8 | c''4.~ c''4 r8 |
+d''4. d''4. | d''8 c''8 bes'8 f'4 r8 | c''4. c''4. | c''8 bes'8 g'8 f'4 r8 |
+bes'4. bes'4. | bes'8 f'8 bes'8 d''4 bes'8 | d''4. c''4. | bes'4.~ bes'4 s8
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. s4 d'8 | d'4 cis'8 d'4 d'8 | d'4 cis'8 d'4 d'8 | d'8 ees'8 d'8 f'4 f'8 | f'4.~ f'4 f'8 |
+f'4 d'8 d'4 d'8 | ees'4 f'8 e'4! e'8 | f'8 f'8 c'8 d'4 ees'8 | d'4.~ d'4 r8 |
+f'8@c g'8 a'8 bes'8 a'8 g'8 | f'8 ees'8 d'8 f'4 r8 | ees'8 f'8 g'8 a'8 g'8 f'8 | ees'8 d'8 c'8 ees'4 r8 |
+d'8 ees'8 f'8 g'8 f'8 ees'8 | d'8 f'8 g'8 f'4 f'8 | e'4 e'8 e'4 e'8 | f'4.~ f'4 r8 |
+f'8 g'8 a'8 bes'8 a'8 g'8 | f'8 ees'8 d'8 f'4 r8 | ees'8 f'8 g'8 a'8 g'8 f'8 | ees'8 d'8 c'8 ees'4 r8 |
+d'8 ees'8 f'8 g'8 f'8 ees'8 | d'8 f'8 g'8 f'4 d'8 | f'4. ees'4. | d'4.~ d'4 s8
+"""
+
+[parts.Alto.lyrics.chorus]
+text = "Won -- der -- ful, won -- der -- ful, won -- der -- ful love, Won -- der -- ful, won -- der -- ful, won -- der -- ful love, O it was won -- der -- ful, won -- der -- ful love, My Sav -- iour had for me. Won -- der -- ful, won -- der -- ful, won -- der -- ful love, Won -- der -- ful, won -- der -- ful, won -- der -- ful love, O it was won -- der -- ful, won -- der -- ful love, 'Twas love found me."
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. s4 bes8 | bes4 bes8 bes4 bes8 | bes4 bes8 bes4 bes8 | bes8 bes8 f8 f4 bes8 | a4.~ a4 a8 |
+bes4 f8 bes4 bes8 | bes4 b8 c'4! c'8 | c'8 bes8 a8 bes4 a8 | f4.~ f4 r8 |
+bes8@c a8 g8 f8 g8 a8 | bes8 bes8 bes8 bes4 r8 | a4. a4. | a8 bes8 a8 a4 r8 |
+bes4. bes4. | bes8 bes8 bes8 bes4 bes8 | g4 g8 g4 bes8 | a8 bes8 a8 c'8 bes8 a8 |
+bes8 a8 g8 f8 g8 a8 | bes8 bes8 bes8 bes4 r8 | a4. a4. | a8 bes8 a8 a4 r8 |
+bes4. bes4. | bes8 bes8 bes8 bes4 bes8 | bes4. a4. | f4.~ f4 s8
+"""
+
+[parts.Tenor.lyrics.chorus]
+text = "Won -- der -- ful, won -- der -- ful, won -- der -- ful love, O such won -- der -- ful love, O such won -- der -- ful love, My Sav -- iour had for me. it was won -- der -- ful Won -- der -- ful, won -- der -- ful, won -- der -- ful love, O such won -- der -- ful love, O such won -- der -- ful love, 'Twas love found me."
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. s4 bes,8 | bes,4 bes,8 bes,4 bes,8 | bes,4 bes,8 bes,4 bes,8 | bes,8 bes,8 bes,8 c4 d8 | f4.~ f4 f8 |
+bes,4 bes,8 bes,4 bes,8 | ees4 d8 c4! c8 | f8 f8 f8 f4 f8 | bes,4.~ bes,4 r8 |
+bes,4.@c bes,4. | bes,8 bes,8 bes,8 d4 r8 | f4. f4. | f8 f8 f8 f4 r8 |
+g4. g4. | g8 d8 ees8 bes,4 d8 | c4 c8 c4 g8 | f8 g8 f8 ees8 d8 c8 |
+bes,4. bes,4. | bes,8 bes,8 bes,8 d4 r8 | f4. f4. | f8 f8 f8 f4 r8 |
+g4. g4. | g8 d8 ees8 bes,4 bes8 | bes4. f4. | bes,4.~ bes,4 s8
+"""
+
+[parts.Bass.lyrics.chorus]
+text = "O such won -- der -- ful love, O such won -- der -- ful love, O such won -- der -- ful love, My Sav -- iour had for me. it was won -- der -- ful O such won -- der -- ful love, O such won -- der -- ful love, O such won -- der -- ful love, 'Twas love found me."
+
+[lyrics.1]
+text = "When Je -- sus died up -- on the cross He pur -- chased re -- demp -- tion free; When from His side the life- -- blood flowed, He of -- fered His life for me."
+
+[lyrics.2]
+text = "'Twas love that brought the Sav -- iour down From His hap -- py home a -- bove; He laid a -- side His roy -- al robes, And put on His robes of love."
+
+[lyrics.3]
+text = "No oth -- er per -- son ev -- er felt Such pain as our Sav -- iour bore; No love like His was ev -- er known In heav -- en or earth be -- fore."
+
+[lyrics.4]
+text = "When I have reached my man -- sion fair In that bless -- ed land a -- bove, I'll praise my Lord thro' end -- less days For bless -- ing me with His love."
+
+[lyrics.chorus]
+text = "O such won -- der -- ful love, O such won -- der -- ful love, O such won -- der -- ful love, My Sav -- iour had for me. O such won -- der -- ful love, O such won -- der -- ful love, O such won -- der -- ful love, 'Twas love found me."
