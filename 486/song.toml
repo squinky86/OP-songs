@@ -1,0 +1,131 @@
+title = "'Tis Enough for Me"
+copyrights = [
+  "Lyrics and Music: Franklin L. Eiland, 1908 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "A"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 84
+verse_count = 4
+phrase_breaks = ["3:64", "5:48", "7:64", "9:64", "11:64", "13:48", "15:64"]
+optional_phrase_breaks = ["2:48", "6:48", "14:48"]
+non_breaking_phrase_breaks = [
+  "4:16", "4:44", "5:12",
+  "8:16", "8:44", "9:12",
+  "10:16", "10:44", "11:12",
+  "12:16", "12:44", "13:12",
+  "16:16", "16:44", "17:12",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. cis''8. b'16 |
+a'8. a'16 a'8. a'16 b'16 a'8. a'8. fis'16 | e'8. e'16 e'8. e'16 fis'16 e'8. r4 |
+cis''2~ cis''8. e'16 fis'8. cis''16 | b'2.! cis''8. b'16 |
+a'8. a'16 a'8. a'16 b'16 a'8. a'8. fis'16 | e'8. e'16 e'8. e'16 fis'16 e'8. r4 |
+cis''2~ cis''8. a'16 b'8. b'16 | a'2. r4 |
+a'2~@c a'8. a'16 a'8. fis'16 | e'2. r4 |
+cis''2~ cis''8. e'16 fis'8. cis''16 | b'2.! cis''8. b'16 |
+a'8. a'16 a'8. a'16 b'16 a'8. a'8. fis'16 | e'8. e'16 e'8. e'16 fis'16 e'8. r4 |
+cis''2~ cis''8. a'16 b'8. b'16 | a'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. e'8. d'16 |
+cis'8. cis'16 cis'8. cis'16 d'16 cis'8. fis'8. d'16 | cis'8. cis'16 cis'8. cis'16 d'16 cis'8. r4 |
+e'4 fis'4 e'8. cis'16 d'8. d'16 | e'8. e'16 e'8. d'16 des'4! e'8. d'16 |
+cis'8. cis'16 cis'8. cis'16 d'16 cis'8. fis'8. d'16 | cis'8. cis'16 cis'8. cis'16 d'16 cis'8. r4 |
+e'4 fis'4 e'8. cis'16 d'8. d'16 | cis'8. cis'16 d'8. d'16 cis'4 r4 |
+e'4@c fis'4 e'8. cis'16 fis'8. d'16 | cis'8. cis'16 cis'8. cis'16 cis'4 r4 |
+e'4 fis'4 e'8. cis'16 d'8. d'16 | e'8. e'16 e'8. d'16 des'4! e'8. d'16 |
+cis'8. cis'16 cis'8. cis'16 d'16 cis'8. fis'8. d'16 | cis'8. cis'16 cis'8. cis'16 d'16 cis'8. r4 |
+e'4 fis'4 e'8. cis'16 d'8. d'16 | cis'8. cis'16 d'8. d'16 cis'4 s4
+"""
+
+[parts.Alto.lyrics.chorus]
+text = "'Tis e -- nough, e -- nough for me! e -- nough for me! 'Tis e -- nough, e -- nough for me! e -- nough for me! With a love that is com -- pell -- ing, I would go the sto -- ry tell -- ing, 'Tis e -- nough, e -- nough for me! e -- nough for me!"
+
+[parts.Alto.lyrics.s1]
+text = "'Tis e -- nough, e -- nough for me! e -- nough for me!"
+
+[parts.Alto.lyrics.s2]
+text = "'Tis e -- nough, e -- nough for me! e -- nough for me!"
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. a8. e16 |
+e8. e16 e8. a16 a16 a8. a8. a16 | a8. a16 a8. a16 a16 a8. r4 |
+a4 a4 a8. a16 a8. a16 | gis8. cis'16 b8. a16 gis4! a8. e16 |
+e8. e16 e8. e16 a16 a8. a8. a16 | a8. a16 a8. a16 a16 a8. r4 |
+a4 a4 a8. a16 gis8. e16 | e8. e16 fis8. f16 e4 r4 |
+cis'4@c cis'4 cis'8. a16 a8. a16 | a8. a16 a8. a16 a4 r4 |
+a4 a4 a8. a16 a8. a16 | gis8. cis'16 b8. a16 gis4! a8. e16 |
+e8. e16 e8. e16 a16 a8. a8. a16 | a8. a16 a8. a16 a16 a8. r4 |
+a4 a4 a8. a16 gis8. e16 | e8. e16 fis8. f16 e4 s4
+"""
+
+[parts.Tenor.lyrics.chorus]
+text = "'Tis e -- nough, e -- nough for me! e -- nough for me! 'Tis e -- nough, e -- nough for me! e -- nough for me! With a love that is com -- pell -- ing, I would go the sto -- ry tell -- ing, 'Tis e -- nough, e -- nough for me! e -- nough for me!"
+
+[parts.Tenor.lyrics.s1]
+text = "'Tis e -- nough, e -- nough for me! e -- nough for me!"
+
+[parts.Tenor.lyrics.s2]
+text = "'Tis e -- nough, e -- nough for me! e -- nough for me!"
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. a,8. a,16 |
+a,8. a,16 a,8. a,16 a,16 a,8. d8. fis16 | a8. a16 a8. a16 a16 a8. r4 |
+a4 fis4 a8. a16 fis8. b,16 | e8. a16 gis8. fis16 e4! a,8. a,16 |
+a,8. a,16 a,8. a,16 a,16 a,8. d8. fis16 | a8. a16 a8. a16 a16 a8. r4 |
+a4 fis4 a8. a16 e8. e16 | a,2. r4 |
+a4@c fis4 a8. a16 d8. fis16 | a8. a16 a8. a16 a4 r4 |
+a4 fis4 a8. a16 fis8. b,16 | e8. a16 gis8. fis16 e4! a,8. a,16 |
+a,8. a,16 a,8. a,16 a,16 a,8. d8. fis16 | a8. a16 a8. a16 a16 a8. r4 |
+a4 fis4 a8. a16 e8. e16 | a,2. s4
+"""
+
+[parts.Bass.lyrics.chorus]
+text = "'Tis e -- nough, e -- nough for me! e -- nough for me! 'Tis e -- nough, e -- nough for me! e -- nough for me! With a love that is com -- pell -- ing, I would go the sto -- ry tell -- ing, 'Tis e -- nough, e -- nough for me!"
+
+[parts.Bass.lyrics.s1]
+text = "'Tis e -- nough, e -- nough for me! e -- nough for me!"
+
+[parts.Bass.lyrics.s2]
+text = "'Tis e -- nough, e -- nough for me!"
+
+[lyrics.1]
+text = "To the hand of Je -- sus cling -- ing, And sal -- va -- tion's sto -- ry sing -- ing, @s1 It is peace be -- yond all meas -- ure, To pos -- sess such glo -- ry treas -- ure, @s2"
+
+[lyrics.2]
+text = "Here, the grace that I am need -- ing, He, my hun -- gry soul is feed -- ing, @s1 And I am con -- tent in liv -- ing On the food that He is giv -- ing, @s2"
+
+[lyrics.3]
+text = "Such, my soul, He is sup -- ply -- ing, As all oth -- ers are de -- ny -- ing, @s1 It is joy that's nev -- er ceas -- ing, But is ev -- er -- more in -- creas -- ing, @s2"
+
+[lyrics.4]
+text = "I would not this peace sur -- ren -- der, No, for all the world can ten -- der, @s1 To the hand of Je -- sus cling -- ing, I would go, this sto -- ry sing -- ing, @s2"
+
+[lyrics.chorus]
+text = "'Tis e -- nough for me! 'Tis e -- nough for me! With a love that is com -- pell -- ing, I would go the sto -- ry tell -- ing, 'Tis e -- nough for me!"
+
+[lyrics.s1]
+text = "'Tis e -- nough for me!"
+
+[lyrics.s2]
+text = "'Tis e -- nough for me!"
