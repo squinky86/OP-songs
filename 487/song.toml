@@ -1,0 +1,77 @@
+title = "His Promise"
+copyrights = [
+  "Lyrics: Carl Cross, 1921 (public domain)",
+  "Music: W. J. Laney, 1921 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "E"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 100
+verse_count = 4
+phrase_breaks = ["5:40", "9:40", "13:40"]
+optional_phrase_breaks = ["3:40", "7:40", "11:40", "15:40"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. s4 b'8 | b'4 a'8 gis'4 fis'8 | e'4 fis'8 e'4 b'8 | cis''8 dis''8 e''8 b'4 gis'8 |
+a'4.( gis'4) b'8 | b'4 a'8 gis'4 fis'8 | e'4 fis'8 e'4 b'8 | cis''8 dis''8 e''8 gis'4 fis'8 |
+e'4.~ e'4 b'8@c | e''8 dis''8 cis''8 b'4 b'8 | cis''8 b'8 a'8 gis'4 b'8 | e''8 dis''8 cis''8 b'4 ais'8 |
+b'4.~ b'4 b'8 | b'4 a'8 gis'4 fis'8 | e'4 fis'8 e'4 b'8 | cis''8 dis''8 e''8 gis'4 fis'8 |
+e'4.~ e'4 s8
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. s4 e'8 | e'4 e'8 e'4 dis'8 | e'4 dis'8 e'4 e'8 | e'8 e'8 e'8 e'4 e'8 |
+e'4.~ e'4 e'8 | e'4 e'8 e'4 dis'8 | e'4 dis'8 e'4 e'8 | e'8 e'8 e'8 e'4 dis'16[ b16] |
+b4.~ b4 gis'8@c | fis'8 fis'8 e'8 dis'4 e'8 | e'8 e'8 e'8 e'4 gis'8 | fis'8 fis'8 e'8 dis'4 e'8 |
+dis'4.~ dis'4 e'8 | e'4 e'8 e'4 dis'8 | e'4 dis'8 e'4 e'8 | e'8 e'8 e'8 e'4 dis'16[ b16] |
+b4.~ b4 s8
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. s4 gis8 | gis4 cis'8 b4 a8 | gis4 a8 gis4 gis8 | gis8 gis8 gis8 gis4 b8 |
+cis'4.( b4) gis8 | gis4 cis'8 b4 a8 | gis4 a8 gis4 gis8 | a8 b8 cis'8 b4 a8 |
+gis4.~ gis4 b8@c | ais8 ais8 ais8 b4 gis8 | a8 gis8 cis'8 b4 b8 | ais8 ais8 ais8 b4 cis'8 |
+b4.~ b4 gis8 | gis4 cis'8 b4 a8 | gis4 a8 gis4 gis8 | a8 b8 cis'8 b4 a8 |
+gis4.~ gis4 s8
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. s4 e8 | e4 e8 e4 b,8 | cis4 b,8 e4 e8 | e8 e8 e8 e4 e8 |
+e4.~ e4 e8 | e4 e8 e4 b,8 | cis4 b,8 e4 e8 | a,8 a,8 a,8 b,4 b,8 |
+e4.~ e4 e8@c | fis8 fis8 fis8 b,4 e8 | e8 e8 e8 e4 e8 | fis8 fis8 fis8 fis4 fis8 |
+b,4.~ b,4 e8 | e4 e8 e4 b,8 | cis4 b,8 e4 e8 | a,8 a,8 a,8 b,4 b,8 |
+e4.~ e4 s8
+"""
+
+# Lyrics transcribed from the plate (stanza rows 1-4, chorus row, and the D.S. row).
+[lyrics.1]
+text = "O I’m so glad I have a Friend Who know -- eth my ev -- ’ry care ’Tis God, on whom I can de -- pend To hear and to an -- swer pray’r."
+
+[lyrics.2]
+text = "I’m glad He’s prom -- ised in His word, That noth -- ing He will de -- ny; But my pe -- ti -- tions shall be heard, If on Him I will re -- ly."
+
+[lyrics.3]
+text = "He is a gra -- cious Friend in -- deed, Whose mer -- cies a -- bound for all; He’ll nev -- er fail in time of need, If on Him in faith I call."
+
+[lyrics.4]
+text = "The prom -- ise of this Friend of mine, Is giv -- en to ev -- ’ry soul; Who bends his will to that di -- vine, And yields to His full con -- trol."
+
+[lyrics.chorus]
+text = "His prom -- ise to love, to com -- fort and cheer, Grows sweet -- er to me each day. It drives a -- way all doubt and fear, And bright -- ens my home -- ward way."
