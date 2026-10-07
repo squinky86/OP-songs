@@ -1,0 +1,62 @@
+title = "The Lord's Supper"
+copyrights = [
+  "Lyrics: Joseph Hart, 1759 (public domain)",
+  "Music: 'Martyrdom' by Hugh Wilson, 1800; arr. by Ralph E. Hudson, 1885 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 84
+verse_count = 4
+phrase_breaks = ["9:32"]
+optional_phrase_breaks = ["5:32", "13:32"]
+
+[lyrics.1]
+text = "That dread -- ful night be -- fore His death, The Lamb for sin -- ners slain, Did al -- most with His dy -- ing breath This sol -- emn feast or -- dain."
+
+[lyrics.2]
+text = "To keep the feast, Lord, we have met, And to re -- mem -- ber Thee, Help each re -- deemed one to re -- peat, \"For me, He died for me!\""
+
+[lyrics.3]
+text = "Thy suff' -- rings, Lord, each sa -- cred sign To our re -- mem -- brance brings, We eat the bread and drink the wine, But think on no -- bler things."
+
+[lyrics.4]
+text = "Oh, tune our tongues, and set in frame Each heart that pants for Thee, To sing Ho -- san -- nah to the Lamb! The Lamb that died for me!"
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 d'4 | g'2 e'4 | d'2 g'8[ a'8] | b'2 a'4 | g'2 b'4 | d''2 b'8[ a'8] | g'2 b'4 | a'2.~ | a'2 d''4 |
+b'2 a'4 | g'2 b'4 | c''2 b'4 | a'2 b'4 | d'4( e'4) g'8[ a'8] | b'2 a'4 | g'2 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 b4 | b2 c'4 | b2 d'8[ e'8] | d'2 c'4 | b2 d'4 | g'2 d'4 | d'2 d'4 | d'2.~ | d'2 d'4 |
+d'2 c'4 | b2 f'4 | e'2 d'4 | d'2 d'4 | d'4( c'4) d'8[ e'8] | d'2 c'4 | b2 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 g4 | d2 g4 | g2 g4 | g2 fis4 | g2 g4 | b2 g8[ fis8] | g2 g4 | fis2.~ | fis2 a4 |
+g2 fis4 | g2 g4 | g2 g4 | fis2 g4 | g2 g4 | g2 fis4 | g2 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 g,4 | g,2 g,4 | g,2 b,8[ c8] | d2 d4 | g,2 g4 | g2 g,8[ a,8] | b,2 g,4 | d2.~ | d2 fis4 |
+g2 d4 | e2 d4 | c2 g,4 | d2 g,4 | b,4( c4) b,8[ c8] | g2 d4 | g,2 s4
+"""
