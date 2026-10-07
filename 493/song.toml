@@ -1,0 +1,83 @@
+title = "Preaching Jesus"
+copyrights = [
+  "Lyrics: James Rowe, 1915 (public domain)",
+  "Music: Thomas S. Cobb, 1915 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Bb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 3
+phrase_breaks = ["5:48", "9:48", "13:48"]
+optional_phrase_breaks = ["3:48", "7:56", "11:48", "15:48"]
+non_breaking_phrase_breaks = ["11:16", "13:16"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. d'8 ees'8 | f'4 f'8. f'16 f'4 d''8. c''16 | bes'2 f'4 d'8. ees'16 | f'4 f'8. f'16 f'4 a'8. bes'16 |
+c''2. bes'8. c''16 | d''4 d''8. c''16 bes'4 bes'8. a'16 | g'2 c''4. c''8 | c''4 c''8. bes'16 a'4 d''8. c''16 |
+bes'2. a'8.@c bes'16 | c''4 f'8. f'16 f'4 ees''8. ees''16 | d''2. a'8. bes'16 | c''4 f'8. f'16 f'4 f''8. d''16 |
+d''2( f''4) f''8. ees''16 | d''4 d''8. c''16 bes'4 c''8. bes'16 | bes'4 a'8. g'16 bes'4! bes'8. c''16 | d''4 f'8. d''16 c''4. bes'8 |
+bes'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. bes8 c'8 | d'4 d'8. ees'16 d'4 f'8. ees'16 | d'2 d'4 bes8. c'16 | d'4 d'8. c'16 bes4 c'8. d'16 |
+ees'2. d'8. ees'16 | f'4 f'8. ees'16 d'4 f'8. f'16 | ees'2 ees'4. ees'8 | f'4 ees'8. d'16 c'4 f'8. ees'16 |
+d'2. c'8.@c d'16 | ees'4 ees'8. ees'16 ees'4 f'8. f'16 | f'4 f'8. f'16 f'4 c'8. d'16 | ees'4 ees'8. ees'16 ees'4 f'8. f'16 |
+f'4 f'8. f'16 f'4 f'8. f'16 | f'4 f'8. ees'16 d'4 f'8. f'16 | ees'4 f'8. f'16 e'4! f'8. f'16 | f'4 d'8. f'16 ees'4. d'8 |
+d'2. s4
+"""
+
+[parts.Alto.lyrics.chorus]
+text = "We are preach -- ing His love to the world, to the world, Ev -- er keep -- ing His ban -- ner un -- furled, all un -- furled, We are press -- ing a -- long with a sto -- ry and song, Prais -- ing Je -- sus to all the world."
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. f8 f8 | bes4 c'8. c'16 bes4 bes8. bes16 | f2 bes4 f8. f16 | bes4 bes8. a16 bes4 f8. bes16 |
+a2. f8. a16 | bes4 bes8. a16 bes4 bes8. bes16 | bes4.( a8) g4. g8 | a4 a8. bes16 c'4 bes8. f16 |
+f2. f8.@c bes16 | a4 a8. g16 f4 c'8. c'16 | bes4 bes8. bes16 bes4 c'8. bes16 | a4 f8. g16 a4 d'8. bes16 |
+bes4 bes8. bes16 d'4 d'8. c'16 | bes4 bes8. a16 bes4 a8. aes16 | g4 g8. g16 g4! f8. a16 | bes4 a8. bes16 a4. f8 |
+f2. s4
+"""
+
+[parts.Tenor.lyrics.chorus]
+text = "We are preach -- ing His love to the world, to the world, Ev -- er keep -- ing His ban -- ner un -- furled, all un -- furled, We are press -- ing a -- long with a sto -- ry and song, Prais -- ing Je -- sus to all the world."
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. bes,8 bes,8 | bes,4 a,8. a,16 bes,4 bes,8. bes,16 | bes,2 bes,4 bes,8. bes,16 | bes,4 bes,8. c16 d4 c8. bes,16 |
+f2. bes,8. bes,16 | bes,4 bes8. f16 g4 d8. d16 | ees2 c4. c8 | f4 f8. f16 f4 f8. f16 |
+bes,2. f8.@c f16 | f4 f8. f16 f4 a8. a16 | bes4 bes,8. bes,16 bes,4 f8. f16 | f4 f8. f16 f4 f8. f16 |
+bes4 f8. d16 bes,4 f8. f16 | bes4 bes8. f16 g4 c8. d16 | ees4 ees8. d16 c4! d8. ees16 | f4 f8. f16 f4. f8 |
+bes,2. s4
+"""
+
+[parts.Bass.lyrics.chorus]
+text = "We are preach -- ing His love to the world, to the world, Ev -- er keep -- ing His ban -- ner un -- furled, all un -- furled, We are press -- ing a -- long with a sto -- ry and song, Prais -- ing Je -- sus to all the world."
+
+[lyrics.1]
+text = "With the glo -- ri -- ous King of sal -- va -- tion, In His light we are press -- ing a -- long, Giv -- ing truth to each sin bur -- dened na -- tion, And prais -- ing His name with a song."
+
+[lyrics.2]
+text = "Bright -- ly shin -- eth His won -- der -- ful glo -- ry, Giv -- ing light to each sin- -- dark -- ened place, More and more we are tell -- ing the sto -- ry And learn -- ing to lean on His grace."
+
+[lyrics.3]
+text = "Ev -- 'ry soul must be told a -- bout Je -- sus, Must be told of His mer -- cy and love, For so glad -- ly and tru -- ly He frees us, And guides us to heav -- en a -- bove."
+
+[lyrics.chorus]
+text = "We are preach -- ing His love to the world, Ev -- er keep -- ing His ban -- ner un -- furled, We are press -- ing a -- long with a sto -- ry and song, Prais -- ing Je -- sus to all the world."
