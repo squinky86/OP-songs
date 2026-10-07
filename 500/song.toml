@@ -1,0 +1,78 @@
+title = "Jesus the Hope of the World"
+copyrights = [
+  "Lyrics: Thomas O. Chisholm, 1912 (public domain)",
+  "Music: Francis Foster, 1912 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 72
+verse_count = 5
+phrase_breaks = ["2:48", "4:48", "8:48", "12:48"]
+optional_phrase_breaks = ["6:48", "10:48", "14:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+g'8. g'16 g'8 fis'8 e'8 d'8 | d''4 d''8 c''4. | b'8. b'16 b'8 a'8 e'8 fis'8 | g'4 e'8 d'4. |
+g'8. g'16 g'8 fis'8 e'8 d'8 | d''4 d''8 c''4. | b'8. b'16 b'8 a'8 g'8 fis'8 | g'4.~ g'4. |
+d''8.@c d''16 d''8 e''8 d''8 b'8 | d''4 c''8 c''4. | c''8. c''16 c''8 c''8 b'8 a'8 | c''4 b'8 b'4. |
+b'8. a'16 g'8 d'8 g'8 b'8 | d''4 d''8 c''4. | b'8. b'16 b'8 a'8 g'8 fis'8 | g'4.~ g'4.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+b8. b16 b8 c'8 c'8 c'8 | d'4 d'8 e'4. | d'8. d'16 d'8 c'8 c'8 c'8 | b4 ais8 b4. |
+b8. b16 b8 c'8 c'8 c'8 | d'4 d'8 e'4. | d'8. d'16 d'8 d'8 d'8 d'8 | d'4.~ d'4. |
+g'8.@c g'16 g'8 g'8 g'8 g'8 | b'4 a'8 a'4. | a'8. a'16 a'8 a'8 g'8 fis'8 | a'4 g'8 g'4. |
+d'8. c'16 b8 b8 b8 d'8 | f'4 f'8 e'4. | d'8. d'16 d'8 d'8 d'8 d'8 | d'4.~ d'4.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+d8. d16 d8 d8 e8 fis8 | g4 g8 g4. | g8. g16 g8 fis8 g8 a8 | g4 g8 g4. |
+d8. d16 d8 d8 e8 fis8 | g4 g8 g4. | g8. g16 g8 c'8 b8 a8 | b4.~ b4. |
+b8.@c b16 b8 c'8 b8 d'8 | d'4 d'8 d'4. | d'8. d'16 d'8 d'8 d'8 d'8 | d'4 d'8 d'4. |
+g8. g16 g8 g8 g8 g8 | g4 g8 g4. | g8. g16 g8 c'8 b8 a8 | b4.~ b4.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+g,8. g,16 g,8 a,8 a,8 a,8 | b,4 b,8 c4. | d8. d16 d8 d8 d8 d8 | g,4 g,8 g,4. |
+g,8. g,16 g,8 a,8 a,8 a,8 | b,4 b,8 c4. | d8. d16 d8 d8 d8 d8 | g4.~ g4. |
+g8.@c g16 g8 g8 g8 g8 | d4 d8 d4. | d8. d16 d8 d8 d8 d8 | g4 g8 g4. |
+g,8. g,16 g,8 g,8 g,8 g,8 | b,4 b,8 c4. | d8. d16 d8 d8 d8 d8 | g,4.~ g,4.
+"""
+
+[lyrics.1]
+text = "Who is this com -- ing with gar -- ments red, Wound -- ed His hands and His feet and head? He that was bruised in our guilt -- y stead, @s1"
+
+[lyrics.2]
+text = "Like some lone moun -- tain, ma -- jes -- tic, grand, Tow -- er -- ing high a -- bove sea and land, See “the De -- sire of all na -- tions” stand! @s1"
+
+[lyrics.3]
+text = "Mill -- ions are grop -- ing in hope -- less night, Vain -- ly they’re seek -- ing for peace and light, There is but One who can give them sight, @s1"
+
+[lyrics.4]
+text = "Ma -- ny are build -- ing, at men’s com -- mand, Lay -- ing foun -- da -- tions on treach’ -- rous sand, On -- ly one Rock will the storms with -- stand, @s1"
+
+[lyrics.5]
+text = "Hope of man -- kind in the a -- ges past, Hope of to -- day with its needs more vast, He will all sys -- tems and creeds out -- last, @s1"
+
+[lyrics.s1]
+text = "Je -- sus, the Hope of the world."
+
+[lyrics.chorus]
+text = "Hearts that are wea -- ry and long for rest, Haunt -- ed by fears and by guilt op -- pressed, Here is the balm for each troub -- led breast, Je -- sus, the Hope of the world."
