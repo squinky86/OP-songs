@@ -1,0 +1,69 @@
+title = "The Scriptures"
+copyrights = [
+  "Lyrics: Anne Steele, 1760 (public domain)",
+  "Music: Lowell Mason, 1840 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Bb"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 92
+verse_count = 5
+phrase_breaks = ["8:32"]
+optional_phrase_breaks = ["5:32", "12:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 d'4 | d'2 f'4 | f'2 bes'4 | g'4( c''4) a'4 | bes'2 c''4 |
+d''4( bes'4) g'4 | f'4( a'4) g'4 | f'2 f'4 | g'4( bes'4) g'4 | f'4( d'4) f'4 |
+g'4( bes'4) g'4 | f'2 f'4 | f'4( bes'4) d''4 | g'4( c''4) a'4 | bes'2 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 bes4 | bes2 d'4 | d'4( ees'4) f'4 | f'4( ees'4) ees'4 | d'2 f'4 |
+d'2 d'4 | c'4( e'4) e'4 | f'2 d'4 | ees'2 ees'4 | d'4( bes4) d'4 |
+ees'2 ees'4 | d'2 ees'4 | d'2 f'4 | f'4( ees'4) ees'4 | d'2 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 f4 | f2 bes4 | bes4( a4) bes4 | bes4( c'4) c'4 | bes2 a4 |
+bes4( g4) bes4 | a4( d'4) c'4 | a2 bes4 | bes4( g4) bes4 | bes4( f4) bes4 |
+bes2 c'4 | d'2 c'4 | bes2 bes4 | bes4( ees'4) c'4 | bes2 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 bes,4 | bes,2 bes,4 | bes,4( c4) d4 | ees4( c4) f4 | bes,2 f4 |
+bes,2 bes,4 | c2 c4 | f2 bes,4 | ees2 ees4 | bes,2 bes,4 |
+ees4( g4) a4 | bes2 a4 | bes2 d4 | ees4( c4) f4 | bes,2 s4
+"""
+
+[lyrics.1]
+text = "Fa -- ther of mer -- cies! in Thy word What end -- less glo -- ry shines! For -- ev -- er be Thy name a -- dored For these ce -- les -- tial lines."
+
+[lyrics.2]
+text = "Here the fair tree of know -- ledge grows, And yields a free re -- past; Sub -- lim -- er sweets than na -- ture knows In -- vite the long -- ing taste."
+
+[lyrics.3]
+text = "Here the Re -- deem -- er's wel -- come voice Spreads heav'n -- ly peace a -- round; And life and ev -- er -- last -- ing joys At -- tend the bliss -- ful sound."
+
+[lyrics.4]
+text = "Oh, may these heav'n -- ly pag -- es be My ev -- er dear de -- light; And still new beau -- ties may I see, And still in -- creas -- ing light."
+
+[lyrics.5]
+text = "Di -- vine In -- struct -- or, gra -- cious Lord! Be Thou for -- ev -- er near; Teach me to love Thy sa -- cred word, And view my Sav -- iour there."
