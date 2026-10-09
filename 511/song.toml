@@ -1,0 +1,74 @@
+title = "To See Him as He Is"
+copyrights = [
+  "Lyrics: Arranged and partly written by Franklin L. Eiland, 1909 (public domain)",
+  "Music: Franklin L. Eiland, 1909 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 9
+time_sig_denominator = 8
+tempo_bpm = 90
+verse_count = 4
+phrase_breaks = ["5:48", "9:48", "13:48"]
+optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
+commentary = "<p>This song is sacredly dedicated to Mrs. Mattie Moore, of Hamlin, Tex., who, though, in physical form, is weak, is to the glory of God, in abundant spiritual bloom.</p>"
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. d'8 g'8 g'8 | g'2. d'8 g'8 g'8 | e'8 d'4.~ d'4 g'8 a'8 a'8 | a'2. b'4. |
+g'2. g'8 b'8 b'8 | b'2. g'8 b'8 b'8 | a'8 g'4.~ g'4 d'8 g'8 b'8 | b'2. a'4. |
+g'2. g'8 b'8 d''8 | d''2. g'8 b'8 b'8 | a'8 g'4.~ g'4 d'8 g'8 b'8 | b'2. g'4. |
+a'2. g'8 b'8 d''8 | d''2. g'8 b'8 b'8 | a'8 g'4.~ g'4 d'8 g'8 b'8 | b'2. a'4. |
+g'2. s4.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. b8 b8 b8 | b2. b8 b8 b8 | c'8 b4.~ b4 b8 c'8 c'8 | c'2. d'4. |
+b2. b8 d'8 d'8 | d'2. b8 d'8 d'8 | c'8 b4.~ b4 b8 b8 d'8 | d'2. c'4. |
+b2. d'8 g'8 g'8 | g'2. b8 d'8 d'8 | c'8 b4.~ b4 b8 b8 d'8 | d'2. d'4. |
+d'2. d'8 g'8 g'8 | g'2. b8 d'8 d'8 | c'8 b4.~ b4 b8 b8 d'8 | d'2. c'4. |
+b2. s4.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. g8 d8 d8 | d2. g8 d8 d8 | g8 g4.~ g4 d8 fis8 fis8 | fis2. d4. |
+d2. d8 g8 g8 | g2. d8 g8 g8 | d8 d4.~ d4 g8 g8 g8 | g2. d4. |
+d2. b8 d'8 b8 | b2. g8 g8 g8 | d8 d4.~ d4 g8 g8 g8 | g2. g4. |
+fis2. b8 d'8 b8 | b2. g8 g8 g8 | d8 d4.~ d4 g8 g8 g8 | g2. d4. |
+d2. s4.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. g,8 g,8 g,8 | g,2. g,8 g,8 g,8 | g,8 g,4.~ g,4 g,8 d8 d8 | d2. d4. |
+g,2. g,8 g,8 g,8 | g,2. g,8 g,8 g,8 | g,8 g,4.~ g,4 g8 g8 g8 | d2. d4. |
+g,2. g8 g8 g8 | g2. g,8 g,8 g,8 | g,8 g,4.~ g,4 g8 g8 g8 | g2. b,4. |
+d2. g8 g8 g8 | g2. g,8 g,8 g,8 | g,8 g,4.~ g,4 g8 g8 g8 | d2. d4. |
+g,2. s4.
+"""
+
+[lyrics.1]
+text = "I love to read and think of Je -- sus, The pre -- cious Lamb of God, Who came to die for my sal -- va -- tion, Down from His bright a -- bode! He saw me in my cru -- el bond -- age, And came to set me free, He came to die for chief of sin -- ners, Yes, Je -- sus died for me!"
+
+[lyrics.2]
+text = "I love to talk and sing of Je -- sus, And feel He’s by my side, Tho’ yet un -- seen, His Spir -- it’s with me, My fee -- ble steps to guide! ’Tis sweet in ev -- ’ry joy and sor -- row, In life’s, or death’s a -- larms, To lean up -- on His lov -- ing bo -- som, And rest with -- in His arms!"
+
+[lyrics.3]
+text = "I want His love to so pos -- sess me, Wher -- ev -- er I may be, That I may show to dy -- ing sin -- ners, What it has done for me! Yes, may I read and think of Je -- sus, And talk and sing and pray, And thank Him for this great sal -- va -- tion, I know is mine to -- day!"
+
+[lyrics.4]
+text = "I want one day, to be with Je -- sus, In that bright home a -- bove, And taste in all its pre -- cious full -- ness, The rich -- es of His love! I’d go each day still near -- er to Him, The source of all my bliss, Then, grow -- ing more and more, yet, like Him, To see Him as He is!"
