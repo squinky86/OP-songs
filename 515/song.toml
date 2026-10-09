@@ -1,0 +1,71 @@
+title = "My Soul Is Filled With Glory"
+copyrights = [
+  "Lyrics and Music: John M. Harris, 1905 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "D"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 108
+verse_count = 3
+phrase_breaks = ["2:64", "4:64", "6:64", "8:64", "10:64", "12:64", "14:48", "16:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+fis'4 fis'4 fis'8 e'8 d'8 fis'8 | a'4 b'4 a'4 fis'4 | d''4 b'4 a'8 fis'8 e'8 d'8 | fis'4 e'4 e'2 |
+fis'4 fis'4 fis'8 e'8 d'8 fis'8 | a'4 b'4 a'4 fis'4 | d''4 b'4 a'8 fis'8 d'8 e'8 | fis'4 e'4 d'2 |
+d''4 d''4 d''4. a'8 | b'8 a'8 b'8 a'8 fis'8 a'4. | d''4 d''4 d''4. a'8 | b'8 a'8 b'8 a'8 fis'8 e'4. |
+fis'4 a'4 d''4. a'8 | b'8 d''8 cis''8 b'8 a'8 fis'8 e'8 d'8 | b'8 a'4. b'8 a'4 d'8 | fis'4 e'4 d'2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+d'4 d'4 d'8 a8 a8 d'8 | fis'4 g'4 fis'4 d'4 | d'4 d'4 d'8 d'8 e'8 d'8 | d'4 cis'4 cis'2 |
+d'4 d'4 d'8 a8 a8 d'8 | fis'4 g'4 fis'4 d'4 | d'4 d'4 d'8 d'8 d'8 d'8 | d'4 cis'4 d'2 |
+fis'4 g'4 fis'4. fis'8 | g'8 fis'8 g'8 fis'8 d'8 fis'4. | fis'4 g'4 fis'4. fis'8 | g'8 fis'8 g'8 fis'8 d'8 cis'4. |
+d'4 fis'4 fis'4. fis'8 | g'8 b'8 a'8 g'8 fis'8 d'8 a8 a8 | d'8 d'4. g'8 fis'4 d'8 | d'4 cis'4 a2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+a4 a4 a8 g8 fis8 a8 | d'4 d'4 d'4 a4 | a4 d'4 d'8 a8 a8 gis8 | a4 a4 a2 |
+a4 a4 a8 g8 fis8 a8 | d'4 d'4 d'4 a4 | a4 d'4 d'8 a8 gis8 gis8 | a4 g4 fis2 |
+a4 b4 a4. d'8 | d'8 d'8 d'8 d'8 a8 d'4. | a4 b4 a4. d'8 | d'8 d'8 d'8 d'8 a8 a4. |
+a4 d'4 a4. d'8 | d'8 d'8 d'8 d'8 d'8 a8 g8 fis8 | g8 fis4. d'8 d'4 a8 | a4 g4 fis2
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+d4 d4 d8 d8 d8 d8 | d4 d4 d4 d4 | fis4 g4 fis8 d8 cis8 b,8 | a,4 a,4 a,2 |
+d4 d4 d8 d8 d8 d8 | d4 d4 d4 d4 | fis4 g4 fis8 d8 b,8 b,8 | a,4 a,4 d2 |
+d4 d4 d4. d8 | d8 d8 d8 d8 d8 d4. | d4 d4 d4. d8 | d8 d8 d8 fis8 a8 a4. |
+d4 d4 d4. d8 | g8 g8 g8 g8 g8 d8 d8 d8 | d8 d4. d8 d4 fis8 | a4 a,4 d2
+"""
+
+[lyrics.1]
+text = "Je -- sus found me when a -- far I wan -- dered, Brought me par -- don from the throne a -- bove, Gave me peace that pass -- eth un -- der -- stand -- ing, Joy un -- speak -- a -- ble and full of love. @s1 Of His grace that jus -- ti -- fies me free -- ly, @s2"
+
+[lyrics.2]
+text = "Thro’ His Word He taught me full sal -- va -- tion— How His blood could cleanse and sanc -- ti -- fy. Then by faith I plunged in -- to the fount -- ain; Now I’m look -- ing for that home on high. @s1 Of His grace that jus -- ti -- fies me whol -- ly, @s2"
+
+[lyrics.3]
+text = "Tri -- als ma -- ny will be -- set my path -- way, And temp -- ta -- tions I shall sure -- ly meet; But my Sav -- ior prom -- ised grace to help me Till I lay my tro -- phies at His feet. @s1 Of His grace that keeps and gives me vic -- t’ry, @s2"
+
+[lyrics.s1]
+text = "Praise the Lord! My soul is filled with glo -- ry! Praise the Lord! I love to tell the sto -- ry"
+
+[lyrics.s2]
+text = "And I’m shout -- ing, “Glo -- ry!” till I get home."
