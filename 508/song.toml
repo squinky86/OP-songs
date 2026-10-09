@@ -1,0 +1,89 @@
+title = "Wondrous Love"
+copyrights = [
+  "Lyrics: Orelia McKenzie, 1908 (public domain)",
+  "Music: J. W. Gaines, 1908 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 84
+verse_count = 4
+phrase_breaks = ["5:48", "9:48", "13:48", "15:48", "19:48"]
+optional_phrase_breaks = ["3:48", "7:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. ees'4 | aes'4 aes'4 c''4 bes'4 | aes'4 f'4 aes'4 ees'4 | aes'4 aes'4 c''8[ bes'8] aes'8[ c''8] | bes'2. c''4 |
+ees''4 ees''4 c''8[ bes'8] aes'8[ bes'8] | c''4 bes'4 aes'4 ees'4 | aes'4 aes'4 c''4 bes'4 | aes'2. c''4@c |
+ees''2. ees''4 | c''2. aes'4 | c''2. c''4 | aes'2. ees'4 |
+aes'4 aes'4 c''8[ bes'8] aes'8[ c''8] | bes'2. c''4 |
+ees''2. ees''4 | c''2. aes'4 | c''2. c''4 | aes'2. ees'4 |
+aes'4 aes'4 c''4 bes'4 | aes'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. c'4 | c'4 c'4 ees'4 e'4 | f'4 des'4 c'4 c'4 | c'4 ees'4 d'8[ ees'8] des'4 | ees'2. ees'4 |
+aes'4 aes'4 ees'8[ des'8] c'8[ des'8] | ees'4 des'4 c'4 c'4 | c'4 c'4 ees'4 des'4 | c'2. ees'4@c |
+aes'4 g'4 aes'4 aes'4 | ees'4 ees'4 ees'4 c'4 | ees'4 e'4 f'4 f'4 | c'4 c'4 c'4 c'4 |
+c'4 ees'4 d'8[ ees'8] des'4 | ees'2. ees'4 |
+aes'4 g'4 aes'4 aes'4 | ees'4 ees'4 ees'4 c'4 | ees'4 e'4 f'4 f'4 | c'4 c'4 c'4 c'4 |
+c'4 c'4 ees'4 des'4 | c'2. s4
+"""
+
+[parts.Alto.lyrics.chorus]
+text = "Of Thy great love, my song shall be, I'll ev -- er sing, dear Lord, of Thee, Who died up -- on the tree, Sal -- va -- tion full, Thy blood can give, And free that all may look and live, For all, yes, ev -- en me!"
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. aes4 | ees4 ees4 aes4 aes4 | aes4 aes4 aes4 aes4 | ees4 aes4 aes8[ g8] f8[ aes8] | g2. aes4 |
+c'4 c'4 aes8[ g8] aes4 | aes4 g4 aes4 aes4 | aes4 aes4 aes4 ees4 | ees2. aes4@c |
+c'4 bes4 c'4 c'4 | aes4 aes4 aes4 aes4 | aes4 bes4 aes4 aes4 | aes4 aes4 aes4 aes4 |
+ees4 aes4 aes8[ g8] f8[ aes8] | g2. aes4 |
+c'4 bes4 c'4 c'4 | aes4 aes4 aes4 aes4 | aes4 bes4 aes4 aes4 | aes4 aes4 aes4 aes4 |
+aes4 aes4 aes4 ees4 | ees2. s4
+"""
+
+[parts.Tenor.lyrics.chorus]
+text = "Of Thy great love, my song shall be, I'll ev -- er sing, dear Lord, of Thee, Who died up -- on the tree, Sal -- va -- tion full, Thy blood can give, And free that all may look and live, For all, yes, ev -- en me!"
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. aes,4 | aes,4 aes,4 aes,4 c4 | des4 des4 aes,4 aes,4 | aes,4 c4 bes,4 bes,4 | ees2. aes4 |
+aes4 aes4 aes8[ ees8] f8[ ees8] | aes4 ees4 aes,4 aes4 | f4 f4 ees4 ees4 | aes,2. aes4@c |
+aes4 ees4 aes4 aes4 | aes,4 aes,4 aes,4 aes4 | aes4 g4 f4 f4 | aes4 aes4 aes4 aes,4 |
+aes,4 c4 bes,4 bes,4 | ees2. aes4 |
+aes4 ees4 aes4 aes4 | aes,4 aes,4 aes,4 aes4 | aes4 g4 f4 f4 | aes4 aes4 aes4 aes4 |
+f4 f4 ees4 ees4 | aes,2. s4
+"""
+
+[parts.Bass.lyrics.chorus]
+text = "Of Thy great love, my song shall be, I'll ev -- er sing, dear Lord, of Thee, Who died up -- on the tree, Sal -- va -- tion full, Thy blood can give, And free that all may look and live, For all, yes, ev -- en me!"
+
+[lyrics.1]
+text = "What won -- drous love, dear Lord, that Thou Shouldst come to earth and die, Shouldst shed Thy blood on Cal -- v'ry's brow, For reb -- els, such as I!"
+
+[lyrics.2]
+text = "'Twas love that led Thee to the cross, And nailed Thee to it there; That I, tho' once in dark -- ness lost, May now, free par -- don share!"
+
+[lyrics.3]
+text = "O, won -- drous love, how sweet the tho't, That sin -- a -- ton -- ing flow,— Thy pre -- cious blood, my soul hath bought, And res -- cued it from woe!"
+
+[lyrics.4]
+text = "Since Thou didst die that I might gain, Sal -- va -- tion full and free, I'll spend my days that yet re -- main, Dear Lord, in serv -- ing Thee!"
+
+[lyrics.chorus]
+text = "Of Thy great love, I'll ev -- er sing, Who died up -- on the tree, Sal -- va -- tion full, And free to bring, For all, yes, ev -- en me!"
