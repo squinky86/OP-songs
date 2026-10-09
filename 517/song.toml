@@ -1,0 +1,76 @@
+title = "The Hands that Were Nailed to the Tree"
+copyrights = [
+  "Lyrics and Music: Franklin L. Eiland, 1905 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Eb"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 72
+verse_count = 4
+phrase_breaks = ["3:40", "5:40", "7:40", "9:40", "13:40"]
+optional_phrase_breaks = ["11:40", "15:40"]
+optional_break_threshold_ticks = 128
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. s4 ees'16 f'16 | g'8. g'16 g'8 g'8 f'8 ees'8 | g'8 bes'4.~ bes'8 bes'16 c''16 | ees''8. ees''16 ees''8 ees''8 bes'8 c''16[ g'16] |
+bes'4.~ bes'8! r8 ees'16 f'16 | g'8. g'16 g'8 g'8 f'8 ees'8 | g'8 bes'4.~ bes'8 ees'16 f'16 | g'8. g'16 g'8 g'8 ees'8. f'16 |
+ees'4.~ ees'8 r8 bes'16@c[ c''16] | ees''8. ees''16 ees''8 ees''8 c''8 ees''8 | c''8 bes'4.~ bes'8 ees'16[ f'16] | g'8. bes'16 ees''8 ees''8 bes'8 c''16[ g'16] |
+bes'4.~ bes'8! r8 bes'16[ c''16] | ees''8. ees''16 ees''8 ees''8 c''8 ees''8 | c''8 bes'4.~ bes'8 ees'16[\\rit f'16] | g'8. g'16 g'8 g'8 ees'8. f'16 |
+ees'4.~ ees'8\\spanend s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. s4 bes16 bes16 | ees'8. ees'16 ees'8 ees'8 bes8 bes8 | ees'8 g'4.~ g'8 g'16 aes'16 | g'8. g'16 g'8 g'8 f'8 ees'8 |
+d'4( ees'8 f'8!) r8 bes16 bes16 | ees'8. ees'16 ees'8 ees'8 bes8 bes8 | ees'8 g'4.~ g'8 bes16 bes16 | ees'8. ees'16 ees'8 ees'8 bes8. bes16 |
+bes4.~ bes8 r8 g'16@c[ aes'16] | g'8. g'16 g'8 g'8 g'8 g'8 | aes'8 g'4.~ g'8 bes8 | ees'8. g'16 g'8 g'8 f'8 ees'8 |
+d'4( ees'8 f'8!) r8 g'16[ aes'16] | g'8. g'16 g'8 g'8 g'8 g'8 | aes'8 g'4.~ g'8 bes8 | ees'8. ees'16 ees'8 ees'8 bes8. bes16 |
+bes4.~ bes8 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. s4 g16 aes16 | bes8. bes16 bes8 bes8 aes8 g8 | bes8 ees'4.~ ees'8 ees'16 ees'16 | bes8. bes16 bes8 c'8 c'8 a8 |
+bes4( c'8 d'8!) r8 g16 aes16 | bes8. bes16 bes8 bes8 aes8 g8 | bes8 ees'4.~ ees'8 g16 aes16 | bes8. bes16 g8 bes8 g8. aes16 |
+g4.~ g8 r8 ees'8@c | bes8. bes16 bes8 bes8 c'8 bes8 | ees'8 ees'4.~ ees'8 g16[ aes16] | bes8. ees'16 bes8 c'8 c'8 a8 |
+bes4( c'8 d'8!) r8 ees'8 | bes8. bes16 bes8 bes8 c'8 bes8 | ees'8 ees'4.~ ees'8 g16[ aes16] | bes8. bes16 g8 aes8 g8. aes16 |
+g4.~ g8 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. s4 ees16 ees16 | ees8. ees16 ees8 ees8 ees8 ees8 | ees8 ees4.~ ees8 ees16 ees16 | ees8. ees16 ees8 c8 d8 f8 |
+bes,4.~ bes,8! r8 ees16 ees16 | ees8. ees16 ees8 ees8 ees8 ees8 | ees8 ees4.~ ees8 ees16 ees16 | ees8. d16 c8 bes,8 bes,8. bes,16 |
+ees4.~ ees8 r8 ees8@c | ees8. ees16 ees8 ees8 ees8 ees8 | ees8 ees4.~ ees8 ees8 | ees8. ees16 ees8 c8 d8 f8 |
+bes,4.~ bes,8! r8 ees8 | ees8. ees16 ees8 ees8 ees8 ees8 | ees8 ees4.~ ees8 ees8 | ees8. d16 c8 bes,8 bes,8. bes,16 |
+ees4.~ ees8 s4
+"""
+
+[lyrics.1]
+text = "Out, from sin un -- to right -- eous -- ness lift -- ed, By the hands that were nailed to the tree; Thro' the love and all- -- won -- drous com -- pas -- sion, Of my Sav -- iour, down- -- reach -- ing to me!"
+
+[lyrics.2]
+text = "I was down in the cell of sin's pris -- on, And was doomed, in de -- spair to re -- main, Had they not, those dear hands, to my res -- cue, Come, and loosed the fast shack -- ling dread chain!"
+
+[lyrics.3]
+text = "May I fail not, to praise them for -- ev -- er, And to tell it wher -- ev -- er I be, This, the glo -- ri -- ous gift, of the par -- don, Which they brought, and de -- liv -- ered to me!"
+
+[lyrics.4]
+text = "Go -- ing up, is my soul with thanks -- giv -- ing, There, its song of re -- demp -- tion to sing, Touch, to feel, of the hands that in mer -- cy, Came, and to it, sal -- va -- tion did bring!"
+
+[lyrics.chorus]
+text = "They lift -- ed me out of sin's dwell -- ing!— The hands, that were nailed to the tree; And I, this all- -- won -- drous com -- pas -- sion, Can feel, there, down- -- reach -- ing to me!"

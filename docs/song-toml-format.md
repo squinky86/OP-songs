@@ -39,8 +39,9 @@ copyrights = [
 | `time_sig_changes` | array of tables | no | Mid-song time signature changes (see [Time Signature Changes](#time-signature-changes)) |
 | `tempo_bpm` | integer | yes | Base quarter-note BPM for MIDI/MP3 and the printed header. Tempo marks (`\rit`, `\allegro`, …) are relative to it (see [Tempo Marks](#tempo-marks)) |
 | `phrase_breaks` | string array | no | `"M:T"` entries that break both the poetry line and the sheet music/slide layout (see [Phrase Breaks](#phrase-breaks)) |
-| `optional_phrase_breaks` | string array | no | `"M:T"` entries that break only the sheet music/slide layout — poetry lines flow through them unbroken (see [Phrase Breaks](#phrase-breaks)) |
+| `optional_phrase_breaks` | string array | no | `"M:T"` candidate breaks: the lyrics page always breaks there, the sheet music/slides only when the line has grown long enough (see [Phrase Breaks](#phrase-breaks)) |
 | `non_breaking_phrase_breaks` | string array | no | `"M:T"` entries used only as phrase boundaries for cross-voice lyric deduplication — they never break the poetry line or the layout (see [Phrase Breaks](#phrase-breaks)) |
+| `optional_break_threshold_ticks` | integer | no | Line length, in ticks (quarter = 16), at which an optional phrase break is taken in the sheet music/slides. Omit it to let OpenPsalm calculate the length (see [Optional Break Threshold](#optional-break-threshold)) |
 | `copyrights` | string array | no | Copyright lines displayed in the PDF footer (see [Copyright Format](#copyright-format)) |
 | `commentary` | string | no | HTML-formatted text displayed below the sheet music on the song's detail page (historical context, musical notes, etc.) |
 | `converge_verses` | boolean | no | When `true`, any phrase sung identically by every verse is printed once in the PDF (kept in verse 1, skipped in later verses) instead of stacked in each numbered row. Defaults to `true` when the song uses shared lyric sections (`[lyrics.sN]`), otherwise `false` — ordinary hymns whose verses intentionally repeat a tag line keep the repeat (see [Converged Verses](#converged-verses-shared-lyric-sections)). |
@@ -687,12 +688,12 @@ OpenPsalm has three phrase break fields that control where lines may wrap in dif
 | Field | Lyrics page | Sheet music / slides | Lyric dedup |
 |---|---|---|---|
 | `phrase_breaks` | breaks here | breaks here | phrase boundary |
-| `optional_phrase_breaks` | breaks here | breaks here | phrase boundary |
+| `optional_phrase_breaks` | breaks here | breaks here only if the line is long enough ([threshold](#optional-break-threshold)) | phrase boundary |
 | `non_breaking_phrase_breaks` | flows through | flows through | phrase boundary |
 
 Use `phrase_breaks` for breaks that must align with the ends of poetic lines (e.g. the end of "A mighty fortress is our God, a bulwark never failing;"). Use `optional_phrase_breaks` for additional break opportunities that the typesetter may use to optimize line spacing — for example, the mid-phrase caesura after "A mighty fortress is our God,"; these also break the printed lyrics on the song page. Use `non_breaking_phrase_breaks` when a phrase boundary is needed only for cross-voice lyric deduplication (splitting the fingerprinted phrases so a call-and-response echo dedups correctly) without allowing a visual break there.
 
-All three fields share the same `"M:T"` string format and all are optional. The sheet music and slide exporters break lines at the first two lists; all three lists together define the phrase boundaries used for lyric deduplication; the lyrics page breaks lines at the first two lists.
+All three fields share the same `"M:T"` string format and all are optional. The sheet music and slide exporters break lines at every `phrase_breaks` entry and at the `optional_phrase_breaks` entries the [threshold](#optional-break-threshold) selects; all three lists together define the phrase boundaries used for lyric deduplication; the lyrics page breaks lines at the first two lists.
 
 ### Format
 
@@ -723,6 +724,27 @@ When "Phrased Notation" is enabled (on by default in the UI):
 - **End-of-measure breaks** (`T = measure_ticks`): the barline is left without `\noBreak`, marking it as a permitted break point.
 - **Mid-measure breaks** (`T < measure_ticks`): an invisible barline `\bar "" \break` is inserted after the note at tick T, splitting the measure at the phrase boundary.
 - LilyPond's optimizer places line breaks only at these marked positions.
+
+With "Phrased Notation" off, none of these breaks are marked and LilyPond wraps lines on its own.
+
+### Optional Break Threshold
+
+Every `phrase_breaks` entry is a line break in the sheet music and slides. An `optional_phrase_breaks` entry is only a *candidate*: walking through the song, OpenPsalm counts the ticks since the last break it actually took, and takes the candidate only if that count is **at least** the threshold. Taking any break (required or optional) resets the count to zero; skipping a candidate does not, so a later candidate can still be taken.
+
+By default the threshold is calculated: it is the median length of the segments between required breaks (counting the stretch before the first one and after the last one), or four measures when the song has no required breaks. Because of this, changing a required break anywhere in the song can change which optional breaks are taken elsewhere. Set the threshold yourself to stop that:
+
+```toml
+phrase_breaks = ["3:40", "5:40", "7:40", "9:40", "13:40"]
+optional_phrase_breaks = ["11:40", "15:40"]
+optional_break_threshold_ticks = 128
+```
+
+- **Units** are the same ticks as phrase-break entries (quarter = 16, eighth = 8, 4/4 bar = 64, 6/8 bar = 48). They are not a measure count, MIDI ticks, or seconds. Leading spacer rests before a pickup are not counted.
+- **Equality takes the break.** With `128`, a candidate 127 ticks after the last break is skipped; one at 128 or more is taken.
+- **One value for the whole song.** It applies to every candidate; there is no per-section threshold. It measures musical time, not printed width, so it is not a check that a line fits on the page.
+- **Must be a positive integer**, written as a top-level key **before the first `[table]`**. Zero, negative, or decimal values stop the import with an error. If the key is placed after a `[parts.X]` header, TOML reads it as a key of that part, and it is ignored with no error: the song stays on the calculated threshold.
+- **Translations** inherit the base song's value; a `song_{lang}.toml` may set its own.
+- It has no effect when the song has no `optional_phrase_breaks`, and it never changes the lyrics page or lyric deduplication.
 
 ### Computing Phrase Breaks
 
@@ -962,7 +984,7 @@ never be reused or renumbered.
 
 Songs are seeded on startup from `songs/{N}/song.toml`, plus any
 `songs/{N}/song_{lang}.toml` translations, if that (song directory, language)
-has not already been imported. To re-seed after changes to a TOML (including `phrase_breaks` or `optional_phrase_breaks`), clear the songs table and restart:
+has not already been imported. To re-seed after changes to a TOML (including `phrase_breaks`, `optional_phrase_breaks`, or `optional_break_threshold_ticks`), clear the songs table and restart:
 
 **SQLite (local dev):**
 ```bash
