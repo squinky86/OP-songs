@@ -1,0 +1,83 @@
+title = "For God So Loved the World"
+copyrights = [
+  "Lyrics and Music: Woodie W. Smith, 1918 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 92
+verse_count = 4
+phrase_breaks = ["5:48", "9:48", "13:48", "17:48", "21:48"]
+optional_phrase_breaks = ["3:48", "7:48", "11:48", "19:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. ees'4 | ees'4 f'4 aes'4 f'4 | g'2. g'4 | g'4 bes'4 f'4 g'4 |
+ees'2. ees'4 | ees'4 f'4 aes'4 f'4 | g'2. g'4 | bes'4 f'4 bes'4 c''4 |
+bes'2.! ees'4@c | c''4 c''4 c''4 c''4 | c''2. ees'8 ees'8 | c''4 c''4 c''4 c''4 |
+des''2. ees'4 | des''4 des''4 des''8 des''8 d''4 | ees''8 ees''8 ees''4 ees''4 c''4 | bes'4 f'8 f'8 bes'4 c''4 |
+bes'2.! ees'4 | c''4 c''4 c''4 c''4 | c''2. ees'8 ees'8 | c''4 c''4 c''4 c''4 |
+des''2. ees'4 | des''4 des''4 des''8 des''8 d''4 | ees''8 ees''8 ees''4 ees''4! f''4\\rit | ees''4 c''8 c''8 ees''4 des''4 |
+c''2.\\spanend s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. c'4 | c'4 c'4 c'4 c'4 | des'2. des'4 | des'4 des'4 des'4 des'4 |
+c'2. c'4 | c'4 c'4 c'4 c'4 | des'2. des'4 | d'4 d'4 d'4 d'4 |
+ees'4( d'4 des'4!) ees'4@c | ees'4 aes'4 g'4 f'4 | ees'2. c'8 c'8 | ees'4 aes'4 g'4 f'4 |
+g'2. ees'4 | g'4 bes'4 f'8 f'8 aes'4 | g'8 g'8 aes'4 ees'4 ees'4 | d'4 d'8 d'8 d'4 d'4 |
+ees'4( d'4 des'4!) ees'4 | ees'4 aes'4 g'4 f'4 | ees'2. c'8 c'8 | ees'4 aes'4 g'4 f'4 |
+g'2. ees'4 | g'4 bes'4 f'8 f'8 aes'4 | g'8 g'8 g'4 ges'4! des''4 | c''4 aes'8 aes'8 c''4 bes'4 |
+aes'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. aes4 | aes4 aes4 aes4 aes4 | ees2. ees4 | bes4 g4 bes4 bes4 |
+aes2. aes4 | aes4 aes4 aes4 aes4 | ees2. ees4 | f4 bes4 f4 aes4 |
+g4( aes4 g4!) g4@c | aes4 ees4 aes4 ees4 | aes2. aes8 aes8 | aes4 ees4 aes4 ees4 |
+ees2. g4 | bes4 g4 bes8 bes8 bes4 | bes8 bes8 bes4 bes4 aes4 | bes4 bes8 bes8 f4 aes4 |
+g4( aes4 g4!) g4 | aes4 ees4 aes4 ees4 | aes2. aes8 aes8 | aes4 ees4 aes4 ees4 |
+ees2. g4 | bes4 g4 bes8 bes8 bes4 | bes8 bes8 bes4 aes4! aes4 | aes4 aes8 aes8 aes4 g4 |
+aes2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. aes,4 | aes,4 aes,4 aes,4 aes,4 | bes,2. bes,4 | ees4 ees4 ees4 ees4 |
+aes,2. aes,4 | aes,4 aes,4 aes,4 aes,4 | bes,2. bes,4 | bes,4 bes,4 bes,4 bes,4 |
+ees4( f4 ees4!) ees4@c | aes,4 aes,4 aes,4 aes,4 | aes,2. aes,8 aes,8 | aes,4 aes,4 aes,4 aes,4 |
+bes,2. ees4 | ees4 ees4 ees8 ees8 bes,4 | ees8 ees8 f4 g4 aes4 | bes4 bes8 bes8 bes,4 bes,4 |
+ees4( f4 ees4!) ees4 | aes,4 aes,4 aes,4 aes,4 | aes,2. aes,8 aes,8 | aes,4 aes,4 aes,4 aes,4 |
+bes,2. ees4 | ees4 ees4 ees8 ees8 bes,4 | ees8 ees8 des4 c4! des4 | ees4 f8 f8 ees4 ees4 |
+aes,2. s4
+"""
+
+[lyrics.1]
+text = "The Tri -- une God be -- held the world in sin and shame; And touched by lov -- ing grief, the bless -- ed Sav -- iour came."
+
+[lyrics.2]
+text = "He came by low -- ly berth to peace -- ful Beth -- le -- hem, The wise men of the East by star -- light sought for Him."
+
+[lyrics.3]
+text = "He came to save the lost, to set the cap -- tive free; Be -- hold Him while He’s near; He died for you and me."
+
+[lyrics.4]
+text = "The Son of God in tears, in ag -- o -- ny and blood; Sus -- pend -- ed on the cross to man -- i -- fest our God."
+
+[lyrics.chorus]
+text = "For God so loved the world, that He gave His on -- ly Son, That who -- so -- ev -- er be -- liev -- eth in Him might have ev -- er -- last -- ing life; For God so loved the world, that He gave His on -- ly Son, That who -- so -- ev -- er be -- liev -- eth in Him might have ev -- er -- last -- ing life."
