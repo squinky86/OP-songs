@@ -9,7 +9,7 @@ time_sig_numerator = 4
 time_sig_denominator = 4
 tempo_bpm = 108
 verse_count = 3
-phrase_breaks = ["2:64", "4:64", "6:64", "8:64", "10:64", "12:64", "14:48", "16:64"]
+phrase_breaks = ["2:64", "4:64", "6:64", "8:64", "10:64", "12:64", "14:48"]
 
 [parts.Soprano]
 choral_type = "soprano"
