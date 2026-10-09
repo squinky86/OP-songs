@@ -1,0 +1,96 @@
+title = "There’s a Call from the Heart"
+copyrights = [
+  "Lyrics: Jessie Brown Pounds, 1912 (public domain)",
+  "Music: William S. Pitts, 1857 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Bb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 4
+phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "12:48", "14:48", "16:48"]
+
+[lyrics.1]
+text = "There’s a call from the heart of the Sav -- iour, It is ten -- der -- ly speak -- ing to thee: “Come _ back to the love that is wait -- ing, To the love that is bound -- less and free.”"
+
+[lyrics.2]
+text = "There’s a call from the sweet dreams of child -- hood, There’s the call of a fond moth -- er’s prayer; “Come _ back from the years of thy stray -- ing, From the road that will lead to de -- spair,”"
+
+[lyrics.3]
+text = "There’s a call from the depths of thy be -- ing, From the God- -- giv -- en spir -- it with -- in; Wilt thou not then be true to its plead -- ing, And re -- turn from the path -- way of sin?"
+
+[lyrics.4]
+text = "There’s a call from the dear ones in glo -- ry, There’s the call to a home with the blest; “Come, _ trust in the won -- der -- ful prom -- ise Of a place in the Man -- sion of Rest!"
+
+[lyrics.chorus]
+text = "List, on the air it is fall -- ing, The call of a love that is free; Like the voice of a bell it is call -- ing, And the mes -- sage it speaks is for thee."
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. f'8. f'16 | f'4 g'8. f'16 f'4 bes'8. c''16 | d''2 c''4 c''8 c''8 |
+f'4 a'8. bes'16 c''4 d''8. c''16 | bes'2. bes'8.-( a'16-) |
+g'4 g'8. a'16 bes'4 a'8. g'16 | f'4( bes'4) f'4 a'8. g'16 |
+f'4 f'8 f'8 f'4 g'8. a'16 | bes'2. r4@c |
+r1 | f'4 g'8. f'16 f'4 bes'8. c''16 | d''2 c''4 c''4 |
+f'4 a'8. bes'16 c''4 d''8. c''16 | bes'2. bes'8. a'16 |
+g'4 g'8. a'16 bes'4 a'8. g'16 | f'4( bes'4) f'4 a'8. g'16 |
+f'4 f'8 f'8 f'4 g'8. a'16 | bes'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. d'8. d'16 | d'4 ees'8. d'16 d'4 d'8. ees'16 | f'2 ees'4 ees'8 ees'8 |
+ees'4 ees'8. ees'16 ees'4 f'8. ees'16 | d'2. f'8.-( f'16-) |
+ees'4 ees'8. f'16 g'4 f'8. ees'16 | d'2 d'4 d'8. d'16 |
+ees'4 ees'8 ees'8 ees'4 ees'8. ees'16 | d'2. f'8.[@c ees'16] |
+d'8 r8 d'8 r8 d'8 r8 d'8 r8 | d'8 r8 ees'8 r8 d'8 r8 d'8 r8 | f'8 r8 f'8 r8 ees'8 r8 ees'8 r8 |
+ees'8 r8 ees'8 r8 ees'8 r8 ees'8 r8 | d'8 r8 ees'8 r8 d'8 r8 f'8. f'16 |
+ees'4 ees'8. f'16 g'4 f'8. ees'16 | d'2 d'4 d'8. d'16 |
+ees'4 ees'8 ees'8 ees'4 ees'8. ees'16 | d'2. s4
+"""
+
+[parts.Alto.lyrics.chorus]
+text = "Oh, come, come, come, come, come, come, come, come, come, come, come, come, come, come, come, come, come, come, come, Like the voice of a bell it is call -- ing, And the mes -- sage it speaks is for thee."
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. bes8. bes16 | bes4 bes8. bes16 bes4 f8. bes16 | bes2 a4 a8 a8 |
+a4 c'8. g16 a4 bes8. f16 | f2. bes8.-( bes16-) |
+bes4 bes8. bes16 bes4 bes8. bes16 | bes4( f4) bes4 c'8. bes16 |
+a4 a8 a8 a4 c'8. c'16 | bes2. d'8.[@c c'16] |
+bes8 r8 f8 r8 f8 r8 f8 r8 | bes8 r8 bes8 r8 bes8 r8 f8 r8 | bes8 r8 bes8 r8 a8 r8 a8 r8 |
+a8 r8 c'8 r8 a8 r8 a8 r8 | f8 r8 g8 r8 f8 r8 bes8. bes16 |
+bes4 bes8. bes16 bes4 bes8. bes16 | bes4( f4) bes4 c'8. bes16 |
+a4 a8 a8 a4 c'8. c'16 | bes2. s4
+"""
+
+[parts.Tenor.lyrics.chorus]
+text = "Oh, come, come, come, come, come, come, come, come, come, come, come, come, come, come, come, come, come, come, come, Like the voice of a bell it is call -- ing, And the mes -- sage it speaks is for thee."
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. bes,8. bes,16 | bes,4 bes,8. bes,16 bes,4 bes,8. bes,16 | bes,2 f4 f8 f8 |
+f4 f8. f16 f4 f8. f16 | bes,2. d8.-( d16-) |
+ees4 ees8. ees16 ees4 ees8. ees16 | bes,2 bes,4 f8. f16 |
+f4 f8 f8 f4 f8. f16 | bes,2. bes,4@c |
+bes,8 r8 bes,8 r8 bes,8 r8 bes,8 r8 | bes,8 r8 bes,8 r8 bes,8 r8 bes,8 r8 | bes,8 r8 bes,8 r8 f8 r8 f8 r8 |
+f8 r8 f8 r8 f8 r8 f8 r8 | bes,8 r8 bes,8 r8 bes,8 r8 d8. d16 |
+ees4 ees8. ees16 ees4 ees8. ees16 | bes,2 bes,4 f8. f16 |
+f4 f8 f8 f4 f8. f16 | bes,2. s4
+"""
+
+[parts.Bass.lyrics.chorus]
+text = "Oh, come, come, come, come, come, come, come, come, come, come, come, come, come, come, come, come, come, come, come, Like the voice of a bell it is call -- ing, And the mes -- sage it speaks is for thee."
