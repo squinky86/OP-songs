@@ -1,0 +1,91 @@
+title = "A Day of Joy and Gladness"
+copyrights = [
+  "Lyrics: Tice Elkins and Tillit S. Teddlie (stanza 1 and chorus), 1917 (public domain)",
+  "Music: Tillit S. Teddlie, 1917 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "C"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 88
+verse_count = 3
+phrase_breaks = ["2:64", "4:64", "6:48", "8:64", "10:56", "12:64", "14:56"]
+non_breaking_phrase_breaks = ["9:56"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+g'8 g'8 e'8 f'8 g'8 g'8 a'8 b'8 | c''8 c''8 c''8 c''8 g'4. r8 |
+a'8 a'8 f'8 a'8 c''8 c''8 b'8 a'8 | g'8 g'8 e'8 f'8 g'4. r8 |
+e''8 e''8 e''8 d''8 c''8 c''8 b'8 a'8 | g'8 g'8 fis'8 g'8 a'8 g'8 c''8 d''8 |
+e''4 c''4 c''4 d''4 | c''2. r4 |
+e''4.@c e''8 c''4. c''8 | d''8 c''8 c''8 c''8 a'8 g'4 g'8 |
+c''8. c''16 c''8 a'8 g'8 c''4 d''8 | e''8 e''8 d''8 c''8 d''4. r8 |
+e''8 e''4 e''8 d''8 c''4. | c''8. c''16 c''8 c''8 a'8 g'4 g'8 |
+a'8 b'8 c''8 c''8 a'8 g'8 c''8 d''8 | e''4 d''4 c''2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+e'8 e'8 c'8 d'8 e'8 e'8 f'8 d'8 | e'8 e'8 e'8 e'8 e'4. r8 |
+f'8 f'8 c'8 f'8 a'8 a'8 g'8 f'8 | e'8 e'8 c'8 d'8 e'4. r8 |
+g'8 g'8 g'8 f'8 e'8 e'8 g'8 f'8 | e'8 e'8 dis'8 e'8 f'8 e'8 g'8 g'8 |
+g'4 g'4 fis'4 f'4 | e'2. r4 |
+g'8@c g'8 g'8 g'8 e'8 e'8 e'8 g'8 | f'8 f'8 f'8 f'8 f'8 e'4 e'8 |
+e'8. e'16 e'8 f'8 e'8 g'4 g'8 | g'8 g'8 g'8 fis'8 g'4. r8 |
+g'8 g'4 g'8 f'8 e'4. | f'8. g'16 a'8 a'8 f'8 e'4 e'8 |
+f'8 g'8 a'8 a'8 f'8 e'8 g'8 a'8 | g'4 f'4 e'2
+"""
+
+[parts.Alto.lyrics.chorus]
+text = "Oh, ’twill be a hap -- py day a day of joy and glad -- ness, The hal -- le -- lu -- jah cho -- rus will meet Him in the sky; Filled with His glo -- ry, We will shout the sto -- ry, ’Twill be a day of glad -- ness in the by and by."
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+c'8 c'8 g8 g8 c'8 c'8 c'8 g8 | g8 g8 g8 g8 c'4. r8 |
+c'8 c'8 a8 c'8 c'8 c'8 c'8 c'8 | c'8 c'8 g8 g8 c'4. r8 |
+c'8 c'8 c'8 b8 c'8 c'8 c'8 c'8 | c'8 c'8 c'8 c'8 c'8 c'8 c'8 b8 |
+c'4 c'4 a4 g4 | g2. r4 |
+c'8@c c'8 c'8 c'8 g8 g8 g8 bes8 | a8 a8 a8 a8 c'8 c'4 c'8 |
+g8. g16 g8 c'8 c'8 c'4 b8 | c'8 c'8 d'8 d'8 b4. r8 |
+c'8 c'4 c'8 g8 g4. | a8. b16 c'8 c'8 c'8 c'4 c'8 |
+c'8 c'8 c'8 c'8 c'8 c'8 c'8 c'8 | c'4 g4 g2
+"""
+
+[parts.Tenor.lyrics.chorus]
+text = "Oh, ’twill be a hap -- py day a day of joy and glad -- ness, The hal -- le -- lu -- jah cho -- rus will meet Him in the sky; Filled with His glo -- ry, We will shout the sto -- ry, ’Twill be a day of glad -- ness in the by and by."
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+c8 c8 c8 c8 c8 b,8 a,8 g,8 | c8 c8 c8 c8 c4. r8 |
+f8 f8 f8 f8 f8 f8 f8 f8 | c8 c8 c8 c8 c4. r8 |
+c'8 c'8 c'8 g8 a8 a8 f8 f8 | c8 c8 c8 c8 c8 c8 e8 g8 |
+c'4 e4 d4 g4 | c2. r4 |
+c4.@c c8 c4. e8 | f8 f8 f8 f8 c8 c4 c8 |
+c8. c16 c8 c8 c8 e4 g8 | c'8 c'8 b8 a8 g4. r8 |
+c8 c4 c8 c8 c4. | f8. f16 f8 f8 c8 c4 c8 |
+f8 f8 f8 f8 c8 c8 e8 f8 | g4 g4 c2
+"""
+
+[lyrics.1]
+text = "When the long and toil -- some jour -- ney here on earth is o’er, When the faith -- ful gath -- er on the hap -- py, gold -- en shore, Sor -- rows will be blend -- ed in a song of joy and glad -- ness, When that bless -- ed day shall dawn."
+
+[lyrics.2]
+text = "An -- gel voi -- ces there will greet us in a glad new song; All our loved ones there will meet us, what a hap -- py throng; Let us hail the dawn -- ing of that glad and gold -- en morn -- ing, When the Lord from heav’n shall come."
+
+[lyrics.3]
+text = "Hear the ten -- der words of Je -- sus, call -- ing us to come; Sweet -- ly now He bids us to a bright and bet -- ter home; Let us heed the mes -- sage and make sure of home and heav -- en, While the years are roll -- ing on."
+
+[lyrics.chorus]
+text = "Oh, ’twill be a day of joy and glad -- ness, The hal -- le -- lu -- jah cho -- rus will meet Him in the sky; Filled with His glo -- ry, We will shout the sto -- ry, ’Twill be a day of glad -- ness in the by and by."
