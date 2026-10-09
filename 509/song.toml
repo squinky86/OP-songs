@@ -1,0 +1,91 @@
+title = "Precious Golden Grain"
+subtitle = "Sowing, Ever Sowing"
+copyrights = [
+  "Lyrics: Jennie Wilson, 1898 (public domain)",
+  "Music: Thomas S. Cobb, 1921 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "C"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 92
+verse_count = 4
+phrase_breaks = ["2:64", "4:64", "6:64", "8:64", "12:64", "14:64", "18:64"]
+optional_phrase_breaks = ["10:64", "16:64"]
+non_breaking_phrase_breaks = ["9:64", "11:64", "15:64", "17:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+g'8. fis'16 g'8. a'16 g'4 c''4 | e''8. dis''16 e''8. d''16 c''4 g'4 | a'8. gis'16 a'8. b'16 c''8 c''8 b'8. a'16 | a'4 e'4 g'2 |
+g'8. fis'16 g'8. a'16 g'4 c''4 | e''8. dis''16 e''8. d''16 c''4 g'4 | a'8. gis'16 a'8 b'8 c''8 c''8 b'8 a'8 | g'4 b'4 c''2 |
+e''2~@c e''8 c''8 {3 d''8[ c''8] e'8 } | e'4( f'4) g'4 r4 | d''2~ d''8 c''8 {3 b'8[ a'8] d''8 } | c''2. g'8 r8 |
+a'8. gis'16 a'8. b'16 c''8 c''8 e''8 d''8 | d''4 a'4 d''2 |
+e''2~ e''8 c''8 {3 d''8[ c''8] e'8 } | e'4( f'4) g'4 r4 | d''2~ d''8 c''8 {3 b'8[ a'8] d''8 } | c''2. g'8 r8 |
+a'8. gis'16 a'8. b'16 c''8 c''8 b'8 a'8 | g'4 b'4 c''2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+e'8. dis'16 e'8. f'16 e'4 e'4 | g'8. fis'16 g'8. f'16 e'4 g'4 | f'8. f'16 f'8. g'16 a'8 a'8 g'8. f'16 | e'4 c'4 e'2 |
+e'8. dis'16 e'8. f'16 e'4 e'4 | g'8. fis'16 g'8. f'16 e'4 g'4 | f'8. e'16 f'8 g'8 a'8 a'8 g'8 fis'8 | f'4 f'4 e'2 |
+g'2~@c g'8 e'8 {3 f'8[ e'8] c'8 } | c'8 c'8 d'8 d'8 e'4 g'4 | f'2~ f'8 e'8 {3 d'8[ c'8] f'8 } | e'8 e'8 f'8 g'8 e'4 c'8 r8 |
+f'8. e'16 f'8. g'16 a'8 c''8 g'8 g'8 | fis'4 fis'4 g'2 |
+g'2~ g'8 e'8 {3 f'8[ e'8] c'8 } | c'8 c'8 d'8 d'8 e'4 c'4 | f'2~ f'8 e'8 {3 d'8[ c'8] f'8 } | e'8 e'8 f'8 g'8 e'4 c'8 r8 |
+f'8. e'16 f'8. g'16 a'8 a'8 fis'8 fis'8 | g'4 f'4 e'2
+"""
+
+[parts.Alto.lyrics.chorus]
+text = "Sow -- ing, ev -- er for the Lord be sow -- ing, while the days are go -- ing, ev -- er go -- ing; Tho’ the seed may oft -- en seem to fall in vain; Sow -- ing, ev -- er for the Lord be sow -- ing, while the days are go -- ing, ev -- er go -- ing, By and by we’ll gath -- er sheaves of gold -- en grain."
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+c'8. c'16 c'8. c'16 c'4 g4 | c'8. c'16 c'8. b16 c'4 c'4 | c'8. c'16 c'8. c'16 c'8 c'8 c'8. c'16 | c'4 g4 c'2 |
+c'8. c'16 c'8. c'16 c'4 g4 | c'8. c'16 c'8. b16 c'4 c'4 | c'8. c'16 c'8 c'8 c'8 c'8 g8 d'8 | b4 g4 g2 |
+c'4@c c'4 a4 a4 | a8 g8 b8 g8 c'4 c'4 | b4 d'4 c'4 d'8[ b8] | c'8 c'8 c'8 c'8 c'4 c'8 r8 |
+c'8. c'16 c'8. b16 a8 fis8 c'8 bes8 | a4 c'4 b2 |
+c'4 c'4 a4 a4 | a8 g8 b8 g8 c'4 c'4 | b4 d'4 c'4 d'8[ b8] | c'8 c'8 c'8 c'8 c'4 c'8 r8 |
+c'8. c'16 c'8. c'16 a8 a8 d'8 c'8 | b4 g4 g2
+"""
+
+[parts.Tenor.lyrics.chorus]
+text = "Sow -- ing, sow -- ing, for the Lord be sow -- ing, while the days are go -- ing, ev -- er go -- ing; Tho’ the seed may oft -- en seem to fall in vain; Sow -- ing, sow -- ing, for the Lord be sow -- ing, while the days are go -- ing, ev -- er go -- ing, By and by we’ll gath -- er sheaves of gold -- en grain."
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+c8. c16 c8. c16 c4 c4 | c'8. c'16 c'8. g16 c4 e4 | f8. f16 f8. f16 f8 f8 f8. f16 | c4 c4 c2 |
+c8. c16 c8. c16 c4 c4 | c'8. c'16 c'8. g16 c4 e4 | f8. f16 f8 f8 e8 e8 d8 d8 | g4 g,4 c2 |
+c'4@c g4 a4 f4 | e8 e8 d8 d8 c4 e4 | g4 b4 a4 g4 | c'8 a8 g8 e8 c4 e8 r8 |
+f8. f16 f8. f16 e8 dis8 c8 cis8 | d4 d4 g,2 |
+c'4 g4 a4 f4 | e8 e8 d8 d8 c4 e4 | g4 b4 a4 g4 | c'8 a8 g8 e8 c4 e8 r8 |
+f8. f16 f8. f16 e8 e8 d8 d8 | g4 g,4 c2
+"""
+
+[parts.Bass.lyrics.chorus]
+text = "Sow -- ing, sow -- ing, for the Lord be sow -- ing, while the days are go -- ing, ev -- er go -- ing; Tho’ the seed may oft -- en seem to fall in vain; Sow -- ing, sow -- ing, for the Lord be sow -- ing, while the days are go -- ing, ev -- er go -- ing, By and by we’ll gath -- er sheaves of gold -- en grain."
+
+[lyrics.1]
+text = "While the days are go -- ing, for the Lord be sow -- ing, Tho’ the seed may oft -- en seem to fall in vain; Aft -- er toil and weep -- ing comes the joy of reap -- ing, By and by we’ll gath -- er sheaves of gold -- en grain."
+
+[lyrics.2]
+text = "Hearts that sin has bro -- ken, yearn for mer -- cy’s tok -- en, Bear the balm of heal -- ing o’er the world- -- wide field; Morn -- ing, noon and e -- ven, sow to reap for heav -- en, Soon will come the har -- vest with its price -- less yield."
+
+[lyrics.3]
+text = "Go with com -- fort ho -- ly to the poor and low -- ly, Help the heav -- y- -- la -- den, wea -- ry, and op -- pressed; Christ -- like kind -- ness show -- ing, seed di -- vine be sow -- ing, It will sure -- ly rip -- en for the gar -- ners blest."
+
+[lyrics.4]
+text = "Sow as Christ com -- mand -- ed, go not emp -- ty- -- hand -- ed, Or be -- fore the Mas -- ter lay but worth -- less leaves; Pass thro’ death’s dim por -- tal to the life im -- mor -- tal, From the earth -- ly har -- vest bear -- ing gold -- en sheaves."
+
+[lyrics.chorus]
+text = "Sow -- ing, ev -- er sow -- ing, while the days are go -- ing; Tho’ the seed may oft -- en seem to fall in vain; Sow -- ing, ev -- er sow -- ing, while the days are go -- ing, By and by we’ll gath -- er sheaves of gold -- en grain."
