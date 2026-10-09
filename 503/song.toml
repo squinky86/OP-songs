@@ -1,0 +1,86 @@
+title = "Working for the Crown"
+copyrights = [
+  "Lyrics: Mrs. H. A. Mabry, 1889 (public domain)",
+  "Music: H. A. R. Horton, 1889 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "A"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 4
+phrase_breaks = ["3:56", "5:48", "7:48", "9:64", "11:64", "13:64"]
+non_breaking_phrase_breaks = ["15:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. e'4 | a'4 a'8. a'16 cis''4 a'8 a'8 | fis'4 a'8. a'16 e'4.! cis''8 | e''4 e''8 e''8 cis''4 a'8. a'16 |
+b'2. e'4 | a'4 a'8. a'16 cis''4 a'8 a'8 | fis'4 a'8. a'16 e'4! a'8.-( cis''16-) | e''4 cis''8 a'8 fis'4 e'8. gis'16 |
+a'2. r4 | cis''2@c a'4 fis'8. e'16 | a'2. r4 | b'2 b'4 e''8. e''16 |
+e''2( cis''4) r4 | a'2 fis'4 fis'8. fis'16 | e'2. r4 | a'4. cis''8 e''4! cis''8.! b'16 |
+a'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. cis'4 | cis'4 cis'8. cis'16 e'4 cis'8 cis'8 | d'4 fis'8. d'16 cis'4.! e'8 | a'4 a'8 a'8 e'4 cis'8. cis'16 |
+d'2. cis'4 | cis'4 cis'8. cis'16 e'4 cis'8 cis'8 | d'4 fis'8. d'16 cis'4! cis'8.-( e'16-) | a'4 e'8 cis'8 d'4 cis'8. d'16 |
+cis'2. r4 | e'8.@c e'16 e'8. e'16 cis'4 cis'8. cis'16 | {3 cis'8 cis'8 cis'8 } cis'8. cis'16 cis'4 r4 | d'8. d'16 d'8. d'16 d'4 e'8. e'16 |
+{3 a'8 a'8 a'8 } a'8. e'16 e'4 r4 | fis'8. fis'16 fis'8. fis'16 d'4 d'8. d'16 | {3 cis'8 cis'8 cis'8 } cis'8. cis'16 cis'4 r4 | e'4. e'8 a'4! a'8.! e'16 |
+e'2. s4
+"""
+
+[parts.Alto.lyrics.chorus]
+text = "Work -- ing for the crown, for the beau -- ti -- ful, gold -- en crown, Work -- ing for the crown, for the beau -- ti -- ful, gold -- en crown, Work -- ing for the crown, for the beau -- ti -- ful, gold -- en crown, We shall wear by and by."
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. a4 | e4 e8. e16 a4 a8 a8 | a4 a8. a16 a4.! a8 | cis'4 cis'8 cis'8 a4 e8. e16 |
+gis2. a4 | e4 e8. e16 a4 a8 a8 | a4 a8. a16 a4! e8.-( a16-) | cis'4 a8 a8 a4 a8. e16 |
+e2. r4 | a8.@c a16 a8. a16 e4 a8. a16 | {3 e8 e8 e8 } e8. e16 e4 r4 | gis8. gis16 gis8. gis16 gis4 cis'8. cis'16 |
+{3 cis'8 cis'8 cis'8 } a8. a16 a4 r4 | d'8. d'16 d'8. d'16 a4 a8. a16 | {3 a8 a8 a8 } a8. a16 a4 r4 | cis'4. a8 cis'4! e'8.! d'16 |
+cis'2. s4
+"""
+
+[parts.Tenor.lyrics.chorus]
+text = "Work -- ing for the crown, for the beau -- ti -- ful, gold -- en crown, Work -- ing for the crown, for the beau -- ti -- ful, gold -- en crown, Work -- ing for the crown, for the beau -- ti -- ful, gold -- en crown, We shall wear by and by."
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. a,4 | a,4 a,8. a,16 a,4 a,8 a,8 | d4 d8. fis16 a4.! a,8 | a4 a8 a8 a4 a,8. a,16 |
+e2. a,4 | a,4 a,8. a,16 a,4 a,8 a,8 | d4 d8. fis16 a4! a,8.-( a,16-) | a,4 a,8 a,8 d4 e8. e16 |
+a,2. r4 | a,8.@c a,16 a,8. a,16 a,4 a,8. a,16 | {3 a,8 a,8 a,8 } a,8. a,16 a,4 r4 | e8. e16 e8. e16 e4 <a, a>8. <a, a>16 |
+{3 a8 a8 a8 } e8. cis16 a,4 r4 | d8. d16 d8. d16 d4 d8. d16 | {3 a,8 a,8 a,8 } a,8. a,16 a,4 r4 | a4. a8 a4! e8.! e16 |
+a,2. s4
+"""
+
+[parts.Bass.lyrics.chorus]
+text = "Work -- ing for the crown, for the beau -- ti -- ful, gold -- en crown, Work -- ing for the crown, for the beau -- ti -- ful, gold -- en crown, Work -- ing for the crown, for the beau -- ti -- ful, gold -- en crown, We shall wear by and by."
+
+[lyrics.1]
+text = "Shall I be con -- tent with one star in my crown, When Hea -- ven’s bright por -- tals I see? The an -- swer comes back— strive a clus -- ter to win, And the way will be bright -- er for thee."
+
+[lyrics.2]
+text = "When, Lord, must I work? Shall I go in the heat, To white and to wide har -- vest fields? Where work is so great and the lab -- orers so few, And the prom -- ise a boun -- ti -- ful yield?"
+
+[lyrics.3]
+text = "Yes, all kinds of work will I find in this field, My task then quite plain I can see; And now, hav -- ing found it, I’ll la -- bor and wait, For _ whol -- ly Thine, Lord, would I be."
+
+[lyrics.4]
+text = "And how shall I get these rare gems for my crown? Must I wait till Hea -- ven I gain? Yes, yes, but toil here for the Mas -- ter’s re -- nown, Day by day for the Lamb that was slain."
+
+[lyrics.chorus]
+text = "Work -- ing for the crown, Work -- ing for the crown, Work -- ing for the crown, We shall wear by and by."
