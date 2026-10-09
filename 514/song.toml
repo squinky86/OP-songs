@@ -1,0 +1,90 @@
+title = "Come Unto Me"
+copyrights = [
+  "Lyrics and Music: Charles P. Jones, 1904 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "C"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 105
+verse_count = 4
+phrase_breaks = ["2:64", "4:64", "6:64", "8:64", "12:64", "16:64", "18:64", "20:64"]
+optional_phrase_breaks = ["10:64", "14:64", "22:64"]
+non_breaking_phrase_breaks = ["11:44", "11:64", "12:12", "12:48", "23:48", "23:64", "24:12"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+e'8. e'16 e'8. f'16 g'4 e'4 | c''8. c''16 b'8. a'16 g'2 | f'8. f'16 a'8. g'16 f'4 d'4 | b'8. a'16 g'8. f'16 e'2 |
+c''8. c''16 c''8. c''16 c''4 g'4 | a'8. c''16 b'8. a'16 g'2 | e''8. e''16 e''8. d''16 c''4 a'4 | g'8. c''16 b'8. d''16 c''2 |
+g'2.@c e'8. a'16 | g'2~ g'2 | b'2~ b'8. g'16 a'8. b'16 | c''1 |
+c''2~ c''8. c''16 b'8. a'16 | g'2 e'2 | d''2~ d''8. c''16 b'8. a'16 | g'2~ g'2 |
+g'2~ g'8. g'16 a'8. g'16 | e'2 g'2 | a'2~ a'8. c''16 b'8. a'16 | e''1 |
+g'2~ g'8. e''16 d''8. c''16 | c''2 a'2 | g'2~ g'8. c''16 b'8. d''16 | c''1
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+c'8. c'16 c'8. d'16 e'4 c'4 | e'8. a'16 g'8. f'16 e'2 | d'8. d'16 f'8. e'16 d'4 d'4 | f'8. f'16 e'8. d'16 c'2 |
+e'8. e'16 e'8. e'16 e'4 e'4 | f'8. a'16 g'8. f'16 e'2 | g'8. g'16 g'8. g'16 a'4 f'4 | e'8. e'16 d'8. f'16 e'2 |
+e'2.@c c'8. f'16 | e'2~ e'2 | f'2~ f'8. f'16 f'8. f'16 | e'8. e'16 f'8. f'16 e'2 |
+a'2~ a'8. a'16 g'8. f'16 | e'2 c'2 | fis'2~ fis'8. a'16 g'8. fis'16 | d'8. d'16 e'8. e'16 f'2 |
+e'2~ e'8. e'16 f'8. e'16 | c'2 e'2 | f'2~ f'8. a'16 g'8. f'16 | g'1 |
+e'2~ e'8. g'16 g'8. g'16 | a'2 f'2 | e'2~ e'8. e'16 d'8. f'16 | e'8. e'16 f'8. f'16 e'2
+"""
+
+[parts.Alto.lyrics.chorus]
+text = "Come un -- to Me, I will give you I will give you rest; Take My yoke up -- on you, hear Me and be, hear Me and be blessed. I am meek and low -- ly, Come and trust My might. Come, My yoke is ea -- sy, and My bur -- den’s come, My bur -- den’s light."
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+g8. g16 g8. g16 c'4 g4 | g8. c'16 c'8. c'16 c'2 | b8. b16 b8. b16 b4 b4 | b8. b16 b8. g16 g2 |
+g8. g16 g8. g16 g4 c'4 | c'8. c'16 c'8. c'16 c'2 | c'8. c'16 c'8. c'16 c'4 c'4 | c'8. g16 g8. g16 g2 |
+c'4@c c'8. c'16 c'4 r4 | c'4 c'8. c'16 c'2 | d'8. d'16 d'8. d'16 d'8 r8 r4 | g8. g16 a8. a16 g2 |
+c'8. c'16 c'8. c'16 c'8. c'16 r4 | c'8. c'16 c'8. c'16 g4 g4 | a8. a16 a8. a16 a4 r4 | b8. b16 c'8. c'16 d'2 |
+c'8. c'16 c'8. c'16 c'4 c'4 | g8. g16 g8. g16 c'4 c'4 | c'8. c'16 c'8. c'16 c'4 r4 | c'8. c'16 c'8. c'16 c'2 |
+c'4 c'4 c'4 r4 | c'8. c'16 c'8. c'16 c'4 c'4 | c'4 c'4 c'4 r4 | g8. g16 a8. a16 g2
+"""
+
+[parts.Tenor.lyrics.chorus]
+text = "Come un -- to Me, Come un -- to Me, I will give you rest, I will give you rest; Take My yoke up -- on you, Take My yoke up -- on you, Hear Me and be blessed, Hear Me and be blessed, I am meek and low -- ly; I am meek and low -- ly, Come and trust My might, Come and trust My might; Come, O come, Come, My yoke is ea -- sy, Come, O come, come, My bur -- den’s light."
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+c8. c16 c8. c16 c4 c4 | c8. c16 c8. c16 c2 | g8. g16 g8. g16 g4 g4 | g,8. g,16 a,8. b,16 c2 |
+c8. c16 c8. c16 c4 c4 | f8. f16 f8. f16 c2 | c8. c16 c8. e16 f4 f4 | g8. g16 g,8. g,16 c2 |
+c4@c c8. c16 c4 r4 | c4 c8. c16 c2 | g8. g16 g8. g16 g8 r8 r4 | c8. c16 c8. c16 c2 |
+f8. f16 f8. f16 f8. f16 r4 | c8. c16 c8. c16 c4 c4 | d8. d16 d8. d16 d4 r4 | g8. g16 g8. g16 g2 |
+c8. c16 c8. c16 c4 c4 | c8. c16 c8. c16 c4 c4 | f8. f16 f8. f16 f4 r4 | c8. c16 c8. c16 c2 |
+c4 c4 c4 r4 | f8. f16 f8. f16 f4 f4 | g4 g4 g4 r4 | c8. c16 c8. c16 c2
+"""
+
+[parts.Bass.lyrics.chorus]
+text = "Come un -- to Me, Come un -- to Me, I will give you rest, I will give you rest; Take My yoke up -- on you, Take My yoke up -- on you, Hear Me and be blessed, Hear Me and be blessed, I am meek and low -- ly; I am meek and low -- ly, Come and trust My might, Come and trust My might; Come, O come, Come, My yoke is ea -- sy, Come, O come, come, My bur -- den’s light."
+
+[lyrics.1]
+text = "Hear the bless -- èd Sav -- ior call -- ing the op -- pressed, “O ye hea -- vy la -- den, come to Me and rest. Come, no long -- er tar -- ry, I your load will bear, Bring Me ev -- ’ry bur -- den, bring Me ev -- ’ry care.”"
+
+[lyrics.2]
+text = "Are you dis -- ap -- point -- ed, wand -- ’ring here and there, Drag -- ging chains of doubt and load -- ed down with care? Do un -- ho -- ly feel -- ings strug -- gle in your breast? Bring your case to Je -- sus— He will give you rest."
+
+[lyrics.3]
+text = "Stum -- bling on the mount -- ains dark with sin and shame, Stum -- bling toward the pit of hell’s con -- sum -- ing flame. By the pow’rs of sin de -- lud -- ed and op -- pressed, Hear the ten -- der Shep -- herd, “Come to Me and rest.”"
+
+[lyrics.4]
+text = "Have you by temp -- ta -- tion of -- ten con -- quered been, Has a sense of weak -- ness brought dis -- tress with -- in? Christ will sanc -- ti -- fy you, if you’ll claim His best. In the Ho -- ly Spir -- it, He will give you rest."
+
+[lyrics.chorus]
+text = "Come un -- to Me, I will give you rest; Take My yoke up -- on you, hear Me and be blessed. I am meek and low -- ly, Come and trust My might. Come, My yoke is ea -- sy, and My bur -- den’s light."
