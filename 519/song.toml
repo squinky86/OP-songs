@@ -1,0 +1,84 @@
+title = "Your Cross Is Not Greater"
+copyrights = [
+  "Lyrics and Music: Ballington Booth, 1892 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Eb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 107
+verse_count = 4
+phrase_breaks = ["3:48", "5:56", "7:48", "9:56", "13:48"]
+optional_phrase_breaks = ["11:56", "15:48"]
+
+[lyrics.1]
+text = "Your cross that He gave may be heav -- y, But it ne’er out -- weighs His grace; The storm that you feared may sur -- round you, But it ne -- ver ex -- cludes His face."
+
+[lyrics.2]
+text = "The thorns on your path are not sharp -- er Than com -- posed His crown for you; The cup that you drink not more bit -- ter Than He drank in Geth -- sem -- a -- ne."
+
+[lyrics.3]
+text = "The light of His love shin -- eth bright -- er, As it falls on paths of woe; The toil of your work grow -- eth light -- er, As you stoop _ to raise the low."
+
+[lyrics.4]
+text = "His will you have joy in ful -- fill -- ing, As you're walk -- ing in His sight; Your all to the blood you are bring -- ing, It a -- lone _ can keep you right."
+
+[lyrics.chorus]
+text = "Your cross is not great -- er than His grace, The storm can -- not hide His bless -- ed face; You are sat -- is -- fied to know That with Je -- sus here be -- low, you can con -- quer ev -- ’ry foe."
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. bes'4 |
+bes'4 a'8 bes'8 c''4 g'8 bes'8 | aes'8 f'4.~ f'4 f'8 g'8 | aes'4. bes'8 d''4. c''8 | bes'2( g'4.) bes'8 |
+ees''4 d''8 ees''8 f''4 ees''8 bes'8 | d''8 c''4.~ c''4 aes'8 c''8 | bes'4-( bes'8-) f'8 aes'4. f'8 | ees'2. r8 bes'8@c |
+bes'4 a'8 bes'8 c''8 bes'8 a'8 bes'8 | g'2. r8 bes'8 |
+bes'4 a'8 bes'8 c''8 bes'8 a'8 bes'8 | g'2. bes'8 ees''8 |
+ees''8 d''8 d''8 f'8 aes'4 aes'8 c''8 | c''8 bes'8 bes'8 ees'8 g'4 g'8 g'8 |
+g'4 f'4 ees'4 d'4 | ees'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. g'4 |
+g'4 fis'8 g'8 aes'4 ees'8 g'8 | f'8 d'4.~ d'4 d'8 ees'8 | f'4. g'8 aes'4. aes'8 | g'2( ees'4.) g'8 |
+g'4 f'8 g'8 aes'4 g'8 g'8 | bes'8 aes'4.~ aes'4 ees'8 ees'8 | ees'4-( ees'8-) d'8 d'4. d'8 | bes2. r8 g'8@c |
+g'4 fis'8 g'8 aes'8 g'8 fis'8 g'8 | ees'2. r8 g'8 |
+g'4 fis'8 g'8 aes'8 g'8 fis'8 g'8 | ees'2. g'8 g'8 |
+aes'8 aes'8 aes'8 d'8 f'4 f'8 aes'8 | aes'8 g'8 g'8 bes8 ees'4 des'8 des'8 |
+c'4 c'4 bes4 bes4 | bes2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. bes4 |
+ees'4 ees'8 ees'8 ees'4 bes8 bes8 | bes8 bes4.~ bes4 bes8 bes8 | bes4. bes8 bes4. d'8 | ees'2( bes4.) bes8 |
+bes4 bes8 bes8 c'4 bes8 ees'8 | ees'8 ees'4.~ ees'4 c'8 aes8 | g4-( g8-) aes8 f4. aes8 | g2. r8 ees'8@c |
+ees'4 ees'8 ees'8 ees'8 ees'8 ees'8 ees'8 | bes2. r8 ees'8 |
+ees'4 ees'8 ees'8 ees'8 ees'8 ees'8 ees'8 | bes2. bes8 bes8 |
+bes8 bes8 bes8 bes8 d'4 d'8 d'8 | ees'8 ees'8 ees'8 g8 bes4 bes8 bes8 |
+aes4 aes4 g4 f4 | g2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. ees4 |
+ees4 ees8 ees8 ees4 ees8 ees8 | bes,8 bes,4.~ bes,4 bes,8 bes,8 | bes,4. bes,8 bes,4. bes,8 | ees2.. ees8 |
+ees4 ees8 ees8 ees4 ees8 ees8 | aes,8 aes,4.~ aes,4 aes,8 aes,8 | bes,4-( bes,8-) bes,8 bes,4. bes,8 | ees2. r8 ees8@c |
+ees4 ees8 ees8 ees8 ees8 ees8 ees8 | ees2. r8 ees8 |
+ees4 ees8 ees8 ees8 ees8 ees8 ees8 | ees2. ees8 g8 |
+bes8 bes8 bes8 bes8 bes4 bes,8 bes,8 | ees8 ees8 ees8 ees8 ees4 ees8 ees8 |
+aes,4 aes,4 bes,4 bes,4 | ees2. s4
+"""
