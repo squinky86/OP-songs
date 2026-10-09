@@ -1,0 +1,116 @@
+title = "Some Day"
+copyrights = [
+  "Lyrics and Music: James Welch Ferrill, 1918 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Bb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 3
+phrase_breaks = ["5:48", "9:48", "13:48"]
+non_breaking_phrase_breaks = ["3:48", "3:64", "4:64", "5:16", "7:48", "8:64", "10:48", "11:48", "12:64", "14:48", "15:48", "16:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. f'4 | bes'4 d''4 bes'4 g'4 | f'4 g'4 bes'4 bes'4 | d''2~ d''4 bes'4 | c''2~ c''4 f'4 |
+bes'4 d''4 bes'4 g'4 | f'4 g'4 bes'4 bes'4 | d''2~ d''4 c''4 | bes'2~ bes'4 d''4@c |
+f''2~ f''4 bes'4 | c''4 bes'4 bes'4 bes'4 | d''2~ d''4 bes'4 | c''2~ c''4 d''4 |
+f''2~ f''4 bes'4 | c''4 bes'4 bes'4 bes'4 | d''2~ d''4 c''4 | bes'2~ bes'4 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. d'4 | d'4 f'4 d'4 ees'4 | d'4 cis'4 d'4 d'4 | f'2( g'4) f'4 | e'4 e'4 f'4 ees'4 |
+d'4 f'4 d'4 ees'4 | d'4 cis'4 d'4 d'4 | f'2~ f'4 ees'4 | d'4 cis'4 d'4 r4@c |
+r4 bes'4 bes'4 aes'4 | g'4 g'4 f'4 d'4 | f'2( g'4) f'4 | e'4 e'4 f'4 r4 |
+r4 bes'4 bes'4 aes'4 | g'4 g'4 f'4 d'4 | f'2~ f'4 ees'4 | d'4 cis'4 d'4 s4
+"""
+
+[parts.Alto.lyrics.1]
+text = "O let us look be -- yond this life and heav -- en fair we’ll see, Where we shall be as one in Christ, @s1"
+
+[parts.Alto.lyrics.2]
+text = "O let us look from care a -- way, and cheer -- ful, cheer -- ful be, We’ll taste the joys that shall be ours, @s1"
+
+[parts.Alto.lyrics.3]
+text = "O let us look to Christ our Lord, the on -- ly, on -- ly way, To realms of peace where we shall go, @s1"
+
+[parts.Alto.lyrics.s1]
+text = "Some day, some hap -- py day."
+
+[parts.Alto.lyrics.chorus]
+text = "We’ll go where Je -- sus is some day, some hap -- py day; With all the saints to dwell some day, some hap -- py day."
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. bes4 | f4 bes4 f4 bes4 | bes4 bes4 f4 r4 | r4 bes4 bes4 bes4 | bes4 g4 a4 a4 |
+bes4 bes4 f4 bes4 | bes4 bes4 f4 r4 | r4 bes4 bes4 a4 | bes4 g4 f4 r4@c |
+r4 d'4 d'4 f'4 | ees'4 ees'4 d'4 r4 | r4 bes4 bes4 bes4 | bes4 g4 a4 r4 |
+r4 d'4 d'4 f'4 | ees'4 ees'4 d'4 r4 | r4 bes4 bes4 a4 | bes4 g4 f4 s4
+"""
+
+[parts.Tenor.lyrics.1]
+text = "O let us look be -- yond this life and heav -- en fair we’ll see, Where we shall be as one in Christ, @s1"
+
+[parts.Tenor.lyrics.2]
+text = "O let us look from care a -- way, and cheer -- ful, cheer -- ful be, We’ll taste the joys that shall be ours, @s1"
+
+[parts.Tenor.lyrics.3]
+text = "O let us look to Christ our Lord, the on -- ly, on -- ly way, To realms of peace where we shall go, @s1"
+
+[parts.Tenor.lyrics.s1]
+text = "Some day, some hap -- py day."
+
+[parts.Tenor.lyrics.chorus]
+text = "We’ll go where Je -- sus is some day, some hap -- py day; With all the saints to dwell some day, some hap -- py day."
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. bes,4 | bes,4 bes,4 bes,4 bes,4 | bes,4 bes,4 bes,4 r4 | r4 bes4 g4 d4 | c4 c4 f4 f4 |
+bes,4 bes,4 bes,4 bes,4 | bes,4 bes,4 bes,4 r4 | r4 bes4 g8[ d8] f4 | bes,4 bes,4 bes,4 r4@c |
+r4 bes4 bes4 d4 | ees4 g4 bes4 r4 | r4 bes4 g4 d4 | c4 c4 f4 r4 |
+r4 bes4 bes4 d4 | ees4 g4 bes4 r4 | r4 bes4 g8[ d8] f4 | bes,4 bes,4 bes,4 s4
+"""
+
+[parts.Bass.lyrics.1]
+text = "O let us look be -- yond this life and heav -- en fair we’ll see, Where we shall be as one in Christ, @s1"
+
+[parts.Bass.lyrics.2]
+text = "O let us look from care a -- way, and cheer -- ful, cheer -- ful be, We’ll taste the joys that shall be ours, @s1"
+
+[parts.Bass.lyrics.3]
+text = "O let us look to Christ our Lord, the on -- ly, on -- ly way, To realms of peace where we shall go, @s1"
+
+[parts.Bass.lyrics.s1]
+text = "Some day, some hap -- py day."
+
+[parts.Bass.lyrics.chorus]
+text = "We’ll go where Je -- sus is some day, some hap -- py day; With all the saints to dwell some day, some hap -- py day."
+
+[lyrics.1]
+text = "O let us look be -- yond this life and heav -- en see, Where we shall be as one in Christ, @s1"
+
+[lyrics.2]
+text = "O let us look from care a -- way, and cheer -- ful, be, We’ll taste the joys that shall be ours, @s1"
+
+[lyrics.3]
+text = "O let us look to Christ our Lord, the on -- ly, way, To realms of peace where we shall go, @s1"
+
+[lyrics.s1]
+text = "Some day, some day."
+
+[lyrics.chorus]
+text = "We’ll go where Je -- sus is some day, some day; With all the saints to dwell some day, some day."
