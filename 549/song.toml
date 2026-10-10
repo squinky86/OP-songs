@@ -1,0 +1,96 @@
+title = "The Message of the King"
+copyrights = [
+  "Lyrics and Music: N. W. Allphin, 1921 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 4
+phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "13:48", "15:48"]
+optional_phrase_breaks = ["2:48", "6:48", "11:48", "14:48"]
+non_breaking_phrase_breaks = ["4:16", "4:48", "8:16", "8:48", "9:64", "10:48", "10:64", "11:16", "11:64", "12:40", "16:16", "16:48"]
+optional_break_threshold_ticks = 168
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. ees'8 f'8 | aes'4 aes'4 f'8 ees'8 aes'8 bes'8 | c''4 c''4 bes'8 aes'8 c''8 c''8 |
+ees''8 ees''4.~ ees''4 c''4 | bes'2. c''8 des''8 | ees''4 c''4 bes'8 aes'8 aes'8 aes'8 |
+aes'4 aes'4 f'8 ees'8 aes'8 aes'8 | c''8 c''4.~ c''4 aes'8 bes'8 | aes'2. ees''8@c ees''8 |
+ees''2~ ees''8 c''8 bes'8 aes'8 | c''8 c''2~ c''8 aes'8 bes'8 | c''2~ c''8 ees''8 ees''8 c''8 |
+bes'2. c''8 des''8 | ees''4 c''4 bes'8 aes'8 aes'8 aes'8 | aes'4 aes'4 f'8 ees'8 aes'8 aes'8 |
+c''8 c''4.~ c''4 aes'8 bes'8 | aes'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+suppress_verses = [2, 3, 4]
+suppress_verses_when = ["soprano"]
+notes = """
+s2. c'8 des'8 | ees'4 ees'4 des'8 c'8 ees'8 ees'8 | ees'4 ees'4 des'8 c'8 r4 |
+r4 g'8 g'8 aes'8 aes'8 aes'4 | g'2. ees'8 ees'8 | aes'4 ees'4 des'8 c'8 ees'8 e'8 |
+f'4 f'8( des'8) des'8 c'8 r4 | r4 f'8 aes'8 aes'8 ees'8 ees'8 ees'8 | ees'2. aes'8@c aes'8 |
+aes'4 g'4 aes'8 ees'8 des'8 c'8 | ees'8 ees'8 f'8 f'8 ees'8 ees'8 ees'8 ees'8 | ees'4 f'4 ees'8 aes'8 aes'8 aes'8 |
+g'2. ees'8 ees'8 | aes'4 ees'4 des'8 c'8 ees'8 e'8 | f'4 f'8( des'8) des'8 c'8 r4 |
+r4 f'8 aes'8 aes'8 ees'8 ees'8 ees'8 | ees'2. s4
+"""
+
+[parts.Alto.lyrics.chorus]
+text = "Hear the bless -- ed sto -- ry that the an -- gels, ho -- ly an -- gels, And the hap -- py saints in glo -- ry sing! On your ear ’tis fall -- ing, You from sin’s way call -- ing,— Hear the mes -- sage of the King!"
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3, 4]
+suppress_verses_when = ["soprano", "alto"]
+notes = """
+s2. aes8 aes8 | c'4 c'4 aes8 aes8 aes8 g8 | aes4 aes4 aes8 aes8 r4 |
+r4 bes8 bes8 c'8 c'8 ees'4 | ees'2. aes8 bes8 | c'4 aes4 g8 aes8 aes8 aes8 |
+aes4 aes4 aes8 aes8 r4 | r4 aes8 aes8 aes8 aes8 c'8 des'8 | c'2. c'8@c c'8 |
+c'4 bes4 c'8 aes8 aes8 aes8 | aes8 aes8 aes8 aes8 aes8 aes8 aes8 g8 | aes4 aes4 aes8 c'8 c'8 ees'8 |
+ees'2. aes8 bes8 | c'4 aes4 g8 aes8 aes8 aes8 | aes4 aes4 aes8 aes8 r4 |
+r4 aes8 aes8 aes8 aes8 c'8 des'8 | c'2. s4
+"""
+
+[parts.Tenor.lyrics.chorus]
+text = "Hear the bless -- ed sto -- ry that the an -- gels, ho -- ly an -- gels, And the hap -- py saints in glo -- ry sing! On your ear ’tis fall -- ing, You from sin’s way call -- ing,— Hear the mes -- sage of the King!"
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3, 4]
+suppress_verses_when = ["soprano", "alto", "tenor"]
+notes = """
+s2. aes,8 aes,8 | aes,4 aes,4 aes,8 aes,8 c8 ees8 | aes4 aes4 aes8 aes8 r4 |
+r4 ees8 ees8 aes8 aes8 aes4 | ees2. aes8 aes8 | aes4 aes4 ees8 f8 c8 c8 |
+des4 f4 aes8 aes8 r4 | r4 f8 f8 aes8 aes8 ees8 ees8 | aes,2. aes8@c aes8 |
+aes4 ees4 aes8 aes8 aes8 aes8 | aes8 aes8 f8 f8 aes8 aes8 c8 ees8 | aes4 f4 aes8 aes8 aes8 aes8 |
+ees2. aes8 aes8 | aes4 aes4 ees8 f8 c8 c8 | des4 f4 aes8 aes8 r4 |
+r4 f8 f8 aes8 aes8 ees8 ees8 | aes,2. s4
+"""
+
+[parts.Bass.lyrics.chorus]
+text = "Hear the bless -- ed sto -- ry that the an -- gels, ho -- ly an -- gels, And the hap -- py saints in glo -- ry sing! On your ear ’tis fall -- ing, You from sin’s way call -- ing,— Hear the mes -- sage of the King!"
+
+[lyrics.1]
+text = "Of the great sal -- va -- tion, Free to ev -- ’ry na -- tion, Now in tri -- umph we sing; Sin -- ner, haste to hear it, Come and prove its mer -- it,— ’Tis the mes -- sage of the King!"
+
+[lyrics.2]
+text = "’Tis His grace pre -- vail -- ing, Thro’ a love un -- fail -- ing, That can con -- quer death’s sting; Would you have this bless -- ing? Come, your sins con -- fess -- ing,— Hear the mes -- sage of the King!"
+
+[lyrics.3]
+text = "’Twill your cares make light -- er, And your path -- way bright -- er, If un -- to it you’ll cling; Seek this price -- less treas -- ure,— Joy be -- yond all meas -- ure,— Hear the mes -- sage of the King!"
+
+[lyrics.4]
+text = "’Tis the same old sto -- ry, Full of death -- less glo -- ry, That un -- to you we bring; Come with -- out de -- lay -- ing, Its com -- mands o -- bey -- ing,— Heed the mes -- sage of the King!"
+
+[lyrics.chorus]
+text = "Hear the sto -- ry that the an -- gels, And the saints in glo -- ry sing! On your ear ’tis fall -- ing, You from sin’s way call -- ing,— Hear the mes -- sage of the King!"
