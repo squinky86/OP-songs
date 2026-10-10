@@ -1,0 +1,73 @@
+title = "The Lord Will Provide"
+copyrights = [
+  "Lyrics: Martha A. Walker Cook, 1870 (public domain)",
+  "Music: Philip Phillips, 1875 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 138
+verse_count = 4
+phrase_breaks = ["5:32", "9:32", "13:32", "17:32"]
+optional_phrase_breaks = ["3:32", "7:32", "11:32", "15:32", "19:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 c'4 | f'4 f'4 g'4 | a'4 a'4 g'4 | a'4 a'4 bes'4 | c''2 c''4 | d''4 d''4 d''4 |
+d''4 c''4 a'4 | c''4 c''4 c''4 | c''4 bes'4 g'4 | a'4 bes'4 c''4 | d''4 c''4 f'8[ g'8] |
+a'4 a'4 g'4 | f'2 f'8@c a'8 | c''4 c''4 c''4 | c''2 a'4 | bes'4 bes'4 bes'4 | g'2 g'8 g'8 |
+a'4 g'4 f'4 | c''2! f'8[ g'8] | a'4 a'8[ g'8] f'8[ e'8] | f'2 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 c'4 | c'4 c'4 e'4 | f'4 f'4 e'4 | f'4 f'4 g'4 | a'2 f'4 | f'4 f'4 f'4 |
+f'4 f'4 f'4 | g'4 g'4 f'4 | e'4 g'4 e'4 | ees'4 d'4 f'4 | f'4 f'4 f'4 |
+f'4 f'4 e'4 | f'2 f'8@c f'8 | e'4 e'4 e'4 | f'2 f'4 | f'4 f'4 f'4 | e'2 e'8 e'8 |
+f'4 f'4 f'4 | e'2! f'4 | f'4 c'4 c'4 | c'2 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 a4 | a4 a4 c'4 | c'4 c'4 c'4 | c'4 c'4 c'4 | f'2 a4 | bes4 bes4 bes4 |
+bes4 a4 c'4 | c'4 bes4 a4 | g4 c'4 c'4 | c'4 bes4 a4 | bes4 a4 c'8[ d'8] |
+c'4 c'4 bes4 | a2 a8@c a8 | g4 g4 g4 | a2 c'4 | d'4 d'4 d'4 | c'2 c'8 c'8 |
+c'4 bes4 a4 | g2! c'8[ d'8] | c'4 c'8[ bes8] a8[ g8] | a2 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 f4 | f4 f4 c4 | f4 f4 c4 | f4 f4 f4 | f2 f4 | bes,4 bes,4 bes,4 |
+bes,4 f4 f4 | e4 e4 f4 | c4 c4 c4 | f4 f4 f4 | f4 f4 a,8[ bes,8] |
+c4 c4 c4 | f2 f8@c f8 | c4 c4 c4 | f2 f4 | bes,4 bes,4 bes,4 | c2 c8 c8 |
+f4 f4 f4 | c2! a,8[ bes,8] | c4 c4 c4 | f2 s4
+"""
+
+[lyrics.1]
+text = "In some way or oth -- er the Lord will pro -- vide; It may not be my way, It may not be thy way; And yet, in His own way, “The Lord will pro -- vide.”"
+
+[lyrics.2]
+text = "At some time or oth -- er the Lord will pro -- vide; It may not be my time, It may not be thy time; And yet, in His own time, “The Lord will pro -- vide.”"
+
+[lyrics.3]
+text = "De -- spond then no long -- er; the Lord will pro -- vide; And this be the tok -- en— No word He hath spok -- en Was ev -- er yet brok -- en: “The Lord will pro -- vide.”"
+
+[lyrics.4]
+text = "March on then right bold -- ly; the sea shall di -- vide, The path -- way made glor -- ious, With shout -- ings vic -- tor -- ious We’ll join in the chor -- us, “The Lord will pro -- vide.”"
+
+[lyrics.chorus]
+text = "Then, we’ll trust in the Lord, And He will pro -- vide; Yes, we’ll trust in the Lord, And He will pro -- vide."
