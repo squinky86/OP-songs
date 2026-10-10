@@ -1,0 +1,100 @@
+title = "Whosoever Meaneth Me"
+copyrights = [
+  "Lyrics and Music: J. Edwin McConnell, 1910 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Bb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 103
+verse_count = 3
+phrase_breaks = ["3:56", "5:48", "9:64", "13:64"]
+optional_phrase_breaks = ["7:56", "11:64", "15:64"]
+non_breaking_phrase_breaks = ["9:16", "16:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. d'8 ees'8 | f'4 bes'8 c''8 d''4 ees''8 d''8 | c''4 g'4 c''4. bes'8 | a'4 a'8 g'8 f'4 ees''4 |
+d''2. d'8 ees'8 | f'4 bes'4 d''4 ees''8 d''8 | c''4 g'4 c''4. bes'8 | a'4 ees''4 d''4 c''4 |
+bes'2. r4 | d'4@c f'4 bes'4 d''4 | c''8. d''16 c''8. bes'16 g'2 | a'8. bes'16 a'8. g'16 f'4 ees''4 |
+d''8. ees''16 d''8. c''16 bes'2 | d'4 f'4 bes'4 d''4 | c''8. d''16 c''8. bes'16 g'2 |
+f''8. f''16 f''8. ees''16 d''4 c''4 | bes'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+splice_lyrics_into = "soprano"
+notes = """
+s2. bes8 c'8 | d'4 d'8 ees'8 f'4 g'8 f'8 | e'4 e'4 e'4. e'8 | ees'4 ees'8 ees'8 ees'4 g'4 |
+f'2. bes8 c'8 | d'4 d'4 f'4 g'8 f'8 | e'4 e'4 e'4. e'8 | ees'4 g'4 f'4 ees'4 |
+d'4 ees'4 d'4 r4 | bes4@c d'4 d'4 f'4 | e'8. e'16 e'8. e'16 e'2 | ees'8. ees'16 ees'8. ees'16 ees'4 g'4 |
+f'8. g'16 f'8. ees'16 d'2 | bes4 d'4 d'4 f'4 | ees'8. ees'16 ees'8. ees'16 ees'2 |
+a'8. a'16 a'8. g'16 f'4 ees'4 | d'4 ees'4 d'4 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+splice_lyrics_into = "soprano"
+notes = """
+s2. f8 f8 | bes4 bes8 bes8 bes4 bes8 bes8 | bes4 bes4 g4. c'8 | c'4 c'8 bes8 a4 a4 |
+bes2. f8 f8 | bes4 f4 bes4 bes8 bes8 | bes4 bes4 g4. c'8 | c'4 bes4 a4 a4 |
+bes4 g4 f4 r4 | f4@c bes4 bes4 b4 | c'8. g16 g8. g16 bes2 | c'8. c'16 c'8. bes16 a4 a4 |
+bes8. bes16 bes8. bes16 bes2 | f4 bes4 bes4 aes4 | g8. g16 g8. g16 c'2 |
+c'8. c'16 c'8. bes16 a4 a4 | bes4 g4 f4 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. bes,8 bes,8 | bes,4 bes,8 bes,8 bes,4 bes,8 bes,8 | c4 c4 c4. c8 | f4 f8 f8 f4 f4 |
+bes,2. bes,8 bes,8 | bes,4 bes,4 bes,4 bes,8 bes,8 | c4 c4 c4. c8 | f4 f4 f4 f4 |
+bes,2. r4 | bes,4@c bes,4 bes4 g4 | c8. c16 c8. c16 c2 | f8. f16 f8. f16 f4 f4 |
+bes,8. bes,16 bes,8. bes,16 bes,2 | bes,4 bes,4 bes,4 bes,4 | ees8. ees16 ees8. ees16 ees2 |
+f8. f16 f8. f16 f4 f4 | bes,2. s4
+"""
+
+[lyrics.1]
+text = "I am hap -- py to -- day, and the sun shines bright, The clouds have been rolled a -- way; For the Sav -- ior said, who -- so -- ev -- er will May come with Him to stay,"
+
+[parts.Alto.lyrics.1]
+text = "I am hap -- py to -- day, and the sun shines bright, The clouds have been rolled a -- way; For the Sav -- ior said, who -- so -- ev -- er will May come with Him to stay, (to stay)."
+
+[parts.Tenor.lyrics.1]
+text = "I am hap -- py to -- day, and the sun shines bright, The clouds have been rolled a -- way; For the Sav -- ior said, who -- so -- ev -- er will May come with Him to stay, (to stay)."
+
+[lyrics.2]
+text = "All my hopes have been raised, O His name be praised, His glo -- ry has filled my soul; I’ve been lift -- ed up, and from sin set free, His blood has made me whole,"
+
+[parts.Alto.lyrics.2]
+text = "All my hopes have been raised, O His name be praised, His glo -- ry has filled my soul; I’ve been lift -- ed up, and from sin set free, His blood has made me whole, (me whole)."
+
+[parts.Tenor.lyrics.2]
+text = "All my hopes have been raised, O His name be praised, His glo -- ry has filled my soul; I’ve been lift -- ed up, and from sin set free, His blood has made me whole, (me whole)."
+
+[lyrics.3]
+text = "O what won -- der -- ful love, O what grace di -- vine, That Je -- sus should die for me; I was lost in sin, for the world I pined, But now I am set free,"
+
+[parts.Alto.lyrics.3]
+text = "O what won -- der -- ful love, O what grace di -- vine, That Je -- sus should die for me; I was lost in sin, for the world I pined, But now I am set free, (set free)."
+
+[parts.Alto.lyrics.chorus]
+text = "“Who -- so -- ev -- er” sure -- ly mean -- eth me, Sure -- ly mean -- eth me, O sure -- ly mean -- eth me; “Who -- so -- ev -- er” sure -- ly mean -- eth me, “Who -- so -- ev -- er” mean -- eth mean -- eth me."
+
+[parts.Tenor.lyrics.3]
+text = "O what won -- der -- ful love, O what grace di -- vine, That Je -- sus should die for me; I was lost in sin, for the world I pined, But now I am set free, (set free)."
+
+[parts.Tenor.lyrics.chorus]
+text = "“Who -- so -- ev -- er” sure -- ly mean -- eth me, Sure -- ly mean -- eth me, O sure -- ly mean -- eth me; “Who -- so -- ev -- er” sure -- ly mean -- eth me, “Who -- so -- ev -- er” mean -- eth mean -- eth me."
+
+[lyrics.chorus]
+text = "“Who -- so -- ev -- er” sure -- ly mean -- eth me, Sure -- ly mean -- eth me, O sure -- ly mean -- eth me; “Who -- so -- ev -- er” sure -- ly mean -- eth me, “Who -- so -- ev -- er” mean -- eth me."
