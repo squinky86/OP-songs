@@ -1,0 +1,68 @@
+title = "Rejoice and Be Glad"
+copyrights = [
+  "Lyrics: Horatius Bonar, 1874 (public domain)",
+  "Music: John J. Husband, 1815 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 4
+phrase_breaks = ["5:32", "9:32", "13:32"]
+optional_phrase_breaks = ["3:32", "7:32", "11:32", "15:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 d'4 | g'4 g'4 g'4 | g'2 g'8 a'8 | b'4 b'4 b'4 | b'2 g'8[ b'8] | d''4 d''4 d''4 | e''4 d''4 b'4 | b'4 a'4 a'4 |
+a'2 d''8.@c d''16 | e''4 d''4 b'8. a'16 | g'4 g'4 d''4 | e''4 d''4 b'4 | a'2 d''8. d''16 | e''4 d''4 b'8. a'16 |
+g'4 g'4 b'4 | c''4 b'4 a'4 | g'2! s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 d'4 | d'4 d'4 d'4 | d'2 d'8 d'8 | d'4 d'4 d'4 | d'2 d'4 | g'4 g'4 g'4 | g'4 g'4 d'4 | g'4 fis'4 fis'4 |
+fis'2 g'8.@c g'16 | g'4 g'4 g'8. d'16 | d'4 d'4 g'4 | g'4 g'4 g'4 | fis'2 g'8. g'16 | g'4 g'4 g'8. d'16 |
+d'4 d'4 d'4 | e'4 d'4 d'4 | g'2! s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 b4 | b4 b4 b4 | b2 d'8 c'8 | b4 g4 g4 | g2 b4 | b4 b4 b4 | c'4 b4 g4 | d'4 d'4 d'4 |
+d'2 b8.@c b16 | c'4 b4 d'8. c'16 | b4 b4 b4 | c'4 b4 d'4 | d'2 b8. b16 | c'4 b4 d'8. c'16 |
+b4 b4 g4 | g4 g4 c'4 | b2! s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 g4 | g4 d4 b,4 | g,2 b8 a8 | g4 d4 b,4 | g,2 g4 | g4 g4 g4 | g4 g4 g4 | d4 d4 d4 |
+d2 g,8.@c g,16 | c4 g4 g8. g16 | g4 g4 g4 | c4 g4 g4 | d2 g,8. g,16 | c4 g4 g8. g16 |
+g4 g4 g4 | c4 d4 d4 | g,2! s4
+"""
+
+[lyrics.1]
+text = "Re -- joice and be glad! The Re -- deem -- er has come! Go look on His cra -- dle, His cross and His tomb."
+
+[lyrics.2]
+text = "Re -- joice and be glad! It is sun -- shine at last! The clouds have de -- part -- ed, the shad -- ows are past."
+
+[lyrics.3]
+text = "Re -- joice and be glad! For the blood hath been shed; Re -- demp -- tion is fin -- ished, the price hath been paid."
+
+[lyrics.4]
+text = "Re -- joice and be glad! For the Lamb that was slain O'er death is tri -- umph -- ant, and liv -- eth a -- gain."
+
+[lyrics.chorus]
+text = "Sound His prais -- es, tell the sto -- ry Of Him who was slain; Sound His prais -- es, tell with glad -- ness, He liv -- eth a -- gain."
