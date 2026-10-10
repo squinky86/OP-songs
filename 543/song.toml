@@ -1,0 +1,69 @@
+title = "Asleep in Jesus"
+subtitle = "Rest"
+copyrights = [
+  "Lyrics: Margaret Mackay, 1832 (public domain)",
+  "Music: William B. Bradbury, 1843 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "D"
+time_sig_numerator = 3
+time_sig_denominator = 2
+tempo_bpm = 95
+verse_count = 6
+phrase_breaks = ["5:48"]
+optional_phrase_breaks = ["3:48", "7:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. a'4 a'4 a'4 | d''2 a'2 a'4 fis'4 | e'2. g'4 g'4 g'4 | e''2 cis''2 b'4 cis''4 |
+d''2. a'4 a'4 a'4 | a'2 fis'2 g'4 a'4 | b'2. b'4 d''4 b'4 | a'4 fis'4 e'2 g'2 | fis'2. s2.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. d'4 d'4 d'4 | fis'2 fis'2 d'4 d'4 | cis'2. e'4 e'4 e'4 | g'2 e'2 g'4 g'4 |
+fis'2. d'4 d'4 d'4 | d'2 d'2 d'4 d'4 | d'2. d'4 d'4 d'4 | d'4 d'4 cis'2 e'2 | d'2. s2.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. fis4 fis4 fis4 | a2 d'2 a4 a4 | a2. a4 a4 a4 | a2 a2 a4 a4 |
+a2. fis4 fis4 fis4 | fis2 a2 g4 fis4 | g2. g4 b4 g4 | fis4 a4 a2 a2 | a2. s2.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. d4 d4 d4 | d2 d2 fis4 d4 | a,2. a,4 a,4 a,4 | a,2 a,2 a,4 a,4 |
+d2. d4 d4 d4 | d2 d4( c4) b,4 a,4 | g,2. g,4 g,4 g,4 | a,4 a,4 a,2 a,2 | d2. s2.
+"""
+
+[lyrics.1]
+text = "A -- sleep in Je -- sus! bless -- ed sleep, From which none ev -- er wakes to weep; A calm and un -- dis -- turbed re -- pose, Un -- brok -- en by the last of foes!"
+
+[lyrics.2]
+text = "A -- sleep in Je -- sus! O how sweet To be for such a slum -- ber meet; With ho -- ly con -- fi -- dence to sing, That death has lost its ven -- omed sting!"
+
+[lyrics.3]
+text = "A -- sleep in Je -- sus! peace -- ful rest, Whose wak -- ing is su -- preme -- ly blest! No fear, no woe, shall dim that hour That man -- i -- fests the Sav -- iour’s pow’r."
+
+[lyrics.4]
+text = "A -- sleep in Je -- sus! O for me, May such a bliss -- ful ref -- uge be! Se -- cure -- ly shall my ash -- es lie, And wait the sum -- mons from on high."
+
+[lyrics.5]
+text = "A -- sleep in Je -- sus! time nor space Af -- fects this pre -- cious hid -- ing place; On In -- dian plains, on Lap -- land snows, Be -- liev -- ers find the same re -- pose."
+
+[lyrics.6]
+text = "A -- sleep in Je -- sus! far from thee, Thy kin -- dred and their graves may be, But thine is still a bless -- ed sleep, From which none ev -- er wakes to weep."
