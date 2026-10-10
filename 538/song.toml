@@ -1,0 +1,94 @@
+title = "Wonderful Love"
+copyrights = [
+  "Lyrics and Music: P. A. Guthrie, 1921 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Db"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 96
+verse_count = 3
+phrase_breaks = ["4:48", "8:40", "12:40"]
+optional_phrase_breaks = ["2:48", "6:48", "14:40"]
+non_breaking_phrase_breaks = ["9:48", "10:40"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+aes'8 aes'8 aes'8 aes'8 f'8 aes'8 | des''8 c''8 bes'8 aes'4. |
+ges'8 ges'8 ges'8 bes'8 aes'8 ges'8 | f'4.~ f'4 r8 |
+aes'8 aes'8 aes'8 f''8 ees''8 des''8 | bes'8 des''8 bes'8 aes'4. |
+aes'8 aes'8 aes'8 c''8 bes'8 c''8 | des''4.~ des''4 aes'8@c |
+aes'4.~ aes'8 bes'8 c''8 | des''4.~ des''4 des''8 |
+des''4.~ des''8 c''8 bes'8 | aes'4.~ aes'4 aes'8 |
+f''8 f''8 f''8 f''8 ees''8 des''8 | des''8 des''8 des''8 des''8( c''8) bes'8 |
+aes'8 aes'8 aes'8 c''8 bes'8 c''8 | des''4.~ des''4 r8
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+f'8 f'8 f'8 f'8 des'8 f'8 | ges'8 ges'8 ges'8 f'4. |
+ees'8 ees'8 ees'8 ges'8 f'8 ees'8 | des'4.~ des'4 r8 |
+f'8 f'8 f'8 aes'8 aes'8 aes'8 | ges'8 ges'8 ges'8 f'4. |
+f'8 f'8 f'8 ees'8 ges'8 ges'8 | f'4.~ f'4 f'8@c |
+f'4.~ f'8 ges'8 ges'8 | f'8 f'8 ges'8 f'4 bes'8 |
+bes'4.~ bes'8 aes'8 ges'8 | f'4.~ f'4 f'8 |
+aes'8 aes'8 aes'8 aes'8 aes'8 aes'8 | ges'8 ges'8 ges'8 ges'8~ ges'8 ges'8 |
+f'8 f'8 f'8 ees'8 ges'8 ges'8 | f'8 aes'8 ges'8 f'4 r8
+"""
+
+[parts.Alto.lyrics.chorus]
+text = "Oh, won -- der -- ful won -- der -- ful love, Oh, won -- der -- ful love, Each day it is sweet -- er, in rich -- ness com -- plete, Oh, won -- der -- ful, won -- der -- ful won -- der -- ful love."
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+des'8 des'8 des'8 des'8 des'8 des'8 | bes8 c'8 des'8 des'4. |
+c'8 c'8 c'8 aes8 aes8 aes8 | aes4.~ aes4 r8 |
+des'8 des'8 des'8 des'8 c'8 des'8 | des'8 bes8 des'8 des'4. |
+des'8 des'8 des'8 aes8 aes8 aes8 | aes4.~ aes4 r8@c |
+r4 des'8 des'8 des'8 des'8 | aes8 aes8 bes8 aes4 r8 |
+r4 des'8 des'8 des'8 des'8 | des'8 des'8 des'8 des'4 des'8 |
+des'8 des'8 des'8 des'8 c'8 des'8 | bes8 bes8 bes8 bes8( c'8) des'8 |
+des'8 des'8 des'8 aes8 aes8 aes8 | aes8 c'8 bes8 aes4 r8
+"""
+
+[parts.Tenor.lyrics.chorus]
+text = "Oh, won -- der -- ful, won -- der -- ful love, Oh, won -- der -- ful, won -- der -- ful love, Each day it is sweet -- er, in rich -- ness com -- plete, Oh, won -- der -- ful, won -- der -- ful won -- der -- ful love."
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+des8 des8 des8 des8 des8 des8 | ges8 ges8 ges8 des4. |
+aes8 aes8 aes8 aes,8 bes,8 c8 | des4.~ des4 r8 |
+des8 des8 des8 des8 ees8 f8 | ges8 ges8 ges8 des4. |
+aes8 aes8 aes8 aes,8 aes,8 aes,8 | des4.~ des4 r8@c |
+r4 des8 des8 des8 des8 | des8 des8 des8 des4 r8 |
+r4 ges8 ges8 ges8 ges8 | des8 des8 des8 des4 des8 |
+des8 des8 des8 des8 ees8 f8 | ges8 ges8 ges8 ges8~ ges8 ges8 |
+aes8 aes8 aes8 aes,8 aes,8 aes,8 | des4.~ des4 r8
+"""
+
+[parts.Bass.lyrics.chorus]
+text = "Oh, won -- der -- ful, won -- der -- ful love, Oh, won -- der -- ful, won -- der -- ful love, Each day it is sweet -- er, in rich -- ness com -- plete, Oh, won -- der -- ful, won -- der -- ful love."
+
+[lyrics.1]
+text = "Won -- der -- ful love is the theme of my song, Je -- sus has paid all for me; Now I am prais -- ing Him all the day long, Won -- der -- ful, how could it be?"
+
+[lyrics.2]
+text = "Won -- der -- ful love, how it bright -- ens our way, Sweet -- ly its praise let us sing; Then will His glo -- ry shine forth as the day, Peace, joy and glad -- ness to bring."
+
+[lyrics.3]
+text = "Won -- der -- ful love that can nev -- er grow old, Tho' oft re -- peat -- ed it be; Rich -- er and sweet -- er each time it is told, Dear -- er than all else to me."
+
+[lyrics.chorus]
+text = "Oh, won -- der -- ful love, Oh, won -- der -- ful love, Each day it is sweet -- er, in rich -- ness com -- plete, Oh, won -- der -- ful, won -- der -- ful love."
