@@ -1,0 +1,98 @@
+title = "Don’t You Want to Be Ready?"
+copyrights = [
+  "Lyrics and Music: Franklin L. Eiland, 1901 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "A"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 5
+phrase_breaks = ["3:48", "5:48", "7:48", "9:64", "11:48", "13:48", "15:64", "17:48", "19:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. a'8( b'8) | cis''4 cis''8. cis''16 cis''4 a'8. a'16 | b'16( a'8.) a'8. fis'16 e'4 e'8. e'16 |
+a'4 a'8. b'16 cis''16 cis''8. a'4 | b'2. a'8( b'8) |
+cis''4 cis''8. cis''16 cis''4 a'8. a'16 | b'16( a'8.) a'8. fis'16 e'4 e'8. e'16 |
+a'4 a'8. b'16 cis''16 cis''8. b'4 | a'2. r4 |
+e''2~@c e''4 e''8. e''16 | cis''2. r4 | a'2~ a'4 fis'8. fis'16 | e'2. e'8. e'16 |
+a'4 a'8. b'16 cis''16 cis''8. a'4 | b'2. r4 |
+e''2~ e''4 e''8. e''16 | cis''2. r4 | a'2~ a'4 fis'8. fis'16 | e'2( a'4!) cis''8.! a'16 |
+cis''4 a'8. b'16 cis''16 cis''8. b'4 | a'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. e'4 | a'4 a'8. a'16 a'4 e'8. e'16 | fis'4 fis'8. d'16 cis'4 cis'8. cis'16 |
+e'4 e'8. e'16 a'16 a'8. e'4 | gis'2. e'4 |
+a'4 a'8. a'16 a'4 e'8. e'16 | fis'4 fis'8. d'16 cis'4 cis'8. cis'16 |
+e'4 e'8. gis'16 a'16 a'8. e'4 | e'2. r4 |
+a'4@c a'8. a'16 a'4 a'8. a'16 | a'4 a'8. a'16 a'4 a'8. a'16 | fis'4 fis'8. fis'16 fis'4 d'8. d'16 |
+cis'4 cis'8. cis'16 cis'4 cis'8. cis'16 | e'4 e'8. e'16 a'16 a'8. e'4 | gis'4 gis'8. gis'16 gis'4 r4 |
+a'4 a'8. a'16 a'4 a'8. a'16 | a'4 a'8. a'16 a'4 a'8. a'16 | fis'4 fis'8. fis'16 fis'4 d'8. d'16 |
+cis'4 cis'8. cis'16 cis'4! e'8.! e'16 | a'4 a'8. gis'16 a'16 a'8. e'4 | e'2. s4
+"""
+
+[parts.Alto.lyrics.chorus]
+text = "Watch -- ing and wait -- ing and read -- y to go, Don’t you want to be wait -- ing and read -- y to go? Don’t you want to be read -- y, yes, read -- y to go? Watch -- ing and wait -- ing and read -- y to go, Don’t you want to be wait -- ing and read -- y to go? Don’t you want to be read -- y to go?"
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. cis'8( d'8) | e'4 e'8. e'16 e'4 cis'8. cis'16 | d'4 d'8. a16 a4 a8. a16 |
+cis'4 cis'8. d'16 e'16 e'8. e'4 | e'2. cis'8( d'8) |
+e'4 e'8. e'16 e'4 cis'8. cis'16 | d'4 d'8. a16 a4 a8. a16 |
+cis'4 e'8. e'16 e'16 e'8. d'4 | cis'2. r4 |
+cis'4@c cis'8. cis'16 cis'4 cis'8. cis'16 | e'4 e'8. e'16 e'4 e'8. e'16 | d'4 d'8. d'16 d'4 a8. a16 |
+a4 a8. a16 a4 a8. a16 | cis'4 cis'8. d'16 e'16 e'8. e'4 | e'4 e'8. e'16 e'4 r4 |
+cis'4 cis'8. cis'16 cis'4 cis'8. cis'16 | e'4 e'8. e'16 e'4 e'8. e'16 | d'4 d'8. d'16 d'4 a8. a16 |
+a4 a8. a16 a4! a8.! cis'16 | e'4 e'8. e'16 e'16 e'8. d'4 | cis'2. s4
+"""
+
+[parts.Tenor.lyrics.chorus]
+text = "Watch -- ing and wait -- ing and read -- y to go, Don’t you want to be wait -- ing and read -- y to go? Don’t you want to be read -- y, yes, read -- y to go? Watch -- ing and wait -- ing and read -- y to go, Don’t you want to be wait -- ing and read -- y to go? Don’t you want to be read -- y to go?"
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. a,4 | a,4 a,8. a,16 a,4 a,8. a,16 | d4 d8. d16 a4 a8. a16 |
+a4 a8. a16 a16 a8. cis4 | e2. a,4 |
+a,4 a,8. a,16 a,4 a,8. a,16 | d4 d8. d16 a4 a8. a16 |
+a4 cis8. d16 e16 e8. e4 | a,2. r4 |
+a4@c a8. a16 a4 a8. a16 | a4 a8. a16 a4 cis8. cis16 | d4 d8. d16 d4 d8. d16 |
+a,4 a,8. a,16 a,4 a,8. a,16 | a,4 a,8. a,16 a,16 a,8. cis4 | e4 e8. e16 e4 r4 |
+a4 a8. a16 a4 a8. a16 | a4 a8. a16 a4 cis8. cis16 | d4 d8. d16 d4 d8. d16 |
+a,4 a,8. a,16 a,4! a8.! a16 | a4 cis8. d16 e16 e8. e4 | a,2. s4
+"""
+
+[parts.Bass.lyrics.chorus]
+text = "Watch -- ing and wait -- ing and read -- y to go, Don’t you want to be wait -- ing and read -- y to go? Don’t you want to be read -- y, yes, read -- y to go? Watch -- ing and wait -- ing and read -- y to go, Don’t you want to be wait -- ing and read -- y to go? Don’t you want to be read -- y to go?"
+
+[lyrics.1]
+text = "Oh, there is a time when the mes -- sage will come! Don’t you want to be read -- y to go? Oh, sin -- ner the Sav -- iour in -- vites you to- -- day! Will you hear and make read -- y to go?"
+
+[lyrics.2]
+text = "To- -- day is the day of sal -- va -- tion for all,— Can you say you are read -- y to go? A home and a crown is a -- wait -- ing for thee! Will you come and be read -- y to go?"
+
+[lyrics.3]
+text = "Oh, yes, there’s a time when the mes -- sage will come! Are you will -- ing and read -- y to go? This mo -- ment, the Sav -- iour, is plead -- ing for thee! Sin -- ner, say, are you read -- y to go?"
+
+[lyrics.4]
+text = "De -- lay you no lon -- ger, dear sin -- ner, but come; Be pre -- pared and be read -- y to go! Oh, hear you His voice, quick -- ly make Him your choice, And you then will be read -- y to go!"
+
+[lyrics.5]
+text = "Oh, turn you to- -- day and the Sav -- iour o -- bey, Come, oh, come and be read -- y to go! Be watch -- ing and wait -- ing when death you must meet, And be will -- ing and read -- y to go!"
+
+[lyrics.chorus]
+text = "Read -- y to go, Read -- y to go, Don’t you want to be read -- y to go? Read -- y to go, read -- y to go? Don’t you want to be read -- y to go?"
