@@ -1,0 +1,82 @@
+title = "Jesus Calls for Workers"
+copyrights = [
+  "Lyrics: Pearl H. Farmer, 1914 (public domain)",
+  "Music: J. M. Greer, 1914 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 110
+verse_count = 4
+phrase_breaks = ["5:48", "9:48", "13:48", "17:48", "23:48"]
+optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48", "21:48", "27:48"]
+optional_break_threshold_ticks = 257
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. ees'4 | aes'4 aes'4 aes'4 aes'4 | aes'2 ees'4 ees'4 | aes'4 aes'4 aes'4 bes'4 | aes'2. aes'4 |
+c''4 c''4 aes'4 bes'4 | c''2 c''4 aes'4 | bes'4 bes'4 bes'4 c''4 | bes'2. c''4 |
+ees''4 ees''4 ees''4 f''4 | ees''2 c''4 aes'4 | c''4 c''4 c''4 des''4 | c''2. bes'4 |
+aes'4 aes'4 bes'8[ aes'8] f'4 | ees'2 aes'4 aes'4 | c''4 c''4 aes'4 bes'4 | aes'2. r4@c |
+r2. aes'4 | c''4 ees''4 ees''4 r4 | r2. c''4 | c''4 c''4 c''4 aes'4 | c''4 c''4 c''4 bes'4 | bes'2. r4 |
+r2. aes'4 | c''4 ees''4 ees''4 r4 | r2. c''4 | c''4 c''4 c''4 aes'4 | c''4 c''4 aes'4 bes'4 | aes'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. c'4 | ees'4 ees'4 ees'4 ees'4 | ees'2 c'4 c'4 | ees'4 ees'4 ees'4 ees'4 | ees'2. ees'4 |
+ees'4 ees'4 ees'4 ees'4 | ees'2 ees'4 ees'4 | ees'4 ees'4 d'4 d'4 | ees'2. ees'4 |
+aes'4 aes'4 aes'4 aes'4 | aes'2 ees'4 c'4 | ees'4 ees'4 ees'4 f'4 | ees'2. ees'4 |
+f'4 f'4 f'4 des'4 | c'2 c'4 ees'4 | ees'4 ees'4 c'4 des'4 | c'2. r4@c |
+r2. ees'4 | aes'4 aes'4 aes'4 r4 | r2. ees'4 | f'4 aes'4 ees'4 c'4 | ees'4 ees'4 d'4 d'4 | ees'2. r4 |
+r2. ees'4 | aes'4 aes'4 aes'4 r4 | r2. ees'4 | f'4 aes'4 ees'4 ees'4 | ees'4 ees'4 c'4 des'4 | c'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. aes4 | c'4 c'4 c'4 c'4 | c'2 aes4 aes4 | c'4 c'4 c'4 des'4 | c'2. c'4 |
+aes4 aes4 aes4 g4 | aes2 aes4 aes4 | g4 g4 f4 aes4 | g2. aes4 |
+c'4 c'4 c'4 des'4 | c'2 aes4 aes4 | aes4 aes4 aes4 aes4 | aes2. aes4 |
+aes4 aes4 aes4 aes4 | aes2 aes4 aes4 | aes4 aes4 aes4 ees4 | ees2. r4@c |
+r2. c'4 | ees'4 c'4 c'4 r4 | r2. aes4 | f4 ees4 aes4 ees4 | aes4 aes4 aes4 aes4 | g2. r4 |
+r2. c'4 | ees'4 c'4 c'4 r4 | r2. aes4 | f4 ees4 aes4 aes4 | aes4 aes4 aes4 ees4 | ees2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. aes4 | aes4 aes4 aes4 aes4 | aes2 aes4 aes4 | aes4 aes4 aes4 ees4 | aes2. aes4 |
+aes4 aes4 c4 ees4 | aes2 aes4 c4 | ees4 ees4 bes,4 bes,4 | ees2. aes4 |
+aes4 aes4 aes4 aes4 | aes2 aes4 aes4 | aes,4 aes,4 aes,4 aes,4 | aes,2. c4 |
+des4 des4 des4 des4 | aes,2 aes,4 c4 | ees4 ees4 ees4 ees4 | aes,2. aes,4@c |
+c4 ees4 aes2~ | aes2. ees4 | f4 ees4 aes,2~ | aes,2. aes,4 | aes,4 aes,4 bes,4 bes,4 | ees2. aes,4 |
+c4 ees4 aes2~ | aes2. ees4 | f4 ees4 aes,2~ | aes,2. c4 | ees4 ees4 ees4 ees4 | aes,2. s4
+"""
+
+[lyrics.1]
+text = "The noon -- day sun is shin -- ing, All o -- ver land and sea; The call for will -- ing work -- ers Come forth to you and me; O will you go, my broth -- er, Be -- fore the light grows dim? God calls you, too, my sis -- ter, To lead some soul to Him."
+
+[lyrics.2]
+text = "You’ve of -- ten pray’d the Fa -- ther To o -- pen wide the door; To Thee ’tis now thrown o -- pen; O haste, ere time’s no more, For some one who is yearn -- ing, A bet -- ter life to live; Go tell them Je -- sus loves them, For them His life did give."
+
+[lyrics.3]
+text = "The call for will -- ing work -- ers Is ring -- ing all a -- round, At home and o’er the o -- cean, Wher -- ev -- er man is found; How strange that we should i -- dle, Make life a use -- less dream, When souls of men are dy -- ing, For Je -- sus’s love su -- preme."
+
+[lyrics.4]
+text = "A -- wake, ye Chris -- tian sleep -- ers! The hours are fly -- ing fast, Waste not the pre -- cious mo -- ments, For time will soon be past. When you are called to judg -- ment, How ma -- ny will have heard, From you, of Je -- sus’ pow -- er, Told thro’ His pre -- cious word."
+
+[lyrics.chorus]
+text = "He’s call -- ing you, He’s call -- ing you In -- to the fields of sin; Make no de -- lay, but go to -- day, And bring the lost ones in."
