@@ -1,0 +1,65 @@
+title = "Jesus Bids Us Shine"
+copyrights = [
+  "Lyrics: Anna B. Warner, 1921 (public domain)",
+  "Music: A. L. Byers, 1921 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "D"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 3
+phrase_breaks = ["2:64", "4:64", "6:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+fis'8 fis'8 fis'8 g'8 a'4 b'8 a'8 | a'4 g'4 e'2 |
+fis'8 fis'8 fis'8 g'8 a'4 d''4 | cis''8 a'8 b'8 gis'8 a'2 |
+g'8 e'8 e'8 e'8 e'4 a'8( g'8) | fis'4 g'4 a'2 |
+b'8 d''8 cis''8 b'8 a'8 d''4 d'8 | fis'4 e'4 d'2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+d'8 d'8 d'8 e'8 fis'4 g'8 fis'8 | e'4 e'4 cis'2 |
+d'8 d'8 d'8 e'8 fis'4 fis'4 | e'8 e'8 e'8 e'8 e'2 |
+e'8 cis'8 cis'8 cis'8 cis'4 fis'8( e'8) | d'4 e'4 fis'2 |
+g'8 b'8 a'8 g'8 fis'8 fis'4 a8 | d'4 cis'4 d'2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+a8 a8 a8 a8 d'4 d'8 d'8 | cis'4 cis'4 a2 |
+a8 a8 a8 a8 a4 a4 | a8 cis'8 d'8 b8 cis'2 |
+a8 a8 a8 a8 a4 a4 | a4 a4 d'2 |
+d'8 d'8 d'8 d'8 d'8 a4 a8 | a4 g4 fis2
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+d8 d8 d8 d8 d4 d8 d8 | a,4 a,4 a,2 |
+d8 d8 d8 d8 d4 d4 | e8 e8 e8 e8 a,2 |
+a,8 a,8 a,8 a,8 a,4 a,4 | d4 d4 d2 |
+g8 g8 g8 g8 d8 d4 fis8 | a4 a,4 d2
+"""
+
+[lyrics.1]
+text = "Je -- sus bids us shine with a clear pure light, Like a lit -- tle can -- dle burn -- ing in the night; In this world of dark -- ness we must shine, You in your small cor -- ner And I in mine."
+
+[lyrics.2]
+text = "Je -- sus bids us shine, first of all, for Him, Well He sees and knows it if our lights are dim; He looks down from heav -- en, sees us shine, You in your small cor -- ner And I in mine."
+
+[lyrics.3]
+text = "Je -- sus bids us shine, then, for all a -- round, Ma -- ny kinds of dark -- ness in this world are found; Sin and want and sor -- row: we must shine, You in your small cor -- ner And I in mine."
