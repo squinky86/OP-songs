@@ -1,0 +1,76 @@
+title = "I Want to Be Like Him"
+copyrights = [
+  "Lyrics and Music: Franklin L. Eiland, 1909 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 90
+verse_count = 3
+phrase_breaks = ["4:48", "9:48", "15:48", "19:48"]
+optional_phrase_breaks = ["2:48", "7:48", "11:48", "17:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+ees'4. c'8 ees'8 ees'8 | f'8 aes'4~ aes'4 r8 | c''4. bes'8 aes'8 aes'8 | f'8 ees'4~ ees'4 r8 |
+ees''4. f''8 ees''8 c''8 | c''8 bes'8 aes'8 aes'8.( bes'16) c''8 | ees''4.~ ees''4 r8 |
+ees''4. c''8 c''8 c''8 | bes'8 aes'4~ aes'4 r8 | c''4. bes'8 aes'8 aes'8 | f'8 ees'4~ ees'4 r8 |
+ees'4. f'8 ees'8 ees'8 | f'8 aes'4~ aes'4 aes'16(\\rit bes'16) | c''4. bes'4. | aes'4.~ aes'4\\spanend r8 |
+ees'4.@c c'8 ees'8 ees'8 | f'8 aes'4~ aes'4 r8 | c''4. bes'8 aes'8 aes'8 | f'8 ees'4~ ees'4 r8 |
+ees''4. f''8 ees''8 c''8 | bes'8 aes'4~ aes'4 aes'16(\\rit bes'16) | c''4. bes'4. | aes'4.~ aes'4\\spanend r8
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+c'4. aes8 c'8 c'8 | des'8 c'4~ c'4 r8 | ees'4. des'8 f'8 f'8 | des'8 c'4~ c'4 r8 |
+aes'4. aes'8 aes'8 ees'8 | ees'8 des'8 c'8 c'8.( des'16) ees'8 | g'4.~ g'4 r8 |
+aes'4. ees'8 ees'8 ees'8 | des'8 c'4~ c'4 r8 | ees'4. des'8 f'8 f'8 | des'8 c'4~ c'4 r8 |
+c'4. des'8 c'8 c'8 | des'8 c'4~ c'4 ees'16( f'16) | ees'4. des'4. | c'4.~ c'4 r8 |
+c'4.@c aes8 c'8 c'8 | des'8 c'4~ c'4 r8 | ees'4. des'8 f'8 f'8 | des'8 c'4~ c'4 r8 |
+aes'4. aes'8 aes'8 ees'8 | des'8 c'4~ c'4 ees'16( f'16) | ees'4. des'4. | c'4.~ c'4 r8
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+aes4. ees8 aes8 aes8 | aes8 ees4~ ees4 r8 | aes4. f8 aes8 aes8 | aes8 aes4~ aes4 r8 |
+c'4. des'8 c'8 aes8 | aes8 g8 aes8 aes8.( g16) aes8 | bes4.~ bes4 r8 |
+c'4. aes8 aes8 aes8 | aes8 ees4~ ees4 r8 | aes4. aes8 aes8 aes8 | aes8 aes4~ aes4 r8 |
+aes4. aes8 aes8 aes8 | aes8 ees4~ ees4 aes8 | aes4. ees4. | ees4.~ ees4 r8 |
+aes4.@c ees8 aes8 aes8 | aes8 ees4~ ees4 r8 | aes4. f8 aes8 aes8 | aes8 aes4~ aes4 r8 |
+c'4. des'8 c'8 aes8 | aes8 aes4~ aes4 aes8 | aes4. ees4. | ees4.~ ees4 r8
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+aes,4. aes,8 aes,8 aes,8 | aes,8 aes,4~ aes,4 r8 | aes,4. des8 des8 des8 | aes,8 aes,4~ aes,4 r8 |
+aes4. aes8 aes8 aes8 | aes8 ees8 f8 c8.( bes,16) aes,8 | ees4.~ ees4 r8 |
+aes4. aes8 aes8 aes8 | aes,8 aes,4~ aes,4 r8 | aes,4. des8 des8 des8 | aes,8 aes,4~ aes,4 r8 |
+aes,4. aes,8 aes,8 aes,8 | aes,8 aes,4~ aes,4 c16( des16) | ees4. ees4. | aes,4.~ aes,4 r8 |
+aes,4.@c aes,8 aes,8 aes,8 | aes,8 aes,4~ aes,4 r8 | aes,4. des8 des8 des8 | aes,8 aes,4~ aes,4 r8 |
+aes4. aes8 aes8 aes8 | aes8 aes4~ aes4 c16( des16) | ees4. ees4. | aes,4.~ aes,4 r8
+"""
+
+[lyrics.1]
+text = "I want to be near Him, That, I shall not fear Him, And, un -- to Him ev -- er I would be true; I want Him to lead me, That, grace He shall feed me, I want to be like Him, I do, I do!"
+
+[lyrics.2]
+text = "No more would I leave Him, To wound and to grieve Him, I plead the pos -- ses -- sion of vic -- t'ry new; To ev -- er keep pray -- ing, And close to Him stay -- ing, I want to be like Him, I do, I do!"
+
+[lyrics.3]
+text = "He'll nev -- er for -- sake me, But on He will take me, With shouts of glad tri -- umph, my trou -- bles through; And to Him I'm cling -- ing, And still will keep sing -- ing, I want to be like Him, I do, I do!"
+
+[lyrics.chorus]
+text = "I want to be like Him, I want to be like Him, I want to be like Him, I do, I do!"
