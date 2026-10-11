@@ -73,8 +73,8 @@ text = "I am now on the road, Lead -- ing home to my God; I am plac -- ing my ca
 [lyrics.3]
 text = "Let me go far a -- way From that field of dis -- may, Nev -- er -- more to be held by its bands; Thro’ the light that is mine, From the Spir -- it di -- vine, @s1"
 
-[lyrics.s1]
-text = "I am leav -- ing the dan -- ger -- ous sands!"
-
 [lyrics.chorus]
 text = "They had mired my feet, Stayed my prog -- ress so sweet, Here, in heed -- ing my Sav -- iour’s com -- mands; O I praise His great name, That this vic -- t’ry I claim, I am leav -- ing the dan -- ger -- ous sands!"
+
+[lyrics.s1]
+text = "I am leav -- ing the dan -- ger -- ous sands!"
