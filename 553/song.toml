@@ -1,0 +1,99 @@
+title = "Crowded Out"
+copyrights = [
+  "Lyrics and Music: Mrs. C. H. Morris, 1912 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Db"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 92
+verse_count = 5
+phrase_breaks = ["5:32", "9:32", "13:32", "17:32", "21:32", "25:32", "29:32"]
+non_breaking_phrase_breaks = ["24:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 f'4 | f'2 e'8 f'8 | ges'2 f'8 e'8 | f'2 ees'4 | des'2 f'8 f'8 |
+aes'4 ges'4 f'4 | ees'4( f'4) ges'4 | f'2.~ | f'2 f'8 ges'8 |
+aes'4( g'4) aes'4 | f'2 aes'8 aes'8 | des''4( c''4) bes'4 | aes'2 aes'8 aes'8 |
+g'2 aes'8 bes'8 | des''4( c''4) bes'4 | aes'2.~ | aes'2 f'8@c ges'8 |
+aes'2.~ | aes'2 f'8 aes'8 | des''2.~ | des''2 des''8 des''8 |
+des''4 c''4 bes'4 | des''4 c''4 bes'4 | ees''2.~ | ees''2 aes'8 aes'8 |
+aes'4 bes'4 c''4 | ees''8 des''4. aes'4 | ces''4 ces''4 ces''4 | bes'2 des''4 |
+des''2\\rit f'8 ges'8 | aes'2 aes'4 | aes'2.~ | aes'2\\spanend s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 f'4 | f'2 e'8 f'8 | ges'2 f'8 e'8 | f'2 ees'4 | des'2 f'8 f'8 |
+aes'4 ges'4 f'4 | ees'4( f'4) ges'4 | f'2.~ | f'2 f'8 ges'8 |
+aes'4( g'4) aes'4 | f'2 aes'8 aes'8 | des''4( c''4) bes'4 | aes'2 aes'8 aes'8 |
+g'2 aes'8 bes'8 | des''4( c''4) bes'4 | aes'2.~ | aes'2 des'8[@c ees'8] |
+f'2 ees'8 ges'8 | f'2 des'8[ aes'8] | ges'2 ges'8 ges'8 | f'2 f'8 f'8 |
+f'4 f'4 f'4 | g'4 g'4 g'4 | aes'2 aes'4 | ges'2 ges'8 ges'8 |
+ges'4 bes'4 ges'4 | ges'8 f'4. f'4 | aes'4 aes'4 aes'4 | ges'2 ges'4 |
+f'2 des'8 ees'8 | ees'4( f'4) ges'4 | f'2.~ | f'2 s4
+"""
+
+[parts.Alto.lyrics.chorus]
+text = "Is Christ crowd -- ed out? Is Christ crowd -- ed out? You’ve no time for His serv -- ice, you say; you say: While for pleas -- ure and busi -- ness you al -- ways have time, Is Christ crowd -- ed out to -- day?"
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 aes4 | aes2 g8 aes8 | bes2 aes8 g8 | aes2 ges4 | f2 aes8 aes8 |
+c'4 bes4 aes4 | ges4( aes4) bes4 | aes2.~ | aes2 aes8 bes8 |
+ces'4( bes4) ces'4 | aes2 ces'8 ces'8 | bes4( aes4) ges4 | f2 f8 f8 |
+bes2 c'8 des'8 | f'4( ees'4) des'4 | c'2.~ | c'2 aes4@c |
+des'2 c'8 ees'8 | des'2 aes8[ des'8] | bes2 beses8 beses8 | aes2 aes8 aes8 |
+bes4 a4 bes4 | bes4 c'4 des'4 | c'2 c'4 | c'2 c'8 c'8 |
+c'4 des'4 ees'4 | des'8 aes4. des'4 | des'4 des'4 des'4 | des'2 bes4 |
+des'2 des'8 des'8 | c'4( des'4) ees'4 | des'2.~ | des'2 s4
+"""
+
+[parts.Tenor.lyrics.chorus]
+text = "Is Christ crowd -- ed out? Is Christ crowd -- ed out? You’ve no time for His serv -- ice, you say; you say: While for pleas -- ure and busi -- ness you al -- ways have time, Is Christ crowd -- ed out to -- day?"
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 aes4 | aes2 g8 aes8 | bes2 aes8 g8 | aes2 ges4 | f2 aes8 aes8 |
+c'4 bes4 aes4 | ges4( aes4) bes4 | aes2.~ | aes2 aes8 bes8 |
+ces'4( bes4) ces'4 | aes2 ces'8 ces'8 | bes4( aes4) ges4 | f2 f8 f8 |
+bes2 c'8 des'8 | f'4( ees'4) des'4 | c'2.~ | c'2 des4@c |
+des2 aes8 aes8 | des2 des8[ f8] | ges2 ges8 ges8 | des2 des8 des8 |
+bes,4 c4 des4 | ees4 ees4 ees4 | aes,2.( | aes2) aes8 aes8 |
+aes4 aes4 aes4 | des8 des4. des4 | f4 f4 f4 | ges2 ges4 |
+aes2 bes8 beses8 | aes2 aes,4 | des2.~ | des2 s4
+"""
+
+[parts.Bass.lyrics.chorus]
+text = "Is Christ crowd -- ed out? Is Christ crowd -- ed out? You’ve no time for His serv -- ice, you say; While for pleas -- ure and busi -- ness you al -- ways have time, Is Christ crowd -- ed out to -- day?"
+
+[lyrics.1]
+text = "Is Christ crowd -- ed out of your bus -- y life With the toil -- ing that each day brings? With the strain and stress of the cares that press You’ve no time for the King of kings."
+
+[lyrics.2]
+text = "“No room in the inn” for the Christ- -- Child blest, “In a man -- ger so low He lay;” In the hearts of men o’er and o’er a -- gain, There’s no room for Him still to -- day."
+
+[lyrics.3]
+text = "“The fox -- es have holes and the birds have nests But no -- where for His head di -- vine Had the Son of man,” should He come a -- gain Find a place in your heart and mine."
+
+[lyrics.4]
+text = "The hearts of the ones whom He died to save Is the home which He seeks to -- day; By His life bought yet He is crowd -- ed out, And “a -- way with Him,” still they say."
+
+[lyrics.5]
+text = "There’s com -- ing a day in the great some -- time If for Christ you have nev -- er room, You will knock and wait at the pearl -- y gate, Crowd -- ed out there will be your doom."
+
+[lyrics.chorus]
+text = "Crowd -- ed out! crowd -- ed out! You’ve no time for His serv -- ice, you say; While for pleas -- ure and busi -- ness you al -- ways have time, Is Christ crowd -- ed out to -- day?"
