@@ -1,0 +1,101 @@
+title = "I’ll Be Satisfied Then"
+copyrights = [
+  "Lyrics: George W. Winningham, 1915 (public domain)",
+  "Music: James H. May, 1915 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Bb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 103
+verse_count = 3
+phrase_breaks = ["3:48", "5:48", "7:64", "9:64", "11:64", "13:48", "15:64", "17:64"]
+non_breaking_phrase_breaks = ["12:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. d'8[ ees'8] | f'4 f'4 bes'4 f'8-( f'8-) | g'4 g'4 f'4 f'4 |
+bes'4 bes'4 d''4 bes'8-( bes'8-) | c''4 d''4 c''4! d'8[ ees'8] |
+f'4 f'4 bes'4 f'8-( f'8-) | g'4 g'4 bes'2 | d''4. f''8 d''16 d''8. c''4 | bes'2. r4 |
+bes'4.@c c''8 bes'16 bes'8. g'4 | f'2. r4 | d''4. f''8 d''16 d''8. bes'4 |
+c''2. d'8[ ees'8] | f'4 f'4 bes'4 f'8-( f'8-) | g'4 g'4 bes'2 |
+d''4. f''8 d''16 bes'8. c''4 | bes'2. s4
+"""
+
+[parts.Soprano.lyrics.s3]
+text = "I'll be sat -- is -- fied then,"
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. bes8[ c'8] | d'4 d'4 d'4 d'8-( d'8-) | ees'4 ees'4 d'4 d'4 |
+d'4 d'4 f'4 f'8-( f'8-) | e'4 e'4 f'4! bes8[ c'8] |
+d'4 d'4 d'4 d'8-( d'8-) | ees'4 ees'4 ees'4( g'4) | f'4. f'8 f'16 f'8. ees'4 |
+d'16 d'8. ees'4 d'4 r4 |
+ees'4.@c ees'8 ees'16 ees'8. ees'4 | d'16 d'8. c'4 d'4 r4 | f'4. f'8 f'16 f'8. f'4 |
+f'16 f'8. e'4 f'4 bes8[ c'8] | d'4 d'4 d'4 d'8-( d'8-) | ees'4 ees'4 ees'4( g'4) |
+f'4. f'8 f'16 d'8. ees'4 | d'16 d'8. ees'4 d'4 s4
+"""
+
+[parts.Alto.lyrics.s1]
+text = "I'll be sat -- is -- fied sat -- is -- fied then."
+
+[parts.Alto.lyrics.s2]
+text = "I'll be sat -- is -- fied sat -- is -- fied then,"
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. f4 | bes4 bes4 f4 bes8-( bes8-) | bes4 bes4 bes4 bes4 |
+f4 f4 bes4 bes8-( bes8-) | g4 bes4 a4! f4 |
+bes4 bes4 f4 bes8-( bes8-) | bes4 bes4 g4( bes4) | bes4. d'8 bes16 bes8. f4 |
+f16 f8. g4 f4 r4 |
+g4.@c g8 g16 g8. bes4 | bes16 bes8. a4 bes4 r4 | bes4. d'8 bes16 bes8. bes4 |
+a16 a8. g4 a4 f4 | bes4 bes4 f4 bes8-( bes8-) | bes4 bes4 g4( bes4) |
+bes4. d'8 bes16 bes8. f4 | f16 f8. g4 f4 s4
+"""
+
+[parts.Tenor.lyrics.s1]
+text = "I'll be sat -- is -- fied sat -- is -- fied then."
+
+[parts.Tenor.lyrics.s2]
+text = "I'll be sat -- is -- fied sat -- is -- fied then,"
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. bes,4 | bes,4 bes,4 bes,4 bes,8-( bes,8-) | ees4 ees4 bes,4 bes,4 |
+bes,4 bes,4 bes,4 d8-( d8-) | c4 c4 f4! bes,4 |
+bes,4 bes,4 bes,4 bes,8-( bes,8-) | ees4 ees4 ees2 | f4. f8 f16 f8. f4 | bes,2. r4 |
+ees4.@c ees8 ees16 ees8. ees4 | bes,2. r4 | bes,4. bes,8 bes,16 bes,8. d4 |
+f16 f8. c4 f4 bes,4 | bes,4 bes,4 bes,4 bes,8-( bes,8-) | ees4 ees4 ees2 |
+f4. f8 f16 f8. f4 | bes,2. s4
+"""
+
+[lyrics.1]
+text = "When all my tri -- als and cares are o’er, When I shall stand on the gold -- en shore, If I may hold my _ Sav -- ior’s hand, @s1 @s2 @s3 If I may hold my _ Sav -- ior’s hand, @s1"
+
+[lyrics.2]
+text = "When I my loved ones _ there shall meet, And with them kneel at _ Je -- sus’ feet, If I may rest by the great white throne, @s1 @s2 @s3 If I may rest by the great white throne, @s1"
+
+[lyrics.3]
+text = "When I shall reach that _ home of rest, To dwell with all the _ saved and blest, If I may drink at the fount of life, @s1 @s2 @s3 If I may drink at the fount of life, @s1"
+
+[lyrics.s1]
+text = "I'll be sat -- is -- fied then."
+
+[lyrics.s2]
+text = "I'll be sat -- is -- fied then,"
+
+[lyrics.s3]
+text = "I'll be sat -- is -- fied sat -- is -- fied then,"
