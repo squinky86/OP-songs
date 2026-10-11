@@ -1,0 +1,63 @@
+title = "Hark! A Thrilling Voice is Sounding"
+subtitle = "Melrose"
+copyrights = [
+  "Lyrics: Latin hymn, 5th century (public domain)",
+  "Translation: Edward Caswall, 1849 (public domain)",
+  "Music: Carroll King, 1921 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "C"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 4
+phrase_breaks = ["4:64"]
+optional_phrase_breaks = ["2:64", "6:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+g'4 g'4 a'4 a'4 | g'4 f'4 e'4 g'4 | g'4 a'4 b'4 c''4 | b'4 a'4 g'2 |
+g'4 e''4 d''4 c''4 | b'4 a'4 c''4 a'4 | g'4 c''4 c''4 d''4 | e''4 d''4 c''2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+e'4 e'4 dis'4 dis'4 | e'4 d'4 c'4 e'4 | e'4 fis'4 g'4 fis'4 | g'4 fis'4 g'4( f'4) |
+e'4 g'4 g'4 g'4 | g'4 f'4 a'4 f'4 | e'4 e'4 f'4 fis'4 | g'4 f'4 e'2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+c'4 c'4 c'4 c'4 | c'4 g4 g4 c'4 | b4 d'4 d'4 e'4 | d'4 c'4 b2 |
+c'4 c'4 b4 c'4 | c'4 c'4 c'4 c'4 | c'4 c'4 c'4 c'4 | c'4 b4 g2
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+c4 c4 c4 c4 | c4 c4 c4 c4 | e4 d4 g4 c4 | d4 d4 g,2 |
+c4 c4 d4 e4 | f4 f4 f4 f4 | g4 bes4 a4 aes4 | g4 g4 c2
+"""
+
+[lyrics.1]
+text = "Hark! a thrill -- ing voice is sound -- ing; “Christ is nigh,” it seems to say; “Cast a -- way the works of dark -- ness, O ye chil -- dren of the day!”"
+
+[lyrics.2]
+text = "Wak -- ened by the sol -- emn warn -- ing, Let the earth- -- bound soul a -- rise; Christ, her Sun, all sloth dis -- pel -- ling, Shines up -- on the morn -- ing skies."
+
+[lyrics.3]
+text = "Lo! the Lamb, so long ex -- pect -- ed, Comes with par -- don down from heav’n; Let us haste, with tears of sor -- row, One and all to be for -- giv’n."
+
+[lyrics.4]
+text = "So when next He comes with glo -- ry, Wrap -- ping all the world in fear, May He with His mer -- cy shield us, And with words of love draw near."
