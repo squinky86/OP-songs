@@ -1,0 +1,95 @@
+title = "Scattering Precious Seed"
+copyrights = [
+  "Lyrics: William A. Ogden, 1892 (public domain)",
+  "Music: George C. Hugg, 1892 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 103
+verse_count = 3
+phrase_breaks = ["2:64", "4:64", "6:64", "8:64", "10:64", "12:64", "14:64"]
+non_breaking_phrase_breaks = ["16:16"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+{3 ees'8 ees'8 ees'8 } f'8. ees'16 aes'4 c''8. bes'16 | aes'2 ees'2 |
+{3 ees'8 ees'8 ees'8 } f'8. ees'16 aes'4 c''8. aes'16 | bes'2 ees''2 |
+{3 ees'8 ees'8 ees'8 } f'8. ees'16 aes'4 c''8. bes'16 | aes'2 f'2 |
+{3 ees'8 ees'8 ees'8 } g'8. aes'16 bes'4 c''8. bes'16 | aes'2. r4 |
+ees'2@c aes'4 {3 ees'8[ aes'8] c''8 } | bes'2 f'2 |
+g'2 ees'4 {3 bes'8[ des''8] f''8 } | ees''2 c''2 |
+ees'2 aes'4 {3 ees'8[ aes'8] c''8 } | bes'2 f'2 |
+{3 ees'8 ees'8 ees'8 } g'8. aes'16 bes'4 c''8. bes'16 | aes'1%pp
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+{3 c'8 c'8 c'8 } des'8. c'16 c'4 ees'8. des'16 | c'2 c'2 |
+{3 c'8 c'8 c'8 } des'8. c'16 c'4 ees'8. ees'16 | ees'2 ees'2 |
+{3 c'8 c'8 c'8 } des'8. c'16 c'4 ees'8. ees'16 | f'2 des'2 |
+{3 des'8 des'8 des'8 } des'8. c'16 des'4 ees'8. des'16 | c'2. r4 |
+c'2@c c'4 {3 c'4 ees'8 } | des'2 des'2 |
+ees'2 des'4 {3 g'8[ bes'8] des''8 } | c''2 aes'2 |
+c'2 c'4 {3 c'4 ees'8 } | des'2 des'2 |
+{3 des'8 des'8 des'8 } des'8. c'16 des'4 ees'8. des'16 | c'4%pp des'8. des'16 c'2
+"""
+
+[parts.Alto.lyrics.chorus]
+text = "Sow -- ing in the morn -- ing, Sow -- ing at the noon -- tide; Sow -- ing in the even -- ing, Sow -- ing the pre -- cious seed by the way. by the way."
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+{3 aes8 aes8 aes8 } aes8. aes16 aes4 aes8. ees16 | ees2 aes2 |
+{3 aes8 aes8 aes8 } aes8. aes16 aes4 aes8. aes16 | g2 g2 |
+{3 aes8 aes8 aes8 } aes8. aes16 aes4 aes8. aes16 | aes2 aes2 |
+{3 g8 g8 g8 } bes8. aes16 g4 g8. ees16 | ees2. r4 |
+{3 aes8@c aes8 aes8 } aes8. aes16 aes4 r4 | {3 f8 f8 f8 } f8. f16 aes2 |
+{3 des'8 des'8 des'8 } des'8. des'16 g4 g4 | {3 aes8 aes8 c'8 } ees'8. ees'16 ees'2 |
+{3 aes8 aes8 aes8 } aes8. aes16 aes4 r4 | {3 f8 f8 f8 } f8. f16 aes2 |
+{3 g8 g8 g8 } bes8. aes16 g4 g8. ees16 | ees4%pp f8. f16 ees2
+"""
+
+[parts.Tenor.lyrics.chorus]
+text = "Sow -- ing the pre -- cious seed, Sow -- ing the pre -- cious seed, Sow -- ing the seed at noon -- tide, Sow -- ing the pre -- cious seed; Sow -- ing the pre -- cious seed, Sow -- ing the pre -- cious seed, Sow -- ing the pre -- cious seed by the way. by the way."
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+{3 aes,8 aes,8 aes,8 } aes,8. aes,16 aes,4 aes,8. aes,16 | aes,2 aes,2 |
+{3 aes,8 aes,8 aes,8 } aes,8. aes,16 aes,4 aes,8. c16 | ees2 ees2 |
+{3 aes,8 aes,8 aes,8 } aes,8. aes,16 aes,4 aes,8. c16 | des2 des2 |
+{3 ees8 ees8 ees8 } ees8. ees16 ees4 ees8. ees16 | aes,2. r4 |
+{3 aes,8@c aes,8 aes,8 } aes,8. aes,16 aes,4 r4 | {3 des8 des8 des8 } des8. des16 des2 |
+{3 ees8 ees8 ees8 } ees8. ees16 ees4 ees4 | {3 aes8 aes8 aes8 } aes8. aes16 aes2 |
+{3 aes,8 aes,8 aes,8 } aes,8. aes,16 aes,4 r4 | {3 des8 des8 des8 } des8. des16 des2 |
+{3 ees8 ees8 ees8 } ees8. ees16 ees4 ees8. ees16 | aes,1%pp
+"""
+
+[parts.Bass.lyrics.chorus]
+text = "Sow -- ing the pre -- cious seed, Sow -- ing the pre -- cious seed, Sow -- ing the seed at noon -- tide, Sow -- ing the pre -- cious seed; Sow -- ing the pre -- cious seed, Sow -- ing the pre -- cious seed, Sow -- ing the pre -- cious seed by the way."
+
+[lyrics.1]
+text = "Scat -- ter -- ing pre -- cious seed by the way -- side, Scat -- ter -- ing pre -- cious seed by the hill -- side; Scat -- ter -- ing pre -- cious seed o’er the field, wide, Scat -- ter -- ing pre -- cious seed by the way."
+
+[lyrics.2]
+text = "Scat -- ter -- ing pre -- cious seed for the grow -- ing, Scat -- ter -- ing pre -- cious seed, free -- ly sow -- ing, Scat -- ter -- ing pre -- cious seed, trust -- ing, know -- ing, Sure -- ly the Lord will send it the rain."
+
+[lyrics.3]
+text = "Scat -- ter -- ing pre -- cious seed, doubt -- ing nev -- er, Scat -- ter -- ing pre -- cious seed, trust -- ing ev -- er; Sow -- ing the word with prayer and en -- deav -- or, Trust -- ing the Lord for growth and for yield."
+
+[lyrics.chorus]
+text = "Sow -- ing in the morn -- ing, Sow -- ing at the noon -- tide; Sow -- ing in the even -- ing, Sow -- ing the pre -- cious seed by the way."
