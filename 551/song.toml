@@ -1,0 +1,92 @@
+title = "Hold to God’s Unchanging Hand"
+copyrights = [
+  "Lyrics: Jennie Wilson, 1906 (public domain)",
+  "Music: Franklin L. Eiland, 1906 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "A"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 4
+phrase_breaks = ["4:64", "8:64", "12:64"]
+optional_phrase_breaks = ["2:64", "6:64", "10:64", "14:64"]
+non_breaking_phrase_breaks = ["9:16", "9:48", "11:16", "11:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+a'4. a'8 a'8 e'8 fis'8 e'8 | fis'8 a'2. r8 |
+cis''4. cis''8 b'8 a'8 a'8 cis''8 | e''2. r4 |
+e''4. fis''8 cis''8 b'8 a'8 b'8 | cis''4.( b'8) a'4. r8 |
+cis''4. e'8\\rit a'8 a'8 cis''8 b'8 | a'2.\\spanend r4 |
+a'2.@c a'4 | a'8 e'8 fis'8 gis'8 a'4. r8 |
+cis''2. cis''4 | cis''8 b'8 a'8 cis''8 e''4. r8 |
+e''4. fis''8 cis''8 b'8 a'8 b'8 | cis''4.( b'8) a'4. r8 |
+cis''4.\\rit e'8 a'8 a'8 cis''8 b'8 | a'2.\\spanend r4
+"""
+
+[parts.Soprano.lyrics.chorus]
+text = "Hold to God’s un -- chang -- ing hand! Hold to God’s un -- chang -- ing hand! Build your hopes on things e -- ter -- nal,— Hold to God’s un -- chang -- ing hand."
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+cis'4. cis'8 cis'8 cis'8 d'8 cis'8 | d'8 cis'2. r8 |
+e'4. e'8 d'8 cis'8 cis'8 e'8 | a'2. r4 |
+a'4. fis'8 e'8 d'8 cis'8 e'8 | e'4.( d'8) cis'4. r8 |
+e'4. cis'8 cis'8 cis'8 e'8 d'8 | cis'2. r4 |
+cis'4@c cis'8 cis'8 cis'4 cis'4 | cis'8 cis'8 d'8 d'8 cis'4. r8 |
+e'4 e'8 e'8 e'4 e'4 | e'8 d'8 cis'8 e'8 a'4. r8 |
+a'4. fis'8 e'8 d'8 cis'8 e'8 | e'4.( d'8) cis'4. r8 |
+e'4. cis'8 cis'8 cis'8 e'8 d'8 | cis'2. r4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+e4. e8 e8 a8 a8 a8 | a8 e2. r8 |
+a4. a8 a8 a8 ais8 a8 | cis'2. r4 |
+cis'4. d'8 a8 gis8 a8 gis8 | a2 e4. r8 |
+a4. a8 a8 a8 a8 e8 | e2. r4 |
+e4@c e8 e8 e4 e4 | e8 a8 gis8 e8 e4. r8 |
+a4 a8 a8 a4 a4 | a8 a8 a8 a8 cis'4. r8 |
+cis'4. d'8 a8 gis8 a8 gis8 | a2 e4. r8 |
+a4. a8 a8 a8 a8 e8 | e2. r4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+a,4. a,8 a,8 a,8 a,8 a,8 | a,8 a,2. r8 |
+a4. a8 a8 a8 a8 a8 | a2. r4 |
+a4. a8 a8 e8 fis8 e8 | a2 a,4. r8 |
+a4. a8 fis8 fis8 e8 e8 | a,2. r4 |
+a,4@c a,8 a,8 a,4 a,4 | a,8 a,8 e8 e8 a,4. r8 |
+a4 a8 a8 a4 a4 | a8 a8 a8 a8 a4. r8 |
+a4. a8 a8 e8 fis8 e8 | a2 a,4. r8 |
+a4. a8 fis8 fis8 e8 e8 | a,2. r4
+"""
+
+[lyrics.1]
+text = "Time is filled with swift tran -- si -- tion,— Naught of earth un -- moved can stand,— Build your hopes on things e -- ter -- nal,— Hold to God’s un -- chang -- ing hand."
+
+[lyrics.2]
+text = "Trust in Him who will not leave you,— What -- so -- ev -- er years may bring,— If by earth -- ly friends for -- sak -- en,— Still more close -- ly to Him cling."
+
+[lyrics.3]
+text = "Cov -- et not this world's vain rich -- es,— That so rap -- id -- ly de -- cay,— Seek to gain the heav'n -- ly treas -- ures,— They, will nev -- er pass a -- way."
+[lyrics.4]
+text = "When your jour -- ney is com -- plet -- ed,— If to God you have been true,— Fair, and bright the home in glo -- ry,— Your en -- rap -- tured soul will view."
+
+
+[lyrics.chorus]
+text = "Hold to His hand to God’s un -- chang -- ing hand! Hold to His hand to God’s un -- chang -- ing hand! Build your hopes on things e -- ter -- nal,— Hold to God’s un -- chang -- ing hand."
