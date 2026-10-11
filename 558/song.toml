@@ -1,0 +1,84 @@
+title = "I’m Leaning On Jesus"
+copyrights = [
+  "Lyrics: Charlotte Alington Barnard [as Claribel] c. 1860 (public domain); chorus by H. N. Lincoln, 1897 (public domain)",
+  "Music: H. N. Lincoln, 1897 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "D"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 96
+verse_count = 4
+phrase_breaks = ["5:40", "9:48", "13:40"]
+optional_phrase_breaks = ["3:40", "7:40", "11:48", "15:40"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. s4 d'8 | fis'8. fis'16 fis'8 e'8 fis'8 g'8 | fis'4 e'8 d'4 fis'8 |
+a'4 a'8 g'8[ a'8] b'8 | a'4 g'8 fis'4 a'8 |
+d''4 d''8 cis''8[ d''8] e''8 | d''4 b'8 a'4 g'8 |
+fis'4 a'8 g'4 cis'8 | d'4.~ d'4 r8 |
+e'4@c fis'8 g'8 fis'8 e'8 | fis'4. a'4. | b'8 b'8 b'8 g'8 a'8 b'8 | a'4. fis'4 a'8 |
+d''4 d''8 cis''8 d''8 e''8 | d''4 b'8 a'4 g'8 |
+fis'4 a'8 g'4 cis'8 | d'4.~ d'4 s8
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. s4 d'8 | d'8. d'16 d'8 b8 dis'8 e'8 | d'4 cis'8 d'4 d'8 |
+fis'4 fis'8 e'8[ fis'8] g'8 | fis'4 e'8 d'4 e'16[ g'16] |
+fis'4 fis'8 fis'4 ais'8 | b'4 g'8 fis'4 d'8 |
+d'4 fis'8 e'4 a8 | a4.~ a4 r8 |
+cis'4@c d'8 e'8 d'8 cis'8 | d'4. fis'4. | g'8 g'8 g'8 g'8 g'8 g'8 | fis'4. d'4 e'16[ g'16] |
+fis'4 fis'8 fis'8 fis'8 ais'8 | b'4 g'8 fis'4 d'8 |
+d'4 fis'8 e'4 a8 | a4.~ a4 s8
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. s4 fis8 | a8. a16 a8 g8 a8 b8 | a4 g8 fis4 a8 |
+d'4 d'8 d'4 d'8 | d'4 a8 a4 a8 |
+b4 b8 ais8[ b8] cis'8 | b4 d'8 d'4 b8 |
+a4 a8 a4 g8 | fis4.~ fis4 r8 |
+a4@c a8 a8 a8 a8 | a4. d'4. | d'8 d'8 d'8 b8 cis'8 d'8 | d'4. a4 a8 |
+b4 b8 ais8 b8 cis'8 | b4 d'8 d'4 b8 |
+a4 a8 a4 g8 | fis4.~ fis4 s8
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. s4 d8 | d8. d16 d8 g8 fis8 e8 | a4 a,8 d4 d8 |
+d4 c8 b,4 g,8 | a,4 a,8 d4 cis8 |
+b,4 b,8 fis4 fis8 | g4 g8 d4 g,8 |
+a,4 a,8 a,4 a,8 | d4.~ d4 r8 |
+a,4@c a,8 a,8 a,8 a,8 | d4. d4. | g8 g8 g8 g8 g8 g8 | d4. d4 cis8 |
+b,4 b,8 fis8 fis8 fis8 | g4 g8 d4 g,8 |
+a,4 a,8 a,4 a,8 | d4.~ d4 s8
+"""
+
+[lyrics.1]
+text = "I’m lean -- ing on Je -- sus, my dear -- est friend, With Him my guide I’m tru -- ly blest, I’m weak, but He will con -- de -- scend To give sup -- port and rest."
+
+[lyrics.2]
+text = "I’m lean -- ing on Je -- sus, with child- -- like faith, To Him the fu -- ture I con -- fide; Each step of life’s un -- trod -- den path, His love shall sweet -- ly guide."
+
+[lyrics.3]
+text = "I’m lean -- ing on Je -- sus, tho’ faint and weak, His lov -- ing voice sa -- lutes my ear, His heav’n -- ly ac -- cents com -- fort speak, I have no cause to fear."
+
+[lyrics.4]
+text = "I’m lean -- ing on Je -- sus, no dread a -- larms, Al -- though I stand on death’s cold brink, I’ll feel His ev -- er -- last -- ing arms, I will not, can -- not sink."
+
+[lyrics.chorus]
+text = "O He sweet -- ly sup -- ports me, While on His bo -- som I’m lean -- ing, He’ll bear me o -- ver the sea of life, And bring me safe -- ly home."
