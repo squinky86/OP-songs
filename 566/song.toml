@@ -1,0 +1,85 @@
+title = "He Died of a Broken Heart"
+copyrights = [
+  "Lyrics and Music: Thomas Dennis, 1907 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 6
+time_sig_denominator = 4
+tempo_bpm = 150
+verse_count = 4
+phrase_breaks = ["4:80", "8:80", "12:80"]
+optional_phrase_breaks = ["3:32", "6:80", "10:80", "13:80"]
+non_breaking_phrase_breaks = ["11:32"]
+
+# The restored verses are in 3/4; the retained chorus uses 6/4 full bars.
+# Its one-beat pickup completes the final verse measure.
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 ees'8 aes'8 c''2 c''4 | aes'4-( bes'4-) c''4 des''2 c''4 |
+aes'2 c''4 c''2 bes'4 | aes'2 g'4 aes'2! f'8 aes'8 |
+des''2 des''4 des''4-( c''4-) bes'4 | c''2 c''4 bes'2 aes'4 |
+bes'4-( c''4-) des''4 c''2 bes'4 | aes'2.~ aes'2 ees'4@c | bes'4. bes'8 bes'4 des''4( c''4) bes'4 |
+aes'2 bes'4 c''2 c''4 | ees''4. des''8 c''4 c''4( bes'4) aes'4 | bes'2.~ bes'2 bes'4 | c''2 c''4 ees''4( des''4) c''4 |
+bes'2 c''4 des''4( c''4) bes'4 | aes'4. g'8 aes'4 c''2 bes'4 | aes'2.~ aes'2 s4
+"""
+
+[parts.Soprano.lyrics.chorus]
+text = "He died of a brok -- en heart for thee, He died of a brok -- en heart; O won -- drous love! it is for thee He died of a brok -- en heart."
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 c'8 c'8 ees'2 ees'4 | ees'4-( ees'4-) ees'4 f'2 ees'4 |
+c'2 ees'4 ees'2 ees'4 | ees'2 des'4 c'2! des'8 f'8 |
+f'2 f'4 f'4-( ees'4-) ees'4 | ees'2 ees'4 des'2 c'4 |
+f'4-( f'4-) f'4 ees'2 des'4 | c'2.~ c'2 ees'4@c | g'4. g'8 g'4 g'2 g'4 |
+aes'2 ees'4 aes'2 aes'4 | aes'4.( ees'8) ees'4  aes'4 aes'4 f'4 | ees'4( bes'4) aes'4 g'2 bes'4 | aes'2 aes'4 aes'4( ees'4) ees'4 |
+f'2 f'4 f'2 f'4 | ees'4. ees'8 ees'4 aes'2 g'8[ ees'8] | ees'2.~ ees'2 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 aes8 aes8 aes2 aes4 | aes4-( g4-) aes4 aes2 aes4 |
+ees2 aes4 aes2 aes4 | c'2 bes4 aes2! aes8 aes8 |
+aes2 aes4 aes4-( aes4-) g4 | aes2 aes4 g2 f4 |
+bes4-( a4-) bes4 c'4( bes4) g4 | aes2.~ aes2 c'4@c | des'4. des'8 des'4 f'4( ees'4) des'4 |
+c'2 ees'4 ees'2 ees'4 | c'4.( bes8) aes4 d'4 d'4 ees'4 | ees'2 d'4 des'2 ees'4 | ees'2 ees'4 c'4( bes4) aes4 |
+aes2 a4 bes4( ees'4) des'4 | c'4. bes8 c'4 ees'2 des'4 | c'2.~ c'2 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 aes,8 aes,8 aes,2 aes,4 | c4-( bes,4-) aes,4 des2 aes,4 |
+aes,2 aes,4 aes,2 des4 | ees2 ees4 aes,2! des8 des8 |
+des2 f4 aes4-( aes4-) ees4 | aes,2 c4 ees2 f4 |
+des4-( c4-) bes,4 ees2 ees4 | aes,2.~ aes,2 aes4@c | ees4. ees8 ees4 ees2 e4 |
+f2 g4 aes2 aes4 | aes4.( g8) aes4 f4 f4 bes8[ aes8] | g2 f4 ees2 g4 | aes2 aes4 aes4( g4) aes4 |
+des2 c4 bes,4( c4) des4 | ees4. ees8 ees4 ees2 ees4 | aes,2.~ aes,2 s4
+"""
+
+[lyrics.1]
+text = "Have you read the sto -- _ -- ry of the cross, Where Je -- sus bled and died, Where your debt was paid by the pre -- cious blood That flowed from His wound -- ed side?"
+
+[lyrics.2]
+text = "Have you read how they placed the crown of thorns Up -- on His king -- ly brow, How He cried, “They know _ not what they do; O Fa -- ther, for -- give them now”?"
+
+[lyrics.3]
+text = "Have you read how‿the dy -- _ -- ing thief was saved While hang -- ing on the tree, When he looked with plead -- _ -- ing eyes and said, “O Lord, _ re -- mem -- ber me”?"
+
+[lyrics.4]
+text = "Have you read how‿in an -- guish He cried a -- loud And died on Cal -- va -- ry? Have you ev -- er said, _ “I thank Thee, Lord, For giv -- ing Thy life for me”?"
+
+[lyrics.chorus]
+text = "He died of a brok -- en heart for thee, He died He died of a brok -- en heart; O won -- drous love! it is for thee He died of a brok -- en heart."
