@@ -29,6 +29,12 @@ aes'2. {3 aes'8[ bes'8] c''8 } | ees''2. {3 c''8[ bes'8] aes'8 } |
 c''2( aes'4) {3 ees'8[ f'8] g'8 } | aes'2. s4
 """
 
+[parts.Soprano.lyrics.chorus]
+text = "Bless -- ed thought, there to dwell, In that home of the soul; End -- less praise we shall swell, In that home of the soul."
+
+[parts.Soprano.lyrics.s1]
+text = "In that home of the soul;"
+
 [parts.Alto]
 choral_type = "alto"
 clef = "treble"
@@ -44,12 +50,6 @@ ees'4 f'4 ees'4 f'8. des'16 | c'4 ees'8. des'16 c'4 r4 |
 ees'4 f'4 ees'4 {3 ees'4 ees'8 } | aes'4 g'4 aes'4 r4 |
 ees'4 f'4 c'4 {3 bes8[ c'8] des'8 } | c'2. s4
 """
-
-[parts.Alto.lyrics.chorus]
-text = "Bless -- ed tho’t, there to ev -- er dwell, In that home of the soul; of the soul; End -- less praise we shall glad -- ly swell, In that home of the soul."
-
-[parts.Alto.lyrics.s1]
-text = "In that home of the soul; of the soul;"
 
 [parts.Tenor]
 choral_type = "tenor"
@@ -67,12 +67,6 @@ c'4 c'4 c'4 {3 c'8[ bes8] aes8 } | c'4 bes4 c'4 r4 |
 aes4 aes4 aes4 {3 g8[ aes8] ees8 } | ees2. s4
 """
 
-[parts.Tenor.lyrics.chorus]
-text = "Bless -- ed tho’t, there to ev -- er dwell, In that home of the soul; of the soul; End -- less praise we shall glad -- ly swell, In that home of the soul."
-
-[parts.Tenor.lyrics.s1]
-text = "In that home of the soul; of the soul;"
-
 [parts.Bass]
 choral_type = "bass"
 clef = "bass"
@@ -89,12 +83,6 @@ aes4 f4 aes4 {3 aes4 aes8 } | aes4 ees4 aes4 r4 |
 aes4 f4 ees4 {3 ees4 ees8 } | aes,2. s4
 """
 
-[parts.Bass.lyrics.chorus]
-text = "Bless -- ed tho’t, there to ev -- er dwell, In that home of the soul; of the soul; End -- less praise we shall glad -- ly swell, In that home of the soul."
-
-[parts.Bass.lyrics.s1]
-text = "In that home of the soul; of the soul;"
-
 [lyrics.1]
 text = "Soon the toils of life will cease, Then no sor -- row we shall know, @s1 There we’ll dwell in joy and peace, Robed in gar -- ments white as snow, In that home of the soul."
 
@@ -105,7 +93,7 @@ text = "There the Sav -- iour we shall see, And His glo -- ry ev -- er share, @s
 text = "While the a -- ges on -- ward roll, Round the shin -- ing throne we’ll sing, @s1 With the an -- gels we’ll ex -- tol, Him, the Christ, our Lord, and King, In that home of the soul."
 
 [lyrics.chorus]
-text = "Bless -- ed thought, there to dwell, In that home of the soul; End -- less praise we shall swell, In that home of the soul."
+text = "Bless -- ed tho’t, there to ev -- er dwell, In that home of the soul; of the soul; End -- less praise we shall glad -- ly swell, In that home of the soul."
 
 [lyrics.s1]
-text = "In that home of the soul;"
+text = "In that home of the soul; of the soul;"
