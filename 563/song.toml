@@ -13,21 +13,6 @@ phrase_breaks = ["3:48", "5:48", "7:48", "9:32", "13:48", "15:48"]
 optional_phrase_breaks = ["11:32"]
 optional_break_threshold_ticks = 148
 
-[lyrics.1]
-text = "O they tell me of a home far be -- yond the skies, O they tell me of a home far a -- way; O they tell me of a home where no storm clouds rise, O they tell me of an un -- cloud -- ed day."
-
-[lyrics.2]
-text = "O they tell me of a home where my friends have gone, O they tell me of that land far a -- way, Where the tree _ of _ life in e -- ter -- nal bloom Sheds its fra -- grance through the un -- cloud -- ed day."
-
-[lyrics.3]
-text = "O they tell me of a King in His beau -- ty there, And they tell me that mine eyes shall be -- hold Where He sits on the throne that is whit -- er than snow, In the ci -- ty that is made of _ gold."
-
-[lyrics.4]
-text = "O they tell me that He smiles on His child -- ren there, And His smile drives their sor -- rows all a -- way; And they tell me that no tears ev -- er come a -- gain In that love -- ly land of un -- cloud -- ed day."
-
-[lyrics.chorus]
-text = "O the land of cloud -- less day, O the land of an un -- cloud -- ed sky, O they tell me of a home where no storm clouds rise, O they tell me of an un -- cloud -- ed day."
-
 [parts.Soprano]
 choral_type = "soprano"
 clef = "treble"
@@ -87,3 +72,18 @@ g4 g8. a16 g4 g8. g16 | d2. d8. d16 |
 g,8. g,16 g,8. g,16 g,4 g,8. g,16 | c4 e4 g4! g8.! g16 |
 g8. g16 g8. g16 d4 d8. d16 | g,2. s4
 """
+
+[lyrics.1]
+text = "O they tell me of a home far be -- yond the skies, O they tell me of a home far a -- way; O they tell me of a home where no storm clouds rise, O they tell me of an un -- cloud -- ed day."
+
+[lyrics.2]
+text = "O they tell me of a home where my friends have gone, O they tell me of that land far a -- way, Where the tree _ of _ life in e -- ter -- nal bloom Sheds its fra -- grance through the un -- cloud -- ed day."
+
+[lyrics.3]
+text = "O they tell me of a King in His beau -- ty there, And they tell me that mine eyes shall be -- hold Where He sits on the throne that is whit -- er than snow, In the ci -- ty that is made of _ gold."
+
+[lyrics.4]
+text = "O they tell me that He smiles on His child -- ren there, And His smile drives their sor -- rows all a -- way; And they tell me that no tears ev -- er come a -- gain In that love -- ly land of un -- cloud -- ed day."
+
+[lyrics.chorus]
+text = "O the land of cloud -- less day, O the land of an un -- cloud -- ed sky, O they tell me of a home where no storm clouds rise, O they tell me of an un -- cloud -- ed day."
