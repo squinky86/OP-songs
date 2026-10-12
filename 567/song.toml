@@ -1,0 +1,111 @@
+title = "In that Home of the Soul"
+copyrights = [
+  "Lyrics and Music: James W. Gaines, 1907 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 3
+phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "13:48"]
+optional_phrase_breaks = ["11:48", "15:48"]
+non_breaking_phrase_breaks = ["4:48", "5:16", "8:48"]
+optional_break_threshold_ticks = 148
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. ees'8. f'16 |
+aes'8. aes'16 aes'8. bes'16 aes'4 aes'8. bes'16 | c''8. bes'16 aes'8. g'16 aes'4 c''8. bes'16 |
+aes'2. aes'8. f'16 | ees'2. ees'8. f'16 |
+aes'8. aes'16 aes'8. bes'16 aes'4 aes'8. bes'16 | c''8. bes'16 aes'8. g'16 aes'4 {3 c''8[ bes'8] aes'8 } |
+c''2( aes'4) {3 ees'8[ f'8] g'8 } | aes'2. ees'8.@c f'16 |
+aes'2. {3 aes'8[ bes'8] c''8 } | ees''2. c''8. bes'16 |
+aes'2. aes'8. f'16 | ees'2. ees'8. f'16 |
+aes'2. {3 aes'8[ bes'8] c''8 } | ees''2. {3 c''8[ bes'8] aes'8 } |
+c''2( aes'4) {3 ees'8[ f'8] g'8 } | aes'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. c'8. des'16 |
+c'8. c'16 ees'8. des'16 c'4 c'8. des'16 | ees'8. ees'16 ees'8. des'16 c'4 r4 |
+ees'4 f'4 ees'4 f'8. des'16 | c'4 ees'8. des'16 c'4 c'8. des'16 |
+c'8. c'16 ees'8. des'16 c'4 c'8. des'16 | ees'8. ees'16 ees'8. des'16 c'4 r4 |
+ees'4 f'4 c'4 {3 bes8[ c'8] des'8 } | c'2. r4@c |
+ees'4 f'4 ees'4 {3 ees'4 ees'8 } | aes'4 g'4 aes'4 r4 |
+ees'4 f'4 ees'4 f'8. des'16 | c'4 ees'8. des'16 c'4 r4 |
+ees'4 f'4 ees'4 {3 ees'4 ees'8 } | aes'4 g'4 aes'4 r4 |
+ees'4 f'4 c'4 {3 bes8[ c'8] des'8 } | c'2. s4
+"""
+
+[parts.Alto.lyrics.chorus]
+text = "Bless -- ed tho’t, there to ev -- er dwell, In that home of the soul; of the soul; End -- less praise we shall glad -- ly swell, In that home of the soul."
+
+[parts.Alto.lyrics.s1]
+text = "In that home of the soul; of the soul;"
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. aes8. aes16 |
+ees8. ees16 aes8. g16 aes4 aes8. aes16 | aes8. g16 aes8. bes16 aes4 r4 |
+c'4 c'4 c'4 des'8. aes16 | aes4 aes8. g16 aes4 aes8. aes16 |
+ees8. ees16 aes8. g16 aes4 aes8. aes16 | aes8. g16 aes8. bes16 aes4 r4 |
+aes4 aes4 aes4 {3 g8[ aes8] ees8 } | ees2. r4@c |
+c'4 c'4 c'4 {3 c'8[ bes8] aes8 } | c'4 bes4 c'4 r4 |
+c'4 c'4 c'4 des'8. aes16 | aes4 aes8. g16 aes4 r4 |
+c'4 c'4 c'4 {3 c'8[ bes8] aes8 } | c'4 bes4 c'4 r4 |
+aes4 aes4 aes4 {3 g8[ aes8] ees8 } | ees2. s4
+"""
+
+[parts.Tenor.lyrics.chorus]
+text = "Bless -- ed tho’t, there to ev -- er dwell, In that home of the soul; of the soul; End -- less praise we shall glad -- ly swell, In that home of the soul."
+
+[parts.Tenor.lyrics.s1]
+text = "In that home of the soul; of the soul;"
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. aes,8. aes,16 |
+aes,8. aes,16 c8. ees16 aes4 aes8. aes16 | aes8. ees16 c8. ees16 aes,4 r4 |
+aes4 f4 aes4 des8. des16 | aes,4 c8. ees16 aes4 aes,8. aes,16 |
+aes,8. aes,16 c8. ees16 aes4 aes8. aes16 | aes8. ees16 c8. ees16 aes,4 r4 |
+aes4 f4 ees4 {3 ees4 ees8 } | aes,2. r4@c |
+aes4 f4 aes4 {3 aes4 aes8 } | aes4 ees4 aes4 r4 |
+aes4 f4 aes4 des8. des16 | aes,4 c8. ees16 aes4 r4 |
+aes4 f4 aes4 {3 aes4 aes8 } | aes4 ees4 aes4 r4 |
+aes4 f4 ees4 {3 ees4 ees8 } | aes,2. s4
+"""
+
+[parts.Bass.lyrics.chorus]
+text = "Bless -- ed tho’t, there to ev -- er dwell, In that home of the soul; of the soul; End -- less praise we shall glad -- ly swell, In that home of the soul."
+
+[parts.Bass.lyrics.s1]
+text = "In that home of the soul; of the soul;"
+
+[lyrics.1]
+text = "Soon the toils of life will cease, Then no sor -- row we shall know, @s1 There we’ll dwell in joy and peace, Robed in gar -- ments white as snow, In that home of the soul."
+
+[lyrics.2]
+text = "There the Sav -- iour we shall see, And His glo -- ry ev -- er share, @s1 Re -- u -- nit -- ed we shall be, With the ran -- somed o -- ver there, In that home of the soul."
+
+[lyrics.3]
+text = "While the a -- ges on -- ward roll, Round the shin -- ing throne we’ll sing, @s1 With the an -- gels we’ll ex -- tol, Him, the Christ, our Lord, and King, In that home of the soul."
+
+[lyrics.chorus]
+text = "Bless -- ed thought, there to dwell, In that home of the soul; End -- less praise we shall swell, In that home of the soul."
+
+[lyrics.s1]
+text = "In that home of the soul;"
