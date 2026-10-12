@@ -1,0 +1,92 @@
+title = "He’s Coming Again"
+copyrights = [
+  "Lyrics and Music: Franklin L. Eiland, 1905 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Eb"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 95
+verse_count = 4
+phrase_breaks = ["5:40", "9:48", "13:40"]
+optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
+non_breaking_phrase_breaks = ["11:24", "13:24"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s8 ees'8 | g'8 bes'8 bes'8 g'8 f'8 ees'8 | ees'8 f'8 g'8 bes'4 r8 |
+ees''4. f''8 ees''8 c''8 | ees''4.~ ees''4 ees'8 |
+g'8 bes'8 bes'8 g'8 f'8 ees'8 | ees'8 f'8 g'8 bes'4 r8 |
+g'4. f'8 g'8 f'8 | ees'4.~ ees'4 r8 |
+bes'4.@c g'8 bes'8 bes'8 | bes'4.~ bes'4! r8 |
+ees''4. f''8 ees''8 c''8 | ees''4.~ ees''4! ees'8 |
+g'8 bes'8 bes'8 g'8 f'8 ees'8 | ees'8 f'8 g'8 bes'4 r8 |
+g'4. f'8 g'8 f'8 | ees'4.~ ees'4 s8
+"""
+
+[parts.Soprano.lyrics.chorus]
+text = "He’s com -- ing a -- gain! He’s com -- ing a -- gain! Be watch -- ing and wait -- ing that sight to be -- hold; He’s com -- ing a -- gain!"
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s8 bes8 | ees'8 g'8 g'8 ees'8 bes8 bes8 | bes8 bes8 ees'8 g'4 r8 |
+g'4. aes'8 aes'8 aes'8 | g'4.~ g'4 bes8 |
+ees'8 g'8 g'8 ees'8 bes8 bes8 | bes8 bes8 ees'8 g'4 r8 |
+ees'4. d'8 ees'8 bes8 | bes4.~ bes4 r8 |
+g'4.@c ees'8 g'8 g'8 | g'4. aes'8 g'8! r8 |
+g'4. aes'8 aes'8 aes'8 | g'4. fis'8 g'8! bes8 |
+ees'8 g'8 g'8 ees'8 bes8 bes8 | bes8 bes8 ees'8 g'4 r8 |
+ees'4. d'8 ees'8 bes8 | bes4.~ bes4 s8
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 s8 g8 | bes8 ees'8 ees'8 bes8 aes8 g8 | g8 aes8 bes8 ees'4 r8 |
+bes4. c'8 c'8 ees'8 | ees'4( bes8 bes4) g8 |
+bes8 ees'8 ees'8 bes8 aes8 g8 | g8 aes8 bes8 ees'4 r8 |
+bes4. aes8 bes8 aes8 | g4.~ g4 r8 |
+ees'4.@c bes8 ees'8 ees'8 | ees'4. f'8 ees'8! r8 |
+bes4. c'8 c'8 ees'8 | ees'4( bes8) c'8 bes8! g8 |
+bes8 ees'8 ees'8 bes8 aes8 g8 | g8 aes8 bes8 ees'4 r8 |
+bes4. aes8 bes8 aes8 | g4.~ g4 s8
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 s8 ees8 | ees8 ees8 ees8 ees8 ees8 ees8 | ees8 ees8 ees8 ees4 r8 |
+ees4. aes8 aes8 aes8 | ees4.~ ees4 ees8 |
+ees8 ees8 ees8 ees8 ees8 ees8 | ees8 ees8 ees8 ees4 r8 |
+ees4. bes,8 bes,8 bes,8 | ees4.~ ees4 r8 |
+ees4.@c ees8 ees8 ees8 | ees4. bes,8 ees8! r8 |
+ees4. aes8 aes8 aes8 | ees4. c8 ees8! ees8 |
+ees8 ees8 ees8 ees8 ees8 ees8 | ees8 ees8 ees8 ees4 r8 |
+ees4. bes,8 bes,8 bes,8 | ees4.~ ees4 s8
+"""
+
+[lyrics.1]
+text = "O would you be num -- bered as one of His fold? Be spot -- less with -- in; Be watch -- ing and wait -- ing that sight to be -- hold, He’s com -- ing a -- gain!"
+
+[lyrics.2]
+text = "Not known is the mo -- ment when He shall ap -- pear, To gath -- er them in; The souls who have fol -- lowed Him faith -- ful -- ly here; He’s com -- ing a -- gain!"
+
+[lyrics.3]
+text = "The voice of His Spir -- it says, read -- y, then be, O will you be -- gin? If peace in His pres -- ence you hope then to see; He’s com -- ing a -- gain!"
+
+[lyrics.4]
+text = "Risk not, an ac -- cept -- ance of Him in that day, All cov -- ered with sin, Be robed and all read -- y, the Spir -- it doth say, He’s com -- ing a -- gain!"
+
+[lyrics.chorus]
+text = "He’s com -- ing a -- gain! a -- gain! He’s com -- ing a -- gain! a -- gain! Be watch -- ing and wait -- ing that sight to be -- hold; He’s com -- ing a -- gain!"
