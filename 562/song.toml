@@ -1,0 +1,119 @@
+title = "After While"
+copyrights = [
+  "Lyrics and Music: James H. Boley, 1915 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "A"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 4
+phrase_breaks = ["4:64", "8:48", "12:64"]
+optional_phrase_breaks = ["2:64", "6:64", "10:48", "14:64"]
+non_breaking_phrase_breaks = ["8:16", "12:16"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+e'4. d'8 cis'8 e'8 fis'8 a'8 | a'4 cis''2 r4 |
+cis''4. b'8 a'8 a'8 a'8 a'8 | cis''2. r4 |
+a'4. e'8 fis'8 e'8 fis'8 a'8 | cis''4 e''2 r4 |
+cis''4. b'8 a'8! r8! b'8. cis''16 | a'2. cis''8.@c bis'16 |
+cis''2( a'4) b'8. cis''16 | a'2. a'8. a'16 |
+a'2. a'8. fis'16 | e'2.! r4 |
+a'4. e'8 fis'8 e'8 fis'8 a'8 | cis''4 e''2 r4 |
+cis''4. b'8 a'8! r8! b'8. cis''16 | a'1
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+cis'4. b8 a8 cis'8 cis'8 cis'8 | cis'4 e'2 r4 |
+a'4. gis'8 fis'8 fis'8 e'8 e'8 | a'2. r4 |
+cis'4. cis'8 d'8 cis'8 cis'8 cis'8 | e'4 a'2 r4 |
+a'4. gis'8 fis'8! r8! gis'8. gis'16 | a'4 fis'8 fis'8 e'4 r4@c |
+e'4 fis'4 d'4 r4 | e'4 fis'4 e'4 r4 |
+fis'4 fis'4 fis'4 fis'8. d'16 | cis'4 e'8. d'16 cis'4! r4 |
+cis'4. cis'8 d'8 cis'8 cis'8 cis'8 | e'4 a'2 r4 |
+a'4. gis'8 fis'8! r8! gis'8. gis'16 | a'4 fis'8 fis'8 e'2
+"""
+
+[parts.Alto.lyrics.1]
+text = "As I con -- tem -- plate life’s jour -- ney, Thro’ a world of sin and strife, There’s a thought that steals up -- on me, Whis -- p’ring joy aft -- er while. aft -- er while. @s1 Blest will be the way- -- worn pil -- grims, Some sweet day aft -- er while. aft -- er while."
+
+[parts.Alto.lyrics.2]
+text = "’Tis a thought of migh -- ty won -- der, Clad in forms of sac -- red style, To be -- hold the things e -- ter -- nal, That shall be aft -- er while. aft -- er while. @s1 We shall view e -- ter -- nal re -- gions, Some sweet day aft -- er while. aft -- er while."
+
+[parts.Alto.lyrics.3]
+text = "What shall be the scenes that greet us? Shall we view them with a smile? What shall be the joys and sor -- rows? O just think aft -- er while. aft -- er while. @s1 Bliss the Chris -- tian’s ha -- bi -- ta -- tion, Some sweet day aft -- er while. aft -- er while."
+
+[parts.Alto.lyrics.4]
+text = "Then we’ll know of high -- er great -- ness Than the world hath e’er com -- piled; Then we’ll rest from all our la -- bors, Some sweet day aft -- er while. aft -- er while. @s1 We shall rest from all our la -- bors, Some sweet day aft -- er while. aft -- er while."
+
+[parts.Alto.lyrics.s1]
+text = "Aft -- er while, aft -- er while, Some sweet day aft -- er while, aft -- er while,"
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+a4. a8 a8 a8 a8 a8 | a4 a2 r4 |
+e'4. d'8 cis'8 cis'8 cis'8 cis'8 | e'2. r4 |
+a4. a8 a8 a8 a8 a8 | a4 cis'2 r4 |
+e'4. d'8 cis'8! r8! d'8. e'16 | cis'4 d'8 d'8 cis'4 r4@c |
+a4 a4 a4 r4 | cis'4 cis'4 cis'4 r4 |
+a4 a4 a4 a8. a16 | a2.! r4 |
+a4. a8 a8 a8 a8 a8 | a4 cis'2 r4 |
+e'4. d'8 cis'8! r8! d'8. e'16 | cis'4 d'8 d'8 cis'2
+"""
+
+[parts.Tenor.lyrics.1]
+text = "As I con -- tem -- plate life’s jour -- ney, Thro’ a world of sin and strife, There’s a thought that steals up -- on me, Whis -- p’ring joy aft -- er while. aft -- er while. @s1 Blest will be the way- -- worn pil -- grims, Some sweet day aft -- er while. aft -- er while."
+
+[parts.Tenor.lyrics.2]
+text = "’Tis a thought of migh -- ty won -- der, Clad in forms of sac -- red style, To be -- hold the things e -- ter -- nal, That shall be aft -- er while. aft -- er while. @s1 We shall view e -- ter -- nal re -- gions, Some sweet day aft -- er while. aft -- er while."
+
+[parts.Tenor.lyrics.3]
+text = "What shall be the scenes that greet us? Shall we view them with a smile? What shall be the joys and sor -- rows? O just think aft -- er while. aft -- er while. @s1 Bliss the Chris -- tian’s ha -- bi -- ta -- tion, Some sweet day aft -- er while. aft -- er while."
+
+[parts.Tenor.lyrics.4]
+text = "Then we’ll know of high -- er great -- ness Than the world hath e’er com -- piled; Then we’ll rest from all our la -- bors, Some sweet day aft -- er while. aft -- er while. @s1 We shall rest from all our la -- bors, Some sweet day aft -- er while. aft -- er while."
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+a,4. a,8 a,8 a,8 a,8 a,8 | a4 a2 r4 |
+a4. e8 fis8 fis8 a8 a8 | a2. r4 |
+a,4. a,8 a,8 a,8 a,8 a,8 | a4 a2 r4 |
+a4. e8 fis8! r8! e8. e16 | a,2. r4@c |
+a4 fis4 a4 r4 | a4 fis4 a4 r4 |
+d4 d4 d4 d8. d16 | a,4 cis8. e16 a,4! r4 |
+a,4. a,8 a,8 a,8 a,8 a,8 | a4 a2 r4 |
+a4. e8 fis8! r8! e8. e16 | a,1
+"""
+
+[parts.Bass.lyrics.s1]
+text = "Aft -- er while, aft -- er while, Some sweet day aft -- er while, aft -- er while,"
+
+[lyrics.1]
+text = "As I con -- tem -- plate life’s jour -- ney, Thro’ a world of sin and strife, There’s a thought that steals up -- on me, Whis -- p’ring joy aft -- er while. @s1 Blest will be the way- -- worn pil -- grims, Some sweet day aft -- er while."
+
+[lyrics.2]
+text = "’Tis a thought of migh -- ty won -- der, Clad in forms of sac -- red style, To be -- hold the things e -- ter -- nal, That shall be aft -- er while. @s1 We shall view e -- ter -- nal re -- gions, Some sweet day aft -- er while."
+
+[lyrics.3]
+text = "What shall be the scenes that greet us? Shall we view them with a smile? What shall be the joys and sor -- rows? O just think aft -- er while. @s1 Bliss the Chris -- tian’s ha -- bi -- ta -- tion, Some sweet day aft -- er while."
+
+[lyrics.4]
+text = "Then we’ll know of high -- er great -- ness Than the world hath e’er com -- piled; Then we’ll rest from all our la -- bors, Some sweet day aft -- er while. @s1 We shall rest from all our la -- bors, Some sweet day aft -- er while."
+
+[lyrics.s1]
+text = "Aft -- er while, aft -- er while, Some sweet day aft -- er while,"
