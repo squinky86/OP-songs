@@ -1,0 +1,95 @@
+title = "Oh, the Things We May Do"
+copyrights = [
+  "Lyrics: Lizzie DeArmond, 1916 (public domain)",
+  "Music: James Monroe Hagan, 1916 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 3
+phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "11:48", "13:48", "15:48"]
+non_breaking_phrase_breaks = ["11:16", "13:16", "17:16"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. ees'8 aes'8 | c''4 bes'8 c''8 aes'4 aes'8 aes'8 | bes'4 bes'4 f'4 f'8 aes'8 |
+g'4 g'8 aes'8 bes'8[ c''8] des''4 | c''2. ees'8 aes'8 |
+c''4 bes'8 c''8 aes'4 aes'8 aes'8 | bes'4 bes'4 f'4 f'8 aes'8 |
+g'4 c''8 des''8 c''4 bes'4 | aes'2. aes'8@c g'8 |
+f'4 des''8 c''8 des''4 g'8 f'8 | ees'4 c''8 b'8 c''4 aes'8 g'8 |
+f'4 f'8 aes'8 c''4 bes'8 aes'8 | ees''2. c''8 des''8 |
+ees''4 ees''8 ees''8 ees''4 aes'8 aes'8 | bes'4 c''8. c''16 des''4! f'8 aes'8 |
+g'4 c''8 des''8 c''4 bes'8 bes'8 | aes'1
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. c'8 c'8 | ees'4 des'8 ees'8 c'4 ees'8 ees'8 | des'4 des'4 des'4 d'8 d'8 |
+ees'4 des'8 c'8 ees'4 ees'4 | ees'2. c'8 c'8 |
+ees'4 des'8 ees'8 c'4 ees'8 ees'8 | des'4 des'4 des'4 d'8 d'8 |
+ees'4 ees'8 ees'8 ees'4 des'4 | c'2. c'8@c ees'8 |
+des'4 f'8 f'8 f'4 ees'8 des'8 | c'4 ees'8 d'8 ees'4 c'8 ees'8 |
+des'4 des'8 des'8 ees'4 ees'8 f'8 | g'4 bes'8 aes'8 g'4 ees'8 ees'8 |
+aes'4 aes'8 aes'8 aes'4 ees'8 ees'8 | f'4 f'8. f'16 f'4! d'8 d'8 |
+ees'4 ees'8 ees'8 ees'4 des'8 des'8 | c'4 des'8 des'8 c'2
+"""
+
+[parts.Alto.lyrics.chorus]
+text = "Oh, the things we may do, you and I, you and I; Oh, the love we can give if we try; if we try; Just a word or a song as we’re pass -- ing a -- long, They will count in the great by and by. by and by."
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. aes8 aes8 | aes4 aes8 aes8 ees4 aes8 aes8 | f4 f4 bes4 bes8 bes8 |
+bes4 bes8 aes8 g8[ aes8] bes4 | aes2. aes8 aes8 |
+aes4 aes8 aes8 ees4 aes8 aes8 | f4 f4 bes4 bes8 bes8 |
+bes4 aes8 bes8 aes4 g4 | aes2. aes8@c aes8 |
+aes4 aes8 aes8 aes4 aes8 aes8 | aes2. aes8 aes8 |
+aes4 aes8 aes8 aes4 bes8 bes8 | bes4 des'8 c'8 bes4 aes8 bes8 |
+c'4 c'8 c'8 c'4 c'8 c'8 | bes4 a8. a16 bes4! bes8 bes8 |
+bes4 aes8 bes8 aes4 g8 g8 | aes4 f8 f8 ees2
+"""
+
+[parts.Tenor.lyrics.chorus]
+text = "Oh, the things we may do, you and I, Oh, the love we can give if we try; if we try; Just a word or a song as we’re pass -- ing a -- long, They will count in the great by and by. by and by."
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. aes,8 aes,8 | aes,4 aes,8 aes,8 aes,4 c8 c8 | des4 des4 des4 bes,8 bes,8 |
+ees4 ees8 ees8 ees4 ees4 | aes2. aes,8 aes,8 |
+aes,4 aes,8 aes,8 aes,4 c8 c8 | des4 des4 des4 bes,8 bes,8 |
+ees4 ees8 ees8 ees4 ees4 | aes,2. aes,8@c c8 |
+des4 des8 des8 des4 des8 des8 | aes,2. aes,8 c8 |
+des4 des8 f8 aes4 g8 f8 | ees2. aes8 aes8 |
+aes4 aes8 aes8 aes4 aes,8 aes,8 | des4 c8. c16 bes,4! bes,8 bes,8 |
+ees4 ees8 ees8 ees4 ees8 ees8 | aes,1
+"""
+
+[parts.Bass.lyrics.chorus]
+text = "Oh, the things we may do, you and I, Oh, the love we can give if we try; Just a word or a song as we’re pass -- ing a -- long, They will count in the great by and by."
+
+[lyrics.1]
+text = "Have you lift -- ed a stone from your broth -- er’s way, As he strug -- gled a -- long life’s road? Have you lov -- ing -- ly touched some frail, toil- -- worn hand, Shared with some one their heav -- y load?"
+
+[lyrics.2]
+text = "Have you spok -- en a word full of hope and cheer? Have you walked with a slow -- er pace, Till the wea -- ry of heart who were stum -- bling on, Took new cour -- age to run the race?"
+
+[lyrics.3]
+text = "Have you held up your light thro’ the shad -- ows dark, So that some -- bod -- y else might see? Have you lived with the Christ thro’ the long, long day, Gain -- ing ma -- ny a vic -- to -- ry?"
+
+[lyrics.chorus]
+text = "Oh, the things we may do, you and I, you and I; Oh, the love we can give if we try; Just a word or a song as we’re pass -- ing a -- long, They will count in the great by and by."
