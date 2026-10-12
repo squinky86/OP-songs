@@ -12,8 +12,6 @@ phrase_breaks = ["4:80", "8:80", "12:80"]
 optional_phrase_breaks = ["3:32", "6:80", "10:80", "13:80"]
 non_breaking_phrase_breaks = ["11:32"]
 
-# The restored verses are in 3/4; the retained chorus uses 6/4 full bars.
-# Its one-beat pickup completes the final verse measure.
 [parts.Soprano]
 choral_type = "soprano"
 clef = "treble"

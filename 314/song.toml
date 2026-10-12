@@ -1,58 +1,7 @@
-# Source: hymnary.org's NWC2MusicXML export of the Cyber Hymnal NWC
-# ("m-o-r-More like the Master.xml"), checked note-for-note against the Cyber
-# Hymnal's own engraving (Wayback snapshot of
-# hymntime.com/tch/pdf/m/o/r/More like the Master.pdf) and its .nwc.  The NWC
-# names its sources as American Baptist Hymnal (1960) #96 and Tabernacle Hymns
-# Number Four (1953).  Lyrics are the Cyber Hymnal page text (Wayback), which
-# is identical to the underlay printed in that score; author identity confirmed
-# from the credit line (Charles H. Gabriel, words and music).
-#
-# Export defects corrected against the print:
-#  * Lyric underlay ran one slot early from m.11 on, because a layer-2 note at
-#    m.11 beat 4 (the alto Gb of the A-dim chord) was given a slot of its own.
-#    Re-seated: each 4-bar line carries 3-2-4-1 syllables (3-3-4-1 in verse
-#    lines 3 and 4, which are 11 syllables).
-#  * Layers 1 and 2 swap voices from bar to bar wherever a voice sustains, so
-#    the four parts were rebuilt by pitch at each onset (higher = soprano /
-#    tenor) with the constraint that exactly two voices sound at every onset.
-#    That also relocates m.18's layer-2 Ab, which the export placed on beat 3
-#    but the print shows on beat 4.
-#  * Ties are serialised one occurrence late (the stop lands on the *next*
-#    matching pitch); re-derived from the printed slurs and syllable counts.
-#  * Beams in the export are plain XML beams, not melismas, and were dropped.
-#
-# GUESS / open editorial call - the refrain texture.  M.17-32 is engraved as
-# melody plus a three-part homorhythmic accompaniment, not as SATB: alto,
-# tenor and bass have only two notes where the melody has four syllables
-# (m.19, 23, 27) and four where it has two (m.18, 22, 26).  No underlay lets
-# them sing the words in step with the soprano.  The slurs below are chosen so
-# each lower part consumes exactly ten syllables per refrain line and re-syncs
-# with the melody at every line end; mid-line they run up to two syllables
-# ahead of it.  The /+72 and /+48 dedup offsets in m.18/19, 22/23 and 26/27
-# pull those parts' fingerprints back onto the melody's syllable ticks so the
-# refrain prints as one lyric row, the way the source engraves it; without
-# them the lower parts stack a second, differently-spaced row.  A genuine
-# SATB printing (Baptist Hymnal 1956 #325, American Baptist Hymnal 1960 #96)
-# would settle the whole question and is worth substituting.
-#
-# Other reconstructions:
-#  * M.16 carries no lyric of its own in the print: the melody holds "do"
-#    while alto and tenor run up in parallel thirds.  Encoded as a six-eighth
-#    beamed melisma in those two parts, tied holds in soprano and bass.
-#  * The lower staff prints a single notehead at m.30 beat 1 and m.31 beats
-#    1-2 (and m.22 beat 4, where the file is explicit); read as tenor/bass
-#    unison, which is how NWC draws a unison.  Harmonically complete either
-#    way, but a printed edition might put the bass an octave lower.
-#  * Every bare A/B/D/G below is a printed natural (m.3, 11, 13, 15, 16, 27,
-#    29) and each is corroborated harmonically - no missing <alter>.
-#  * Tempo is the printed mark, quarter = 135; the Cyber Hymnal MIDI encodes
-#    140.  Fast for congregational use; lower it if it sounds hurried.
-#  * Subtitle left empty: hymnary lists no tune name for this tune.
 title = "More Like the Master"
-subtitle = ""
 copyrights = [
-  "Lyrics: Charles H. Gabriel, 1906 (public domain)",
-  "Music: Charles H. Gabriel, 1906 (public domain)",
+  "Lyrics and Music: Charles H. Gabriel, 1906 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
 key_signature = "Db"

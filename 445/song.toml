@@ -1,18 +1,17 @@
 title = "Precious Memories"
 subtitle = ""
-verse_count = 3
-key_signature = "Ab"
-time_sig_numerator = 4
-time_sig_denominator = 4
-# Tempo is a guess: the plate prints no tempo or metronome mark.
-tempo_bpm = 80
-phrase_breaks = ["4:64", "8:64", "12:64"]
-optional_phrase_breaks = ["2:64", "6:64", "10:64", "14:64"]
 copyrights = [
   "Lyrics: J. B. F. Wright and Lonnie B. Combs, 1925 (public domain)",
   "Music: J. B. F. Wright, 1925 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 80
+verse_count = 3
+phrase_breaks = ["4:64", "8:64", "12:64"]
+optional_phrase_breaks = ["2:64", "6:64", "10:64", "14:64"]
 
 [parts.Soprano]
 choral_type = "soprano"

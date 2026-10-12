@@ -8,9 +8,9 @@ time_sig_numerator = 6
 time_sig_denominator = 4
 tempo_bpm = 120
 verse_count = 4
-non_breaking_phrase_breaks = ["12:0"]
 phrase_breaks = ["5:80", "9:80", "11:80", "14:64"]
 optional_phrase_breaks = ["3:96", "7:96", "10:64", "13:80", "15:96"]
+non_breaking_phrase_breaks = ["12:0"]
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -68,9 +68,6 @@ aes,4 aes,4 aes,4 des4 des4 des4 | aes,4 aes,4 aes,4 aes,2. | bes,2 bes,4 ees4 e
 aes,4 aes,2~ aes,2 s4
 """
 
-# Bass rests through the melody's "on" in m4 (as the tenor does) and also through
-# "Just re-" in m11, where the plate gives it two eighth rests under the tenor's
-# two beamed eighths.
 [lyrics.1]
 text = "There are shad -- ows of sor -- row that dark -- en life's way, They are on -- ly shad -- ows, But be -- hind the dark shad -- ows shines love's kind -- ly ray, They are on -- ly shad -- ows."
 

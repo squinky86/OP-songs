@@ -1,78 +1,4 @@
-# Source: the supplied MusicXML, /mnt/win/temp/b-r-i-Brighten the Corner Where
-# You Are.xml -- an NWC2MusicXML export (encoding-date 2011-07-29) whose own
-# credit block reads "From Hymnary.org (based on a score from the Cyber
-# Hymnal)". It is the file hymnary.org links from the Cyber Hymnal #628 media
-# row.
-#
-# Verified against print: the Cyber Hymnal's own engraving of that score,
-# hymntime.com/tch/pdf/b/r/i/Brighten the Corner Where You Are.pdf, via a
-# Wayback snapshot. Rhythm, unisons, the refrain melismas and the final bars
-# below were read off that plate; pitches come from the XML (every accidental
-# there is explicit, including <alter> on the key-signature sharps, so the
-# usual NWC missing-<alter> defect is absent here) and were spot-checked
-# against the plate and harmonically.
-#
-# Lyrics: read off the plate. Cross-checked against
-# hymnary.org/text/do_not_wait_until_some_deed_of_greatness (fetched 200 on the
-# first try); identity check passes -- that page credits Ina Duley Ogdon (1913),
-# names the Cyber Hymnal #628 score, and its representative text matches the
-# plate word for word. Kept the plate's punctuation where the two differ:
-# "shed your light a-far," (comma; hymnary prints "afar;").
-#
-# TRANSPOSED: the plate and the source XML are in D major; this file is E-flat
-# major, transposed up a minor second at the maintainer's request. Every pitch
-# below is therefore a semitone above the engraving -- rhythm, lyrics, phrase
-# breaks and tempo are untouched. Chromatic spellings follow the new key: the
-# plate's f-natural passing tone (fis-f-e) is written ges (g-ges-f), and its
-# raised fourth gis is written a-natural. Ranges after transposition: soprano
-# Eb4-Eb5, alto D4-Bb4, tenor G3-Eb4, bass Bb2-Bb3.
-#
-# Tempo: quarter = 105 is printed on the plate.
-# Subtitle: the tune is unnamed (hymnary lists it as "[Do not wait until some
-# deed of greatness you may do]"); left empty.
-# No fermatas, dynamics or tempo marks appear anywhere on the plate.
-#
-# Closed score. Both staves are written as chords: the LOWER note is the <note>
-# and the UPPER note is the <chord/> member. So on the treble staff soprano =
-# chord member, alto = base note; on the bass staff tenor = chord member,
-# bass = base note. Split by hand, not by the importer's voice inference.
-#
-# Refrain underlay (the NWC pathology here): the XML carries the verse lyrics
-# on the treble staff and the ENTIRE refrain text on the BASS staff, starting
-# two onsets early -- "Bright-en" sits on m9 beats 3-4, underneath the
-# soprano's held "are." that ends the verse. Re-seated onto the melody from
-# m10 beat 1. Confirmed, not merely plausible: the refrain stream is exactly 37
-# syllables and there are exactly 37 sung onsets from m10 to the end (m18 is
-# tied, so it takes no slot), and all three verses reconcile at 43 syllables
-# against 43 onsets in m1-m9.
-#
-# Layer-2 unison duplicates re-seated onto real voices (each is a single
-# notehead on the plate):
-# - m8 and m16, first two events: tenor and bass both on A3.
-# - m9, m17 and m18, last event: soprano and alto both on D4.
-#
-# m11 bass: the plate slurs the eighth-note run in three groups (2 + 2 + 4),
-# i.e. the bass sings "where you are!" as melismas while S/A/T hold. Written as
-# beams per style guide 1.1 (all-eighth melismas beam rather than slur), so the
-# bass still takes the global chorus text. The XML's cross-voice slurs and the
-# stray tie into the layer-2 tenor note there are layer artifacts and were
-# dropped.
-#
-# Guesses / open editorial calls:
-# - m11 tenor: the XML's layer-2 tenor totals only 3.5 beats (quarter, quarter,
-#   dotted quarter) and the plate agrees, leaving the last eighth unaccounted
-#   for. Written as quarter, quarter, HALF -- the tenor simply holds A3 through
-#   the bar. A dotted quarter plus an eighth rest is the other reading.
-# - Final bars. The plate bars the last phrase as "where(q) you(q) are!(q)" |
-#   "dotted half", i.e. 3 + 3 beats, which leaves the whole piece one beat short
-#   of tiling 4/4 against its one-beat pickup. Written regularly instead:
-#   m17 = q q half~ (every parallel phrase, m11 and m13, ends on a half) and
-#   m18 = dotted half + s4. Consequence: the closing "are!" is held five beats
-#   here where the plate holds it four. Worth a second opinion.
-# - m8/m16 bass on A3 (not A2) is what both the XML and the plate give -- high
-#   for a bass, but it is the dominant pedal and the tenor is in unison with it.
 title = "Brighten the Corner Where You Are"
-subtitle = ""
 verse_count = 3
 key_signature = "Eb"
 time_sig_numerator = 4
@@ -83,6 +9,7 @@ optional_phrase_breaks = ["14:64"]
 copyrights = [
   "Lyrics: Ina Duley Ogdon, 1913 (public domain)",
   "Music: Charles H. Gabriel, 1913 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
 non_breaking_phrase_breaks = ["10:64"]

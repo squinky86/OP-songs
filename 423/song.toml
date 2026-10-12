@@ -1,16 +1,16 @@
 title = "Wonderful Grace of Jesus"
-verse_count = 3
-key_signature = "Db"
-time_sig_numerator = 4
-time_sig_denominator = 4
-tempo_bpm = 112
-phrase_breaks = ["4:64", "8:64", "12:48", "16:64", "18:64", "20:64", "22:64", "24:64", "26:64", "28:48"]
-non_breaking_phrase_breaks = ["17:60", "20:12", "25:60", "28:12"]
 copyrights = [
   "Lyrics and Music: Haldor Lillenas, 1918 (public domain)",
   "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "Db"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 112
+verse_count = 3
+phrase_breaks = ["4:64", "8:64", "12:48", "16:64", "18:64", "20:64", "22:64", "24:64", "26:64", "28:48"]
+non_breaking_phrase_breaks = ["17:60", "20:12", "25:60", "28:12"]
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -64,6 +64,9 @@ aes8. aes16 aes8. aes16 aes8. aes16 b8. b16 | bes8. bes16 bes8. bes16 bes4 des'4
 bes8. bes16 bes8. bes16 bes4 bes4 | des'4 des'4 des'4 des'4 | des'2 ees'2 | des'1
 """
 
+[parts.Tenor.lyrics.chorus]
+text = "Won -- der -- ful the match -- less grace of Je -- sus, Deep -- er than the might -- y roll -- ing sea! High -- er than the mount -- ain, Spark -- ing like a fount -- ain, All suf -- fi -- cient grace for e -- ven me! Broad -- er than the scope of my trans -- gres -- sions, sing it! Great -- er far than all my sin and shame! my sin and shame! O mag -- ni -- fy the pre -- cious name of Je -- sus! Praise His name!"
+
 [parts.Bass]
 choral_type = "bass"
 clef = "bass"
@@ -82,6 +85,9 @@ f8. ees16 des8. des16 des8. des16 des8. des16 | ges8. ges16 ges8. ges16 ges4 ges
 g8. g16 g8. g16 g4 g4 | aes4 b4 bes4 bes4 | aes2 aes,2 | des1
 """
 
+[parts.Bass.lyrics.chorus]
+text = "Won -- der -- ful the match -- less grace of Je -- sus, Deep -- er than the might -- y roll -- ing sea! High -- er than the mount -- ain, Spark -- ing like a fount -- ain, All suf -- fi -- cient grace for e -- ven me! Broad -- er than the scope of my trans -- gres -- sions, sing it! Great -- er far than all my sin and shame! my sin and shame! O mag -- ni -- fy the pre -- cious name of Je -- sus! Praise His name!"
+
 [lyrics.1]
 text = "Won -- der -- ful grace of Je -- sus, Great -- er than all my sin— How shall my tongue de -- scribe it? Where shall His praise be -- gin? Tak -- ing a -- way my bur -- den, Set -- ting my spir -- it free; For the won -- der -- ful grace of Je -- sus reach -- es me."
 
@@ -93,11 +99,3 @@ text = "Won -- der -- ful grace of Je -- sus, Reach -- ing the most de -- filed�
 
 [lyrics.chorus]
 text = "Won -- der -- ful the match -- less grace the match -- less grace of Je -- sus, Deep -- er than the might -- y roll -- ing sea! the roll -- ing sea! Won -- der -- ful grace, all suf -- fi -- cient for me, for ev -- en me! Broad -- er than the scope of my trans -- gres -- sions, Great -- er far than all my sin and shame! O mag -- ni -- fy the pre -- cious name of Je -- sus! Praise His name!"
-
-# Men's refrain: independent words and rhythm, m17-m28; they rejoin the women's
-# text at m29. "Spark -- ing" is the plate's spelling (received text: "Spark -- ling").
-[parts.Tenor.lyrics.chorus]
-text = "Won -- der -- ful the match -- less grace of Je -- sus, Deep -- er than the might -- y roll -- ing sea! High -- er than the mount -- ain, Spark -- ing like a fount -- ain, All suf -- fi -- cient grace for e -- ven me! Broad -- er than the scope of my trans -- gres -- sions, sing it! Great -- er far than all my sin and shame! my sin and shame! O mag -- ni -- fy the pre -- cious name of Je -- sus! Praise His name!"
-
-[parts.Bass.lyrics.chorus]
-text = "Won -- der -- ful the match -- less grace of Je -- sus, Deep -- er than the might -- y roll -- ing sea! High -- er than the mount -- ain, Spark -- ing like a fount -- ain, All suf -- fi -- cient grace for e -- ven me! Broad -- er than the scope of my trans -- gres -- sions, sing it! Great -- er far than all my sin and shame! my sin and shame! O mag -- ni -- fy the pre -- cious name of Je -- sus! Praise His name!"

@@ -1,17 +1,17 @@
 title = "Send the Light"
 subtitle = ""
-verse_count = 4
-key_signature = "G"
-time_sig_numerator = 4
-time_sig_denominator = 4
-tempo_bpm = 112
-phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "11:48", "13:48", "15:48"]
-non_breaking_phrase_breaks = ["17:12"]
 copyrights = [
   "Lyrics and Music: Charles H. Gabriel, 1890 (public domain)",
   "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "G"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 112
+verse_count = 4
+phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "11:48", "13:48", "15:48"]
+non_breaking_phrase_breaks = ["17:12"]
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -86,9 +86,6 @@ text = "Let us not grow wea -- ry in the work of love: @s1 @s1 Let us ga -- ther
 
 [lyrics.chorus]
 text = "Send the light! the bless -- ed Gos -- pel light; Let it shine from shore to shore! Send the light! the bless -- ed Gos -- pel light; Let it shine for -- ev -- er -- more!"
+
 [lyrics.s1]
 text = "Send the light!"
-
-
-# The men enter a beat after the women in the refrain and the plate prints their
-# words on a second row; the wording differs only where marked below.

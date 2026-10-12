@@ -60,7 +60,6 @@ b,4.~ b,4 e8 | e4 e8 e4 b,8 | cis4 b,8 e4 e8 | a,8 a,8 a,8 b,4 b,8 |
 e4.~ e4 s8
 """
 
-# Lyrics transcribed from the plate (stanza rows 1-4, chorus row, and the D.S. row).
 [lyrics.1]
 text = "O I’m so glad I have a Friend Who know -- eth my ev -- ’ry care ’Tis God, on whom I can de -- pend To hear and to an -- swer pray’r."
 

@@ -1,17 +1,16 @@
-# Source: MusicXML supplied at /mnt/win/temp/s-a-v-Saved by the Blood (Henderson).xml,
 title = "Saved by the Blood"
-subtitle = ""
-verse_count = 4
+copyrights = [
+  "Lyrics: S. J. Henderson, 1902 (public domain)",
+  "Music: Daniel B. Towner, 1902 (public domain)",
+  "Courtesy of [Hymnary.org](https://hymnary.org)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "Eb"
 time_sig_numerator = 6
 time_sig_denominator = 4
 tempo_bpm = 130
+verse_count = 4
 phrase_breaks = ["2:80", "4:80", "6:96", "8:96", "12:96"]
-copyrights = [
-  "Lyrics: S. J. Henderson, 1902 (public domain)",
-  "Music: Daniel B. Towner, 1902 (public domain)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
 optional_phrase_breaks = ["10:80", "14:80"]
 
 [parts.Soprano]
