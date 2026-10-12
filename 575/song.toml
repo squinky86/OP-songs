@@ -1,0 +1,105 @@
+title = "Jesus Did It All!"
+copyrights = [
+  "Lyrics and Music: Franklin L. Eiland, 1907 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "C"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 4
+phrase_breaks = ["3:64", "7:48", "9:64", "13:64", "17:48", "19:64"]
+optional_phrase_breaks = ["2:48", "5:64", "8:48", "11:64", "15:64", "18:48", "21:64"]
+non_breaking_phrase_breaks = ["13:12", "23:12"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. c'8. d'16 | e'8. f'16 g'8. g'16 a'16 c''8. g'8. g'16 | a'8. c''16 c''8. a'16 a'16 g'8. r4 |
+g'2~ g'8. e'16 g'8. a'16 | g'2. r4 | e''2~ e''8. d''16 c''8[ a'16] e''16 | d''2.! c'8. d'16 |
+e'8. f'16 g'8. g'16 a'16 c''8. g'8. g'16 | a'8. c''16 c''8. a'16 a'16 g'8. r4 |
+g'2~ g'8. e'16 g'8. a'16 | g'2. r4 | e''2~ e''8. dis''16 e''8. d''16 | c''2. r4 |
+g'2~@c g'8. e'16 g'8. a'16 | g'2. r4 | e''2~ e''8. d''16 c''8[ a'16] e''16 | d''2.! c'8. d'16 |
+e'8. f'16 g'8. g'16 a'16 c''8. g'8. g'16 | a'8. c''16 c''8. a'16 a'16 g'8. r4 |
+g'2~ g'8. e'16 g'8. a'16 | g'2. r4 | e''2~ e''8. dis''16 e''8. d''16 | c''2. s4
+"""
+
+[parts.Soprano.lyrics.chorus]
+text = "Je -- sus did it all, Je -- sus did it all! Peace is now my heart’s ex -- pres -- sion, Glo -- ry is my soul’s pos -- ses -- sion, Je -- sus did it all, Je -- sus did it all!"
+
+[parts.Soprano.lyrics.s1]
+text = "Je -- sus did it all! Je -- sus did it all!"
+
+[parts.Soprano.lyrics.s2]
+text = "Je -- sus did it all, Je -- sus did it all!"
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. c'8. c'16 | c'8. d'16 e'8. e'16 f'16 e'8. e'8. e'16 | f'8. f'16 f'8. f'16 f'16 e'8. r4 |
+e'8. e'16 e'8. e'16 e'8. r16 r4 | e'8. e'16 d'8. f'16 e'4 r4 | g'8. g'16 g'8. g'16 g'8. f'16 e'8. fis'16 | g'8. fis'16 g'8. fis'16 f'4! c'8. c'16 |
+c'8. d'16 e'8. e'16 f'16 e'8. e'8. e'16 | f'8. f'16 f'8. f'16 f'16 e'8. r4 |
+e'8. e'16 e'8. e'16 e'8. r16 r4 | e'8. e'16 d'8. f'16 e'4 r4 | g'8. g'16 g'8. gis'16 a'8. fis'16 g'8. f'16 | e'8. e'16 {3 dis'8[ e'8] f'8 } e'4 r4 |
+e'8.@c e'16 e'8. e'16 e'8. r16 r4 | e'8. e'16 d'8. f'16 e'4 r4 | g'8. g'16 g'8. g'16 g'8. f'16 e'8. fis'16 | g'8. fis'16 g'8. fis'16 f'4! c'8. c'16 |
+c'8. d'16 e'8. e'16 f'16 e'8. e'8. e'16 | f'8. f'16 f'8. f'16 f'16 e'8. r4 |
+e'8. e'16 e'8. e'16 e'8. r16 r4 | e'8. e'16 d'8. f'16 e'4 r4 | g'8. g'16 g'8. gis'16 a'8. fis'16 g'8. f'16 | e'8. e'16 {3 dis'8[ e'8] f'8 } e'4 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. e8. f16 | g8. g16 c'8. c'16 c'16 g8. c'8. c'16 | c'8. a16 a8. c'16 c'16 c'8. r4 |
+c'8. c'16 c'8. c'16 c'8. r16 r4 | c'8. c'16 b8. d'16 c'4 r4 | c'8. c'16 c'8. c'16 c'8. b16 c'8. c'16 | b8. c'16 d'8. c'16 b4! e8. f16 |
+g8. g16 c'8. c'16 c'16 g8. c'8. c'16 | c'8. a16 a8. c'16 c'16 c'8. r4 |
+c'8. c'16 c'8. c'16 c'8. r16 r4 | c'8. c'16 b8. d'16 c'4 r4 | c'8. c'16 c'8. c'16 c'8. c'16 c'8. g16 | g8. g16 {3 fis8[ g8] a8 } g4 r4 |
+c'8.@c c'16 c'8. c'16 c'8. r16 r4 | c'8. c'16 b8. d'16 c'4 r4 | c'8. c'16 c'8. c'16 c'8. b16 c'8. c'16 | b8. c'16 d'8. c'16 b4! e8. f16 |
+g8. g16 c'8. c'16 c'16 g8. c'8. c'16 | c'8. a16 a8. c'16 c'16 c'8. r4 |
+c'8. c'16 c'8. c'16 c'8. r16 r4 | c'8. c'16 b8. d'16 c'4 r4 | c'8. c'16 c'8. c'16 c'8. c'16 c'8. g16 | g8. g16 {3 fis8[ g8] a8 } g4 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. c8. c16 | c8. c16 c8. c16 c16 c8. c8. c16 | f8. f16 f8. f16 c16 c8. r4 |
+c8. c16 c8. c16 c8. r16 r4 | c8. c16 g,8. g,16 c4 r4 | c'8. c'16 c'8. c'16 c'8. g16 a8. d16 | g8. c'16 b8. a16 g4! c8. c16 |
+c8. c16 c8. c16 c16 c8. c8. c16 | f8. f16 f8. f16 c16 c8. r4 |
+c8. c16 c8. c16 c8. r16 r4 | c8. c16 g,8. g,16 c4 r4 | c'8. c'16 c'8. c'16 a8. c'16 g8. g16 | c2. r4 |
+c8.@c c16 c8. c16 c8. r16 r4 | c8. c16 g,8. g,16 c4 r4 | c'8. c'16 c'8. c'16 c'8. g16 a8. d16 | g8. c'16 b8. a16 g4! c8. c16 |
+c8. c16 c8. c16 c16 c8. c8. c16 | f8. f16 f8. f16 c16 c8. r4 |
+c8. c16 c8. c16 c8. r16 r4 | c8. c16 g,8. g,16 c4 r4 | c'8. c'16 c'8. c'16 a8. c'16 g8. g16 | c2. s4
+"""
+
+[parts.Bass.lyrics.chorus]
+text = "Je -- sus did it all, Je -- sus did it all, Je -- sus did it all, He did it all, He did it all! Peace is now my heart’s ex -- pres -- sion, Glo -- ry is my soul’s pos -- ses -- sion, Je -- sus did it all, Je -- sus did it all, Je -- sus did it all! He did it all!"
+
+[parts.Bass.lyrics.s2]
+text = "Je -- sus did it all, Je -- sus did it all! Je -- sus did it all! He did it all!"
+
+[lyrics.1]
+text = "Tak -- en up from death -- ly sleep -- ing, Turn’d a -- way mine eyes from weep -- ing, @s1 Peace is now my heart’s ex -- pres -- sion, Glo -- ry, is my soul’s pos -- ses -- sion, @s2"
+
+[lyrics.2]
+text = "Came, my soul, from its con -- di -- tion, Heal’d by this one great Phy -- si -- cian, @s1 All its needs, it could not men -- tion, Yet, He gave them full at -- ten -- tion, @s2"
+
+[lyrics.3]
+text = "Touch, He gave the puls -- es wan -- ing, And re -- stored the strength re -- main -- ing, @s1 O, and won -- drous is His cur -- ing, Per -- fect, might -- y and en -- dur -- ing, @s2"
+
+[lyrics.4]
+text = "From dis -- ease, which sin had plant -- ed, In the soul, health, there was grant -- ed, @s1 Now ’tis all with -- in His keep -- ing, And sal -- va -- tion joys ’tis reap -- ing, @s2"
+
+[lyrics.chorus]
+text = "Je -- sus did it all, Je -- sus did it all, Je -- sus did it all, He did it all, He did it all! Peace is now my heart’s ex -- pres -- sion, Glo -- ry is my soul’s pos -- ses -- sion, Je -- sus did it all, Je -- sus did it all, Je -- sus did it all! He did it all! He did it all!"
+
+[lyrics.s1]
+text = "Je -- sus did it all, Je -- sus, did it all, Je -- sus did it all! He did it all! He did it all."
+
+[lyrics.s2]
+text = "Je -- sus did it all, Je -- sus did it all! Je -- sus did it all! He did it all! He did it all!"
