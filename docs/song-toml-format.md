@@ -817,8 +817,22 @@ Rules:
 - The OpenPsalm arrangement line is always last.
 - Lines may embed links with `[text](url)` markup, e.g.
   `"Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)"`. The song
-  detail page renders these as clickable links; all exports (MusicXML, LilyPond,
-  PDF, presentations) and the JSON API strip the markup down to the link text.
+  detail page, feed HTML, score PDF/LilyPond, and presentation PDF/PPTX preserve
+  clickable links. MusicXML, the JSON API, search, structured names, and feed
+  plain-text fields retain the label only.
+- Link an author's credited name using the same syntax, preserving all dates and
+  rights wording, e.g. `"Lyrics: [Robert Robinson](/blog/20260409-robert-robinson), 1758 (public domain)"`.
+  Use explicit links in each applicable credit, including translation overlays
+  that replace the base credits. Existing commentary is independent.
+- Destinations may be absolute HTTP/HTTPS URLs or single-slash site-root paths
+  such as `/blog/20260815-lo-sanderson`. Downloaded documents and feeds resolve
+  local paths against the application's `BASE_URL`. Bare relative paths,
+  protocol-relative URLs, non-web schemes, whitespace, and backslashes are
+  rejected. Invalid complete links display their label without an anchor.
+- This is a small inline-link syntax, not general Markdown: labels cannot nest
+  brackets, and literal URL parentheses must be percent-encoded (`%28`, `%29`).
+  Incomplete links remain literal text. Verify local blog targets from the
+  combined OpenPsalm checkout with `python3 tools/check_credit_links.py`.
 
 ---
 
