@@ -21,6 +21,9 @@ notes = """
 s2. cis'8 d'8 | e'4 fis'8 gis'8 a'4 a'8 b'8 | cis''4 cis''8 d''8 cis''4. b'8 | a'8 a'4 fis'8 a'8 a'4 a'8 | e'2. cis'8 d'8 | e'4 fis'8 gis'8 a'4 a'8 b'8 | cis''4 cis''8 d''8 cis''4. cis''8 | cis''8 b'4 b'8 dis''8 dis''4 b'8 | e''2~ e''4! e''4!@c | cis''8 cis''4 b'8 cis''8 cis''4 a'8 | cis''2. b'4 | a'8 a'4 fis'8 a'8 a'4 a'8 | e'2. cis'8 d'8 | e'4 fis'8 gis'8 a'4 a'8 b'8 | cis''4 cis''8 d''8 e''4! d''4 | cis''8 cis''4 a'8 cis''8 cis''4 b'8 | a'2. s4
 """
 
+[parts.Soprano.lyrics.chorus]
+text = "Since Je -- sus came in -- to my heart, Since Je -- sus came in -- to my heart; Floods of joy o’er my soul like the sea bil -- lows roll, Since Je -- sus came in -- to my heart."
+
 [parts.Alto]
 choral_type = "alto"
 clef = "treble"
@@ -28,9 +31,6 @@ staff_number = 1
 notes = """
 s2. a8 b8 | cis'4 d'8 d'8 cis'4 cis'8 d'8 | e'4 e'8 fis'8 e'4. e'8 | fis'8 fis'4 d'8 fis'8 fis'4 d'8 | cis'2. a8 b8 | cis'4 d'8 d'8 cis'4 cis'8 d'8 | e'4 e'8 fis'8 e'4. e'8 | dis'8 dis'4 dis'8 a'8 a'4 a'8 | gis'4( a'4 b'4!) gis'4!@c | e'8 e'4 d'8 e'4 e'8[ cis'8] | e'8 e'4 e'8 e'4 e'4 | fis'8 fis'4 d'8 fis'4 d'4 | cis'8 cis'4 cis'8 cis'4 a8 b8 | cis'4 d'8 d'8 cis'4 e'8 d'8 | e'4 e'8 e'8 a'4! fis'4 | e'8 e'4 cis'8 e'8 e'4 d'8 | cis'2. s4
 """
-
-[parts.Alto.lyrics.chorus]
-text = "Since Je -- sus came in, came in -- to my heart, Since Je -- sus came in, came in -- to my heart; Floods of joy o’er my soul like the sea bil -- lows roll, Since Je -- sus came in -- to my heart."
 
 [parts.Tenor]
 choral_type = "tenor"
@@ -40,9 +40,6 @@ notes = """
 s2. e8 e8 | a4 a8 a8 e4 e8 e8 | a4 a8 a8 a4. a8 | d'8 d'4 a8 d'8 d'4 a8 | a2. e8 e8 | a4 a8 a8 e4 e8 e8 | a4 a8 a8 a4. a8 | a8 a4 a8 b8 b4 b8 | b4( cis'4 d'4!) b4!@c | a8 a4 a8 a4 e4 | a8 a4 a8 a4 a4 | d'8 d'4 a8 d'4 a4 | a8 a4 a8 a4 e8 e8 | a4 a8 a8 e4 a8 gis8 | a4 a8 b8 cis'4! a4 | a8 a4 a8 a8 a4 e8 | e2. s4
 """
 
-[parts.Tenor.lyrics.chorus]
-text = "Since Je -- sus came in, came in -- to my heart, Since Je -- sus came in, came in -- to my heart; Floods of joy o’er my soul like the sea bil -- lows roll, Since Je -- sus came in -- to my heart."
-
 [parts.Bass]
 choral_type = "bass"
 clef = "bass"
@@ -50,9 +47,6 @@ staff_number = 2
 notes = """
 s2. a,8 a,8 | a,4 a,8 a,8 a,4 a,8 a,8 | a,4 a,8 a,8 a,4. cis8 | d8 d4 d8 d8 d4 fis8 | a2. a,8 a,8 | a,4 a,8 a,8 a,4 a,8 a,8 | a,4 a,8 a,8 a,4. a,8 | b,8 b,4 b,8 b,8 b,4 dis8 | e2~ e4! e4!@c | a,8 a,4 a,8 a,4 a,4 | a,8 a,4 a,8 a,4 cis4 | d8 d4 d8 d4 fis4 | a8 e4 cis8 a,4 a,8 a,8 | a,4 a,8 a,8 a,4 cis8 e8 | a4 a8 a8 a4! d4 | e8 e4 e8 e8 e4 e8 | a,2. s4
 """
-
-[parts.Bass.lyrics.chorus]
-text = "Since Je -- sus came in, came in -- to my heart, Since Je -- sus came in, came in -- to my heart; Floods of joy o’er my soul like the sea bil -- lows roll, Since Je -- sus came in -- to my heart."
 
 [lyrics.1]
 text = "What a won -- der -- ful change in my life has been wrought, Since Je -- sus came in -- to my heart! I have light in my soul for which long I had sought, Since Je -- sus came in -- to my heart!"
@@ -70,4 +64,4 @@ text = "There’s a light in the val -- ley of death now for me, Since Je -- sus
 text = "I shall go there to dwell in that ci -- ty, I know, Since Je -- sus came in -- to my heart! And I’m hap -- py, so hap -- py, as on -- ward I go, Since Je -- sus came in -- to my heart!"
 
 [lyrics.chorus]
-text = "Since Je -- sus came in -- to my heart, Since Je -- sus came in -- to my heart; Floods of joy o’er my soul like the sea bil -- lows roll, Since Je -- sus came in -- to my heart."
+text = "Since Je -- sus came in, came in -- to my heart, Since Je -- sus came in, came in -- to my heart; Floods of joy o’er my soul like the sea bil -- lows roll, Since Je -- sus came in -- to my heart."

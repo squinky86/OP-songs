@@ -27,6 +27,9 @@ c''4 c''4 aes'4. ees'8 | f'8 bes'8 aes'8 f'8 ees'4. r8 |
 aes'8 aes'8 c''8 aes'8 ees'4 bes'4 | aes'2. r4
 """
 
+[parts.Soprano.lyrics.chorus]
+text = "He's a friend, a pre -- cious friend in -- deed, To the end He knows our ev -- 'ry need, O bless -- ed be His name, U -- nit -- ed we will be With the King of Glo -- ry -- land."
+
 [parts.Alto]
 choral_type = "alto"
 clef = "treble"
@@ -41,9 +44,6 @@ ees'8 ees'8 ees'8 ees'8 c'8 c'8 c'8 ees'8 | d'8 d'8 d'8 aes'8 g'2 |
 ees'8 ees'8 ees'8 ees'8 c'8 c'8 c'8 c'8 | des'8 f'8 f'8 des'8 c'8 c'8 c'8 r8 |
 c'8 c'8 ees'8 c'8 c'4 des'4 | c'2. r4
 """
-
-[parts.Alto.lyrics.chorus]
-text = "He's a friend, a lov -- ing friend, a pre -- cious friend in -- deed, in -- deed; Love and serve Him to the end, He knows our ev -- 'ry need, Bless -- ed be His ho -- ly name, U -- nit -- ed we some day will be With the King of Glo -- ry -- land."
 
 [parts.Tenor]
 choral_type = "tenor"
@@ -60,9 +60,6 @@ aes8 aes8 aes8 aes8 ees8 ees8 ees8 aes8 | aes8 des'8 des'8 aes8 aes8 aes8 aes8 r
 aes8 aes8 aes8 aes8 aes4 ees4 | ees2. r4
 """
 
-[parts.Tenor.lyrics.chorus]
-text = "He's a friend, a lov -- ing friend, a pre -- cious friend in -- deed, in -- deed; Love and serve Him to the end, He knows our ev -- 'ry need, Bless -- ed be His ho -- ly name, U -- nit -- ed we some day will be With the King of Glo -- ry -- land."
-
 [parts.Bass]
 choral_type = "bass"
 clef = "bass"
@@ -78,9 +75,6 @@ aes,8 aes,8 aes,8 aes,8 aes,8 aes,8 aes,8 aes,8 | des8 des8 des8 des8 aes,8 aes,
 ees8 ees8 ees8 ees8 ees4 ees4 | aes,2. r4
 """
 
-[parts.Bass.lyrics.chorus]
-text = "He's a friend, a lov -- ing friend, a pre -- cious friend in -- deed, in -- deed; Love and serve Him to the end, He knows our ev -- 'ry need, Bless -- ed be His ho -- ly name, U -- nit -- ed we some day will be With the King of Glo -- ry -- land."
-
 [lyrics.1]
 text = "Christ is King of Glo -- ry -- land, O mag -- ni -- fy His name; From the grave He rose tri -- um -- phant, death He o -- ver -- came, Full sal -- va -- tion to the world His gos -- pel did pro -- claim, He is King of Glo -- ry -- land!"
 
@@ -91,4 +85,4 @@ text = "He's a friend who's ev -- er near to com -- fort, cheer and guide; When 
 text = "Praise His name, the name of Christ, o -- bey -- ing each com -- mand, Side by side thro' faith press on -- ward, hold -- ing by His hand; Face to face some day we'll meet, and with the an -- gels stand, Dwell with Him in Glo -- ry -- land!"
 
 [lyrics.chorus]
-text = "He's a friend, a pre -- cious friend in -- deed, To the end He knows our ev -- 'ry need, O bless -- ed be His name, U -- nit -- ed we will be With the King of Glo -- ry -- land."
+text = "He's a friend, a lov -- ing friend, a pre -- cious friend in -- deed, in -- deed; Love and serve Him to the end, He knows our ev -- 'ry need, Bless -- ed be His ho -- ly name, U -- nit -- ed we some day will be With the King of Glo -- ry -- land."

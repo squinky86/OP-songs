@@ -25,6 +25,9 @@ e''2( cis''4) r4 | a'2 fis'4 fis'8. fis'16 | e'2. r4 | a'4. cis''8 e''4! cis''8.
 a'2. s4
 """
 
+[parts.Soprano.lyrics.chorus]
+text = "Work -- ing for the crown, Work -- ing for the crown, Work -- ing for the crown, We shall wear by and by."
+
 [parts.Alto]
 choral_type = "alto"
 clef = "treble"
@@ -36,9 +39,6 @@ cis'2. r4 | e'8.@c e'16 e'8. e'16 cis'4 cis'8. cis'16 | {3 cis'8 cis'8 cis'8 } c
 {3 a'8 a'8 a'8 } a'8. e'16 e'4 r4 | fis'8. fis'16 fis'8. fis'16 d'4 d'8. d'16 | {3 cis'8 cis'8 cis'8 } cis'8. cis'16 cis'4 r4 | e'4. e'8 a'4! a'8.! e'16 |
 e'2. s4
 """
-
-[parts.Alto.lyrics.chorus]
-text = "Work -- ing for the crown, for the beau -- ti -- ful, gold -- en crown, Work -- ing for the crown, for the beau -- ti -- ful, gold -- en crown, Work -- ing for the crown, for the beau -- ti -- ful, gold -- en crown, We shall wear by and by."
 
 [parts.Tenor]
 choral_type = "tenor"
@@ -52,9 +52,6 @@ e2. r4 | a8.@c a16 a8. a16 e4 a8. a16 | {3 e8 e8 e8 } e8. e16 e4 r4 | gis8. gis1
 cis'2. s4
 """
 
-[parts.Tenor.lyrics.chorus]
-text = "Work -- ing for the crown, for the beau -- ti -- ful, gold -- en crown, Work -- ing for the crown, for the beau -- ti -- ful, gold -- en crown, Work -- ing for the crown, for the beau -- ti -- ful, gold -- en crown, We shall wear by and by."
-
 [parts.Bass]
 choral_type = "bass"
 clef = "bass"
@@ -66,9 +63,6 @@ a,2. r4 | a,8.@c a,16 a,8. a,16 a,4 a,8. a,16 | {3 a,8 a,8 a,8 } a,8. a,16 a,4 r
 {3 a8 a8 a8 } e8. cis16 a,4 r4 | d8. d16 d8. d16 d4 d8. d16 | {3 a,8 a,8 a,8 } a,8. a,16 a,4 r4 | a4. a8 a4! e8.! e16 |
 a,2. s4
 """
-
-[parts.Bass.lyrics.chorus]
-text = "Work -- ing for the crown, for the beau -- ti -- ful, gold -- en crown, Work -- ing for the crown, for the beau -- ti -- ful, gold -- en crown, Work -- ing for the crown, for the beau -- ti -- ful, gold -- en crown, We shall wear by and by."
 
 [lyrics.1]
 text = "Shall I be con -- tent with one star in my crown, When Hea -- ven’s bright por -- tals I see? The an -- swer comes back— strive a clus -- ter to win, And the way will be bright -- er for thee."
@@ -83,4 +77,4 @@ text = "Yes, all kinds of work will I find in this field, My task then quite pla
 text = "And how shall I get these rare gems for my crown? Must I wait till Hea -- ven I gain? Yes, yes, but toil here for the Mas -- ter’s re -- nown, Day by day for the Lamb that was slain."
 
 [lyrics.chorus]
-text = "Work -- ing for the crown, Work -- ing for the crown, Work -- ing for the crown, We shall wear by and by."
+text = "Work -- ing for the crown, for the beau -- ti -- ful, gold -- en crown, Work -- ing for the crown, for the beau -- ti -- ful, gold -- en crown, Work -- ing for the crown, for the beau -- ti -- ful, gold -- en crown, We shall wear by and by."

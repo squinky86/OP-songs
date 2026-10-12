@@ -22,6 +22,9 @@ notes = """
 s2. ees'8. f'16 | aes'4 aes'4 aes'4 bes'8. aes'16 | c''4 c''8. des''16 c''4. bes'8 | aes'4 g'8. aes'16 des''4 f'4 | ees'2. aes'8. bes'16 | aes'4 g'4 bes'4 bes'8. c''16 | bes'4 aes'4 c''4 c''8. c''16 | bes'4 ees''8 ees''8 g'4 f'4 | ees'2. ees'4@c | c''4 c''8. c''16 c''4 des''4 | c''2. aes'8[ c''8] | ees''4 ees''8. ees''16 ees''4 f''4 | ees''2. c''8 c''8 | des''4 des''4 des''4 bes'8 bes'8 | c''4 des''4 ees''4! f''4! | ees''4 ees''8. des''16 c''4 bes'4 | aes'2. s4
 """
 
+[parts.Soprano.lyrics.chorus]
+text = "The way of the cross leads home, The way of the cross leads home; It is sweet to know, as I on -- ward go, The way of the cross leads home."
+
 [parts.Alto]
 choral_type = "alto"
 clef = "treble"
@@ -56,18 +59,4 @@ text = "I must needs go on in the blood- -- sprin -- kled way, The path that the
 text = "Then I bid fare -- well to the way of the world, To walk in it nev -- er -- more; For my Lord says, “Come,” and I seek my home, Where He waits at the o -- pen door."
 
 [lyrics.chorus]
-text = "The way of the cross leads home, The way of the cross leads home; It is sweet to know, as I on -- ward go, The way of the cross leads home."
-
-# Refrain echo: while the soprano holds "home," / "home;" for three beats, the
-# lower three voices answer "leads home," / "leads home;" on the repeated notes
-# of measures 11 and 13. The printed engraving spells the echo out only on the
-# lower lyric line; it is given to alto, tenor and bass here because all three
-# re-articulate those notes.
-[parts.Alto.lyrics.chorus]
-text = "The way of the cross leads home, leads home, The way of the cross leads home; leads home; It is sweet to know, as I on -- ward go, The way of the cross leads home."
-
-[parts.Tenor.lyrics.chorus]
-text = "The way of the cross leads home, leads home, The way of the cross leads home; leads home; It is sweet to know, as I on -- ward go, The way of the cross leads home."
-
-[parts.Bass.lyrics.chorus]
 text = "The way of the cross leads home, leads home, The way of the cross leads home; leads home; It is sweet to know, as I on -- ward go, The way of the cross leads home."

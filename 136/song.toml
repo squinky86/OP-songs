@@ -1,16 +1,16 @@
 title = "Call for Workers"
 subtitle = "In the Vineyard of the Lord"
-verse_count = 4
-key_signature = "F"
-time_sig_numerator = 4
-time_sig_denominator = 4
-tempo_bpm = 100
-phrase_breaks = ["4:64", "8:48", "12:48"]
-optional_phrase_breaks = ["2:48", "6:48", "10:48", "14:48"]
 copyrights = [
   "Lyrics and Music: John Henry Sheppard, 1906 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "F"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 4
+phrase_breaks = ["4:64", "8:48", "12:48"]
+optional_phrase_breaks = ["2:48", "6:48", "10:48", "14:48"]
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -19,6 +19,9 @@ staff_number = 1
 notes = """
 f'4 f'4 a'4 a'4 | c''4 d''4 c''4 a'8. g'16 | f'4 f'4 g'4 g'4 | a'2. r4 | f'4 f'4 a'4 a'4 | c''4 d''4 c''4 a'8. g'16 | f'4 f'4 a'4 g'4 | f'2. a'8.@c c''16 | f''2. d''8. d''16 | c''2. a'4 | a'2. f'8. a'16 | c''2. a'8. c''16 | f''2. d''8. d''16 | c''2. f'4 | a'2. f'8. g'16 | f'2. r4
 """
+
+[parts.Soprano.lyrics.chorus]
+text = "Heed the call, bro -- ther dear, For work -- ers to -- day; Let your eyes see the need Of work -- ers to -- day."
 
 [parts.Alto]
 choral_type = "alto"
@@ -57,13 +60,4 @@ text = "Mark the spir -- it's dire -- ful fate, Where -- so -- ev -- er sin is f
 text = "Oh, for work -- ers strong and brave, Who will lift the ban -- ner high; So the lost can see the way, To the man -- sions in the sky."
 
 [lyrics.chorus]
-text = "Heed the call, bro -- ther dear, For work -- ers to -- day; Let your eyes see the need Of work -- ers to -- day."
-
-[parts.Alto.lyrics.chorus]
-text = "Heed the call, bro -- ther dear, heed the call, bro -- ther dear. For work -- ers, for work -- ers to -- day; Let your eyes see the need, let your eyes see the need Of work -- ers, work -- ers, to -- day."
-
-[parts.Tenor.lyrics.chorus]
-text = "Heed the call, bro -- ther dear, heed the call, bro -- ther dear. For work -- ers, for work -- ers to -- day; Let your eyes see the need, let your eyes see the need Of work -- ers, work -- ers, to -- day."
-
-[parts.Bass.lyrics.chorus]
 text = "Heed the call, bro -- ther dear, heed the call, bro -- ther dear. For work -- ers, for work -- ers to -- day; Let your eyes see the need, let your eyes see the need Of work -- ers, work -- ers, to -- day."

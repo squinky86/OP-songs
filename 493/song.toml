@@ -25,6 +25,9 @@ d''2( f''4) f''8. ees''16 | d''4 d''8. c''16 bes'4 c''8. bes'16 | bes'4 a'8. g'1
 bes'2. s4
 """
 
+[parts.Soprano.lyrics.chorus]
+text = "We are preach -- ing His love to the world, Ev -- er keep -- ing His ban -- ner un -- furled, We are press -- ing a -- long with a sto -- ry and song, Prais -- ing Je -- sus to all the world."
+
 [parts.Alto]
 choral_type = "alto"
 clef = "treble"
@@ -36,9 +39,6 @@ d'2. c'8.@c d'16 | ees'4 ees'8. ees'16 ees'4 f'8. f'16 | f'4 f'8. f'16 f'4 c'8. 
 f'4 f'8. f'16 f'4 f'8. f'16 | f'4 f'8. ees'16 d'4 f'8. f'16 | ees'4 f'8. f'16 e'4! f'8. f'16 | f'4 d'8. f'16 ees'4. d'8 |
 d'2. s4
 """
-
-[parts.Alto.lyrics.chorus]
-text = "We are preach -- ing His love to the world, to the world, Ev -- er keep -- ing His ban -- ner un -- furled, all un -- furled, We are press -- ing a -- long with a sto -- ry and song, Prais -- ing Je -- sus to all the world."
 
 [parts.Tenor]
 choral_type = "tenor"
@@ -52,9 +52,6 @@ bes4 bes8. bes16 d'4 d'8. c'16 | bes4 bes8. a16 bes4 a8. aes16 | g4 g8. g16 g4! 
 f2. s4
 """
 
-[parts.Tenor.lyrics.chorus]
-text = "We are preach -- ing His love to the world, to the world, Ev -- er keep -- ing His ban -- ner un -- furled, all un -- furled, We are press -- ing a -- long with a sto -- ry and song, Prais -- ing Je -- sus to all the world."
-
 [parts.Bass]
 choral_type = "bass"
 clef = "bass"
@@ -67,9 +64,6 @@ bes4 f8. d16 bes,4 f8. f16 | bes4 bes8. f16 g4 c8. d16 | ees4 ees8. d16 c4! d8. 
 bes,2. s4
 """
 
-[parts.Bass.lyrics.chorus]
-text = "We are preach -- ing His love to the world, to the world, Ev -- er keep -- ing His ban -- ner un -- furled, all un -- furled, We are press -- ing a -- long with a sto -- ry and song, Prais -- ing Je -- sus to all the world."
-
 [lyrics.1]
 text = "With the glo -- ri -- ous King of sal -- va -- tion, In His light we are press -- ing a -- long, Giv -- ing truth to each sin bur -- dened na -- tion, And prais -- ing His name with a song."
 
@@ -80,4 +74,4 @@ text = "Bright -- ly shin -- eth His won -- der -- ful glo -- ry, Giv -- ing lig
 text = "Ev -- 'ry soul must be told a -- bout Je -- sus, Must be told of His mer -- cy and love, For so glad -- ly and tru -- ly He frees us, And guides us to heav -- en a -- bove."
 
 [lyrics.chorus]
-text = "We are preach -- ing His love to the world, Ev -- er keep -- ing His ban -- ner un -- furled, We are press -- ing a -- long with a sto -- ry and song, Prais -- ing Je -- sus to all the world."
+text = "We are preach -- ing His love to the world, to the world, Ev -- er keep -- ing His ban -- ner un -- furled, all un -- furled, We are press -- ing a -- long with a sto -- ry and song, Prais -- ing Je -- sus to all the world."

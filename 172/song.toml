@@ -26,6 +26,9 @@ bes'2. bes'4 | ees''4 ees''4 bes'4 g'4 | bes'4 c''4 bes'4 ees'4 | g'4 g'4 ees'4 
 ees'2. s4
 """
 
+[parts.Soprano.lyrics.chorus]
+text = "O, will you fol -- low, on? O, will you fol -- low, on? O, will you fol -- low where He leads? O, will you fol -- low on?"
+
 [parts.Alto]
 choral_type = "alto"
 clef = "treble"
@@ -75,13 +78,4 @@ text = "When to death's nar -- row stream I come, Tho' dark the wave, and cold; 
 text = "All glo -- ry to His pre -- cious name; Who gave His life for me; His grace, His good -- ness, I'll pro -- claim, Thro' all e -- ter -- ni -- ty."
 
 [lyrics.chorus]
-text = "O, will you fol -- low, on? O, will you fol -- low, on? O, will you fol -- low where He leads? O, will you fol -- low on?"
-
-[parts.Alto.lyrics.chorus]
-text = "O, will you fol -- low, fol -- low on? O, will you fol -- low, fol -- low on? O, will you fol -- low where He leads? O, will you fol -- low on?"
-
-[parts.Tenor.lyrics.chorus]
-text = "O, will you fol -- low, fol -- low on? O, will you fol -- low, fol -- low on? O, will you fol -- low where He leads? O, will you fol -- low on?"
-
-[parts.Bass.lyrics.chorus]
 text = "O, will you fol -- low, fol -- low on? O, will you fol -- low, fol -- low on? O, will you fol -- low where He leads? O, will you fol -- low on?"

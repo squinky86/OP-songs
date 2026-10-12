@@ -26,6 +26,9 @@ bes'2. c''8 des''8 | ees''4 c''4 bes'8 aes'8 aes'8 aes'8 | aes'4 aes'4 f'8 ees'8
 c''8 c''4.~ c''4 aes'8 bes'8 | aes'2. s4
 """
 
+[parts.Soprano.lyrics.chorus]
+text = "Hear the sto -- ry that the an -- gels, And the saints in glo -- ry sing! On your ear ’tis fall -- ing, You from sin’s way call -- ing,— Hear the mes -- sage of the King!"
+
 [parts.Alto]
 choral_type = "alto"
 clef = "treble"
@@ -40,9 +43,6 @@ aes'4 g'4 aes'8 ees'8 des'8 c'8 | ees'8 ees'8 f'8 f'8 ees'8 ees'8 ees'8 ees'8 | 
 g'2. ees'8 ees'8 | aes'4 ees'4 des'8 c'8 ees'8 e'8 | f'4 f'8( des'8) des'8 c'8 r4 |
 r4 f'8 aes'8 aes'8 ees'8 ees'8 ees'8 | ees'2. s4
 """
-
-[parts.Alto.lyrics.chorus]
-text = "Hear the bless -- ed sto -- ry that the an -- gels, ho -- ly an -- gels, And the hap -- py saints in glo -- ry sing! On your ear ’tis fall -- ing, You from sin’s way call -- ing,— Hear the mes -- sage of the King!"
 
 [parts.Tenor]
 choral_type = "tenor"
@@ -59,9 +59,6 @@ ees'2. aes8 bes8 | c'4 aes4 g8 aes8 aes8 aes8 | aes4 aes4 aes8 aes8 r4 |
 r4 aes8 aes8 aes8 aes8 c'8 des'8 | c'2. s4
 """
 
-[parts.Tenor.lyrics.chorus]
-text = "Hear the bless -- ed sto -- ry that the an -- gels, ho -- ly an -- gels, And the hap -- py saints in glo -- ry sing! On your ear ’tis fall -- ing, You from sin’s way call -- ing,— Hear the mes -- sage of the King!"
-
 [parts.Bass]
 choral_type = "bass"
 clef = "bass"
@@ -77,9 +74,6 @@ ees2. aes8 aes8 | aes4 aes4 ees8 f8 c8 c8 | des4 f4 aes8 aes8 r4 |
 r4 f8 f8 aes8 aes8 ees8 ees8 | aes,2. s4
 """
 
-[parts.Bass.lyrics.chorus]
-text = "Hear the bless -- ed sto -- ry that the an -- gels, ho -- ly an -- gels, And the hap -- py saints in glo -- ry sing! On your ear ’tis fall -- ing, You from sin’s way call -- ing,— Hear the mes -- sage of the King!"
-
 [lyrics.1]
 text = "Of the great sal -- va -- tion, Free to ev -- ’ry na -- tion, Now in tri -- umph we sing; Sin -- ner, haste to hear it, Come and prove its mer -- it,— ’Tis the mes -- sage of the King!"
 
@@ -93,4 +87,4 @@ text = "’Twill your cares make light -- er, And your path -- way bright -- er,
 text = "’Tis the same old sto -- ry, Full of death -- less glo -- ry, That un -- to you we bring; Come with -- out de -- lay -- ing, Its com -- mands o -- bey -- ing,— Heed the mes -- sage of the King!"
 
 [lyrics.chorus]
-text = "Hear the sto -- ry that the an -- gels, And the saints in glo -- ry sing! On your ear ’tis fall -- ing, You from sin’s way call -- ing,— Hear the mes -- sage of the King!"
+text = "Hear the bless -- ed sto -- ry that the an -- gels, ho -- ly an -- gels, And the hap -- py saints in glo -- ry sing! On your ear ’tis fall -- ing, You from sin’s way call -- ing,— Hear the mes -- sage of the King!"

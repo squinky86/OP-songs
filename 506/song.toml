@@ -26,6 +26,12 @@ f'2. f'8 f'8 | d''4 d''4 bes'8 bes'8 bes'8 c''8 | bes'4 g'4 f'4 d''8 ees''8 |
 d''8 d''4 bes'8 c''4 c''4 | bes'2. s4
 """
 
+[parts.Soprano.lyrics.chorus]
+text = "Oh; that will be glo -- ry for me, Oh, that will be glo -- ry for me, Just to see the lus -- ter of my Sav -- iour’s face, ’Twill be glo -- ry e -- nough for me."
+
+[parts.Soprano.lyrics.s1]
+text = "’Twill be glo -- ry, glo -- ry for me!"
+
 [parts.Alto]
 choral_type = "alto"
 clef = "treble"
@@ -38,12 +44,6 @@ d'4 d'8 d'8 d'8 d'8 f'4 | ees'4 f'4 e'4 e'4 | e'4 e'8 e'8 e'8 e'4 e'8 |
 f'2. d'8 d'8 | f'4 f'4 d'8 ees'8 f'8 fis'8 | g'4 ees'4 d'4 f'8 g'8 |
 f'8 f'4 f'8 ees'4 ees'4 | d'2. s4
 """
-
-[parts.Alto.lyrics.chorus]
-text = "Oh; that will be glo -- ry for me, for me, Oh, that will be glo -- ry for me, Just to see the lus -- ter of my Sav -- iour’s face, ’Twill be glo -- ry e -- nough for me."
-
-[parts.Alto.lyrics.s1]
-text = "’Twill be glo -- ry, glo -- ry, glo -- ry for me!"
 
 [parts.Tenor]
 choral_type = "tenor"
@@ -58,12 +58,6 @@ a2. bes8 bes8 | bes4 bes4 bes8 bes8 bes8 d'8 | ees'4 bes4 bes4 bes8 bes8 |
 bes8 bes4 bes8 a4 f4 | f2. s4
 """
 
-[parts.Tenor.lyrics.chorus]
-text = "Oh; that will be glo -- ry for me, for me, Oh, that will be glo -- ry for me, Just to see the lus -- ter of my Sav -- iour’s face, ’Twill be glo -- ry e -- nough for me."
-
-[parts.Tenor.lyrics.s1]
-text = "’Twill be glo -- ry, glo -- ry, glo -- ry for me!"
-
 [parts.Bass]
 choral_type = "bass"
 clef = "bass"
@@ -77,12 +71,6 @@ f2. bes8 bes8 | bes4 bes4 bes,8 c8 d8 bes,8 | ees4 ees4 bes,4 bes8 bes8 |
 bes8 bes4 d8 f4 f4 | bes,2. s4
 """
 
-[parts.Bass.lyrics.chorus]
-text = "Oh; that will be glo -- ry for me, for me, Oh, that will be glo -- ry for me, Just to see the lus -- ter of my Sav -- iour’s face, ’Twill be glo -- ry e -- nough for me."
-
-[parts.Bass.lyrics.s1]
-text = "’Twill be glo -- ry, glo -- ry, glo -- ry for me!"
-
 [lyrics.1]
 text = "When we all shall gath -- er on the gold -- en shore, @s1 Just to sing God’s prais -- es there for ev -- er -- more! @s2"
 
@@ -93,10 +81,10 @@ text = "Just to hear the sing -- ing round the great white throne, @s1 We will j
 text = "Just to meet our loved ones who have crossed the tide, @s1 In those won -- drous man -- sions on the oth -- er side! @s2"
 
 [lyrics.chorus]
-text = "Oh; that will be glo -- ry for me, Oh, that will be glo -- ry for me, Just to see the lus -- ter of my Sav -- iour’s face, ’Twill be glo -- ry e -- nough for me."
+text = "Oh; that will be glo -- ry for me, for me, Oh, that will be glo -- ry for me, Just to see the lus -- ter of my Sav -- iour’s face, ’Twill be glo -- ry e -- nough for me."
 
 [lyrics.s1]
-text = "’Twill be glo -- ry, glo -- ry for me!"
+text = "’Twill be glo -- ry, glo -- ry, glo -- ry for me!"
 
 [lyrics.s2]
 text = "’Twill be glo -- ry e -- nough for me!"

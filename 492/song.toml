@@ -24,6 +24,9 @@ bes'4. bes'8 c''8 d''8 | f''4.~ f''4 d''8 | f''4. d''8 c''8 bes'8 | c''4.~ c''4 
 d''4 c''8 bes'8 bes'8 c''8 | bes'4 g'8 f'4 f'8 | f'4 bes'8 d''4 c''8 | bes'4.~ bes'4 s8
 """
 
+[parts.Soprano.lyrics.chorus]
+text = "To think what it will be, To think what it will be! And my heart is sad, as I stop to -- night, To think what it will be!"
+
 [parts.Alto]
 choral_type = "alto"
 clef = "treble"
@@ -34,9 +37,6 @@ d'4 d'8 bes4 d'8 | ees'8 d'4~ d'4 d'8 | d'4 d'8 f'4 ees'8 | d'4.~ d'4 d'8@c |
 d'4 d'8 f'8 f'8 f'8 | bes'4 bes'8 bes'4 f'8 | bes'4 bes'8 f'8 f'8 f'8 | f'4.~ f'4 f'16 f'16 |
 f'4 f'8 f'8 f'8 fis'8 | g'4 ees'8 d'4 d'8 | d'4 d'8 f'4 ees'8 | d'4.~ d'4 s8
 """
-
-[parts.Alto.lyrics.chorus]
-text = "To think just what it will be, 'twill be, To think just what it will be! And my heart is sad, as I stop to -- night, To think what it will be!"
 
 [parts.Tenor]
 choral_type = "tenor"
@@ -49,9 +49,6 @@ f4 f8 bes8 a8 bes8 | d'4 d'8 d'4 bes8 | d'4 d'8 bes8 a8 bes8 | a4.~ a4 a16 a16 |
 bes4 a8 bes8 bes8 bes8 | bes4 bes8 bes4 bes8 | bes4 bes8 bes4 f8 | f4.~ f4 s8
 """
 
-[parts.Tenor.lyrics.chorus]
-text = "To think just what it will be, 'twill be, To think just what it will be! And my heart is sad, as I stop to -- night, To think what it will be!"
-
 [parts.Bass]
 choral_type = "bass"
 clef = "bass"
@@ -62,9 +59,6 @@ bes,4 bes,8 bes,4 bes,8 | bes,8 bes,4~ bes,4 bes,8 | bes,4 bes,8 f4 f8 | bes,4.~
 bes,4 bes,8 d8 c8 bes,8 | bes4 bes8 bes4 bes8 | bes4 bes8 bes,8 c8 d8 | f4.~ f4 f16 f16 |
 bes,4 c8 d8 d8 d8 | ees4 ees8 bes,4 bes,8 | bes,4 bes,8 f4 f8 | bes,4.~ bes,4 s8
 """
-
-[parts.Bass.lyrics.chorus]
-text = "To think just what it will be, 'twill be, To think just what it will be! And my heart is sad, as I stop to -- night, To think what it will be!"
 
 [lyrics.1]
 text = "I know that death a -- waits me, And I, ac -- count must give, To Him, who will re -- ward me,— Ac -- cord -- ing as I live!"
@@ -79,4 +73,4 @@ text = "Each morn -- ing, noon, and eve -- ning, Bring whisp' -- rings un -- to 
 text = "Shall I to it, go weep -- ing, 'Neath God's con -- demn -- ing frown, And know, that I, on wak -- ing, Shall wear no star -- ry crown?"
 
 [lyrics.chorus]
-text = "To think what it will be, To think what it will be! And my heart is sad, as I stop to -- night, To think what it will be!"
+text = "To think just what it will be, 'twill be, To think just what it will be! And my heart is sad, as I stop to -- night, To think what it will be!"

@@ -29,6 +29,9 @@ ees'2 c''4 bes'8. c''16 | d''2 d''2 | d''2 ees''4 d''8. d''16 | c''4 g'4 a'4 bes
 d''4 {3 f'8 bes'8 d''8 } c''4 {3 f'8[ a'8] c''8 } | bes'2. r4
 """
 
+[parts.Soprano.lyrics.chorus]
+text = "Why will you lin -- ger here in bond -- age! Sin rules in the dark -- ness, Je -- sus will re -- deem you, Come in -- to the light while it is day. Why will you lin -- ger here in bond -- age? Let Him loose your fet -- ters, He o -- pens the pris -- on wide, Then come un -- to the Lord while you may."
+
 [parts.Alto]
 choral_type = "alto"
 clef = "treble"
@@ -48,9 +51,6 @@ c'8 r8 c'8 r8 ees'8 ees'8 d'8. g'16 | fis'4 fis'4 fis'4 fis'4 |
 f'8 r8 f'8 r8 g'8 r8 f'8. f'16 | e'8 r8 e'8 r8 e'8 r8 e'8 r8 |
 f'4 r4 ees'4 r4 | d'8 r8 ees'8 r8 d'4 r4
 """
-
-[parts.Alto.lyrics.chorus]
-text = "Come, come, come, come, come, come, come, Why in bond -- age will you lin -- ger? Sin rules in the drear -- y dark -- ness, Je -- sus Christ will now re -- deem you, Come, come, while ’tis day, Why in bond -- age will you lin -- ger? Won’t you let Him loose your gall -- ing fet -- ters, He now o -- pens the pris -- on wide, Then come, come, while you may."
 
 [parts.Tenor]
 choral_type = "tenor"
@@ -72,9 +72,6 @@ b8 r8 b8 r8 b8 r8 b8. b16 | bes8 r8 bes8 r8 a8 r8 g8 r8 |
 bes4 r4 a4 r4 | f8 r8 g8 r8 f4 r4
 """
 
-[parts.Tenor.lyrics.chorus]
-text = "Come, come, come, come, come, come, come, Why in bond -- age will you lin -- ger? Sin rules in the drear -- y dark -- ness, Je -- sus Christ will now re -- deem you, Come, come, while ’tis day, Why in bond -- age will you lin -- ger? Won’t you let Him loose your gall -- ing fet -- ters, He now o -- pens the pris -- on wide, Then come, come, while you may."
-
 [parts.Bass]
 choral_type = "bass"
 clef = "bass"
@@ -95,9 +92,6 @@ g8 r8 g8 r8 g8 r8 g8. g16 | c8 r8 c8 r8 c8 r8 c8 r8 |
 f4 r4 f4 r4 | bes,8 r8 bes,8 r8 bes,4 r4
 """
 
-[parts.Bass.lyrics.chorus]
-text = "Come, come, come, come, come, come, come, Why in bond -- age will you lin -- ger? Sin rules in the drear -- y dark -- ness, Je -- sus Christ will now re -- deem you, Come, come, while ’tis day, Why in bond -- age will you lin -- ger? Won’t you let Him loose your gall -- ing fet -- ters, He now o -- pens the pris -- on wide, Then come, come, while you may."
-
 [lyrics.1]
 text = "Why will you in bond -- age stay? Fol -- ly in its chains has bound you, All the wag -- es it will pay Will be death and woe. Je -- sus Christ can set you free, If you will His serv -- ant be, He re -- demp -- tion will be -- stow, Come, His fav -- or know."
 
@@ -108,4 +102,4 @@ text = "If the Son shall make you free, You are free from sin and sor -- row; Ch
 text = "Why will you in bond -- age stay? Sin and death no hope can of -- fer Of a bright -- er, bet -- ter day, Why to e -- vil bow? Pris -- on doors are o -- pened wide, By the Sav -- iour cru -- ci -- fied, Rich -- ly He will you en -- dow, Seek sal -- va -- tion now."
 
 [lyrics.chorus]
-text = "Why will you lin -- ger here in bond -- age! Sin rules in the dark -- ness, Je -- sus will re -- deem you, Come in -- to the light while it is day. Why will you lin -- ger here in bond -- age? Let Him loose your fet -- ters, He o -- pens the pris -- on wide, Then come un -- to the Lord while you may."
+text = "Come, come, come, come, come, come, come, Why in bond -- age will you lin -- ger? Sin rules in the drear -- y dark -- ness, Je -- sus Christ will now re -- deem you, Come, come, while ’tis day, Why in bond -- age will you lin -- ger? Won’t you let Him loose your gall -- ing fet -- ters, He now o -- pens the pris -- on wide, Then come, come, while you may."

@@ -25,6 +25,9 @@ ees''2. ees''4 | c''2. aes'4 | c''2. c''4 | aes'2. ees'4 |
 aes'4 aes'4 c''4 bes'4 | aes'2. s4
 """
 
+[parts.Soprano.lyrics.chorus]
+text = "Of Thy great love, I'll ev -- er sing, Who died up -- on the tree, Sal -- va -- tion full, And free to bring, For all, yes, ev -- en me!"
+
 [parts.Alto]
 choral_type = "alto"
 clef = "treble"
@@ -37,9 +40,6 @@ c'4 ees'4 d'8[ ees'8] des'4 | ees'2. ees'4 |
 aes'4 g'4 aes'4 aes'4 | ees'4 ees'4 ees'4 c'4 | ees'4 e'4 f'4 f'4 | c'4 c'4 c'4 c'4 |
 c'4 c'4 ees'4 des'4 | c'2. s4
 """
-
-[parts.Alto.lyrics.chorus]
-text = "Of Thy great love, my song shall be, I'll ev -- er sing, dear Lord, of Thee, Who died up -- on the tree, Sal -- va -- tion full, Thy blood can give, And free that all may look and live, For all, yes, ev -- en me!"
 
 [parts.Tenor]
 choral_type = "tenor"
@@ -54,9 +54,6 @@ c'4 bes4 c'4 c'4 | aes4 aes4 aes4 aes4 | aes4 bes4 aes4 aes4 | aes4 aes4 aes4 ae
 aes4 aes4 aes4 ees4 | ees2. s4
 """
 
-[parts.Tenor.lyrics.chorus]
-text = "Of Thy great love, my song shall be, I'll ev -- er sing, dear Lord, of Thee, Who died up -- on the tree, Sal -- va -- tion full, Thy blood can give, And free that all may look and live, For all, yes, ev -- en me!"
-
 [parts.Bass]
 choral_type = "bass"
 clef = "bass"
@@ -69,9 +66,6 @@ aes,4 c4 bes,4 bes,4 | ees2. aes4 |
 aes4 ees4 aes4 aes4 | aes,4 aes,4 aes,4 aes4 | aes4 g4 f4 f4 | aes4 aes4 aes4 aes4 |
 f4 f4 ees4 ees4 | aes,2. s4
 """
-
-[parts.Bass.lyrics.chorus]
-text = "Of Thy great love, my song shall be, I'll ev -- er sing, dear Lord, of Thee, Who died up -- on the tree, Sal -- va -- tion full, Thy blood can give, And free that all may look and live, For all, yes, ev -- en me!"
 
 [lyrics.1]
 text = "What won -- drous love, dear Lord, that Thou Shouldst come to earth and die, Shouldst shed Thy blood on Cal -- v'ry's brow, For reb -- els, such as I!"
@@ -86,4 +80,4 @@ text = "O, won -- drous love, how sweet the tho't, That sin -- a -- ton -- ing f
 text = "Since Thou didst die that I might gain, Sal -- va -- tion full and free, I'll spend my days that yet re -- main, Dear Lord, in serv -- ing Thee!"
 
 [lyrics.chorus]
-text = "Of Thy great love, I'll ev -- er sing, Who died up -- on the tree, Sal -- va -- tion full, And free to bring, For all, yes, ev -- en me!"
+text = "Of Thy great love, my song shall be, I'll ev -- er sing, dear Lord, of Thee, Who died up -- on the tree, Sal -- va -- tion full, Thy blood can give, And free that all may look and live, For all, yes, ev -- en me!"

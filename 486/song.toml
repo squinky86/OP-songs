@@ -34,6 +34,9 @@ a'8. a'16 a'8. a'16 b'16 a'8. a'8. fis'16 | e'8. e'16 e'8. e'16 fis'16 e'8. r4 |
 cis''2~ cis''8. a'16 b'8. b'16 | a'2. s4
 """
 
+[parts.Soprano.lyrics.s1]
+text = "'Tis e -- nough for me!"
+
 [parts.Alto]
 choral_type = "alto"
 clef = "treble"
@@ -52,9 +55,6 @@ e'4 fis'4 e'8. cis'16 d'8. d'16 | cis'8. cis'16 d'8. d'16 cis'4 s4
 
 [parts.Alto.lyrics.chorus]
 text = "'Tis e -- nough, e -- nough for me! e -- nough for me! 'Tis e -- nough, e -- nough for me! e -- nough for me! With a love that is com -- pell -- ing, I would go the sto -- ry tell -- ing, 'Tis e -- nough, e -- nough for me! e -- nough for me!"
-
-[parts.Alto.lyrics.s1]
-text = "'Tis e -- nough, e -- nough for me! e -- nough for me!"
 
 [parts.Alto.lyrics.s2]
 text = "'Tis e -- nough, e -- nough for me! e -- nough for me!"
@@ -78,9 +78,6 @@ a4 a4 a8. a16 gis8. e16 | e8. e16 fis8. f16 e4 s4
 [parts.Tenor.lyrics.chorus]
 text = "'Tis e -- nough, e -- nough for me! e -- nough for me! 'Tis e -- nough, e -- nough for me! e -- nough for me! With a love that is com -- pell -- ing, I would go the sto -- ry tell -- ing, 'Tis e -- nough, e -- nough for me! e -- nough for me!"
 
-[parts.Tenor.lyrics.s1]
-text = "'Tis e -- nough, e -- nough for me! e -- nough for me!"
-
 [parts.Tenor.lyrics.s2]
 text = "'Tis e -- nough, e -- nough for me! e -- nough for me!"
 
@@ -103,9 +100,6 @@ a4 fis4 a8. a16 e8. e16 | a,2. s4
 [parts.Bass.lyrics.chorus]
 text = "'Tis e -- nough, e -- nough for me! e -- nough for me! 'Tis e -- nough, e -- nough for me! e -- nough for me! With a love that is com -- pell -- ing, I would go the sto -- ry tell -- ing, 'Tis e -- nough, e -- nough for me!"
 
-[parts.Bass.lyrics.s1]
-text = "'Tis e -- nough, e -- nough for me! e -- nough for me!"
-
 [parts.Bass.lyrics.s2]
 text = "'Tis e -- nough, e -- nough for me!"
 
@@ -125,7 +119,7 @@ text = "I would not this peace sur -- ren -- der, No, for all the world can ten 
 text = "'Tis e -- nough for me! 'Tis e -- nough for me! With a love that is com -- pell -- ing, I would go the sto -- ry tell -- ing, 'Tis e -- nough for me!"
 
 [lyrics.s1]
-text = "'Tis e -- nough for me!"
+text = "'Tis e -- nough, e -- nough for me! e -- nough for me!"
 
 [lyrics.s2]
 text = "'Tis e -- nough for me!"

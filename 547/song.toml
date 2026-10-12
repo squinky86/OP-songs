@@ -25,6 +25,9 @@ c''4 c''8 d''8[ c''8] a'8 | g'4~ g'4. g'8 | a'4 a'8 a'8[ b'8] c''8 | d''4.~ d''4
 e''4 d''8 c''4 c''8 | d''4 a'8 c''4! a'8 | g'4\\rit c''8 b'4 b'8 | c''4.~ c''4\\spanend s8
 """
 
+[parts.Soprano.lyrics.chorus]
+text = "We’ll meet to part no more, When earth -- ly life is o’er; In that sweet home where none will roam, We’ll meet to part no more."
+
 [parts.Alto]
 choral_type = "alto"
 clef = "treble"
@@ -36,9 +39,6 @@ e'4 e'8 e'4 g'8 | f'4 f'8 f'4 f'8 | f'4 f'8 g'4 f'8 | e'4.~ e'4 e'8@c |
 e'4 g'8 f'4 f'8 | e'4 d'8 e'4 e'8 | f'4 g'8 fis'4 fis'8 | g'4.~ g'4 g'8 |
 g'4 f'8 e'4 g'8 | f'4 f'8 f'4! dis'8 | e'4 e'8 f'4 f'8 | e'4.~ e'4 s8
 """
-
-[parts.Alto.lyrics.chorus]
-text = "We’ll meet to part no more, no more, When earth -- ly life is o’er; In that sweet home where none will roam, We’ll meet to part no more."
 
 [parts.Tenor]
 choral_type = "tenor"
@@ -52,9 +52,6 @@ g4 g8 a4 c'8 | c'4 b8 c'4 c'8 | c'4 cis'8 d'8[ a8] c'8 | b4.~ b4 b8 |
 c'4 b8 c'4 bes8 | a4 d'8 a4! c'8 | c'4 c'8 g4 g8 | g4.~ g4 s8
 """
 
-[parts.Tenor.lyrics.chorus]
-text = "We’ll meet to part no more, no more, When earth -- ly life is o’er; In that sweet home where none will roam, We’ll meet to part no more."
-
 [parts.Bass]
 choral_type = "bass"
 clef = "bass"
@@ -66,9 +63,6 @@ c4 c8 c4 e8 | f4 f8 f4 f8 | g4 g8 g4 g8 | c4.~ c4 c8@c |
 c4 e8 f4 f8 | c4 <g, g>8 c4 c8 | f4 e8 d4 d8 | g,4.~ g,4 g8 |
 c'4 g8 a4 e8 | f4 f8 f4! fis8 | g4 g8 g,4 g,8 | c4.~ c4 s8
 """
-
-[parts.Bass.lyrics.chorus]
-text = "We’ll meet to part no more, no more, When earth -- ly life is o’er; In that sweet home where none will roam, We’ll meet to part no more."
 
 [lyrics.1]
 text = "Tho’ here to friends we say “Good -- bye,” When earth -- ly life is o’er, In that fair home be -- yond the sky, We’ll meet to part no more."
@@ -83,4 +77,4 @@ text = "When we have gath -- ered o -- ver there, Up -- on that gold -- en shore
 text = "And so, when here we say “Good -- bye,” Let not our hearts be sore, For, where the soul’s pos -- ses -- sions lie, We’ll meet to part no more."
 
 [lyrics.chorus]
-text = "We’ll meet to part no more, When earth -- ly life is o’er; In that sweet home where none will roam, We’ll meet to part no more."
+text = "We’ll meet to part no more, no more, When earth -- ly life is o’er; In that sweet home where none will roam, We’ll meet to part no more."

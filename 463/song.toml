@@ -25,6 +25,9 @@ bes'2. c''8[ des''8] | ees''4. ees''8 ees''8 c''8 aes'8 c''8 | ees''4 ees''8. ee
 aes'2. s4
 """
 
+[parts.Soprano.lyrics.chorus]
+text = "Lift Him up, Lift Him up, Still He speaks from e -- ter -- ni -- ty: “And I, if I be lift -- ed up from the earth, Will draw all men un -- to Me.”"
+
 [parts.Alto]
 choral_type = "alto"
 clef = "treble"
@@ -36,9 +39,6 @@ ees'2. c'8.@c c'16 | ees'8. ees'16 f'8. f'16 ees'4 ees'8. ees'16 | aes'8. aes'16
 g'2. aes'4 | aes'4. aes'8 aes'8 aes'8 ees'8 aes'8 | aes'4 g'8. g'16 aes'4 g'4 | aes'4 f'4 ees'4 ees'8. ees'16 |
 ees'2. s4
 """
-
-[parts.Alto.lyrics.chorus]
-text = "Lift the pre -- cious Sav -- ior up, Lift the pre -- cious Sav -- ior up, Still He speaks from e -- ter -- ni -- ty: “And I, if I be lift -- ed up from the earth, Will draw all men un -- to Me.”"
 
 [parts.Tenor]
 choral_type = "tenor"
@@ -52,9 +52,6 @@ ees'2. aes8[ bes8] | c'4. c'8 c'8 ees'8 c'8 ees'8 | c'4 des'8. des'16 ees'4 ees'
 c'2. s4
 """
 
-[parts.Tenor.lyrics.chorus]
-text = "Lift the pre -- cious Sav -- ior up, Lift the pre -- cious Sav -- ior up, Still He speaks from e -- ter -- ni -- ty: “And I, if I be lift -- ed up from the earth, Will draw all men un -- to Me.”"
-
 [parts.Bass]
 choral_type = "bass"
 clef = "bass"
@@ -66,9 +63,6 @@ aes,2. aes,8.@c aes,16 | aes,8. aes,16 des8. des16 aes,4 aes8. aes16 | aes8. aes
 ees2. aes4 | aes4. aes8 aes8 aes8 aes8 aes8 | aes4 bes8. bes16 c'4 bes4 | aes4 des4 ees4 ees8. ees16 |
 aes,2. s4
 """
-
-[parts.Bass.lyrics.chorus]
-text = "Lift the pre -- cious Sav -- ior up, Lift the pre -- cious Sav -- ior up, Still He speaks from e -- ter -- ni -- ty: “And I, if I be lift -- ed up from the earth, Will draw all men un -- to Me.”"
 
 [lyrics.1]
 text = "How to reach the mass -- es, men of ev’ -- ry birth, For an an -- swer, Je -- sus gave the key: “And I, if I be lift -- ed up from the earth, Will draw all men un -- to Me.”"
@@ -83,4 +77,4 @@ text = "Don’t ex -- alt the preach -- er, don’t ex -- alt the pew, Preach th
 text = "Lift Him up by liv -- ing as a Christ -- ian ought, Let the world in you the Sav -- ior see; Then men will glad -- ly fol -- low Him Who once taught, “I’ll draw all men un -- to Me.”"
 
 [lyrics.chorus]
-text = "Lift Him up, Lift Him up, Still He speaks from e -- ter -- ni -- ty: “And I, if I be lift -- ed up from the earth, Will draw all men un -- to Me.”"
+text = "Lift the pre -- cious Sav -- ior up, Lift the pre -- cious Sav -- ior up, Still He speaks from e -- ter -- ni -- ty: “And I, if I be lift -- ed up from the earth, Will draw all men un -- to Me.”"
