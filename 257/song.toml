@@ -1,29 +1,18 @@
-# Music source: hymnary.org NWC-origin MusicXML export of The Cyber Hymnal #3067
-#   ("/mnt/win/temp/i-s-h-I Shall See the King.xml", NWC2MusicXML 2011-07-29).
-#   Source-quality check passed: 64 quarter-notes tile 4/4 exactly, and four
-#   independent voices persist through the refrain (S/A as chords on the treble
-#   staff, T/B as chords on the bass staff). Timeless Truths does NOT carry this
-#   hymn (verified: its only near match is "We Shall See the King"), so no
-#   substitute edition was available; the supplied file is the sole music source.
-#
-# Lyrics source: The Cyber Hymnal text page, via the Internet Archive Wayback
-#   snapshot 2020-02-20 of hymntime.com/tch/htm/i/s/s/isstking.htm, cross-checked
-#   against https://hymnary.org/text/i_shall_see_the_king_where_the_angels_si
-#   (fetched 200 OK) and against the MusicXML's own three-verse underlay.
 title = "I Shall See the King"
 subtitle = ""
-verse_count = 3
+copyrights = [
+  "Lyrics: William C. Poole, 1915 (public domain)",
+  "Music: Bentley D. Ackley, 1915 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "Bb"
 time_sig_numerator = 4
 time_sig_denominator = 4
 tempo_bpm = 104
+verse_count = 3
 phrase_breaks = ["3:48", "6:48", "9:48", "13:48"]
 optional_phrase_breaks = ["2:48", "5:48", "7:48", "10:48", "11:48", "15:64"]
-copyrights = [
-  "Lyrics: William C. Poole, 1915 (public domain)",
-  "Music: Bentley D. Ackley, 1915 (public domain)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
 
 [parts.Soprano]
 choral_type = "soprano"

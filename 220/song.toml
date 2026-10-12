@@ -1,23 +1,15 @@
 title = "Everybody Ought to Love Him"
-verse_count = 4
-key_signature = "G"
-time_sig_numerator = 4
-time_sig_denominator = 4
-tempo_bpm = 108
-phrase_breaks = ["4:64", "8:64", "12:48"]
 copyrights = [
   "Lyrics and Music: A. H. Ackley, 1928 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "G"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 108
+verse_count = 4
+phrase_breaks = ["4:64", "8:64", "12:48"]
 optional_phrase_breaks = ["2:64", "6:64", "10:64", "14:64"]
-
-# Transcribed by hand from a scan of the 1928 Rodeheaver plate (page 13).
-# Layout: soprano + alto share the treble staff, tenor + bass the bass staff;
-# the two voices on a staff share a stem, so all four parts share one rhythm
-# (the only exception is the alto's slurred F#4-D4 on "love" in the last bar).
-# Unisons are printed as a single notehead with stems both ways.
-# The plate flags every eighth individually - there are no beams anywhere -
-# and every note carries its own syllable, so there are no melismas either.
 
 [parts.Soprano]
 choral_type = "soprano"

@@ -65,7 +65,5 @@ text = "I need Je -- sus, I need a friend like Him, A friend to guide when paths
 [lyrics.3]
 text = "I need Je -- sus, I need Him to the end; No one like Him, He is the sin -- ner’s friend; I need Je -- sus, no oth -- er friend will do; So con -- stant, kind, so strong and true, Yes, I need Je -- sus."
 
-# "lower" here is the hymnal's spelling of "low'r" — it occupies a single note
-# (rhymes with "hour"), so it is one lyric slot, not two.
 [lyrics.chorus]
 text = "I need Je -- sus, I need Je -- sus, I need Je -- sus ev -- 'ry day; Need Him in the sun -- shine hour, Need Him when the storm clouds lower; Ev -- 'ry day a -- long my way, Yes, I need Je -- sus."
