@@ -1,0 +1,83 @@
+title = "When the Summons Comes"
+copyrights = [
+  "Lyrics: W. D. Bills, 1921 (public domain)",
+  "Music: Ira Y. Rice, 1921 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 4
+phrase_breaks = ["5:48", "9:48", "13:48"]
+optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
+non_breaking_phrase_breaks = ["17:16"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. a'8. bes'16 | c''4 c''4 c''4 bes'8 bes'8 | a'4 g'4 f'4 c''8 c''8 | d''4 f''4 e''4 d''4 |
+c''2. c''8 d''8 | c''4 bes'4 bes'4 bes'8 c''8 | bes'4 a'4 a'4 a'8 a'8 | g'4 e''8. e''16 e''4 d''4 |
+c''2. c''8.@c c''16 | f''4 d''4 c''4 f'8. g'16 | a'4 g'4 f'4 f'8. g'16 | a'4 a'4 d''4 b'4 |
+c''2. c''8. c''16 | f''4 e''4 f''4 a'8. bes'16 | c''4 d''4 c''4 d''8. d''16 | c''4. a'8 a'4 g'4 |
+f'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. c'8. c'16 | f'4 e'4 f'4 f'8 f'8 | f'4 e'4 f'4 f'8 f'8 | f'4 f'4 f'4 f'4 |
+f'2. f'8 f'8 | e'4 e'4 e'4 g'8 g'8 | g'4 f'4 f'4 f'8 f'8 | e'4 g'8. g'16 g'4 f'4 |
+e'4( f'4 g'4) f'8.@c f'16 | a'4 f'4 f'4 f'8. f'16 | f'4 e'4 f'4 f'8. f'16 | f'4 f'4 g'4 f'4 |
+e'2. f'8. f'16 | f'4 bes'4 a'4 f'8. f'16 | f'4 f'4 f'4 f'8. f'16 | f'4. f'8 f'4 e'4 |
+f'4 d'4 c'4 s4
+"""
+
+[parts.Alto.lyrics.chorus]
+text = "When the sum -- mons comes in the last great day, And the Lord shall bid us come; May we rise to sing of His love su -- preme, In that joy e -- ter -- nal home. sweet home."
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. f8. g16 | a4 g4 a4 d'8 d'8 | c'4 bes4 a4 a8 a8 | bes4 d'4 c'4 bes4 |
+a2. a8 a8 | g4 c'4 c'4 c'8 c'8 | c'4 c'4 c'4 c'8 c'8 | c'4 c'8. c'16 b4 b4 |
+c'4( a4 bes4) a8.@c a16 | c'4 bes4 a4 a8. bes16 | c'4 bes4 a4 d'8. d'16 | c'4 c'4 b4 g4 |
+g2. a8. a16 | c'4 c'4 c'4 c'8. d'16 | a4 a4 a4 bes8. bes16 | a4. c'8 c'4 bes4 |
+a4 bes4 a4 s4
+"""
+
+[parts.Tenor.lyrics.chorus]
+text = "When the sum -- mons comes in the last great day, And the Lord shall bid us come; May we rise to sing of His love su -- preme, In that joy e -- ter -- nal home. sweet home."
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. f8. f16 | f4 c4 f4 bes,8 bes,8 | f4 c4 d4 f8 f8 | bes,4 bes,4 bes,4 bes,4 |
+f2. f8 f8 | g4 g4 c4 c8 e8 | f4 f4 f4 f8 f8 | g4 g8. g16 g4 g4 |
+c2. f8.@c f16 | f4 f4 f4 f8. f16 | f4 c4 d4 bes,8. bes,16 | f4 ees4 d4 g4 |
+c2. f8. f16 | a4 g4 f4 f8. f16 | f4 d4 f4 bes,8. bes,16 | c4. c8 c4 c4 |
+f2. s4
+"""
+
+[lyrics.1]
+text = "When we’re called to go to the great be -- yond, There to meet our Sav -- iour dear, May we all so live e’re the sum -- mons comes, That we’ll meet Him with -- out a fear."
+
+[lyrics.2]
+text = "When the sum -- mons comes from the Lord on high, And our work on earth is o’er; May we ev -- er dwell in that man -- sion fair, On that bright and e -- ter -- nal shore."
+
+[lyrics.3]
+text = "Earth -- ly cares and sor -- rows will soon be past, For our Lord has gone be -- fore,— He will call us home in the by and by, And we’ll dwell there for ev -- er -- more."
+
+[lyrics.4]
+text = "We are wait -- ing now for the call to come, When our joy shall be com -- plete; When we’ll meet a -- gain with our bless -- ed Lord, And the saved of all a -- ges greet."
+
+[lyrics.chorus]
+text = "When the sum -- mons comes in the last great day, And the Lord shall bid us come; May we rise to sing of His love su -- preme, In that joy e -- ter -- nal home."
