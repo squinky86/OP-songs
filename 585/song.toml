@@ -1,0 +1,121 @@
+title = "Weighed in the Balance"
+copyrights = [
+  "Lyrics and Music: Barney Elliott Warren, 1907 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "E"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 95
+verse_count = 4
+phrase_breaks = ["2:48", "4:48", "6:48", "8:48", "10:48"]
+optional_phrase_breaks = ["12:40"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+b'8 gis'8 gis'8 e'8 fis'8 gis'8 |
+gis'4 fis'8 e'4. |
+e'8 e'8 e'8 gis'8 fis'8 e'8 |
+fis'4.~ fis'4 r8 |
+b'8 gis'8 gis'8 e''8 dis''8 cis''8 |
+b'4 e'8 gis'4. |
+e'4%pp\\rit e'16 e'16 e'4 fis'8 |
+e'4.~\\spanend e'4 r8 |
+b'4.~@c\\atempo%mf b'8 b'8 b'8 |
+b'8 gis'4~ gis'4 r8 |
+cis''4.~ cis''8 cis''8 cis''8 |
+cis''8 b'4~ b'4 e'8 |
+e'8%pp\\rit e'8 e'8 gis'4 fis'8 |
+e'4.~\\spanend e'4 r8
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+e'8 e'8 e'8 e'8 e'8 e'8 |
+dis'4 dis'8 e'4. |
+e'8 e'8 e'8 e'8 e'8 e'8 |
+dis'4.~ dis'4 r8 |
+e'8 e'8 e'8 gis'8 gis'8 gis'8 |
+gis'4 e'8 e'4. |
+e'4%pp e'16 e'16 e'4 b8 |
+b4.~ b4 r8 |
+gis'8@c%mf gis'8 gis'8 gis'8 r4 |
+gis'8 e'8 e'8 e'8 e'8 r8 |
+e'8 e'8 e'8 e'8 r4 |
+e'8 e'8 e'8 e'8 e'8 e'8 |
+e'8%pp e'8 e'8 e'4 dis'8 |
+b4.~ b4 r8
+"""
+
+[parts.Alto.lyrics.chorus]
+text = "Weighed by the word, weighed and found want -- ing, Weighed by the word, weighed and found want -- ing, Re -- ject -- ed at Heav -- en’s door."
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+gis8 b8 b8 gis8 a8 b8 |
+b4 a8 gis4. |
+gis8 gis8 gis8 cis'8 cis'8 ais8 |
+b4.~ b4 r8 |
+gis8 b8 b8 b8 b8 e'8 |
+e'4 gis8 b4. |
+gis4%pp gis16 fisis16 gis4 a8 |
+gis4.~ gis4 r8 |
+e'8@c%mf e'8 e'8 e'8 r4 |
+b8 b8 b8 b8 b8 r8 |
+a8 a8 a8 a8 r4 |
+a8 gis8 gis8 gis8 gis8 gis8 |
+fisis8%pp fisis8 gis8 b4 a8 |
+gis4.~ gis4 r8
+"""
+
+[parts.Tenor.lyrics.chorus]
+text = "Weighed by the word, weighed and found want -- ing, Weighed by the word, weighed and found want -- ing, Re -- ject -- ed at Heav -- en’s door."
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+e8 e8 e8 e8 e8 e8 |
+b,4 b,8 e4. |
+cis8 cis8 cis8 cis8 cis8 cis8 |
+b,4.~ b,4 r8 |
+e8 e8 e8 e8 e8 e8 |
+e4 e8 e4. |
+e4%pp cis16 c16 b,4 b,8 |
+e4.~ e4 r8 |
+e8@c%mf e8 e8 e8 r4 |
+e8 e8 e8 e8 e8 r8 |
+a,8 a,8 a,8 a,8 r4 |
+e8 e8 e8 e8 e8 cis8 |
+c8%pp c8 c8 b,4 b,8 |
+e4.~ e4 r8
+"""
+
+[parts.Bass.lyrics.chorus]
+text = "Weighed by the word, weighed and found want -- ing, Weighed by the word, weighed and found want -- ing, Re -- ject -- ed at Heav -- en’s door."
+
+[lyrics.1]
+text = "Weighed in the bal -- ance of jus -- tice true, Sin -- ful the path thou hast trod; Weighed and found want -- ing— will it be you? Weighed by the word of God."
+
+[lyrics.2]
+text = "There it will hurt like a wound -- ing dart When this dread an -- swer shall fall; “Weighed and found want -- ing”— ’twill pierce thy heart At the last judg -- ment call."
+
+[lyrics.3]
+text = "Weighed by the Word which is giv -- en now, Search it and know thou art pure; Un -- to its man -- dates in meek -- ness bow, Then thou shalt be se -- cure."
+
+[lyrics.4]
+text = "At the tri -- bu -- nal where Christ is judge, Where ev -- ’ry deed is made known, “Weighed and found want -- ing” each guil -- ty soul Stands there be -- fore His throne."
+
+[lyrics.chorus]
+text = "Weighed and found want -- ing, Weighed and found want -- ing, Re -- ject -- ed at Heav -- en’s door."
