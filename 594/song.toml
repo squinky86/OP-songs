@@ -1,0 +1,70 @@
+title = "Parting Hymn"
+copyrights = [
+  "Lyrics: Anonymous, 1842 (public domain)",
+  "Music: Jeremiah Ingalls, 1921 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 84
+verse_count = 3
+phrase_breaks = ["5:40", "9:40", "13:40"]
+optional_phrase_breaks = ["3:40", "7:40", "11:40", "15:40"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. s4 d'8 |
+g'4 g'8 g'8[ fis'8] g'8 | b'4 g'8 g'8[ fis'8] g'8 | a'4 a'8 fis'8[ e'8] fis'8 | g'4.~ g'4 d'8 |
+g'4 g'8 g'8[ fis'8] g'8 | b'4 g'8 g'8[ fis'8] g'8 | a'4 a'8 fis'8[ e'8] fis'8 | g'4.~ g'4 g'8 |
+a'4 a'8 a'4 a'8 | a'4( b'8[ c''8 b'8]) a'8 | b'4 b'8 b'4 cis''8 | d''4.~ d''4 c''8 |
+b'4 a'8 g'4 c''8 | b'4 a'8 g'4 g'8 | a'4 a'8 fis'8[ e'8] fis'8 | g'4.~ g'4 s8
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. s4 b8 |
+d'4 d'8 d'4 d'8 | d'4 d'8 d'4 d'8 | fis'4 fis'8 d'4 d'8 | d'4.~ d'4 b8 |
+d'4 d'8 d'4 d'8 | d'4 d'8 d'4 d'8 | fis'4 fis'8 d'4 d'8 | d'4.~ d'4 g'8 |
+fis'4 fis'8 fis'4 fis'8 | fis'4( g'8[ a'8 g'8]) fis'8 | g'4 d'8 d'4 e'8 | fis'4.~ fis'4 a'8 |
+g'4 fis'8 g'4 a'8 | g'4 fis'8 g'4 d'8 | e'4 e'8 d'4 d'8 | d'4.~ d'4 s8
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. s4 g8 |
+b4 b8 b8[ a8] b8 | d'4 b8 b8[ a8] b8 | c'4 c'8 a4 c'8 | b4.~ b4 g8 |
+b4 b8 b8[ a8] b8 | d'4 b8 b8[ a8] b8 | c'4 c'8 a4 c'8 | b4.~ b4 b8 |
+d'4 d'8 d'4 d'8 | d'4.~ d'4 d'8 | g4 g8 g4 a8 | a4.~ a4 d'8 |
+d'4 c'8 b4 d'8 | d'4 c'8 b4 b8 | c'4 c'8 a4 c'8 | b4.~ b4 s8
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. s4 g8 |
+g4 g8 g4 g8 | g4 g8 g4 g8 | d4 d8 d4 d8 | g,4.~ g,4 g8 |
+g4 g8 g4 g8 | g4 g8 g4 g8 | d4 d8 d4 d8 | g,4.~ g,4 g,8 |
+d4 d8 d4 d8 | d4.~ d4 d8 | g4 g8 g4 e8 | d4.~ d4 d8 |
+d4 d8 g4 d8 | g4 d8 g,4 g,8 | c4 c8 d4 d8 | g,4.~ g,4 s8
+"""
+
+[lyrics.1]
+text = "How pleas -- ant thus to dwell be -- low, In fel -- low -- ship of love! And tho’ we part, ’tis bliss to know That we shall meet a -- bove. That we shall meet a -- bove, That we shall meet a -- bove, And tho’ we part, ’tis bliss to know That we shall meet a -- bove."
+
+[lyrics.2]
+text = "Yes, hap -- py tho’t! when we are free From earth -- ly grief and pain, In heav’n we shall each oth -- er see, And nev -- er part a -- gain. And nev -- er part a -- gain, And nev -- er part a -- gain; In heav’n we shall each oth -- er see, And nev -- er part a -- gain."
+
+[lyrics.3]
+text = "Then let us each in strength di -- vine, Still walk in wis -- dom’s ways; That we, with those we love, may join In nev -- er -- end -- ing praise. In nev -- er -- end -- ing praise, In nev -- er -- end -- ing praise, That we, with those we love, may join In nev -- er -- end -- ing praise."
