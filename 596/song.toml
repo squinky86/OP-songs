@@ -1,0 +1,89 @@
+title = "’Tis So Sweet to Trust in Jesus"
+copyrights = [
+  "Lyrics: Louisa M. R. Stead, 1882 (public domain)",
+  "Music: William J. Kirkpatrick, 1882 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 110
+verse_count = 4
+phrase_breaks = ["4:64", "8:64", "12:64"]
+optional_phrase_breaks = ["2:64", "6:64", "10:64", "14:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+c''4 bes'4 aes'4. g'8 | f'4 aes'4 f'4 ees'4 |
+aes'4 c''4 ees''4. c''8 | bes'4 aes'4 bes'2 |
+c''4 bes'4 aes'4. g'8 | f'4 aes'4 f'4 ees'4 |
+aes'4 c''4 f'4. bes'8 | aes'4 g'4 aes'2 |
+c''4@c ees''4 ees''4 c''4 | bes'4 aes'4 c''4 bes'4 |
+c''4 ees''4 ees''4. c''8 | bes'4 aes'4 bes'2 |
+c''4%p bes'4 aes'4 ees'4 | des''4. f'8 f'4 ees'4 |
+aes'4 c''4 f'4. bes'8 | aes'4 g'4 aes'2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+ees'4 des'4 c'4. ees'8 | des'4 des'4 des'4 c'4 |
+ees'4 aes'4 aes'4. aes'8 | ees'4 d'4 ees'2 |
+ees'4 des'4 c'4. ees'8 | des'4 des'4 des'4 c'4 |
+c'4 ees'4 des'4. f'8 | ees'4 ees'4 ees'2 |
+aes'4@c aes'4 aes'4 aes'4 | g'4 f'4 aes'4 g'4 |
+aes'4 aes'4 aes'4. aes'8 | ees'4 d'4 ees'2 |
+ees'4%p des'4 c'4 c'4 | f'4. des'8 des'4 c'4 |
+c'4 ees'4 des'4. f'8 | ees'4 ees'4 ees'2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+aes4 ees4 ees4. aes8 | aes4 aes4 aes4 aes4 |
+c'4 ees'4 c'4. ees'8 | ees'4 bes4 g2 |
+aes4 ees4 ees4. aes8 | aes4 aes4 aes4 aes4 |
+ees4 aes4 aes4. des'8 | c'4 bes4 c'2 |
+ees'4@c c'4 c'4 ees'4 | des'4 c'4 ees'4 ees'4 |
+ees'4 c'4 c'4. ees'8 | ees'4 bes4 g2 |
+aes4%p ees4 ees4 aes4 | aes4. aes8 aes4 aes4 |
+ees4 aes4 aes4. des'8 | c'4 bes4 c'2
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+aes,4 aes,4 aes,4. c8 | des4 f4 aes4 aes4 |
+aes4 aes4 aes4. aes8 | g4 f4 ees2 |
+aes,4 aes,4 aes,4. c8 | des4 f4 aes4 aes4 |
+aes,4 aes,4 des4. des8 | ees4 ees4 aes,2 |
+aes4@c aes4 aes4 aes4 | ees4 f4 ees4 ees4 |
+aes4 aes4 aes4. aes8 | g4 f4 ees2 |
+aes,4%p aes,4 aes,4 aes,4 | des4. des8 aes,4 aes,4 |
+aes,4 aes,4 des4. des8 | ees4 ees4 aes,2
+"""
+
+[lyrics.1]
+text = "’Tis so sweet to trust in Je -- sus, And to take Him at His Word; Just to rest up -- on His prom -- ise, And to know, “Thus says the Lord!”"
+
+[lyrics.2]
+text = "O how sweet to trust in Je -- sus, Just to trust His cleans -- ing blood; And in sim -- ple faith to plunge me ’Neath the heal -- ing, cleans -- ing flood!"
+
+[lyrics.3]
+text = "Yes, ’tis sweet to trust in Je -- sus, Just from sin and self to cease; Just from Je -- sus sim -- ply tak -- ing Life and rest, and joy and peace."
+
+[lyrics.4]
+text = "I’m so glad I learned to trust Thee, Pre -- cious Je -- sus, Sav -- ior, Friend; And I know that Thou art with me, Wilt be with me to the end."
+
+[lyrics.chorus]
+text = "Je -- sus, Je -- sus, how I trust Him! How I’ve proved Him o’er and o’er; Je -- sus, Je -- sus, pre -- cious Je -- sus! O for grace to trust Him more!"
