@@ -1,0 +1,75 @@
+title = "My Father, My Dear Father"
+copyrights = [
+  "Lyrics: Johnson Oatman, Jr., 1914 (public domain)",
+  "Music: James Monroe Hagan, 1914 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "D"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 5
+phrase_breaks = ["5:24", "9:24", "13:24"]
+optional_phrase_breaks = ["3:24", "7:24", "11:24", "15:24"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. d'8 fis'8. a'16 | a'4. b'8 a'8. fis'16 | d'4. d'8 g'8. b'16 | d''4. e''8 d''8. b'16 |
+a'4. a'8 b'8 a'8 | d''4. fis'8 fis'8 e'8 | d'4. fis'8 g'8 gis'8 | a'4. fis'8 e'4 |
+d'4. a'8@c d''8. e''16 | d''4. b'8 a'8. fis'16 | a'4. a'8 d''8. e''16 | d''4. b'8 a'8 fis'8 |
+e'4. g'8 fis'8 e'8 | d'4. d'8 g'8 b'8 | d''4. d''8 cis''8 b'8 | a'4. fis'8 e'4! | d'4. s4.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. d'8 d'8. fis'16 | fis'4. g'8 fis'8. d'16 | d'4. d'8 d'8. g'16 | g'4. g'8 g'8. g'16 |
+fis'4. fis'8 g'8 fis'8 | fis'4. d'8 d'8 cis'8 | d'4. d'8 d'8 d'8 | d'4. d'8 cis'4 |
+d'4. d'8@c fis'8. a'16 | b'4. g'8 fis'8. d'16 | fis'4. fis'8 fis'8. a'16 | b'4. g'8 d'8 d'8 |
+cis'4. cis'8 d'8 a8 | a4. d'8 d'8 g'8 | g'4. eis'8 eis'8 eis'8 | fis'4. d'8 cis'4! | d'4. s4.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. fis8 a8. d'16 | d'4. d'8 d'8. a16 | fis4. a8 b8. d'16 | b4. b8 b8. d'16 |
+d'4. d'8 d'8 d'8 | a4. a8 a8 g8 | fis4. d8 e8 eis8 | g4. a8 a8[ g8] |
+fis4. fis8@c a8. a16 | g4. d'8 d'8. a16 | d'4. d'8 a8. a16 | g4. d'8 d'8 a8 |
+a4. a8 a8 g8 | fis4. a8 b8 d'8 | b4. b8 d'8 d'8 | d'4. a8 a8[! g8] | fis4. s4.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. d8 d8. d16 | d4. d8 d8. d16 | d4. fis8 g8. g16 | g4. g8 g8. g16 |
+d4. d8 d8 d8 | d4. d8 a,8 ais,8 | b,4. b,8 b,8 bes,8 | a,4. a,8 a,4 |
+d4. d8@c d8. fis16 | g4. g8 d8. d16 | d4. d8 d8. fis16 | g4. g8 fis8 d8 |
+a,4. a,8 b,8 cis8 | d4. fis8 g8 g8 | g4. gis8 gis8 gis8 | a4. a,8 a,4! | d4. s4.
+"""
+
+[lyrics.1]
+text = "Up -- on the walls of mem -- o -- ry One face, one form I ev -- er see; A -- bove all men he seems to me, My fa -- ther, my dear fa -- ther."
+
+[lyrics.2]
+text = "I loved to stand by fa -- ther’s knee, And hear him read God’s Word to me; Most pre -- cious will they ev -- er be, Those pag -- es read by fa -- ther."
+
+[lyrics.3]
+text = "But bet -- ter far than print -- ed page, Or mes -- sage from se -- er or sage, Is this most price -- less her -- it -- age, The life of my dear fa -- ther."
+
+[lyrics.4]
+text = "What tho’ the world knew not his worth, Nor halls of fame re -- cord his birth, It can -- not per -- ish from the earth, The good work done by fa -- ther."
+
+[lyrics.5]
+text = "His pre -- cepts I will still o -- bey, And as he fol -- lowed Christ each day, I’ll fol -- low in the same old way, Un -- til I join my fa -- ther."
+
+[lyrics.chorus]
+text = "O how it makes my heart re -- joice When I re -- call that lov -- ing voice; Yes, sweet to me will ev -- er be The mem -- ’ry of my fa -- ther."
