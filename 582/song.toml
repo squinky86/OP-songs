@@ -1,0 +1,130 @@
+title = "Are You Washed in the Blood?"
+copyrights = [
+  "Lyrics and Music: Elisha Albright Hoffman, 1878 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "A"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 110
+verse_count = 4
+phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "11:48", "13:48", "15:48"]
+non_breaking_phrase_breaks = ["13:16"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. cis'8 e'8 |
+a'4 a'4 a'8 e'8 cis'8 e'8 |
+a'4 a'4 a'4 a'8 b'8 |
+cis''4 cis''8 cis''8 cis''4 b'8 a'8 |
+b'2. cis''8 b'8 |
+a'4 a'4 a'8 cis''8 b'8 a'8 |
+fis'4 fis'4 fis'4 fis'8 fis'8 |
+e'4 e'8 e'8 a'4 gis'8 gis'8 |
+a'2. cis''8@c b'8 |
+a'2. a'8 gis'8 |
+fis'2. gis'8 fis'8 |
+e'4 a'8 b'8 cis''4 d''8 cis''8 |
+b'2. cis''8 b'8 |
+a'4 a'4 a'8 cis''8 b'8 a'8 |
+fis'4 fis'4 fis'4 fis'8 fis'8 |
+e'4 e'8 e'8 a'4 gis'8 gis'8 |
+a'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. a8 cis'8 |
+cis'4 cis'4 cis'8 cis'8 a8 cis'8 |
+cis'4 d'4 cis'4 e'8 e'8 |
+e'4 e'8 e'8 e'4 e'8 dis'8 |
+e'2. e'8 d'8 |
+cis'4 cis'4 cis'8 e'8 e'8 e'8 |
+d'4 d'4 d'4 d'8 d'8 |
+cis'4 cis'8 cis'8 e'4 d'8 d'8 |
+cis'2. e'8@c d'8 |
+cis'2. cis'8 e'8 |
+d'2. e'8 d'8 |
+cis'4 e'8 e'8 e'4 e'8 e'8 |
+e'2. e'8 d'8 |
+cis'4 cis'4 cis'8 e'8 e'8 e'8 |
+d'4 d'4 d'4 d'8 d'8 |
+cis'4 cis'8 cis'8 e'4 d'8 d'8 |
+cis'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. e8 e8 |
+e4 e4 e8 a8 a8 a8 |
+a4 fis4 e4 a8 gis8 |
+a4 a8 a8 a4 b8 b8 |
+gis2. a8 e8 |
+e4 e4 e8 a8 gis8 a8 |
+a4 a4 a4 a8 a8 |
+a4 a8 a8 cis'4 b8 b8 |
+a2. r4@c |
+r4 a8 a8 a4 r4 |
+r4 a8 a8 a4 a8 a8 |
+a4 a8 gis8 a4 b8 a8 |
+gis4 gis8 gis8 gis4 a8 e8 |
+e4 e4 e8 a8 gis8 a8 |
+a4 a4 a4 a8 a8 |
+a4 a8 a8 cis'4 b8 b8 |
+a2. s4
+"""
+
+[parts.Tenor.lyrics.chorus]
+text = "Are you washed in the blood, In the soul cleans -- ing blood of the Lamb? of the Lamb? Are your gar -- ments spot -- less? Are they white as snow? Are you washed in the blood of the Lamb?"
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. a,8 a,8 |
+a,4 a,4 a,8 a,8 a,8 a,8 |
+a,4 d4 a,4 cis8 e8 |
+a4 a8 a8 a4 gis8 fis8 |
+e2. e8 e8 |
+a,4 a,4 a,8 a,8 b,8 cis8 |
+d4 d4 d4 d8 d8 |
+e4 e8 e8 e4 e8 e8 |
+a,2. r4@c |
+r4 a,8 a,8 a,4 r4 |
+r4 d8 d8 d4 d8 d8 |
+a,4 cis8 e8 a4 gis8 a8 |
+e4 e8 e8 e4 e8 e8 |
+a,4 a,4 a,8 a,8 b,8 cis8 |
+d4 d4 d4 d8 d8 |
+e4 e8 e8 e4 e8 e8 |
+a,2. s4
+"""
+
+[parts.Bass.lyrics.chorus]
+text = "Are you washed in the blood, In the soul cleans -- ing blood of the Lamb? of the Lamb? Are your gar -- ments spot -- less? Are they white as snow? Are you washed in the blood of the Lamb?"
+
+[lyrics.1]
+text = "Have you been to Je -- sus for the cleans -- ing pow’r? Are you washed in the blood of the Lamb? Are you ful -- ly trust -- ing in His grace this hour? Are you washed in the blood of the Lamb?"
+
+[lyrics.2]
+text = "Are you walk -- ing dai -- ly by the Sav -- ior’s side? Are you washed in the blood of the Lamb? Do you rest each mo -- ment in the Cru -- ci -- fied? Are you washed in the blood of the Lamb?"
+
+[lyrics.3]
+text = "When the Bride -- groom com -- eth will your robes be white? Are you washed in the blood of the Lamb? Will your soul be rea -- dy for the man -- sions bright, And be washed in the blood of the Lamb?"
+
+[lyrics.4]
+text = "Lay a -- side the gar -- ments that are stained with sin, And be washed in the blood of the Lamb; There’s a foun -- tain flow -- ing for the soul un -- clean, O be washed in the blood of the Lamb!"
+
+[lyrics.chorus]
+text = "Are you washed in the blood, In the soul cleans -- ing blood of the Lamb? Are your gar -- ments spot -- less? Are they white as snow? Are you washed in the blood of the Lamb?"
