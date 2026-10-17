@@ -1,0 +1,79 @@
+title = "Blessed Rock of Ages"
+copyrights = [
+  "Lyrics: E. K. Wesson, 1913 (public domain)",
+  "Music: E. K. Wesson, arr. J. E. T., 1913 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "D"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 92
+verse_count = 3
+phrase_breaks = ["4:64", "8:64", "12:48"]
+optional_phrase_breaks = ["2:64", "6:64"]
+non_breaking_phrase_breaks = ["9:64", "10:64", "11:24", "11:32", "12:8", "14:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+a'4. b'8 fis'4 d'4 | d''4. b'8 b'4 a'4 | d'4. fis'8 a'4. fis'8 | e'4 d'4 e'2 |
+a'4. b'8 fis'4 d'4 | d''4. b'8 b'4 a'4 | d'4. fis'8 a'4. g'8 | fis'4 e'4 d'2 |
+d''2.@c b'4 | a'2. fis'4 | fis'2. d'4 | e'2. fis'8[ a'8] |
+d''2. b'4 | a'2. b'4 | fis'2. e'4 | d'2. r4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+fis'4. fis'8 d'4 d'4 | d'4. d'8 d'4 d'4 | d'4. d'8 fis'4. d'8 | a4 b4 cis'2 |
+fis'4. fis'8 d'4 d'4 | d'4. d'8 d'4 d'4 | d'4. d'8 d'4. d'8 | d'4 cis'4 d'2 |
+fis'4@c fis'4 fis'4 g'4 | fis'4 fis'4 fis'4 d'4 | d'4 d'4 d'4 d'4 | cis'4 cis'4 cis'4 d'8[ fis'8] |
+fis'4 fis'4 fis'4 g'4 | fis'4 fis'4 fis'4 fis'4 | d'4 d'4 d'4 cis'4 | d'2. r4
+"""
+
+[parts.Alto.lyrics.chorus]
+text = "Rock of A -- ges, Rock of A -- ges, cleft for me on Cal -- va -- ry; O let me hide my -- self in Thee, yes, hide my -- self in Thee."
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+d'4. d'8 a4 a4 | b4. g8 g4 fis4 | fis4. a8 d'4. a8 | a4 gis4 a2 |
+d'4. d'8 a4 a4 | b4. g8 g4 fis4 | fis4. a8 d'4. b8 | a4 g4 fis2 |
+a4@c a4 a4 d'4 | d'4 d'4 d'4 a4 | b8 b8 b8 b8 b4 a4 | a8 a8 a8 a8 a4 a4 |
+a4 a4 a4 d'4 | d'4 d'4 d'4 a4 | a8 a8 a8 a8 a4 g4 | fis2. r4
+"""
+
+[parts.Tenor.lyrics.chorus]
+text = "Rock of A -- ges, Rock of A -- ges, cleft for me, yes, cleft for me on Cal -- va -- ry; O let me hide my -- self in Thee, yes, let me hide my -- self in Thee."
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+d4. d8 d4 fis4 | g4. g8 d4 d4 | d4. d8 d4. d8 | cis4 b,4 a,2 |
+d4. d8 d4 fis4 | g4. g8 d4 d4 | d4. d8 d4. g8 | a4 a,4 d2 |
+d4@c d4 d4 d4 | d4 d4 d4 d4 | b,8 d8 fis8 d8 b,4 d4 | a,8 cis8 e8 cis8 a,4 d4 |
+d4 d4 d4 d4 | d4 d4 d4 d4 | d8 e8 fis8 g8 a4 a,4 | d2. r4
+"""
+
+[parts.Bass.lyrics.chorus]
+text = "Rock of A -- ges, Rock of A -- ges, cleft for me, yes, cleft for me on Cal -- va -- ry; O let me hide my -- self in Thee, yes, let me hide my -- self in Thee."
+
+[lyrics.1]
+text = "O Thou Rock of my sal -- va -- tion, Hide me now from life’s sad woes; In Thy cleft made on Mount Calv -- ’ry, Hide me safe -- ly from all foes."
+
+[lyrics.2]
+text = "Ref -- uge sweet, O Rock of A -- ges, Let me now Thy pres -- ence claim; Let me seek when tem -- pests gath -- er Shel -- ter on -- ly in Thy name."
+
+[lyrics.3]
+text = "Thou, my ev -- er -- last -- ing com -- fort, Thou, my life, my joy, my stay; By Thy coun -- sel ev -- er guide me, Lead and keep me all the way."
+
+[lyrics.chorus]
+text = "Rock of A -- ges cleft for me, O let me hide my -- self in Thee."
