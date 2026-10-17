@@ -1,0 +1,94 @@
+title = "Go Preach the Word"
+copyrights = [
+  "Lyrics: N. W. Allphin, 1913 (public domain)",
+  "Music: Gwendolyne Cole, 1913 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 4
+phrase_breaks = ["2:64", "4:64", "6:64", "8:64", "10:64", "12:64", "14:64"]
+non_breaking_phrase_breaks = ["15:48", "15:60"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+a'8. gis'16 a'8. bes'16 a'4 f'4 | c''8. d''16 c''8. d''16 c''2 |
+a'8. gis'16 a'8. bes'16 a'8. c''16 a'8. f'16 | g'2. r4 |
+a'8. gis'16 a'8. bes'16 a'4 f'4 | c''8. c''16 a'8. c''16 d''2 |
+c''8. c''16 f'8. bes'16 a'4 g'4 | f'2. r4 |
+a'2~@c a'8. a'16 {3 f'8( g'8) a'8 } | c''2~ c''4 r4 |
+c''2~ c''8. c''16 {3 g'8( a'8) bes'8 } | a'2~ a'4 r4 |
+d''2~ d''8. d''16 {3 f''8( e''8) d''8 } | c''2~ c''4 r4 |
+a'2~ a'4 f'8. g'16 | f'2~ f'4 r4
+"""
+
+[parts.Soprano.lyrics.chorus]
+text = "Go and preach the word Un -- to souls a -- stray; Lead them to the Lord, Save one to -- day."
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+f'8. f'16 f'8. g'16 f'4 c'4 | f'8. e'16 f'8. e'16 f'2 |
+f'8. f'16 f'8. f'16 f'8. f'16 f'8. f'16 | e'2. r4 |
+f'8. f'16 f'8. f'16 f'4 c'4 | f'8. f'16 f'8. f'16 f'2 |
+f'8. f'16 f'8. f'16 f'4 e'4 | f'2. r4 |
+f'8.@c f'16 f'8. f'16 f'4 r4 | f'8. f'16 e'8. e'16 f'4 r4 |
+e'8. e'16 e'8. e'16 e'4 r4 | f'8. f'16 f'8. f'16 f'4 r4 |
+f'8. f'16 f'8. f'16 f'4 r4 | f'8. f'16 e'8. e'16 f'4 r4 |
+f'8. f'16 f'8. f'16 f'4 f'8. c'16 | c'4 d'8. d'16 c'4 r4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+c'8. b16 c'8. c'16 c'4 a4 | a8. bes16 c'8. bes16 a2 |
+c'8. b16 c'8. d'16 c'8. a16 b8. b16 | c'2. r4 |
+c'8. b16 c'8. c'16 c'4 a4 | a8. a16 f8. a16 bes2 |
+a8. a16 a8. d'16 c'4 bes4 | a2. r4 |
+c'8.@c c'16 c'8. c'16 c'4 r4 | a8. a16 g8. bes16 a4 r4 |
+bes8. bes16 bes8. bes16 bes4 r4 | c'8. c'16 d'8. d'16 c'4 r4 |
+bes8. bes16 bes8. bes16 bes4 r4 | a8. a16 g8. bes16 a4 r4 |
+c'8. c'16 d'8. d'16 c'4 a8. bes16 | a4 bes8. bes16 a4 r4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+f8. f16 f8. e16 f4 f4 | f8. c16 a,8. c16 f2 |
+f8. f16 f8. f16 f8. c16 d8. d16 | c2. r4 |
+f8. f16 f8. e16 f4 f4 | f8. ees16 d8. c16 bes,2 |
+f8. f16 f8. bes,16 c4 c4 | f2. r4 |
+f8.@c f16 f8. f16 f4 r4 | f8. f16 c8. c16 f4 r4 |
+c8. c16 c8. c16 c4 r4 | f8. f16 d8. d16 f4 r4 |
+bes,8. bes,16 bes,8. bes,16 bes,4 r4 | f8. f16 c8. c16 f4 r4 |
+f8. f16 d8. d16 f4 c8. c16 | f,2~ f,4 r4
+"""
+
+[parts.Bass.lyrics.chorus]
+text = "Go at His com -- mand preach His sav -- ing word Un -- to pre -- cious souls, who have gone a -- stray; Lead them from their sins to the bless -- ed Lord, Help to seek and save one to -- day."
+
+[lyrics.1]
+text = "Go ye, said the Sav -- iour, in -- to all the world, Preach the gos -- pel of His sav -- ing grace; Till His glo -- rious ban -- ner there shall be un -- furled O -- ver ev -- ’ry clime and race."
+
+[lyrics.2]
+text = "Tell the sim -- ple sto -- ry of the Sav -- iour’s birth, How “His own” the Christ would not re -- ceive; Bear the news to all the na -- tions of the earth, Tell them that they must be -- lieve!"
+
+[lyrics.3]
+text = "Tell how, on the cross, His pre -- cious blood He shed, How the tem -- ple’s vail in twain was rent; ’Twas to save from sin He came forth from the grave, Tell them that they must re -- pent!"
+
+[lyrics.4]
+text = "Tell the world that Christ now reigns en -- throned a -- bove, Go pro -- claim the com -- ing judg -- ment day; All who here would share the full -- ness of His love, Must His blest com -- mands o -- bey!"
+
+[lyrics.chorus]
+text = "Go at His com -- mand preach His sav -- ing word Un -- to pre -- cious souls, who have gone a -- stray; Lead them from their sins to the bless -- ed Lord, Help to seek and save one, yes, save one to -- day."
