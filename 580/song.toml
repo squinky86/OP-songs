@@ -1,0 +1,96 @@
+title = "Where The Blood Can Heal!"
+copyrights = [
+  "Lyrics and Music: Franklin L. Eiland, 1905 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 110
+verse_count = 5
+phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "13:48"]
+optional_phrase_breaks = ["11:48", "15:48"]
+optional_break_threshold_ticks = 148
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. ees'8. ees'16 |
+aes'4 aes'4 aes'4 ees'8. ees'16 | aes'4 bes'4 aes'4! aes'8. bes'16 |
+c''4 c''8. c''16 c''8[ bes'8] aes'4 | c''2( bes'4) c''8. des''16 |
+ees''4 ees''4 ees''8[ c''8] aes'8. bes'16 | c''4 c''4 bes'8[ aes'8] ees'8. ees'16 |
+aes'4 c''8. aes'16 bes'4 bes'4 | aes'2. ees'8.@c ees'16 |
+aes'4 aes'8. aes'16 bes'4 bes'4 | aes'2. aes'8. bes'16 |
+c''4 c''8. c''16 c''8[ bes'8] aes'4 | c''2( bes'4) c''8. des''16 |
+ees''4 ees''4 ees''8[ c''8] aes'8. bes'16 | c''4 c''4 bes'8[ aes'8] ees'8. ees'16 |
+aes'4 c''8. aes'16 bes'4 bes'4 | aes'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. c'8. c'16 |
+ees'4 ees'4 ees'4 c'8. c'16 | ees'4 ees'4 ees'4! ees'8. ees'16 |
+aes'4 aes'8. aes'16 aes'8[ ees'8] ees'4 | aes'2( g'4) ees'8. ees'16 |
+aes'4 aes'4 aes'8[ ees'8] ees'8. ees'16 | aes'4 aes'4 ees'4 c'8. c'16 |
+f'4 aes'8. f'16 g'4 ees'4 | ees'2. c'8.@c c'16 |
+ees'4 ees'8. ees'16 ees'4 ees'4 | ees'2. ees'8. ees'16 |
+aes'4 aes'8. aes'16 aes'8[ ees'8] ees'4 | aes'2( g'4) ees'8. ees'16 |
+aes'4 aes'4 aes'8[ ees'8] ees'8. ees'16 | aes'4 aes'4 ees'4 c'8. c'16 |
+f'4 aes'8. f'16 g'4 ees'4 | ees'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. aes8. aes16 |
+c'4 c'4 c'4 aes8. aes16 | c'4 des'4 c'4! c'8. des'16 |
+ees'4 ees'8. ees'16 ees'8[ des'8] c'4 | ees'2. aes8. bes16 |
+c'4 c'4 c'8[ aes8] c'8. des'16 | ees'4 ees'4 des'8[ c'8] aes8. aes16 |
+aes4 aes8. c'16 des'4 des'4 | c'2. aes8.@c aes16 |
+c'4 c'8. c'16 des'4 des'4 | c'2. c'8. des'16 |
+ees'4 ees'8. ees'16 ees'8[ des'8] c'4 | ees'2. aes8. bes16 |
+c'4 c'4 c'8[ aes8] c'8. des'16 | ees'4 ees'4 des'8[ c'8] aes8. aes16 |
+aes4 aes8. c'16 des'4 des'4 | c'2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. aes,8. aes,16 |
+aes,4 aes,4 aes,4 aes,8. aes,16 | aes,4 ees4 aes,4! aes8. aes16 |
+aes4 aes8. aes16 aes4 aes4 | aes2( ees4) aes8. aes16 |
+aes4 aes4 aes4 aes8. aes16 | aes4 aes4 aes4 aes8. aes16 |
+f4 f8. f16 ees4 ees4 | aes,2. aes,8.@c aes,16 |
+aes,4 aes,8. aes,16 ees4 ees4 | aes,2. aes8. aes16 |
+aes4 aes8. aes16 aes4 aes4 | aes2( ees4) aes8. aes16 |
+aes4 aes4 aes4 aes8. aes16 | aes4 aes4 aes4 aes8. aes16 |
+f4 f8. f16 ees4 ees4 | aes,2. s4
+"""
+
+[lyrics.1]
+text = "Do you seek re -- lief for your sin- -- sick soul? You to Christ, then, must make ap -- peal, There’s no o -- ther One who can make you whole, You must come where the blood can heal!"
+
+[lyrics.2]
+text = "Vain are all your hopes of a -- no -- ther cure, Be per -- suad -- ed, you now, to feel, Help a -- lone, thro’ Christ, that you can se -- cure, You must come where the blood can heal!"
+
+[lyrics.3]
+text = "O -- ther prof -- fered aids can but you de -- ceive, At your will, un -- to life, they steal! You must look to Christ if you’d hope re -- ceive, You must come where the blood can heal!"
+
+[lyrics.4]
+text = "Hear you not? ’tis there a de -- coy -- ing voice, Striv -- ing ev -- er, to quench thy zeal, Would you from Him turn, re -- fuge safe to find, You must come where the blood can heal!"
+
+[lyrics.5]
+text = "If you would a -- rise from your bed of pain, To the coun -- sel of Christ then kneel, ’Tis pre -- scribed by Him, and your on -- ly hope, You must come where the blood can heal!"
+
+[lyrics.chorus]
+text = "You must come where the blood can heal, You must come where the blood can heal, There’s no o -- ther One who can make you whole, You must come where the blood can heal!"
