@@ -1,0 +1,115 @@
+title = "Come in “The Obedience of Faith”"
+copyrights = [
+  "Lyrics: Flavil Hall, 1911 (public domain)",
+  "Music: 'Holy Manna' by William Moore, 1825 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "A"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 3
+phrase_breaks = ["4:64", "8:64", "12:64"]
+optional_phrase_breaks = ["2:64", "6:64", "10:64", "14:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+e'4 e'8[ fis'8] a'4 a'4 |
+b'4 b'8[ a'8] cis''8[ b'8] a'8[ fis'8] |
+e'4 e'8[ fis'8] a'4 a'4 |
+cis''4 b'4 a'2 |
+e'4 e'8[ fis'8] a'4 a'4 |
+b'4 b'8[ a'8] cis''8[ b'8] a'8[ fis'8] |
+e'4 e'8[ fis'8] a'4 a'4 |
+cis''4 b'4 a'2 |
+cis''4 e''4 e''4 e''4 |
+cis''4 cis''8[ a'8] b'4 a'4 |
+cis''4 e''4 e''4 e''4 |
+cis''4 cis''8[ a'8] b'2 |
+e'4 e'8[ fis'8] a'4 a'4 |
+b'4 b'8[ a'8] cis''8[ b'8] a'8[ fis'8] |
+e'4 e'8[ fis'8] a'4 a'4 |
+cis''4 b'4 a'2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+cis'4 cis'8[ d'8] cis'4 cis'4 |
+e'4 e'4 e'8[ d'8] cis'8[ d'8] |
+cis'4 cis'4 cis'4 cis'4 |
+e'4 e'4 e'2 |
+cis'4 cis'8[ d'8] cis'4 cis'4 |
+e'4 e'4 e'8[ d'8] cis'8[ d'8] |
+cis'4 cis'4 cis'4 cis'4 |
+e'4 e'4 e'2 |
+e'4 a'4 a'4 a'4 |
+a'4 a'4 gis'4 a'4 |
+a'4 a'4 a'4 gis'4 |
+fis'4 a'4 gis'2 |
+cis'4 cis'8[ d'8] cis'4 cis'4 |
+e'4 e'8[ e'8] e'8[ d'8] cis'8[ d'8] |
+cis'4 cis'4 cis'4 cis'4 |
+e'4 e'4 e'2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+a4 a4 a4 a4 |
+gis4 gis8[ a8] a4 a4 |
+a4 a4 a4 a4 |
+a4 d'4 cis'2 |
+a4 a4 a4 a4 |
+gis4 gis8[ a8] a4 a4 |
+a4 a4 a4 a4 |
+a4 d'4 cis'2 |
+a4 cis'4 cis'4 cis'4 |
+e'4 e'8[ cis'8] d'4 cis'4 |
+e'4 cis'4 cis'4 b4 |
+a4 cis'4 e'2 |
+a4 a4 a4 a4 |
+gis4 gis8[ a8] a4 a4 |
+a4 a4 a4 a4 |
+a4 d'4 cis'2
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+a,4 a,4 a,4 a,4 |
+e4 e8[ cis8] a,4 a,4 |
+a4 a4 fis4 fis4 |
+e4 e4 a,2 |
+a,4 a,4 a,4 a,4 |
+e4 e8[ cis8] a,4 a,4 |
+a4 a4 fis4 fis4 |
+e4 e4 a,2 |
+a4 a4 a4 a4 |
+a4 a4 e4 a4 |
+a4 a4 a4 e4 |
+fis4 fis4 e2 |
+a,4 a,4 a,4 a,4 |
+e4 e8[ cis8] a,4 a,4 |
+a4 a4 fis4 fis4 |
+e4 e4 a,2
+"""
+
+[lyrics.1]
+text = "Wand’ -- rer, hear the in -- vi -- ta -- tion, Sound -- ing forth to one and all, There’s re -- deem -- ing love in Je -- sus, If you heed His gra -- cious call. Come to Je -- sus, dy -- ing sin -- ner, O re -- ceive Him and be blest, Come to Him in con -- se -- cra -- tion, He will sweet -- ly give you rest."
+
+[lyrics.2]
+text = "He has prom -- ised you sal -- va -- tion, O be -- lieve Him and re -- pent, Be bap -- tized in -- to His king -- dom, Thus re -- ceiv -- ing His im -- print. Come to Je -- sus, dy -- ing sin -- ner, O re -- ceive Him and be blest, Come to Him in con -- se -- cra -- tion, He will sweet -- ly give you rest."
+
+[lyrics.3]
+text = "To e -- ter -- ni -- ty you’re go -- ing, Fast as time can bear you on; Soon the day of prep -- a -- ra -- tion Will for ev -- er -- more be gone. Come be -- liev -- ing and re -- pent -- ing, And o -- bey Je -- ho -- vah’s word, Be bap -- tized in -- to His king -- dom, And be saved thro’ Je -- sus’ blood."
