@@ -1,0 +1,105 @@
+title = "Do You Want to Live for God?"
+copyrights = [
+  "Lyrics and Music: Franklin L. Eiland, 1900 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 4
+phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "11:48", "13:48"]
+non_breaking_phrase_breaks = ["8:48", "9:16", "14:48", "15:16"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. f'8. g'16 |
+a'8. a'16 a'8. gis'16 a'16 c''8. f'8. g'16 | a'8. a'16 a'8. g'16 f'4 c''8. c''16 |
+a'2. f'8. g'16 | a'2. f'8. g'16 |
+a'8. a'16 a'8. gis'16 a'16 c''8. f'8. g'16 | a'8. a'16 a'8. g'16 f'4 c''8. c''16 |
+a'2. g'8. g'16 | f'2. c''8.@c a'16 |
+c''2. f''8. a'16 | c''2. f'8. g'16 |
+a'8. a'16 a'8. gis'16 a'16 c''8. f'8. g'16 | a'8. a'16 a'8. g'16 f'4 c''8. c''16 |
+a'2. g'8. g'16 | f'2. s4
+"""
+
+[parts.Soprano.lyrics.s2]
+text = ""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. c'8. c'16 |
+f'8. f'16 f'8. f'16 f'16 a'8. c'8. c'16 | f'8. f'16 f'8. c'16 c'4 a'8. a'16 |
+f'2( c'4) f'8. e'16 | f'2. c'8. c'16 |
+f'8. f'16 f'8. f'16 f'16 a'8. c'8. c'16 | f'8. f'16 f'8. c'16 c'4 a'8. a'16 |
+f'2( c'4) c'8. c'16 | c'4 {3 d'8( c'8) b8 } c'4 a'8.@c f'16 |
+a'2. a'8. f'16 | a'2. c'8. c'16 |
+f'8. f'16 f'8. f'16 f'16 a'8. c'8. c'16 | f'8. f'16 f'8. c'16 c'4 a'8. a'16 |
+f'2( c'4) c'8. c'16 | c'4 {3 d'8( c'8) b8 } c'4 s4
+"""
+
+[parts.Alto.lyrics.chorus]
+text = "Come to -- night, come to -- night! Leave the road of sin and sor -- row, Turn ye un -- to Je -- sus now! Come to -- night, come to -- night! come to -- night!"
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. a8. bes16 |
+c'8. c'16 c'8. b16 c'16 f'8. a8. bes16 | c'8. c'16 c'8. bes16 a4 r4 |
+r4 c'8. c'16 f'4 r4 | r4 c'8. c'16 c'4 a8. bes16 |
+c'8. c'16 c'8. b16 c'16 f'8. a8. bes16 | c'8. c'16 c'8. bes16 a4 r4 |
+r4 c'8. c'16 c'4 bes8. bes16 | a4 {3 bes8( a8) gis8 } a4 r4@c |
+r4 f'8. f'16 f'4 r4 | r4 f'8. f'16 f'4 a8. bes16 |
+c'8. c'16 c'8. b16 c'16 f'8. a8. bes16 | c'8. c'16 c'8. bes16 a4 r4 |
+r4 c'8. c'16 c'4 bes8. bes16 | a4 {3 bes8( a8) gis8 } a4 s4
+"""
+
+[parts.Tenor.lyrics.chorus]
+text = "Come to -- night, come to -- night! Leave the road of sin and sor -- row, Turn ye un -- to Je -- sus now! Come to -- night, come to -- night! come to -- night!"
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. f8. f16 |
+f8. f16 f8. f16 f16 f8. f8. f16 | f8. f16 c8. c16 f4 r4 |
+r4 f8. f16 f4 r4 | r4 f8. f16 f4 f8. f16 |
+f8. f16 f8. f16 f16 f8. f8. f16 | f8. f16 c8. c16 f4 r4 |
+r4 f8. f16 f4 c8. c16 | f2. r4@c |
+r4 f8. f16 f4 r4 | r4 f8. f16 f4 f8. f16 |
+f8. f16 f8. f16 f16 f8. f8. f16 | f8. f16 c8. c16 f4 r4 |
+r4 f8. f16 f4 c8. c16 | f2. s4
+"""
+
+[parts.Bass.lyrics.s2]
+text = ""
+
+[lyrics.1]
+text = "Are you tired of sin’s de -- lu -- sion? Do you want to live for God? @s1 Seek the paths the saints be -- fore you Have by faith in Je -- sus trod, @s1 @s2"
+
+[lyrics.2]
+text = "Peace at thy com -- mand is wait -- ing, Wouldst thou it this mo -- ment claim? @s1 Bring thy load of guilt be -- fore Him, Ask re -- lief in Je -- sus’ name, @s1 @s2"
+
+[lyrics.3]
+text = "Tar -- ry not a -- way in doubt -- ing, While the Christ now in -- ter -- cedes; @s1 With the Fa -- ther He is plead -- ing, And He know -- eth well thy needs, @s1 @s2"
+
+[lyrics.4]
+text = "Time is fly -- ing, judg -- ment’s com -- ing, Shall un -- saved there be thy cry? @s1 Let you not the day of mer -- cy, Pass you thus for -- ev -- er by! @s1 @s2"
+
+[lyrics.chorus]
+text = "Come to -- night, come to -- night! Leave the road of sin and sor -- row, Turn ye un -- to Je -- sus now! Come to -- night, come to -- night!"
+
+[lyrics.s1]
+text = "Come to -- night, come to -- night!"
+
+[lyrics.s2]
+text = "come to -- night!"
