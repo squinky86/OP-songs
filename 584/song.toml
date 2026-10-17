@@ -1,0 +1,151 @@
+title = "O Think of the Home Over There"
+copyrights = [
+  "Lyrics: DeWitt Clinton Huntington, 1868 (public domain)",
+  "Music: T. C. O’Kane, 1871 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "A"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 107
+verse_count = 4
+phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "13:48"]
+optional_phrase_breaks = ["11:48", "15:48"]
+non_breaking_phrase_breaks = ["5:16", "9:16", "13:16", "14:16", "14:48", "15:16"]
+optional_break_threshold_ticks = 148
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. e'4 |
+a'4 a'8. a'16 a'4 cis''8. b'16 |
+a'2. gis'8 a'8 |
+b'4 b'8. b'16 b'4 d''8. cis''16 |
+b'2. a'8 b'8 |
+cis''4 cis''8. cis''16 cis''4 b'8. a'16 |
+a'2( fis'4) d''8-( d''8-) |
+cis''4 cis''8. cis''16 b'4 cis''8. b'16 |
+a'2. gis'8. a'16 |
+b'2. a'8. b'16 |
+cis''2. cis''4 |
+d''4 d''8. d''16 cis''4 e''8. cis''16 |
+b'2. e''8. d''16 |
+cis''2. b'8. a'16 |
+fis'4 d''8. d''16 d''4 d''4 |
+cis''4 cis''8. cis''16 b'4 cis''8. b'16 |
+a'2. s4
+"""
+
+[parts.Soprano.lyrics.s1]
+text = ""
+
+[parts.Soprano.lyrics.s2]
+text = ""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. cis'4 |
+e'4 e'8. e'16 e'4 e'8. d'16 |
+cis'2. e'8 e'8 |
+e'4 e'8. e'16 e'4 gis'8. e'16 |
+e'2. e'8 e'8 |
+e'4 e'8. e'16 e'4 e'8. e'16 |
+fis'2( d'4) fis'8-( fis'8-) |
+e'4 e'8. a'16 gis'4 a'8. e'16 |
+e'4 e'8. e'16 e'4 e'8. e'16 |
+gis'2. cis'8. d'16 |
+e'2. a'4 |
+gis'4 gis'8. gis'16 a'4 a'8. a'16 |
+gis'4 gis'8. gis'16 gis'4 r4 |
+r4 e'8. e'16 e'4 r4 |
+r4 fis'8. fis'16 fis'4 fis'4 |
+fis'4 a'8. a'16 gis'4 e'8. e'16 |
+e'2. s4
+"""
+
+[parts.Alto.lyrics.s1]
+text = ""
+
+[parts.Alto.lyrics.s3]
+text = ""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. a4 |
+cis'4 cis'8. cis'16 cis'4 a8. gis16 |
+a2. b8 a8 |
+gis4 gis8. gis16 gis4 b8. a16 |
+gis4 gis8. gis16 gis4 a8 gis8 |
+a4 a8. a16 a4 gis8. a16 |
+a2. a8-( a8-) |
+a4 a8. cis'16 d'4 e'8. d'16 |
+cis'2. r4 |
+r4 b8. b16 b4 r4 |
+r4 cis'8. cis'16 cis'4 e'4 |
+e'4 e'8. e'16 e'4 cis'8. e'16 |
+e'2. cis'8. b16 |
+a2. d'8. cis'16 |
+d'4 a8. a16 a4 a4 |
+a8[ cis'8] e'8. e'16 e'4 e'8. d'16 |
+cis'2. s4
+"""
+
+[parts.Tenor.lyrics.s2]
+text = ""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. a,4 |
+a,4 a,8. a,16 a,4 e8. e16 |
+a,2. e8 e8 |
+e4 e8. e16 e4 e8. e16 |
+e4 e8. e16 e8[ d8] cis8 b,8 |
+a,4 a,8. a,16 a,4 b,8. cis16 |
+d2. d8-( d8-) |
+e4 e8. e16 e4 e8. e16 |
+a,4 a,8. a,16 a,4 r4 |
+r4 e8. e16 e4 r4 |
+r4 a8. a16 a4 a4 |
+b4 b8. b16 a4 a8. a16 |
+e4 e8. e16 e4 r4 |
+r4 a,8. a,16 a,4 r4 |
+r4 fis8. fis16 fis4 b,4 |
+e4 e8. e16 e4 e8. e16 |
+a,2. s4
+"""
+
+[parts.Bass.lyrics.s3]
+text = ""
+
+[lyrics.1]
+text = "O think of the home o -- ver there, By the side of the riv -- er of light, @s1 Where the saints, all im -- mor -- tal and fair, Are _ robed in their gar -- ments of light. @s2 O -- ver there, o -- ver there, O think of the home o -- ver there, @s2 O -- ver there, o -- ver there, @s3 O think of the home o -- ver there."
+
+[lyrics.2]
+text = "O think of the friends o -- ver there, Who be -- fore us the jour -- ney have trod, @s1 Of the songs that they breathe on the air, In their home in the pal -- ace of God. @s2 O -- ver there, o -- ver there, O think of the friends o -- ver there, @s2 O -- ver there, o -- ver there, @s3 O think of the friends o -- ver there."
+
+[lyrics.3]
+text = "My Sav -- ior is now o -- ver there, There my kin -- dred and friends are at rest, @s1 Then a -- way from my sor -- row and care, Let me fly to the land of the blest. @s2 O -- ver there, o -- ver there, My Sav -- ior is now o -- ver there, @s2 O -- ver there, o -- ver there, @s3 My Sav -- ior is now o -- ver there."
+
+[lyrics.4]
+text = "I’ll soon be at home o -- ver there, For the end of my jour -- ney I see; @s1 Ma -- ny dear to my heart, o -- ver there, Are _ watch -- ing and wait -- ing for me. @s2 O -- ver there, o -- ver there, I’ll soon be at home o -- ver there, @s2 O -- ver there, o -- ver there, @s3 I’ll soon be at home o -- ver there."
+
+[lyrics.s1]
+text = "o -- ver there,"
+
+[lyrics.s2]
+text = "o -- ver there,"
+
+[lyrics.s3]
+text = "o -- ver there,"
