@@ -1,0 +1,69 @@
+title = "We Hope to Meet Again"
+copyrights = [
+  "Lyrics: Joe S. Warlick, 1903 (public domain)",
+  "Music: William D. Evridge, 1906 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "A"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 4
+phrase_breaks = ["8:32"]
+optional_phrase_breaks = ["5:32", "12:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 a'4 | cis''2 cis''4 | e''2 e''4 | a'2 a'4 | cis''2 cis''4 |
+a'2 a'4 | a'4( b'4) cis''4 | b'2 a'4 |
+cis''2 cis''4 | e''2 e''4 | a'2 a'4 | cis''2 cis''4 |
+cis''2 cis''4 | cis''4( a'4) b'4 | a'2 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 e'4 | e'2 e'4 | a'2 a'4 | fis'2 fis'4 | eis'2 fis'4 |
+fis'2 fis'4 | dis'2 dis'4 | e'2 e'4 |
+e'2 e'4 | a'2 a'4 | fis'2 fis'4 | eis'2 fis'4 |
+e'2 e'4 | e'4( cis'4) d'4 | cis'2 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 cis'4 | a2 a4 | cis'2 cis'4 | cis'2 cis'4 | cis'2 a4 |
+a2 a4 | b4( fis4) a4 | gis2 cis'4 |
+a2 a4 | cis'2 cis'4 | cis'2 cis'4 | cis'2 a4 |
+a2 a4 | a2 gis4 | a2 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 a,4 | a,2 a,4 | a,2 a,4 | fis2 fis4 | cis2 cis4 |
+d2 d4 | b,2 b,4 | e2 a,4 |
+a,2 a,4 | a,2 a,4 | fis2 fis4 | cis2 fis4 |
+a2 a4 | e2 e4 | a,2 s4
+"""
+
+[lyrics.1]
+text = "The time has come when we must part, We hope to meet a -- gain. To sing our songs of joy and praise, While we on earth re -- main."
+
+[lyrics.2]
+text = "But if no more while here we meet, Let each re -- solve in heart, That he to that bright home shall come, Where we shall nev -- er part."
+
+[lyrics.3]
+text = "’Tis there we’ll meet with friends so dear, Who’ve passed be -- yond the sea, We’ll safe -- ly dwell with Christ our Lord, And with Him ev -- er be."
+
+[lyrics.4]
+text = "For ev -- er -- more we’ll sing His praise, On that bright hap -- py shore, In one u -- nit -- ed voice of song, And part no nev -- er more."
