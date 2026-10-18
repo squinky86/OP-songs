@@ -1,0 +1,89 @@
+title = "We Are Waiting"
+copyrights = [
+  "Lyrics: J. R. Lucas, 1892 (public domain)",
+  "Music: J. H. Rosecrans, 1892 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Eb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 86
+verse_count = 4
+phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "11:48", "13:48", "15:48"]
+optional_phrase_breaks = ["2:48", "4:48", "6:48", "8:48", "10:48", "12:48", "14:48", "16:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. bes'8 aes'8 | g'8 g'8 g'8 f'8 ees'8 f'8 g'8 aes'8 | bes'8 bes'8 a'8 c''8 bes'4 aes'8 g'8 |
+f'8 f'8 f'8 ees'8 d'8 ees'8 f'8 g'8 | aes'8 bes'8 c''8 aes'8 g'4 bes'8 aes'8 |
+g'8 g'8 g'8 f'8 ees'8 f'8 g'8 aes'8 | bes'8 bes'8 a'8 c''8 bes'4 aes'8 g'8 |
+f'8 f'8 f'8 ees'8 d'8 ees'8 f'8 g'8 | aes'8 bes'8 c''8 d''8 ees''4! bes'8@c bes'8 |
+ees''2~ ees''8 bes'8 aes'8 g'8 | g'8 f'8~ f'2 f'8 aes'8 | d''4. c''8 bes'4 aes'4 | g'2. bes'8 bes'8 |
+ees''2~ ees''8 bes'8 aes'8 g'8 | g'8 f'8~ f'2 f'8 aes'8 | d''4. d''8 c''4 d''4 | ees''2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. g'8 f'8 | ees'8 ees'8 ees'8 ees'8 ees'8 ees'8 ees'8 f'8 | g'8 g'8 fis'8 aes'8 g'4 f'8 ees'8 |
+d'8 d'8 d'8 c'8 bes8 c'8 d'8 ees'8 | f'8 g'8 aes'8 f'8 ees'4 g'8 f'8 |
+ees'8 ees'8 ees'8 ees'8 ees'8 ees'8 ees'8 f'8 | g'8 g'8 fis'8 aes'8 g'4 f'8 ees'8 |
+d'8 d'8 d'8 c'8 bes8 c'8 d'8 ees'8 | f'8 g'8 aes'8 aes'8 g'4! bes'8@c bes'8 |
+g'8 g'8 g'8 g'8 g'8 g'8 f'8 ees'8 | c'8 c'8 c'8 c'8 c'8 c'8 c'8 f'8 | aes'8 aes'8 aes'8 aes'8 aes'4 f'8 f'8 | ees'8 ees'8 ees'8 ees'8 ees'4 bes'8 bes'8 |
+g'8 g'8 g'8 g'8 g'8 g'8 f'8 ees'8 | c'8 c'8 c'8 c'8 c'8 c'8 c'8 f'8 | aes'8 aes'8 aes'8 aes'8 aes'4 f'8 aes'8 | g'8 g'8 aes'8 aes'8 g'4 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. bes8 bes8 | bes8 bes8 bes8 aes8 g8 aes8 bes8 bes8 | ees'8 ees'8 ees'8 ees'8 ees'4 bes8 bes8 |
+bes8 bes8 bes8 f8 f8 f8 bes8 bes8 | bes8 bes8 f8 bes8 bes4 bes8 bes8 |
+bes8 bes8 bes8 aes8 g8 aes8 bes8 bes8 | ees'8 ees'8 ees'8 ees'8 ees'4 bes8 bes8 |
+bes8 bes8 bes8 f8 f8 f8 bes8 bes8 | bes8 ees'8 ees'8 bes8 bes4! bes8@c bes8 |
+bes8 bes8 bes8 bes8 bes8 bes8 bes8 bes8 | aes8 aes8 aes8 aes8 aes8 aes8 aes8 c'8 | bes8 bes8 bes8 bes8 bes4 bes8 bes8 | bes8 bes8 bes8 bes8 bes4 bes8 bes8 |
+bes8 bes8 bes8 bes8 bes8 bes8 bes8 bes8 | aes8 aes8 aes8 aes8 aes8 aes8 aes8 c'8 | bes8 bes8 bes8 bes8 bes4 bes8 bes8 | bes8 bes8 c'8 c'8 bes4 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. ees8 ees8 | ees8 ees8 ees8 ees8 ees8 ees8 ees8 ees8 | ees8 ees8 ees8 ees8 ees4 d8 ees8 |
+bes,8 bes,8 bes,8 bes,8 bes,8 bes,8 bes,8 bes,8 | bes,8 bes,8 bes,8 d8 ees4 ees8 ees8 |
+ees8 ees8 ees8 ees8 ees8 ees8 ees8 ees8 | ees8 ees8 ees8 ees8 ees4 d8 ees8 |
+bes,8 bes,8 bes,8 bes,8 bes,8 bes,8 bes,8 bes,8 | bes,8 bes,8 bes,8 bes,8 ees4! bes8@c bes8 |
+ees8 ees8 ees8 ees8 ees8 ees8 f8 g8 | aes8 aes8 aes8 aes8 aes8 aes8 f8 f8 | bes,8 bes,8 bes,8 bes,8 bes,4 bes,8 bes,8 | ees8 ees8 ees8 ees8 ees4 bes8 bes8 |
+ees8 ees8 ees8 ees8 ees8 ees8 f8 g8 | aes8 aes8 aes8 aes8 aes8 aes8 f8 f8 | bes8 bes8 bes8 bes8 bes4 bes,8 bes,8 | ees8 ees8 ees8 ees8 ees4 s4
+"""
+
+[lyrics.1]
+text = "Sin -- ner, we are wait -- ing, wait -- ing, Anx -- ious -- ly we wait to know, If the gos -- pel is cre -- a -- ting In your soul de -- sire to go To the land of bliss e -- ter -- nal, Where the King shall deck each brow With a crown of gold su -- per -- nal, Heav’n and earth wait for you now."
+
+[lyrics.2]
+text = "Sin -- ner, we are wait -- ing, wait -- ing, Will you per -- ish from de -- lay? Know you not pro -- cras -- ti -- na -- tion, Speeds you on the down -- ward way; Choose this mo -- ment, let your Sav -- iour, Joy -- ous, hear your sol -- emn vow, And be -- stow His lov -- ing fa -- vor! Heav’n and earth wait for you now."
+
+[lyrics.3]
+text = "Sin -- ner, we are wait -- ing, wait -- ing, Now we pray that you may come, All to Je -- sus con -- se -- cra -- ting, That His love may guide you home; O your soul from sin now sev -- er! Now your will to Je -- sus bow! Soon His calls will cease for -- ev -- er! Heav’n and earth wait for you now."
+
+[lyrics.4]
+text = "Sin -- ner, we are wait -- ing, wait -- ing, Soon hope’s lamp will cease to burn, Soon the ebb -- ing tide, a -- bat -- ing, Bears to realm whence no re -- turn! Je -- sus’ cross is now en -- treat -- ing, Will you not His claims al -- low, Ere He ceas -- es all His plead -- ings? Heav’n and earth wait for you now."
+
+[lyrics.chorus]
+text = "Sin -- ner, we are wait -- ing, wait -- ing, Will you now not make your vow? Must we leave you hes -- i -- ta -- ting? Heav’n and earth plead with you now."
+
+[parts.Alto.lyrics.chorus]
+text = "Sin -- ner, we are wait -- ing, wait -- ing, Sin -- ner, we are wait -- ing, wait -- ing, Will you now not make your vow? Will you now not make your vow? Must we leave you hes -- i -- ta -- ting? Must we leave you hes -- i -- ta -- ting? Heav’n and earth plead with you now, Heav’n and earth plead with you now."
+
+[parts.Tenor.lyrics.chorus]
+text = "Sin -- ner, we are wait -- ing, wait -- ing, Sin -- ner, we are wait -- ing, wait -- ing, Will you now not make your vow? Will you now not make your vow? Must we leave you hes -- i -- ta -- ting? Must we leave you hes -- i -- ta -- ting? Heav’n and earth plead with you now, Heav’n and earth plead with you now."
+
+[parts.Bass.lyrics.chorus]
+text = "Sin -- ner, we are wait -- ing, wait -- ing, Sin -- ner, we are wait -- ing, wait -- ing, Will you now not make your vow? Will you now not make your vow? Must we leave you hes -- i -- ta -- ting? Must we leave you hes -- i -- ta -- ting? Heav’n and earth plead with you now, Heav’n and earth plead with you now."
