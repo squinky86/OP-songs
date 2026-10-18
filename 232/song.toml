@@ -1,15 +1,14 @@
 title = "Tell Me the Story of Jesus"
-subtitle = ""
+copyrights = [
+  "Lyrics: Fanny J. Crosby, 1880 (public domain)",
+  "Music: John R. Sweney, 1880 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "Eb"
 time_sig_numerator = 4
 time_sig_denominator = 4
 tempo_bpm = 96
 verse_count = 3
-copyrights = [
-  "Lyrics: Fanny Crosby, 1880 (public domain)",
-  "Music: John R. Sweney, 1880 (public domain)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
 phrase_breaks = ["4:64", "8:64", "12:64", "16:64", "20:64"]
 optional_phrase_breaks = ["2:64", "6:64", "10:64", "14:64", "18:64", "22:64"]
 

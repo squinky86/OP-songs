@@ -1,14 +1,3 @@
-# Source: scan of From the Cross to the Crown (1921), No. 144, pp. 146-147
-# (hymnary FCC1921, page/fetch 146 and 147 high). Notes and lyrics were read
-# from that scan; seven-shape heads used as a pitch checksum.
-# The plate credits only "T. M. Bowdish" (music); hymnary's FCC1921 #144 entry
-# credits the text to Fanny J. Crosby, and its text page dates the text 1875.
-# Plate footer: "Copyright, 1906, by J. E. Thomas & T. S. Cobb."
-# Key signature on the plate is two flats (B-flat major), not one.
-# Elisions as printed: "o’er" (v1), "Ev -- ’ry" (v3, twice).
-# Refrain is call-and-echo: Tenor/Bass enter a beat late on the same words;
-# the Bass alone adds the echo "never fade," (Bass chorus override).
-# Tempo: none printed; 96 is a guess.
 title = "The City of Gold"
 copyrights = [
   "Lyrics: Fanny J. Crosby, 1875 (public domain)",

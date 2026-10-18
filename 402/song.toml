@@ -1,16 +1,16 @@
 title = "Rescue the Perishing"
-verse_count = 4
-key_signature = "Bb"
-time_sig_numerator = 4
-time_sig_denominator = 4
-tempo_bpm = 103
-phrase_breaks = ["2:64", "4:64", "6:64", "8:64", "10:64", "12:64"]
 copyrights = [
-  "Lyrics: Fanny Crosby, 1869 (public domain)",
+  "Lyrics: Fanny J. Crosby, 1869 (public domain)",
   "Music: William Howard Doane, 1870 (public domain)",
   "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "Bb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 103
+verse_count = 4
+phrase_breaks = ["2:64", "4:64", "6:64", "8:64", "10:64", "12:64"]
 
 [parts.Soprano]
 choral_type = "soprano"
