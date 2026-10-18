@@ -1,0 +1,107 @@
+title = "Not Made With Hands"
+copyrights = [
+  "Lyrics and Music: James W. Gaines, 1910",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 92
+verse_count = 5
+phrase_breaks = ["5:48", "9:48", "13:48"]
+optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
+non_breaking_phrase_breaks = ["4:16", "4:48", "8:16", "8:48", "10:16", "10:48", "11:16", "14:16", "14:48", "15:16", "16:16", "16:48"]
+converge_verses = false
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. g'4 | b'4 b'4 a'8[ g'8] g'4 | b'4 d''4 d''4 b'4 | d''2. d''4 |
+d''2. d''4 | e''4 d''4 b'8[ g'8] b'4 | d''4 e''4 b'4 g'4 |
+b'2~ b'8[ g'8] a'4 | g'2. g'4@c |
+b'2~ b'8[ ais'8] b'4 | d''2. b'4 | d''4. d''8 d''4 d''4 | b'4 a'4 g'4 g'4 |
+b'2~ b'8[ ais'8] b'4 | d''2. g'4 | b'2~ b'8[ g'8] a'4 | g'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+suppress_verses = [2, 3, 4, 5]
+suppress_verses_when = ["soprano"]
+notes = """
+s2. d'4 | g'4 g'4 d'4 d'4 | g'4 fis'4 g'4 r4 | r4 g'4 fis'4 a'4 |
+g'2. g'4 | g'4 g'4 g'8[ d'8] d'4 | g'4 g'4 g'4 d'4 |
+e'4 d'4 g'8[ d'8] d'4 | d'2. d'4@c |
+g'4 g'4 g'4 g'4 | g'4 fis'4 g'4 g'4 | g'4. g'8 g'4 g'4 | g'4 d'4 d'4 d'4 |
+g'4 g'4 g'4 g'4 | g'4 fis'4 g'4 d'4 | e'4 d'4 g'8[ d'8] d'4 | d'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3, 4, 5]
+suppress_verses_when = ["soprano", "alto"]
+notes = """
+s2. b4 | d'4 d'4 c'8[ b8] b4 | b4 c'4 b4 r4 | r4 b4 c'4 c'4 |
+b2. b4 | c'4 b4 d'8[ b8] g4 | b4 c'4 d'4 b4 |
+g4 b4 d'8[ b8] c'4 | b2. b4@c |
+d'4 e'4 d'8[ cis'8] d'4 | b4 c'4 b4 d'4 | b4. c'8 d'4 b4 | d'4 c'4 b4 b4 |
+d'4 e'4 d'8[ cis'8] d'4 | b4 c'4 b4 b4 | g4 b4 d'8[ b8] c'4 | b2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3, 4, 5]
+suppress_verses_when = ["soprano", "alto", "tenor"]
+notes = """
+s2. g4 | g4 g4 g4 g4 | e4 d4 g4 r4 | r4 g4 d4 fis4 |
+g2. g4 | g4 g4 g4 g4 | g4 g4 g4 g4 |
+e4 g4 d4 d4 | g,2. g4@c |
+g4 e4 g4 g4 | g4 d4 g4 g4 | g4. a8 b4 g4 | d4 d4 g,4 g4 |
+g4 e4 g4 g4 | g4 d4 g4 g4 | e4 g4 d4 d4 | g,2. s4
+"""
+
+[lyrics.1]
+text = "I have a home all bright and fair, In heav’n it stands; A -- dorned it is with jew -- els rare, @s1"
+
+[lyrics.2]
+text = "When life is end -- ed here be -- low, I’ll leave these lands, And wear a robe as white as snow, @s1"
+
+[lyrics.3]
+text = "There with the ran -- somed I shall live, With an -- gel bands, My Sav -- iour me a crown will give, @s1"
+
+[lyrics.4]
+text = "With -- in a cit -- y paved with gold, This man -- sion stands, Where gates of pearl to saints un -- fold, @s1"
+
+[lyrics.5]
+text = "I long to reach that cit -- y bright, Where joy ex -- spands, En -- rap -- tured be, with heav’n -- ly light, @s1"
+
+[lyrics.chorus]
+text = "I know, I know, For me in heav’n a man -- sion stands, A home, a home, Not made with hands."
+
+[parts.Alto.lyrics.chorus]
+text = "I know, I know, I know, I know, For me in heav’n a man -- sion stands, A home, A home, a home, a home, Not made Not made with hands."
+
+[parts.Tenor.lyrics.chorus]
+text = "I know, I know, I know, I know, For me in heav’n a man -- sion stands, A home, A home, a home, a home, Not made Not made with hands."
+
+[parts.Bass.lyrics.chorus]
+text = "I know, I know, I know, I know, For me in heav’n a man -- sion stands, A home, A home, a home, a home, Not made Not made with hands."
+
+[lyrics.s1]
+text = "Not made with hands."
+
+[parts.Alto.lyrics.s1]
+text = "Not made not made with hands."
+
+[parts.Tenor.lyrics.s1]
+text = "Not made not made with hands."
+
+[parts.Bass.lyrics.s1]
+text = "Not made not made with hands."
