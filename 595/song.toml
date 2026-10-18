@@ -1,0 +1,120 @@
+title = "Will You Arise and Go to Jesus?"
+copyrights = [
+  "Lyrics: Joseph Hart, 1759 (public domain)",
+  "Music: 'Restoration', from William Walker's Southern Harmony, 1835 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Gm"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 112
+verse_count = 4
+phrase_breaks = ["4:64", "8:64", "12:64"]
+optional_phrase_breaks = ["2:64", "6:64", "10:64", "14:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+g'4 g'8[ bes'8] g'8[ fis'8] fis'8[ g'8] |
+bes'4 bes'4 g'8[ f'8] d'4 |
+f'4 f'4 g'4 fis'8[ g'8] |
+bes'4 c''4 d''2 |
+d''4 f''4 d''8[ c''8] bes'4 |
+c''4 d''4 bes'8[ g'8] f'4 |
+g'4. bes'8 g'8[ f'8] d'4 |
+fis'4 fis'4 g'2 |
+g'4@c g'8 bes'8 g'8[ fis'8] fis'8[ g'8] |
+bes'4 bes'4 g'8[ f'8] d'4 |
+f'4 f'4 g'4 fis'8[ g'8] |
+bes'4 c''4 d''2 |
+d''4 f''4 d''8[ c''8] bes'4 |
+c''4 d''4 bes'8[ g'8] f'4 |
+g'4. bes'8 g'8[ f'8] d'4 |
+fis'4 fis'4 g'2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+d'4 d'4 d'4 d'4 |
+d'4 g'4 g'8[ f'8] d'4 |
+d'4 d'4 d'4 d'4 |
+f'4 fis'4 g'2 |
+f'4 f'4 f'4 g'4 |
+a'4 fis'4 g'8[ d'8] d'4 |
+d'4. g'8 g'4 d'4 |
+d'4 d'4 d'2 |
+d'4@c d'8 d'8 d'4 d'4 |
+d'4 g'4 g'8[ f'8] d'4 |
+d'4 d'4 d'4 d'4 |
+f'4 fis'4 g'2 |
+f'4 f'4 f'4 g'4 |
+a'4 fis'4 g'8[ d'8] d'4 |
+d'4. g'8 g'4 d'4 |
+d'4 d'4 d'2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+bes4 bes8[ g8] bes8[ a8] a8[ bes8] |
+bes4 d'4 g8[ f8] d4 |
+bes4 bes4 bes4 a8[ bes8] |
+d'4 c'4 bes2 |
+bes4 d'4 bes8[ c'8] d'4 |
+d'4 d'4 d'4 bes4 |
+bes4. d'8 d'8[ c'8] bes4 |
+a4 a4 bes2 |
+bes4@c bes8 g8 bes8[ a8] a8[ bes8] |
+bes4 d'4 g8[ f8] d4 |
+bes4 bes4 bes4 a8[ bes8] |
+d'4 c'4 bes2 |
+bes4 d'4 bes8[ c'8] d'4 |
+d'4 d'4 d'4 bes4 |
+bes4. d'8 d'8[ c'8] bes4 |
+a4 a4 bes2
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+g4 g4 d4 d4 |
+g4 g4 g8[ f8] d4 |
+bes4 bes4 g4 d4 |
+bes4 a4 g2 |
+bes4 bes4 bes8[ a8] g4 |
+f4 d4 g4 bes4 |
+g4. g8 bes8[ a8] g4 |
+d4 d4 g2 |
+g4@c g8 g8 d4 d4 |
+g4 g4 g8[ f8] d4 |
+bes4 bes4 g4 d4 |
+bes4 a4 g2 |
+bes4 bes4 bes8[ a8] g4 |
+f4 d4 g4 bes4 |
+g4. g8 bes8[ a8] g4 |
+d4 d4 g2
+"""
+
+[lyrics.1]
+text = "Come, ye sin -- ners, poor and need -- y, Weak and wound -- ed, sick and sore; Je -- sus read -- y stands to save you, Full of pit -- y, love and pow’r."
+
+[lyrics.2]
+text = "Now, ye need -- y, come and wel -- come; God’s free boun -- ty glo -- ri -- fy; True be -- lief and true re -- pent -- ance, Ev -- ’ry grace that brings you nigh."
+
+[lyrics.3]
+text = "Let not con -- science make you lin -- ger, Nor of fit -- ness fond -- ly dream; All the fit -- ness He re -- quir -- eth Is to feel your need of Him."
+
+[lyrics.4]
+text = "Come, ye wea -- ry, heav -- y- -- la -- den, Bruis’d and man -- gled by the fall, If you tar -- ry till you’re bet -- ter, You will nev -- er come at all."
+
+[lyrics.chorus]
+text = "Will you a -- rise and go to Je -- sus? He’ll em -- brace you in His arms; In the arms of my dear Sav -- iour, O there are ten thou -- sand charms."
