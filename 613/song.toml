@@ -1,0 +1,73 @@
+title = "The Lord’s Table"
+copyrights = [
+  "Lyrics: Bernard of Clairvaux, 1160 (public domain)",
+  "Translation: Ray Palmer, 1858 (public domain)",
+  "Music: 'Old Hundredth' by Louis Bourgeois, 1551 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "A"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 5
+phrase_breaks = ["5:48"]
+optional_phrase_breaks = ["3:48", "7:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. a'4 | a'4 gis'4 fis'4 e'4 | a'4 b'4 cis''4! cis''4 |
+cis''4 cis''4 b'4 a'4 | d''4 cis''4 b'4! a'4 |
+b'4 cis''4 b'4 a'4 | fis'4 gis'4 a'4! e''4! |
+cis''4 a'4 b'4 d''4 | cis''4! b'4! a'4! s4 |
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. e'4 | e'4 e'4 cis'4 cis'4 | cis'4 e'4 e'4! e'4 |
+e'4 a'4 gis'4 a'4 | a'4 a'4 gis'4! a'4 |
+gis'4 a'4 gis'4 e'4 | fis'4 e'4 e'4! e'4! |
+e'4 a'4 gis'4 fis'8[ gis'8] | a'4! gis'4! a'4! s4 |
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. cis'4 | cis'4 b4 a4 gis4 | a4 gis4 a4! a4 |
+cis'4 e'4 e'4 cis'4 | fis'4 e'4 e'4! cis'4 |
+e'4 e'4 e'4 e'4 | d'8[ cis'8] b4 cis'4! cis'4! |
+a4 cis'4 e'4 fis'4 | e'4! e'8[ d'8!] cis'4! s4 |
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. a4 | a4 e4 fis4 cis4 | fis4 e4 a,4! a4 |
+a4 a4 e4 fis4 | d4 a,4 e4! fis4 |
+e4 a4 e4 cis4 | d4 e4 a,4! a4! |
+a4 fis4 e4 b,4 | cis8[ d8!] e4! a,4! s4 |
+"""
+
+[lyrics.1]
+text = "Je -- sus, Thou joy of lov -- ing hearts, Thou Fount of life, Thou Light of men, From all the bliss that earth im -- parts We turn un -- filled to Thee a -- gain."
+
+[lyrics.2]
+text = "Thy truth un -- changed has ev -- er stood, Thou sav -- est those who on Thee call; To them that seek Thee Thou art good, To them that find Thee all in all."
+
+[lyrics.3]
+text = "On Thee we feast, Thou Liv -- ing Bread, And here would feed up -- on Thee still, Here drink of Thee, Thou Foun -- tain Head, Whose streams each thirst -- ing soul can fill."
+
+[lyrics.4]
+text = "Our rest -- less spir -- its yearn for Thee, Wher -- e’er our change -- ful lot is cast; Glad when Thy gra -- cious smile we see, Blest when our faith can hold Thee fast."
+
+[lyrics.5]
+text = "O Je -- sus, ev -- er with us stay, Make all our mo -- ments calm and bright, Chase the dark night of sin a -- way, Shed o’er the world Thy ho -- ly light."
