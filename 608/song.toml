@@ -1,0 +1,86 @@
+title = "Twilight Is Falling"
+copyrights = [
+  "Lyrics: Aldine S. Kieffer, 1878 (public domain)",
+  "Music: Benjamin Carl Unseld (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 105
+verse_count = 3
+phrase_breaks = ["4:64", "8:64", "12:64"]
+optional_phrase_breaks = ["2:64", "6:64", "10:64", "14:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+g'4 g'8. a'16 b'4 d''4 | g'4 b'8. b'16 a'2 |
+fis'4 fis'8. g'16 a'4 c''4 | c''4 b'8. a'16 b'2 |
+g'4 g'8. a'16 b'4 d''4 | g'4 b'8. b'16 a'2 |
+fis'4 fis'8. g'16 a'4 b'4 | g'2. r4 |
+d''4@c d''4 b'4. d''8 | e''8 d''8 d''8 b'8 a'2 |
+a'4 a'4 d''4. a'8 | c''8 b'8 b'8 a'8 g'2 |
+g'4 g'8. a'16 b'4 d''4 | g'4 b'8. b'16 a'2 |
+fis'4 fis'8. g'16 a'4 b'4 | g'2. r4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+d'4 d'8. d'16 g'4 g'4 | d'4 g'8. g'16 fis'2 |
+d'4 d'8. d'16 fis'4 fis'4 | a'4 g'8. fis'16 g'2 |
+d'4 d'8. d'16 g'4 g'4 | d'4 g'8. g'16 fis'2 |
+d'4 d'8. d'16 fis'4 fis'4 | g'2. r4 |
+g'4@c g'4 g'4. g'8 | g'8 g'8 g'8 g'8 fis'2 |
+fis'4 fis'4 fis'4. fis'8 | a'8 g'8 g'8 fis'8 g'2 |
+d'4 d'8. d'16 g'4 g'4 | d'4 g'8. g'16 fis'2 |
+d'4 d'8. d'16 fis'4 fis'4 | g'2. r4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+b4 b8. c'16 d'4 b4 | b4 d'8. d'16 d'2 |
+a4 a8. b16 c'4 d'4 | d'4 d'8. d'16 d'2 |
+b4 b8. c'16 d'4 b4 | b4 d'8. d'16 d'2 |
+a4 a8. b16 c'4 d'4 | b2. r4 |
+b4@c b4 d'4. b8 | c'8 b8 b8 d'8 d'2 |
+d'4 d'4 a4. d'8 | d'8 d'8 d'8 c'8 b2 |
+b4 b8. c'16 d'4 b4 | b4 d'8. d'16 d'2 |
+a4 a8. b16 c'4 d'4 | b2. r4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+g4 g8. g16 g4 g4 | g4 g8. g16 d2 |
+d4 d8. d16 d4 d4 | d4 d8. d16 g2 |
+g4 g8. g16 g4 g4 | g4 g8. g16 d2 |
+d4 d8. d16 d4 d4 | g2. r4 |
+g4@c g4 g4. g8 | g8 g8 g8 g8 d2 |
+d4 d4 d4. d8 | d8 d8 d8 d8 g2 |
+g4 g8. g16 g4 g4 | g4 g8. g16 d2 |
+d4 d8. d16 d4 d4 | g2. r4
+"""
+
+[lyrics.1]
+text = "Twi -- light is steal -- ing o -- ver the sea, Sha -- dows are fall -- ing dark on the lea; Borne on the night winds, voic -- es of yore Come from the far off shore."
+
+[lyrics.2]
+text = "Voic -- es of loved ones, songs of the past, Still lin -- ger round me while life shall last; Lone -- ly I wan -- der, sad -- ly I roam, Seek -- ing that far off home."
+
+[lyrics.3]
+text = "Come in the twi -- light, come, come to me! Bring -- ing some mes -- sage o -- ver the sea, Cheer -- ing my path -- way while here I roam, Seek -- ing that far off home."
+
+[lyrics.chorus]
+text = "Far a -- way be -- yond the star -- lit skies, Where the love- -- light ne -- ver, ne -- ver dies, Gleam -- eth a dwell -- ing, filled with de -- light, Sweet hap -- py home so bright!"
