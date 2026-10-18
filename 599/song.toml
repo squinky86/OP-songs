@@ -1,0 +1,75 @@
+title = "Knocking at the Door"
+copyrights = [
+  "Lyrics and Music: Austin Taylor, 1908 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 92
+verse_count = 3
+phrase_breaks = ["2:64", "4:64", "8:64", "12:64"]
+optional_phrase_breaks = ["6:64", "10:64", "14:64"]
+non_breaking_phrase_breaks = ["9:64", "13:64", "15:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+a'16 a'8. r4 c''4 c''4 | bes'8. bes'16 bes'8. bes'16 g'2 | bes'4 bes'4 g'4 g'4 | a'8. a'16 a'8. g'16 f'2 |
+a'16 a'8. r4 c''4 c''4 | bes'8. bes'16 bes'8. bes'16 g'2 | bes'4 bes'4 g'4 g'4 | a'8. a'16 a'8. g'16 f'2 |
+f'8.@c f'16 f'8. f'16 d''2 | d''16 c''8. c''8. c''16 c''2 | bes'8. bes'16 bes'8. bes'16 g'4 g'4 | d''8. c''16 c''8. c''16 c''2 |
+f'8. f'16 f'8. f'16 d''2 | d''16 c''8. c''8. c''16 c''2 | c''8. c''16 a'8. a'16 bes'4 g'4 | a'8. a'16 a'8. g'16 f'2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+f'16 f'8. r4 f'4 f'4 | e'8. e'16 e'8. e'16 e'2 | g'4 g'4 e'4 e'4 | f'8. f'16 c'8. c'16 c'2 |
+f'16 f'8. r4 f'4 f'4 | e'8. e'16 e'8. e'16 e'2 | g'4 g'4 e'4 e'4 | f'8. f'16 c'8. c'16 c'2 |
+c'8.@c c'16 f'8. f'16 f'2 | f'16 f'8. f'8. f'16 e'2 | e'8. e'16 e'8. e'16 g'4 e'4 | f'8. f'16 f'8. f'16 f'2 |
+c'8. c'16 f'8. f'16 f'2 | f'16 f'8. f'8. f'16 e'2 | f'8. f'16 f'8. f'16 f'4 f'4 | f'8. f'16 e'8. c'16 c'2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+c'16 c'8. r4 a4 a4 | g8. g16 g8. g16 c'2 | c'4 c'4 c'4 c'4 | c'8. c'16 c'8. bes16 a2 |
+c'16 c'8. r4 a4 a4 | g8. g16 g8. g16 c'2 | c'4 c'4 c'4 c'4 | c'8. c'16 c'8. bes16 a2 |
+a4@c a4 bes4 bes4 | bes16 a8. a8. a16 g2 | c'8. c'16 c'8. c'16 c'4 c'4 | bes8. a16 a8. a16 a2 |
+a4 a4 bes4 bes4 | bes16 a8. a8. a16 g2 | a4 c'4 d'4 d'4 | c'8. c'16 c'8. bes16 a2
+"""
+
+[parts.Tenor.lyrics.chorus]
+text = "Knock -- ing, knock -- ing, knock -- ing at the door, Hear the gen -- tle Sav -- iour knock -- ing at the door! O -- pen, o -- pen, o -- pen wide the door! Lest He go and come a -- gain no more!"
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+f16 f8. r4 f4 f4 | c8. c16 c8. c16 c2 | c4 c4 c4 c4 | f8. f16 f8. f16 f2 |
+f16 f8. r4 f4 f4 | c8. c16 c8. c16 c2 | c4 c4 c4 c4 | f8. f16 f8. f16 f2 |
+f4@c f4 bes,4 bes,4 | f16 f8. f8. f16 c2 | c8. c16 c8. c16 c4 c4 | f8. f16 f8. f16 f2 |
+f4 f4 bes,4 bes,4 | f16 f8. f8. f16 c2 | f4 f4 bes,4 bes,4 | c8. c16 c8. c16 f2
+"""
+
+[parts.Bass.lyrics.chorus]
+text = "Knock -- ing, knock -- ing, knock -- ing at the door, Hear the gen -- tle Sav -- iour knock -- ing at the door! O -- pen, o -- pen, o -- pen wide the door! Lest He go and come a -- gain no more!"
+
+[lyrics.1]
+text = "Lis -- ten! sin -- ner, some one’s at the door, Gent -- ly knock -- ing— oft has knocked be -- fore; Has -- ten! glad -- ly, let the Stran -- ger in, He will cleanse thy guilt -- y soul from sin."
+
+[lyrics.2]
+text = "Je -- sus, weep -- ing, to your door has come, Won’t you let Him in your heart and home? Hear Him plead -- ing, let Him in to -- day, Do not turn your dear -- est Friend a -- way."
+
+[lyrics.3]
+text = "Hark -- en! sin -- ner, He is kock -- ing still, Do not treat your Heav’n -- ly Friend so ill; Has -- ten! bid Him en -- ter now your heart; Slight -- ed, weep -- ing, soon He may de -- part."
+
+[lyrics.chorus]
+text = "Knock -- ing at the door, knock -- ing at the door, Hear the gen -- tle Sav -- iour knock -- ing at the door! O -- pen wide the door, o -- pen wide the door! Lest He go a -- way and come a -- gain no more!"
