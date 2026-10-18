@@ -1,0 +1,126 @@
+title = "Hoping, Trusting On!"
+copyrights = [
+  "Lyrics and Music: Franklin L. Eiland, 1906 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Bb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 84
+verse_count = 3
+phrase_breaks = ["3:64", "6:48", "8:48", "11:64", "14:48", "17:48", "19:64", "22:48", "25:64", "28:48", "31:64"]
+optional_phrase_breaks = ["2:48", "5:64", "7:48", "9:64", "13:64", "15:64", "18:48", "21:64", "23:64", "27:48", "29:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. d'8. ees'16 | f'8. f'16 f'8. f'16 g'16 bes'8. bes'8. bes'16 | bes'8. c''16 a'8. g'16 g'16 f'4 r8. |
+d''2~ d''8. c''16 bes'8. d''16 | f''2~ f''4 r4 | d''2~ d''8. c''16 bes'8. d''16 |
+c''2~ c''4! d'8. ees'16 | f'8. f'16 f'8. f'16 g'16 bes'8. bes'8. bes'16 | bes'8. c''16 a'8. g'16 g'16 f'4 r8. |
+d''2~ d''8. c''16 bes'8. d''16 | f''2~ f''4 r4 | d''2~ d''8. f''16 c''8. d''16 |
+bes'2~ bes'4! r4 | bes'2~ bes'8. f'16 bes'8. c''16 | bes'2~ bes'4 r4 |
+d''2~ d''8. c''16 bes'8. d''16 | f''2~ f''4! d'8. ees'16 | f'8. f'16 f'8. f'16 g'16 bes'8. bes'8. bes'16 |
+bes'8. c''16 a'8. g'16 g'16 f'4 r8. | d''2~ d''8. c''16 bes'8. d''16 | f''2~ f''4 r4 |
+d''2~ d''8. f''16 c''8. d''16 | bes'2~ bes'4! r4 | bes'2~%pp bes'8. f'16 bes'8. c''16 |
+bes'2~ bes'4 r4 | d''2~ d''8. c''16 bes'8. d''16 | f''2~ f''4! d'8. ees'16 |
+f'8. f'16 f'8. f'16 g'16 bes'8. bes'8. bes'16 | bes'8. c''16 a'8. g'16 g'16 f'4 r8. | d''2~ d''8. c''16 bes'8. d''16 |
+f''2~ f''4 r4 | d''2~ d''8. f''16 c''8. d''16 | bes'2~ bes'4! s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+suppress_verses = [2, 3]
+suppress_verses_when = ["soprano"]
+notes = """
+s2. bes8. c'16 | d'8. d'16 d'8. d'16 ees'16 d'8. d'8. f'16 | ees'8. g'16 f'8. ees'16 ees'16 d'4 r8. |
+f'8. f'16 f'8. f'16 f'8. r16 r4 | bes'8. bes'16 a'8[ bes'16] c''16 bes'4 r4 | f'8. f'16 f'8. f'16 f'8. r16 r4 |
+ees'8. ees'16 ees'8[ f'16] g'16 f'4! bes8. c'16 | d'8. d'16 d'8. d'16 ees'16 d'8. d'8. f'16 | ees'8. g'16 f'8. ees'16 ees'16 d'4 r8. |
+f'8. f'16 f'8. f'16 f'8. r16 r4 | bes'8. bes'16 a'8[ bes'16] c''16 bes'4 r4 | f'8. f'16 f'8. f'16 f'8. r16 r4 |
+g'8. ges'16 f'8. ees'16 d'4! r4 | d'8. d'16 d'8. d'16 d'8. r16 r4 | d'8. d'16 ees'8. ees'16 d'4 r4 |
+f'8. f'16 f'8. f'16 f'8. r16 r4 | bes'8. bes'16 a'8[ bes'16] c''16 bes'4! bes8. c'16 | d'8. d'16 d'8. d'16 ees'16 d'8. d'8. f'16 |
+ees'8. g'16 f'8. ees'16 ees'16 d'4 r8. | f'8. f'16 f'8. f'16 f'8. r16 r4 | bes'8. bes'16 a'8[ bes'16] c''16 bes'4 r4 |
+f'8. f'16 f'8. f'16 f'8. r16 r4 | g'8. ges'16 f'8. ees'16 d'4! r4 | d'8.%pp d'16 d'8. d'16 d'8. r16 r4 |
+d'8. d'16 ees'8. ees'16 d'4 r4 | f'8. f'16 f'8. f'16 f'8. r16 r4 | bes'8. bes'16 a'8[ bes'16] c''16 bes'4! bes8. c'16 |
+d'8. d'16 d'8. d'16 ees'16 d'8. d'8. f'16 | ees'8. g'16 f'8. ees'16 ees'16 d'4 r8. | f'8. f'16 f'8. f'16 f'8. r16 r4 |
+bes'8. bes'16 a'8[ bes'16] c''16 bes'4 r4 | f'8. f'16 f'8. f'16 f'8. r16 r4 | g'8. ges'16 f'8. ees'16 d'4! s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3]
+suppress_verses_when = ["soprano", "alto"]
+notes = """
+s2. f8. f16 | bes8. bes16 bes8. bes16 bes16 f8. f8. bes16 | g8. bes16 ees'8. bes16 bes16 bes4 r8. |
+bes8. bes16 bes8. bes16 bes8. r16 r4 | d'8. d'16 c'8. ees'16 d'4 r4 | bes8. bes16 bes8. bes16 bes8. r16 r4 |
+bes8. bes16 g8[ a16] bes16 a4! f8. f16 | bes8. bes16 bes8. bes16 bes16 f8. f8. bes16 | g8. bes16 ees'8. bes16 bes16 bes4 r8. |
+bes8. bes16 bes8. bes16 bes8. r16 r4 | d'8. d'16 c'8. ees'16 d'4 r4 | bes8. bes16 bes8. bes16 bes8. r16 r4 |
+bes8. bes16 a8. f16 f4! r4 | f8. f16 f8. f16 f8. r16 r4 | f8. f16 g8. g16 f4 r4 |
+bes8. bes16 bes8. bes16 bes8. r16 r4 | d'8. d'16 c'8. ees'16 d'4! f8. f16 | bes8. bes16 bes8. bes16 bes16 f8. f8. bes16 |
+g8. bes16 ees'8. bes16 bes16 bes4 r8. | bes8. bes16 bes8. bes16 bes8. r16 r4 | d'8. d'16 c'8. ees'16 d'4 r4 |
+bes8. bes16 bes8. bes16 bes8. r16 r4 | bes8. bes16 a8. f16 f4! r4 | f8.%pp f16 f8. f16 f8. r16 r4 |
+f8. f16 g8. g16 f4 r4 | bes8. bes16 bes8. bes16 bes8. r16 r4 | d'8. d'16 c'8. ees'16 d'4! f8. f16 |
+bes8. bes16 bes8. bes16 bes16 f8. f8. bes16 | g8. bes16 ees'8. bes16 bes16 bes4 r8. | bes8. bes16 bes8. bes16 bes8. r16 r4 |
+d'8. d'16 c'8. ees'16 d'4 r4 | bes8. bes16 bes8. bes16 bes8. r16 r4 | bes8. bes16 a8. f16 f4! s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3]
+suppress_verses_when = ["soprano", "alto", "tenor"]
+notes = """
+s2. bes,8. bes,16 | bes,8. bes,16 bes,8. bes,16 bes,16 bes,8. bes,8. d16 | ees8. ees16 ees8. ees16 bes,16 bes,4 r8. |
+bes8. bes16 bes8. bes16 bes8. r16 r4 | bes8. bes16 f8[ g16] a16 bes4 r4 | bes8. bes16 bes8. bes16 bes8. r16 r4 |
+g8. d16 c8. c16 f4! bes,8. bes,16 | bes,8. bes,16 bes,8. bes,16 bes,16 bes,8. bes,8. d16 | ees8. ees16 ees8. ees16 bes,16 bes,4 r8. |
+bes8. bes16 bes8. bes16 bes8. r16 r4 | bes8. bes16 f8[ g16] a16 bes4 r4 | bes8. bes16 bes8. bes16 bes8. r16 r4 |
+d8. ees16 f8. f16 bes,4! r4 | bes,8. bes,16 bes,8. bes,16 bes,8. r16 r4 | bes,8. bes,16 ees8. ees16 bes,4 r4 |
+bes8. bes16 bes8. bes16 bes8. r16 r4 | bes8. bes16 f8[ g16] a16 bes4! bes,8. bes,16 | bes,8. bes,16 bes,8. bes,16 bes,16 bes,8. bes,8. d16 |
+ees8. ees16 ees8. ees16 bes,16 bes,4 r8. | bes8. bes16 bes8. bes16 bes8. r16 r4 | bes8. bes16 f8[ g16] a16 bes4 r4 |
+bes8. bes16 bes8. bes16 bes8. r16 r4 | d8. ees16 f8. f16 bes,4! r4 | bes,8.%pp bes,16 bes,8. bes,16 bes,8. r16 r4 |
+bes,8. bes,16 ees8. ees16 bes,4 r4 | bes8. bes16 bes8. bes16 bes8. r16 r4 | bes8. bes16 f8[ g16] a16 bes4! bes,8. bes,16 |
+bes,8. bes,16 bes,8. bes,16 bes,16 bes,8. bes,8. d16 | ees8. ees16 ees8. ees16 bes,16 bes,4 r8. | bes8. bes16 bes8. bes16 bes8. r16 r4 |
+bes8. bes16 f8[ g16] a16 bes4 r4 | bes8. bes16 bes8. bes16 bes8. r16 r4 | d8. ees16 f8. f16 bes,4! s4
+"""
+
+[lyrics.1]
+text = "Af -- ter it, our day of sor -- row, There will come a glad to -- mor -- row, And how sweet ’twill be Hop -- ing, trust -- ing on! If, with faith, to Je -- sus turn -- ing, And with con -- stant peace -- ful yearn -- ing, Soon we it, shall see Hop -- ing, trust -- ing on! Hop -- ing, trust -- ing on! Hop -- ing, trust -- ing on! If with faith to Je -- sus turn -- ing, And with con -- stant peace -- ful yearn -- ing, Soon we it, shall see, Hop -- ing, trust -- ing on! Hop -- ing, trust -- ing on! Hop -- ing, trust -- ing on! If with faith to Je -- sus turn -- ing, And with con -- stant peace -- ful yearn -- ing, Soon we it, shall see, Hop -- ing, trust -- ing on!"
+
+[parts.Alto.lyrics.1]
+text = "Af -- ter it, our day of sor -- row, There will come a glad to -- mor -- row, And how sweet ’twill be, and how sweet ’twill be, Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on! If, with faith, to Je -- sus turn -- ing, And with con -- stant peace -- ful yearn -- ing, Soon we it, shall see. soon we it, shall see, Hop -- ing, trust -- ing on, hop -- ing, trust -- ing on. Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on! Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on! If with faith to Je -- sus turn -- ing, And with con -- stant peace -- ful yearn -- ing, Soon we it, shall see, soon we it, shall see, Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on! Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on! Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on! If with faith to Je -- sus turn -- ing, And with con -- stant peace -- ful yearn -- ing, Soon we it, shall see, soon we it, shall see, Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on!"
+
+[parts.Tenor.lyrics.1]
+text = "Af -- ter it, our day of sor -- row, There will come a glad to -- mor -- row, And how sweet ’twill be, and how sweet ’twill be, Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on! If, with faith, to Je -- sus turn -- ing, And with con -- stant peace -- ful yearn -- ing, Soon we it, shall see. soon we it, shall see, Hop -- ing, trust -- ing on, hop -- ing, trust -- ing on. Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on! Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on! If with faith to Je -- sus turn -- ing, And with con -- stant peace -- ful yearn -- ing, Soon we it, shall see, soon we it, shall see, Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on! Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on! Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on! If with faith to Je -- sus turn -- ing, And with con -- stant peace -- ful yearn -- ing, Soon we it, shall see, soon we it, shall see, Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on!"
+
+[parts.Bass.lyrics.1]
+text = "Af -- ter it, our day of sor -- row, There will come a glad to -- mor -- row, And how sweet ’twill be, and how sweet ’twill be, Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on! If, with faith, to Je -- sus turn -- ing, And with con -- stant peace -- ful yearn -- ing, Soon we it, shall see. soon we it, shall see, Hop -- ing, trust -- ing on, hop -- ing, trust -- ing on. Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on! Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on! If with faith to Je -- sus turn -- ing, And with con -- stant peace -- ful yearn -- ing, Soon we it, shall see, soon we it, shall see, Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on! Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on! Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on! If with faith to Je -- sus turn -- ing, And with con -- stant peace -- ful yearn -- ing, Soon we it, shall see, soon we it, shall see, Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on!"
+
+[lyrics.2]
+text = "We must lose our cour -- age nev -- er, Je -- sus, strength, has prom -- ised ev -- er, Bless His ho -- ly name Hop -- ing, trust -- ing on! Tho’ the hour be dark and drear -- y, And our feet are sore and wear -- y, Rest of Him we’ll claim Hop -- ing, trust -- ing on! Hop -- ing, trust -- ing on! Hop -- ing, trust -- ing on! Tho’ the hour be dark and drear -- y, And our feet are sore and wear -- y, Rest of Him we’ll claim, Hop -- ing, trust -- ing on! Hop -- ing, trust -- ing on! Hop -- ing, trust -- ing on! Tho’ the hour be dark and drear -- y, And our feet are sore and wear -- y, Rest of Him we’ll claim, Hop -- ing, trust -- ing on!"
+
+[parts.Alto.lyrics.2]
+text = "We must lose our cour -- age nev -- er, Je -- sus, strength, has prom -- ised ev -- er, Bless His ho -- ly name, bless His ho -- ly name, Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on! Tho’ the hour be dark and drear -- y, And our feet are sore and wear -- y, Rest of Him we’ll claim, rest of Him we’ll claim, Hop -- ing, trust -- ing on, hop -- ing, trust -- ing on. Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on! Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on! Tho’ the hour be dark and drear -- y, And our feet are sore and wear -- y, Rest of Him we’ll claim, rest of Him we’ll claim, Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on! Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on! Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on! Tho’ the hour be dark and drear -- y, And our feet are sore and wear -- y, Rest of Him we’ll claim, rest of Him we’ll claim, Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on!"
+
+[parts.Tenor.lyrics.2]
+text = "We must lose our cour -- age nev -- er, Je -- sus, strength, has prom -- ised ev -- er, Bless His ho -- ly name, bless His ho -- ly name, Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on! Tho’ the hour be dark and drear -- y, And our feet are sore and wear -- y, Rest of Him we’ll claim, rest of Him we’ll claim, Hop -- ing, trust -- ing on, hop -- ing, trust -- ing on. Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on! Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on! Tho’ the hour be dark and drear -- y, And our feet are sore and wear -- y, Rest of Him we’ll claim, rest of Him we’ll claim, Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on! Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on! Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on! Tho’ the hour be dark and drear -- y, And our feet are sore and wear -- y, Rest of Him we’ll claim, rest of Him we’ll claim, Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on!"
+
+[parts.Bass.lyrics.2]
+text = "We must lose our cour -- age nev -- er, Je -- sus, strength, has prom -- ised ev -- er, Bless His ho -- ly name, bless His ho -- ly name, Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on! Tho’ the hour be dark and drear -- y, And our feet are sore and wear -- y, Rest of Him we’ll claim, rest of Him we’ll claim, Hop -- ing, trust -- ing on, hop -- ing, trust -- ing on. Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on! Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on! Tho’ the hour be dark and drear -- y, And our feet are sore and wear -- y, Rest of Him we’ll claim, rest of Him we’ll claim, Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on! Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on! Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on! Tho’ the hour be dark and drear -- y, And our feet are sore and wear -- y, Rest of Him we’ll claim, rest of Him we’ll claim, Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on!"
+
+[lyrics.3]
+text = "Let us go from sad re -- pin -- ing, Toward the glo -- rious light that’s shin -- ing, To it draw -- ing nigh Hop -- ing, trust -- ing on! There we shall a -- wake from dream -- ing, Where the love of God is beam -- ing, With a cloud -- less sky Hop -- ing, trust -- ing on! Hop -- ing, trust -- ing on! Hop -- ing, trust -- ing on! Then we shall a -- wake from dream -- ing, Where the love of God is beam -- ing, With a cloud -- less sky, Hop -- ing, trust -- ing on! Hop -- ing, trust -- ing on! Hop -- ing, trust -- ing on! Then we shall a -- wake from dream -- ing, Where the love of God is beam -- ing, With a cloud -- less sky, Hop -- ing, trust -- ing on!"
+
+[parts.Alto.lyrics.3]
+text = "Let us go from sad re -- pin -- ing, Toward the glo -- rious light that’s shin -- ing, To it draw -- ing nigh, to it draw -- ing nigh, Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on! There we shall a -- wake from dream -- ing, Where the love of God is beam -- ing, With a cloud -- less sky, with a cloud -- less sky, Hop -- ing, trust -- ing on, hop -- ing, trust -- ing on. Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on! Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on! Then we shall a -- wake from dream -- ing, Where the love of God is beam -- ing, With a cloud -- less sky, with a cloud -- less sky, Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on! Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on! Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on! Then we shall a -- wake from dream -- ing, Where the love of God is beam -- ing, With a cloud -- less sky, with a cloud -- less sky, Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on!"
+
+[parts.Tenor.lyrics.3]
+text = "Let us go from sad re -- pin -- ing, Toward the glo -- rious light that’s shin -- ing, To it draw -- ing nigh, to it draw -- ing nigh, Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on! There we shall a -- wake from dream -- ing, Where the love of God is beam -- ing, With a cloud -- less sky, with a cloud -- less sky, Hop -- ing, trust -- ing on, hop -- ing, trust -- ing on. Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on! Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on! Then we shall a -- wake from dream -- ing, Where the love of God is beam -- ing, With a cloud -- less sky, with a cloud -- less sky, Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on! Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on! Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on! Then we shall a -- wake from dream -- ing, Where the love of God is beam -- ing, With a cloud -- less sky, with a cloud -- less sky, Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on!"
+
+[parts.Bass.lyrics.3]
+text = "Let us go from sad re -- pin -- ing, Toward the glo -- rious light that’s shin -- ing, To it draw -- ing nigh, to it draw -- ing nigh, Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on! There we shall a -- wake from dream -- ing, Where the love of God is beam -- ing, With a cloud -- less sky, with a cloud -- less sky, Hop -- ing, trust -- ing on, hop -- ing, trust -- ing on. Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on! Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on! Then we shall a -- wake from dream -- ing, Where the love of God is beam -- ing, With a cloud -- less sky, with a cloud -- less sky, Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on! Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on! Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on! Then we shall a -- wake from dream -- ing, Where the love of God is beam -- ing, With a cloud -- less sky, with a cloud -- less sky, Hop -- ing, trust -- ing on! hop -- ing, trust -- ing on!"
