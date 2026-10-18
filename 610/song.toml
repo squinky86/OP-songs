@@ -1,0 +1,78 @@
+title = "We’ll Work Till Jesus Comes"
+copyrights = [
+  "Lyrics: Elizabeth Mills, 1837 (public domain)",
+  "Music: William Miller, 19th century (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 110
+verse_count = 4
+phrase_breaks = ["5:48", "9:48", "13:48"]
+optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
+non_breaking_phrase_breaks = ["10:16", "10:48", "12:16", "12:48", "14:16", "14:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. f'8[ g'8] | a'4 a'4 a'4 a'4 | c''4 a'4 a'8[ g'8] f'4 | g'4. f'8 g'4 g'4 |
+a'4( c''2) f'8[ g'8] | a'4 a'4 a'4 a'4 | c''4 a'4 a'8[ g'8] f'4 | g'4. f'8 g'4 a'4 |
+f'2. c''4@c | c''2. c''4 | d''4 c''4 a'8[ g'8] f'4 | a'2. g'4 |
+a'4 c''4 c''4 c''4 | c''2. c''4 | d''4 c''4 a'8[ g'8] f'4 | g'4. f'8 g'4 a'4 |
+f'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. f'4 | f'4 f'4 f'4 f'4 | e'4 f'4 f'4 f'4 | e'4. d'8 e'4 e'4 |
+f'2. f'4 | f'4 f'4 f'4 f'4 | e'4 f'4 f'4 f'4 | e'4. f'8 e'4 e'4 |
+f'2. a'4@c | a'2. a'4 | bes'4 a'4 f'4 r4 | r4 f'4 f'4 e'4 |
+f'4 a'4 a'4 a'4 | a'2. a'4 | bes'4 a'4 f'4 c'4 | e'4. f'8 e'4 e'4 |
+c'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. a8[ bes8] | c'4 c'4 c'4 c'4 | c'4 c'4 c'8[ bes8] a4 | c'4. c'8 c'4 c'4 |
+c'4( a2) a8[ bes8] | c'4 c'4 c'4 c'4 | c'4 c'4 c'8[ bes8] a4 | bes4. a8 bes4 c'4 |
+a2. r4@c | r4 c'4 c'4 f'4 | f'4 f'4 c'8[ bes8] a4 | c'2. c'4 |
+c'4 c'4 c'4 r4 | r4 c'4 c'4 f'4 | f'4 f'4 c'8[ bes8] a4 | bes4. a8 bes4 c'4 |
+a2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. f4 | f4 f4 f4 f4 | c4 f4 f4 f4 | c4. c8 c4 c4 |
+f2. f4 | f4 f4 f4 f4 | c4 f4 f4 f4 | c4. c8 c4 c4 |
+f2. r4@c | r4 f4 f4 f4 | bes,4 f4 f4 r4 | r4 f4 f4 c4 |
+f4 f4 f4 r4 | r4 f4 f4 f4 | bes,4 f4 f4 f4 | c4. c8 c4 c4 |
+f2. s4
+"""
+
+[lyrics.1]
+text = "O land of rest, for thee I sigh! When will the mo -- ment come When I shall lay my ar -- mor by And dwell in peace at home?"
+
+[lyrics.2]
+text = "No tran -- quil joys on earth I know, No peace -- ful, shelt' -- ring dome; This world's a wild -- er -- ness of woe, This world is not my home."
+
+[lyrics.3]
+text = "To Je -- sus Christ I fled for rest; He bade me cease to roam, And lean for com -- fort on His breast Till He con -- duct me home."
+
+[lyrics.4]
+text = "I sought at once my Sav -- ior’s side; No more my steps shall roam. With Him I’ll brave death’s chill -- ing tide And reach my heav’n -- ly home."
+
+[lyrics.chorus]
+text = "We’ll work till Je -- sus comes, We’ll work till Je -- sus comes, We’ll work till Je -- sus comes, And we’ll be gath -- ered home."
