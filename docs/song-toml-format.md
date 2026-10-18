@@ -6,45 +6,120 @@ This is the *syntax* reference. For *which* construct to use when (melismas, bea
 
 ---
 
+## Canonical File Organization
+
+Use this order when authoring songs. OpenPsalmEditor applies it with
+**Source ▸ Standardize TOML**; ordinary saves preserve existing authored order.
+This is a source-formatting convention, not a change to lyric inheritance or
+playback order. All top-level keys must precede the first table header, or TOML
+will assign them to that table instead of the song.
+
+1. **Top-level fields**, omitting optional fields that are not needed:
+   `title`, `subtitle`, `language`, `active`, `copyrights`, `key_signature`,
+   `time_sig_numerator`, `time_sig_denominator`, `tempo_bpm`, `verse_count`,
+   `default_verses`, `phrase_breaks`, `optional_phrase_breaks`,
+   `non_breaking_phrase_breaks`, `optional_break_threshold_ticks`, `commentary`,
+   `converge_verses`. Keep the three phrase-break fields adjacent. Omit
+   `subtitle` when it is empty; standardization removes an empty string while
+   keeping its comments.
+2. **Time-signature changes** (`[[time_sig_changes]]`), if any. Within each
+   entry, write `measure`, `numerator`, `denominator`, `duration`. Entries retain
+   their authored array order.
+3. **All part definitions** (`[parts.Name]`) in role order: `soprano`, `tenor1`,
+   `alto`, `tenor2`, `tenor`, `baritone`, `bass`, then unrecognized or omitted
+   roles. This gives Soprano–Alto–Tenor–Bass for SATB and
+   Tenor1–Tenor2–Baritone–Bass for TTBB. Within a role, trailing numeric suffixes
+   sort numerically (`Bass`, `Bass2`, `Bass10`), then names break ties.
+   Within each part, write `choral_type`, `clef`, `staff_number`,
+   `splice_lyrics_into`, `suppress_verses`, `suppress_verses_when`, `notes`.
+4. **Lyrics grouped by section**, after all part definitions: numbered verses
+   in numeric order (`1`, `2`, …, `10`), then `chorus`, `coda`, and shared
+   sections in numeric order (`s1`, `s2`, …, `s10`). Other section keys follow
+   in lexical order. For each section, put the default `[lyrics.KEY]` first,
+   then its `[parts.Name.lyrics.KEY]` overrides in the same voice order as the
+   parts. An override without a default still belongs in that section's
+   position; do not invent a default just to fill the group. Put `text` first
+   within each lyric table.
+
+For example, the lyric portion of a file can contain:
+
+```toml
+[lyrics.1]
+text = "Default verse text"
+
+[parts.Tenor.lyrics.1]
+text = "Tenor verse response"
+
+[parts.Bass.lyrics.1]
+text = "Bass verse response"
+
+[lyrics.2]
+text = "Second verse text"
+
+[lyrics.chorus]
+text = "Default chorus text"
+
+[parts.Tenor.lyrics.chorus]
+text = "Tenor chorus response"
+
+[lyrics.s1]
+text = "Shared line"
+
+[parts.Bass.lyrics.s1]
+text = "Shared response"
+```
+
+The dotted table path determines ownership: a part's lyric override remains
+part of that voice even when it appears beside the global default rather than
+beside the voice's notes. Leave a blank line between tables. Standardization
+preserves comments, unfamiliar fields and tables, and existing value formatting;
+unfamiliar fields follow the known fields in their table. It supports Undo and
+only changes the file on disk when you Save. Translation overlays use the same
+ordering for the fields and sections they actually contain; omitted values
+remain inherited.
+
+---
+
 ## Top-level Fields
 
 ```toml
 title = "Jesus Loves Me"
 subtitle = "Optional subtitle or tune name"
-verse_count = 3
-key_signature = "Eb"
-time_sig_numerator = 4
-time_sig_denominator = 4
-tempo_bpm = 120
-phrase_breaks = ["4:64", "8:64", "12:64"]
-optional_phrase_breaks = ["2:64", "6:64", "10:64"]
 copyrights = [
   "Words: Anna B. Warner, 1860 (public domain)",
   "Music: 'untitled' by William B. Bradbury, 1862 (public domain)",
   "Obtained from the Open Hymnal Project, 2006 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "Eb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 120
+verse_count = 3
+phrase_breaks = ["4:64", "8:64", "12:64"]
+optional_phrase_breaks = ["2:64", "6:64", "10:64"]
 ```
 
 | Field | Type | Required | Description |
 |---|---|---|---|
 | `title` | string | yes | Full song title |
+| `subtitle` | string | no | Subtitle, meter, or tune name; omit when empty |
+| `language` | string | no | Base song language (BCP-47 code); defaults to `en`. Translation language comes from the `song_{lang}.toml` filename (see [Translations](#translations)). |
 | `active` | boolean | no | If `false`, song is not loaded into the database. Defaults to `true`. |
-| `subtitle` | string | no | Subtitle, meter, or tune name |
-| `verse_count` | integer | yes | Number of numbered verses |
-| `default_verses` | integer array | no | Verse numbers ticked in the song page's "Verses" column when the page first loads. Omit it (the usual case) and every verse starts selected. See [Default Verse Selection](#default-verse-selection). |
+| `copyrights` | string array | no | Copyright lines displayed in the PDF footer (see [Copyright Format](#copyright-format)) |
 | `key_signature` | string | yes | Key: `C G D A E B F# F Bb Eb Ab` (major) or append `m` for minor |
 | `time_sig_numerator` | integer | yes | Beats per measure |
 | `time_sig_denominator` | integer | yes | Beat unit (2, 4, 8, etc.) |
-| `time_sig_changes` | array of tables | no | Mid-song time signature changes (see [Time Signature Changes](#time-signature-changes)) |
 | `tempo_bpm` | integer | yes | Base quarter-note BPM for MIDI/MP3 and the printed header. Tempo marks (`\rit`, `\allegro`, …) are relative to it (see [Tempo Marks](#tempo-marks)) |
+| `verse_count` | integer | yes | Number of numbered verses |
+| `default_verses` | integer array | no | Verse numbers ticked in the song page's "Verses" column when the page first loads. Omit it (the usual case) and every verse starts selected. See [Default Verse Selection](#default-verse-selection). |
 | `phrase_breaks` | string array | no | `"M:T"` entries that break both the poetry line and the sheet music/slide layout (see [Phrase Breaks](#phrase-breaks)) |
 | `optional_phrase_breaks` | string array | no | `"M:T"` candidate breaks: the lyrics page always breaks there, the sheet music/slides only when the line has grown long enough (see [Phrase Breaks](#phrase-breaks)) |
 | `non_breaking_phrase_breaks` | string array | no | `"M:T"` entries used only as phrase boundaries for cross-voice lyric deduplication — they never break the poetry line or the layout (see [Phrase Breaks](#phrase-breaks)) |
 | `optional_break_threshold_ticks` | integer | no | Line length, in ticks (quarter = 16), at which an optional phrase break is taken in the sheet music/slides. Omit it to let OpenPsalm calculate the length (see [Optional Break Threshold](#optional-break-threshold)) |
-| `copyrights` | string array | no | Copyright lines displayed in the PDF footer (see [Copyright Format](#copyright-format)) |
 | `commentary` | string | no | HTML-formatted text displayed below the sheet music on the song's detail page (historical context, musical notes, etc.) |
 | `converge_verses` | boolean | no | When `true`, any phrase sung identically by every verse is printed once in the PDF (kept in verse 1, skipped in later verses) instead of stacked in each numbered row. Defaults to `true` when the song uses shared lyric sections (`[lyrics.sN]`), otherwise `false` — ordinary hymns whose verses intentionally repeat a tag line keep the repeat (see [Converged Verses](#converged-verses-shared-lyric-sections)). |
+| `time_sig_changes` | array of tables | no | Mid-song time signature changes (see [Time Signature Changes](#time-signature-changes)) |
 
 ---
 
@@ -85,6 +160,7 @@ Notes:
 
 Some songs temporarily change time signature for a few measures before reverting to the main time signature. Use the `time_sig_changes` array to define these mid-song changes.
 
+Place these tables after all top-level fields and before the part definitions.
 Each entry specifies:
 
 | Field | Type | Description |
@@ -162,10 +238,10 @@ bes'4 g'4 g'4 f'4 | g'4 bes'4 bes'2 | ...
 | `choral_type` | `soprano alto tenor bass tenor1 tenor2 baritone` | Used for filtering voices on export. Several parts may share one choral type (e.g. `Bass` and `Bass2` both `"bass"`); export filters then include or exclude them together |
 | `clef` | `treble bass treble_8 alto tenor` | Display clef; `alto` = C/line-3, `tenor` = C/line-4, `treble_8` = G/line-2 with an 8 below (read as treble, sung an octave lower) |
 | `staff_number` | positive integer | Parts sharing a staff number are combined onto one staff; staves are ordered by number. The standard layout is S+A on staff 1, T+B on staff 2, but any number of staves and voices is allowed (e.g. an independent second bass voice alone on staff 3). Parts alone on a staff keep free stem directions; parts sharing a staff get opposing stems (S/T up, A/B down; duplicates fall back to the next free LilyPond voice) |
-| `notes` | string | Note stream in OpenPsalm note notation (see below) |
+| `splice_lyrics_into` | string | Choral type of the voice whose verse row absorbs this part's echo syllables (see [Echo Lyric Splice](#echo-lyric-splice-splice_lyrics_into)) |
 | `suppress_verses` | int array | Verse numbers to omit from the PDF/LilyPond output for this part (see [Verse Suppression](#verse-suppression)) |
 | `suppress_verses_when` | string array | Choral types (lowercase) whose presence triggers the suppression (see [Verse Suppression](#verse-suppression)) |
-| `splice_lyrics_into` | string | Choral type of the voice whose verse row absorbs this part's echo syllables (see [Echo Lyric Splice](#echo-lyric-splice-splice_lyrics_into)) |
+| `notes` | string | Note stream in OpenPsalm note notation (see below) |
 
 ### TTBB arrangements and sounding pitch
 
@@ -603,7 +679,7 @@ This guarantees that the exporter correctly ends the verses slide and pushes the
 
 ### Per-Part Lyrics
 
-By default, all parts share the same global `[lyrics.N]` sections. When a part needs different lyrics (e.g. a call-and-response chorus where tenor/bass sing on different beats than soprano/alto), you can define per-part lyrics inside the part section:
+By default, all parts share the same global `[lyrics.N]` sections. When a part needs different lyrics (e.g. a call-and-response chorus where tenor/bass sing on different beats than soprano/alto), define a per-part lyric table. Place it immediately after the matching global section, alongside any other voice overrides, after all part definitions:
 
 ```toml
 [parts.Tenor]
@@ -612,8 +688,14 @@ clef = "bass"
 staff_number = 2
 notes = """..."""
 
+[lyrics.1]
+text = "De -- fault verse text for all voic -- es..."
+
 [parts.Tenor.lyrics.1]
 text = "Al -- ter -- nate verse text for ten -- or..."
+
+[lyrics.chorus]
+text = "De -- fault cho -- rus text for all voic -- es..."
 
 [parts.Tenor.lyrics.chorus]
 text = "Al -- ter -- nate cho -- rus text for ten -- or..."
@@ -641,6 +723,9 @@ text = "They placed a crown of thorns up -- on my Sav -- ior’s head, @s1 ..."
 
 [lyrics.s1]
 text = "He bore it all that I might live;"
+
+[parts.Tenor.lyrics.s1]
+text = "Free -- ly bore it all I with Him might live;"
 ```
 
 **Rules:**
@@ -840,18 +925,18 @@ Rules:
 
 ```toml
 title = "Jesus Loves Me"
-verse_count = 3
-key_signature = "Eb"
-time_sig_numerator = 4
-time_sig_denominator = 4
-tempo_bpm = 120
-phrase_breaks = ["4:64", "8:64", "12:64", "20:64", "24:64", "28:64"]
 copyrights = [
   "Words: Anna B. Warner, 1860 (public domain)",
   "Music: 'untitled' by William B. Bradbury, 1862 (public domain)",
   "Obtained from the Open Hymnal Project, 2006 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "Eb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 120
+verse_count = 3
+phrase_breaks = ["4:64", "8:64", "12:64", "20:64", "24:64", "28:64"]
 commentary = "<p>Historical or musical notes about this song, displayed on the song detail page. Accepts HTML.</p>"
 
 [parts.Soprano]

@@ -24,16 +24,16 @@ Each song is one directory named by its integer ID, holding a `song.toml`:
 
 ```toml
 title = "Abide With Me"
-verse_count = 4
-key_signature = "Eb"
-time_sig_numerator = 4
-time_sig_denominator = 4
-tempo_bpm = 90
 copyrights = [
   "Lyrics: Henry F. Lyte, 1847 (public domain)",
   "Music: William H. Monk, 1861 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "Eb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 90
+verse_count = 4
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -47,6 +47,15 @@ octave marks, and duration — `ees4`, `c'8.`, `g,2` — with bars separated by
 markers. See [docs/song-toml-format.md](docs/song-toml-format.md) for the full
 reference and [docs/song-style-guide.md](docs/song-style-guide.md) for the
 conventions every song here follows.
+
+Files follow the editor's **Source ▸ Standardize TOML** organization: song
+metadata and copyrights first, then musical settings, time-signature changes,
+all part definitions, and finally lyrics grouped by section. Each default
+`[lyrics.N]` is followed by its `[parts.Name.lyrics.N]` overrides before the
+next section. Numbered verses come first, then chorus, coda, and shared `sN`
+sections. Omit an empty subtitle. See the
+[canonical file organization](docs/song-toml-format.md#canonical-file-organization)
+for the exact field and section order.
 
 ## Licensing — read before you use a song
 

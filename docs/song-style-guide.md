@@ -176,12 +176,37 @@ These are renderer defaults, not per-song choices; every example or score image 
 1. **Time signatures are always printed numerically** — `4/4` and `2/2` as numbers, never the common-time `C` or cut-time `¢` symbols.
 2. **Aiken shape noteheads are the default.** Every score renders with shape notes unless the user explicitly opts out (`shape_notes=false` on the export endpoints). Round-notehead output is the exception, not the house style.
 
+## 14. TOML organization
+
+Follow the [canonical file organization](song-toml-format.md#canonical-file-organization)
+in the format reference, including its exact field order:
+
+1. Put all song-level fields before any table: title and optional metadata,
+   copyrights, musical settings, verse settings, the three adjacent phrase-break
+   fields, optional break threshold, commentary, and verse convergence. Omit an
+   empty `subtitle`.
+2. Put `[[time_sig_changes]]` entries next, followed by **all** `[parts.Name]`
+   definitions in voice order (SATB or TTBB as appropriate). Put each part's
+   role, clef, staff, and lyric-control fields before its `notes`.
+3. Group lyrics **by section**, after the part definitions. Write the default
+   `[lyrics.KEY]`, then that section's `[parts.Name.lyrics.KEY]` overrides in
+   voice order, then move to the next section. Use numbered verses in numeric
+   order, then chorus, coda, and shared `sN` sections in numeric order. An
+   override with no global default still goes in its section's position.
+4. Keep one blank line between tables. Use OpenPsalmEditor's
+   **Source ▸ Standardize TOML** to apply this order to an existing file,
+   review the result, and Save. Ordinary saves preserve authored order;
+   standardization preserves comments and value formatting while removing
+   empty subtitles. Apply the same organization to translation overlays without
+   copying inherited fields into them.
+
 ---
 
 ## Import checklist
 
 Before committing a new `song.toml`:
 
+- [ ] Fields and sections follow canonical order (§14); each default lyric section is followed by its voice overrides; no empty subtitle
 - [ ] Roles and clefs match the source; shared staves agree on clef; TTBB is not labeled SATB
 - [ ] Every measure in every part sums to the time signature (parser will rebar/reject otherwise)
 - [ ] Pickup padded with spacers; repeats unrolled
