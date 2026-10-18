@@ -1,0 +1,69 @@
+title = "O Love, Surpassing Knowledge"
+copyrights = [
+  "Lyrics and Music: Elisha Albright Hoffman, 1878 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 112
+verse_count = 3
+phrase_breaks = ["5:48", "9:48", "13:48"]
+optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. d'4 | d'4. g'8 g'4 g'4 | g'4 g'2 g'4 | a'4. a'8 a'4 a'4 | a'2 r4 b'4 |
+d''4. d''8 d''4 d''4 | b'4 g'2 e'4 | d'4. g'8 g'4 g'4 | g'2 r4 d'4@c |
+g'4. g'8 g'4 g'4 | b'2 r4 g'4 | a'4. a'8 a'4 b'4 | a'2 r4 b'4 |
+d''4. d''8 d''4 d''4 | b'4 g'2 e'4 | d'4. g'8 g'4 g'4 | g'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. d'4 | d'4. d'8 d'4 d'4 | d'4 d'2 d'4 | fis'4. fis'8 fis'4 fis'4 | fis'2 r4 g'4 |
+g'4. g'8 g'4 g'4 | g'4 e'2 c'4 | b4. d'8 e'4 e'4 | d'2 r4 d'4@c |
+d'4. d'8 d'4 d'4 | g'2 r4 g'4 | fis'4. fis'8 fis'4 g'4 | fis'2 r4 g'4 |
+g'4. g'8 g'4 g'4 | g'4 e'2 c'4 | b4. d'8 e'4 e'4 | d'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. b4 | b4. b8 b4 b4 | b4 b2 b4 | d'4. d'8 d'4 d'4 | d'2 r4 d'4 |
+b4. b8 b4 b4 | d'4 c'2 g4 | g4. b8 c'4 c'4 | b2 r4 b4@c |
+b4. b8 b4 b4 | d'2 r4 b4 | d'4. d'8 d'4 d'4 | d'2 r4 b4 |
+b4. b8 b4 b4 | d'4 c'2 g4 | g4. b8 c'4 c'4 | b2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. g4 | g4. g8 g4 g4 | g4 g2 g4 | d4. d8 d4 d4 | d2 r4 g4 |
+g4. g8 g4 g4 | g,4 c2 c4 | g4. g8 c4 c4 | g,2 r4 g4@c |
+g4. g8 g4 g4 | g2 r4 g4 | d4. d8 d4 d4 | d2 r4 g4 |
+g4. g8 g4 g4 | g,4 c2 c4 | g4. g8 c4 c4 | g,2. s4
+"""
+
+[lyrics.1]
+text = "O love, sur -- pass -- ing knowl -- edge! O grace, so full and free! I know that Je -- sus loves me, And that’s e -- nough for me."
+
+[lyrics.2]
+text = "O won -- der -- ful sal -- va -- tion! From sin He makes me free! I feel the sweet as -- sur -- ance, And that’s e -- nough for me."
+
+[lyrics.3]
+text = "O blood of Christ, so pre -- cious, Poured out on Cal -- va -- ry! I feel its cleans -- ing pow -- er, And that’s e -- nough for me."
+
+[lyrics.chorus]
+text = "And that’s e -- nough for me! And that’s e -- nough for me! I know that Je -- sus loves me, And that’s e -- nough for me."
