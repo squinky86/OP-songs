@@ -1,0 +1,57 @@
+title = "Only Sleeping"
+copyrights = [
+  "Lyrics and Music: Franklin L. Eiland, 1892 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "C"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 92
+verse_count = 3
+phrase_breaks = ["4:64"]
+optional_phrase_breaks = ["2:64", "6:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+g'8 g'8 g'8 g'8 g'8 g'8-( g'4-) | a'2 g'2 | d''4. d''8 d''8 b'8 c''8 d''8 | e''2. r4 |
+a'8 a'8 a'8 a'8 a'8 a'4. | a'2 g'2 | g'4. f''8 e''8 d''8 a'8 b'8 | c''2. r4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+e'8 e'8 e'8 e'8 e'8 e'8-( e'4-) | f'2 e'2 | g'4. g'8 g'8 g'8 g'8 g'8 | g'2. r4 |
+f'8 f'8 f'8 f'8 f'8 f'4. | f'2 e'2 | g'4. g'8 g'8 g'8 f'8 f'8 | e'2. r4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+c'8 c'8 c'8 c'8 c'8 c'8-( c'4-) | c'2 c'2 | b4. b8 b8 d'8 c'8 b8 | c'2. r4 |
+c'8 c'8 c'8 c'8 c'8 c'4. | c'2 c'2 | b4. d'8 c'8 b8 c'8 g8 | g2. r4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+c8 c8 c8 c8 c8 c8-( c4-) | f2 c2 | d4. g8 g8 f8 e8 d8 | c2. r4 |
+f8 f8 f8 f8 f8 f4. | f2 c2 | g4. g8 g8 g8 g8 g8 | c2. r4
+"""
+
+[lyrics.1]
+text = "The dead in Christ are on -- ly sleep -- ing, Tho’ their beds be made of clay, They shall rise and joy -- ful meet Him When He comes in that great day."
+
+[lyrics.2]
+text = "We that live shall see His _ glo -- ry, But the dead shall first a -- rise; Then to -- geth -- er we will hail Him King Im -- man -- uel in the skies."
+
+[lyrics.3]
+text = "O be robed and read -- y, _ broth -- er, Let us hail the might -- y King, Sing -- ing, “Grave, where is thy vic -- t’ry, And O death, where is thy sting?”"
