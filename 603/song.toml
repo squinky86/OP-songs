@@ -1,0 +1,65 @@
+title = "The Commission of Our Lord"
+copyrights = [
+  "Lyrics: Isaac Watts, 1707, alt. (public domain)",
+  "Music: Flavil Hall, 1910 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 88
+verse_count = 4
+phrase_breaks = ["5:32"]
+optional_phrase_breaks = ["3:32", "7:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 ees'4 | aes'8 bes'8 c''4 aes'4 | f'8 aes'8 ees'4 ees'4 | aes'8 bes'8 c''4 aes'4 |
+des''8 c''8 bes'4! ees''4 | ees''8 c''8 c''4 aes'4 | f'8 aes'8 ees'4 ees'4 | f'8 des''8 c''4 bes'4 |
+aes'8 g'8 aes'4! s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 c'4 | c'8 des'8 ees'4 ees'4 | des'8 des'8 c'4 c'4 | ees'8 ees'8 ees'4 aes'4 |
+bes'8 aes'8 g'4! bes'4 | aes'8 ees'8 ees'4 ees'4 | des'8 des'8 c'4 ees'4 | des'8 f'8 ees'4 ees'4 |
+ees'8 des'8 c'4! s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 aes4 | aes8 aes8 aes4 aes4 | aes8 aes8 aes4 aes4 | aes8 g8 aes4 c'4 |
+ees'8 ees'8 ees'4! des'4 | c'8 aes8 aes4 aes4 | aes8 aes8 aes4 aes4 | aes8 aes8 aes4 des'4 |
+c'8 bes8 aes4! s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 aes,4 | aes,8 aes,8 aes,4 c4 | des8 f8 aes4 aes,4 | c8 ees8 aes4 aes4 |
+g8 aes8 ees4! ees4 | aes8 aes8 aes4 c4 | des8 f8 aes4 c4 | des8 des8 ees4 ees4 |
+ees8 ees8 aes,4! s4
+"""
+
+[lyrics.1]
+text = "’Twas the com -- mis -- sion of our Lord, “Go teach the na -- tions and bap -- tize;” The na -- tions have re -- ceived the word Since He as -- cend -- ed to the skies."
+
+[lyrics.2]
+text = "“Re -- pent and be bap -- tized,” He saith, For the re -- mis -- sion of your sins;” If you o -- bey in gos -- pel faith, He’ll wash a -- way your guilt -- y stains."
+
+[lyrics.3]
+text = "Our souls He wash -- es in His blood, And cleans -- eth us from ev -- ’ry sin; Thus we to un -- ion with our Lord, In joy and glad -- ness en -- ter in."
+
+[lyrics.4]
+text = "Thus we en -- gage our -- selves to Thee, And seal our cov’ -- nant with the Lord; O may we ev -- er faith -- ful be, And gain in heav’n the great re -- ward."
