@@ -1,0 +1,125 @@
+title = "Where He Leads I’ll Follow"
+copyrights = [
+  "Lyrics and Music: William A. Ogden, 1885 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "E"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 109
+verse_count = 3
+phrase_breaks = ["2:64", "4:64", "6:64", "8:64", "10:64", "12:64", "14:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+e'4 gis'8. a'16 b'8 b'8 b'4 |
+cis''4 a'8. cis''16 b'2 |
+b'8 a'8 a'8 a'8 a'8 gis'8 gis'8 gis'8 |
+b'4 fis'8. gis'16 fis'2 |
+e'4 gis'8. a'16 b'8 b'8 b'4 |
+cis''4 a'8. cis''16 b'2 |
+b'8 a'8 a'8 a'8 a'8 gis'8 gis'8 gis'8 |
+b'4 fis'8. gis'16 e'2 |
+e'2~@c e'8 e'8 a'8 cis''8 |
+b'2 gis'4 r4 |
+b'2~ b'8 fis'8 gis'8. a'16 |
+gis'2. r4 |
+e'2~ e'8 e'8 a'8 cis''8 |
+b'2 gis'4 r4 |
+b'8 fis'8 gis'8 a'8 gis'4 fis'4 |
+e'2. r4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+e'4 e'8. fis'16 gis'8 gis'8 gis'4 |
+a'4 e'8. a'16 gis'2 |
+gis'8 fis'8 fis'8 fis'8 fis'8 e'8 e'8 e'8 |
+dis'4 dis'8. e'16 dis'2 |
+e'4 e'8. fis'16 gis'8 gis'8 gis'4 |
+a'4 e'8. a'16 gis'2 |
+gis'8 fis'8 fis'8 fis'8 fis'8 e'8 e'8 e'8 |
+dis'4 dis'8. dis'16 e'2 |
+cis'8.@c cis'16 cis'8 cis'8 cis'8 cis'8 r4 |
+e'8. e'16 e'8 e'8 e'8 e'8 r4 |
+dis'8 dis'8 dis'8. dis'16 dis'4 dis'4 |
+e'8 e'8 e'8. e'16 e'4 r4 |
+cis'8. cis'16 cis'8 cis'8 cis'8 cis'8 r4 |
+e'8. e'16 e'8 e'8 e'8 e'8 r4 |
+dis'8 dis'8 e'8 fis'8 e'4 dis'4 |
+e'2. r4
+"""
+
+[parts.Alto.lyrics.chorus]
+text = "Where He leads I’ll fol -- low, Where He leads I’ll fol -- low, Fol -- low all the way, yes, fol -- low all the way. Where He leads I’ll fol -- low, Where He leads I’ll fol -- low, Fol -- low Je -- sus ev -- ’ry day."
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+gis4 b8. b16 e'8 e'8 e'4 |
+e'4 cis'8. e'16 e'2 |
+e'8 dis'8 dis'8 b8 b8 b8 b8 b8 |
+b4 b8. b16 b2 |
+gis4 b8. b16 e'8 e'8 e'4 |
+e'4 cis'8. e'16 e'2 |
+e'8 dis'8 dis'8 dis'8 b8 b8 b8 b8 |
+b4 a8. b16 gis2 |
+a8.@c a16 a8 a8 a8 a8 r4 |
+gis8. gis16 gis8 gis8 e8 e8 r4 |
+fis8 fis8 fis8. fis16 fis4 b4 |
+b8 b8 b8. b16 b4 r4 |
+a8. a16 a8 a8 a8 a8 r4 |
+gis8. gis16 gis8 gis8 e8 e8 r4 |
+fis8 b8 b8 b8 b4 a4 |
+gis2. r4
+"""
+
+[parts.Tenor.lyrics.chorus]
+text = "Where He leads I’ll fol -- low, Where He leads I’ll fol -- low, Fol -- low all the way, yes, fol -- low all the way. Where He leads I’ll fol -- low, Where He leads I’ll fol -- low, Fol -- low Je -- sus ev -- ’ry day."
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+e4 e8. e16 e8 e8 e4 |
+a,4 a,8. a,16 e2 |
+b,8 b,8 b,8 b,8 e8 e8 e8 e8 |
+b,4 b,8. b,16 b,2 |
+e4 e8. e16 e8 e8 e4 |
+a,4 a,8. a,16 e2 |
+b,8 b,8 b,8 b,8 e8 e8 e8 e8 |
+b,4 b,8. b,16 e2 |
+a,8.@c a,16 a,8 a,8 a,8 a,8 r4 |
+e8. e16 e8 e8 e8 e8 r4 |
+b,8 b,8 b,8. b,16 b,4 b,4 |
+e8 e8 e8. e16 e4 r4 |
+a,8. a,16 a,8 a,8 a,8 a,8 r4 |
+e8. e16 e8 e8 e8 e8 r4 |
+b,8 b,8 b,8 b,8 b,4 b,4 |
+e2. r4
+"""
+
+[parts.Bass.lyrics.chorus]
+text = "Where He leads I’ll fol -- low, Where He leads I’ll fol -- low, Fol -- low all the way, yes, fol -- low all the way. Where He leads I’ll fol -- low, Where He leads I’ll fol -- low, Fol -- low Je -- sus ev -- ’ry day."
+
+[lyrics.1]
+text = "Sweet are the prom -- is -- es, kind is the word, Dear -- er far than an -- y mes -- sage man ev -- er heard; Pure was the mind of Christ, sin -- less I see; He the great ex -- am -- ple is, and pat -- tern for me."
+
+[lyrics.2]
+text = "Sweet is the ten -- der love Je -- sus hath shown, Sweet -- er far than an -- y love that mor -- tals have known; Kind to the err -- ing one, faith -- ful is He; He the great ex -- am -- ple is, and pat -- tern for me."
+
+[lyrics.3]
+text = "List to His lov -- ing words, “Come un -- to Me”; Wear -- y, heav -- y lad -- en, there is sweet rest for thee; Trust in His prom -- is -- es, faith -- ful and sure; Lean up -- on the Sav -- ior, and thy soul is se -- cure."
+
+[lyrics.chorus]
+text = "Where He leads I’ll fol -- low, Fol -- low all the way. Where He leads I’ll fol -- low, Fol -- low Je -- sus ev -- ’ry day."
