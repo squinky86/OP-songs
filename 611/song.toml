@@ -1,0 +1,73 @@
+title = "There Is a Fountain"
+copyrights = [
+  "Lyrics: William Cowper, 1772 (public domain)",
+  "Music: Early American Melody arr. Lowell Mason, 1830 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "C"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 110
+verse_count = 5
+phrase_breaks = ["5:48", "9:48", "13:48"]
+optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. c'8[ e'8] | g'4. a'8 g'4 c''4 | c''4. a'8 g'4 c'8[ e'8] | g'4. g'8 a'8[ g'8] e'8[ c'8] | d'2. c'8[ e'8] |
+g'4. a'8 g'4 c''4 | c''4. a'8 g'4 c''8[ d''8] | e''4. c''8 d''4 e''4 | c''2. c''8[ d''8] |
+e''4. c''8 d''4 e''4 | c''4.( a'8 c''4) a'4 | g'4. g'8 a'8[ g'8] e'8[ c'8] | d'2. c'8[ e'8] |
+g'4. a'8 g'4 c''4 | c''4. a'8 g'4 c''8[ d''8] | e''4. c''8 d''4 e''4 | c''2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. c'4 | e'4. f'8 e'4 g'4 | f'4. f'8 e'4 c'4 | e'4. e'8 f'8[ e'8] c'4 | b2. c'4 |
+e'4. f'8 e'4 g'4 | f'4. f'8 e'4 e'8[ f'8] | g'4. e'8 f'4 g'4 | e'2. e'8[ f'8] |
+g'4. e'8 f'4 g'4 | e'4.( f'8 e'4) f'4 | e'4. e'8 f'8[ e'8] c'4 | b2. c'4 |
+e'4. f'8 e'4 g'4 | f'4. f'8 e'4 e'8[ f'8] | g'4. e'8 f'4 g'4 | e'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. e8[ g8] | c'4. c'8 c'4 c'4 | a4. c'8 c'4 e8[ g8] | c'4. c'8 c'4 g8[ e8] | g2. e8[ g8] |
+c'4. c'8 c'4 c'4 | a4. c'8 c'4 c'4 | c'4. c'8 b4 b4 | c'2. c'4 |
+c'4. c'8 b4 b4 | c'2. c'4 | c'4. c'8 c'4 g8[ e8] | g2. e8[ g8] |
+c'4. c'8 c'4 c'4 | a4. c'8 c'4 c'4 | c'4. c'8 b4 b4 | c'2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. c4 | c4. c8 c4 e4 | f4. f8 c4 c4 | c4. c8 c4 c4 | g,2. c4 |
+c4. c8 c4 e4 | f4. f8 c4 c4 | c4. c8 g4 g4 | c2. c4 |
+c4. c8 g4 g4 | c2. c4 | c4. c8 c4 c4 | g,2. c4 |
+c4. c8 c4 e4 | f4. f8 c4 c4 | c4. c8 g4 g4 | c2. s4
+"""
+
+[lyrics.1]
+text = "There is a foun -- tain filled with blood, Drawn from Im -- man -- uel’s veins; And sin -- ners, plunged be -- neath that flood, Lose all their guilt -- y stains. Lose all their guilt -- y stains, Lose all their guilt -- y stains; And sin -- ners, plunged be -- neath that flood, Lose all their guilt -- y stains."
+
+[lyrics.2]
+text = "The dy -- ing thief re -- joiced to see That foun -- tain in his day; And there have I, tho’ vile as he, Washed all my sins a -- way. Washed all my sins a -- way, Washed all my sins a -- way; And there have I, tho’ vile as he, Washed all my sins a -- way."
+
+[lyrics.3]
+text = "Thou dy -- ing Lamb, Thy pre -- cious blood Shall nev -- er lose its pow’r, Till all the ran -- somed Church of God Be saved to sin no more. Be saved to sin no more, Be saved to sin no more; Till all the ran -- somed Church of God Be saved to sin no more."
+
+[lyrics.4]
+text = "E’er since, by faith, I saw the stream Thy flow -- ing wounds sup -- ply, Re -- deem -- ing love has been my theme, And shall be till I die. And shall be till I die, And shall be till I die; Re -- deem -- ing love has been my theme, And shall be till I die."
+
+[lyrics.5]
+text = "And when this fee -- ble, fal -- t’ring tongue Lies si -- lent in the grave, Then, in a no -- bler, sweet -- er song, I’ll sing Thy pow’r to save. I’ll sing Thy pow’r to save, I’ll sing Thy pow’r to save; Then, in a no -- bler, sweet -- er song, I’ll sing Thy pow’r to save."
