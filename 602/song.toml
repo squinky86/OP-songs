@@ -1,0 +1,114 @@
+title = "The Living Way"
+copyrights = [
+  "Lyrics: Flavil Hall, 1921 (public domain)",
+  "Music: 'Ballerma' by François Hippolyte Barthélémon, 1833 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Bb"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 4
+phrase_breaks = ["8:32"]
+optional_phrase_breaks = ["5:32", "12:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 bes'4 |
+d''2 c''4 |
+bes'2 g'4 |
+f'2 g'8[ a'8] |
+bes'2 c''4 |
+d''2 c''4 |
+d''4( f''4) d''4 |
+c''2 c''4 |
+d''2 c''4 |
+bes'2 g'4 |
+f'2 d'4 |
+f'2 c''4 |
+d''4( f''4) d''4 |
+c''4.( bes'8) c''4 |
+bes'2! s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 d'4 |
+f'2 ees'4 |
+d'2 ees'4 |
+d'2 ees'4 |
+d'2 f'4 |
+f'2 f'4 |
+f'2 f'4 |
+f'2 f'4 |
+f'2 ees'4 |
+d'2 ees'4 |
+d'2 bes4 |
+c'2 f'4 |
+f'2 f'4 |
+ees'4.( d'8) ees'4 |
+d'2! s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 f4 |
+bes2 a4 |
+bes2 bes4 |
+bes2 bes4 |
+bes2 a4 |
+bes2 a4 |
+bes4( d'4) bes4 |
+a2 a4 |
+bes2 a4 |
+bes2 bes4 |
+bes2 bes4 |
+a2 a4 |
+bes4( d'4) bes4 |
+a4.( bes8) a8[ f8] |
+f2! s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 bes,4 |
+bes2 f4 |
+g2 ees4 |
+bes,2 bes,4 |
+bes,2 f4 |
+bes2 f4 |
+bes2 bes4 |
+f2 f4 |
+bes2 f4 |
+g2 ees4 |
+bes,2 g4 |
+f2 f4 |
+bes2 bes,4 |
+f2 f4 |
+bes,2! s4
+"""
+
+[lyrics.1]
+text = "The Ho -- ly Spir -- it speaks to -- day, In God’s e -- ter -- nal word, Ye sin -- ners, take the liv -- ing way, And trav -- el on to God."
+
+[lyrics.2]
+text = "The Ho -- ly Spir -- it speaks to -- day, In God’s e -- ter -- nal word, Ye saints, keep in the liv -- ing way, ’Twill lead you on to God."
+
+[lyrics.3]
+text = "The Ho -- ly Spir -- it’s pow’r for aye Is in the gos -- pel word; He shows there -- in the liv -- ing way, That leads us on to God."
+
+[lyrics.4]
+text = "How bright and sweet the liv -- ing way, ’Tis strewn with fra -- grant flow’rs, That nev -- er with -- er nor de -- cay, But crown im -- mor -- tal brows."
