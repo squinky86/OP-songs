@@ -1,0 +1,84 @@
+title = "There Is Only One Road!"
+copyrights = [
+  "Lyrics and Music: J. E. Thomas, 1908 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "A"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 62
+verse_count = 3
+phrase_breaks = ["3:40", "5:40", "9:40", "13:40"]
+optional_phrase_breaks = ["7:40", "11:40", "15:40"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. s4 e'16^ e'16^ | a'8. a'16 a'8 a'4 e'16^ e'16^ | fis'16 fis'8. e'8 a'4 a'16^ a'16^ |
+gis'8. gis'16 gis'8 b'8^ b'8^ b'8^ | a'4.~ a'4 e'16^ e'16^ | a'8. a'16 a'8 a'4 a'8 |
+a'8^ b'8^ cis''8^ d''4! d''16\\rit dis''16 | e''4.( cis''4) a'16^ gis'16^ |
+a'8^ cis''8! b'8 a'4!\\spanend e'16^@c e'16^ |
+cis''8. cis''16 cis''8 cis''4 a'16^ a'16^ | b'16 a'8. fis'8 e'4 e'16^ e'16^ |
+d''8. d''16 d''8 d''8^ e''8^ d''8^ | cis''4.~ cis''4 e'16^ e'16^ | cis''8. cis''16 cis''8^ cis''4^ a'8 |
+a'8^ b'8^ cis''8^ d''4! d''16\\rit dis''16^ | e''4.(^ cis''4!) a'16^ gis'16^ |
+a'8^ cis''8! b'8^ a'4!^\\spanend s8
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. s4 e'16^ e'16^ | e'8. e'16 e'8 e'4 cis'16^ cis'16^ | d'16 d'8. cis'8 e'4 e'16^ e'16^ |
+e'8. e'16 e'8 d'8^ d'8^ d'8^ | cis'4.~ cis'4 e'16^ e'16^ | e'8. e'16 e'8 e'4 cis'8 |
+cis'8^ d'8^ e'8^ fis'4! a'16 a'16 | a'4.( e'4) e'16^ e'16^ |
+e'8^ e'8! d'8 cis'4! e'16^@c e'16^ |
+e'8. e'16 e'8 e'4 e'16^ eis'16^ | fis'16 fis'8. d'8 cis'4 e'16^ e'16^ |
+e'8. fis'16 gis'8 b'8^ a'8^ gis'8^ | a'4.( e'4) e'16^ e'16^ | e'8. e'16 e'8^ e'4^ cis'8 |
+cis'8^ d'8^ e'8^ fis'4! a'16 a'16^ | a'4.(^ e'4!) e'16^ e'16^ |
+e'8^ e'8! d'8^ cis'4!^ s8
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. s4 e16^ e16^ | cis'8. cis'16 cis'8 cis'4 a16^ a16^ | a16 a8. a8 cis'4 cis'16^ cis'16^ |
+b8. b16 b8 gis8^ e8^ e8^ | e4.~ e4 e16^ e16^ | cis'8. cis'16 cis'8 cis'4 a8 |
+a8^ a8^ a8^ a4! b16 bis16 | cis'4.( a4) cis'16^ b16^ |
+cis'8^ a8! e8 e4! e16^@c e16^ |
+a8. a16 a8 a4 a16^ a16^ | a16 a8. a8 a4 cis'16^ cis'16^ |
+b8. b16 b8 b8^ cis'8^ b8^ | a4.~ a4 e16^ e16^ | a8. a16 a8^ a4^ a8 |
+a8^ a8^ a8^ a4! b16 bis16^ | cis'4.(^ a4!) cis'16^ b16^ |
+cis'8^ a8! e8^ e4!^ s8
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. s4 e16^ e16^ | a,8. a,16 a,8 a,4 a,16^ a,16^ | a,16 a,8. a,8 a,4 a,16^ a,16^ |
+e8. e16 e8 e8^ e8^ e8^ | a,4.~ a,4 e16^ e16^ | a,8. a,16 a,8 a,4 a8 |
+a8^ gis8^ fis8^ d4! fis16 fis16 | e4.~ e4 e16^ e16^ |
+e8^ e8! e8 a,4! e16^@c e16^ |
+a,8. a,16 a,8 a,4 cis16^ cis16^ | d16 d8. fis8 a4 a16^ a16^ |
+e8. e16 e8 e8^ e8^ e8^ | a,4.~ a,4 e16^ e16^ | a,8. a,16 a,8^ a,4^ a8 |
+a8^ gis8^ fis8^ d4! fis16 fis16^ | e4.~^ e4! e16^ e16^ |
+e8^ e8! e8^ a,4!^ s8
+"""
+
+[lyrics.1]
+text = "There is on -- ly one road for the sin -- ner to go, To be cleansed from all sin and its stain; There is on -- ly one road, and straight -- ly it leads To the cross where the Sav -- iour was slain!"
+
+[lyrics.2]
+text = "There is on -- ly one place for the Chris -- tian to live, That His faith in God dai -- ly may gain; There is on -- ly one place, and tru -- ly it is At the cross where the Sav -- iour was slain!"
+
+[lyrics.3]
+text = "There is on -- ly one road to the heav -- en -- ly gate, Where the saints are u -- nit -- ed a -- gain; There is on -- ly one road and sure -- ly it leads By the cross where the Sav -- iour was slain!"
+
+[lyrics.chorus]
+text = "There is on -- ly one road for the sin -- ner to go, To be cleansed from all sin and its stain; There is on -- ly one road and straight -- ly it leads to the cross where the Sav -- iour was slain."
