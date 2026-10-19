@@ -77,37 +77,28 @@ bes4-. r8 bes4-. r8 | bes,4-. r8 bes,8[ d8] g8 | f4 d8 c4 f8 | bes,2.
 """
 
 [lyrics.1]
-text = "Press -- ing the bat -- tle in Je -- sus’ name, A vic -- to -- ry to win, Rais -- ing the ban -- ner of Truth and Love O’er fields of vice and sin; On -- ward our sol -- diers in bright _ ar -- ray, March -- ing, yes, march -- ing from day to day, Tramp, tramp, tramp, tramp, The vic -- to -- ry to win."
-
-[parts.Alto.lyrics.1]
-text = "Press -- ing the bat -- tle in Je -- sus’ name, A vic -- to -- ry to win, Rais -- ing the ban -- ner of Truth and Love O’er fields of vice and sin; On -- ward our sol -- diers in bright _ ar -- ray, March -- ing, yes, march -- ing from day to day, Tramp, tramp, tramp, tramp, The vic -- to -- ry to win. (to win.)"
-
-[parts.Tenor.lyrics.1]
-text = "Press -- ing the bat -- tle in Je -- sus’ name, A vic -- to -- ry to win, Rais -- ing the ban -- ner of Truth and Love O’er fields of vice and sin; On -- ward our sol -- diers in bright _ ar -- ray, March -- ing, yes, march -- ing from day to day, Tramp, tramp, tramp, tramp, The vic -- to -- ry to win. (to win.)"
+text = "Press -- ing the bat -- tle in Je -- sus’ name, A vic -- to -- ry to win, Rais -- ing the ban -- ner of Truth and Love O’er fields of vice and sin; On -- ward our sol -- diers in bright _ ar -- ray, March -- ing, yes, march -- ing from day to day, @s1"
 
 [lyrics.2]
-text = "Press -- ing the bat -- tle in Je -- sus’ name, The vic -- to -- ry is sure, Je -- sus our lead -- er in this great fight Will to the end en -- dure; He will lead faith -- ful -- ly in _ the way Where is sure vic -- to -- ry ev -- ’ry day, Tramp, tramp, tramp, tramp, The vic -- to -- ry to win."
-
-[parts.Alto.lyrics.2]
-text = "Press -- ing the bat -- tle in Je -- sus’ name, The vic -- to -- ry is sure, Je -- sus our lead -- er in this great fight Will to the end en -- dure; He will lead faith -- ful -- ly in _ the way Where is sure vic -- to -- ry ev -- ’ry day, Tramp, tramp, tramp, tramp, The vic -- to -- ry to win. to win."
-
-[parts.Tenor.lyrics.2]
-text = "Press -- ing the bat -- tle in Je -- sus’ name, The vic -- to -- ry is sure, Je -- sus our lead -- er in this great fight Will to the end en -- dure; He will lead faith -- ful -- ly in _ the way Where is sure vic -- to -- ry ev -- ’ry day, Tramp, tramp, tramp, tramp, The vic -- to -- ry to win. to win."
+text = "Press -- ing the bat -- tle in Je -- sus’ name, The vic -- to -- ry is sure, Je -- sus our lead -- er in this great fight Will to the end en -- dure; He will lead faith -- ful -- ly in _ the way Where is sure vic -- to -- ry ev -- ’ry day, @s1"
 
 [lyrics.3]
-text = "Press -- ing the bat -- tle in Je -- sus’ name, Till vic -- to -- ry is won, Show -- ing the world that the Fa -- ther’s will Must here on earth be done; Show -- ing the wick -- ed in vain is their fight ’Gainst the great lead -- er of Truth and Right, Tramp, tramp, tramp, tramp, The vic -- to -- ry to win."
-
-[parts.Alto.lyrics.3]
-text = "Press -- ing the bat -- tle in Je -- sus’ name, Till vic -- to -- ry is won, Show -- ing the world that the Fa -- ther’s will Must here on earth be done; Show -- ing the wick -- ed in vain is their fight ’Gainst the great lead -- er of Truth and Right, Tramp, tramp, tramp, tramp, The vic -- to -- ry to win. (to win.)"
-
-[parts.Tenor.lyrics.3]
-text = "Press -- ing the bat -- tle in Je -- sus’ name, Till vic -- to -- ry is won, Show -- ing the world that the Fa -- ther’s will Must here on earth be done; Show -- ing the wick -- ed in vain is their fight ’Gainst the great lead -- er of Truth and Right, Tramp, tramp, tramp, tramp, The vic -- to -- ry to win. (to win.)"
+text = "Press -- ing the bat -- tle in Je -- sus’ name, Till vic -- to -- ry is won, Show -- ing the world that the Fa -- ther’s will Must here on earth be done; Show -- ing the wick -- ed in vain is their fight ’Gainst the great lead -- er of Truth and Right, @s1"
 
 [lyrics.chorus]
 text = "Tramp, tramp, tramp, tramp, The vic -- to -- ry to win; Tramp, tramp, tramp, tramp, O’er fields of vice and sin; On -- ward, our sol -- diers, in bright ar -- ray, March -- ing, yes, march -- ing from day to day; Tramp, tramp, tramp, tramp, the vic -- to -- ry to win."
+[lyrics.s1]
+text = "Tramp, tramp, tramp, tramp, The vic -- to -- ry to win."
+
 
 [parts.Alto.lyrics.chorus]
 text = "Press -- ing the bat -- tle in Je -- sus’ name, The vic -- to -- ry to win; to win; Rais -- ing the ban -- ner of Truth and Love, O’er fields of vice and sin; On -- ward, our sol -- diers, in bright ar -- ray, March -- ing, yes, march -- ing from day to day; Tramp, tramp, tramp, tramp, the vic -- to -- ry to win. to win."
 
+[parts.Alto.lyrics.s1]
+text = "Tramp, tramp, tramp, tramp, The vic -- to -- ry to win. to win."
+
 [parts.Tenor.lyrics.chorus]
 text = "Tramp, tramp, tramp, tramp, The vic -- to -- ry to win; to win; Tramp, tramp, tramp, tramp, O’er fields of vice and sin; On -- ward, our sol -- diers, in bright ar -- ray, March -- ing, yes, march -- ing from day to day; Tramp, tramp, tramp, tramp, the vic -- to -- ry to win. to win."
+
+[parts.Tenor.lyrics.s1]
+text = "Tramp, tramp, tramp, tramp, The vic -- to -- ry to win. to win."
