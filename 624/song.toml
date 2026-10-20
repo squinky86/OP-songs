@@ -1,0 +1,85 @@
+title = "My Safe Retreat"
+copyrights = [
+  "Lyrics: Anne Steele, 1760 (public domain)",
+  "Music: Emmett S. Dean, 1906 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 3
+phrase_breaks = ["8:32", "15:32", "22:32"]
+optional_phrase_breaks = ["5:32", "12:32", "19:32", "26:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 ees'4 | c''2 aes'4 | ees'2 aes'4 | aes'2 bes'4 | c''2 c''4 |
+c''4( bes'4) aes'4 | f'2 bes'4 | bes'2 des''4 |
+c''2 aes'4 | ees'2 aes'4 | bes'2 c''4 | des''2 bes'4 |
+c''2 aes'4 | ees'2 bes'4 | aes'2 c''4@c |
+des''2 des''4 | des''2 des''4 | c''2 c''4 | c''2 aes'4 |
+c''4( bes'4) aes'4 | f'2 bes'4 | bes'2 des''4 |
+c''2 aes'4 | ees'2 aes'4 | bes'2 c''4 | des''2 bes'4 |
+c''2 aes'4 | ees'2 bes'4 | aes'2 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 c'4 | ees'2 c'4 | c'2 ees'4 | f'2 fes'4 | ees'2 ees'4 |
+ees'2 ees'4 | d'2 d'4 | ees'2 ees'4 |
+ees'2 c'4 | c'2 ees'4 | f'2 f'4 | f'2 f'4 |
+ees'2 c'4 | c'2 des'4 | c'2 ees'4@c |
+ees'2 ees'4 | ees'2 ees'4 | ees'2 ees'4 | ees'2 c'4 |
+ees'2 ees'4 | d'2 d'4 | ees'2 ees'4 |
+ees'2 c'4 | c'2 ees'4 | f'2 f'4 | f'2 f'4 |
+ees'2 c'4 | c'2 des'4 | c'2 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 aes4 | aes2 ees4 | aes2 aes4 | aes2 aes4 | aes2 aes4 |
+aes4( g4) aes4 | bes2 aes4 | g2 g4 |
+aes2 ees4 | aes2 aes4 | aes2 a4 | bes2 aes4 |
+aes2 aes4 | aes2 g4 | aes2 aes4@c |
+bes2 aes4 | g2 bes4 | aes2 g4 | aes2 ees4 |
+aes4( g4) aes4 | bes2 aes4 | g2 g4 |
+aes2 aes4 | aes2 aes4 | aes2 a4 | bes2 aes4 |
+aes2 aes4 | aes2 g4 | aes2 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 aes,4 | aes,2 aes,4 | aes,2 c4 | des2 des4 | aes,2 aes,4 |
+aes,4( bes,4) c4 | bes,2 bes,4 | ees2 ees4 |
+aes,2 aes,4 | aes,2 c4 | des2 des4 | bes,2 des4 |
+ees2 ees4 | ees2 ees4 | aes,2 aes4@c |
+g2 f4 | des2 g4 | aes2 ees4 | aes,2 aes,4 |
+aes,4( bes,4) c4 | bes,2 bes,4 | ees2 ees4 |
+aes,2 aes,4 | aes,2 c4 | des2 des4 | bes,2 des4 |
+ees2 ees4 | ees2 ees4 | aes,2 s4
+"""
+
+[lyrics.1]
+text = "Dear Fa -- ther, to Thy mer -- cy- -- seat My soul for shel -- ter flies; ’Tis here I find a safe re -- treat When storms and tem -- pests rise."
+
+[lyrics.2]
+text = "My cheer -- ful hope can nev -- er die, If Thou, my God, art near; Thy grace can raise my com -- forts high, And ban -- ish ev -- ’ry fear."
+
+[lyrics.3]
+text = "My great Pro -- tect -- or, and my Lord, Thy con -- stant aid im -- part; O, let Thy kind, Thy gra -- cious word Sus -- tain my trem -- bling heart."
+
+[lyrics.chorus]
+text = "O, nev -- er let my soul re -- move From this di -- vine re -- treat; Still let me trust Thy pow’r and love, And dwell be -- neath Thy feet."
