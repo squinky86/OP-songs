@@ -1,0 +1,112 @@
+title = "Joy for the Reapers By and By"
+copyrights = [
+  "Lyrics: J. W. Acuff, 1907 (public domain)",
+  "Music: William D. Evridge, 1907 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "A"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 88
+verse_count = 3
+phrase_breaks = ["3:56", "5:56", "7:56", "9:56", "11:64", "13:56", "15:48"]
+optional_phrase_breaks = ["2:56", "6:56"]
+non_breaking_phrase_breaks = ["4:48", "5:0", "8:48", "9:0", "10:48", "11:0", "11:48", "12:0", "12:48", "13:0", "14:48", "15:0", "16:48", "17:0"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2.. e'16 e'16 | a'8 a'8 cis''8 cis''8 b'8 a'8 r8 e'16 e'16 | fis'8 a'8 a'8 fis'8 e'4 r8 e'16 e'16 |
+a'4 cis''8. cis''16 b'8 a'8 r4 | e''4 fis''4 e''4! r8 e'16 e'16 |
+a'8 a'8 cis''8 cis''8 b'8 a'8 r8 e'16 e'16 | fis'8 a'8 a'8 fis'8 e'4 r8 e'16 e'16 |
+a'4 e''8. eis''16 fis''8 cis''8 r4 | a'4 b'4 a'4 r8 a'16@c cis''16 |
+e''4 e''8. e''16 fis''8 e''8 r4 | cis''4 cis''8. cis''16 b'8 a'8 r4 |
+a'4 cis''8. cis''16 b'8 a'8 r4 | e''4 fis''4 e''4! r8 a'16 cis''16 |
+e''4 e''8. e''16 fis''8 e''8 r4 | cis''4 cis''8. cis''16 b'8 a'8 fis'8 e'8 |
+a'4 e''8. eis''16 fis''8 cis''8 r4 | a'4 b'4 a'4! s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2.. cis'16 cis'16 | cis'8 cis'8 e'8 e'8 d'8 cis'8 r8 e'16 e'16 | d'8 fis'8 fis'8 d'8 cis'4 r8 cis'16 cis'16 |
+cis'4 eis'8. eis'16 fis'8 fis'8 r4 | gis'4 a'4 gis'4! r8 d'16 d'16 |
+cis'8 cis'8 e'8 e'8 d'8 cis'8 r8 e'16 e'16 | d'8 fis'8 fis'8 d'8 cis'4 r8 cis'16 cis'16 |
+e'4 a'8. b'16 a'8 a'8 r4 | e'4 e'4 e'4 r8 cis'16@c e'16 |
+a'4 a'8. a'16 a'8 a'8 r4 | e'4 e'8. e'16 d'8 cis'8 r4 |
+cis'4 eis'8. eis'16 fis'8 fis'8 r4 | gis'4 a'4 gis'4! r8 cis'16 e'16 |
+a'4 a'8. a'16 a'8 a'8 r4 | e'4 e'8. e'16 d'8 cis'8 d'8 cis'8 |
+e'4 a'8. b'16 a'8 a'8 r4 | e'4 e'4 e'4! s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+splice_lyrics_into = "soprano"
+notes = """
+s2.. a16 a16 | a8 a8 a8 a8 e8 e8 r8 a16 a16 | a8 a8 a8 a8 a4 r8 a16 a16 |
+a4 gis8. gis16 a8 cis'8 r4 | b4 dis'4 e'4! r8 gis16 gis16 |
+a8 a8 a8 a8 e8 e8 r8 a16 a16 | a8 a8 a8 a8 a4 r8 a16 a16 |
+cis'4 cis'8. cis'16 cis'8 a8 a8 d'8 | cis'4 d'4 cis'4 r8 a16@c a16 |
+cis'4 cis'8. cis'16 d'8 cis'8 r4 | a4 a8. a16 a8 a8 r4 |
+a4 gis8. gis16 a8 cis'8 r4 | b4 dis'4 e'4! r8 a16 a16 |
+cis'4 cis'8. cis'16 d'8 cis'8 r4 | a4 a8. a16 a8 a8 a8 a8 |
+cis'4 cis'8. cis'16 cis'8 a8 a8 d'8 | cis'4 d'4 cis'4! s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+splice_lyrics_into = "soprano"
+notes = """
+s2.. a,16 a,16 | a,8 a,8 a,8 a,8 a,8 a,8 r8 cis16 cis16 | d8 d8 d8 fis8 a4 r8 a16 a16 |
+fis4 cis8. cis16 fis8 fis8 gis8 a8 | b4 b4 e4! r8 e16 e16 |
+a,8 a,8 a,8 a,8 a,8 a,8 r8 cis16 cis16 | d8 d8 d8 fis8 a4 r8 a16 a16 |
+a4 a8. gis16 fis8 fis8 fis8 fis8 | e4 e4 a,4 r8 a16@c a16 |
+a4 a8. a16 a8 a8 cis8 e8 | a,4 cis8. e16 a8 a8 a8 gis8 |
+fis4 cis8. cis16 fis8 fis8 gis8 a8 | b4 b4 e4! r8 a16 a16 |
+a4 a8. a16 a8 a8 cis8 e8 | a,4 cis8. e16 a8 a8 a8 a8 |
+a4 a8. gis16 fis8 fis8 fis8 fis8 | e4 e4 a,4! s4
+"""
+
+[lyrics.1]
+text = "When the har -- vest time is end -- ed, And the sheaves are gar -- ner’d in, There’ll be joy for the reap -- ers, by and by; In the realms of end -- less glo -- ry, Where the sav’d are free from sin, There’ll be joy for the reap -- ers, by and by."
+
+[parts.Tenor.lyrics.1]
+text = "When the har -- vest time is end -- ed, And the sheaves are gar -- ner’d in, There’ll be joy for the reap -- ers, by and by; In the realms of end -- less glo -- ry, Where the sav’d are free from sin, There’ll be joy for the reap -- ers, (in the) by and by."
+
+[parts.Bass.lyrics.1]
+text = "When the har -- vest time is end -- ed, And the sheaves are gar -- ner’d in, There’ll be joy for the reap -- ers, (in the) by and by; In the realms of end -- less glo -- ry, Where the sav’d are free from sin, There’ll be joy for the reap -- ers, (in the) by and by."
+
+[lyrics.2]
+text = "When the might -- y hosts of heav -- en Shall the won -- drous an -- them swell, There’ll be joy for the reap -- ers, by and by; When the saints have all been gath -- ered, Ev -- er -- more, with Christ to dwell, There’ll be joy for the reap -- ers, by and by."
+
+[parts.Tenor.lyrics.2]
+text = "When the might -- y hosts of heav -- en Shall the won -- drous an -- them swell, There’ll be joy for the reap -- ers, by and by; When the saints have all been gath -- ered, Ev -- er -- more, with Christ to dwell, There’ll be joy for the reap -- ers, (in the) by and by."
+
+[parts.Bass.lyrics.2]
+text = "When the might -- y hosts of heav -- en Shall the won -- drous an -- them swell, There’ll be joy for the reap -- ers, (in the) by and by; When the saints have all been gath -- ered, Ev -- er -- more, with Christ to dwell, There’ll be joy for the reap -- ers, (in the) by and by."
+
+[lyrics.3]
+text = "In that glo -- rious land of prom -- ise, Where no tears be -- dim the eye, There’ll be joy for the reap -- ers, by and by; When the ran -- som’d ones are waft -- ed To the por -- tals in the sky, There’ll be joy for the reap -- ers, by and by."
+
+[parts.Tenor.lyrics.3]
+text = "In that glo -- rious land of prom -- ise, Where no tears be -- dim the eye, There’ll be joy for the reap -- ers, by and by; When the ran -- som’d ones are waft -- ed To the por -- tals in the sky, There’ll be joy for the reap -- ers, (in the) by and by."
+
+[parts.Bass.lyrics.3]
+text = "In that glo -- rious land of prom -- ise, Where no tears be -- dim the eye, There’ll be joy for the reap -- ers, (in the) by and by; When the ran -- som’d ones are waft -- ed To the por -- tals in the sky, There’ll be joy for the reap -- ers, (in the) by and by."
+
+[lyrics.chorus]
+text = "There’ll be joy for the reap -- ers, joy for the reap -- ers, joy for the reap -- ers, by and by; When the har -- vest is end -- ed, Sheaves all are gar -- ner’d, There’ll be joy for the reap -- ers, by and by."
+
+[parts.Tenor.lyrics.chorus]
+text = "There’ll be joy for the reap -- ers, joy for the reap -- ers, joy for the reap -- ers, by and by; When the har -- vest is end -- ed, Sheaves all are gar -- ner’d, There’ll be joy for the reap -- ers, in the by and by."
+
+[parts.Bass.lyrics.chorus]
+text = "There’ll be joy for the reap -- ers, there’ll be joy for the reap -- ers, love and joy for the reap -- ers, in the by and by; When the har -- vest is end -- ed, and the Sheaves all are gar -- ner’d, There’ll be joy for the reap -- ers, in the by and by."
