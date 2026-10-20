@@ -1,0 +1,77 @@
+title = "Baptism"
+verse_count = 3
+key_signature = "A"
+time_sig_numerator = 2
+time_sig_denominator = 2
+tempo_bpm = 108
+phrase_breaks = ["5:32", "9:32", "13:32", "17:32", "21:32"]
+copyrights = [
+  "Lyrics: George W. Bethune, 1857 (public domain)",
+  "Music: 'Foundation', American melody, 1832 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 e'4( fis'4) | a'2 fis'4 a'4 | e'2 a'4 a'4 | cis''2 b'4 cis''4 |
+e'2 e'4( fis'4) | a'2 fis'4 a'4 | e'2 a'4 a'4 | cis''2 b'4 b'4 |
+a'2 cis''2 | e''2 cis''4 e''4 | a'2 a'4 a'4 | cis''2 b'4 cis''4 |
+e'2 e'4( fis'4) | a'2 fis'4 a'4 | e'2 a'4 a'4 | cis''2 b'4 b'4 |
+a'2 cis''2 | e''2 cis''4 e''4 | a'2 a'4 a'4 | cis''2 b'4 cis''4 |
+e'2 e'4( fis'4) | a'2 fis'4 a'4 | e'2 a'4 a'4 | cis''2 b'4 b'4 |
+a'2 s2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 cis'4( d'4) | cis'2 d'4 d'4 | cis'2 cis'4 cis'4 | e'2 e'4 e'4 |
+cis'2 cis'4( d'4) | cis'2 d'4 d'4 | cis'2 cis'4 cis'4 | e'2 d'4 d'4 |
+cis'2 e'2 | a'2 e'4 e'4 | fis'2 cis'4 cis'4 | e'2 e'4 e'4 |
+cis'2 cis'4( d'4) | cis'2 d'4 d'4 | cis'2 cis'4 cis'4 | e'2 d'4 d'4 |
+cis'2 e'2 | a'2 e'4 e'4 | fis'2 cis'4 cis'4 | e'2 e'4 e'4 |
+cis'2 cis'4( d'4) | cis'2 d'4 d'4 | cis'2 cis'4 cis'4 | e'2 d'4 d'4 |
+cis'2 s2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 a2 | a2 a4 a4 | a2 a4 a4 | a2 gis4 gis4 |
+a2 a2 | a2 a4 a4 | a2 a4 a4 | a2 gis4 gis4 |
+a2 a2 | cis'2 a4 b4 | cis'2 a4 a4 | a2 gis4 gis4 |
+a2 a2 | a2 a4 a4 | a2 a4 a4 | a2 gis4 gis4 |
+a2 a2 | cis'2 a4 b4 | cis'2 a4 a4 | a2 gis4 gis4 |
+a2 a2 | a2 a4 a4 | a2 a4 a4 | a2 gis4 gis4 |
+a2 s2
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 a,2 | a,2 d4 fis4 | a2 fis4 fis4 | e2 e4 e4 |
+a,2 a,2 | a,2 d4 fis4 | a2 fis4 fis4 | e2 e4 e4 |
+a,2 a2 | a2 a4 gis4 | fis2 fis4 fis4 | e2 e4 e4 |
+a,2 a,2 | a,2 d4 fis4 | a2 fis4 fis4 | e2 e4 e4 |
+a,2 a2 | a2 a4 gis4 | fis2 fis4 fis4 | e2 e4 e4 |
+a,2 a,2 | a,2 d4 fis4 | a2 fis4 fis4 | e2 e4 e4 |
+a,2 s2
+"""
+
+[lyrics.1]
+text = "O Thou who in Jor -- dan didst bow Thy meek head, And whelmed in our sor -- row, didst sink to the dead. Then rose from the dark -- ness to glo -- ry a -- bove, And claimed for Thy chos -- en the king -- dom of love. Then rose from the dark -- ness to glo -- ry a -- bove, And claimed for Thy chos -- en the king -- dom of love."
+
+[lyrics.2]
+text = "Thy foot -- steps we fol -- low, we bow in the tide, We’re bur -- ied with Thee in the death Thou hath died. We rise in Thy like -- ness to walk in the way That bright -- ens and bright -- ens to shad -- ow -- less day. We rise in Thy like -- ness to walk in the way That bright -- ens and bright -- ens to shad -- ow -- less day."
+
+[lyrics.3]
+text = "Till crowned with Thy glo -- ry and wav -- ing the palm, Our gar -- ments all white from the blood of the Lamb. We join the bright mil -- lions of saints gone be -- fore, And bless Thee, and won -- der and praise ev -- er -- more. We join the bright mil -- lions of saints gone be -- fore, And bless Thee, and won -- der and praise ev -- er -- more."
