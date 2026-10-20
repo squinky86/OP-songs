@@ -1,0 +1,80 @@
+title = "His Grace Is Sufficient"
+copyrights = [
+  "Lyrics: Newton W. Allphin, 1907 (public domain)",
+  "Music: H. W. Elliott, 1907 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 4
+phrase_breaks = ["3:48", "5:48", "9:48", "13:48"]
+optional_phrase_breaks = ["7:48", "11:48", "15:48"]
+non_breaking_phrase_breaks = ["11:16"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. c''8 c''8 | c''4 c''4 a'4 f'8 f'8 | f'4 d'4 c'4 c'8 c'8 | f'4 f'8 g'8 a'8 g'8 f'4 |
+g'2. c''8 c''8 | c''4 c''4 a'4 f'8 f'8 | f'4 d'4 c'4 c'8 c'8 | f'4 f'8 f'8 a'8 a'8 g'4 |
+f'2. c''4@c | c''4 c''8 d''8 a'8 g'8 f'4 | c''2~ c''4 d''8[ c''8] | a'4 a'8 a'8 a'8 g'8 f'4 |
+g'2. c''8 c''8 | c''4 c''4 a'4 f'8 f'8 | f'4 d'4 c'4 c'8 c'8 | f'4 f'8 f'8 a'8 a'8 g'4 |
+f'2. s4
+"""
+
+[parts.Soprano.lyrics.chorus]
+text = "His grace is suf -- fi -- cient for me, His grace is suf -- fi -- cient for me; Naught can harm me here, while, to Him, I’m near, For His grace is suf -- fi -- cient for me!"
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. f'8 f'8 | f'4 f'4 f'4 c'8 c'8 | d'4 bes4 a4 c'8 c'8 | c'4 c'8 c'8 f'8 e'8 f'4 |
+e'2. f'8 f'8 | f'4 f'4 f'4 c'8 c'8 | d'4 bes4 a4 c'8 c'8 | d'4 d'8 f'8 f'8 f'8 c'4 |
+c'2. f'4@c | f'4 f'8 f'8 f'8 f'8 c'4 | f'4 e'4 f'4 f'4 | f'4 f'8 f'8 f'8 e'8 f'4 |
+e'2. f'8 f'8 | f'4 f'4 f'4 c'8 c'8 | d'4 bes4 a4 c'8 c'8 | d'4 d'8 f'8 f'8 f'8 c'4 |
+c'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. a8 a8 | a4 a4 c'4 a8 a8 | bes4 f4 f4 a8 a8 | a4 a8 bes8 c'8 bes8 a4 |
+c'2. a8 a8 | a4 a4 c'4 a8 a8 | bes4 f4 f4 a8 a8 | a4 a8 a8 c'8 c'8 bes4 |
+a2. a4@c | a4 a8 a8 c'8 a8 a4 | a4 g4 a4 c'8[ a8] | c'4 c'8 c'8 c'8 bes8 a4 |
+c'2. a8 a8 | a4 a4 c'4 a8 a8 | bes4 f4 f4 a8 a8 | a4 a8 a8 c'8 c'8 bes4 |
+a2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. f8 f8 | f4 f4 f4 f8 f8 | bes,4 d4 f4 f8 f8 | f4 f8 f8 f8 c8 d4 |
+c2. f8 f8 | f4 f4 f4 f8 f8 | bes,4 d4 f4 f8 f8 | d4 d8 d8 c8 c8 c4 |
+f2. f4@c | f4 f8 f8 f8 f8 f4 | f4 bes,4 f4 f4 | f4 f8 f8 f8 c8 d4 |
+c2. f8 f8 | f4 f4 f4 f8 f8 | bes,4 d4 f4 f8 f8 | d4 d8 d8 c8 c8 c4 |
+f2. s4
+"""
+
+[lyrics.1]
+text = "’Tis my Lord who knows all my griefs and woes, He, my shield and my ref -- uge, shall be; Naught can harm me here, while, to Him, I’m near, For His grace is suf -- fi -- cient for me!"
+
+[lyrics.2]
+text = "I will trust each hour in His sav -- ing power, And His pre -- cepts my coun -- sel shall be; Songs of praise I’ll sing to my Lord and King, For His grace is suf -- fi -- cient for me!"
+
+[lyrics.3]
+text = "He’s a faith -- ful Friend, ev -- en to the end, Yea, and like Him no oth -- er can be; He’s my hope, my all, on His name I call, For His grace is suf -- fi -- cient for me!"
+
+[lyrics.4]
+text = "When I’m bowed with care then I go in prayer, Un -- to Him, for He hear -- eth my plea, Giv -- ing com -- fort sweet, all my needs to meet, Yes, His grace is suf -- fi -- cient for me!"
+
+[lyrics.chorus]
+text = "His grace is suf -- fi -- cient for me, for me, His grace is suf -- fi -- cient for me; Naught can harm me here, while, to Him, I’m near, For His grace is suf -- fi -- cient for me!"
