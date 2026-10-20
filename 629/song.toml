@@ -1,0 +1,72 @@
+title = "Must I Go and Empty Handed?"
+copyrights = [
+  "Lyrics: Charles C. Luther, 1877 (public domain)",
+  "Music: George C. Stebbins, 1878 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "D"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 90
+verse_count = 4
+phrase_breaks = ["4:48", "8:48", "12:48"]
+optional_phrase_breaks = ["2:48", "6:48", "10:48", "14:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+a'4 a'8 a'8[ g'8] fis'8 | d''4 b'8 a'4 fis'8 | g'4 g'8 g'8[ fis'8] e'8 | a'4 g'8 fis'4. |
+a'4 a'8 a'8[ g'8] fis'8 | d''4 b'8 a'4 fis'8 | b'4 b'8 a'4 d''8 | fis'4 e'8 d'4. |
+d''4@c d''8 d''8[ cis''8] b'8 | a'4 b'8 a'4 fis'8 | d''4 d''8 d''8[ cis''8] b'8 | cis''4 b'8 a'4. |
+a'4 a'8 a'8[ g'8] fis'8 | d''4 b'8 a'4 fis'8 | b'4 b'8 a'4 d''8 | fis'4 e'8 d'4.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+fis'4 fis'8 fis'8[ e'8] d'8 | fis'4 g'8 fis'4 d'8 | e'4 e'8 e'8[ d'8] cis'8 | fis'4 e'8 d'4. |
+fis'4 fis'8 fis'8[ e'8] d'8 | fis'4 g'8 fis'4 d'8 | d'4 d'8 d'4 fis'8 | d'4 cis'8 d'4. |
+fis'4@c fis'8 fis'8[ a'8] g'8 | fis'4 g'8 fis'4 d'8 | fis'4 fis'8 fis'4 fis'8 | a'4 e'8 e'4( g'8) |
+fis'4 fis'8 fis'8[ e'8] d'8 | fis'4 g'8 fis'4 d'8 | d'4 d'8 d'4 fis'8 | d'4 cis'8 d'4.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+d'4 d'8 d'8[ a8] a8 | a4 d'8 d'4 a8 | a4 a8 a4 a8 | a4 a8 a4. |
+d'4 d'8 d'8[ a8] a8 | a4 d'8 d'4 a8 | g4 b8 d'4 a8 | a4 g8 fis4. |
+a4@c a8 a4 d'8 | d'4 d'8 d'4 a8 | b4 b8 b8[ ais8] b8 | a8[ e'8] d'8 cis'4. |
+d'4 d'8 d'8[ a8] a8 | a4 d'8 d'4 a8 | g4 b8 d'4 a8 | a4 g8 fis4.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+d4 d8 d4 d8 | d4 d8 d4 d8 | a,4 a,8 a,4 a,8 | a,8[ b,8] cis8 d4. |
+d4 d8 d4 d8 | d4 d8 d4 d8 | g4 g8 fis4 d8 | a,4 a,8 d4. |
+d4@c d8 d4 d8 | d4 d8 d4 d8 | b,4 b,8 b,8[ cis8] d8 | e4 e8 a,4. |
+d4 d8 d4 d8 | d4 d8 d4 d8 | g4 g8 fis4 d8 | a,4 a,8 d4.
+"""
+
+[lyrics.1]
+text = "“Must I go and emp -- ty hand -- ed,” Thus my dear Re -- deem -- er meet? Not one day of ser -- vice give Him, Lay no tro -- phy at His feet."
+
+[lyrics.2]
+text = "Not at death I shrink nor fal -- ter, For my Sav -- ior saves me now; But to meet Him emp -- ty hand -- ed, Tho’t of that now clouds my brow."
+
+[lyrics.3]
+text = "Oh, the years of sin -- ning wast -- ed, Could I but re -- call them now; I would give them to my Sav -- ior, To His will I’d glad -- ly bow."
+
+[lyrics.4]
+text = "Oh, ye saints, a -- rouse, be earn -- est, Up and work while yet ’tis day; Ere the night of death o’er -- takes thee, Strive for souls while still you may."
+
+[lyrics.chorus]
+text = "“Must I go and emp -- ty hand -- ed,” Must I meet my Sav -- ior so? Not one soul with which to greet Him, Must I emp -- ty hand -- ed go?"
