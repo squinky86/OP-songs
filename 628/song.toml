@@ -1,0 +1,63 @@
+title = "Come Home, Poor Sinner"
+copyrights = [
+  "Lyrics and Music: H. R. Jeffrey, 1885 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 110
+verse_count = 5
+phrase_breaks = ["4:64", "8:64", "12:64", "16:64", "20:64"]
+optional_phrase_breaks = ["2:64", "6:64", "10:64", "14:64", "18:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+a'2 g'4 f'4 | d'4 f'2 r4 | g'2 f'4 g'4 | a'2. r4 | a'2 g'4 f'4 | d'4 f'2 r4 | g'4( f'4) a'4! g'4 | f'2. r4 | c''2@c c''4 a'4 | bes'4 d''2 r4 | c''2 c''4 a'4 | a'4 g'2 r4 | c''2 c''4 a'4 | bes'4 d''2 r4 | c''2 a'4 f'4 | g'2. r4 | a'2 g'4 f'4 | d'4 f'2 r4 | g'4( f'4) a'4! g'4 | f'1
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+f'2 c'4 c'4 | bes4 d'2 r4 | e'2 c'4 e'4 | f'2. r4 | f'2 c'4 c'4 | bes4 d'2 r4 | e'4( f'4) f'4! c'4 | c'2. r4 | f'2@c f'4 f'4 | f'4 f'2 r4 | f'2 f'4 f'4 | f'4 e'2 r4 | f'2 f'4 f'4 | f'4 f'2 r4 | f'2 f'4 f'4 | e'2. r4 | f'2 c'4 c'4 | bes4 d'2 r4 | e'4( f'4) f'4! c'4 | c'1
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+c'2 bes4 a4 | bes4 bes2 r4 | bes2 a4 c'4 | c'2. r4 | c'2 bes4 a4 | bes4 bes2 r4 | bes4( a4) c'4! bes4 | a2. r4 | a2@c a4 c'4 | d'4 bes2 r4 | a2 a4 c'4 | c'4 c'2 r4 | a2 a4 c'4 | d'4 bes2 r4 | a2 c'4 b4 | c'2. r4 | c'2 bes4 a4 | bes4 bes2 r4 | bes4( a4) c'4! bes4 | a1
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+f2 f4 f4 | bes,4 bes,2 r4 | c2 c4 c4 | f2. r4 | f2 f4 f4 | bes,4 bes,2 r4 | c2 c4! c4 | f2. r4 | f2@c f4 f4 | bes,4 bes,2 r4 | f2 f4 f4 | c4 c2 r4 | f2 f4 f4 | bes,4 bes,2 r4 | f2 f4 d4 | c2. r4 | f2 f4 f4 | bes,4 bes,2 r4 | c2 c4! c4 | <f, f>1
+"""
+
+[lyrics.1]
+text = "Come home, poor sin -- ner, Why long -- er roam? Thy Sav -- ior’s call -- ing: “Come home, come home.”"
+
+[lyrics.2]
+text = "He died to save you On Cal -- va -- ry; Be -- hold what suff -- ering! ’Twas all for thee."
+
+[lyrics.3]
+text = "Oh, come to Je -- sus, Do not de -- lay; Come, and He’ll save you, Come while you may."
+
+[lyrics.4]
+text = "Oh, come to Je -- sus, He’s wait -- ing still With His sal -- va -- tion Thy soul to fill."
+
+[lyrics.5]
+text = "Oh, come to Je -- sus, How can you stay? He’s plead -- ing, plead -- ing, Come, come to -- day."
+
+[lyrics.chorus]
+text = "Je -- sus is plead -- ing, He’s in -- ter -- ced -- ing; Yes, plead -- ing, plead -- ing For thee to come; Come home, poor sin -- ner, Come home, come home."
