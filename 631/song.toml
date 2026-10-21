@@ -1,0 +1,94 @@
+title = "Your Call to Service"
+copyrights = [
+  "Lyrics and Music: Silas L. Cox, 1928 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Db"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 3
+phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "11:48", "13:48", "15:48"]
+optional_phrase_breaks = ["1:48"]
+non_breaking_phrase_breaks = ["9:64", "10:64", "12:48", "16:8", "16:48", "17:8"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. f'8 ges'8 | aes'8 aes'4 g'8 bes'8 aes'8 des'8 ees'8 | f'8 f'4 e'8 ges'8 f'8 ees'8 f'8 |
+ees'8 ees'4 f'8 c''8 bes'8 aes'8 ees'8 | f'8 f'4 bes'8 aes'4! bes'8 c''8 |
+des''8 des''4 c''8 ees''8 des''8 c''8 bes'8 | aes'8 aes'4 g'8 bes'8 aes'8 ees'8 f'8 |
+ees'8 ees'4 aes'8 g'4 bes'4 | c''8 bes'8 aes'8 g'8 aes'4! bes'8@c c''8 |
+des''8 des''4 ees''8 f''8 des''8 bes'8 des''8 | aes'8 r8 aes'8 r8 aes'4 bes'8 c''8 |
+des''8 des''4 ees''8 f''8 des''8 aes'8 bes'8 | c''8 r8 c''8 r8 c''4 c''8 des''8 |
+ees''8 ees''4 d''8 ees''8 c''8 bes'8 c''8 | des''8 des''4 ees''8 f''8 des''8 aes'8 g'8 |
+bes'4 ees''4 des''8 des''8 c''8 c''8 | des''2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. des'8 ees'8 | f'8 f'4 e'8 ges'8 f'8 des'8 des'8 | des'8 des'4 des'8 des'8 des'8 c'8 des'8 |
+c'8 c'4 d'8 ees'8 ges'8 f'8 ees'8 | des'8 des'4 ges'8 f'4! ges'8 ges'8 |
+f'8 f'4 aes'8 ges'8 bes'8 aes'8 ges'8 | f'8 f'4 e'8 ges'8 f'8 ees'8 des'8 |
+c'8 c'4 c'8 ees'4 des'4 | ees'8 ees'8 ees'8 ees'8 ees'4! ges'8@c ges'8 |
+f'8 f'4 ges'8 aes'8 f'8 ges'8 ges'8 | f'8 e'8 f'8 ges'8 f'4 ges'8 ges'8 |
+f'8 f'4 ges'8 aes'8 ges'8 ees'8 ees'8 | ges'8 f'8 ees'8 f'8 ges'4 ees'8 f'8 |
+ges'8 ges'4 f'8 ges'8 ees'8 ges'8 ges'8 | f'8 f'4 ges'8 aes'8 f'8 f'8 f'8 |
+ges'4 ges'4 f'8 f'8 ees'8 ges'8 | f'8 bes'8 aes'8 ges'8 f'4 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. aes8 aes8 | des'8 des'4 des'8 des'8 des'8 f8 ges8 | aes8 aes4 g8 bes8 aes8 aes8 aes8 |
+aes8 aes4 aes8 aes8 aes8 aes8 aes8 | aes8 aes4 des'8 des'4! des'8 bes8 |
+aes8 aes4 des'8 bes8 des'8 des'8 des'8 | des'8 des'4 des'8 des'8 des'8 aes8 aes8 |
+aes8 aes4 aes8 bes4 g4 | aes8 bes8 ees'8 des'8 c'4! aes8@c aes8 |
+aes8 aes4 des'8 des'8 des'8 des'8 des'8 | des'8 r8 des'8 r8 des'4 c'8 bes8 |
+aes8 aes4 aes8 des'8 bes8 aes8 g8 | aes8 r8 aes8 r8 aes4 aes8 aes8 |
+c'8 c'4 b8 c'8 aes8 aes8 aes8 | aes8 aes4 aes8 des'8 des'8 des'8 des'8 |
+des'8 des'8 c'8 c'8 des'4 aes4 | aes8 des'8 c'8 bes8 aes4 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. des8 des8 | des8 des4 des8 des8 des8 des8 des8 | des8 des4 des8 des8 des8 ees8 des8 |
+c8 c4 bes,8 aes,8 aes,8 bes,8 c8 | des8 des4 des8 des4! aes,8 aes,8 |
+des8 des4 f8 ges8 ges8 ges8 ges8 | des8 des4 des8 des8 aes,8 c8 des8 |
+ees8 ees4 ees8 ees4 bes,4 | ees8 des8 c8 bes,8 aes,4! aes,8@c aes,8 |
+des8 des4 des8 des8 des8 ges,8 bes,8 | aes,8 bes,8 aes,8 bes,8 aes,4 aes,8 aes,8 |
+des8 des4 des8 des8 des8 c8 des8 | ees8 des8 c8 bes,8 aes,4 aes,8 aes,8 |
+aes8 aes4 aes8 aes8 aes8 aes,8 aes,8 | des8 des4 des8 des8 des8 des8 des8 |
+ges8 ges8 ees8 ees8 aes4 aes,4 | des2. s4
+"""
+
+[lyrics.1]
+text = "Will you lis -- ten to Je -- sus as He pleads for your ser -- vice? He is call -- ing for help -- ers, who will work all the day? See, the grain now is fall -- ing while the Mas -- ter is call -- ing, Why not an -- swer the call and has -- ten on your way?"
+
+[lyrics.2]
+text = "There’s a place in His ser -- vice for the ones who will la -- bor, There is work in His vine -- yard that you sure -- ly can do; You can tell the sweet sto -- ry of the Sav -- ior in glo -- ry. Yes, the Mas -- ter is wait -- ing now and He needs you."
+
+[lyrics.3]
+text = "Count -- less thou -- sands are hun -- gry for the mes -- sage of Je -- sus, Will you go out and tell them of His won -- der -- ful love? If you’re loy -- al and faith -- ful while you toil in His vine -- yard, He will give you a man -- sion in that home a -- bove."
+
+[lyrics.chorus]
+text = "He is call -- ing for reap -- ers who will work, work, work He wants men who have cour -- age, men who will not shirk, Will you an -- swer the call and go and work for the Mas -- ter, Go and reap the rip’ -- ning grain to -- day?"
+
+[parts.Alto.lyrics.chorus]
+text = "He is call -- ing for reap -- ers who will al -- ways be at work, He wants men who have cour -- age, He wants men who will not shirk, Will you an -- swer the call and go and work for the Mas -- ter, Go and reap the rip’ -- ning grain to -- day? go work to -- day?"
+
+[parts.Tenor.lyrics.chorus]
+text = "He is call -- ing for reap -- ers who will work, work, work He wants men who have cour -- age, men who will not shirk, Will you an -- swer the call and go and work for the Mas -- ter, Go and reap the rip’ -- ning grain, to -- day? go work to -- day?"
+
+[parts.Bass.lyrics.chorus]
+text = "He is call -- ing for reap -- ers who will al -- ways be at work, He wants men who have cour -- age, He wants men who will not shirk, Will you an -- swer the call and go and work for the Mas -- ter, Go and reap the rip’ -- ning grain, to -- day?"
