@@ -1,0 +1,86 @@
+title = "My Refuge"
+copyrights = [
+  "Lyrics and Music: Silas L. Cox, 1928 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 4
+phrase_breaks = ["5:32", "8:32", "12:32", "15:32", "19:32", "22:32", "26:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 g'8. a'16 | b'4 ais'4 c''4 | b'2 g'8. g'16 | a'4 g'4 e'4 |
+fis'2 g'8. a'16 | b'4 b'4 b'4 | e''4 b'4 cis''4 | d''2! c''8. b'16 |
+d''4 cis''4 e''4 | d''2 g'8. a'16 | b'4 ais'4 c''4 | b'2 g'8. g'16 |
+a'4 g'4 e'4 | d'4 g'4 a'4 | g'2! fis'8.@c g'16 | a'4 a'4 b'4 |
+c''2 b'8. c''16 | d''4 d''4 d''4 | d''2 d''8. d''16 | cis''4 b'4 a'4 |
+e''4 a'4 e''4 | d''2! c''8. b'16 | d''4 cis''4 e''4 | d''2 g'8. a'16 |
+b'4 ais'4 c''4 | b'2 g'8. g'16 | a'4 g'4 e'4 | d'4 g'4 a'4 |
+g'2! s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 b8. c'16 | d'4 cis'4 e'4 | d'2 d'8. d'16 | e'4 e'4 c'4 |
+b2 g'8. g'16 | g'4 g'4 a'4 | g'4 g'4 g'4 | fis'2! fis'8. fis'16 |
+g'4 g'4 g'4 | g'2 b8. c'16 | d'4 cis'4 e'4 | d'2 d'8. d'16 |
+e'4 e'4 c'4 | b4 d'4 d'4 | d'2! d'8.@c e'16 | fis'4 a'4 g'4 |
+fis'2 g'8. g'16 | g'4 g'4 g'4 | g'2 g'8. g'16 | g'4 g'4 fis'4 |
+g'4 e'4 a'4 | fis'2! fis'8. fis'16 | g'4 g'4 g'4 | g'2 b8. c'16 |
+d'4 cis'4 e'4 | d'2 d'8. d'16 | e'4 e'4 c'4 | b4 d'4 d'4 |
+d'2! s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 g8. g16 | g4 g4 g4 | g2 d'8. d'16 | c'4 c'4 g4 |
+g2 b8. c'16 | d'4 d'4 dis'4 | e'4 e'4 a4 | a2! a8. a16 |
+b4 ais4 c'4 | b2 g8. g16 | g4 g4 g4 | g2 d'8. d'16 |
+c'4 c'4 g4 | g4 b4 c'4 | b2! d'8.@c d'16 | d'4 d'4 d'4 |
+d'2 d'8. d'16 | d'4 d'4 d'4 | d'2 b8. b16 | a4 cis'4 d'4 |
+cis'4 cis'4 cis'4 | d'2! a8. a16 | b4 ais4 c'4 | b2 g8. g16 |
+g4 g4 g4 | g2 d'8. d'16 | c'4 c'4 g4 | g4 b4 c'4 |
+b2! s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 g,8. g,16 | g,4 g,4 g,4 | g,2 b,8. b,16 | c4 c4 c4 |
+g,2 g8. g16 | g4 g4 fis4 | e4 e4 a4 | d2! d8. d16 |
+g4 g4 g4 | g2 g,8. g,16 | g,4 g,4 g,4 | g,2 b,8. b,16 |
+c4 c4 c4 | d4 d4 d4 | <g, g>2! d8.@c d16 | d4 fis4 g4 |
+a2 g8. a16 | b4 b4 b4 | b2 g8. f16 | e4 e4 a4 |
+a4 a4 a4 | d2! d8. d16 | g4 g4 g4 | g2 g,8. g,16 |
+g,4 g,4 g,4 | g,2 b,8. b,16 | c4 c4 c4 | d4 d4 d4 |
+<g, g>2! s4
+"""
+
+[lyrics.1]
+text = "When I'm bur -- dened with care and dark clouds of dis -- pair. Hide the beau -- ties of heav -- en a -- bove; I look up thro' God's grace, to the Sav -- ior's sweet face, And re -- joice in His won -- der -- ful love."
+
+[lyrics.2]
+text = "By His word I have known of that beau -- ti -- ful home. And by faith I shall reach it some day; So I'll trav -- el a -- long, with a bright cheer -- ful song, Tell -- ing sin -- ners of Christ on my way."
+
+[lyrics.3]
+text = "When I'm lone -- ly and sad, and no one makes me glad, While I toil up the hill on life's road; Yet from day un -- to day I will fer -- vent -- ly pray, For my Sav -- ior will car -- ry my load."
+
+[lyrics.4]
+text = "When the jour -- ney is o'er, we shall meet on that shore, All the faith -- ful who've toiled here be -- low; And we'll join in the song of the glo -- ri -- fied throng, Sing -- ing prais -- es to Christ ev -- er -- more."
+
+[lyrics.chorus]
+text = "He's my ref -- uge and stay as from day un -- to day, I must trav -- el the path -- way of life; There's no friend I can find like the Sav -- ior di -- vine, Who will keep me thro' sor -- row and strife."
