@@ -12,6 +12,7 @@ tempo_bpm = 105
 verse_count = 3
 phrase_breaks = ["4:64", "8:64", "12:64"]
 optional_phrase_breaks = ["2:64", "6:64", "10:64", "14:64"]
+commentary = "<p>The chorus has updated lyrics to reflect a more accurate Bible translation, replacing “mansions” with “dwellings”; see <a href=\"/blog/20261022-mansions-and-dwellings\">From Mansions to Dwellings</a>.</p>"
 
 [parts.Soprano]
 choral_type = "soprano"
