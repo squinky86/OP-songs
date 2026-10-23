@@ -7,9 +7,11 @@ key_signature = "G"
 time_sig_numerator = 6
 time_sig_denominator = 8
 tempo_bpm = 84
-verse_count = 5
+verse_count = 6
+default_verses = [1, 2, 3, 4, 5]
 phrase_breaks = ["3:40", "5:40", "7:40", "9:40", "11:40", "13:40", "15:40"]
 non_breaking_phrase_breaks = ["10:48"]
+commentary = "<p>Verse 5 has updated lyrics to reflect a more accurate Bible translation, replacing “behold those mansions of gold” with “be blest in those dwellings of rest”; see <a href=\"/blog/20261022-mansions-and-dwellings\">From Mansions to Dwellings</a>.</p>"
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -22,21 +24,6 @@ g'4.~ g'4 b'8 | d''4 d''8 e''8 d''8 b'8 | d''4.~ d''4! b'8 | b'4 g'8 a'8 a'8 b'8
 a'4.~ a'4 g'16-( g'16-) | b'8! a'8 g'8 b'4! a'16-( g'16-) | a'8 g'8 e'8 g'4! g'16 a'16 | b'8 d''8.! b'16 a'8 b'8! a'8 |
 g'2.
 """
-
-[parts.Soprano.lyrics.1]
-text = "When I went to the home of my child -- hood so dear, Where I once loved so well _ to roam, How sad _ and drear, no _ voice could I hear, There was no one to wel -- come me home. No one to wel -- come me home, No one to wel -- come me home, When I went to the place where I once loved to roam, There was no one to wel -- come me home."
-
-[parts.Soprano.lyrics.2]
-text = "I _ there could not see my _ moth -- er’s sweet face, Nor my fa -- ther’s kind voice could I hear, How sad did I feel in that lone -- ly “old place,” Find -- ing no one to wel -- come me there. No one to wel -- come me home, No one to wel -- come me home, When I went to the place where I once loved to roam, There was no one to wel -- come me home."
-
-[parts.Soprano.lyrics.3]
-text = "I _ went to the spring that was flow -- ing so free, And I drank of its wa -- ters so clear, But lone -- _ -- ly a voice would whis -- per to me, “There is no one to wel -- come you here.” No one to wel -- come me home, No one to wel -- come me home, When I went to the place where I once loved to roam, There was no one to wel -- come me home."
-
-[parts.Soprano.lyrics.4]
-text = "Then I went to the place where I once loved to play, But my play -- mates had ev -- ’ry one gone, And sad -- _ -- ly a voice would whis -- per and say, “There is no one to wel -- come you home.” No one to wel -- come me home, No one to wel -- come me home, When I went to the place where I once loved to roam, There was no one to wel -- come me home."
-
-[parts.Soprano.lyrics.5]
-text = "But _ when I shall reach that _ heav -- en -- ly place, The _ beau -- ti -- ful cit -- y so fair, Where I shall be -- hold my Re -- deem -- _ -- er’s face, There’ll be some one to wel -- come me there. Some one to wel -- come me there, In -- to that cit -- y so fair, When _ I shall be -- hold those _ man -- sions of gold, There’ll be some one to wel -- come me there."
 
 [parts.Alto]
 choral_type = "alto"
@@ -83,14 +70,35 @@ g,2.
 [lyrics.1]
 text = "When I went to the home of my child -- hood so dear, Where I once loved so well _ to roam, How sad _ and drear, no _ voice could I hear, There was no one to wel -- come me home. No one to wel -- come me wel -- come me home, No one to wel -- come me home, When I went to the place where I once loved to roam, There was no one to wel -- come me home."
 
+[parts.Soprano.lyrics.1]
+text = "When I went to the home of my child -- hood so dear, Where I once loved so well _ to roam, How sad _ and drear, no _ voice could I hear, There was no one to wel -- come me home. No one to wel -- come me home, No one to wel -- come me home, When I went to the place where I once loved to roam, There was no one to wel -- come me home."
+
 [lyrics.2]
 text = "I _ there could not see my _ moth -- er’s sweet face, Nor my fa -- ther’s kind voice could I hear, How sad did I feel in that lone -- ly “old place,” Find -- ing no one to wel -- come me there. No one to wel -- come me wel -- come me home, No one to wel -- come me home, When I went to the place where I once loved to roam, There was no one to wel -- come me home."
+
+[parts.Soprano.lyrics.2]
+text = "I _ there could not see my _ moth -- er’s sweet face, Nor my fa -- ther’s kind voice could I hear, How sad did I feel in that lone -- ly “old place,” Find -- ing no one to wel -- come me there. No one to wel -- come me home, No one to wel -- come me home, When I went to the place where I once loved to roam, There was no one to wel -- come me home."
 
 [lyrics.3]
 text = "I _ went to the spring that was flow -- ing so free, And I drank of its wa -- ters so clear, But lone -- _ -- ly a voice would whis -- per to me, “There is no one to wel -- come you here.” No one to wel -- come me wel -- come me home, No one to wel -- come me home, When I went to the place where I once loved to roam, There was no one to wel -- come me home."
 
+[parts.Soprano.lyrics.3]
+text = "I _ went to the spring that was flow -- ing so free, And I drank of its wa -- ters so clear, But lone -- _ -- ly a voice would whis -- per to me, “There is no one to wel -- come you here.” No one to wel -- come me home, No one to wel -- come me home, When I went to the place where I once loved to roam, There was no one to wel -- come me home."
+
 [lyrics.4]
 text = "Then I went to the place where I once loved to play, But my play -- mates had ev -- ’ry one gone, And sad -- _ -- ly a voice would whis -- per and say, “There is no one to wel -- come you home.” No one to wel -- come me wel -- come me home, No one to wel -- come me home, When I went to the place where I once loved to roam, There was no one to wel -- come me home."
 
+[parts.Soprano.lyrics.4]
+text = "Then I went to the place where I once loved to play, But my play -- mates had ev -- ’ry one gone, And sad -- _ -- ly a voice would whis -- per and say, “There is no one to wel -- come you home.” No one to wel -- come me home, No one to wel -- come me home, When I went to the place where I once loved to roam, There was no one to wel -- come me home."
+
 [lyrics.5]
+text = "But _ when I shall reach that _ heav -- en -- ly place, The _ beau -- ti -- ful cit -- y so fair, Where I shall be -- hold my Re -- deem -- _ -- er’s face, There’ll be some one to wel -- come me there. Some one to wel -- come me wel -- come me there, In -- to that cit -- y so fair, When _ I shall be blest in those dwell -- ings of rest, There’ll be some one to wel -- come me there."
+
+[parts.Soprano.lyrics.5]
+text = "But _ when I shall reach that _ heav -- en -- ly place, The _ beau -- ti -- ful cit -- y so fair, Where I shall be -- hold my Re -- deem -- _ -- er’s face, There’ll be some one to wel -- come me there. Some one to wel -- come me there, In -- to that cit -- y so fair, When _ I shall be blest in those dwell -- ings of rest, There’ll be some one to wel -- come me there."
+
+[lyrics.6]
 text = "But _ when I shall reach that _ heav -- en -- ly place, The _ beau -- ti -- ful cit -- y so fair, Where I shall be -- hold my Re -- deem -- _ -- er’s face, There’ll be some one to wel -- come me there. Some one to wel -- come me wel -- come me there, In -- to that cit -- y so fair, When _ I shall be -- hold those _ man -- sions of gold, There’ll be some one to wel -- come me there."
+
+[parts.Soprano.lyrics.6]
+text = "But _ when I shall reach that _ heav -- en -- ly place, The _ beau -- ti -- ful cit -- y so fair, Where I shall be -- hold my Re -- deem -- _ -- er’s face, There’ll be some one to wel -- come me there. Some one to wel -- come me there, In -- to that cit -- y so fair, When _ I shall be -- hold those _ man -- sions of gold, There’ll be some one to wel -- come me there."

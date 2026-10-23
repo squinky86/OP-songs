@@ -8,9 +8,11 @@ time_sig_numerator = 4
 time_sig_denominator = 4
 tempo_bpm = 92
 verse_count = 5
+default_verses = [2, 3, 5]
 phrase_breaks = ["5:48", "9:48", "13:48"]
 optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
 non_breaking_phrase_breaks = ["4:16", "4:48", "8:16", "8:48", "10:16", "10:48", "11:16", "14:16", "14:48", "15:16", "16:16", "16:48"]
+commentary = "<p>Verses are removed from default selection which indicate an idea of extravagant physical mansions. The chorus has updated lyrics to reflect a more accurate Bible translation, replacing “mansions” with “dwellings”; see <a href=\"/blog/20261022-mansions-and-dwellings\">From Mansions to Dwellings</a>.</p>"
 converge_verses = false
 
 [parts.Soprano]
@@ -83,25 +85,13 @@ text = "With -- in a cit -- y paved with gold, This man -- sion stands, Where ga
 text = "I long to reach that cit -- y bright, Where joy ex -- spands, En -- rap -- tured be, with heav’n -- ly light, @s1"
 
 [lyrics.chorus]
+text = "I know, I know, I know, I know, For me in heav’n a dwell -- ing stands, A home, A home, a home, a home, Not made Not made with hands."
+
+[parts.Soprano.lyrics.chorus]
 text = "I know, I know, For me in heav’n a man -- sion stands, A home, a home, Not made with hands."
 
-[parts.Alto.lyrics.chorus]
-text = "I know, I know, I know, I know, For me in heav’n a man -- sion stands, A home, A home, a home, a home, Not made Not made with hands."
-
-[parts.Tenor.lyrics.chorus]
-text = "I know, I know, I know, I know, For me in heav’n a man -- sion stands, A home, A home, a home, a home, Not made Not made with hands."
-
-[parts.Bass.lyrics.chorus]
-text = "I know, I know, I know, I know, For me in heav’n a man -- sion stands, A home, A home, a home, a home, Not made Not made with hands."
-
 [lyrics.s1]
+text = "Not made not made with hands."
+
+[parts.Soprano.lyrics.s1]
 text = "Not made with hands."
-
-[parts.Alto.lyrics.s1]
-text = "Not made not made with hands."
-
-[parts.Tenor.lyrics.s1]
-text = "Not made not made with hands."
-
-[parts.Bass.lyrics.s1]
-text = "Not made not made with hands."

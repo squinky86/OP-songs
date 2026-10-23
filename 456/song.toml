@@ -6,6 +6,7 @@ time_sig_denominator = 4
 tempo_bpm = 104
 phrase_breaks = ["2:96", "4:96", "8:96", "12:96"]
 optional_phrase_breaks = ["6:96", "10:96", "14:96"]
+commentary = "<p>The chorus has updated lyrics to reflect a more accurate Bible translation, replacing “mansions” with “dwellings”; see <a href=\"/blog/20261022-mansions-and-dwellings\">From Mansions to Dwellings</a>.</p>"
 copyrights = [
   "Lyrics: Tice Elkins, 1921 (public domain)",
   "Music: Thomas S. Cobb, 1921 (public domain)",
@@ -66,4 +67,4 @@ text = "Soon we shall jour -- ney a -- cross the dark riv -- er, Oth -- ers have
 text = "May we be read -- y when death calls us home -- ward, To the e -- ter -- nal bright shore; Know -- ing that yon -- der in heav -- en with Je -- sus, We shall dwell ev -- _ er -- more."
 
 [lyrics.chorus]
-text = "Christ on the oth -- er side, Call -- ing us o -- ver the tide, Bid -- ding us wel -- come to man -- sion's e -- ter -- nal, Who in the soul a -- bide."
+text = "Christ on the oth -- er side, Call -- ing us o -- ver the tide, Bid -- ding us wel -- come to dwell -- ing e -- ter -- nal, Who in the soul a -- bide."
