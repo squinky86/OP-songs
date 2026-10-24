@@ -13,6 +13,7 @@ verse_count = 4
 phrase_breaks = ["3:48", "6:48", "9:48", "11:48", "13:48", "15:48"]
 optional_phrase_breaks = ["2:48", "5:48", "7:48"]
 non_breaking_phrase_breaks = ["4:16", "4:44", "8:16", "8:44", "12:16", "12:44", "13:12", "14:44", "16:16", "16:44", "17:12"]
+commentary = "<p>This song may contain an archaic meaning of word \"mansion\" or reflect a misunderstanding of its translation. See <a href=\\\"/blog/20261022-mansions-and-dwellings\\\">From Mansions to Dwellings</a>.</p>"
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -62,12 +63,6 @@ g'4 e'8. fis'16 g'8. fis'16 {3 e'8[ d'8] cis'8 } |
 d'8. a16 b8. b16 a4 s4
 """
 
-[parts.Alto.lyrics.chorus]
-text = "Come to Me, O, come to Me; Je -- sus says, Je -- sus says, Come un -- to Me. come un -- to Me. Wea -- ry heart, for re -- fuge flee, Un -- to Christ Un -- to Christ who call -- eth thee. who call -- eth thee."
-
-[parts.Alto.lyrics.s1]
-text = "Come to Me, Come to Me,"
-
 [parts.Tenor]
 choral_type = "tenor"
 clef = "bass"
@@ -91,9 +86,6 @@ r8. d'16 d'8. d'16 d'4 r4 |
 r4 cis'8. d'16 e'8. d'16 {3 a4 g8} |
 fis8. fis16 g8. g16 fis4 s4
 """
-
-[parts.Tenor.lyrics.chorus]
-text = "Come to Me, O, come to Me; Je -- sus says, Come un -- to Me. come un -- to Me. Wea -- ry heart, for re -- fuge flee, Un -- to Christ who call -- eth thee. who call -- eth thee."
 
 [parts.Bass]
 choral_type = "bass"
@@ -119,9 +111,6 @@ r4 a,8. a,16 a,8. a,16 {3 a,4 a,8} |
 d2. s4
 """
 
-[parts.Bass.lyrics.chorus]
-text = "Come to Me, O, come to Me; Je -- sus says, Come un -- to Me. come un -- to Me. Wea -- ry heart, for re -- fuge flee, Un -- to Christ who call -- eth thee."
-
 [lyrics.1]
 text = "Have you heard the in -- vi -- ta -- tion? Je -- sus says, Come un -- to Me, @s1 @s2 ’Tis the mes -- sage of sal -- va -- tion, That the Mas -- ter brings to thee, @s1 @s2"
 
@@ -137,8 +126,20 @@ text = "Time is short, and days are fleet -- ing, Heed the mes -- sage, Come to 
 [lyrics.chorus]
 text = "Come to Me, O, come to Me; Je -- sus says, Come un -- to Me. Wea -- ry heart, for re -- fuge flee, Un -- to Christ who call -- eth thee."
 
+[parts.Alto.lyrics.chorus]
+text = "Come to Me, O, come to Me; Je -- sus says, Je -- sus says, Come un -- to Me. come un -- to Me. Wea -- ry heart, for re -- fuge flee, Un -- to Christ Un -- to Christ who call -- eth thee. who call -- eth thee."
+
+[parts.Tenor.lyrics.chorus]
+text = "Come to Me, O, come to Me; Je -- sus says, Come un -- to Me. come un -- to Me. Wea -- ry heart, for re -- fuge flee, Un -- to Christ who call -- eth thee. who call -- eth thee."
+
+[parts.Bass.lyrics.chorus]
+text = "Come to Me, O, come to Me; Je -- sus says, Come un -- to Me. come un -- to Me. Wea -- ry heart, for re -- fuge flee, Un -- to Christ who call -- eth thee."
+
 [lyrics.s1]
 text = "Come to Me,"
+
+[parts.Alto.lyrics.s1]
+text = "Come to Me, Come to Me,"
 
 [lyrics.s2]
 text = "O, come to Me."

@@ -1,6 +1,4 @@
 title = "Above the Bright Blue"
-subtitle = ""
-phrase_breaks = ["3:40", "5:40", "7:40", "9:40", "11:48", "13:48", "15:48"]
 copyrights = [
   "Lyrics and Music: Charles Edward Pollock, 1903 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
@@ -10,6 +8,8 @@ time_sig_numerator = 6
 time_sig_denominator = 8
 tempo_bpm = 85
 verse_count = 4
+phrase_breaks = ["3:40", "5:40", "7:40", "9:40", "11:48", "13:48", "15:48"]
+commentary = "<p>This song may contain an archaic meaning of word \"mansion\" or reflect a misunderstanding of its translation. See <a href=\\\"/blog/20261022-mansions-and-dwellings\\\">From Mansions to Dwellings</a>.</p>"
 
 [parts.Soprano]
 choral_type = "soprano"

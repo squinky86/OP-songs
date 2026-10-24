@@ -1,5 +1,4 @@
 title = "Follow On"
-subtitle = ""
 copyrights = [
   "Lyrics: Mrs. E. Greer Floyd, adapted by F. L. Eiland, 1899 (public domain)",
   "Music: Jas. B. Franklin, 1899 (public domain)",
@@ -13,6 +12,7 @@ verse_count = 4
 phrase_breaks = ["5:48", "9:48", "13:48"]
 optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
 non_breaking_phrase_breaks = ["10:64", "12:64"]
+commentary = "<p>This song may contain an archaic meaning of word \"mansion\" or reflect a misunderstanding of its translation. See <a href=\\\"/blog/20261022-mansions-and-dwellings\\\">From Mansions to Dwellings</a>.</p>"
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -25,9 +25,6 @@ ees'2. bes'4@c | ees''4 ees''4 ees''4 f''4 | ees''2. bes'4 | c''4 ees''4 ees''4 
 bes'2. bes'4 | ees''4 ees''4 bes'4 g'4 | bes'4 c''4 bes'4 ees'4 | g'4 g'4 ees'4 f'4 |
 ees'2. s4
 """
-
-[parts.Soprano.lyrics.chorus]
-text = "O, will you fol -- low, on? O, will you fol -- low, on? O, will you fol -- low where He leads? O, will you fol -- low on?"
 
 [parts.Alto]
 choral_type = "alto"
@@ -79,3 +76,6 @@ text = "All glo -- ry to His pre -- cious name; Who gave His life for me; His gr
 
 [lyrics.chorus]
 text = "O, will you fol -- low, fol -- low on? O, will you fol -- low, fol -- low on? O, will you fol -- low where He leads? O, will you fol -- low on?"
+
+[parts.Soprano.lyrics.chorus]
+text = "O, will you fol -- low, on? O, will you fol -- low, on? O, will you fol -- low where He leads? O, will you fol -- low on?"

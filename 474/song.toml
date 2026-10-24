@@ -11,6 +11,7 @@ verse_count = 3
 phrase_breaks = ["5:24", "9:24", "13:24", "17:32", "21:32", "25:32", "29:32"]
 optional_phrase_breaks = ["3:24", "7:24", "11:24"]
 non_breaking_phrase_breaks = ["19:32", "23:32", "26:32", "27:16", "27:32"]
+commentary = "<p>This song may contain an archaic meaning of word \"mansion\" or reflect a misunderstanding of its translation. See <a href=\\\"/blog/20261022-mansions-and-dwellings\\\">From Mansions to Dwellings</a>.</p>"
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -42,9 +43,6 @@ ees'8 aes'4. | ees'8 c'8 c'8 c'8 | des'8 des'8 des'8. des'16 | c'4. r8 |
 des'8 c'8 des'8 c'8 | des'8 c'4. | ees'4 des'4 | c'4. r8
 """
 
-[parts.Alto.lyrics.chorus]
-text = "Sun -- light, bless -- ed sun -- light, ev -- er on my path doth shine, Bring -- ing peace and joy and glad -- ness to this heart of mine; Sun -- light, sun -- light it is shin -- ing ev -- 'ry day, Je -- sus is my sun -- light all the way."
-
 [parts.Tenor]
 choral_type = "tenor"
 clef = "bass"
@@ -59,9 +57,6 @@ aes8 c'8 c'8 c'8 | aes8 ees8 ees8 ees8 | aes8 f8 f8. aes16 | g4. r8 |
 aes8 c'8 c'8 c'8 | aes8 ees8 ees8 ees8 | f8 f8 f8. aes16 | aes4. r8 |
 aes8 aes8 aes8 aes8 | aes8 ees4. | aes4 ees4 | ees4. r8
 """
-
-[parts.Tenor.lyrics.chorus]
-text = "Sun -- light, bless -- ed sun -- light, ev -- er on my path doth shine, Bring -- ing peace and joy and glad -- ness to this heart of mine; Sun -- light, bless -- ed sun -- light it is shin -- ing ev -- 'ry day, Je -- sus is my sun -- light all the way."
 
 [parts.Bass]
 choral_type = "bass"
@@ -89,3 +84,9 @@ text = "Come out from sin, let's walk with -- in This glo -- rious light di -- v
 
 [lyrics.chorus]
 text = "Sun -- light, sun -- light on my path doth shine, Bring -- ing glad -- ness to this heart of mine; Sun -- light, sun -- light shin -- ing ev -- 'ry day, Je -- sus is my sun -- light all the way."
+
+[parts.Alto.lyrics.chorus]
+text = "Sun -- light, bless -- ed sun -- light, ev -- er on my path doth shine, Bring -- ing peace and joy and glad -- ness to this heart of mine; Sun -- light, sun -- light it is shin -- ing ev -- 'ry day, Je -- sus is my sun -- light all the way."
+
+[parts.Tenor.lyrics.chorus]
+text = "Sun -- light, bless -- ed sun -- light, ev -- er on my path doth shine, Bring -- ing peace and joy and glad -- ness to this heart of mine; Sun -- light, bless -- ed sun -- light it is shin -- ing ev -- 'ry day, Je -- sus is my sun -- light all the way."

@@ -7,11 +7,10 @@ key_signature = "C"
 time_sig_numerator = 6
 time_sig_denominator = 8
 tempo_bpm = 100
-verse_count = 4
-default_verses = [1, 2, 3]
+verse_count = 3
 phrase_breaks = ["4:48", "8:48", "12:48", "16:48", "20:48"]
 optional_phrase_breaks = ["2:48", "6:48", "10:48", "14:48", "18:48", "22:48"]
-commentary = "<p>Verse 3 has updated lyrics to reflect a more accurate Bible translation, replacing “mansions” with “dwellings”; see <a href=\"/blog/20261022-mansions-and-dwellings\">From Mansions to Dwellings</a>.</p>"
+commentary = "<p>This song may contain an archaic meaning of word \"mansion\" or reflect a misunderstanding of its translation. See <a href=\\\"/blog/20261022-mansions-and-dwellings\\\">From Mansions to Dwellings</a>.</p>"
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -68,21 +67,12 @@ text = "Though you are far a -- way; Still He doth call to -- day; Call -- ing f
 text = "Though you are far a -- way; Still He doth call to -- day; Call -- ing from Cal -- va -- ry’s moun -- tain, Down from the crys -- tal bright foun -- tain, E’en from the dawn of cre -- a -- tion, Won -- der -- ful sto -- ry of love."
 
 [lyrics.3]
-text = "Won -- der -- ful sto -- ry of love; Je -- sus pro -- vides a rest; Won -- der -- ful sto -- ry of love; For all the pure and blest, Rest in those dwell -- ings a -- bove us, With those who’ve gone on be -- fore us, Sing -- ing the rap -- tur -- ous cho -- rus, Won -- der -- ful sto -- ry of love."
-
-[parts.Tenor.lyrics.3]
-text = "Je -- sus pro -- vides a rest; For all the pure and blest, Rest in those dwell -- ings a -- bove us, With those who’ve gone on be -- fore us, Sing -- ing the rap -- tur -- ous cho -- rus, Won -- der -- ful sto -- ry of love."
-
-[parts.Bass.lyrics.3]
-text = "Je -- sus pro -- vides a rest; For all the pure and blest, Rest in those dwell -- ings a -- bove us, With those who’ve gone on be -- fore us, Sing -- ing the rap -- tur -- ous cho -- rus, Won -- der -- ful sto -- ry of love."
-
-[lyrics.4]
 text = "Won -- der -- ful sto -- ry of love; Je -- sus pro -- vides a rest; Won -- der -- ful sto -- ry of love; For all the pure and blest, Rest in those man -- sions a -- bove us, With those who’ve gone on be -- fore us, Sing -- ing the rap -- tur -- ous cho -- rus, Won -- der -- ful sto -- ry of love."
 
-[parts.Tenor.lyrics.4]
+[parts.Tenor.lyrics.3]
 text = "Je -- sus pro -- vides a rest; For all the pure and blest, Rest in those man -- sions a -- bove us, With those who’ve gone on be -- fore us, Sing -- ing the rap -- tur -- ous cho -- rus, Won -- der -- ful sto -- ry of love."
 
-[parts.Bass.lyrics.4]
+[parts.Bass.lyrics.3]
 text = "Je -- sus pro -- vides a rest; For all the pure and blest, Rest in those man -- sions a -- bove us, With those who’ve gone on be -- fore us, Sing -- ing the rap -- tur -- ous cho -- rus, Won -- der -- ful sto -- ry of love."
 
 [lyrics.chorus]

@@ -12,6 +12,7 @@ verse_count = 4
 phrase_breaks = ["5:40", "9:48", "13:48", "17:48", "21:48"]
 optional_phrase_breaks = ["3:40", "7:40", "11:48", "15:40", "19:48", "23:40"]
 non_breaking_phrase_breaks = ["17:8"]
+commentary = "<p>This song may contain an archaic meaning of word \"mansion\" or reflect a misunderstanding of its translation. See <a href=\\\"/blog/20261022-mansions-and-dwellings\\\">From Mansions to Dwellings</a>.</p>"
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -39,9 +40,6 @@ f'8 g'8 a'8 bes'8 a'8 g'8 | f'8 ees'8 d'8 f'4 r8 | ees'8 f'8 g'8 a'8 g'8 f'8 | e
 d'8 ees'8 f'8 g'8 f'8 ees'8 | d'8 f'8 g'8 f'4 d'8 | f'4. ees'4. | d'4.~ d'4 s8
 """
 
-[parts.Alto.lyrics.chorus]
-text = "Won -- der -- ful, won -- der -- ful, won -- der -- ful love, Won -- der -- ful, won -- der -- ful, won -- der -- ful love, O it was won -- der -- ful, won -- der -- ful love, My Sav -- iour had for me. Won -- der -- ful, won -- der -- ful, won -- der -- ful love, Won -- der -- ful, won -- der -- ful, won -- der -- ful love, O it was won -- der -- ful, won -- der -- ful love, 'Twas love found me."
-
 [parts.Tenor]
 choral_type = "tenor"
 clef = "bass"
@@ -55,9 +53,6 @@ bes8 a8 g8 f8 g8 a8 | bes8 bes8 bes8 bes4 r8 | a4. a4. | a8 bes8 a8 a4 r8 |
 bes4. bes4. | bes8 bes8 bes8 bes4 bes8 | bes4. a4. | f4.~ f4 s8
 """
 
-[parts.Tenor.lyrics.chorus]
-text = "Won -- der -- ful, won -- der -- ful, won -- der -- ful love, O such won -- der -- ful love, O such won -- der -- ful love, My Sav -- iour had for me. it was won -- der -- ful Won -- der -- ful, won -- der -- ful, won -- der -- ful love, O such won -- der -- ful love, O such won -- der -- ful love, 'Twas love found me."
-
 [parts.Bass]
 choral_type = "bass"
 clef = "bass"
@@ -70,9 +65,6 @@ g4. g4. | g8 d8 ees8 bes,4 d8 | c4 c8 c4 g8 | f8 g8 f8 ees8 d8 c8 |
 bes,4. bes,4. | bes,8 bes,8 bes,8 d4 r8 | f4. f4. | f8 f8 f8 f4 r8 |
 g4. g4. | g8 d8 ees8 bes,4 bes8 | bes4. f4. | bes,4.~ bes,4 s8
 """
-
-[parts.Bass.lyrics.chorus]
-text = "O such won -- der -- ful love, O such won -- der -- ful love, O such won -- der -- ful love, My Sav -- iour had for me. it was won -- der -- ful O such won -- der -- ful love, O such won -- der -- ful love, O such won -- der -- ful love, 'Twas love found me."
 
 [lyrics.1]
 text = "When Je -- sus died up -- on the cross He pur -- chased re -- demp -- tion free; When from His side the life- -- blood flowed, He of -- fered His life for me."
@@ -88,3 +80,12 @@ text = "When I have reached my man -- sion fair In that bless -- ed land a -- bo
 
 [lyrics.chorus]
 text = "O such won -- der -- ful love, O such won -- der -- ful love, O such won -- der -- ful love, My Sav -- iour had for me. O such won -- der -- ful love, O such won -- der -- ful love, O such won -- der -- ful love, 'Twas love found me."
+
+[parts.Alto.lyrics.chorus]
+text = "Won -- der -- ful, won -- der -- ful, won -- der -- ful love, Won -- der -- ful, won -- der -- ful, won -- der -- ful love, O it was won -- der -- ful, won -- der -- ful love, My Sav -- iour had for me. Won -- der -- ful, won -- der -- ful, won -- der -- ful love, Won -- der -- ful, won -- der -- ful, won -- der -- ful love, O it was won -- der -- ful, won -- der -- ful love, 'Twas love found me."
+
+[parts.Tenor.lyrics.chorus]
+text = "Won -- der -- ful, won -- der -- ful, won -- der -- ful love, O such won -- der -- ful love, O such won -- der -- ful love, My Sav -- iour had for me. it was won -- der -- ful Won -- der -- ful, won -- der -- ful, won -- der -- ful love, O such won -- der -- ful love, O such won -- der -- ful love, 'Twas love found me."
+
+[parts.Bass.lyrics.chorus]
+text = "O such won -- der -- ful love, O such won -- der -- ful love, O such won -- der -- ful love, My Sav -- iour had for me. it was won -- der -- ful O such won -- der -- ful love, O such won -- der -- ful love, O such won -- der -- ful love, 'Twas love found me."

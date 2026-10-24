@@ -9,12 +9,11 @@ key_signature = "C"
 time_sig_numerator = 4
 time_sig_denominator = 4
 tempo_bpm = 107
-verse_count = 4
-default_verses = [1, 2, 3]
+verse_count = 3
 phrase_breaks = ["5:48", "9:48", "13:48"]
 optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
 non_breaking_phrase_breaks = ["10:0", "10:16", "10:48", "11:16", "13:16", "14:0", "14:16", "14:48", "15:16"]
-commentary = "<p>Verse 3 has updated lyrics to reflect a more accurate Bible translation, replacing “mansions” with “dwellings”; see <a href=\"/blog/20261022-mansions-and-dwellings\">From Mansions to Dwellings</a>.</p>"
+commentary = "<p>This song may contain an archaic meaning of word \"mansion\" or reflect a misunderstanding of its translation. See <a href=\\\"/blog/20261022-mansions-and-dwellings\\\">From Mansions to Dwellings</a>.</p>"
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -55,9 +54,6 @@ text = "In the de -- sert of sor -- row and sin, Lo! I faint as I jour -- ney a 
 text = "In my weak -- ness I turn to the fount, From the Rock that was smit -- ten for me; And I drink, and I joy -- ful -- ly count All my tri -- als a bless -- ing to be."
 
 [lyrics.3]
-text = "O Thou God of com -- pas -- sion, I pray, Let me ev -- er a -- bide in Thy sight; Let me drink of the fount day by day, Till I join Thee in dwell -- ings of light."
-
-[lyrics.4]
 text = "O Thou God of com -- pas -- sion, I pray, Let me ev -- er a -- bide in Thy sight; Let me drink of the fount day by day, Till I join Thee in man -- sions of light."
 
 [lyrics.chorus]

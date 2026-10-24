@@ -1,17 +1,18 @@
 title = "When My Life With the Tide Goes Out"
-verse_count = 3
-key_signature = "Ab"
-time_sig_numerator = 4
-time_sig_denominator = 4
-tempo_bpm = 94
-phrase_breaks = ["2:64", "4:64", "6:64", "8:48", "12:48", "14:48"]
 copyrights = [
   "Lyrics: Jno. R. Clements, 1929 (public domain)",
   "Music: B. D. Ackley, 1929 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 94
+verse_count = 3
+phrase_breaks = ["2:64", "4:64", "6:64", "8:48", "12:48", "14:48"]
 optional_phrase_breaks = ["10:48"]
 non_breaking_phrase_breaks = ["10:16", "12:16", "15:16", "16:16"]
+commentary = "<p>This song may contain an archaic meaning of word \"mansion\" or reflect a misunderstanding of its translation. See <a href=\\\"/blog/20261022-mansions-and-dwellings\\\">From Mansions to Dwellings</a>.</p>"
 
 [parts.Soprano]
 choral_type = "soprano"

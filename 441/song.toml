@@ -13,6 +13,7 @@ tempo_bpm = 103
 verse_count = 3
 phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "11:48", "13:48", "15:48"]
 non_breaking_phrase_breaks = ["13:16", "16:16"]
+commentary = "<p>This song may contain an archaic meaning of word \"mansion\" or reflect a misunderstanding of its translation. See <a href=\\\"/blog/20261022-mansions-and-dwellings\\\">From Mansions to Dwellings</a>.</p>"
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -62,9 +63,6 @@ c'4 ees'8 ees'8 des'4 des'8 ees'8 |
 c'4 ees'8 des'8 c'4 s4
 """
 
-[parts.Alto.lyrics.chorus]
-text = "Will there be an -- y stars, an -- y stars in my crown When at eve -- ning the sun go -- eth down? go -- eth down? When I wake with the blest in the man -- sions of rest Will there be an -- y stars an -- y stars in my crown?"
-
 [parts.Tenor]
 choral_type = "tenor"
 clef = "bass"
@@ -88,9 +86,6 @@ aes4 aes8 aes8 des'4 aes8 aes8 |
 aes4 c'8 c'8 bes4 g8 g8 |
 aes4 g8 f8 ees4 s4
 """
-
-[parts.Tenor.lyrics.chorus]
-text = "Will there be an -- y stars, an -- y stars in my crown When at eve -- ning the sun go -- eth down? go -- eth down? When I wake with the blest in the man -- sions of rest Will there be an -- y stars an -- y stars in my crown?"
 
 [parts.Bass]
 choral_type = "bass"
@@ -116,9 +111,6 @@ ees4 ees8 ees8 ees4 ees8 ees8 |
 aes,2. s4
 """
 
-[parts.Bass.lyrics.chorus]
-text = "Will there be an -- y stars, an -- y stars in my crown When at eve -- ning the sun go -- eth down? go -- eth down? When I wake with the blest in the man -- sions of rest Will there be an -- y stars in my crown?"
-
 [lyrics.1]
 text = "I am think -- ing to -- day of that beau -- ti -- ful land I shall reach when the sun go -- eth down; When through won -- der -- ful grace by my Sav -- ior I stand, Will there be an -- y stars in my crown?"
 
@@ -130,3 +122,12 @@ text = "O what joy it will be when His face I be -- hold, Liv -- ing gems at His
 
 [lyrics.chorus]
 text = "Will there be an -- y stars, an -- y stars in my crown When at eve -- ning the sun go -- eth down? When I wake with the blest in the man -- sions of rest Will there be an -- y stars in my crown?"
+
+[parts.Alto.lyrics.chorus]
+text = "Will there be an -- y stars, an -- y stars in my crown When at eve -- ning the sun go -- eth down? go -- eth down? When I wake with the blest in the man -- sions of rest Will there be an -- y stars an -- y stars in my crown?"
+
+[parts.Tenor.lyrics.chorus]
+text = "Will there be an -- y stars, an -- y stars in my crown When at eve -- ning the sun go -- eth down? go -- eth down? When I wake with the blest in the man -- sions of rest Will there be an -- y stars an -- y stars in my crown?"
+
+[parts.Bass.lyrics.chorus]
+text = "Will there be an -- y stars, an -- y stars in my crown When at eve -- ning the sun go -- eth down? go -- eth down? When I wake with the blest in the man -- sions of rest Will there be an -- y stars in my crown?"

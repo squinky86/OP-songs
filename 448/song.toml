@@ -1,18 +1,19 @@
 title = "Lord, I Care Not for Riches"
 subtitle = "Is My Name Written There?"
-verse_count = 3
-key_signature = "Ab"
-time_sig_numerator = 3
-time_sig_denominator = 4
-tempo_bpm = 110
-phrase_breaks = ["5:32", "9:32", "13:32", "17:32", "21:32"]
-optional_phrase_breaks = ["3:32", "7:32", "11:32", "15:32", "19:32", "23:32"]
 copyrights = [
   "Lyrics: Mary Ann Kidder, 1876 (public domain)",
   "Music: Frank Marion Davis, 1876 (public domain)",
   "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "Ab"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 110
+verse_count = 3
+phrase_breaks = ["5:32", "9:32", "13:32", "17:32", "21:32"]
+optional_phrase_breaks = ["3:32", "7:32", "11:32", "15:32", "19:32", "23:32"]
+commentary = "<p>This song may contain an archaic meaning of word \"mansion\" or reflect a misunderstanding of its translation. See <a href=\\\"/blog/20261022-mansions-and-dwellings\\\">From Mansions to Dwellings</a>.</p>"
 
 [parts.Soprano]
 choral_type = "soprano"

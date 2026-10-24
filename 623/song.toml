@@ -13,6 +13,7 @@ phrase_breaks = ["3:48", "6:48", "9:48", "11:48", "13:48", "15:48"]
 optional_phrase_breaks = ["2:48", "5:48", "7:48"]
 non_breaking_phrase_breaks = ["8:48", "16:48"]
 optional_break_threshold_ticks = 148
+commentary = "<p>This song may contain an archaic meaning of word \"mansion\" or reflect a misunderstanding of its translation. See <a href=\\\"/blog/20261022-mansions-and-dwellings\\\">From Mansions to Dwellings</a>.\n<p>This song may contain a consummational view of Revelation 21 rather than an ecclesiastical view.</p>"
 
 [parts.Soprano]
 choral_type = "soprano"

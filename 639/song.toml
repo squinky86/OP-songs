@@ -67,49 +67,37 @@ s2 s8 r8 r4 | r8 g8 g8. g16 g8 r8 r4 | r8 e8 d8. b,16 g,8 r8 r4 | r8 g8 g8. g16 
 """
 
 [lyrics.1]
+text = "Some mor -- ning fair, my Lord will call And I shall cease to wait; shall cease to wait; But haste to meet the Lord of All In -- side His pal -- ace gate. His pal -- ace gate."
+
+[parts.Soprano.lyrics.1]
 text = "Some mor -- ning fair, my Lord will call And I shall cease to wait; But haste to meet the Lord of All In -- side His pal -- ace gate."
-
-[parts.Alto.lyrics.1]
-text = "Some mor -- ning fair, my Lord will call And I shall cease to wait; shall cease to wait; But haste to meet the Lord of All In -- side His pal -- ace gate. His pal -- ace gate."
-
-[parts.Tenor.lyrics.1]
-text = "Some mor -- ning fair, my Lord will call And I shall cease to wait; shall cease to wait; But haste to meet the Lord of All In -- side His pal -- ace gate. His pal -- ace gate."
 
 [parts.Bass.lyrics.1]
 text = "Some mor -- ning fair, my Lord will call And I shall cease to wait; shall cease to wait; But haste to meet the Lord of All In -- side His pal -- ace gate."
 
 [lyrics.2]
+text = "Some glad -- some dawn, my house of clay No more my home will be; my home will be; For I shall end the pil -- grim way And His dear face shall see. dear face shall see."
+
+[parts.Soprano.lyrics.2]
 text = "Some glad -- some dawn, my house of clay No more my home will be; For I shall end the pil -- grim way And His dear face shall see."
-
-[parts.Alto.lyrics.2]
-text = "Some glad -- some dawn, my house of clay No more my home will be; my home will be; For I shall end the pil -- grim way And His dear face shall see. dear face shall see."
-
-[parts.Tenor.lyrics.2]
-text = "Some glad -- some dawn, my house of clay No more my home will be; my home will be; For I shall end the pil -- grim way And His dear face shall see. dear face shall see."
 
 [parts.Bass.lyrics.2]
 text = "Some glad -- some dawn, my house of clay No more my home will be; my home will be; For I shall end the pil -- grim way And His dear face shall see."
 
 [lyrics.3]
+text = "Some day -- break sweet, my trem -- bling hand The King in His will hold; in His will hold; And wel -- come me to that glad land Be -- yond the gates of gold! the gates of gold!"
+
+[parts.Soprano.lyrics.3]
 text = "Some day -- break sweet, my trem -- bling hand The King in His will hold; And wel -- come me to that glad land Be -- yond the gates of gold!"
-
-[parts.Alto.lyrics.3]
-text = "Some day -- break sweet, my trem -- bling hand The King in His will hold; in His will hold; And wel -- come me to that glad land Be -- yond the gates of gold! the gates of gold!"
-
-[parts.Tenor.lyrics.3]
-text = "Some day -- break sweet, my trem -- bling hand The King in His will hold; in His will hold; And wel -- come me to that glad land Be -- yond the gates of gold! the gates of gold!"
 
 [parts.Bass.lyrics.3]
 text = "Some day -- break sweet, my trem -- bling hand The King in His will hold; in His will hold; And wel -- come me to that glad land Be -- yond the gates of gold!"
 
 [lyrics.4]
+text = "Some hap -- py time it can’t be long, My la -- bor will be done; yes, will be done; And I shall sing the vic -- t’ry song And wear the crown I’ve won. the crown I’ve won."
+
+[parts.Soprano.lyrics.4]
 text = "Some hap -- py time it can’t be long, My la -- bor will be done; And I shall sing the vic -- t’ry song And wear the crown I’ve won."
-
-[parts.Alto.lyrics.4]
-text = "Some hap -- py time it can’t be long, My la -- bor will be done; yes, will be done; And I shall sing the vic -- t’ry song And wear the crown I’ve won. the crown I’ve won."
-
-[parts.Tenor.lyrics.4]
-text = "Some hap -- py time it can’t be long, My la -- bor will be done; yes, will be done; And I shall sing the vic -- t’ry song And wear the crown I’ve won. the crown I’ve won."
 
 [parts.Bass.lyrics.4]
 text = "Some hap -- py time it can’t be long, My la -- bor will be done; yes, will be done; And I shall sing the vic -- t’ry song And wear the crown I’ve won."

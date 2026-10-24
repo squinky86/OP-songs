@@ -12,6 +12,7 @@ verse_count = 4
 phrase_breaks = ["5:48", "9:48", "13:48"]
 optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
 non_breaking_phrase_breaks = ["17:16"]
+commentary = "<p>This song may contain an archaic meaning of word \"mansion\" or reflect a misunderstanding of its translation. See <a href=\\\"/blog/20261022-mansions-and-dwellings\\\">From Mansions to Dwellings</a>.</p>"
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -37,9 +38,6 @@ e'2. f'8. f'16 | f'4 bes'4 a'4 f'8. f'16 | f'4 f'4 f'4 f'8. f'16 | f'4. f'8 f'4 
 f'4 d'4 c'4 s4
 """
 
-[parts.Alto.lyrics.chorus]
-text = "When the sum -- mons comes in the last great day, And the Lord shall bid us come; May we rise to sing of His love su -- preme, In that joy e -- ter -- nal home. sweet home."
-
 [parts.Tenor]
 choral_type = "tenor"
 clef = "bass"
@@ -51,9 +49,6 @@ c'4( a4 bes4) a8.@c a16 | c'4 bes4 a4 a8. bes16 | c'4 bes4 a4 d'8. d'16 | c'4 c'
 g2. a8. a16 | c'4 c'4 c'4 c'8. d'16 | a4 a4 a4 bes8. bes16 | a4. c'8 c'4 bes4 |
 a4 bes4 a4 s4
 """
-
-[parts.Tenor.lyrics.chorus]
-text = "When the sum -- mons comes in the last great day, And the Lord shall bid us come; May we rise to sing of His love su -- preme, In that joy e -- ter -- nal home. sweet home."
 
 [parts.Bass]
 choral_type = "bass"
@@ -81,3 +76,9 @@ text = "We are wait -- ing now for the call to come, When our joy shall be com -
 
 [lyrics.chorus]
 text = "When the sum -- mons comes in the last great day, And the Lord shall bid us come; May we rise to sing of His love su -- preme, In that joy e -- ter -- nal home."
+
+[parts.Alto.lyrics.chorus]
+text = "When the sum -- mons comes in the last great day, And the Lord shall bid us come; May we rise to sing of His love su -- preme, In that joy e -- ter -- nal home. sweet home."
+
+[parts.Tenor.lyrics.chorus]
+text = "When the sum -- mons comes in the last great day, And the Lord shall bid us come; May we rise to sing of His love su -- preme, In that joy e -- ter -- nal home. sweet home."

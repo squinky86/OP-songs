@@ -1,17 +1,17 @@
 title = "My Jesus, I Love Thee"
-subtitle = ""
-verse_count = 4
-key_signature = "F"
-time_sig_numerator = 4
-time_sig_denominator = 4
-tempo_bpm = 92
-phrase_breaks = ["5:48", "9:48", "13:48"]
-optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
 copyrights = [
   "Lyrics: William R. Featherston, 1862 (public domain)",
   "Music: 'Gordon' by Adoniram J. Gordon, 1876 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "F"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 92
+verse_count = 4
+phrase_breaks = ["5:48", "9:48", "13:48"]
+optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
+commentary = "<p>This song may contain an archaic meaning of word \"mansion\" or reflect a misunderstanding of its translation. See <a href=\\\"/blog/20261022-mansions-and-dwellings\\\">From Mansions to Dwellings</a>.</p>"
 
 [parts.Soprano]
 choral_type = "soprano"

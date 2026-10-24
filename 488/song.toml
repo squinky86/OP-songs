@@ -1,17 +1,18 @@
 title = "When We All Get to Heaven"
-verse_count = 4
-key_signature = "C"
-time_sig_numerator = 4
-time_sig_denominator = 4
-tempo_bpm = 100
-phrase_breaks = ["4:64", "8:48", "12:48"]
-optional_phrase_breaks = ["2:64", "6:64", "10:48", "14:48"]
-non_breaking_phrase_breaks = ["7:44", "9:48", "15:44"]
 copyrights = [
   "Lyrics: Eliza Edmunds Stites Hewitt, 1898 (public domain)",
   "Music: Emily Divine Wilson, 1898 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "C"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 4
+phrase_breaks = ["4:64", "8:48", "12:48"]
+optional_phrase_breaks = ["2:64", "6:64", "10:48", "14:48"]
+non_breaking_phrase_breaks = ["7:44", "9:48", "15:44"]
+commentary = "<p>This song may contain an archaic meaning of word \"mansion\" or reflect a misunderstanding of its translation. See <a href=\\\"/blog/20261022-mansions-and-dwellings\\\">From Mansions to Dwellings</a>.</p>"
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -23,9 +24,6 @@ g'4 c''4 c''4 g'4 | a'4 c''4 c''4 a'4 | g'4 c''4 c''8. b'16 a'8. b'16 | c''2. e'
 c''2. b'8. a'16 | g'2 e'4 g'8. g'16 | c''4 c''8. c''16 c''8. c''16 b'8. c''16 | d''2. g'8. c''16 |
 e''2. c''4 | c''2 a'4 a'4 | g'4 c''4 c''8. b'16 a'8. b'16 | c''1
 """
-
-[parts.Soprano.lyrics.chorus]
-text = "When we all get to Hea -- ven, What a day of re -- joic -- ing that will be! When we all see Je -- sus, We’ll sing and shout the vic -- to -- ry!"
 
 [parts.Alto]
 choral_type = "alto"
@@ -80,3 +78,6 @@ text = "On -- ward to the prize be -- fore us! Soon His beau -- ty we’ll be --
 
 [lyrics.chorus]
 text = "When we all get to Hea -- ven, What a day of re -- joic -- ing that will be! When we all see Je -- sus, We’ll sing and shout and shout the vic -- to -- ry!"
+
+[parts.Soprano.lyrics.chorus]
+text = "When we all get to Hea -- ven, What a day of re -- joic -- ing that will be! When we all see Je -- sus, We’ll sing and shout the vic -- to -- ry!"

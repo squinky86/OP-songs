@@ -12,6 +12,7 @@ verse_count = 3
 phrase_breaks = ["3:48", "5:48", "9:48", "13:48"]
 optional_phrase_breaks = ["7:48", "11:48", "15:48"]
 non_breaking_phrase_breaks = ["9:64", "10:48", "10:64", "13:64", "14:48", "14:64"]
+commentary = "<p>This song may contain an archaic meaning of word \"mansion\" or reflect a misunderstanding of its translation. See <a href=\\\"/blog/20261022-mansions-and-dwellings\\\">From Mansions to Dwellings</a>.</p>"
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -43,9 +44,6 @@ d'8. d'16 ees'4 d'4 f'8. f'16 | f'8. f'16 g'4 f'4 d'8. d'16 |
 f'4 f'4 ees'4. ees'8 | d'2. s4
 """
 
-[parts.Alto.lyrics.chorus]
-text = "There is bless -- ed sun -- light, there is glo -- rious sun -- light, There is sun -- light in His love; There is bless -- ed sun -- light, there is glo -- rious sun -- light, There is sun -- light in His love."
-
 [parts.Tenor]
 choral_type = "tenor"
 clef = "bass"
@@ -60,9 +58,6 @@ bes4 ees'4 ees'4 bes4 | bes2. bes8. bes16 |
 f8. f16 g4 f4 d'8. d'16 | bes8. bes16 bes4 bes4 bes8. bes16 |
 bes4 bes4 a4. f8 | f2. s4
 """
-
-[parts.Tenor.lyrics.chorus]
-text = "There is bless -- ed sun -- light, there is glo -- rious sun -- light, There is sun -- light in His love; There is bless -- ed sun -- light, there is glo -- rious sun -- light, There is sun -- light in His love."
 
 [parts.Bass]
 choral_type = "bass"
@@ -79,9 +74,6 @@ bes,8. bes,16 bes,4 bes,4 bes8. bes16 | bes8. bes16 g4 bes4 bes8. bes16 |
 bes4 bes4 f4. f8 | bes,2. s4
 """
 
-[parts.Bass.lyrics.chorus]
-text = "There is bless -- ed sun -- light, there is glo -- rious sun -- light, There is sun -- light in His love; There is bless -- ed sun -- light, there is glo -- rious sun -- light, There is sun -- light in His love."
-
 [lyrics.1]
 text = "There is sun -- light in the bless -- ed Sav -- iour’s love, @s1 And ’tis shin -- ing on my path -- way from a -- bove, There is sun -- light in His love."
 
@@ -93,6 +85,15 @@ text = "When we reach those man -- sions on the oth -- er side, @s1 We will dwel
 
 [lyrics.chorus]
 text = "There is sun -- light, there is sun -- light, There is sun -- light in His love; There is sun -- light, there is sun -- light, There is sun -- light in His love."
+
+[parts.Alto.lyrics.chorus]
+text = "There is bless -- ed sun -- light, there is glo -- rious sun -- light, There is sun -- light in His love; There is bless -- ed sun -- light, there is glo -- rious sun -- light, There is sun -- light in His love."
+
+[parts.Tenor.lyrics.chorus]
+text = "There is bless -- ed sun -- light, there is glo -- rious sun -- light, There is sun -- light in His love; There is bless -- ed sun -- light, there is glo -- rious sun -- light, There is sun -- light in His love."
+
+[parts.Bass.lyrics.chorus]
+text = "There is bless -- ed sun -- light, there is glo -- rious sun -- light, There is sun -- light in His love; There is bless -- ed sun -- light, there is glo -- rious sun -- light, There is sun -- light in His love."
 
 [lyrics.s1]
 text = "There is sun -- light, there is sun -- light,"

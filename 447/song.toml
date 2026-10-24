@@ -13,6 +13,7 @@ tempo_bpm = 118
 verse_count = 3
 phrase_breaks = ["4:64", "8:64", "12:64", "16:64"]
 optional_phrase_breaks = ["2:64", "6:64", "10:64", "14:64"]
+commentary = "<p>This song may contain an archaic meaning of word \"mansion\" or reflect a misunderstanding of its translation. See <a href=\\\"/blog/20261022-mansions-and-dwellings\\\">From Mansions to Dwellings</a>.</p>"
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -88,4 +89,4 @@ text = "Here our feet are oft -- en wea -- ry On the hills that throng our way; 
 text = "Here our souls are oft -- en fear -- ful Of the pil -- grim’s lurk -- ing foe; But the Lord is our De -- fend -- er, And He tells us we may know:"
 
 [lyrics.chorus]
-text = "Yon -- der o -- ver the roll -- ing riv -- er, Where the shin -- ing man -- sions rise, Soon will be our home for ev -- er, And the smile of the bless -- èd Giv -- er Glad -- dens all our long -- ing eyes."
+text = "Yon -- der o -- ver the roll -- ing riv -- er, Where the shin -- ing man -- sions rise, Soon will be our home for ev -- er, And the smile of the bless -- ed Giv -- er Glad -- dens all our long -- ing eyes."

@@ -12,6 +12,7 @@ verse_count = 3
 phrase_breaks = ["3:48", "5:48", "9:48", "13:48"]
 optional_phrase_breaks = ["7:48", "11:48", "15:48"]
 non_breaking_phrase_breaks = ["4:16", "4:48", "11:16"]
+commentary = "<p>This song may contain an archaic meaning of word \"mansion\" or reflect a misunderstanding of its translation. See <a href=\\\"/blog/20261022-mansions-and-dwellings\\\">From Mansions to Dwellings</a>.</p>"
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -25,12 +26,6 @@ f'4 f'8 f'8 f'8 f'8 bes'4 | g'2. g'4 | c''4 c''8 c''8 c''8 bes'4 g'8 |
 f'2. f'8 f'8 | d''4 d''4 bes'8 bes'8 bes'8 c''8 | bes'4 g'4 f'4 d''8 ees''8 |
 d''8 d''4 bes'8 c''4 c''4 | bes'2. s4
 """
-
-[parts.Soprano.lyrics.chorus]
-text = "Oh; that will be glo -- ry for me, Oh, that will be glo -- ry for me, Just to see the lus -- ter of my Sav -- iour’s face, ’Twill be glo -- ry e -- nough for me."
-
-[parts.Soprano.lyrics.s1]
-text = "’Twill be glo -- ry, glo -- ry for me!"
 
 [parts.Alto]
 choral_type = "alto"
@@ -83,8 +78,14 @@ text = "Just to meet our loved ones who have crossed the tide, @s1 In those won 
 [lyrics.chorus]
 text = "Oh; that will be glo -- ry for me, for me, Oh, that will be glo -- ry for me, Just to see the lus -- ter of my Sav -- iour’s face, ’Twill be glo -- ry e -- nough for me."
 
+[parts.Soprano.lyrics.chorus]
+text = "Oh; that will be glo -- ry for me, Oh, that will be glo -- ry for me, Just to see the lus -- ter of my Sav -- iour’s face, ’Twill be glo -- ry e -- nough for me."
+
 [lyrics.s1]
 text = "’Twill be glo -- ry, glo -- ry, glo -- ry for me!"
+
+[parts.Soprano.lyrics.s1]
+text = "’Twill be glo -- ry, glo -- ry for me!"
 
 [lyrics.s2]
 text = "’Twill be glo -- ry e -- nough for me!"

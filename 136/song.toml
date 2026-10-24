@@ -11,6 +11,7 @@ tempo_bpm = 100
 verse_count = 4
 phrase_breaks = ["4:64", "8:48", "12:48"]
 optional_phrase_breaks = ["2:48", "6:48", "10:48", "14:48"]
+commentary = "<p>This song may contain an archaic meaning of word \"mansion\" or reflect a misunderstanding of its translation. See <a href=\\\"/blog/20261022-mansions-and-dwellings\\\">From Mansions to Dwellings</a>.</p>"
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -19,9 +20,6 @@ staff_number = 1
 notes = """
 f'4 f'4 a'4 a'4 | c''4 d''4 c''4 a'8. g'16 | f'4 f'4 g'4 g'4 | a'2. r4 | f'4 f'4 a'4 a'4 | c''4 d''4 c''4 a'8. g'16 | f'4 f'4 a'4 g'4 | f'2. a'8.@c c''16 | f''2. d''8. d''16 | c''2. a'4 | a'2. f'8. a'16 | c''2. a'8. c''16 | f''2. d''8. d''16 | c''2. f'4 | a'2. f'8. g'16 | f'2. r4
 """
-
-[parts.Soprano.lyrics.chorus]
-text = "Heed the call, bro -- ther dear, For work -- ers to -- day; Let your eyes see the need Of work -- ers to -- day."
 
 [parts.Alto]
 choral_type = "alto"
@@ -61,3 +59,6 @@ text = "Oh, for work -- ers strong and brave, Who will lift the ban -- ner high;
 
 [lyrics.chorus]
 text = "Heed the call, bro -- ther dear, heed the call, bro -- ther dear. For work -- ers, for work -- ers to -- day; Let your eyes see the need, let your eyes see the need Of work -- ers, work -- ers, to -- day."
+
+[parts.Soprano.lyrics.chorus]
+text = "Heed the call, bro -- ther dear, For work -- ers to -- day; Let your eyes see the need Of work -- ers to -- day."
