@@ -1,0 +1,93 @@
+title = "Jesus Walks with Me"
+copyrights = [
+  "Lyrics: John M. Henson, 1928 (public domain)",
+  "Music: Irby C. Edwards, 1928 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "A"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 3
+phrase_breaks = ["5:48", "9:48", "13:48"]
+optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
+non_breaking_phrase_breaks = ["8:16", "8:32", "11:16", "13:0", "16:16", "16:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. e'8 fis'8 | a'8 a'4 b'8 cis''4 a'4 | b'8 a'4 fis'8 e'4 e'4 | a'8 a'4 b'8 cis''4 a'4 |
+b'2. e'8 fis'8 | a'8 a'4 b'8 cis''4 a'4 | b'8 a'4 fis'8 e'4 a'8 b'8 | cis''8 cis''8 r4 cis''4 b'4 |
+a'2. cis''8@c d''8 | e''8 e''4 e''8 cis''4 a'4 | b'2. e'8 d'8 | a'8 a'4 b'8 cis''4 a'4 |
+b'2. cis''8 d''8 | e''8 e''4 e''8 cis''4 a'4 | b'8 a'4 fis'8 e'4 a'8 b'8 | cis''8 cis''8 r4 cis''4 b'4 |
+a'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+splice_lyrics_into = "soprano"
+notes = """
+s2. cis'8 d'8 | e'8 e'4 e'8 e'4 e'4 | fis'8 fis'4 d'8 cis'4 cis'4 | e'8 e'4 e'8 e'4 e'4
+| e'2. cis'8 d'8 | e'8 e'4 e'8 e'4 e'4 | fis'8 fis'4 d'8 cis'4 e'8 fis'8 | e'8 e'8 fis'8 e'8 a'4 gis'4
+| e'2. e'8@c e'8 | a'8 a'4 a'8 e'4 cis'4 | e'4 a'8 fis'8 e'4 cis'8 d'8 | e'8 e'4 e'8 e'4 e'4
+| e'8 dis'4 dis'8 e'4 e'8 e'8 | a'8 a'4 a'8 e'4 e'4 | fis'8 fis'4 d'8 cis'4 e'8 fis'8 | e'8 e'8 fis'8 e'8 a'4 gis'4
+| e'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. a8 a8 | cis'8 a4 gis8 a4 a4 | a8 a4 a8 a4 a4 | cis'8 a4 gis8 a4 a4
+| gis2. a8 a8 | cis'8 a4 gis8 a4 a4 | a8 a4 a8 a4 a8 a8 | a8 a8 r4 e'4 d'4
+| cis'2. a8@c b8 | cis'8 cis'4 cis'8 a4 a4 | a4 a8 a8 a4 a8 a8 | cis'8 a4 gis8 a4 a4
+| gis8 a4 a8 gis4 a8 b8 | cis'8 cis'4 cis'8 a4 a4 | a8 a4 a8 a4 a8 a8 | a8 a8 r4 e'4 d'4
+| cis'2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. a,8 a,8 | a,8 cis4 e8 a4 cis4 | d8 d4 d8 a,4 a,4 | a,8 cis4 e8 a4 cis4
+| e2. a,8 a,8 | a,8 cis4 e8 a4 cis4 | d8 d4 d8 a,4 cis8 d8 | e8 e8 r4 e4 e4
+| a,2. a8@c a8 | a8 a4 a8 a4 a4 | a4 e8 cis8 a,4 a,8 a,8 | a,8 cis4 e8 a4 cis4
+| e8 fis4 b,8 e4 a8 a8 | a8 a4 a8 a4 cis4 | d8 d4 d8 a,4 cis8 d8 | e8 e8 r4 e4 e4
+| a,2. s4
+"""
+
+[lyrics.1]
+text = "What a song of de -- light I sing day and night, Since Je -- sus has made me free; And what rap -- ture to know wher -- ev -- er I go, That my Sav -- ior walks with me."
+
+[parts.Alto.lyrics.1]
+text = "What a song of de -- light I sing day and night, Since Je -- sus has made me free; And what rap -- ture to know wher -- ev -- er I go, That my Sav -- ior (dai -- ly) walks with me."
+
+[lyrics.2]
+text = "Drear -- y oft is the road, and heav -- y the load, That dai -- ly I have to bear; But my Lord is a -- long to lend me a song, And to ban -- ish all my care."
+
+[parts.Alto.lyrics.2]
+text = "Drear -- y oft is the road, and heav -- y the load, That dai -- ly I have to bear; But my Lord is a -- long to lend me a song, And to ban -- ish (dai -- ly) all my care."
+
+[lyrics.3]
+text = "If I fol -- low Him here, He’ll wel -- come me there, Where an -- gels His name a -- dore; Sweet -- ly prais -- ing His love with dear ones a -- bove, I’ll ex -- tol Him ev -- er -- more."
+
+[parts.Alto.lyrics.3]
+text = "If I fol -- low Him here, He’ll wel -- come me there, Where an -- gels His name a -- dore; Sweet -- ly prais -- ing His love with dear ones a -- bove, I’ll ex -- tol Him (sweet -- ly) ev -- er -- more."
+
+[lyrics.chorus]
+text = "Yes, He walks with me ev -- ’ry day, And is help -- ing me on my way; He’s my song and my light by day and by night, Yes, my Sav -- ior walks with me."
+
+[parts.Alto.lyrics.chorus]
+text = "Yes, He walks with me ev -- ’ry day, ev -- ’ry day, And is help -- ing me on my heav -- en -- ly way; He’s my song and my light by day and by night, Yes, my Sav -- ior dai -- ly walks with me."
+
+[parts.Tenor.lyrics.chorus]
+text = "Yes, He walks with me ev -- ’ry day, ev -- ’ry day, And is help -- ing me on my heav -- en -- ly way; He’s my song and my light by day and by night, Yes, my Sav -- ior walks with me."
+
+[parts.Bass.lyrics.chorus]
+text = "Yes, He walks with me ev -- ’ry day, ev -- ’ry day, And is help -- ing me on my heav -- en -- ly way; He’s my song and my light by day and by night, Yes, my Sav -- ior walks with me."
