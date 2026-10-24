@@ -1,0 +1,127 @@
+title = "Inside the Gate"
+copyrights = [
+  "Lyrics: James Rowe, 1928 (public domain)",
+  "Music: James C. Moore, 1928 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 92
+verse_count = 4
+phrase_breaks = ["3:40", "5:40", "7:48", "9:40", "11:40", "13:40", "15:48"]
+non_breaking_phrase_breaks = ["5:8", "9:8", "13:12", "16:40", "17:8"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s8 d'8 g'8. b'16 | b'2~ b'8 b'8 g'8. e'16 | g'2~ g'8 g'8 b'8. d''16 | d''2~ d''4 b'4
+| g'2( a'8) g'8 b'8. d''16 | d''2~ d''8 b'8 g'8. e'16 | g'2~ g'4 g'4 | b'4. b'8 b'4 a'4
+| g'2~ g'8! r8@c r4 | r8 b'8 d''8. b'16 d''8 r8 r4 | r8 g'8 g'8. g'16 g'8 g'8 b'8. d''16 | d''2~ d''4 b'4
+| g'2( a'8) g'8 b'8. d''16 | d''2~ d''8 g'8 b'8. b'16 | g'2~ g'4 g'4 | b'2~ b'8 g'8 b'8. a'16
+| g'2~ g'8 s8 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+suppress_verses = [2, 3, 4]
+suppress_verses_when = ["soprano"]
+notes = """
+s2 s8 r8 r4 | r8 g'8 g'8. e'16 g'8 r8 r4 | r8 b8 d'8. e'16 d'8 r8 r4 | r8 g'8 b'8. a'16 g'4 g'4
+| fis'8 fis'8 e'8. e'16 fis'8 r8 r4 | r8 g'8 g'8. fis'16 g'8 r8 r4 | r8 e'8 d'8. e'16 d'4 e'4 | g'4. g'8 g'4 fis'4
+| g'8 d'8 e'8. e'16 d'8! g'8@c e'8. d'16 | g'2~ g'8 e'8 g'8. g'16 | d'8 b8 d'8. e'16 d'8 r8 r4 | r8 g'8 g'8. fis'16 g'4 g'4
+| fis'8. fis'16 g'8. g'16 fis'8 r8 r4 | r8 g'8 b'8. a'16 g'8 r8 r4 | r8 e'8 d'8. cis'16 e'8 r8 r4 | r4 g'4 g'8 d'8 g'8. fis'16
+| d'8 d'8 e'8. e'16 d'8 s8 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3, 4]
+suppress_verses_when = ["soprano", "alto"]
+notes = """
+s2 s8 r8 r4 | r8 d'8 d'8. cis'16 d'8 r8 r4 | r8 g8 b8. b16 b8 r8 r4 | r8 b8 d'8. c'16 b4 d'4
+| d'8 d'8 cis'8. cis'16 d'8 r8 r4 | r8 b8 b8. c'16 d'8 r8 r4 | r8 b8 b8. b16 b4 b4 | d'4. d'8 d'4 c'4
+| b8 b8 c'8. c'16 b8! r8@c r4 | r8 d'8 b8. d'16 b8 r8 r4 | r8 g8 b8. b16 b8 r8 r4 | r8 b8 d'8. c'16 b4 d'4
+| d'8. d'16 cis'8. cis'16 d'8 r8 r4 | r8 b8 d'8. c'16 b8 r8 r4 | r8 b8 b8. b16 b8 r8 r4 | r4 r4 r8 b8 d'8. c'16
+| b8 b8 c'8. c'16 b8 s8 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3, 4]
+suppress_verses_when = ["soprano", "alto", "tenor"]
+notes = """
+s2 s8 r8 r4 | r8 g8 g8. g16 g8 r8 r4 | r8 e8 d8. b,16 g,8 r8 r4 | r8 g8 g8. g16 g4 g4
+| d8 d8 a,8. a,16 d8 r8 r4 | r8 g8 g8. a16 b8 r8 r4 | r8 e8 g8. e16 g4 e4 | d4. d8 d4 d4
+| g,2~ g,8! r8@c r4 | r8 g8 g8. g16 g8 r8 r4 | r8 e8 d8. b,16 g,8 r8 r4 | r8 g8 b8. a16 g4 g4
+| d8. d16 a,8. a,16 d8 r8 r4 | r8 g8 g8. g16 g8 r8 r4 | r8 e8 g8. fis16 e8 r8 r4 | r4 r4 r8 g8 d8. d16
+| g2~ g8 s8 s4
+"""
+
+[lyrics.1]
+text = "Some mor -- ning fair, my Lord will call And I shall cease to wait; But haste to meet the Lord of All In -- side His pal -- ace gate."
+
+[parts.Alto.lyrics.1]
+text = "Some mor -- ning fair, my Lord will call And I shall cease to wait; shall cease to wait; But haste to meet the Lord of All In -- side His pal -- ace gate. His pal -- ace gate."
+
+[parts.Tenor.lyrics.1]
+text = "Some mor -- ning fair, my Lord will call And I shall cease to wait; shall cease to wait; But haste to meet the Lord of All In -- side His pal -- ace gate. His pal -- ace gate."
+
+[parts.Bass.lyrics.1]
+text = "Some mor -- ning fair, my Lord will call And I shall cease to wait; shall cease to wait; But haste to meet the Lord of All In -- side His pal -- ace gate."
+
+[lyrics.2]
+text = "Some glad -- some dawn, my house of clay No more my home will be; For I shall end the pil -- grim way And His dear face shall see."
+
+[parts.Alto.lyrics.2]
+text = "Some glad -- some dawn, my house of clay No more my home will be; my home will be; For I shall end the pil -- grim way And His dear face shall see. dear face shall see."
+
+[parts.Tenor.lyrics.2]
+text = "Some glad -- some dawn, my house of clay No more my home will be; my home will be; For I shall end the pil -- grim way And His dear face shall see. dear face shall see."
+
+[parts.Bass.lyrics.2]
+text = "Some glad -- some dawn, my house of clay No more my home will be; my home will be; For I shall end the pil -- grim way And His dear face shall see."
+
+[lyrics.3]
+text = "Some day -- break sweet, my trem -- bling hand The King in His will hold; And wel -- come me to that glad land Be -- yond the gates of gold!"
+
+[parts.Alto.lyrics.3]
+text = "Some day -- break sweet, my trem -- bling hand The King in His will hold; in His will hold; And wel -- come me to that glad land Be -- yond the gates of gold! the gates of gold!"
+
+[parts.Tenor.lyrics.3]
+text = "Some day -- break sweet, my trem -- bling hand The King in His will hold; in His will hold; And wel -- come me to that glad land Be -- yond the gates of gold! the gates of gold!"
+
+[parts.Bass.lyrics.3]
+text = "Some day -- break sweet, my trem -- bling hand The King in His will hold; in His will hold; And wel -- come me to that glad land Be -- yond the gates of gold!"
+
+[lyrics.4]
+text = "Some hap -- py time it can’t be long, My la -- bor will be done; And I shall sing the vic -- t’ry song And wear the crown I’ve won."
+
+[parts.Alto.lyrics.4]
+text = "Some hap -- py time it can’t be long, My la -- bor will be done; yes, will be done; And I shall sing the vic -- t’ry song And wear the crown I’ve won. the crown I’ve won."
+
+[parts.Tenor.lyrics.4]
+text = "Some hap -- py time it can’t be long, My la -- bor will be done; yes, will be done; And I shall sing the vic -- t’ry song And wear the crown I’ve won. the crown I’ve won."
+
+[parts.Bass.lyrics.4]
+text = "Some hap -- py time it can’t be long, My la -- bor will be done; yes, will be done; And I shall sing the vic -- t’ry song And wear the crown I’ve won."
+
+[lyrics.chorus]
+text = "In -- side the gate! at home at last, With those who watch and wait! All la -- bors done, all tri -- als past, In -- side, in -- side the gate."
+
+[parts.Alto.lyrics.chorus]
+text = "In -- side the gate! at home at last, at home at last, With those who watch and wait! yes, watch and wait! All la -- bors done, all tri -- als past, In -- side, in -- side the gate. in -- side the gate."
+
+[parts.Tenor.lyrics.chorus]
+text = "In -- side the gate! at home at last, With those who watch and wait! yes, watch and wait! All la -- bors done, all tri -- als past, in -- side the gate. in -- side the gate."
+
+[parts.Bass.lyrics.chorus]
+text = "In -- side the gate! at home at last, With those who watch and wait! yes, watch and wait! All la -- bors done, all tri -- als past, in -- side the gate."
