@@ -44,7 +44,7 @@ choral_type = "tenor"
 clef = "bass"
 staff_number = 2
 suppress_verses = [2, 3, 4, 5]
-suppress_verses_when = ["soprano", "ato"]
+suppress_verses_when = ["soprano", "alto"]
 notes = """
 s4. s4 g16-( g16-) | g8! g8 g8 g4! g16-( g16-) | c'8 c'8 g8 g4! g16-( g16-) | g8! g8 g8 e8-( e8-) g8 |
 fis4.~ fis4 g8 | g8-( g8-) g8 g4! g16-( g16-) | c'8-( c'8-) g8 g4! g16 g16 | g8 b8.! g16 c'8 g8 c'8 |
