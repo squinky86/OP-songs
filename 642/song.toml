@@ -1,0 +1,107 @@
+title = "I Know it Now"
+copyrights = [
+  "Lyrics: James Rowe, 1928 (public domain)",
+  "Music: J. M. Henson, 1928 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Eb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 3
+phrase_breaks = ["3:40", "5:40", "7:40", "9:40", "11:40", "13:40", "15:40"]
+non_breaking_phrase_breaks = ["1:48", "4:40", "5:8", "8:40", "9:8", "10:8", "11:0", "12:8", "12:40", "13:8", "14:8", "15:0", "16:8", "16:40", "17:8"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s8 ees'8 g'8 fis'8 | g'2~ g'8 g'8 bes'8 a'8 | bes'2~ bes'8 ees'8 g'8 fis'8
+| g'2~ g'8 ees'8 f'8 g'8 | f'2~ f'8! ees'8 g'8 fis'8 | g'2~ g'8 g'8 bes'8 aes'8
+| bes'2~ bes'8 c''8 bes'8 ees'8 | g'2~ g'8 bes'8 ees'8 f'8 | ees'2~ ees'8 c''8@c bes'8 c''8
+| ees''2 bes'8 c''8 bes'8 c''8( | g'2 bes'8) ees'8 g'8 g'8 | g'2~ g'8 g'8 f'8 c''8
+| bes'2~ bes'8! c''8 bes'8 c''8 | ees''2 bes'8 c''8 bes'8 c''8( | g'2 bes'8) c''8 bes'8 ees'8
+| g'2~ g'8 bes'8 ees'8 f'8 | ees'2~ ees'8! s8 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+suppress_verses = [2, 3]
+suppress_verses_when = ["soprano"]
+notes = """
+s2 s8 r4. | r8 ees'8 ees'8 ees'8 ees'8 r8 r4 | r8 ees'8 ees'8 ees'8 ees'8 r8 r4
+| r8 ees'8 ees'8 ees'8 ees'8 ees'8 d'8 ees'8 | d'8 ees'8 f'8 ees'8 d'8! r8 r4 | r8 ees'8 ees'8 ees'8 ees'8 r8 r4
+| r8 ees'8 ees'8 ees'8 ees'8 r8 r4 | r8 ees'8 ees'8 f'8 ees'8 ees'8 bes8 bes8 | bes8 ees'8 d'8 c'8 bes8 r8@c r4
+| r8 aes'8 g'8 aes'8 g'2( | ees'8) ees'8 ees'8 ees'8 ees'8 ees'8 ees'8 f'8 | ees'8 ees'8 ees'8 ees'8 ees'8 ees'8 ees'8 ees'8
+| d'8 d'8 d'8 ees'8 f'8! r8 r4 | r8 aes'8 g'8 aes'8 g'2( | ees'8) ees'8 ees'8 ees'8 ees'8 r8 r4
+| r8 ees'8 ees'8 f'8 ees'8 ees'8 bes8 bes8 | bes8 ees'8 d'8 c'8 bes8! s8 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3]
+suppress_verses_when = ["soprano", "alto"]
+notes = """
+s2 s8 g8 bes8 a8 | bes2~ bes8 bes8 g8 fis8 | g2~ g8 g8 bes8 a8
+| bes2~ bes8 bes8 bes8 bes8 | bes8 a8 bes8 aes8 bes8! g8 bes8 a8 | bes2~ bes8 bes8 g8 f8
+| g2~ g8 aes8 g8 g8 | bes4.( b8 c'8) bes8 g8 aes8 | g8 c'8 bes8 aes8 g8 r8@c r4
+| r8 c'8 bes8 c'8 ees'2( | bes8) c'8 bes8 c'8 g8 bes8 bes8 b8 | c'8 c'8 c'8 c'8 c'8 c'8 a8 a8
+| bes8 f8 f8 g8 aes8! r8 r4 | r8 c'8 bes8 c'8 ees'2( | bes8) c'8 bes8 c'8 g8 aes8 g8 g8
+| bes4.( b8 c'8) bes8 g8 aes8 | g8 c'8 bes8 aes8 g8! s8 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3]
+suppress_verses_when = ["soprano", "alto", "tenor"]
+notes = """
+s2 s8 r8 r4 | r8 ees8 ees8 ees8 ees8 r8 r4 | r8 ees8 ees8 ees8 ees8 r8 r4
+| r8 ees8 ees8 ees8 ees8 g8 f8 ees8 | bes,8 c8 d8 f8 bes8! r8 r4 | r8 ees8 ees8 ees8 ees8 r8 r4
+| r8 ees8 ees8 ees8 ees8 r8 r4 | r8 ees8 ees8 d8 c8 g,8 bes,8 bes,8 | ees2~ ees8 r8@c r4
+| r8 ees8 ees8 ees8 ees2~ | ees8 ees8 ees8 ees8 ees8 g8 ees8 d8 | c8 ees8 g8 ees8 c8 c8 f8 f8
+| bes,2~ bes,8! r8 r4 | r8 ees8 ees8 ees8 ees2~ | ees8 ees8 ees8 ees8 ees8 r8 r4
+| r8 ees8 ees8 d8 c8 g,8 bes,8 bes,8 | ees2~ ees8! s8 s4
+"""
+
+[lyrics.1]
+text = "I nev -- er knew that there could be A friend who tho’t so much of me so much of me That He His head in shame could bow Be -- neath my sin— I know it now. I know it now."
+
+[parts.Soprano.lyrics.1]
+text = "I nev -- er knew that there could be A friend who tho’t so much of me That He His head in shame could bow Be -- neath my sin— I know it now."
+
+[parts.Bass.lyrics.1]
+text = "I nev -- er knew that there could be A friend who tho’t so much of me so much of me That He His head in shame could bow Be -- neath my sin— I know it now."
+
+[lyrics.2]
+text = "I nev -- er knew that one could bear My troub -- le, grief and pain and care; and pain and care; And dai -- ly fill my ev -- ’ry need. I know it now O, yes, in -- deed. O, yes, in -- deed."
+
+[parts.Soprano.lyrics.2]
+text = "I nev -- er knew that one could bear My troub -- le, grief and pain and care; And dai -- ly fill my ev -- ’ry need. I know it now O, yes, in -- deed."
+
+[parts.Bass.lyrics.2]
+text = "I nev -- er knew that one could bear My troub -- le, grief and pain and care; and pain and care; And dai -- ly fill my ev -- ’ry need. I know it now O, yes, in -- deed."
+
+[lyrics.3]
+text = "I nev -- er knew that there would be A home pre -- pared a -- bove for me; a -- bove for me; By One who long my love im -- plored, Yet was for years by me ig -- nored! by me ig -- nored!"
+
+[parts.Soprano.lyrics.3]
+text = "I nev -- er knew that there would be A home pre -- pared a -- bove for me; By One who long my love im -- plored, Yet was for years by me ig -- nored!"
+
+[parts.Bass.lyrics.3]
+text = "I nev -- er knew that there would be A home pre -- pared a -- bove for me; a -- bove for me; By One who long my love im -- plored, Yet was for years by me ig -- nored!"
+
+[lyrics.chorus]
+text = "I know it now, yes, bless His name! To die for me To die for me my Sav -- ior came! my Sav -- ior came! To die with thorns up -- on His brow, It was for me! I know it now. I know it now."
+
+[parts.Soprano.lyrics.chorus]
+text = "I know it now, yes, bless His name! To die for me my Sav -- ior came! To die with thorns up -- on His brow, It was for me! I know it now."
+
+[parts.Bass.lyrics.chorus]
+text = "I know it now, yes, bless His name! To die for me To die for me my Sav -- ior came! To die with thorns up -- on His brow, It was for me! I know it now."
