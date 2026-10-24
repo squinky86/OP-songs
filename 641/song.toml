@@ -1,0 +1,82 @@
+title = "I’ll Tell It Wherever I Go"
+copyrights = [
+  "Lyrics and Music: Frank C. Huston, 1910 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "C"
+time_sig_numerator = 6
+time_sig_denominator = 4
+tempo_bpm = 112
+verse_count = 3
+phrase_breaks = ["3:80", "5:80", "9:80", "13:64"]
+optional_phrase_breaks = ["7:80", "11:80", "15:80"]
+non_breaking_phrase_breaks = ["10:32", "10:80", "14:32", "14:80", "15:32", "16:32", "16:80"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s1 s4 g'4 | g'4 fis'4 g'4 c''4 a'4 c''4 | g'4 fis'4 g'4 e'2 c''4 | b'4 d'4 e'4 f'4 e'4 f'4
+| a'4 g'4 f'4 e'2 g'4 | g'4 fis'4 g'4 c''4 b'4 c''4 | d''4\\rit a'4 a'4 a'2!\\spanend a'4\\atempo | a'4 b'4 c''4 c''4 b'4 c''4
+| d''2.~ d''2 g'4@c | g'4 e''2~ e''2 c''4 | c''4 b'4 a'4 b'2 g'4 | g'4 a'4 b'4 b'4 c''4 d''4
+| e''4 c''4 a'4 g'4 e'4 f'4 | g'4 e''2~ e''2 g'4 | a'4 d''2~ d''2! a'4 | b'4 b'4 b'4 e''4 e''4! d''4
+| c''2.~ c''2 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s1 s4 e'4 | e'4 dis'4 e'4 e'4 e'4 e'4 | e'4 dis'4 e'4 c'2 e'4 | f'4 b4 c'4 d'4 c'4 d'4
+| f'4 e'4 d'4 c'2 e'4 | e'4 dis'4 e'4 e'4 f'4 g'4 | f'4 f'4 f'4 f'2! g'4 | fis'4 fis'4 fis'4 fis'4 fis'4 fis'4
+| g'2.( f'2) f'4@c | e'4 g'4 g'4 g'2 e'4 | f'4 f'4 f'4 f'2 f'4 | f'4 f'4 f'4 f'4 f'4 f'4
+| g'4 e'4 f'4 e'4 c'4 d'4 | e'4 g'4 g'4 g'2 e'4 | f'4 a'4 g'4 fis'2! f'4 | f'4 f'4 f'4 g'4 g'4! f'4
+| e'4 e'4 f'4 e'2 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s1 s4 c'4 | c'4 c'4 c'4 g4 g4 g4 | c'4 c'4 c'4 g2 g4 | g4 g4 g4 g4 g4 g4
+| g4 g4 g4 g2 c'4 | c'4 c'4 c'4 g4 g4 g4 | a4 c'4 c'4 c'2! cis'4 | d'4 d'4 a4 a4 d'4 a4
+| b2.~ b2 b4@c | c'4 c'4 c'4 c'2 g4 | g4 g4 g4 g2 b4 | b4 c'4 d'4 d'4 c'4 b4
+| c'4 g4 c'4 c'4 g4 g4 | c'4 c'4 c'4 c'2 c'4 | c'4 c'4 cis'4 d'2! d'4 | d'4 d'4 d'4 c'4 c'4! b4
+| c'4 g4 a4 g2 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s1 s4 c4 | c4 c4 c4 c4 c4 c4 | c4 c4 c4 c2 c4 | g,4 g,4 g,4 g,4 g,4 g,4
+| g,4 a,4 b,4 c2 c4 | c4 c4 c4 c4 d4 e4 | f4 f4 f4 f2! e4 | d4 d4 d4 d4 d4 d4
+| g2.~ g2 g4@c | c4 c4 c4 c2 c4 | d4 d4 d4 g2 g4 | g4 g4 g4 g4 g4 g4
+| c4 c4 c4 c4 c4 c4 | c4 c4 c4 c2 c4 | f4 f4 e4 d2! d4 | g4 g4 g4 g4 g4! g,4
+| c2.~ c2 s4
+"""
+
+[lyrics.1]
+text = "Since Je -- sus my Sav -- iour bro’t peace to my soul, No storms need I fear tho’ fierce bil -- lows may roll; I can -- not but tell how His blood made me whole, @s1"
+
+[lyrics.2]
+text = "I can -- not but tell of His good -- ness to me, And how He my soul from all sin has set free; I’ll serve Him for -- ev -- er, and true would I be, @s1"
+
+[lyrics.3]
+text = "My Lord has re -- deemed me, He died not in vain; I’ll tell of His good -- ness a -- gain and a -- gain; I can -- not neg -- lect Him and si -- lent re -- main, @s1"
+
+[lyrics.s1]
+text = "I’ll tell it wher -- ev -- er I go."
+
+[lyrics.chorus]
+text = "I’ll tell it to -- day, wher -- ev -- er I go, How Je -- sus my soul has re -- deemed from its woe; So I’ll tell it to -- day, I’ll tell it to -- day, I’ll tell it I’ll tell it wher -- ev -- er I go."
+
+[parts.Soprano.lyrics.chorus]
+text = "I’ll tell it wher -- ev -- er I go, How Je -- sus my soul has re -- deemed from its woe; So I’ll tell it I’ll tell it I’ll tell it wher -- ev -- er I go."
+
+[parts.Bass.lyrics.chorus]
+text = "I’ll tell it to -- day, wher -- ev -- er I go, How Je -- sus my soul has re -- deemed from its woe; So I’ll tell it to -- day, I’ll tell it to -- day, I’ll tell it wher -- ev -- er I go."
