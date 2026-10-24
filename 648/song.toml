@@ -1,0 +1,76 @@
+title = "I’ll Be Satisfied"
+copyrights = [
+  "Lyrics: Joe H. Pannell, 1915 (public domain)",
+  "Music: T. N. Pannell, 1915 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 3
+phrase_breaks = ["4:64", "8:64", "12:64"]
+optional_phrase_breaks = ["2:64", "6:64", "10:64", "14:64"]
+non_breaking_phrase_breaks = ["10:16", "12:16"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+ees'8. ees'16 ees'8. f'16 aes'8. aes'16 aes'8. bes'16 | c''8. c''16 c''8. bes'16 aes'4 r4 | aes'4. bes'8 aes'4 f'4 | ees'2. r4
+| ees'8. ees'16 ees'8. f'16 aes'8. aes'16 aes'8. bes'16 | c''8. c''16 c''8. bes'16 aes'4 r4 | c''4. c''8 aes'4 bes'4 | aes'2. r4
+| c''4.@c c''8 aes'4 c''4 | ees''2. r4 | c''4. c''8 aes'4 aes'4 | bes'2. r4
+| ees'8. ees'16 ees'8. f'16 aes'8. aes'16 aes'8. bes'16 | c''8. c''16 c''8. bes'16 aes'4 r4 | c''4. c''8 aes'4 bes'4 | aes'2. r4
+"""
+
+[parts.Soprano.lyrics.chorus]
+text = "I’ll be sat -- is -- fied, I’ll be sat -- is -- fied; When my soul is rest -- ing In the pres -- ence of the Lord, I’ll be sat -- is -- fied."
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+splice_lyrics_into = "soprano"
+notes = """
+c'8. c'16 c'8. des'16 ees'8. ees'16 ees'8. g'16 | aes'8. aes'16 aes'8. ees'16 ees'4 r4 | f'4. f'8 f'4 des'4 | c'2. r4
+| c'8. c'16 c'8. des'16 ees'8. ees'16 ees'8. g'16 | aes'8. aes'16 aes'8. ees'16 ees'4 r4 | aes'4. aes'8 aes'4 ees'4 | ees'2. r4
+| aes'4.@c aes'8 ees'4 aes'4 | aes'4 aes'8. g'16 aes'4 r4 | aes'4. aes'8 ees'4 f'4 | g'4 f'8. f'16 g'4 r4
+| c'8. c'16 c'8. des'16 ees'8. ees'16 ees'8. g'16 | aes'8. aes'16 aes'8. ees'16 ees'4 r4 | aes'4. aes'8 aes'4 ees'4 | ees'2. r4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+splice_lyrics_into = "soprano"
+notes = """
+aes8. aes16 aes8. aes16 c'8. c'16 ees'8. ees'16 | ees'8. ees'16 ees'8. des'16 c'4 r4 | des'4. des'8 des'4 aes4 | aes2. r4
+| aes8. aes16 aes8. aes16 c'8. c'16 ees'8. ees'16 | ees'8. ees'16 ees'8. des'16 c'4 r4 | ees'4. ees'8 c'4 des'4 | c'2. r4
+| ees'4.@c ees'8 c'4 ees'4 | c'4 ees'8. des'16 c'4 r4 | ees'4. ees'8 c'4 d'4 | ees'4 d'8. d'16 ees'4 r4
+| aes8. aes16 aes8. aes16 c'8. c'16 ees'8. ees'16 | ees'8. ees'16 ees'8. des'16 c'4 r4 | ees'4. ees'8 c'4 des'4 | c'2. r4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+splice_lyrics_into = "soprano"
+notes = """
+aes,8. aes,16 aes,8. aes,16 aes,8. aes,16 c8. ees16 | aes8. aes16 ees8. ees16 aes,4 r4 | des4. des8 des4 des4 | aes,2. r4
+| aes,8. aes,16 aes,8. aes,16 aes,8. aes,16 c8. ees16 | aes8. aes16 ees8. ees16 aes,4 r4 | aes4. aes8 ees4 ees4 | aes,2. r4
+| aes4.@c aes8 aes4 aes4 | aes4 c'8. bes16 aes4 r4 | aes4. aes8 aes4 f4 | ees4 bes,8. bes,16 ees4 r4
+| aes,8. aes,16 aes,8. aes,16 aes,8. aes,16 c8. ees16 | aes8. aes16 ees8. ees16 aes,4 r4 | aes4. aes8 ees4 ees4 | aes,2. r4
+"""
+
+[lyrics.1]
+text = "When my soul is sing -- ing In that prom -- ised land a -- bove, I’ll be sat -- is -- fied; Prais -- ing Christ the Sav -- ior For re -- deem -- ing grace and love, I’ll be sat -- is -- fied."
+
+[lyrics.2]
+text = "Liv -- ing in a cit -- y Where the soul shall nev -- er die, I’ll be sat -- is -- fied; There to meet with loved ones, Nev -- er -- more to say good -- by, I’ll be sat -- is -- fied."
+
+[lyrics.3]
+text = "When I meet the ran -- somed O -- ver on the gold -- en shore, I’ll be sat -- is -- fied; There I’ll join the an -- gels Sing -- ing prais -- es ev -- er -- more, I’ll be sat -- is -- fied."
+
+[lyrics.chorus]
+text = "I’ll be sat -- is -- fied, sat -- is -- fied, I’ll be sat -- is -- fied; sat -- is -- fied; When my soul is rest -- ing In the pres -- ence of the Lord, I’ll be sat -- is -- fied."
