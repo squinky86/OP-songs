@@ -1,0 +1,92 @@
+title = "Satisfied"
+copyrights = [
+  "Lyrics: Anna B. Steinhoff, 1928 (public domain)",
+  "Music: J. W. Chappell, arr. Judson Lewis Moore, 1928 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "C"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 3
+phrase_breaks = ["5:48", "9:48", "13:48"]
+optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
+non_breaking_phrase_breaks = ["13:16", "17:16"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. r4 | r1 | r1 | r1 |
+r1 | r1 | r1 | r1 |
+r2. c''8.@c b'16 | a'2. {3 c''8[ b'8] a'8 } | g'2. g'8. c''16 | e''4 e''8. d''16 c''4 b'8. c''16 |
+d''2.! g'8. g'16 | c''2. g'8. g'16 | a'2. a'8. a'16 | g'4 c''8. d''16 e''4 d''8. d''16 |
+c''2.! s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. r4 | r1 | r1 | r1 |
+r1 | r1 | r1 | r1 |
+r2. e'8.@c g'16 | f'2. {3 a'8[ g'8] f'8 } | e'2. e'8. e'16 | g'4 g'8. g'16 g'4 f'8. e'16 |
+f'2.! f'8. f'16 | e'2. e'8. e'16 | f'2. f'8. f'16 | e'4 g'8. a'16 g'4 f'8. f'16 |
+e'4 {3 a'8[ g'8] f'8 } e'4! s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. r4 | r1 | r1 | r1 |
+r1 | r1 | r1 | r1 |
+r2. r4@c | r8 c'8 c'8. c'16 c'4 r4 | r8 c'8 c'8. c'16 c'4 c'8. c'16 | c'4 c'8. b16 c'4 g8. c'16 |
+b2.! r4 | r8 g8 g8. g16 g4 r4 | r8 c'8 c'8. c'16 c'4 c'8. c'16 | c'4 c'8. c'16 c'4 b8. b16 |
+c'4 {3 c'8[ b8] a8 } g4! s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. e8. d16 | c4 c8. c16 c8[ g,8] c8. e16 | g2. f8. e16 | d4 d8. d16 d8[ g,8] d8. e16 |
+c2. g,8. c16 | e4 e8. d16 c4 d8. e16 | f2. f8. f16 | e8[ g8] e8. c16 g,4 a,8. b,16 |
+c2. r4@c | r8 f8 f8. f16 f4 r4 | r8 c8 c8. c16 c4 c8. c16 | c4 c8. d16 e4 d8. c16 |
+g,4 b,8 d8 g4! r4 | r8 c8 c8. c16 c4 r4 | r8 f8 f8. f16 f4 f8. f16 | c4 e8. f16 g4 g,8. g,16 |
+c2.! s4
+"""
+
+[lyrics.1]
+text = ""
+
+[parts.Bass.lyrics.1]
+text = "Tho the sor -- rows of life press me sore, And the star of my hope seems to hide, Still I trust thru the dark -- ness and pain, For I know I shall be sat -- is -- fied."
+
+[lyrics.2]
+text = ""
+
+[parts.Bass.lyrics.2]
+text = "Help me, Lord, still in hope to re -- joice, And be pa -- tient when bit -- ter -- ly tried, And be faith -- ful e’en un -- to the end, And at last I shall be sat -- is -- fied."
+
+[lyrics.3]
+text = ""
+
+[parts.Bass.lyrics.3]
+text = "O how per -- fect the love, peace and home, Of the souls who with loved ones a -- bide ’Round the throne of the Sav -- ior and King, Thru whose blood they are all sat -- is -- fied."
+
+[lyrics.chorus]
+text = "Sat -- is -- fied, sat -- is -- fied, O my soul, thou shalt be sat -- is -- fied; Sat -- is -- fied, sat -- is -- fied, O my soul, thou shalt be sat -- is -- fied."
+
+[parts.Alto.lyrics.chorus]
+text = "Sat -- is -- fied, sat -- is -- fied, O my soul, thou shalt be sat -- is -- fied; Sat -- is -- fied, sat -- is -- fied, O my soul, thou shalt be sat -- is -- fied. sat -- is -- fied."
+
+[parts.Tenor.lyrics.chorus]
+text = "Yes, sat -- is -- fied, yes, sat -- is -- fied, O my soul, thou shalt be sat -- is -- fied; Yes, sat -- is -- fied. yes, sat -- is -- fied. O my soul, thou shalt be sat -- is -- fied. sat -- is -- fied."
+
+[parts.Bass.lyrics.chorus]
+text = "Yes, sat -- is -- fied, yes, sat -- is -- fied, O my soul, thou shalt be sat -- is -- fied; sat -- is -- fied; Yes, sat -- is -- fied. yes, sat -- is -- fied. O my soul, thou shalt be sat -- is -- fied."
