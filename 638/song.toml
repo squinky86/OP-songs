@@ -1,0 +1,83 @@
+title = "Traveling Home"
+copyrights = [
+  "Lyrics: Will M. Thompson, 1927 (public domain)",
+  "Music: Frank Grammer, 1927 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 4
+phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "13:48"]
+optional_phrase_breaks = ["11:48", "15:48"]
+non_breaking_phrase_breaks = ["10:48", "14:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. ees'8 aes'8 | c''4 b'4 c''4 c''8 bes'8 | aes'4 f'4 ees'4 aes'8 bes'8 | c''8 c''4 c''8 c''4 bes'4
+| bes'2. ees'8 aes'8 | c''4 b'4 c''4 c''8 bes'8 | aes'4 f'4 ees'4 aes'8 c''8 | ees''4 ees''8. des''16 c''4 bes'4
+| aes'2. ees'8.@c f'16 | aes'2. aes'8. bes'16 | c''2. c''8 aes'8 | bes'4 aes'4 f'4 c''4
+| bes'2. ees'8. f'16 | aes'2. r4 | r4 c''8. c''16 c''4! aes'8 bes'8 | c''4. c''8 aes'4 bes'4
+| aes'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. c'8 c'8 | ees'4 d'4 ees'4 ees'8 des'8 | c'4 des'4 c'4 ees'8 ees'8 | ees'8 ees'4 ees'8 d'4 d'4
+| ees'2. c'8 c'8 | ees'4 d'4 ees'4 ees'8 des'8 | c'4 des'4 c'4 ees'8 ees'8 | aes'4 aes'8. bes'16 aes'4 g'4
+| ees'2. r4@c | r4 ees'8. f'16 ees'4 r4 | r4 ees'8. f'16 ees'4 ees'8 ees'8 | ees'4 c'4 d'4 d'4
+| ees'2. r4 | r4 ees'8. f'16 ees'4 aes'8. f'16 | ees'4( e'4 f'4!) ees'8 ees'8 | ees'4. ees'8 d'4 des'4
+| c'4 des'4 c'4 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. aes8 aes8 | aes4 aes4 aes4 aes8 g8 | aes4 aes4 aes4 aes8 g8 | aes8 aes4 aes8 aes4 aes4
+| g2. aes8 aes8 | aes4 aes4 aes4 aes8 g8 | aes4 aes4 aes4 c'8 aes8 | c'4 ees'8. f'16 ees'4 des'4
+| c'2. r4@c | r4 c'8. des'16 c'4 r4 | r4 aes8. aes16 aes4 aes8 aes8 | g4 aes4 bes4 aes4
+| g2. r4 | r4 c'8. des'16 c'4 r4 | r4 g8. bes16 aes4! aes8 g8 | aes4. aes8 aes4 g4
+| aes4 f4 ees4 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. aes,8 aes,8 | aes,4 aes,4 aes,4 c8 ees8 | f4 des4 aes,4 c8 ees8 | aes8 aes4 ees8 f4 bes,4
+| ees2. aes,8 aes,8 | aes,4 aes,4 aes,4 c8 ees8 | f4 des4 aes,4 aes,8 aes,8 | aes,4 c8. des16 ees4 ees4
+| aes,2. r4@c | r4 aes,8. aes,16 aes,4 r4 | r4 aes,8. aes,16 aes,4 aes,8 c8 | ees4 f4 bes,4 bes,4
+| ees2. r4 | r4 aes,8. aes,16 aes,4 r4 | r4 c8. c16 f,4! c8 ees8 | aes4. g8 f4 ees4
+| aes,2. s4
+"""
+
+[lyrics.1]
+text = "As I’m on the way to my home on high, There are pleas -- ure un -- told for me; As I press a -- long ’mid the bus -- y throng, That sweet home I by faith can see."
+
+[lyrics.2]
+text = "Broth -- er press a -- long with the blood -- washed throng, ’Till we’re called from this earth be -- low; Guid -- ed by God’s word we will serve the Lord, Then at last be pre -- pared to go."
+
+[lyrics.3]
+text = "Yes, I know I’m right in this gos -- pel fight, In the bat -- tle for God on high; For I use the word,— ’tis the Spir -- it’s sword, I shall win in the bye and bye."
+
+[lyrics.4]
+text = "Yes, I’m on my way prais -- ing God each day, Look -- ing un -- to the Christ up there; When He comes a -- gain I shall see Him then, I shall meet Him up in the air."
+
+[lyrics.chorus]
+text = "Trav’l -- ing home, trav’l -- ing home, Leav -- ing all the ways of sin; Trav’l -- ing home, trav’l -- ing home, Soon that home I’ll en -- ter in."
+
+[parts.Alto.lyrics.chorus]
+text = "Trav’l -- ing home, trav’l -- ing home, Leav -- ing all the ways of sin; Trav’l -- ing home, trav’l -- ing home, Soon that heav’n -- ly home I’ll en -- ter in."
+
+[parts.Tenor.lyrics.chorus]
+text = "Trav’l -- ing home, trav’l -- ing home, Leav -- ing all the ways of sin; Trav’l -- ing home, trav’l -- ing home, Soon that heav’n -- ly home I’ll en -- ter in."
