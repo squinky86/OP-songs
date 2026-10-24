@@ -1,0 +1,90 @@
+title = "A Happy Time is Coming"
+copyrights = [
+  "Lyrics: John M. Henson, 1927 (public domain)",
+  "Music: Homer F. Morris, 1927 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Bb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 3
+phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "11:48", "13:48", "15:48"]
+non_breaking_phrase_breaks = ["8:48", "9:0", "10:64", "11:40", "16:48", "17:0"]
+commentary = "<p>The term <em>for aye</em> is pronounced <em>for ā</em> coming from the Norse word <em>ey</em> meaning <em>ever</em> or <em>always</em>.</p>"
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. d'8 ees'8 | f'8 f'8 bes'8 c''8 d''8 d''8 f'8 f'8 | g'8 g'8 bes'8 bes'8 f'4 f'8 g'8 | bes'8 a'8 bes'8 c''8 d''4 bes'4
+| c''4 d''4 c''4! d''8 ees''8 | f''8 f''8 bes'8 c''8 d''8 d''8 f'8 f'8 | g'8 g'8 bes'8 bes'8 f'4 bes'8 c''8 | d''8 cis''8 d''8 cis''8 d''8 f''8! r4
+| bes'4 c''4 bes'4 bes'8@c c''8 | d''8 cis''8 d''8 cis''8 d''8 bes'8 f'8 f'8 | g'4 bes'4 f'4 bes'8 c''8 | d''8 cis''8 d''8 cis''8 d''8 bes'8 g'8 bes'8
+| c''4 d''4 c''4! d''8 ees''8 | f''8 f''8 bes'8 c''8 d''8 d''8 f'8 f'8 | g'8 g'8 bes'8 bes'8 f'4 bes'8 c''8 | d''8 cis''8 d''8 cis''8 d''8 f''8! r4
+| bes'4 c''4 bes'4! s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. bes8 c'8 | d'8 d'8 d'8 ees'8 f'8 f'8 d'8 d'8 | ees'8 ees'8 ees'8 ees'8 d'4 d'8 ees'8 | f'8 f'8 f'8 f'8 f'4 f'4
+| e'4 e'4 f'4! f'8 f'8 | bes'8 bes'8 f'8 f'8 f'8 f'8 f'8 f'8 | ees'8 ees'8 ees'8 ees'8 d'4 f'8 f'8 | f'8 e'8 f'8 e'8 f'8 bes'8! r4
+| f'4 f'4 f'4 f'8@c f'8 | f'8 e'8 f'8 e'8 f'8 f'8 f'8 f'8 | ees'4 ees'4 d'4 f'8 f'8 | f'8 e'8 f'8 e'8 f'8 f'8 ees'8 f'8
+| e'4 e'4 f'4! f'8 f'8 | bes'8 bes'8 f'8 f'8 f'8 f'8 f'8 f'8 | ees'8 ees'8 ees'8 ees'8 d'4 f'8 f'8 | f'8 e'8 f'8 e'8 f'8 bes'8! r4
+| f'4 f'4 f'4! s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. f8 f8 | bes8 bes8 f8 f8 bes8 bes8 bes8 bes8 | bes8 bes8 bes8 bes8 bes4 bes8 bes8 | d'8 c'8 bes8 a8 bes4 bes4
+| g4 bes4 a4! bes8 c'8 | d'8 d'8 bes8 a8 bes8 bes8 bes8 bes8 | bes8 bes8 bes8 bes8 bes4 bes8 a8 | bes8 bes8 bes8 bes8 bes8 d'8! r4
+| d'4 ees'4 d'4 bes8@c a8 | bes8 bes8 bes8 bes8 bes8 d'8 bes8 bes8 | bes8 bes8 bes8 bes8 bes4 bes8 a8 | bes8 bes8 bes8 bes8 bes8 bes8 bes8 bes8
+| g4 bes4 a4! bes8 c'8 | d'8 d'8 bes8 a8 bes8 bes8 bes8 bes8 | bes8 bes8 bes8 bes8 bes4 bes8 a8 | bes8 bes8 bes8 bes8 bes8 d'8! r4
+| d'4 ees'4 d'4! s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+splice_lyrics_into = "soprano"
+notes = """
+s2. bes,8 bes,8 | bes,8 bes,8 bes,8 bes,8 bes,8 bes,8 bes,8 bes,8 | ees8 ees8 g8 g8 bes4 bes,8 bes,8 | bes,8 c8 d8 f8 bes4 d4 |
+c4 c4 f4! bes8 bes8 | bes8 bes8 d8 f8 bes8 bes8 d8 d8 | ees8 ees8 g8 g8 bes8[ bes,8] d8 f8 | bes8 g8 bes8 g8 bes8 bes8! g8 d8 |
+f4 f4 bes,4 d8@c f8 | bes8 g8 bes8 g8 bes8 bes8 d8 d8 | ees8 ees8 g8 g8 bes8 bes,8 d8 f8 | bes8 g8 bes8 g8 bes8 d8 ees8 d8 |
+c4 c4 f4! bes8 bes8 | bes8 bes8 d8 f8 bes8 bes8 d8 d8 | ees8 ees8 g8 g8 bes8[ bes,8] d8 f8 | bes8 g8 bes8 g8 bes8 bes8! g8 d8 |
+f4 f4 bes,4! s4
+"""
+
+[lyrics.1]
+text = "O, a hap -- py time is com -- ing for the chil -- dren of the King, When He calls them up to meet Him in the air; We shall all go home re -- joic -- ing, there to ev -- er shout and sing, And for -- ev -- er we’ll be hap -- py, o -- ver there."
+
+[lyrics.2]
+text = "One by one the throng is go -- ing to be pres -- ent at the feast, That the King will spread there on that wed -- ding day; Ev -- ’ry blood -- washed soul will an -- swer to the roll- -- call of the Priest, And to Him we all will ev -- er, hom -- age pay."
+
+[lyrics.3]
+text = "All the fol -- low -- ers of Je -- sus will be pres -- ent on that day To re -- ceive from Him a roy -- al robe and crown; That great meet -- ing lasts for -- ev -- er, and no more we’ll preach or pray, And the sun in that white cit -- y, goes not down."
+
+[lyrics.chorus]
+text = "Yes, a hap -- py time is com -- ing when we gath -- er there, To re -- joice and sing for -- ev -- er with the an -- gels fair; There we’ll see our bless -- ed Sav -- ior, and will reign with Him for aye, Yes, a hap -- py time is com -- ing, some glad day."
+
+[parts.Tenor.lyrics.chorus]
+text = "Yes, a hap -- py time is com -- ing when we all shall gath -- er there, To re -- joice and sing for -- ev -- er with the an -- gels fair; There we’ll see our bless -- ed Sav -- ior, and will reign with Him for aye, Yes, a hap -- py time is com -- ing, some glad day."
+
+[parts.Bass.lyrics.1]
+text = "O, a hap -- py time is com -- ing for the chil -- dren of the King, When He calls them up to meet Him in the air; We shall all go home re -- joic -- ing, there to ev -- er shout and sing, And for -- ev -- er we’ll be hap -- py, (hap -- py) o -- ver there."
+
+[parts.Bass.lyrics.2]
+text = "One by one the throng is go -- ing to be pres -- ent at the feast, That the King will spread there on that wed -- ding day; Ev -- ’ry blood -- washed soul will an -- swer to the roll- -- call of the Priest, And to Him we all will ev -- er, (roy -- al) hom -- age pay."
+
+[parts.Bass.lyrics.3]
+text = "All the fol -- low -- ers of Je -- sus will be pres -- ent on that day To re -- ceive from Him a roy -- al robe and crown; That great meet -- ing lasts for -- ev -- er, and no more we’ll preach or pray, And the sun in that white cit -- y, (oh! it) goes not down."
+
+[parts.Bass.lyrics.chorus]
+text = "Yes, a hap -- py time is com -- ing when we all shall gath -- er there, yes, To re -- joice and sing for -- ev -- er with the an -- gels fair; There we’ll see our bless -- ed Sav -- ior, and will reign with Him for aye, Yes, a hap -- py time is com -- ing, com -- ing some glad day."

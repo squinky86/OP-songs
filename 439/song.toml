@@ -11,6 +11,7 @@ tempo_bpm = 95
 verse_count = 3
 phrase_breaks = ["3:40", "5:40", "7:40", "9:40", "13:40"]
 optional_phrase_breaks = ["11:40", "15:40"]
+commentary = "<p>The term <em>for aye</em> is pronounced <em>for ā</em> coming from the Norse word <em>ey</em> meaning <em>ever</em> or <em>always</em>.</p>"
 
 [lyrics.1]
 text = "I am a stran -- ger here, with -- in a for -- eign land; My home is far a -- way, up -- on a gold -- en strand; Am -- bas -- sa -- dor to be of realms be -- yond the sea, I’m here on busi -- ness for my King."

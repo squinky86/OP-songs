@@ -12,6 +12,7 @@ tempo_bpm = 96
 verse_count = 4
 phrase_breaks = ["8:32"]
 optional_phrase_breaks = ["5:32", "12:32"]
+commentary = "<p>The term <em>for aye</em> is pronounced <em>for ā</em> coming from the Norse word <em>ey</em> meaning <em>ever</em> or <em>always</em>.</p>"
 
 [parts.Soprano]
 choral_type = "soprano"
