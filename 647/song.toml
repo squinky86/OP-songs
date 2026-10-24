@@ -1,0 +1,86 @@
+title = "With Me All the Time"
+copyrights = [
+  "Lyrics: James Rowe, 1928 (public domain)",
+  "Music: Homer F. Morris, 1928 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "C"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 4
+phrase_breaks = ["5:48", "9:48", "13:40", "15:48"]
+optional_phrase_breaks = ["3:48", "7:48", "11:48"]
+non_breaking_phrase_breaks = ["10:16", "10:48", "11:8", "12:16", "12:48", "13:8", "14:8", "14:40", "15:8", "16:16", "16:48", "17:8"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. e'8[ f'8] | g'4 e''4 c''4. e''8 | d''8[ c''8] b'8[ a'8] g'4 e'8[ f'8] | g'4 e''4 g'4. e''8
+| d''2. e'8[ f'8] | g'4 e''4 c''4. e''8 | d''8[ c''8] b'8[ a'8] g'4 c''8[ d''8] | e''4 g'4 e''4. d''8
+| c''2. e''8@c dis''8 | e''8 c''2~ c''8 c''8. a'16 | g'2. c''4 | c''8 c''2~ c''8 d''8 e''8
+| d''2~ d''8 e''8 dis''8 e''8 | c''2~ c''8 c''8 c''8 a'8 | g'2. e''8 dis''8 | e''8 c''2~ c''8 c''8. d''16
+| c''2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. c'8[ d'8] | e'4 g'4 e'4. g'8 | a'4 g'8[ f'8] e'4 c'8[ d'8] | e'4 g'4 e'4. g'8
+| g'2. c'8[ d'8] | e'4 g'4 e'4. g'8 | a'4 g'8[ f'8] e'4 e'8[ f'8] | g'4 g'4 g'4. f'8
+| e'2. r4@c | r4 g'8 fis'8 g'8 g'8 a'8. f'16 | e'8 e'8 d'8 f'8 e'4 bes'4 | a'8 a'8 a'8 a'8 a'8 f'8 fis'8 fis'8
+| g'8 g'8 fis'8 a'8 g'8 r8 r4 | r8 g'8 fis'8 g'8 e'8 g'8 a'8 f'8 | e'8 g'8 f'8 f'8 e'4 r4 | r4 g'8 fis'8 g'8 g'8 g'8. g'16
+| g'8 e'8 e'8. f'16 g'4 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. g4 | c'4 c'4 g4. c'8 | c'4 c'4 c'4 g4 | c'4 c'4 c'4. c'8
+| b2. g4 | c'4 c'4 g4. c'8 | c'4 c'4 c'4 g4 | c'4 c'4 c'4. b8
+| g2. r4@c | r4 e'8 dis'8 e'8 c'8 c'8. c'16 | c'8 c'8 b8 d'8 c'4 c'4 | c'8 f'8 f'8 c'8 d'8 a8 a8 c'8
+| b8 b8 a8 c'8 b8 r8 r4 | r8 e'8 dis'8 e'8 c'8 c'8 c'8 c'8 | c'8 c'8 b8 b8 c'4 r4 | r4 e'8 dis'8 e'8 c'8 e'8. f'16
+| e'8 g8 c'8. d'16 e'4 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. c4 | c4 c4 c4. c8 | f4 f4 c4 c4 | c4 c4 c4. c8
+| g2. c4 | c4 c4 c4. c8 | f4 f4 c4 c4 | c4 e4 g4. g8
+| c2. r4@c | r4 c8 c8 c8 e8 f8. f16 | c8 c8 g8 g8 c4 e4 | f8 f8 f8 f8 f8 f8 d8 d8
+| g8 g8 d8 d8 g8 r8 r4 | r8 c8 c8 c8 c8 e8 f8 f8 | c8 e8 d8 g8 c4 r4 | r4 c8 c8 c8 e8 g8. g16
+| c2. s4
+"""
+
+[lyrics.1]
+text = "A -- long the way to realms of day And peace and joy sub -- lime; My Sav -- ior dear, my soul to cheer, Is with me all the time."
+
+[lyrics.2]
+text = "My yoke is light, my path is bright, And I am sat -- is -- fied; For, bless His name, since first He came He has not left my side."
+
+[lyrics.3]
+text = "I shall not fear when death is near; Sup -- port -- ed I shall be; For He who died my sins to hide, Will still com -- pan -- ion me."
+
+[lyrics.4]
+text = "That I may rest a -- mong the blest, In yon -- der sun- -- bright clime; My Lord and King whose praise I sing Is with me all the time."
+
+[lyrics.chorus]
+text = "He is with me all the time, That high -- er I may climb; He walks with me and talks with me, He is with me all the time."
+
+[parts.Alto.lyrics.chorus]
+text = "He is with me all the time, yes, all the time, That high -- er ev -- er high -- er I may climb; may ev -- er climb; He walks with me and talks with me, yes, talks with me, He is with me all the time. yes, all the time."
+
+[parts.Tenor.lyrics.chorus]
+text = "He is with me all the time, yes, all the time, That high -- er ev -- er high -- er I may climb; may ev -- er climb; He walks with me and talks with me, yes, talks with me, He is with me all the time. yes, all the time."
+
+[parts.Bass.lyrics.chorus]
+text = "He is with me all the time, yes, all the time, That high -- er ev -- er high -- er I may climb; may ev -- er climb; He walks with me and talks with me, yes, talks with me, He is with me all the time."
