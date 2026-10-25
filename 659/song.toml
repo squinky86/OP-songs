@@ -1,0 +1,103 @@
+title = "Help Me Sing the Praise of Jesus"
+copyrights = [
+  "Lyrics: Johnson Oatman, Jr., 1928 (public domain)",
+  "Music: J. M. Henson, 1928 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 4
+phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "11:48", "13:48", "15:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. b'8. b'16 | b'2~ b'8. g'16 b'8. g'16 | a'8 g'2~ g'8 a'8. b'16
+| e'2~ e'8. d'16 g'8. a'16 | b'2. g'8. b'16 | d''2~ d''8. b'16 d''8. b'16
+| a'8 g'2~ g'8 b'8. b'16 | b'2~ b'8. g'16 g'8. a'16 | g'2. r4@c
+| d''4 d''4 d''8. b'16 d''8. b'16( | c''8) b'8 c''8 c''8 b'8 b'8 r4 | b'4 b'4 b'8. g'16 a'8. b'16
+| a'2. g'8. b'16 | d''2~ d''8. b'16 d''8. b'16 | a'8 g'2~ g'8 b'8. b'16
+| b'2~ b'8. g'16 g'8. a'16 | g'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+suppress_verses = [2, 3, 4]
+suppress_verses_when = ["soprano"]
+notes = """
+s2. r4 | g'4 g'4 g'8. d'16 g'8. g'16 | fis'8 g'8 e'8 e'8 d'8 d'8 r4
+| c'4 c'4 c'8. b16 d'8. d'16 | d'4 d'8. d'16 d'4 r4 | g'4 g'4 g'8. g'16 g'8. g'16
+| fis'8 e'8 e'8 e'8 e'8 e'8 r4 | g'4 a'4 g'8. g'16 d'8. d'16 | d'2. r4@c
+| g'4 g'4 g'8. g'16 g'8. g'16( | fis'8) g'8 g'8 g'8 g'8 g'8 r4 | g'4 g'4 g'8. e'16 fis'8. g'16
+| fis'2. r4 | g'4 g'4 g'8. g'16 g'8. g'16 | fis'8 e'8 e'8 e'8 e'8 e'8 r4
+| g'4 a'4 g'8. g'16 d'8. d'16 | d'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3, 4]
+suppress_verses_when = ["soprano", "alto"]
+notes = """
+s2. r4 | d'4 d'4 d'8. b16 d'8. b16 | c'8 b8 c'8 c'8 b8 b8 r4
+| g4 g4 g8. g16 g8. fis16 | g4 g8. g16 g4 r4 | b4 b4 b8. d'16 b8. d'16
+| c'8 b8 b8 b8 b8 b8 r4 | d'4 dis'4 e'8. d'16 b8. c'16 | b2. r4@c
+| d'4 d'4 d'8. d'16 d'8. d'16( | d'8) d'8 e'8 e'8 d'8 d'8 r4 | e'4 e'4 e'8. b16 cis'8. cis'16
+| d'2. r4 | b4 b4 b8. d'16 b8. d'16 | c'8 b8 b8 b8 b8 b8 r4
+| d'4 dis'4 e'8. d'16 b8. c'16 | b2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3, 4]
+suppress_verses_when = ["soprano", "alto", "tenor"]
+notes = """
+s2. r4 | g4 g4 g8. g16 g8. g16 | d8 g8 g8 g8 g8 g8 r4
+| c4 c4 g,8. g,16 b,8. d16 | g4 d8. b,16 g,4 r4 | g4 g4 g8. g16 g8. g16
+| d8 e8 e8 e8 e8 e8 r4 | g4 fis4 e8. b,16 d8. d16 | g,2. d8.@c g16
+| b2~ b8. g16 b8. g16 | a8 g2~ g8 b8. g16 | e2~ e8. e16 a8. a16
+| d2. r4 | g4 g4 g8. g16 g8. g16 | d8 e8 e8 e8 e8 e8 r4
+| g4 fis4 e8. b,16 d8. d16 | g,2. s4
+"""
+
+[lyrics.1]
+text = "When I think of how my Sav -- ior, how my Sav -- ior, From my sin brought me re -- lease; me re -- lease; I would have the world ac -- cord Him, world ac -- cord Him, Songs of praise, and nev -- er cease."
+
+[parts.Soprano.lyrics.1]
+text = "When I think of how my Sav -- ior, From my sin brought me re -- lease; I would have the world ac -- cord Him, Songs of praise, and nev -- er cease."
+
+[lyrics.2]
+text = "In His home the an -- gels praise Him, an -- gels praise Him, As be -- fore His throne they stand; throne they stand; Let us try to em -- u -- late them, em -- u -- late them, While we’re here on Jor -- dan’s strand."
+
+[parts.Soprano.lyrics.2]
+text = "In His home the an -- gels praise Him, As be -- fore His throne they stand; Let us try to em -- u -- late them, While we’re here on Jor -- dan’s strand."
+
+[lyrics.3]
+text = "Friends gone on are al -- so sing -- ing al -- so sing -- ing On the hill -- tops of the blest; of the blest; If some day we hope to join them, hope to join them, We on earth should do our best."
+
+[parts.Soprano.lyrics.3]
+text = "Friends gone on are al -- so sing -- ing On the hill -- tops of the blest; If some day we hope to join them, We on earth should do our best."
+
+[lyrics.4]
+text = "Help me sing the praise of Je -- sus, praise of Je -- sus, He hath done so much for me; much for me; That I hope to swell His prais -- es swell His prais -- es Thro’ -- out all e -- ter -- ni -- ty."
+
+[parts.Soprano.lyrics.4]
+text = "Help me sing the praise of Je -- sus, He hath done so much for me; That I hope to swell His prais -- es Thro’ -- out all e -- ter -- ni -- ty."
+
+[lyrics.chorus]
+text = "Help me sing the praise of the praise of Je -- sus, Long and loud the an -- them swell, Lord of earth and King of glo -- ry, King of glo -- ry, Prince of Peace Im -- man -- u -- el."
+
+[parts.Soprano.lyrics.chorus]
+text = "Help me sing the praise of the praise of Je -- sus, Long and loud the an -- them swell, Lord of earth and King of glo -- ry, Prince of Peace Im -- man -- u -- el."
+
+[parts.Bass.lyrics.chorus]
+text = "Help me sing the praise of Je -- sus, Long and loud the an -- them swell, Lord of earth and King of glo -- ry, King of glo -- ry, Prince of Peace Im -- man -- u -- el."
