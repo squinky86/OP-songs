@@ -23,6 +23,15 @@ f'4 g'4 g'4 f'4 | bes'4 bes'4 g'4 f'4 | bes'2 d''2 | bes'4 d''4 c''2
 | d''8 d''8 c''8 d''8 c''8 bes'4.! | bes'8 f'8 bes'8 c''8 d''8 d''4.! | f''2 d''2 | bes'4 c''4 bes'2
 """
 
+[parts.Soprano.lyrics.chorus]
+text = "Live close to the Lord, He will grace and strength af -- ford; Friends may oft for -- sake you, Sor -- rows o -- ver -- take you, Live close to the Lord."
+
+[parts.Soprano.lyrics.s1]
+text = "Live close to the Lord;"
+
+[parts.Soprano.lyrics.s2]
+text = "Live close to the Lord."
+
 [parts.Alto]
 choral_type = "alto"
 clef = "treble"
@@ -72,37 +81,10 @@ text = "Do not grieve Him an -- y lon -- ger, @s1 Help some broth -- er to grow 
 text = "There is glad -- ness in o -- bey -- ing, @s1 Trust His grace and keep on pray -- ing, @s2"
 
 [lyrics.chorus]
-text = "Live close to the Lord, He will grace and strength af -- ford; Friends may oft for -- sake you, Sor -- rows o -- ver -- take you, Live close to the Lord."
-
-[parts.Alto.lyrics.chorus]
-text = "Clos -- er, clos -- er, to the Lord, He will grace and strength af -- ford; Friends may oft for -- sake you, Sor -- rows o -- ver -- take you, Al -- ways live close to the Lord."
-
-[parts.Tenor.lyrics.chorus]
-text = "Clos -- er, clos -- er, to the Lord, He will grace and strength af -- ford; Friends may oft for -- sake you, Sor -- rows o -- ver -- take you, Al -- ways live close to the Lord."
-
-[parts.Bass.lyrics.chorus]
 text = "Clos -- er, clos -- er, to the Lord, He will grace and strength af -- ford; Friends may oft for -- sake you, Sor -- rows o -- ver -- take you, Al -- ways live close to the Lord."
 
 [lyrics.s1]
-text = "Live close to the Lord;"
-
-[parts.Alto.lyrics.s1]
-text = "Al -- ways live close to the Lord;"
-
-[parts.Tenor.lyrics.s1]
-text = "Al -- ways live close to the Lord;"
-
-[parts.Bass.lyrics.s1]
 text = "Al -- ways live close to the Lord;"
 
 [lyrics.s2]
-text = "Live close to the Lord."
-
-[parts.Alto.lyrics.s2]
-text = "Al -- ways live close to the Lord."
-
-[parts.Tenor.lyrics.s2]
-text = "Al -- ways live close to the Lord."
-
-[parts.Bass.lyrics.s2]
 text = "Al -- ways live close to the Lord."
