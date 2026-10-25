@@ -1,0 +1,73 @@
+title = "Don’t Go Away Unsaved"
+copyrights = [
+  "Lyrics: James Rowe, 1928 (public domain)",
+  "Music: J. M. Henson, 1928 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 3
+phrase_breaks = ["5:48", "9:48", "13:40", "15:40"]
+optional_phrase_breaks = ["3:48", "7:48", "11:48"]
+non_breaking_phrase_breaks = ["11:16", "14:8", "14:40", "15:8", "16:8", "16:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. ees'4 | c''4. des''8 c''8 bes'8 aes'8 bes'8 | c''2. c''4 | bes'4. bes'8 aes'4 g'4
+| aes'2. ees'4 | c''4. des''8 c''8 bes'8 aes'8 bes'8 | c''2. aes'4 | g'4. aes'8 f'4 g'4
+| ees'2. ees'4@c | c''2~ c''8 c''8 des''8 c''8 | bes'2. ees'4 | bes'2~ bes'8 bes'8 c''8 bes'8
+| aes'2~ aes'8 aes'8 aes'8 g'8 | f'2~ f'8 aes'8 g'8 f'8 | ees'2( c''8!) c''8 des''8 c''8 | bes'2. c''4 | aes'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. c'4 | ees'4. f'8 ees'8 des'8 c'8 des'8 | ees'2. ees'4 | des'4. des'8 c'4 bes4
+| c'2. c'4 | ees'4. f'8 ees'8 des'8 c'8 des'8 | ees'2. ees'4 | ees'4. f'8 d'4 d'4
+| ees'2. c'4@c | ees'2~ ees'8 ees'8 f'8 ees'8 | des'4 des'4 des'4 des'4 | des'2~ des'8 des'8 ees'8 des'8
+| c'2~ c'8 c'8 c'8 ees'8 | des'2~ des'8 f'8 ees'8 des'8 | c'8 des'8 ees'8 c'8 ees'8! ees'8 f'8 ees'8 | des'8 des'8 des'8 des'8 des'4 ees'4 | c'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. aes4 | aes4. aes8 aes8 ees8 ees8 ees8 | aes2. aes4 | f4. f8 ees4 ees4
+| ees2. aes4 | aes4. aes8 aes8 ees8 ees8 ees8 | aes2. c'4 | bes4. bes8 aes4 bes4
+| g2. r4@c | r4 aes4 aes4. aes8 | g4 g4 g4 r4 | r4 g4 g4. g8
+| aes4 aes4 aes4 r4 | r8 aes8 aes8 aes8 aes8 r8 r4 | r8 g8 aes8 aes8 aes8! r8 r4 | r8 g8 g8 g8 g4 g4 | aes2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. aes,4 | aes,4. aes,8 aes,8 aes,8 aes,8 aes,8 | aes,2. aes,4 | des4. des8 ees4 ees4
+| aes,2. aes,4 | aes,4. aes,8 aes,8 aes,8 aes,8 aes,8 | aes,2. aes,4 | bes,4. bes,8 bes,4 bes,4
+| ees2. r4@c | r4 aes,4 aes,4. aes,8 | ees4 ees4 ees4 r4 | r4 ees4 ees4. ees8
+| f4 f4 f4 r4 | r8 des8 des8 des8 des8 r8 r4 | r8 bes,8 c8 ees8 f8! r8 r4 | r8 ees8 ees8 ees8 ees4 ees4 | aes,2. s4
+"""
+
+[lyrics.1]
+text = "You know that Je -- sus died for you, Of sin paid all the cost; Yet sin -- ful ways you still pur -- sue— Are still a -- mong the lost!"
+
+[lyrics.2]
+text = "You know that friends and dear ones wait At heav -- en’s gate for you; And yet you do not face that gate, For you are still un -- true."
+
+[lyrics.3]
+text = "For par -- don you in -- tend to plead— In -- tend to reach that gate; But, oh, the risk is great in -- deed— Your plea may be too late!"
+
+[lyrics.chorus]
+text = "Don’t go a -- way un -- saved, No long -- er be en -- slaved; Heed mer -- cy’s voice; make Christ your choice: Don’t go a -- way un -- saved."
+
+[parts.Alto.lyrics.chorus]
+text = "Don’t go a -- way un -- saved, un -- saved, No long -- er be en -- slaved; Heed mer -- cy’s voice; make Christ your choice: make Christ your choice: Don’t go a -- way Don’t go a -- way un -- saved."
