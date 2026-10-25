@@ -1,0 +1,83 @@
+title = "The Lamb is the Light Up There"
+copyrights = [
+  "Lyrics: James Rowe, 1928 (public domain)",
+  "Music: J. M. Henson, 1928 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 96
+verse_count = 3
+phrase_breaks = ["5:40", "9:40", "13:40"]
+optional_phrase_breaks = ["3:40", "7:40", "11:40", "15:40"]
+non_breaking_phrase_breaks = ["11:16"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. s4 b'8
+| d''8. cis''16 d''8 b'8 a'8 g'8 | b'8. ais'16 b'8 g'4 b'8 | d''8. cis''16 d''8 b'8[ a'8] g'8 | a'4.~ a'4 b'8
+| d''8. cis''16 d''8 b'8 a'8 g'8 | b'8. ais'16 b'8 g'4 g'8 | b'8. ais'16 b'8 g'4 a'8 | g'4.~ g'4 b'8@c
+| d''8. cis''16 d''8 b'8[ a'8] g'8 | b'4.~ b'4 b'8 | d''8. cis''16 d''8 b'8[ a'8] g'8 | a'4.~ a'4 g'8
+| b'8. ais'16 b'8 g'4 b'8 | d''8. cis''16 d''8 b'4 g'8 | b'8. ais'16 b'8 g'4 a'8 | g'4.~ g'4 s8
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+splice_lyrics_into = "soprano"
+notes = """
+s4. s4 g'8
+| g'8. g'16 g'8 g'8 d'8 d'8 | g'8. g'16 g'8 d'4 g'8 | g'8. g'16 g'8 g'8[ d'8] e'8 | fis'4.~ fis'4 g'8
+| g'8. g'16 g'8 g'8 d'8 d'8 | g'8. e'16 g'8 d'4 d'8 | g'8. e'16 d'8 d'4 d'8 | d'4.~ d'4 g'8@c
+| g'8. g'16 g'8 g'8[ d'8] d'8 | g'4 a'8 g'4 g'8 | g'8. g'16 g'8 g'8[ d'8] e'8 | fis'4.~ fis'4 d'8
+| g'8. e'16 g'8 d'4 g'8 | g'8. g'16 g'8 g'4 d'8 | g'8. g'16 g'8 g'4 d'8 | d'4.~ d'4 s8
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+splice_lyrics_into = "soprano"
+notes = """
+s4. s4 d'8
+| b8. ais16 b8 d'8 c'8 b8 | d'8. cis'16 d'8 b4 d'8 | b8. ais16 b8 d'4 cis'8 | d'4.~ d'4 d'8
+| b8. ais16 b8 d'8 c'8 b8 | d'8. cis'16 d'8 b4 b8 | d'8. cis'16 d'8 b4 c'8 | b4.~ b4 d'8@c
+| b8. a16 b8 d'8[ c'8] b8 | d'4 dis'8 e'4 e'8 | d'8. e'16 d'8 d'4 cis'8 | d'4.~ d'4 b8
+| d'8. cis'16 d'8 b4 d'8 | b8. ais16 b8 d'4 b8 | d'8. cis'16 d'8 b4 c'8 | b4.~ b4 s8
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+splice_lyrics_into = "soprano"
+notes = """
+s4. s4 g8
+| g8. g16 g8 g8 g8 g8 | g8. g16 g8 g4 g8 | g8. g16 g8 g8[ fis8] e8 | d4.~ d4 g8
+| g8. g16 g8 g8 g8 g8 | g8. g16 g8 g4 g8 | g8. g16 g8 d4 d8 | g,4.~ g,4 g8@c
+| g8. g16 g8 g4 g8 | g4 fis8 e4 g8 | b8. ais16 b8 g8[ fis8] e8 | d4.~ d4 g8
+| g8. g16 g8 g4 g8 | g8. g16 g8 g4 g8 | g8. g16 g8 d4 d8 | g,4.~ g,4 s8
+"""
+
+[lyrics.1]
+text = "No need of the light of the sun or the moon To shine on that coun -- try fair; It al -- ways is bright -- er than sun -- ni -- est noon, @s1"
+
+[lyrics.2]
+text = "The val -- leys and fields are per -- pet -- u -- al green, With flow -- ers of beau -- ty rare; And noth -- ing de -- cay -- ing will ev -- er be seen @s1"
+
+[lyrics.3]
+text = "There all the re -- deemed in His glo -- ry shall rest, And none shall a bur -- den bear; With won -- der -- ful light we shall ev -- er be blest, @s1"
+
+[lyrics.chorus]
+text = "The Lamb is the light up there, up there, ’Tis bright -- er than noon -- day fair; No night ev -- er comes to shad -- ow those homes, The Lamb is the light up there."
+
+[parts.Soprano.lyrics.chorus]
+text = "The Lamb is the light up there, ’Tis bright -- er than noon -- day fair; No night ev -- er comes to shad -- ow those homes, The Lamb is the light up there."
+
+[lyrics.s1]
+text = "The Lamb is the light up there."
