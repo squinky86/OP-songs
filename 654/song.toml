@@ -1,0 +1,87 @@
+title = "O Morning Glad"
+copyrights = [
+  "Lyrics: James Rowe, 1926 (public domain)",
+  "Music: J. E. Hamilton, 1926 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 4
+phrase_breaks = ["5:48", "9:48", "13:48"]
+optional_phrase_breaks = ["3:48", "7:48", "15:48", "19:48"]
+non_breaking_phrase_breaks = ["10:48", "11:48", "12:48", "16:48", "17:48", "18:48", "21:16"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. f'8[ g'8]
+| a'4 a'4 a'4 a'8[ bes'8] | c''4 c''4 c''4 a'8[ g'8] | f'4 a'4 c''4 a'4 | a'2. f'8[ g'8]
+| a'4 a'4 a'4 a'8[ bes'8] | c''4 c''4 c''4 a'8[ c''8] | d''4 c''4 a'4 g'4 | f'2. c''4@c
+| c''4 a'4 c''2~ | c''2. a'4 | a'4 f'4 a'2~ | a'2. f'8[ g'8]
+| a'4 c''4 c''4 a'4 | g'2. c''4 | c''4 a'4 c''2~ | c''2. a'4
+| a'4 f'4 a'2~ | a'2. f'8[ g'8] | a'4 c''4 a'4 g'4 | f'2.! s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. c'4
+| f'4 f'4 f'4 c'4 | f'4 f'4 f'4 c'4 | c'4 f'4 f'4 f'4 | f'2. c'4
+| f'4 f'4 f'4 c'4 | f'4 f'4 f'4 f'8[ g'8] | f'4 f'4 f'4 c'4 | c'2. a'4@c
+| a'4 f'4 a'4 f'4 | e'4 g'4 f'2~ | f'2. f'4 | f'4 f'4 f'4 c'4
+| f'4 f'4 f'4 f'4 | e'2. a'4 | a'4 f'4 a'4 f'4 | e'4 g'4 f'2~
+| f'2. f'4 | f'4 f'4 f'4 c'4 | f'4 f'4 f'4 e'4 | f'4 d'4 c'4! s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. a8[ bes8]
+| c'4 c'4 c'4 f8[ g8] | a4 a4 a4 c'8[ bes8] | a4 c'4 c'4 c'4 | c'2. a8[ bes8]
+| c'4 c'4 c'4 f8[ g8] | a4 a4 a4 c'4 | a4 c'4 c'4 bes4 | a2. r4@c
+| r2 r4 a4 | g4 bes4 a4 c'4 | c'4 a4 c'4 c'4 | d'4 d'4 c'4 a8[ bes8]
+| c'4 a4 c'4 c'4 | c'2. r4 | r2 r4 a4 | g4 bes4 a4 c'4
+| c'4 a4 c'4 c'4 | d'4 d'4 c'4 a8[ bes8] | c'4 c'4 c'4 bes4 | a4 bes8[ gis8] a4! s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. f4
+| f4 f4 f4 f4 | f4 f4 f4 f4 | f4 f4 a4 f4 | c2. f4
+| f4 f4 f4 f4 | f4 f4 f4 f8[ e8] | d4 a,4 c4 c4 | f2. r4@c
+| r2 r4 f4 | c4 c4 f2~ | f2. f4 | f4 f4 f4 f4
+| f4 f4 a4 f4 | c2. r4 | r2 r4 f4 | c4 c4 f2~
+| f2. f4 | f4 f4 f4 f4 | f4 a,4 c4 c4 | f,2.! s4
+"""
+
+[lyrics.1]
+text = "O morn -- ing glad, when light will shine, Thru Heav -- en’s gate for me; And I shall greet the Friend di -- vine, Who died to set me free."
+
+[lyrics.2]
+text = "O morn -- ing glad, when sin no more Shall fill my soul with fear; When I shall reach the bet -- ter shore, With my Re -- deem -- er dear."
+
+[lyrics.3]
+text = "O morn -- ing glad, when those who wait, And watch for me a -- bove; Will meet me at His pal -- ace gate, With words of joy and love."
+
+[lyrics.4]
+text = "O morn -- ing glad, when storms shall end, And bil -- lows cease to roll; For then I shall be -- hold the Friend, Who died to save my soul."
+
+[lyrics.chorus]
+text = "O morn -- ing glad, when tri -- als cease, And I no more shall roam; But in His love’s e -- ter -- nal peace, Be with my Lord at home."
+
+[parts.Alto.lyrics.chorus]
+text = "O morn -- ing glad, O morn -- ing glad, when tri -- als cease, And I no more shall roam; But in His love’s But in His love’s e -- ter -- nal peace, Be with my Lord at home. sweet home."
+
+[parts.Tenor.lyrics.chorus]
+text = "O morn -- ing glad, when tri -- als cease, when tri -- als cease, And I no more shall roam; But in His love’s e -- ter -- nal peace, e -- ter -- nal peace, Be with my Lord at home. sweet home."
