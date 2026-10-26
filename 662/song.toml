@@ -1,0 +1,108 @@
+title = "He Is a Friend to Me"
+copyrights = [
+  "Lyrics and Music: Hardy E. Baugh, 1928 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 96
+verse_count = 4
+phrase_breaks = ["5:40", "7:40", "9:40", "13:40"]
+optional_phrase_breaks = ["3:40", "11:40", "15:40"]
+non_breaking_phrase_breaks = ["9:16", "17:16"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. s4 b'8
+| d''8 d''8 d''8 b'8 a'8 g'8 | b'8 b'8 b'8 a'8 g'8 a'8 | b'8 b'8 d''8 b'4 a'8 | a'4.~ a'4 b'8
+| d''8 d''8 d''8 b'8 a'8 g'8 | b'8 b'8 b'8 a'8 g'8 a'8 | b'8 b'8 d''8 b'4 a'8 | g'4.~ g'4 b'8@c
+| d''8 d''8 d''8 e''8 d''8 b'8 | d''4.( b'4) g'8 | b'8 d''8 e''8 d''8 b'8 g'8 | a'4.~ a'4 b'8
+| d''8 d''8 d''8 e''8 d''8 g'8 | b'8 b'8 b'8 a'8 g'8 a'8 | b'8 b'8 d''8 b'4 a'8 | g'4.~ g'4 s8
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+splice_lyrics_into = "soprano"
+notes = """
+s4. s4 d'8
+| g'8 g'8 g'8 g'8 d'8 d'8 | g'8 g'8 g'8 d'8 d'8 d'8 | g'8 g'8 g'8 g'4 e'8 | fis'4.~ fis'4 g'8
+| g'8 g'8 g'8 g'8 d'8 d'8 | g'8 g'8 g'8 d'8 d'8 d'8 | g'8 g'8 g'8 g'4 fis'8 | g'4 e'8 d'4 d'8@c
+| g'8 g'8 g'8 g'8 g'8 g'8 | g'4.( d'4) d'8 | g'8 g'8 g'8 g'8 g'8 g'8 | fis'4( g'8 a'4) g'8
+| g'8 g'8 g'8 g'8 g'8 d'8 | g'8 g'8 g'8 d'8 d'8 d'8 | g'8 g'8 g'8 g'4 fis'8 | g'4 e'8 d'4 s8
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+splice_lyrics_into = "soprano"
+notes = """
+s4. s4 g8
+| b8 b8 b8 d'8 c'8 b8 | d'8 d'8 d'8 c'8 b8 c'8 | d'8 d'8 d'8 e'4 cis'8 | d'4.~ d'4 d'8
+| b8 b8 b8 d'8 c'8 b8 | d'8 d'8 d'8 c'8 b8 c'8 | d'8 d'8 d'8 d'4 c'8 | b4 ais8 b4 g8@c
+| b8 b8 b8 c'8 b8 d'8 | b4.( g4) b8 | d'8 b8 c'8 b8 d'8 cis'8 | d'4( cis'8 d'4) d'8
+| b8 b8 b8 c'8 b8 b8 | d'8 d'8 d'8 c'8 b8 c'8 | d'8 d'8 d'8 d'4 c'8 | b4 ais8 b4 s8
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. s4 g8
+| g8 g8 g8 g8 g8 g8 | g8 g8 g8 g8 g8 g8 | g8 g8 b,8 e4 a,8 | d4.~ d4 g8
+| g8 g8 g8 g8 g8 g8 | <g, g>8 <g, g>8 <g, g>8 <g, g>8 <g, g>8 <g, g>8 | g8 g8 b,8 d4 d8 | g,4.~ g,4 g,8@c
+| g8 g8 g8 g8 g8 g8 | g4.( g,4) g8 | g8 g8 g8 g8 g8 e8 | d4.~ d4 g8
+| g8 g8 g8 g8 g8 g8 | <g, g>8 <g, g>8 <g, g>8 <g, g>8 <g, g>8 <g, g>8 | g8 g8 b,8 d4 d8 | g,4.~ g,4 s8
+"""
+
+[lyrics.1]
+text = "To -- day I am think -- ing of Je -- sus, my Sav -- ior, Who died up -- on Cal -- va -- ry; He’s keep -- ing me ev -- er in His bless -- ed fav -- or For He is a friend to me."
+
+[parts.Alto.lyrics.1]
+text = "To -- day I am think -- ing of Je -- sus, my Sav -- ior, Who died up -- on Cal -- va -- ry; He’s keep -- ing me ev -- er in His bless -- ed fav -- or For He is a friend to me. (to me.)"
+
+[parts.Tenor.lyrics.1]
+text = "To -- day I am think -- ing of Je -- sus, my Sav -- ior, Who died up -- on Cal -- va -- ry; He’s keep -- ing me ev -- er in His bless -- ed fav -- or For He is a friend to me. (to me.)"
+
+[lyrics.2]
+text = "Once when I was stray -- ing, His word dis -- o -- bey -- ing, And noth -- ing but doom could see; I heard the sweet sto -- ry, His love did en -- fold me, For He is a friend to me."
+
+[parts.Alto.lyrics.2]
+text = "Once when I was stray -- ing, His word dis -- o -- bey -- ing, And noth -- ing but doom could see; I heard the sweet sto -- ry, His love did en -- fold me, For He is a friend to me. (to me.)"
+
+[parts.Tenor.lyrics.2]
+text = "Once when I was stray -- ing, His word dis -- o -- bey -- ing, And noth -- ing but doom could see; I heard the sweet sto -- ry, His love did en -- fold me, For He is a friend to me. (to me.)"
+
+[lyrics.3]
+text = "Of Je -- sus I’m sing -- ing, to Him I am cling -- ing, And nev -- er -- more will I roam; Tho’ friends may for -- sake me, His love will pro -- tect me, Un -- til He shall call me home."
+
+[parts.Alto.lyrics.3]
+text = "Of Je -- sus I’m sing -- ing, to Him I am cling -- ing, And nev -- er -- more will I roam; Tho’ friends may for -- sake me, His love will pro -- tect me, Un -- til He shall call me home. (me home.)"
+
+[parts.Tenor.lyrics.3]
+text = "Of Je -- sus I’m sing -- ing, to Him I am cling -- ing, And nev -- er -- more will I roam; Tho’ friends may for -- sake me, His love will pro -- tect me, Un -- til He shall call me home. (me home.)"
+
+[lyrics.4]
+text = "Some day up in heav -- en, thro’ grace He has giv -- en, With all the re -- deemed I’ll be; ’Tis there I will meet Him and praise Him for -- ev -- er, For what He has done for me."
+
+[parts.Alto.lyrics.4]
+text = "Some day up in heav -- en, thro’ grace He has giv -- en, With all the re -- deemed I’ll be; ’Tis there I will meet Him and praise Him for -- ev -- er, For what He has done for me. (for me.)"
+
+[parts.Tenor.lyrics.4]
+text = "Some day up in heav -- en, thro’ grace He has giv -- en, With all the re -- deemed I’ll be; ’Tis there I will meet Him and praise Him for -- ev -- er, For what He has done for me. (for me.)"
+
+[lyrics.chorus]
+text = "A friend to the friend -- less Is He, The Sav -- ior who died on the tree; He’ll pi -- lot me on -- ward while jour -- ney -- ing home -- ward, For He is a friend to me."
+
+[parts.Alto.lyrics.chorus]
+text = "A friend to the friend -- less Is He, The Sav -- ior who died on the tree; He’ll pi -- lot me on -- ward while jour -- ney -- ing home -- ward, For He is a friend to me. (to me.)"
+
+[parts.Tenor.lyrics.chorus]
+text = "A friend to the friend -- less Is He, The Sav -- ior who died on the tree; He’ll pi -- lot me on -- ward while jour -- ney -- ing home -- ward, For He is a friend to me. (to me.)"
