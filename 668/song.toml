@@ -1,0 +1,104 @@
+title = "Put God First"
+copyrights = [
+  "Lyrics and Music: J. R. Baxter, Jr., 1927 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Db"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 3
+phrase_breaks = ["5:48", "9:48", "13:48", "17:64", "21:48", "25:48"]
+optional_phrase_breaks = ["3:48", "7:48", "15:64", "23:48", "27:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. aes'4 | des''4 aes'4 c''4 bes'4 | aes'4 des'4 f'4 r4 | aes'2 aes'2 |
+aes'2. aes'4 | c''4 ges'4 bes'4 aes'4 | ges'4 ees'4 c''4 r4 | des''2 bes'2 |
+ees''2. aes'4 | f''4 ees''4 des''4 c''4 | bes'4 f'4 aes'4 r4 | r1 |
+r2. aes'4 | des''4 des''4 des''4 des''4 | des''4 des''4 des''4! r4 | aes'2 ees''2 |
+des''2. r4 | aes'2@c des''2 | c''2. r4 | aes'2 ees''2 |
+des''2. aes'4 | aes'4 aes'4 des''4 c''4 | bes'4 bes'4 bes'4 bes'4 | bes'4 bes'4 ees''4 des''4 |
+c''4 c''4 c''4 des''4 | c''4 c''4 f''4 ees''4 | des''4 des''4 des''4! r4 | f''2 ees''2 |
+des''2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. f'4 | f'4 f'4 aes'4 ges'4 | f'4 des'4 des'4 r4 | f'2 f'2 |
+ges'2. ges'4 | ges'4 ees'4 ges'4 f'4 | ees'4 c'4 ges'4 r4 | f'2 g'2 |
+aes'2. f'4 | aes'4 ges'4 f'4 ees'4 | des'4 des'4 f'4 r4 | r1 |
+r2. aes'4 | f'4 f'4 f'4 f'4 | f'4 f'4 e'4! r4 | f'2 ges'2 |
+f'2. r4 | f'2@c aes'2 | ges'2. r4 | ees'2 ges'2 |
+f'2. f'4 | f'4 f'4 f'4 aes'4 | ges'4 ges'4 ges'4 aes'4 | g'4 g'4 g'4 bes'4 |
+aes'4 aes'4 aes'4 bes'4 | a'4 a'4 a'4 c''4 | bes'4 f'4 g'4! r4 | aes'2 ges'2 |
+f'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+splice_lyrics_into = "soprano"
+notes = """
+s2. des'4 | aes4 des'4 des'4 des'4 | des'4 f4 aes4 r4 | des'2 b2 |
+c'2. c'4 | ees'4 c'4 c'4 c'4 | c'4 aes4 aes4 r4 | aes2 des'2 |
+c'2. r4 | r1 | r2. aes4 | ees'4 des'4 c'4 bes4 |
+aes4 ees4 f4 aes4 | aes4 aes4 aes4 aes4 | bes4 bes4 des'4! r4 | des'2 c'2 |
+aes2. r4 | r1@c | aes4 bes4 aes4 r4 | r1 |
+aes4 bes4 aes4 des'4 | des'4 des'4 aes4 des'4 | des'4 des'4 des'4 d'4 | ees'4 ees'4 bes4 ees'4 |
+ees'4 ees'4 ees'4 ees'4 | f'4 f'4 c'4 f'4 | f'4 des'4 fes'4! r4 | des'2 c'2 |
+aes2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+splice_lyrics_into = "soprano"
+notes = """
+s2. des4 | des4 des4 des4 des4 | des4 des4 des4 r4 | des2 d2 |
+ees2. aes4 | aes4 aes4 aes4 aes4 | aes4 aes4 aes4 r4 | des2 ees2 |
+aes,2. r4 | r1 | r2. f4 | ges4 f4 ees4 des4 |
+c4 c4 des4 aes4 | des4 des4 ces4 ces4 | bes,4 bes,4 beses,4! r4 | aes,2 aes,2 |
+des2. r4 | des2@c f2 | ees2. r4 | c2 aes,2 |
+des2. des4 | des4 des4 des4 f4 | ges4 ges4 ges4 f4 | ees4 ees4 ees4 g4 |
+aes4 aes4 aes4 g4 | f4 f4 f4 a4 | bes4 bes4 beses4! r4 | aes2 aes,2 |
+des2. s4
+"""
+
+[lyrics.1]
+text = "In ev’ -- ry -- thing you do or say, Put God first; Tho rough or smooth may be the way, Put God first; He see -- eth ev’ -- ry -- thing you do, Be care -- ful lest you prove un -- true, Put God first."
+
+[parts.Tenor.lyrics.1]
+text = "In ev’ -- ry -- thing you do or say, Put God first; Tho rough or smooth may be the way, Put God first; As swift life’s jour -- ney you pur -- sue, Be care -- ful lest you prove un -- true, Put God first."
+
+[parts.Bass.lyrics.1]
+text = "In ev’ -- ry -- thing you do or say, Put God first; Tho rough or smooth may be the way, Put God first; As swift life’s jour -- ney you pur -- sue, Be care -- ful lest you prove un -- true, Put God first."
+
+[lyrics.2]
+text = "When you are tempt -- ed to do wrong, Put God first; If sin -- ful men a -- round you throng, Put God first; It nev -- er pays right things to yield, Your strength for good be glad to wield, Put God first."
+
+[parts.Tenor.lyrics.2]
+text = "When you are tempt -- ed to do wrong, Put God first; If sin -- ful men a -- round you throng, Put God first; Tho Sa -- tan’s hordes may take the field, Your strength for good be glad to wield, Put God first."
+
+[parts.Bass.lyrics.2]
+text = "When you are tempt -- ed to do wrong, Put God first; If sin -- ful men a -- round you throng, Put God first; Tho Sa -- tan’s hordes may take the field, Your strength for good be glad to wield, Put God first."
+
+[lyrics.3]
+text = "When sor -- row’s winds a -- round you blow, Put God first; Tho all His plans you do not know, Put God first; “He holds the fu -- ture in His hands,” Your ver -- y soul be -- fore Him stands, Put God first."
+
+[parts.Tenor.lyrics.3]
+text = "When sor -- row’s winds a -- round you blow, Put God first; Tho all His plans you do not know, Put God first; The winds o -- bey His blest com -- mands, Your ver -- y soul be -- fore Him stands, Put God first."
+
+[parts.Bass.lyrics.3]
+text = "When sor -- row’s winds a -- round you blow, Put God first; Tho all His plans you do not know, Put God first; The winds o -- bey His blest com -- mands, Your ver -- y soul be -- fore Him stands, Put God first."
+
+[lyrics.chorus]
+text = "Put God first, Put God first; ’Tis He a -- lone can hold you fast, Can guide your feet till storms are past, And lead you safe -- ly home at last, Put God first."
