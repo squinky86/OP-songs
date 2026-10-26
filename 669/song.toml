@@ -1,0 +1,85 @@
+title = "Caring For His Own"
+copyrights = [
+  "Lyrics: James Rowe, 1928 (public domain)",
+  "Music: J. M. Henson, 1928 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 3
+phrase_breaks = ["1:64", "3:64", "6:48", "8:48", "10:64"]
+optional_phrase_breaks = ["4:64", "11:64"]
+non_breaking_phrase_breaks = ["6:8"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+c''8. a'16 d''8. c''16 a'8. f'16 bes'8. a'16 | a'8. bes'16 g'4. fis'8 g'8 a'8 | f'2. r4 |
+c''8. a'16 d''8. c''16 a'8. f'16 bes'8. a'16 | a'8. bes'16 g'4. c''8 d''8 e''8 | c''2. a'8@c bes'8 |
+c''8. a'16 d''8. a'16 c''2~ | c''2. f'8 g'8 | a'8. f'16 bes'8. f'16 a'2~ | a'2. r4 |
+f'8. g'16 a'8. c''16 e''8. d''16 c''8. a'16 | d''8. c''16 bes'8. e'16 a'4 g'4 | f'2. r4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+suppress_verses = [2, 3]
+suppress_verses_when = ["soprano"]
+notes = """
+f'8. f'16 f'8. f'16 f'8. f'16 f'8. f'16 | r4 e'8 e'8 e'8 r8 r4 | r8 c'8 d'8 b8 c'4 r4 |
+f'8. f'16 f'8. f'16 f'8. f'16 f'8. f'16 | r4 e'8 f'8 e'8 e'8 f'8 g'8 | e'8 f'8 g'8 f'8 e'4 r4@c |
+r2 r4 f'8 e'8 | f'8. f'16 f'8. f'16 f'4 r4 | r2 r4 d'8 cis'8 | d'8. d'16 d'8. d'16 d'4 r4 |
+d'8. e'16 f'8. a'16 gis'8. gis'16 a'8. f'16 | f'8. f'16 e'8. c'16 f'4 e'4 | c'2. r4
+"""
+
+[parts.Alto.lyrics.s1]
+text = "car -- ing for His own. yes, for His own."
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3]
+suppress_verses_when = ["soprano", "alto"]
+notes = """
+a8. c'16 bes8. a16 c'8. a16 d'8. c'16 | r4 bes8 bes8 bes8 r8 r4 | r8 a8 bes8 gis8 a4 r4 |
+a8. c'16 bes8. a16 c'8. a16 d'8. c'16 | r4 c'8 b8 c'8 c'8 b8 b8 | c'8 a8 bes8 a8 g4 r4@c |
+r2 r4 a8 bes8 | c'8. a16 d'8. a16 c'4 r4 | r2. f8 g8 | a8. f16 bes8. f16 a4 r4 |
+a8. c'16 c'8. c'16 b8. b16 c'8. c'16 | bes8. a16 g8. g16 c'4 bes4 | a2. r4
+"""
+
+[parts.Tenor.lyrics.s1]
+text = "car -- ing for His own. yes, for His own."
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3]
+suppress_verses_when = ["soprano", "alto", "tenor"]
+notes = """
+f8. f16 f8. f16 f8. f16 f8. f16 | r4 c8 c8 c8 r8 r4 | r8 f8 f8 f8 f4 r4 |
+f8. f16 f8. f16 f8. f16 f8. f16 | r4 g8 g8 g8 a8 g8 g8 | c2. r4@c |
+r2 r4 f8 g8 | a8. f16 bes8. f16 a4 r4 | r2. d8 e8 | f8. d16 g8. d16 f4 r4 |
+d8. c16 f8. f16 f8. f16 f8. f16 | f8. f16 c8. c16 c4 c4 | f2. r4
+"""
+
+[lyrics.1]
+text = "Life was sad -- ness, now ’tis glad -- ness, Such as I have nev -- er known. For I’m ev -- er with the Sav -- ior Who is @s1"
+
+[lyrics.2]
+text = "Storms may sweep me, He will keep me, I shall not be o -- ver -- thrown; For, up -- hold -- ing and in -- fold -- ing, He is @s1"
+
+[lyrics.3]
+text = "Oh, in glo -- ry His glad sto -- ry I shall sing be -- fore the throne; There a -- dore Him, bowed be -- fore Him, He is @s1"
+
+[lyrics.chorus]
+text = "He is car -- ing for His own, They are nev -- er left a -- lone; Close a -- bid -- ing, cheer -- ing, guid -- ing, He is car -- ing for His own."
+[lyrics.s1]
+text = "car -- ing for His own."
+
