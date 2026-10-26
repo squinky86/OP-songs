@@ -1,0 +1,103 @@
+title = "Home"
+copyrights = [
+  "Lyrics: Austin Larimore Grammer, 1927 (public domain)",
+  "Music: Frank Grammer, 1927 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Bb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 92
+verse_count = 3
+phrase_breaks = ["3:40", "5:40", "7:40", "9:40", "11:40", "13:40", "15:40"]
+non_breaking_phrase_breaks = ["4:40", "5:8", "8:40", "9:8", "14:40", "15:8", "16:40", "17:8"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s8 f'8 g'8 e'8
+| f'2~ f'8 bes'8 c''8 bes'8 | d''2~ d''8 d''8 c''8 bes'8 | g'2~ g'8 bes'8 c''8 d''8 | c''2~ c''8 f'8 g'8 e'8
+| f'2~ f'8 bes'8 c''8 bes'8 | d''2~ d''8 f''8 g''8 e''8 | f''2~ f''8 d''8 bes'8 c''8 | bes'2~ bes'8 r8@c r4
+| r8 bes'8 d''8 d''8 bes'8 r8 r4 | r8 d''8 bes'8 c''8 d''8 r8 r4 | r8 a'8 a'8 a'8 a'8 r8 r4 | r8 bes'8 bes'8 bes'8 bes'8 f'8 bes'8 d''8
+| f''2~ f''8 d''8 d''8 c''8 | bes'2~ bes'8 f''8 g''8 e''8 | f''2~ f''8 d''8 bes'8 c''8 | bes'2~ bes'8 s8 s4
+"""
+
+[parts.Soprano.lyrics.1]
+text = "My home on earth is dear to me, It’s full of joy and lib -- er -- ty; At night I love to kneel and pray, To God to lead me on life’s way."
+
+[parts.Soprano.lyrics.2]
+text = "There is a home, far up a -- bove, Where all is peace, where all is love, That home some day, I hope to see; And with my Sav -- ior ev -- er be."
+
+[parts.Soprano.lyrics.3]
+text = "Each day and night, dear Lord I pray, To keep me in the nar -- row way; And when my work on earth is o’er, I’ll dwell with Thee, on Ca -- naan’s shore."
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+suppress_verses = [2, 3]
+suppress_verses_when = ["soprano"]
+notes = """
+s2 s8 r8 r4
+| r8 f'8 d'8 ees'8 d'2( | f'8) d'8 bes'8 g'8 f'8 r8 r4 | r8 ees'8 ees'8 ees'8 ees'8 f'8 e'8 e'8 | f'8 f'8 e'8 e'8 f'8 r8 r4
+| r8 f'8 d'8 ees'8 d'2( | f'8) d'8 bes'8 g'8 f'8 r8 r4 | r8 bes'8 bes'8 bes'8 bes'8 bes'8 g'8 a'8 | bes'8 f'8 g'8 ges'8 f'8 r8@c r4
+| r8 g'8 g'8 g'8 g'8 r8 r4 | r8 f'8 d'8 ees'8 f'8 d'8 c'8 d'8 | d'2( ees'8) ees'8 d'8 ees'8 | d'2( f'8) r8 r4
+| r8 d''8 d''8 c''8 bes'8 bes'8 bes'8 a'8 | bes'8 f'8 g'8 g'8 f'8 r8 r4 | r8 bes'8 bes'8 bes'8 bes'8 bes'8 g'8 a'8 | bes'8 f'8 g'8 ges'8 f'8 s8 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3]
+suppress_verses_when = ["soprano", "alto"]
+notes = """
+s2 s8 r8 r4
+| r8 d'8 f8 g8 f2( | bes8) f8 g8 a8 bes8 r8 r4 | r8 bes8 c'8 bes8 g8 bes8 g8 bes8 | a8 a8 bes8 bes8 a8 r8 r4
+| r8 d'8 f8 g8 f2( | bes8) f8 g8 a8 bes8 r8 r4 | r8 d'8 f'8 d'8 d'8 f'8 d'8 ees'8 | d'8 d'8 d'8 c'8 d'8 r8@c r4
+| r8 d'8 bes8 bes8 d'8 r8 r4 | r8 bes8 bes8 bes8 bes8 bes8 a8 bes8 | c'2~ c'8 c'8 bes8 c'8 | d'2~ d'8 r8 r4
+| r8 f'8 f'8 ees'8 d'8 f'8 f'8 ees'8 | d'8 d'8 ees'8 ees'8 d'8 r8 r4 | r8 d'8 f'8 d'8 d'8 f'8 d'8 ees'8 | d'8 d'8 d'8 c'8 d'8 s8 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3]
+suppress_verses_when = ["soprano", "alto", "tenor"]
+notes = """
+s2 s8 r8 r4
+| r8 bes,8 bes,8 bes,8 bes,2~ | bes,8 bes,8 bes,8 bes,8 bes,8 r8 r4 | r8 ees8 ees8 ees8 ees8 d8 c8 c8 | f8 f8 g8 c8 f8 r8 r4
+| r8 bes,8 bes,8 bes,8 bes,2~ | bes,8 bes,8 bes,8 bes,8 bes,8 r8 r4 | r8 bes,8 d8 bes,8 f8 f8 g8 f8 | bes,2~ bes,8 bes,8@c d8 fis8
+| g2~ g8 bes8 a8 g8 | f2~ f8 r8 r4 | r8 f8 f8 f8 f8 r8 r4 | r8 bes,8 bes,8 bes,8 bes,8 r8 r4
+| r8 f8 f8 f8 bes8 bes8 f8 f8 | bes,2~ bes,8 r8 r4 | r8 bes,8 d8 bes,8 f8 f8 g8 f8 | bes,2~ bes,8 s8 s4
+"""
+
+[lyrics.1]
+text = "My home on earth is dear to me, It’s full of joy and lib -- er -- ty; and lib -- er -- ty; At night I love to kneel and pray, To God to lead me on life’s way. me on life’s way."
+
+[parts.Bass.lyrics.1]
+text = "My home on earth is dear to me, It’s full of joy and lib -- er -- ty; and lib -- er -- ty; At night I love to kneel and pray, To God to lead me on life’s way."
+
+[lyrics.2]
+text = "There is a home, far up a -- bove, Where all is peace, where all is love, where all is love, That home some day, I hope to see; And with my Sav -- ior ev -- er be. for -- ev -- er be."
+
+[parts.Bass.lyrics.2]
+text = "There is a home, far up a -- bove, Where all is peace, where all is love, where all is love, That home some day, I hope to see; And with my Sav -- ior ev -- er be."
+
+[lyrics.3]
+text = "Each day and night, dear Lord I pray, To keep me in the nar -- row way; the nar -- row way; And when my work on earth is o’er, I’ll dwell with Thee, on Ca -- naan’s shore. on Ca -- naan’s shore."
+
+[parts.Bass.lyrics.3]
+text = "Each day and night, dear Lord I pray, To keep me in the nar -- row way; the nar -- row way; And when my work on earth is o’er, I’ll dwell with Thee, on Ca -- naan’s shore."
+
+[lyrics.chorus]
+text = "Dear Lord we know You’re com -- ing soon, It may be night, it may be noon, The Bi -- ble says, we do not know, But let us be, pre -- pared to go."
+
+[parts.Alto.lyrics.chorus]
+text = "Dear Lord we know You’re com -- ing soon, It may be night, it may be noon, The Bi -- ble says, we do not know, we do not know. But let us be, pre -- pared to go. pre -- pared to go."
+
+[parts.Tenor.lyrics.chorus]
+text = "Dear Lord we know You’re com -- ing soon, It may be night, it may be noon, The Bi -- ble says, we do not know, we do not know. But let us be, pre -- pared to go. pre -- pared to go."
