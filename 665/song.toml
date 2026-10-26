@@ -1,0 +1,84 @@
+title = "Death Has Called Thee"
+copyrights = [
+  "Lyrics: Will W. Slater (arr. and partly written), 1928 (public domain)",
+  "Music: Will W. Slater, 1928 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 84
+verse_count = 3
+phrase_breaks = ["4:64", "8:64", "12:64", "16:48", "18:48", "20:48", "22:48"]
+optional_phrase_breaks = ["2:64", "6:64", "10:64", "14:64"]
+non_breaking_phrase_breaks = ["24:8"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+c''4. g'8 bes'8 aes'8 c'8 f'8 | ees'2 aes'4. r8 | g'4. aes'8 bes'8 des''8 c''8 b'8 | c''2. r4
+| c''4. des''8 c''8 bes'8 aes'8 g'8 | f'2 bes'4. r8 | bes'4. bes'8 c''8 bes'8 c''8 d''8 | ees''2( des''4!) r4
+| c''4. des''8 c''8 ees'8 d'8 f'8 | ees'2 aes'4. r8 | g'4. f'8 ees'8 des''8 c''8 b'8 | c''2. r4
+| c''4. des''8 ees''8 c''8 aes'8 ees'8 | g'2 f'4. r8 | ees'4. f'8 g'8 des''8 c''8 bes'8 | aes'2. g'8@c aes'8
+| bes'2~ bes'8 des''8 c''8 bes'8 | aes'8 c''2~ c''8 c''8 des''8 | ees''2~ ees''8 des''8 des''8 c''8 | bes'2~ bes'4! des''8 b'8
+| c''2~ c''8 bes'8 aes'8 g'8 | f'8 aes'2~ aes'8 g'8 f'8 | ees'2~ ees'8 des''8 c''8! bes'8 | aes'2~ aes'4 r4
+"""
+
+[parts.Soprano.lyrics.chorus]
+text = "Sweet -- est fair -- est, bright -- est flow -- er, How we loved thee none can tell, But we’ll meet thee up in heav -- en Where we’ll nev -- er say, “Fare -- well,”"
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+ees'4. c'8 des'8 c'8 aes8 des'8 | c'2 c'4. r8 | bes4. c'8 des'8 f'8 ees'8 d'8 | ees'2. r4
+| ees'4. f'8 ees'8 ees'8 ees'8 ees'8 | des'2 des'4. r8 | d'4. d'8 d'8 d'8 aes'8 aes'8 | g'2.! r4
+| ees'4. f'8 ees'8 c'8 b8 des'8 | c'2 ees'4. r8 | des'4. des'8 des'8 f'8 ees'8 d'8 | ees'2. r4
+| ees'4. ees'8 aes'8 ees'8 ees'8 ees'8 | ees'2 des'4. r8 | des'4. des'8 des'8 f'8 ees'8 des'8 | c'2. r4@c
+| g'4 g'4 g'8 bes'8 aes'8 g'8 | aes'8 aes'8 aes'8 aes'8 aes'8 aes'8 r4 | aes'4 g'4 aes'8 aes'8 g'8 aes'8 | g'8 g'8 aes'8 aes'8 g'4! r4
+| ees'4 f'4 ees'8 ees'8 ees'8 ees'8 | des'8 f'8 f'8 f'8 f'8 f'8 r4 | c'4 c'4 c'8 f'8 ees'8! des'8 | c'8 ees'8 f'8 d'8 ees'4 r4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+aes4. ees8 f8 ees8 ees8 aes8 | aes2 ees4. r8 | ees4. aes8 g8 g8 g8 g8 | aes2. r4
+| aes4. aes8 aes8 g8 aes8 aes8 | aes2 f4. r8 | f4. f8 aes8 f8 bes8 bes8 | bes2.! r4
+| aes4. aes8 aes8 aes8 aes8 aes8 | aes2 c'4. r8 | bes4. aes8 g8 g8 aes8 g8 | aes2. r4
+| aes4. bes8 c'8 aes8 aes8 aes8 | aes2 aes4. r8 | g4. aes8 bes8 g8 aes8 g8 | aes2. r4@c
+| ees'4 ees'4 ees'8 ees'8 ees'8 des'8 | c'8 ees'8 ees'8 ees'8 ees'8 ees'8 r4 | c'4 bes4 c'8 ees'8 ees'8 ees'8 | ees'8 ees'8 d'8 d'8 ees'4! r4
+| aes4 aes4 aes8 g8 aes8 aes8 | aes8 des'8 des'8 des'8 des'8 des'8 r4 | aes4 g4 aes8 aes8 g8! g8 | aes8 c'8 des'8 b8 c'4 r4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+aes,4. aes,8 aes,8 aes,8 aes,8 aes,8 | aes,2 aes,4. r8 | ees4. ees8 ees8 ees8 ees8 ees8 | aes,2. r4
+| aes,4. aes,8 aes,8 bes,8 c8 c8 | des2 des4. r8 | bes,4. bes,8 bes,8 bes,8 bes,8 bes,8 | ees2.! r4
+| aes,4. aes,8 aes,8 aes,8 aes,8 aes,8 | aes,2 aes,4. r8 | ees4. ees8 ees8 ees8 ees8 ees8 | aes,2. r4
+| aes4. aes8 aes8 aes8 c8 c8 | des2 des4. r8 | ees4. ees8 ees8 ees8 ees8 ees8 | aes,2. r4@c
+| ees4 ees4 ees8 ees8 ees8 ees8 | aes8 aes8 aes8 aes8 aes8 aes8 r4 | aes4 ees4 aes8 c'8 bes8 aes8 | ees8 ees8 f8 f8 ees4! r4
+| aes,4 aes,4 aes,8 bes,8 c8 c8 | des8 des8 des8 des8 des8 des8 r4 | ees4 ees4 des8 des8 ees8! ees8 | aes,2~ aes,4 r4
+"""
+
+[lyrics.1]
+text = "Death has called thee, lit -- tle dar -- ling, From our side and earth -- ly home; And we know that thou art wait -- ing For thy dear ones here to come, To be with thee up in heav -- en, With that bright im -- mor -- tal throng; Where we’ll dwell with thee for -- ev -- er, In that hap -- py land of song."
+
+[lyrics.2]
+text = "Death has called thee lit -- tle dar -- ling, Called thee in thy ear -- ly bloom; Now thy lit -- tle form is ly -- ing, In the cold and si -- lent tomb, Lit -- tle hands are gent -- ly fold -- ed, Qui -- et now thy dain -- ty feet; Bright -- est eyes are closed for -- ev -- er, Gone are smiles that were so sweet."
+
+[lyrics.3]
+text = "“I will wait for you, dear mam -- ma, Some day pa -- pa, you’ll come too; To the realms of joy e -- ter -- nal, For I love you, yes, I do!” Yes, my dar -- ling, we will meet you, In a bright -- er world than this; Won’t that be a hap -- py meet -- ing, In that home of per -- fect bliss!"
+
+[lyrics.chorus]
+text = "Sweet -- est, fair -- est, bright -- est flow -- er, love -- ly flow -- er, How we loved thee, none can tell, no one can tell, But we’ll meet thee up in heav -- en up in heav -- en, Where we’ll nev -- er say, “Fare -- well,” no sad fare -- well!"
+
+[parts.Bass.lyrics.chorus]
+text = "Sweet -- est, fair -- est, bright -- est flow -- er, love -- ly flow -- er, How we loved thee, none can tell, no one can tell, But we’ll meet thee up in heav -- en up in heav -- en, Where we’ll nev -- er say, “Fare -- well,”"
