@@ -1,7 +1,6 @@
 title = "Death Has Called Thee"
 copyrights = [
-  "Lyrics: Will W. Slater (arr. and partly written), 1928 (public domain)",
-  "Music: Will W. Slater, 1928 (public domain)",
+  "Lyrics and Music: Will W. Slater, 1928 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
 key_signature = "Ab"
@@ -12,6 +11,7 @@ verse_count = 3
 phrase_breaks = ["4:64", "8:64", "12:64", "16:48", "18:48", "20:48", "22:48"]
 optional_phrase_breaks = ["2:64", "6:64", "10:64", "14:64"]
 non_breaking_phrase_breaks = ["24:8"]
+commentary = "<p>“In memory of my littly daughter Pauline, who died April 26, 1914. Age 2 years, 7 months and 16 days and tenderly inscribed to my wife and baby Thelma.”</p>"
 
 [parts.Soprano]
 choral_type = "soprano"
