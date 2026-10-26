@@ -1,0 +1,73 @@
+title = "O Wonderful City!"
+copyrights = [
+  "Lyrics: James Rowe, 1928 (public domain)",
+  "Music: Homer F. Morris, 1928 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 72
+verse_count = 3
+phrase_breaks = ["3:40", "5:40", "7:40", "9:40", "13:40"]
+optional_phrase_breaks = ["11:40", "15:40"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. s4 d'8
+| g'8. g'16 g'8 e'8 d'8 g'8 | b'8. ais'16 b'8 g'4 b'8 | d''8. cis''16 d''8 b'8 a'8 g'8 | g'8. fis'16 g'8 a'4 d'8
+| g'8. g'16 g'8 e'8 d'8 g'8 | b'8. ais'16 b'8 g'4 b'8 | d''8. c''16 d''8 b'8 a'8 g'8 | b'8 b'8 a'8 g'4! b'8@c
+| d''8. cis''16 d''8 b'8 a'8 g'8 | b'8. ais'16 b'8 g'4 b'8 | d''8. cis''16 d''8 b'8 a'8 g'8 | g'8. a'16 b'8 a'4! d'8
+| g'8. g'16 g'8 e'8 d'8 g'8 | b'8. ais'16 b'8 g'4 b'8 | d''8. c''16 d''8 b'8 a'8 g'8 | b'8 b'8 a'8 g'4! s8
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. s4 b8
+| d'8. d'16 d'8 c'8 b8 d'8 | g'8. g'16 g'8 d'4 g'8 | g'8. g'16 g'8 g'8 d'8 d'8 | e'8. e'16 e'8 fis'4 d'8
+| d'8. d'16 d'8 c'8 b8 d'8 | g'8. g'16 g'8 d'4 g'8 | g'8. g'16 g'8 g'8 d'8 d'8 | g'8 g'8 fis'8 d'4! g'8@c
+| g'8. g'16 g'8 g'8 d'8 d'8 | g'8. g'16 g'8 d'4 g'8 | g'8. g'16 g'8 g'8 d'8 d'8 | e'8. e'16 g'8 fis'4! d'8
+| d'8. d'16 d'8 c'8 b8 d'8 | g'8. g'16 g'8 d'4 g'8 | g'8. g'16 g'8 g'8 d'8 d'8 | g'8 g'8 fis'8 d'4! s8
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. s4 g8
+| b8. b16 b8 g8 g8 b8 | d'8. cis'16 d'8 b4 d'8 | b8. ais16 b8 d'8 c'8 b8 | b8. a16 b8 d'4 c'8
+| b8. b16 b8 g8 g8 b8 | d'8. cis'16 d'8 b4 d'8 | b8. ais16 b8 d'8 c'8 b8 | d'8 d'8 c'8 b4! d'8@c
+| b8. ais16 b8 d'8 c'8 b8 | d'8. cis'16 d'8 b4 d'8 | b8. ais16 b8 d'8 c'8 b8 | b8. b16 cis'8 d'4! c'8
+| b8. b16 b8 g8 g8 b8 | d'8. cis'16 d'8 b4 d'8 | b8. ais16 b8 d'8 c'8 b8 | d'8 d'8 c'8 b4! s8
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. s4 g,8
+| g,8. g,16 g,8 g,8 g,8 g8 | g8. g16 g8 g4 g8 | g8. g16 g8 g8 g8 g8 | e8. e16 e8 d4 d8
+| g,8. g,16 g,8 g,8 g,8 g8 | g8. g16 g8 g4 g8 | g8. g16 g8 g8 g8 g8 | d8 d8 d8 g,4! g8@c
+| g8. g16 g8 g8 g8 g8 | g8. g16 g8 g4 g8 | g8. g16 g8 g8 g8 g8 | e8. e16 a,8 d4! d8
+| g,8. g,16 g,8 g,8 g,8 g8 | g8. g16 g8 g4 g8 | g8. g16 g8 g8 g8 g8 | d8 d8 d8 g,4! s8
+"""
+
+[lyrics.1]
+text = "O won -- der -- ful cit -- y! I long to be there, Thy mar -- vel -- ous glad -- ness and glo -- ry to share; I long for a stroll on thy glo -- ri -- fied shore, With dear ones and friends who have gone on be -- fore."
+
+[lyrics.2]
+text = "O won -- der -- ful cit -- y! where pleas -- ures a -- bound, Where sad -- ness and sor -- row and sin are not found! I long to be -- hold thy bright pave -- ments of gold, And walk with the mar -- tyrs and sag -- es of old."
+
+[lyrics.3]
+text = "O won -- der -- ful cit -- y! ere long I may see The man -- sion my Lord is pre -- par -- ing for me; Where I shall for -- ev -- er re -- joic -- ing -- ly sing The heav -- en -- ly songs to my glo -- ri -- ous King."
+
+[lyrics.chorus]
+text = "O won -- der -- ful cit -- y! O mar -- vel -- ous place, Where I shall be -- hold Him who saves me by grace! For “That will be glo -- ry” and joy ev -- er -- more To see the Re -- deem -- er I love and a -- dore."
