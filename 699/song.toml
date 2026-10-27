@@ -1,0 +1,81 @@
+title = "Lord, I’m Coming Home"
+copyrights = [
+  "Lyrics and Music: William J. Kirkpatrick, 1892 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 6
+phrase_breaks = ["5:48", "9:64", "13:64"]
+optional_phrase_breaks = ["3:64", "7:64", "11:64", "15:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. ees'4 |
+c''4. c''8 aes'4. aes'8 | f'8( aes'4) f'8 ees'2 | aes'4 aes'4 c''8 c''4. | bes'2. ees'4 |
+c''4. c''8 aes'4. aes'8 | f'8( aes'4) f'8 ees'4. r8 | aes'4 aes'4 bes'8 bes'4. | aes'2. r4 |
+c''8@c c''4. aes'2 | aes'8 aes'4. f'2 | ees'4 c''4 c''4 aes'4 | bes'2. r4 |
+c''4. c''8 aes'4. aes'8 | f'8( aes'4) f'8 ees'4. r8 | aes'4 aes'4 bes'8 bes'4. | aes'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. ees'4 |
+ees'4. ees'8 c'4. ees'8 | des'8( f'4) des'8 c'2 | c'4 c'4 ees'8 ees'4. | ees'2. ees'4 |
+ees'4. ees'8 c'4. ees'8 | des'8( f'4) des'8 c'4. r8 | c'4 c'4 des'8 des'4. | c'2. r4 |
+ees'8@c ees'4. c'2 | f'8 f'4. des'2 | c'4 ees'4 ees'4 ees'4 | ees'2. r4 |
+ees'4. ees'8 c'4. ees'8 | des'8( f'4) des'8 c'4. r8 | c'4 c'4 des'8 des'4. | c'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. aes4 |
+aes4. aes8 ees4. aes8 | aes4. aes8 aes2 | ees4 ees4 aes8 aes4. | g2. g4 |
+aes4. aes8 ees4. aes8 | aes4. aes8 aes4. r8 | aes4 aes4 g8 g4. | aes2. r4 |
+aes8@c aes4. aes2 | aes8 aes4. aes2 | aes4 aes4 aes4 aes4 | g2. r4 |
+aes4. aes8 ees4. aes8 | aes4. aes8 aes4. r8 | aes4 aes4 g8 g4. | aes2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. aes4 |
+aes,4. aes,8 aes,4. aes,8 | des4. des8 aes,2 | aes,4 aes,4 aes8 aes4. | ees2. ees4 |
+aes,4. aes,8 aes,4. c8 | des4. des8 aes,4. r8 | f4 f4 ees8 ees4. | aes,2. r4 |
+aes,8@c aes,4. aes,2 | des8 des4. des2 | aes,4 aes,4 aes,4 c4 | ees2. r4 |
+aes,4. aes,8 aes,4. c8 | des4. des8 aes,4. r8 | f4 f4 ees8 ees4. | aes,2. s4
+"""
+
+[lyrics.1]
+text = "I’ve wan -- dered far a -- way from God, Now I’m com -- ing home; The paths of sin too long I’ve trod, Lord, I’m com -- ing home."
+
+[lyrics.2]
+text = "I’ve wast -- ed ma -- ny pre -- cious years, Now I’m com -- ing home; I now re -- pent with bit -- ter tears, Lord, I’m com -- ing home."
+
+[lyrics.3]
+text = "I’m tired of sin and stray -- ing, Lord, Now I’m com -- ing home; I’ll trust Thy love, be -- lieve Thy word, Lord, I’m com -- ing home."
+
+[lyrics.4]
+text = "My soul is sick, my heart is sore, Now I’m com -- ing home; My strength re -- new, my hope re -- store, Lord, I’m com -- ing home."
+
+[lyrics.5]
+text = "My on -- ly hope, my on -- ly plea, Now I’m com -- ing home; That Je -- sus died, and died for me, Lord, I’m com -- ing home."
+
+[lyrics.6]
+text = "I need His cleans -- ing blood I know, Now I’m com -- ing home; O wash me whit -- er than the snow, Lord, I’m com -- ing home."
+
+[lyrics.chorus]
+text = "Com -- ing home, com -- ing home, Nev -- er -- more to roam; O -- pen wide Thine arms of love, Lord, I’m com -- ing home."
