@@ -8,7 +8,7 @@ key_signature = "Db"
 time_sig_numerator = 3
 time_sig_denominator = 4
 tempo_bpm = 105
-verse_count = 6
+verse_count = 7
 phrase_breaks = ["5:32", "9:48", "13:48"]
 
 [parts.Soprano]
@@ -61,12 +61,15 @@ text = "Lord, now in -- deed I find Thy pow’r and Thine a -- lone, Can _ chang
 text = "For noth -- ing good have I Where -- by Thy grace to claim; I’ll _ wash my gar -- ments white In the blood of Cal -- v’ry’s Lamb."
 
 [lyrics.4]
-text = "And now com -- plete in Him My robe His right -- eous -- ness, Close _ shel -- tered ’neath His side, I _ am di -- vine -- ly blest."
+text = "Then down be -- neath His cross I'll lay my sin -- sick soul, For _ naught have I to bring,— Thy _ grace must make me whole."
 
 [lyrics.5]
-text = "When from my dy -- ing bed My ran -- somed soul shall rise, “Je -- sus died my soul to save,” Shall _ rend the vault -- ed skies."
+text = "And now com -- plete in Him My robe His right -- eous -- ness, Close _ shel -- tered ’neath His side, I _ am di -- vine -- ly blest."
 
 [lyrics.6]
+text = "When from my dy -- ing bed My ran -- somed soul shall rise, “Je -- sus died my soul to save,” Shall _ rend the vault -- ed skies."
+
+[lyrics.7]
 text = "And when be -- fore the throne I stand in Him com -- plete, I’ll _ lay my tro -- phies down All _ down at Je -- sus’ feet."
 
 [lyrics.chorus]
