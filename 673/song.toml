@@ -1,0 +1,66 @@
+title = "Purer in Heart"
+copyrights = [
+  "Lyrics: Fannie E. Davison, 1877 (public domain)",
+  "Music: James H. Fillmore, 1877 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 88
+verse_count = 3
+phrase_breaks = ["4:64", "8:64", "12:64"]
+optional_phrase_breaks = ["10:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+b'2 c''4 b'4 | b'4. a'8 g'2 | g'2 fis'4 e'4 | d'2. r4
+| a'2 a'4 a'4 | b'4. c''8 d''2 | d''2 cis''4 cis''4 | d''2. r4
+| d''2 c''4 b'4 | b'4. a'8 g'2 | g'2 fis'4 e'4 | e'4. d'8 d'2
+| a'2 a'4 a'4 | b'2. r4 | c''2 b'4 a'4 | g'2. r4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+d'2 e'4 d'4 | d'4. c'8 b2 | e'2 d'4 c'4 | b2. r4
+| d'2 d'4 d'4 | d'4. d'8 d'2 | fis'2 e'4 g'4 | fis'2. r4
+| g'2 d'4 d'4 | d'4. c'8 b2 | e'2 d'4 c'4 | c'4. b8 b2
+| d'2 d'4 d'4 | d'2. r4 | e'2 d'4 d'4 | d'2. r4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+g2 g4 g4 | g4. fis8 g2 | g2 g4 g4 | g2. r4
+| fis2 fis4 fis4 | g4. a8 b2 | a2 a4 a4 | a2. r4
+| b2 a4 g4 | g4. fis8 g2 | g2 g4 g4 | g4. g8 g2
+| fis2 fis4 fis4 | g2. r4 | g2 g4 c'4 | b2. r4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+g2 g4 g4 | d4. d8 e2 | c2 c4 c4 | g,2. r4
+| d2 d4 d4 | g4. g8 g2 | a2 a,4 a,4 | d2. r4
+| g2 g4 g4 | d4. d8 e2 | c2 c4 c4 | g,4. g,8 g,2
+| d2 d4 d4 | g,2. r4 | c2 d4 d4 | g,2. r4
+"""
+
+[lyrics.1]
+text = "Pur -- er in heart, O God, Help me to be; May I de -- vote my life Whol -- ly to Thee. Watch Thou my way -- ward feet, Guide me with coun -- sel sweet; Pur -- er in heart, Help me to be."
+
+[lyrics.2]
+text = "Pur -- er in heart, O God, Help me to be; Teach me to do Thy will Most lov -- ing -- ly. Be Thou my Friend and Guide, Let me with Thee a -- bide; Pur -- er in heart, Help me to be."
+
+[lyrics.3]
+text = "Pur -- er in heart, O God, Help me to be; That I Thy Ho -- ly face One day may see. Keep me from se -- cret sin, Reign Thou my soul with -- in; Pur -- er in heart, Help me to be."
