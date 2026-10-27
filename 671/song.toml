@@ -1,0 +1,72 @@
+title = "Come Today"
+copyrights = [
+  "Lyrics and Music: Frank Grammer, 1928 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 3
+phrase_breaks = ["5:32", "9:32", "13:32"]
+optional_phrase_breaks = ["3:32", "7:32", "11:32", "15:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 d'8. g'16 |
+b'4. d''8 a'8. b'16 | g'4 d'4 g'8. b'16 | d''4. e''8 d''8. b'16 | a'2 d'8. g'16 |
+b'4. ais'8 b'8. d''16 | d''4 c''4 b'8. a'16 | g'4. c''8 b'8. a'16 | g'2 g'8.@c g'16 |
+c''2 c''8. c''16 | c''2 g'8. a'16 | b'2 d''8. b'16 | a'2 d'8. g'16 |
+b'4. ais'8 b'8. d''16 | d''4 c''4 b'8. a'16 | g'4. c''8 b'8. a'16 | g'2 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 d'8. d'16 |
+g'4. g'8 fis'8. fis'16 | d'4 d'4 d'8. d'16 | g'4. g'8 g'8. g'16 | fis'2 d'8. d'16 |
+g'4. g'8 g'8. f'16 | e'4 e'4 e'8. e'16 | d'4. a'8 g'8. fis'16 | g'2 e'8.@c e'16 |
+e'2 e'8. e'16 | e'2 d'8. d'16 | g'2 g'8. g'16 | fis'2 d'8. d'16 |
+g'4. g'8 g'8. f'16 | e'4 e'4 e'8. e'16 | d'4. a'8 g'8. fis'16 | g'2 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 b8. b16 |
+d'4. b8 c'8. d'16 | b4 b4 b8. b16 | b4. c'8 b8. d'16 | d'2 b8. b16 |
+d'4. cis'8 d'8. g16 | g4 g4 g8. a16 | b4. d'8 d'8. c'16 | g2 g8.@c g16 |
+g2 g8. g16 | g2 b8. c'16 | d'2 b8. d'16 | d'2 b8. b16 |
+d'4. cis'8 d'8. g16 | g4 g4 g8. a16 | b4. d'8 d'8. c'16 | g2 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 g8. g16 |
+g4. d8 d8. d16 | g4 g4 g8. g16 | g4. g8 g8. g16 | d2 g8. g16 |
+g4. g8 g8. b,16 | c4 c4 c8. c16 | d4. d8 d8. d16 | g,2 c8.@c c16 |
+c2 c8. c16 | c2 g8. g16 | g2 g8. g16 | d2 g8. g16 |
+g4. g8 g8. b,16 | c4 c4 c8. c16 | d4. d8 d8. d16 | g,2 s4
+"""
+
+[lyrics.1]
+text = "Je -- sus calls O hear His plead -- ing, Way -- ward child do not de -- lay; He in -- vites you, will you hear Him? Come, O come to Him to -- day. @s1 He in -- vites you, will you hear Him? Come, O come to Him to -- day."
+
+[lyrics.2]
+text = "Hark! the gen -- tle voice of Je -- sus, Com -- eth sweet -- ly,— wilt thou hear? Hear His cry of love and pit -- y, Come, o -- bey His voice so dear. @s1 Hear His cry of love and pit -- y, Come, o -- bey His voice so dear."
+
+[lyrics.3]
+text = "You have heard the glo -- rious ti -- dings, Do not doubt, oh do not fear; ’Tis the Son of God that’s plead -- ing, Will you not the gos -- pel hear? @s1 ’Tis the Son of God that’s plead -- ing, Will you not the gos -- pel hear?"
+
+[lyrics.s1]
+text = "Come to -- day, come to -- day, Come to -- day, come to -- day;"

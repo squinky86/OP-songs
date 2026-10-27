@@ -1,0 +1,101 @@
+title = "Where He Needs Me I’ll Go"
+copyrights = [
+  "Lyrics: Lawrence Love, 1925 (public domain)",
+  "Music: N. W. Allphin, 1925 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Db"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 100
+verse_count = 3
+phrase_breaks = ["5:40", "9:40", "13:40", "17:40", "21:40", "25:40", "29:40"]
+optional_phrase_breaks = ["11:40", "19:40", "23:40", "27:40", "31:24"]
+non_breaking_phrase_breaks = ["11:16", "13:16", "20:40", "24:40", "28:40"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. s4 f'8 | aes'4 f'8 aes'4 des''8 | des''4 bes'8 des''8 c''8 bes'8 | aes'4 aes'8 ges'4 f'8 | ees'4.~ ees'4 f'8
+| aes'4 f'8 aes'4 des''8 | des''4 bes'8 bes'8 c''8 des''8 | ees''4 des''8 c''4 bes'8 | aes'4.~ aes'4 aes'8
+| des''4 f'8 aes'4 bes'8 | c''4.~ c''4 aes'8 | c''4 ges'8 bes'4 c''8 | des''4.~ des''4 des''8
+| des''4 c''8 des''4 bes'8 | aes'4 g'8 aes'8 des''8 bes'8 | aes'4 f''8 f''4 ees''8 | des''4.~ des''4 aes'8@c
+| aes'4 f'8 aes'8 bes'8 c''8 | des''4. aes'4 f'8 | aes'4 f'8 ges'8 aes'8 bes'8 | c''4.~ c''4 ges'8
+| ges'4 ees'8 ges'8 aes'8 bes'8 | c''4. ges'4 ges'8 | f'4 aes'8 aes'4 bes'8 | aes'4.~ aes'4 aes'8
+| aes'4 f'8 aes'8 bes'8 c''8 | des''4. aes'4 f'8 | aes'4 des''8 f'8 aes'8 a'8 | bes'4.~ bes'4 des''8
+| des''4 c''8 des''4 bes'8 | aes'4 g'8 aes'8 des''8 bes'8 | aes'4 f''8 f''4 ees''8 | des''4.~ des''4 s8
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+splice_lyrics_into = "soprano"
+notes = """
+s4. s4 des'8 | f'4 des'8 f'4 f'8 | ges'4 ges'8 ges'8 ges'8 ges'8 | f'4 f'8 ees'4 des'8 | c'4.~ c'4 des'8
+| f'4 des'8 f'4 f'8 | ges'4 ges'8 ges'8 ges'8 aes'8 | g'4 g'8 g'4 g'8 | aes'4.( ges'4) f'8
+| f'4 des'8 f'4 f'8 | ges'4 ges'8 ges'4 ges'8 | ges'4 ees'8 ges'4 ges'8 | f'4 e'8 f'4 f'8
+| ges'4 ges'8 ges'4 ges'8 | f'4 e'8 f'8 aes'8 ges'8 | f'4 aes'8 aes'4 ges'8 | f'4.~ f'4 f'8@c
+| f'4 des'8 f'8 f'8 f'8 | f'4. f'4 des'8 | f'4 des'8 ees'8 f'8 f'8 | ges'4 ges'8 ges'4 ees'8
+| ees'4 c'8 ees'8 c'8 des'8 | ees'4. ees'4 ees'8 | des'4 f'8 f'4 ges'8 | f'4 ees'8 f'4 f'8
+| f'4 des'8 f'8 f'8 f'8 | f'4. f'4 des'8 | f'4 f'8 des'8 f'8 f'8 | ges'4 ges'8 ges'4 ges'8
+| ges'4 ges'8 ges'4 ges'8 | f'4 e'8 f'8 aes'8 ges'8 | f'4 aes'8 aes'4 ges'8 | f'4.~ f'4 s8
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+splice_lyrics_into = "soprano"
+notes = """
+s4. s4 aes8 | des'4 aes8 des'4 aes8 | bes4 des'8 bes8 c'8 des'8 | des'4 des'8 aes4 aes8 | aes4.~ aes4 aes8
+| des'4 aes8 des'4 aes8 | bes4 des'8 des'8 ees'8 des'8 | bes4 bes8 ees'4 des'8 | c'4.~ c'4 des'8
+| aes4 aes8 des'4 aes8 | aes4 aes8 aes4 aes8 | aes4 aes8 aes4 aes8 | aes4 g8 aes4 aes8
+| bes4 aes8 bes4 des'8 | des'4 des'8 des'8 des'8 des'8 | des'4 des'8 des'4 aes8 | aes4.~ aes4 des'8@c
+| des'4 aes8 des'8 des'8 aes8 | aes4. des'4 aes8 | des'4 aes8 aes8 des'8 aes8 | aes4 aes8 aes4 aes8
+| aes4 aes8 aes8 aes8 aes8 | aes4. c'4 aes8 | aes4 des'8 des'4 des'8 | des'4 c'8 des'4 des'8
+| des'4 aes8 des'8 des'8 aes8 | aes4. des'4 aes8 | des'4 aes8 aes8 des'8 des'8 | des'4 des'8 des'4 bes8
+| bes4 aes8 bes4 des'8 | des'4 des'8 des'8 des'8 des'8 | des'4 des'8 des'4 aes8 | aes4.~ aes4 s8
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+splice_lyrics_into = "soprano"
+notes = """
+s4. s4 des8 | des4 des8 des4 des8 | ges4 ges8 ges8 ges8 ges8 | des4 des8 c4 des8 | aes,4.~ aes,4 des8
+| des4 des8 des4 des8 | ges4 ges8 ges8 ges8 f8 | ees4 ees8 ees4 ees8 | aes,4.~ aes,4 des8
+| des4 des8 des4 d8 | ees4 ees8 aes4 aes,8 | aes,4 aes,8 aes,4 aes,8 | des4 des8 des4 des8
+| ges4 ges8 ges4 ges8 | des4 des8 des8 f8 ges8 | aes4 aes8 aes,4 aes,8 | des4.~ des4 des8@c
+| des4 des8 des8 des8 des8 | des4. des4 des8 | des4 des8 des8 des8 d8 | ees4 ees8 aes,4 aes,8
+| aes,4 aes,8 aes,8 aes,8 aes,8 | aes,4. aes,4 aes,8 | des4 des8 des4 des8 | des4 aes,8 des4 des8
+| des4 des8 des8 des8 des8 | des4. des4 des8 | des4 des8 des8 des8 des8 | ges4 ges8 ges4 ges8
+| ges4 ges8 ges4 ges8 | des4 des8 des8 f8 ges8 | aes4 aes8 aes,4 aes,8 | des4.~ des4 s8
+"""
+
+[lyrics.1]
+text = "It mat -- ters not where Je -- sus calls me To serve Him here be -- low, Tho’ it may be where count -- less dan -- gers Are lurk -- ing, yet, I’ll go; For Him, I’ll give my all, (my all,) On me He may re -- ly, (re -- ly,) Wher -- ev -- er du -- ty here may call, I will an -- swer, here am I."
+
+[parts.Soprano.lyrics.1]
+text = "It mat -- ters not where Je -- sus calls me To serve Him here be -- low, Tho’ it may be where count -- less dan -- gers Are lurk -- ing, yet, I’ll go; For Him, I’ll give my all, On me He may re -- ly, Wher -- ev -- er du -- ty here may call, I will an -- swer, here am I."
+
+[lyrics.2]
+text = "Tho’ it may be on moun -- tain drear -- y, Or des -- ert’s burn -- ing sand, With will -- ing hand I’ll help in spread -- ing The gos -- pel thro’ the land; What -- e’er the task may be, (may be,) That to my lot may fall, (may fall,) I’ll trust in Him who cares for me, And go for -- ward at His call."
+
+[parts.Soprano.lyrics.2]
+text = "Tho’ it may be on moun -- tain drear -- y, Or des -- ert’s burn -- ing sand, With will -- ing hand I’ll help in spread -- ing The gos -- pel thro’ the land; What -- e’er the task may be, That to my lot may fall, I’ll trust in Him who cares for me, And go for -- ward at His call."
+
+[lyrics.3]
+text = "There may be some -- one sick or hun -- gry, Yes, ev -- en near my door, Who needs the help that I am a -- ble To give from out my store; To light -- en grief or woe, (or woe,) Or bur -- dens which they bear, (they bear,) In Je -- sus’ name, I’ll glad -- ly go, An -- y -- time, and an -- y -- where!"
+
+[parts.Soprano.lyrics.3]
+text = "There may be some -- one sick or hun -- gry, Yes, ev -- en near my door, Who needs the help that I am a -- ble To give from out my store; To light -- en grief or woe, Or bur -- dens which they bear, In Je -- sus’ name, I’ll glad -- ly go, An -- y -- time, and an -- y -- where!"
+
+[lyrics.chorus]
+text = "I’ll go wher -- ev -- er He needs me, To serve, be it night yes, night or day, I’ll fol -- low on where He leads me, His lov -- ing voice I will o -- bey: What -- e’er He bids me to do here, That oth -- ers His grace His grace may know, To du -- ty’s call I will be true, Where He needs me I will go."
+
+[parts.Soprano.lyrics.chorus]
+text = "I’ll go wher -- ev -- er He needs me, To serve, be it night or day, I’ll fol -- low on where He leads me, His lov -- ing voice o -- bey: What -- e’er He bids me to do here, That oth -- ers His grace may know, To du -- ty’s call I will be true, Where He needs me I will go."
