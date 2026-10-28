@@ -1,0 +1,88 @@
+title = "I’ll Live On"
+copyrights = [
+  "Lyrics and Music: Thomas J. Laney, 1914 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Bb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 4
+phrase_breaks = ["5:48", "9:48", "13:48"]
+optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
+non_breaking_phrase_breaks = ["4:40", "8:40", "10:16", "10:40", "11:16", "13:16", "14:16", "14:40", "15:16", "17:8"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. f'8 g'8
+| bes'4 bes'4 bes'8 f'8 d'8 f'8 | g'4 g'4 f'4 bes'8 bes'8 | d''2~ d''8 d''8 c''8 bes'8 | c''2. f'8 g'8
+| bes'4 bes'4 bes'8 f'8 d'8 f'8 | g'4 g'4 f'4 bes'8 bes'8 | d''2~ d''8 bes'8 a'8 c''8 | bes'2. f'8@c f'8
+| bes'2~ bes'8 f'8 bes'8 bes'8 | d''2. d''8 c''8 | bes'4 bes'4 bes'4 bes'8 g'8 | f'2. f'8 f'8
+| bes'2~ bes'8 f'8 bes'8 bes'8 | d''2. d''8 c''8 | bes'4 d''4 f''4! d''8 c''8 | bes'2.! s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. d'8 ees'8
+| d'4 f'4 f'8 d'8 bes8 d'8 | ees'4 ees'4 d'4 r4 | f'4 g'4 f'8 f'8 f'8 e'8 | f'2. d'8 ees'8
+| d'4 f'4 f'8 d'8 bes8 d'8 | ees'4 ees'4 d'4 r4 | f'4 g'4 bes'8 f'8 f'8 f'8 | f'2. d'8@c d'8
+| f'4 g'4 f'8 d'8 d'8 f'8 | f'4 g'4 f'4 bes'8 a'8 | g'4 g'4 g'4 g'8 ees'8 | d'4 d'4 d'4 d'8 d'8
+| f'4 g'4 f'8 d'8 d'8 f'8 | f'4 g'4 f'4 bes'8 a'8 | g'4 bes'4 a'4! bes'8 a'8 | bes'8 f'8 d'8 ees'8 f'4! s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. bes8 bes8
+| f4 d'4 d'8 bes8 f8 bes8 | bes4 bes4 bes4 r4 | bes4 bes4 bes8 bes8 c'8 c'8 | a2. bes8 bes8
+| f4 d'4 d'8 bes8 f8 bes8 | bes4 bes4 bes4 r4 | bes4 d'4 f'8 d'8 c'8 ees'8 | d'2. bes8@c bes8
+| d'4 ees'4 d'8 bes8 f8 d'8 | bes4 bes4 bes4 f'8 ees'8 | d'4 ees'4 ees'4 ees'8 bes8 | bes4 bes4 bes4 bes8 bes8
+| d'4 ees'4 d'8 bes8 f8 d'8 | bes4 bes4 bes4 f'8 ees'8 | d'4 bes4 c'4! f'8 ees'8 | d'8 d'8 bes8 c'8 d'4! s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. bes,8 bes,8
+| bes,4 bes,4 bes,8 bes,8 bes,8 bes,8 | ees4 ees4 bes,4 r4 | bes4 g4 bes8 bes8 a8 g8 | f2. bes,8 bes,8
+| bes,4 bes,4 bes,8 bes,8 bes,8 bes,8 | ees4 ees4 bes,4 r4 | bes4 g4 f8 f8 f8 f8 | bes,2. bes,8@c bes,8
+| bes,4 bes,4 bes,8 bes,8 bes,8 bes,8 | bes4 g4 bes4 bes8 f8 | g4 ees4 ees4 ees8 ees8 | bes,4 bes,4 bes,4 bes,8 bes,8
+| bes,4 bes,4 bes,8 bes,8 bes,8 bes,8 | bes4 g4 bes4 bes8 f8 | g4 g4 f4! f8 f8 | bes,2.! s4
+"""
+
+[lyrics.1]
+text = "’Tis a sweet and glo -- rious tho’t that comes to me, @s1 Je -- sus saved my soul from death and now I’m free, @s1"
+
+[lyrics.2]
+text = "When my bod -- y’s slumb’ -- ring in the cold, cold clay, @s1 There to sleep in Je -- sus till the judg -- ment day, @s1"
+
+[lyrics.3]
+text = "When the world’s on fire, and dark -- ness veils the sun, @s1 Men will cry and to the rocks and moun -- tains run, @s1"
+
+[lyrics.4]
+text = "In the glo -- ry land with Je -- sus on the throne, @s1 For e -- ter -- nal a -- ges sing -- ing home sweet home, @s1"
+
+[lyrics.chorus]
+text = "I’ll live on, yes, I’ll live on, In e -- ter -- ni -- ty I’ll live on, I’ll live on, yes, I’ll live on, In e -- ter -- ni -- ty I’ll live on."
+
+[parts.Alto.lyrics.chorus]
+text = "I’ll live on, on, on, yes, I’ll live on, on, on, In e -- ter -- ni -- ty I’ll live on, and on, I’ll live on, on, on, yes, I’ll live on, and on, In e -- ter -- ni -- ty I’ll live on. yes, I’ll live on."
+
+[parts.Tenor.lyrics.chorus]
+text = "I’ll live on, on, on, yes, I’ll live on, on, on, In e -- ter -- ni -- ty I’ll live on, and on, I’ll live on, on, on, yes, I’ll live on, and on, In e -- ter -- ni -- ty I’ll live on. yes, I’ll live on."
+
+[parts.Bass.lyrics.chorus]
+text = "I’ll live on, on, on, yes, I’ll live on, on, on, In e -- ter -- ni -- ty I’ll live on, and on, I’ll live on, on, on, yes, I’ll live on, and on, In e -- ter -- ni -- ty I’ll live on."
+
+[lyrics.s1]
+text = "I’ll live on, yes, I’ll live on,"
