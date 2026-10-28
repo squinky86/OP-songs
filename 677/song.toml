@@ -1,0 +1,100 @@
+# Source: Tidings of Joy (1928) #51, p. 52 (hymnary TJ1928), seven-shape closed-score
+# SATB plate; notes and lyrics transcribed from the page scan. Header "WILL W. SLATER,
+# OWNER. 1928"; words "P. E. H.", music "P. E. Hall" (hymnary: P. E. Hall, 1928).
+# Key C (no signature; shapes agree: C = do), 4/4, 16th-tick pickup. No tempo printed;
+# 88 bpm is a guess.
+# Form: straight verse + refrain, no D.S. The refrain begins on the "If we'd" pickup
+# after "way." (M9). In the refrain S/A sing "If we'd show__ them, yes show them the
+# way", "They would come__", while T/B answer "just on-ly show them the right way
+# to-day" and "come glad-ly come"; the closing "(right way.)" is sung by Alto and Tenor
+# (their moving notes under the held "way.").
+# Text fixes: v1 plate "Its" -> "It’s"; type-damaged "brignt" (v4) -> "bright" and
+# "Fa-tner" (v3) -> "Fa-ther" (broken h); "gloryland" split glo-ry-land. Kept as printed:
+# v2 "re-pent’s and o-bey’s".
+# M16 bass staff "them the" prints three heads (C4/B3, G3, G2); kept T = C4/B3, B = G2
+# (complete chords); the alternative is T = G3 G3 as in the parallel verse bar M8.
+title = "Show Them the Way"
+copyrights = [
+  "Lyrics and Music: P. E. Hall, 1928 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "C"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 88
+verse_count = 4
+phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "11:48", "13:48"]
+optional_phrase_breaks = ["15:48"]
+non_breaking_phrase_breaks = ["14:16", "14:48", "17:16"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. e'8 f'8 |
+g'4 g'8 fis'8 g'4 e''8 d''8 | c''4 c''8 a'8 c''4 b'8 a'8 | g'4 e'8 g'8 c''4 b'8 c''8 | d''2. c''8 d''8 |
+e''4 e''8 dis''8 e''4 e''8 d''8 | c''4 bes'8 g'8 f'4! c''8 f''8 | e''4 e''8 dis''8 e''4 c''8 d''8 | c''2. e'8@c f'8 |
+g'2~ g'4 e''8 d''8 | c''4 c''8 c''8 c''4 bes'8 bes'8 | a'4 a'8 a'8 d''4 e''8 e''8 | d''2. c''8 d''8 |
+e''2~ e''4 e''8 d''8 | c''4 c''8 a'8 g'4 g'8 g'8 | a'4 d''8 c''8 b'4 e''8 d''8 | c''2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. c'8 d'8 |
+e'4 e'8 dis'8 e'4 g'8 f'8 | e'4 f'8 f'8 f'4 g'8 f'8 | e'4 c'8 e'8 e'4 g'8 fis'8 | g'2. e'8 f'8 |
+g'4 g'8 fis'8 g'4 g'8 g'8 | g'4 g'8 g'8 f'4! f'8 a'8 | g'4 g'8 fis'8 g'4 e'8 f'8 | e'2. c'8@c d'8 |
+e'2~ e'4 g'8 f'8 | e'4 e'8 e'8 e'4 g'8 g'8 | f'4 f'8 g'8 fis'4 fis'8 fis'8 | g'2. e'8 f'8 |
+g'2~ g'4 g'8 gis'8 | a'4 a'8 f'8 e'4 g'8 g'8 | fis'4 fis'8 fis'8 g'4 g'8 f'8 | e'4 f'4 e'4 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. g8 g8 |
+c'4 c'8 c'8 c'4 c'8 b8 | a4 a8 c'8 a4 c'8 c'8 | c'4 c'8 c'8 c'4 d'8 d'8 | g2. g8 g8 |
+c'4 c'8 c'8 c'4 c'8 b8 | c'4 c'8 c'8 c'4! a8 c'8 | c'4 c'8 c'8 c'4 g8 g8 | g2. g8@c g8 |
+c'4 c'8 c'8 c'4 c'8 b8 | a4 a8 a8 a4 c'8 c'8 | c'4 c'8 cis'8 d'4 c'8 c'8 | g2. g8 g8 |
+c'4 c'8 c'8 c'4 c'8 c'8 | c'4 c'8 c'8 c'4 c'8 c'8 | c'4 a8 a8 g4 c'8 b8 | c'4 a4 g4 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. c8 c8 |
+c4 c8 c8 c4 c'8 g8 | a4 f8 f8 f4 f8 f8 | c4 c8 bes,8 a,4 d8 d8 | g,2. c8 c8 |
+c4 c8 c8 c4 c8 d8 | e4 e8 e8 f4! f8 f8 | g4 g8 g8 g4 g,8 g,8 | c2. c8@c c8 |
+c4 c8 c8 c4 c8 g,8 | a,4 a,8 a,8 a,4 e8 e8 | f4 f8 e8 d4 d8 d8 | g,2. c8 c8 |
+c4 c8 c8 c4 c8 e8 | f4 f8 f8 c4 e8 e8 | d4 d8 d8 g4 g,8 g,8 | c2. s4
+"""
+
+[lyrics.1]
+text = "It’s a straight nar -- row road to that bliss -- ful a -- bode, That we trav -- el a -- long day by day; There are man -- y now sad who could be made so glad, If we’d just on -- ly show them the way."
+
+[lyrics.2]
+text = "Tell them Je -- sus re -- ceives ev -- ’ry soul who be -- lieves, And re -- pent’s and o -- bey’s all His word; And the bliss that a -- waits them no heart can con -- ceive, If they live true to Je -- sus the Lord."
+
+[lyrics.3]
+text = "If the mes -- sage of love from the Fa -- ther a -- bove, We would give to the wea -- ry and sad; How our souls would re -- joice when they made Him their choice, Then our hearts would for -- ev -- er be glad."
+
+[lyrics.4]
+text = "From the bright glo -- ry -- land, from the Fa -- ther’s right hand, Je -- sus came, bled and died for us all; And He’s call -- ing to -- day, sin -- ner turn not a -- way, Will you now heed the great gos -- pel call?"
+
+[lyrics.chorus]
+text = "If we’d show them, yes show them the way, They would turn and the Sav -- ior o -- bey; They would come and from sin be made free, If we’d just on -- ly show them the way."
+
+[parts.Alto.lyrics.chorus]
+text = "If we’d show them, yes show them the way, They would turn and the Sav -- ior o -- bey; They would come and from sin be made free, If we’d just on -- ly show them the way. right way."
+
+[parts.Tenor.lyrics.chorus]
+text = "If we’d just on -- ly show them the right way to -- day, They would turn and the Sav -- ior o -- bey; They would come glad -- ly come, and from sin be made free, If we’d just on -- ly show them the way. right way."
+
+[parts.Bass.lyrics.chorus]
+text = "If we’d just on -- ly show them the right way to -- day, They would turn and the Sav -- ior o -- bey; They would come glad -- ly come, and from sin be made free, If we’d just on -- ly show them the way."
