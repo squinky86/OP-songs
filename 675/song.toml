@@ -1,0 +1,76 @@
+title = "There Is a Crown for Me"
+copyrights = [
+  "Lyrics and Music: R. E. Campbell, 1909 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "A"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 3
+phrase_breaks = ["5:48", "9:48", "13:48"]
+optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
+non_breaking_phrase_breaks = ["11:16", "13:16"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. e'4
+| a'4 a'4 cis''4 a'4 | a'4 fis'4 e'4 e'4 | a'4 a'4 cis''4 e''4 | e''2. cis''4
+| cis''4 e''4 cis''4 a'4 | a'4 fis'4 e'4 a'8[ b'8] | cis''4 e''4 cis''4 b'4 | a'2. cis''8[@c d''8]
+| e''4 e''4 cis''4 e''4 | e''2. a'8[ b'8] | cis''4 cis''4 a'4 cis''4 | b'2. cis''8[ d''8]
+| e''4 e''4 cis''4 a'4 | a'4 fis'4 e'4 a'8[ b'8] | cis''4 e''4 cis''4 b'4 | a'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. cis'4
+| e'4 e'4 a'4 e'4 | fis'4 d'4 cis'4 cis'4 | e'4 e'4 a'4 a'4 | gis'2. e'4
+| e'4 a'4 a'4 e'4 | fis'4 d'4 cis'4 e'4 | a'4 a'4 a'4 e'4 | e'2. e'4@c
+| a'4 a'4 a'4 a'4 | a'4 a'4 a'4 e'4 | a'4 a'4 e'4 a'4 | gis'4 gis'4 gis'4 e'4
+| a'4 a'4 a'4 e'4 | fis'4 d'4 cis'4 e'4 | a'4 a'4 a'4 e'4 | e'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. a4
+| cis'4 cis'4 e'4 e'4 | d'4 a4 a4 a4 | cis'4 cis'4 e'4 cis'4 | b2. a4
+| a4 cis'4 e'4 e'4 | d'4 a4 a4 cis'8[ d'8] | e'4 cis'4 e'4 d'4 | cis'2. a8[@c b8]
+| cis'4 cis'4 e'4 cis'4 | cis'4 cis'4 cis'4 cis'8[ d'8] | e'4 e'4 cis'4 e'4 | e'4 e'4 e'4 a8[ b8]
+| cis'4 cis'4 e'4 e'4 | d'4 a4 a4 cis'8[ d'8] | e'4 cis'4 e'4 d'4 | cis'2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. a,4
+| a,4 a,4 a,4 cis4 | d4 fis4 a4 a4 | a4 a4 a4 a4 | e2. a4
+| a4 a4 a4 cis4 | d4 fis4 a4 a4 | a4 a4 e4 e4 | a,2. a4@c
+| a4 a4 a4 a4 | a4 a4 a4 a4 | a4 a4 a4 a4 | e4 e4 e4 a4
+| a4 a4 a4 cis4 | d4 fis4 a4 a4 | a4 a4 e4 e4 | a,2. s4
+"""
+
+[lyrics.1]
+text = "Some day be -- fore the throne I’ll stand. And with the ran -- somed be; When they re -- ceive their shin -- ing crowns, There will be one for me."
+
+[lyrics.2]
+text = "Some day I’ll dwell with white- -- robed throngs. From sin’s de -- file -- ment free; And sing our bless -- ed Sav -- ior’s praise Thro’ -- out e -- ter -- ni -- ty."
+
+[lyrics.3]
+text = "Some day, when Je -- sus calls me home, His glo -- ry I shall see; And thro’ His grace, I then shall wear A crown of vic -- to -- ry."
+
+[lyrics.chorus]
+text = "There is a crown for me, for me, There is a crown for me; for me; When saints a -- dore Christ ev -- er -- more, There is a crown for me."
+
+[parts.Soprano.lyrics.chorus]
+text = "There is a crown for me, There is a crown for me; When saints a -- dore Christ ev -- er -- more, There is a crown for me."
