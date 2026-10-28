@@ -1,0 +1,116 @@
+title = "Our Future Home"
+copyrights = [
+  "Lyrics: Lacy L. Holt, 1928 (public domain)",
+  "Music: Silas L. Cox, 1928 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "A"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 96
+verse_count = 3
+phrase_breaks = ["4:48", "8:48", "12:48", "16:48", "20:48", "24:48", "28:48"]
+optional_phrase_breaks = ["2:48", "6:48", "10:48", "14:48", "18:48", "29:48"]
+non_breaking_phrase_breaks = ["15:48", "23:48", "32:16"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+e'4 d'8 cis'4 e'8 | a'4 b'8 cis''4 e''8 | cis''4 b'8 a'4 fis'8 | a'4.~ a'4. |
+e'4 d'8 cis'4 e'8 | a'4 b'8 cis''4 a'8 | fis'4 a'8 b'4 cis''8 | b'4.~ b'4. |
+cis''4 e''8 cis''4 bis'8 | cis''4 b'8 a'4. | a'4 b'8 a'4 b'8 | a'4 fis'8 e'4. |
+e'4 fis'8 a'4 b'8 | cis''4 bis'8 cis''4 e''8 | cis''4 a'8 e'4 b'8 | a'4.~ a'4. |
+cis''4.@c cis''4. | cis''4 e''8 cis''4 b'8 | a'4 b'8 a'4 fis'8 | e'4.~ e'4. |
+e'4 fis'8 a'4 b'8 | cis''4. cis''4. | b'4 a'8 fis'4 cis''8 | b'4.~ b'4. |
+cis''4. cis''4. | cis''4 e''8 cis''4 b'8 | a'4 b'8 a'4 fis'8 | e'4.~ e'4. |
+e'4 fis'8 a'4 b'8 | cis''4 bis'8 cis''4 e''8 | cis''4 a'8 e'4 b'8 | a'4.~ a'4.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+suppress_verses = [2, 3]
+suppress_verses_when = ["soprano"]
+notes = """
+cis'4 b8 a4 cis'8 | e'4 e'8 e'4 a'8 | e'4 eis'8 fis'4 d'8 | cis'4.~ cis'4. |
+cis'4 b8 a4 cis'8 | e'4 e'8 e'4 e'8 | dis'4 dis'8 dis'4 dis'8 | e'4.~ e'4. |
+e'4 a'8 a'4 a'8 | a'4 gis'8 fis'4. | fis'4 fis'8 e'4 eis'8 | fis'4 d'8 cis'4. |
+cis'4 d'8 e'4 e'8 | e'4 dis'8 e'4 a'8 | e'4 cis'8 d'4 d'8 | cis'4 bis8 cis'4. |
+e'4@c a'8 fis'4 a'8 | e'4. e'4 eis'8 | fis'4 fis'8 fis'4 d'8 | cis'4 b8 cis'4. |
+cis'4 d'8 e'4 e'8 | e'4. e'4. | dis'4 dis'8 dis'4 dis'8 | e'4 dis'8 e'4. |
+e'4 a'8 fis'4 a'8 | e'4. e'4 eis'8 | fis'4 fis'8 fis'4 d'8 | cis'4 bis8 cis'4. |
+cis'4 d'8 e'4 e'8 | e'4 dis'8 e'4 a'8 | e'4 cis'8 d'4 d'8 | cis'4 bis8 cis'4.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3]
+suppress_verses_when = ["soprano", "alto"]
+notes = """
+a4 e8 e4 a8 | a4 gis8 a4 cis'8 | a4 a8 a4 a8 | a4( fis8 e4.) |
+a4 e8 e4 a8 | a4 gis8 a4 a8 | a4 fis8 a4 a8 | gis4.~ gis4. |
+a4 cis'8 e'4 dis'8 | e'4 d'8 cis'4. | a4 a8 a4 a8 | a4 a8 a4. |
+a4 a8 a4 gis8 | a4 a8 a4 cis'8 | a4 a8 gis4 gis8 | a4 fis8 e4. |
+a4.@c a4. | a4 cis'8 a4 a8 | a4 d'8 d'4 a8 | a4.~ a4. |
+a4 a8 a4 gis8 | a4. a4. | b4 cis'8 b4 a8 | gis4 fis8 gis4. |
+a4. a4. | a4 cis'8 a4 a8 | a4 d'8 d'4 a8 | a4.~ a4. |
+a4 a8 a4 gis8 | a4 a8 a4 cis'8 | a4 a8 gis4 gis8 | a4 fis8 e4.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3]
+suppress_verses_when = ["soprano", "alto", "tenor"]
+notes = """
+a,4 a,8 a,4 a,8 | cis4 e8 a4 a8 | a,4 cis8 d4 d8 | a,4.~ a,4. |
+a,4 a,8 a,4 a,8 | cis4 e8 a4 cis8 | b,4 b,8 b,4 b,8 | e4.~ e4. |
+a4 a8 a4 a8 | a4 e8 fis4. | d4 d8 cis4 cis8 | d4 d8 a,4. |
+a,4 a,8 cis4 e8 | a4 a8 a4 a8 | e4 e8 e4 e8 | a,4.~ a,4. |
+a,4.@c a,4. | a,4 a,8 a,4 cis8 | d4 d8 d4 fis8 | a4.~ a4. |
+a,4 a,8 cis4 e8 | a4. fis4. | b,4 b,8 b,4 b,8 | e4.~ e4. |
+a,4. a,4. | a,4 a,8 a,4 cis8 | d4 d8 d4 fis8 | a4.~ a4. |
+a,4 a,8 cis4 e8 | a4 a8 a4 a8 | e4 e8 e4 e8 | a,4.~ a,4.
+"""
+
+[lyrics.1]
+text = "Far be -- yond all earth -- ly sor -- row free from pain and strife, There’s a home of man -- y man -- sions and e -- ter -- nal life; Just be -- yond life’s flit -- ting dreams, where the heal -- ing wa -- ter gleams, There we’ll dwell with friends for -- ev -- er ’round the shin -- ing throne."
+
+[parts.Alto.lyrics.1]
+text = "Far be -- yond all earth -- ly sor -- row free from pain and strife, There’s a home of man -- y man -- sions and e -- ter -- nal life; Just be -- yond life’s flit -- ting dreams, where the heal -- ing wa -- ter gleams, There we’ll dwell with friends for -- ev -- er ’round the shin -- ing shin -- ing throne."
+
+[parts.Tenor.lyrics.1]
+text = "Far be -- yond all earth -- ly sor -- row free from pain and strife, There’s a home of man -- y man -- sions and e -- ter -- nal life; Just be -- yond life’s flit -- ting dreams, where the heal -- ing wa -- ter gleams, There we’ll dwell with friends for -- ev -- er ’round the shin -- ing shin -- ing throne."
+
+[lyrics.2]
+text = "In that home of joy and glad -- ness there’s no sad good -- by, For the Sav -- ior reigns in glo -- ry in that home on high; We shall go, ’twill not be long, to that hap -- py land of song, There we’ll sing the praise of Je -- sus while the a -- ges roll."
+
+[parts.Alto.lyrics.2]
+text = "In that home of joy and glad -- ness there’s no sad good -- by, For the Sav -- ior reigns in glo -- ry in that home on high; We shall go, ’twill not be long, to that hap -- py land of song, There we’ll sing the praise of Je -- sus while the a -- ges a -- ges roll."
+
+[parts.Tenor.lyrics.2]
+text = "In that home of joy and glad -- ness there’s no sad good -- by, For the Sav -- ior reigns in glo -- ry in that home on high; We shall go, ’twill not be long, to that hap -- py land of song, There we’ll sing the praise of Je -- sus while the a -- ges a -- ges roll."
+
+[lyrics.3]
+text = "There is now a hope of glo -- ry an -- chored in my soul, And a faith that’s lead -- ing up -- ward to the shin -- ing goal; If we’re faith -- ful in the strife, we’ll re -- ceive a crown of life, In that home of glo -- ry wait -- ing for the ran -- somed throng."
+
+[parts.Alto.lyrics.3]
+text = "There is now a hope of glo -- ry an -- chored in my soul, And a faith that’s lead -- ing up -- ward to the shin -- ing goal; If we’re faith -- ful in the strife, we’ll re -- ceive a crown of life, In that home of glo -- ry wait -- ing for the ran -- somed ran -- somed throng."
+
+[parts.Tenor.lyrics.3]
+text = "There is now a hope of glo -- ry an -- chored in my soul, And a faith that’s lead -- ing up -- ward to the shin -- ing goal; If we’re faith -- ful in the strife, we’ll re -- ceive a crown of life, In that home of glo -- ry wait -- ing for the ran -- somed ran -- somed throng."
+
+[lyrics.chorus]
+text = "There the liv -- ing wa -- ter flows be -- neath the throne, Where the tree of life is bloom -- ing on and on, Oh how sweet ’twill be to meet our loved ones gone; Where no part -- ings, where no pain nor sor -- rows ev -- er come."
+
+[parts.Alto.lyrics.chorus]
+text = "Oh, the liv -- ing wa -- ter it flows be -- neath the great white throne, Where the tree of life is bloom -- ing on and ev -- er on, Oh how sweet ’twill be, yes, to meet our loved ones o -- ver there, Where no part -- ings, where no pain nor sor -- rows ev -- er come. a -- gain."
+
+[parts.Tenor.lyrics.chorus]
+text = "There the liv -- ing wa -- ter flows be -- neath the throne, Where the tree of life is bloom -- ing on and ev -- er on, Oh how sweet ’twill be to meet our loved ones gone; Where no part -- ings, where no pain nor sor -- rows ev -- er come. a -- gain."
