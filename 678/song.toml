@@ -1,0 +1,126 @@
+title = "All Will Be Well When the Night Is Past"
+copyrights = [
+  "Lyrics: Edgar Jackson, 1928 (public domain)",
+  "Music: J. M. Henson, 1928 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 84
+verse_count = 4
+phrase_breaks = ["3:40", "5:40", "7:40", "9:40", "11:40", "13:40", "15:40"]
+non_breaking_phrase_breaks = ["4:40", "5:8", "8:40", "9:8", "12:40", "13:8", "16:40", "17:8"]
+commentary = "<p>“The dying words of Rev. J. F. Purser, pastor of West End, Baptist Church, Atlanta, Ga. ‘All will be well when the night is past.’ ”</p>"
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s8 c'8 f'8 g'8
+| a'2~ a'8 bes'16 bes'16 a'8 g'8 | f'2~ f'8 a'8 c''8 d''8
+| c''2~ c''8 a'8 g'8 a'8 | g'2~ g'8 c'8 f'8 g'8
+| a'2~ a'8 c''16 c''16 ees''8 ees''8 | d''2~ d''8 d''8 c''8 d''8
+| c''2~ c''8 bes'16 bes'16 a'8 g'8 | f'2~ f'8 r8@c r4
+| r8 d''16 d''16 c''8 d''8 f''2( | c''8) d''16 d''16 c''8 cis''8 d''8 r8 r4
+| r8 c''16 c''16 c''8 cis''8 d''8 a'16 a'16 b'8 bes'8 | c''2~ c''8 r8 r4
+| r8 d''16 d''16 c''8 d''8 f''2( | c''8) d''16 d''16 c''8 cis''8 d''8! r8 r4
+| r8 c''8 c''8 cis''8 d''8! c''16 c''16 a'8 g'8 | f'2~ f'8 s8 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+suppress_verses = [2, 3, 4]
+suppress_verses_when = ["soprano"]
+notes = """
+s2 s8 r8 r4
+| r8 f'8 f'8 f'8 f'8 r8 r4 | r8 d'16 d'16 d'8 d'8 d'8 r8 r4
+| r8 f'8 f'8 f'8 f'8 f'8 f'8 f'8 | e'8 e'8 d'8 f'8 e'8 r8 r4
+| r8 f'8 f'8 f'8 f'8 r8 r4 | r8 f'16 f'16 f'8 f'8 f'8 r8 r4
+| r8 f'8 f'8 f'8 f'8 f'16 f'16 f'8 e'8 | f'8 f'16 f'16 e'8 d'8 c'8 r8@c r4
+| r8 a'16 a'16 a'8 a'8 a'2( | f'8) f'16 f'16 f'8 g'8 f'8 r8 r4
+| r8 f'16 f'16 f'8 g'8 f'8 f'16 f'16 f'8 f'8 | e'8 e'16 e'16 e'8 f'8 g'8 r8 r4
+| r8 a'16 a'16 a'8 a'8 a'2( | f'8) f'16 f'16 f'8 g'8 f'8! r8 r4
+| r8 f'8 f'8 g'8 f'8! f'16 f'16 f'8 e'8 | f'8 f'16 f'16 e'8 d'8 c'8 s8 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3, 4]
+suppress_verses_when = ["soprano", "alto"]
+notes = """
+s2 s8 a8 a8 bes8 |
+c'2~ c'8 d'16 d'16 c'8 bes8 | a2~ a8 r8 r4 |
+r8 a8 a8 a8 a8 c'8 b8 b8 | c'8 c'8 b8 b8 c'8 a8 a8 bes8 |
+c'2~ c'8 a16 a16 c'8 c'8 | bes2~ bes8 r8 r4 |
+r8 a8 a8 a8 a8 d'16 d'16 c'8 bes8 | a8 d'16 d'16 c'8 bes8 a8 d'16@c d'16 c'8 d'8 |
+f'2( c'8) d'16 d'16 c'8 d'8 | a2~ a8 f16 g16 a8 a8 |
+a2~ a8 d'16 d'16 d'8 d'8 | c'8 g16 g16 g8 a8 bes8 d'16 d'16 c'8 d'8 |
+f'2( c'8) d'16 d'16 c'8 d'8 | a2~ a8! d'8 c'8 d'8 |
+a2~ a8! c'16 c'16 c'8 bes8 | a8 d'16 d'16 c'8 bes8 a8 s8 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3, 4]
+suppress_verses_when = ["soprano", "alto", "tenor"]
+notes = """
+s2 s8 r8 r4 |
+r8 f8 f8 f8 f8 r8 r4 | r8 d16 d16 d8 d8 d8 r8 r4 |
+r8 f8 f8 f8 f8 f8 g8 g8 | c8 c8 g8 g8 c8 r8 r4 |
+r8 f8 f8 f8 f8 r8 r4 | r8 bes,16 bes,16 bes,8 bes,8 bes,8 r8 r4 |
+r8 f8 f8 f8 f8 bes,16 bes,16 c8 c8 | f2~ f8 r8@c r4 |
+r8 f16 f16 f8 f8 f2~ | f8 f16 f16 f8 e8 d8 r8 r4 |
+r8 f16 f16 f8 e8 d8 d16 d16 g8 g8 | c2~ c8 r8 r4 |
+r8 f16 f16 f8 f8 f2~ | f8 f16 f16 f8 e8 d8! r8 r4 |
+r8 f8 f8 e8 d8! a,16 a,16 c8 c8 | f2~ f8 s8 s4
+"""
+
+[lyrics.1]
+text = "Tho’ storms may rage and the night be dark, The winds may toss our lit -- tle bark; our lit -- tle bark; Tho’ waves may roar with the chil -- ly blast, @s1"
+
+[parts.Soprano.lyrics.1]
+text = "Tho’ storms may rage and the night be dark, The winds may toss our lit -- tle bark; Tho’ waves may roar with the chil -- ly blast, @s1"
+
+[lyrics.2]
+text = "We strug -- gle here with the surg -- ing tide; While cross -- ing o’er life’s o -- cean wide; life’s o -- cean wide; The voyage will end for it can -- not last, @s1"
+
+[parts.Soprano.lyrics.2]
+text = "We strug -- gle here with the surg -- ing tide; While cross -- ing o’er life’s o -- cean wide; The voyage will end for it can -- not last, @s1"
+
+[lyrics.3]
+text = "The Pi -- lot true now, is at the wheel, With faith in Him, no fear we’ll feel; no fear we’ll feel; We shall with -- stand all the an -- gry blast, @s1"
+
+[parts.Soprano.lyrics.3]
+text = "The Pi -- lot true now, is at the wheel, With faith in Him, no fear we’ll feel; We shall with -- stand all the an -- gry blast, @s1"
+
+[lyrics.4]
+text = "Some friends we know now are on that shore Where sin and night can come no more; can come no more; We shall reach home with our Friend at last, @s1"
+
+[parts.Soprano.lyrics.4]
+text = "Some friends we know now are on that shore Where sin and night can come no more; We shall reach home with our Friend at last, @s1"
+
+[lyrics.chorus]
+text = "When the morn -- ing breaks on the oth -- er shore, All the gloom of night then will all be o’er; then will all be o’er; It is com -- ing soon, it is com -- ing fast, All will be well when the night is past. when the night is past."
+
+[parts.Soprano.lyrics.chorus]
+text = "When the morn -- ing breaks on the oth -- er shore, All the gloom of night then will all be o’er; It is com -- ing soon, it is com -- ing fast, All will be well when the night is past."
+
+[parts.Bass.lyrics.chorus]
+text = "When the morn -- ing breaks on the oth -- er shore, All the gloom of night then will all be o’er; It is com -- ing soon, it is com -- ing fast, All will be well when the night is past."
+
+[lyrics.s1]
+text = "All will be well when the night is past. when the night is past."
+
+[parts.Soprano.lyrics.s1]
+text = "All will be well when the night is past."
+
+[parts.Bass.lyrics.s1]
+text = "All will be well when the night is past."
