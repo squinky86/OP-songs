@@ -1,0 +1,80 @@
+title = "Jesus Will Give You Rest"
+copyrights = [
+  "Lyrics: Fanny J. Crosby, 1879 (public domain)",
+  "Music: John R. Sweney, 1879 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 4
+phrase_breaks = ["3:64", "5:48", "9:64", "13:48"]
+optional_phrase_breaks = ["7:64", "11:64", "15:64"]
+non_breaking_phrase_breaks = ["13:16"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. d'8 d'8 |
+g'4 b'8 a'8 g'4 g'8 b'8 | d''4 e''8 d''8 b'2 | d''4 a'8 b'8 c''4 b'8( a'8) | g'2( d'4) d'8 d'8 |
+g'4 b'8 a'8 g'4 g'8 b'8 | d''4 e''8 d''8 b'2 | d''4 a'8 b'8 c''4 b'8( a'8) | g'2. r4 |
+d''4@c a'8 b'8 c''2 | b'4 g'8 a'8 g'2 | d'4 g'8 b'8 d''4 c''8( b'8) | a'2. d'4 |
+g'4 b'8 a'8 g'4 g'8( b'8) | d''8 d''8 e''8 d''8 b'2 | d''4 a'8 b'8 c''4 b'8( a'8) | g'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. d'8 d'8 |
+d'4 g'8 d'8 d'4 d'8 g'8 | g'4 g'8 g'8 g'2 | fis'4 fis'8 g'8 a'4 g'8( d'8) | d'2. d'8 d'8 |
+d'4 g'8 d'8 d'4 d'8 g'8 | g'4 g'8 g'8 g'2 | fis'4 fis'8 g'8 a'4 g'8( d'8) | d'2. r4 |
+fis'4@c fis'8 g'8 a'2 | g'4 d'8 d'8 d'2 | d'4 d'8 g'8 g'4 a'8( g'8) | fis'2. d'4 |
+d'4 g'8 d'8 d'4 g'4 | g'8 g'8 g'8 g'8 g'2 | fis'4 fis'8 g'8 a'4 g'8( d'8) | d'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. b8 b8 |
+b4 d'8 c'8 b4 b8 d'8 | b4 c'8 b8 d'2 | d'4 d'8 d'8 d'4 d'8( c'8) | b2. b8 b8 |
+b4 d'8 c'8 b4 b8 d'8 | b4 c'8 b8 d'2 | d'4 d'8 d'8 d'4 d'8( c'8) | b2. r4 |
+a4@c d'8 d'8 d'2 | d'4 b8 c'8 b2 | b4 b8 d'8 d'4 d'4 | d'2. c'4 |
+b4 d'8 c'8 b4 b8( d'8) | b8 b8 c'8 b8 d'2 | d'4 d'8 d'8 d'4 d'8( c'8) | b2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. g8 g8 |
+g4 g8 g8 g4 g8 g8 | g4 g8 g8 g2 | d4 d8 d8 d4 d4 | g2. g8 g8 |
+g4 g8 g8 g4 g8 g8 | g4 g8 g8 g2 | d4 d8 d8 d4 d4 | g,2. r4 |
+d4@c d8 d8 d2 | g4 g8 g8 g2 | g4 g8 g8 b4 fis8( g8) | d4 d8 d8 d8( c8) b,8( a,8) |
+g,4 g8 g8 g4 g4 | g8 g8 g8 g8 g2 | d4 d8 d8 d4 d4 | g,2. s4
+"""
+
+[lyrics.1]
+text = "Will you come, will you come, with your poor brok -- en heart, Bur -- den’d and sin op -- press’d? Lay it down at the feet of your Sav -- ior and Lord, Je -- sus will give you rest."
+
+[lyrics.2]
+text = "Will you come, will you come? there is mer -- cy for you, Balm for your ach -- ing breast; On -- ly come as you are, and be -- lieve on His name, Je -- sus will give you rest."
+
+[lyrics.3]
+text = "Will you come, will you come, you have noth -- ing to pay; Je -- sus, who loves you best, By His death on the Cross pur -- chas’d life for your soul, Je -- sus will give you rest."
+
+[lyrics.4]
+text = "Will you come, will you come? how He pleads with you now! Fly to His lov -- ing breast, And what -- ev -- er your sin or your sor -- row may be, Je -- sus will give you rest."
+
+[lyrics.chorus]
+text = "Oh, hap -- py rest, sweet hap -- py rest! Je -- sus will give you rest, Oh, why won’t you come in sim -- ple, trust -- ing faith? Je -- sus will give you rest."
+
+[parts.Bass.lyrics.chorus]
+text = "Oh, hap -- py rest, sweet hap -- py rest! Je -- sus will give you rest, hap -- py rest. Oh, why won’t you come in sim -- ple, trust -- ing faith? Je -- sus will give you rest."
