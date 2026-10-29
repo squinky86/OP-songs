@@ -1,0 +1,65 @@
+title = "Night and Day"
+copyrights = [
+  "Lyrics: Mary Mapes Dodge, 1874 (public domain)",
+  "Music: J. M. Hagan, 1928 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 90
+verse_count = 3
+optional_phrase_breaks = ["2:48", "4:48"]
+optional_break_threshold_ticks = 288
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+d'8[ e'8] fis'8 g'8[ a'8] b'8 | c''8[ b'8] g'8 d''4. |
+d'8[ e'8] fis'8 g'8[ a'8] b'8 | d''8[ b'8] g'8 e''4. |
+d''4. b'4. | a'4. g'4.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+d'8[ e'8] fis'8 g'8[ a'8] b'8 | c''8[ b'8] g'8 fis'4. |
+d'8[ e'8] fis'8 g'8[ a'8] b'8 | d''8[ b'8] g'8 g'4. |
+g'4. g'4. | fis'4. d'4.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+d8[ e8] fis8 g8[ a8] b8 | c'8[ b8] g8 a4. |
+d8[ e8] fis8 g8[ a8] b8 | d'8[ b8] g8 c'4. |
+b4. d'4. | c'4. b4.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+d8[ e8] fis8 g8[ a8] b8 | c'8[ b8] g8 d4. |
+d8[ e8] fis8 g8[ a8] b8 | d'8[ b8] g8 c4. |
+g4. g4. | d4. g,4.
+"""
+
+[lyrics.1]
+text = "When I run a -- bout all day, When I kneel at night to pray, @s1"
+
+[lyrics.2]
+text = "When I’m dream -- ing in the dark, When I lie a -- wake and hark, @s1"
+
+[lyrics.3]
+text = "Need I ev -- er know a fear? Night and day my Fa -- ther’s near, @s1"
+
+[lyrics.s1]
+text = "God sees, God sees."
