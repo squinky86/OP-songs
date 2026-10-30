@@ -88,13 +88,7 @@ text = "No one knows the day nor hour, when He’ll come with might -- y pow’r
 text = "Let us ev -- er watch and pray, trust -- ing Je -- sus ev -- ’ry day, All be read -- y for the bless -- ed Lord’s ap -- pear -- ing; Then we’ll live with that blest throng, o -- ver in the land of song If we’re read -- y for the bless -- ed Lord’s ap -- pear -- ing."
 
 [lyrics.chorus]
+text = "Christ the Lord is com -- ing soon, yes, He is com -- ing back a -- gain, He is com -- ing in the glo -- ry of His pow’r; Yes, we’ll with the Sav -- ior reign, yes, on that bright and gold -- en plain, If we’re faith -- ful at the bless -- ed Lord’s ap -- pear -- ing."
+
+[parts.Soprano.lyrics.chorus]
 text = "He is com -- ing back a -- gain, He is com -- ing in the glo -- ry of His pow’r; We with Him shall ev -- er reign, If we’re faith -- ful at the bless -- ed Lord’s ap -- pear -- ing."
-
-[parts.Alto.lyrics.chorus]
-text = "Christ the Lord is com -- ing soon, yes, He is com -- ing back a -- gain, He is com -- ing in the glo -- ry of His pow’r; Yes, we’ll with the Sav -- ior reign, yes, on that bright and gold -- en plain, If we’re faith -- ful at the bless -- ed Lord’s ap -- pear -- ing."
-
-[parts.Tenor.lyrics.chorus]
-text = "Christ the Lord is com -- ing soon, yes, He is com -- ing back a -- gain, He is com -- ing in the glo -- ry of His pow’r; Yes, we’ll with the Sav -- ior reign, yes, on that bright and gold -- en plain, If we’re faith -- ful at the bless -- ed Lord’s ap -- pear -- ing."
-
-[parts.Bass.lyrics.chorus]
-text = "Christ the Lord is com -- ing soon, yes, He is com -- ing back a -- gain, He is com -- ing in the glo -- ry of His pow’r; Yes, we’ll with the Sav -- ior reign, yes, on that bright and gold -- en plain, If we’re faith -- ful at the bless -- ed Lord’s ap -- pear -- ing."
