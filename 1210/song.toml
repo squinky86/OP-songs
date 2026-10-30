@@ -1,0 +1,81 @@
+title = "Hold to the Saviour’s Hand"
+copyrights = [
+  "Lyrics: A. T., 1919 (public domain)",
+  "Music: Austin Taylor, 1919 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 5
+phrase_breaks = ["4:64", "8:64", "12:64"]
+optional_phrase_breaks = ["2:64", "6:64", "10:64", "14:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+b'4 b'4 g'4 a'4 | b'4 d''4 d''2 | d''4 d''8 e''8 d''4 b'4 | b'4 a'4 a'2
+| b'4 b'4 g'4 a'4 | b'4 d''4 d''2 | d''4 d''8 e''8 d''4 g'4 | b'4 a'4 g'2
+| d''2.@c e''4 | d''2. r4 | d''4. e''8 d''4 b'4 | b'4 a'4 a'2
+| d''2. g'4 | b'2. r4 | d''4 d''8 e''8 d''4 g'4 | b'4 a'4 g'2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+d'4 d'4 d'4 d'4 | g'4 fis'4 g'2 | g'4 g'8 g'8 g'4 g'4 | g'4 fis'4 fis'2
+| d'4 d'4 d'4 d'4 | g'4 fis'4 g'2 | g'4 g'8 g'8 g'4 g'4 | g'4 d'4 d'2
+| g'4@c g'4 g'4 g'4 | g'4 fis'4 g'4 r4 | g'4. g'8 g'4 g'4 | g'4 e'4 fis'2
+| g'4 g'4 g'4 d'4 | e'4 dis'4 e'4 r4 | g'4 g'8 g'8 g'4 g'4 | g'4 d'4 d'2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+g4 g4 b4 c'4 | d'4 c'4 b2 | b4 b8 c'8 b4 d'4 | d'4 d'4 d'2
+| g4 g4 b4 c'4 | d'4 c'4 b2 | b4 b8 c'8 b4 b4 | d'4 c'4 b2
+| b4@c b4 b4 c'4 | b4 a4 b4 r4 | b4. c'8 b4 d'4 | e'4 cis'4 d'2
+| b4 b4 b4 b4 | g4 a4 g4 r4 | g4 g8 c'8 b4 b4 | d'4 c'4 b2
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+g4 g4 g4 g4 | g4 d4 g2 | g4 g8 g8 g4 g4 | d4 d4 d2
+| g4 g4 g4 g4 | g4 d4 g2 | g4 g8 g8 g4 e4 | d4 d4 g,2
+| g4@c g4 g4 g4 | g4 d4 g4 r4 | g4. g8 g4 g4 | e4 a,4 d2
+| g4 g4 g4 f4 | e4 b,4 e4 r4 | b,4 b,8 c8 d4 e4 | d4 d4 g,2
+"""
+
+[lyrics.1]
+text = "If you choose to walk in light, @s1 Nar -- row is the way of right, @s1"
+
+[lyrics.2]
+text = "Je -- sus, Shep -- herd of your soul! @s1 Give Him now com -- plete con -- trol, @s1"
+
+[lyrics.3]
+text = "If in sor -- row or dis -- tress, @s1 He your soul will own and bless, @s1"
+
+[lyrics.4]
+text = "Peace He’ll give you at His side, @s1 He’ll be true what -- e’er be -- tide, @s1"
+
+[lyrics.5]
+text = "Till you’re faith has changed to sight, @s1 Till you reach the home of light, @s1"
+
+[lyrics.chorus]
+text = "Hold His hand, His lov -- ing hand! He will nev -- er let you roam; Hold His hand, His nail- -- pierced hand! Je -- sus at last will lead you home."
+
+[parts.Soprano.lyrics.chorus]
+text = "Hold His hand! He will nev -- er let you roam; Hold His hand! Je -- sus at last will lead you home."
+
+[lyrics.s1]
+text = "Hold to the Sav -- iour’s lov -- ing hand!"
