@@ -1,0 +1,140 @@
+title = "The Only Life Worth While"
+copyrights = [
+  "Lyrics: James Rowe, 1928 (public domain)",
+  "Music: Homer F. Morris, 1928 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 92
+verse_count = 3
+phrase_breaks = ["3:40", "5:40", "7:40", "9:40", "11:40", "13:40", "15:40"]
+non_breaking_phrase_breaks = ["4:40", "5:8", "8:8", "8:40", "9:8", "10:8", "10:40", "11:8", "12:40", "13:8", "15:8", "16:8", "16:40", "17:8"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s8 c''16 bes'16 c''8 f'8
+| ees'2~ ees'8 ees'16 ees'16 f'8 aes'8 | c''2~ c''8 aes'16 aes'16 c''8 c''8
+| ees''2~ ees''8 c''16 c''16 ees''8 c''8 | bes'2~ bes'8 c''16 bes'16 c''8 f'8
+| ees'2~ ees'8 ees'16 ees'16 f'8 aes'8 | c''2~ c''8 aes'16 aes'16 c''8 c''8
+| ees''2~ ees''8 aes'16 bes'16 c''8 bes'8 | aes'2~ aes'8! r8@c r4
+| r8 c''16 c''16 ees''8 c''8 ees''8 r8 r4 | r8 c''16 c''16 aes'8 bes'8 c''8 aes'16 aes'16 c''8 c''8
+| ees''2~ ees''8 c''16 c''16 ees''8 c''8 | bes'2~ bes'8 r8 r4
+| r8 c''16 c''16 ees''8 c''8 ees''8 r8 r4 | r8 c''16 c''16 ees''8 des''8 c''8 aes'16 aes'16 c''8 c''8
+| ees''2~ ees''8 aes'16 bes'16 c''8 bes'8 | aes'2~ aes'8! s8 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+suppress_verses = [2, 3]
+suppress_verses_when = ["soprano"]
+notes = """
+s2 s8 r8 r4
+| r8 c'16 c'16 ees'8 des'8 c'8 r8 r4 | r8 ees'16 ees'16 aes'8 f'8 ees'8 r8 r4
+| r8 aes'16 aes'16 c''8 bes'8 aes'8 aes'16 aes'16 aes'8 aes'8 | g'8 g'16 g'16 g'8 g'8 g'8 r8 r4
+| r8 c'16 c'16 ees'8 des'8 c'8 r8 r4 | r8 ees'16 ees'16 aes'8 f'8 ees'8 r8 r4
+| r8 aes'16 aes'16 c''8 bes'8 aes'8 aes'16 aes'16 aes'8 g'8 | ees'8 ees'16 ees'16 c'8 des'8 ees'8! r8@c r4
+| r8 aes'16 aes'16 aes'8 aes'8 aes'8 c''16 bes'16 aes'8 f'8 | ees'2~ ees'8 r8 r4
+| r8 aes'16 aes'16 c''8 bes'8 aes'8 aes'16 aes'16 aes'8 aes'8 | g'8 g'16 g'16 g'8 g'8 g'8 r8 r4
+| r8 aes'16 aes'16 aes'8 aes'8 aes'8 c''16 bes'16 aes'8 f'8 | aes'2~ aes'8 r8 r4
+| r8 aes'16 aes'16 c''8 bes'8 aes'8 aes'16 aes'16 aes'8 g'8 | ees'8 ees'16 ees'16 c'8 des'8 ees'8! s8 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3]
+suppress_verses_when = ["soprano", "alto"]
+notes = """
+s2 s8 r8 r4
+| r8 aes16 aes16 aes8 g8 aes8 r8 r4 | r8 aes16 aes16 aes8 aes8 aes8 r8 r4
+| r8 c'16 c'16 ees'8 des'8 c'8 ees'16 ees'16 c'8 ees'8 | ees'8 ees'16 ees'16 ees'8 ees'8 ees'8 r8 r4
+| r8 aes16 aes16 aes8 g8 aes8 r8 r4 | r8 aes16 aes16 aes8 aes8 aes8 r8 r4
+| r8 c'16 c'16 ees'8 des'8 c'8 c'16 des'16 ees'8 des'8 | c'8 c'16 c'16 aes8 bes8 c'8! r8@c r4
+| r8 ees'16 ees'16 c'8 ees'8 c'8 r8 r4 | r8 aes16 aes16 aes8 g8 aes8 r8 r4
+| r8 c'16 c'16 ees'8 des'8 c'8 ees'16 ees'16 c'8 ees'8 | ees'8 ees'16 ees'16 ees'8 ees'8 ees'8 r8 r4
+| r8 ees'16 ees'16 c'8 ees'8 c'8 r8 r4 | r8 ees'16 ees'16 c'8 f'8 ees'8 r8 r4
+| r8 c'16 c'16 ees'8 des'8 c'8 c'16 des'16 ees'8 des'8 | c'8 c'16 c'16 aes8 bes8 c'8! s8 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3]
+suppress_verses_when = ["soprano", "alto", "tenor"]
+notes = """
+s2 s8 r8 r4
+| r8 aes,16 aes,16 c8 ees8 aes,8 r8 r4 | r8 aes,16 aes,16 c8 ees8 aes8 r8 r4
+| r8 aes16 aes16 aes8 aes8 aes8 aes16 aes16 aes8 aes8 | ees8 ees16 ees16 ees8 ees8 ees8 r8 r4
+| r8 aes,16 aes,16 c8 ees8 aes,8 r8 r4 | r8 aes,16 aes,16 c8 ees8 aes8 r8 r4
+| r8 aes16 aes16 aes8 aes8 aes8 f16 f16 ees8 ees8 | aes,2~ aes,8! c16@c des16 ees8 f8
+| aes2~ aes8 r8 r4 | r8 aes,16 aes,16 c8 ees8 aes8 r8 r4
+| r8 aes16 aes16 aes8 aes8 aes8 aes16 aes16 aes8 aes8 | ees8 ees16 ees16 ees8 ees8 ees8 c16 des16 ees8 f8
+| aes2~ aes8 r8 r4 | r8 aes16 aes16 aes8 aes8 aes8 r8 r4
+| r8 aes16 aes16 aes8 aes8 aes8 f16 f16 ees8 ees8 | aes,2~ aes,8! s8 s4
+"""
+
+[lyrics.1]
+text = "Sin -- ner, heed the call of the Lord of all, Turn a -- way from sin for it will be -- guile; Par -- doned be to -- day; take the old cross way, @s1"
+
+[parts.Alto.lyrics.1]
+text = "Sin -- ner, heed the call of the Lord of all, Turn a -- way from sin for it will be -- guile; for it will be -- guile; Par -- doned be to -- day; take the old cross way, @s1"
+
+[parts.Tenor.lyrics.1]
+text = "Sin -- ner, heed the call of the Lord of all, Turn a -- way from sin for it will be -- guile; for it will be -- guile; Par -- doned be to -- day; take the old cross way, @s1"
+
+[parts.Bass.lyrics.1]
+text = "Sin -- ner, heed the call of the Lord of all, Turn a -- way from sin for it will be -- guile; for it will be -- guile; Par -- doned be to -- day; take the old cross way, @s1"
+
+[lyrics.2]
+text = "You are nev -- er glad, but are al -- ways sad. Sin is rob -- bing you of your ev -- ’ry smile, Let your wand -- ’ring end; come to Christ your friend, @s1"
+
+[parts.Alto.lyrics.2]
+text = "You are nev -- er glad, but are al -- ways sad. Sin is rob -- bing you of your ev -- ’ry smile, of your ev -- ’ry smile, Let your wand -- ’ring end; come to Christ your friend, @s1"
+
+[parts.Tenor.lyrics.2]
+text = "You are nev -- er glad, but are al -- ways sad. Sin is rob -- bing you of your ev -- ’ry smile, of your ev -- ’ry smile, Let your wand -- ’ring end; come to Christ your friend, @s1"
+
+[parts.Bass.lyrics.2]
+text = "You are nev -- er glad, but are al -- ways sad. Sin is rob -- bing you of your ev -- ’ry smile, of your ev -- ’ry smile, Let your wand -- ’ring end; come to Christ your friend, @s1"
+
+[lyrics.3]
+text = "With the Sav -- ior near, giv -- ing light and cheer, Ev -- er guid -- ing all to the bless -- ed isle; Fill -- ing ev -- ’ry need, life is sweet in -- deed, @s1"
+
+[parts.Alto.lyrics.3]
+text = "With the Sav -- ior near, giv -- ing light and cheer, Ev -- er guid -- ing all to the bless -- ed isle; to the bless -- ed isle; Fill -- ing ev -- ’ry need, life is sweet in -- deed, @s1"
+
+[parts.Tenor.lyrics.3]
+text = "With the Sav -- ior near, giv -- ing light and cheer, Ev -- er guid -- ing all to the bless -- ed isle; to the bless -- ed isle; Fill -- ing ev -- ’ry need, life is sweet in -- deed, @s1"
+
+[parts.Bass.lyrics.3]
+text = "With the Sav -- ior near, giv -- ing light and cheer, Ev -- er guid -- ing all to the bless -- ed isle; to the bless -- ed isle; Fill -- ing ev -- ’ry need, life is sweet in -- deed, @s1"
+
+[lyrics.s1]
+text = "’Tis the on -- ly life that is worth your while."
+
+[parts.Alto.lyrics.s1]
+text = "’Tis the on -- ly life that is worth your while. that is worth your while."
+
+[parts.Tenor.lyrics.s1]
+text = "’Tis the on -- ly life that is worth your while. that is worth your while."
+
+[lyrics.chorus]
+text = "’Tis the on -- ly life that is worth your while, There’s a hap -- py song in its ev -- ’ry mile; Face the pearl -- y gate, ere it be too late, ’Tis the on -- ly life that is worth your while."
+
+[parts.Alto.lyrics.chorus]
+text = "’Tis the on -- ly life that is worth your while, There’s a hap -- py song in its ev -- ’ry mile; in its ev -- ’ry mile; Face the pearl -- y gate, ere it be too late, ’Tis the on -- ly life that is worth your while. that is worth your while."
+
+[parts.Tenor.lyrics.chorus]
+text = "’Tis the on -- ly life that is worth your while, There’s a hap -- py song in its ev -- ’ry mile; in its ev -- ’ry mile; Face the pearl -- y gate, ere it be too late, ’Tis the on -- ly life that is worth your while. that is worth your while."
+
+[parts.Bass.lyrics.chorus]
+text = "’Tis the on -- ly life that is worth your while, There’s a hap -- py song in its ev -- ’ry mile; in its ev -- ’ry mile; Face the pearl -- y gate, ere it be too late, ’Tis the on -- ly life that is worth your while."
