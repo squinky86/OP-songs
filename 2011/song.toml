@@ -1,0 +1,71 @@
+title = "Why Do You Wait?"
+copyrights = [
+  "Lyrics and Music: George F. Root, 1878 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "A"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 96
+verse_count = 4
+phrase_breaks = ["4:40", "8:48", "12:48"]
+optional_phrase_breaks = ["2:40", "6:40"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+e'8 e'8 e'8 fis'4 e'8 | e'8 a'2 a'8 | b'8 b'8 b'8 b'8 a'8 b'8 | cis''4.~ cis''4 e'8 |
+e'8 e'8 e'8 gis'8 fis'8 e'8 | e'8 a'2 b'8 | cis''8 d''8 cis''8 b'8 fis'8 gis'8 | a'4.~ a'4. |
+cis''4.@c a'4 r8 | a'4. fis'4 r8 | e'4 e'8 gis'8 fis'8 e'8 | e'4.( a'4.) |
+cis''4. a'4 r8 | a'4. fis'4 r8 | e'4 e'8 gis'8 fis'8 e'8 | a'4.~ a'4 r8
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+cis'8 cis'8 cis'8 d'4 cis'8 | cis'8 cis'2 cis'8 | e'8 e'8 e'8 e'8 e'8 e'8 | e'4.~ e'4 cis'8
+| cis'8 cis'8 cis'8 d'8 d'8 d'8 | cis'8 cis'2 d'8 | e'8 fis'8 e'8 d'8 d'8 d'8 | cis'4.~ cis'4.
+| e'4.@c cis'4 r8 | fis'4. d'4 r8 | d'4 d'8 d'8 d'8 d'8 | cis'2.
+| e'4. cis'4 r8 | fis'4. d'4 r8 | d'4 d'8 d'8 d'8 d'8 | cis'4.~ cis'4 r8
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+a8 a8 a8 a4 a8 | a8 a2 a8 | gis8 gis8 gis8 gis8 fis8 gis8 | a4.~ a4 a8 |
+a8 a8 a8 a8 a8 a8 | a8 a2 a8 | a8 a8 a8 gis8 b8 b8 | a4.~ a4. |
+a4.@c a4 r8 | a4. a4 r8 | gis4 gis8 b8 b8 b8 | a2. |
+a4. a4 r8 | a4. a4 r8 | gis4 gis8 b8 b8 b8 | a4.~ a4 r8
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+a,8 a,8 a,8 a,4 a,8 | a,8 a,2 a,8 | e8 e8 e8 e8 e8 e8 | a,4.~ a,4 a,8 |
+a,8 a,8 a,8 a,8 a,8 a,8 | a,8 a,2 a,8 | a,8 a,8 a,8 e8 e8 e8 | a,4.~ a,4. |
+a,4.@c a,4 r8 | d4. d4 r8 | e4 e8 e8 e8 e8 | a,2. |
+a,4. a,4 r8 | d4. d4 r8 | e4 e8 e8 e8 e8 | a,4.~ a,4 r8
+"""
+
+[lyrics.1]
+text = "Why do you wait, dear broth -- er, Oh, why do you tar -- ry so long? Your Sav -- ior is wait -- ing to give you A place in His sanc -- ti -- fied throng."
+
+[lyrics.2]
+text = "What do you hope, dear broth -- er, To gain by a fur -- ther de -- lay? There’s no one to save you but Je -- sus, There’s no oth -- er way but His way."
+
+[lyrics.3]
+text = "Do you not feel, dear broth -- er, His Spir -- it now striv -- ing with -- in? O why not ac -- cept His sal -- va -- tion, And throw off thy bur -- den of sin?"
+
+[lyrics.4]
+text = "Why do you wait, dear broth -- er? The har -- vest is pass -- ing a -- way; Your Sav -- ior is long -- ing to bless you, There’s dan -- ger and death in de -- lay."
+
+[lyrics.chorus]
+text = "Why not? why not? Why not come to Him now? Why not? why not? Why not come to Him now?"
