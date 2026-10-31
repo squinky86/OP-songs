@@ -1,0 +1,73 @@
+title = "I Am Coming"
+copyrights = [
+  "Lyrics: William McDonald, 1870 (public domain)",
+  "Music: William G. Fischer, 1870 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 88
+verse_count = 3
+phrase_breaks = ["5:32", "9:32", "13:32"]
+optional_phrase_breaks = ["3:32", "7:32", "11:32", "15:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 d'8 g'8 |
+b'4. g'8 a'8 b'8 | g'2 b'8 c''8 | d''4. e''8 d''8 b'8 | a'2 d'8 g'8 |
+b'4. g'8 a'8 b'8 | g'2 e'8 e'8 | d'4. g'8 b'8. a'16 | g'2 d'8@c g'8 |
+b'4. g'8 a'8 b'8 | g'2 b'8[ c''8] | d''4. e''8 d''8 b'8 | a'2 d'8 g'8 |
+b'4. g'8 a'8 b'8 | g'2 e'8 e'8 | d'4. g'8 b'8. a'16 | g'2 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 d'8 d'8 |
+g'4. d'8 fis'8 fis'8 | g'2 g'8 g'8 | g'4. g'8 g'8 g'8 | fis'2 d'8 d'8 |
+g'4. d'8 fis'8 fis'8 | g'2 c'8 c'8 | b4. d'8 d'8. d'16 | d'2 d'8@c d'8 |
+g'4. d'8 fis'8 fis'8 | g'2 g'4 | g'4. g'8 g'8 g'8 | fis'2 d'8 d'8 |
+g'4. d'8 fis'8 fis'8 | g'2 c'8 c'8 | b4. d'8 d'8. d'16 | d'2 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 b8 c'8 |
+d'4. b8 c'8 d'8 | b2 g8 a8 | b4. c'8 b8 d'8 | d'2 b8 c'8 |
+d'4. b8 c'8 d'8 | b2 g8 g8 | g4. b8 d'8. c'16 | b2 b8@c c'8 |
+d'4. b8 c'8 d'8 | b2 g8[ a8] | b4. c'8 b8 d'8 | d'2 b8 c'8 |
+d'4. b8 c'8 d'8 | b2 g8 g8 | g4. b8 d'8. c'16 | b2 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 g8 g8 |
+g4. g8 d8 d8 | g2 g8 g8 | g4. g8 g8 g8 | d2 g8 g8 |
+g4. g8 d8 d8 | g2 c8 c8 | d4. d8 d8. d16 | g2 g8@c g8 |
+g4. g8 d8 d8 | g2 g4 | g4. g8 g8 g8 | d2 g8 g8 |
+g4. g8 d8 d8 | g2 c8 c8 | d4. d8 d8. d16 | g2 s4
+"""
+
+[lyrics.1]
+text = "I am com -- ing to the cross; I am poor and weak and blind; I am count -- ing all but dross, I shall full sal -- va -- tion find."
+
+[lyrics.2]
+text = "Here I give my all to Thee, Friends and time, and earth -- ly store; Soul and bod -- y, Thine to be,— Whol -- ly Thine for ev -- er -- more."
+
+[lyrics.3]
+text = "Je -- sus comes! He fills my soul! Per -- fect -- ed in love I am; I am ev -- ’ry whit made whole; Glo -- ry, glo -- ry to the Lamb."
+
+[lyrics.chorus]
+text = "I am trust -- ing, Lord, in Thee, Dear Lamb of Cal -- va -- ry; Hum -- bly at Thy cross I bow, Je -- sus, saves me, saves me now."
