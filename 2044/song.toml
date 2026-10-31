@@ -1,0 +1,73 @@
+title = "Wonderful Jesus"
+copyrights = [
+  "Lyrics: James Rowe, 1913 (public domain)",
+  "Music: J. P. Denton, 1913 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 9
+time_sig_denominator = 8
+tempo_bpm = 120
+verse_count = 3
+phrase_breaks = ["5:48", "9:48", "13:48"]
+optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. s4. b'8. a'16 g'8
+| b'4. g'4. a'8. g'16 e'8 | d'4.~ d'4. g'8. d'16 b'8 | d''4. b'4. d''8. c''16 b'8 | a'4.~ a'4. b'8. a'16 g'8
+| b'4. g'4. a'8. g'16 e'8 | d'4.~ d'4. g'8. b'16 e''8 | d''4. g'4. b'8. g'16 a'8 | g'4.~ g'4. d''8.@c cis''16 d''8
+| e''4. c''4. c''8. d''16 e''8 | d''4.( b'4.) b'8. ais'16 b'8 | d''4. b'4. d''8. c''16 b'8 | a'4.~ a'4. b'8. a'16 g'8
+| b'4. g'4. a'8. g'16 e'8 | d'4.~ d'4. g'8. b'16 e''8 | d''4. g'4. b'8. g'16 a'8 | g'4.~ g'4.! s4.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. s4. d'8. c'16 b8
+| d'4. d'4. c'8. c'16 c'8 | b4.~ b4. d'8. d'16 g'8 | g'4. g'4. g'8. fis'16 g'8 | fis'4.~ fis'4. g'8. d'16 d'8
+| g'4. d'4. e'8. e'16 c'8 | b4.~ b4. d'8. g'16 g'8 | g'4. g'4. g'8. g'16 fis'8 | g'4.~ g'4. g'8.@c g'16 g'8
+| g'4. g'4. g'8. g'16 g'8 | g'4.~ g'4. g'8. g'16 g'8 | g'4. g'4. g'8. fis'16 g'8 | fis'4.~ fis'4. g'8. d'16 d'8
+| g'4. d'4. e'8. e'16 c'8 | b4.~ b4. d'8. g'16 g'8 | g'4. g'4. g'8. g'16 fis'8 | g'4.~ g'4.! s4.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. s4. g8. g16 g8
+| g4. g4. e8. e16 g8 | g4.~ g4. b8. c'16 d'8 | b4. d'4. d'8. d'16 d'8 | d'4.~ d'4. d'8. c'16 b8
+| d'4. b4. c'8. c'16 g8 | g4.~ g4. b8. d'16 c'8 | b4. cis'4. d'8. b16 c'8 | b4.~ b4. b8.@c ais16 b8
+| c'4. e'4. c'8. b16 c'8 | b4.( d'4.) d'8. cis'16 d'8 | b4. d'4. d'8. d'16 d'8 | d'4.~ d'4. d'8. c'16 b8
+| d'4. b4. c'8. c'16 g8 | g4.~ g4. b8. d'16 c'8 | b4. cis'4. d'8. b16 c'8 | b4.~ b4.! s4.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. s4. g,8. g,16 g,8
+| g,4. b,4. c8. c16 c8 | g,4.~ g,4. g8. g16 g8 | g4. g4. b8. a16 g8 | d4.~ d4. g8. g16 g8
+| g4. g4. c8. c16 c8 | g,4.~ g,4. g8. g16 g8 | g4. e4. d8. d16 d8 | g,4.~ g,4. g8.@c g16 g8
+| c4. c4. e8. d16 c8 | g4.~ g4. g8. g16 g8 | g4. g4. b8. a16 g8 | d4.~ d4. g8. g16 g8
+| g4. g4. c8. c16 c8 | g,4.~ g,4. g8. g16 g8 | g4. e4. d8. d16 d8 | g,4.~ g,4.! s4.
+"""
+
+[lyrics.1]
+text = "Won -- der -- ful Je -- sus! glo -- ri -- ous Friend! He will be with me un -- to the end, Cheer -- ing, up -- hold -- ing, keep -- ing me strong, Fear -- less and loy -- al, shield -- ing from wrong."
+
+[lyrics.2]
+text = "Won -- der -- ful Je -- sus! show -- ing the way In -- to the bless -- ed king -- dom of day; Guid -- ing my foot -- steps, hold -- ing con -- trol, Mak -- ing me hap -- py, keep -- ing me whole."
+
+[lyrics.3]
+text = "Won -- der -- ful Je -- sus! all thro’ the night He will en -- fold me, giv -- ing me light; Then when the morn -- ing breaks on the shore, This He will whis -- per, “Mine ev -- er -- more.”"
+
+[lyrics.chorus]
+text = "Won -- der -- ful Je -- sus! mar -- vel -- ous King! Ev -- er His praise my spir -- it shall sing, When I be -- hold His glo -- ri -- fied face, How I shall praise His won -- der -- ful grace!"
