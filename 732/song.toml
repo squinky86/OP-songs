@@ -1,16 +1,3 @@
-# Source: Tidings of Joy (1928), No. 123 "Work For Jesus", p. 125 (hymnary.org
-#   page scan TJ1928 p. 125, top half). Notes and lyrics read from the plate
-#   scan; closed-score SATB, seven-shape notation (shapes used as pitch check).
-# Plate credits: "J. H. Martin." (words), "R M McIntosh." (music); no date or
-#   copyright line on the plate. Years: hymnary/Cyber Hymnal list the source as
-#   Good News, Rigdon M. McIntosh (Boston: Oliver Ditson, 1876); 1876 used for both.
-# Key C major, 2/4 (no key signature; read from the full-resolution plate).
-# Tempo: none printed; 96 bpm is a guess.
-# Editorial: v2 plate prints "Why. He asks," -- period read as a misprint for a
-#   comma. v4 "per -- sue" kept as printed (misprint for "pursue"). "my
-#   vineyard" (v1) and "serve me" (v3) capitalised as My/Me (Christ speaking, §11.3).
-# Bass bar 14 ("Je-sus," in the second refrain line) prints C4 (unison with the
-#   tenor), not C3 as in the parallel bar 10; kept as printed.
 title = "Work for Jesus"
 copyrights = [
   "Lyrics: Joseph H. Martin, 1876 (public domain)",
