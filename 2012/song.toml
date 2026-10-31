@@ -1,0 +1,82 @@
+# Source: Gospel Songs Number Three (1924), No. 92, p. 96 (hymnary GS31924 page scan).
+# Notes and lyrics read from the plate scan (seven-shape notation, closed-score SATB).
+# Plate credits: "James Rowe." / "Used by per." / "Tillit S. Teddlie." No copyright year
+# printed on the plate; 1924 is the book date (earliest publication hymnary lists).
+# Tempo: none printed; 120 bpm is a guess.
+# Key C (no signature; shapes confirm do = C), 6/4.
+# Bass in bars 4, 6 and 13 is written in unison with the tenor on c' (one notehead,
+# no separate bass head or rest printed) -- read as unison.
+# Bars 8 and 16: the bass staff prints three heads (c', g, c); tenor c' and bass c are
+# tied, so they are written; the middle g (untied) is left out.
+# Bar 9 (chorus): the bass's printed dotted half c is followed by three small cue-size
+# notes (c d e, slurred) leading into bar 10; read as an optional fill and left out.
+# Elision kept from the plate: heav'n.
+title = "Why Not You?"
+copyrights = [
+  "Lyrics: James Rowe, 1924 (public domain)",
+  "Music: Tillit S. Teddlie, 1924 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "C"
+time_sig_numerator = 6
+time_sig_denominator = 4
+tempo_bpm = 120
+verse_count = 3
+phrase_breaks = ["4:96", "8:96", "12:96"]
+optional_phrase_breaks = ["2:96", "6:80", "10:96", "14:80"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+g'4 g'4 g'4 g'4 a'4 b'4 | c''2 c''4 c''2. | d''2 d''4 b'2 f''4 | e''2 e''4 c''2.
+| a'4 a'4 a'4 c''4 b'4 a'4 | g'4 c''4 d''4 e''2 f''4 | e''2. d''2. | c''2.~ c''2.
+| e''2@c d''4 c''2. | c''2 b'4 a'2. | g'4 a'4 g'4 c''4 d''4 e''4 | e''2 d''4 d''2.
+| e''4 dis''4 e''4 c''4 b'4 c''4 | c''2 b'4 a'2 f''4 | e''2. d''2. | c''2.~ c''2.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+e'4 e'4 e'4 e'4 f'4 f'4 | e'2 f'4 e'2. | f'2 f'4 f'2 a'4 | g'2 g'4 e'2.
+| f'4 f'4 f'4 a'4 g'4 f'4 | e'4 g'4 g'4 g'2 a'4 | g'2. f'2. | e'2.~ e'2.
+| g'2@c f'4 e'2. | f'2 f'4 f'2. | e'4 f'4 e'4 g'4 g'4 g'4 | g'2 f'4 f'2.
+| g'4 fis'4 g'4 e'4 f'4 g'4 | a'2 g'4 f'2 a'4 | g'2. f'2. | e'2.~ e'2.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+c'4 c'4 c'4 c'4 b4 a4 | g2 a4 g2. | b2 b4 d'2 b4 | c'2 c'4 g2.
+| c'4 c'4 c'4 c'4 c'4 c'4 | c'4 c'4 b4 c'2 c'4 | c'2. b2. | c'2.~ c'2.
+| c'2@c g4 g2. | a2 c'4 c'2. | c'4 c'4 c'4 c'4 b4 c'4 | c'2 b4 b2.
+| c'4 c'4 c'4 g4 g4 c'4 | c'2 c'4 c'2 c'4 | c'2. b2. | c'2.~ c'2.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+c4 c4 c4 c4 c4 c4 | c2 c4 c2. | g2 g4 g2 g4 | c'2 c'4 c2.
+| f4 f4 f4 f4 f4 f4 | c4 e4 g4 c'2 f4 | g2. g2. | <c g>2.~ <c g>2.
+| c2@c c4 c2. | f2 f4 f2. | c4 c4 c4 e4 d4 c4 | g2 g4 g2.
+| c'4 c'4 c'4 c4 d4 e4 | f2 f4 f2 f4 | g2. g2. | c2.~ c2.
+"""
+
+[lyrics.1]
+text = "Oth -- ers are tak -- ing the gos -- pel way; Why not you? Oh, why not you? Oth -- ers are com -- ing to Je -- sus to -- day, Oh, why not you?"
+
+[lyrics.2]
+text = "Oth -- ers are leav -- ing the vales of night; Why not you? Oh, why not you? Ma -- ny are turn -- ing to Je -- sus for light, Oh, why not you?"
+
+[lyrics.3]
+text = "Oth -- ers are leav -- ing their life of sin; Why not you? Oh, why not you? Ma -- ny have bid -- den the Sav -- iour come in, Oh, why not you?"
+
+[lyrics.chorus]
+text = "Why not you? Why not you? Oth -- ers love Je -- sus and serve Him, too; Ma -- ny to -- day walk the heav’n -- ly way, Oh, why not you?"
