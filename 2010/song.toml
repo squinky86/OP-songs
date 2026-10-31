@@ -1,0 +1,82 @@
+title = "Why Keep Jesus Waiting?"
+copyrights = [
+  "Lyrics and Music: C. C. Cline, 1882 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "D"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 88
+verse_count = 4
+phrase_breaks = ["4:48", "8:48"]
+optional_phrase_breaks = ["2:48", "6:48", "10:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+a'4 a'8 fis'8[ g'8] a'8 | b'8 b'4.~ b'4 | cis''4 cis''8 cis''8[ b'8] cis''8 | d''2.
+| b'4 b'8 d''8[ cis''8] b'8 | b'8 a'4.~ a'4 | a'4 a'8 g'8[ fis'8] e'8 | fis'2.
+| b'4 b'8 d''8[ cis''8] b'8 | b'8 a'4.~ a'4\\rit | a'4. a'4. | a'2.\\spanend
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+suppress_verses = [2, 3, 4]
+suppress_verses_when = ["soprano"]
+notes = """
+fis'4 fis'8 d'8[ e'8] fis'8 | g'8 g'4.~ g'4 | e'4 e'8 g'4 g'8 | fis'2.
+| g'4 g'8 b'8[ a'8] g'8 | g'8 fis'4.~ fis'4 | fis'4 fis'8 e'8[ d'8] cis'8 | d'2.
+| g'4 g'8 b'8[ a'8] g'8 | g'8 fis'4.~ fis'4 | e'4 e'8 e'8[ fis'8] g'8 | fis'2.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3, 4]
+suppress_verses_when = ["soprano", "alto"]
+notes = """
+d'4 d'8 a4 d'8 | d'8 d'4.~ d'4 | a4 a8 a4 a8 | a2.
+| g4 g8 g4 b8 | d'8 d'4.~ d'4 | d'4 d'8 a4 a8 | a2.
+| g4 g8 g4 b8 | d'8 d'4.~ d'4 | cis'4 cis'8 a8[ b8] e'8 | d'2.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3, 4]
+suppress_verses_when = ["soprano", "alto", "tenor"]
+notes = """
+d4 d8 d4 d8 | g8 g4.~ g4 | a4 a8 a,4 a,8 | d2.
+| g4 g8 g4 g8 | d8 d4.~ d4 | a4 a8 a,4 a,8 | d2.
+| g4 g8 g4 g8 | d8 d4.~ d4 | a4 a8 a,4 a,8 | d2.
+"""
+
+[lyrics.1]
+text = "Why keep Je -- sus wait -- ing, Wait -- ing in the cold? He will bear you gen -- tly, Gen -- tly to His fold; See Him, soul, and o -- pen, O -- pen, I im -- plore."
+
+[parts.Soprano.lyrics.1]
+text = "Why keep Je -- sus wait -- ing, Wait -- ing in the cold? He will bear you gen -- tly, Gen -- tly to His fold; See Him, soul, and o -- pen, I im -- plore."
+
+[lyrics.2]
+text = "Why keep Je -- sus wait -- ing, Wait -- ing at the door? Oft He knock -- eth soft -- ly, Soft -- ly o’er and o’er; Hear Him, soul, and o -- pen, O -- pen, I im -- plore."
+
+[parts.Soprano.lyrics.2]
+text = "Why keep Je -- sus wait -- ing, Wait -- ing at the door? Oft He knock -- eth soft -- ly, Soft -- ly o’er and o’er; Hear Him, soul, and o -- pen, I im -- plore."
+
+[lyrics.3]
+text = "Why keep Je -- sus plead -- ing, Plead -- ing at the door? He would be your Sav -- iour, Ev -- er, ev -- er -- more; Love Him, soul, and o -- pen, O -- pen, I im -- plore."
+
+[parts.Soprano.lyrics.3]
+text = "Why keep Je -- sus plead -- ing, Plead -- ing at the door? He would be your Sav -- iour, Ev -- er, ev -- er -- more; Love Him, soul, and o -- pen, I im -- plore."
+
+[lyrics.4]
+text = "Why keep Je -- sus wait -- ing— Knock -- ing at the door? Soon He’ll cease His plead -- ing, Yes, for ev -- er -- more; Come, poor soul, o -- bey Him, O -- pen, I im -- plore."
+
+[parts.Soprano.lyrics.4]
+text = "Why keep Je -- sus wait -- ing— Knock -- ing at the door? Soon He’ll cease His plead -- ing, Yes, for ev -- er -- more; Come, poor soul, o -- bey Him, I im -- plore."
