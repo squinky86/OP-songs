@@ -1,0 +1,94 @@
+title = "Scatter the Message of Jesus"
+copyrights = [
+  "Lyrics: James Rowe, 1925 (public domain)",
+  "Music: J. W. Dennis, 1925 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Eb"
+time_sig_numerator = 12
+time_sig_denominator = 8
+tempo_bpm = 90
+verse_count = 3
+phrase_breaks = ["2:96", "4:96", "6:96", "8:96", "10:96", "12:96", "14:96"]
+non_breaking_phrase_breaks = ["10:72"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+g'8 f'8 ees'8 g'8 f'8 ees'8 g'4. bes'4. | bes'8 bes'8 bes'8 c''8 c''8 c''8 bes'4.~ bes'4. |
+bes'8 aes'8 g'8 bes'8 aes'8 g'8 bes'4. g'4. | g'8 g'8 g'8 ees'8 ees'8 ees'8 f'4.~ f'4. |
+g'8 f'8 ees'8 g'8 f'8 ees'8 g'4. bes'4. | c''8 c''8 c''8 ees''8 d''8 c''8 bes'4.~ bes'4. |
+ees''8 ees''8 ees''8 ees''8 d''8 c''8 bes'4. g'4. | bes'8. a'16 bes'8 g'8 ees'8 f'8 ees'4.~ ees'4. |
+ees''2.~@c ees''8 d''8 c''8 bes'8 g'8 c''8 | bes'2.~ bes'4. r4. |
+bes'2.~ bes'8 aes'8 g'8 f'8 g'8 aes'8 | g'2.~ g'4. r4. |
+g'8 f'8 ees'8 g'8 f'8 ees'8 g'4. bes'4. | c''8 c''8 c''8 ees''8 d''8 c''8 bes'4.~ bes'4. |
+ees''8 ees''8 ees''8 ees''8 d''8 c''8 bes'4. g'4. | bes'8. a'16 bes'8 g'8 ees'8 f'8 ees'4.~ ees'4.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+ees'8 bes8 bes8 ees'8 bes8 bes8 ees'4. ees'4. | ees'8 ees'8 ees'8 ees'8 ees'8 ees'8 ees'4.~ ees'4. |
+g'8 f'8 ees'8 g'8 f'8 ees'8 g'4. ees'4. | ees'8 ees'8 ees'8 ees'8 ees'8 ees'8 d'4.~ d'4. |
+ees'8 bes8 bes8 ees'8 bes8 bes8 ees'4. g'4. | aes'8 aes'8 aes'8 c''8 bes'8 aes'8 g'4.~ g'4. |
+g'8 aes'8 bes'8 c''8 bes'8 aes'8 g'4. ees'4. | ees'8. ees'16 ees'8 ees'8 bes8 bes8 bes4.~ bes4. |
+g'8@c g'8 g'8 aes'8 aes'8 aes'8 g'8 g'8 g'8 g'8 r4 | ees'8 ees'8 ees'8 d'8 ees'8 f'8 ees'4. r4. |
+d'2.~ d'8 f'8 ees'8 d'8 ees'8 f'8 | ees'2.~ ees'4. r4. |
+ees'8 bes8 bes8 ees'8 bes8 bes8 ees'4. g'4. | aes'8 aes'8 aes'8 c''8 bes'8 aes'8 g'4.~ g'4. |
+g'8 aes'8 bes'8 c''8 bes'8 aes'8 g'4. ees'4. | ees'8. ees'16 ees'8 ees'8 bes8 bes8 bes4.~ bes4.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+bes8 aes8 g8 bes8 aes8 g8 bes4. g4. | g8 g8 g8 aes8 aes8 aes8 g4.~ g4. |
+ees'8 bes8 bes8 ees'8 bes8 bes8 ees'4. bes4. | bes8 bes8 bes8 aes8 aes8 aes8 bes4.~ bes4. |
+bes8 aes8 g8 bes8 aes8 g8 bes4. ees'4. | ees'8 ees'8 ees'8 ees'8 ees'8 ees'8 ees'4.~ ees'4. |
+bes8 bes8 ees'8 ees'8 ees'8 ees'8 ees'4. bes4. | g8. fis16 g8 bes8 g8 aes8 g4.~ g4. |
+bes8@c bes8 bes8 c'8 c'8 c'8 bes8 c'8 d'8 ees'8 r4 | g8 g8 g8 f8 g8 aes8 g4. r4. |
+aes8 aes8 aes8 aes8 aes8 aes8 aes8 r4 bes8 r4 | bes8 bes8 bes8 ees'8 bes8 bes8 bes4. r4. |
+bes8 aes8 g8 bes8 aes8 g8 bes4. ees'4. | ees'8 ees'8 ees'8 ees'8 ees'8 ees'8 ees'4.~ ees'4. |
+bes8 bes8 ees'8 ees'8 ees'8 ees'8 ees'4. bes4. | g8. fis16 g8 bes8 g8 aes8 g4.~ g4.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+ees8 ees8 ees8 ees8 ees8 ees8 ees4. ees4. | ees8 ees8 ees8 aes,8 aes,8 aes,8 ees4.~ ees4. |
+ees8 ees8 ees8 ees8 ees8 ees8 ees4. ees4. | ees8 ees8 ees8 c8 c8 c8 bes,4.~ bes,4. |
+ees8 ees8 ees8 ees8 ees8 ees8 ees4. ees4. | aes8 aes8 aes8 aes8 aes8 aes8 ees4.~ ees4. |
+ees8 f8 g8 aes8 aes8 aes8 ees4. ees4. | ees8. ees16 ees8 bes,8 bes,8 bes,8 ees4.~ ees4. |
+ees8@c ees8 ees8 aes8 aes8 aes8 ees8 ees8 ees8 ees8 r4 | ees8 ees8 ees8 bes,8 bes,8 bes,8 ees4. g4. |
+f8 f8 f8 bes,8 bes,8 bes,8 f8 r4 bes,8 r4 | ees8 g8 bes8 c'8 bes8 g8 ees4. r4. |
+ees8 ees8 ees8 ees8 ees8 ees8 ees4. ees4. | aes8 aes8 aes8 aes8 aes8 aes8 ees4.~ ees4. |
+ees8 f8 g8 aes8 aes8 aes8 ees4. ees4. | ees8. ees16 ees8 bes,8 bes,8 bes,8 ees4.~ ees4.
+"""
+
+[lyrics.1]
+text = "Scat -- ter the mes -- sage of Je -- sus, O -- ver the land and the sea, Help -- ing the way -- ward to love Him, Free from their fet -- ters to be; Tell of His won -- der -- ful mer -- cy, Sing of His mar -- vel -- ous grace, Scat -- ter the mes -- sage of Je -- sus O -- ver each sin- -- dark -- ened place."
+
+[lyrics.2]
+text = "Scat -- ter the mes -- sage of Je -- sus, Com -- fort and cheer to be -- stow, Sing of the joy of sal -- va -- tion, Praise it wher -- ev -- er you go; Tell of the won -- der -- ful King, Who came for the lost to a -- tone, Scat -- ter it free -- ly and glad -- ly, Mak -- ing the Bless -- ed One known."
+
+[lyrics.3]
+text = "Scat -- ter it o -- ver the val -- leys, Scat -- ter it o -- ver the plains, Prais -- ing the won -- der -- ful Sav -- ior, Who in the Glo -- ry- -- Land reigns, Till in His mer -- cy He calls us Home to His man -- sion a -- bove, Joy -- ous -- ly, lov -- ing -- ly, ev -- er Scat -- ter the mes -- sage of love."
+
+[lyrics.chorus]
+text = "Scat -- ter the mes -- sage di -- vine, Tell of the Lead -- er a -- bove; Keep -- ing His glo -- ri -- ous ban -- ner, High in the sun -- light un -- furled, Scat -- ter the mes -- sage of Je -- sus O -- ver the sin- -- dark -- ened world."
+
+[parts.Alto.lyrics.chorus]
+text = "Scat -- ter the mes -- sage, the mes -- sage di -- vine, Scat -- ter the tid -- ings of love; Tell of the Lead -- er a -- bove; Keep -- ing His glo -- ri -- ous ban -- ner, High in the sun -- light un -- furled, Scat -- ter the mes -- sage of Je -- sus O -- ver the sin- -- dark -- ened world."
+
+[parts.Tenor.lyrics.chorus]
+text = "Scat -- ter the mes -- sage, the mes -- sage di -- vine, Scat -- ter the tid -- ings of love; Tell of the Lead -- er of men, the Lead -- er and Sav -- ior a -- bove; Keep -- ing His glo -- ri -- ous ban -- ner, High in the sun -- light un -- furled, Scat -- ter the mes -- sage of Je -- sus O -- ver the sin- -- dark -- ened world."
+
+[parts.Bass.lyrics.chorus]
+text = "Scat -- ter the mes -- sage, the mes -- sage di -- vine, Scat -- ter the tid -- ings of love; (and) Tell of the Lead -- er of men, the Lead -- er and Sav -- ior a -- bove; Keep -- ing His glo -- ri -- ous ban -- ner, High in the sun -- light un -- furled, Scat -- ter the mes -- sage of Je -- sus O -- ver the sin- -- dark -- ened world."
