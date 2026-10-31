@@ -1,0 +1,87 @@
+title = "For Him, My Lord"
+copyrights = [
+  "Lyrics: Franklin L. Eiland, 1911 (public domain)",
+  "Music: James W. Gaines, 1911 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 3
+phrase_breaks = ["4:64", "8:64", "12:48", "16:48", "20:48"]
+optional_phrase_breaks = ["2:64", "6:64"]
+non_breaking_phrase_breaks = ["18:16", "18:48", "20:16", "21:16", "21:48", "22:32", "23:16", "24:16"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+c''4 b'4 c''4 aes'4 | f'4 aes'4 aes'4 f'4 | ees'4 aes'4 c''4 aes'4 | bes'4 c''4 bes'2 |
+c''4 b'4 c''4 aes'4 | f'4 aes'4 aes'4 f'4 | ees'4 aes'4 c''4 aes'4 | c''4 bes'4 aes'2 |
+ees'2.@c d'4 | ees'2. aes'8[ bes'8] | c''2. b'4 | c''2. aes'4 |
+f'2( aes'4) aes'4 | ees'4( e'4 f'4) aes'8[ bes'8] | c''2. aes'4 | bes'2. r4 |
+ees'2. d'4 | ees'2. aes'8[ bes'8] | c''2. b'4 | c''2. aes'4 |
+f'2( aes'4) aes'4 | ees'4( e'4 f'4) aes'8[ bes'8] | c''2. bes'4 | aes'2. r4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+ees'4 d'4 ees'4 c'4 | des'4 des'4 des'4 des'4 | c'4 c'4 ees'4 ees'4 | d'4 d'4 ees'2 |
+ees'4 d'4 ees'4 c'4 | des'4 des'4 des'4 des'4 | c'4 c'4 ees'4 ees'4 | ees'4 des'4 c'2 |
+c'4@c c'4 c'4 b4 | c'4 c'4 c'4 ees'4 | ees'4 ees'4 ees'4 d'4 | ees'4 ees'4 ees'4 c'4 |
+des'4 des'4 f'4 des'4 | c'4 c'4 c'4 ees'4 | ees'4 ees'4 ees'4 ees'4 | ees'4 d'4 ees'4 ees'8[ des'8] |
+c'4 c'4 c'4 b4 | c'4 c'4 c'4 ees'4 | ees'4 ees'4 ees'4 d'4 | ees'4 ees'4 ees'4 c'4 |
+des'4 des'4 f'4 des'4 | c'4 c'4 c'4 ees'4 | ees'4 ees'4 ees'4 des'4 | c'4 des'4 c'4 r4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+aes4 aes4 aes4 aes4 | aes4 f4 f4 aes4 | aes4 aes4 aes4 aes4 | f4 aes4 g2 |
+aes4 aes4 aes4 aes4 | aes4 f4 f4 aes4 | aes4 aes4 aes4 aes4 | aes4 g4 ees2 |
+aes4@c aes4 aes4 aes4 | aes4 aes4 aes4 aes8[ g8] | aes4 aes4 aes4 aes4 | aes4 aes4 aes4 aes4 |
+aes4 aes4 aes8[ g8] aes8[ bes8] | aes4 bes4 aes4 aes8[ g8] | aes4 aes4 aes4 aes4 | g4 aes4 g4 r4 |
+aes4 aes4 aes4 aes4 | aes4 aes4 aes4 aes8[ g8] | aes4 aes4 aes4 aes4 | aes4 aes4 aes4 aes4 |
+aes4 aes4 aes8[ g8] aes8[ bes8] | aes4 bes4 aes4 aes8[ g8] | aes4 aes4 aes4 ees4 | ees4 f4 ees4 r4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+aes,4 aes,4 aes,4 aes,4 | des4 des4 des4 des4 | aes,4 aes,4 aes,4 c4 | bes,4 bes,4 ees2 |
+aes,4 aes,4 aes,4 aes,4 | des4 des4 des4 des4 | aes,4 aes,4 aes,4 c4 | ees4 ees4 aes,2 |
+aes,4@c aes,4 aes,4 aes,4 | aes,4 aes,4 aes,4 c8[ ees8] | aes4 aes4 aes4 aes4 | aes4 aes4 aes4 aes,4 |
+des4 des4 des8[ ees8] f8[ g8] | aes4 g4 f4 c8[ ees8] | aes4 aes4 aes4 c4 | ees4 f4 ees8[ des8] c8[ bes,8] |
+aes,4 aes,4 aes,4 aes,4 | aes,4 aes,4 aes,4 c8[ ees8] | aes4 aes4 aes4 aes4 | aes4 aes4 aes4 aes,4 |
+des4 des4 des8[ ees8] f8[ g8] | aes4 g4 f4 c8[ ees8] | aes4 aes4 ees4 ees4 | aes,2. r4
+"""
+
+[lyrics.1]
+text = "In the vine -- yard of my Mas -- ter, I would go and work to -- day, That I shall un -- to His hon -- or, Bear some pre -- cious fruit a -- way!"
+
+[lyrics.2]
+text = "Pray I for the strength and cour -- age, Fa -- ther, here to work for Thee; Grant to me this plead -- ed bless -- ing, I, Thy ser -- vant true, would be!"
+
+[lyrics.3]
+text = "Tho’ my morn -- ing life I’ve wast -- ed, Yea, the noon of it is on,— My re -- main -- ing mo -- ments, take them, Lord un -- til the last is gone!"
+
+[lyrics.chorus]
+text = "Toil -- ing here, for Him, my Lord, And O what joy ’twill be that day! Com -- ing from the har -- vest field, To bear some pre -- cious fruit a -- way!"
+
+[parts.Alto.lyrics.chorus]
+text = "Toil -- ing, toil -- ing here each day, for Him, for Him, my Lord, my Lord, And O, and O, what joy, what joy ’twill be, ’twill be, that day, that day! When com -- ing, com -- ing from the field, the har -- vest, har -- vest field of God To bear, to bear some pre -- cious, pre -- cious fruit for Him a -- way! a -- way!"
+
+[parts.Tenor.lyrics.chorus]
+text = "Toil -- ing, toil -- ing here each day, for Him, for Him, my Lord, my Lord, And O, and O, what joy, what joy ’twill be, ’twill be, that day, that day! com -- ing, com -- ing from the field, the har -- vest, har -- vest field of God To bear, to bear some pre -- cious, pre -- cious fruit for Him a -- way! a -- way!"
+
+[parts.Bass.lyrics.chorus]
+text = "Toil -- ing, toil -- ing here each day, for Him, for Him, my Lord, my Lord, And O, and O, what joy, what joy ’twill be, ’twill be, that day, that day! When com -- ing, com -- ing from the field, the har -- vest, har -- vest field of God To bear, to bear some pre -- cious, pre -- cious fruit for Him a -- way!"
