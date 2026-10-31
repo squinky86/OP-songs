@@ -1,0 +1,72 @@
+title = "Throw Out the Life-Line"
+copyrights = [
+  "Lyrics and Music: Edward S. Ufford, 1888 (public domain)",
+  "Arrangement: George C. Stebbins, 1891 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 104
+verse_count = 4
+phrase_breaks = ["2:48", "4:48", "6:40", "8:48", "12:48"]
+optional_phrase_breaks = ["10:48", "14:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+d'8 b'8. b'16 b'8 a'8 g'8 | a'8 b'8 c''8 b'4. | d''8 e''8 d''8 d''8 b'8 b'8 | b'8 a'8 g'8 fis'4.
+| d'8 b'8. b'16 b'8 a'8 g'8 | a'8 b'8 c''8 b'4 b'8 | d''8 e''8. d''16 d''8 b'8 g'8 | a'8 g'8 fis'8 g'4.
+| d''8@c d''8. d''16 e''8 d''4 | b'8 b'8. b'16 c''8 b'4 | a'8 a'8 a'8 a'8 fis'8. a'16 | b'4.( d''4.)
+| d''8 d''8. d''16 e''8 d''4 | b'8 b'8. b'16 c''8 b'4 | e''8 e''8 e''8 d''16 b'4! a'16 | g'2.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+b8 d'8. d'16 d'8 c'8 b8 | d'8 d'8 d'8 d'4. | g'8 g'8 g'8 d'8 d'8 d'8 | cis'8 cis'8 cis'8 d'4.
+| b8 d'8. d'16 d'8 c'8 b8 | d'8 d'8 d'8 d'4 d'8 | g'8 g'8. g'16 g'8 g'8 g'8 | fis'8 g'8 d'8 d'4.
+| g'8@c g'8. g'16 g'8 g'4 | g'8 g'8. g'16 g'8 g'4 | fis'8 fis'8 fis'8 fis'8 fis'8. fis'16 | g'2.
+| g'8 g'8. g'16 g'8 g'4 | g'8 g'8. g'16 g'8 g'4 | g'8 g'8 g'8 g'16 g'4! fis'16 | g'2.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+g8 g8. g16 g8 g8 g8 | fis8 g8 a8 g4. | b8 c'8 b8 b8 g8 g8 | fis8 fis8 a8 fis4.
+| g8 g8. g16 g8 g8 g8 | fis8 g8 a8 g4 g8 | b8 c'8. b16 b8 d'8 b8 | c'8 b8 a8 b4.
+| b8@c b8. b16 c'8 b4 | d'8 d'8. d'16 e'8 d'4 | d'8 d'8 d'8 d'8 d'8. d'16 | d'4.( b4.)
+| b8 b8. b16 c'8 b4 | d'8 d'8. d'16 e'8 d'4 | c'8 c'8 c'8 b16 d'4! c'16 | b2.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+g,8 g,8. g,16 g,8 g,8 g,8 | d8 d8 d8 g4. | g8 g8 g8 g8 g8 g8 | fis8 fis8 a,8 d4.
+| g8 g8. g16 g8 g8 g8 | d8 d8 d8 g,4 g8 | g8 g8. g16 g8 g8 g8 | d8 d8 d8 g,4.
+| g8@c g8. g16 g8 g4 | g8 g8. g16 g8 g4 | d8 d8 d8 d8 d8. d16 | g2.
+| g8 g8. g16 g8 g4 | g8 g8. g16 g8 g4 | c8 c8 c8 d16 d4! d16 | g,2.
+"""
+
+[lyrics.1]
+text = "Throw out the Life -- Line a -- cross the dark wave, There is a broth -- er whom some one should save; Some -- bod -- y’s broth -- er! oh, who then, will dare To throw out the Life -- Line, his per -- il to share?"
+
+[lyrics.2]
+text = "Throw out the Life -- Line with hand quick and strong, Why do you tar -- ry, why lin -- ger so long? See! He is sink -- ing, oh, hast -- en to -- day And out with the Life -- Boat, a -- way, then, a -- way!"
+
+[lyrics.3]
+text = "Throw out the Life -- Line to dan -- ger- -- fraught men, Sink -- ing in an -- guish where you’ve nev -- er been; Winds of temp -- ta -- tion and bil -- lows of woe, Will soon hurl them out where the dark wa -- ters flow."
+
+[lyrics.4]
+text = "Soon will the sea -- son of res -- cue be o’er, Soon will they drift to e -- ter -- ni -- ty’s shore; Haste, then, my broth -- er, no time for de -- lay, But throw out the Life -- Line and save them to -- day."
+
+[lyrics.chorus]
+text = "Throw out the Life -- Line! throw out the Life -- Line! Some one is drift -- ing a -- way; Throw out the Life -- Line! throw out the Life -- Line! Some one is sink -- ing to -- day."
