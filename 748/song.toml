@@ -1,0 +1,77 @@
+title = "When His Body Was Broken for Me"
+copyrights = [
+  "Lyrics: Johnson Oatman, Jr., 1926 (public domain)",
+  "Music: R. H. Cornelius, 1926 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 74
+verse_count = 4
+phrase_breaks = ["3:40", "5:40", "7:40", "9:40", "13:40"]
+optional_phrase_breaks = ["11:40", "15:40"]
+optional_break_threshold_ticks = 288
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. s4 ees'16 f'16
+| aes'8. f'16 aes'8 f'8 ees'8 aes'8 | c''8 c''8 bes'8 aes'4 aes'16 bes'16 | c''8. bes'16 aes'8 f'8 ees'8 aes'8 | c''4.~ c''4 ees'16 f'16
+| aes'8. f'16 aes'8 f'8 ees'8 aes'8 | c''8 c''8 c''8 ees''4! c''16 bes'16 | aes'16 aes'8.! bes'8 c''16 c''8. bes'8 | aes'4.~ aes'4 c''8@c
+| ees''8. c''16 ees''8 aes'8 bes'8 c''8 | bes'8 aes'4~ aes'4 aes'8 | c''8. bes'16 aes'8 f'8 ees'8 aes'8 | c''4.~ c''4 ees'16 f'16
+| aes'8. f'16 aes'8 ees'8 aes'8 bes'8 | c''8 ees''4~ ees''4 c''16 bes'16 | aes'16\\rit aes'8.! bes'8 c''16 c''8. bes'8 | aes'4.~ aes'4\\spanend s8
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. s4 c'16 f'16
+| c'8. f'16 c'8 f'8 c'8 c'8 | ees'8 ees'8 des'8 c'4 c'16 des'16 | ees'8. des'16 c'8 f'8 c'8 c'8 | ees'4.~ ees'4 c'16 f'16
+| c'8. f'16 c'8 f'8 c'8 c'8 | ees'8 ees'8 ees'8 aes'4! ees'16 des'16 | c'16 c'8.! d'8 ees'16 ees'8. des'8 | c'4.~ c'4 ees'8@c
+| aes'8. aes'16 aes'8 aes'8 g'8 aes'8 | g'8 ees'4~ ees'4 c'8 | ees'8. des'16 c'8 f'8 c'8 c'8 | ees'4.~ ees'4 c'16 f'16
+| c'8. f'16 c'8 c'8 ees'8 ees'8 | ees'8 aes'4~ aes'4 ees'16 des'16 | c'16 c'8.! d'8 ees'16 ees'8. des'8 | c'4.~ c'4 s8
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. s4 aes16 aes16
+| ees8. aes16 ees8 aes8 aes8 ees8 | aes8 aes8 ees8 ees4 ees16 ees16 | aes8. aes16 aes8 aes8 aes8 aes8 | aes4.~ aes4 aes16 aes16
+| ees8. aes16 ees8 aes8 aes8 ees8 | aes8 aes8 aes8 c'4! aes16 g16 | aes16 aes8.! aes8 aes16 aes8. ees8 | ees4.~ ees4 aes8@c
+| c'8. ees'16 c'8 ees'8 ees'8 ees'8 | des'8 c'4~ c'4 ees8 | aes8. ees16 ees8 aes8 aes8 ees8 | aes4.~ aes4 aes16 aes16
+| ees8. aes16 ees8 aes8 aes8 g8 | aes8 c'4~ c'4 aes16 g16 | aes16 aes8.! aes8 aes16 aes8. ees8 | ees4.~ ees4 s8
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. s4 aes,16 aes,16
+| aes,8. aes,16 aes,8 aes,8 aes,8 aes,8 | ees8 ees8 ees8 aes,4 aes,16 aes,16 | ees8. ees16 ees8 aes8 aes8 aes8 | aes4.~ aes4 aes,16 aes,16
+| aes,8. aes,16 aes,8 aes,8 aes,8 aes,8 | aes8 aes8 aes8 aes4! ees16 e16 | f16 f8.! f8 ees16 ees8. ees8 | aes,4.~ aes,4 aes8@c
+| aes8. aes16 aes8 c'8 bes8 aes8 | ees8 aes4~ aes4 aes,8 | aes,8. aes,16 aes,8 aes,8 aes,8 aes,8 | aes,4.~ aes,4 aes,16 aes,16
+| aes,8. aes,16 aes,8 aes,8 c8 ees8 | aes8 aes4~ aes4 ees16 e16 | f16 f8.! f8 ees16 ees8. ees8 | aes,4.~ aes,4 s8
+"""
+
+[lyrics.1]
+text = "Look -- ing back thro’ the years I can see my dear Lord, As they nailed Him that day to the tree; For the love that He bore me His life blood He poured, When His bod -- y was brok -- en for me."
+
+[lyrics.2]
+text = "For my sins and trans -- gres -- sions the dear Sav -- ior died On the cross, died in great ag -- o -- ny; Nails thro’ hands and thro’ feet and the spear thro’ His side, When His bod -- y was brok -- en for me."
+
+[lyrics.3]
+text = "The sun with -- drew in sor -- row be -- hind a dark veil, Thus re -- fus -- ing the Lord’s death to see; And the earth tried by quak -- ing His foes to as -- sail, When His bod -- y was brok -- en for me."
+
+[lyrics.4]
+text = "Yes, for -- ev -- er and ev -- er His great love was proved, When He suf -- fered on dark Cal -- va -- ry; And the curse of the law was for -- ev -- er re -- moved, When His bod -- y was brok -- en for me."
+
+[lyrics.chorus]
+text = "O love be -- yond hu -- man ex -- pres -- sion, Com -- pas -- sion so bound -- less and free; Je -- sus proved His great wealth of af -- fec -- tion, When His bod -- y was brok -- en for me."

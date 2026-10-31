@@ -1,18 +1,3 @@
-# Source: Tidings of Joy (1928) #51, p. 52 (hymnary TJ1928), seven-shape closed-score
-# SATB plate; notes and lyrics transcribed from the page scan. Header "WILL W. SLATER,
-# OWNER. 1928"; words "P. E. H.", music "P. E. Hall" (hymnary: P. E. Hall, 1928).
-# Key C (no signature; shapes agree: C = do), 4/4, 16th-tick pickup. No tempo printed;
-# 88 bpm is a guess.
-# Form: straight verse + refrain, no D.S. The refrain begins on the "If we'd" pickup
-# after "way." (M9). In the refrain S/A sing "If we'd show__ them, yes show them the
-# way", "They would come__", while T/B answer "just on-ly show them the right way
-# to-day" and "come glad-ly come"; the closing "(right way.)" is sung by Alto and Tenor
-# (their moving notes under the held "way.").
-# Text fixes: v1 plate "Its" -> "It’s"; type-damaged "brignt" (v4) -> "bright" and
-# "Fa-tner" (v3) -> "Fa-ther" (broken h); "gloryland" split glo-ry-land. Kept as printed:
-# v2 "re-pent’s and o-bey’s".
-# M16 bass staff "them the" prints three heads (C4/B3, G3, G2); kept T = C4/B3, B = G2
-# (complete chords); the alternative is T = G3 G3 as in the parallel verse bar M8.
 title = "Show Them the Way"
 copyrights = [
   "Lyrics and Music: P. E. Hall, 1928 (public domain)",
