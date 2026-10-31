@@ -1,0 +1,89 @@
+title = "In the Morning of Joy"
+copyrights = [
+  "Lyrics: Adalyn Evilsizer, 1895 (public domain)",
+  "Music: A. J. Showalter, 1895 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "E"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 3
+phrase_breaks = ["5:32", "9:32", "13:32", "17:32", "21:32", "25:32", "29:32"]
+optional_phrase_breaks = ["3:32", "7:32", "11:32", "15:32", "19:32", "23:32", "27:32", "31:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 e'8. fis'16 |
+gis'4 fis'4 e'4 | b'2 b'8. b'16 | cis''4 a'4 cis''4 | b'2 b'8. b'16 |
+cis''4 e''4 cis''4 | b'4 gis'4 gis'8. gis'16 | gis'4 fis'4 e'4 | fis'2 e'8. fis'16 |
+gis'4 fis'4 e'4 | b'2 b'8. b'16 | cis''4 a'4 cis''4 | b'2 b'8. b'16 |
+cis''4 e''4 cis''4 | b'4 gis'4 e'8. fis'16 | gis'4 e'4 fis'4 | e'2 gis'8.@c fis'16 |
+e'4 gis'4 b'4 | e''2 e''8. dis''16 | cis''4 e''4 cis''4 | b'2 b'8. b'16 |
+cis''4 b'4 b'4 | b'4 gis'4 gis'8. gis'16 | gis'4 fis'4 e'4 | fis'2 gis'8. fis'16 |
+e'4 gis'4 b'4 | e''2 e''8. dis''16 | cis''4 e''4 cis''4 | b'2 b'8. b'16 |
+cis''4 b'4 b'4 | b'4 gis'4 e'8. fis'16 | gis'4 e'4 fis'4 | e'2 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 e'8. e'16 |
+e'4 dis'4 e'4 | gis'2 gis'8. gis'16 | a'4 e'4 a'4 | gis'2 gis'8. gis'16 |
+a'4 a'4 e'4 | e'4 e'4 e'8. e'16 | e'4 b4 cis'4 | dis'2 e'8. e'16 |
+e'4 dis'4 e'4 | gis'2 gis'8. gis'16 | a'4 e'4 a'4 | gis'2 gis'8. gis'16 |
+a'4 a'4 e'4 | e'4 e'4 e'8. e'16 | e'4 e'4 dis'4 | e'2 e'8.@c dis'16 |
+e'4 e'4 gis'4 | gis'2 gis'8. b'16 | a'4 cis''4 a'4 | gis'2 gis'8. gis'16 |
+a'4 gis'4 gis'4 | gis'4 e'4 e'8. e'16 | e'4 b4 cis'4 | dis'2 e'8. dis'16 |
+e'4 e'4 gis'4 | gis'2 gis'8. b'16 | a'4 cis''4 a'4 | gis'2 gis'8. gis'16 |
+a'4 gis'4 gis'4 | gis'4 e'4 e'8. e'16 | e'4 e'4 dis'4 | e'2 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 gis8. a16 |
+b4 a4 gis4 | e'2 e'8. e'16 | e'4 cis'4 e'4 | e'2 e'8. e'16 |
+e'4 cis'4 a4 | gis4 b4 b8. b16 | b4 b4 ais4 | b2 gis8. a16 |
+b4 a4 gis4 | e'2 e'8. e'16 | e'4 cis'4 e'4 | e'2 e'8. e'16 |
+e'4 cis'4 a4 | gis4 b4 b8. cis'16 | b4 gis4 a4 | gis2 b8.@c a16 |
+gis4 b4 b4 | b2 e'8. e'16 | e'4 e'4 e'4 | e'2 e'8. e'16 |
+e'4 e'4 e'4 | e'4 b4 b8. b16 | b4 b4 ais4 | b2 b8. a16 |
+gis4 b4 b4 | b2 e'8. e'16 | e'4 e'4 e'4 | e'2 e'8. e'16 |
+e'4 e'4 e'4 | e'4 b4 b8. cis'16 | b4 gis4 a4 | gis2 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 e8. e16 |
+e4 e4 e4 | e2 e8. e16 | a4 a4 a4 | e2 e8. e16 |
+a4 a4 a4 | e4 e4 e8. e16 | e4 dis4 cis4 | b,2 e8. e16 |
+e4 e4 e4 | e2 e8. e16 | a4 a4 a4 | e2 e8. e16 |
+a4 a4 a4 | e4 e4 gis,8. a,16 | b,4 b,4 b,4 | e2 e8.@c e16 |
+e4 e4 e4 | e2 e8. gis16 | a4 a4 a4 | e2 e8. e16 |
+e4 e4 e4 | e4 e4 e8. e16 | e4 dis4 cis4 | b,2 e8. e16 |
+e4 e4 e4 | e2 e8. gis16 | a4 a4 a4 | e2 e8. e16 |
+e4 e4 e4 | e4 e4 gis,8. a,16 | b,4 b,4 b,4 | e2 s4
+"""
+
+[lyrics.1]
+text = "When the trum -- pet shall sound, And the dead shall a -- rise, And the splen -- dors im -- mor -- tal Shall en -- vel -- op the skies, When the an -- gel of death Shall no lon -- ger de -- stroy, And the dead shall a -- wak -- en In the morn -- ing of joy."
+
+[lyrics.2]
+text = "When the King shall ap -- pear In His beau -- ty on high, And shall sum -- mon His chil -- dren To the courts of the sky, Shall the cause of the Lord Have been all your em -- ploy, That your soul may be spot -- less In the morn -- ing of joy?"
+
+[lyrics.3]
+text = "O the bliss of that morn When our loved ones we meet, With the songs of the ran -- som’d We each oth -- er shall greet, Sing -- ing praise to the Lamb, Thro’ e -- ter -- ni -- ty’s years, With the past all for -- got -- ten With its sor -- rows and tears."
+
+[lyrics.chorus]
+text = "In the morn -- ing of joy, In the morn -- ing of joy, We’ll be gath -- ered to glo -- ry, In the morn -- ing of joy; In the morn -- ing of joy, In the morn -- ing of joy, We’ll be gath -- ered to glo -- ry, In the morn -- ing of joy."
