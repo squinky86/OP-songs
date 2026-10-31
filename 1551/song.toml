@@ -1,0 +1,84 @@
+# Source: Christian Hymns (1889), No. 266 "By and By", page 265 of the book
+# (hymnary CH1889a page image 263). Notes and all four stanzas read from that
+# plate scan. Credits on the plate: words "W. T. D.", music "Rev. W. T. Dale";
+# "W. T. D." is probably Dale himself, but the plate prints only initials, so the
+# Lyrics line keeps them. Footer: From "Last Words; or Spirit Whispers," by per.
+# No copyright line on the plate; 1889 (this book) is the earliest year in hand.
+# Closed-score SATB, homophonic throughout: the "By and by, by and by" echo is
+# sung by all four parts together, so global lyrics serve every part.
+# Form: four lines, pickup + 4 bars each, lines 1, 2 and 4 share the same music.
+# Line 3 (B strain): tenor and bass sit in unison on G3 on most notes, as printed.
+# Metrical elision kept from the plate: heav’n-ly (st. 3).
+# Tempo: not printed; 100 bpm is a guess.
+title = "By and By"
+copyrights = [
+  "Lyrics and Music: W. T. Dale, 1889 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 4
+phrase_breaks = ["5:32", "9:32", "13:32"]
+optional_phrase_breaks = ["3:32", "7:32", "11:32", "15:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 b'8 a'8 |
+g'4. g'8 a'8 g'8 | e'2 g'8 e'8 | d'2 e'8 fis'8 | g'2 b'8 a'8 |
+g'4. g'8 a'8 g'8 | e'2 g'8 e'8 | d'2 e'8 fis'8 | g'2 b'8 c''8 |
+d''4. d''8 e''8 d''8 | b'2 b'8 c''8 | d''4. d''8 e''8 d''8 | b'2 b'8 a'8 |
+g'4. g'8 a'8 g'8 | e'2 g'8 e'8 | d'2 e'8 fis'8 | g'2 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 d'8 c'8 |
+b4. b8 c'8 d'8 | c'2 e'8 c'8 | b2 c'8 c'8 | b2 d'8 c'8 |
+b4. b8 c'8 d'8 | c'2 e'8 c'8 | b2 c'8 c'8 | b2 g'8 g'8 |
+g'4. g'8 g'8 g'8 | d'2 g'8 g'8 | g'4. g'8 g'8 g'8 | d'2 d'8 c'8 |
+b4. b8 c'8 d'8 | c'2 e'8 c'8 | b2 c'8 c'8 | b2 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 g8 g8 |
+g4. g8 g8 g8 | g2 g8 g8 | g2 fis8 a8 | g2 g8 g8 |
+g4. g8 g8 g8 | g2 g8 g8 | g2 fis8 a8 | g2 g8 a8 |
+b4. b8 c'8 b8 | g2 g8 a8 | b4. b8 c'8 b8 | g2 g8 g8 |
+g4. g8 g8 g8 | g2 g8 g8 | g2 fis8 a8 | g2 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 g,8 g,8 |
+g,4. g,8 g,8 b,8 | c2 c8 c8 | d2 d8 d8 | g,2 g,8 g,8 |
+g,4. g,8 g,8 b,8 | c2 c8 c8 | d2 d8 d8 | g,2 g8 g8 |
+g4. g8 g8 g8 | g2 g8 g8 | g4. g8 g8 g8 | g2 g,8 g,8 |
+g,4. g,8 g,8 b,8 | c2 c8 c8 | d2 d8 d8 | g,2 s4
+"""
+
+[lyrics.1]
+text = "O -- ver Jor -- dan we shall meet, By and by, by and by; In the hap -- py land so sweet, By and by, by and by; We shall gath -- er on the shore, With our kin -- dred gone be -- fore, And the Sav -- iour’s name a -- dore, By and by, by and by."
+
+[lyrics.2]
+text = "All our sor -- rows shall be past, By and by, by and by; We shall reach our home at last, By and by, by and by; With the ran -- somed we shall stand, There a ho -- ly, hap -- py band, Crown’d with glo -- ry in that land, By and by, by and by."
+
+[lyrics.3]
+text = "We shall join the heav’n -- ly choir, By and by, by and by; We shall strike the gold -- en lyre, By and by, by and by; In our home so bright and fair, Where the hap -- py an -- gels are, We shall praise for -- ev -- er there, By and by, by and by."
+
+[lyrics.4]
+text = "There we’ll join the ran -- somed throng, By and by, by and by; Chant -- ing love’s re -- deem -- ing song, By and by, by and by; There we’ll meet be -- fore the throne, Then we’ll lay our tro -- phies down, And re -- ceive a shin -- ing crown, By and by, by and by."
