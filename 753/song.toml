@@ -1,20 +1,3 @@
-# Source: Tidings of Joy (1928), No. 146, p. 147 (hymnary TJ1928 page scan). Notes and
-# lyrics read from that plate (seven-shape, closed-score SATB); Church and Revival Songs
-# (1931, inside front cover) prints the same plate and was used only to confirm the
-# dotted-half "eye" in the first system. Plate credits: words "J. M. H.", music
-# "J. M. Henson", "J. M. Henson, owner, Atlanta, Ga." No date is printed, so the year is
-# the book's (1928).
-# Form: three stanzas and a refrain. In each stanza the soprano sings "There's an Eye"
-# and holds "Eye" while alto/tenor/bass answer "There's an Eye" (rest + 8. 16 4); then all
-# sing "watching you". The plate prints those answer lines once (rows 1 and 3), so they are
-# shared sections s1/s2. In the refrain, A/T/B echo the soprano's "watching you" a beat
-# later. All four parts sing the same words, so there are no per-part lyric overrides.
-# Editorial: "eye" is lowercase in the stanzas on the plate; it is capitalised as "Eye"
-# (the all-seeing Eye of God, as the refrain prints it). Kept as printed: "souls true
-# abode" (no apostrophe), "goal that sweet home of the soul." (period).
-# Guesses: tempo 84 is a guess (none printed). Bar 7, "wake": the bass staff prints three
-# heads (F4, C4, F3); tenor takes C4, with F4 as the alternative. Bar 15, bass on the
-# echo's first note (beat 2): the head is smudged; read as C3 to match bar 11.
 title = "Watching You"
 copyrights = [
   "Lyrics and Music: John M. Henson, 1928 (public domain)",
