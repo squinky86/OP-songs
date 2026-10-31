@@ -1,0 +1,105 @@
+title = "All Is Well With Me"
+copyrights = [
+  "Lyrics: James Rowe, 1928 (public domain)",
+  "Music: J. M. Henson, 1928 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 4
+phrase_breaks = ["5:48", "9:40", "11:40", "13:40", "15:48"]
+optional_phrase_breaks = ["3:48", "7:48"]
+non_breaking_phrase_breaks = ["4:16", "4:48", "5:16", "8:16", "8:48", "9:16", "12:8", "12:48", "13:8", "14:48", "15:8", "16:16", "16:48", "17:16"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. c''8. bes'16 |
+aes'4 ees'4 f'4 aes'4 | ees'4 aes'2 g'8. aes'16 | bes'2. aes'8.[ bes'16] | c''2. c''8. bes'16 |
+aes'4 ees'4 f'4 aes'4 | ees'4 aes'2 aes'8. bes'16 | c''2. bes'4 | aes'2~ aes'8 r8@c r4 |
+r8 des''16 des''16 des''8 des''8 des''8 r8 r4 | r8 c''8 c''8 c''8 c''8 c''16 c''16 c''8 c''8 |
+bes'2~ bes'8 ees''8 d''8 d''8 | ees''2~ ees''8! ees''16 ees''16 ees''8 des''8 |
+c''2~ c''8 c''8 bes'8 c''8 | des''2. aes'8. bes'16 | c''2. bes'4 | aes'2~ aes'8 s8 s4
+"""
+
+[parts.Soprano.lyrics.s1]
+text = "All is well with me;"
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. ees'8. des'16 |
+c'4 ees'4 des'4 des'4 | c'4 ees'2 r4 | r4 g'8. g'16 g'4 f'8.[ g'16] | aes'4 aes'4 aes'4 ees'8. des'16 |
+c'4 ees'4 des'4 des'4 | c'4 ees'2 r4 | r4 aes'8. aes'16 aes'4 g'4 | ees'4 f'4 ees'8 aes'16@c aes'16 aes'8 g'8 |
+f'2~ f'8 aes'8 g'8 f'8 | ees'2~ ees'8 r8 r4 |
+r8 g'16 g'16 g'8 g'8 g'8 g'8 f'8 aes'8 | g'8 fis'8 g'8 aes'8 bes'8! c''16 c''16 c''8 bes'8 |
+aes'2~ aes'8 aes'8 g'8 ges'8 | f'8 f'8 e'8 ges'8 f'4 r4 | r4 aes'8. aes'16 aes'4 g'4 | ees'4 f'4 ees'8 s8 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. aes8. aes16 |
+ees4 aes4 aes4 aes4 | aes4 c'2 bes8. c'16 | des'2. c'8.[ ees'16] | ees'4 ees'4 ees'4 aes8. aes16 |
+ees4 aes4 aes4 aes4 | aes4 c'2 c'8. des'16 | ees'2. des'4 | c'4 des'4 c'8 r8@c r4 |
+r8 aes16 aes16 aes8 aes8 aes8 r8 r4 | r8 aes8 aes8 aes8 aes8 r8 r4 |
+r8 ees'16 ees'16 ees'8 ees'8 ees'8 bes8 bes8 bes8 | bes8 a8 bes8 c'8 des'8! r8 r4 |
+r8 ees'16 ees'16 ees'8 ees'8 ees'8 ees'8 ees'8 ees'8 | des'8 aes8 g8 bes8 aes4 c'8. des'16 | ees'2. des'4 | c'4 des'4 c'8 s8 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. aes,8. aes,16 |
+aes,4 c4 des4 f4 | aes4 aes2 r4 | r4 ees8. ees16 ees4 f8.[ ees16] | aes4 aes4 aes4 aes,8. aes,16 |
+aes,4 c4 des4 f4 | aes4 aes2 r4 | r4 ees8. ees16 ees4 ees4 | aes,2~ aes,8 r8@c r4 |
+r8 des16 des16 des8 des8 des8 r8 r4 | r8 aes,8 aes,8 aes,8 aes,8 r8 r4 |
+r8 ees16 ees16 ees8 ees8 ees8 ees8 bes,8 bes,8 | ees2~ ees8! r8 r4 |
+r8 aes16 aes16 aes8 aes8 aes8 aes8 ees8 aes8 | des8 des8 des8 des8 des4 r4 | r4 ees8. ees16 ees4 ees4 | aes,2~ aes,8 s8 s4
+"""
+
+[lyrics.1]
+text = "To the Mas -- ter’s prom -- ise cling -- ing, @s1 Hap -- py prais -- es I am sing -- ing, @s2"
+
+[lyrics.2]
+text = "Days and nights no more I squan -- der, @s1 I in sin have ceased to wan -- der, @s2"
+
+[lyrics.3]
+text = "Great -- er joy each day is bring -- ing, @s1 In my soul glad bells are ring -- ing, @s2"
+
+[lyrics.4]
+text = "I am tell -- ing God’s own sto -- ry, @s1 I am bound for realms of glo -- ry, @s2"
+
+[lyrics.chorus]
+text = "I am on the way, to glo -- ry -- land, And the King of glo -- ry holds my hand; I shall soon be sing -- ing on the strand, All is well with me."
+
+[parts.Alto.lyrics.chorus]
+text = "I am on the way, to glo -- ry -- land, And the King of glo -- ry holds my hand; yes, holds my hand; I shall soon be sing -- ing on the strand, the gol -- den strand, All is well with me. with me."
+
+[parts.Tenor.lyrics.chorus]
+text = "I am on the way, to glo -- ry -- land, And the King of glo -- ry holds my hand; yes, holds my hand; I shall soon be sing -- ing on the strand, the gol -- den strand, All is well with me. with me."
+
+[parts.Bass.lyrics.chorus]
+text = "I am on the way, to glo -- ry -- land, And the King of glo -- ry holds my hand; I shall soon be sing -- ing on the strand, the gol -- den strand, All is well with me."
+
+[lyrics.s1]
+text = "All is well with me; with me;"
+
+[lyrics.s2]
+text = "All is well with me."
+
+[parts.Alto.lyrics.s2]
+text = "All is well with me. with me."
+
+[parts.Tenor.lyrics.s2]
+text = "All is well with me. with me."
