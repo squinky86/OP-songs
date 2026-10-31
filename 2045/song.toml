@@ -1,0 +1,86 @@
+title = "I Will Trade the Old Cross for a Crown"
+copyrights = [
+  "Lyrics: Johnson Oatman, Jr., 1925 (public domain)",
+  "Music: J. M. Henson, 1925 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "A"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 4
+phrase_breaks = ["3:48", "5:48", "9:48", "11:48", "13:48"]
+optional_phrase_breaks = ["7:48", "15:48"]
+non_breaking_phrase_breaks = ["11:16", "13:16", "15:16", "17:16"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. a'8. b'16 | cis''4 cis''8. cis''16 cis''4 b'8. cis''16 | b'8 a'2~ a'8 a'8. gis'16 | fis'4 fis'8. a'16 a'4 a'8. fis'16 |
+e'2. a'8. b'16 | cis''4 cis''8. cis''16 cis''4 b'8. cis''16 | b'8 a'2~ a'8 e'8. e'16 | fis'4 a'8. d''16 cis''4 b'8. b'16 |
+a'2. e'8.@c a'16 | cis''4 cis''8 cis''8 cis''4 b'8. cis''16 | a'2. a'8. cis''16 | b'4 b'8. b'16 b'8[ fis'8] a'8. cis''16 |
+b'2. a'8. b'16 | cis''4 cis''8. cis''16 cis''4 b'8. cis''16 | b'8 a'2~ a'8 e'8. e'16 | fis'4 a'8. d''16 cis''4 b'8. b'16 |
+a'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. cis'8. d'16 | e'4 e'8. e'16 e'4 d'8. e'16 | d'8 cis'2~ cis'8 cis'8. e'16 | d'4 d'8. fis'16 fis'4 fis'8. d'16 |
+cis'2. e'8. e'16 | e'4 a'8. fis'16 e'4 d'8. e'16 | d'8 cis'2~ cis'8 cis'8. cis'16 | d'4 fis'8. fis'16 e'4 d'8. d'16 |
+cis'2. cis'8.@c cis'16 | e'4 e'8 e'8 e'4 d'8. e'16 | cis'4 d'8. d'16 cis'4 cis'8. e'16 | e'4 e'8. e'16 dis'4 dis'8. dis'16 |
+e'4 gis'8. fis'16 e'8[ d'8] cis'8. d'16 | e'4 a'8. fis'16 e'4 d'8. e'16 | d'8 cis'8 d'8 d'8 cis'8 cis'8 cis'8. cis'16 | d'4 fis'8. fis'16 e'4 d'8. d'16 |
+cis'4 d'8 d'8 cis'4 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. e8. e16 | a4 a8. a16 a4 gis8. gis16 | a8 a2~ a8 a8. a16 | a4 a8. a16 d'4 d'8. a16 |
+a2. a8. gis16 | a4 a8. a16 a4 gis8. gis16 | a8 a2~ a8 a8. a16 | a4 a8. a16 a4 gis8. gis16 |
+a2. a8.@c e16 | a4 a8 a8 a4 gis8. gis16 | a4 fis8. fis16 e4 e8. a16 | gis4 gis8. gis16 fis8[ b8] b8. a16 |
+gis4 b8. a16 gis4 a8. e16 | a4 a8. a16 a4 gis8. gis16 | a8 e8 fis8 fis8 e8 e8 a8. a16 | a4 a8. a16 a4 gis8. gis16 |
+a4 fis8 fis8 e4 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. a,8. a,16 | a,4 a,8. a,16 a,4 e8. e16 | a,8 a,2~ a,8 a,8. cis16 | d4 d8. d16 d4 d8. d16
+| a,2. cis8. e16 | a4 a8. a16 a4 e8. e16 | a,8 a,2~ a,8 a,8. a,16 | d4 d8. d16 e4 e8. e16
+| a,2. a,8.@c a,16 | a,4 a,8 a,8 a,4 e8. e16 | a,2. a,8. a,16 | e4 e8. e16 b,4 b,8. b,16
+| e4 e8. e16 e4 a,8. a,16 | a,4 a,8. a,16 a,4 e8. e16 | a,8 a,8 a,8 a,8 a,8 a,8 a,8. a,16 | d4 d8. d16 e4 e8. e16
+| a,2. s4
+"""
+
+[lyrics.1]
+text = "I shall not bear the cross thro’ yon cit -- y When the bur -- dens of life are laid down, When I knock on the por -- tals of heav -- en I will trade the old cross for a crown."
+
+[lyrics.2]
+text = "Tho’ the cross of -- ten -- times has been heav -- y And oft, for -- tune on me seems to frown But how hap -- py I’ll be o -- ver yon -- der When I trade the old cross for a crown."
+
+[lyrics.3]
+text = "Oft, my bark has been tossed on life’s bil -- lows And each wave tried my ves -- sel to drown But no storm- -- cloud can harm me for -- ev -- er When I trade the old cross for a crown."
+
+[lyrics.4]
+text = "Ev -- ’ry cross that I bear for my Sav -- ior Will at last, when He calls be laid down And my sor -- rows will all be for -- got -- ten When I trade the old cross for a crown."
+
+[lyrics.chorus]
+text = "Yes, I’ll trade the old cross for a crown When the bur -- dens of life are laid down; When the pearl gates for me shall swing o -- pen I will trade the old cross for a crown."
+
+[parts.Alto.lyrics.chorus]
+text = "Yes, I’ll trade the old cross for a crown for a crown When the bur -- dens of life are laid down; are laid down; When the pearl gates for me shall swing o -- pen shall swing o -- pen, I will trade the old cross for a crown. for a crown."
+
+[parts.Tenor.lyrics.chorus]
+text = "Yes, I’ll trade the old cross for a crown for a crown When the bur -- dens of life are laid down; are laid down; When the pearl gates for me shall swing o -- pen shall swing o -- pen, I will trade the old cross for a crown. for a crown."
+
+[parts.Bass.lyrics.chorus]
+text = "Yes, I’ll trade the old cross for a crown When the bur -- dens of life are laid down; are laid down; When the pearl gates for me shall swing o -- pen shall swing o -- pen, I will trade the old cross for a crown."
