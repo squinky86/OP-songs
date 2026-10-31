@@ -1,0 +1,109 @@
+title = "Everything to Me"
+copyrights = [
+  "Lyrics: E. R. Latta, 1906 (public domain)",
+  "Music: Austin Taylor, 1906 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Bb"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 100
+verse_count = 5
+phrase_breaks = ["5:40", "9:48", "13:48"]
+optional_phrase_breaks = ["3:40", "7:40", "15:40"]
+non_breaking_phrase_breaks = ["5:16", "9:16", "17:16"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. s4 f'8 | bes'4 bes'8 bes'4 c''8 | d''4. bes'4 bes'8 | bes'4 bes'8 a'4 bes'8 | c''4.~ c''4 f'8
+| bes'4 bes'8 bes'4 c''8 | d''4. bes'4 bes'8 | d''4 bes'8 d''4 c''8 | bes'2.
+| d''4@c ees''8 d''4. | bes'4 c''8 bes'4 g'8 | f'4. bes'4. | c''2.
+| d''4 ees''8 d''4. | bes'4 c''8 bes'4 bes'8 | d''4 bes'8 d''4 c''8 | bes'2.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+splice_lyrics_into = "soprano"
+notes = """
+s4. s4 d'8 | f'4 f'8 f'4 f'8 | f'4. d'4 f'8 | g'4 f'8 ees'4 d'8 | f'4 e'8 f'4 ees'8
+| d'4 f'8 f'4 f'8 | f'4. d'4 d'8 | f'4 d'8 f'4 ees'8 | d'4 ees'8 d'4.
+| f'4@c g'8 f'4. | g'4 g'8 g'4 ees'8 | f'4. d'4. | f'2.
+| f'4 g'8 f'4. | g'4 g'8 g'4 d'8 | f'4 d'8 f'4 ees'8 | d'4 ees'8 d'4.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+splice_lyrics_into = "soprano"
+notes = """
+s4. s4 bes8 | d'4 d'8 bes4 a8 | bes4. bes4 bes8 | bes4 bes8 f4 bes8 | a4 g8 a4 a8
+| bes4 d'8 bes4 a8 | bes4. bes4 bes8 | bes4 bes8 bes4 a8 | bes4 g8 f4.
+| bes4@c bes8 bes4. | bes4 bes8 bes4 bes8 | bes4. bes4. | a2.
+| bes4 bes8 bes4. | bes4 bes8 bes4 bes8 | bes4 bes8 bes4 a8 | bes4 g8 f4.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+splice_lyrics_into = "soprano"
+notes = """
+s4. s4 bes,8 | bes,4 bes,8 d4 f8 | bes4. bes4 d8 | ees4 d8 c4 bes,8 | f4 c8 f4 f8 |
+bes,4 bes,8 d4 f8 | bes4. bes4 g8 | f4 f8 f4 f8 | bes,2. |
+bes,4@c bes,8 bes,8.[ c16 d8] | ees4 ees8 ees4 ees8 | d4. g4. | f2. |
+bes,4 bes,8 bes,8.[ c16 d8] | ees4 ees8 ees4 g8 | f4 f8 f4 f8 | bes,2.
+"""
+
+[lyrics.1]
+text = "What -- ev -- er my em -- ploy -- ment, Wher -- ev -- er I may be, (may be,) @s1"
+
+[parts.Soprano.lyrics.1]
+text = "What -- ev -- er my em -- ploy -- ment, Wher -- ev -- er I may be, @s1"
+
+[lyrics.2]
+text = "In sad -- ness or en -- joy -- ment, What -- ev -- er sights I see, (I see,) @s1"
+
+[parts.Soprano.lyrics.2]
+text = "In sad -- ness or en -- joy -- ment, What -- ev -- er sights I see, @s1"
+
+[lyrics.3]
+text = "This is my sure pos -- ses -- sion, What -- ev -- er else may flee, (may flee,) @s1"
+
+[parts.Soprano.lyrics.3]
+text = "This is my sure pos -- ses -- sion, What -- ev -- er else may flee, @s1"
+
+[lyrics.4]
+text = "The true be -- liev -- er’s por -- tion, Up -- on the land or sea, (or sea,) @s1"
+
+[parts.Soprano.lyrics.4]
+text = "The true be -- liev -- er’s por -- tion, Up -- on the land or sea, @s1"
+
+[lyrics.5]
+text = "He pur -- chased my sal -- va -- tion, To Him I make my plea, (my plea,) @s1"
+
+[parts.Soprano.lyrics.5]
+text = "He pur -- chased my sal -- va -- tion, To Him I make my plea, @s1"
+
+[lyrics.chorus]
+text = "Ev -- ’ry -- thing, ev -- ’ry -- thing to me, to me! Ev -- ’ry -- thing, ev -- ’ry -- thing, Yes, ev -- ’ry -- thing to me. to me."
+[lyrics.s1]
+text = "The pre -- cious name of Je -- sus, Is ev -- ’ry -- thing to me, to me,"
+
+
+[parts.Soprano.lyrics.chorus]
+text = "Ev -- ’ry -- thing, ev -- ’ry -- thing to me, to me! Ev -- ’ry -- thing, ev -- ’ry -- thing, Yes, ev -- ’ry -- thing to me."
+
+[parts.Soprano.lyrics.s1]
+text = "The pre -- cious name of Je -- sus, Is ev -- ’ry -- thing to me,"
+
+[parts.Bass.lyrics.chorus]
+text = "Ev -- ’ry -- thing, ev -- ’ry -- thing to me, to me! Ev -- ’ry -- thing, ev -- ’ry -- thing, Yes, ev -- ’ry -- thing to me."
+
+[parts.Bass.lyrics.s1]
+text = "The pre -- cious name of Je -- sus, Is ev -- ’ry -- thing to me,"
