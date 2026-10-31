@@ -1,0 +1,102 @@
+# Source: Tidings of Joy (1928) #65, page scan (TJ1928 p66, lower half); lyrics
+# transcribed from that scan. Plate: "Copyright, 1923, by Quartet Music Co., in
+# 'Searchlight Songs.' Owned and controlled by J. W. Ferrill." Words credited
+# "J. W. F.", music J. W. Ferrill (hymnary lists J. W. Ferrill as author, 1923).
+# Seven-shape plate; shapes agreed with staff position throughout.
+# Tempo: none printed; 96 is a guess.
+# Form, written out in performance order: line 1 (M1-5) -> segno strain (M5-9,
+# each stanza's own line 2, ends at the plate's Fine) -> Refrain (M9-13) ->
+# D.S. back to the segno strain with the plate's "D.S." row, which is the same
+# in every stanza ("If your faith grows weak turn the searchlight on, And follow
+# the bloodstained trail.") -> Fine (M17). Hence an ordinary chorus with @c.
+# The plate ties the two beat-4 eighths in M3 and M6; stanzas split them
+# differently (v3 "When He", v1 "He has"), so they are dashed slurs with `_`.
+# The plate also prints an arc over the tenor's pickup into the segno strain
+# (two syllables); ignored.
+# Refrain echo: the plate's second refrain row "Savior's bloodstain trail," is
+# sung by alto, tenor and bass (they move in quarters under the soprano's held
+# "trail"), so those three parts have chorus overrides.
+# Plate readings kept: "bloodstain trail" in the refrain vs "bloodstained" in
+# the stanzas; v3 "I've follow the bloodstained trail" (probably a misprint for
+# "followed", kept as printed).
+title = "The Blood-Stained Trail"
+copyrights = [
+  "Lyrics and Music: J. W. Ferrill, 1923 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 3
+phrase_breaks = ["5:48", "9:48", "13:48"]
+optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. c''8. bes'16 |
+aes'4 aes'4 aes'4 c''4 | ees''4 ees''4 ees''4 ees''8-( ees''8-) | f''8 ees''4 f''8 ees''4 c''4 | bes'2. c''8. bes'16 |
+aes'4 aes'4 aes'4 c''8-( c''8-) | ees''4 ees''4 ees''4 ees''4 | f''8 ees''4 aes'8 c''4 bes'4 | aes'2. aes'4@c |
+c''8 c''4 c''8 ees''4 c''4 | ees''2. ees''8 ees''8 | f''8 ees''4 f''8 ees''4 c''4 | bes'2. c''8. bes'16 |
+aes'4 aes'4 aes'4 c''8 c''8 | ees''4 ees''4 ees''4 ees''4 | f''8 ees''4 aes'8 c''4 bes'4 | aes'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. ees'8. des'16 |
+c'4 c'4 c'4 ees'4 | aes'4 aes'4 aes'4 aes'8-( aes'8-) | aes'8 aes'4 aes'8 aes'4 ees'4 | ees'2. ees'8. des'16 |
+c'4 c'4 c'4 ees'8-( ees'8-) | aes'4 aes'4 aes'4 aes'4 | aes'8 aes'4 aes'8 aes'4 ees'4 | ees'2. ees'4@c |
+ees'8 ees'4 ees'8 aes'4 aes'4 | aes'4 g'4 aes'4 aes'8 aes'8 | aes'8 aes'4 aes'8 aes'4 ees'4 | ees'2. ees'8. des'16 |
+c'4 c'4 c'4 ees'8 ees'8 | aes'4 aes'4 aes'4 aes'4 | aes'8 aes'4 aes'8 aes'4 ees'4 | ees'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. aes8. aes16 |
+ees4 ees4 ees4 aes4 | c'4 c'4 c'4 c'8-( c'8-) | des'8 c'4 des'8 c'4 aes4 | g2. aes8. aes16 |
+ees4 ees4 ees4 aes8-( aes8-) | c'4 c'4 c'4 c'4 | des'8 c'4 des'8 ees'4 des'4 | c'2. c'4@c |
+aes8 aes4 aes8 c'4 ees'4 | c'4 bes4 c'4 c'8 c'8 | des'8 c'4 des'8 c'4 aes4 | g2. aes8. aes16 |
+ees4 ees4 ees4 aes8 aes8 | c'4 c'4 c'4 c'4 | des'8 c'4 des'8 ees'4 des'4 | c'2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. aes,8. aes,16 |
+aes,4 aes,4 aes,4 aes,4 | aes4 aes4 aes4 aes8-( aes8-) | aes8 aes4 aes8 aes4 aes4 | ees2. aes,8. aes,16 |
+aes,4 aes,4 aes,4 aes,8-( aes,8-) | aes4 aes4 aes4 aes4 | aes8 aes4 f8 ees4 ees4 | aes,2. aes4@c |
+aes8 aes4 aes8 aes4 aes4 | aes4 ees4 aes4 aes8 aes8 | aes8 aes4 aes8 aes4 aes4 | ees2. aes,8. aes,16 |
+aes,4 aes,4 aes,4 aes,8 aes,8 | aes4 aes4 aes4 aes4 | aes8 aes4 f8 ees4 ees4 | aes,2. s4
+"""
+
+[lyrics.1]
+text = "If you want to live at peace with God And _ safe -- ly pass thro’ the vale; You must find the way He has made so plain, Just fol -- low the blood -- stained trail."
+
+[lyrics.2]
+text = "There is on -- ly one true way, that’s found It _ nev -- er, on earth, shall fail; And ’twill lead you straight to _ God’s white throne, Just fol -- low the blood -- stained trail."
+
+[lyrics.3]
+text = "If you heed Je -- ho -- vah’s will each day, When He calls you ’twill all be well; You can close your eyes with a smile and say, I’ve fol -- low the blood -- stained trail."
+
+[lyrics.chorus]
+text = "Just fol -- low the blood -- stain trail O -- ver moun -- tain and hill and dale; If your faith grows weak turn the search -- light on, And fol -- low the blood -- stained trail."
+
+[parts.Alto.lyrics.chorus]
+text = "Just fol -- low the Sa -- vior’s blood -- stain trail, O -- ver moun -- tain and hill and dale; If your faith grows weak turn the search -- light on, And fol -- low the blood -- stained trail."
+
+[parts.Tenor.lyrics.chorus]
+text = "Just fol -- low the Sa -- vior’s blood -- stain trail, O -- ver moun -- tain and hill and dale; If your faith grows weak turn the search -- light on, And fol -- low the blood -- stained trail."
+
+[parts.Bass.lyrics.chorus]
+text = "Just fol -- low the Sa -- vior’s blood -- stain trail, O -- ver moun -- tain and hill and dale; If your faith grows weak turn the search -- light on, And fol -- low the blood -- stained trail."
