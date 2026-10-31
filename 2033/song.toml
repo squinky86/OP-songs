@@ -1,0 +1,68 @@
+title = "Would You Live for Jesus?"
+subtitle = "His Way With Thee"
+copyrights = [
+  "Lyrics and Music: Cyrus S. Nusbaum, 1898 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 92
+verse_count = 3
+phrase_breaks = ["2:64", "4:64", "6:64", "8:48", "10:48", "12:48", "14:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+d'8. g'16 g'8. a'16 b'8. b'16 b'8. b'16 | b'8. a'16 a'8. b'16 c''2 | d'8. fis'16 a'8. b'16 c''4. c''8 | c''8. b'16 b'8. c''16 d''2 |
+d'8. g'16 g'8. a'16 b'8. b'16 b'8. b'16 | b'8. a'16 a'8. b'16 c''2 | d'8. d'16 d'8. c''16 b'4 a'4 | g'2. d''4@c |
+d''4. a'8 d''8. d''16 a'8. c''16 | c''4 b'4 b'4 d''4 | d''4. a'8 d''8. d''16 a'8. c''16 | c''4 b'4 b'4 d'4 |
+g'4. g'8 a'8. b'16 b'8. g'16 | g'4 c''4 c''4 e'4 | d'4. d'8 g'8. a'16 b'8. c''16 | b'4 a'4 g'2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+d'8. d'16 d'8. d'16 g'8. g'16 g'8. g'16 | g'8. fis'16 fis'8. g'16 a'2 | d'8. d'16 fis'8. g'16 a'4. a'8 | a'8. g'16 g'8. a'16 b'2 |
+d'8. d'16 d'8. d'16 g'8. g'16 g'8. g'16 | e'8. e'16 e'8. e'16 e'2 | d'8. d'16 d'8. d'16 d'4 fis'4 | g'2. g'4@c |
+fis'4. fis'8 fis'8. fis'16 fis'8. a'16 | a'4 g'4 g'4 g'4 | fis'4. fis'8 fis'8. fis'16 fis'8. a'16 | a'4 g'4 g'4 d'4 |
+d'4. d'8 fis'8. g'16 g'8. f'16 | e'4 e'4 e'4 c'4 | b4. b8 d'8. d'16 g'8. g'16 | g'4 fis'4 d'2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+b8. b16 b8. c'16 d'8. d'16 d'8. d'16 | d'8. d'16 d'8. d'16 d'2 | fis8. a16 d'8. d'16 d'4. d'8 | d'8. d'16 d'8. d'16 d'2 |
+b8. b16 b8. c'16 d'8. d'16 d'8. d'16 | c'8. c'16 c'8. gis16 a2 | fis8. fis16 fis8. a16 g4 c'4 | b2. b4@c |
+a4. d'8 a8. a16 d'8. d'16 | d'4 d'4 d'4 b4 | a4. d'8 a8. a16 d'8. d'16 | d'4 d'4 d'4 b4 |
+b4. b8 d'8. d'16 d'8. b16 | c'4 g4 g4 g4 | g4. g8 b8. c'16 d'8. e'16 | d'4 c'4 b2
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+g8. g16 g8. g16 g8. g16 g8. g16 | d8. d16 d8. d16 d2 | d8. d16 d8. d16 d4. d8 | g8. g16 g8. g16 g2 |
+g8. g16 g8. g16 g8. g16 g8. g16 | c8. c16 c8. b,16 a,2 | d8. d16 d8. d16 d4 d4 | g2. g4@c |
+d4. d8 d8. d16 d8. d16 | g4 g4 g4 g4 | d4. d8 d8. d16 d8. d16 | g4 g4 g4 g4 |
+g4. g8 d8. g16 g8. g16 | c4 c4 c4 c4 | d4. d8 d8. d16 d8. d16 | d4 d4 <g, g>2
+"""
+
+[lyrics.1]
+text = "Would you live for Je -- sus and be al -- ways pure and good? Would you walk with Him with -- in the nar -- row road? Would you have Him bear your bur -- den, car -- ry all your load? Let Him have His way with thee."
+
+[lyrics.2]
+text = "Would you have Him make you free, and fol -- low at His call? Would you know the peace that comes by giv -- ing all? Would you have Him save you, so that you need nev -- er fall? Let Him have His way with thee."
+
+[lyrics.3]
+text = "Would you in His king -- dom find a place of con -- stant rest? Would you prove Him true each prov -- i -- den -- tial test? Would you in His serv -- ice la -- bor al -- ways at your best? Let Him have His way with thee."
+
+[lyrics.chorus]
+text = "His pow’r can make you what you ought to be; His blood can cleanse your heart and make you free; His love can fill your soul, and you will see ’Twas best for Him to have His way with thee."
