@@ -1,0 +1,86 @@
+title = "O Save Me at the Cross"
+copyrights = [
+  "Lyrics: Fanny J. Crosby, 1873 (public domain)",
+  "Music: Hubert P. Main, 1873 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "A"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 100
+verse_count = 6
+phrase_breaks = ["4:48", "8:48", "12:48", "16:48", "20:48"]
+optional_phrase_breaks = ["2:48", "6:40", "10:48", "14:40", "18:48", "22:40"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+e'4 e'8 e'8[ cis'8] e'8 | a'4 a'8 a'4. | b'4 b'8 b'4( a'8) | cis''4 cis''8 cis''4. |
+e'4 e'8 e'8[ cis'8] e'8 | a'4 a'8 a'4 d''8 | b'4 a'8 cis''4 b'8 | a'2. |
+cis''4.@c b'8 a'8 fis'8 | e'4. a'4. | b'4. b'8 a'8 b'8 | cis''4. a'4. |
+cis''4. b'8 a'8 fis'8 | e'4. a'4 d''8 | b'4 a'8 cis''4 b'8 | a'2. |
+cis''4.%pp b'8 a'8 fis'8 | e'4. a'4. | b'4. b'8 a'8 b'8 | cis''4. a'4. |
+cis''4. b'8 a'8 fis'8 | e'4. a'4 d''8 | b'4 a'8 cis''4 b'8 | a'2.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+cis'4 cis'8 cis'8[ a8] cis'8 | cis'4 cis'8 cis'4. | d'4 d'8 d'4( cis'8) | e'4 e'8 e'4. |
+cis'4 cis'8 cis'8[ a8] cis'8 | cis'4 cis'8 cis'4 e'8 | fis'4 fis'8 e'4 d'8 | cis'2. |
+e'4.@c fis'8 fis'8 d'8 | cis'4. e'4. | d'4. d'8 cis'8 e'8 | e'4. cis'4. |
+e'4. fis'8 fis'8 d'8 | cis'4. e'4 e'8 | fis'4 fis'8 e'4 d'8 | cis'2. |
+e'4.%pp fis'8 fis'8 d'8 | cis'4. e'4. | d'4. d'8 cis'8 e'8 | e'4. cis'4. |
+e'4. fis'8 fis'8 d'8 | cis'4. e'4 e'8 | fis'4 fis'8 e'4 d'8 | cis'2.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+a4 a8 a8[ e8] e8 | e4 e8 e4. | gis4 gis8 gis4. | a4 a8 a4. |
+a4 a8 a8[ e8] e8 | e4 e8 e4 a8 | a4 a8 a4 gis8 | a2. |
+a4.@c a8 a8 a8 | a4. a4. | gis4. gis8 a8 gis8 | a4. e4. |
+a4. a8 a8 a8 | a4. a4 a8 | a4 a8 a4 gis8 | a2. |
+a4.%pp a8 a8 a8 | a4. a4. | gis4. gis8 a8 gis8 | a4. e4. |
+a4. a8 a8 a8 | a4. a4 a8 | a4 a8 a4 gis8 | a2.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+a,4 a,8 a,4 a,8 | a,4 a,8 a,4. | e4 e8 e4. | a4 a8 a4. |
+a,4 a,8 a,4 a,8 | a,4 a,8 a,4 a,8 | d4 d8 e4 e8 | a,2. |
+a,4.@c d8 d8 d8 | a,4. cis4. | e4. e8 e8 e8 | a4. a,4. |
+a,4. d8 d8 d8 | a,4. cis4 a,8 | d4 d8 e4 e8 | a,2. |
+a,4.%pp d8 d8 d8 | a,4. cis4. | e4. e8 e8 e8 | a4. a,4. |
+a,4. d8 d8 d8 | a,4. cis4 a,8 | d4 d8 e4 e8 | a,2.
+"""
+
+[lyrics.1]
+text = "Lov -- ing Sav -- iour, hear my cry, hear my cry, hear my cry; Trem -- bling, to Thy arms I fly, O save me at the cross."
+
+[lyrics.2]
+text = "I have sinned, but Thou hast died, Thou hast died, Thou hast died; In Thy mer -- cy let me hide, O save me at the cross."
+
+[lyrics.3]
+text = "Tho’ I per -- ish, I will pray, I will pray, I will pray; Thou of life the liv -- ing way, O save me at the cross."
+
+[lyrics.4]
+text = "Thou hast said Thy grace is free, grace is free, grace is free; Have com -- pas -- sion, Lord, on me, O save me at the cross."
+
+[lyrics.5]
+text = "Wash me in Thy cleans -- ing blood, cleans -- ing blood, cleans -- ing blood; Plunge me now be -- neath the flood, O save me at the cross."
+
+[lyrics.6]
+text = "On -- ly faith will par -- don bring, par -- don bring, par -- don bring; In that faith to Thee I cling, O save me at the cross."
+
+[lyrics.chorus]
+text = "Dear Je -- sus, re -- ceive me, No more would I grieve Thee; Now, bless -- ed Re -- deem -- er, O save me at the cross; Dear Je -- sus, re -- ceive me, No more would I grieve Thee; Now, bless -- ed Re -- deem -- er, O save me at the cross."
