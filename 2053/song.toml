@@ -1,17 +1,3 @@
-# Source: Church and Revival Songs (Slater Music Co., 1931), No. 19, page scan
-# (CRS reading view 0021). Header: "James Rowe" / "COPYRIGHTED 1930 BY HOMER F.
-# MORRIS" / "Homer F. Morris". Notes and all lyrics transcribed from that plate
-# (seven-shape, closed-score SATB, G major, 6/4); shapes used as a pitch checksum.
-# Tempo is not printed on the plate; tempo_bpm = 116 (dotted half ~ 39) is a guess.
-# The stanza ending "Take it to Jesus right now." is printed once for all three
-# verses; the plate's verse 2 "sor - rew" is read as "sor-row" (print smudge).
-# Syllable split normalised: verse 3 "a - bund-ance" -> "a -- bun -- dance".
-# Kept as printed: verse 1 dashes "He— and no oth-er— can", refrain "Presence".
-# Bar 12 (refrain "tri-als shall") prints a sharp on the tenor's C: C#4 under
-# soprano A A B, over bass A2.
-# The two "now." cadences on G (bars 8 and 16) print three bass-staff noteheads
-# (B3, G3, G2): the tenor takes B3 for a complete chord and the bass the low G2;
-# G3 is the tenor/bass doubling left out.
 title = "Take It to Jesus"
 copyrights = [
   "Lyrics: James Rowe, 1930 (public domain)",
