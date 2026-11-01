@@ -1,0 +1,83 @@
+# Source: Church and Revival Songs (Slater Music Co., 1931), No. 19, page scan
+# (CRS reading view 0021). Header: "James Rowe" / "COPYRIGHTED 1930 BY HOMER F.
+# MORRIS" / "Homer F. Morris". Notes and all lyrics transcribed from that plate
+# (seven-shape, closed-score SATB, G major, 6/4); shapes used as a pitch checksum.
+# Tempo is not printed on the plate; tempo_bpm = 116 (dotted half ~ 39) is a guess.
+# The stanza ending "Take it to Jesus right now." is printed once for all three
+# verses; the plate's verse 2 "sor - rew" is read as "sor-row" (print smudge).
+# Syllable split normalised: verse 3 "a - bund-ance" -> "a -- bun -- dance".
+# Kept as printed: verse 1 dashes "He— and no oth-er— can", refrain "Presence".
+# Bar 12 (refrain "tri-als shall") prints a sharp on the tenor's C: C#4 under
+# soprano A A B, over bass A2.
+# The two "now." cadences on G (bars 8 and 16) print three bass-staff noteheads
+# (B3, G3, G2): the tenor takes B3 for a complete chord and the bass the low G2;
+# G3 is the tenor/bass doubling left out.
+title = "Take It to Jesus"
+copyrights = [
+  "Lyrics: James Rowe, 1930 (public domain)",
+  "Music: Homer F. Morris, 1930 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 6
+time_sig_denominator = 4
+tempo_bpm = 116
+verse_count = 3
+phrase_breaks = ["4:96", "8:96", "12:96"]
+optional_phrase_breaks = ["2:96", "6:96", "10:96", "14:96"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+d''4 d''4 d''4 b'4 b'4 b'4 | a'4 g'4 e'4 d'2. | g'4 g'4 g'4 b'4 a'4 g'4 | a'2.~ a'2 r4
+| d''4 d''4 d''4 b'4 b'4 b'4 | a'4 g'4 e'4 d'2. | g'4 g'4 g'4 b'4 g'4 a'4 | g'2.~ g'2 r4
+| d''4@c d''4 d''4 b'4 b'4 b'4 | e''4 d''4 b'4 d''2. | d''4 e''4 d''4 b'4 a'4 g'4 | a'4 a'4 b'4 a'2.
+| d''4 d''4 d''4 b'4 b'4 b'4 | a'4 g'4 e'4 d'2. | g'4 g'4 g'4 b'4 g'4 a'4 | g'2.~ g'2 r4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+g'4 g'4 g'4 g'4 g'4 g'4 | e'4 e'4 c'4 b2. | e'4 e'4 e'4 d'4 d'4 e'4 | fis'2.~ fis'2 r4
+| g'4 g'4 g'4 g'4 g'4 g'4 | e'4 e'4 c'4 b2. | e'4 e'4 e'4 g'4 d'4 fis'4 | d'2.~ d'2 r4
+| g'4@c g'4 g'4 g'4 g'4 g'4 | g'4 g'4 g'4 g'2. | g'4 g'4 g'4 g'4 fis'4 e'4 | e'4 e'4 g'4 fis'2.
+| g'4 g'4 g'4 g'4 g'4 g'4 | e'4 e'4 c'4 b2. | e'4 e'4 e'4 g'4 d'4 fis'4 | d'2.~ d'2 r4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+b4 b4 b4 d'4 d'4 d'4 | c'4 c'4 g4 g2. | b4 b4 b4 g4 a4 b4 | d'2.~ d'2 r4
+| b4 b4 b4 d'4 d'4 d'4 | c'4 c'4 g4 g2. | b4 b4 b4 d'4 b4 c'4 | b2.~ b2 r4
+| b4@c b4 b4 d'4 d'4 d'4 | c'4 b4 d'4 b2. | b4 c'4 b4 d'4 c'4 b4 | cis'4 cis'4 cis'4 d'2.
+| b4 b4 b4 d'4 d'4 d'4 | c'4 c'4 g4 g2. | b4 b4 b4 d'4 b4 c'4 | b2.~ b2 r4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+g4 g4 g4 g4 g4 g4 | c4 c4 c4 g,2. | e4 e4 e4 g4 fis4 e4 | d2.~ d2 r4
+| g4 g4 g4 g4 g4 g4 | c4 c4 c4 g,2. | e4 e4 e4 d4 d4 d4 | <g, g>2.~ <g, g>2 r4
+| g4@c g4 g4 g4 g4 g4 | g4 g4 g4 g2. | g4 g4 g4 g4 d4 e4 | a,4 a,4 a,4 d2.
+| g4 g4 g4 g4 g4 g4 | c4 c4 c4 g,2. | e4 e4 e4 d4 d4 d4 | <g, g>2.~ <g, g>2 r4
+"""
+
+[lyrics.1]
+text = "Is there a shad -- ow of sin on your heart? Take it to Je -- sus right now. He— and no oth -- er— can make it de -- part. Take it to Je -- sus right now."
+
+[lyrics.2]
+text = "Have you a bur -- den of sor -- row to bear? Take it to Je -- sus right now. Com -- fort most pre -- cious will come to you there. Take it to Je -- sus right now."
+
+[lyrics.3]
+text = "Have you a weak -- ness which caus -- es you pain? Take it to Je -- sus right now. Strength in a -- bun -- dance your soul shall ob -- tain. Take it to Je -- sus right now."
+
+[lyrics.chorus]
+text = "Take it to Je -- sus your Sav -- ior and friend; In His dear Pres -- ence your tri -- als shall end. Al -- ways on Him may His chil -- dren de -- pend. Take it to Je -- sus right now."
