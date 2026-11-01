@@ -1,0 +1,92 @@
+title = "Give Jesus a Chance Today"
+copyrights = [
+  "Lyrics: James Rowe, 1929 (public domain)",
+  "Music: Will W. Slater, 1929 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 100
+verse_count = 4
+phrase_breaks = ["5:40", "9:40", "13:40"]
+optional_phrase_breaks = ["3:40", "7:40", "11:40", "15:40"]
+non_breaking_phrase_breaks = ["9:16", "11:16", "17:16"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. s4 ees'8
+| aes'8. aes'16 aes'8 c''4 ees'8 | aes'8. aes'16 f'8 ees'4 ees'8 | aes'8. aes'16 aes'8 c''4 aes'8 | bes'4.~ bes'4 c''8
+| ees''8. d''16 ees''8 c''4 ees'8 | aes'8. aes'16 f'8 ees'4 ees'8 | aes'8. aes'16 aes'8 c''4 bes'8 | aes'4.~ aes'4 c''8@c
+| ees''8. d''16 ees''8 c''4 aes'8 | c''4.~ c''4 c''8 | ees''8. d''16 ees''8 c''4 aes'8 | bes'4.~ bes'4 c''8
+| ees''8. d''16 ees''8 c''4 ees'8 | aes'8. aes'16 f'8 ees'4 aes'8 | c''16 ees''8. aes'8 c''4 bes'8 | aes'4.~ aes'4 s8
+"""
+
+[parts.Soprano.lyrics.chorus]
+text = "Give Je -- sus a chance to -- day, Your sins He will take a -- way. No long -- er be sad: be par -- doned and glad, Give Je -- sus a chance to -- day"
+
+[parts.Soprano.lyrics.s1]
+text = "Give Je -- sus a chance to -- day"
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. s4 c'8
+| ees'8. ees'16 ees'8 ees'4 ees'8 | f'8. f'16 des'8 c'4 c'8 | ees'8. ees'16 ees'8 aes'4 aes'8 | g'4.~ g'4 aes'8
+| aes'8. aes'16 aes'8 ees'4 ees'8 | f'8. f'16 des'8 c'4 c'8 | ees'8. ees'16 f'8 aes'4 g'8 | aes'4 f'8 ees'4 aes'8@c
+| aes'8. aes'16 aes'8 ees'4 ees'8 | aes'4 aes'8 aes'4 aes'8 | aes'8. aes'16 aes'8 aes'4 aes'8 | g'4.~ g'4 aes'8
+| aes'8. aes'16 aes'8 ees'4 ees'8 | f'8. f'16 des'8 c'4 ees'8 | aes'16 aes'8. aes'8 aes'4 g'8 | aes'4 f'8 ees'4 s8
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. s4 aes8
+| c'8. c'16 c'8 aes4 aes8 | aes8. aes16 aes8 aes4 aes8 | c'8. c'16 c'8 ees'4 d'8 | ees'4.~ ees'4 ees'8
+| c'8. bes16 c'8 aes4 aes8 | aes8. aes16 aes8 aes4 aes8 | c'8. c'16 d'8 ees'4 des'8 | c'4 des'8 c'4 ees'8@c
+| c'8. b16 c'8 aes4 c'8 | ees'4 f'8 ees'4 ees'8 | c'8. b16 c'8 ees'4 d'8 | ees'4.~ ees'4 ees'8
+| c'8. b16 c'8 aes4 aes8 | aes8. aes16 aes8 aes4 c'8 | ees'16 c'8. d'8 ees'4 des'8 | c'4 des'8 c'4 s8
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. s4 aes,8
+| aes,8. aes,16 aes,8 aes,4 c8 | des8. des16 des8 aes,4 aes,8 | aes8. aes16 aes8 aes4 f8 | ees4.~ ees4 aes8
+| aes8. aes16 aes8 aes,4 c8 | des8. des16 des8 aes,4 aes,8 | aes8. aes16 f8 ees4 ees8 | aes,4.~ aes,4 aes8@c
+| aes8. aes16 aes8 aes4 aes8 | aes4 f8 aes4 aes8 | aes8. aes16 aes8 aes4 f8 | ees4.~ ees4 aes8
+| aes8. aes16 aes8 aes,4 c8 | des8. des16 des8 aes,4 aes,8 | aes16 aes8. f8 ees4 ees8 | aes,4.~ aes,4 s8
+"""
+
+[lyrics.1]
+text = "You waste all your days in dan -- ger -- ous ways, So prone is the soul to stray; But if you would be for -- giv -- en and free, @s1"
+
+[lyrics.2]
+text = "Tho’ long you have strayed, it nev -- er has paid, De -- feat -- ed in ev -- ’ry fray; A Sav -- ior you need, a Sav -- ior in -- deed, @s1"
+
+[lyrics.3]
+text = "A song He im -- parts to sin blight -- ed hearts; His love bright -- ens all the way; He chang -- es the night to morn -- ing so bright, @s1"
+
+[lyrics.4]
+text = "This life is so brief, don’t spend it in grief, No long -- er the change de -- lay: Come, now make your choice, in Je -- sus re -- joice, @s1"
+
+[lyrics.chorus]
+text = "Give Je -- sus a chance to -- day, to -- day, Your sins He will take a -- way. No long -- er be sad: be par -- doned and glad, Give Je -- sus a chance to -- day to -- day."
+[lyrics.s1]
+text = "Give Je -- sus a chance to -- day to -- day."
+
+
+[parts.Bass.lyrics.chorus]
+text = "Give Je -- sus a chance to -- day, to -- day, Your sins He will take a -- way. No long -- er be sad: be par -- doned and glad, Give Je -- sus a chance to -- day"
+
+[parts.Bass.lyrics.s1]
+text = "Give Je -- sus a chance to -- day"
