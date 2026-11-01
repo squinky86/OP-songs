@@ -1,0 +1,75 @@
+title = "There’s a Crown for Your Cross"
+copyrights = [
+  "Lyrics: Ada Powell, 1921 (public domain)",
+  "Music: Austin Hazelwood, 1921 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Bb"
+time_sig_numerator = 6
+time_sig_denominator = 4
+tempo_bpm = 120
+verse_count = 4
+phrase_breaks = ["3:80", "5:80", "7:80", "9:80", "11:80", "13:80", "15:80"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s1 s4 f'8 f'8 |
+g'4 d'4 f'4 f'2 bes'8 bes'8 | bes'4 a'4 g'4 f'2 f'8 f'8 | bes'4 bes'4 d''4 c''4 g'4 d''4 | c''2.~ c''2! f'8 f'8 |
+g'4 d'4 f'4 bes'2 bes'8-( bes'8-) | bes'4 a'4 g'4 f'2 f'8 f'8 | g'4 f'4 bes'8[ c''8] d''4 bes'4 c''4 | bes'2.~ bes'2! d''8@c d''8 |
+d''4 d''4 d''4 d''2 bes'8 bes'8 | bes'4 a'4 g'4 f'2 f'8 f'8 | g'4 f'4 bes'8[ c''8] d''4 c''4 g'4 | c''2.~ c''2! d''8 d''8 |
+d''4 d''4 d''4 d''2 bes'8 bes'8 | bes'4 a'4 g'4 f'2 f'8 f'8 | g'4 f'4 bes'8[ c''8] d''4 bes'4 c''4 | bes'2.~ bes'2! s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s1 s4 d'8 d'8 |
+ees'4 bes4 d'4 d'2 f'8 f'8 | g'4 f'4 ees'4 d'2 d'8 d'8 | f'4 f'4 f'4 e'4 e'4 e'4 | ees'2.~ ees'2! d'8 d'8 |
+ees'4 bes4 d'4 f'2 f'8-( f'8-) | g'4 f'4 ees'4 d'2 d'8 d'8 | ees'4 d'4 f'8[ g'8] f'4 f'4 f'4 | f'2.~ f'2! f'8@c f'8 |
+g'4 bes'4 g'4 f'2 f'8 f'8 | g'4 f'4 ees'4 d'2 d'8 d'8 | ees'4 d'4 d'8[ ees'8] f'4 e'4 e'4 | f'2( g'4 a'2!) f'8 f'8 |
+g'4 bes'4 g'4 f'2 f'8 f'8 | g'4 f'4 ees'4 d'2 d'8 d'8 | ees'4 d'4 f'8[ g'8] f'4 f'4 f'4 | f'2.~ f'2! s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s1 s4 bes8 bes8
+| bes4 f4 bes4 bes2 bes8 bes8 | bes4 bes4 bes4 bes2 bes8 bes8 | d'4 d'4 bes4 bes4 bes4 bes4 | a2.~ a2! bes8 bes8
+| bes4 f4 bes4 d'2 bes8-( bes8-) | ees'4 ees'4 bes4 bes2 bes8 bes8 | bes4 bes4 bes4 bes4 d'4 ees'4 | d'2.~ d'2! bes8@c bes8
+| bes4 bes4 bes4 bes2 bes8 bes8 | ees'4 ees'4 bes4 bes2 bes8 bes8 | bes4 bes4 f4 bes4 g4 bes4 | a2( bes4 c'2!) bes8 bes8
+| bes4 bes4 bes4 bes2 bes8 bes8 | ees'4 ees'4 bes4 bes2 bes8 bes8 | bes4 bes4 bes4 bes4 d'4 ees'4 | d'2.~ d'2! s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s1 s4 bes,8 bes,8 |
+bes,4 bes,4 bes,4 bes,2 d8 d8 | ees4 ees4 ees4 bes,2 bes,8 bes,8 | bes,4 bes,4 bes,4 c4 c4 c4 | f2.~ f2! bes,8 bes,8 |
+bes,4 bes,4 bes,4 bes,2 d8-( d8-) | ees4 ees4 ees4 bes,2 bes,8 bes,8 | bes,4 bes,4 d8[ ees8] f4 f4 f4 | bes,2.~ bes,2! bes,8@c bes,8 |
+bes,4 bes,4 bes,4 bes,2 d8 d8 | ees4 ees4 ees4 bes,2 bes,8 bes,8 | bes,4 bes,4 bes,4 bes,4 c4 c4 | f2.~ f2! bes,8 bes,8 |
+bes,4 bes,4 bes,4 bes,2 d8 d8 | ees4 ees4 ees4 bes,2 bes,8 bes,8 | bes,4 bes,4 d8[ ees8] f4 f4 f4 | bes,2.~ bes,2! s4
+"""
+
+[lyrics.1]
+text = "There’s a crown for your cross, when the tear -- drops that stray, Will be driv -- en for -- ev -- er a -- way; When the cares that op -- press will at last be laid down, You’ll be giv -- en a beau -- ti -- ful crown."
+
+[lyrics.2]
+text = "There’s a crown for your cross when the day -- light shall dawn, When the night’s drear -- y shad -- ow’s are gone; You will meet with glad smiles and _ nev -- er a frown, You’ll be giv -- en a beau -- ti -- ful crown."
+
+[lyrics.3]
+text = "There’s a crown for your cross where the sweet flow -- ers grow, On the banks where bright wa -- ters doth flow; With a robe and a harp when the cross is laid down, You’ll be giv -- en a beau -- ti -- ful crown."
+
+[lyrics.4]
+text = "There’s a crown for your cross and a pow -- er di -- vine, There’s a love all a -- round you will shine; When the cross for the crown is for -- ev -- er laid down, You’ll be giv -- en a beau -- ti -- ful crown."
+
+[lyrics.chorus]
+text = "There’s a crown for your cross, there is gain for your loss, You’ll be giv -- en a crown for your cross, There’s a beau -- ti -- ful crown when your cross is laid down, You’ll be giv -- en a beau -- ti -- ful crown."
