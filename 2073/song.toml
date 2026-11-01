@@ -1,0 +1,81 @@
+title = "Sheltered by Atoning Grace"
+copyrights = [
+  "Lyrics and Music: Haldor Lillenas, 1920 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "C"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 92
+verse_count = 4
+phrase_breaks = ["4:64", "8:64", "10:64", "12:64"]
+optional_phrase_breaks = ["2:64", "6:64", "14:64"]
+non_breaking_phrase_breaks = ["10:44", "12:44"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+g'8. fis'16 g'8. a'16 g'4 e'4 | g'4 d'4 d'2 | a'8. gis'16 a'8. b'16 a'4 d'4 | a'4 g'4 g'2
+| c''8. b'16 c''8. d''16 c''4 g'4 | d''4 c''4 c''4( a'4) | g'8. fis'16 g'8. a'16 e'4 d'4 | c'2. r4
+| g'2@c~ g'8. e'16 f'8. g'16 | a'4 a'4 a'2 | b'2~ b'8. g'16 a'8. b'16 | c''4 c''4 c''2
+| e''8. e''16 e''8. d''16 c''4 g'4 | a'8. a'16 a'8. a'16 d''4 c''4 | b'8. b'16 b'8. a'16 g'4 d''4 | c''2. r4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+e'8. dis'16 e'8. f'16 e'4 c'4 | b4 b4 b2 | f'8. f'16 f'8. f'16 f'4 b4 | f'4 f'4 e'2
+| e'8. e'16 e'8. e'16 e'4 e'4 | e'4 f'4 f'2 | e'8. dis'16 e'8. f'16 c'4 b4 | c'2. r4
+| e'8.@c e'16 e'8. e'16 e'8. c'16 d'8. e'16 | f'4 g'4 f'2 | f'8. f'16 f'8. f'16 f'8. f'16 f'8. f'16 | e'4 f'4 e'2
+| g'8. g'16 g'8. g'16 g'4 e'4 | f'8. f'16 g'8. g'16 fis'4 fis'4 | f'8. f'16 f'8. f'16 f'4 f'4 | e'2. r4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+c'8. c'16 c'8. c'16 c'4 g4 | g4 g4 g2 | g8. g16 g8. g16 g4 g4 | g4 g4 g2
+| g8. g16 g8. g16 g4 c'4 | bes4 bes4 a4( c'4) | c'8. c'16 c'8. c'16 g4 f4 | e2. r4
+| c'8.@c c'16 c'8. c'16 c'8. g16 g8. c'16 | c'4 cis'4 d'2 | g8. g16 g8. g16 g8. b16 c'8. d'16 | c'4 a4 g2
+| c'8. c'16 c'8. b16 c'4 c'4 | c'8. c'16 cis'8. cis'16 d'4 d'4 | d'8. d'16 d'8. c'16 b4 g4 | g2. r4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+c8. c16 c8. c16 c4 c4 | d4 f4 f2 | g,8. g,16 g,8. g,16 g,4 g,4 | g,4 b,4 c2
+| c8. c16 c8. c16 c4 c4 | c4 c4 f2 | g8. g16 g8. g16 g4 g,4 | c2. r4
+| c8.@c c16 c8. c16 c8. c16 c8. c16 | f4 e4 d8. e16 f8. d16 | g8. g16 g8. g16 g8. g16 g8. g16 | c4 c4 c8. d16 e8. g16
+| c8. c16 c8. d16 e4 c4 | f8. f16 e8. e16 d4 d4 | g8. g16 g8. g16 g4 g4 | c2. r4
+"""
+
+[lyrics.1]
+text = "Love di -- vine shall ev -- er be my song, Since I left the paths of sin and wrong; All my praise to Je -- sus shall be -- long, Shel -- tered by a -- ton -- ing grace."
+
+[lyrics.2]
+text = "I have found a peace be -- yond com -- pare, And a safe re -- treat from anx -- ious care; Bless -- ed joy and com -- fort ev -- ’ry -- where, Shel -- tered by a -- ton -- ing grace."
+
+[lyrics.3]
+text = "When the temp -- ter oft my soul would try, To the place of ref -- uge I can fly; On my bless -- ed Sav -- iour, I re -- ly, Shel -- tered by a -- ton -- ing grace."
+
+[lyrics.4]
+text = "Tho’ the hosts of dark -- ness should com -- bine, O -- ver -- com -- ing pow -- er now is mine; Beams of love and mer -- cy ’round me shine, Shel -- tered by a -- ton -- ing grace."
+
+[lyrics.chorus]
+text = "Shel -- tered by a -- ton -- ing grace, What a sweet a -- bi -- ding place; With my sins for -- giv -- en, I am bound for heav -- en, Shel -- tered by a -- ton -- ing grace."
+
+[parts.Alto.lyrics.chorus]
+text = "Shel -- tered, safe -- ly shel -- tered by a -- ton -- ing grace, What a sweet a -- bi -- ding place, a -- bi -- ding place; With my sins for -- giv -- en, I am bound for heav -- en, Shel -- tered by a -- ton -- ing grace."
+
+[parts.Tenor.lyrics.chorus]
+text = "Shel -- tered, safe -- ly shel -- tered by a -- ton -- ing grace, What a sweet a -- bi -- ding place, a -- bi -- ding place; With my sins for -- giv -- en, I am bound for heav -- en, Shel -- tered by a -- ton -- ing grace."
+
+[parts.Bass.lyrics.chorus]
+text = "Shel -- tered, safe -- ly shel -- tered by a -- ton -- ing grace, of Je -- sus, What a sweet a -- bi -- ding place, a -- bi -- ding place; in Je -- sus; With my sins for -- giv -- en, I am bound for heav -- en, Shel -- tered by a -- ton -- ing grace."
