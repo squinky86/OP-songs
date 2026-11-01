@@ -1,0 +1,86 @@
+title = "His Picture is in My Heart"
+copyrights = [
+  "Lyrics: Alfred Barratt, 1930 (public domain)",
+  "Music: J. M. Henson, 1930 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "D"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 88
+verse_count = 4
+phrase_breaks = ["5:48", "9:48", "13:48"]
+optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
+non_breaking_phrase_breaks = ["11:8", "13:8", "14:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. fis'4 |
+a'4 gis'8 b'8 a'4 fis'4 | a'4 gis'4 g'4 g'4 | cis''4 b'8 b'8 a'4 g'4 | fis'2. fis'4 |
+a'4 gis'8 b'8 a'4 fis'4 | a'4 gis'4 g'4 fis'4 | e'8 a'4 cis''8 cis''4 b'4 | a'2.! b'8[@c cis''8] |
+d''8 d''4 d''8 a'4 b'8[ d''8] | cis''2. cis''4 | e''8 e''4 cis''8 a'4 e''4 | d''2. fis'8 a'8 |
+d''8 d''4 d''8 a'4 fis'8[ a'8] | b'8 b'4 b'8 e''4! d''4 | cis''8 cis''4 b'8 a'4 e''4 | d''2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. d'4 |
+fis'4 eis'8 g'8 fis'4 d'4 | d'4 d'4 cis'4 e'4 | a'4 g'8 g'8 fis'4 e'4 | d'2. d'4 |
+fis'4 eis'8 g'8 fis'4 d'4 | d'4 d'4 cis'4 d'4 | cis'8 cis'4 e'8 e'4 d'4 | cis'8([ d'8 e'8 fis'8] g'4!) g'4@c |
+fis'8 fis'4 fis'8 fis'4 fis'4 | g'8 g'8 g'8 g'8 g'4 g'4 | g'8 g'4 g'8 g'4 g'4 | fis'8 fis'8 d'8 e'8 fis'4 d'8 fis'8 |
+fis'8 fis'4 fis'8 fis'4 d'8[ fis'8] | g'8 g'4 a'8 gis'4! gis'4 | a'8 a'4 g'8 g'4 g'4 | fis'4( g'4 fis'4) s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. a4 |
+d'4 d'8 d'8 d'4 a4 | a4 b4 a4 a4 | a4 a8 a8 a4 a4 | a2. a4 |
+d'4 d'8 d'8 d'4 a4 | a4 b4 a4 a4 | a8 a4 a8 a4 gis4 | a8([ b8 cis'8 d'8] e'4!) cis'8[@c e'8] |
+d'8 a4 a8 d'4 d'8[ a8] | a8 a8 a8 a8 a4 a4 | cis'8 cis'4 e'8 cis'4 cis'4 | d'8 a8 fis8 g8 a4 a8 d'8 |
+a8 a4 a8 d'4 a8[ d'8] | d'8 d'4 dis'8 e'8[! b8] e'4 | e'8 e'4 d'8 cis'4 cis'4 | d'4( b4 a4) s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. d4 |
+d4 d8 d8 d4 d4 | fis4 f4 e4 a,4 | a,4 a,8 a,8 b,4 cis4 | d2. d4 |
+d4 d8 d8 d4 d4 | fis4 f4 e4 d4 | e8 e4 e8 e4 e4 | a,2.! a,4@c |
+d8 d4 d8 d4 d4 | a,8 a,8 cis8 e8 a4 a4 | a8 a4 a8 a4 a4 | d2. d8 d8 |
+d8 d4 d8 d4 d4 | g8 g4 fis8 e4! e4 | a8 a4 a8 a4 a4 | d2. s4
+"""
+
+[lyrics.1]
+text = "I have a dear Sav -- ior kind and true From Him I shall ne’er de -- part, My strength ev’ -- ry day He doth re -- new— His pict -- ure is in my heart."
+
+[lyrics.2]
+text = "While trust -- ing in Him a -- long the way What bless -- ings He doth im -- part, He fills me with joy each pass -- ing day— His pict -- ure is in my heart."
+
+[lyrics.3]
+text = "Tho’ I can -- not see His bless -- ed face He keeps me from Sa -- tan’s dart, And in -- to my soul He pours His grace,— His pict -- ure is in my heart."
+
+[lyrics.4]
+text = "To Je -- sus my soul doth now be -- long For heav -- en I’ve made a start, His won -- der -- ful love is now my song— His pict -- ure is in my heart."
+
+[lyrics.chorus]
+text = "His pict -- ure is in my heart— His pict -- ure is in my heart— When I’m lone -- ly and sad This thought makes me glad,— His pict -- ure is in my heart."
+
+[parts.Alto.lyrics.chorus]
+text = "His pict -- ure is in my heart— is in my heart, His pict -- ure is in my heart— is in my heart, When I’m lone -- ly and sad This thought makes me glad,— His pict -- ure is in my heart."
+
+[parts.Tenor.lyrics.chorus]
+text = "His pict -- ure is in my heart— is in my heart, His pict -- ure is in my heart— is in my heart, When I’m lone -- ly and sad This thought makes me glad,— His pict -- ure is in my heart."
+
+[parts.Bass.lyrics.chorus]
+text = "His pict -- ure is in my heart— is in my heart, His pict -- ure is in my heart— When I’m lone -- ly and sad This thought makes me glad,— His pict -- ure is in my heart."
