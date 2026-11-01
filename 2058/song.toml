@@ -1,0 +1,77 @@
+title = "Jesus Is At Your Door"
+copyrights = [
+  "Lyrics and Music: James W. Gaines, 1925 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 100
+verse_count = 4
+phrase_breaks = ["4:48", "8:48", "12:48"]
+optional_phrase_breaks = ["2:48", "6:48", "10:48", "14:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+ees'8 c'8 des'8 ees'8 aes'8 bes'8 | c''4 b'8 c''4 r8 | c''4 bes'8 bes'4 r8 | bes'4 aes'8 aes'4 r8 |
+aes'8 f'8 g'8 aes'8 g'8 f'8 | ees'4 aes'8 c''4 r8 | f'8 g'8 aes'8 c''4 ces''8 | bes'4.~ bes'4 r8 |
+c''4.@c des''4 c''8 | bes'4 f'8 bes'4 r8 | bes'4. c''4 bes'8 | aes'8 g'8 f'8 ees'4 r8 |
+f'4. aes'8[ g'8] f'8 | ees'4 aes'8 c''4 r8 | aes'8\\rit aes'8 des''8 c''4! bes'8 | aes'4.~\\spanend aes'4 r8
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+c'8 aes8 bes8 c'8 c'8 des'8 | ees'4 d'8 ees'4 r8 | ees'4 des'8 des'4 r8 | des'4 c'8 c'4 r8
+| des'8 des'8 ees'8 f'8 ees'8 des'8 | c'4 c'8 ees'4 r8 | d'8 d'8 ees'8 des'4 des'8 | ees'4.~ ees'4 r8
+| ees'4.@c f'4 ees'8 | d'4 d'8 d'4 r8 | ees'4. ees'4 des'8 | c'8 c'8 des'8 c'4 r8
+| des'4. f'8[ ees'8] des'8 | c'4 c'8 ees'4 r8 | c'8 ees'8 f'8 ees'4! des'8 | c'4.~ c'4 r8
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+aes8 ees8 ees8 aes8 ees8 ees8 | aes4 aes8 aes4 r8 | aes4 g8 g4 r8 | ees4 ees8 ees4 r8
+| f8 aes8 aes8 aes8 aes8 aes8 | aes4 ees8 aes4 r8 | aes8 g8 f8 aes4 aes8 | g4.~ g4 r8
+| aes8@c aes8 aes8 aes8 aes8 aes8 | aes4 aes8 f4 r8 | g8 g8 g8 aes8 aes8 ees8 | ees8 ees8 aes8 aes4 r8
+| aes8 aes8 aes8 aes8 aes8 aes8 | aes4 ees8 aes4 r8 | ees8 aes8 aes8 aes4! ees8 | ees4.~ ees4 r8
+"""
+
+[parts.Tenor.lyrics.chorus]
+text = "Je -- sus, the Sav -- iour is at your door, Wait -- ing, dear sin -- ner, to cleanse you from sin; Hear Him, Oh! turn Him a -- way no more, O -- pen, and let Him in."
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+aes,8 aes,8 aes,8 aes,8 aes,8 aes,8 | aes,4 aes,8 aes,4 r8 | ees4 ees8 ees4 r8 | aes,4 aes,8 aes,4 r8
+| des8 des8 des8 des8 des8 des8 | aes,4 aes,8 aes,4 r8 | bes,8 bes,8 bes,8 bes,4 bes,8 | ees4.~ ees4 r8
+| aes,8@c aes,8 aes,8 aes,8 aes,8 aes,8 | bes,4 bes,8 bes,4 r8 | ees8 ees8 ees8 ees8 ees8 ees8 | aes,8 aes,8 aes,8 aes,4 r8
+| des8 des8 des8 des8 des8 des8 | aes,4 aes,8 aes,4 r8 | aes,8 c8 des8 ees4! ees8 | aes,4.~ aes,4 r8
+"""
+
+[parts.Bass.lyrics.chorus]
+text = "Je -- sus, the Sav -- iour is at your door, Wait -- ing, dear sin -- ner, to cleanse you from sin; Hear Him, Oh! turn Him a -- way no more, O -- pen, and let Him in."
+
+[lyrics.1]
+text = "Sin -- ner, the Sav -- iour is at your door, Hear Him plead, hear Him plead; O -- pen, Oh! turn Him a -- way no more, He is the Friend you need."
+
+[lyrics.2]
+text = "He has a mes -- sage of peace and love, For your soul, for your soul; Sent from the Fa -- ther in heav’n a -- bove, Hear Him and be made whole."
+
+[lyrics.3]
+text = "You have been long -- ing for peace and rest, Let Him in, let Him in; Make Him this mo -- ment your ho -- ly guest, He will for -- give all sin."
+
+[lyrics.4]
+text = "O -- pen the door and let Je -- sus in, Come to -- day, why de -- lay? For He will cleanse you from ev -- ’ry sin, Come now, why long -- er wait?"
+
+[lyrics.chorus]
+text = "Je -- sus is at your door, Wait -- ing to cleanse you from sin; Turn Him a -- way no more, O -- pen, and let Him in."
