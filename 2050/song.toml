@@ -1,0 +1,72 @@
+title = "God Will Provide"
+copyrights = [
+  "Lyrics and Music: N. B. Herrell, 1913 (public domain)",
+  "Arrangement: Homer F. Morris, 1925 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 6
+time_sig_denominator = 4
+tempo_bpm = 104
+verse_count = 4
+phrase_breaks = ["4:96", "8:96", "12:96"]
+optional_phrase_breaks = ["2:96", "6:96", "10:96", "14:96"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+c''4 b'4 c''4 des''2 c''4 | bes'4. a'8 bes'4 f'2 r4 | c''4. bes'8 g'4 f'2 g'4 | ees'2.~ ees'2 r4
+| c''4 b'4 c''4 des''2 c''4 | bes'4. a'8 bes'4 f'2 r4 | c''4. bes'8 g'4 ees'2 bes'4 | aes'2.~ aes'2 r4
+| c''4.@c bes'8 aes'4 ees'2 aes'4 | aes'2 g'4 g'2 r4 | des''4. c''8 bes'4 f'2 g'4 | ees'2.~ ees'2 r4
+| c''4. b'8 c''4 aes'4( bes'4 c''4) | ees''4. d''8 ees''4 des''2 r4 | c''4. c''8 bes'4 aes'2 g'4 | aes'2.~ aes'2 r4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+ees'4 d'4 ees'4 f'2 ees'4 | f'4. f'8 f'4 des'2 r4 | ees'4. des'8 des'4 des'2 des'4 | c'2.~ c'2 r4
+| ees'4 d'4 ees'4 f'2 ees'4 | f'4. f'8 f'4 des'2 r4 | ees'4. des'8 des'4 des'2 des'4 | c'2.~ c'2 r4
+| ees'4.@c des'8 c'4 c'2 c'4 | des'2 des'4 des'2 r4 | ees'4. ees'8 des'4 des'2 des'4 | c'2.~ c'2 r4
+| ees'4. d'8 ees'4 c'4( des'4 ees'4) | ges'4. ges'8 ges'4 f'2 r4 | f'4. f'8 f'4 ees'2 ees'4 | ees'2.~ ees'2 r4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+aes4 aes4 aes4 aes2 aes4 | des'4. des'8 des'4 aes2 r4 | g4. g8 bes4 aes2 bes4 | aes2.~ aes2 r4
+| aes4 aes4 aes4 aes2 aes4 | des'4. des'8 des'4 aes2 r4 | g4. g8 bes4 g2 g4 | aes2.~ aes2 r4
+| aes4.@c aes8 aes4 aes2 ees4 | ees2 ees4 bes2 r4 | bes4. aes8 g4 aes2 bes4 | aes2.~ aes2 r4
+| aes4. aes8 aes4 aes2. | aes4. aes8 aes4 aes2 r4 | ees'4. ees'8 des'4 c'2 bes4 | c'2.~ c'2 r4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+aes4 aes4 aes4 aes2 aes4 | des4. des8 des4 des2 r4 | ees4. ees8 ees4 ees2 ees4 | aes2.~ aes2 r4
+| aes4 aes4 aes4 aes2 aes4 | des4. des8 des4 des2 r4 | ees4. ees8 ees4 ees2 ees4 | aes,2.~ aes,2 r4
+| aes,4.@c aes,8 aes,4 aes,2 aes,4 | des2 bes,4 ees2 r4 | ees4. ees8 ees4 ees2 ees4 | aes,2.~ aes,2 r4
+| aes4. aes8 aes4 aes2. | c4. c8 c4 des2 r4 | des4. des8 des4 ees2 ees4 | aes,2.~ aes,2 r4
+"""
+
+[lyrics.1]
+text = "No mat -- ter what your sta -- tion in life, God will pro -- vide for you, Trust -- ing in Him thro’ bat -- tle and strife, God will pro -- vide for you."
+
+[lyrics.2]
+text = "Tho’ bur -- dens press as on -- ward you go, God will pro -- vide for you; Walk -- ing with Him one thing you shall know, He will pro -- vide for you."
+
+[lyrics.3]
+text = "Take cour -- age, friend, just pray and pre -- vail, God will pro -- vide for you; Liv -- ing by faith you nev -- er can fail, God will pro -- vide for you."
+
+[lyrics.4]
+text = "On to the goal! no mat -- ter the test, God will pro -- vide for you; Fight -- ing all o’er, in heav -- en you’ll rest, God will pro -- vide for you."
+
+[lyrics.chorus]
+text = "God will pro -- vide for you, my friend; God will pro -- vide for you, In ev -- ’ry test, lean on His breast, God will pro -- vide for you."
