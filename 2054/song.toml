@@ -1,0 +1,84 @@
+title = "Looking to Thee"
+copyrights = [
+  "Lyrics and Music: G. L. Lindsey, 1908 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "E"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 3
+phrase_breaks = ["5:32", "8:32", "12:32", "15:48", "20:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 gis'8 a'8
+| b'4 ais'4 cis''4 | b'4 gis'4 e'8 fis'8 | gis'4 e'4 a'4 | gis'2 gis'8 gis'8
+| fis'4 gis'4 ais'4 | b'4 dis''4 cis''4 | b'2! b'8 a'8 | gis'4 gis'4 cis''4 | b'4 gis'4 e'8 e'8
+| e'4 fis'4 gis'4 | a'2! a'8-( cis''8-) | b'4 b'4 b'4 | gis'8 e'4. fis'4 | e'2.!
+| b'4@c b'4 b'4 | b'2 b'4 | dis''4 e''4 fis''4 | e''2.~ | e''2 b'4
+| cis''4 e''4 cis''4 | b'8 gis'4. e'4 | gis'8 e'4. fis'4 | e'2.!
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 gis'8 a'8
+| b'4 ais'4 cis''4 | b'4 gis'4 e'8 fis'8 | gis'4 e'4 a'4 | gis'2 gis'8 gis'8
+| fis'4 gis'4 ais'4 | b'4 dis''4 cis''4 | b'2! b'8 a'8 | gis'4 gis'4 cis''4 | b'4 gis'4 e'8 e'8
+| e'4 fis'4 gis'4 | a'2! a'8-( cis''8-) | b'4 b'4 b'4 | gis'8 e'4. fis'4 | e'2.!
+| r4@c r4 r4 | gis'4 gis'4 gis'4 | fis'4 gis'4 a'4 | gis'2.~ | gis'2 gis'4
+| a'4 a'4 a'4 | gis'8 e'4. e'4 | e'8 b4. b4 | b2.!
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 e8 fis8
+| gis4 f4 a4 | gis4 b4 gis8 a8 | b4 gis4 cis'4 | b2 b8 b8
+| ais4 b4 cis'4 | dis'4 b4 e'4 | dis'2! dis'8 dis'8 | e'4 b4 a4 | gis4 b4 gis8 gis8
+| gis4 a4 b4 | cis'2! cis'8-( a8-) | gis4 gis4 gis4 | b8 gis4. a4 | gis2.!
+| r4@c r4 r4 | e'4 e'4 b4 | b4 r2 | b4 b4 b4 | b2 e'4
+| e'4 cis'4 e'4 | e'8 b4. ais4 | b8 gis4. a4 | gis2.!
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 e8 fis8
+| gis4 f4 a4 | gis4 b4 gis8 a8 | b4 gis4 cis'4 | b2 b8 b8
+| ais4 b4 cis'4 | dis'4 b4 e'4 | dis'2! dis'8 dis'8 | e'4 b4 a4 | gis4 b4 gis8 gis8
+| gis4 a4 b4 | cis'2! cis'8-( a8-) | gis4 gis4 gis4 | b8 gis4. a4 | gis2.!
+| r4@c r4 r4 | e4 e4 e4 | b,4 r2 | e4 e4 e4 | e2 e4
+| a4 a4 a4 | e8 e4. cis4 | b,8 b,4. b,4 | e2.!
+"""
+
+[lyrics.1]
+text = "There’s a beau -- ti -- ful cit -- y far be -- yond the blue sky, And I long its bright por -- tals to see; ’Tis the home of our Fa -- ther whom we’ll see by and by, And, dear Sav -- ior, I’m look -- ing to Thee."
+
+[lyrics.2]
+text = "While I roam on this earth here there’ll be sor -- rows and cares, Re -- al plea -- sures but few I shall see; But I’ll live for the right and try to shun Sa -- tan’s snares, While I’m look -- ing, dear Sav -- ior, to Thee."
+
+[lyrics.3]
+text = "There are man -- y sad tri -- als thro’ the path -- way of life, Man -- y bur -- dens and cross -- es there’ll be; All my bur -- dens I’ll bear and I’ll push on thro’ the strife, Still _ look -- ing, dear Sav -- ior, to Thee."
+
+[lyrics.chorus]
+text = "Look -- ing to Thee, I’m look -- ing to Thee, Dear Sav -- ior, I’m look -- ing, I’m look -- ing to Thee."
+
+[parts.Alto.lyrics.chorus]
+text = "Look -- ing I'm look -- ing to Thee, Dear Sav -- ior, I’m look -- ing, I’m look -- ing to Thee."
+
+[parts.Tenor.lyrics.chorus]
+text = "Look -- ing to Thee. Look -- ing to Thee, Dear Sav -- ior, I’m look -- ing, I’m look -- ing to Thee."
+
+[parts.Bass.lyrics.chorus]
+text = "Look -- ing to Thee. Look -- ing to Thee, Dear Sav -- ior, I’m look -- ing, I’m look -- ing to Thee."
