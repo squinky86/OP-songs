@@ -1,0 +1,74 @@
+title = "Consider Him"
+copyrights = [
+  "Lyrics: E. May Grimes, 1902 (public domain)",
+  "Music: H. Green, 1902 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Eb"
+time_sig_numerator = 2
+time_sig_denominator = 2
+tempo_bpm = 96
+verse_count = 6
+phrase_breaks = ["4:64", "8:64", "12:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+ees'2 aes'4 c''4 | ees''2 ees''2 | ees''4. ees''8 d''4 c''4 | bes'1
+| c''2 bes'4 aes'4 | g'4 g'4 g'4 c''4 | a'2 f'2 | bes'1
+| g'2 aes'4 c''4 | ees''2 ees''2 | ees''4. ees''8 d''4 c''4 | d''1
+| ees''2 d''4 c''4 | bes'4 aes'4 g'4 c''4 | bes'4( ees'4) f'2 | ees'1
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+bes2 ees'4 aes'4 | g'2 g'2 | aes'4. aes'8 aes'4 aes'4 | g'1
+| ees'2 ees'4 d'4 | ees'4 f'4 ees'4 ees'4 | f'2 ees'2 | d'1
+| ees'2 ees'4 aes'4 | g'2 g'2 | a'4. a'8 bes'4 a'4 | bes'1
+| bes'2 aes'4 aes'4 | ees'4 d'4 ees'4 ees'4 | ees'4( bes4) d'2 | bes1
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+g2 c'4 ees'4 | ees'2 ees'2 | c'4. c'8 bes4 c'8[ d'8] | ees'1
+| aes2 bes4 bes4 | bes4 b4 c'4 c'4 | c'2 c'2 | bes1
+| bes2 c'4 ees'4 | ees'2 ees'2 | c'4. c'8 ees'4 ees'4 | f'1
+| ees'2 ees'4 ees'4 | bes4 bes4 bes4 aes4 | g2 aes2 | g1
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+ees2 ees4 ees4 | ees2 ees2 | ees4. ees8 ees4 ees4 | ees1
+| aes2 g4 f4 | ees4 d4 c4 c4 | f2 f2 | bes,1
+| ees2 ees4 ees4 | ees2 ees2 | f4. f8 f4 f4 | bes2( aes2)
+| g2 aes4 aes4 | g4 f4 ees4 aes,4 | bes,2 bes,2 | ees1
+"""
+
+[lyrics.1]
+text = "“Con -- sid -- er Him,” let Christ thy pat -- tern be, And know that He hath ap -- pre -- hend -- ed thee To share His ve -- ry life— His pow’r Di -- vine, And in the like -- ness of thy Lord to shine."
+
+[lyrics.2]
+text = "“Con -- sid -- er Him;” so shalt thou day by day Seek out the low -- liest place, and there -- in stay, Con -- tent to pass a -- way, a thing of nought, That glo -- ry to the Fa -- ther’s name be brought."
+
+[lyrics.3]
+text = "Shrink not, O child of God, but fear -- less go Down in -- to death with Je -- sus: thou shalt know “The pow -- er of an end -- less life” be -- gin, With “glo -- rious li -- ber -- ty” from self and sin."
+
+[lyrics.4]
+text = "“Con -- sid -- er Him,” and thus thy life shall be Filled with self- -- sac -- ri -- fice and pu -- ri -- ty; God will work out in thee the pat -- tern true, And Christ’s ex -- am -- ple ev -- er keep in view."
+
+[lyrics.5]
+text = "“Con -- sid -- er Him.” Thy great High Priest a -- bove Is in -- ter -- ced -- ing in un -- tir -- ing love, And He would have thee thus “With -- in the Vail” By Spir -- it- -- breathed pe -- ti -- tions to pre -- vail."
+
+[lyrics.6]
+text = "“Con -- sid -- er Him,” and as you run the race, Keep ev -- er up -- ward look -- ing in His face: And thus trans -- formed, il -- lu -- mined thou shalt be, And Christ’s own im -- age shall be seen in thee."
