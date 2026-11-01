@@ -1,0 +1,71 @@
+title = "Still Outside"
+copyrights = [
+  "Lyrics: James Rowe, 1930 (public domain)",
+  "Music: J. M. Henson, 1930 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 90
+verse_count = 4
+phrase_breaks = ["4:48", "8:48", "12:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+c''8.[ b'16] c''8 des''4( c''8) | c''4 bes'8 aes'4. | aes'8. g'16 f'8 ees'4 aes'8 | bes'4.~ bes'4 r8
+| c''8. b'16 c''8 des''4 c''16 c''16 | ees''4 ees''8 des''4. | c''8. bes'16 aes'8 c''4 bes'8 | aes'4.~ aes'4 r8
+| aes'8.@c g'16 aes'8 des''4 f'16 f'16 | ees'8[ aes'8] bes'8 c''4. | c''8. bes'16 aes'8 f'4 c''8 | bes'4.~ bes'4 r8
+| c''8. b'16 c''8 ees''4 c''16 c''16 | ees''4 ees''8 des''4. | c''8. bes'16 aes'8 c''4\\rit bes'8 | aes'4.~ aes'4\\spanend r8
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+ees'8.[ d'16] ees'8 f'4( ees'8) | ees'4 des'8 c'8[ des'8 ees'8] | f'8. ees'16 des'8 c'4 ees'8 | ees'4.~ ees'4 r8
+| ees'8. d'16 ees'8 f'4 ees'16 ees'16 | ges'4 ges'8 f'4. | ees'8. des'16 c'8 ees'4 des'8 | c'4.~ c'4 r8
+| c'8.@c des'16 ees'8 f'4 des'16 des'16 | c'8[ ees'8] ees'8 ees'4. | d'8. d'16 d'8 d'4 d'8 | ees'4.( des'4) r8
+| ees'8. d'16 ees'8 aes'4 ees'16 ees'16 | ges'4 ges'8 f'4. | ees'8. des'16 c'8 ees'8[ d'8] des'8 | c'4.~ c'4 r8
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+aes4 aes8 aes4. | aes4 g8 aes4. | aes8. aes16 aes8 aes4 aes8 | g4.~ g4 r8
+| aes8. aes16 aes8 aes4 aes16 aes16 | aes4 aes8 aes4. | aes8. ees16 ees8 aes4 ees8 | ees4.~ ees4 r8
+| ees8.@c ees16 aes8 aes4 aes16 aes16 | aes4 g8 aes4. | aes8. f16 f8 bes4 aes8 | g4.~ g4 r8
+| aes8. aes16 aes8 c'4 aes16 aes16 | aes4 aes8 aes4. | aes8. g16 aes8 aes8[ f8] g8 | ees4.~ ees4 r8
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+aes,4 aes,8 aes,4. | ees4 ees8 aes,8[ bes,8 c8] | des8. des16 des8 aes,4 c8 | ees4.~ ees4 r8
+| aes,8. aes,16 aes,8 aes,4 aes,16 aes,16 | c4 c8 des4. | ees8. ees16 ees8 ees4 ees8 | aes,4.~ aes,4 r8
+| aes,8.@c bes,16 c8 des4 des16 des16 | aes,8[ c8] ees8 aes4( aes,8) | bes,8. bes,16 bes,8 bes,4 bes,8 | ees4.~ ees4 r8
+| aes,8. aes,16 aes,8 aes,4 aes,16 aes,16 | c4 c8 des4. | ees8. ees16 ees8 ees4 ees8 | aes,4.~ aes,4 r8
+"""
+
+[lyrics.1]
+text = "Still out -- side! Still out -- side, Liv -- ing in doubt and sin! Sweet is the plea of the Cru -- ci -- fied, Yet you will not come in!"
+
+[lyrics.2]
+text = "Still out -- side! Still out -- side, Tho’ the long night is near! Foes will as -- sail you and storms be -- tide, Yet you re -- fuse to hear!"
+
+[lyrics.3]
+text = "Still out -- side! Still out -- side, Sin- -- stained, un -- loved and worn! Risk -- ing for pleas -- ures which ne’er a -- bide Heav -- en’s e -- ter -- nal morn."
+
+[lyrics.4]
+text = "Still out -- side! Still out -- side, Why will you not come in? Wea -- ry and worn, and dis -- sat -- is -- fied, Just for a life of sin!"
+
+[lyrics.chorus]
+text = "“Time e -- nough yet,” to your soul you say, Griev -- ing the Friend who died. O -- pen the door of the fold re -- mains, Yet you are still out -- side."
