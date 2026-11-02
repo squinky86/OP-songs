@@ -35,21 +35,6 @@ e'4 e'4 e'4 e'4 | gis'2 gis'2 | gis'4 gis'4 gis'4 e'4 | dis'2. r4
 | gis'4 gis'4 gis'4 gis'4 | a'2 e'2 | e'4 e'4 dis'4 b4 | b4 cis'4 b4 r4
 """
 
-[parts.Alto.lyrics.1]
-text = "Take your stand for Je -- sus, Work with all your might; Praise Him for His mer -- cy, Praise Him day and (day and night.)"
-
-[parts.Alto.lyrics.2]
-text = "Take your stand for Je -- sus, ’Gainst the foes of right; Press them in the con -- flict, Put them all to flight. (to fight.)"
-
-[parts.Alto.lyrics.3]
-text = "Take your stand for Je -- sus, Keep His ban -- ner high; Yours shall be the vic -- t’ry, In the by and (by and by.)"
-
-[parts.Alto.lyrics.4]
-text = "Take your stand for Je -- sus, And His love pro -- claim; Res -- cue souls in dark -- ness, Praise His ho -- ly (ho -- ly name.)"
-
-[parts.Alto.lyrics.chorus]
-text = "Praise the Lord, His love pro -- claim, His match -- less love pro -- claim; (pro -- claim;) Take your stand for Je -- sus, Praise, O praise His pre -- cious name."
-
 [parts.Tenor]
 choral_type = "tenor"
 clef = "bass"
@@ -62,21 +47,6 @@ b4 gis4 b4 gis4 | b2 e'2 | b4 b4 b4 b4 | b2. r4
 | b4 b4 cis'4 d'4 | cis'2 a4( cis'4) | b4 b4 a4 a4 | gis4 a4 gis4 r4
 """
 
-[parts.Tenor.lyrics.1]
-text = "Take your stand for Je -- sus, Work with all your might; Praise Him for His mer -- cy, Praise Him day and (day and night.)"
-
-[parts.Tenor.lyrics.2]
-text = "Take your stand for Je -- sus, ’Gainst the foes of right; Press them in the con -- flict, Put them all to flight. (to fight.)"
-
-[parts.Tenor.lyrics.3]
-text = "Take your stand for Je -- sus, Keep His ban -- ner high; Yours shall be the vic -- t’ry, In the by and (by and by.)"
-
-[parts.Tenor.lyrics.4]
-text = "Take your stand for Je -- sus, And His love pro -- claim; Res -- cue souls in dark -- ness, Praise His ho -- ly (ho -- ly name.)"
-
-[parts.Tenor.lyrics.chorus]
-text = "Praise the Lord, His love pro -- claim, His match -- less love pro -- claim; (pro -- claim;) Take your stand for Je -- sus, Praise, O praise His pre -- cious name."
-
 [parts.Bass]
 choral_type = "bass"
 clef = "bass"
@@ -88,20 +58,50 @@ e4 e4 e4 e4 | e2 e2 | e4 e4 e4 e4 | b,4( a4 gis4 fis4)
 | e4 d4 cis4 b,4 | a,2 a,2 | b,4 b,4 b,4 b,4 | e2. r4
 """
 
-[parts.Bass.lyrics.chorus]
-text = "Praise the Lord, His love pro -- claim, His match -- less love pro -- claim; Take your stand for Je -- sus, Praise, O praise His name."
-
 [lyrics.1]
 text = "Take your stand for Je -- sus, Work with all your might; Praise Him for His mer -- cy, Praise Him day and night."
+
+[parts.Alto.lyrics.1]
+text = "Take your stand for Je -- sus, Work with all your might; Praise Him for His mer -- cy, Praise Him day and (day and night.)"
+
+[parts.Tenor.lyrics.1]
+text = "Take your stand for Je -- sus, Work with all your might; Praise Him for His mer -- cy, Praise Him day and (day and night.)"
 
 [lyrics.2]
 text = "Take your stand for Je -- sus, ’Gainst the foes of right; Press them in the con -- flict, Put them all to flight."
 
+[parts.Alto.lyrics.2]
+text = "Take your stand for Je -- sus, ’Gainst the foes of right; Press them in the con -- flict, Put them all to flight. (to fight.)"
+
+[parts.Tenor.lyrics.2]
+text = "Take your stand for Je -- sus, ’Gainst the foes of right; Press them in the con -- flict, Put them all to flight. (to fight.)"
+
 [lyrics.3]
 text = "Take your stand for Je -- sus, Keep His ban -- ner high; Yours shall be the vic -- t’ry, In the by and by."
+
+[parts.Alto.lyrics.3]
+text = "Take your stand for Je -- sus, Keep His ban -- ner high; Yours shall be the vic -- t’ry, In the by and (by and by.)"
+
+[parts.Tenor.lyrics.3]
+text = "Take your stand for Je -- sus, Keep His ban -- ner high; Yours shall be the vic -- t’ry, In the by and (by and by.)"
 
 [lyrics.4]
 text = "Take your stand for Je -- sus, And His love pro -- claim; Res -- cue souls in dark -- ness, Praise His ho -- ly name."
 
+[parts.Alto.lyrics.4]
+text = "Take your stand for Je -- sus, And His love pro -- claim; Res -- cue souls in dark -- ness, Praise His ho -- ly (ho -- ly name.)"
+
+[parts.Tenor.lyrics.4]
+text = "Take your stand for Je -- sus, And His love pro -- claim; Res -- cue souls in dark -- ness, Praise His ho -- ly (ho -- ly name.)"
+
 [lyrics.chorus]
 text = "Praise the Lord, His love pro -- claim; Take your stand for Je -- sus, Praise His name."
+
+[parts.Alto.lyrics.chorus]
+text = "Praise the Lord, His love pro -- claim, His match -- less love pro -- claim; (pro -- claim;) Take your stand for Je -- sus, Praise, O praise His pre -- cious name."
+
+[parts.Tenor.lyrics.chorus]
+text = "Praise the Lord, His love pro -- claim, His match -- less love pro -- claim; (pro -- claim;) Take your stand for Je -- sus, Praise, O praise His pre -- cious name."
+
+[parts.Bass.lyrics.chorus]
+text = "Praise the Lord, His love pro -- claim, His match -- less love pro -- claim; Take your stand for Je -- sus, Praise, O praise His name."
