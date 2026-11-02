@@ -1,0 +1,88 @@
+title = "We Pass This Way but Once"
+copyrights = [
+  "Lyrics and Music: Benjamin M. Taylor, 1925 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 6
+time_sig_denominator = 4
+tempo_bpm = 120
+verse_count = 3
+phrase_breaks = ["3:80", "5:80", "7:80", "9:96", "13:96"]
+optional_phrase_breaks = ["11:80", "15:80"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s1 s4 c''8. des''16
+| ees''4 ees''4 ees''4 ees''8 c''4. c''8. c''16 | bes'4 aes'4 f'4 ees'2 ees'8. ees'16
+| aes'4 aes'4 bes'4 c''8 c''4. aes'8. aes'16 | bes'4 bes'4 c''4 bes'2 c''8. des''16
+| ees''4 ees''4 ees''4 ees''8 c''4. c''8. c''16 | bes'4 aes'4 f'4 aes'2 f'8. f'16
+| ees'4 aes'4 bes'4 c''8 ees''4. aes'8. bes'16 | c''4 c''4 bes'4 aes'2 r4
+| c''2@c r4 aes'2 aes'4 | bes'4 aes'4 f'4 ees'2 ees'8. ees'16
+| aes'4 aes'4 bes'4 c''4 bes'4 aes'4 | bes'2.~ bes'2 r4
+| c''2 r4 aes'2 aes'4 | bes'4 aes'4 f'4 ees'2 ees'8. ees'16
+| f'4 aes'4 bes'4 c''8 c''4. bes'4 | aes'2.~ aes'2 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s1 s4 ees'8. ees'16
+| aes'4 aes'4 aes'4 aes'8 ees'4. ees'8. ees'16 | des'4 f'4 des'4 c'2 c'8. c'16
+| c'4 ees'4 ees'4 ees'8 ees'4. ees'8. ees'16 | d'4 d'4 d'4 ees'2 ees'8. ees'16
+| aes'4 aes'4 aes'4 aes'8 ees'4. ees'8. ees'16 | des'4 f'4 des'4 des'2 des'8. des'16
+| c'4 ees'4 ees'4 ees'8 ees'4. ees'8. f'16 | ees'4 ees'4 des'4 c'2 r4
+| ees'2@c r4 ees'2 ges'4 | f'4 f'4 des'4 c'2 c'8. c'16
+| c'4 ees'4 ees'4 ees'4 ees'4 d'4 | ees'2.~ ees'2 r4
+| ees'2 r4 ees'2 ges'4 | f'4 f'4 des'4 c'2 c'8. c'16
+| des'4 ees'4 f'4 ees'8 ees'4. des'4 | c'2.~ c'2 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s1 s4 aes8. bes16
+| c'4 c'4 c'4 c'8 aes4. ges8. ges16 | f4 aes4 aes4 aes2 aes8. aes16
+| ees4 aes4 g4 aes8 aes4. aes8. aes16 | f4 f4 aes4 g2 aes8. bes16
+| c'4 c'4 c'4 c'8 aes4. ges8. ges16 | f4 aes4 aes4 f2 aes8. aes16
+| aes4 aes4 g4 aes8 c'4. aes8. aes16 | aes4 aes4 ees4 ees2 r4
+| aes2@c r4 aes2 c'4 | des'4 des'4 aes4 aes2 aes8. aes16
+| ees4 aes4 g4 aes4 bes4 bes4 | g2.~ g2 r4
+| aes2 r4 aes2 c'4 | des'4 des'4 aes4 aes2 aes8. aes16
+| aes4 aes4 aes4 aes8 aes4. ees4 | ees2.~ ees2 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s1 s4 aes,8. aes,16
+| aes,4 aes,4 aes,4 aes,8 aes,4. aes,8. aes,16 | des4 des4 des4 aes,2 aes,8. aes,16
+| aes,4 c4 ees4 aes8 aes4. c8. c16 | bes,4 bes,4 bes,4 ees2 aes,8. aes,16
+| aes,4 aes,4 aes,4 aes,8 aes,4. aes,8. aes,16 | des4 des4 des4 des2 des8. des16
+| aes,4 c4 ees4 aes8 aes4. c8. des16 | ees4 ees4 ees4 aes,2 r4
+| aes,2@c r4 c2 aes,4 | des4 des4 des4 aes,2 aes,8. aes,16
+| aes,4 c4 ees4 aes4 g4 f4 | ees2.~ ees2 r4
+| aes,2 r4 c2 aes,4 | des4 des4 des4 aes,2 aes,8. aes,16
+| des4 c4 des4 ees8 ees4. ees4 | aes,2.~ aes,2 s4
+"""
+
+[lyrics.1]
+text = "On -- ly once can we jour -- ney thro’ this vain world be -- low, Let us make pre -- par -- a -- tion ere the time comes to go; Just a -- while to make read -- y,— How the time swift -- ly flies,— For that heav -- en -- ly coun -- try Where the soul nev -- er dies."
+
+[lyrics.2]
+text = "When, from heav -- en de -- scend -- ing, we the Sav -- ior shall see, Time will not be ex -- tend -- ed, but pre -- pared we must be; For the souls who re -- ject Him, And de -- ny His dear name, There’ll be weep -- ing and wail -- ing, Dis -- ap -- point -- ment and shame."
+
+[lyrics.3]
+text = "If we go to the judg -- ment, un -- pre -- pared, for our fate, We shall meet con -- dem -- na -- tion,— O, why lon -- ger then wait? If we’ll go to the Sav -- ior, Clad in gar -- ments of white, We shall find a glad wel -- come To that cit -- y of light."
+
+[lyrics.chorus]
+text = "Once, once my broth -- er, just once, To pre -- pare for the end of life’s way; Yield while the Spir -- it doth plead, O, we pray you get read -- y to -- day."
