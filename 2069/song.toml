@@ -87,13 +87,10 @@ text = "Palms of vic -- to -- ry with saints I’ll bring, Songs of glad -- ness
 text = "Oh, what glo -- ry then my soul shall share, For no sor -- row e’er can en -- ter there, Joy ce -- les -- tial in that home e -- ter -- nal, With my Sav -- ior, a crown to wear."
 
 [lyrics.chorus]
+text = "I am go -- ing there to meet Him in glo -- ry; What re -- joic -- ing there will be When my Sav -- ior’s face I see; Hal -- le -- lu -- jahs to His name will be ring -- ing for -- ev -- er; With Je -- sus my soul shall be."
+
+[parts.Soprano.lyrics.chorus]
 text = "I am go -- ing there to meet Him in glo -- ry; What re -- joic -- ing When I see Him; Hal -- le -- lu -- jahs will be ring -- ing for -- ev -- er; With Je -- sus my soul shall be."
 
 [parts.Alto.lyrics.chorus]
 text = "I am go -- ing, yes, I’m go -- ing there to meet Him in glo -- ry; What re -- joic -- ing there will be When my Sav -- ior’s face I see; Hal -- le -- lu -- jahs to His name will be ring -- ing for -- ev -- er; With Je -- sus my soul shall be."
-
-[parts.Tenor.lyrics.chorus]
-text = "I am go -- ing there to meet Him in glo -- ry; What re -- joic -- ing there will be When my Sav -- ior’s face I see; Hal -- le -- lu -- jahs to His name will be ring -- ing for -- ev -- er; With Je -- sus my soul shall be."
-
-[parts.Bass.lyrics.chorus]
-text = "I am go -- ing there to meet Him in glo -- ry; What re -- joic -- ing there will be When my Sav -- ior’s face I see; Hal -- le -- lu -- jahs to His name will be ring -- ing for -- ev -- er; With Je -- sus my soul shall be."
