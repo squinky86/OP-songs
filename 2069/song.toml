@@ -1,0 +1,99 @@
+title = "I’m Going to Live with Jesus"
+copyrights = [
+  "Lyrics and Music: James W. Gaines, 1913 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 4
+default_verses = [2, 3, 4]
+phrase_breaks = ["4:64", "8:48", "10:48", "12:48"]
+optional_phrase_breaks = ["2:64", "6:48", "14:48"]
+non_breaking_phrase_breaks = ["9:48", "11:16", "13:48"]
+commentary = "<p>Verse 1 has updated lyrics to reflect a more accurate Bible translation, replacing “mansion built of jewels rare” with “dwelling place in glory there”; see <a href=\"/blog/20261022-mansions-and-dwellings\">From Mansions to Dwellings</a>.</p>"
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+aes'4. aes'8 f'8 ees'8 c'8 ees'8 | aes'4 aes'4 aes'4 r4
+| c''4. c''8 bes'8 aes'8 f'8 aes'8 | bes'4 c''4 bes'4 r4
+| c''4. c''8 bes'8 aes'8 aes'8 aes'8 | aes'4 aes'4 f'8 ees'8 ees'8 f'8
+| aes'8 aes'4 aes'8 c''4 bes'4 | aes'2. ees'8@c aes'8
+| c''2 c''4 c''8. c''16 | bes'8 aes'4 aes'8 f'8 ees'8 aes'8 aes'8
+| bes'2 bes'4 aes'8 bes'8 | c''2 c''4 c''8. c''16
+| ees''2 ees''4 c''8. c''16 | bes'8 aes'4 aes'8 f'8 ees'8 aes'4
+| c''8 c''4 aes'8 c''4 bes'4 | aes'2. r4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+c'4. c'8 des'8 c'8 aes8 c'8 | c'4 des'4 c'4 r4
+| ees'4. ees'8 ees'8 ees'8 des'8 ees'8 | d'4 d'4 ees'4 r4
+| ees'4. ees'8 des'8 c'8 c'8 ees'8 | f'4 f'4 des'8 c'8 c'8 des'8
+| c'8 c'4 ees'8 ees'4 des'4 | c'2. c'8@c c'8
+| ees'8 ees'8 f'8 aes'8 f'8 ees'8 ees'8. ees'16 | des'8 c'4 c'8 des'8 c'8 c'8 ees'8
+| ees'8 g'8 f'8 ees'8 des'4 c'8 ees'8 | ees'8 aes'8 g'8 f'8 ees'4 ees'8. ees'16
+| aes'8 aes'8 g'8 bes'8 aes'4 ees'8. e'16 | f'8 f'4 f'8 des'8 c'8 c'4
+| ees'8 ees'4 ees'8 ees'4 des'4 | c'2. r4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+ees4. ees8 aes8 aes8 ees8 aes8 | ees4 f4 ees4 r4
+| aes4. aes8 g8 aes8 aes8 aes8 | f4 aes4 g4 r4
+| aes4. aes8 ees8 ees8 ees8 aes8 | aes4 aes4 aes8 aes8 aes8 aes8
+| ees8 ees4 aes8 aes4 ees4 | ees2. r4@c
+| aes4 aes4 aes8 aes8 aes8. aes16 | ees8 ees4 ees8 aes8 aes8 ees8 aes8
+| g8 g8 g8 g8 g4 aes8 g8 | aes8 aes8 aes8 aes8 aes4 aes8. aes16
+| c'8 c'8 bes8 des'8 c'4 aes8. aes16 | aes8 aes4 aes8 aes8 aes8 ees4
+| aes8 aes4 aes8 aes4 ees4 | ees2. r4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+aes,4. aes,8 aes,8 aes,8 aes,8 aes,8 | aes,4 aes,4 aes,4 r4
+| aes,4. aes,8 bes,8 c8 des8 c8 | bes,4 bes,4 ees4 r4
+| aes,4. aes,8 aes,8 aes,8 aes,8 c8 | des4 des4 aes,8 aes,8 aes,8 aes,8
+| aes,8 aes,4 c8 ees4 ees4 | aes,2. r4@c
+| aes,4 aes,4 aes,8 aes,8 aes,8. aes,16 | aes,8 aes,4 aes,8 aes,8 aes,8 ees8 c8
+| ees8 ees8 ees8 ees8 ees4 ees8 ees8 | aes,8 aes,8 aes,8 aes,8 aes,4 aes8. aes16
+| aes8 aes8 ees8 ees8 aes4 aes,8. aes,16 | des8 des4 des8 aes,8 aes,8 aes,4
+| aes,8 aes,4 c8 ees4 ees4 | aes,2. r4
+"""
+
+[lyrics.1]
+text = "In a cit -- y with the an -- gels fair, I’ve a man -- sion built of jew -- els rare, There with Je -- sus I shall live in glo -- ry, For I’m go -- ing to meet Him there."
+
+[lyrics.2]
+text = "In a cit -- y with the an -- gels fair, I’ve a dwell -- ing place in glo -- ry there, There with Je -- sus I shall live in glo -- ry, For I’m go -- ing to meet Him there."
+
+[lyrics.3]
+text = "Palms of vic -- to -- ry with saints I’ll bring, Songs of glad -- ness I shall ev -- er sing, End -- less prais -- es I shall shout for -- ev -- er Un -- to Je -- sus, my Lord and King."
+
+[lyrics.4]
+text = "Oh, what glo -- ry then my soul shall share, For no sor -- row e’er can en -- ter there, Joy ce -- les -- tial in that home e -- ter -- nal, With my Sav -- ior, a crown to wear."
+
+[lyrics.chorus]
+text = "I am go -- ing there to meet Him in glo -- ry; What re -- joic -- ing When I see Him; Hal -- le -- lu -- jahs will be ring -- ing for -- ev -- er; With Je -- sus my soul shall be."
+
+[parts.Alto.lyrics.chorus]
+text = "I am go -- ing, yes, I’m go -- ing there to meet Him in glo -- ry; What re -- joic -- ing there will be When my Sav -- ior’s face I see; Hal -- le -- lu -- jahs to His name will be ring -- ing for -- ev -- er; With Je -- sus my soul shall be."
+
+[parts.Tenor.lyrics.chorus]
+text = "I am go -- ing there to meet Him in glo -- ry; What re -- joic -- ing there will be When my Sav -- ior’s face I see; Hal -- le -- lu -- jahs to His name will be ring -- ing for -- ev -- er; With Je -- sus my soul shall be."
+
+[parts.Bass.lyrics.chorus]
+text = "I am go -- ing there to meet Him in glo -- ry; What re -- joic -- ing there will be When my Sav -- ior’s face I see; Hal -- le -- lu -- jahs to His name will be ring -- ing for -- ev -- er; With Je -- sus my soul shall be."
