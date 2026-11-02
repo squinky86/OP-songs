@@ -1,0 +1,96 @@
+title = "When They Ring the Golden Bells"
+copyrights = [
+  "Lyrics and Music: Dion De Marbelle, 1887 (public domain)",
+  "Arrangement: R. H. Cornelius, 1924 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 3
+phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "11:48", "13:48", "15:48"]
+optional_phrase_breaks = ["2:48", "6:48", "10:48", "14:48"]
+non_breaking_phrase_breaks = ["13:16"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. c''8.! bes'16 |
+a'8. gis'16 a'8. g'16 a'16 c''8.! a'8 f'8 | d'8. e'16 f'8. d'16 c'16 f'8.! f'8. g'16 |
+a'8. gis'16 a'8. bes'16 c''8. b'16 d''8. c''16 | g'2. g'8. a'16 |
+bes'8. a'16 c''8.! a'16 g'16 f'8.! f'8. e'16 | d'8. e'16 f'8. d'16 c'16 f'8.! f'8. g'16 |
+a'8. c''16 f''8.! d''16\\rit c''8! r16! a'16 a'16[ g'16!] a'8 | f'2.\\spanend c''8.@c c''16 |
+d''8. bes'16 f''8. d''16 bes'16 d''8. f''8. d''16 | c''8. d''16 c''8. bes'16 a'16 c''8. c''8. c''16 |
+f''8. e''16 d''8. c''16 bes'8. a'16 g'8. f'16 | c''2.! c''8.! bes'16 |
+a'8. gis'16 a'8. g'16 a'16 c''8.! a'8 f'8 | d'8. e'16 f'8. d'16 c'16 f'8.! f'8. g'16 |
+a'8. c''16 f''8.! d''16\\rit c''8! r16! a'16 a'16[ g'16!] a'8 | f'2.!\\spanend s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. f'8.! f'16 |
+f'8. f'16 f'8. f'16 f'16 f'8.! f'8 c'8 | bes8. c'16 d'8. bes16 a16 c'8.! c'8. c'16 |
+f'8. f'16 f'8. f'16 f'8. f'16 f'8. f'16 | e'2. c'8. c'16 |
+c'8. c'16 f'8.! f'16 c'16 c'8.! c'8. c'16 | bes8. c'16 d'8. bes16 a16 c'8.! c'8. c'16 |
+f'8. f'16 bes'8.! f'16 f'8! r16! f'16 f'16[ e'16!] e'8 | f'2. f'8.@c f'16 |
+f'8. f'16 bes'8. f'16 f'16 f'8. bes'8. f'16 | f'8. f'16 f'8. f'16 f'16 f'8. f'8. f'16 |
+d''8. c''16 bes'8. a'16 g'8. f'16 e'8. f'16 | e'4 f'8. f'16 g'4! f'8.! f'16 |
+f'8. f'16 f'8. f'16 f'16 f'8.! f'8 c'8 | bes8. c'16 d'8. bes16 a16 c'8.! c'8. c'16 |
+f'8. f'16 bes'8.! f'16 f'8! r16! f'16 f'16[ e'16!] e'8 | f'2.! s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. a8.! g16 |
+c'8. b16 c'8. bes16 c'16 a8.! c'8 a8 | f8. f16 bes8. f16 f16 a8.! a8. bes16 |
+c'8. b16 c'8. g16 a8. gis16 bes8. a16 | bes2. e8. f16 |
+g8. f16 a8.! c'16 bes16 a8.! a8. a16 | f8. f16 bes8. f16 f16 a8.! a8. bes16 |
+c'8. a16 d'8.! bes16 a8! r16! c'16 c'16[ bes16!] c'8 | a2. a8.@c a16 |
+bes8. d'16 d'8. bes16 d'16 bes8. d'8. bes16 | a8. bes16 a8. d'16 c'16 a8. a8. a16 |
+d'8. c'16 bes8. a16 g8. f16 e8. f16 | g4 a8. a16 bes4! a8.! g16 |
+c'8. b16 c'8. bes16 c'16 a8.! c'8 a8 | f8. f16 bes8. f16 f16 a8.! a8. bes16 |
+c'8. a16 d'8.! bes16 a8! r16! c'16 c'16[ bes16!] c'8 | a2.! s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. f8.! f16 |
+f8. f16 f8. f16 f16 f8.! f8 f8 | bes,8. bes,16 bes,8. bes,16 f16 f8.! f8. f16 |
+f8. f16 f8. f16 f8. f16 f8. f16 | c2. c8. c16 |
+c8. c16 c8.! c16 f16 f8.! f8. f16 | bes,8. bes,16 bes,8. bes,16 f16 f8.! f8. f16 |
+f8. f16 bes,8.! bes,16 f8! r16! f16 c8! c8 | f2. f8.@c f16 |
+bes,8. bes,16 bes,8. bes,16 bes,16 bes,8. bes,8. bes,16 | f8. f16 f8. f16 f16 f8. f8. f16 |
+d'8. c'16 bes8. a16 g8. f16 e8. f16 | c2.! f8.! f16 |
+f8. f16 f8. f16 f16 f8.! f8 f8 | bes,8. bes,16 bes,8. bes,16 f16 f8.! f8. f16 |
+f8. f16 bes,8.! bes,16 f8! r16! f16 c8! c8 | f2.! s4
+"""
+
+[lyrics.1]
+text = "There’s a land be -- yond the riv -- er, That we call the sweet for -- ev -- er; And we on -- ly reach that shore by faith’s de -- cree; One by one we’ll gain the por -- tals, There to dwell with the im -- mor -- tals, When they ring the gold -- en bells for you and me."
+
+[lyrics.2]
+text = "We shall know no sin nor sor -- row In that hav -- en of to -- mor -- row; When our barque shall sail be -- yond the sil -- ver sea; We shall on -- ly know the bless -- ing, Of our Fa -- ther’s sweet ca -- ress -- ing, When they ring the gold -- en bells for you and me."
+
+[lyrics.3]
+text = "When our days shall know their num -- ber, When in death we sweet -- ly slum -- ber; When the King com -- mands the spir -- it to be free; Nev -- er -- more with an -- guish la -- den, We shall reach that love -- ly aid -- en, When they ring the gold -- en bells for you and me."
+
+[lyrics.chorus]
+text = "Don’t you hear the bells now ring -- ing? Don’t you hear the an -- gels sing -- ing? ’Tis the glo -- ry hal -- le -- lu -- jah jub -- i -- lee, In that far off sweet for -- ev -- er, just be -- yond the shin -- ing riv -- er, Where they ring the gold -- en bells for you and me."
+
+[parts.Alto.lyrics.chorus]
+text = "Don’t you hear the bells now ring -- ing? Don’t you hear the an -- gels sing -- ing? ’Tis the glo -- ry hal -- le -- lu -- jah jub -- i -- lee, jub -- i -- lee, In that far off sweet for -- ev -- er, just be -- yond the shin -- ing riv -- er, Where they ring the gold -- en bells for you and me."
+
+[parts.Tenor.lyrics.chorus]
+text = "Don’t you hear the bells now ring -- ing? Don’t you hear the an -- gels sing -- ing? ’Tis the glo -- ry hal -- le -- lu -- jah jub -- i -- lee, jub -- i -- lee, In that far off sweet for -- ev -- er, just be -- yond the shin -- ing riv -- er, Where they ring the gold -- en bells for you and me."
