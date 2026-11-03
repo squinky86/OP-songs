@@ -1,0 +1,108 @@
+title = "God is Calling the Prodigal"
+copyrights = [
+  "Lyrics and Music: Charles H. Gabriel, 1889 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Bb"
+time_sig_numerator = 12
+time_sig_denominator = 8
+tempo_bpm = 108
+verse_count = 3
+phrase_breaks = ["2:96", "4:96", "6:96", "8:96", "10:72", "12:96", "14:72"]
+non_breaking_phrase_breaks = ["4:64", "8:24", "10:96", "14:96", "15:72", "15:96", "16:72"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+f'4. f'4. f'8 d'8 ees'8 f'8 g'8 a'8 | bes'4 f'8 bes'4 c''8 d''4.~ d''4. |
+d''4 c''8 c''4 b'8 c''4. f'4. | c''4 bes'8 bes'8[ a'8] g'8 f'4.~ f'4. |
+f'4. f'4. f'8 d'8 ees'8 f'8 g'8 a'8 | bes'4 f'8 bes'4 c''8 d''4.~ d''4. |
+d''4 c''8 c''4 b'8 c''4. f'4 c''8 | bes'2.~ bes'4. r4. |
+d''2.~@c d''4 c''8 bes'8[ a'8] g'8 | f'2.~ f'4. bes'4. |
+a'2.~ a'4 g'8 ees'8 f'8 g'8 | f'2.~ f'4. r4. |
+d''2.~ d''4 c''8 bes'8[ c''8] d''8 | ees''2.~ ees''4. g'4. |
+f'2.~ f'4 f'8 a'8 bes'8 c''8 | bes'2.~ bes'4. r4.
+"""
+
+[parts.Soprano.lyrics.s2]
+text = "Hear His lov -- ing voice call -- ing still,"
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+d'4. d'4. d'8 bes8 c'8 d'8 ees'8 ees'8 | d'4 d'8 f'4 f'8 f'4.~ f'4. |
+f'4 ees'8 ees'4 d'8 ees'4. ees'4. | ees'4 d'8 d'8[ f'8] ees'8 d'4.~ d'4. |
+d'4. d'4. d'8 bes8 c'8 d'8 ees'8 ees'8 | d'4 d'8 f'4 f'8 f'4.~ f'4. |
+f'4 ees'8 ees'4 d'8 ees'4. ees'4 ees'8 | d'4. g'8[ f'8] ees'8 d'4. r4. |
+f'2.~@c f'4 ees'8 d'8[ f'8] ees'8 | d'2.~ d'4. d'4. |
+ees'4 ees'8 ees'8 ees'8 ees'8 ees'4. r4. | d'4 d'8 d'8 d'8 d'8 d'4. r4. |
+f'2.~ f'4 ees'8 d'8[ ees'8] aes'8 | g'2.~ g'4. ees'4. |
+d'4 d'8 d'8 d'8 d'8 ees'4. r4. | d'4 d'8 g'8 f'8 ees'8 d'4. r4.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+bes4. bes4. f8 f8 f8 bes8 bes8 bes8 | bes4 bes8 bes4 a8 bes4.~ bes4.
+| a4 a8 a4 a8 a4. a4. | f4 f8 bes4 bes8 bes4 bes8 bes4.
+| bes4. bes4. f8 f8 f8 bes8 bes8 bes8 | bes4 bes8 bes4 a8 bes4.~ bes4.
+| a4 a8 a4 a8 a4. a4 a8 | bes4. bes8[ a8] g8 f4. r4.
+| bes4@c bes8 bes4 bes8 bes4. r4. | bes4 bes8 bes4 bes8 bes4. r4.
+| c'4 c'8 c'8 c'8 c'8 c'4. r4. | bes4 bes8 bes8 bes8 bes8 bes4. r4.
+| bes4 bes8 bes4 bes8 bes4. r4. | bes4 bes8 bes4 bes8 bes4. r4.
+| bes4 bes8 bes8 bes8 bes8 a4. r4. | f4 f8 bes8 a8 g8 f4. r4.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+bes,4. bes,4. bes,8 bes,8 bes,8 bes,8 bes,8 bes,8 | bes,4 bes,8 d4 f8 bes,4.~ bes,4.
+| f4 f8 f4 f8 f4. f4. | bes,4 bes,8 bes,4 bes,8 bes,4 bes,8 bes,4.
+| bes,4. bes,4. bes,8 bes,8 bes,8 bes,8 bes,8 bes,8 | bes,4 bes,8 d4 f8 bes,4.~ bes,4.
+| f4 f8 f4 f8 f4. f4 f8 | bes,4. bes,4 bes,8 bes,4. r4.
+| bes,4@c bes,8 bes,4 bes,8 bes,4. r4. | bes,4 bes,8 bes,4 bes,8 bes,4. r4.
+| f4 f8 f8 f8 f8 f4. r4. | bes,4 bes,8 bes,8 bes,8 bes,8 bes,4. r4.
+| bes,4 bes,8 bes,4 bes,8 bes,4. r4. | ees4 ees8 ees4 ees8 ees4. r4.
+| f4 f8 f8 f8 f8 f4. r4. | bes,4 bes,8 bes,8 bes,8 bes,8 bes,4. r4.
+"""
+
+[lyrics.1]
+text = "God is call -- ing the prod -- i -- gal, come with -- out de -- lay, @s1 Tho’ you’ve wan -- dered so far from His pres -- ence come to -- day, @s2"
+
+[lyrics.2]
+text = "Pa -- tient, lov -- ing and ten -- der -- ly still the Fa -- ther pleads, @s1 Oh! re -- turn while the Spir -- it in mer -- cy in -- ter -- cedes, @s2"
+
+[lyrics.3]
+text = "Come, there’s bread in the house of Thy Fa -- ther, and to spare, @s1 Lo! the ta -- ble is spread and the feast is wait -- ing there, @s2"
+
+[lyrics.chorus]
+text = "Call -- ing now for thee, O wea -- ry prod -- i -- gal, come; Call -- ing now for thee, O wea -- ry prod -- i -- gal, come."
+
+[parts.Alto.lyrics.chorus]
+text = "Call -- ing now for thee, O wea -- ry prod -- i -- gal, come, wea -- ry prod -- i -- gal, come; Call -- ing now for thee, O wea -- ry prod -- i -- gal come, wea -- ry prod -- i -- gal come."
+
+[parts.Tenor.lyrics.chorus]
+text = "Call -- ing now for thee, Call -- ing now for thee, wea -- ry prod -- i -- gal, come, wea -- ry prod -- i -- gal, come; Call -- ing now for thee, Call -- ing now for thee, wea -- ry prod -- i -- gal come, wea -- ry prod -- i -- gal come."
+
+[parts.Bass.lyrics.chorus]
+text = "Call -- ing now for thee, Call -- ing now for thee, wea -- ry prod -- i -- gal, come, wea -- ry prod -- i -- gal, come; Call -- ing now for thee, Call -- ing now for thee, wea -- ry prod -- i -- gal come, wea -- ry prod -- i -- gal come."
+
+[lyrics.s1]
+text = "Hear, O hear Him call -- ing, call -- ing now for thee;"
+
+[parts.Tenor.lyrics.s1]
+text = "Hear, O hear Him call -- ing, call -- ing now for thee; for thee;"
+
+[parts.Bass.lyrics.s1]
+text = "Hear, O hear Him call -- ing, call -- ing now for thee; for thee;"
+
+[lyrics.s2]
+text = "Hear His lov -- ing voice call -- ing still, call -- ing still."
