@@ -12,7 +12,7 @@ tempo_bpm = 120
 verse_count = 3
 phrase_breaks = ["2:96", "4:96", "6:96", "8:96", "12:96"]
 optional_phrase_breaks = ["10:96", "14:96"]
-commentary = "<p>This same hymn text is also available set to music by <a href=\"/songs/242\">Charles H. Gabriel</a>.</p>\n<p>This song may contain an archaic meaning of word \"mansion\" or reflect a misunderstanding of its translation. See <a href=\\\"/blog/20261022-mansions-and-dwellings\\\">From Mansions to Dwellings</a>.</p>"
+commentary = "<p>This same hymn text is also available set to music by <a href=\"/songs/242\">Charles H. Gabriel</a>.</p>\n<p>This song may contain an archaic meaning of word \"mansion\" or reflect a misunderstanding of its translation. See <a href=\"/blog/20261022-mansions-and-dwellings\">From Mansions to Dwellings</a>.</p>"
 
 [parts.Soprano]
 choral_type = "soprano"

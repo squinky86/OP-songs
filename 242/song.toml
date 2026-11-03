@@ -12,7 +12,7 @@ tempo_bpm = 96
 verse_count = 3
 phrase_breaks = ["2:48", "4:48", "6:48", "8:48", "12:48"]
 optional_phrase_breaks = ["10:48", "14:48"]
-commentary = "<p>This same hymn text is also available set to music by <a href=\"/songs/241\">B. D. Ackley</a>.</p>\n<p>This song may contain an archaic meaning of word \"mansion\" or reflect a misunderstanding of its translation. See <a href=\\\"/blog/20261022-mansions-and-dwellings\\\">From Mansions to Dwellings</a>.</p>"
+commentary = "<p>This same hymn text is also available set to music by <a href=\"/songs/241\">B. D. Ackley</a>.</p>\n<p>This song may contain an archaic meaning of word \"mansion\" or reflect a misunderstanding of its translation. See <a href=\"/blog/20261022-mansions-and-dwellings\">From Mansions to Dwellings</a>.</p>"
 
 [parts.Soprano]
 choral_type = "soprano"

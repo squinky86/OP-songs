@@ -13,7 +13,7 @@ verse_count = 4
 phrase_breaks = ["3:48", "6:48", "9:48", "11:48", "13:48", "15:48"]
 optional_phrase_breaks = ["2:48", "5:48", "7:48"]
 non_breaking_phrase_breaks = ["4:16", "4:44", "8:16", "8:44", "12:16", "12:44", "13:12", "14:44", "16:16", "16:44", "17:12"]
-commentary = "<p>This song may contain an archaic meaning of word \"mansion\" or reflect a misunderstanding of its translation. See <a href=\\\"/blog/20261022-mansions-and-dwellings\\\">From Mansions to Dwellings</a>.</p>"
+commentary = "<p>This song may contain an archaic meaning of word \"mansion\" or reflect a misunderstanding of its translation. See <a href=\"/blog/20261022-mansions-and-dwellings\">From Mansions to Dwellings</a>.</p>"
 
 [parts.Soprano]
 choral_type = "soprano"

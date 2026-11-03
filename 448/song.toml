@@ -13,7 +13,7 @@ tempo_bpm = 110
 verse_count = 3
 phrase_breaks = ["5:32", "9:32", "13:32", "17:32", "21:32"]
 optional_phrase_breaks = ["3:32", "7:32", "11:32", "15:32", "19:32", "23:32"]
-commentary = "<p>This song may contain an archaic meaning of word \"mansion\" or reflect a misunderstanding of its translation. See <a href=\\\"/blog/20261022-mansions-and-dwellings\\\">From Mansions to Dwellings</a>.</p>"
+commentary = "<p>This song may contain an archaic meaning of word \"mansion\" or reflect a misunderstanding of its translation. See <a href=\"/blog/20261022-mansions-and-dwellings\">From Mansions to Dwellings</a>.</p>"
 
 [parts.Soprano]
 choral_type = "soprano"
