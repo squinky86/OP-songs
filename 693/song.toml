@@ -1,0 +1,100 @@
+title = "O Love Divine, Eternal"
+copyrights = [
+  "Lyrics: James Rowe, 1923 (public domain)",
+  "Music: Homer F. Morris, 1923 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Bb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 84
+verse_count = 3
+phrase_breaks = ["3:40", "5:40", "7:40", "9:40", "11:40", "13:40", "15:40"]
+non_breaking_phrase_breaks = ["2:8", "2:40", "3:16", "4:8", "4:40", "5:8", "6:8", "6:40", "7:16", "8:8", "8:40", "9:8", "10:8", "10:40", "11:16", "12:8", "12:40", "13:8", "14:8", "14:40", "15:16", "16:8", "16:40", "17:8"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s8 d''8 f'8 g'8 |
+bes'2~ bes'8 d''8 c''8 d''8 | bes'8 d''2 d''8 f'8 g'8 | bes'2~ bes'8 d''8 c''8 d''8 | c''2~ c''8 d''8 f'8 g'8 |
+bes'2~ bes'8 d''8 c''8 d''8 | bes'8 d''2 bes'8 d''8 f''8 | d''2~ d''8 c''8 bes'8 a'8 | bes'2~ bes'8 bes'8@c d''8 f''8 |
+f''2~ f''8 d''8 bes'8 g'8 | f'8 bes'2 bes'8 d''8 f''8 | f''2~ f''8 d''8 c''8 d''8 | c''2~ c''8 d''8 f'8 g'8 |
+bes'2~ bes'8 d''8 c''8 d''8 | bes'8 d''2 bes'8 d''8 f''8 | d''2~ d''8 c''8 bes'8 a'8 | bes'2~ bes'8 s4.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+splice_lyrics_into = "soprano"
+notes = """
+s2 s8 r8 r4 |
+r8 f'8 d'8 ees'8 d'8 f'8 ees'8 f'8 | d'8 f'8 bes'8 g'8 f'8 r8 r4 | r8 f'8 d'8 ees'8 d'8 f'8 ees'8 ees'8 | f'8 g'8 a'8 g'8 f'8 r8 r4 |
+r8 f'8 d'8 ees'8 d'8 f'8 ees'8 f'8 | d'8 f'8 bes'8 g'8 f'8 r8 r4 | r8 f'8 g'8 f'8 f'8 f'8 f'8 ees'8 | d'8 d'8 f'8 ees'8 d'8 r8@c r4 |
+r8 bes'8 d''8 c''8 bes'8 bes'8 g'8 ees'8 | d'8 f'8 f'8 d'8 d'8 r8 r4 | r8 bes'8 d''8 c''8 bes'8 bes'8 bes'8 bes'8 | a'8 a'8 g'8 bes'8 a'8 r8 r4 |
+r8 f'8 d'8 ees'8 d'8 f'8 ees'8 f'8 | d'8 f'8 bes'8 g'8 f'8 r8 r4 | r8 f'8 g'8 f'8 f'8 f'8 f'8 ees'8 | d'8 d'8 f'8 ees'8 d'8 s4.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+splice_lyrics_into = "soprano"
+notes = """
+s2 s8 r8 r4 |
+r8 d'8 f8 g8 bes8 bes8 a8 a8 | bes8 bes8 f8 g8 bes8 r8 r4 | r8 d'8 f8 g8 bes8 bes8 g8 bes8 | a8 bes8 c'8 bes8 a8 r8 r4 |
+r8 d'8 f8 g8 bes8 bes8 a8 a8 | bes8 bes8 f8 g8 bes8 r8 r4 | r8 bes8 bes8 bes8 bes8 ees'8 d'8 c'8 | bes8 bes8 a8 g8 f8 r8@c r4 |
+r8 d'8 f'8 ees'8 d'8 f'8 ees'8 bes8 | bes8 d'8 bes8 bes8 bes8 r8 r4 | r8 d'8 f'8 ees'8 d'8 f'8 ees'8 ees'8 | f'8 f'8 ees'8 g'8 f'8 r8 r4 |
+r8 d'8 f8 g8 bes8 bes8 a8 a8 | bes8 bes8 f8 g8 bes8 r8 r4 | r8 bes8 bes8 bes8 bes8 ees'8 d'8 c'8 | bes8 bes8 a8 g8 f8 s4.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+splice_lyrics_into = "soprano"
+notes = """
+s2 s8 r8 r4 |
+r8 bes,8 bes,8 bes,8 bes,8 bes,8 f8 f8 | bes,8 bes,8 bes,8 bes,8 bes,8 r8 r4 | r8 bes,8 bes,8 bes,8 bes,8 bes,8 c8 c8 | f8 f8 f8 c8 f8 r8 r4 |
+r8 bes,8 bes,8 bes,8 bes,8 bes,8 f8 f8 | bes,8 bes,8 bes,8 bes,8 bes,8 r8 r4 | r8 bes8 g8 bes8 f8 f8 f8 f8 | bes,2~ bes,8 r8@c r4 |
+r8 bes8 bes8 f8 bes8 bes8 ees8 ees8 | bes,8 bes,8 d8 f8 bes8 r8 r4 | r8 bes8 bes8 f8 bes8 bes8 g8 c8 | f8 f8 c8 c8 f8 r8 r4 |
+r8 bes,8 bes,8 bes,8 bes,8 bes,8 f8 f8 | bes,8 bes,8 bes,8 bes,8 bes,8 r8 r4 | r8 bes8 g8 bes8 f8 f8 f8 f8 | bes,2~ bes,8 s4.
+"""
+
+[lyrics.1]
+text = "(In love di -- vine,) I am a -- bid -- ing, (day by day,) (In sin no more) my soul shall roam; (shall nev -- er roam;) (My Sav -- ior dear) my past is hid -- ing, (all the way,) (And at His side) I’m go -- ing home. (I’m go -- ing home.)"
+
+[parts.Soprano.lyrics.1]
+text = "In love di -- vine I am a -- bid -- ing, In sin no more my soul shall roam; My Sav -- ior dear my past is hid -- ing, And at His side I’m go -- ing home."
+
+[parts.Bass.lyrics.1]
+text = "(In love di -- vine,) I am a -- bid -- ing, (day by day,) (In sin no more) my soul shall roam; (shall nev -- er roam;) (My Sav -- ior dear) my past is hid -- ing, (all the way,) (And at His side) I’m go -- ing home."
+
+[lyrics.2]
+text = "(To love di -- vine,) by faith I’m cling -- ing, (day by day,) (And in its praise) I lift my voice; (my hap -- py voice;) (Of mer -- cy sweet) my soul is sing -- ing, (all the way,) (And ev -- er will) in Him re -- joice, (in Him re -- joice.)"
+
+[parts.Soprano.lyrics.2]
+text = "To love di -- vine by faith I’m cling -- ing, And in its praise I lift my voice; Of mer -- cy sweet my soul is sing -- ing, And ev -- er will in Him re -- joice,"
+
+[parts.Bass.lyrics.2]
+text = "(To love di -- vine,) by faith I’m cling -- ing, (day by day,) (And in its praise) I lift my voice; (my hap -- py voice;) (Of mer -- cy sweet) my soul is sing -- ing, (all the way,) (And ev -- er will) in Him re -- joice,"
+
+[lyrics.3]
+text = "(For love di -- vine,) I’m toil -- ing ev -- er, (day by day,) (That to the lost) it may be known; (it may be known;) (And, by and by,) be -- yond the riv -- er, (ev -- er -- more,) (’Twill be my song) be -- fore the throne (the great white throne.)"
+
+[parts.Soprano.lyrics.3]
+text = "For love di -- vine I’m toil -- ing ev -- er, That to the lost it may be known; And, by and by, be -- yond the riv -- er, ’Twill be my song be -- fore the throne"
+
+[parts.Bass.lyrics.3]
+text = "(For love di -- vine,) I’m toil -- ing ev -- er, (day by day,) (That to the lost) it may be known; (it may be known;) (And, by and by,) be -- yond the riv -- er, (ev -- er -- more,) (’Twill be my song) be -- fore the throne"
+
+[lyrics.chorus]
+text = "O love di -- vine, O love e -- ter -- nal, bless -- ed love. My ran -- somed soul shall rest in Thee shall rest in Thee, Till I have reached my home su -- per -- nal, home a -- bove, That waits be -- side the crys -- tal sea. the crys -- tal sea."
+
+[parts.Soprano.lyrics.chorus]
+text = "O love di -- vine, O love e -- ter -- nal, My ran -- somed soul shall rest in Thee Till I have reached my home su -- per -- nal, That waits be -- side the crys -- tal sea."
+
+[parts.Bass.lyrics.chorus]
+text = "O love di -- vine, O love e -- ter -- nal, bless -- ed love. My ran -- somed soul shall rest in Thee shall rest in Thee, Till I have reached my home su -- per -- nal, home a -- bove, That waits be -- side the crys -- tal sea."
