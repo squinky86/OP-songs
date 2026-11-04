@@ -1,0 +1,77 @@
+title = "Working and Singing"
+copyrights = [
+  "Lyrics: J. M. Henson, 1925 (public domain)",
+  "Music: Dewey James, 1925 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "C"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 3
+phrase_breaks = ["3:48", "6:48", "9:48", "11:64", "14:64"]
+optional_phrase_breaks = ["2:48", "5:48", "7:48", "10:64", "13:48", "15:64"]
+non_breaking_phrase_breaks = ["10:48", "11:48", "14:48", "15:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. e'8 f'8 | g'8 g'4 g'8 g'8 g'8 a'8 b'8 | c''8 c''4 c''8 c''8 c''8 g'8 c''8 | e''8 e''4 d''8 c''4 a'4 |
+g'2. e'8 f'8 | g'8 g'4 g'8 g'8 g'8 a'8 b'8 | c''8 c''4 c''8 c''8 c''8 g'8 c''8 | e''8 e''4 d''8 c''4 b'4 |
+c''2. g'8@c c''8 | e''8 e''4 e''8 e''8 e''8 r4 | d''8 c''4 a'8 c''8 c''8 r4 | g'8 g'4 c''8 a'4 e''4 |
+d''2. g'8 c''8 | e''8 e''4 e''8 e''8 e''8 r4 | d''8 c''4 a'8 c''8 c''8 r4 | e''8 e''4 c''8 e''4 d''4 |
+c''2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. c'8 d'8 | e'8 e'4 e'8 e'8 e'8 e'8 e'8 | e'8 e'4 f'8 e'8 e'8 e'8 e'8 | g'8 g'4 gis'8 a'4 f'4 |
+e'2. c'8 d'8 | e'8 e'4 e'8 e'8 e'8 e'8 e'8 | e'8 e'4 e'8 f'8 e'8 e'8 e'8 | g'8 g'4 f'8 e'4 d'8[ f'8] |
+e'2. e'8@c e'8 | g'8 g'4 g'8 g'8 g'8 r4 | a'8 a'4 f'8 a'8 a'8 r4 | e'8 e'4 g'8 fis'4 fis'4 |
+g'2. e'8 e'8 | g'8 g'4 g'8 g'8 g'8 r4 | a'8 a'4 f'8 a'8 a'8 r4 | g'8 g'4 g'8 g'4 f'4 |
+e'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. g8 g8 | c'8 c'4 c'8 c'8 c'8 b8 a8 | g8 g4 a8 g8 g8 g8 g8 | c'8 c'4 c'8 c'4 c'4
+| c'2. g8 g8 | c'8 c'4 c'8 c'8 c'8 b8 a8 | g8 g4 g8 a8 g8 c'8 c'8 | c'8 c'4 a8 g4 g4
+| g2. c'8@c g8 | c'8 c'4 c'8 c'8 c'8 r4 | c'8 c'4 c'8 c'8 c'8 r4 | c'8 c'4 c'8 d'4 c'4
+| b2. c'8 g8 | c'8 c'4 c'8 c'8 c'8 r4 | c'8 c'4 c'8 c'8 c'8 r4 | c'8 c'4 c'8 c'4 g4
+| g2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. c8 c8 | c8 c4 c8 c8 c8 c8 c8 | c8 c4 c8 c8 c8 c8 c8 | c8 c4 e8 f4 f4
+| c2. c8 c8 | c8 c4 c8 c8 c8 c8 c8 | c8 c4 c8 c8 c8 c8 c8 | c8 c4 f8 c4 g,4
+| c2. c8@c c8 | c8 c4 c8 c8 c8 d8 e8 | f8 f4 f8 f8 f8 e8 d8 | c8 c4 e8 d4 d4
+| g2. c8 c8 | c8 c4 c8 c8 c8 d8 e8 | f8 f4 f8 f8 f8 a8 g8 | c'8 c'4 e8 g4 g,4
+| c2. s4
+"""
+
+[parts.Bass.lyrics.chorus]
+text = "I am work -- ing and sing -- ing, dai -- ly, Joy- -- bells are ring -- ing sweet -- ly, For He will keep my soul; I will cling to Him ev -- er, praise Him, Leave Him no nev -- er, praise Him, For He has made me whole."
+
+[lyrics.1]
+text = "I am work -- ing and sing -- ing, ev -- er trust -- ing and cling -- ing To the won -- der -- ful Friend a -- bove; And I know He will keep me when the storm- -- wave doth sweep me, I am hap -- py in His dear love."
+
+[lyrics.2]
+text = "His com -- mands I am heed -- ing, and my soul He is lead -- ing, To the cit -- y of light and love; And each day I will praise Him, ev -- er -- more will up -- raise Him, Till I’m safe with my Friend a -- bove."
+
+[lyrics.3]
+text = "I shall go there to meet Him, where with glad -- ness I’ll greet Him, When my la -- bor on earth is o’er; There to sing the sweet sto -- ry with the dear ones in glo -- ry, Al -- ways hap -- py for -- ev -- er -- more."
+
+[lyrics.chorus]
+text = "I am work -- ing and sing -- ing, Joy- -- bells are ring -- ing For He will keep my soul; I will cling to Him ev -- er, Leave Him no nev -- er, For He has made me whole."
