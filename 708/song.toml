@@ -1,0 +1,73 @@
+title = "On the Way Home"
+copyrights = [
+  "Lyrics: James Rowe, 1925 (public domain)",
+  "Music: O. H. Cundiff, 1925 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 92
+verse_count = 3
+phrase_breaks = ["5:48", "9:48", "11:48", "13:48"]
+optional_phrase_breaks = ["3:48", "7:48", "15:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. ees''8! f''8
+| c''4 c''4 aes'4 c''4 | bes'8 aes'4 f'8 aes'4 aes'4 | c''8 c''4 bes'8 aes'4 c''4 | ees''2.! ees''8! f''8
+| c''4 c''4 aes'4 c''4 | bes'8 aes'4 f'8 aes'4 aes'4 | c''8 c''4 c''8 aes'4 bes'4 | aes'2. aes'4@c
+| aes'8 aes'4 aes'8 bes'8 aes'8 aes'8 f'8 | ees'8 aes'4 aes'8 aes'4 aes'4 | c''8 c''4 c''8 ees''8 c''8 aes'4 | bes'8 bes'4 c''8 bes'4 c''4
+| ees''8 ees''4 ees''8 c''8 bes'8 aes'4 | bes'8 aes'4 f'8 aes'4 aes'4 | c''8 ees''4 ees''8 c''4 bes'4 | aes'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. aes'8! aes'8
+| aes'4 aes'4 ees'4 aes'4 | f'8 f'4 des'8 c'4 ees'4 | aes'8 aes'4 g'8 aes'4 aes'4 | g'4( aes'4 bes'4!) aes'8! aes'8
+| aes'4 aes'4 ees'4 e'4 | f'8 f'4 des'8 c'4 ees'4 | aes'8 aes'4 ees'8 ees'4 ees'4 | ees'2. {3 c'8[@c des'8 ees'8] }
+| f'8 f'4 f'8 f'8 f'8 f'8 des'8 | c'8 ees'4 ees'8 ees'4 ees'4 | aes'8 aes'4 aes'8 aes'8 aes'8 aes'4 | f'8 f'4 aes'8 g'4 aes'4
+| aes'8 aes'4 aes'8 aes'8 g'8 ges'4 | f'8 f'4 des'8 c'4 ees'4 | aes'8 aes'4 aes'8 ees'4 ees'4 | ees'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. c'8! des'8
+| ees'4 ees'4 c'4 ees'4 | des'8 des'4 aes8 aes4 c'4 | ees'8 ees'4 des'8 c'4 aes4 | bes2.! c'8! des'8
+| ees'4 ees'4 c'4 aes4 | aes8 aes4 aes8 aes4 c'4 | ees'8 ees'4 aes8 c'4 des'4 | c'2. aes4@c
+| aes8 des'4 des'8 des'8 des'8 des'8 aes8 | aes8 c'4 c'8 c'4 c'4 | ees'8 ees'4 ees'8 c'8 ees'8 ees'4 | d'8 d'4 d'8 ees'4 ees'4
+| c'8 c'4 c'8 ees'8 ees'8 ees'4 | des'8 des'4 aes8 aes4 c'4 | ees'8 c'4 aes8 aes4 des'4 | c'2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. aes8! aes8
+| aes4 aes4 aes4 aes,4 | des8 des4 des8 aes,4 aes4 | aes8 aes4 ees8 f4 f4 | ees4( f4 g4!) aes8! aes8
+| aes4 aes4 aes4 aes,4 | des8 des4 des8 aes,4 aes4 | aes8 aes4 aes8 ees4 ees4 | aes,2. {3 aes,8[@c bes,8 c8] }
+| des8 des4 des8 des8 des8 des8 des8 | aes,8 aes,4 aes,8 aes,4 aes4 | aes8 aes4 aes8 aes8 aes8 c4 | bes,8 bes,4 bes,8 ees4 aes4
+| aes8 aes4 aes8 aes,8 bes,8 c4 | des8 des4 des8 aes,4 aes4 | aes8 aes4 c8 ees4 ees,4 | aes,2. s4
+"""
+
+[lyrics.1]
+text = "I was lost in sin, was bur -- dened and sad, Yet wand’ -- ring from God each day: But I’m safe at last— I’m par -- doned and glad And walk -- ing the gos -- pel way."
+
+[lyrics.2]
+text = "Not a friend had I tho’ near -- ing de -- spair, No com -- fort the world could give; Now a friend I have my tri -- als to share And teach me the way to live."
+
+[lyrics.3]
+text = "“Glo -- ry to His name!” I’m sing -- ing to -- day, While seek -- ing the home a -- bove Where I hope to sing the a -- ges a -- way, Ex -- tol -- ling His match -- less love."
+
+[lyrics.chorus]
+text = "Yes, Je -- sus has found me and is bend -- ing a -- bove, His arms are a -- round me, I’m prais -- ing His love; Safe un -- der the pin -- ions of heav -- en’s own Dove, I’m walk -- ing the gos -- pel way."
