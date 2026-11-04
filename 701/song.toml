@@ -1,0 +1,88 @@
+title = "O Light of Love!"
+copyrights = [
+  "Lyrics: James Rowe, 1928 (public domain)",
+  "Music: Homer F. Morris, 1928 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "C"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 92
+verse_count = 3
+phrase_breaks = ["5:24", "9:24", "11:40", "13:40", "15:40"]
+non_breaking_phrase_breaks = ["9:48", "10:24", "11:8", "13:64", "14:40", "15:8", "15:64", "16:8", "16:40", "17:8"]
+
+[[time_sig_changes]]
+measure = 10
+numerator = 4
+denominator = 4
+duration = 8
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. g'8 a'8 e'8 | g'4. a'8 c''8 c''8 | c''4. g'8 c''8 d''8 | e''4. e''8 c''8 c''8
+| d''4. g'8 a'8 e'8 | g'4. a'8 c''8 c''8 | c''4. g'8 c''8 d''8 | e''4. c''8 c''8 d''8
+| c''4. g'8@c a'8 e'8 | g'4 g'4 a'4 b'4 | c''2~ c''8 c''8 b'8 c''8 | d''2~ d''8 d''8 c''8 d''8
+| e''2~ e''8 g'8 a'8 e'8 | g'4 g'4 a'4 b'4 | c''2~ c''8 g'8 c''8 d''8 | e''2~ e''8 d''8 c''8 b'8
+| c''2~ c''8 s4.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. e'8 e'8 c'8 | e'4. e'8 e'8 f'8 | e'4. e'8 g'8 g'8 | g'4. g'8 fis'8 fis'8
+| g'4. f'8 e'8 c'8 | e'4. e'8 e'8 f'8 | e'4. e'8 g'8 g'8 | g'4. g'8 e'8 f'8
+| e'4. e'8@c e'8 c'8 | e'8 e'8 g'8 g'8 fis'8 fis'8 f'8 f'8 | e'8 a'8 g'8 f'8 e'8 e'8 d'8 e'8 | f'2~ f'8 f'8 e'8 f'8
+| g'2~ g'8 e'8 e'8 c'8 | e'8 e'8 g'8 g'8 fis'8 fis'8 f'8 f'8 | e'8 a'8 g'8 f'8 e'8 e'8 e'8 f'8 | g'8 c''8 a'8 c''8 g'8 f'8 e'8 d'8
+| e'8 a'8 g'8 f'8 e'8 s4.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. c'8 c'8 g8 | c'4. c'8 g8 a8 | g4. c'8 c'8 b8 | c'4. c'8 c'8 a8
+| b4. b8 c'8 g8 | c'4. c'8 g8 a8 | g4. c'8 c'8 b8 | c'4. c'8 c'8 g8
+| g4. c'8@c c'8 g8 | c'8 c'8 c'8 c'8 c'8 c'8 g8 d'8 | c'8 c'8 b8 a8 g8 r8 r4 | r8 b8 b8 b8 b8 r8 r4
+| r8 c'8 c'8 c'8 c'8 c'8 c'8 g8 | c'8 c'8 c'8 c'8 c'8 c'8 g8 d'8 | c'8 c'8 b8 a8 g8 r8 r4 | r8 c'8 c'8 c'8 c'8 a8 g8 g8
+| g8 c'8 b8 a8 g8 s4.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. c8 c8 c8 | c4. c8 c8 c8 | c4. c8 e8 g8 | c'4. c'8 a8 d8
+| g4. g8 c8 c8 | c4. c8 c8 c8 | c4. c8 e8 g8 | c'4. e8 g8 g,8
+| c4. c8@c c8 c8 | c8 c8 e8 e8 d8 d8 g8 g,8 | c2~ c8 r8 r4 | r8 g8 g8 g8 g8 r8 r4
+| r8 c'8 g8 e8 c8 c8 c8 c8 | c8 c8 e8 e8 d8 d8 g8 g,8 | c2~ c8 r8 r4 | r8 c8 e8 g8 c'8 f8 g8 g,8
+| c2~ c8 s4.
+"""
+
+[lyrics.1]
+text = "O light of love that shines for me To show me where my home will be; How sweet to know that thy bright rays Will bright -- en all my pil -- grim days."
+
+[lyrics.2]
+text = "O light of love that mak -- est bright The wea -- ry hours of sor -- row’s night; No tri -- als can thy bright -- ness dim, For thou art from the heart of Him!"
+
+[lyrics.3]
+text = "O light of love, ere long, I know, My heart with joy will o -- ver -- flow; For I shall reach that coun -- try bright. Where thou shalt ev -- er be the light!"
+
+[lyrics.chorus]
+text = "O bless -- ed light of love di -- vine, I shall not stray; if Thou art mine; All pit -- falls will be safe -- ly passed, And I shall reach my home at last."
+
+[parts.Alto.lyrics.chorus]
+text = "O bless -- ed light of love, O light of love di -- vine, O love di -- vine, I shall not stray; if Thou art mine; All pit -- falls will be safe -- ly passed, yes, safe -- ly passed, for -- ev -- er passed And I shall reach Yes I shall reach my home at last. sweet home at last."
+
+[parts.Tenor.lyrics.chorus]
+text = "O bless -- ed light of love, O light of love di -- vine, O love di -- vine, I shall not stray. if Thou art mine; All pit -- falls will be safe -- ly passed, yes, safe -- ly passed, for -- ev -- er passed Yes I shall reach my home at last. sweet home at last."
+
+[parts.Bass.lyrics.chorus]
+text = "O bless -- ed light of love, O light of love di -- vine, I shall not stray. if Thou art mine; All pit -- falls will be safe -- ly passed, yes, safe -- ly passed, Yes I shall reach my home at last."
