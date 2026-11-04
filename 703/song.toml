@@ -1,0 +1,92 @@
+title = "You May Need Him"
+copyrights = [
+  "Lyrics: Eden Reeder Latta, 1928 (public domain)",
+  "Music: Ellis M. Barnett, 1928 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Db"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 100
+verse_count = 4
+phrase_breaks = ["5:40", "9:48", "13:48"]
+optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
+non_breaking_phrase_breaks = ["5:16", "17:16"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. s4 f'8 | aes'8[ bes'8] f'8 aes'8[ bes'8] f'8 | aes'4 ges'8 ees'4. | ges'8[ f'8] ees'8 bes'8 c''8! bes'8
+| aes'4.~ aes'4! aes'8 | aes'8[ bes'8] f'8 aes'8[ bes'8] f'8 | aes'4 ges'8 ees'4. | ees'8[ aes'8] aes'8 c''8 bes'8! ees''8
+| ees''4.( aes'4.) | f''4.~@c f''8[ ees''8] des''8 | aes'8 aes'4~ aes'4. | aes'8 aes'4~ aes'4 bes'8
+| aes'8 aes'4~ aes'4. | f''4.~ f''8[ ees''8] des''8 | aes'8 aes'4~ aes'4. | aes'4 aes'8 aes'8 bes'8 c''8
+| des''4.~ des''4.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. s4 des'8 | f'4 des'8 f'4 des'8 | c'4 ees'8 c'4. | ees'8[ des'8] c'8 ges'8 aes'8! ges'8
+| f'4 ges'8 f'4! ges'8 | f'4 des'8 f'4 des'8 | c'4 ees'8 c'4. | c'4 ees'8 ees'8 ees'8! g'8
+| ges'4.~ ges'4. | aes'8@c aes'8 aes'8 aes'8[ ges'8] f'8 | f'8 des'8 ees'8 f'4. | ges'8 ees'8 f'8 ges'4 ges'8
+| f'8 des'8 ees'8 f'4. | aes'8 aes'8 aes'8 aes'8[ ges'8] f'8 | f'8 des'8 ees'8 f'4. | ges'4 ges'8 ges'8 ges'8 ges'8
+| f'4 ges'8 f'4.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. s4 aes8 | des'4 aes8 des'4 aes8 | aes4 aes8 aes4. | aes4 aes8 c'8 ees'8! aes8
+| aes4 c'8 des'4! c'8 | des'4 aes8 des'4 aes8 | aes4 aes8 aes4. | aes4 aes8 aes8 g8! des'8
+| c'4.~ c'4. | des'8@c des'8 des'8 des'8[ aes8] aes8 | des'8 f8 ges8 aes4. | c'8 c'8 des'8 ees'4 c'8
+| des'8 f8 ges8 aes4. | des'8 des'8 des'8 des'8[ aes8] aes8 | des'8 f8 ges8 aes4. | aes4 aes8 c'8 des'8 ees'8
+| des'8[ aes8] bes8 aes4.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. s4 des8 | des4 des8 des4 des8 | ees4 c8 aes,4. | aes,4 aes,8 aes,8 aes,8! c8
+| des4 aes,8 des4! aes8 | des4 des8 des4 des8 | ees4 c8 aes,4. | aes,4 c8 ees8 g8! ees8
+| aes4.~ aes4. | des8@c des8 des8 des4 des8 | des8 des8 des8 des4. | aes,8 aes,8 aes,8 aes,4 aes8
+| des8 des8 des8 des4. | des8 des8 des8 des4 des8 | des8 des8 des8 des4. | ees4 ees8 aes,8 aes,8 aes,8
+| des4.~ des4.
+"""
+
+[lyrics.1]
+text = "Why slight the bless -- ed Sav -- iour so? @s1 Ac -- cept Him now, His par -- don know! @s2"
+
+[lyrics.2]
+text = "What did the lov -- ing Je -- sus do? @s1 But give His pre -- cious life for you? @s2"
+
+[lyrics.3]
+text = "Oh, would you not with Christ sit down? @s1 Would you not wear a star -- ry crown? @s2"
+
+[lyrics.4]
+text = "May He not cease to woo your heart! @s1 Oh, do not risk that word “de -- part!” @s2"
+
+[lyrics.chorus]
+text = "Need Him one day, you’ll need Him one day! Need Him one day, you’ll need Him one day! Need Him one day, you’ll need Him one day! When your life ebbs a -- way, a -- way!"
+
+[parts.Soprano.lyrics.chorus]
+text = "You will need Him! Need Him you’ll need Him! You will need Him! When your life ebbs a -- way,"
+
+[parts.Bass.lyrics.chorus]
+text = "Need Him one day, you’ll need Him one day! Need Him one day, you’ll need Him one day! Need Him one day, you’ll need Him one day! When your life ebbs a -- way,"
+
+[lyrics.s1]
+text = "You may need Him, one day, one day!"
+
+[parts.Soprano.lyrics.s1]
+text = "You may need Him, one day,"
+
+[lyrics.s2]
+text = "You may need Him, one day!"
