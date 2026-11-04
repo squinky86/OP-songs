@@ -1,0 +1,71 @@
+title = "Close to the Cross"
+copyrights = [
+  "Lyrics and Music: James W. Gaines, 1922 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Eb"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 72
+verse_count = 3
+phrase_breaks = ["4:48", "8:48", "12:48"]
+optional_phrase_breaks = ["2:48", "6:48", "10:48", "14:40"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+g'8. fis'16 g'8 aes'4 f'8 | bes'4. g'4. | f'8. e'16 f'8 bes'4 aes'8 | g'4.~ g'4 r8
+| aes'8. g'16 aes'8 c''4 aes'8 | g'4. bes'4. | aes'8. g'16 f'8 d''4 c''8 | bes'4.~ bes'4 r8
+| bes'4.@c c''4 bes'8 | g'4.~ g'4! r8 | bes'4. c''4 g'8 | aes'4.~ aes'4 r8
+| f'8-.\\rit g'8-. aes'8-. bes'8-. c''8-. d''8-. | ees''8-. d''8-. c''8-. bes'8-. g'8! g'8 | bes'4. aes'4 f'8 | ees'4.~ ees'4\\spanend r8
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+ees'8. ees'16 ees'8 d'4 d'8 | ees'4. ees'4. | d'8. d'16 d'8 d'4 f'8 | ees'4.~ ees'4 r8
+| ees'8. ees'16 ees'8 ees'4 ees'8 | ees'4. ees'4. | ees'8. ees'16 ees'8 f'4 ees'8 | d'4(~ d'16 ees'16 f'4) r8
+| g'8.@c g'16 g'8 g'4 r8 | ees'8-. f'8-. ees'8-. d'4! r8 | g'8. g'16 g'8 g'4 ees'8 | d'4 f'8 d'4 r8
+| f'8-. g'8-. aes'8-. bes'8-. aes'8-. aes'8-. | g'8-. g'8-. g'8-. g'8-. ees'8! ees'8 | d'4. d'8( bes8) bes8 | bes4.~ bes4 r8
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+bes8. a16 bes8 bes4 bes8 | bes4. bes4. | aes8. g16 aes8 f4 bes8 | bes4.~ bes4 r8
+| c'8. b16 c'8 aes4 c'8 | bes4. bes4. | c'8. bes16 a8 bes4 a8 | bes4(~ bes16 c'16 d'4) r8
+| ees'8.@c ees'16 ees'8 ees'4 r8 | bes8-. b8-. c'8-. b4! r8 | ees'8. ees'16 ees'8 ees'4 bes8 | bes4 bes8 bes4 r8
+| f8 g8 aes8 bes8 c'8 bes8 | bes8 c'8 d'8 ees'8 bes8! bes8 | aes4( f8) bes4 aes8 | g4.~ g4 r8
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+ees8. ees16 ees8 bes,4 aes8 | g4. ees4. | bes,8. bes,16 bes,8 bes,4 bes,8 | ees4.~ ees4 r8
+| aes,8. aes,16 aes,8 aes,4 aes,8 | ees4. g4. | f8. f16 f8 f4 f8 | bes,4.~ bes,4 r8
+| ees8.@c ees16 ees8 ees4 r8 | ees8-. d8-. c8-. g,4! r8 | ees8. ees16 ees8 ees4 ees8 | f4 d8 bes,4 r8
+| f8 g8 aes8 bes8 aes8 f8 | ees8 ees8 ees8 ees8 ees8! ees8 | bes,4. bes,4 bes,8 | ees4.~ ees4 r8
+"""
+
+[lyrics.1]
+text = "Close to the cross of Je -- sus, Un -- der the crim -- son tide, Washed in the pre -- cious foun -- tain, Let me in peace a -- bide."
+
+[lyrics.2]
+text = "There where the great Re -- deem -- er, Dy -- ing in ag -- o -- ny, Prayed for the ones who mocked Him; Sure -- ly He cares for me."
+
+[lyrics.3]
+text = "Close to the cross which heav -- en Dark -- ened, the sun to hide, Close to the ran -- som giv -- en, Let me each day a -- bide."
+
+[lyrics.chorus]
+text = "Close to the cross let me a -- bide, Close to the cross where Je -- sus died, Close to the cross of my cru -- ci -- fied Sav -- iour, Oh! let me a -- bide."
+
+[parts.Soprano.lyrics.chorus]
+text = "Close to the cross, Close to the cross, Close to the cross of my cru -- ci -- fied Sav -- iour, Oh! let me a -- bide."
