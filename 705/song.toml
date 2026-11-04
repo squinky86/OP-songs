@@ -1,0 +1,77 @@
+title = "More and More Like Jesus"
+copyrights = [
+  "Lyrics: Lawrence Love, 1916 (public domain)",
+  "Music: Riley C. Jay, 1916 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Bb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 84
+verse_count = 3
+phrase_breaks = ["5:48", "9:48", "13:48"]
+optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
+non_breaking_phrase_breaks = ["10:16", "10:48", "12:16", "12:48", "14:16", "14:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. d'8 ees'8 |
+f'4 f'4 g'4 a'4 | d''8 cis''8 d''8 bes'8 c''8 bes'8 g'8 g'8 | f'4 bes'4 a'4 g'4 | f'2. d'8 ees'8 |
+f'4 f'4 g'4 a'4 | d''8 c''8 bes'8 d''8 c''8 bes'8 g'8 g'8 | f'4 d''4 d''4. c''8 | bes'2. bes'8[@c c''8] |
+d''2. bes'8 c''8 | d''8 c''8 bes'8 g'8 f'4 bes'4 | bes'2. bes'4 | c''8 bes'8 c''8 d''8 c''4! bes'8[ c''8] |
+d''2. f'4 | g'4 bes'4 c''8 bes'8 g'8 g'8 | f'4 d''4 d''4. c''8 | bes'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. bes8 c'8 |
+d'4 d'4 d'4 d'4 | f'8 e'8 f'8 f'8 ees'8 ees'8 ees'8 ees'8 | d'4 f'4 e'4 e'4 | f'2( ees'4) bes8 c'8 |
+d'4 d'4 d'4 d'4 | f'8 f'8 f'8 f'8 ees'8 ees'8 cis'8 cis'8 | d'4 f'4 f'4. ees'8 | d'2. d'8[@c ees'8] |
+f'4 bes'4 f'4 d'8 ees'8 | f'8 ees'8 d'8 cis'8 d'4 f'4 | ees'4 ees'4 ees'4 f'4 | e'8 e'8 e'8 e'8 ees'4! d'8[ ees'8] |
+f'4 bes'4 f'4 d'4 | ees'4 ees'4 ees'8 ees'8 cis'8 cis'8 | d'4 f'4 f'4. ees'8 | d'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. f8 f8 |
+bes4 bes4 g4 f4 | bes8 bes8 bes8 bes8 g8 g8 bes8 bes8 | bes4 bes4 c'4 bes4 | a2. f8 f8 |
+bes4 bes4 g4 f4 | bes8 a8 bes8 bes8 g8 g8 bes8 bes8 | bes4 bes4 bes4. f8 | f2. f4@c |
+bes4 g4 bes4 f8 f8 | bes8 bes8 f8 e8 f4 aes4 | g4 g4 g4 bes4 | bes8 g8 a8 bes8 a4! f4 |
+bes4 g4 bes4 bes4 | bes4 g4 g8 g8 bes8 bes8 | bes4 bes4 bes4. f8 | f2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. bes,8 bes,8 |
+bes,4 bes,4 bes,4 bes,4 | bes,8 bes,8 bes,8 d8 ees8 ees8 ees8 ees8 | bes,4 d4 c4 c4 | f2. bes,8 bes,8 |
+bes,4 bes,4 bes,4 bes,4 | bes,8 c8 d8 bes,8 ees8 ees8 e8 e8 | f4 f4 f4. f8 | bes,2. bes,4@c |
+bes,4 bes,4 bes,4 bes,8 bes,8 | bes,8 bes,8 bes,8 bes,8 bes,4 d4 | ees4 ees4 ees4 d4 | c8 c8 c8 c8 f4! bes,4 |
+bes,4 bes,4 bes,4 bes,4 | ees4 ees4 ees8 ees8 e8 e8 | f4 f4 f4. f8 | bes,2. s4
+"""
+
+[lyrics.1]
+text = "How I long to be still more and more like Je -- sus, While up -- on this earth I stay, And I’m striv -- ing to re -- flect His love and mer -- cy All a -- long my pil -- grim way."
+
+[lyrics.2]
+text = "More and more like Him who left the courts of heav -- en, Earth -- ly sor -- rows all to share; That He might be -- come the au -- thor of sal -- va -- tion, All our sins and griefs to bear."
+
+[lyrics.3]
+text = "Yes, I want to be more like my bless -- ed Sav -- iour, Striv -- ing here His will to know; Do -- ing faith -- ful -- ly what -- ev -- er He com -- mands me, Walk -- ing where He bids me go."
+
+[lyrics.chorus]
+text = "Still more and more like my Sav -- iour I would be, His love, great love, re -- flect -- ing day by day; Yes, more and more, I would be like Him, All a -- long my pil -- grim way."
+
+[parts.Soprano.lyrics.chorus]
+text = "Still more like my Sav -- iour I would be, His love, re -- flect -- ing day by day; Yes, more I would be like Him, All a -- long my pil -- grim way."
