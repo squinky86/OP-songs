@@ -19,7 +19,7 @@ will assign them to that table instead of the song.
    `time_sig_numerator`, `time_sig_denominator`, `tempo_bpm`, `verse_count`,
    `default_verses`, `phrase_breaks`, `optional_phrase_breaks`,
    `non_breaking_phrase_breaks`, `optional_break_threshold_ticks`, `commentary`,
-   `converge_verses`. Keep the three phrase-break fields adjacent. Omit
+   `converge_verses`, `interleave_verse_lyrics`. Keep the three phrase-break fields adjacent. Omit
    `subtitle` when it is empty; standardization removes an empty string while
    keeping its comments.
 2. **Time-signature changes** (`[[time_sig_changes]]`), if any. Within each
@@ -119,6 +119,7 @@ optional_phrase_breaks = ["2:64", "6:64", "10:64"]
 | `optional_break_threshold_ticks` | integer | no | Line length, in ticks (quarter = 16), at which an optional phrase break is taken in the sheet music/slides. Omit it to let OpenPsalm calculate the length (see [Optional Break Threshold](#optional-break-threshold)) |
 | `commentary` | string | no | HTML-formatted text displayed below the sheet music on the song's detail page (historical context, musical notes, etc.) |
 | `converge_verses` | boolean | no | When `true`, any phrase sung identically by every verse is printed once in the PDF (kept in verse 1, skipped in later verses) instead of stacked in each numbered row. Defaults to `true` when the song uses shared lyric sections (`[lyrics.sN]`), otherwise `false` — ordinary hymns whose verses intentionally repeat a tag line keep the repeat (see [Converged Verses](#converged-verses-shared-lyric-sections)). |
+| `interleave_verse_lyrics` | boolean | no | Sheet-score lyric row order. `false` (default) stacks surviving rows voice by voice; `true` stacks them verse by verse — each verse's lead row, then that verse's response rows. Changes only the PDF/SVG/LilyPond score (see [Interleaved Verse Lyrics](#interleaved-verse-lyrics)). |
 | `time_sig_changes` | array of tables | no | Mid-song time signature changes (see [Time Signature Changes](#time-signature-changes)) |
 
 ---
@@ -764,6 +765,49 @@ verse-specific lines that another voice already sings collapse across voices,
 while the shared call/response line collapses across verses, together yielding a
 single printed row per shared span.
 
+### Interleaved Verse Lyrics
+
+Call-and-response hymns often print each verse's response directly under that
+verse's lead line rather than after all of the lead's verses (song 710,
+*Anywhere is 'Home'*). Opt in with a top-level boolean:
+
+```toml
+verse_count = 3
+interleave_verse_lyrics = true   # top level: before the first [table]
+```
+
+| Default (`false`) | `interleave_verse_lyrics = true` |
+| --- | --- |
+| Soprano verse 1 | Soprano verse 1 |
+| Soprano verse 2 | Response verse 1 |
+| Soprano verse 3 | Soprano verse 2 |
+| Response verse 1 | Response verse 2 |
+| Response verse 2 | Soprano verse 3 |
+| Response verse 3 | Response verse 3 |
+
+- It only **reorders** the rows that survive — deduplication, suppression,
+  convergence and echo splicing run first, exactly as without the flag. It
+  removes no repeated text by itself; shared continuations print once only
+  where the existing [cross-voice deduplication](#per-part-lyrics) already
+  collapses them (same words, same timing, same phrase — add
+  `non_breaking_phrase_breaks` to isolate a shared tail from a differing
+  opening).
+- Each row stays attached to its own voice (`\lyricsto`), so a delayed
+  response starts under its own notes.
+- Within a verse, rows follow the canonical voice order (S/A/T/B, or
+  Tenor1/Tenor2/Baritone/Bass). A voice's chorus/coda stays appended to its
+  first printed verse row; a chorus- or coda-only row goes after the numbered
+  rows. Rows of a third (divisi) staff interleave in their own block beside
+  that staff.
+- Use it when each verse has its *own* response line. Use
+  [`splice_lyrics_into`](#echo-lyric-splice-splice_lyrics_into) instead when a
+  short echo should print inline on the melody's row.
+- Scope: the sheet score only (PDF, SVG preview, LilyPond download, social
+  card). Presentation slides, MusicXML, MIDI/MP3 and the web lyrics are
+  unchanged.
+- Translations inherit the base song's value; an overlay may set it either way
+  (`interleave_verse_lyrics = false` turns off a base song's `true`).
+
 ---
 
 ## Phrase Breaks
@@ -1017,7 +1061,7 @@ block instead of appending a line to it.
 
 | Construct | Rule |
 |---|---|
-| Top-level scalar/array (`title`, `subtitle`, `key_signature`, `tempo_bpm`, `verse_count`, `default_verses`, `phrase_breaks`, `commentary`, `converge_verses`, `active`, …) | Present → **replaces** the inherited value. Absent → inherited. |
+| Top-level scalar/array (`title`, `subtitle`, `key_signature`, `tempo_bpm`, `verse_count`, `default_verses`, `phrase_breaks`, `commentary`, `converge_verses`, `interleave_verse_lyrics`, `active`, …) | Present → **replaces** the inherited value. Absent → inherited. |
 | `copyrights` | Replaces the whole list. A translation should always set this: the credits are written in the translation's language, and the translator line belongs beside the original lyricist rather than appended at the end. |
 | `[parts.X]` | **Field-wise merge** with the base part `X`, so `notes = """…"""` alone overrides the notation and keeps `clef`, `choral_type`, `staff_number`. |
 | `[parts.X]` not in the base | Added as a new part; must be complete. |

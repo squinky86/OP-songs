@@ -169,6 +169,16 @@ a shared response (T/B). Recipe:
    shared lines in full — convergence is PDF-only), and the web poem (all
    lines in every verse).
 
+### Interleaved verse/response rows
+
+When every verse has its own answering line (lead holds while the other
+voices reply with different words per verse), set
+`interleave_verse_lyrics = true` so each response prints directly under its
+own verse — see song 710. Keep each part's lyrics complete (the words that
+voice actually sings); the flag only reorders printed rows. Export a few voice
+subsets (soprano alone, tenor/bass, bass alone) to confirm the responses stay
+complete when the lead is absent.
+
 ## 13. Engraving defaults
 
 These are renderer defaults, not per-song choices; every example or score image published for OpenPsalm (blog figures included) must follow them:
