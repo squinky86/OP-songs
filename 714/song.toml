@@ -1,0 +1,91 @@
+title = "Voices Are Calling"
+copyrights = [
+  "Lyrics: Tillit S. Teddlie (stanza 1 and chorus) and N. W. Allphin (stanzas 2–3), 1924 (public domain)",
+  "Music: Tillit S. Teddlie, 1924 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 9
+time_sig_denominator = 8
+tempo_bpm = 90
+verse_count = 3
+phrase_breaks = ["3:48", "5:48", "9:48", "13:48"]
+optional_phrase_breaks = ["7:48", "11:48", "15:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. s4. a'8 gis'8 a'8 | f'4. a'4. g'8 f'8 d'8 | c'4. f'4. a'8 gis'8 a'8 | c''4. f'4. f'8 g'8 a'8
+| g'2. a'8 gis'8 a'8 | f'4. a'4. g'8 f'8 d'8 | c'4. f'4. g'8 a'8 bes'8 | g'4. f'4. g'8 f'8 e'8
+| f'2. f'8@c g'8 a'8 | bes'4. f'4. d'8 f'8 bes'8 | a'4. f'4. a'8 gis'8 a'8 | c''4. f'4. f'8 g'8 a'8
+| g'4.~ g'4. a'8 gis'8 a'8 | f'4. a'4. g'8 f'8 d'8 | c'4. f'4. g'8 a'8 bes'8 | a'4. f'4.! g'8\\rit f'8 e'8
+| f'2.\\spanend s4.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. s4. s4. | s4. s4. s4. | s4. s4. s4. | s4. s4. s4.
+| s4. s4. s4. | s4. s4. s4. | s4. s4. s4. | s4. s4. s4.
+| s4. s4. f'8@c f'8 f'8 | f'4. d'4. d'8 d'8 f'8 | f'4. c'4. f'8 f'8 f'8 | e'4. d'4. d'8 e'8 f'8
+| e'4.~ e'4. f'8 f'8 f'8 | c'4. ees'4. d'8 d'8 bes8 | a4. c'4. d'8 d'8 f'8 | f'4. c'4.! c'8 c'8 c'8
+| c'2. s4.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. s4. c'8 b8 c'8 | a4. c'4. d'8 d'8 bes8 | a4. a4. c'8 b8 c'8 | e'4. d'4. b8 b8 b8
+| c'4.( bes4.) c'8 b8 c'8 | a4. c'4. d'8 d'8 bes8 | a4. a4. bes8 c'8 d'8 | c'4. a4. bes8 a8 g8
+| a2. a8@c bes8 c'8 | d'4. bes4. bes8 bes8 d'8 | c'4. a4. c'8 b8 c'8 | bes4. a4. b8 b8 b8
+| c'4.( bes4.) c'8 b8 c'8 | a4. c'4. bes8 bes8 f8 | f4. a4. bes8 c'8 d'8 | c'4. a4.! bes8 a8 g8
+| a2. s4.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. s4. s4. | s4. s4. s4. | s4. s4. s4. | s4. s4. s4.
+| s4. s4. s4. | s4. s4. s4. | s4. s4. s4. | s4. s4. s4.
+| s4. s4. f8@c f8 f8 | bes,4. bes,4. bes,8 bes,8 bes,8 | f4. f4. f8 f8 f8 | c4. d4. g,8 g,8 g,8
+| c4.~ c4. f8 f8 f8 | f4. f4. bes,8 bes,8 bes,8 | f4. f4. bes,8 a,8 g,8 | c4. c4.! c8 c8 c8
+| <f, f>2. s4.
+"""
+
+[lyrics.1]
+text = "Oft when the twi -- light gath -- ers a -- round me, Clear, in the shad -- ows, fa -- ces I see; Deep in the stil -- ness voic -- es are call -- ing, Loved ones are call -- ing, call -- ing for me."
+
+[parts.Alto.lyrics.1]
+text = ""
+
+[parts.Bass.lyrics.1]
+text = ""
+
+[lyrics.2]
+text = "Friends of the past, whom oft -- en I’ve greet -- ed, Here as they jour -- neyed, ev -- en as I; Lov -- ing -- ly wait and watch for my com -- ing, With them to share the glo -- ries on high."
+
+[parts.Alto.lyrics.2]
+text = ""
+
+[parts.Bass.lyrics.2]
+text = ""
+
+[lyrics.3]
+text = "Ma -- ny are gone, who here were my kin -- dred, To the a -- bode of spir -- its made free; They, with my Lord and all His re -- deemed ones, Long -- ing -- ly wait and beck -- on for me."
+
+[parts.Alto.lyrics.3]
+text = ""
+
+[parts.Bass.lyrics.3]
+text = ""
+
+[lyrics.chorus]
+text = "Sweet -- ly they’re call -- ing, lov -- ing -- ly call -- ing, Those whom I loved, so hap -- py and free; Out from the shin -- ing por -- tals of glo -- ry, Loved ones are call -- ing, call -- ing for me."
