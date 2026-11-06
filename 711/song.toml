@@ -58,9 +58,6 @@ bes8 bes8 bes8 bes8 | ees'8 bes4. | bes8 bes8 bes8 bes8 | bes2
 | ees'8 ees'8 ees'8 ees'8 | ees'8 ees'8 c'8 c'8 | bes4 aes4 | g2
 """
 
-[parts.Tenor.lyrics.chorus]
-text = "Count your man -- y bless -- ings, Name them one by one; Count your man -- y bless -- ings, See what God hath done. Count your man -- y bless -- ings, Name them one by one, Count your man -- y bless -- ings, See what God hath done."
-
 [parts.Bass]
 choral_type = "bass"
 clef = "bass"
@@ -78,9 +75,6 @@ ees8 ees8 ees8 ees8 | ees8 ees4. | bes,8 bes,8 bes,8 bes,8 | bes,2
 | ees8 ees8 ees8 ees8 | aes8 aes8 aes8 aes8 | bes4 bes,4 | ees2
 """
 
-[parts.Bass.lyrics.chorus]
-text = "Count your man -- y bless -- ings, Name them one by one; Count your man -- y bless -- ings, See what God hath done. Count your man -- y bless -- ings, Name them one by one, Count your man -- y bless -- ings, See what God hath done."
-
 [lyrics.1]
 text = "When up -- on life’s bil -- lows you are tem -- pest tossed, When you are dis -- cour -- aged think -- ing all is lost, Count your man -- y bless -- ings, name them one by one, And it will sur -- prise you what the Lord hath done."
 
@@ -95,3 +89,9 @@ text = "So, a -- mid the con -- flict, wheth -- er great or small, Do not be dis
 
 [lyrics.chorus]
 text = "Count your bless -- ings, Name them one by one; Count your bless -- ings, See what God hath done; Count your bless -- ings, Name them one by one, Count your man -- y bless -- ings, See what God hath done."
+
+[parts.Tenor.lyrics.chorus]
+text = "Count your man -- y bless -- ings, Name them one by one; Count your man -- y bless -- ings, See what God hath done. Count your man -- y bless -- ings, Name them one by one, Count your man -- y bless -- ings, See what God hath done."
+
+[parts.Bass.lyrics.chorus]
+text = "Count your man -- y bless -- ings, Name them one by one; Count your man -- y bless -- ings, See what God hath done. Count your man -- y bless -- ings, Name them one by one, Count your man -- y bless -- ings, See what God hath done."
