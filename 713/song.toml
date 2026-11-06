@@ -1,0 +1,93 @@
+title = "Work Where You Are"
+copyrights = [
+  "Lyrics: James Rowe, 1923 (public domain)",
+  "Music: Chas. W. Vaughan, 1923 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "C"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 3
+phrase_breaks = ["2:64", "4:64", "6:64", "8:64", "10:64", "12:64", "14:64"]
+non_breaking_phrase_breaks = ["8:16", "16:16"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+c''4 c''8. c''16 c''4 b'8 a'8 | g'4 e'8. a'16 g'2 | b'2. a'8. b'16 | c''2. r4
+| c''4 c''8. c''16 c''4 b'8 a'8 | g'4 e'8. a'16 g'2 | d''2. a'8. b'16 | c''2. r4
+| c''2.@c b'8. a'16 | b'2.( {3 b'8 a'8 g'8) } | d''2. c''8. b'16 | c''2.( {3 g'8 a'8 b'8) }
+| c''4 c''8. c''16 c''4 b'8 a'8 | g'4 e'8. a'16 g'2 | d''2. c''8. b'16 | c''2. r4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+e'4 e'8. dis'16 e'4 f'8 f'8 | e'4 c'8. f'16 e'2 | f'4 f'8. f'16 f'4 f'8. f'16 | e'4 e'8. f'16 e'4 r4
+| e'4 e'8. dis'16 e'4 f'8 f'8 | e'4 c'8. f'16 e'4( g'4) | fis'4 fis'8. fis'16 g'4 f'8. f'16 | e'4 g'8. f'16 e'4 r4
+| e'4@c e'8. e'16 e'4 e'4 | f'4 f'8. f'16 f'4 r4 | f'4 f'8. f'16 f'4 e'8. f'16 | g'4 e'8. f'16 e'4 r4
+| e'4 e'8. dis'16 e'4 f'8 f'8 | e'4 c'8. f'16 e'2 | g'4 g'8. g'16 g'4 e'8. f'16 | e'4 g'8. f'16 e'4 r4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+g4 g8. a16 g4 a8 b8 | c'4 g8. c'16 c'2 | d'4 d'8. d'16 d'4 d'8. d'16 | c'4 g8. a16 g4 r4
+| g4 g8. a16 g4 a8 b8 | c'4 g8. c'16 c'2 | c'4 c'8. c'16 b4 d'8. d'16 | c'4 b8. a16 g4 r4
+| g4@c a8. b16 c'4 g4 | g4 g8. g16 d'4 r4 | b4 b8. b16 b4 c'8. d'16 | e'4 c'8. a16 g4 r4
+| g4 g8. a16 g4 a8 b8 | c'4 g8. c'16 c'2 | c'4 c'8. c'16 c'4 c'8. b16 | c'4 b8. a16 g4 r4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+c4 c8. c16 c4 c8 c8 | c4 c8. c16 c2 | g4 g8. g16 g4 g8. g16 | c4 c8. c16 c4 r4
+| c4 c8. c16 c4 c8 c8 | c4 c8. c16 c4( e4) | d4 d8. d16 g4 g8. g16 | c2. r4
+| c4@c c8. c16 c4 c4 | d4 d8. d16 g4 r4 | g4 g8. g16 g4 g8. g16 | c4 c8. c16 c4 r4
+| c4 c8. c16 c4 c8 c8 | c4 c8. c16 c2 | c4 c'8. a16 g4 g8. g16 | c2. r4
+"""
+
+[lyrics.1]
+text = "Sigh not to la -- bor in fields that are wide, @s1 Sure that the Lord will be close to your side, @s2"
+
+[lyrics.2]
+text = "God needs a can -- dle as well as the sun, @s1 Right in your cor -- ner the crown may be won, @s2"
+
+[lyrics.3]
+text = "Do what you can ev -- ’ry day and be true, @s1 Oh, be as -- sured He will bless all you do; @s2"
+
+[lyrics.chorus]
+text = "Work where you are, Work where you are; Just where you live serv -- ice true you may give; Work where you are."
+
+[parts.Alto.lyrics.chorus]
+text = "Work where you are, oh, work where you are, Work where you are, al -- ways work, where you are; Just where you live serv -- ice true you may give; Work, brave -- ly work where you are, where you are."
+
+[parts.Tenor.lyrics.chorus]
+text = "Work where you are, oh, work where you are, Work where you are, al -- ways work, where you are; Just where you live serv -- ice true you may give; Work, brave -- ly work where you are, where you are."
+
+[parts.Bass.lyrics.chorus]
+text = "Work where you are, oh, work where you are, Work where you are, al -- ways work, where you are; Just where you live serv -- ice true you may give; Work, brave -- ly work where you are,"
+
+[lyrics.s1]
+text = "Work where you are, ev -- er work where you are,"
+
+[parts.Soprano.lyrics.s1]
+text = "Work where you are,"
+
+[lyrics.s2]
+text = "Work where you are, brave -- ly work where you are."
+
+[parts.Soprano.lyrics.s2]
+text = "Work, where you are."
+
+[parts.Bass.lyrics.s2]
+text = "Work where you are, brave -- ly work"
