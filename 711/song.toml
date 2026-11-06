@@ -1,0 +1,97 @@
+title = "Count Your Blessings"
+copyrights = [
+  "Lyrics: Johnson Oatman, Jr., 1897 (public domain)",
+  "Music: Edwin O. Excell, 1897 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Eb"
+time_sig_numerator = 2
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 4
+phrase_breaks = ["4:32", "8:32", "12:32", "16:32", "20:32", "24:32", "28:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+g'8 g'8 g'8 aes'8 | bes'8 bes'8 bes'8 g'8 | aes'4 g'4 | aes'2
+| f'8 g'8 aes'8 bes'8 | d''8 c''8 bes'8 aes'8 | g'4 aes'4 | bes'2
+| g'8 g'8 g'8 aes'8 | bes'8 bes'8 bes'8 g'8 | aes'4 g'4 | aes'2
+| f'8 g'8 aes'8 bes'8 | d''8 c''8 bes'8 aes'8 | g'4 f'4 | ees'2
+| bes'4.@c bes'8 | ees''8 bes'8 bes'8 g'8 | aes'4 aes'4 | aes'2
+| aes'4. aes'8 | d''8 c''8 bes'8 aes'8 | g'4 aes'4 | bes'2
+| ees''4. ees''8 | d''8 c''4 r8 | d''8\\rit d''8 c''8 c''8 | bes'2!\\spanend
+| ees''8 ees''8 d''8 ees''8 | d''8 c''8 bes'8 aes'8 | g'4 f'4 | ees'2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+ees'8 ees'8 ees'8 f'8 | g'8 g'8 g'8 ees'8 | f'4 e'4 | f'2 |
+d'8 ees'8 f'8 g'8 | bes'8 aes'8 g'8 f'8 | ees'4 f'4 | g'2 |
+ees'8 ees'8 ees'8 f'8 | g'8 g'8 g'8 ees'8 | f'4 e'4 | f'2 |
+d'8 ees'8 f'8 g'8 | bes'8 aes'8 g'8 f'8 | ees'4 d'4 | ees'2 |
+g'4.@c g'8 | g'8 g'8 g'8 ees'8 | f'8[ ees'8] d'8[ c'8] | bes2 |
+f'4. f'8 | bes'8 aes'8 g'8 f'8 | ees'4 f'4 | g'2 |
+g'4. g'8 | bes'8 aes'4 r8 | aes'8 aes'8 aes'8 aes'8 | aes'2! |
+g'8 g'8 g'8 g'8 | bes'8 aes'8 f'8 f'8 | ees'4 d'4 | ees'2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3, 4]
+suppress_verses_when = ["soprano", "alto"]
+notes = """
+bes8 bes8 bes8 bes8 | ees'8 bes4. | bes8 bes8 bes8 bes8 | bes2
+| bes8 bes8 bes8 bes8 | bes8 bes4. | bes8 bes8 ees'8 ees'8 | ees'2
+| bes8 bes8 bes8 bes8 | ees'8 bes4. | bes8 bes8 bes8 bes8 | bes2
+| bes8 bes8 bes8 bes8 | bes8 bes4. | bes8 bes8 aes8 aes8 | g2
+| ees'8@c ees'8 ees'8 ees'8 | bes8 bes4. | bes8 bes8 bes8 bes8 | bes2
+| bes8 bes8 bes8 bes8 | bes8 bes4. | bes8 bes8 bes8 bes8 | ees'2
+| bes8 bes8 bes8 ees'8 | ees'8 ees'4 r8 | f'8 f'8 ees'8 ees'8 | d'2!
+| ees'8 ees'8 ees'8 ees'8 | ees'8 ees'8 c'8 c'8 | bes4 aes4 | g2
+"""
+
+[parts.Tenor.lyrics.chorus]
+text = "Count your man -- y bless -- ings, Name them one by one; Count your man -- y bless -- ings, See what God hath done. Count your man -- y bless -- ings, Name them one by one, Count your man -- y bless -- ings, See what God hath done."
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3, 4]
+suppress_verses_when = ["soprano", "alto", "tenor"]
+notes = """
+ees8 ees8 ees8 ees8 | ees8 ees4. | bes,8 bes,8 bes,8 bes,8 | bes,2
+| bes,8 bes,8 bes,8 bes,8 | bes,8 bes,4. | ees8 ees8 ees8 ees8 | ees2
+| ees8 ees8 ees8 ees8 | ees8 ees4. | bes,8 bes,8 bes,8 bes,8 | bes,2
+| bes,8 bes,8 bes,8 bes,8 | bes,8 bes,4. | bes,8 bes,8 bes,8 bes,8 | ees2
+| ees8@c ees8 ees8 ees8 | ees8 ees4. | bes,8 bes,8 bes,8 bes,8 | bes,2
+| bes,8 bes,8 bes,8 bes,8 | bes,8 bes,4. | ees8 ees8 ees8 ees8 | ees2
+| ees8 ees8 ees8 ees8 | aes8 aes4 r8 | bes8 bes8 bes8 bes8 | bes2!
+| ees8 ees8 ees8 ees8 | aes8 aes8 aes8 aes8 | bes4 bes,4 | ees2
+"""
+
+[parts.Bass.lyrics.chorus]
+text = "Count your man -- y bless -- ings, Name them one by one; Count your man -- y bless -- ings, See what God hath done. Count your man -- y bless -- ings, Name them one by one, Count your man -- y bless -- ings, See what God hath done."
+
+[lyrics.1]
+text = "When up -- on life’s bil -- lows you are tem -- pest tossed, When you are dis -- cour -- aged think -- ing all is lost, Count your man -- y bless -- ings, name them one by one, And it will sur -- prise you what the Lord hath done."
+
+[lyrics.2]
+text = "Are you ev -- er bur -- dened with a load of care? Does the cross seem heav -- y you are called to bear? Count your man -- y bless -- ings, ev -- ’ry doubt will fly, And you will be sing -- ing as the days go by."
+
+[lyrics.3]
+text = "When you look at oth -- ers with their lands and gold, Think that Christ has prom -- ised you His wealth un -- told; Count your man -- y bless -- ings, mon -- ey can -- not buy Your re -- ward in heav -- en, nor your home on high."
+
+[lyrics.4]
+text = "So, a -- mid the con -- flict, wheth -- er great or small, Do not be dis -- cour -- aged, God is o -- ver all: Count your man -- y bless -- ings an -- gels will at -- tend, Help and com -- fort give you to your jour -- ney’s end."
+
+[lyrics.chorus]
+text = "Count your bless -- ings, Name them one by one; Count your bless -- ings, See what God hath done; Count your bless -- ings, Name them one by one, Count your man -- y bless -- ings, See what God hath done."
