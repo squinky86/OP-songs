@@ -1,0 +1,101 @@
+title = "Saved By Grace"
+copyrights = [
+  "Lyrics: Fanny J. Crosby, 1894 (public domain)",
+  "Music: Will W. Slater, 1928 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Eb"
+time_sig_numerator = 12
+time_sig_denominator = 8
+tempo_bpm = 90
+verse_count = 3
+phrase_breaks = ["3:64", "5:64", "7:64", "9:64", "11:64", "13:64", "15:64"]
+non_breaking_phrase_breaks = ["11:16", "16:72"]
+interleave_verse_lyrics = true
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s1 r8 r4. | r4 bes'8 bes'4 bes'8 bes'4 c''8 bes'4 aes'8 | g'4 g'8 aes'4 aes'8 g'4 r8 r4.
+| r4 c''8 c''4 c''8 c''4 ees''8 d''4 c''8 | bes'4 bes'8 bes'4 bes'8 bes'4 r8 r4.
+| r4 bes'8 d''4 c''8 bes'4 g'8 aes'4 bes'8 | c''4 c''8 c''4 c''8 c''4 r8 r4.
+| r4 ees''8 d''4 c''8 bes'4 f'8 g'4 f'8 | ees'4.~ ees'4.~ ees'4 bes'8@c ees''4 d''8
+| c''4.~ c''4.~ c''4 ees''8 d''4 c''8 | bes'4.~ bes'4.~ bes'4 g'8 aes'4 bes'8
+| d''4.~ d''4.~ d''4 c''8 bes'4 aes'8 | g'4.~ g'4.~ g'4 bes'8 ees''4 d''8
+| c''4.~ c''4.~ c''4 ees''8 d''4 c''8 | bes'4.~ bes'4.~ bes'4 c''8 bes'4 aes'8
+| g'4.~ g'4.~ g'4 ees'8 f'4 g'8 | ees'4.~ ees'4.~ ees'4 s2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s1 r8 r4. | r4 ees'8 ees'4 ees'8 ees'4 aes'8 g'4 f'8 | ees'4 ees'8 ees'4 ees'8 ees'4 r8 r4.
+| r4 aes'8 aes'4 aes'8 aes'4 c''8 bes'4 aes'8 | g'4 g'8 ees'4 ees'8 g'4 r8 r4.
+| r4 f'8 f'4 aes'8 g'4 ees'8 d'4 ees'8 | aes'4 aes'8 aes'4 aes'8 aes'4 r8 r4.
+| r4 g'8 f'4 aes'8 g'4 f'8 ees'4 d'8 | ees'4.~ ees'4.~ ees'4 r8@c r4.
+| r4 aes'8 aes'4 aes'8 aes'4 c''8 bes'4 aes'8 | g'4 g'8 f'4 aes'8 g'4 r8 r4.
+| r4 aes'8 aes'4 aes'8 aes'4 aes'8 g'4 f'8 | ees'4 ees'8 ees'4 ees'8 ees'4 r8 r4.
+| r4 aes'8 aes'4 aes'8 aes'4 c''8 bes'4 aes'8 | g'4 g'8 f'4 aes'8 g'4 r8 r4.
+| r4 ees'8 ees'4 ees'8 ees'4 ees'8 d'4 d'8 | ees'4.~ ees'4.~ ees'4 s2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s1 r8 r4. | r4 bes8 bes4 bes8 bes4 c'8 bes4 aes8 | g4 bes8 c'4 c'8 bes4 r8 r4.
+| r4 ees'8 ees'4 ees'8 ees'4 ees'8 d'4 c'8 | bes4 ees'8 ees'4 ees'8 ees'4 r8 r4.
+| r4 d'8 bes4 d'8 ees'4 bes8 bes4 ees'8 | ees'4 ees'8 f'4 f'8 ees'4 r8 r4.
+| r4 bes8 bes4 d'8 ees'4 bes8 bes4 bes8 | g4.~ g4.~ g4 r8@c r4.
+| r4 ees'8 ees'4 ees'8 ees'4 ees'8 ees'4 ees'8 | ees'4 ees'8 d'4 f'8 ees'4 r8 r4.
+| r4 bes8 bes4 bes8 bes4 bes8 bes4 bes8 | bes4 bes8 bes4 bes8 bes4 r8 r4.
+| r4 ees'8 ees'4 ees'8 ees'4 ees'8 ees'4 ees'8 | ees'4 ees'8 d'4 f'8 ees'4 ees'8 d'4 c'8
+| bes4 bes8 c'4 bes8 bes4 g8 aes4 bes8 | g4.~ g4.~ g4 s2
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s1 bes,8 ees4 f8 | g4.~ g4.~ g4 aes8 g4 f8 | ees4.~ ees4.~ ees4 ees8 f4 g8 |
+aes4.~ aes4.~ aes4 c'8 bes4 aes8 | g4.~ g4.~ g4 bes,8 ees4 g8 |
+bes4.~ bes4.~ bes4 ees8 f4 g8 | aes4.~ aes4.~ aes4 c8 ees8[ d8] c8 |
+bes,4.~ bes,4.~ bes,4 bes,8 bes,4 bes,8 | ees4.~ ees4.~ ees4 r8@c r4. |
+r4 aes8 aes4 aes8 aes4 aes8 aes4 aes8 | ees4 g8 bes4 bes8 ees4 r8 r4. |
+r4 bes,8 d4 f8 bes,4 bes,8 c4 d8 | ees4 ees8 ees4 ees8 ees4 r8 r4. |
+r4 aes8 aes4 aes8 aes4 aes8 aes4 aes8 | ees4 g8 bes4 bes8 ees4 r8 r4. |
+r4 ees8 c4 g,8 bes,4 bes,8 bes,4 bes,8 | ees4.~ ees4.~ ees4 s2
+"""
+
+[lyrics.1]
+text = "Some day the sil -- ver cord will break, (the cord will break,) And I no more as now will sing; (as now will sing;) But O the joy when I shall wake, (when I shall wake,) With -- in the pal -- ace of the King!"
+
+[parts.Bass.lyrics.1]
+text = "Some day the sil -- ver cord will break, And I no more as now will sing; But O the joy when I shall wake, With -- in the pal -- ace of the King!"
+
+[lyrics.2]
+text = "Some day my earth -- ly house will fall, (the house will fall,) I can not tell how soon ’twill be; (how soon ’twill be;) But this I know my All in All, (my All in All,) Has now a place in heav’n for me!"
+
+[parts.Bass.lyrics.2]
+text = "Some day my earth -- ly house will fall, I can not tell how soon ’twill be; But this I know my All in All, Has now a place in heav’n for me!"
+
+[lyrics.3]
+text = "Some day; till then I’ll watch and wait, (I’ll watch and wait,) My lamp all trimmed and burn -- ing bright; (and burn -- ing bright;) That when my Sav -- iour ope’s the gate, (the gold -- en gate,) My soul to heav’n may take its flight!"
+
+[parts.Bass.lyrics.3]
+text = "Some day; till then I’ll watch and wait, My lamp all trimmed and burn -- ing bright; That when my Sav -- iour ope’s the gate, My soul to heav’n may take its flight!"
+
+[lyrics.chorus]
+text = "I’ll see my Sav -- iour face to face; yes, face to face; And tell the sto -- ry, “saved by grace! yes, saved by grace!” Yes, I shall see Him face to face, yes, face to face, And tell the sto -- ry, “saved by grace!”"
+
+[parts.Soprano.lyrics.chorus]
+text = "I’ll see my Sav -- iour face to face; And tell the sto -- ry, “saved by grace!” Yes, I shall see Him face to face, And tell the sto -- ry, “saved by grace!”"
+
+[parts.Tenor.lyrics.chorus]
+text = "I’ll see my Sav -- iour face to face; yes, face to face; And tell the sto -- ry, “saved by grace! yes, saved by grace!” Yes, I shall see Him face to face, yes, face to face, And tell the sto -- ry, tell the sto -- ry, “saved by grace!”"
