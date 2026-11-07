@@ -1,0 +1,93 @@
+title = "O I Want to See Him"
+copyrights = [
+  "Lyrics and Music: Rufus H. Cornelius, 1916 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 12
+time_sig_denominator = 8
+tempo_bpm = 96
+verse_count = 4
+phrase_breaks = ["2:96", "4:96", "6:96", "8:96", "10:96", "12:96", "14:96"]
+non_breaking_phrase_breaks = ["12:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+ees'4 f'8 ees'4 f'8 aes'4 f'8 aes'4. | c''4 bes'8 aes'4 f'8 ees'2.! |
+ees'4 f'8 ees'4 f'8 aes'4 f'8 aes'4. | c''4 c''8 bes'4 c''8 bes'2.! |
+c''4 c''8 c''4 bes'8 aes'4 bes'8 c''4. | c''4 bes'8 aes'4 f'8 ees'2.! |
+aes'4 aes'8 aes'8 r4 c''4 c''8 c''8 r4 | c''4 c''8 bes'4 bes'8 aes'2.! |
+c''4@c c''8 c''4 c''8 c''4. aes'4. | aes'4 aes'8 aes'4 f'8 ees'2.! |
+c''4 c''8 c''4 c''8 c''4. aes'4. | bes'4 c''8 bes'4 c''8 bes'2.! |
+c''4 c''8 c''4 c''8 c''4. aes'4. | aes'4 aes'8 aes'4 f'8 ees'2.! |
+aes'4 aes'8 aes'8 r4 c''4 c''8 c''8 r4 | c''4 c''8 bes'4 bes'8 aes'2.!
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+c'4 b8 c'4 b8 c'4 b8 c'4. | ees'4 des'8 c'4 des'8 c'2.! |
+c'4 b8 c'4 b8 c'4 b8 c'4. | ees'4 ees'8 d'4 d'8 ees'2.! |
+ees'4 ees'8 ees'4 ees'8 ees'4 ees'8 ees'4. | ees'4 des'8 c'4 des'8 c'2.! |
+c'4 c'8 d'8 r4 ees'4 ees'8 f'8 r4 | ees'8[ aes'8] f'8 g'8[ f'8] ees'8 c'2.! |
+ees'4@c aes'8 f'4 aes'8 ees'4. c'4. | f'4 f'8 f'4 des'8 c'2.! |
+ees'4 aes'8 f'4 aes'8 ees'4. c'4. | d'4 d'8 d'4 d'8 ees'2.! |
+ees'4 aes'8 f'4 aes'8 ees'4. c'4. | f'4 f'8 f'4 des'8 c'2.! |
+c'4 c'8 d'8 r4 ees'4 ees'8 f'8 r4 | ees'8[ aes'8] f'8 g'8[ f'8] ees'8 c'2.!
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+aes4 aes8 aes4 aes8 aes4 aes8 aes4. | aes4 g8 aes4 aes8 aes2.! |
+aes4 aes8 aes4 aes8 aes4 aes8 aes4. | aes4 aes8 f4 aes8 g2.! |
+aes4 aes8 aes4 g8 aes4 g8 aes4. | aes4 g8 aes4 aes8 aes2.! |
+aes4 aes8 aes8 r4 aes4 aes8 aes8 r4 | aes4 aes8 des'4 g8 aes2.! |
+aes4@c aes8 aes4 aes8 aes4. aes4. | aes4 des'8 des'4 aes8 aes2.! |
+aes4 aes8 aes4 aes8 aes4. aes4. | aes4 aes8 f4 aes8 g4 aes8 bes8 aes8 g8! |
+aes4 aes8 aes4 aes8 aes4. aes4. | aes4 des'8 des'4 aes8 aes2.! |
+aes4 aes8 aes8 r4 aes4 aes8 aes8 r4 | aes4 aes8 des'4 g8 aes2.!
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+aes,4 aes,8 aes,4 aes,8 aes,4 aes,8 aes,4. | aes4 ees8 f4 des8 aes,2.! |
+aes,4 aes,8 aes,4 aes,8 aes,4 aes,8 aes,4. | aes,4 aes,8 bes,4 bes,8 ees2.! |
+aes4 aes8 aes4 ees8 c4 ees8 aes4. | aes4 ees8 f4 des8 aes,2.! |
+f4 f8 fes8 r4 ees4 ees8 d8 r4 | ees4 ees8 ees4 ees8 aes,2.! |
+aes,4@c aes,8 aes,4 aes,8 aes,4. aes,4. | des4 des8 des4 f8 aes2.! |
+aes,4 aes,8 aes,4 aes,8 aes,4. f4. | bes,4 bes,8 bes,4 bes,8 ees4 f8 g8 f8 ees8! |
+aes,4 aes,8 aes,4 aes,8 aes,4. aes,4. | des4 des8 des4 f8 aes2.! |
+f4 f8 fes8 r4 ees4 ees8 d8 r4 | ees4 ees8 ees4 ees8 aes,2.!
+"""
+
+[lyrics.1]
+text = "As I jour -- ney thro’ the land sing -- ing as I go, Point -- ing souls to Cal -- va -- ry— to the crim -- son flow, Ma -- ny ar -- rows pierce my soul from with -- out, with -- in; But my Lord leads me on, thro’ Him I must win."
+
+[lyrics.2]
+text = "When in ser -- vice for my Lord dark may be the night, But I’ll cling more close to Him, He will give me light; Sa -- tan’s snares may vex my soul, turn my tho’ts a -- side; But my Lord goes a -- head, leads what -- e’er be -- tide."
+
+[lyrics.3]
+text = "When in val -- leys low I look tow’rd the moun -- tain height, And be -- hold my Sav -- ior there, lead -- ing in the fight, With a ten -- der hand out -- stretched tow’rd the val -- ley low, Guid -- ing me, I can see, as I on -- ward go."
+
+[lyrics.4]
+text = "When be -- fore me bil -- lows rise from the migh -- ty deep, Then my Lord di -- rects my bark; He doth safe -- ly keep, And He leads me gent -- ly on thro’ this world be -- low; He’s a real Friend to me, O I love Him so."
+
+[lyrics.chorus]
+text = "O I want to see Him, look up -- on His face, There to sing for -- ev -- er of His sav -- ing grace; On the streets of Glo -- ry let me lift my voice; Cares all past, Home at last, ev -- er to re -- joice."
+
+[parts.Tenor.lyrics.chorus]
+text = "O I want to see Him, look up -- on His face, There to sing for -- ev -- er of His sav -- ing grace; His sav -- ing grace; On the streets of Glo -- ry let me lift my voice; Cares all past, Home at last, ev -- er to re -- joice."
+
+[parts.Bass.lyrics.chorus]
+text = "O I want to see Him, look up -- on His face, There to sing for -- ev -- er of His sav -- ing grace; His sav -- ing grace; On the streets of Glo -- ry let me lift my voice; Cares all past, Home at last, ev -- er to re -- joice."
