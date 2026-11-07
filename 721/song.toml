@@ -1,0 +1,121 @@
+title = "Forever Mine"
+copyrights = [
+  "Lyrics: James Rowe, 1928 (public domain)",
+  "Music: Emory S. Peek, 1928 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Eb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 3
+phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "11:40", "13:48", "15:48", "17:40", "19:40", "21:48", "23:48"]
+non_breaking_phrase_breaks = ["4:40", "5:8", "8:8", "8:40", "17:8", "25:16"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. g'8 aes'8 | bes'8 a'8 bes'8 c''8 bes'8 g'8 bes'8 bes'8 | ees''8 bes'8 g'8 c''8 bes'4 r4
+| r8 d''8 d''8 d''8 d''8 r8 r4 | r8 bes'8 g'8 c''8 bes'4 g'8 aes'8
+| bes'8 a'8 bes'8 c''8 bes'8 g'8 f'8 ees'8 | ees''8 ees''8 c''8 ees''8 bes'4 ees''8. c''16
+| bes'2~ bes'8 aes'8 g'8 f'8 | ees'2. r4@c
+| r8 g'8 g'8 aes'8 g'8 r8 r4 | r8 bes'8 bes'8 c''8 bes'8 r8 r4
+| r8 d''8 d''8 d''8 d''8 r8 r4 | r8 bes'8 bes'8 c''8 bes'4 bes'4
+| ees''1~ | ees''2. ees''4 | d''8 ees''8 d''8 ees''8 d''4 c''4 | bes'4 r4. r4.
+| r8 g'8 g'8 aes'8 g'8 r8 r4 | r8 bes'8 bes'8 c''8 bes'8 r8 r4
+| r8 aes'8 aes'8 aes'8 aes'8 r8 r4 | r8 g'8 g'8 aes'8 g'4 bes'4
+| ees''1~ | ees''2. c''4 | bes'8 c''8 bes'8 g'8 aes'4 f''4 | ees''2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. ees'8 f'8 | g'8 fis'8 g'8 aes'8 g'8 ees'8 g'8 g'8 | g'8 g'8 ees'8 aes'8 g'4 r4
+| r8 aes'8 aes'8 aes'8 aes'8 r8 r4 | r8 g'8 ees'8 aes'8 g'4 ees'8 f'8
+| g'8 fis'8 g'8 aes'8 g'8 ees'8 d'8 ees'8 | ees'8 ees'8 ees'8 ees'8 ees'4 r4
+| r8 ees'8 ees'8 ees'8 ees'8 d'8 d'8 d'8 | ees'8 bes8 c'8 c'8 bes4 r4@c
+| r8 ees'8 ees'8 ees'8 ees'8 r8 r4 | r8 g'8 g'8 g'8 g'8 r8 r4
+| r8 aes'8 aes'8 aes'8 aes'8 r8 r4 | r8 g'8 g'8 g'8 g'4 ees'4
+| ees'1~ | ees'2. g'4 | f'8 g'8 f'8 g'8 f'4 ees'4 | d'8 aes'8 g'8 f'8 ees'8 d'8 c'8 bes8
+| ees'2~ ees'8 bes8 c'8 bes8 | ees'2~ ees'8 bes8 c'8 bes8
+| f'2~ f'8 d'8 c'8 bes8 | ees'2. ees'4
+| ees'1~ | ees'2. ees'4 | ees'8 ees'8 ees'8 ees'8 d'4 d'4 | ees'4 c'8. c'16 bes4 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. bes8 bes8 | ees'8 ees'8 ees'8 ees'8 ees'8 bes8 ees'8 ees'8 | bes8 ees'8 bes8 ees'8 ees'4 ees'8. c'16
+| bes2~ bes8 r8 r4 | r8 ees'8 bes8 ees'8 ees'4 bes8 bes8
+| ees'8 ees'8 ees'8 ees'8 ees'8 bes8 aes8 g8 | c'8 c'8 aes8 aes8 g4 r4
+| r8 g8 g8 g8 g8 f8 bes8 aes8 | g8 g8 aes8 aes8 g4 r4@c
+| r8 bes8 bes8 c'8 bes8 r8 r4 | r8 bes8 bes8 bes8 bes8 r8 r4
+| r8 bes8 bes8 bes8 bes8 r8 r4 | r8 bes8 bes8 bes8 bes4 bes4
+| c'8 bes8 c'8 bes8 c'8 ees'8 d'8 c'8 | bes8 c'8 bes8 aes8 g4 bes4
+| bes8 bes8 bes8 bes8 bes4 a4 | bes8 c'8 bes8 aes8 g8 r8 r4
+| r8 bes8 bes8 c'8 bes8 r8 r4 | r8 g8 g8 aes8 g8 r8 r4
+| r8 d'8 d'8 d'8 d'8 r8 r4 | r8 bes8 bes8 c'8 bes4 g4
+| c'8 bes8 c'8 bes8 c'8 ees'8 d'8 c'8 | bes8 c'8 bes8 aes8 g4 aes4
+| g8 aes8 g8 bes8 bes4 aes4 | g4 aes8. aes16 g4 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. ees8 ees8 | ees8 ees8 ees8 ees8 ees8 ees8 ees8 ees8 | ees8 ees8 ees8 ees8 ees4 r4
+| r8 bes,8 bes,8 bes,8 bes,8 bes,8 c8 bes,8 | ees2 r4 ees8 ees8
+| ees8 ees8 ees8 ees8 ees8 ees8 ees8 ees8 | aes,8 aes,8 aes,8 c8 ees4 r4
+| r8 ees8 ees8 ees8 ees8 bes,8 bes,8 bes,8 | ees2. bes,8@c bes,8
+| ees2~ ees8 bes,8 c8 bes,8 | ees2~ ees8 bes,8 c8 bes,8
+| f2~ f8 d8 c8 bes,8 | ees2. g4
+| aes8 g8 aes8 g8 aes8 c'8 bes8 aes8 | g8 aes8 g8 f8 ees4 ees4
+| f8 f8 f8 f8 f4 f4 | bes,4 r4. r4.
+| r8 ees8 ees8 ees8 ees8 r8 r4 | r8 ees8 ees8 ees8 ees8 r8 r4
+| r8 bes,8 bes,8 bes,8 bes,8 r8 r4 | r8 ees8 ees8 ees8 ees4 ees4
+| aes8 g8 aes8 g8 aes8 c'8 bes8 aes8 | g8 aes8 g8 f8 ees4 ees4
+| ees8 ees8 ees8 ees8 bes,4 bes,4 | ees2. s4
+"""
+
+[lyrics.1]
+text = "In the glo -- ry of the gos -- pel I am sing -- ing on my way, @s1 And I know that He will keep me till the dawn -- ing of the day; @s2"
+
+[lyrics.2]
+text = "Dai -- ly bless -- ings fall up -- on me from the throne of grace a -- bove, @s1 Oh, ’tis joy to know He won me by the pow -- er of His love; @s2"
+
+[lyrics.3]
+text = "Some glad morn -- ing, He will call me to the bless -- ed home on high, @s1 There my spir -- it shall a -- dore Him while the end -- less day goes by, @s2"
+
+[lyrics.chorus]
+text = "Yes, He is mine, for -- ev -- er mine, And in His love my soul shall shine, He’s mine, And nev -- er -- more I shall re -- pine, Yes, I am His, I’m His at last, My sin -- ful days for -- ev -- er past, I’m His, For Je -- sus is for -- ev -- er mine."
+
+[parts.Alto.lyrics.chorus]
+text = "Yes, He is mine, for -- ev -- er mine, And in His love my soul shall shine, He’s mine, And nev -- er -- more I shall re -- pine, no more re -- pine, And I am His, I’m His at last, My sin -- ful days for -- ev -- er past, I’m His, For Je -- sus is for -- ev -- er mine. tru -- ly mine."
+
+[parts.Tenor.lyrics.chorus]
+text = "Yes, He is mine, for -- ev -- er mine, And in His love my soul shall shine, I know that He will keep me true Till tri -- als all are thro’; And nev -- er -- more I shall re -- pine, no more re -- pine, Yes, I am His, I’m His at last, My sin -- ful days for -- ev -- er past, And I shall trust re -- deem -- ing grace Un -- til I see His face For Je -- sus is for -- ev -- er mine. tru -- ly mine."
+
+[parts.Bass.lyrics.chorus]
+text = "Christ is mine, for -- ev -- er mine, And in His love, my soul shall shine, I know that He will keep me true Till tri -- als all are thro’; And nev -- er -- more I shall re -- pine, Yes, I am His, I’m His at last, My sin -- ful days for -- ev -- er past, And I shall trust re -- deem -- ing grace Un -- til I see His face For Je -- sus is for -- ev -- er mine."
+
+[lyrics.s1]
+text = "yes, He is mine, for -- ev -- er mine;"
+
+[parts.Tenor.lyrics.s1]
+text = "Christ is mine, for -- ev -- er mine;"
+
+[lyrics.s2]
+text = "Yes, He is mine, for -- ev -- er mine, for -- ev -- er mine."
+
+[parts.Soprano.lyrics.s2]
+text = "Christ is mine, for -- ev -- er mine."
+
+[parts.Bass.lyrics.s2]
+text = "Yes, He is mine, for -- ev -- er mine."
