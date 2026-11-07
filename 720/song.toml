@@ -1,0 +1,93 @@
+title = "I Know My Heavenly Father Knows"
+copyrights = [
+  "Lyrics: Sarepta M. I. Henry, 1897 (public domain)",
+  "Music: Edwin O. Excell, 1897 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Db"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 84
+verse_count = 4
+phrase_breaks = ["5:40", "9:40", "11:32", "13:48", "15:48", "17:48"]
+optional_phrase_breaks = ["3:40", "7:40"]
+non_breaking_phrase_breaks = ["14:24", "18:44"]
+
+[[time_sig_changes]]
+measure = 11
+numerator = 4
+denominator = 4
+duration = 9
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 aes'4 |
+des''4. c''8 bes'8. f'16 | aes'8. ges'16 ges'4. aes'8 | c''4. bes'8 aes'8. ges'16 | f'8. ges'16 aes'4. aes'8 |
+des''4. des''8 c''8. des''16 | c''8. bes'16 bes'4. bes'8 | bes'4. bes'8 c''8. des''16 | des''8. c''16 c''4. aes'8 |
+des''8. des''16 des''8 des''8 f'8.! ees'16 | des'2 aes'2@c |
+ges'2. ees''4 | des''2. aes'4 | c''8. bes'16 aes'8 ges'8 f'4 ges'4 | aes'2. aes'4 |
+ges'2. ees''4 | des''2.! des'4 | ees'8 ees'8 f'8 ges'8 f'4 ees'4 | des'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 f'4 |
+f'4. f'8 f'8. des'16 | ges'8. c'16 c'4. ges'8 | ges'4. ges'8 f'8. ees'16 | des'8. ees'16 f'4. f'8 |
+f'4. f'8 f'8. aes'16 | aes'8. ges'16 ges'4. ges'8 | g'4. g'8 g'8. g'16 | ges'8. ges'16 ges'4. ges'8 |
+f'8. f'16 f'8 f'8 des'8.! c'16 | des'2 r2@c |
+r8. des'16 c'8. bes16 aes4 r4 | r8. f'16 f'8. ees'16 des'4 f'4 | aes'8. ges'16 f'8 ees'8 des'4 ees'4 | f'2. r4 |
+r8. des'16 c'8. bes16 aes4 r4 | r8. f'16 f'8. ees'16 des'4! aes4 | bes8 bes8 bes8 bes8 des'4 aes4 | aes2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 aes4 |
+aes4. des'8 des'8. aes16 | ees'8. aes16 aes4. aes8 | aes4. aes8 aes8. aes16 | aes8. aes16 des'4. aes8 |
+aes4. aes8 des'8. des'16 | des'8. des'16 des'4. des'8 | ees'4. ees'8 ees'8. ees'16 | ees'8. ees'16 ees'4. c'8 |
+des'8. des'16 aes8 aes8 aes8.! ges16 | f2 r2@c |
+r8. des'16 c'8. bes16 aes4 r4 | r8. aes16 aes8. ges16 f4 aes4 | aes8. aes16 aes8 aes8 aes8 aes8 aes8 aes8 | des'2. r4 |
+r8. des'16 c'8. bes16 aes4 r4 | r8. aes16 aes8. ges16 f4! f4 | ges8 ges8 aes8 bes8 aes8. aes16 ges8 ges8 | f2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 des4 |
+des4. des8 des8. des16 | ees8. ees16 aes,4. aes,8 | aes,4. aes,8 aes,8. aes,16 | des8. des16 des4. des8 |
+des4. des8 des8. f16 | ges8. ges16 ges4. ges8 | ees4. ees8 ees8. ees16 | aes8. aes16 aes4. aes8 |
+des8. des16 des8 des8 aes,8.! aes,16 | des2 r2@c |
+r8. aes,16 aes,8. aes,16 aes,4 r4 | r8. des16 des8. des16 des4 des4 | aes,8. aes,16 aes,8 aes,8 des8 des8 des8 des8 | des2. r4 |
+r8. aes,16 aes,8. aes,16 aes,4 r4 | r8. des16 des8. des16 des4! des4 | ges,8 ges,8 ges,8 ges,8 aes,8. aes,16 aes,8 aes,8 | des2. s4
+"""
+
+[lyrics.1]
+text = "I know my heav’n -- ly Fa -- ther knows The storms that would my way op -- pose; But He can drive the clouds a -- way, And turn my dark -- ness in -- to day, And turn my dark -- ness in -- to day."
+
+[lyrics.2]
+text = "I know my heav’n -- ly Fa -- ther knows The balm I need to soothe my woes, And with His touch of love di -- vine, He heals this wound -- ed soul of mine, He heals this wound -- ed soul of mine."
+
+[lyrics.3]
+text = "I know my heav’n -- ly Fa -- ther knows How frail I am to meet my foes, But He my cause will e’er de -- fend, Up -- hold and keep me to the end, Up -- hold and keep me to the end,"
+
+[lyrics.4]
+text = "I know my heav’n -- ly Fa -- ther knows The hour my jour -- ney here will close, And may that hour, O faith -- ful Guide Find me safe shel -- tered by Thy side, Find me safe shel -- tered by Thy side."
+
+[lyrics.chorus]
+text = "My Fa -- ther knows, I’m sure He knows The storms that would, that would my way op -- pose; My Fa -- ther knows, I’m sure He knows, And tem -- pers ev -- ’ry wind, the wind that blows."
+
+[parts.Soprano.lyrics.chorus]
+text = "He knows, He knows The storms that would, my way op -- pose; He knows, He knows, And tem -- pers ev -- ’ry wind, that blows."
+
+[parts.Alto.lyrics.chorus]
+text = "My Fa -- ther knows, I’m sure He knows The storms that would, my way op -- pose; My Fa -- ther knows, I’m sure He knows, And tem -- pers ev -- ’ry wind, that blows."
