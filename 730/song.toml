@@ -1,0 +1,72 @@
+title = "Listen to the Voice of Jesus"
+copyrights = [
+  "Lyrics: Jennie Wilson, 1909 (public domain)",
+  "Music: Homer C. Morris, 1909 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 4
+phrase_breaks = ["4:64", "8:64", "12:64"]
+optional_phrase_breaks = ["2:64", "6:64", "10:64", "14:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+d''4 d''4 b'4 b'4 | g'4 g'4 d'2 | d'8 d'8 g'8 b'8 d''4 g'4 | b'2 a'4 r4 |
+d''4 d''4 b'4 b'4 | g'4 g'4 d'2 | e'8 fis'8 g'8 a'8 b'4 g'4 | a'2 g'4! r4 |
+d''4.@c d''8 b'4 d''4 | g'4. g'8 b'4 d'4 | g'8 a'8 b'8 g'8 d''4 b'4 | b'2 a'4 r4 |
+d''4 d''4 b'4 b'4 | g'4 g'4 d'2 | e'8 fis'8 g'8 a'8 b'4 g'4 | a'2 g'4! r4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+g'4 g'4 g'4 g'4 | d'4 d'4 b2 | b8 b8 d'8 g'8 g'4 g'4 | g'2 fis'4 r4 |
+g'4 g'4 g'4 g'4 | d'4 d'4 b2 | c'8 d'8 e'8 e'8 d'4 d'4 | d'2 d'4! r4 |
+g'4.@c g'8 g'4 g'4 | d'4. d'8 g'4 d'4 | d'8 d'8 g'8 g'8 g'4 g'4 | g'2 fis'4 r4 |
+g'4 g'4 g'4 g'4 | d'4 d'4 b2 | c'8 d'8 e'8 e'8 d'4 d'4 | d'2 d'4! r4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+b4 b4 d'4 d'4 | b4 b4 g2 | g8 g8 b8 d'8 b4 b4 | d'2 d'4 r4 |
+b4 b4 d'4 d'4 | b4 b4 g2 | g8 g8 g8 g8 g4 b4 | c'2 b4! r4 |
+b4.@c b8 d'4 b4 | b4. b8 d'4 b4 | b8 c'8 d'8 b8 b4 d'4 | d'2 d'4 r4 |
+b4 b4 d'4 d'4 | b4 b4 g2 | g8 g8 g8 g8 g4 b4 | c'2 b4! r4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+g4 g4 g4 g4 | g4 g4 g2 | g8 g8 g8 g8 g4 g4 | d2 d4 r4 |
+g4 g4 g4 g4 | g4 g4 g2 | c8 c8 c8 c8 d4 d4 | d2 g,4! r4 |
+g4.@c g8 g4 g4 | g4. g8 g4 g4 | g8 g8 g8 g8 g4 g4 | d2 d4 r4 |
+g4 g4 g4 g4 | g4 g4 g2 | c8 c8 c8 c8 d4 d4 | d2 g,4! r4
+"""
+
+[lyrics.1]
+text = "In the day -- time’s gold -- en light, Lis -- ten to the voice of Je -- sus; In the sol -- emn gloom of night, Lis -- ten to the voice of Je -- sus."
+
+[lyrics.2]
+text = "While in down -- ward paths you roam, Lis -- ten to the voice of Je -- sus; He is bid -- ding you come home, Lis -- ten to the voice of Je -- sus."
+
+[lyrics.3]
+text = "Long -- ing for a pur -- er life, Lis -- ten to the voice of Je -- sus; Seek -- ing rest from e -- vil strife, Lis -- ten to the voice of Je -- sus."
+
+[lyrics.4]
+text = "Find -- ing par -- don for your soul, Lis -- ten to the voice of Je -- sus; Yield -- ing all to His con -- trol, Lis -- ten to the voice of Je -- sus."
+
+[lyrics.chorus]
+text = "He is call -- ing, ev -- er call -- ing, Clear and sweet His words are fall -- ing, Wea -- ry one, by sin un -- done, Lis -- ten to the voice of Je -- sus."
