@@ -1,0 +1,80 @@
+title = "It Was Jesus"
+copyrights = [
+  "Lyrics: J. M. Henson, 1917 (public domain)",
+  "Music: McD. Weams, 1917 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 3
+phrase_breaks = ["4:64", "8:64", "12:64"]
+optional_phrase_breaks = ["2:64", "6:64", "10:64", "14:64"]
+non_breaking_phrase_breaks = ["10:16", "12:16"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+c''4. des''8 c''8 bes'8 aes'8 bes'8 | c''2. r4 | ees''4. f''8 ees''8 c''8 aes'8 bes'8 | c''2 bes'2
+| c''4. des''8 c''8 bes'8 aes'8 bes'8 | c''2. r4 | ees''4. des''8 c''8 bes'8 aes'8 c''8 | bes'2 aes'2
+| ees''4.@c f''8 ees''8 c''8 aes'8 bes'8 | c''2. r4 | c''4. des''8 c''8 c''8 ees''8 c''8 | bes'1
+| c''4. des''8 c''8 bes'8 aes'8 bes'8 | c''2. r4 | ees''4. des''8 c''8 bes'8 aes'8 c''8 | bes'2 aes'2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+ees'4. f'8 ees'8 des'8 c'8 des'8 | ees'2. r4 | aes'4. aes'8 aes'8 aes'8 aes'8 g'8 | aes'2 g'2 |
+ees'4. f'8 ees'8 des'8 c'8 des'8 | ees'2. r4 | aes'4. aes'8 aes'8 g'8 ees'8 aes'8 | g'2 ees'2 |
+aes'4.@c aes'8 aes'8 aes'8 ees'8 g'8 | aes'4 aes'8 aes'8 aes'4 r4 | aes'4. aes'8 aes'8 aes'8 c''8 aes'8 | g'4 g'8 aes'8 g'8[ f'8 ees'8 des'8] |
+ees'4. f'8 ees'8 ees'8 ees'8 ees'8 | ees'2. r4 | aes'4. aes'8 aes'8 g'8 ees'8 aes'8 | g'2 ees'2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3]
+suppress_verses_when = ["soprano", "alto"]
+notes = """
+aes8 r8 ees8 r8 aes8 r8 ees8 r8 | aes8 r8 ees8 r8 aes4 r4 | c'4. des'8 c'8 ees'8 ees'8 ees'8 | ees'2 ees'2
+| aes8 r8 ees8 r8 aes8 r8 ees8 r8 | aes8 r8 ees8 r8 aes4 r4 | c'4. f'8 ees'8 des'8 c'8 ees'8 | des'2 c'2
+| c'4.@c des'8 c'8 ees'8 ees'8 ees'8 | ees'2. r4 | ees'4. f'8 ees'8 ees'8 ees'8 ees'8 | ees'1
+| aes4. aes8 aes8 g8 aes8 g8 | aes2. r4 | c'4. f'8 ees'8 des'8 c'8 ees'8 | des'2 c'2
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3]
+suppress_verses_when = ["soprano", "alto"]
+notes = """
+aes,8 r8 ees,8 r8 aes,8 r8 ees,8 r8 | aes,8 r8 ees,8 r8 aes,4 r4 | aes4. aes8 aes8 aes8 c8 ees8 | aes2 ees2 |
+aes,8 r8 ees,8 r8 aes,8 r8 ees,8 r8 | aes,8 r8 ees,8 r8 aes,4 r4 | aes4. des8 ees8 ees8 ees8 ees8 | ees2 aes,2 |
+aes4.@c aes8 aes8 ees8 c8 ees8 | aes4 ees8 c8 aes,4 r4 | aes4. aes8 aes8 aes8 aes8 aes8 | ees4 ees8 f8 ees8[ des8 c8 bes,8] |
+aes,4. aes,8 aes,8 bes,8 c8 ees8 | aes2. r4 | aes4. des8 ees8 ees8 ees8 ees8 | ees2 aes,2
+"""
+
+[lyrics.1]
+text = "Some one touched my heart with love, It was Je -- sus, It was Je -- sus; Some one bade me look a -- bove, It was Je -- sus, bless -- ed Je -- sus."
+
+[lyrics.2]
+text = "Some one changed my sigh to song, It was Je -- sus, It was Je -- sus; Led me right in -- stead of wrong, It was Je -- sus, bless -- ed Je -- sus."
+
+[lyrics.3]
+text = "Some one gave my soul new life, It was Je -- sus, It was Je -- sus; Some one helped me in the strife, It was Je -- sus, bless -- ed Je -- sus."
+
+[lyrics.chorus]
+text = "It was Je -- sus my dear Friend, my dear Friend, On whose love I could de -- pend; could de -- pend; Some one caused my grief to end, It was Je -- sus, bless -- ed Je -- sus."
+
+[parts.Soprano.lyrics.chorus]
+text = "It was Je -- sus my dear Friend, On whose love I could de -- pend; Some one caused my grief to end, It was Je -- sus, bless -- ed Je -- sus."
+
+[parts.Tenor.lyrics.chorus]
+text = "It was Je -- sus my dear Friend, On whose love I could de -- pend; Some one caused my grief to end, It was Je -- sus, bless -- ed Je -- sus."
