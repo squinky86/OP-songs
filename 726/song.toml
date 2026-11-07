@@ -1,0 +1,88 @@
+title = "He Will Go With Me"
+copyrights = [
+  "Lyrics and Music: Franklin L. Eiland, 1905 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Db"
+time_sig_numerator = 12
+time_sig_denominator = 8
+tempo_bpm = 90
+verse_count = 3
+phrase_breaks = ["3:72", "5:72", "7:72", "9:72", "11:72", "13:72", "15:72"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. s4. des'8 ees'8 f'8 | aes'4 f'8 aes'4 bes'8 aes'4 f'8 f'8 ees'8 des'8
+| bes'4. aes'4.~ aes'4 r8 des'8 ees'8 f'8 | aes'4 f'8 aes'4 bes'8 aes'4 f'8 f'8 ees'8 des'8
+| ees'2.~ ees'4 r8 des'8 ees'8 f'8 | aes'4 f'8 aes'4 bes'8 aes'4 f'8 f'8 ees'8 des'8
+| bes'4. des''4.~ des''4 r8 des'8 ees'8 f'8 | aes'4 f'8 aes'4 bes'8 aes'4 f'8 f'8 des'8 ees'8
+| des'2.~ des'4 r8 aes'8@c bes'8 c''8 | des''4 des''8 des''4 ees''8 des''4 des''8 des''8 des''8 aes'8
+| bes'4. aes'4.~ aes'4 r8 des'8 ees'8 f'8 | aes'4 f'8 aes'4 bes'8 aes'4 f'8 f'8 ees'8 des'8
+| ees'2.~ ees'4 r8 aes'8 bes'8 c''8 | des''4 des''8 des''4 ees''8 des''4 des''8 des''8 des''8 aes'8
+| bes'4. aes'4.~ aes'4 r8 des'8 ees'8 f'8 | aes'4 f'8 aes'4 bes'8 aes'4 f'8 f'8 des'8 ees'8
+| des'2.~ des'4 r8 s4.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. s4. des'8 des'8 des'8 | f'4 des'8 f'4 ges'8 f'4 des'8 des'8 des'8 des'8
+| ges'4. f'4.~ f'4 r8 des'8 des'8 des'8 | f'4 des'8 f'4 ges'8 f'4 des'8 des'8 c'8 des'8
+| c'4.( des'4. ees'4) r8 des'8 des'8 des'8 | f'4 des'8 f'4 ges'8 f'4 des'8 des'8 des'8 des'8
+| des'4. ges'4.~ ges'4 r8 des'8 des'8 des'8 | f'4 des'8 f'4 ges'8 f'4 des'8 des'8 des'8 aes8
+| aes2.~ aes4 r8 aes'8@c g'8 ges'8 | f'4 f'8 f'4 ges'8 f'4 f'8 f'8 f'8 f'8
+| ges'4. f'4.~ f'4 r8 des'8 des'8 des'8 | f'4 des'8 f'4 ges'8 f'4 des'8 des'8 c'8 des'8
+| c'4.( des'4. ees'4) r8 aes'8 g'8 ges'8 | f'4 f'8 f'4 ges'8 f'4 f'8 f'8 f'8 f'8
+| ges'4. f'4.~ f'4 r8 des'8 des'8 des'8 | f'4 des'8 f'4 ges'8 f'4 des'8 des'8 des'8 aes8
+| aes2.~ aes4 r8 s4.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. s4. f8 ges8 aes8 | des'4 aes8 des'4 des'8 des'4 aes8 aes8 ges8 f8
+| des'4. des'4.~ des'4 r8 f8 ges8 aes8 | des'4 aes8 des'4 des'8 des'4 aes8 aes8 ges8 f8
+| aes4.( bes4. c'4) r8 f8 ges8 aes8 | des'4 aes8 des'4 des'8 des'4 aes8 aes8 ges8 f8
+| ges4. bes4.~ bes4 r8 f8 ges8 aes8 | des'4 aes8 des'4 des'8 des'4 aes8 aes8 f8 ges8
+| f2.~ f4 r8 aes8@c aes8 aes8 | aes4 aes8 aes4 aes8 aes4 aes8 aes8 aes8 des'8
+| des'4. des'4.~ des'4 r8 f8 ges8 aes8 | des'4 aes8 des'4 des'8 des'4 aes8 aes8 ges8 f8
+| aes4.( bes4. c'4) r8 aes8 aes8 aes8 | aes4 aes8 aes4 aes8 aes4 aes8 aes8 aes8 des'8
+| des'4. des'4.~ des'4 r8 f8 ges8 aes8 | des'4 aes8 des'4 des'8 des'4 aes8 aes8 f8 ges8
+| f2.~ f4 r8 s4.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. s4. des8 des8 des8 | des4 des8 des4 des8 des4 des8 des8 des8 des8
+| des4. des4.~ des4 r8 des8 des8 des8 | des4 des8 des4 des8 des4 des8 des8 aes,8 bes,8
+| aes,2.~ aes,4 r8 des8 des8 des8 | des4 des8 des4 des8 des4 des8 des8 des8 des8
+| ges4. ges4.~ ges4 r8 des8 des8 des8 | des4 des8 des4 ges8 aes4 aes8 aes,8 aes,8 aes,8
+| des2.~ des4 r8 aes8@c aes8 aes8 | des4 des8 des4 des8 des4 des8 des8 des8 des8
+| des4. des4.~ des4 r8 des8 des8 des8 | des4 des8 des4 des8 des4 des8 des8 aes,8 bes,8
+| aes,2.~ aes,4 r8 aes8 aes8 aes8 | des4 des8 des4 des8 des4 des8 des8 des8 des8
+| des4. des4.~ des4 r8 des8 des8 des8 | des4 des8 des4 ges8 aes4 aes8 aes,8 aes,8 aes,8
+| des2.~ des4 r8 s4.
+"""
+
+
+[lyrics.1]
+text = "Je -- sus my Sav -- ior prom -- ised that He, there, would be with me, When I am called the shad -- owed vale of death to pass through! And I am ful -- ly trust -- ing Him for this, the ful -- fil -- ing, Yes, I be -- lieve that He to it will ev -- er be true!"
+
+[lyrics.2]
+text = "Count I, the wealth of earth as dross, to have the as -- sur -- ance.— Thro’ the sweet prom -- ise, that He’ll nev -- er leave me a -- lone! That, in this tri -- al, when all earth -- ly friends can but fail me, Dear -- er than all, the hope, I there, shall claim as my own!"
+
+[lyrics.3]
+text = "I am con -- fid -- ing, ev -- er, in His glo -- ri -- ous prom -- ise, Wait -- ing the mo -- ment when the scene, my spir -- it shall view! Trust -- ing the hand of Him, my Lord, to reach and to save me, Bid -- ding my soul, the waves, to pass, all hap -- pi -- ly through!"
+
+[lyrics.chorus]
+text = "Yes, I be -- lieve that He’ll be there, and too, will go with me! Calm -- ing the waves that would with -- out Him o -- ver me roll! Yes, I be -- lieve that He’ll be there, and too, will go with me! And, in the cross -- ing, He will speak sweet peace to my soul!"
