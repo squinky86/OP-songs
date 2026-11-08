@@ -1,0 +1,80 @@
+title = "His Love is My Song"
+copyrights = [
+  "Lyrics: J. M. Henson, 1928 (public domain)",
+  "Music: Andy Pickens Bland, 1928 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "C"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 104
+verse_count = 3
+phrase_breaks = ["3:40", "5:40", "7:40", "9:40", "13:40"]
+optional_phrase_breaks = ["11:40", "15:40"]
+non_breaking_phrase_breaks = ["16:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. s4 e'8
+| g'8 g'8 g'8 a'8 g'8 a'8 | c''8 c''8 c''8 a'8 g'8 g'8 | c''8 c''8 c''8 e''8 d''8 c''8 | d''4.~ d''4 c''8
+| e''8 e''8 e''8 c''8 c''8 g'8 | a'8 c''8 a'8 a'8 g'8 g'8 | c''8 c''8 d''8 e''8 e''8 d''8 | c''4.~ c''4 g'8@c
+| c''4.~ c''8 g'8 a'8 | c''4.~ c''4 c''8 | e''4.~ e''8 d''8 c''8 | d''4.~ d''4 g'8
+| c''4.~ c''8 g'8 a'8 | c''4.~ c''4 c''8 | e''4.~ e''8 c''8 d''8 | c''4.~ c''4 s8
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. s4 c'8
+| e'8 e'8 e'8 f'8 e'8 e'8 | e'8 e'8 e'8 f'8 e'8 e'8 | e'8 g'8 e'8 g'8 g'8 fis'8 | g'4.~ g'4 e'8
+| g'8 g'8 g'8 e'8 e'8 e'8 | f'8 f'8 f'8 f'8 e'8 e'8 | e'8 e'8 fis'8 g'8 g'8 f'8 | e'4.~ e'4 e'8@c
+| e'8 e'8 f'8 e'8 r4 | e'8 e'8 f'8 e'4 e'8 | g'8 g'8 g'8 g'8 g'8 fis'8 | g'8 g'8 f'8 g'4 f'8
+| e'8 e'8 f'8 e'8 r4 | e'8 e'8 f'8 e'4 e'8 | g'8 g'8 g'8 g'8 e'8 f'8 | e'8 g'8 f'8 e'4 s8
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. s4 g8
+| c'8 c'8 c'8 c'8 c'8 c'8 | g8 g8 g8 c'8 c'8 c'8 | c'8 c'8 c'8 c'8 d'8 d'8 | b4.~ b4 g8
+| c'8 c'8 c'8 g8 g8 c'8 | c'8 a8 c'8 c'8 c'8 c'8 | c'8 c'8 c'8 c'8 c'8 b8 | c'4.~ c'4 c'8@c
+| g8 g8 a8 g8 r4 | g8 g8 a8 g4 g8 | c'8 c'8 c'8 c'8 d'8 d'8 | b8 b8 c'8 b4 b8
+| c'8 g8 a8 g8 r4 | g8 g8 a8 g4 c'8 | c'8 c'8 c'8 c'8 g8 g8 | g8 b8 a8 g4 s8
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. s4 c8
+| c8 c8 c8 c8 c8 c8 | c8 c8 c8 c8 c8 c8 | c8 e8 g8 c'8 b8 a8 | g4.~ g4 c8
+| c8 c8 c8 c8 c8 c8 | f8 f8 f8 c8 c8 c8 | a8 a8 aes8 g8 g8 g8 | c4.~ c4 c8@c
+| c8 c8 c8 c8 r4 | c8 c8 f8 c4 c8 | c8 e8 g8 c'8 b8 a8 | g8 g8 d8 g4 g8
+| c8 c8 c8 c8 r4 | c8 c8 f8 c4 a8 | g8 g8 g8 g8 g8 g8 | c4.~ c4 s8
+"""
+
+[lyrics.1]
+text = "I’m sing -- ing of Je -- sus my won -- der -- ful Sav -- ior, Who gives me new bless -- ings each day; I know I am kept in His won -- der -- ful fav -- or, For love is my song all the way."
+
+[lyrics.2]
+text = "I praise Him be -- cause of His life giv -- ing pow -- er And won -- der -- ful good -- ness to me; His bless -- ings are fall -- ing on me like a show -- er, And keep -- ing me hap -- py and free."
+
+[lyrics.3]
+text = "I soon shall be -- hold Him in man -- sions of glo -- ry, And join there the glo -- ri -- fied throng; Where all thro’ the a -- ges we’ll sing the glad sto -- ry, There love will be al -- ways the song."
+
+[lyrics.chorus]
+text = "His love is my song, love is my song, I joy -- ful -- ly sing it each day, ev -- ’ry day; He leads me a -- long, leads me a -- long, The beau -- ti -- ful, beau -- ti -- ful heav -- en -- ly way."
+
+[parts.Soprano.lyrics.chorus]
+text = "His love is my song, I sing it each day; He leads me a -- long, The heav -- en -- ly way."
+
+[parts.Bass.lyrics.chorus]
+text = "His love is my song, love is my song, I joy -- ful -- ly sing it each day, ev -- ’ry day; He leads me a -- long, leads me a -- long, The beau -- ti -- ful, beau -- ti -- ful way."
