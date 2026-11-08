@@ -1,0 +1,98 @@
+title = "We’ll Meet Again"
+copyrights = [
+  "Lyrics and Music: G. R. Dobbs, 1928 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Eb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 84
+verse_count = 4
+phrase_breaks = ["3:48", "5:48", "9:48", "11:48", "13:48", "15:48"]
+optional_phrase_breaks = ["7:48"]
+non_breaking_phrase_breaks = ["3:16"]
+optional_break_threshold_ticks = 144
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. g'8 f'8 | ees'4 ees'4 ees'4 f'4 | g'8 bes'2~ bes'8 bes'8 c''8 | bes'4 g'4 f'4 ees'4
+| f'2. g'8 aes'8 | bes'4 c''4 bes'4 ees'4 | aes'8 g'2~ g'8 ees'8 f'8 | g'4 bes'4 g'4. f'8
+| ees'2. bes'8@c bes'8 | bes'2~ bes'8 bes'8 ees'8 f'8 | g'8 g'2~ g'8 bes'8 c''8 | bes'4 g'4 f'4 ees'4
+| f'2. bes'8 bes'8 | bes'2~ bes'8 bes'8 ees'8 f'8 | g'8 g'2~ g'8 bes'8 aes'8 | g'4 ees'4 g'4. f'8
+| ees'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+suppress_verses = [2, 3, 4]
+suppress_verses_when = ["soprano"]
+notes = """
+s2. ees'8 d'8 | c'4 c'4 c'4 d'4 | ees'8 ees'8 d'8 f'8 ees'8 ees'8 ees'8 ees'8 | ees'4 ees'4 bes4 c'4
+| d'2. ees'8 f'8 | g'4 aes'4 g'4 ees'4 | ees'8 ees'2~ ees'8 ees'8 ees'8 | ees'4 ees'4 ees'4. bes8
+| bes2. r4@c | d'4 d'4 d'8 d'8 ees'8 d'8 | ees'8 ees'8 ees'8 ees'8 ees'8 ees'8 g'8 aes'8 | g'4 ees'4 d'4 ees'4
+| d'2. r4 | ees'4 ees'4 ees'8 ees'8 ees'8 d'8 | ees'8 ees'8 ees'8 ees'8 ees'8 ees'8 ees'8 d'8 | ees'4 ees'4 ees'4. bes8
+| bes2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3, 4]
+suppress_verses_when = ["soprano"]
+notes = """
+s2. bes8 aes8 | g4 g4 g4 bes4 | bes8 g8 f8 aes8 g8 g8 g8 aes8 | g4 bes4 bes4 a4
+| bes2. bes8 bes8 | ees'4 ees'4 ees'4 g4 | c'8 bes2~ bes8 bes8 c'8 | bes4 g4 bes4. aes8
+| g2. r4@c | f4 f4 f8 aes8 g8 aes8 | bes8 bes8 c'8 ees'8 bes8 bes8 ees'8 ees'8 | ees'4 bes4 bes4 a4
+| bes2. r4 | g4 f4 bes8 g8 g8 bes8 | bes8 bes8 c'8 ees'8 bes8 bes8 g8 f8 | ees4 g4 bes4. aes8
+| g2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3, 4]
+suppress_verses_when = ["soprano"]
+notes = """
+s2. ees8 bes,8 | c4 c4 c4 bes,4 | ees8 ees8 bes,8 bes,8 ees8 ees8 ees8 ees8 | ees4 ees4 d4 c4
+| bes,2. ees8 ees8 | ees4 ees4 ees4 ees4 | ees8 ees2~ ees8 g,8 aes,8 | bes,4 bes,4 bes,4. bes,8
+| ees2. r4@c | bes,4 bes,4 bes,8 bes,8 c8 bes,8 | ees8 ees8 c8 bes,8 ees8 ees8 ees8 ees8 | ees4 ees4 f4 f4
+| bes,2. r4 | ees4 bes,4 g,8 bes,8 c8 bes,8 | ees8 ees8 c8 bes,8 ees8 ees8 ees8 bes,8 | c4 c4 bes,4. bes,8
+| ees2. s4
+"""
+
+[lyrics.1]
+text = "While our hearts are bowed in sor -- row, bowed in sor -- row. For the loved ones who are gone; Yet there’ll come a glad to -- mor -- row, When we meet a -- round the throne."
+
+[parts.Soprano.lyrics.1]
+text = "While our hearts are bowed in sor -- row, For the loved ones who are gone; Yet there’ll come a glad to -- mor -- row, When we meet a -- round the throne."
+
+[lyrics.2]
+text = "They have gone to join the num -- ber, join the num -- ber, In the par -- a -- dise a -- bove; And with joy will greet our com -- ing, When we meet with those we love."
+
+[parts.Soprano.lyrics.2]
+text = "They have gone to join the num -- ber, In the par -- a -- dise a -- bove; And with joy will greet our com -- ing, When we meet with those we love."
+
+[lyrics.3]
+text = "Oh! the joy to meet in heav -- en, meet in heav -- en, That bright home that’s free from pain; There to dwell in peace for -- ev -- er, Where no death can come a -- gain."
+
+[parts.Soprano.lyrics.3]
+text = "Oh! the joy to meet in heav -- en, That bright home that’s free from pain; There to dwell in peace for -- ev -- er, Where no death can come a -- gain."
+
+[lyrics.4]
+text = "When our work on earth is end -- ed, (earth is end -- ed,) And we’re called to cross death’s tide, Oh! the joy to live for -- ev -- er, With the hap -- py glo -- ri -- fied."
+
+[parts.Soprano.lyrics.4]
+text = "When our work on earth is end -- ed, And we’re called to cross death’s tide, Oh! the joy to live for -- ev -- er, With the hap -- py glo -- ri -- fied."
+
+[lyrics.chorus]
+text = "They have gone to join the ran -- somed, join the ran -- somed, O -- ver on that peace -- ful shore; sweet how sweet ’twill be to meet them yes, to meet them, Where sad part -- ings come no more."
+
+[parts.Soprano.lyrics.chorus]
+text = "They have gone to join the ran -- somed, O -- ver on that peace -- ful shore; Oh how sweet ’twill be to meet them Where sad part -- ings come no more."
