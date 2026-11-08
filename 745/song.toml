@@ -92,7 +92,7 @@ text = "An -- gels up in glo -- ry sing the sweet old sto -- ry, Hal -- le -- lu
 text = "An -- gels up in glo -- ry sing the sweet old sto -- ry, Hal -- le -- lu -- jah to our Lord and King; Friends who’ve gone be -- fore us swell the hap -- py cho -- rus, And with them His prais -- es we shall sing,"
 
 [parts.Bass.lyrics.2]
-text = "An -- gels up in glo -- ry sing the sweet old sto -- ry, Hal -- le -- lu -- jah to our Lord and King; yes, Lord and King; Friends who’ve gone be -- fore us swell the hap -- py cho -- rus, When I meet my Sav -- ior in the sky, up in the sky."
+text = "An -- gels up in glo -- ry sing the sweet old sto -- ry, Hal -- le -- lu -- jah to our Lord and King; yes, Lord and King; Friends who’ve gone be -- fore us swell the hap -- py cho -- rus, And with them His prais -- es we shall sing, prais -- es we sing, "
 
 [lyrics.3]
 text = "What a glad re -- un -- ion in that home e -- ter -- nal, When all pain and sor -- row will have past; (have past;) Prais -- es ev -- er voic -- ing we shall live re -- joic -- ing, When we reach our heav’n -- ly home at last, (at last.)"
@@ -101,7 +101,7 @@ text = "What a glad re -- un -- ion in that home e -- ter -- nal, When all pain 
 text = "What a glad re -- un -- ion in that home e -- ter -- nal, When all pain and sor -- row will have past; Prais -- es ev -- er voic -- ing we shall live re -- joic -- ing, When we reach our heav’n -- ly home at last,"
 
 [parts.Bass.lyrics.3]
-text = "What a glad re -- un -- ion in that home e -- ter -- nal, When all pain and sor -- row will have past; yes, will have past; Prais -- es ev -- er voic -- ing we shall live re -- joic -- ing, When I meet my Sav -- ior in the sky, up in the sky."
+text = "What a glad re -- un -- ion in that home e -- ter -- nal, When all pain and sor -- row will have past; yes, will have past; Prais -- es ev -- er voic -- ing we shall live re -- joic -- ing, When we reach our heav’n -- ly home at last, our home at last."
 
 [lyrics.chorus]
 text = "Oh I long to meet Him, meet Him, meet Him by and by, When I lay my heav -- y bur -- dens down, There to sing His prais -- es, thro’ un -- end -- ing a -- ges, In that home now wait -- ing, wait -- ing there for me."
