@@ -1,0 +1,85 @@
+title = "Seeking a Mansion"
+copyrights = [
+  "Lyrics and Music: S. J. Oslin, 1910 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "E"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 96
+verse_count = 4
+phrase_breaks = ["3:40", "5:40", "7:40", "9:40", "13:40"]
+optional_phrase_breaks = ["11:40", "15:40"]
+non_breaking_phrase_breaks = ["10:40", "12:40", "16:40"]
+non_breaking_format_resets = ["11:40"]
+optional_break_threshold_ticks = 104
+commentary = "<p>This song may contain an archaic meaning of word \"mansion\" or reflect a misunderstanding of its translation. See <a href=\"/blog/20261022-mansions-and-dwellings\">From Mansions to Dwellings</a>.</p>"
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. s4 e'8
+| gis'8 b'8 cis''8 b'8 gis'8 e'8 | e'8 e'8 a'8 gis'4 e'8 | gis'8 b'8 cis''8 b'8 gis'8 e'8 | fis'4.~ fis'4! e'8
+| gis'8 gis'8 b'8 e''8 dis''8 cis''8 | b'8 cis''8 b'8 gis'4 a'8 | gis'8 fis'8 e'8 fis'8 gis'8 fis'8 | e'4.~ e'4! b'8@c
+| gis'8 gis'8 gis'8 b'8 cis''8 dis''8 | e''4.~ e''4 b'8 | cis''8 cis''8 b'8 ais'8 gis'8 fis'8 | b'4.~ b'4! b'8
+| e''8 e''8 e''8 fis''8 e''8 cis''8 | b'8 cis''8 b'8 gis'4 a'8 | gis'8 fis'8 e'8 fis'8 gis'8 fis'8 | e'4.~ e'4 s8
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. s4 b8
+| e'8 e'8 e'8 e'8 e'8 b8 | cis'8 cis'8 e'8 e'4 b8 | e'8 e'8 e'8 e'8 e'8 e'8 | dis'4.~ dis'4! b8
+| e'8 e'8 e'8 gis'8 b'8 a'8 | gis'8 a'8 gis'8 e'4 e'8 | e'8 dis'8 e'8 dis'8 dis'8 dis'8 | e'4.~ e'4! e'8@c
+| e'8 e'8 e'8 gis'8 a'8 a'8 | gis'8 e'8 a'8 gis'4 e'8 | e'8 e'8 eis'8 fis'8 e'8 e'8 | dis'8 dis'8 e'8 fis'4! gis'8
+| gis'8 a'8 b'8 a'8 a'8 a'8 | gis'8 a'8 gis'8 e'4 e'8 | e'8 dis'8 e'8 dis'8 dis'8 dis'8 | e'8 b8 cis'8 b4 s8
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. s4 gis8
+| b8 gis8 a8 gis8 b8 gis8 | a8 a8 cis'8 b4 gis8 | b8 gis8 a8 gis8 b8 ais8 | b4.~ b4! gis8
+| b8 b8 gis8 b8 cis'8 dis'8 | e'8 e'8 e'8 b4 cis'8 | b8 a8 gis8 a8 b8 a8 | gis4.~ gis4! gis8@c
+| b8 b8 b8 e'8 dis'8 cis'8 | b8 gis8 cis'8 b4 gis8 | gis8 gis8 cis'8 cis'8 b8 ais8 | b8 b8 cis'8 dis'4! e'8
+| b8 b8 b8 cis'8 cis'8 e'8 | e'8 e'8 e'8 b4 cis'8 | b8 a8 gis8 a8 b8 a8 | gis8 gis8 a8 gis4 s8
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. s4 e8
+| e8 e8 e8 e8 e8 e8 | a,8 a,8 a,8 e4 e8 | e8 e8 e8 e8 e8 cis8 | b,4.~ b,4! e8
+| e8 e8 e8 e8 e8 e8 | e8 e8 e8 e4 a,8 | b,8 b,8 b,8 b,8 b,8 b,8 | e4.~ e4! e8@c
+| e8 e8 e8 e8 e8 e8 | e8 e8 e8 e4 e8 | cis8 cis8 cis8 fis8 fis8 fis8 | b,4.~ b,4! e8
+| e8 fis8 gis8 a8 a8 a8 | e8 e8 e8 e4 a,8 | b,8 b,8 b,8 b,8 b,8 b,8 | e4.~ e4 s8
+"""
+
+[lyrics.1]
+text = "Thro’ troub -- les and tri -- als and ills that be -- fall, As on -- ward a pil -- grim I move, Thro’ dark -- ness and sun -- shine, temp -- ta -- tions and all, I’m seek -- ing a man -- sion a -- bove."
+
+[lyrics.2]
+text = "Tho’ gloom -- y the day, and grow dark -- er the night, Strong faith in my Pi -- lot I have; I’ll trust in my Sav -- ior and fol -- low the right, While seek -- ing a man -- sion a -- bove."
+
+[lyrics.3]
+text = "Tho’ tem -- pests may rise, I’ve a ref -- uge that’s near, ’Tis Je -- sus, my Sav -- ior I love; In Him I am trust -- ing— there’s noth -- ing to fear, While seek -- ing a man -- sion a -- bove."
+
+[lyrics.4]
+text = "Af -- flic -- tions may try me, and trou -- bles may come, I’ve noth -- ing but Je -- sus to love; I’m go -- ing to glo -- ry, the Chris -- tian’s blest home— A beau -- ti -- ful man -- sion a -- bove."
+
+[lyrics.chorus]
+text = "I’m seek -- ing a man -- sion a man -- sion a -- bove, I’m seek -- ing a man -- sion a man -- sion a -- bove; I’m on my way home -- ward to glo -- ry on high— I’m seek -- ing a man -- sion a man -- sion a -- bove."
+
+[parts.Soprano.lyrics.chorus]
+text = "I’m seek -- ing a man -- sion a -- bove, I’m seek -- ing a man -- sion a -- bove; I’m on my way home -- ward to glo -- ry on high— I’m seek -- ing a man -- sion a -- bove."
+
+[parts.Bass.lyrics.chorus]
+text = "I’m seek -- ing a man -- sion a man -- sion a -- bove, I’m seek -- ing a man -- sion a -- bove; I’m on my way home -- ward to glo -- ry on high— I’m seek -- ing a man -- sion a -- bove."
