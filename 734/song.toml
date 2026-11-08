@@ -1,0 +1,131 @@
+title = "Love Lights the Way"
+copyrights = [
+  "Lyrics: James Rowe, 1925 (public domain)",
+  "Music: Paul Marks, 1925 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Bb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 3
+phrase_breaks = ["3:40", "5:40", "7:40", "9:40", "11:40", "13:40", "15:40"]
+non_breaking_phrase_breaks = [
+  "2:8", "2:40", "3:8", "4:8", "4:40", "5:8", "6:8", "6:40", "7:8", "8:8", "8:40", "9:8",
+  "10:8", "10:40", "11:8", "12:8", "12:40", "13:8", "14:8", "14:40", "15:8", "16:8", "16:40",
+  "17:8",
+]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s8 d''8 bes'8 g'8 | f'2~ f'8 d''8 c''8 bes'8 | d''2~ d''8 d''8 bes'8 g'8 |
+f'2~ f'8 bes'8 g'8 d''8 | c''2~ c''8 f''8 d''8 c''8 |
+bes'2~ bes'8 f'8 g'8 bes'8 | f'2~ f'8 r8 r4 |
+r8 d''8 bes'8 c''8 d''8 bes'8 c''8 d''8 | bes'2~ bes'8 r8@c r4 |
+r8 d''8 bes'8 bes'8 d''8 r8 r4 | r8 d''8 bes'8 c''8 d''8 r8 r4 |
+r8 bes'8 d''8 d''8 bes'8 bes'8 c''8 d''8 | c''2~ c''8 f''8 d''8 c''8 |
+bes'2~ bes'8 f'8 g'8 bes'8 | f'2~ f'8 r8 r4 |
+r8 d''8 bes'8 c''8 d''8 bes'8 c''8 d''8 | bes'2~ bes'8 s4.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+suppress_verses = [2, 3]
+suppress_verses_when = ["soprano"]
+notes = """
+s2 s8 r8 r4 | r8 d'8 d'8 d'8 d'8 f'8 ees'8 d'8 | f'8 bes'8 a'8 g'8 f'8 r8 r4 |
+r8 d'8 d'8 d'8 d'8 f'8 e'8 e'8 | f'8 f'8 e'8 e'8 f'8 r8 r4 |
+r8 aes'8 aes'8 aes'8 g'8 f'8 ees'8 ees'8 | d'8 d'8 d'8 d'8 d'8 bes'8 g'8 d'8 |
+f'2~ f'8 f'8 ees'8 f'8 | d'8 g'8 f'8 ees'8 d'8 d'8@c f'8 d'8 |
+g'2~ g'8 bes'8 g'8 d'8 | f'2~ f'8 d'8 f'8 d'8 |
+g'2~ g'8 f'8 e'8 e'8 | f'8 f'8 e'8 e'8 f'8 r8 r4 |
+r8 aes'8 aes'8 aes'8 g'8 f'8 ees'8 ees'8 | d'8 d'8 d'8 d'8 d'8 bes'8 g'8 d'8 |
+f'2~ f'8 f'8 ees'8 f'8 | d'8 g'8 f'8 ees'8 d'8 s4.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3]
+suppress_verses_when = ["soprano"]
+notes = """
+s2 s8 r8 r4 | r8 d'8 bes8 g8 f8 bes8 a8 f8 | bes8 f8 g8 a8 bes8 r8 r4 |
+r8 d'8 bes8 g8 f8 d'8 c'8 bes8 | a8 a8 bes8 bes8 a8 r8 r4 |
+r8 f'8 d'8 c'8 bes8 bes8 bes8 bes8 | bes8 bes8 bes8 bes8 bes8 r8 r4 |
+r8 bes8 bes8 a8 bes8 bes8 a8 a8 | bes8 bes8 a8 g8 f8 r8@c r4 |
+r8 bes8 d'8 d'8 bes8 r8 r4 | r8 bes8 bes8 bes8 bes8 r8 r4 |
+r8 d'8 bes8 bes8 d'8 bes8 g8 bes8 | a8 a8 bes8 bes8 a8 r8 r4 |
+r8 f'8 d'8 c'8 bes8 bes8 bes8 bes8 | bes8 bes8 bes8 bes8 bes8 r8 r4 |
+r8 bes8 bes8 a8 bes8 bes8 a8 a8 | bes8 bes8 a8 g8 f8 s4.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3]
+suppress_verses_when = ["soprano", "alto", "tenor"]
+notes = """
+s2 s8 r8 r4 | r8 bes,8 bes,8 bes,8 bes,8 bes,8 f8 bes,8 | bes,8 bes,8 bes,8 bes,8 bes,8 r8 r4 |
+r8 bes,8 bes,8 bes,8 bes,8 bes,8 c8 c8 | f8 f8 g8 c8 f8 r8 r4 |
+r8 d8 f8 d8 g8 d8 ees8 g8 | bes8 bes,8 d8 f8 bes8 r8 r4 |
+r8 bes,8 d8 f8 bes8 d8 f8 f8 | bes,2~ bes,8 r8@c r4 |
+r8 g8 g8 g8 g8 r8 r4 | r8 bes,8 d8 f8 bes8 r8 r4 |
+r8 g8 g8 g8 g8 d8 c8 c8 | f8 f8 g8 c8 f8 r8 r4 |
+r8 d8 f8 d8 g8 d8 ees8 g8 | bes8 bes,8 d8 f8 bes8 r8 r4 |
+r8 bes,8 d8 f8 bes8 d8 f8 f8 | bes,2~ bes,8 s4.
+"""
+
+[lyrics.1]
+text = "I do not fear the foes I meet, the foes I meet, The thorn -- y paths, the storms that beat, the storms that beat, For Christ is near from day to day, from day to day, And bless His name, love lights the way. love lights the way."
+
+[parts.Soprano.lyrics.1]
+text = "I do not fear the foes I meet, The thorn -- y paths, the storms that beat, For Christ is near from day to day, And bless His name, love lights the way."
+
+[parts.Tenor.lyrics.1]
+text = "I do not fear the foes I meet, the foes I meet, The thorn -- y paths, the storms that beat, the storms that beat, For Christ is near from day to day, from day to day, And bless His name, love lights the way. love lights the way."
+
+[parts.Bass.lyrics.1]
+text = "I do not fear the foes I meet, the foes I meet, The thorn -- y paths, the storms that beat, the storms that beat, For Christ is near from day to day, from day to day, And bless His name, love lights the way."
+
+[lyrics.2]
+text = "Far bright -- er than the sun at morn the sun at morn It shines when I am weak and worn; am weak and worn; And e -- ven in the dark -- est night the dark -- est night It keeps the gates of home in sight. of home in sight."
+
+[parts.Soprano.lyrics.2]
+text = "Far bright -- er than the sun at morn It shines when I am weak and worn; And e -- ven in the dark -- est night It keeps the gates of home in sight."
+
+[parts.Tenor.lyrics.2]
+text = "Far bright -- er than the sun at morn the sun at morn It shines when I am weak and worn; am weak and worn; And e -- ven in the dark -- est night the dark -- est night It keeps the gates of home in sight. of home in sight."
+
+[parts.Bass.lyrics.2]
+text = "Far bright -- er than the sun at morn the sun at morn It shines when I am weak and worn; am weak and worn; And e -- ven in the dark -- est night the dark -- est night It keeps the gates of home in sight."
+
+[lyrics.3]
+text = "In times of dread it calms my fears, it calms my fears, In sor -- row’s hour it dries my tears; it dries my tears; And when all clouds a -- way have rolled a -- way have rolled ’Twill light me thro’ the gates of gold. the gates of gold."
+
+[parts.Soprano.lyrics.3]
+text = "In times of dread it calms my fears, In sor -- row’s hour it dries my tears; And when all clouds a -- way have rolled ’Twill light me thro’ the gates of gold."
+
+[parts.Tenor.lyrics.3]
+text = "In times of dread it calms my fears, it calms my fears, In sor -- row’s hour it dries my tears; it dries my tears; And when all clouds a -- way have rolled a -- way have rolled ’Twill light me thro’ the gates of gold. the gates of gold."
+
+[parts.Bass.lyrics.3]
+text = "In times of dread it calms my fears, it calms my fears, In sor -- row’s hour it dries my tears; it dries my tears; And when all clouds a -- way have rolled a -- way have rolled ’Twill light me thro’ the gates of gold."
+
+[lyrics.chorus]
+text = "Love lights the way and cheers my soul, When foes as -- sail and bil -- lows roll; No harm can come by night or day, For praise the Lord love lights the way."
+
+[parts.Alto.lyrics.chorus]
+text = "Love lights the way and cheers my soul When foes as -- sail and bil -- lows roll; and bil -- lows roll; No harm can come by night or day, by night or day, For, praise the Lord love lights the way. love lights the way."
+
+[parts.Tenor.lyrics.chorus]
+text = "Love lights the way and cheers my soul, When foes as -- sail and bil -- lows roll; and bil -- lows roll; No harm can come by night or day, by night or day, For praise the Lord love lights the way. love lights the way."
+
+[parts.Bass.lyrics.chorus]
+text = "Love lights the way and cheers my soul, When foes as -- sail and bil -- lows roll; and bil -- lows roll; No harm can come by night or day, by night or day, For praise the Lord love lights the way."
