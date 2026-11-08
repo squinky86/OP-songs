@@ -1,0 +1,99 @@
+title = "’Twill Be Glory By and By"
+copyrights = [
+  "Lyrics and Music: John B. Vaughan, 1900 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 3
+phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "11:48", "13:48", "15:48"]
+non_breaking_phrase_breaks = ["3:16", "5:16", "9:16", "17:16"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. f'8 g'8 |
+a'4 bes'8 g'8 c''4 e'8 g'8 | f'2. a'8 bes'8 | c''4 d''8 c''8 f''4 a'8 bes'8 | c''2. c''8 c''8 |
+f''8 f''8 f''8 d''8 c''4 a'8 g'8 | f'8 f'8 f'8 g'8 a'4 c''8 c''8 | f''4 c''8. a'16 g'8 f'8 g'8 a'8 | f'2. f'8@c g'8 |
+a'2. g'8 a'8 | f'2. a'8 g'8 | c''2. g'8 a'8 | f'2. a'8 c''8 |
+f''2. d''8 f''8 | c''2. d''8 d''8 | c''4 a'4 g'8 f'8 g'8 a'8 | f'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+splice_lyrics_into = "soprano"
+notes = """
+s2. c'8 c'8 |
+f'4 e'8 c'8 g'4 c'8 e'8 | f'4 d'8 d'8 c'4 f'8 g'8 | a'4 bes'8 a'8 a'4 f'8 f'8 | f'4 g'8 e'8 f'4 a'8 a'8 |
+a'8 a'8 a'8 bes'8 a'4 f'8 e'8 | d'8 d'8 d'8 e'8 f'4 a'8 a'8 | a'4 f'8. f'16 e'8 f'8 c'8 e'8 | f'4 d'8 d'8 c'4 r4@c |
+f'8. f'16 f'8 f'8 f'4 r4 | d'8. d'16 d'8 d'8 d'4 r4 | e'8. e'16 e'8 f'8 g'4 r4 | c'8. c'16 c'8 d'8 c'4 r4 |
+a'8. a'16 a'8 bes'8 a'4 r4 | a'8. a'16 a'8 a'8 a'4 bes'8 bes'8 | a'4 f'4 e'8 c'8 e'8 e'8 | f'4 d'8 d'8 c'4 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+splice_lyrics_into = "soprano"
+notes = """
+s2. a8 bes8 |
+c'4 c'8 c'8 bes4 g8 bes8 | a4 bes8 bes8 a4 c'8 c'8 | f'4 f'8 f'8 c'4 f8 f8 | a4 bes8 g8 a4 f'8 f'8 |
+c'8 c'8 c'8 f'8 f'4 c'8 bes8 | a8 a8 a8 bes8 c'4 f'8 f'8 | c'4 a8. c'16 bes8 a8 bes8 c'8 | a4 bes8 bes8 a4 r4@c |
+c'8. c'16 c'8 c'8 c'4 r4 | a8. a16 a8 a8 a4 r4 | g8. g16 g8 a8 bes4 r4 | a8. a16 a8 bes8 a4 r4 |
+c'8. c'16 c'8 d'8 c'4 r4 | f'8. f'16 f'8 f'8 f'4 f'8 f'8 | f'4 c'4 bes8 a8 bes8 c'8 | a4 bes8 bes8 a4 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+splice_lyrics_into = "soprano"
+notes = """
+s2. f8 f8 |
+f4 g8 e8 c4 c8 c8 | f2. f8 f8 | f4 f8 f8 f4 f8 f8 | f4 c8 c8 f4 f8 f8 |
+f8 f8 f8 f8 f4 f8 c8 | d8 d8 d8 c8 f4 f8 f8 | f4 f8. f16 c8 c8 c8 c8 | f2. r4@c |
+f8. f16 f8 f8 f4 r4 | d8. d16 d8 d8 d4 r4 | c8. c16 c8 c8 c4 r4 | f8. f16 f8 f8 f4 r4 |
+f8. f16 f8 f8 f4 r4 | f8. f16 f8 f8 f4 bes,8 bes,8 | f4 f4 c8 c8 c8 c8 | f2. s4
+"""
+
+[lyrics.1]
+text = "My Re -- deem -- er has gone to pre -- pare (in the sky,) Bless -- ed man -- sions of rest by and by (by and by,) Soon He’ll call me home to rest with the ran -- somed and the best, For it all will be glo -- ry by and by (o -- ver there.)"
+
+[parts.Soprano.lyrics.1]
+text = "My Re -- deem -- er has gone to pre -- pare Bless -- ed man -- sions of rest by and by Soon He’ll call me home to rest with the ran -- somed and the best, For it all will be glo -- ry by and by"
+
+[parts.Bass.lyrics.1]
+text = "My Re -- deem -- er has gone to pre -- pare Bless -- ed man -- sions of rest by and by (by and by,) Soon He’ll call me home to rest with the ran -- somed and the best, For it all will be glo -- ry by and by"
+
+[lyrics.2]
+text = "I’ve no trea -- sures to bind me be -- low (here be -- low,) In this land full of sor -- row and woe (here be -- low,) All my trea -- sures are a -- bove in that land of peace and love, Soon I’ll go and shall rest for -- ev -- er -- more (ev -- er -- more.)"
+
+[parts.Soprano.lyrics.2]
+text = "I’ve no trea -- sures to bind me be -- low In this land full of sor -- row and woe All my trea -- sures are a -- bove in that land of peace and love, Soon I’ll go and shall rest for -- ev -- er -- more"
+
+[parts.Bass.lyrics.2]
+text = "I’ve no trea -- sures to bind me be -- low In this land full of sor -- row and woe (here be -- low,) All my trea -- sures are a -- bove in that land of peace and love, Soon I’ll go and shall rest for -- ev -- er -- more"
+
+[lyrics.3]
+text = "I shall sing home at last by and by (by and by,) And my voice will be tuned to the lyre (heav’n -- ly lyre,) Then my songs shall ev -- er be home at rest be -- yond the sea, It will all soon be glo -- ry by and by (by and by.)"
+
+[parts.Soprano.lyrics.3]
+text = "I shall sing home at last by and by And my voice will be tuned to the lyre Then my songs shall ev -- er be home at rest be -- yond the sea, It will all soon be glo -- ry by and by"
+
+[parts.Bass.lyrics.3]
+text = "I shall sing home at last by and by And my voice will be tuned to the lyre (heav’n -- ly lyre,) Then my songs shall ev -- er be home at rest be -- yond the sea, It will all soon be glo -- ry by and by"
+
+[lyrics.chorus]
+text = "How I long for rest with the good and blest, in that home of rest, with the good and blest, O it will be sweet, For we soon shall meet, O it will be glo -- ry by and by. by and by."
+
+[parts.Soprano.lyrics.chorus]
+text = "How I long for that rest in the home of the blest, ’Twill be sweet when we meet, O it will be glo -- ry by and by."
+
+[parts.Bass.lyrics.chorus]
+text = "How I long for rest with the good and blest, in that home of rest, with the good and blest, O it will be sweet, For we soon shall meet, O it will be glo -- ry by and by."
