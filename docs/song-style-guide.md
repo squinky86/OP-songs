@@ -118,6 +118,14 @@ g'2~ | g'4 ...      ← one sound held across the barline
 1. `phrase_breaks` — **required** at the end of every poetic line. These define both the printed line breaks and the lyrics-page line breaks.
 2. `optional_phrase_breaks` — at mid-line caesuras where the typesetter *may* break if a line runs long. Prefer adding these generously on long lines rather than forcing awkward required breaks.
 3. `non_breaking_phrase_breaks` — only to split dedup fingerprints (call-and-response echoes) where no visual break is ever acceptable.
+4. `non_breaking_format_resets` — opt in to reusing printed lyric rows between
+   voices after the first marker. Use it for choruses with alternating responses
+   when fingerprint boundaries alone leave unnecessary rows. It never creates a
+   line break; retain every poetic line end in `phrase_breaks`. Keep whole words
+   and held syllables readable, verify voice subsets, and remove redundant dedup
+   seams only after comparing renders. Translations may use `[]` to clear an
+   inherited list. This applies to PDF/SVG/LilyPond/social scores, not slides or
+   prose lyrics. See [the format reference](song-toml-format.md#non-breaking-lyric-row-resets).
 4. Never place any break inside a melisma; prefer the tick just after a slur/beam group ends.
 
 ## 10. Chorus and coda

@@ -18,7 +18,7 @@ will assign them to that table instead of the song.
    `title`, `subtitle`, `language`, `active`, `copyrights`, `key_signature`,
    `time_sig_numerator`, `time_sig_denominator`, `tempo_bpm`, `verse_count`,
    `default_verses`, `phrase_breaks`, `optional_phrase_breaks`,
-   `non_breaking_phrase_breaks`, `optional_break_threshold_ticks`, `commentary`,
+   `non_breaking_phrase_breaks`, `non_breaking_format_resets`, `optional_break_threshold_ticks`, `commentary`,
    `converge_verses`, `interleave_verse_lyrics`. Keep the three phrase-break fields adjacent. Omit
    `subtitle` when it is empty; standardization removes an empty string while
    keeping its comments.
@@ -116,6 +116,7 @@ optional_phrase_breaks = ["2:64", "6:64", "10:64"]
 | `phrase_breaks` | string array | no | `"M:T"` entries that break both the poetry line and the sheet music/slide layout (see [Phrase Breaks](#phrase-breaks)) |
 | `optional_phrase_breaks` | string array | no | `"M:T"` candidate breaks: the lyrics page always breaks there, the sheet music/slides only when the line has grown long enough (see [Phrase Breaks](#phrase-breaks)) |
 | `non_breaking_phrase_breaks` | string array | no | `"M:T"` entries used only as phrase boundaries for cross-voice lyric deduplication — they never break the poetry line or the layout (see [Phrase Breaks](#phrase-breaks)) |
+| `non_breaking_format_resets` | string array | no | `"M:T"` positions enabling reuse of printed lyric rows between voices; no line break ([details](#non-breaking-lyric-row-resets)) |
 | `optional_break_threshold_ticks` | integer | no | Line length, in ticks (quarter = 16), at which an optional phrase break is taken in the sheet music/slides. Omit it to let OpenPsalm calculate the length (see [Optional Break Threshold](#optional-break-threshold)) |
 | `commentary` | string | no | HTML-formatted text displayed below the sheet music on the song's detail page (historical context, musical notes, etc.) |
 | `converge_verses` | boolean | no | When `true`, any phrase sung identically by every verse is printed once in the PDF (kept in verse 1, skipped in later verses) instead of stacked in each numbered row. Defaults to `true` when the song uses shared lyric sections (`[lyrics.sN]`), otherwise `false` — ordinary hymns whose verses intentionally repeat a tag line keep the repeat (see [Converged Verses](#converged-verses-shared-lyric-sections)). |
@@ -823,6 +824,41 @@ OpenPsalm has three phrase break fields that control where lines may wrap in dif
 Use `phrase_breaks` for breaks that must align with the ends of poetic lines (e.g. the end of "A mighty fortress is our God, a bulwark never failing;"). Use `optional_phrase_breaks` for additional break opportunities that the typesetter may use to optimize line spacing — for example, the mid-phrase caesura after "A mighty fortress is our God,"; these also break the printed lyrics on the song page. Use `non_breaking_phrase_breaks` when a phrase boundary is needed only for cross-voice lyric deduplication (splitting the fingerprinted phrases so a call-and-response echo dedups correctly) without allowing a visual break there.
 
 All three fields share the same `"M:T"` string format and all are optional. The sheet music and slide exporters break lines at every `phrase_breaks` entry and at the `optional_phrase_breaks` entries the [threshold](#optional-break-threshold) selects; all three lists together define the phrase boundaries used for lyric deduplication; the lyrics page breaks lines at the first two lists.
+
+### Non-breaking lyric row resets
+
+`non_breaking_format_resets` lets the sheet-score engraver reuse lyric rows
+between voices during a chorus or other passage:
+
+```toml
+non_breaking_format_resets = ["9:48", "11:48", "11:64"]
+```
+
+The first position enables flexible row allocation for the rest of the score.
+Later resets, required/optional phrase boundaries, and chorus/coda entries may
+change which voice supplies a row. Ordinary `non_breaking_phrase_breaks` remain
+deduplication boundaries; they do not themselves release a row for another voice.
+A reset can coexist with a phrase break at the same position. Put this top-level
+field after `non_breaking_phrase_breaks` and before `optional_break_threshold_ticks`.
+
+Coordinates use the same authored measures and 64th-note ticks as phrase breaks,
+including pickup padding. Bar-end aliases such as `11:64` and `12:0` in 4/4 are
+equivalent. The importer checks the effective meter, rejects malformed/out-of-range
+coordinates, and sorts and deduplicates the list. A translation inherits an
+omitted list, replaces it with its own list, or disables resets with `[]`.
+Omission and `[]` retain the original engraving behavior.
+
+Whole words and held syllables retain their alignment across a reset. Distinct
+simultaneous text still needs separate rows. The lead melody stays on its lead
+row; explicit `splice_lyrics_into` allows an answering voice to borrow a safe gap
+in that row. Other responses can share available lower rows at reset boundaries.
+The engraver conservatively keeps another row when a word or melisma occupies the
+candidate space. A system still needs room for its maximum simultaneous row count.
+
+This field affects PDF, SVG, LilyPond downloads, and social-card scores, including
+unphrased scores. It does not change line breaks, optional-break thresholds,
+notes, playback, MusicXML, presentation/PPTX slides, or the lyrics page. Check the
+rendered score with all voices and with the voice/verse subsets you expect to use.
 
 ### Format
 
