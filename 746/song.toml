@@ -1,0 +1,72 @@
+title = "Lovely Rose"
+copyrights = [
+  "Lyrics and Music: William M. Golden, 1924 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 88
+verse_count = 3
+phrase_breaks = ["5:48", "9:48", "13:48"]
+optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. d'8. g'16 |
+b'4 ais'4 b'4 g'4 | fis'2. d'8. fis'16 | c''4 c''4 a'4 c''4 | b'2. d'8. g'16 |
+b'4 b'4 g'4 a'8. b'16 | c''4 c''4 e'4 fis'8. e'16 | d'4 b'8. c''16 b'4 a'4 | g'2. g'8.@c b'16 |
+d''4 cis''4 d''4 cis''8. d''16 | c''2. d'8. fis'16 | c''4 c''4 a'4 ais'8. ais'16 | b'2. d'8. g'16 |
+b'4 b'4 g'4 a'8. b'16 | c''4 c''4 e'4 fis'8. e'16 | d'4 b'8. c''16 b'4 a'4 | g'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. b8. b16 |
+d'4 e'4 d'4 b4 | c'2. d'8. d'16 | fis'4 fis'4 fis'4 d'4 | d'2. b8. b16 |
+d'4 d'4 b4 c'8. d'16 | e'4 e'4 c'4 ais8. ais16 | b4 d'8. d'16 d'4 c'4 | b2. d'8.@c g'16 |
+g'4 g'4 g'4 g'8. g'16 | fis'2. d'8. d'16 | fis'4 fis'4 fis'4 fis'8. fis'16 | g'2. b8. b16 |
+d'4 d'4 b4 c'8. d'16 | e'4 e'4 c'4 ais8. ais16 | b4 d'8. d'16 d'4 c'4 | b2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. g8. d16 |
+g4 g4 g4 g4 | d2. fis8. a16 | a4 a4 c'4 a4 | g2. g8. d16 |
+g4 g4 g4 g8. g16 | g4 g4 g4 g8. g16 | g4 g8. fis16 g4 fis4 | g2. b8.@c d'16 |
+b4 ais4 b4 ais8. b16 | a2. fis8. a16 | a4 a4 d'4 d'8. d'16 | d'2. g8. d16 |
+g4 g4 g4 g8. g16 | g4 g4 g4 g8. g16 | g4 g8. fis16 g4 fis4 | g2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. g,8. g,16 |
+g,4 g,4 g,4 g,4 | a,2. d8. d16 | d4 d4 d4 d4 | g,2. g,8. g,16 |
+g,4 g,4 g,4 g8. g16 | c4 c4 c4 cis8. cis16 | d4 d8. d16 d4 d4 | g,2. g8.@c g16 |
+g4 g4 g4 g8. g16 | d2. d8. d16 | d4 d4 d4 d8. d16 | g2. g,8. g,16 |
+g,4 g,4 g,4 g8. g16 | c4 c4 c4 cis8. cis16 | d4 d8. d16 d4 d4 | g,2. s4
+"""
+
+[lyrics.1]
+text = "There’s a Rose that blooms for me, And this Rose I long to see; It is bloom -- ing now, with a frag -- rance sweet, And it blooms in e -- ter -- ni -- ty."
+
+[lyrics.2]
+text = "Love -- ly Rose that blooms for aye, And will with -- er not a -- way; Love -- ly Rose sweet Rose that will al -- ways bloom, And it blooms in e -- ter -- ni -- ty."
+
+[lyrics.3]
+text = "O, this Rose I long to see, And like it I hope to be; It is bloom -- ing now on the shores of time, And ’twill bloom thro’ e -- ter -- ni -- ty."
+
+[lyrics.chorus]
+text = "There’s a Rose that blooms o’er the sea, And it blooms for you and for me; Love -- ly Rose, sweet Rose, once it bloom’d on earth, Now it blooms in e -- ter -- ni -- ty."
