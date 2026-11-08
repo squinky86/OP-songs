@@ -1,0 +1,105 @@
+title = "The Lining of Silver"
+copyrights = [
+  "Lyrics: James Rowe, 1924 (public domain)",
+  "Music: J. M. Henson, 1924 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "C"
+time_sig_numerator = 6
+time_sig_denominator = 4
+tempo_bpm = 120
+verse_count = 3
+phrase_breaks = ["5:80", "9:80", "13:80", "17:80", "21:80"]
+optional_phrase_breaks = ["3:80", "7:80", "11:80", "15:80", "19:80", "23:64"]
+non_breaking_phrase_breaks = ["18:96", "21:16"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. s2 g'4 | g'4 e'4 f'4 e'4 e'4 f'4 | g'2. e'2 g'4 | g'4 f'4 e'4 d'4 e'4 f'4 | e'2.~ e'2 e'4 |
+f'4. e'8 f'4 a'4 g'4 f'4 | e'2. g'2 g'4 | fis'4 fis'4 fis'4 fis'4 fis'4 fis'4 | f'2.~ f'2 f'4 |
+f'4 d'4 e'4 f'4 d'4 f'4 | e'2. g'2 e'4 | f'4. e'8 f'4 a'4 g'4 f'4 | e'2.~ e'2 e'4 |
+f'4. e'8 f'4 a'4 g'4 f'4 | e'2. g'2 g'4 | g'4 f'4 e'4 f'4 g'4! f'4 | e'2.~ e'2 e''4@c |
+e''4 g'4 a'4 c''4 d''4 c''4 | e''2. c''2 c''4 | c''4 b'4 c''4 d''4 c''4 a'4 | g'2.~ g'2 g'4 |
+a'4 gis'4 a'4 c''2 a'8 a'8 | g'4 c''4 d''4 e''4! e''4 e''4 | e''4 d''4 c''4 d''4 e''4.! d''8 | c''2.~ c''2! s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. s2 r4 | r1. | r1. | r1. | r1.
+| r1. | r1. | r1. | r1.
+| r1. | r1. | r1. | r1.
+| r1. | r1. | r1. | r2. r2 g'4@c
+| g'4 e'4 e'4 e'4 f'4 e'4 | g'4 a'4 g'4 e'2 g'4 | a'4 gis'4 a'4 a'4 a'4 f'4 | e'4 g'4 f'4 e'2 e'4
+| f'4 f'4 f'4 a'2 f'8 f'8 | e'4 g'4 g'4 g'4! g'4 g'4 | g'4 f'4 e'4 f'4 g'4.! f'8 | e'2.~ e'2! s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. s2 e'4 | e'4 c'4 a4 g4 c'4 d'4 | e'2. c'2 e'4 | e'4 d'4 c'4 b4 c'4 d'4 | c'2.~ c'2 c'4
+| a4. gis8 a4 c'4 b4 a4 | g2( c'4) e'2 e'4 | e'4 d'4 c'4 a4 b4 c'4 | d'2.~ d'2 d'4
+| d'4 b4 c'4 d'4 b4 d'4 | c'2. e'2 g4 | a4. gis8 a4 c'4 b4 a4 | g2.~ g2 g4
+| a4. gis8 a4 c'4 b4 a4 | g2. e'2 e'4 | e'4 d'4 c'4 d'4 e'4! d'4 | c'2.~ c'2 c'4@c
+| c'4 c'4 c'4 g4 g4 g4 | c'4 c'4 c'4 g2 c'4 | c'4 c'4 c'4 c'4 c'4 c'4 | c'4 c'4 b4 c'2 c'4
+| c'4 b4 c'4 f'2 c'8 c'8 | c'4 c'4 b4 c'4! c'4 c'4 | c'4 b4 c'4 b4 c'4.! b8 | c'2.~ c'2! s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. s2 r4 | r1. | r1. | r1. | r1.
+| r1. | r1. | r1. | r1.
+| r1. | r1. | r1. | r1.
+| r1. | r1. | r1. | r2. r2 c4@c
+| c4 c4 c4 c4 c4 c4 | c4 c4 c4 c2 e4 | f4 f4 f4 f4 f4 f4 | c4 e4 d4 c2 c4
+| f4 f4 f4 f2 f8 f8 | c4 e4 g4 c'4! c4 c4 | g4 g4 g4 g4 g4.! g8 | <c g>2.~ <c g>2! s4
+"""
+
+[lyrics.1]
+text = "Your life is o’er -- shad -- owed with troub -- le, Your spir -- it no more has a song; Good for -- tune no long -- er is with you And ev’ -- ry -- thing seems to go wrong. Look up! there’s a Sav -- ior a -- bove you Who cour -- age and hope would re -- new; In ev’ -- ry dark cloud there is shin -- ing A bright sil -- ver lin -- ing for you."
+
+[parts.Alto.lyrics.1]
+text = ""
+
+[parts.Bass.lyrics.1]
+text = ""
+
+[lyrics.2]
+text = "Old friends have grown cold and de -- part -- ed, Your life is so drear -- y and lone; The cloud that has long been a -- bove you Both dark -- er and larg -- er has grown. Oh, do not de -- spair for a mo -- ment— One Friend who will ev -- er be true; In ev’ -- ry dark cloud there is shin -- ing A bright sil -- ver lin -- ing for you."
+
+[parts.Alto.lyrics.2]
+text = ""
+
+[parts.Bass.lyrics.2]
+text = ""
+
+[lyrics.3]
+text = "Still won -- der -- ful days are be -- fore you, Still glo -- ri -- ous years you may know. Your sky shall be blue and un -- cloud -- ed, Your spir -- it with rapt -- ure shall glow. Look up to the Sav -- ior that loves you, He’ll tell you just what you should do; In ev’ -- ry dark cloud there is shin -- ing A bright sil -- ver lin -- ing for you."
+
+[parts.Alto.lyrics.3]
+text = ""
+
+[parts.Bass.lyrics.3]
+text = ""
+
+[lyrics.chorus]
+text = "Each cloud has a lin -- ing of sil -- ver! Look up! there is One now in view! The light of God’s love thro’ the storm- -- cloud a -- bove Is the lin -- ing of sil -- ver for you."
+
+[parts.Alto.lyrics.chorus]
+text = "Each cloud has a lin -- ing of sil -- ver for you Look up! there is One now in view! One in view! The light of God’s love thro’ the storm- -- cloud a -- bove Is the lin -- ing of sil -- ver for you."
+
+[parts.Tenor.lyrics.chorus]
+text = "Each cloud has a lin -- ing of sil -- ver for you Look up! there is One now in view! One in view! The light of God’s love thro’ the storm- -- cloud a -- bove Is the lin -- ing of sil -- ver for you."
+
+[parts.Bass.lyrics.chorus]
+text = "Each cloud has a lin -- ing of sil -- ver for you Look up! there is One now in view! One in view! The light of God’s love thro’ the storm- -- cloud a -- bove Is the lin -- ing of sil -- ver for you."
