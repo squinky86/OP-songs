@@ -1,0 +1,99 @@
+title = "Salvation’s Joy"
+copyrights = [
+  "Lyrics: James Rowe, 1928 (public domain)",
+  "Music: James L. Neal, 1928 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 92
+verse_count = 3
+phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "11:48", "13:48", "15:48"]
+optional_phrase_breaks = ["2:48", "6:48", "14:48"]
+non_breaking_phrase_breaks = ["11:12", "13:16"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. c'8 des'8 |
+ees'8 ees'8 aes'8. bes'16 c''4 aes'8 bes'8 | c''8 des''8 c''8. bes'16 aes'4 aes'8 g'8 |
+f'4 f'8 g'8 aes'8 c''8 bes'8. aes'16 | bes'2. des''8 bes'8 |
+c''8 ees''8 c''8. bes'16 aes'4 aes'8 g'8 | f'8 aes'8 g'8. f'16 ees'4 c'8 bes8 |
+ees'4 aes'8 bes'8 c''8. aes'16 c''8. bes'16 | aes'2. ees'8@c f'8 |
+aes'4 aes'8 aes'8 c''8 c''8 aes'8. bes'16 | c''2( aes'4)! c''8 bes'8 |
+aes'4 aes'8 aes'8 aes'8. c''16 bes'8. bes'16 | bes'2.! des''8 des''8 |
+c''8. b'16 c''8. ees''16 c''4 c''8 bes'8 | aes'8. bes'16 aes'8 f'8 ees'4 ees'8 f'8 |
+aes'4 aes'8. bes'16 c''8 aes'8 c''8. bes'16 | aes'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. aes8 bes8
+| c'8 c'8 c'8. des'16 ees'4 ees'8 ees'8 | ees'8 f'8 ees'8. des'16 c'4 ees'8 ees'8
+| des'4 des'8 ees'8 d'8 d'8 d'8. d'16 | ees'2. g'8 g'8
+| aes'8 aes'8 aes'8. g'16 f'4 ees'8 ees'8 | des'8 f'8 ees'8. des'16 c'4 aes8 bes8
+| c'4 ees'8 ees'8 ees'8. ees'16 aes'8. ees'16 | ees'2. c'8@c des'8
+| c'4 c'8 c'8 ees'8 ees'8 ees'8. ees'16 | ees'2( c'4)! aes'8 g'8
+| f'4 f'8 f'8 f'8. ees'16 ees'8. d'16 | ees'4 d'8 d'8 ees'4! ees'8 ees'8
+| ees'8. d'16 ees'8. aes'16 ees'4 ees'8 e'8 | f'8. f'16 f'8 des'8 c'4 c'8 des'8
+| ees'4 ees'8. ees'16 ees'8 ees'8 aes'8. ees'16 | ees'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. ees8 ees8 |
+aes8 aes8 ees8. ees16 aes4 aes8 g8 | aes8 aes8 aes8. g16 aes4 aes8 aes8 |
+aes4 aes8 ais8 bes8 a8 f8. f16 | g2. bes8 ees'8 |
+ees'8 c'8 ees'8. des'16 c'4 aes8 aes8 | aes8 des'8 des'8. aes16 aes4 ees8 ees8 |
+aes4 aes8 g8 aes8. c'16 ees'8. des'16 | c'2. aes8@c aes8 |
+ees4 ees8 ees8 aes8 aes8 aes8. g16 | aes8. aes16 aes8 aes8 aes4! ees'8 des'8 |
+c'4 c'8 c'8 c'8. aes16 bes8. aes16 | g4 f8 aes8 g4! g8 g8 |
+aes8. aes16 aes8. c'16 aes4 aes8 aes8 | aes8. aes16 aes8 aes8 aes4 aes8 aes8 |
+c'4 aes8. g16 aes8 c'8 ees'8. des'16 | c'2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. aes,8 aes,8
+| aes,8 aes,8 aes,8. aes,16 aes,4 c8 ees8 | aes8 aes8 aes8. ees16 f4 c8 c8
+| des4 des8 c8 bes,8 bes,8 bes,8. bes,16 | ees2. ees8 ees8
+| aes8 aes8 aes8. ees16 f4 c8 c8 | des8 des8 des8. des16 aes,4 aes,8 aes,8
+| aes,4 c8 ees8 aes8. aes16 ees8. ees16 | aes,2. aes,8@c aes,8
+| aes,4 aes,8 aes,8 aes,8 aes,8 c8. ees16 | aes8. f16 ees8 c8 aes,4! aes8 ees8
+| f4 f8 f8 f8. aes16 g8. f16 | ees4 bes,8 bes,8 ees4! ees8 ees8
+| aes,8. aes,16 aes,8. aes,16 aes4 aes,8 c8 | des8. des16 des8 des8 aes,4 aes,8 aes,8
+| aes,4 c8. ees16 aes8 aes8 ees8. ees16 | aes,2. s4
+"""
+
+[lyrics.1]
+text = "I had long been far a -- stray, but I’m fac -- ing home to -- day, And to Christ I have giv -- en full con -- trol; For His ser -- vant I be -- came, nev -- er -- more to live in shame, @s1"
+
+[lyrics.2]
+text = "In the sun -- shine of His face, earth be -- came a bright -- er place, There was glad -- ness in be -- ing free and whole; For my life was safe from harm, sin -- ful pleas -- ures lost th’ir charm, @s1"
+
+[lyrics.3]
+text = "I am go -- ing home with Him, sing -- ing when the way is dim, For I know He will lead me to the goal; I shall see His face at last; for in love He hid my past, @s1"
+
+[lyrics.chorus]
+text = "When the joy of sal -- va -- tion filled my soul, yes, filled my soul. And I felt all my heav -- y bur -- den roll! bur -- den roll! I be -- gan to shout and sing hal -- le -- lu -- jahs to my King, When the joys of sal -- va -- tion filled my soul!"
+
+[parts.Soprano.lyrics.chorus]
+text = "When the joy of sal -- va -- tion filled my soul, And I felt all my heav -- y bur -- den roll! I be -- gan to shout and sing hal -- le -- lu -- jahs to my King, When the joys of sal -- va -- tion filled my soul!"
+
+[parts.Alto.lyrics.chorus]
+text = "When the joy of sal -- va -- tion filled my soul, And I felt all my heav -- y bur -- den roll! bur -- den roll! I be -- gan to shout and sing hal -- le -- lu -- jahs to my King, When the joys of sal -- va -- tion filled my soul!"
+
+[lyrics.s1]
+text = "When the joy of sal -- va -- tion filled my soul."
