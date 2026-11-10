@@ -1,0 +1,129 @@
+title = "Happy Day"
+copyrights = [
+  "Lyrics: J. M. Henson, 1925 (public domain)",
+  "Music: Emmett S. Walden, 1925 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 88
+verse_count = 3
+phrase_breaks = ["3:40", "5:40", "7:40", "9:40", "11:40", "13:40", "15:40"]
+non_breaking_phrase_breaks = ["2:8", "2:40", "3:8", "4:8", "4:40", "5:8", "6:8", "6:40", "7:8", "8:8", "8:40", "9:8", "10:8", "10:40", "11:8", "12:8", "12:40", "13:8", "14:8", "14:40", "15:8", "16:8", "16:40", "17:8"]
+non_breaking_format_resets = ["8:40", "16:40"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s8 ees''8 ees''8 c''8 |
+ees''2~ ees''8 aes'8 aes'8 f'8 | ees'2~ ees'8 aes'8 c''8 ees''8 |
+ees''2~ ees''8 c''8 bes'8 aes'8 | bes'2~ bes'8 ees''8 ees''8 c''8 |
+ees''2~ ees''8 aes'8 aes'8 f'8 | ees'2~ ees'8 ees'8 f'8 aes'8 |
+c''2~ c''8 ees''8 aes'8 bes'8 | aes'2~ aes'8 r8@c r4 |
+r8 ees''8 ees''8 ees''8 c''8 r8 r4 | r8 c''8 c''8 c''8 aes'8 r8 r4 |
+r8 c''8 c''8 c''8 f''8 r8 r4 | r8 ees''8 ees''8 ees''8 ees''8! r8 r4 |
+r8 ees''8 ees''8 ees''8 c''8 r8 r4 | r8 c''8 aes'8 f'8 ees'8 ees'8 f'8 aes'8 |
+c''2~ c''8 ees''8 aes'8 bes'8 | aes'2~ aes'8 s8 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+suppress_verses = [2, 3]
+suppress_verses_when = ["soprano"]
+notes = """
+s2 s8 r8 r4 |
+r8 aes'8 aes'8 aes'8 aes'8 ees'8 f'8 f'8 | c'8 c'8 ees'8 des'8 c'8 r8 r4 |
+r8 aes'8 aes'8 g'8 aes'8 aes'8 ees'8 f'8 | g'8 g'8 bes'8 aes'8 g'8 r8 r4 |
+r8 aes'8 aes'8 aes'8 aes'8 ees'8 f'8 f'8 | c'8 c'8 ees'8 des'8 c'8 r8 r4 |
+r8 ees'8 ees'8 e'8 f'8 ees'8 ees'8 ees'8 | ees'8 ees'8 c'8 des'8 ees'8 r8@c r4 |
+r8 aes'8 aes'8 aes'8 aes'8 r8 r4 | r8 ees'8 ees'8 ees'8 ees'8 r8 r4 |
+r8 aes'8 aes'8 aes'8 aes'8 r8 r4 | r8 g'8 g'8 aes'8 bes'8! r8 r4 |
+r8 aes'8 aes'8 aes'8 aes'8 r8 r4 | r8 ees'8 f'8 des'8 c'8 r8 r4 |
+r8 ees'8 ees'8 e'8 f'8 ees'8 ees'8 ees'8 | ees'8 ees'8 c'8 des'8 ees'8 s8 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3]
+suppress_verses_when = ["soprano"]
+notes = """
+s2 s8 r8 r4 |
+r8 c'8 c'8 c'8 c'8 aes8 aes8 aes8 | aes8 aes8 aes8 g8 aes8 r8 r4 |
+r8 c'8 ees'8 des'8 c'8 ees'8 ees'8 des'8 | ees'8 ees'8 ees'8 ees'8 ees'8 r8 r4 |
+r8 c'8 c'8 c'8 c'8 aes8 aes8 aes8 | aes8 aes8 aes8 aes8 aes8 r8 r4 |
+r8 aes8 aes8 bes8 aes8 aes8 c'8 des'8 | c'8 c'8 aes8 bes8 c'8 r8@c r4 |
+r8 c'8 c'8 c'8 ees'8 r8 r4 | r8 aes8 aes8 aes8 c'8 r8 r4 |
+r8 f'8 f'8 f'8 c'8 r8 r4 | r8 bes8 bes8 c'8 des'8! r8 r4 |
+r8 c'8 c'8 c'8 ees'8 r8 r4 | r8 aes8 aes8 aes8 aes8 r8 r4 |
+r8 aes8 aes8 bes8 aes8 aes8 c'8 des'8 | c'8 c'8 aes8 bes8 c'8 s8 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3]
+suppress_verses_when = ["soprano"]
+notes = """
+s2 s8 r8 r4 |
+r8 aes8 aes8 aes8 aes8 c8 des8 des8 | aes,8 aes,8 c8 bes,8 aes,8 r8 r4 |
+r8 aes8 bes8 bes8 aes8 aes8 g8 f8 | ees8 ees8 g8 f8 ees8 r8 r4 |
+r8 aes8 aes8 aes8 aes8 c8 des8 des8 | aes,8 aes,8 c8 bes,8 aes,8 r8 r4 |
+r8 aes8 aes8 g8 f8 c8 ees8 ees8 | aes,2~ aes,8 c'8@c c'8 bes8 |
+aes2~ aes8 aes8 {3 f8[ ees8] c8 } | aes,2~ aes,8 aes,8 c8 ees8 |
+f2~ f8 aes8 f8 c8 | ees2~ ees8! c'8 c'8 bes8 |
+aes2~ aes8 aes8 {3 f8[ ees8] c8 } | aes,2~ aes,8 r8 r4 |
+r8 aes8 aes8 g8 f8 c8 ees8 ees8 | aes,2~ aes,8 s8 s4
+"""
+
+[lyrics.1]
+text = "O, hap -- py day when Je -- sus came To take a -- way my sin and shame; O, bless -- ed tho’t, O, tho’t di -- vine, That I am His and He is mine."
+
+[parts.Alto.lyrics.1]
+text = "O, hap -- py day when Je -- sus came when Je -- sus came To take a -- way my sin and shame; my sin and shame; O, bless -- ed tho’t, O, tho’t di -- vine, O, tho’t di -- vine, That I am His and He is mine. and He is mine."
+
+[parts.Tenor.lyrics.1]
+text = "O, hap -- py day when Je -- sus came when Je -- sus came To take a -- way my sin and shame; my sin and shame; O, bless -- ed tho’t, O, tho’t di -- vine, O, tho’t di -- vine, That I am His and He is mine. and He is mine."
+
+[parts.Bass.lyrics.1]
+text = "O, hap -- py day when Je -- sus came when Je -- sus came To take a -- way my sin and shame; my sin and shame; O, bless -- ed tho’t, O, tho’t di -- vine, O, tho’t di -- vine, That I am His and He is mine."
+
+[lyrics.2]
+text = "O, hap -- py day when strife shall cease And I shall have e -- ter -- nal peace; O, bless -- ed time when Christ shall come To take me to my glo -- ry home."
+
+[parts.Alto.lyrics.2]
+text = "O, hap -- py day when strife shall cease when strife shall cease And I shall have e -- ter -- nal peace; e -- ter -- nal peace; O, bless -- ed time when Christ shall come when Christ shall come To take me to my glo -- ry home. my glo -- ry home."
+
+[parts.Tenor.lyrics.2]
+text = "O, hap -- py day when strife shall cease when strife shall cease And I shall have e -- ter -- nal peace; e -- ter -- nal peace; O, bless -- ed time when Christ shall come when Christ shall come To take me to my glo -- ry home. my glo -- ry home."
+
+[parts.Bass.lyrics.2]
+text = "O, hap -- py day when strife shall cease when strife shall cease And I shall have e -- ter -- nal peace; e -- ter -- nal peace; O, bless -- ed time when Christ shall come when Christ shall come To take me to my glo -- ry home."
+
+[lyrics.3]
+text = "O, hap -- py day when I shall go To meet the One who loves me so; O, hap -- py hour when I shall be At rest be -- side the crys -- tal sea."
+
+[parts.Alto.lyrics.3]
+text = "O, hap -- py day when I shall go when I shall go To meet the One who loves me so; who loves me so; O, hap -- py hour when I shall be when I shall be At rest be -- side the crys -- tal sea. the crys -- tal sea."
+
+[parts.Tenor.lyrics.3]
+text = "O, hap -- py day when I shall go when I shall go To meet the One who loves me so; who loves me so; O, hap -- py hour when I shall be when I shall be At rest be -- side the crys -- tal sea. the crys -- tal sea."
+
+[parts.Bass.lyrics.3]
+text = "O, hap -- py day when I shall go when I shall go To meet the One who loves me so; who loves me so; O, hap -- py hour when I shall be when I shall be At rest be -- side the crys -- tal sea."
+
+[lyrics.chorus]
+text = "O, hap -- py day, blest hap -- py day, When Je -- sus washed my sins a -- way; Soon I shall go to sing His praise, With an -- gels thro’ un -- num -- bered days."
+
+[parts.Alto.lyrics.chorus]
+text = "O, hap -- py day, blest hap -- py day, When Je -- sus washed my sins a -- way; Soon I shall go to sing His praise, With an -- gels thro’ un -- num -- bered days. un -- num -- bered days."
+
+[parts.Tenor.lyrics.chorus]
+text = "O, hap -- py day, blest hap -- py day, When Je -- sus washed my sins a -- way; Soon I shall go to sing His praise, With an -- gels thro’ un -- num -- bered days. un -- num -- bered days."
