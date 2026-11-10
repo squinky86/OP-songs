@@ -1,0 +1,79 @@
+title = "When We All Get Home"
+copyrights = [
+  "Lyrics and Music: C. C. Haggard, 1928 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "E"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 3
+phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "11:48", "13:48", "15:48"]
+non_breaking_phrase_breaks = ["10:16", "10:48", "14:16", "14:48", "16:16", "17:16"]
+non_breaking_format_resets = ["16:16"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. gis'8 a'8
+| b'4 b'4 b'4 gis'8 fis'8 | e'4 e'8 fis'8 gis'4 b'8 cis''8 | b'4 gis'4 fis'4 e'4 | fis'2. gis'8 a'8
+| b'4 b'4 b'4 gis'8 fis'8 | e'4 e'8 fis'8 gis'4 b'8 cis''8 | b'4 e'4 gis'4 fis'4 | e'2. b'8@c b'8
+| e''2. dis''8 cis''8 | b'2. gis'8 b'8 | e''4 e''4 dis''8 cis''8 fis'8 cis''8 | b'2. cis''8 dis''8
+| e''2. dis''8 cis''8 | b'2. b'8 fis'8 | gis'2. fis'4 | e'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. e'8 fis'8
+| gis'4 fis'4 gis'4 e'8 dis'8 | cis'4 cis'8 dis'8 e'4 e'8 e'8 | e'4 e'4 b4 cis'4 | dis'2. e'8 fis'8
+| gis'4 fis'4 gis'4 e'8 dis'8 | cis'4 cis'8 dis'8 e'4 e'8 e'8 | e'4 e'4 e'4 dis'4 | e'2. e'8@c fis'8
+| gis'4 gis'8 a'8 b'4 b'8 a'8 | gis'4 fis'8 a'8 gis'4 e'8 e'8 | e'4 e'4 fis'8 e'8 cis'8 e'8 | dis'2. a'8 a'8
+| gis'4 gis'8 a'8 b'4 b'8 a'8 | gis'4 fis'8 a'8 gis'4 gis'8 fis'8 | e'4 e'8 e'8 e'4 dis'4 | b4 cis'4 b4 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. b8 b8
+| e'4 dis'4 e'4 b8 a8 | gis4 gis8 a8 b4 gis8 a8 | gis4 b4 b4 ais4 | b2. b8 b8
+| e'4 dis'4 e'4 b8 a8 | gis4 gis8 a8 b4 gis8 a8 | gis4 gis4 b4 a4 | gis2. gis8@c a8
+| b4 e'8 e'8 e'4 e'8 e'8 | e'4 dis'8 fis'8 e'4 b8 gis8 | gis4 cis'4 b8 ais8 ais8 ais8 | b2. b8 b8
+| b4 e'8 e'8 e'4 e'8 e'8 | e'4 dis'8 fis'8 e'4 e'8 dis'8 | cis'4 cis'8 cis'8 b4 a4 | gis4 a4 gis4 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. e8 e8 |
+e4 b,4 e4 e8 b,8 | cis4 cis8 b,8 e4 e8 e8 | e4 e4 dis4 cis4 | b,2. e8 e8 |
+e4 b,4 e4 e8 b,8 | cis4 cis8 b,8 e4 e8 e8 | e4 cis4 b,4 b,4 | e2. e8@c e8 |
+e4 e8 fis8 gis4 a8 a8 | e4 b,8 b,8 e4 e8 d8 | cis4 cis4 fis8 fis8 fis8 fis8 | b,2. b,8 b,8 |
+e4 e8 fis8 gis4 a8 a8 | e4 b,8 b,8 e4 e8 b,8 | cis4 cis8 gis,8 b,4 b,4 | <e, e>2. s4
+"""
+
+[lyrics.1]
+text = "Oh the joy and peace that will fill ev -- ’ry soul, As they view that home a -- bove; When the wea -- ry pil -- grims of earth reach their goal, God’s e -- ter -- nal home of love."
+
+[lyrics.2]
+text = "There will be no death, pain, nor part -- ing a -- gain, But ce -- les -- tial joy and rest; When the saints of God reach the home of the soul, There to be for -- ev -- er blest."
+
+[lyrics.3]
+text = "Oh how sweet ’twill be if my friends I shall see, When I reach that home of peace; There to dwell for aye thro’ -- out e -- ter -- nal day, Where my joy shall nev -- er cease."
+
+[lyrics.chorus]
+text = "What a home that will be, when the Sav -- ior we see, As with saints and an -- gels we shall roam; Oh, the joys we shall see, sing the songs of the free, When we all reach our bless -- ed home. sweet home."
+
+[parts.Soprano.lyrics.chorus]
+text = "What a home that will be, As with saints and an -- gels we shall roam; Oh, the joys we shall see, When we all get home."
+
+[parts.Bass.lyrics.chorus]
+text = "What a home that will be, when the Sav -- ior we see, As with saints and an -- gels we shall roam; Oh, the joys we shall see, sing the songs of the free, When we all reach our bless -- ed home."
