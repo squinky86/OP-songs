@@ -361,7 +361,10 @@ carry several echoes; each is handed off and handed back independently.
   *closes* the verse is fine, since nothing follows it.
 - All of these decisions are per verse, and all-or-nothing within a verse: verse
   1 may splice while verse 2 does not, but a verse never splices some of its
-  echoes and prints the rest on a separate row.
+  echoes and prints the rest on a separate row. With
+  [`non_breaking_format_resets`](#non-breaking-lyric-row-resets), this rule covers
+  only words beginning before the first reset. Later conflicts cannot veto an
+  earlier echo; the reset planner places the remaining fragments independently.
 - **The echo must be its own phrase for dedup purposes.** A source part whose
   text merely repeats the target's is deduplicated phrase by phrase, and only
   the surviving syllables are spliced. An echo buried inside a phrase that
@@ -854,6 +857,14 @@ row; explicit `splice_lyrics_into` allows an answering voice to borrow a safe ga
 in that row. Other responses can share available lower rows at reset boundaries.
 The engraver conservatively keeps another row when a word or melisma occupies the
 candidate space. A system still needs room for its maximum simultaneous row count.
+
+When verses converge on a shared ending, its response may reuse an idle numbered
+row from one of those verses. The row keeps its original stanza number; the
+shared response prints once. For example, four verse rows can accommodate a
+shared call on the first row and its overlapping response on the second, without
+adding a fifth row. With only one verse selected, overlapping call and response
+still require two rows. Place the first reset at the shared ending's start;
+earlier echoes are spliced independently of that ending.
 
 This field affects PDF, SVG, LilyPond downloads, and social-card scores, including
 unphrased scores. It does not change line breaks, optional-break thresholds,
