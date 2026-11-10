@@ -1,0 +1,99 @@
+title = "When Jehovah Leads"
+copyrights = [
+  "Lyrics: James Rowe, 1928 (public domain)",
+  "Music: Emory S. Pack, 1928 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Eb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 3
+phrase_breaks = ["5:48", "9:48", "13:48", "17:48", "21:48", "25:48", "29:48"]
+non_breaking_phrase_breaks = ["28:48", "28:64", "29:16", "29:32", "32:64"]
+non_breaking_format_resets = ["28:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. ees'8 f'8
+| g'4 fis'4 g'4 g'8 aes'8 | bes'4 a'4 bes'4 bes'8 ees''8 | d''4 d''4 c''4 d''4 | ees''2. ees''8 ees''8
+| ees''4 c''4 c''4 c''8 ees''8 | ees''4 bes'4 bes'4 bes'8 ees''8 | d''4. f'8 c''4 f'4 | bes'2. ees'8 f'8
+| g'4 fis'4 g'4 g'8 aes'8 | bes'4 a'4 bes'4 ees'8 g'8 | bes'4 g'4 f'4 ees'4 | c''2. c''8 d''8
+| ees''4 c''4 c''4 c''8 ees''8 | ees''4 c''4 bes'4 g'8 bes'8 | c''4 c''8 ees''8 d''4 f''4 | ees''2. r4@c
+| bes'4 r4 bes'4 r4 | bes'4 r4 bes'4 r4 | bes'4 r4 bes'4 r4 | bes'4 c''4 bes'4 r4
+| aes'4 c''4 c''4 r4 | bes'4 r4 bes'4 r4 | a'4 r4 a'4 r4 | bes'4 bes'4 bes'4! r4
+| g'4 r4 g'4 r4 | aes'4 r4 aes'4 r4 | aes'4 r4 aes'4 bes'4 | g'4 aes'4 g'4 bes'8 bes'8
+| d''4 c''4 ees''4 c''8 c''8 | bes'4 g'4 bes'4 bes'8 bes'8 | c''4 c''8 ees''8 d''4 f''4 | ees''2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. ees'8 ees'8
+| ees'4 ees'4 ees'4 ees'8 f'8 | g'4 fis'4 g'4 g'8 g'8 | aes'4 aes'4 aes'4 aes'4 | g'2. bes'8 bes'8
+| c''4 aes'4 aes'4 aes'8 aes'8 | g'4 g'4 g'4 g'8 g'8 | f'4. d'8 ees'4 ees'4 | d'2. ees'8 ees'8
+| ees'4 ees'4 ees'4 ees'8 f'8 | g'4 fis'4 g'4 ees'8 ees'8 | g'4 ees'4 d'4 ees'4 | ees'2. aes'8 bes'8
+| c''4 aes'4 aes'4 aes'8 aes'8 | g'4 aes'4 g'4 ees'8 g'8 | aes'4 aes'8 aes'8 aes'4 aes'4 | g'2. r4@c
+| g'4 r4 g'4 r4 | aes'4 r4 aes'4 r4 | aes'4 r4 aes'4 r4 | g'4 aes'4 g'4 r4
+| ees'4 aes'4 aes'4 r4 | g'4 r4 ees'4 r4 | ees'4 r4 ees'4 r4 | f'4 g'4 aes'4! bes8. bes16
+| ees'4 bes4 ees'4 g'8 g'8 | f'4 bes4 f'4 bes8. bes16 | f'4 bes4 f'4 g'4 | ees'2. g'8 g'8
+| bes'4 aes'4 c''4 aes'8 aes'8 | g'4 ees'4 g'4 g'8 g'8 | aes'4 aes'8 aes'8 aes'4 aes'4 | g'4 aes'4 g'4 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. g8 aes8
+| bes4 a4 bes4 bes8 bes8 | ees'4 ees'4 ees'4 ees'8 bes8 | bes4 bes4 bes4 bes4 | bes2. ees'8 ees'8
+| ees'4 ees'4 ees'4 ees'8 c'8 | bes4 ees'4 ees'4 ees'8 bes8 | bes4. bes8 aes4 aes4 | bes2. g8 aes8
+| bes4 a4 bes4 bes8 bes8 | ees'4 ees'4 ees'4 g8 bes8 | ees'4 bes4 bes4 bes4 | aes2. ees'8 ees'8
+| ees'4 ees'4 ees'4 ees'8 c'8 | bes4 ees'4 ees'4 bes8 ees'8 | ees'4 ees'8 c'8 bes4 bes4 | bes2. r4@c
+| ees'4 r4 ees'4 r4 | d'4 r4 d'4 r4 | d'4 r4 d'4 r4 | ees'4 ees'4 ees'4 r4
+| ees'4 ees'4 ees'4 r4 | ees'4 r4 ees'4 r4 | c'4 r4 ees'4 r4 | d'4 ees'4 d'4! r4
+| bes4 r4 bes4 r4 | d'4 r4 d'4 r4 | d'4 r4 d'4 r4 | ees'4 c'4 bes4 ees'8 ees'8
+| ees'4 ees'4 ees'4 ees'8 ees'8 | ees'4 bes4 ees'4 ees'8 ees'8 | ees'4 ees'8 c'8 bes4 bes4 | bes4 c'4 bes4 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. ees8 ees8
+| ees4 ees4 ees4 ees8 ees8 | ees4 ees4 ees4 ees8 ees8 | bes,4 bes,4 bes,4 bes,4 | ees2. g8 g8
+| aes4 aes4 aes4 aes8 aes8 | ees4 ees4 ees4 ees8 ees8 | f4. f8 f4 f4 | bes,2. ees8 ees8
+| ees4 ees4 ees4 ees8 ees8 | ees4 ees4 ees4 ees8 ees8 | ees4 ees4 f4 g4 | aes2. aes8 aes8
+| aes4 aes4 aes4 aes8 aes8 | ees4 ees4 ees4 ees8 ees8 | aes4 aes8 aes8 bes4 bes,4 | ees2. bes,8.@c bes,16
+| ees4 bes,4 ees4 g8. g16 | f4 bes,4 f4 bes,8. bes,16 | f4 bes,4 f4 g4 | ees2. ees8. d16
+| c4 ees4 aes4 c8 c8 | bes,4 ees4 g4 ees8. g16 | f4 ees4 c4 f4 | bes,2.! r4
+| ees4 r4 ees4 r4 | bes,4 r4 bes,4 r4 | bes,4 r4 bes,4 r4 | ees2. ees8 ees8
+| aes4 aes4 aes4 aes8 aes8 | ees4 ees4 ees4 ees8 ees8 | aes4 aes8 aes8 bes4 bes,4 | ees2. s4
+"""
+
+[lyrics.1]
+text = "There is naught to fear in the des -- ert drear, When Je -- ho -- vah leads the way; For He knows the road to the glad a -- bode In the land of fade -- less day, Tri -- als great to meet, but we still keep sweet, For He fills our man -- y needs; He will keep us true till the march is thro’, All is well when Je -- ho -- vah leads."
+
+[lyrics.2]
+text = "There are times when we scarce a home -- light see, But, by faith, we still trust on For the break of day is not far a -- way, And the night will soon be gone. Man -- y foes as -- sail, but they ev -- er fail,— None the call to wan -- der heeds; We have naught to dread in the days a -- head, All is well when Je -- ho -- vah leads."
+
+[lyrics.3]
+text = "Soon the lights of home, shin -- ing thro’ the gloom, Ver -- y clear -- ly we shall see: Soon the friends who wait at the pear -- ly gate Will be greet -- ing you and me. So let songs of joy heart and voice em -- ploy, While the time of dark -- ness speeds; For we soon shall rest in His king -- dom blest, All is well when Je -- ho -- vah leads."
+
+[lyrics.chorus]
+text = "All’s well all’s well Safe He keeps His own; Day by day clear to us His love is shown. So we’ll trav -- el on till we greet the dawn, Sure our plea and call He heeds; We shall reach the gates where our glo -- ry waits, All is well when Je -- ho -- vah sure -- ly leads."
+
+[parts.Soprano.lyrics.chorus]
+text = "All’s well all’s well Safe He keeps His own; Day by day clear to us His love is shown. Come the bright dawn, each call and plea He heeds; We shall reach the gates where our glo -- ry waits, All is well when Je -- ho -- vah leads."
+
+[parts.Tenor.lyrics.chorus]
+text = "All’s well all’s well Safe He keeps His own; Day by day clear to us His love is shown. Come the bright dawn, each call plea He heeds; We shall reach the gates where our glo -- ry waits, All is well when Je -- ho -- vah sure -- ly leads."
+
+[parts.Bass.lyrics.chorus]
+text = "All is well, we know, When Je -- ho -- vah leads, For He safe -- ly keeps His own; Day by day He fills all our man -- y needs And His love is clear -- ly shown. Come the bright dawn, each call heeds; We shall reach the gates where our glo -- ry waits, All is well when Je -- ho -- vah leads."
