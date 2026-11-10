@@ -1,0 +1,91 @@
+title = "Love Took it Away"
+copyrights = [
+  "Lyrics: James Rowe, 1927 (public domain)",
+  "Music: J. M. Henson, 1927 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Eb"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 108
+verse_count = 3
+phrase_breaks = ["4:48", "8:48", "12:48", "16:40", "20:48", "24:40", "28:48"]
+optional_phrase_breaks = ["2:40", "6:48", "10:40", "14:48", "22:48", "30:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+bes'4 g'8 c''4 g'8 | bes'4 g'8 c''4 g'8 | bes'4. c''4 ees''8 | d''4.~ d''4 r8 |
+d''4 f''8 d''4 aes'8 | c''4 d''8 c''4. | d''4. c''8 bes'8 aes'8 | g'4.~ g'4 r8 |
+bes'4 g'8 c''4 g'8 | bes'4 g'8 c''4 g'8 | bes'4. ees''4 bes'8 | c''4.~ c''4 r8 |
+c''4 d''8 ees''4 c''8 | bes'4 g'8 bes'4( ees''8) | d''4. c''8 c''8 c''8 | bes'4.~ bes'4 r8@c |
+r4. r4 bes'8 | d''8 c''8 bes'8 ees''4.~ | ees''4.( bes'4) bes'8 | c''8 bes'8 c''8 g'4 r8 |
+ees''4 c''8 ees''4 ees''8 | ees''4 bes'8 g'4( bes'8) | d''4 cis''8 d''4 c''8 | bes'4.~ bes'4! bes'8 |
+d''8 c''8 bes'8 ees''4.~ | ees''4.( bes'4) bes'8 | c''8 bes'8 c''8 g'4.~ | g'4.( bes'4) r8 |
+bes'4 b'8 c''4 d''8 | ees''4 d''8 ees''4.! | g''4.! f''8 ees''8 f''8 | ees''4.~ ees''4 r8
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+g'4 ees'8 g'4 ees'8 | g'4 ees'8 g'4 ees'8 | g'4. g'4 g'8 | aes'4.~ aes'4 r8 |
+aes'4 aes'8 aes'4 f'8 | aes'4 aes'8 aes'4. | aes'4. aes'8 g'8 f'8 | ees'4.~ ees'4 r8 |
+g'4 ees'8 g'4 ees'8 | g'4 ees'8 g'4 ees'8 | g'4. g'4 g'8 | aes'4.~ aes'4 r8 |
+aes'4 bes'8 c''4 aes'8 | g'4 ees'8 g'4. | f'4. ees'8 ees'8 ees'8 | d'4.~ d'4 r8@c |
+r4. r4 g'8 | bes'8 aes'8 g'8 g'4.~ | g'4.( ees'4) ees'8 | ees'8 ees'8 ees'8 ees'4 r8 |
+g'4 g'8 g'4 g'8 | g'4 ees'8 ees'4. | f'4 e'8 f'4 f'8 | f'4 g'8 aes'4! r8 |
+r4. r4 g'8 | bes'8 aes'8 g'8 g'4.~ | g'4.( ees'4) ees'8 | ees'8 ees'8 ees'8 ees'4 r8 |
+ees'4 f'8 ees'4 f'8 | g'8[ bes'8] aes'8 g'4.! | bes'4.! aes'8 g'8 aes'8 | g'4( fis'8 g'4) r8
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+ees'4 bes8 ees'4 bes8 | ees'4 bes8 ees'4 bes8 | ees'4. ees'4 bes8 | bes4.~ bes4 r8 |
+bes4 d'8 f'4 d'8 | d'4 f'8 d'4. | bes4. bes8 bes8 bes8 | bes4.~ bes4 r8 |
+ees'4 bes8 ees'4 bes8 | ees'4 bes8 ees'4 bes8 | ees'4. bes4 ees'8 | ees'4.~ ees'4 r8 |
+ees'4 ees'8 ees'4 ees'8 | ees'4 bes8 ees'4( bes8) | bes4. aes8 aes8 aes8 | bes4.~ bes4 bes8@c |
+d'8 c'8 bes8 ees'4.~ | ees'4.( bes4) bes8 | c'8 bes8 c'8 g4.~ | g4.( bes4) r8 |
+c'4 c'8 c'4 ees'8 | ees'4 ees'8 bes4. | bes4 bes8 bes4 ees'8 | d'4 ees'8 d'4! r8 |
+r4. r4 bes8 | d'8 c'8 bes8 ees'4.~ | ees'4.( bes4) bes8 | c'8 bes8 c'8 g4 r8 |
+g4 g8 g4 bes8 | bes8[ ees'8] f'8 ees'4.! | ees'4.! bes8 bes8 bes8 | bes4( c'8 bes4) r8
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+ees4 ees8 ees4 ees8 | ees4 ees8 ees4 ees8 | ees4. ees4 ees8 | f4.~ f4 r8 |
+bes4 bes8 bes4 bes8 | bes4 bes8 bes4. | bes4. bes,8 c8 d8 | ees4.~ ees4 r8 |
+ees4 ees8 ees4 ees8 | ees4 ees8 ees4 ees8 | ees4. ees4 ees8 | aes4.~ aes4 r8 |
+aes4 aes8 aes4 aes8 | ees4 ees8 ees4. | f4. f8 f8 f8 | bes,4.~ bes,4 r8@c |
+r4. r4 ees8 | ees8 ees8 ees8 ees4.~ | ees4.~ ees4 ees8 | ees8 ees8 ees8 ees4 r8 |
+c4 ees8 g4 c'8 | bes4 g8 ees4( g8) | f4 g8 f4 f8 | bes,4.~ bes,4! r8 |
+r4. r4 ees8 | ees8 ees8 ees8 ees4.~ | ees4.~ ees4 ees8 | ees8 ees8 ees8 ees4 r8 |
+ees4 d8 c4 bes,8 | ees8[ g8] bes8 c'4.! | bes4.! bes8 bes8 bes8 | ees4.~ ees4 r8
+"""
+
+[lyrics.1]
+text = "Once I bore a bur -- den great, Was wea -- ry and sad; But no more I bear its weight, I’m par -- doned and glad. Love di -- vine, at last, I know, No lon -- ger I stray; On with -- out a stain I go— Love took it a -- way."
+
+[lyrics.2]
+text = "Once a crav -- ing great had I For pleas -- ures that stain; Now I pass those pleas -- ures by,— They tempt me in vain. I am un -- der His con -- trol, Re -- joic -- ing each day; Gone the bur -- den from my soul— Love took it a -- way."
+
+[lyrics.3]
+text = "Once my rec -- ord was un -- clean, My spir -- it was worn; Now my name on high is seen As fair as the morn. Oh, what hap -- pi -- ness is mine, With Je -- sus I stay; Sin no more makes me re -- pine,— Love took it a -- way."
+
+[lyrics.chorus]
+text = "Love took it a -- way, One won -- der -- ful day; Made me free and lift -- ed me, In the light to stay, Love took it a -- way, One won -- der -- ful day, Gone at last my sin -- ful past— Love took it a -- way."
+
+[parts.Alto.lyrics.chorus]
+text = "Love took it a -- way, One won -- der -- ful day; Made me free and lift -- ed me, In the light of God to stay, Love took it a -- way, One won -- der -- ful day, Gone at last my sin -- ful past— Love took it a -- way."
+
+[parts.Tenor.lyrics.chorus]
+text = "Love took it a -- way, One won -- der -- ful day; Made me free and lift -- ed me, In the light of God to stay, Love took it a -- way, One won -- der -- ful day, Gone at last my sin -- ful past— Love took it a -- way."
