@@ -84,37 +84,28 @@ r8 aes8 aes8 g8 f8 c8 ees8 ees8 | aes,2~ aes,8 s8 s4
 """
 
 [lyrics.1]
+text = "O, hap -- py day when Je -- sus came when Je -- sus came To take a -- way my sin and shame; my sin and shame; O, bless -- ed tho’t, O, tho’t di -- vine, O, tho’t di -- vine, That I am His and He is mine. and He is mine."
+
+[parts.Soprano.lyrics.1]
 text = "O, hap -- py day when Je -- sus came To take a -- way my sin and shame; O, bless -- ed tho’t, O, tho’t di -- vine, That I am His and He is mine."
-
-[parts.Alto.lyrics.1]
-text = "O, hap -- py day when Je -- sus came when Je -- sus came To take a -- way my sin and shame; my sin and shame; O, bless -- ed tho’t, O, tho’t di -- vine, O, tho’t di -- vine, That I am His and He is mine. and He is mine."
-
-[parts.Tenor.lyrics.1]
-text = "O, hap -- py day when Je -- sus came when Je -- sus came To take a -- way my sin and shame; my sin and shame; O, bless -- ed tho’t, O, tho’t di -- vine, O, tho’t di -- vine, That I am His and He is mine. and He is mine."
 
 [parts.Bass.lyrics.1]
 text = "O, hap -- py day when Je -- sus came when Je -- sus came To take a -- way my sin and shame; my sin and shame; O, bless -- ed tho’t, O, tho’t di -- vine, O, tho’t di -- vine, That I am His and He is mine."
 
 [lyrics.2]
+text = "O, hap -- py day when strife shall cease when strife shall cease And I shall have e -- ter -- nal peace; e -- ter -- nal peace; O, bless -- ed time when Christ shall come when Christ shall come To take me to my glo -- ry home. my glo -- ry home."
+
+[parts.Soprano.lyrics.2]
 text = "O, hap -- py day when strife shall cease And I shall have e -- ter -- nal peace; O, bless -- ed time when Christ shall come To take me to my glo -- ry home."
-
-[parts.Alto.lyrics.2]
-text = "O, hap -- py day when strife shall cease when strife shall cease And I shall have e -- ter -- nal peace; e -- ter -- nal peace; O, bless -- ed time when Christ shall come when Christ shall come To take me to my glo -- ry home. my glo -- ry home."
-
-[parts.Tenor.lyrics.2]
-text = "O, hap -- py day when strife shall cease when strife shall cease And I shall have e -- ter -- nal peace; e -- ter -- nal peace; O, bless -- ed time when Christ shall come when Christ shall come To take me to my glo -- ry home. my glo -- ry home."
 
 [parts.Bass.lyrics.2]
 text = "O, hap -- py day when strife shall cease when strife shall cease And I shall have e -- ter -- nal peace; e -- ter -- nal peace; O, bless -- ed time when Christ shall come when Christ shall come To take me to my glo -- ry home."
 
 [lyrics.3]
+text = "O, hap -- py day when I shall go when I shall go To meet the One who loves me so; who loves me so; O, hap -- py hour when I shall be when I shall be At rest be -- side the crys -- tal sea. the crys -- tal sea."
+
+[parts.Soprano.lyrics.3]
 text = "O, hap -- py day when I shall go To meet the One who loves me so; O, hap -- py hour when I shall be At rest be -- side the crys -- tal sea."
-
-[parts.Alto.lyrics.3]
-text = "O, hap -- py day when I shall go when I shall go To meet the One who loves me so; who loves me so; O, hap -- py hour when I shall be when I shall be At rest be -- side the crys -- tal sea. the crys -- tal sea."
-
-[parts.Tenor.lyrics.3]
-text = "O, hap -- py day when I shall go when I shall go To meet the One who loves me so; who loves me so; O, hap -- py hour when I shall be when I shall be At rest be -- side the crys -- tal sea. the crys -- tal sea."
 
 [parts.Bass.lyrics.3]
 text = "O, hap -- py day when I shall go when I shall go To meet the One who loves me so; who loves me so; O, hap -- py hour when I shall be when I shall be At rest be -- side the crys -- tal sea."
