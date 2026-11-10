@@ -1,0 +1,90 @@
+title = "Reaching to You"
+copyrights = [
+  "Lyrics: James W. Gaines, 1921 (public domain)",
+  "Music: L. H. Harber, 1921 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 72
+verse_count = 3
+phrase_breaks = ["9:32", "17:48", "25:48"]
+optional_phrase_breaks = ["5:32", "13:32", "22:32", "30:32"]
+non_breaking_phrase_breaks = ["1:48", "9:48", "20:48", "28:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 f'4 |
+a'4. gis'8 a'4 | f'2 a'4 | bes'4 a'4 g'4 | f'2 a'4 |
+g'4. fis'8 g'4 | a'4 f'4 g'4 | a'2.~ | a'2 f'4 |
+a'4. gis'8 a'4 | f'2 c''4 | c''4 f'4 g'4 | a'2 bes'4 |
+a'4. gis'8 a'4 | g'8\\rit f'4 r8 g'4 | f'2.~ | f'2.\\spanend |
+r2.@c | c''4 b'4 c''4 | a'2 a'4 | a'4 gis'4 a'4 | f'2 f'4 |
+g'4. fis'8 g'4 | g'4 f'4 g'4 | a'2. | r2. |
+c''4 b'4 c''4 | a'2 c''4-. | c''4-. f'4-. g'4-. | a'2-. g'4 |
+a'4. gis'8 a'4 | g'8\\rit f'4 r8 g'4 | f'2.\\spanend
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 a4 |
+c'4. b8 c'4 | a2 ees'4 | d'4 c'4 bes4 | a2 f'4 |
+e'4. dis'8 e'4 | c'4 d'4 e'4 | f'4( e'4 d'4 | c'2) a4 |
+c'4. b8 c'4 | a2 ees'4 | ees'4 d'4 d'4 | cis'2 d'4 |
+c'4. b8 c'4 | bes8 a4 r8 bes4 | a2.~ | a2. |
+r2.@c | a'4 gis'4 a'4 | f'2 f'4 | f'4 f'4 f'4 | c'2 c'4 |
+e'4. dis'8 e'4 | e'4 f'4 e'4 | f'2. | r2. |
+a'4 gis'4 a'4 | f'2 ees'4-. | ees'4-. d'4-. d'4-. | e'2-. e'4 |
+f'4. f'8 f'4 | c'8 c'4 r8 c'4 | c'2.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 a4 |
+c'4. b8 c'4 | a2 ees'4 | d'4 c'4 bes4 | a2 f'4 |
+e'4. dis'8 e'4 | c'4 d'4 e'4 | f'2.( | c'2) a4 |
+c'4. b8 c'4 | a2 ees'4 | ees'4 d'4 d'4 | cis'2 d'4 |
+c'4. b8 c'4 | bes8 a4 r8 bes4 | a2.~ | a2. |
+c'4@c d'4 e'4 | f'2.( | c'2) c'4 | c'4 b4 c'4 | a2 a4 |
+bes4. bes8 bes4 | bes4 a4 c'4 | c'2. | c'4 d'4 e'4 |
+f'2.( | c'2) a4-. | a4-. bes4-. d'4-. | cis'2-. des'4 |
+c'4. b8 c'4 | bes8 a4 r8 bes4 | a2.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 f,4 |
+c4. d8 c4 | f,2 f,4 | bes,4 bes,4 bes,4 | f,2 f,4 |
+c4. c8 c4 | f4 d4 bes,4 | f,2.~ | f,2 f,4 |
+c4. d8 c4 | f,2 a,4 | bes,4 bes,4 bes,4 | a,2 g,4 |
+c4. d8 f4 | c8 d4 r8 c,4 | f,2.~ | f,2. |
+r2.@c | f4 f4 f4 | f2 f4 | f4 f4 f4 | f2 f4 |
+c4. c8 c4 | c4 c4 c4 | f2. | r2. |
+f4 f4 f4 | f2 f4-. | bes,4-. bes,4-. bes,4-. | a,2-. bes,4 |
+c4. d8 c4 | c8 c4 r8 c4 | f,2.
+"""
+
+[lyrics.1]
+text = "The hand that can save is reach -- ing to you, Dear sin -- ner, take hold and be free; ’Tis of -- fered in love— com -- pas -- sion so true, The hand that was nailed to the tree."
+
+[lyrics.2]
+text = "It lift -- ed my soul from dark -- ness and shame To rap -- tur -- ous glo -- ry sub -- lime, Dear sin -- ner, to you, is of -- fered the same, The hand of a Sav -- iour di -- vine."
+
+[lyrics.3]
+text = "Oh! will you be -- hold? the nail- -- prints are there, A to -- ken of won -- der -- ful love, Take hold of His hand, dear sin -- ner, and share His glo -- ry in heav -- en a -- bove."
+
+[lyrics.chorus]
+text = "Reach -- ing to you, yes, reach -- ing to you, Though weak and un -- worth -- y you’ve been, Reach -- ing to you, yes, reach -- ing to you, Take hold and be lift -- ed from sin."
