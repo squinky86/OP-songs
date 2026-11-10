@@ -1,0 +1,108 @@
+title = "Sin Is to Blame"
+copyrights = [
+  "Lyrics and Music: J. H. Vernon, 1914 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Db"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 96
+verse_count = 4
+phrase_breaks = ["4:48", "8:48", "12:48"]
+optional_phrase_breaks = ["2:48", "6:48", "10:48", "14:48"]
+non_breaking_phrase_breaks = ["16:16"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+des''8. des''16 des''8 des''8 c''8 bes'8 | aes'8 bes'8 aes'8 f'4 r8 | c''8 c''8. c''16 c''4 r8 | des''8 des''8. des''16 des''4 r8
+| des''8. des''16 des''8 des''8 c''8 bes'8 | aes'8 bes'8 aes'8 f'4 r8 | c''8. bes'16 aes'8 aes'8.[ bes'16] c''8 | des''4.~ des''4 r8
+| aes'8@c bes'8 c''8 des''8 c''8 bes'8 | aes'4. f'4 r8 | c''8 c''8. c''16 c''4 r8 | des''8 des''8. des''16 des''4 r8
+| aes'8 bes'8 c''8 des''8 c''8 bes'8 | aes'4. f'4 r8 | c''8 bes'8 aes'8 aes'8 bes'8 c''8 | des''4.~ des''4 r8
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+f'8. f'16 f'8 bes'8 aes'8 ges'8 | f'8 ges'8 f'8 des'4 r8 | ges'8 ges'8. ges'16 ges'4 r8 | f'8 f'8. ges'16 f'4 r8
+| f'8. f'16 f'8 bes'8 aes'8 ges'8 | f'8 ges'8 f'8 des'4 r8 | aes'8. ges'16 f'8 f'8.[ ges'16] ees'8 | f'4( ges'8 f'4) r8
+| f'8@c ges'8 aes'8 bes'8 aes'8 ges'8 | f'4. des'4 r8 | ges'8 ges'8. ges'16 ges'4 r8 | f'8 f'8. ges'16 f'4 r8
+| f'8 ges'8 aes'8 bes'8 aes'8 ges'8 | f'4. des'4 r8 | aes'8 ges'8 f'8 f'8 ges'8 ees'8 | f'4 ges'8 f'4 r8
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+r2. | r2. | aes8 aes8. aes16 aes4 r8 | aes8 aes8. bes16 aes4 r8
+| r2. | r2. | aes8. aes16 aes8 aes4 aes8 | aes4( bes8 aes4) r8
+| des'8@c des'8 des'8 des'8 des'8 des'8 | des'4. aes4 r8 | aes8 aes8. aes16 aes4 r8 | aes8 aes8. bes16 aes4 r8
+| des'8 des'8 des'8 des'8 des'8 des'8 | des'4. aes4 r8 | aes8 aes8 aes8 aes8 aes8 aes8 | aes4 bes8 aes4 r8
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+r2. | r2. | aes,8 aes,8. aes,16 aes,4 r8 | des8 des8. des16 des4 r8
+| r2. | r2. | aes8. aes16 aes8 aes,4 aes,8 | des4.~ des4 r8
+| des8@c des8 des8 ges8 ges8 ges8 | des4. des4 r8 | aes,8 aes,8. aes,16 aes,4 r8 | des8 des8. des16 des4 r8
+| des8 des8 des8 ges8 ges8 ges8 | des4. des4 r8 | aes8 aes8 aes8 aes,8 aes,8 aes,8 | des4.~ des4 r8
+"""
+
+[lyrics.1]
+text = "See yon -- der man in the pris -- on he dwells, @s1 List to the sto -- ry he plain -- tive -- ly tells, @s2"
+
+[parts.Tenor.lyrics.1]
+text = "@s1 @s2"
+
+[parts.Bass.lyrics.1]
+text = "@s1 @s2"
+
+[lyrics.2]
+text = "Ma -- ny dear chil -- dren are cry -- ing for bread, @s1 Fath -- er’s a drunk -- ard and moth -- er is dead, @s2"
+
+[parts.Tenor.lyrics.2]
+text = "@s1 @s2"
+
+[parts.Bass.lyrics.2]
+text = "@s1 @s2"
+
+[lyrics.3]
+text = "Heart- -- bro -- ken moth -- ers all sad and a -- lone, @s1 Help -- less and need -- y no place to call home, @s2"
+
+[parts.Tenor.lyrics.3]
+text = "@s1 @s2"
+
+[parts.Bass.lyrics.3]
+text = "@s1 @s2"
+
+[lyrics.4]
+text = "Thou -- sands re -- fuse to ac -- cept His free grace, @s1 All who re -- ject Him have cho -- sen their place, @s2"
+
+[parts.Tenor.lyrics.4]
+text = "@s1 @s2"
+
+[parts.Bass.lyrics.4]
+text = "@s1 @s2"
+
+[lyrics.chorus]
+text = "Sin is to blame for all sor -- row, Sin is to blame, sin is to blame, Have you no hopes for to -- mor -- row? Sin is to blame for it all."
+
+[parts.Alto.lyrics.chorus]
+text = "Sin is to blame for all sor -- row, Sin is to blame, sin is to blame, Have you no hopes for to -- mor -- row? Sin is to blame for it all. for al’."
+
+[parts.Tenor.lyrics.chorus]
+text = "Sin is to blame for all sor -- row, Sin is to blame, sin is to blame, Have you no hopes for to -- mor -- row? Sin is to blame for it all. for al’."
+
+[lyrics.s1]
+text = "Sin is to blame, sin is to blame,"
+
+[lyrics.s2]
+text = "Sin is to blame for all."
