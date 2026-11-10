@@ -1,0 +1,125 @@
+title = "Who Will Sing For Me"
+copyrights = [
+  "Lyrics and Music: J. T. Ely, 1922 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "C"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 84
+verse_count = 4
+phrase_breaks = ["5:48", "9:48", "13:48"]
+optional_phrase_breaks = ["15:48"]
+non_breaking_phrase_breaks = ["9:16", "16:16", "16:48", "17:16"]
+non_breaking_format_resets = ["16:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. e'8 f'8 |
+g'2~ g'4 e''8 d''8 | c''2~ c''4 c''4 | b'2~ b'8 a'8 g'8 f'8 | e'2. e'4 |
+g'2~ g'4 e''8 d''8 | c''2~ c''4 a'4 | g'4 g'4 b'4 d''4 | c''2~ c''4 c''4@c |
+d''2~ d''4 e''4 | c''2( g'4) c''4 | d''2~ d''4 f''4 | e''2( c''4) e'8 f'8 |
+g'4 g'4 a'4 g'4 | a'4 c''4 c''4! d''8 dis''8 | e''2~ e''4 d''4 | c''2~ c''4 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+splice_lyrics_into = "soprano"
+notes = """
+s2. c'8 d'8
+| e'2~ e'4 g'8 f'8 | e'2~ e'4 e'4 | d'2~ d'8 f'8 e'8 d'8 | c'2. c'4
+| e'2~ e'4 g'8 gis'8 | a'2~ a'4 dis'4 | e'4 e'4 d'4 f'4 | e'4 dis'4 e'4 e'4@c
+| f'2~ f'4 g'4 | e'2~ e'4 e'4 | f'2~ f'4 a'4 | g'2( e'4) c'8 d'8
+| e'4 e'4 f'4 e'4 | f'4 a'4 a'4! a'8 a'8 | g'2~ g'4 f'4 | e'4 dis'4 e'4 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+splice_lyrics_into = "bass"
+suppress_verses = [2, 3, 4]
+suppress_verses_when = ["soprano", "alto"]
+notes = """
+s2. r4
+| c'4 c'4 c'4 r4 | g4 g4 g4 r4 | r4 g4 g8 g8 g8 g8 | g2. r4
+| r4 c'4 c'4 c'8 c'8 | c'4 c'8 c'8 c'4 c'4 | c'4 c'4 g4 g4 | g4 a4 g4 r4@c
+| r4 b4 b4 b4 | g2( c'4) r4 | r4 b4 b4 b4 | c'2( g4) g8 g8
+| c'4 c'4 c'4 c'4 | c'4 c'4 c'4! c'8 c'8 | c'4 c'8 c'8 c'4 b4 | g4 a4 g4 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3, 4]
+suppress_verses_when = ["soprano", "alto"]
+notes = """
+s2. r4
+| c4 c4 c4 r4 | c4 c4 c4 r4 | r4 g,4 g,8 g,8 a,8 b,8 | c2. r4
+| r4 c4 c4 c8 e8 | f4 f8 f8 f4 fis4 | g4 g4 g,4 g,4 | c2~ c4 r4@c
+| r4 g4 g4 g4 | c2~ c4 r4 | r4 g4 g4 g4 | c2~ c4 c8 c8
+| c4 c4 c4 c4 | f4 f4 f4! f8 fis8 | g2~ g4 g,4 | c2~ c4 s4
+"""
+
+[lyrics.1]
+text = "Oft I sing for my friends when death’s cold form I see, But when I am called, Will some one sing for me. (for me.)"
+
+[parts.Soprano.lyrics.1]
+text = "Oft I sing for my friends when death’s cold form I see, But when I am called, Will some one sing for me."
+
+[parts.Tenor.lyrics.1]
+text = "Oft I sing for my friends when death’s cold form I see, But when I am called, I am called, Will some one sing for me. (for me.)"
+
+[parts.Bass.lyrics.1]
+text = "Oft I sing for my friends when death’s cold form I see, But when I am called, I am called, Will some one sing for me."
+
+[lyrics.2]
+text = "When the voice of my King shall call me home a -- bove, Oh, who then will sing The part -- ing song I love. (I love.)"
+
+[parts.Soprano.lyrics.2]
+text = "When the voice of my King shall call me home a -- bove, Oh, who then will sing The part -- ing song I love."
+
+[parts.Tenor.lyrics.2]
+text = "When the voice of my King shall call me home a -- bove, Oh, who then will sing then will sing The part -- ing song I love. (I love.)"
+
+[parts.Bass.lyrics.2]
+text = "When the voice of my King shall call me home a -- bove, Oh, who then will sing then will sing The part -- ing song I love."
+
+[lyrics.3]
+text = "But I know that at last with our life’s rec -- ord fair, With tri -- als all past We all shall sing up there. (up there.)"
+
+[parts.Soprano.lyrics.3]
+text = "But I know that at last with our life’s rec -- ord fair, With tri -- als all past We all shall sing up there."
+
+[parts.Tenor.lyrics.3]
+text = "But I know that at last with our life’s rec -- ord fair, With tri -- als all past all, all past We all shall sing up there. (up there.)"
+
+[parts.Bass.lyrics.3]
+text = "But I know that at last with our life’s rec -- ord fair, With tri -- als all past all, all past We all shall sing up there."
+
+[lyrics.4]
+text = "So I’ll sing till the end and help -- ful try to be, As -- sured that some friend Will sing a song for me. (for me.)"
+
+[parts.Soprano.lyrics.4]
+text = "So I’ll sing till the end and help -- ful try to be, As -- sured that some friend Will sing a song for me."
+
+[parts.Tenor.lyrics.4]
+text = "So I’ll sing till the end and help -- ful try to be, As -- sured that some friend that some friend Will sing a song for me. (for me.)"
+
+[parts.Bass.lyrics.4]
+text = "So I’ll sing till the end and help -- ful try to be, As -- sured that some friend that some friend Will sing a song for me."
+
+[lyrics.chorus]
+text = "I won -- der who will sing for me When I’m called to cross the si -- lent sea, Who will sing for me."
+
+[parts.Alto.lyrics.chorus]
+text = "I won -- der who will sing for me When I’m called to cross the si -- lent sea, Who will sing for me. (for me.)"
+
+[parts.Tenor.lyrics.chorus]
+text = "I won -- der who will sing for me When I’m called to cross the si -- lent sea, Who will sing who will sing for me. (for me.)"
