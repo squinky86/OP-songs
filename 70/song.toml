@@ -7,11 +7,12 @@ copyrights = [
 key_signature = "G"
 time_sig_numerator = 6
 time_sig_denominator = 4
-verse_count = 3
 tempo_bpm = 105
-optional_phrase_breaks = ["2:96", "6:96", "10:96", "14:80"]
+verse_count = 3
 phrase_breaks = ["4:96", "8:96", "12:96"]
+optional_phrase_breaks = ["2:96", "6:96", "10:96", "14:80"]
 non_breaking_phrase_breaks = ["9:64", "9:96", "11:64", "11:96"]
+non_breaking_format_resets = ["9:96", "10:96", "11:96"]
 
 [parts.Soprano]
 choral_type = "soprano"

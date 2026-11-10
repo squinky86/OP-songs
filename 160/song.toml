@@ -1,18 +1,19 @@
 title = "Heaven Holds All to Me"
 subtitle = "Earth Holds No Treasures"
-verse_count = 3
-key_signature = "Ab"
-time_sig_numerator = 6
-time_sig_denominator = 4
-tempo_bpm = 108
-non_breaking_phrase_breaks = ["10:32"]
-phrase_breaks = ["2:96", "6:96", "10:96", "14:96"]
-optional_phrase_breaks = ["4:96", "8:96", "10:96", "12:96"]
 copyrights = [
   "Lyrics and Music: Tillit S. Teddlie, 1916 (public domain)",
   "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "Ab"
+time_sig_numerator = 6
+time_sig_denominator = 4
+tempo_bpm = 108
+verse_count = 3
+phrase_breaks = ["2:96", "6:96", "10:96", "14:96"]
+optional_phrase_breaks = ["4:96", "8:96", "10:96", "12:96"]
+non_breaking_phrase_breaks = ["10:32"]
+non_breaking_format_resets = ["8:96"]
 
 [parts.Soprano]
 choral_type = "soprano"

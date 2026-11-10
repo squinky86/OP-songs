@@ -1,5 +1,4 @@
 title = "Come, Thou Fount of Every Blessing"
-subtitle = ""
 copyrights = [
   "Lyrics: [Robert Robinson](/blog/20260409-robert-robinson), 1758 (public domain)",
   "Music: Repository of Sacred Music Part Second, 1813 (public domain)",
@@ -11,8 +10,8 @@ time_sig_numerator = 3
 time_sig_denominator = 4
 tempo_bpm = 100
 verse_count = 5
-optional_phrase_breaks = ["3:32", "7:32", "11:32", "15:32"]
 phrase_breaks = ["5:32", "9:32", "13:32"]
+optional_phrase_breaks = ["3:32", "7:32", "11:32", "15:32"]
 commentary = "<p>For more information on the life and theological journey of the author, Robert Robinson, see the <a href=\"/blog/20260409-robert-robinson\">Prone to Wander</a> blog article.</p>"
 
 [parts.Soprano]

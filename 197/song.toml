@@ -1,5 +1,4 @@
 title = "I Will Sing the Wondrous Story"
-subtitle = ""
 copyrights = [
   "Lyrics: Francis H. Rowley, 1886 (public domain)",
   "Music: Peter P. Bilhorn, 1886 (public domain)",
@@ -13,6 +12,7 @@ verse_count = 5
 phrase_breaks = ["5:32", "9:32", "11:48", "13:48", "15:48"]
 optional_phrase_breaks = ["3:32", "7:32"]
 non_breaking_phrase_breaks = ["12:16", "12:44", "13:12", "16:44", "17:12"]
+non_breaking_format_resets = ["16:44"]
 
 [[time_sig_changes]]
 measure = 10

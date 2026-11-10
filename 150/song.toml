@@ -1,17 +1,17 @@
 title = "Do All in the Name of the Lord"
-subtitle = ""
-verse_count = 4
-key_signature = "G"
-time_sig_numerator = 6
-time_sig_denominator = 8
-tempo_bpm = 98
-optional_phrase_breaks = ["3:40", "7:40", "11:40", "15:40"]
-phrase_breaks = ["5:40", "9:40", "13:40"]
-
 copyrights = [
   "Lyrics and Music: Austin Taylor, 1916 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "G"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 98
+verse_count = 4
+phrase_breaks = ["5:40", "9:40", "13:40"]
+optional_phrase_breaks = ["3:40", "7:40", "11:40", "15:40"]
+non_breaking_phrase_breaks = ["8:48", "16:48"]
+non_breaking_format_resets = ["7:40"]
 
 [parts.Soprano]
 choral_type = "soprano"

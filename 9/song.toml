@@ -1,5 +1,4 @@
 title = "All Hail the Power of Jesus' Name"
-subtitle = ""
 copyrights = [
   "Lyrics: Edward Perronet, 1779 (public domain)",
   "Music: 'Coronation' by Oliver Holden, 1793 (public domain)",
@@ -10,8 +9,8 @@ time_sig_numerator = 4
 time_sig_denominator = 4
 tempo_bpm = 106
 verse_count = 4
-optional_phrase_breaks = ["3:48", "7:48", "12:48"]
 phrase_breaks = ["5:48", "10:48"]
+optional_phrase_breaks = ["3:48", "7:48", "12:48"]
 
 [parts.Soprano]
 choral_type = "soprano"

@@ -1,5 +1,4 @@
 title = "Great Is Thy Faithfulness"
-phrase_breaks = ["4:48", "8:48", "12:48", "16:48", "20:48", "24:48", "28:48"]
 copyrights = [
   "Lyrics: Thomas O. Chisholm, 1923 (public domain)",
   "Music: 'Faithfulness (Runyan)' by William M. Runyan, 1923 (public domain)",
@@ -11,6 +10,7 @@ time_sig_numerator = 3
 time_sig_denominator = 4
 tempo_bpm = 100
 verse_count = 3
+phrase_breaks = ["4:48", "8:48", "12:48", "16:48", "20:48", "24:48", "28:48"]
 
 [parts.Soprano]
 choral_type = "soprano"

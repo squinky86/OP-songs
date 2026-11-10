@@ -1,17 +1,17 @@
 title = "Hallelujah! We Shall Rise"
-subtitle = ""
-key_signature = "Bb"
-time_sig_numerator = 4
-time_sig_denominator = 4
-verse_count = 4
-tempo_bpm = 100
-phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "12:48", "13:48", "14:48"]
-optional_phrase_breaks = ["2:48", "6:48", "11:48"]
-non_breaking_phrase_breaks = ["4:48", "4:64", "5:16", "8:16", "8:48", "8:64", "9:16", "15:16", "15:48"]
 copyrights = [
   "Lyrics and Music: J. E. Thomas, 1904 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "Bb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 4
+phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "12:48", "13:48", "14:48"]
+optional_phrase_breaks = ["2:48", "6:48", "11:48"]
+non_breaking_phrase_breaks = ["4:48", "4:64", "5:16", "8:16", "8:48", "8:64", "9:16", "15:16", "15:48"]
+non_breaking_format_resets = ["4:48"]
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -45,33 +45,6 @@ notes = """
 s2. bes,8 bes,8 | bes,8 bes,8 bes,8 bes,8 bes,8 bes,8 bes,8 bes,8 | bes,8 bes,8 bes,8 bes,8 bes,4 r4 | r4 g8. g16 d8 d8 f8 f8 | bes,2. bes,8 bes,8 | bes,8 bes,8 bes,8 bes,8 bes,8 bes,8 bes,8 bes,8 | bes,8 bes,8 bes,8 bes,8 bes,4 r4 | r4 g8. g16 d8 d8 f8 f8 | bes,2. bes,8@c d8 | f2. d8 f8 | bes2. r4 | r4 bes8. bes16 bes8 bes8 bes,8 bes,8 | ees8 ees8 ees8 ees8 bes,8 bes,8 bes,8 bes,8 | bes,8 bes,8 bes,8 bes,8 bes,8 bes,8 r4 | r4 g8. g16 d8 d8 f8 f8 | bes,2. s4
 """
 
-[parts.Alto.lyrics.s1]
-text = "Hal -- le -- lu -- jah! We shall rise! We shall rise!"
-
-[parts.Alto.lyrics.s2]
-text = "We shall rise! Hal -- le -- lu -- jah! In that morn -- ing we shall rise!"
-
-[parts.Alto.lyrics.chorus]
-text = "Hal -- le -- lu -- jah! A -- men! Hal -- le -- lu -- jah! In the res -- ur -- rec -- tion morn -- ing When death’s pri -- son bars are brok -- en, We shall rise! Hal -- le -- lu -- jah! We shall rise!"
-
-[parts.Tenor.lyrics.s1]
-text = "Hal -- le -- lu -- jah! We shall rise! We shall rise!"
-
-[parts.Tenor.lyrics.s2]
-text = "Hal -- le -- lu -- jah! In that morn -- ing we shall rise!"
-
-[parts.Tenor.lyrics.chorus]
-text = "Hal -- le -- lu -- jah! A -- men! Hal -- le -- lu -- jah! In the res -- ur -- rec -- tion morn -- ing When death’s pri -- son bars are brok -- en, Hal -- le -- lu -- jah! We shall rise!"
-
-[parts.Bass.lyrics.s1]
-text = "Hal -- le -- lu -- jah! We shall rise!"
-
-[parts.Bass.lyrics.s2]
-text = "Hal -- le -- lu -- jah! We shall rise!"
-
-[parts.Bass.lyrics.chorus]
-text = "We shall rise! We shall rise! Hal -- le -- lu -- jah! In the res -- ur -- rec -- tion morn -- ing When death’s pri -- son bars are brok -- en, Hal -- le -- lu -- jah! We shall rise!"
-
 [lyrics.1]
 text = "​In the res -- ur -- rec -- tion morn -- ing, When the trump of God shall sound, @s1 Then the saints will come re -- joic -- ing, And no tears will e’er be found, @s2"
 
@@ -84,11 +57,38 @@ text = "In the res -- ur -- rec -- tion morn -- ing, Bless -- èd thought it is 
 [lyrics.4]
 text = "In the res -- ur -- rec -- tion morn -- ing, We shall meet Him in the air, @s1 And be car -- ried up to glo -- ry, To our home so bright and fair, @s2"
 
+[lyrics.chorus]
+text = "Hal -- le -- lu -- jah! A -- men! We shall rise! In the res -- ur -- rec -- tion morn -- ing When death’s pri -- son bars are brok -- en, We shall rise! We shall rise!"
+
+[parts.Alto.lyrics.chorus]
+text = "Hal -- le -- lu -- jah! A -- men! Hal -- le -- lu -- jah! In the res -- ur -- rec -- tion morn -- ing When death’s pri -- son bars are brok -- en, We shall rise! Hal -- le -- lu -- jah! We shall rise!"
+
+[parts.Tenor.lyrics.chorus]
+text = "Hal -- le -- lu -- jah! A -- men! Hal -- le -- lu -- jah! In the res -- ur -- rec -- tion morn -- ing When death’s pri -- son bars are brok -- en, Hal -- le -- lu -- jah! We shall rise!"
+
+[parts.Bass.lyrics.chorus]
+text = "We shall rise! We shall rise! Hal -- le -- lu -- jah! In the res -- ur -- rec -- tion morn -- ing When death’s pri -- son bars are brok -- en, Hal -- le -- lu -- jah! We shall rise!"
+
 [lyrics.s1]
 text = "We shall rise! We shall rise!"
+
+[parts.Alto.lyrics.s1]
+text = "Hal -- le -- lu -- jah! We shall rise! We shall rise!"
+
+[parts.Tenor.lyrics.s1]
+text = "Hal -- le -- lu -- jah! We shall rise! We shall rise!"
+
+[parts.Bass.lyrics.s1]
+text = "Hal -- le -- lu -- jah! We shall rise!"
 
 [lyrics.s2]
 text = "We shall rise! We shall rise!"
 
-[lyrics.chorus]
-text = "Hal -- le -- lu -- jah! A -- men! We shall rise! In the res -- ur -- rec -- tion morn -- ing When death’s pri -- son bars are brok -- en, We shall rise! We shall rise!"
+[parts.Alto.lyrics.s2]
+text = "We shall rise! Hal -- le -- lu -- jah! In that morn -- ing we shall rise!"
+
+[parts.Tenor.lyrics.s2]
+text = "Hal -- le -- lu -- jah! In that morn -- ing we shall rise!"
+
+[parts.Bass.lyrics.s2]
+text = "Hal -- le -- lu -- jah! We shall rise!"

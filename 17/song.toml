@@ -1,5 +1,4 @@
 title = "Just As I Am Without One Plea"
-phrase_breaks = ["3:80", "5:80", "7:80"]
 copyrights = [
   "Lyrics: Charlotte Elliott, 1835 (public domain)",
   "Music: 'Woodworth' by William B. Bradbury, 1849 (public domain)",
@@ -12,6 +11,8 @@ time_sig_numerator = 6
 time_sig_denominator = 4
 tempo_bpm = 100
 verse_count = 6
+phrase_breaks = ["5:80"]
+optional_phrase_breaks = ["3:80", "7:80"]
 
 [parts.Soprano]
 choral_type = "soprano"

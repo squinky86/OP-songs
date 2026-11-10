@@ -1,5 +1,4 @@
 title = "Childhood's Years Are Passing o'er Us"
-phrase_breaks = ["2:64", "4:64", "6:64"]
 copyrights = [
   "Lyrics: William Dickson, 1841 (public domain)",
   "Music: William Howard Doane, 1883 (public domain)",
@@ -11,6 +10,8 @@ time_sig_numerator = 4
 time_sig_denominator = 4
 tempo_bpm = 110
 verse_count = 4
+phrase_breaks = ["4:64"]
+optional_phrase_breaks = ["2:64", "6:64"]
 
 [parts.Soprano]
 choral_type = "soprano"
