@@ -1,0 +1,93 @@
+title = "Gospel Waves"
+copyrights = [
+  "Lyrics: Mrs. E. Greer Floyd, 1908 (public domain)",
+  "Music: Carl Donaho, 1908 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "E"
+time_sig_numerator = 12
+time_sig_denominator = 8
+tempo_bpm = 96
+verse_count = 3
+phrase_breaks = ["3:72", "5:72", "7:72", "9:72", "11:72", "13:72", "15:72"]
+non_breaking_phrase_breaks = ["16:64", "17:24"]
+interleave_verse_lyrics = true
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. s4. e'8 fis'8 gis'8 | b'2.~ b'4 gis'8 cis''8 b'8 gis'8 | b'2.~ b'4. gis'8 fis'8 e'8 |
+gis'2.~ gis'4 gis'8 gis'8[ a'8] b'8 | fis'2.~ fis'4. e'8 fis'8 gis'8 | b'2.~ b'4 gis'8 cis''8 b'8 gis'8 |
+b'2.~ b'4. gis'8 fis'8 e'8 | gis'2.~ gis'4 e'8 fis'8 gis'8 fis'8 | e'2.~ e'4. b'8@c cis''8 dis''8 |
+e''2.~ e''4 b'8 cis''8[ b'8] gis'8 | b'2.~ b'4. b'8 cis''8 dis''8 | e''2.~ e''4 b'8 cis''8 b'8 gis'8 |
+fis'2.~ fis'4. e'8 fis'8 gis'8 | b'2.~ b'4 gis'8 cis''8 b'8[ gis'8] | b'2.~ b'4. gis'8 fis'8 e'8 |
+gis'2.~ gis'4 e'8 fis'8 gis'8 fis'8 | e'2.~ e'4. s4.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. s4. r4. | gis'4. gis'4. gis'4 r8 r4. | gis'4. gis'4. gis'4. r4. |
+e'4. e'4. e'4 r8 r4. | dis'4. dis'4. dis'4. r4. | gis'4. gis'4. gis'4 r8 r4. |
+gis'4. gis'4. gis'4. r4. | e'4. e'4. e'4 r8 r4. | e'4. cis'4. b4. r4.@c |
+gis'4. gis'4. gis'4 r8 r4. | gis'4. gis'4. gis'4. r4. | gis'4. gis'4. gis'4 r8 r4. |
+dis'4. dis'4. dis'4. r4. | gis'4. gis'4. gis'4 r8 r4. | gis'4. gis'4. gis'4. r4. |
+e'4. e'4. e'4 e'8 dis'8 e'8 dis'8 | e'4. cis'4. b4. s4.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. s4. r4. | e'4. e'4. e'4 r8 r4. | e'4. e'4. e'4. r4. |
+cis'4. cis'4. cis'4 r8 r4. | b4. b4. b4. r4. | e'4. e'4. e'4 r8 r4. |
+e'4. e'4. e'4. r4. | cis'4. cis'4. cis'4 r8 r4. | gis4. a4. gis4. r4.@c |
+b4. b4. b4 r8 r4. | e'4. e'4. e'4. r4. | b4. b4. b4 r8 r4. |
+b4. b4. b4. r4. | e'4. e'4. e'4 r8 r4. | e'4. e'4. e'4. r4. |
+cis'4. cis'4. cis'4 gis8 a8 b8 a8 | gis4. a4. gis4. s4.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. s4. r4. | e4. e4. e4 r8 r4. | e4. e4. e4. r4. |
+cis4. cis4. cis4 r8 r4. | b,4. b,4. b,4. r4. | e4. e4. e4 r8 r4. |
+e4. e4. e4. r4. | cis4. cis4. cis4 r8 r4. | e4. e4. e4. r4.@c |
+e4. e4. e4 r8 r4. | e4. e4. e4. r4. | e4. e4. e4 r8 r4. |
+b,4. b,4. b,4. r4. | e4. e4. e4 r8 r4. | e4. e4. e4. r4. |
+cis4. cis4. cis4 cis8 b,8 b,8 b,8 | e2.~ e4. s4.
+"""
+
+[lyrics.1]
+text = "Sa -- cred shore! Gal -- i -- lee! Fierce -- ly raged! Dark and wild! Peace be still! Ev -- en me; Je -- sus speaks! Trust in me."
+
+[parts.Soprano.lyrics.1]
+text = "Up from the shore of far Gal -- i -- lee, Where the storm raged so dark and wild, Gos -- pel waves roll a mes -- sage to me, Fear not, ’tis I, O, wa -- ver -- ing child."
+
+[lyrics.2]
+text = "Where a -- lone, Je -- sus wept! Je -- sus wept! Pros -- trate lay! Ev -- er roll! Here be -- low, Trust His love, Praise His name"
+
+[parts.Soprano.lyrics.2]
+text = "Out of Geth -- sem -- ’na’s gar -- den of woe, Where the Lord wept in pain and grief, Gos -- pel waves roll to all here be -- low, Bear -- ing sweet com -- fort, bring -- ing re -- lief."
+
+[lyrics.3]
+text = "Earth, be -- hold! Hear Him cry! Won -- drous grace! Bound -- less love! Ev -- er roll! Sound His praise, Might -- y pow’r! Je -- sus reigns."
+
+[parts.Soprano.lyrics.3]
+text = "From the dread scene on Cal -- va -- ry’s height, When Je -- sus died the world to save, Gos -- pel waves roll in splen -- dor and might, Roll on in pow’r o’er death and the grave."
+
+[lyrics.chorus]
+text = "Ev -- er roll Pow’r and might! O’er the earth! Won -- drous light! Swift -- ly roll! Cal -- v’ry’s stream! He’ll re -- deem, The Lord will re -- deem. re -- deem."
+
+[parts.Soprano.lyrics.chorus]
+text = "Gos -- pel waves roll in pow’r and might, Bear o’er the earth the mes -- sage of light, Gos -- pel waves roll on Cal -- v’ry’s stream! Sing, O my soul, The Lord will re -- deem."
+
+[parts.Bass.lyrics.chorus]
+text = "Ev -- er roll Pow’r and might! O’er the earth! Won -- drous light! Swift -- ly roll! Cal -- v’ry’s stream! He’ll re -- deem, The Lord will re -- deem."
