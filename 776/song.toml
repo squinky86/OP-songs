@@ -1,0 +1,120 @@
+# Source: Tidings of Joy (1928), TJ #173, page 174 (plate prints "No." with no number):
+# seven-shape closed-score SATB. Notes and all lyrics read from that plate scan.
+# Plate credits: words "LIZZIE DeARMOND.", music "C. C. STAFFORD."; footer "C. C. Stafford, owner."
+# No copyright year on the plate. 1916 is hymnary's earliest instance of the text
+# (The Eureka Song Climax #136, 1916); used for both words and music.
+# Key A-flat (4 flats), 6/4, as printed. No tempo printed: 108 bpm is a guess.
+# Form: 3 stanzas + refrain, written straight through (no repeats).
+# Stanza echo: Alto and Tenor answer each stanza's last word "(I love.)" /
+# "(complete.)" / "(and King.)" in bar 8 while Soprano and Bass hold. The plate prints no
+# rest on the Alto/Tenor beat 2 of bar 8; one is written to fill the bar.
+# Refrain: the Soprano holds "Joy…", "Je…", "Ev…" (top lyric row); Alto, Tenor
+# and Bass sing the lower row in quarters ("Joy to my heart He doth ev-er more bring…").
+# In bars 14-16 the plate's lower row prints only "sing," and "re-deemed me for aye!".
+# Editorial inference: Alto/Tenor sing "He hath re-deemed me, re-deemed me for aye!"
+# ("re-" printed before the last barline, under bar 15 beat 6). The Bass holds the
+# final note with the Soprano, so it sings "He hath re-deemed me for aye!"
+# Plate misprint fixed: bar 13 Soprano beat 4 (tied Eb5) prints a hollow head. Read as
+# a quarter, like the parallel bars 9 and 11, so the bar adds up.
+# Bar 14: a small arc joins the Soprano's C5 and Db5. The lyric "He" is printed under
+# the Db5, so it is sung, not slurred.
+title = "Joy To My Heart"
+copyrights = [
+  "Lyrics: Lizzie DeArmond, 1916 (public domain)",
+  "Music: C. C. Stafford, 1916 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 6
+time_sig_denominator = 4
+tempo_bpm = 108
+verse_count = 3
+phrase_breaks = ["2:96", "4:96", "8:96", "12:96"]
+optional_phrase_breaks = ["6:96", "10:96"]
+non_breaking_phrase_breaks = ["8:32", "13:80", "14:96", "15:80", "16:16"]
+non_breaking_format_resets = ["14:96"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+ees'4 c''4 bes'4 aes'4 g'4 f'4 | ees'4 c'4 des'4 ees'2. | ees'4 c''4 bes'4 aes'4 g'4 f'4 | ees'4 f'4 aes'4 g'2. |
+des''4 c''4 bes'4 aes'4 g'4 f'4 | ees'4 c'4 des'4 ees'2( aes'4) | g'4 f'4 g'4 bes'4 aes'4 f'4 | ees'2.~ ees'2! r4 |
+c''2.~@c c''4 bes'4 aes'4 | bes'4 aes'4 f'4 g'2. | des''2.~ des''4 c''4 bes'4 | aes'4 g'4 f'4 ees'2. |
+ees''2.~ ees''4 des''4 c''4 | bes'4 aes'4 bes'4 c''2!( des''4!) | c''4 bes'4 aes'4 bes'4 aes'4 g'4 | aes'2.~ aes'2 r4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+splice_lyrics_into = "soprano"
+notes = """
+c'4 ees'4 des'4 c'4 c'4 c'4 | c'4 aes4 bes4 c'2. | c'4 ees'4 des'4 c'4 c'4 c'4 | c'4 des'4 ees'4 ees'2. |
+bes'4 aes'4 g'4 f'4 ees'4 des'4 | c'4 aes4 bes4 c'2( ees'4) | des'4 des'4 des'4 d'4 d'4 d'4 | ees'4 r4 c'4 des'2! r4 |
+aes'4@c g'4 f'4 ees'4 des'4 c'4 | des'4 c'4 c'4 des'2. | bes'4 aes'4 g'4 f'4 ees'4 des'4 | d'4 d'4 d'4 ees'2. |
+c''4 bes'4 aes'4 g'4 f'4 ees'4 | f'4 f'4 f'4 e'2!( ees'4!) | ees'4 g'4 f'4 ees'4 ees'4 des'4 | c'4 ees'4 des'4 c'2 r4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+splice_lyrics_into = "bass"
+notes = """
+aes4 g4 f4 ees4 f4 g4 | aes4 ees4 ees4 aes2. | aes4 g4 f4 ees4 f4 g4 | aes4 aes4 c'4 bes2. |
+g4 aes4 bes4 c'4 bes4 g4 | aes4 ees4 ees4 aes2( c'4) | bes4 bes4 bes4 f4 f4 aes4 | g4 r4 aes4 bes2! r4 |
+ees4@c f4 g4 aes4 g4 f4 | ees4 ees4 ees4 ees2. | g4 aes4 bes4 g4 aes4 bes4 | bes4 bes4 aes4 g2. |
+ees'4 des'4 c'4 bes4 aes4 aes4 | aes4 aes4 f4 g2.! | aes4 bes4 c'4 des'4 c'4 bes4 | aes4 g4 f4 ees2 r4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+aes,4 aes,4 aes,4 aes,4 aes,4 aes,4 | aes,4 aes,4 aes,4 aes,2. | aes,4 aes,4 aes,4 aes,4 aes,4 aes,4 | aes,4 aes,4 aes,4 ees2. |
+ees4 ees4 ees4 ees4 ees4 ees4 | aes,4 aes,4 aes,4 aes,2. | bes,4 bes,4 bes,4 bes,4 bes,4 bes,4 | ees2.~ ees2! r4 |
+aes,4@c aes,4 aes,4 aes,4 aes,4 aes,4 | aes,4 aes,4 a,4 bes,2. | ees4 ees4 ees4 ees4 ees4 ees4 | bes,4 bes,4 bes,4 ees2. |
+aes4 aes4 aes4 aes4 aes4 c4 | des4 des4 des4 c2!( bes,4!) | ees4 ees4 ees4 ees4 ees4 ees4 | aes,2.~ aes,2 r4
+"""
+
+[lyrics.1]
+text = "O -- ver and o -- ver His prais -- es I’ll sing, Joy ev -- er -- last -- ing to me He doth bring; Stoop -- ing to save me in glo -- ry a -- bove, Je -- sus the Sav -- ior I love."
+
+[parts.Alto.lyrics.1]
+text = "O -- ver and o -- ver His prais -- es I’ll sing, Joy ev -- er -- last -- ing to me He doth bring; Stoop -- ing to save me in glo -- ry a -- bove, Je -- sus the Sav -- ior I love. (I love.)"
+
+[parts.Tenor.lyrics.1]
+text = "O -- ver and o -- ver His prais -- es I’ll sing, Joy ev -- er -- last -- ing to me He doth bring; Stoop -- ing to save me in glo -- ry a -- bove, Je -- sus the Sav -- ior I love. (I love.)"
+
+[lyrics.2]
+text = "O what a won -- der -- ful sto -- ry to tell, How in my heart doth the bless -- ed Lord dwell; Life once so drear -- y is hap -- py and sweet, Full of new glad -- ness com -- plete."
+
+[parts.Alto.lyrics.2]
+text = "O what a won -- der -- ful sto -- ry to tell, How in my heart doth the bless -- ed Lord dwell; Life once so drear -- y is hap -- py and sweet, Full of new glad -- ness com -- plete. (com -- plete.)"
+
+[parts.Tenor.lyrics.2]
+text = "O what a won -- der -- ful sto -- ry to tell, How in my heart doth the bless -- ed Lord dwell; Life once so drear -- y is hap -- py and sweet, Full of new glad -- ness com -- plete. (com -- plete.)"
+
+[lyrics.3]
+text = "I shall be like Him some fu -- ture bright day, When in His beau -- ty I’ll see Him for aye; O -- ver and o -- ver His prais -- es I’ll sing, Je -- sus, Re -- deem -- er and King."
+
+[parts.Alto.lyrics.3]
+text = "I shall be like Him some fu -- ture bright day, When in His beau -- ty I’ll see Him for aye; O -- ver and o -- ver His prais -- es I’ll sing, Je -- sus, Re -- deem -- er and King. (and King.)"
+
+[parts.Tenor.lyrics.3]
+text = "I shall be like Him some fu -- ture bright day, When in His beau -- ty I’ll see Him for aye; O -- ver and o -- ver His prais -- es I’ll sing, Je -- sus, Re -- deem -- er and King. (and King.)"
+
+[lyrics.chorus]
+text = "Joy to my heart He doth bring, Je -- sus my Sav -- ior and King; Ev -- er His prais -- es I’ll sing, He hath re -- deemed me for aye!"
+
+[parts.Alto.lyrics.chorus]
+text = "Joy to my heart He doth ev -- er more bring, Je -- sus my Sav -- ior and heav -- en -- ly King; Ev -- er His prais -- es, His prais -- es I’ll sing, He hath re -- deemed me re -- deemed me for aye!"
+
+[parts.Tenor.lyrics.chorus]
+text = "Joy to my heart He doth ev -- er more bring, Je -- sus my Sav -- ior and heav -- en -- ly King; Ev -- er His prais -- es, His prais -- es I’ll sing, He hath re -- deemed me re -- deemed me for aye!"
+
+[parts.Bass.lyrics.chorus]
+text = "Joy to my heart He doth ev -- er more bring, Je -- sus my Sav -- ior and heav -- en -- ly King; Ev -- er His prais -- es, His prais -- es I’ll sing, He hath re -- deemed me for aye!"
