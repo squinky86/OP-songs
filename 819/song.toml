@@ -1,0 +1,86 @@
+title = "After All"
+copyrights = [
+  "Lyrics: A. C. Benge, 1908 (public domain)",
+  "Music: Woodie W. Smith, 1908 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "C"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 90
+verse_count = 4
+phrase_breaks = ["5:40", "9:48", "13:40"]
+optional_phrase_breaks = ["3:40", "7:48", "15:48"]
+non_breaking_phrase_breaks = ["12:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. s4 g'8 |
+g'4 g'8 c''4 a'8 | g'4 a'8 g'4 g'8 | g'4 f'8 f'4 d'8 | e'4 f'8 g'4! g'8 |
+g'4 g'8 e''4 d''8 | c''4 a'8 c''4.! | a'4\\rit a'8 g'4. | c''4 b'8 c''4.\\spanend |
+c''4.~@c c''8[ b'8] a'8 | g'4.~ g'4 r8 | b'4.~ b'8[ c''8] d''8 | c''4.~ c''4 g'8 |
+g'4 g'8 e''4 d''8 | c''4 a'8 c''4.! | a'4\\rit a'8 g'4. | c''4 b'8 c''4.!\\spanend
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. s4 e'8 |
+e'4 e'8 e'4 f'8 | e'4 f'8 e'4 e'8 | e'4 d'8 d'4 b8 | c'4 d'8 e'4! e'8 |
+e'4 e'8 g'4 gis'8 | a'4 f'8 f'4.! | f'4 f'8 e'4. | e'4 d'8 e'4. |
+f'4.@c( a'8[ g'8]) f'8 | e'4.~ e'4 r8 | d'4.~ d'8[ e'8] f'8 | e'4 f'8 e'4 e'8 |
+e'4 e'8 g'4 gis'8 | a'4 f'8 f'4.! | f'4 f'8 e'4. | e'4 d'8 e'4.!
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. s4 c'8 |
+c'4 c'8 g4 c'8 | c'4 c'8 c'4 c'8 | b4 g8 g4 g8 | g4 g8 c'4! c'8 |
+c'4 c'8 c'4 c'8 | c'4 c'8 a4.! | c'4 c'8 c'4. | g4 g8 g4. |
+a4@c a8 c'4 r8 | c'4 c'8 c'4 r8 | g4 g8 g4 r8 | g4 a8 g4 c'8 |
+c'4 c'8 c'4 c'8 | c'4 c'8 a4.! | c'4 c'8 c'4. | g4 g8 g4.!
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. s4 c8 |
+c4 c8 c4 c8 | c4 c8 c4 c8 | g4 g8 g4 g,8 | c4 c8 c4! c8 |
+c4 c8 c4 e8 | f4 f8 f4.! | f4 f8 g4. | g,4 g,8 c4. |
+f4@c f8 f4 r8 | c4 c8 c4 r8 | g,4 g,8 g,4 r8 | c4 c8 c4 c8 |
+c4 c8 c4 e8 | f4 f8 f4.! | f4 f8 g4. | g,4 g,8 c4.!
+"""
+
+[lyrics.1]
+text = "Al -- though our lives be filled with bliss, With floods of joy and hap -- pi -- ness, There’ll be a bright -- er world than this, Aft -- er all, aft -- er all. @s1 There’ll be a bright -- er world than this, Aft -- er all, aft -- er all."
+
+[lyrics.2]
+text = "Our earth -- ly joys shall pass a -- way, Just like the fleet -- ing of a day, But we with Christ shall live for aye, Aft -- er all, aft -- er all. @s1 But we with Christ shall live for aye, Aft -- er all, aft -- er all."
+
+[lyrics.3]
+text = "Tho’ oft in sor -- row we be cast, Trust Christ our Lord, it can not last, For in yon clime ’twill all be past, Aft -- er all, aft -- er all. @s1 For in yon clime ’twill all be past, Aft -- er all, aft -- er all."
+
+[lyrics.4]
+text = "The dark -- est night shall turn to day, And sor -- row’s clouds shall pass a -- way, With Christ we’ll live an end -- less day, Aft -- er all, aft -- er all. @s1 With Christ we’ll live an end -- less day, Aft -- er all, aft -- er all."
+
+[lyrics.s1]
+text = "Aft -- er all, aft -- er all,"
+
+[parts.Alto.lyrics.s1]
+text = "Aft -- er all, aft -- er aft -- er all,"
+
+[parts.Tenor.lyrics.s1]
+text = "Aft -- er all, aft -- er all, aft -- er all, aft -- er all,"
+
+[parts.Bass.lyrics.s1]
+text = "Aft -- er all, aft -- er all, aft -- er all, aft -- er all,"
