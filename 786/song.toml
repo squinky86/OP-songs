@@ -1,0 +1,69 @@
+title = "I Am the Vine"
+copyrights = [
+  "Lyrics and Music: Knowles Shaw, 1877 (public domain)",
+  "Arrangement: E. L. Jorgenson, 1921 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "D"
+time_sig_numerator = 9
+time_sig_denominator = 8
+tempo_bpm = 96
+verse_count = 3
+phrase_breaks = ["3:48", "5:48", "9:48", "13:48"]
+optional_phrase_breaks = ["7:48", "11:48", "15:40"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. d'8 fis'8 a'8 | a'4. fis'4. e'8 d'8 e'8 | fis'4. d'4. d'8 fis'8 a'8 | d''4. a'4. b'8 b'8 b'8
+| a'4.~ a'4 r8 a'8 fis'8 a'8 | d''4. a'4. b'8 b'8 b'8 | a'4. fis'4. d'8 fis'8 a'8 | a'4. fis'4. e'8 d'8 e'8
+| d'2. d''8@c d''8 d''8 | d''4. a'4. b'8 b'8 b'8 | a'4. fis'4. d''8 d''8 d''8 | d''4. a'4. b'8 b'8 b'8
+| a'2. a'8 a'8 b'8 | a'4. fis'4. e'8 d'8 e'8 | fis'4. d'4 a'8 b'8 b'8 b'8 | a'4. fis'4. e'8 d'8 e'8 | d'4.~ d'4 r8 s4.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. d'8 d'8 d'8 | d'4. d'4. cis'8 d'8 cis'8 | d'4. d'4. d'8 d'8 fis'8 | fis'4. fis'4. g'8 g'8 g'8
+| fis'4.~ fis'4 r8 fis'8 d'8 fis'8 | fis'4. fis'4. g'8 g'8 g'8 | fis'4. d'4. d'8 d'8 d'8 | d'4. d'4. cis'8 a8 cis'8
+| d'2. fis'8@c fis'8 fis'8 | fis'4. fis'4. g'8 g'8 g'8 | fis'4. d'4. fis'8 fis'8 fis'8 | fis'4. fis'4. g'8 g'8 g'8
+| fis'2. fis'8 fis'8 g'8 | fis'4. d'4. cis'8 d'8 cis'8 | d'4. d'4 d'8 d'8 d'8 d'8 | d'4. d'4. cis'8 d'8 cis'8 | d'4.~ d'4 r8 s4.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. fis8 a8 fis8 | fis4. a4. g8 fis8 g8 | a4. fis4. fis8 a8 d'8 | a4. d'4. d'8 d'8 d'8
+| d'4.~ d'4 r8 d'8 a8 a8 | a4. d'4. d'8 d'8 d'8 | d'4. a4. fis8 a8 fis8 | fis4. a4. g8 fis8 g8
+| fis2. a8@c a8 a8 | a4. d'4. d'8 d'8 d'8 | d'4. a4. a8 a8 a8 | a4. d'4. d'8 d'8 d'8
+| d'2. d'8 d'8 d'8 | d'4. a4. g8 fis8 g8 | a4. fis4 fis8 g8 g8 g8 | fis4. a4. g8 fis8 g8 | fis4.~ fis4 r8 s4.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. d8 d8 d8 | d4. d4. a,8 a,8 a,8 | d4. d4. d8 d8 d8 | d4. d4. g8 g8 g8
+| d4.~ d4 r8 d8 d8 d8 | d4. d4. g8 g8 g8 | d4. d4. d8 d8 d8 | d4. d4. a,8 a,8 a,8
+| d2. d8@c d8 d8 | d4. d4. g8 g8 g8 | d4. d4. d8 d8 d8 | d4. d4. g8 g8 g8
+| d2. d8 d8 d8 | d4. d4. a,8 a,8 a,8 | d4. d4 d8 d8 d8 d8 | d4. d4. a,8 a,8 a,8 | d4.~ d4 r8 s4.
+"""
+
+[lyrics.1]
+text = "“I am the vine and ye are the branch -- es,” Bear pre -- cious fruit for Je -- sus to -- day; Branch -- es in Him no fruit ev -- er bear -- ing, Je -- sus hath said, “He tak -- eth a -- way.”"
+
+[lyrics.2]
+text = "“Now ye are clean thro’ words I have spo -- ken, Liv -- ing in Me, much fruit ye shall bear; Dwell -- ing in you, My prom -- ise un -- bro -- ken, Glo -- ry in heav’n with Me ye shall share.”"
+
+[lyrics.3]
+text = "Yes, by your fruits the world is to know you, Walk -- ing in love as chil -- dren of day; Fol -- low your Guide, He pass -- eth be -- fore you, Lead -- ing to realms of glo -- ri -- ous day."
+
+[lyrics.chorus]
+text = "“I am the vine and ye are the branch -- es; I am the vine, be faith -- ful and true; Ask what ye will, your pray’r shall be grant -- ed, The Fa -- ther loved Me, so I have loved you.”"
