@@ -1,0 +1,86 @@
+title = "A Burning and a Shining Light"
+copyrights = [
+  "Lyrics: Eliza E. Hewitt, 1912 (public domain)",
+  "Music: William J. Kirkpatrick, 1912 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 4
+phrase_breaks = ["5:48", "9:64", "11:64", "13:48"]
+optional_phrase_breaks = ["3:56", "7:56", "15:56"]
+non_breaking_phrase_breaks = ["10:16", "10:32", "10:48", "12:16", "12:32", "12:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. d'4 | g'4 b'4 b'4 g'8[ fis'8] | e'4 c''4 c''4. c''8 | b'8 b'8 g'8 a'8 b'4 d''4
+| d''2. c''4 | b'4 d''4 d''4 g'8[ fis'8] | e'4 c''4 c''4. c''8 | b'8 b'8 g'8 a'8 b'4 a'4
+| g'2. r4 | b'8@c d''4. e''8 d''8 b'8 c''8 | d''4 d''4 d''2 | c''8 c''4. c''8 e''8 d''8 c''8
+| b'4 ais'4 b'4 d'4 | g'4 b'4 b'4 g'8[ fis'8] | e'4 e''4 e''4. e''8 | d''8 d''8 b'8 a'8 g'4 a'4
+| g'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. d'4 | d'4 g'4 g'4 d'4 | c'4 e'4 e'4. g'8 | g'8 g'8 g'8 g'8 g'4 g'4
+| fis'2. fis'4 | d'4 g'4 g'4 d'4 | c'4 e'4 e'4. g'8 | g'8 g'8 g'8 g'8 g'4 fis'4
+| g'2. r4 | g'2~@c g'8 g'8 g'8 g'8 | g'4 fis'4 g'2 | fis'2~ fis'8 fis'8 fis'8 fis'8
+| g'4 g'4 g'4 d'4 | d'4 g'4 g'4 d'4 | e'4 g'4 g'4. g'8 | g'8 g'8 g'8 fis'8 e'4 fis'4
+| g'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. b4 | b4 d'4 d'4 g4 | g4 g4 g4. e'8 | d'8 d'8 b8 c'8 d'4 b4
+| a2. d'4 | d'4 b4 b4 g4 | g4 g4 g4. e'8 | d'8 d'8 b8 c'8 d'4 c'4
+| b2. r4 | d'8@c b8 b8 b8 c'8 b8 g8 a8 | b4 c'4 d'2 | d'8 d'8 d'8 d'8 d'8 d'8 d'8 d'8
+| d'4 cis'4 d'4 c'4 | b4 d'4 d'4 g4 | g4 c'4 c'4. c'8 | b8 b8 d'8 c'8 b4 c'4
+| b2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. g4 | g4 g4 g4 b,4 | c4 c4 c4. c8 | g8 g8 g8 g8 g4 g4
+| d2. d4 | g4 g4 g4 b,4 | c4 c4 c4. c8 | d8 d8 d8 d8 d4 d4
+| g,2. r4 | g8@c g8 g8 g8 g8 g8 g8 g8 | g4 a4 b2 | a8 a8 d8 d8 a8 a8 d8 d8
+| g4 g4 g4 d4 | g,4 g4 g4 b,4 | c4 c4 c4. c8 | d8 d8 d8 d8 e4 d4
+| g,2. s4
+"""
+
+[lyrics.1]
+text = "Make me, O Lord, by grace di -- vine, A burn -- ing and a shin -- ing light; For Thee to live, for Thee to shine, A burn -- ing and a shin -- ing light."
+
+[lyrics.2]
+text = "Lord, kin -- dle in my heart the flame, A burn -- ing and a shin -- ing light; To mag -- ni -- fy Thy sav -- ing name, A burn -- ing and a shin -- ing light."
+
+[lyrics.3]
+text = "O dai -- ly feed the flame a -- new, A burn -- ing and a shin -- ing light; That I may ren -- der serv -- ice true, A burn -- ing and a shin -- ing light."
+
+[lyrics.4]
+text = "To bright -- en path -- ways as I go, A burn -- ing and a shin -- ing light; To shed a -- round love’s cheer -- y glow, A burn -- ing and a shin -- ing light."
+
+[lyrics.chorus]
+text = "Burn -- ing, burn -- ing with the fire of love; Shin -- ing, shin -- ing for the King a -- bove; By grace di -- vine, O keep me Thine! A burn -- ing and a shin -- ing light."
+
+[parts.Alto.lyrics.chorus]
+text = "Burn -- ing, with the fire of love; Shin -- ing​ for the King a -- bove; By grace di -- vine, O keep me Thine! A burn -- ing and a shin -- ing light."
+
+[parts.Tenor.lyrics.chorus]
+text = "Burn -- ing, ev -- er burn -- ing with the fire of love; Shin -- ing, ev -- er shin -- ing for the King a -- bove; By grace di -- vine, O keep me Thine! A burn -- ing and a shin -- ing light."
+
+[parts.Bass.lyrics.chorus]
+text = "Burn -- ing, ev -- er burn -- ing with the fire of love; Shin -- ing, ev -- er shin -- ing for the King a -- bove; By grace di -- vine, O keep me Thine! A burn -- ing and a shin -- ing light."
