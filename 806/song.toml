@@ -1,0 +1,99 @@
+title = "A Place for Me"
+copyrights = [
+  "Lyrics: James Rowe, 1919 (public domain)",
+  "Music: A. J. Showalter, 1919 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 88
+verse_count = 3
+phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "13:48", "15:48"]
+optional_phrase_breaks = ["11:48"]
+non_breaking_phrase_breaks = ["4:12", "4:48", "5:16", "8:12", "8:48", "9:16", "10:12", "10:48", "11:16", "12:12", "12:48", "13:16", "16:12", "16:48", "17:16"]
+non_breaking_format_resets = ["8:48", "16:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. c'8 des'8 |
+ees'8 ees'8 ees'8. ees'16 f'16 ees'8. aes'8 bes'8 | c''8 c''8 c''8. c''16 des''16 c''8. c''8. bes'16 | aes'2. c''4 | bes'2. c''8 bes'8 |
+aes'8 aes'8 aes'8. aes'16 bes'16 aes'8. g'8 f'8 | ees'8 ees'8 ees'8. ees'16 f'16 ees'8. aes'8. bes'16 | c''2. bes'4 | aes'2. c''8.@c des''16 |
+ees''2. f''4 | ees''2. aes'8. bes'16 | c''2. aes'4 | bes'2. c''8 bes'8 |
+aes'8. aes'16 aes'8 aes'8 bes'16 aes'8. g'8 f'8 | ees'8. ees'16 ees'8 ees'8 f'16 ees'8. aes'8. bes'16 | c''2. bes'4 | aes'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. aes8 bes8 |
+c'8 c'8 c'8. c'16 des'16 c'8. ees'8 ees'8 | ees'8 ees'8 ees'8. ees'16 f'16 ees'8. ees'8. des'16 | c'8. c'16 c'8 c'8 d'4 d'4 | ees'4 d'4 ees'4 ees'8 des'8 |
+c'8 c'8 ees'8. ees'16 f'16 f'8. ees'8 des'8 | c'8 c'8 c'8. c'16 des'16 c'8. ees'8. f'16 | ees'8. ees'16 d'8 d'8 ees'4 des'4 | c'4 des'4 c'4 ees'8.@c ees'16 |
+aes'8. aes'16 g'8 g'8 aes'4 aes'4 | aes'4 g'4 aes'4 aes'8. g'16 | aes'8. ees'16 e'8 e'8 f'4 f'4 | g'4 aes'4 g'4 g'8 g'8 |
+aes'8. ees'16 ees'8 ees'8 f'16 f'8. ees'8 des'8 | c'8. c'16 c'8 c'8 des'16 c'8. ees'8. f'16 | ees'8. ees'16 d'8 d'8 ees'4 des'4 | c'4 des'4 c'4 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. ees8 ees8 |
+aes8 aes8 aes8. aes16 aes16 aes8. aes8 g8 | aes8 aes8 aes8. aes16 aes16 aes8. aes8. g16 | aes8. aes16 aes8 aes8 f4 aes4 | g4 aes4 g4 g8 g8 |
+aes8 aes8 c'8. c'16 des'16 des'8. aes8 aes8 | aes8 aes8 aes8. aes16 aes16 aes8. aes8. aes16 | aes8. aes16 aes8 aes8 aes4 g4 | aes4 f4 ees4 aes8.@c bes16 |
+c'8. c'16 bes8 bes8 c'4 des'4 | c'4 bes4 c'4 ees'8. ees'16 | ees'8. aes16 bes8 bes8 c'4 d'4 | ees'4 d'4 ees'4 ees'8 des'8 |
+c'8. c'16 c'8 c'8 des'16 des'8. aes8 aes8 | aes8. aes16 aes8 aes8 aes16 aes8. aes8. aes16 | aes8. aes16 aes8 aes8 aes4 g4 | aes4 f4 ees4 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. aes,8 aes,8 |
+aes,8 aes,8 aes,8. aes,16 aes,16 aes,8. c8 ees8 | aes8 aes8 aes8. aes16 aes16 aes8. aes8. ees16 | f8. f16 f8 f8 bes,4 bes,4 | ees4 f4 ees4 ees8 ees8 |
+aes,8 aes,8 aes,8. aes,16 des16 des8. des8 des8 | aes,8 aes,8 aes,8. aes,16 aes,16 aes,8. c8. des16 | ees8. ees16 f8 f8 ees4 ees4 | aes,2. aes8.@c aes16 |
+aes8. aes16 ees8 ees8 aes4 aes4 | aes4 ees4 aes4 c'8. bes16 | aes8. aes16 g8 g8 f4 f4 | ees4 bes,4 ees4 ees8 ees8 |
+aes,8. aes,16 aes,8 aes,8 des16 des8. des8 des8 | aes,8. aes,16 aes,8 aes,8 aes,16 aes,8. c8. des16 | ees8. ees16 f8 f8 ees4 ees4 | aes,2. s4
+"""
+
+[lyrics.1]
+text = "In a man -- sion by the riv -- er where the saved shall rest for -- ev -- er, @s1 Where a -- dorned with crowns of glo -- ry, an -- gels sing and tell the sto -- ry, @s2"
+
+[lyrics.2]
+text = "In the king -- dom of to -- mor -- row, out of reach of care and sor -- row, @s1 In the light of love su -- per -- nal where de -- light will be e -- ter -- nal, @s2"
+
+[lyrics.3]
+text = "With the Sav -- iour who has bought me and to love and serve Him taught me, @s1 And I know that He will lead me to that home where He will need me; @s2"
+
+[lyrics.chorus]
+text = "There’s a place, for me, There’s a place, for me, Where new joys are ev -- er spring -- ing and a mul -- ti -- tude is sing -- ing, There’s a place, for me,"
+
+[parts.Alto.lyrics.chorus]
+text = "There’s a place, a hap -- py place for me, for me, There’s a place, a hap -- py place for me, for me; Where new joys are ev -- er spring -- ing and a mul -- ti -- tude is sing -- ing, There’s a place, a hap -- py place for me, for me."
+
+[parts.Tenor.lyrics.chorus]
+text = "There’s a place, a hap -- py place for me, for me, There’s a place, a hap -- py place for me, for me; Where new joys are ev -- er spring -- ing and a mul -- ti -- tude is sing -- ing, There’s a place, a hap -- py place for me, for me."
+
+[parts.Bass.lyrics.chorus]
+text = "There’s a place, a hap -- py place for me, for me, There’s a place, a hap -- py place for me, for me; Where new joys are ev -- er spring -- ing and a mul -- ti -- tude is sing -- ing, There’s a place, a hap -- py place for me,"
+
+[lyrics.s1]
+text = "There’s a place, a hap -- py place for me, for me;"
+
+[parts.Soprano.lyrics.s1]
+text = "There’s a place, for me,"
+
+[lyrics.s2]
+text = "There’s a place, a hap -- py place for me, for me."
+
+[parts.Soprano.lyrics.s2]
+text = "There’s a place, for me,"
+
+[parts.Bass.lyrics.s2]
+text = "There’s a place, a hap -- py place for me,"
