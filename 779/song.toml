@@ -1,0 +1,90 @@
+# Source: Tidings of Joy (1928), No. 177, page 179 (hymnary TJ1928 page scan);
+# notes and lyrics read from the plate. Seven-shape closed-score SATB, 3/4, G major.
+# Plate credit line: "COPYRIGHT, 1882, BY JOHN J. HOOD. USED BY PERMISSION."
+# No tempo printed; tempo_bpm = 104 is a guess.
+# Well-known tune (Kirkpatrick's JESUS SAVES); the plate is the composer's own setting.
+# Melody and harmony cross-checked against the Cyber Hymnal MusicXML (hymnary
+# media 131605). Where they differ, the plate is followed:
+#   - "heard", "tid-", "news", "steeps", "'tis" are double-dotted quarters on the
+#     plate (the XML has dotted quarters, leaving those bars a sixteenth short).
+#   - Tenor sings D3 on "heard" (M2) and "tid-/sin-/death/na-" (M6), G3 on
+#     "Bear the" (M9) (XML: G3, G3, C4 respectively).
+#   - Bass G2 on "saves" in M9 (XML: G3); M17 is a two-note T/B chord (XML adds G3).
+#   - Tenor B3 on "Je-" in M4 (XML tenor G3; plate head is hard to read there).
+#   - Bass F natural on "our" (M14) is printed on the plate.
+# Plate text differs from the familiar one: "a joyful sound" (not "the"),
+# "Spread the gladness all around" (not "tidings"), "battle's strife",
+# "Sing, ye islands", commas rather than exclamation marks after "Jesus saves".
+title = "Jesus Saves"
+copyrights = [
+  "Lyrics: Priscilla J. Owens, 1882 (public domain)",
+  "Music: William J. Kirkpatrick, 1882 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 104
+verse_count = 4
+phrase_breaks = ["5:32", "9:32", "11:32", "13:32"]
+optional_phrase_breaks = ["3:32", "7:32", "15:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 d'8. d'16 |
+g'4.. d'16 g'8. a'16 | b'2 d''8. d''16 | d''2 b'8. g'16 | a'2 d'8. d'16 |
+g'4.. d'16 g'8. a'16 | b'2 d''8. d''16 | d''2 a'8. b'16 | g'2 g'8. g'16 |
+c''4.. c''16 c''8. c''16 | c''2 g'8. a'16 | b'4.. b'16 d''8. b'16 | a'2 d''8. d''16 |
+d''4.. b'16 c''8. d''16 | e''2 d''8. d''16 | d''2 a'8. b'16 | g'2 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 b8. b16 |
+b4.. b16 b8. c'16 | d'2 d'8. d'16 | d'2 d'8. d'16 | fis'2 c'8. c'16 |
+b4.. b16 b8. c'16 | d'2 d'8. g'16 | fis'2 fis'8. fis'16 | d'2 e'8. e'16 |
+e'4.. e'16 e'8. e'16 | e'2 d'8. d'16 | g'4.. g'16 g'8. g'16 | fis'2 fis'8. fis'16 |
+g'4.. g'16 g'8. g'16 | g'2 g'8. g'16 | fis'2 fis'8. fis'16 | d'2 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 g8. g16 |
+d4.. g16 g8. g16 | g2 b8. b16 | b2 b8. b16 | d'2 fis8. fis16 |
+d4.. g16 g8. g16 | g2 b8. b16 | a2 c'8. d'16 | b2 g8. g16 |
+g4.. g16 g8. g16 | g2 b8. c'16 | d'4.. d'16 b8. d'16 | d'2 a8. a16 |
+b4.. d'16 c'8. b16 | c'2 b8. b16 | a2 c'8. d'16 | b2 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 g,8. g,16 |
+g,4.. g,16 g,8. g,16 | g,2 g8. g16 | g2 g8. g16 | d2 d8. d16 |
+g,4.. g,16 g,8. g,16 | g,2 g8. g16 | d2 d8. d16 | g,2 c8. c16 |
+c4.. c16 c8. c16 | c2 g8. g16 | g4.. g16 g8. g16 | d2 d8. d16 |
+g4.. f16 e8. d16 | c2 g8. g16 | d2 d8. d16 | g,2 s4
+"""
+
+[lyrics.1]
+text = "We have heard a joy -- ful sound, Je -- sus saves, Je -- sus saves; Spread the glad -- ness all a -- round, Je -- sus saves, Je -- sus saves; Bear the news to ev -- ’ry land, Climb the steeps and cross the waves; On -- ward, ’tis our Lord’s com -- mand, Je -- sus saves, Je -- sus saves."
+
+[lyrics.2]
+text = "Waft it on the roll -- ing tide, Je -- sus saves, Je -- sus saves; Tell to sin -- ners far and wide, Je -- sus saves, Je -- sus saves; Sing, ye is -- lands of the sea, Ech -- o back, ye o -- cean caves, Earth shall keep her ju -- bi -- lee, Je -- sus saves, Je -- sus saves."
+
+[lyrics.3]
+text = "Sing a -- bove the bat -- tle’s strife, Je -- sus saves, Je -- sus saves; By His death and end -- less life, Je -- sus saves, Je -- sus saves; Sing it soft -- ly thro’ the gloom, When the heart for mer -- cy craves, Sing in tri -- umph o’er the tomb, Je -- sus saves, Je -- sus saves."
+
+[lyrics.4]
+text = "Give the winds a might -- y voice, Je -- sus saves, Je -- sus saves; Let the na -- tions now re -- joice, Je -- sus saves, Je -- sus saves; Shout sal -- va -- tion full and free, High -- est hills and deep -- est caves; This our song of vic -- to -- ry, Je -- sus saves, Je -- sus saves."
