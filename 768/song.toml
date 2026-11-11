@@ -1,0 +1,92 @@
+title = "Lead Me, Savior"
+copyrights = [
+  "Lyrics and Music: Frank M. Davis, 1882 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Db"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 84
+verse_count = 3
+phrase_breaks = ["2:64", "4:64", "6:64", "8:64", "12:64", "14:48"]
+non_breaking_phrase_breaks = ["1:48", "1:64", "2:16", "2:32", "3:64", "5:64", "7:64", "10:64", "12:16", "14:16", "16:16"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+aes'4. f'8 aes'8 des''8 c''8 bes'8 | aes'2. r4 | ges'4. f'8 ees'8 bes'8 aes'8 ges'8 | f'2. r4
+| aes'4. aes'8 aes'8 f'8 aes'8 des''8 | bes'2. r4 | c''4. des''8 c''8 bes'8 aes'8 g'8 | aes'2.! r4
+| aes'2@c f'4 r4 | des''2 aes'4 r4 | f''4. ees''8 des''8 bes'8 aes'8 f'8 | ees'4.( f'8 ges'2)
+| f'4. f'8 f'8 f'8 ges'8 aes'8 | bes'2. c''8 des''8 | aes'4 f'4\\rit\\> ges'4 c'4 | des'2.\\spanend\\! r4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+suppress_verses = [2, 3]
+suppress_verses_when = ["soprano"]
+notes = """
+f'4. des'8 f'8 bes'8 aes'8 ges'8 | f'8 f'8 ges'8 ges'8 f'4 r4 | ees'4. des'8 c'8 ges'8 f'8 ees'8 | des'8 des'8 des'8 des'8 des'4 r4
+| f'4. f'8 f'8 des'8 f'8 f'8 | ges'8 ges'8 ges'8 ges'8 ges'4 r4 | ees'4. f'8 ees'8 des'8 c'8 bes8 | c'8 des'8 ees'8 f'8 ges'4! r4
+| f'2@c des'4 r4 | f'2 f'4 r4 | aes'4. aes'8 aes'8 ges'8 f'8 des'8 | c'4.( des'8 ees'2)
+| des'4. des'8 des'8 des'8 c'8 des'8 | ges'2. e'8 e'8 | f'4 des'4\\> ees'4 aes4 | aes4\\! bes8 bes8 aes4 r4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3]
+suppress_verses_when = ["soprano", "alto"]
+notes = """
+des'2 des'2 | des'8 des'8 ees'8 ees'8 des'4 r4 | aes2 aes2 | aes8 aes8 aes8 aes8 aes4 r4
+| des'2 des'2 | des'8 des'8 des'8 des'8 des'4 r4 | aes2 bes2 | aes8 bes8 c'8 des'8 ees'4! r4
+| des'2@c aes4 r4 | aes2 des'4 r4 | r4 des'8/-48 c'8 des'8 des'8 des'8 aes8 | aes4 aes8 aes8 c'2
+| r4 aes8/-48 aes8 aes8 aes8 aes8 des'8 | des'4 des'8 des'8 des'4 des'8 des'8 | des'4 aes4\\> aes4 ges4 | f4\\! ges8 ges8 f4 r4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3]
+suppress_verses_when = ["soprano", "alto", "tenor"]
+notes = """
+des2 des2 | des8 des8 c8 c8 des4 r4 | aes2 aes,2 | des8 des8 des8 des8 des4 r4
+| des2 des2 | ges8 ges8 ges8 ges8 ges4 r4 | aes2 ees2 | aes,8 aes,8 aes,8 aes,8 aes,4! r4
+| des2@c des4 r4 | des2 des4 r4 | r4 des'8/-48 aes8 f8 des8 des8 des8 | aes,4 aes,8 aes,8 aes,2
+| r4 des8/-48 des8 des8 des8 ees8 f8 | ges4 ges8 ges8 ges4 g8 g8 | aes4 aes4\\> aes,4 aes,4 | des2.\\! r4
+"""
+
+[lyrics.1]
+text = "Sav -- iour, lead me, lest I stray, Gent -- ly lead me all the way; I am safe when by Thy side, I would in Thy love a -- bide."
+
+[parts.Alto.lyrics.1]
+text = "Sav -- iour, lead me, lest I lead me, lest I stray, Gent -- ly lead me all the lead me all the way; I am safe when by Thy safe when by Thy side, I would in Thy love a in Thy love a -- bide."
+
+[lyrics.2]
+text = "Thou, the ref -- uge of my soul When life’s storm -- y bil -- lows roll; I am safe when Thou art nigh, All my hopes on Thee re -- ly."
+
+[parts.Alto.lyrics.2]
+text = "Thou, the ref -- uge of my ref -- uge of my soul When life’s storm -- y bil -- lows storm -- y bil -- lows roll; I am safe when Thou art safe when Thou art nigh, All my hopes on Thee re hopes on Thee re -- ly."
+
+[lyrics.3]
+text = "Sav -- iour, lead me, then at last, When the storm of life is past; To the land of end -- less day, Where all tears are wiped a -- way."
+
+[parts.Alto.lyrics.3]
+text = "Sav -- iour, lead me, then at lead me, then at last, When the storm of life is storm of life is past; To the land of end -- less land of end -- less day, Where all tears are wiped a tears are wiped a -- way."
+
+[lyrics.chorus]
+text = "Lead me, lead me, Sav -- iour, lead me, lest I stray; Gent -- ly down the stream of time, Lead me, Sav -- iour, all the way."
+
+[parts.Alto.lyrics.chorus]
+text = "Lead me, lead me, Sav -- iour, lead me, lest I stray; Gent -- ly down the stream of time, Lead me, Sav -- iour, all the way. (all the way.)"
+
+[parts.Tenor.lyrics.chorus]
+text = "Lead me, lead me, Sav -- iour, lead me, lest I stray; lest I stray; Gent -- ly down the stream of time, (stream of time,) Lead me, Sav -- iour, all the way. (all the way.)"
+
+[parts.Bass.lyrics.chorus]
+text = "Lead me, lead me, Sav -- iour, lead me, lest I stray; lest I stray; Gent -- ly down the stream of time, (stream of time,) Lead me, Sav -- iour, all the way."
