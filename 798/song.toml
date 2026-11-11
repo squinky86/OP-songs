@@ -1,0 +1,96 @@
+title = "’Twas Grace Divine That Lifted Me"
+copyrights = [
+  "Lyrics: James Rowe (stanzas) and J. E. Thomas (refrain), 1913 (public domain)",
+  "Music: J. E. Thomas, 1913 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Bb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 92
+verse_count = 3
+phrase_breaks = ["3:48", "5:48", "9:48", "11:48", "13:48", "17:56", "19:56", "21:56", "25:56", "27:56", "29:56"]
+optional_phrase_breaks = ["7:48", "15:48", "23:48", "31:48"]
+optional_break_threshold_ticks = 200
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2.. f'8 | bes'4 bes'4 bes'4 bes'8 d''8 | d''4 c''4 c''4 f'8 f'8 | c''4 c''4 c''4 c''8 ees''8
+| ees''4 d''4 d''4 f'4 | d''4 d''4 d''4 d''8 f''8 | f''4 ees''4 ees''4 c''8 bes'8 | a'2 g'2
+| f'2. r8 f'8 | bes'4 bes'4 bes'4 bes'8 d''8 | d''4 c''4 c''4 f'8 f'8 | c''4 c''4 c''4 c''8 ees''8
+| ees''4 d''4 d''4 f'4 | d''4 d''4 d''4 d''8 f''8 | f''4 ees''4 ees''4 ees''8 cis''8 | d''2 c''2
+| bes'2. r8 f'8@c | d''2 d''2 | bes'8. g'16 f'8 f'8 a'8. g'16 f'8 f'8 | ees''4 ees''4 ees''2
+| c''8. f'16 f'8 f'8 a'8. g'16 f'8 f'8 | f''4 f''4 f''4. ees''8 | d''8 c''8 d''8 ees''8 d''4 c''8 bes'8 | a'2 g'2
+| f'2. r8 f'8 | d''2 d''2 | bes'8. g'16 f'8 f'8 a'8. g'16 f'8 f'8 | ees''4 ees''4 ees''2
+| c''8. f'16 f'8 f'8 a'8. g'16 f'8 f'8 | f''4 f''4 f''4. ees''8 | d''8 c''8 d''8 f''8 ees''4 ees''8 cis''8 | d''2 c''2
+| bes'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2.. f'8 | d'4 cis'4 d'4 d'8 f'8 | f'4 ees'4 ees'4 c'8 c'8 | ees'4 d'4 ees'4 ees'8 g'8 |
+ees'4 f'4 f'4 d'4 | f'4 e'4 f'4 f'8 aes'8 | aes'4 g'4 g'4 f'8 f'8 | f'2 e'2 |
+c'2. r8 f'8 | d'4 cis'4 d'4 d'8 f'8 | f'4 ees'4 ees'4 c'8 c'8 | ees'4 d'4 ees'4 ees'8 g'8 |
+g'4 f'4 f'4 d'4 | f'4 e'4 f'4 f'8 aes'8 | aes'4 g'4 g'4 g'8 g'8 | f'2 ees'2 |
+d'2. r8 f'8@c | f'8. a'16 bes'8 g'8 f'8. ees'16 d'8 d'8 | f'4~ f'4 f'4.~ f'8 | f'8. a'16 c''8 a'8 c''8. bes'16 a'8 f'8 |
+ees'4 ees'4 ees'4. f'8 | f'4 a'4 bes'4. g'8 | f'8 e'8 f'8 g'8 f'4 f'8 f'8 | f'2 e'2 |
+c'2. r8 f'8 | f'8. a'16 bes'8 g'8 f'8. ees'16 d'8 d'8 | f'2 f'4.~ f'8 | f'8. a'16 c''8 a'8 c''8. bes'16 a'8 f'8 |
+ees'4 ees'4 ees'4. f'8 | f'4 a'4 bes'4. g'8 | f'8 e'8 f'8 aes'8 g'4 g'8 g'8 | f'2 ees'2 |
+d'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2.. f8 | f4 e4 f4 f8 bes8 | bes4 a4 a4 a8 a8 | a4 gis4 a4 a8 a8 |
+bes4 bes4 bes4 bes4 | bes4 bes4 bes4 bes8 bes8 | bes4 b4 c'4 c'8 d'8 | c'2 c'2 |
+a2. r8 f8 | f4 e4 f4 f8 bes8 | bes4 a4 a4 a8 a8 | a4 gis4 a4 a8 a8 |
+bes4 bes4 bes4 bes4 | bes4 bes4 bes4 bes8 bes8 | bes4 b4 c'4 bes8 bes8 | bes2 a2 |
+bes2. r8 f8@c | bes8. f16 f8 f8 a8. g16 f8 f8 | d'4~ d'4 d'4.~ d'8 | c'8. f16 f8 f8 a8. g16 f8 a8 |
+c'4 c'4 c'4. a8 | bes4 c'4 d'4. bes8 | bes8 bes8 bes8 bes8 bes4 c'8 d'8 | c'2 c'2 |
+a2. r8 f8 | bes8. f16 f8 f8 a8. g16 f8 f8 | d'2 d'4.~ d'8 | c'8. f16 f8 f8 a8. g16 f8 a8 |
+c'4 c'4 c'4. a8 | bes4 c'4 d'4. bes8 | bes8 bes8 bes8 bes8 bes4 bes8 bes8 | bes2 a2 |
+bes2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2.. f8 | bes,4 bes,4 bes,4 bes,8 bes,8 | f4 f4 f4 f8 f8 | f4 f4 f4 f8 f8
+| bes,4 bes,4 bes,4 bes,4 | bes,4 bes,4 bes,4 bes,8 d8 | ees4 ees4 ees4 a,8 bes,8 | c2 c2
+| f,2. r8 f8 | bes,4 bes,4 bes,4 bes,8 bes,8 | f4 f4 f4 f8 f8 | f4 f4 f4 f8 f8
+| bes,4 bes,4 bes,4 bes,4 | bes,4 bes,4 bes,4 bes,8 d8 | ees4 ees4 ees4 ees8 e8 | f2 f2
+| bes,2. r8 f8@c | bes,2 bes,2 | bes,8. bes,16 bes,8 bes,8 a,8. bes,16 bes,8 bes,8 | f4 f4 f2
+| f8. f16 f8 f8 f8. f16 f8 f8 | d4 f4 bes4. bes8 | bes,8 bes,8 bes,8 bes,8 bes,4 a,8 bes,8 | c2 c2
+| f,2. r8 f8 | bes,2 bes,2 | bes,8. bes,16 bes,8 bes,8 a,8. bes,16 bes,8 bes,8 | f4 f4 f2
+| f8. f16 f8 f8 f8. f16 f8 f8 | d4 f4 bes4. bes8 | bes8 bes8 bes8 d8 ees4 ees8 e8 | f2 f2
+| bes,2. s4
+"""
+
+[lyrics.1]
+text = "My heart o’er -- flows with a hap -- py song, Which with joy I sing to the need -- y throng, As with my Sav -- iour I press a -- long, For His joy is mine. I’ve found the soul’s ev -- er -- last -- ing Spring In Je -- ho -- vah’s Son, the e -- ter -- nal King, And now for -- ev -- er my heart shall sing Of His grace di -- vine."
+
+[lyrics.2]
+text = "He found me sink -- ing in dark de -- spair, And He lift -- ed me in His love -- light fair, Be -- stow -- ing com -- fort be -- yond com -- pare To this heart of mine. He hid my past and re -- stored my soul, Took my way -- ward life un -- der His con -- trol, And now I’ll sing, while the a -- ges roll, Of His grace di -- vine."
+
+[lyrics.3]
+text = "O way -- ward life, won’t you trust this Friend? On His lift -- ing love won’t you now de -- pend? He’ll keep your soul, when this life shall end, Just as He’ll keep mine. He died to save you from shame and sin, And His par -- don now you may free -- ly win, O come to -- day and a -- new be -- gin, Trust -- ing grace di -- vine."
+
+[lyrics.chorus]
+text = "’Twas grace, grace, grace di -- vine that lift -- ed me, ’Twas won -- drous grace, grace di -- vine that lift -- ed me, And now I’m liv -- ing on a high -- er plain, And His love is mine; ’Twas grace, grace, grace di -- vine and glo -- ri -- ous, ’Twas won -- drous grace, might -- y and vic -- to -- ri -- ous, That lift -- ed me, And filled my heart with praise, It was grace di -- vine."
+
+[parts.Alto.lyrics.chorus]
+text = "’Twas grace di -- vine that lift -- ed me, ’Twas grace, grace, Won -- drous grace so rich and free, that lift -- ed me, And now I’m liv -- ing on a high -- er plain, And His love is mine; ’Twas grace di -- vine and glo -- ri -- ous, ’Twas grace, grace, might -- y and vic -- to -- ri -- ous, ’Twas won -- drous grace That lift -- ed me, And filled my heart with praise, It was grace di -- vine."
+
+[parts.Tenor.lyrics.chorus]
+text = "’Twas grace di -- vine that lift -- ed me, ’Twas grace, grace, Won -- drous grace so rich and free, that lift -- ed me, And now I’m liv -- ing on a high -- er plain, And His love is mine; ’Twas grace di -- vine and glo -- ri -- ous, ’Twas grace, grace, might -- y and vic -- to -- ri -- ous, ’Twas won -- drous grace That lift -- ed me, And filled my heart with praise, It was grace di -- vine."
