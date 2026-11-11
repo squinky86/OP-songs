@@ -1,0 +1,85 @@
+title = "I’m On the Road to Heaven"
+copyrights = [
+  "Lyrics and Music: Marvin T. Baird, 1928 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "C"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 88
+verse_count = 4
+phrase_breaks = ["3:40", "5:40", "7:40", "9:40", "11:40", "13:40", "15:40"]
+non_breaking_phrase_breaks = ["14:40", "17:8"]
+interleave_verse_lyrics = true
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s8 r4 c'8 | e'4 f'4 e'8 r4 g'8 | g'4 g'4 g'8 r4 d''8 | c''4 c''4 c''8 r4 c''8
+| b'4 c''4 d''8! r4 c''8 | b'4 d''4 c''8 r4 g'8 | e'4 dis'4 e'8 r4 a'8 | a'4 e'4 e'8 r4 g'8
+| fis'4 a'4 g'8! r4@c g'8 | g'4 g'4 g'8 r4 g'16 g'16 | c''4 c''4 c''8 r4 g'8 | a'4 gis'4 a'4 c''4
+| d''4 e''4 f''8! g'8 a'8 b'8 | c''2~ c''8 e''16 d''16 c''8 g'8 | bes'8 a'2! c''8 d''8 dis''8 | e''4 c''4 g'4 d''4
+| c''2~ c''8 s4 s8
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s8 r4 c'8 | c'4 c'4 c'8 r4 g'8 | e'4 d'4 e'8 r4 f'8 | e'4 e'4 e'8 r4 e'8
+| g'4 fis'4 f'8! r4 g'8 | g'4 f'4 e'8 r4 c'8 | c'4 c'4 c'8 r4 c'8 | c'4 c'4 c'8 r4 e'8
+| dis'4 fis'4 e'8! g'8@c fis'8 f'8 | e'2~ e'8 e'16 e'16 g'8 e'8 | f'8 e'4.~ e'8 r4 e'8 | e'4 e'4 e'4 a'4
+| g'4 g'4 g'8! g'8 fis'8 f'8 | e'2~ e'8 g'16 f'16 e'8 g'8 | f'8 f'2! e'8 g'8 g'8 | g'4 g'4 f'4 f'4
+| e'8 e'8 f'8 dis'8 e'8 s4 s8
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 s8 r4 g8 | g4 a4 g8 r4 c'8 | c'4 b4 c'8 r4 b8 | c'4 c'4 c'8 r4 a8
+| g4 a4 b8! r4 c'8 | d'4 b4 c'8 r4 c'8 | g4 a4 g8 r4 e8 | e4 a4 a8 r4 c'8
+| c'4 c'4 c'8! g8@c a8 b8 | c'2~ c'8 g16 g16 e8 g8 | a8 g4.~ g8 r4 c'8 | c'4 b4 c'4 c'4
+| b4 c'4 d'8! r4 g8 | g4 c'4 g8 c'16 c'16 c'8 c'8 | c'8 c'2! c'8 b8 b8 | c'4 c'4 b4 b4
+| c'8 g8 a8 fis8 g8 s4 s8
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 s8 g8 g8 e8 | e2~ e8 g,8 c8 e8 | g2~ g8 e8 g8 gis8 | a2~ a8 e8 c8 a,8
+| d2~ d8! e8 c8 e8 | g2~ g8 a8 g8 e8 | c2~ c8 c8 e8 c8 | a,2~ a,8 g,8 a,8 g,8
+| c2~ c8! r4@c g,8 | c4 c4 c8 r4 c16 c16 | c4 c4 c8 c8 b,8 b,8 | a,4 e4 a,4 e4
+| d2~ d8! r4 d8 | c4 c4 c8 c16 c16 c8 e8 | f8 f2! a8 g8 g8 | c4 e4 d4 g,4
+| c2~ c8 s4 s8
+"""
+
+[lyrics.1]
+text = "I’m on the road to heav’n a -- bove, To sing the songs of joy and love; And I by faith can al -- most see, the home my Lord pre -- pared for me."
+
+[lyrics.2]
+text = "Oh, bless -- ed tho’t when I shall stand, Re -- deemed by grace in that fair land; I then shall kneel at Je -- sus’ feet, And wor -- ship Him with joy com -- plete."
+
+[lyrics.3]
+text = "Oh, hap -- py time, oh, bless -- ed day! When sor -- rows all have passed a -- way, There with the saints I then shall sing, A -- round the throne, oh, bless His name."
+
+[lyrics.4]
+text = "What joy ’twill be, in that great day, When sor -- rows all have passed a -- way; I’ll go with Je -- sus to a -- bide; My soul shall then be sat -- is -- fied."
+
+[lyrics.chorus]
+text = "I’m on the road to my home up there, The glo -- rious home -- land of the soul; I’ll sing, while here, of the grand old sto -- ry, There live with Christ while a -- ges roll."
+
+[parts.Alto.lyrics.chorus]
+text = "I’m on the road to my home in heav -- en, The glo -- rious home -- land of the soul; I’ll sing, while here, of the grand old sto -- ry, There live with Christ while a -- ges roll. (while a -- ges roll.)"
+
+[parts.Tenor.lyrics.chorus]
+text = "I’m on the road to my home in heav -- en, The glo -- rious home -- land of the soul; I’ll sing while here of the grand old sto -- ry, There live with Christ while a -- ges roll. (while a -- ges roll.)"
+
+[parts.Bass.lyrics.chorus]
+text = "I’m on the road to my home up there, The glo -- rious home -- land of the soul; I’ll sing while here of the grand old sto -- ry, There live with Christ while a -- ges roll."
