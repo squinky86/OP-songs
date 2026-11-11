@@ -1,0 +1,79 @@
+title = "My Heritage in Heaven"
+copyrights = [
+  "Lyrics: Ida L. Reed, 1892 (public domain)",
+  "Music: Frank M. Davis, 1892 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 92
+verse_count = 3
+phrase_breaks = ["5:48", "9:48", "13:48"]
+optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. ees'4 | aes'4 aes'4 c''4 aes'4 | f'4 f'4 bes'4 aes'4 | g'4 aes'4 bes'4 ees'4
+| c''4( des''4) c''4 ees'4 | aes'4 aes'4 c''4 aes'4 | f'4 f'4 bes'4 aes'4 | g'4 f'4 ees'8[ f'8] g'4
+| bes'2 aes'4! ees'4@c | ees''2. f''4 | ees''2. c''4 | des''4 bes'4 c''4 aes'4
+| bes'4( c''4) bes'4 ees'4 | aes'4 aes'4 c''4 aes'4 | f'4 f'4 bes'4 aes'4 | g'4 f'4 ees'8[ f'8] g'4
+| bes'2 aes'4! s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. ees'4 | c'4 c'4 ees'4 ees'4 | des'4 des'4 f'4 f'4 | ees'4 ees'4 ees'4 ees'4
+| ees'4( f'4) ees'4 ees'4 | c'4 c'4 ees'4 ees'4 | des'4 des'4 f'4 f'4 | ees'4 des'4 des'4 des'4
+| des'2 c'4! ees'4@c | ees'2. ees'4 | ees'2. ees'4 | f'4 des'4 f'4 f'4
+| ees'2 ees'4 ees'4 | c'4 c'4 ees'4 ees'4 | des'4 des'4 f'4 f'4 | ees'4 des'4 des'4 des'4
+| des'2 c'4! s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. ees4 | ees4 ees4 aes4 aes4 | aes4 aes4 f4 bes4 | bes4 c'4 des'4 g4
+| aes2 aes4 ees4 | ees4 ees4 aes4 aes4 | aes4 aes4 f4 bes4 | bes4 bes4 bes4 bes4
+| g2 aes4! ees4@c | g4 aes4 bes4 des'4 | c'4 des'4 ees'4 aes4 | aes4 f4 aes4 bes4
+| g4( aes4) g4 ees4 | ees4 ees4 aes4 aes4 | aes4 aes4 f4 bes4 | bes4 bes4 bes4 bes4
+| g2 aes4! s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. ees4 | aes,4 aes,4 aes,4 c4 | des4 des4 d4 d4 | ees4 ees4 ees4 ees4
+| aes,2 aes,4 ees4 | aes,4 aes,4 aes,4 c4 | des4 des4 d4 d4 | ees4 ees4 ees4 ees4
+| ees2 aes,4! ees4@c | ees4 f4 g4 bes4 | aes4 bes4 c'4 aes4 | des4 des4 d4 d4
+| ees2 ees4 ees4 | aes,4 aes,4 aes,4 c4 | des4 des4 d4 d4 | ees4 ees4 ees4 ees4
+| ees2 aes,4! s4
+"""
+
+[lyrics.1]
+text = "A her -- i -- tage of splen -- dor free, A -- waits my soul in heav -- en, That Christ has willed in love to me; ’Twas thro’ His mer -- cy giv -- en."
+
+[lyrics.2]
+text = "My treas -- ures wait me ov -- er there, A crown that fad -- eth nev -- er; And just with -- in His king -- dom fair, A home that bides for -- ev -- er."
+
+[lyrics.3]
+text = "There I shall walk for aye in light, My fol -- lies all for -- giv -- en; When I re -- ceive my robe of white, My crown, my home, in heav -- en."
+
+[lyrics.chorus]
+text = "A home, a crown, Is what my Lord has giv -- en, A her -- i -- tage of glo -- ry bright, That waits my soul in heav -- en."
+
+[parts.Tenor.lyrics.chorus]
+text = "A home, a crown, a robe of white, Is what my Lord has giv -- en, A her -- i -- tage of glo -- ry bright, That waits my soul in heav -- en."
+
+[parts.Bass.lyrics.chorus]
+text = "A home, a crown, a robe of white, Is what my Lord has giv -- en, A her -- i -- tage of glo -- ry bright, That waits my soul in heav -- en."
