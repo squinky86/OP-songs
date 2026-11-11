@@ -1,0 +1,56 @@
+title = "Let Us Walk in the Light"
+copyrights = [
+  "Lyrics: Mary Masters, 1755 (public domain)",
+  "Music: 'Cookham' in Harmonia Sacra, 1760 (public domain)",
+  "Arrangement: R. M. McIntosh, 1892 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 6
+time_sig_denominator = 4
+tempo_bpm = 104
+verse_count = 2
+phrase_breaks = ["4:80"]
+optional_phrase_breaks = ["2:80", "6:80"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+g'2 a'4 g'2 a'4 | b'2 a'8[ c''8] b'2 r4 | g'2 b'4 d''2 b'4 | a'2 b'4 a'2 r4
+| d''2 b'4 e''2 d''4 | b'4( a'4) g'4 d''2 r4 | g'2 b'8[ c''8] d''2 e''8[ c''8] | b'2 a'4 g'2 r4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+d'2 fis'4 g'2 fis'4 | g'2 fis'8[ a'8] g'2 r4 | d'2 d'4 d'2 g'4 | fis'2 g'4 fis'2 r4
+| g'2 g'4 g'2 g'4 | g'2 g'4 fis'2 r4 | d'2 g'8[ a'8] b'2 a'4 | g'2 fis'4 g'2 r4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+b2 c'4 b2 d'4 | d'2 d'4 d'2 r4 | b2 g4 b2 d'4 | d'2 d'4 d'2 r4
+| b2 d'4 c'2 b4 | g2 g4 a2 r4 | b2 d'8[ e'8] d'2 c'8[ e'8] | d'2 c'4 b2 r4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+g2 d4 e2 d4 | g2 d4 g,2 r4 | g2 g4 g2 g4 | d2 d4 d2 r4
+| g2 g4 g2 g4 | g4( fis4) e4 d2 r4 | g2 g4 g2 c4 | d2 d4 g,2 r4
+"""
+
+[lyrics.1]
+text = "’Tis re -- li -- gion that can give Sweet -- est pleas -- ure while we live; ’Tis re -- li -- gion must sup -- ply Sol -- id com -- fort when we die."
+
+[lyrics.2]
+text = "Af -- ter death, its joys will be Last -- ing as e -- ter -- ni -- ty; Be the liv -- ing God my friend, Then my bliss shall nev -- er end."
