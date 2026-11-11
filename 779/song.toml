@@ -1,20 +1,3 @@
-# Source: Tidings of Joy (1928), No. 177, page 179 (hymnary TJ1928 page scan);
-# notes and lyrics read from the plate. Seven-shape closed-score SATB, 3/4, G major.
-# Plate credit line: "COPYRIGHT, 1882, BY JOHN J. HOOD. USED BY PERMISSION."
-# No tempo printed; tempo_bpm = 104 is a guess.
-# Well-known tune (Kirkpatrick's JESUS SAVES); the plate is the composer's own setting.
-# Melody and harmony cross-checked against the Cyber Hymnal MusicXML (hymnary
-# media 131605). Where they differ, the plate is followed:
-#   - "heard", "tid-", "news", "steeps", "'tis" are double-dotted quarters on the
-#     plate (the XML has dotted quarters, leaving those bars a sixteenth short).
-#   - Tenor sings D3 on "heard" (M2) and "tid-/sin-/death/na-" (M6), G3 on
-#     "Bear the" (M9) (XML: G3, G3, C4 respectively).
-#   - Bass G2 on "saves" in M9 (XML: G3); M17 is a two-note T/B chord (XML adds G3).
-#   - Tenor B3 on "Je-" in M4 (XML tenor G3; plate head is hard to read there).
-#   - Bass F natural on "our" (M14) is printed on the plate.
-# Plate text differs from the familiar one: "a joyful sound" (not "the"),
-# "Spread the gladness all around" (not "tidings"), "battle's strife",
-# "Sing, ye islands", commas rather than exclamation marks after "Jesus saves".
 title = "Jesus Saves"
 copyrights = [
   "Lyrics: Priscilla J. Owens, 1882 (public domain)",
