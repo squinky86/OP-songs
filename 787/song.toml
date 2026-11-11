@@ -1,0 +1,105 @@
+# Source: Gospel Praise (Gospel Advocate Pub. Co., 1900; hymnary GP1900), No. 222,
+#   page 214 (printed p. 216). Notes and lyrics transcribed from the plate scan
+#   (hymnary serves this book only at 570 px wide, so pitches were read with a
+#   pixel profiler and zoomed crops; no other hymnary book carries this hymn).
+#   Page header "THE CHRISTIAN LIFE." is a book section, ignored.
+# Credits on plate: words "ELISHA A. HOFFMAN.", music "A. J. SHOWALTER.".
+# Footer: "Copyright, 1899, by Gospel Advocate Pub. Co." — BEST READING of a
+#   barely legible year (glyphs are clearly not the "1900" printed on GP1900
+#   p. 143; 1898 is the other possibility). hymnary dates text and tune 1900
+#   (the book year). Public domain either way.
+# Key F, 4/4 as printed. No tempo printed; bpm 88 is a guess.
+# Closed-score SATB. Verse is homophonic; the refrain is call-and-echo: S/A
+#   hold "then", "must", "way", "gain" (half tied to dotted eighth) while T/B
+#   answer after a quarter rest. Both rows print the same refrain words, so all
+#   four parts share the global chorus text with their own rhythms.
+# Plate bars merged: "in His word" (3 beats) + refrain pickup "If ye" (1 beat)
+#   form bar 9; the one-beat segments starting systems 4 and 5 ("Ye", "bless-ed")
+#   complete the bars before them. Final bar is 3 beats (+ s4) against the
+#   1-beat opening pickup.
+# "Ye" and "To" are two-note beamed melismas on the plate (G-A over E-F).
+# The bracketed last verse line "If we con-tin-ue in His word." is printed once
+#   for all stanzas -> shared section s1.
+# Editorial: deity capitalisation in Christ's quoted words — plate prints
+#   "If ye love me, keep my com-mand-ments" and "in my word"; written "Me",
+#   "My", "My word" (plate already capitalises "would My dis-ci-ple be").
+# Open readings: refrain bar 15 "Sav-" reads C5/A4 over a B-flat chord
+#   (T D4, B B-flat2) — kept as printed; the tenor's E-flat4 on "ed" (bar 14)
+#   is printed with an accidental.
+title = "“If Ye Love Me Keep My Commandments”"
+copyrights = [
+  "Lyrics: Elisha A. Hoffman, 1899 (public domain)",
+  "Music: A. J. Showalter, 1899 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 88
+verse_count = 3
+phrase_breaks = ["5:48", "9:48", "13:48"]
+optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
+non_breaking_phrase_breaks = ["10:44", "12:44", "14:44", "16:44"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. a'8. g'16 |
+f'4 a'4 c''4 a'8. g'16 | f'4 a'4 c''4 c''4 | d''4 c''4 a'4 c''4 | d''4 c''4 g'4! a'8. g'16 |
+f'4 a'4 c''4 a'8. g'16 | f'4 a'4 c''4 c''4 | d''4 c''4 a'4 f'4 | a'4 g'4 f'4! a'8.@c bes'16 |
+c''2~ c''8. d''16 a'8. c''16 | c''4 bes'4 bes'4 g'8.[ a'16] | bes'2~ bes'8. d''16 c''8. bes'16 | a'4 bes'4 c''4 a'8. bes'16 |
+c''2~ c''8. d''16 a'8. c''16 | c''4 bes'4 bes'4 g'8.[ a'16] | bes'2~ bes'8. d''16 c''8. bes'16 | a'4 g'4 f'4! s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. f'8. e'16 |
+f'4 f'4 f'4 f'8. e'16 | f'4 f'4 f'4 f'4 | f'4 f'4 f'4 f'4 | f'4 f'4 e'4! f'8. e'16 |
+f'4 f'4 f'4 f'8. e'16 | f'4 f'4 f'4 f'4 | f'4 f'4 f'4 f'4 | f'4 e'4 f'4! f'8.@c g'16 |
+a'2~ a'8. bes'16 f'8. a'16 | a'4 g'4 g'4 e'8.[ f'16] | g'2~ g'8. bes'16 a'8. g'16 | f'4 g'4 a'4 f'8. g'16 |
+a'2~ a'8. bes'16 f'8. a'16 | a'4 g'4 g'4 e'8.[ f'16] | g'2~ g'8. bes'16 a'8. g'16 | f'4 e'4 f'4! s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. c'8. bes16 |
+a4 c'4 a4 c'8. bes16 | a4 c'4 a4 a4 | bes4 a4 c'4 a4 | bes4 c'4 c'4! c'8. bes16 |
+a4 c'4 a4 c'8. bes16 | a4 c'4 a4 a4 | bes4 a4 c'4 c'4 | c'4 bes4 a4! r4@c |
+r4 c'8. c'16 c'8. c'16 c'8. c'16 | c'4 c'4 c'4 r4 | r4 c'4 c'8. c'16 c'8. c'16 | c'4 c'4 c'4 r4 |
+r4 c'8. c'16 c'8. c'16 c'8. ees'16 | d'4 d'4 d'4 r4 | r4 c'4 c'8. c'16 c'8. c'16 | c'4 bes4 a4! s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. f8. f16 |
+f4 f4 f4 f8. f16 | f4 f4 f4 f4 | f4 f4 f4 f4 | f4 a,4 c4! f8. f16 |
+f4 f4 f4 f8. f16 | f4 f4 f4 f4 | f4 f4 f4 a,4 | c4 c4 f4! r4@c |
+r4 f8. f16 f8. f16 f8. f16 | c4 c4 c4 r4 | r4 c4 c8. c16 c8. c16 | f4 f4 f4 r4 |
+r4 f8. f16 f8. f16 f8. f16 | bes,4 bes,4 bes,4 r4 | r4 c4 c8. c16 c8. c16 | c4 c4 f4! s4
+"""
+
+[lyrics.1]
+text = "“If ye love Me, keep My com -- mand -- ments” pure, This is the teach -- ing of the Lord, And His grace will make our sal -- va -- tion sure, @s1"
+
+[lyrics.2]
+text = "He will work in all both to will and do, His sov -- ereign grace He will af -- ford; All the toils of life He will guide us through @s1"
+
+[lyrics.3]
+text = "We with fear and trem -- bling will ev -- er try To fol -- low Je -- sus so a -- dored; We shall share the joys of the home on high @s1"
+
+[lyrics.chorus]
+text = "“If ye, then, would My dis -- ci -- ple be, Ye must con -- tin -- ue in My word;” ’Tis the way our bless -- ed Sav -- iour taught To gain in heav’n the great re -- ward."
+
+[lyrics.s1]
+text = "If we con -- tin -- ue in His word."
