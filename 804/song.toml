@@ -1,0 +1,81 @@
+title = "My Father Is Rich"
+subtitle = "The Child of a King"
+copyrights = [
+  "Lyrics: Hattie E. Buell, 1877 (public domain)",
+  "Music: 'Binghamton' by John B. Sumner, 1877 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "E"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 4
+phrase_breaks = ["5:32", "9:32", "13:32", "17:32", "21:32"]
+optional_phrase_breaks = ["19:32", "23:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 gis'4 | b'4. b'8 b'4 | gis'2 gis'4 | gis'4. gis'8 gis'4 | e'2 e'4
+| fis'4. fis'8 fis'4 | fis'4 gis'4 a'4 | a'4 gis'4 fis'4 | gis'2 gis'4
+| b'4. b'8 b'4 | gis'4-( gis'4-) gis'4 | a'4. a'8 a'4 | cis''2 cis''8-( cis''8-)
+| b'4. b'8 b'4 | gis'2 e'8-( fis'8-) | gis'4 gis'4. fis'8 | e'2 e'8.@c gis'16
+| b'2 b'8. b'16 | gis'2 gis'4 | gis'2 gis'8. gis'16 | b'2 b'4
+| e''4. dis''8 cis''4 | b'8 gis'4. cis''8! a'8 | gis'4 gis'4. fis'8 | e'2 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 e'4 | e'4. e'8 e'4 | e'2 e'4 | e'4. e'8 e'4 | b2 b4
+| dis'4. dis'8 dis'4 | dis'4 e'4 fis'4 | fis'4 e'4 dis'4 | e'2 e'4
+| gis'4. gis'8 gis'4 | e'4-( e'4-) e'4 | e'4. e'8 e'4 | e'2 e'8-( e'8-)
+| e'4. e'8 e'4 | e'2 e'8-( e'8-) | e'4 e'4. b8 | b2 b8.@c e'16
+| gis'2 gis'8. gis'16 | e'2 e'4 | e'2 e'8. e'16 | gis'2 gis'4
+| gis'4. b'8 a'4 | gis'8 e'4. e'8! fis'8 | e'4 dis'4. b8 | b2 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 b4 | gis4. gis8 gis4 | b2 b4 | b4. b8 b4 | gis2 gis4
+| b4. b8 b4 | b4 b4 b4 | b4 b4 b4 | b2 b4
+| e'4. e'8 e'4 | b4-( b4-) b4 | cis'4. cis'8 cis'4 | a2 a8-( a8-)
+| gis4. gis8 gis4 | b2 ais8-( ais8-) | b4 b4. a8 | gis2 gis8.@c b16
+| e'2 e'8. e'16 | b2 b4 | b2 b8. b16 | e'2 b4
+| b4. b8 e'4 | e'8 b4. e'8! cis'8 | b4 b4. a8 | gis2 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 e4 | e4. e8 e4 | e2 e4 | e4. e8 e4 | e2 e4
+| b,4. b,8 b,4 | b,4 b,4 b,4 | b,4 b,4 b,4 | e2 e4
+| e4. e8 e4 | e4-( e4-) e4 | a,4. a,8 a,4 | a,2 a,8-( a,8-)
+| e4. e8 e4 | e2 cis8-( cis8-) | b,4 b,4. b,8 | e2 e8.@c e16
+| e2 e8. e16 | e2 e4 | e2 e8. e16 | e2 e4
+| e4. e8 e4 | e8 e4. a,8! a,8 | b,4 b,4. b,8 | e2 s4
+"""
+
+[lyrics.1]
+text = "My Fa -- ther is rich in hous -- es and lands, He hold -- eth the wealth of the world in His hands! Of ru -- bies and dia -- monds, of sil -- ver and gold, His _ cof -- fers are full,— He has rich -- es un -- told."
+
+[lyrics.2]
+text = "My Fa -- ther’s own Son, the Sav -- ior of men, Once wan -- dered o’er earth as the poor -- est of them; But now He is reign -- ing for -- ev -- er on high, And will give me a home in _ heav’n by and by."
+
+[lyrics.3]
+text = "I once was an out -- cast stran -- ger on earth, A sin -- ner by choice, and an al -- ien by birth! But I’ve been a -- dopt -- ed, my name’s writ -- ten down,— An _ heir to a man -- sion, a robe and a crown."
+
+[lyrics.4]
+text = "A tent or a cot -- tage, why should I care? They’re build -- ing a pal -- ace for me o -- ver there! Tho’ ex -- iled from home, _ yet still I may sing: All _ glo -- ry to God, I’m the child of a King."
+
+[lyrics.chorus]
+text = "I’m the child of a King, The child of a King! With Je -- sus, my Sav -- ior, I’m the child of a King!"
