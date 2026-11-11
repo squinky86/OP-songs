@@ -8,6 +8,7 @@ tempo_bpm = 100
 phrase_breaks = ["5:48", "7:48", "11:48", "14:48"]
 optional_phrase_breaks = ["3:48", "9:48", "13:48", "15:48"]
 non_breaking_phrase_breaks = ["11:16", "13:16", "17:16"]
+non_breaking_format_resets = ["9:48"]
 copyrights = [
   "Lyrics: Jennie Ree, 1928 (public domain)",
   "Music: Charles H. Gabriel, 1892 (public domain)",
