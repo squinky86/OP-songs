@@ -1,31 +1,3 @@
-# Source: Gospel Praise (Gospel Advocate Pub. Co., 1900; hymnary GP1900), No. 222,
-#   page 214 (printed p. 216). Notes and lyrics transcribed from the plate scan
-#   (hymnary serves this book only at 570 px wide, so pitches were read with a
-#   pixel profiler and zoomed crops; no other hymnary book carries this hymn).
-#   Page header "THE CHRISTIAN LIFE." is a book section, ignored.
-# Credits on plate: words "ELISHA A. HOFFMAN.", music "A. J. SHOWALTER.".
-# Footer: "Copyright, 1899, by Gospel Advocate Pub. Co." — BEST READING of a
-#   barely legible year (glyphs are clearly not the "1900" printed on GP1900
-#   p. 143; 1898 is the other possibility). hymnary dates text and tune 1900
-#   (the book year). Public domain either way.
-# Key F, 4/4 as printed. No tempo printed; bpm 88 is a guess.
-# Closed-score SATB. Verse is homophonic; the refrain is call-and-echo: S/A
-#   hold "then", "must", "way", "gain" (half tied to dotted eighth) while T/B
-#   answer after a quarter rest. Both rows print the same refrain words, so all
-#   four parts share the global chorus text with their own rhythms.
-# Plate bars merged: "in His word" (3 beats) + refrain pickup "If ye" (1 beat)
-#   form bar 9; the one-beat segments starting systems 4 and 5 ("Ye", "bless-ed")
-#   complete the bars before them. Final bar is 3 beats (+ s4) against the
-#   1-beat opening pickup.
-# "Ye" and "To" are two-note beamed melismas on the plate (G-A over E-F).
-# The bracketed last verse line "If we con-tin-ue in His word." is printed once
-#   for all stanzas -> shared section s1.
-# Editorial: deity capitalisation in Christ's quoted words — plate prints
-#   "If ye love me, keep my com-mand-ments" and "in my word"; written "Me",
-#   "My", "My word" (plate already capitalises "would My dis-ci-ple be").
-# Open readings: refrain bar 15 "Sav-" reads C5/A4 over a B-flat chord
-#   (T D4, B B-flat2) — kept as printed; the tenor's E-flat4 on "ed" (bar 14)
-#   is printed with an accidental.
 title = "“If Ye Love Me Keep My Commandments”"
 copyrights = [
   "Lyrics: Elisha A. Hoffman, 1899 (public domain)",
