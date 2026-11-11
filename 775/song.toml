@@ -1,0 +1,78 @@
+title = "Meet Me There"
+copyrights = [
+  "Lyrics and Music: J. W. Hamm, 1926 (public domain)",
+  "Arrangement: M. Luther Ferguson, 1926 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "C"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 92
+verse_count = 3
+phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "11:48", "13:48", "15:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. e'8 f'8 | g'8 fis'8 g'8 a'8 g'4 e'8 g'8 | a'8 gis'8 a'8 b'8 a'4 {3 a'8[ b'8] c''8 } |
+b'8 f'8 b'8 f'8 b'4 {3 c''8[ b'8] a'8 } | g'2. e'8 f'8 | g'8 fis'8 g'8 a'8 g'4 e'8 g'8 |
+a'8 gis'8 a'8 b'8 a'4 {3 a'8[ b'8] c''8 } | b'8 f'8 b'8 f'8 b'4 {3 b'8[ c''8] d''8 } | c''2. g'8@c fis'8 |
+g'2. {3 g'8[ a'8] b'8 } | c''2. {3 g'8[ a'8] c''8 } | b'8 f'8 b'8 f'8 b'4 {3 c''8[ b'8] a'8 } | g'2. g'8 fis'8 |
+g'2. {3 g'8[ a'8] b'8 } | c''2. {3 a'8[ b'8] c''8 } | b'8 f'8 b'8 f'8 b'4 {3 b'8[ c''8] d''8 } | c''2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. c'8 d'8 | e'8 dis'8 e'8 f'8 e'4 c'8 e'8 | f'8 f'8 f'8 f'8 f'4 {3 f'4 f'8 }
+| f'8 d'8 f'8 d'8 f'4 {3 fis'4 fis'8 } | g'2. c'8 d'8 | e'8 dis'8 e'8 f'8 e'4 c'8 e'8
+| f'8 f'8 f'8 f'8 f'4 {3 f'4 f'8 } | f'8 d'8 f'8 d'8 f'4 {3 f'4 f'8 } | e'2. e'8@c dis'8
+| e'2. {3 f'4 f'8 } | f'2. {3 f'4 f'8 } | f'8 d'8 f'8 d'8 f'4 {3 fis'4 fis'8 } | g'2. e'8 dis'8
+| e'2. {3 f'4 f'8 } | f'2. {3 f'4 f'8 } | f'8 d'8 f'8 d'8 f'4 {3 f'4 f'8 } | e'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. g8 g8 | c'8 c'8 c'8 c'8 c'4 c'8 c'8 | c'8 b8 c'8 d'8 c'4 {3 c'8[ b8] a8 } |
+g8 g8 g8 g8 g4 {3 a8[ b8] c'8 } | b2. g8 g8 | c'8 c'8 c'8 c'8 c'4 c'8 c'8 |
+c'8 b8 c'8 d'8 c'4 {3 c'8[ b8] a8 } | g8 g8 g8 g8 g4 {3 g4 g8 } | g2. r4@c |
+c'4 c'4 c'4 c'4 | a4 a4 a4 {3 c'8[ b8] a8 } | g8 g8 g8 g8 g4 {3 a8[ b8] c'8 } | b2. r4 |
+c'4 c'4 c'4 c'4 | a4 a4 a4 {3 c'8[ b8] a8 } | g8 g8 g8 g8 g4 {3 g4 g8 } | g2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. c8 c8 | c8 c8 c8 c8 c4 c8 c8 | f8 f8 f8 f8 f4 {3 f4 f8 }
+| g8 g8 g8 g8 g4 {3 d4 d8 } | g2. c8 c8 | c8 c8 c8 c8 c4 c8 c8
+| f8 f8 f8 f8 f4 {3 f4 f8 } | g8 g8 g8 g8 g4 {3 g4 g8 } | c2. r4@c
+| c4 c4 c4 c4 | f4 f4 f4 {3 f4 f8 } | g8 g8 g8 g8 g4 {3 d4 d8 } | g2. r4
+| c4 c4 c4 c4 | f4 f4 f4 {3 f4 f8 } | g8 g8 g8 g8 g4 {3 g4 g8 } | c2. s4
+"""
+
+[lyrics.1]
+text = "On that bright and hap -- py shore, Where we’ll meet to part no more, And we live there ev -- er -- more— meet me there; And with loved ones we will be, In that land be -- yond the sea, And so hap -- py we will be— meet me there."
+
+[lyrics.2]
+text = "We shall see our Sav -- ior’s face And our moth -- er we’ll em -- brace, In that hap -- py dwell -- ing place— meet me there; And for -- ev -- er we will dwell, And the strain of mu -- sic swell With the songs we love so well— meet me there,"
+
+[lyrics.3]
+text = "Sing the glad and joy -- ful sound, That our Sav -- ior has been found, By the soul that’s heav -- en bound— meet me there; And will stage a gos -- pel fight With the pow’r of truth and right, Go -- ing forth in great de -- light— meet me there."
+
+[lyrics.chorus]
+text = "Meet me there, meet me there, Where our loved ones for us wait— meet me there, Meet me there, meet me there. Oh, my broth -- er can you say— meet me there."
+
+[parts.Tenor.lyrics.chorus]
+text = "Meet me there, oh meet me there, Where our loved ones for us wait— meet me there, Meet me there, oh meet me there. Oh, my broth -- er can you say— meet me there."
+
+[parts.Bass.lyrics.chorus]
+text = "Meet me there, oh meet me there, Where our loved ones for us wait— meet me there, Meet me there, oh meet me there. Oh, my broth -- er can you say— meet me there."
