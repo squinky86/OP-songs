@@ -1,0 +1,80 @@
+title = "’Tis the Hand of My Lord"
+copyrights = [
+  "Lyrics and Music: Franklin L. Eiland, 1908 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "A"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 88
+verse_count = 3
+phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "13:48"]
+optional_phrase_breaks = ["11:48", "15:48"]
+non_breaking_phrase_breaks = ["10:16", "10:48", "11:16", "14:16", "14:48", "15:16"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. cis''8. b'16 | a'4 e'8. e'16 fis'8[ a'8] a'8. b'16 | cis''4 b'8. b'16 a'4 cis''8. d''16
+| e''4 e''8. e''16 cis''8[ b'8] a'8. cis''16 | b'2. cis''8. b'16
+| a'4 e'8. e'16 fis'8[ a'8] a'8. b'16 | cis''4 b'8. b'16 a'4 cis''8. d''16
+| cis''4 a'8. b'16 cis''8[ a'8] b'8. b'16 | a'2. cis''8.@c a'16
+| e''2. cis''8. a'16 | e''2. cis''8. d''16 | e''4 e''8. e''16 cis''8[ b'8] a'8. cis''16 | b'2. cis''8. a'16
+| e''2. cis''8. a'16 | e''2. cis''8. d''16 | e''4 a'8. b'16 cis''8[ a'8] b'8. b'16 | a'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. e'8. d'16 | cis'4 cis'8. cis'16 d'8[ cis'8] e'8. e'16 | e'4 d'8. d'16 cis'4 e'8. e'16
+| a'4 a'8. a'16 e'8[ d'8] cis'8. e'16 | e'2. e'8. d'16
+| cis'4 cis'8. cis'16 d'8[ cis'8] e'8. e'16 | e'4 d'8. d'16 cis'4 e'8. e'16
+| a'4 e'8. fis'16 e'8[ cis'8] d'8. d'16 | cis'2. e'8.@c e'16
+| a'4 gis'8. gis'16 a'4 e'8. e'16 | gis'8[ a'8] b'8. b'16 a'4 e'8. e'16 | a'4 a'8. a'16 e'8[ d'8] cis'8. e'16 | e'2. e'8. e'16
+| a'4 gis'8. gis'16 a'4 e'8. e'16 | gis'8[ a'8] b'8. b'16 a'4 e'8. e'16 | a'4 e'8. fis'16 e'8[ cis'8] d'8. d'16 | cis'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. a8. a16 | a4 a8. a16 a4 a8. gis16 | a4 gis8. gis16 a4 a8. b16
+| cis'4 cis'8. cis'16 a8[ e8] e8. a16 | gis2. a8. a16
+| a4 a8. a16 a4 a8. gis16 | a4 gis8. gis16 a4 a8. b16
+| cis'4 a8. a16 a8[ e8] e8. e16 | e2. a8.@c cis'16
+| cis'4 d'8. d'16 cis'4 a8. cis'16 | d'8[ e'8] d'8. d'16 cis'4 a8. b16 | cis'4 cis'8. cis'16 a8[ e8] e8. a16 | gis2. a8. cis'16
+| cis'4 d'8. d'16 cis'4 a8. cis'16 | d'8[ e'8] d'8. d'16 cis'4 a8. b16 | cis'4 a8. a16 a8[ e8] e8. e16 | e2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. a,8. a,16 | a,4 a,8. a,16 a,4 cis8. e16 | a4 e8. e16 a,4 a8. a16
+| a4 a8. a,16 a,8[ b,8] cis8. a,16 | e2. a,8. a,16
+| a,4 a,8. a,16 a,4 cis8. e16 | a4 e8. e16 a,4 a8. a16
+| a4 cis8. d16 e4 e8. e16 | a,2. a8.@c a16
+| a4 e8. e16 a4 a8. a16 | e8[ fis8] gis8. e16 a4 a8. a16 | a4 a8. a,16 a,8[ b,8] cis8. a,16 | e2. a8. a16
+| a4 e8. e16 a4 a8. a16 | e8[ fis8] gis8. e16 a4 a8. a16 | a4 cis8. d16 e4 e8. e16 | a,2. s4
+"""
+
+[lyrics.1]
+text = "’Tis the hand of my Lord that is lead -- ing my way, Thro’ the world with its sor -- row and care; Here my feet it will guide, till my home I shall reach, And the joys that are mine to be there!"
+
+[lyrics.2]
+text = "Not a tear nor a sigh shall be mine all a -- lone, For He’ll give un -- to me of His grace; He will drive from my heart ev -- ’ry sad -- ness and gloom, By the show and the light of His face!"
+
+[lyrics.3]
+text = "And when there I have come, to the riv -- er of death, Not a cloud o’er my spir -- it shall roll, He the waves will di -- vide and a -- cross I shall go To my home, hap -- py home of the soul!"
+
+[lyrics.chorus]
+text = "’Tis the hand might -- y hand, of my Lord, bless -- ed Lord, That is lead -- ing, is lead -- ing my way! ’Tis the hand might -- y hand of the Lord, bless -- ed Lord, That is guid -- ing my feet ev -- ’ry day."
+
+[parts.Soprano.lyrics.chorus]
+text = "’Tis the hand of my Lord, That is lead -- ing, is lead -- ing my way! ’Tis the hand of the Lord, That is guid -- ing my feet ev -- ’ry day."
