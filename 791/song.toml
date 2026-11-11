@@ -1,0 +1,115 @@
+title = "’Neath the Shadow of the Almighty"
+subtitle = "Hiding"
+copyrights = [
+  "Lyrics: Edwin O. Excell and Ada Blenkhorn, 1896 (public domain)",
+  "Music: Edwin O. Excell, 1896 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Eb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 3
+phrase_breaks = ["3:48", "7:48", "9:48", "13:64", "17:64"]
+non_breaking_phrase_breaks = ["3:64", "5:64", "9:64", "11:64", "15:64", "17:8", "19:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. ees'8 f'8 |
+g'8 g'8 g'8 f'8 f'16 ees'8. g'8 aes'8 | bes'8 a'8 c''8 g'8 bes'4 g'8 bes'8 |
+ees''2 bes'4 r4 | bes'2 g'4 r4 | ees'8 ees'8 ees'8 ees'8 d'16 ees'8. f'8 g'8 | f'2. ees'8 f'8 |
+g'8 g'8 g'8 f'8 f'16 ees'8. g'8 aes'8 | bes'8 a'8 c''8 g'8 bes'4 g'8 bes'8 |
+ees''2 bes'4 r4 | bes'2 g'4 r4 | ees'8 ees'8 ees'8 ees'8 d'16 ees'8. f'8 g'8 | ees'2. r4 |
+bes'2@c g'4 r4 | ees''2 bes'4 r4 | g'8 g'8 g'8 g'8 a'16 a'8. bes'8 c''8 | bes'2~ bes'2 |
+bes'2 g'4 r4 | ees''2 bes'4 r4 | ees'8 ees'8 ees'8 ees'8 d'16 ees'8. f'8 g'8 | ees'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. ees'8 ees'8 |
+ees'8 ees'8 ees'8 bes8 bes16 bes8. ees'8 f'8 | g'8 fis'8 aes'8 ees'8 ees'4 ees'8 g'8 |
+g'8 g'8 g'8 g'8 g'8 g'8 r4 | g'8 g'8 g'8 g'8 ees'8 ees'8 r4 | bes8 bes8 bes8 bes8 bes16 bes8. bes8 bes8 | bes2. ees'8 ees'8 |
+ees'8 ees'8 ees'8 bes8 bes16 bes8. ees'8 f'8 | g'8 fis'8 aes'8 ees'8 ees'4 ees'8 g'8 |
+g'8 g'8 g'8 g'8 g'8 g'8 r4 | g'8 g'8 g'8 g'8 ees'8 ees'8 r4 | bes8 bes8 bes8 bes8 bes16 bes8. bes8 bes8 | bes2. r4 |
+ees'8@c ees'8 ees'8 ees'8 ees'8 ees'8 r4 | g'8 g'8 g'8 g'8 g'8 g'8 r4 | ees'8 ees'8 ees'8 ees'8 ees'16 ees'8. d'8 ees'8 | d'8 f'8 aes'8 g'8 f'4 d'4 |
+ees'8 ees'8 ees'8 ees'8 ees'8 ees'8 r4 | g'8 g'8 g'8 g'8 g'8 g'8 r4 | bes8 bes8 bes8 bes8 bes16 bes8. bes8 bes8 | bes2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. g8 aes8 |
+bes8 bes8 bes8 aes8 aes16 g8. bes8 bes8 | ees'8 ees'8 ees'8 bes8 g4 bes8 ees'8 |
+bes8 bes8 bes8 bes8 ees'8 ees'8 r4 | ees'8 ees'8 ees'8 ees'8 bes8 bes8 r4 | g8 g8 g8 g8 aes16 g8. aes8 bes8 | aes2. g8 aes8 |
+bes8 bes8 bes8 aes8 aes16 g8. bes8 bes8 | ees'8 ees'8 ees'8 bes8 g4 bes8 ees'8 |
+bes8 bes8 bes8 bes8 ees'8 ees'8 r4 | ees'8 ees'8 ees'8 ees'8 bes8 bes8 r4 | g8 g8 g8 g8 f16 g8. aes8 bes8 | g2. r4 |
+g8@c g8 g8 g8 bes8 bes8 r4 | bes8 bes8 bes8 bes8 ees'8 ees'8 r4 | bes8 bes8 c'8 c'8 c'16 c'8. bes8 a8 | bes8 aes8 c'8 bes8 aes4 f4 |
+g8 g8 g8 g8 bes8 bes8 r4 | bes8 bes8 bes8 bes8 ees'8 ees'8 r4 | g8 g8 g8 g8 f16 g8. aes8 bes8 | g2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. ees8 ees8 |
+ees8 ees8 bes,8 bes,8 ees16 ees8. ees8 ees8 | ees8 ees8 ees8 ees8 ees4 ees8 ees8 |
+ees8 ees8 ees8 ees8 ees8 ees8 r4 | ees8 ees8 ees8 ees8 ees8 ees8 r4 | ees8 ees8 ees8 ees8 f16 ees8. bes,8 bes,8 | bes,2. ees8 ees8 |
+ees8 ees8 bes,8 bes,8 ees16 ees8. ees8 ees8 | ees8 ees8 ees8 ees8 ees4 ees8 ees8 |
+ees8 ees8 ees8 ees8 ees8 ees8 r4 | ees8 ees8 ees8 ees8 ees8 ees8 r4 | bes,8 bes,8 bes,8 bes,8 bes,16 bes,8. bes,8 bes,8 | ees2. r4 |
+ees8@c ees8 ees8 ees8 ees8 ees8 r4 | ees8 ees8 ees8 ees8 ees8 ees8 r4 | ees8 ees8 ees8 ees8 f16 f8. f8 f8 | bes,2~ bes,2 |
+ees8 ees8 ees8 ees8 ees8 ees8 r4 | ees8 ees8 ees8 ees8 ees8 ees8 r4 | bes,8 bes,8 bes,8 bes,8 bes,16 bes,8. bes,8 bes,8 | ees2. s4
+"""
+
+[lyrics.1]
+text = "’Neath the shad -- ow of th’‿Al -- might -- y, In the pres -- ence of my King, @s1 In the se -- cret place a -- bid -- ing, In con -- tent -- ment I can sing; @s2"
+
+[lyrics.2]
+text = "When the storms of life are rag -- ing, Clos -- er to His side I cling; @s1 In His love I’m safe -- ly shel -- tered, Peace and qui -- et He doth bring: @s2"
+
+[lyrics.3]
+text = "All my life, my love, my serv -- ice, All I have to Him I bring; @s1 He will hide me, safe -- ly hide me, Till in heav’n this song I sing: @s2"
+
+[lyrics.chorus]
+text = "Hid -- ing, hid -- ing, Hid -- ing in the shad -- ow of His wing; Hid -- ing, hid -- ing, Hid -- ing in the shad -- ow of His wing."
+
+[parts.Alto.lyrics.chorus]
+text = "Hid -- ing, safe -- ly hid -- ing, hid -- ing, safe -- ly hid -- ing, Hid -- ing in the shad -- ow of His wing; I’m hid -- ing, hid -- ing, Hid -- ing, safe -- ly hid -- ing, hid -- ing, safe -- ly hid -- ing, Hid -- ing in the shad -- ow of His wing."
+
+[parts.Tenor.lyrics.chorus]
+text = "Hid -- ing, safe -- ly hid -- ing, hid -- ing, safe -- ly hid -- ing, Hid -- ing in the shad -- ow of His wing; I’m hid -- ing, hid -- ing, Hid -- ing, safe -- ly hid -- ing, hid -- ing, safe -- ly hid -- ing, Hid -- ing in the shad -- ow of His wing."
+
+[parts.Bass.lyrics.chorus]
+text = "Hid -- ing, safe -- ly hid -- ing, hid -- ing, safe -- ly hid -- ing, Hid -- ing in the shad -- ow of His wing; Hid -- ing, safe -- ly hid -- ing, hid -- ing, safe -- ly hid -- ing, Hid -- ing in the shad -- ow of His wing."
+
+[lyrics.s1]
+text = "I am hid -- ing, hid -- ing, Hid -- ing in the shad -- ow of His wing;"
+
+[parts.Alto.lyrics.s1]
+text = "I am hid -- ing, safe -- ly hid -- ing, hid -- ing, safe -- ly hid -- ing, Hid -- ing in the shad -- ow of His wing;"
+
+[parts.Tenor.lyrics.s1]
+text = "I am hid -- ing, safe -- ly hid -- ing, hid -- ing, safe -- ly hid -- ing, Hid -- ing in the shad -- ow of His wing;"
+
+[parts.Bass.lyrics.s1]
+text = "I am hid -- ing, safe -- ly hid -- ing, hid -- ing, safe -- ly hid -- ing, Hid -- ing in the shad -- ow of His wing;"
+
+[lyrics.s2]
+text = "I am hid -- ing, hid -- ing, Hid -- ing in the shad -- ow of His wing."
+
+[parts.Alto.lyrics.s2]
+text = "I am hid -- ing, safe -- ly hid -- ing, hid -- ing, safe -- ly hid -- ing, Hid -- ing in the shad -- ow of His wing."
+
+[parts.Tenor.lyrics.s2]
+text = "I am hid -- ing, safe -- ly hid -- ing, hid -- ing, safe -- ly hid -- ing, Hid -- ing in the shad -- ow of His wing."
+
+[parts.Bass.lyrics.s2]
+text = "I am hid -- ing, safe -- ly hid -- ing, hid -- ing, safe -- ly hid -- ing, Hid -- ing in the shad -- ow of His wing."
