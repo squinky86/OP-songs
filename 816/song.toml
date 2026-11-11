@@ -1,0 +1,67 @@
+title = "All You That Have Confessed"
+copyrights = [
+  "Lyrics: Anonymous, 1834 (public domain)",
+  "Music: 'Bealoth' by Lowell Mason, 1840 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "A"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 115
+verse_count = 3
+phrase_breaks = ["4:48", "8:48", "12:48"]
+optional_phrase_breaks = ["2:48", "6:48", "10:48", "14:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+cis''4 cis''8 cis''8 cis''4 b'4 | a'2. a'4 | b'4 b'4 b'4 cis''8[ b'8] | a'2. e'4 |
+cis''4. cis''8 cis''4 b'4 | a'4 a'4 a'4 a'4 | b'4 b'4 b'4 cis''8[ b'8] | a'2. e'8[ fis'8] |
+gis'4 a'4 b'4 cis''4 | d''2. b'4 | cis''4 b'8[ cis''8] d''4 cis''4 | b'2. cis''8[ d''8] |
+e''4. cis''8 a'4 e'4 | fis'4 fis'4 e'4 a'4 | b'4 b'4 b'4 cis''8[ b'8] | a'1
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+e'4 e'8 e'8 e'4 d'4 | cis'2. cis'4 | d'4 d'4 d'4 e'8[ d'8] | cis'2. cis'4 |
+e'4. e'8 e'4 d'4 | cis'4 cis'4 cis'4 cis'4 | d'4 d'4 d'4 e'8[ d'8] | cis'2. e'4 |
+e'4 e'4 e'4 a'4 | gis'2. gis'4 | a'4 gis'8[ a'8] b'4 a'4 | gis'2. e'4 |
+e'4. e'8 e'4 e'4 | d'4 d'4 e'4 e'4 | gis'4 gis'4 gis'4 gis'4 | e'1
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+a4 a8 a8 a4 gis4 | a2. a4 | gis4 gis4 gis4 gis4 | a2. a4
+| a4. a8 a4 gis4 | a4 a4 a4 a4 | gis4 gis4 gis4 gis4 | a2. gis8[ a8]
+| b4 cis'4 gis4 a4 | b2. e'4 | e'4 e'4 e'4 e'4 | e'2. a8[ b8]
+| cis'4. e'8 cis'4 a4 | a4 a4 a4 cis'4 | d'4 d'4 d'4 e'8[ d'8] | cis'1
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+a4 a8 a8 a4 e4 | a,2. a,4 | e4 e4 e4 e4 | a,2. a,4
+| a4. a8 a4 e4 | fis4 fis4 fis4 fis4 | e4 e4 e4 e4 | a,2. e4
+| e4 e4 e4 e4 | e2. e4 | a4 b8[ a8] gis4 a4 | e2. a8[ b8]
+| a4. a8 a4 cis4 | d4 d4 cis4 a,4 | e4 e4 e4 e4 | a,1
+"""
+
+[lyrics.1]
+text = "All you that have con -- fessed That Je -- sus is the Lord, And to His peo -- ple joined your -- selves, Ac -- cord -- ing to His word, In Zi -- on you must dwell, Her al -- tar ne’er for -- sake; Must come to all her sol -- emn feasts, Of all her joys par -- take."
+
+[lyrics.2]
+text = "She must em -- ploy your thoughts, And your un -- ceas -- ing care; Her wel -- fare be your con -- stant wish, And her in -- crease your prayer. With hum -- ble -- ness of mind A -- mong her sons re -- joice— A meek and qui -- et spir -- it is, With God, of high -- est price."
+
+[lyrics.3]
+text = "Nev -- er of -- fend nor grieve Your breth -- ren by the way; But shun the dark a -- bodes of strife, Like chil -- dren of the day. In all your Sav -- iour’s ways With will -- ing foot -- steps move; Be faith -- ful un -- to death, and then You’ll reign with Him a -- bove."
