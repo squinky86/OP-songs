@@ -1,5 +1,9 @@
 title = "I Would Be Like Jesus"
-subtitle = ""
+copyrights = [
+  "Lyrics: James Rowe, 1911 (public domain)",
+  "Music: Bentley DeForest Ackley, 1911 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "Ab"
 time_sig_numerator = 6
 time_sig_denominator = 4
@@ -7,11 +11,7 @@ tempo_bpm = 190
 verse_count = 4
 phrase_breaks = ["4:96", "8:96", "12:96", "16:96"]
 optional_phrase_breaks = ["2:96", "6:96", "10:96", "14:96"]
-copyrights = [
-  "Lyrics: James Rowe, 1911 (public domain)",
-  "Music: Bentley DeForest Ackley, 1911 (public domain)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
+non_breaking_format_resets = ["2:96", "6:96"]
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -45,19 +45,6 @@ notes = """
 aes,2 aes,4 aes,2 aes,4 | aes,2 aes,4 aes,2 aes,4 | aes,2 aes,4 aes,2 aes,4 | bes,2 bes,4 ees2 ees4 | ees2 ees4 ees2 ees4 | ees2 ees4 des2 des4 | c2 ees4 aes2 f4 | ees2 ees4 ees2 ees4! | aes,2@c aes,4 aes,2 aes,4 | bes,2 bes,4 bes,2. | ees2 ees4 ees2 ees4 | aes,2 aes,4 aes,2. | aes,2 aes,4 c2 ees4 | aes2 c4 des2.! | ees2 ees4 ees2 ees4 | ees2. <ees aes,>2.
 """
 
-[lyrics.s1]
-text = "I would be would be like Je -- sus;"
-
-[lyrics.s2]
-text = "I would be would be like Je -- sus."
-
-[parts.Soprano.lyrics.s1]
-text = "I would be like Je -- sus;"
-
-
-[parts.Soprano.lyrics.s2]
-text = "I would be like Je -- sus."
-
 [lyrics.1]
 text = "Earth -- ly plea -- sures vain -- ly call me; @s1 No -- thing world -- ly shall en -- thrall me; @s2"
 
@@ -72,3 +59,15 @@ text = "That in Heav -- en He may meet me, @s1 That His words “Well done” ma
 
 [lyrics.chorus]
 text = "Be like Je -- sus, this my song, In the home and in the throng; Be like Je -- sus, all day long! I would be like Je -- sus."
+
+[lyrics.s1]
+text = "I would be would be like Je -- sus;"
+
+[parts.Soprano.lyrics.s1]
+text = "I would be like Je -- sus;"
+
+[lyrics.s2]
+text = "I would be would be like Je -- sus."
+
+[parts.Soprano.lyrics.s2]
+text = "I would be like Je -- sus."

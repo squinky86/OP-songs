@@ -1,16 +1,16 @@
 title = "Praise His Name"
-subtitle = ""
-tempo_bpm = 94
-key_signature = "Eb"
-time_sig_numerator = 6
-time_sig_denominator = 8
-verse_count = 3
-phrase_breaks = ["4:48", "8:48", "12:48"]
 copyrights = [
     "Lyrics and Music: Charles H. Gabriel, 1894 (public domain)",
     "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license"
 ]
+key_signature = "Eb"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 94
+verse_count = 3
+phrase_breaks = ["4:48", "8:48", "12:48"]
 optional_phrase_breaks = ["2:48", "6:48", "10:48", "14:48"]
+non_breaking_format_resets = ["2:48", "6:48"]
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -53,21 +53,6 @@ text = "When I faint, His grace up -- hold -- eth me; @s1 When I fear, His arms 
 [lyrics.3]
 text = "Cares of life have o -- ver -- tak -- en me, @s1 Yet He nev -- er has for -- sak -- en me, @s2"
 
-[lyrics.s1]
-text = "Praise His name, praise His name!"
-
-[lyrics.s2]
-text = "Praise His ho -- ly name."
-
-[parts.Tenor.lyrics.s1]
-text = "Praise ​His ​name!"
-
-[parts.Tenor.lyrics.s2]
-text = "Praise ​His ​name."
-
-[parts.Bass.lyrics.s2]
-text = "Praise ​His ​name."
-
 [lyrics.chorus]
 text = "Hal -- le -- lu -- jah! This is my song, Je -- sus, Je -- sus, the whole day long; He is mine, a Sav -- ior di -- vine— Praise His ho -- ly name."
 
@@ -76,3 +61,18 @@ text = "Hal -- le -- lu -- jah! This is my song, Je -- sus, Je -- sus, the whole
 
 [parts.Bass.lyrics.chorus]
 text = "Hal -- le -- lu -- jah! This is my song, Je -- sus, Je -- sus, the whole day long; He is mine, a Sav -- ior di -- vine— Praise His name."
+
+[lyrics.s1]
+text = "Praise His name, praise His name!"
+
+[parts.Tenor.lyrics.s1]
+text = "Praise ​His ​name!"
+
+[lyrics.s2]
+text = "Praise His ho -- ly name."
+
+[parts.Tenor.lyrics.s2]
+text = "Praise ​His ​name."
+
+[parts.Bass.lyrics.s2]
+text = "Praise ​His ​name."
