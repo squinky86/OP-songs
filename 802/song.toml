@@ -1,0 +1,61 @@
+title = "A Charge to Keep I Have"
+copyrights = [
+  "Lyrics: Charles Wesley, 1762 (public domain)",
+  "Music: 'Boylston' by Lowell Mason, 1832 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "C"
+time_sig_numerator = 3
+time_sig_denominator = 2
+tempo_bpm = 110
+verse_count = 4
+phrase_breaks = ["5:64"]
+optional_phrase_breaks = ["3:64", "7:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s1 g'2 | e'4 f'4 g'2 a'2 | g'1 c''2 | c''4 b'4 a'2 a'2 | g'1 g'2
+| e'4 f'4 g'2 g'2 | a'4 b'4 c''2 b'2 | c''4 a'4 g'2 g'2 | g'1 s2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s1 e'2 | c'4 d'4 e'2 f'2 | e'1 e'2 | fis'4 d'4 e'2 d'2 | d'1 e'2
+| c'4 b4 c'2 e'2 | f'4 f'4 e'2 d'2 | g'4 f'4 e'4( d'4) f'2 | e'1 s2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s1 g2 | g4 g4 g4( c'4) c'2 | c'1 c'2 | a4 g4 g2 fis4( c'4) | b1 g2
+| g4 g4 g2 c'2 | c'4 g4 g2 g2 | g4 c'4 c'4( b4) d'2 | c'1 s2
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s1 c2 | c4 c4 c2 f2 | c1 c2 | d4 g4 c2 d2 | g,1 c2
+| c4 d4 e2 c2 | f4 d4 c2 g2 | e4 f4 g2 g,2 | c1 s2
+"""
+
+[lyrics.1]
+text = "A charge to keep I have, A God to glo -- ri -- fy; A nev -- er- -- dy -- ing soul to save, And fit it for the sky."
+
+[lyrics.2]
+text = "To serve the pres -- ent age, My call -- ing to ful -- fil— O may it all my pow'rs en -- gage To do my Mas -- ter's will!"
+
+[lyrics.3]
+text = "Arm me with jeal -- ous care, As in Thy sight to live; And O Thy serv -- ant, Lord, pre -- pare A strict ac -- count to give!"
+
+[lyrics.4]
+text = "Help me to watch and pray, And on Thy -- self re -- ly, As -- sured if I my trust be -- tray, I shall for -- ev -- er die."
