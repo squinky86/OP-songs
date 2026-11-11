@@ -1,0 +1,65 @@
+title = "Others He Saved"
+copyrights = [
+  "Lyrics: J. C. Blissard, 1921 (public domain)",
+  "Music: 'Dalkeith' by Thomas Hewlett, 1877 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Eb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 84
+verse_count = 3
+phrase_breaks = ["4:32", "7:32", "10:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 bes'2 | g'4 f'4 ees'4 ees'4 | f'4 g'4 bes'4. aes'8/-24 | g'2 g'2
+| g'4 g'4 ees''4 ees''4 | d''4 bes'4 g'4. g'8/-24 | fis'2 g'2
+| bes'4 bes'4 bes'4 aes'4 | aes'4 g'4 f'4 c''4 | bes'2 ees''2
+| ees''4. ees''8/-24 ees''4 c''4 | bes'4 a'4 bes'4 f'4 | ees'2! s2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 ees'2 | d'4 d'4 ees'4 ees'4 | ees'4 ees'4 ees'4 d'4 | ees'2 ees'2
+| f'4 ees'4 g'4 g'4 | fis'4 d'4 d'4 c'4 | d'2 d'2
+| g'4 g'4 g'4 f'4 | f'4 ees'4 f'4 f'4 | bes'2 bes'2
+| g'4 g'4 aes'4 ees'4 | ees'4 ees'4 ees'4 d'4 | ees'2! s2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 g2 | bes4 aes4 g4 bes4 | c'4 bes4 c'4 bes4 | bes2 bes2
+| b4 c'4 c'4 bes4 | a4 bes4 bes4 g4 | a2 bes2
+| d'4 des'4 c'4 c'4 | d'4 ees'4 ees'4 d'4 | ees'2 ees'2
+| des'4 des'4 c'4 aes4 | g4 fis4 g4 aes4 | g2! s2
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 ees2 | bes,4 bes,4 c4 g4 | aes4 g4 f4 bes,4 | ees2 ees2
+| d4 c4 c4 c4 | d4 g4 ees4 ees4 | d2 g2
+| g4 f4 e4 f4 | bes,4 bes4 a4 aes4 | g2 g2
+| ees4 ees4 aes4 aes,4 | bes,4 c4 bes,4 bes,4 | ees2! s2
+"""
+
+[lyrics.1]
+text = "“Oth -- ers He saved, Him -- self He could not save,” So scoffed the priests, and up -- ward rolled the wave Of blas -- phe -- my a -- gainst the dy -- ing Lord, Un -- til it broke up -- on the throne of God."
+
+[lyrics.2]
+text = "“Oth -- ers He saved, Him -- self He did not save,” So sighed the mourn -- ers round the Sav -- ior’s grave; Their grief em -- bit -- tered by the mys -- ter -- y Why He, who Laz’ -- rus raised, Him -- self need die,"
+
+[lyrics.3]
+text = "“Oth -- ers to save, Him -- self He would not save,” There rests the truth, His life for us He gave: O ru -- ined heart! thy Sav -- ior had to choose, If He should die, or thou sal -- va -- tion lose."
