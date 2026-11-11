@@ -1,0 +1,119 @@
+title = "With Trusting Heart I Follow Him"
+copyrights = [
+  "Lyrics: James Rowe, 1926 (public domain)",
+  "Music: Homer F. Morris, 1926 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "E"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 3
+phrase_breaks = ["3:40", "5:40", "7:40", "9:40", "11:40", "13:40", "15:40", "17:40", "19:40", "21:40", "23:40"]
+non_breaking_phrase_breaks = ["4:40", "5:8", "8:8", "8:40", "9:8", "17:8", "17:64", "18:40", "18:64", "19:64", "21:64", "22:40", "22:64", "23:64", "24:40", "25:8"]
+non_breaking_format_resets = ["8:40", "24:40"]
+interleave_verse_lyrics = true
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s8 gis'8 a'8 ais'8 | b'2~ b'8 b'8 ais'8 a'8 | gis'2~ gis'8 b'8 b'8 gis'8 | a'2~ a'8 fis'8 b'8 a'8 |
+gis'2~ gis'8 gis'8 a'8 ais'8 | b'2~ b'8 b'8 ais'8 a'8 | gis'2~ gis'8 gis'8 a'8 b'8 | cis''2~ cis''8 b'8 a'8 a'8 |
+b'2~ b'8 r4. | b'8 b'8 gis'8 gis'8 b'8 r4. | gis'8 gis'8 gis'8 gis'8 gis'8 r4. | fis'8 fis'8 fis'8 fis'8 fis'8 fis'8 b'8 a'8 |
+gis'8 gis'8 gis'8 gis'8 gis'8 r4. | b'8 b'8 gis'8 gis'8 b'8 r4. | a'8 a'8 a'8 a'8 a'8 r4. | b'8 b'8 a'8 a'8 gis'8 fis'8 b'8 a'8 |
+gis'8 gis'8 a'8 a'8 gis'8! b'8@c ais'8 b'8 | e''2~ e''8 fis''8 e''8 cis''8 | b'4 b'4 b'8 b'8 cis''8 b'8 | a'4 a'4 a'8 fis'8 b'8 a'8 |
+gis'4 gis'4 gis'8 b'8 ais'8 b'8 | e''2~ e''8 fis''8 e''8 cis''8 | b'4 b'4 b'8 e''8 dis''8 cis''8 | b'2~ b'8 a'8 gis'8 fis'8 |
+e'2~ e'8 s4.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s8 e'8 fis'8 fisis'8 | gis'2~ gis'8 gis'8 fisis'8 fis'8 | e'2~ e'8 gis'8 gis'8 eis'8 | fis'2~ fis'8 dis'8 e'8 dis'8 |
+e'2~ e'8 e'8 fis'8 fisis'8 | gis'2~ gis'8 gis'8 fisis'8 fis'8 | e'2~ e'8 e'8 fis'8 gis'8 | a'2~ a'8 gis'8 fis'8 e'8 |
+dis'8 dis'8 dis'8 e'8 fis'8 r4. | e'8 e'8 e'8 e'8 e'8 r4. | e'8 e'8 e'8 e'8 e'8 r4. | fis'8 fis'8 fis'8 fis'8 fis'8 dis'8 e'8 dis'8 |
+e'8 e'8 e'8 e'8 e'8 r4. | e'8 e'8 e'8 e'8 e'8 r4. | e'8 e'8 e'8 e'8 e'8 r4. | e'8 e'8 dis'8 dis'8 e'8 dis'8 gis'8 fis'8 |
+e'8 e'8 e'8 e'8 e'8! gis'8@c fisis'8 gis'8 | cis''2~ cis''8 dis''8 cis''8 a'8 | gis'8 e'8 dis'8 fis'8 e'8 gis'8 a'8 gis'8 | fis'8 fis'8 fis'8 fis'8 fis'8 dis'8 e'8 dis'8 |
+e'8 e'8 e'8 e'8 e'8 gis'8 fisis'8 gis'8 | cis''2~ cis''8 dis''8 cis''8 a'8 | gis'8 gis'8 fis'8 a'8 gis'8 cis''8 b'8 a'8 | gis'8 gis'8 fis'8 a'8 gis'8 e'8 e'8 dis'8 |
+e'8 b8 cis'8 cis'8 b8 s4.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 s8 r4. | r8 b8 e'8 cis'8 b8 r4. | r8 b8 b8 b8 b8 r4. | r8 b8 b8 b8 b8 b8 b8 b8 |
+b8 b8 b8 b8 b8 r4. | r8 b8 e'8 cis'8 b8 r4. | r8 b8 b8 b8 b8 r4. | r8 e'8 e'8 e'8 e'8 e'8 cis'8 cis'8 |
+b8 fis8 fis8 gis8 a8 r4. | b8 b8 b8 b8 b8 r4. | b8 b8 b8 b8 b8 r4. | b8 b8 b8 b8 b8 b8 b8 b8 |
+b8 b8 b8 b8 b8 a8 gis8 fis8 | b4 b4 b8 d'8 cis'8 b8 | a4 cis'4 a8 cis'8 b8 a8 | gis4 b4 b4 b4 |
+b8 b8 cis'8 cis'8 b8! r4.@c | a8 a8 a8 a8 a8 r4. | b8 gis8 fis8 a8 gis8 r4. | b8 b8 b8 b8 b8 b8 b8 b8 |
+b8 b8 b8 b8 b8 r4. | a8 a8 a8 a8 a8 r4. | b8 e'8 dis'8 fis'8 e'8 r4. | e'8 e'8 dis'8 fis'8 e'8 cis'8 b8 a8 |
+gis8 gis8 a8 a8 gis8 s4.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 s8 r4. | r8 e8 e8 e8 e8 r4. | r8 e8 e8 e8 e8 r4. | r8 b,8 dis8 fis8 b8 a8 gis8 fis8 |
+e8 e8 b,8 b,8 e8 r4. | r8 e8 e8 e8 e8 r4. | r8 e8 e8 e8 e8 r4. | r8 a,8 cis8 e8 a8 e8 fis8 fis8 |
+b,2~ b,8 b,8 e8 fis8 | gis4 b,4 gis8 a8 gis8 fis8 | e4 b,4 e8 gis8 fis8 e8 | dis4 b,4 dis8 a8 gis8 fis8 |
+e4 b,4 e8 b,8 e8 fis8 | gis4 b,4 gis8 b8 a8 gis8 | cis4 e4 cis8 e8 dis8 cis8 | b,4 fis4 b,4 dis4 |
+e2~ e8! r4.@c | a,8 a,8 cis8 e8 a8 r4. | e8 e8 b,8 b,8 e8 r4. | dis8 dis8 b,8 b,8 dis8 a8 gis8 fis8 |
+e8 e8 b,8 b,8 e8 r4. | a,8 a,8 cis8 e8 a8 r4. | e8 e8 b,8 b,8 e8 r4. | e8 e8 b,8 b,8 e8 a,8 b,8 b,8 |
+e2~ e8 s4.
+"""
+
+[lyrics.1]
+text = "With trust -- ing heart I fol -- low Him O’er sun -- ny plains thro’ val -- leys dim, A -- long the paths to glo -- ry -- land, And all the way He holds my hand, With a trust -- ing heart fol -- low all the way, I’m as -- sured that He will keep me till the bet -- ter day, No more fear have I ev -- er leave the road, Safe -- ly leads me to the soul’s a -- bode, the soul’s a -- bode."
+
+[parts.Alto.lyrics.1]
+text = "With trust -- ing heart I fol -- low Him O’er sun -- ny plains thro’ val -- leys dim, A -- long the paths to glo -- ry -- land, And all the way He holds my hand, He holds my hand, With a trust -- ing heart fol -- low all the way, I’m as -- sured that He will keep me till the bet -- ter day, No more fear have I ev -- er leave the road, Safe -- ly leads me to the soul’s a -- bode, the soul’s a -- bode."
+
+[parts.Tenor.lyrics.1]
+text = "With trust -- ing heart I fol -- low Him O’er sun -- ny plains thro’ val -- leys dim, thro’ val -- leys dim, A -- long the paths to glo -- ry -- land, And all the way He holds my hand, He holds my hand, With a trust -- ing heart fol -- low all the way, I’m as -- sured that He will keep me till the bet -- ter day, No fear have I that I shall ev -- er leave the road, That leads me to the soul’s a -- bode, the soul’s a -- bode."
+
+[parts.Bass.lyrics.1]
+text = "With trust -- ing heart I fol -- low Him O’er sun -- ny plains thro’ val -- leys dim, thro’ val -- leys dim, A -- long the paths to glo -- ry -- land, And all the way He holds my hand, With trust -- ing heart I fol -- low Je -- sus all the way, As -- sured that He will keep me till the bet -- ter day, No fear have I that I shall ev -- er leave the road, That leads me to the soul’s a -- bode,"
+
+[lyrics.2]
+text = "His love o’er -- flows my soul with praise And fills with peace my pil -- grims days; So more and more I’ll trust His grace Till I have reached the bet -- ter place, Ev -- er fol -- low Him for the way He knows, For no oth -- er could pro -- tect me from my man -- y foes, None but Him could lead to the pearl -- y gate, Where my friends and dear ones ev -- er for me watch and wait."
+
+[parts.Alto.lyrics.2]
+text = "His love o’er -- flows my soul with praise And fills with peace my pil -- grims days; So more and more I’ll trust His grace Till I have reached the bet -- ter place, the bet -- ter place, Ev -- er fol -- low Him for the way He knows, For no oth -- er could pro -- tect me from my man -- y foes, None but Him could lead to the pearl -- y gate, Where my friends and dear ones ev -- er for me watch and wait."
+
+[parts.Tenor.lyrics.2]
+text = "His love o’er -- flows my soul with praise And fills with peace my pil -- grims days; my pil -- grims days; So more and more I’ll trust His grace Till I have reached the bet -- ter place, the bet -- ter place, Ev -- er fol -- low Him for the way He knows, For no oth -- er could pro -- tect me from my man -- y foes, No oth -- er hand could lead me to the pearl -- y gate, Where friends and dear ones for us wait me watch and wait."
+
+[parts.Bass.lyrics.2]
+text = "His love o’er -- flows my soul with praise And fills with peace my pil -- grims days; my pil -- grims days; So more and more I’ll trust His grace Till I have reached the bet -- ter place, I fol -- low Him be -- cause the way no oth -- er knows; No oth -- er could pro -- tect me from my man -- y foes, No oth -- er hand could lead me to the pearl -- y gate, Where friends and dear ones for us wait"
+
+[lyrics.3]
+text = "’Twill not be long be -- fore I see This friend who is so good to me; ’Twill not be long be -- fore I stand, At His dear side in glo -- ry -- land, What a song of praise then my heart will sing, There with all the an -- gels to my blest e -- ter -- nal King; I shall share His throne wor -- ship and a -- dore, With the saved for -- ev -- er, with the saved for -- ev -- er -- more."
+
+[parts.Alto.lyrics.3]
+text = "’Twill not be long be -- fore I see This friend who is so good to me; ’Twill not be long be -- fore I stand, At His dear side in glo -- ry -- land, in glo -- ry -- land, What a song of praise then my heart will sing, There with all the an -- gels to my blest e -- ter -- nal King; I shall share His throne wor -- ship and a -- dore, With the saved for -- ev -- er, with the saved for -- ev -- er -- more."
+
+[parts.Tenor.lyrics.3]
+text = "’Twill not be long be -- fore I see This friend who is so good to me; so good to me; ’Twill not be long be -- fore I stand, At His dear side in glo -- ry -- land, in glo -- ry -- land, What a song of praise then my heart will sing, There with all the an -- gels to my blest e -- ter -- nal King; Then I shall share His throne and wor -- ship and a -- dore, With all the saved for -- ev -- er -- more for -- ev -- er -- more."
+
+[parts.Bass.lyrics.3]
+text = "’Twill not be long be -- fore I see This friend who is so good to me; so good to me; ’Twill not be long be -- fore I stand, At His dear side in glo -- ry -- land, Then what a song of praise my hap -- py soul will sing; With all the an -- gels there, to my e -- ter -- nal King; Then I shall share His throne and wor -- ship and a -- dore, With all the saved for -- ev -- er -- more"
+
+[lyrics.chorus]
+text = "His hand of love is safe -- ly lead -- ing me, A -- long the shin -- ing way to per -- fect vic -- to -- ry; O’er sun -- ny plains and thro’ the shad -- ows dim, With trust -- ing heart I fol -- low Him."
+
+[parts.Alto.lyrics.chorus]
+text = "His hand of love is safe -- ly safe -- ly lead -- ing me. A -- long the All a -- long the shin -- ing way to per -- fect vic -- to -- ry. O’er sun -- ny plains and thro’ the thro’ the shad -- ows dim. With trust -- ing With a trust -- ing heart I fol -- low Him. I fol -- low Him."
+
+[parts.Tenor.lyrics.chorus]
+text = "Yes, His hand of love safe -- ly lead -- ing me. All a -- long the shin -- ing way to per -- fect vic -- to -- ry. O -- ver sun -- ny plains thro’ the shad -- ows dim. With a trust -- ing heart I fol -- low Him. I fol -- low Him."
+
+[parts.Bass.lyrics.chorus]
+text = "Yes, His hand of love safe -- ly lead -- ing me. All a -- long the shin -- ing way to per -- fect vic -- to -- ry. O -- ver sun -- ny plains thro’ the shad -- ows dim. With a trust -- ing heart I fol -- low Him."
