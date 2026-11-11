@@ -565,6 +565,7 @@ e''4\!%f   ← hairpin ends, forte dynamic begins
 | Marker | Meaning |
 |---|---|
 | `\rit`, `\ritard`, `\rall` | Gradual slowdown (to ~0.6× the tempo in force) |
+| `\pocorit` | Slight gradual slowdown, printed "poco rit." (to ~0.8× the tempo in force) |
 | `\accel`, `\string` | Gradual speedup (to ~1.4× the tempo in force) |
 
 *Step* marks print a bold tempo word, with no extender, and switch at once to a fixed ratio of `tempo_bpm`, held until `\spanend` or the end of the piece:
@@ -590,6 +591,7 @@ Ending and restoring:
 
 ```
 c''4\rit d''4 e''4 f''4\spanend   ← "rit." spans four notes
+c''2.(\pocorit d''4) | c''2~ c''4\spanend r4  ← a gentler slowdown at the ending
 g''2\spanend\atempo               ← end the span and restore tempo here
 bes4@c%f\allegro                  ← "Allegro" from here to the end
 ```
