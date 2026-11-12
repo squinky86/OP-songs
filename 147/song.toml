@@ -1,18 +1,17 @@
 title = "Consider the Lilies"
-subtitle = ""
-verse_count = 1
-key_signature = "Eb"
-time_sig_numerator = 4
-time_sig_denominator = 4
-tempo_bpm = 92
-phrase_breaks = ["5:56", "9:56", "13:44", "16:12", "19:44", "23:44", "25:44", "28:12", "31:64"]
-optional_phrase_breaks = ["3:60", "7:64", "11:64", "20:64", "29:64"]
-non_breaking_phrase_breaks = ["7:60", "8:64", "11:60", "15:16", "15:44", "16:48", "17:32", "17:44", "17:64", "18:12", "18:44", "21:48", "26:44", "27:44"]
-non_breaking_format_resets = ["15:44"]
 copyrights = [
   "Lyrics and Music: E. H. Packard, 1890 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "Eb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 92
+verse_count = 1
+phrase_breaks = ["5:56", "9:56", "13:44", "16:12", "19:44", "23:44", "25:44", "28:12", "31:64"]
+optional_phrase_breaks = ["3:60", "7:64", "11:64", "20:64", "29:64"]
+non_breaking_phrase_breaks = ["7:60", "8:64", "11:60", "15:16", "15:44", "16:48", "17:32", "17:44", "17:64", "18:12", "18:44", "21:48", "26:44", "27:44"]
+non_breaking_format_resets = ["15:44"]
 
 [parts.Soprano]
 choral_type = "soprano"

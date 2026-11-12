@@ -12,6 +12,7 @@ verse_count = 3
 phrase_breaks = ["3:44", "4:44", "6:44", "8:44", "10:44"]
 optional_phrase_breaks = ["2:44", "9:44"]
 non_breaking_phrase_breaks = ["4:60", "12:12"]
+interleave_verse_lyrics = true
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -69,11 +70,29 @@ f8. f16 f8. f16 f8. f16 f8. bes,16 | bes,2~ bes,8. s4 s16
 [lyrics.1]
 text = "Come, view the cross where Je -- sus died, By cru -- el hands was cru -- ci -- fied; O won -- drous tho't, how could it be That He, should die for e -- ven me?"
 
+[parts.Tenor.lyrics.1]
+text = "Come, view the cross where Je -- sus died, By cru -- el hands was cru -- ci -- fied; O won -- drous tho't, how could it be That He, the bless -- ed Son of God, should die for me?"
+
+[parts.Bass.lyrics.1]
+text = "Come, view the cross where Je -- sus died, By cru -- el hands was cru -- ci -- fied; O won -- drous tho't, how could it be That He, the bless -- ed Son of God, should die for me?"
+
 [lyrics.2]
 text = "The sweet -- est song on mor -- tal tongue, Or earth -- ly voic -- es ev -- er sung, Is of the One of Cal -- va -- ry, Who gives to all sal -- va -- tion free."
 
+[parts.Tenor.lyrics.2]
+text = "The sweet -- est song on mor -- tal tongue, Or earth -- ly voic -- es ev -- er sung, Is of the One of Cal -- va -- ry, Who gives to all who hum -- bly ask sal -- va -- tion free."
+
+[parts.Bass.lyrics.2]
+text = "The sweet -- est song on mor -- tal tongue, Or earth -- ly voic -- es ev -- er sung, Is of the One of Cal -- va -- ry, Who gives to all who hum -- bly ask sal -- va -- tion free."
+
 [lyrics.3]
 text = "No oth -- er One in heav'n -- ly bliss Could e'er con -- ceive a love like this; He left His home in glo -- ry there And came to earth our sins to bear."
+
+[parts.Tenor.lyrics.3]
+text = "No oth -- er One in heav'n -- ly bliss Could e'er con -- ceive a love like this; He left His home in glo -- ry there And came to earth from heav'n a -- bove our sins to bear."
+
+[parts.Bass.lyrics.3]
+text = "No oth -- er One in heav'n -- ly bliss Could e'er con -- ceive a love like this; He left His home in glo -- ry there And came to earth from heav'n a -- bove our sins to bear."
 
 [lyrics.chorus]
 text = "A -- lone, a -- lone on Cal -- va -- ry, He bore the shame and mis -- er -- y; O won -- drous love, how could it be That He should die for e -- ven me"
@@ -81,26 +100,8 @@ text = "A -- lone, a -- lone on Cal -- va -- ry, He bore the shame and mis -- er
 [parts.Alto.lyrics.chorus]
 text = "A -- lone, a -- lone on Cal -- va -- ry, He bore the shame and mis -- er -- y; O won -- drous love, how could it be That He should die for e -- ven me (for e -- ven me)?"
 
-[parts.Tenor.lyrics.1]
-text = "Come, view the cross where Je -- sus died, By cru -- el hands was cru -- ci -- fied; O won -- drous tho't, how could it be That He, the bless -- ed Son of God, should die for me?"
-
-[parts.Tenor.lyrics.2]
-text = "The sweet -- est song on mor -- tal tongue, Or earth -- ly voic -- es ev -- er sung, Is of the One of Cal -- va -- ry, Who gives to all who hum -- bly ask sal -- va -- tion free."
-
-[parts.Tenor.lyrics.3]
-text = "No oth -- er One in heav'n -- ly bliss Could e'er con -- ceive a love like this; He left His home in glo -- ry there And came to earth from heav'n a -- bove our sins to bear."
-
 [parts.Tenor.lyrics.chorus]
 text = "a -- lone, a -- lone on Cal -- va -- ry, He bore the shame and mis -- er -- y; O won -- drous love, how could it be That He, the bless -- ed Son of God, should die for me (for e -- ven me)?"
-
-[parts.Bass.lyrics.1]
-text = "Come, view the cross where Je -- sus died, By cru -- el hands was cru -- ci -- fied; O won -- drous tho't, how could it be That He, the bless -- ed Son of God, should die for me?"
-
-[parts.Bass.lyrics.2]
-text = "The sweet -- est song on mor -- tal tongue, Or earth -- ly voic -- es ev -- er sung, Is of the One of Cal -- va -- ry, Who gives to all who hum -- bly ask sal -- va -- tion free."
-
-[parts.Bass.lyrics.3]
-text = "No oth -- er One in heav'n -- ly bliss Could e'er con -- ceive a love like this; He left His home in glo -- ry there And came to earth from heav'n a -- bove our sins to bear."
 
 [parts.Bass.lyrics.chorus]
 text = "a -- lone, a -- lone on Cal -- va -- ry, He bore the shame and mis -- er -- y; O won -- drous love, how could it be That He, the bless -- ed Son of God, should die for me"
