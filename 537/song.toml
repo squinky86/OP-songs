@@ -11,6 +11,7 @@ verse_count = 3
 phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "11:48", "13:48", "15:48", "17:48", "19:48", "21:48", "23:48"]
 optional_phrase_breaks = ["2:48", "6:48"]
 non_breaking_phrase_breaks = ["24:40", "25:8"]
+non_breaking_format_resets = ["24:40"]
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -40,9 +41,6 @@ f'2~ f'8 ees'8 d'8 ees'8 | d'4 f'2 f'8 f'8 | f'2~ f'8 f'8 ees'8 d'8 | ees'4 d'2 
 g'2~ g'8 g'8 g'8 ees'8 | d'4 d'2 d'8 ees'8 | f'2~ f'8 bes'8 f'8 ees'8 | d'8 d'8 ees'8 ees'8 d'4! s4
 """
 
-[parts.Alto.lyrics.chorus]
-text = "We are on the gos -- pel high -- way, Trav’ -- ling on where Christ is lead -- ing, And our hearts are o -- ver -- flow -- ing With His love from day to day; We are on the gos -- pel high -- way, Walk -- ing in the Mas -- ter’s foot -- steps; Ev -- ’ry day our hope is strong -- er, Trav’ -- ling in the gos -- pel way. the gos -- pel way."
-
 [parts.Tenor]
 choral_type = "tenor"
 clef = "bass"
@@ -56,9 +54,6 @@ bes4 bes4 bes4 bes4 | bes4 f4 f4 f4 | bes4 bes4 bes8 bes8 g8 bes8 | a2. r4 |
 bes4 bes4 bes4 bes4 | bes4 d'4 d'4 bes4 | a4 a4 c'4 a4 | bes4 bes4 bes4 bes4 |
 bes4 bes4 bes4 bes4 | bes4 f4 f4 f4 | bes4 bes4 bes8 bes8 f8 f8 | f8 f8 g8 g8 f4! s4
 """
-
-[parts.Tenor.lyrics.chorus]
-text = "We are on the gos -- pel high -- way, Trav’ -- ling on where Christ is lead -- ing, And our hearts are o -- ver -- flow -- ing with His love from day to day; We are on the gos -- pel high -- way, Walk -- ing in the Mas -- ter’s foot -- steps; Ev -- ’ry day our hope is strong -- er, Trav’ -- ling in the gos -- pel way. the gos -- pel way."
 
 [parts.Bass]
 choral_type = "bass"
@@ -74,9 +69,6 @@ bes,4 bes,4 bes,4 bes,4 | bes,4 bes,4 bes,4 d4 | f4 f4 f4 f4 | bes,4 bes,4 bes,4
 ees4 ees4 ees4 ees4 | bes,4 bes,4 bes,4 bes,4 | bes4 bes4 g8 d8 f8 f8 | bes,2.! s4
 """
 
-[parts.Bass.lyrics.chorus]
-text = "We are on the gos -- pel high -- way, Trav’ -- ling on where Christ is lead -- ing, And our hearts are o -- ver -- flow -- ing with His love from day to day; We are on the gos -- pel high -- way, Walk -- ing in the Mas -- ter’s foot -- steps; Ev -- ’ry day our hope is strong -- er, Trav’ -- ling in the gos -- pel way."
-
 [lyrics.1]
 text = "We are on the gos -- pel road, Trav’ -- ling to our blest a -- bode, O -- ver yon -- der where the an -- gels dwell; We are walk -- ing side by side with the Bi -- ble as our guide, And the love of Christ we glad -- ly tell."
 
@@ -88,3 +80,12 @@ text = "We are on the gos -- pel road, And we have a hope in God, That will com 
 
 [lyrics.chorus]
 text = "We are on the gos -- pel high -- way, Trav’ -- ling on where Christ is lead -- ing, And our hearts are o -- ver -- flow -- ing With His love from day to day; We are on the gos -- pel high -- way, Walk -- ing in the Mas -- ter’s foot -- steps; Ev -- ’ry day our hope is strong -- er, Trav’ -- ling in the gos -- pel way."
+
+[parts.Alto.lyrics.chorus]
+text = "We are on the gos -- pel high -- way, Trav’ -- ling on where Christ is lead -- ing, And our hearts are o -- ver -- flow -- ing With His love from day to day; We are on the gos -- pel high -- way, Walk -- ing in the Mas -- ter’s foot -- steps; Ev -- ’ry day our hope is strong -- er, Trav’ -- ling in the gos -- pel way. the gos -- pel way."
+
+[parts.Tenor.lyrics.chorus]
+text = "We are on the gos -- pel high -- way, Trav’ -- ling on where Christ is lead -- ing, And our hearts are o -- ver -- flow -- ing with His love from day to day; We are on the gos -- pel high -- way, Walk -- ing in the Mas -- ter’s foot -- steps; Ev -- ’ry day our hope is strong -- er, Trav’ -- ling in the gos -- pel way. the gos -- pel way."
+
+[parts.Bass.lyrics.chorus]
+text = "We are on the gos -- pel high -- way, Trav’ -- ling on where Christ is lead -- ing, And our hearts are o -- ver -- flow -- ing with His love from day to day; We are on the gos -- pel high -- way, Walk -- ing in the Mas -- ter’s foot -- steps; Ev -- ’ry day our hope is strong -- er, Trav’ -- ling in the gos -- pel way."

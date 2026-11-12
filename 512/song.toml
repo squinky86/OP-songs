@@ -11,6 +11,7 @@ verse_count = 4
 phrase_breaks = ["5:48", "9:40", "11:40", "13:40", "15:40"]
 optional_phrase_breaks = ["3:48", "7:48"]
 non_breaking_phrase_breaks = ["10:8", "10:40", "11:8", "12:8", "12:40", "13:8", "14:40", "15:8", "17:8"]
+non_breaking_format_resets = ["12:40", "14:40"]
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -36,9 +37,6 @@ f'2~ f'8 r8 r4 | r8 ees'8 ees'8 ees'8 ees'8 r8 r4 | r8 g'8 g'8 g'8 g'8 g'8 f'8 e
 aes'2~ aes'8 c''8 bes'8 aes'8 | g'2( bes'8) g'8 aes'8 aes'8 | g'8 g'8 aes'8 aes'8 g'4 s4
 """
 
-[parts.Alto.lyrics.chorus]
-text = "Oh Cal -- va -- ry, oh Cal -- va -- ry, Where Je -- sus shed His blood for me, To save my soul, how can it be, He gave His life to set me free, to set me free."
-
 [parts.Tenor]
 choral_type = "tenor"
 clef = "bass"
@@ -50,9 +48,6 @@ g2~ g8 r8@c r4 | r8 bes8 bes8 bes8 bes8 r8 r4 | r8 bes8 bes8 bes8 bes8 r8 r4 |
 r8 bes8 bes8 bes8 bes8 r8 r4 | r8 bes8 bes8 bes8 bes8 bes8 g8 bes8 | ees'2~ ees'8 r8 r4 |
 r8 ees'8 ees'8 ees'8 ees'8 ees'8 d'8 c'8 | bes2~ bes8 bes8 bes8 bes8 | bes8 bes8 c'8 c'8 bes4 s4
 """
-
-[parts.Tenor.lyrics.chorus]
-text = "Oh Cal -- va -- ry, oh Cal -- va -- ry, Where Je -- sus shed His blood for me, To save my soul, how can it be, He gave His life to set me free, to set me free."
 
 [parts.Bass]
 choral_type = "bass"
@@ -80,3 +75,9 @@ text = "When death’s dark scene comes— all tri -- als past, And the an -- ge
 
 [lyrics.chorus]
 text = "Oh Cal -- va -- ry, oh Cal -- va -- ry, Where Je -- sus shed His blood for me, To save my soul, how can it be, He gave His life to set me free."
+
+[parts.Alto.lyrics.chorus]
+text = "Oh Cal -- va -- ry, oh Cal -- va -- ry, Where Je -- sus shed His blood for me, To save my soul, how can it be, He gave His life to set me free, to set me free."
+
+[parts.Tenor.lyrics.chorus]
+text = "Oh Cal -- va -- ry, oh Cal -- va -- ry, Where Je -- sus shed His blood for me, To save my soul, how can it be, He gave His life to set me free, to set me free."

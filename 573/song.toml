@@ -12,6 +12,7 @@ verse_count = 3
 phrase_breaks = ["5:48", "9:48", "13:48"]
 optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
 non_breaking_phrase_breaks = ["10:16", "10:48", "11:16", "12:16", "12:48", "13:16"]
+non_breaking_format_resets = ["10:48", "12:48"]
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -61,9 +62,6 @@ c'4. f'8 e'4. c'8 |
 c'2. s4
 """
 
-[parts.Alto.lyrics.chorus]
-text = "He loved, He loved, me so, He loved, He loved, me so, He gave His pre -- cious life for me, for me, Be -- cause He loved me so."
-
 [parts.Tenor]
 choral_type = "tenor"
 clef = "bass"
@@ -87,9 +85,6 @@ c'4 c'4 c'4 bes4 |
 a4. c'8 c'4. bes8 |
 a2. s4
 """
-
-[parts.Tenor.lyrics.chorus]
-text = "He loved, He loved, He loved, me so, He loved, He loved, me so, He gave His pre -- cious life for me, for me, Be -- cause He loved me so."
 
 [parts.Bass]
 choral_type = "bass"
@@ -126,3 +121,9 @@ text = "Till Je -- sus comes I’ll sing His praise And then to glo -- ry go, An
 
 [lyrics.chorus]
 text = "He loved, me so, He loved, me so, He gave His pre -- cious life for me, for me, Be -- cause He loved me so."
+
+[parts.Alto.lyrics.chorus]
+text = "He loved, He loved, me so, He loved, He loved, me so, He gave His pre -- cious life for me, for me, Be -- cause He loved me so."
+
+[parts.Tenor.lyrics.chorus]
+text = "He loved, He loved, He loved, me so, He loved, He loved, me so, He gave His pre -- cious life for me, for me, Be -- cause He loved me so."
