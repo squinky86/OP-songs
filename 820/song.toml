@@ -1,0 +1,79 @@
+title = "Always Happy"
+copyrights = [
+  "Lyrics: James Rowe, 1914 (public domain)",
+  "Music: Charles H. Gabriel, 1914 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "E"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 3
+phrase_breaks = ["5:40", "9:32", "13:32"]
+optional_phrase_breaks = ["3:40", "7:40", "11:32", "15:40"]
+non_breaking_phrase_breaks = ["9:48", "10:32", "11:48", "12:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s8 b8 | e'8 fis'8 gis'4. a'8 | b'8 cis''8 b'4. e'8 | dis'8 e'8 a'4. gis'8 | fis'8 eis'8 fis'4. b8
+| e'8 fis'8 gis'4. a'8 | b'8 cis''8 dis''4. e''8 | dis''8 fis'4. cis''8. cis''16 | b'2 gis'4@c
+| e''16 e''8.~ e''4 dis''8. cis''16 | b'2 gis'4 | b'16 b'8.~ b'4 a'8. a'16 | gis'2 b'4
+| e''8. dis''16 e''4 b'4 | dis''8. cis''16 cis''4. cis''8 | b'8 gis'4. fis'8. fis'16 | e'2 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s8 b8 | b8 b8 e'4. e'8 | e'8 e'8 e'4. b8 | b8 b8 dis'4. e'8 | dis'8 cisis'8 dis'4. b8
+| b8 b8 e'4. e'8 | e'8 e'8 fis'4. fis'8 | fis'8 dis'4. e'8. e'16 | dis'2 e'4@c
+| gis'16 gis'8. b'16 b'8. a'8. a'16 | gis'2 e'4 | a'16 a'8. a'16 a'8. fis'8. fis'16 | e'2 gis'4
+| gis'8. a'16 b'4 b'4 | b'8. a'16 a'4. fisis'8 | gis'8 e'4. dis'8. dis'16 | b2 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 s8 gis8 | gis8 a8 b4. fis8 | gis8 a8 gis4. b8 | b8 b8 b4. b8 | b8 b8 b4. a8
+| gis8 a8 b4. b8 | b8 b8 b4. cis'8 | b8 b4. ais8. ais16 | b2 b4@c
+| b16 b8. b16 b8. cis'8. e'16 | e'2 b4 | dis'16 dis'8. dis'16 dis'8. dis'8. b16 | b2 e'4
+| b8. b16 b4 e'4 | e'8. e'16 e'4. e'8 | e'8 b4. a8. a16 | gis2 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 s8 e8 | e8 e8 e4. e8 | e8 e8 e4. gis8 | a8 gis8 fis4. e8 | b,8 b,8 b,4. dis8
+| e8 e8 e4. fis8 | gis8 g8 fis4. fis8 | fis8 fis4. fis8. fis16 | b,2 e4@c
+| e16 e8. gis16 gis8. a8. a16 | e2 e4 | fis16 fis8. b16 b8. b,8. b,16 | e2 e4
+| e8. fis16 gis4 gis4 | a8. a16 a4. ais8 | b8 b4. b,8. b,16 | e2 s4
+"""
+
+[lyrics.1]
+text = "My hand is in the hand di -- vine, For I am His and He is mine; His glo -- ries o’er my path -- way shine; I’m hap -- py all the while."
+
+[lyrics.2]
+text = "He leads my soul in pas -- tures new And Ca -- naan’s land, by faith I view; With this dear Friend, so kind, so true, I’m hap -- py all the while."
+
+[lyrics.3]
+text = "He guides me t’ward the gates of gold Where, when my sto -- ry has been told, His match -- less face I shall be -- hold; I’m hap -- py all the time."
+
+[lyrics.chorus]
+text = "I’m hap -- py all the while, I’m sing -- ing free from guile; In life’s true way I walk to -- day; I’m hap -- py all the while."
+
+[parts.Alto.lyrics.chorus]
+text = "I’m hap -- py hap -- py all the while, I’m sing -- ing sing -- ing free from guile; In life’s true way I walk to -- day; I’m hap -- py all the while."
+
+[parts.Tenor.lyrics.chorus]
+text = "I’m hap -- py hap -- py all the while, I’m sing -- ing sing -- ing free from guile; In life’s true way I walk to -- day; I’m hap -- py all the while."
+
+[parts.Bass.lyrics.chorus]
+text = "I’m hap -- py hap -- py all the while, I’m sing -- ing sing -- ing free from guile; In life’s true way I walk to -- day; I’m hap -- py all the while."
