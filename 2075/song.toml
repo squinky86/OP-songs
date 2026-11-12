@@ -10,7 +10,9 @@ tempo_bpm = 96
 verse_count = 4
 phrase_breaks = ["4:64", "8:64", "12:64"]
 optional_phrase_breaks = ["2:64", "6:64", "14:64"]
-non_breaking_phrase_breaks = ["7:64", "12:16", "15:64"]
+non_breaking_phrase_breaks = ["7:64", "8:16", "11:32", "12:16", "15:64"]
+non_breaking_format_resets = ["11:32"]
+interleave_verse_lyrics = true
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -27,7 +29,6 @@ gis'4 e'4 gis'4 b'4 | e''2 b'2 | e''4 cis''4 b'4 gis'4 | fis'2. r4
 choral_type = "alto"
 clef = "treble"
 staff_number = 1
-splice_lyrics_into = "soprano"
 notes = """
 e'4 e'4 e'4 e'4 | gis'2 gis'2 | gis'4 gis'4 gis'4 e'4 | dis'2. r4
 | e'4 e'4 e'4 gis'4 | gis'4( b'4) a'4( fis'4) | fis'4 dis'4 e'4 b4 | b4 cis'4 b4 r4
@@ -39,7 +40,6 @@ e'4 e'4 e'4 e'4 | gis'2 gis'2 | gis'4 gis'4 gis'4 e'4 | dis'2. r4
 choral_type = "tenor"
 clef = "bass"
 staff_number = 2
-splice_lyrics_into = "soprano"
 notes = """
 b4 gis4 b4 gis4 | b2 e'2 | b4 b4 b4 b4 | b2. r4
 | b4 gis4 b4 b4 | b4( e'4) e'2 | b4 b4 b4 a4 | gis4 a4 gis4 r4
