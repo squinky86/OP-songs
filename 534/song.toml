@@ -11,7 +11,8 @@ tempo_bpm = 88
 verse_count = 3
 phrase_breaks = ["3:44", "4:44", "6:44", "8:44", "10:44"]
 optional_phrase_breaks = ["2:44", "9:44"]
-non_breaking_phrase_breaks = ["4:60", "12:12"]
+non_breaking_phrase_breaks = ["4:60", "12:0"]
+non_breaking_format_resets = ["12:0"]
 interleave_verse_lyrics = true
 
 [parts.Soprano]
@@ -98,10 +99,10 @@ text = "No oth -- er One in heav'n -- ly bliss Could e'er con -- ceive a love li
 text = "A -- lone, a -- lone on Cal -- va -- ry, He bore the shame and mis -- er -- y; O won -- drous love, how could it be That He should die for e -- ven me"
 
 [parts.Alto.lyrics.chorus]
-text = "A -- lone, a -- lone on Cal -- va -- ry, He bore the shame and mis -- er -- y; O won -- drous love, how could it be That He should die for e -- ven me (for e -- ven me)?"
+text = "A -- lone, a -- lone on Cal -- va -- ry, He bore the shame and mis -- er -- y; O won -- drous love, how could it be That He should die for e -- ven me​ (for e -- ven me)?"
 
 [parts.Tenor.lyrics.chorus]
-text = "a -- lone, a -- lone on Cal -- va -- ry, He bore the shame and mis -- er -- y; O won -- drous love, how could it be That He, the bless -- ed Son of God, should die for me (for e -- ven me)?"
+text = "a -- lone, a -- lone on Cal -- va -- ry, He bore the shame and mis -- er -- y; O won -- drous love, how could it be That He, the bless -- ed Son of God, should die for me​ (for e -- ven me)?"
 
 [parts.Bass.lyrics.chorus]
 text = "a -- lone, a -- lone on Cal -- va -- ry, He bore the shame and mis -- er -- y; O won -- drous love, how could it be That He, the bless -- ed Son of God, should die for me"
