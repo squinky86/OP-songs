@@ -11,7 +11,8 @@ tempo_bpm = 96
 verse_count = 4
 phrase_breaks = ["5:40", "9:48", "13:48", "17:48", "21:48"]
 optional_phrase_breaks = ["3:40", "7:40", "11:48", "15:40", "19:48", "23:40"]
-non_breaking_phrase_breaks = ["17:8"]
+non_breaking_phrase_breaks = ["17:8", "19:40"]
+non_breaking_format_resets = ["17:8"]
 commentary = "<p>This song may contain an archaic meaning of word \"mansion\" or reflect a misunderstanding of its translation. See <a href=\"/blog/20261022-mansions-and-dwellings\">From Mansions to Dwellings</a>.</p>"
 
 [parts.Soprano]

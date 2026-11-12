@@ -12,6 +12,7 @@ verse_count = 4
 phrase_breaks = ["5:48", "8:48", "12:48", "16:48"]
 optional_phrase_breaks = ["3:48", "7:48", "10:48", "14:48", "17:48"]
 non_breaking_phrase_breaks = ["2:48", "6:64", "11:48", "15:64"]
+non_breaking_format_resets = ["10:48"]
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -45,7 +46,6 @@ s2. r4 | a4 a4 a4 bes4 | a4 c'4 bes8 a8 bes8 a8 | a4 bes4 a4 c'4 | c'2. r4 | c'4
 choral_type = "bass"
 clef = "bass"
 staff_number = 2
-
 suppress_verses = [2, 3, 4]
 suppress_verses_when = ["soprano", "alto", "bass"]
 notes = """

@@ -11,7 +11,7 @@ tempo_bpm = 96
 verse_count = 3
 phrase_breaks = ["4:48", "8:48", "12:48", "16:48", "20:48", "24:48", "28:48"]
 optional_phrase_breaks = ["2:48", "6:48", "10:48", "14:48", "18:48", "22:48", "26:48", "30:48"]
-non_breaking_phrase_breaks = ["31:48"]
+non_breaking_format_resets = ["30:48"]
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -28,9 +28,6 @@ c''4 c''8 c''4 c''8 | c''4 c''8 c''4 c''8 | c''4. c''4. | des''4 des''8 des''4. 
 d''8 d''8 d''8 d''8 d''8 d''8 | ees''8[ des''8] c''8 c''4. | des''4 des''8 des''4 des''8 | c''4 c''8 c''4.
 """
 
-[parts.Soprano.lyrics.chorus]
-text = "Hap -- py, hap -- py in His serv -- ice and Sing -- ing all the day; Work -- ing, work -- ing in His vine -- yard and Help -- ing where we may; Fo -- l'wing, fol -- l'wing His com -- mand and Trust -- ing all the while, Fac -- ing the world and its bus -- a life With a cheer -- ful, hap -- py smile."
-
 [parts.Alto]
 choral_type = "alto"
 clef = "treble"
@@ -45,9 +42,6 @@ ees'8 f'8 g'8 bes'8 aes'8 g'8 | f'8 g'8 aes'8 g'4. | g'4 aes'8 g'4 f'8 | f'4.( e
 ees'8 f'8 g'8 aes'8 g'8 f'8 | ees'8 aes'8 f'8 ees'4. | ees'4 aes'8 g'4 ges'8 | f'4.~ f'4. |
 f'8 g'8 aes'8 f'8 g'8 aes'8 | c''8[ bes'8] aes'8 ees'4. | g'4 bes'8 f'4 g'8 | aes'4.~ aes'4.
 """
-
-[parts.Alto.lyrics.chorus]
-text = "Hap -- py are we in His serv -- ice be -- low, Sing -- ing all the day; Work -- ing our best in His vine -- yard so blest, Help -- ing where we may; Fol -- low -- ing ev -- er our Sav -- iour's com -- mand, Trust -- ing all the while, Fac -- ing the world and its bus -- a life With a cheer -- ful, smile."
 
 [parts.Tenor]
 choral_type = "tenor"
@@ -90,3 +84,9 @@ text = "Beau -- ti -- ful, won -- der -- ful that we may spend Hours _ and days 
 
 [lyrics.chorus]
 text = "Hap -- py, hap -- py in His serv -- ice and Sing -- ing all the day; Work -- ing, work -- ing in His vine -- yard and Help -- ing where we may; Fo -- l'wing, fol -- l'wing His com -- mand and Trust -- ing all the while, Go -- ing on and fac -- ing the world ev -- er With a cheer -- ful, hap -- py smile."
+
+[parts.Soprano.lyrics.chorus]
+text = "Hap -- py, hap -- py in His serv -- ice and Sing -- ing all the day; Work -- ing, work -- ing in His vine -- yard and Help -- ing where we may; Fo -- l'wing, fol -- l'wing His com -- mand and Trust -- ing all the while, Fac -- ing the world and its bus -- a life With a cheer -- ful, hap -- py smile."
+
+[parts.Alto.lyrics.chorus]
+text = "Hap -- py are we in His serv -- ice be -- low, Sing -- ing all the day; Work -- ing our best in His vine -- yard so blest, Help -- ing where we may; Fol -- low -- ing ev -- er our Sav -- iour's com -- mand, Trust -- ing all the while, Fac -- ing the world and its bus -- a life With a cheer -- ful, smile."

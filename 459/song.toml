@@ -72,9 +72,6 @@ aes2~ aes8. ees16 c8. ees16 | aes2. ees4 | bes2~ bes8. g16 ees8. g16 | bes2. des
 c'4 bes4 aes4 g4 | aes4 ees4 f4 des8 des8 | ees4 {3 ees8 ees8 ees8 } ees4 ees8. ees16 | aes,2. s4
 """
 
-[parts.Bass.lyrics.chorus]
-text = "'Twas love, 'twas match -- less love, That caused my Sav -- iour there Up -- on the cru -- el cross to choose A death death of shame for e -- ven me; How can I e'er re -- pay The debt of love I owe, For His sal -- va -- tion full and free, Giv'n thro' love, won -- der -- ful love, match -- less love?"
-
 [lyrics.1]
 text = "It was match -- less love that found me, When the bands of sin had bound me, It was love that planned es -- _ -- cape for me When I was lost, un -- done; It was love in sad plight saw me, It was love that reached out for me, 'Twas the pre -- cious love of Je -- sus Christ The might -- y, ho -- ly One."
 
@@ -86,3 +83,6 @@ text = "What a won -- der -- ful re -- la -- tion That _ I, in low -- ly sta -- 
 
 [lyrics.chorus]
 text = "Love, 'twas love, match -- less love, Love, 'twas love, match -- less love, Up -- on the cru -- el cross to choose A death of shame for me; Love, 'twas love, match -- less love, Love, 'twas love, love I owe, For His sal -- va -- tion full and free, Giv'n thro' love, love, match -- less love?"
+
+[parts.Bass.lyrics.chorus]
+text = "'Twas love, 'twas match -- less love, That caused my Sav -- iour there Up -- on the cru -- el cross to choose A death death of shame for e -- ven me; How can I e'er re -- pay The debt of love I owe, For His sal -- va -- tion full and free, Giv'n thro' love, won -- der -- ful love, match -- less love?"
