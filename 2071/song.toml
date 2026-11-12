@@ -10,7 +10,8 @@ tempo_bpm = 96
 verse_count = 4
 phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "13:48", "15:40"]
 optional_phrase_breaks = ["11:40", "14:44"]
-non_breaking_phrase_breaks = ["8:64", "16:64"]
+non_breaking_phrase_breaks = ["8:64", "9:16", "16:64"]
+non_breaking_format_resets = ["8:64", "16:64"]
 optional_break_threshold_ticks = 152
 
 [parts.Soprano]
