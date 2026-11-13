@@ -1,0 +1,69 @@
+title = "All for Jesus"
+copyrights = [
+  "Lyrics: Mary D. James, 1871 (public domain)",
+  "Music: 'Constancy' by Anonymous, 1881 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 92
+verse_count = 4
+phrase_breaks = ["4:64", "8:64", "12:64"]
+optional_phrase_breaks = ["2:64", "6:64", "10:64", "14:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+a'4. a'8 a'8 a'8 g'8 a'8 | c''2 a'2 | g'4. g'8 c''8 c''8 bes'8 g'8 | a'2. r4 |
+a'4. a'8 a'8 a'8 g'8 a'8 | c''2 a'2 | g'4. g'8 c''8 c''8 bes'8 g'8 | f'2. r4 |
+d''4. d''8 bes'8 bes'8 d''8 d''8 | c''2 a'2 | g'4. g'8 c''8 c''8 bes'8 g'8 | a'2. r4 |
+d''4. d''8 bes'8 bes'8 d''8 d''8 | c''2 a'2 | g'4. g'8 c''8 c''8 bes'8 g'8 | f'2. r4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+f'4. f'8 f'8 f'8 f'8 f'8 | f'2 f'2 | e'4. e'8 e'8 e'8 e'8 e'8 | f'2. r4 |
+f'4. f'8 f'8 f'8 f'8 f'8 | f'2 f'2 | e'4. e'8 e'8 e'8 e'8 e'8 | f'2. r4 |
+f'4. f'8 f'8 f'8 f'8 f'8 | f'2 f'2 | e'4. e'8 e'8 e'8 e'8 e'8 | f'2. r4 |
+f'4. f'8 f'8 f'8 f'8 f'8 | f'2 f'2 | e'4. e'8 e'8 e'8 e'8 e'8 | f'2. r4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+c'4. c'8 c'8 c'8 bes8 c'8 | a2 c'2 | c'4. c'8 g8 g8 g8 c'8 | c'2. r4 |
+c'4. c'8 c'8 c'8 bes8 c'8 | a2 c'2 | c'4. c'8 g8 g8 g8 bes8 | a2. r4 |
+bes4. bes8 bes8 bes8 bes8 bes8 | a2 c'2 | c'4. c'8 g8 g8 g8 c'8 | c'2. r4 |
+bes4. bes8 bes8 bes8 bes8 bes8 | a2 c'2 | c'4. c'8 g8 g8 g8 bes8 | a2. r4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+f4. f8 f8 f8 f8 f8 | f2 f2 | c4. c8 c8 c8 c8 c8 | f2. r4 |
+f4. f8 f8 f8 f8 f8 | f2 f2 | c4. c8 c8 c8 c8 c8 | f2. r4 |
+bes,4. bes,8 d8 d8 bes,8 bes,8 | f2 f2 | c4. c8 c8 c8 c8 c8 | f2. r4 |
+bes,4. bes,8 d8 d8 bes,8 bes,8 | f2 f2 | c4. c8 c8 c8 c8 c8 | f2. r4
+"""
+
+[lyrics.1]
+text = "All for Je -- sus, all for Je -- sus! All my be -- ing’s ran -- somed pow’rs: All my tho’ts and words and do -- ings, All my days and all my hours. All for Je -- sus! all for Je -- sus! All my days and all my hours; All for Je -- sus! all for Je -- sus! All my days and all my hours."
+
+[lyrics.2]
+text = "Let my hands per -- form His bid -- ding, Let my feet run in His ways, Let my eyes see Je -- sus on -- ly, Let my lips speak forth His praise. All for Je -- sus! all for Je -- sus! Let my lips speak forth His praise; All for Je -- sus! all for Je -- sus! Let my lips speak forth His praise."
+
+[lyrics.3]
+text = "Since my eyes were fixed on Je -- sus, I’ve lost sight of all be -- side; So en -- chained my spir -- it’s vis -- ion, Look -- ing at the Cru -- ci -- fied. All for Je -- sus! all for Je -- sus! Look -- ing at the Cru -- ci -- fied; All for Je -- sus! all for Je -- sus! Look -- ing at the Cru -- ci -- fied."
+
+[lyrics.4]
+text = "O what won -- der! how a -- maz -- ing! Je -- sus, glo -- rious King of kings— Deigns to call me His be -- lov -- ed, Lets me rest be -- neath His wings. All for Je -- sus! all for Je -- sus! Rest -- ing now be -- neath His wings; All for Je -- sus! all for Je -- sus! Rest -- ing now be -- neath His wings."
