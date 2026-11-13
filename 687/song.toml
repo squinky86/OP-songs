@@ -10,7 +10,8 @@ time_sig_denominator = 4
 tempo_bpm = 92
 verse_count = 3
 phrase_breaks = ["3:40", "5:40", "7:40", "9:40", "11:40", "13:40", "15:40"]
-non_breaking_phrase_breaks = ["4:40", "5:8", "8:8", "8:40", "9:8", "10:8", "10:40", "11:8", "12:40", "13:8", "15:8", "16:8", "16:40", "17:8"]
+non_breaking_phrase_breaks = ["4:40", "5:8", "8:8", "8:40", "9:8", "10:8", "10:40", "11:8", "12:40", "13:8", "14:8", "14:40", "15:8", "16:8", "16:40", "17:8"]
+non_breaking_format_resets = ["8:40", "10:40", "14:40", "16:40"]
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -118,15 +119,6 @@ text = "With the Sav -- ior near, giv -- ing light and cheer, Ev -- er guid -- i
 [parts.Bass.lyrics.3]
 text = "With the Sav -- ior near, giv -- ing light and cheer, Ev -- er guid -- ing all to the bless -- ed isle; to the bless -- ed isle; Fill -- ing ev -- ’ry need, life is sweet in -- deed, @s1"
 
-[lyrics.s1]
-text = "’Tis the on -- ly life that is worth your while."
-
-[parts.Alto.lyrics.s1]
-text = "’Tis the on -- ly life that is worth your while. that is worth your while."
-
-[parts.Tenor.lyrics.s1]
-text = "’Tis the on -- ly life that is worth your while. that is worth your while."
-
 [lyrics.chorus]
 text = "’Tis the on -- ly life that is worth your while, There’s a hap -- py song in its ev -- ’ry mile; Face the pearl -- y gate, ere it be too late, ’Tis the on -- ly life that is worth your while."
 
@@ -138,3 +130,12 @@ text = "’Tis the on -- ly life that is worth your while, There’s a hap -- py
 
 [parts.Bass.lyrics.chorus]
 text = "’Tis the on -- ly life that is worth your while, There’s a hap -- py song in its ev -- ’ry mile; in its ev -- ’ry mile; Face the pearl -- y gate, ere it be too late, ’Tis the on -- ly life that is worth your while."
+
+[lyrics.s1]
+text = "’Tis the on -- ly life that is worth your while."
+
+[parts.Alto.lyrics.s1]
+text = "’Tis the on -- ly life that is worth your while. that is worth your while."
+
+[parts.Tenor.lyrics.s1]
+text = "’Tis the on -- ly life that is worth your while. that is worth your while."

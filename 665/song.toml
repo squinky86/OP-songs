@@ -11,6 +11,7 @@ verse_count = 3
 phrase_breaks = ["4:64", "8:64", "12:64", "16:48", "18:48", "20:48", "22:48"]
 optional_phrase_breaks = ["2:64", "6:64", "10:64", "14:64"]
 non_breaking_phrase_breaks = ["24:8"]
+non_breaking_format_resets = ["22:48", "24:8"]
 commentary = "<p>“In memory of my littly daughter Pauline, who died April 26, 1914. Age 2 years, 7 months and 16 days and tenderly inscribed to my wife and baby Thelma.”</p>"
 
 [parts.Soprano]
@@ -25,9 +26,6 @@ c''4. g'8 bes'8 aes'8 c'8 f'8 | ees'2 aes'4. r8 | g'4. aes'8 bes'8 des''8 c''8 b
 | bes'2~ bes'8 des''8 c''8 bes'8 | aes'8 c''2~ c''8 c''8 des''8 | ees''2~ ees''8 des''8 des''8 c''8 | bes'2~ bes'4! des''8 b'8
 | c''2~ c''8 bes'8 aes'8 g'8 | f'8 aes'2~ aes'8 g'8 f'8 | ees'2~ ees'8 des''8 c''8! bes'8 | aes'2~ aes'4 r4
 """
-
-[parts.Soprano.lyrics.chorus]
-text = "Sweet -- est fair -- est, bright -- est flow -- er, How we loved thee none can tell, But we’ll meet thee up in heav -- en Where we’ll nev -- er say, “Fare -- well,”"
 
 [parts.Alto]
 choral_type = "alto"
@@ -79,6 +77,9 @@ text = "“I will wait for you, dear mam -- ma, Some day pa -- pa, you’ll come
 
 [lyrics.chorus]
 text = "Sweet -- est, fair -- est, bright -- est flow -- er, love -- ly flow -- er, How we loved thee, none can tell, no one can tell, But we’ll meet thee up in heav -- en up in heav -- en, Where we’ll nev -- er say, “Fare -- well,” no sad fare -- well!"
+
+[parts.Soprano.lyrics.chorus]
+text = "Sweet -- est fair -- est, bright -- est flow -- er, How we loved thee none can tell, But we’ll meet thee up in heav -- en Where we’ll nev -- er say, “Fare -- well,”"
 
 [parts.Bass.lyrics.chorus]
 text = "Sweet -- est, fair -- est, bright -- est flow -- er, love -- ly flow -- er, How we loved thee, none can tell, no one can tell, But we’ll meet thee up in heav -- en up in heav -- en, Where we’ll nev -- er say, “Fare -- well,”"

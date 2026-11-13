@@ -11,6 +11,7 @@ tempo_bpm = 84
 verse_count = 4
 phrase_breaks = ["3:40", "5:40", "7:40", "9:40", "11:40", "13:40", "15:40"]
 non_breaking_phrase_breaks = ["4:40", "5:8", "8:40", "9:8", "12:40", "13:8", "16:40", "17:8"]
+non_breaking_format_resets = ["8:40"]
 commentary = "<p>“The dying words of Rev. J. F. Purser, pastor of West End, Baptist Church, Atlanta, Ga. ‘All will be well when the night is past.’ ”</p>"
 
 [parts.Soprano]

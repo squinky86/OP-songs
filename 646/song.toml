@@ -11,6 +11,7 @@ verse_count = 3
 phrase_breaks = ["5:80", "9:80", "13:80"]
 optional_phrase_breaks = ["3:80", "7:80", "11:80", "15:80"]
 non_breaking_phrase_breaks = ["4:32", "4:80", "10:32", "10:80", "11:32", "12:32", "12:80", "13:32"]
+non_breaking_format_resets = ["4:32"]
 
 [parts.Soprano]
 choral_type = "soprano"

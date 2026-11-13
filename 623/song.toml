@@ -12,6 +12,7 @@ verse_count = 3
 phrase_breaks = ["3:48", "6:48", "9:48", "11:48", "13:48", "15:48"]
 optional_phrase_breaks = ["2:48", "5:48", "7:48"]
 non_breaking_phrase_breaks = ["8:48", "16:48"]
+non_breaking_format_resets = ["3:48", "5:48", "7:48"]
 optional_break_threshold_ticks = 148
 commentary = "<p>This song may contain an archaic meaning of word \"mansion\" or reflect a misunderstanding of its translation. See <a href=\"/blog/20261022-mansions-and-dwellings\">From Mansions to Dwellings</a>.\n<p>This song may contain a consummational view of Revelation 21 rather than an ecclesiastical view.</p>"
 
@@ -29,9 +30,6 @@ aes'2. aes'8. bes'16 | c''2. {3 ees''8 c''8 f''8 } |
 ees''2. {3 ees''8 c''8 f''8 } | aes'2. bes'8. bes'16 |
 c''2. aes'8. bes'16 | aes'2. s4
 """
-
-[parts.Soprano.lyrics.chorus]
-text = "Bright -- er the way grow -- eth each day, For the soul that’s re -- deemed; At the bright gate, an -- gels a -- wait, For the soul that’s re -- deemed."
 
 [parts.Alto]
 choral_type = "alto"
@@ -89,6 +87,9 @@ text = "In that hap -- py world a -- bove There is peace and there is love, @s1 
 
 [lyrics.chorus]
 text = "Bright -- er and bright -- er the way grow -- eth, yes, grow -- eth each day, For the soul that’s re -- deemed; At the bright, beau -- ti -- ful gate, an -- gels, yes, an -- gels a -- wait, For the soul that’s re -- deemed."
+
+[parts.Soprano.lyrics.chorus]
+text = "Bright -- er the way grow -- eth each day, For the soul that’s re -- deemed; At the bright gate, an -- gels a -- wait, For the soul that’s re -- deemed."
+
 [lyrics.s1]
 text = "For the soul that’s re -- deemed."
-

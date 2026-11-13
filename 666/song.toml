@@ -11,7 +11,8 @@ tempo_bpm = 72
 verse_count = 3
 phrase_breaks = ["5:40", "9:40", "13:40"]
 optional_phrase_breaks = ["3:40", "7:40", "11:40", "15:40"]
-non_breaking_phrase_breaks = ["9:0", "17:0"]
+non_breaking_phrase_breaks = ["8:48", "9:0", "17:0"]
+non_breaking_format_resets = ["7:40", "8:48", "16:48"]
 
 [parts.Soprano]
 choral_type = "soprano"
