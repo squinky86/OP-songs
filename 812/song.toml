@@ -1,0 +1,62 @@
+title = "Art Thou Weary?"
+copyrights = [
+  "Lyrics: Stephen of Mar Saba, 8th century (public domain)",
+  "Translation: John M. Neale, 1862 (public domain)",
+  "Music: 'Stephanos' by Henry W. Baker, 1868 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 84
+verse_count = 4
+phrase_breaks = ["4:64"]
+optional_phrase_breaks = ["2:64", "6:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+b'4 b'4 b'4 a'4 | b'4 d''4 d''4 c''4 | b'4 b'4 a'4 g'4 | a'2. r4 |
+d'4 e'8[ fis'8] g'4 fis'4 | g'4 a'8[ b'8] c''4 b'4 | a'2 a'2 | g'1
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+d'4 d'4 d'4 d'4 | d'4 d'4 g'4 d'4 | d'4 d'4 d'4 d'4 | d'2. r4 |
+d'4 d'4 d'4 d'4 | d'4 d'4 c'4 d'4 | e'2 d'2 | b1
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+g4 g4 g4 fis4 | g4 a4 b4 a4 | g4 b4 c'4 b4 | a2. r4 |
+d'4 c'4 b4 a4 | b4 a4 g4 g4 | g2 fis2 | g1
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+g,4 b,4 d4 d4 | g4 fis4 e4 fis4 | g4 g4 fis4 g4 | fis2. r4 |
+b4 a4 g4 d4 | g4 fis4 e4 d4 | c2 d2 | g,1
+"""
+
+[lyrics.1]
+text = "Art thou wear -- y, art thou lan -- guid, Art thou sore dis -- tressed? “Come to Me,” saith One, “and com -- ing, Be at rest.”"
+
+[lyrics.2]
+text = "If I ask Him to re -- ceive me, Will He say me nay?— “Not till earth and not till heav -- en Pass a -- way.”"
+
+[lyrics.3]
+text = "If I still hold close -- ly to Him, What hath He at last?— “Sor -- row van -- ished, la -- bor end -- ed, Jor -- dan passed.”"
+
+[lyrics.4]
+text = "Find -- ing Him, and fol -- l’wing, keep -- ing, Is He sure to bless? Saints, a -- pos -- tles, proph -- ets, mar -- tyrs, An -- swer “Yes!”"
