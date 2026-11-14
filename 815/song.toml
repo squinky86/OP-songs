@@ -1,0 +1,74 @@
+title = "Ask for the Showers of Blessing"
+copyrights = [
+  "Lyrics and Music: Franklin E. Belden, 1909 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "C"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 96
+verse_count = 3
+phrase_breaks = ["4:48", "8:48", "12:48"]
+optional_phrase_breaks = ["2:48", "6:48", "10:48", "14:40"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+g'8 a'8 b'8 c''8 b'8 a'8 | b'4. f'4. | f'8 g'8 a'8 b'8 a'8 g'8 | g'4.~ g'4 r8 |
+e'8 f'8 g'8 a'8 g'8 e'8 | g'4. d'4. | d'8 e'8 fis'8 c''8 b'8 a'8 | d''4.( g'4)! r8 |
+c''4.~@c c''8 e'8 c''8 | b'4.~ b'4 r8 | d''4.~ d''8 g'8 d''8 | c''4.~ c''4 r8 |
+e''8 e''8 e''8 d''8 d''8 d''8 | c''8 c''8 c''8 d''8 c''8! d''8 | e''8[\\rit c''8] g'8 f'8 e'8 d'8 | c'4.~ c'4\\spanend r8
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+e'8 e'8 e'8 e'8 e'8 e'8 | f'4. f'4. | d'8 e'8 f'8 f'8 f'8 f'8 | e'4.~ e'4 r8 |
+c'8 d'8 e'8 e'8 e'8 e'8 | d'4. d'4. | d'8 d'8 d'8 fis'8 fis'8 fis'8 | f'4.~ f'4! r8 |
+e'4.~@c e'8 c'8 e'8 | f'4.~ f'4 r8 | f'4.~ f'8 f'8 f'8 | e'4.~ e'4 r8 |
+g'8 g'8 g'8 f'8 f'8 f'8 | e'8 f'8 g'8 a'8 a'8! a'8 | g'4 e'8 d'8 c'8 b8 | g4.~ g4 r8
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+c'8 c'8 c'8 c'8 c'8 c'8 | g4. b4. | b8 b8 b8 d'8 c'8 b8 | c'4.~ c'4 r8 |
+g8 g8 g8 g8 g8 g8 | g4. fis4. | fis8 g8 a8 a8 b8 c'8 | b4.( g4)! r8 |
+g8@c g8 g8 g8 r8 r8 | d'8 d'8 d'8 d'4 r8 | b8 c'8 d'8 b8 r8 r8 | g8 g8 g8 g4 r8 |
+c'8 c'8 c'8 b8 b8 b8 | c'8 d'8 e'8 f'8 f'8! c'8 | c'8[ e'8] c'8 a8 g8 f8 | e4.~ e4 r8
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+c8 c8 c8 c8 c8 c8 | d4. g4. | g8 g8 g8 g8 g8 g8 | c4.~ c4 r8 |
+c8 c8 c8 c8 c8 c8 | b,4. d4. | d8 d8 d8 d8 d8 d8 | g,4.( b,4)! r8 |
+c8@c d8 e8 c8 r8 r8 | g,8 b,8 d8 g4 r8 | g8 a8 b8 g8 r8 r8 | c8 e8 g8 c4 r8 |
+c'8 c'8 c'8 g8 g8 g8 | a8 a8 g8 f8 f8! fis8 | g4 g8 g,8 g,8 g,8 | c4.~ c4 r8
+"""
+
+[lyrics.1]
+text = "“Ask for the show -- ers of bless -- ing, Ye shall not seek Me in vain;” Aft -- er the voice of con -- fess -- ing, “Sound of a -- bun -- dance of rain.”"
+
+[lyrics.2]
+text = "“Bring all the tithes to My store -- house, Prove Me here -- with,” saith the Lord; Win -- dows of heav -- en shall o -- pen, Won -- der -- ful bless -- ings be poured."
+
+[lyrics.3]
+text = "“Mine all the gold and the sil -- ver, Mine all the hous -- es and lands; Blood- -- bo’t are ye and your chil -- dren, See the nail- -- prints in My hands.”"
+
+[lyrics.chorus]
+text = "“Ask for the rain,” Ask not in vain; “I will pour wa -- ter on him that is thirst -- y, And floods up -- on the dry ground.”"
+
+[parts.Tenor.lyrics.chorus]
+text = "“Ask for the rain,” life- -- giv -- ing rain, Look for the show’r, wait for the pow’r; “I will pour wa -- ter on him that is thirst -- y, And floods up -- on the dry ground.”"
+
+[parts.Bass.lyrics.chorus]
+text = "“Ask for the rain,” life- -- giv -- ing rain, Look for the show’r, wait for the pow’r; “I will pour wa -- ter on him that is thirst -- y, And floods up -- on the dry ground.”"
