@@ -1,0 +1,65 @@
+title = "Fling Out the Banner"
+copyrights = [
+  "Lyrics: George Washington Doane, 1848 (public domain)",
+  "Music: 'Camden' by John Baptiste Calkin, 1872 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Eb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 110
+verse_count = 4
+phrase_breaks = ["5:48"]
+optional_phrase_breaks = ["3:48", "7:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. ees'4 |
+g'4. fis'8 g'4 g'4 | aes'4. g'8 aes'4 a'4 | bes'4 ees''4 d''4 c''4 | c''4. bes'8 bes'4 bes'4 |
+bes'4. aes'8 g'4 aes'4 | g'4. f'8 ees'4 f'4 | g'4 aes'4 bes'4 c''4 | d'4. f'8 ees'4! s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. ees'4 |
+ees'4. ees'8 ees'4 des'4 | d'4. d'8 d'4 ees'4 | ees'4 g'4 g'4 ees'4 | f'4. f'8 f'4 ees'4 |
+ees'4. ees'8 ees'4 bes4 | b4. b8 c'4 ees'4 | ees'4 ees'4 ees'4 ees'4 | d'4. d'8 ees'4! s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. g4 |
+bes4. bes8 bes4 bes4 | bes4. bes8 bes4 bes4 | bes4 bes4 bes4 ees'4 | d'4. d'8 d'4 ees'4 |
+c'4. c'8 bes4 ees4 | g4. g8 g4 aes4 | bes4 c'4 bes4 f4 | f4. aes8 g4! s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. ees4 |
+ees4 bes,4/+24 ees4 e4 | f4 bes,4/+24 f4 fis4 | g4 bes,4 ees4 g4 | aes4. aes8 aes4 g4 |
+aes4. aes8 ees4 ees4 | d4. d8 c4 f4 | bes,4 aes,4 g,4 aes,4 | bes,4. bes,8 ees4! s4
+"""
+
+[lyrics.1]
+text = "Fling out the ban -- ner! let it float Sky -- ward and sea -- ward, high and wide; The sun, that lights its shin -- ing folds, The cross, on which the Sav -- ior died."
+
+[lyrics.2]
+text = "Fling out the ban -- ner! an -- gels bend In anx -- ious si -- lence o’er the sign; And vain -- ly seek to com -- pre -- hend The won -- der of the love di -- vine."
+
+[lyrics.3]
+text = "Fling out the ban -- ner! sin- -- sick souls That sink and per -- ish in the strife, Shall touch in faith its ra -- diant hem, And spring im -- mor -- tal in -- to life."
+
+[lyrics.4]
+text = "Fling out the ban -- ner! let it float Sky -- ward and sea -- ward, high and wide; Our glo -- ry, on -- ly in the cross; Our on -- ly hope, the Cru -- ci -- fied."
