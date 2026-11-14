@@ -1,0 +1,68 @@
+title = "Coming, Coming, Yes, They Are"
+copyrights = [
+  "Lyrics: J. Wakefield MacGill, 1895 (public domain)",
+  "Music: Edward Husband, 1897 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 105
+verse_count = 5
+phrase_breaks = ["4:64", "8:64"]
+optional_phrase_breaks = ["2:64", "6:64", "10:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+d'8 d'8 r4 e'8 e'8 r4 | g'4 fis'4 d''2 | e''4.\\< d''8/-24 b'4 g'4 | fis'4 e'4\\! a'2 |
+d'4. e'8 e'4 g'4 | g'4 fis'4 fis'4 e'4 | d'4. e'8 e'4 g'4 | g'4 fis'4 d''2 |
+e''4.\\> d''8 b'4\\! g'4 | a'4 g'4 g'4 e'4 | d'4 g'4 c''4 b'4 | b'4. a'8/-24 g'2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+d'8 d'8 r4 d'8 d'8 r4 | d'4 d'4 fis'2 | g'4\\< g'4 d'4 d'4 | d'4 cis'4\\! d'4( c'4) |
+b4. d'8 d'4 d'4 | d'4 d'4 c'4 c'4 | b4. d'8 d'4 d'4 | d'4 d'4 fis'2 |
+f'4.\\> f'8 f'4\\! f'4 | e'4 e'4 e'4 ais4 | b4 d'4 g'4 g'4 | fis'4 d'4 d'2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+b8 b8 r4 b8 b8 r4 | c'4 c'4 c'2 | c'4\\< b4 b4 bes4 | a4 g4\\! fis2 |
+g4. b8 b4 b4 | c'4 c'4 a4 a4 | b4. b8 b4 b4 | c'4 c'4 c'2 |
+b4.\\> b8 d'4\\! b4 | c'4 c'4 bes4 g4 | g4 b4 e'4 d'4 | d'4 c'4 b2
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+g8 g8 r4 g8 g8 r4 | a4 a4 d2 | g4\\< g4 g4 e4 | a4 a,4\\! d2 |
+g4. g8 g4 g4 | a4 a4 d4 fis4 | g4. g8 g4 g4 | a4 a4 d2 |
+g4.\\> g8 g4\\! g4 | c4 c4 cis4 cis4 | d4 d4 d4 d4 | d4 d4 g2
+"""
+
+[lyrics.1]
+text = "Com -- ing, com -- ing, yes, they are, Com -- ing, com -- ing, from a -- far: From the wild and scorch -- ing des -- ert, Af -- ric’s sons of col -- or deep; Je -- sus’ love has drawn and won them, At His cross they bow and weep."
+
+[lyrics.2]
+text = "Com -- ing, com -- ing, yes, they are, Com -- ing, com -- ing, from a -- far: From the fields and crowd -- ed cit -- ies, Chi -- na gath -- ers to His feet; In His love Shem’s gen -- tle chil -- dren Now have found a safe re -- treat."
+
+[lyrics.3]
+text = "Com -- ing, com -- ing, yes, they are, Com -- ing, com -- ing, from a -- far: From the In -- dus, and the Gan -- ges, Stead -- y flows the liv -- ing stream, To love’s o -- cean, to love’s bos -- om, Cal -- va -- ry their wond’ -- ring theme."
+
+[lyrics.4]
+text = "Com -- ing, com -- ing, yes, they are, Com -- ing, com -- ing, from a -- far: From the fro -- zen realms of mid -- night, O -- ver many a wear -- y mile, To ex -- change their soul’s long win -- ter For the sum -- mer of His smile."
+
+[lyrics.5]
+text = "Com -- ing, com -- ing, yes, they are, Com -- ing, com -- ing, from a -- far: All to meet in plains of glo -- ry, All to sing His prais -- es sweet; What a cho -- rus, what a meet -- ing, With the fam -- i -- ly com -- plete!"
