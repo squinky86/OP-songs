@@ -1,0 +1,53 @@
+title = "Fight the Good Fight"
+copyrights = [
+  "Lyrics: John S. B. Monsell, 1863 (public domain)",
+  "Music: 'Pentecost' by William Boyd, 1864 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 125
+verse_count = 4
+phrase_breaks = ["8:48"]
+optional_phrase_breaks = ["4:48", "12:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = "b'4 b'4 b'4 | b'2 b'4 | a'2 g'4 | c''2. | b'4 b'4 b'4 | b'2 a'4 | a'2 g'4 | a'2. | b'4 b'4 b'4 | b'2 b'4 | a'2 b'4 | c''2. | a'4 a'4 a'4 | b'2 g'4 | g'2 fis'4 | g'2."
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = "d'4 d'4 d'4 | d'2 g'4 | fis'2 g'4 | fis'2. | d'4 d'4 g'4 | e'2 e'4 | e'2 cis'4 | d'2. | d'4 d'4 dis'4 | e'2 e'4 | e'2 e'4 | e'2. | d'4 d'4 d'4 | d'2 e'4 | d'2 c'4 | b2."
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+suppress_verses = [1, 2, 3, 4]
+suppress_verses_when = ["soprano", "alto"]
+notes = "g4 g4 g4 | g4( b4) d'4 | d'2 d'4 | d'2. | g4 b4 d'4 | d'2 c'4 | a2 a4 | fis2. | b4 b4 a4 | g2 gis4 | a2 gis4 | a2. | fis4 fis4 fis4 | g4( d'4) c'4 | c'4( b4) a4 | g2."
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+suppress_verses = [1, 2, 3, 4]
+suppress_verses_when = ["soprano", "alto"]
+notes = "g4 g4 g4 | g2 g4 | c'2 b4 | a2. | g4 g4 g4 | c2 c4 | cis2 e4 | d2. | g4 g4 fis4 | e2 d4 | c2 b,4 | a,2. | d4 d4 d4 | b,2 c4 | d2 d4 | g,2."
+
+[lyrics.1]
+text = "Fight the good fight with all thy might; Christ is thy strength, and Christ thy right; Lay hold on life, and it shall be Thy joy and crown e -- ter -- nal -- ly."
+
+[lyrics.2]
+text = "Run the straight race thro’ God’s good grace, Lift up thine eyes, and seek His face; Life with its way be -- fore us lies: Christ is the path, and Christ the prize."
+
+[lyrics.3]
+text = "Cast care a -- side; up -- on thy Guide Lean, and His mer -- cy will pro -- vide; Lean, and the trust -- ing soul shall prove Christ is its life, and Christ its love."
+
+[lyrics.4]
+text = "Faint not, nor fear, His arms are near; He chang -- eth not, and thou art dear; On -- ly be -- lieve, and thou shalt see That Christ is all in all to thee."
