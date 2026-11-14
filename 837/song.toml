@@ -1,0 +1,67 @@
+title = "Flee as a Bird"
+copyrights = [
+  "Lyrics and Music: Mary Stanley Bunce Dana Shindler, 1840 (public domain)",
+  "Music: Spanish melody arr. by Mary Stanley Bunce Dana Shindler, 1840 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Em"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 105
+verse_count = 2
+phrase_breaks = ["4:64", "8:64", "12:64", "16:32"]
+optional_phrase_breaks = ["2:64", "6:64", "10:64", "14:56"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+e'4 b'8. b'16 b'4 c''8. b'16 | b'4.( a'16[ g'16]) fis'2 | e'4 g'8. g'16 a'4 ais'8.-( ais'16-) | b'2( fis'4) r4 |
+e'4 b'8. b'16 b'4 c''8. b'16 | b'4.( a'16[ g'16]) fis'2 | e'4 g'8. g'16 fis'4 b'8. b'16 | e'2. r4 |
+g'4 b'8. a'16 g'4 e''8.-( d''16-) | d''4.( c''16[ b'16]) a'2 | b'4 a'8. b'16 d''8[ c''8] b'8 a'8 | g'2 fis'4 r4 |
+e'4 b'8. b'16 b'4 c''8. b'16 | b'4.( a'16[ g'16]) fis'4. fis'8 | e'4 g'8. g'16 fis'4 b'8. b'16 | e'2 c''2 |
+b'4 g'8 e'8 b4 g'8. fis'16 | e'2. r4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+e'4 e'8. e'16 e'4 e'8. e'16 | dis'2 dis'2 | e'4 e'8. e'16 e'4 e'8.-( e'16-) | dis'2. r4 |
+e'4 e'8. e'16 e'4 e'8. e'16 | dis'2 dis'2 | e'4 e'8. e'16 dis'4 dis'8. dis'16 | e'2. r4 |
+d'4 d'8. d'16 g'4 g'8.-( g'16-) | fis'2 fis'2 | g'4 g'8. g'16 a'4 e'8 e'8 | e'2 dis'4 r4 |
+e'4 e'8. e'16 e'4 e'8. e'16 | dis'2 dis'4. dis'8 | e'4 e'8. e'16 dis'4 dis'8. dis'16 | e'2 e'2 |
+e'4 e'8 b8 b4 dis'8. dis'16 | e'2. r4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+g4 g8. g16 g4 a8. g16 | fis2 a2 | g4 b8. b16 c'4 g8.-( e16-) | fis2( a4) r4 |
+g4 g8. g16 g4 a8. g16 | fis2 a2 | g4 b8. b16 b4 fis8. a16 | g2. r4 |
+b4 c'8. b16 b4 b8.-( b16-) | a2 d'2 | d'4 c'8. d'16 e'4 d'8 c'8 | b2 a4 r4 |
+g4 g8. g16 g4 a8. g16 | fis2 a4. a8 | g4 b8. b16 b4 fis8. a16 | g2 a2 |
+g4 b8 g8 fis4 a8. a16 | g2. r4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+e4 e8. e16 e4 e8. e16 | b,2 b,2 | e4 e8. e16 c4 c8.-( c16-) | b,2. r4 |
+e4 e8. e16 e4 e8. e16 | b,2 b,2 | e4 e8. e16 b,4 b,8. b,16 | e2. r4 |
+g4 g8. g16 g4 g8.-( g16-) | d2 d2 | g4 g8. g16 c4 a,8 a,8 | b,2 b,4 r4 |
+e4 e8. e16 e4 e8. e16 | b,2 b,4. b,8 | e4 e8. e16 b,4 b,8. b,16 | e2 a,2 |
+b,4 b,8 b,8 dis4 b,8. b,16 | e2. r4
+"""
+
+[lyrics.1]
+text = "Flee as a bird to your moun -- tain, Thou who art wea -- ry of sin; Go to the clear flow -- ing foun -- tain Where you may wash and be clean. Fly for th’a -- ven -- ger is near thee, Call, and the Sav -- ior will hear thee, He on His bo -- som will bear thee, O thou who art wea -- ry of sin, O thou who art wea -- ry of sin."
+
+[lyrics.2]
+text = "He will pro -- tect thee for -- ev -- er, Wipe ev -- ’ry fall -- ing _ tear; He will for -- sake thee, O nev -- er Shel -- tered so ten -- der -- ly there. Haste, then, the hours are _ fly -- ing, Spend not the mo -- ments in sigh -- ing, Cease from your sor -- row and cry -- ing: The Sav -- ior will wipe ev -- ’ry tear, The Sav -- ior will wipe ev -- ’ry tear."
