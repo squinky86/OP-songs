@@ -1,0 +1,83 @@
+title = "Beautiful Zion, Built Above"
+copyrights = [
+  "Lyrics: George Gill, 1850 (public domain)",
+  "Music: Thomas J. Cook, 1862 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license"
+]
+key_signature = "Eb"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 3
+phrase_breaks = ["5:32", "9:48", "13:48", "17:48", "21:48"]
+optional_phrase_breaks = ["3:32", "7:32"]
+
+[[time_sig_changes]]
+measure = 10
+numerator = 6
+denominator = 8
+duration = 16
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 {3 bes'8 bes'8 bes'8 } | ees''4 bes'4 g'8. c''16 | bes'4( g'8) r8 {3 f'8 f'8 f'8 } | bes'4 f'4 {3 f'8[ g'8] f'8 } |
+ees'4. r8 {3 bes'8 bes'8 bes'8 } | ees''4 bes'4 g'8. c''16 | bes'4( g'8) r8 {3 f'8\\< f'8 f'8 } | bes'4 f'8 r8 d''8.\\!%f c''16 | bes'4. r8 r4 |
+f'4.%p f'4 f'8 | g'4.~ g'4 g'8 | aes'4.(~ aes'8[ bes'8]) aes'8 | g'4. r4. |
+f'4. f'4 f'8 | g'4.~ g'4 g'8 | aes'4.(~ aes'8[ bes'8]) aes'8 | g'4. r4. |
+ees''4.(~@c%f ees''8[ d''8]) c''8 | bes'4. g'4. | f'4.( c''4) bes'8 | bes'4. g'4 r8 |
+ees''4.~ ees''8 d''8 c''8 | bes'4. g'4. | f'4 f'8 c''4! bes'8 | ees'4.~ ees'4 r8
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 {3 g'8 g'8 g'8 } | g'4 g'4 ees'8. aes'16 | g'4( ees'8) r8 {3 d'8 d'8 d'8 } | d'4 d'4 {3 d'4 d'8 } |
+ees'4. r8 {3 g'8 g'8 g'8 } | g'4 g'4 ees'8. aes'16 | g'4( ees'8) r8 {3 d'8\\< d'8 d'8 } | d'4 d'8 r8 f'8.\\!%f ees'16 | d'4. r8 r4 |
+d'4.%p d'4 d'8 | ees'4.~ ees'4 ees'8 | f'4.(~ f'8[ g'8]) f'8 | ees'4. r4. |
+d'4. d'4 d'8 | ees'4.~ ees'4 ees'8 | f'4.(~ f'8[ g'8]) f'8 | ees'4. r4. |
+c''4.(~@c%f c''8[ bes'8]) aes'8 | g'4. ees'4. | d'4.( aes'4) g'8 | g'4. ees'4 r8 |
+c''4.~ c''8 bes'8 aes'8 | g'4. ees'4. | d'4 d'8 d'4! d'8 | ees'4.~ ees'4 r8
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 {3 bes8 bes8 bes8 } | bes4 bes4 bes8. ees'16 | ees'4( bes8) r8 {3 bes8 bes8 bes8 } | bes4 bes4 {3 bes4 aes8 } |
+g4. r8 {3 bes8 bes8 bes8 } | bes4 bes4 bes8. ees'16 | ees'4( bes8) r8 {3 bes8\\< bes8 bes8 } | bes4 bes8 r8 a8.\\!%f a16 | bes4. r8 r4 |
+bes4.%p bes4 bes8 | bes4.~ bes4 bes8 | bes4.~ bes4 bes8 | bes4. r4. |
+bes4. bes4 bes8 | bes4.~ bes4 bes8 | bes4.~ bes4 bes8 | bes4. r4. |
+ees'4.~@c%f ees'4 ees'8 | ees'4. bes4. | bes4.~ bes4 bes8 | bes4. bes4 r8 |
+ees'4.~ ees'8 ees'8 ees'8 | ees'4. bes4. | bes4 bes8 aes4! aes8 | g4.~ g4 r8
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 {3 ees8 ees8 ees8 } | ees4 ees4 ees8. ees16 | ees4. r8 {3 bes,8 bes,8 bes,8 } | bes,4 bes,4 {3 bes,4 bes,8 } |
+ees4. r8 {3 ees8 ees8 ees8 } | ees4 ees4 ees8. ees16 | ees4. r8 {3 f8\\< f8 f8 } | f4 f8 r8 f8.\\!%f f16 | bes,4. r8 r4 |
+bes,4.%p bes,4 bes,8 | ees4.~ ees4 ees8 | d4.~ d4 d8 | ees4. r4. |
+bes,4. bes,4 bes,8 | ees4.~ ees4 ees8 | d4.~ d4 d8 | ees4. r4. |
+ees4.~@c%f ees4 ees8 | ees4. ees4. | bes,4.~ bes,4 bes,8 | ees4. ees4 r8 |
+ees4.~ ees8 ees8 ees8 | ees4. ees4. | bes,4 bes,8 bes,4! bes,8 | ees4.~ ees4 r8
+"""
+
+[lyrics.1]
+text = "Beau -- ti -- ful Zi -- on, built a -- bove, Beau -- ti -- ful cit -- y that I love; Beau -- ti -- ful gates of pearl -- y white, Beau -- ti -- ful tem -- ple— God its light; He who was slain on Cal -- va -- ry O -- pens those pearl -- y gates to me."
+
+[lyrics.2]
+text = "Beau -- ti -- ful heav’n, where all is light, Beau -- ti -- ful an -- gels, clothed in white; Beau -- ti -- ful strains that nev -- er tire, Beau -- ti -- ful harps thro’ all the choir; There shall I join the cho -- rus sweet, Wor -- ship -- ing at the Sav -- ior’s feet."
+
+[lyrics.3]
+text = "Beau -- ti -- ful throne for Christ our King, Beau -- ti -- ful songs the an -- gels sing; Beau -- ti -- ful rest— all wand’ -- rings cease, Beau -- ti -- ful home of per -- fect peace; There shall my eyes the Sav -- ior see: Haste to this heav’n -- ly home with me."
+
+[lyrics.chorus]
+text = "Zi -- on, Zi -- on, love -- ly Zi -- on! Beau -- ti -- ful Zi -- on, cit -- y of our God!"
