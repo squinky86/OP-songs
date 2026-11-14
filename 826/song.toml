@@ -1,0 +1,63 @@
+title = "Beyond the Smiling and the Weeping"
+copyrights = [
+  "Lyrics: Horatius Bonar, 1849 (public domain)",
+  "Music: Elmer L. Jorgenson, 1921 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "C"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 66
+verse_count = 2
+phrase_breaks = ["5:48", "9:48", "13:48"]
+optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. e'4 | g'4. g'8 a'8 g'8 fis'8 g'8 | c''2 g'4 e'4 | g'2 f'2 | e'2. e'4 |
+g'4. g'8 a'8 g'8 fis'8 g'8 | c''2 g'4 c''4 | b'2 a'2 | g'2. g'4 |
+g'4. e'8 d'8 e'8 f'8. a'16 | a'4 g'2 c''4 | b'4. a'8 g'8 f'8 e'8 f'8 | a'4 g'2 g'4 |
+c''4. c''8 c''8 b'8 a'8 gis'8 | a'4 c''2 a'4 | g'2 g'2 | g'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. c'4 | e'4. e'8 f'8 e'8 dis'8 e'8 | e'2 e'4 c'4 | e'2 d'2 | c'2. c'4 |
+e'4. e'8 f'8 e'8 dis'8 e'8 | e'2 e'4 g'4 | g'2 fis'4( d'4) | d'2. f'4 |
+e'4. c'8 b8 c'8 d'8. f'16 | f'4 e'2 g'4 | g'4. f'8 e'8 d'8 c'8 d'8 | dis'4 e'2 e'4 |
+e'4. e'8 e'8 e'8 e'8 c'8 | c'4 f'2 dis'4 | e'4( c'4) d'4( f'4) | e'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. g4 | c'4. c'8 c'8 c'8 c'8 c'8 | g2 c'4 c'4 | c'2 b4( g4) | g2. g4 |
+c'4. c'8 c'8 c'8 c'8 c'8 | g2 c'4 c'4 | d'2 d'4( c'4) | b2. b4 |
+c'4. g8 g8 g8 g8. g16 | g4 c'2 c'4 | d'4. b8 c'8 b8 g8 b8 | c'4 c'2 c'4 |
+c'4. c'8 c'8 c'8 c'8 c'8 | c'4 a2 c'4 | c'2 b2 | c'2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. c4 | c4. c8 c8 c8 c8 c8 | c2 c4 c4 | g2. g,4/-48 | c2. c4 |
+c4. c8 c8 c8 c8 c8 | c2 c4 e4 | d2. d4/-48 | g2. g4 |
+c4. c8 g,8 g,8 b,8. g,16 | c4 c2 e4 | g4. g8 g8 g8 g,8 g,8 | c4 c2 c4 |
+c4. c8 c8 c8 c8 e8 | f4 f2 fis4 | g2 g,2 | c2. s4
+"""
+
+[lyrics.1]
+text = "Be -- yond the smil -- ing and the weep -- ing, I shall be soon; Be -- yond the wak -- ing and the sleep -- ing, I shall be soon; Be -- yond the bloom -- ing and the fad -- ing, Be -- yond the shin -- ing and the shad -- ing, Be -- yond the hop -- ing and the dread -- ing, I shall be soon."
+
+[lyrics.2]
+text = "Be -- yond the frost- -- chain and the fe -- ver, I shall be soon; Be -- yond the rock- -- waste and the riv -- er, I shall be soon; Be -- yond the pul -- se’s fe -- vered beat -- ing, Be -- yond the part -- ing and the meet -- ing, Be -- yond the fare -- well and the greet -- ing, I shall be soon."
