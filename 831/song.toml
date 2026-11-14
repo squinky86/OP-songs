@@ -1,0 +1,73 @@
+title = "Early, My God, Without Delay"
+copyrights = [
+  "Lyrics: Isaac Watts, 1719 (public domain)",
+  "Music: 'Lanesboro' by William Dixon, 1790 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "C"
+time_sig_numerator = 2
+time_sig_denominator = 4
+tempo_bpm = 84
+verse_count = 4
+phrase_breaks = ["7:24", "15:24"]
+optional_phrase_breaks = ["4:24", "11:24"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+c''4 g'8 g'8 | a'4 b'8[ c''8] | g'4 f'4 | e'4. g'8 |
+a'4 f''8[ d''8] | c''4 b'4 | c''4. e''8 |
+d''4 b'4 | c''4. d''8 | e''8[ d''8] c''8[ b'8] | a'4. g'8 |
+e'8.[ f'16] g'8.[ a'16] | g'4. c''8 | e'8.[ f'16] g'8.[ a'16] | g'4. g'8 |
+a'8[ b'8] c''8[ d''8] | e''4 d''4 | c''2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+e'4 g'8 e'8 | f'4 f'8[ e'8] | d'4 b4 | c'4. c'8 |
+f'4 a'4 | g'4 f'4 | e'4. g'8 |
+g'4 g'4 | g'4. g'8 | g'8[ f'8] e'8[ d'8] | c'4. e'8 |
+c'8.[ d'16] e'8.[ f'16] | e'4. e'8 | c'8.[ d'16] e'8.[ f'16] | e'8[ b8 c'8] e'8 |
+f'8[ g'8] g'8[ a'8] | g'4 g'8[ f'8] | e'2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+g4 c'8 c'8 | c'4 g4 | g4 g4 | g4. c'8 |
+c'4 d'4 | e'4 d'4 | c'4. c'8 |
+b4 d'4 | c'4. b8 | c'8[ b8] a8[ gis8] | a4. g8 |
+g4 g4 | g8[ c'8 b8] a8 | g4 g4 | g4. c'8 |
+c'8[ d'8] c'4 | c'4 b4 | c'2
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+c4 e8 c8 | f4 d8[ c8] | b,4 g,4 | c4. e8 |
+f4 d8[ f8] | g4 g4 | c4. c8 |
+g4 g8.[ f16] | e4. g8 | c8[ d8] e4 | a,4. c8 |
+c4 c4 | c4. c8 | c4 c4 | c8[ d8 e8] c8 |
+f4 e8[ f8] | g4 g,4 | c2
+"""
+
+[lyrics.1]
+text = "Ear -- ly, my God, with -- out de -- lay, I haste to seek Thy face; My thirst -- y spir -- it faints a -- way, My thirst -- y spir -- it faints a -- way, With -- out Thy cheer -- ing grace."
+
+[lyrics.2]
+text = "So pil -- grims on the scorch -- ing sand, Be -- neath a burn -- ing sky, Long for a cool -- ing stream at hand, Long for a cool -- ing stream at hand; And they must drink or die."
+
+[lyrics.3]
+text = "Not life it -- self, with all its joys, Can my best pas -- sions move, Or raise so high my cheer -- ful voice, Or raise so high my cheer -- ful voice, As Thy for -- giv -- ing love."
+
+[lyrics.4]
+text = "Thus, till my last, ex -- pir -- ing day, I’ll bless my God and King; Thus will I lift my hands to pray, Thus will I lift my hands to pray, And tune my lips to sing."
