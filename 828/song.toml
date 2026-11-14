@@ -1,0 +1,83 @@
+title = "Buried with Christ"
+copyrights = [
+  "Lyrics: Thomas Ryder, 1875 (public domain)",
+  "Music: William J. Kirkpatrick, 1899 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "A"
+time_sig_numerator = 9
+time_sig_denominator = 8
+tempo_bpm = 108
+verse_count = 4
+phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "13:48"]
+optional_phrase_breaks = ["11:48", "15:48"]
+optional_break_threshold_ticks = 168
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. e'8 fis'8 e'8 | a'4. a'4. b'8 a'8 b'8 | cis''2. cis''8 b'8 cis''8 | e''4. a'4. a'8-( gis'8-) a'8 | b'2. cis''8 bis'8 cis''8
+| a'4. e'4. e'8 a'8 cis''8 | e''2. e''8 d''8 b'8 | cis''4. a'4. b'8-( fis'8-) gis'8 | a'2. cis''8@c cis''8 cis''8
+| cis''4. gis'4. a'8 gis'8 fis'8 | cis'2. cis''8 cis''8 cis''8 | cis''4. a'4. a'8 gis'8 a'8 | b'2. cis''8 bis'8 cis''8
+| a'4. e'4. e'8 a'8 cis''8 | e''2. e''8 d''8 b'8 | cis''4. a'4. b'8 fis'8 gis'8 | a'2. s4.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. cis'8 d'8 cis'8 | cis'4. e'4. e'8 e'8 e'8 | e'2. e'8 d'8 e'8 | gis'4. fis'4. dis'8-( dis'8-) dis'8 | d'2. e'8 dis'8 e'8
+| cis'4. cis'4. e'8 e'8 e'8 | e'4.( g'4.) fis'8 fis'8 gis'8 | e'4. cis'4. d'8-( d'8-) d'8 | cis'2. cis'8@c cis'8 cis'8
+| cis'4. gis'4. a'8 gis'8 fis'8 | cis'2. eis'8 eis'8 eis'8 | fis'4. fis'4. dis'8 dis'8 dis'8 | e'2. e'8 dis'8 e'8
+| cis'4. cis'4. e'8 e'8 e'8 | e'4.( g'4.) fis'8 fis'8 gis'8 | e'4. cis'4. d'8 d'8 d'8 | cis'2. s4.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. a8 a8 a8 | e4. a4. gis8 fis8 gis8 | a2. a8 a8 a8 | b4. a4. fis8-( b8-) a8 | gis2. a8 a8 a8
+| e4. a4. a8 a8 a8 | a2. a8 a8 a8 | a4. a4. gis8-( a8-) b8 | a2. cis'8@c cis'8 cis'8
+| cis'4. gis4. a8 gis8 fis8 | cis2. gis8 gis8 gis8 | a4. cis'4. b8 b8 a8 | gis2. a8 a8 a8
+| e4. a4. a8 a8 a8 | a2. a8 a8 a8 | a4. a4. gis8 a8 b8 | a2. s4.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. a,8 a,8 a,8 | a,4. cis4. e8 e8 e8 | a2. a8 a8 a8 | e4. fis4. b,8-( b,8-) b,8 | e2. a,8 a,8 a,8
+| a,4. a,4. cis8 cis8 cis8 | cis2. d8 d8 d8 | e4. e4. e8-( e8-) e8 | a,2. cis8@c cis8 cis8
+| cis4. gis4. a8 gis8 fis8 | cis2. cis8 cis8 cis8 | fis4. fis4. b,8 b,8 b,8 | e2. a,8 a,8 a,8
+| a,4. a,4. cis8 cis8 cis8 | cis2. d8 d8 d8 | e4. e4. e8 e8 e8 | a,2. s4.
+"""
+
+[lyrics.1]
+text = """
+Bur -- ied with Christ and raised with Him too, What is there left for me _ to do? Sim -- ply to cease from strug -- gling and strife, Sim -- ply to walk in new -- ness of life.
+"""
+
+[lyrics.2]
+text = """
+Ris -- en with Christ, my glo -- ri -- ous Head, Ho -- li -- ness now the path -- way I tread; Beau -- ti -- ful thought while walk -- ing there -- in, He that is dead is freed from all sin.
+"""
+
+[lyrics.3]
+text = """
+Liv -- ing with Christ, Who di -- eth no more, Fol -- low -- ing Christ, Who go -- eth be -- fore; I am from bond -- age ut -- ter -- ly freed, Reck -- on -- ing self as dead _ in -- deed.
+"""
+
+[lyrics.4]
+text = """
+Liv -- ing with Christ, my mem -- bers I yield, Serv -- ants of God for -- ev -- er -- more sealed; Not un -- der law, I’m now un -- der grace, Sin is de -- throned and Christ takes its place.
+"""
+
+[lyrics.chorus]
+text = """
+Bur -- ied with Christ and dead un -- to sin; Dy -- ing but liv -- ing, Je -- sus with -- in; Rul -- ing and reign -- ing day aft -- er day, Guid -- ing and keep -- ing all of the way.
+"""
