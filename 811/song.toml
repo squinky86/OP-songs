@@ -1,0 +1,68 @@
+title = "Another Week With All Its Cares Hath Flown"
+copyrights = [
+  "Lyrics: Gilbert Young Tickle, 1887 (public domain)",
+  "Music: 'Toulon' from Genevan Psalter Old 124ᵗʰ harmonized by Claude Goudimel, 1551 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 4
+phrase_breaks = ["4:64", "8:64", "12:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+f'2 g'4 a'4 | bes'2 a'2 | g'4 f'4 f'4 e'4 | f'1 |
+a'2 bes'4 c''4 | d''2 c''2 | bes'4 a'4 g'4 f'4 | g'1 |
+c''2 c''4 bes'4 | a'2 g'2 | a'4 c''4 c''4 b'4 | c''1 |
+a'2 g'4 f'4 | e'4 f'4 g'4 bes'4 | a'2 g'2 | f'1
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+c'2 e'4 f'4 | f'2 f'2 | e'4 d'4 d'4 c'4 | c'1 |
+f'2 f'4 f'4 | f'2 f'2 | e'4 f'4 d'4 d'4 | e'1 |
+e'2 g'4 e'4 | f'2 g'2 | f'4 g'4 f'4 f'4 | e'1 |
+f'2 e'4 d'4 | cis'4 d'4 e'4 f'4 | f'2 e'2 | f'1
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+a2 c'4 c'4 | d'2 c'2 | c'4 a4 bes4 g4 | a1 |
+c'2 bes4 a4 | bes2 a2 | bes4 c'4 bes4 a4 | c'1 |
+g2 c'4 c'4 | c'2 c'2 | c'4 g4 a4 f4 | g1 |
+f4( c'4) bes4 a4 | a4 a4 c'4 d'4 | c'2. bes4/-48 | a1
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+f2 c4 f4 | bes,2 f2 | c4 d4 bes,4 c4 | f,1 |
+f2 d4 c4 | bes,2 f2 | g4 f4 bes,4 d4 | c1 |
+c2 e4 g4 | f2 e2 | f4 e4 d4 d4 | c1 |
+f2 c4 d4 | a,4 d4 c4 bes,4 | c2 c2 | f,1
+"""
+
+[lyrics.1]
+text = "An -- oth -- er week with all its cares hath flown, An -- oth -- er day of rest and peace is here; Sweet day on which our wea -- ried hearts are drawn In ho -- ly fel -- low -- ship to Je -- sus near."
+
+[lyrics.2]
+text = "Je -- sus, our great High Priest, our Sac -- ri -- fice, Our Pass -- o -- ver, rich gift of love di -- vine! With Thee we would in -- to the ho -- liest rise, Com -- mun -- ing with Thee in the bread and wine."
+
+[lyrics.3]
+text = "O what a feast in -- ef -- fa -- ble is this, Thy ta -- ble spread with more than an -- gels’ food! An -- gels the high -- est nev -- er taste the bliss, The dear com -- mun -- ion of Thy flesh and blood."
+
+[lyrics.4]
+text = "May we as ser -- vants joy to do Thy will, As sons the hon -- or of Thy house main -- tain, As sol -- diers stand pre -- pared for con -- flict still, And count all suff’ -- ring, borne for Thee, as gain."
