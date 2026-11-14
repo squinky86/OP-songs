@@ -1,0 +1,62 @@
+title = "Brightest and Best"
+copyrights = [
+  "Lyrics: Reginald Heber, 1811 (public domain)",
+  "Music: Ira D. Sankey, 1891 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Eb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 92
+verse_count = 2
+phrase_breaks = ["2:64", "4:64", "6:64", "8:64", "10:64", "12:64", "14:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+bes'4 a'8. bes'16 ees''4 bes'8 g'8 | bes'4 aes'8. f'16 aes'8 g'4. | c''4 d''8. d''16 ees''4 bes'8 c''8 | d''4 c''8. c''16 bes'2 |
+bes'4 a'8. bes'16 ees''4 bes'8 g'8 | bes'4 aes'8. f'16 aes'8 g'4. | c''4 d''8. d''16 ees''4 bes'8 aes'8 | g'4 f'8. ees'16 ees'2 |
+f'4 f'8. g'16 aes'8 aes'8 r8 aes'8 | g'4 g'8. aes'16 bes'8 bes'4 r8 | bes'4 a'8. bes'16 c''8[ d''8] ees''8 ees''8 | d''4 c''8. c''16 bes'2 |
+bes'4 a'8. bes'16 ees''4 bes'8 g'8 | bes'4 aes'8. f'16 aes'8 g'4. | c''4 d''8. d''16 ees''4 bes'8 aes'8 | g'4 f'8. ees'16 ees'2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+ees'4 ees'8. ees'16 g'4 g'8 ees'8 | d'4 f'8. d'16 f'8 ees'4. | ees'4 aes'8. aes'16 g'4 g'8 g'8 | f'4 ees'8. ees'16 d'2 |
+ees'4 ees'8. ees'16 g'4 g'8 ees'8 | ees'4 d'8. d'16 f'8 ees'4. | ees'4 aes'8. aes'16 g'4 g'8 f'8 | ees'4 d'8. ees'16 ees'2 |
+d'4 d'8. ees'16 f'8 f'8 r8 f'8 | ees'4 ees'8. f'16 g'8 g'4 r8 | f'4 ees'8. d'16 f'4 f'8 f'8 | f'4 ees'8. ees'16 d'2 |
+ees'4 ees'8. ees'16 g'4 g'8 ees'8 | ees'4 d'8. d'16 f'8 ees'4. | ees'4 aes'8. aes'16 g'4 g'8 f'8 | ees'4 d'8. ees'16 ees'2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+g4 fis8. g16 bes4 bes8 bes8 | bes4 bes8. bes16 bes8 bes4. | aes4 bes8. bes16 bes4 c'8 bes8 | bes4 a8. a16 bes4( aes4) |
+g4 fis8. g16 bes4 c'8 bes8 | g4 f8. bes16 bes8 bes4. | aes4 bes8. bes16 bes4 ees'8 c'8 | bes4 aes8. g16 g2 |
+bes4 bes8. bes16 bes8 bes8 r8 bes8 | bes4 bes8. bes16 ees'8 ees'4 r8 | d'4 c'8. bes16 a8[ bes8] c'8 c'8 | bes4 a8. a16 bes4( aes4) |
+g4 fis8. g16 bes4 c'8 bes8 | g4 f8. bes16 bes8 bes4. | aes4 bes8. bes16 bes4 ees'8 c'8 | bes4 aes8. g16 g2
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+ees4 ees8. ees16 ees4 ees8 ees8 | bes,4 bes,8. bes,16 ees8 ees4. | aes4 f8. f16 ees4 ees8 ees8 | f4 f8. f16 bes,2 |
+ees4 ees8. ees16 ees4 ees8 ees8 | bes,4 bes,8. bes,16 ees8 ees4. | aes4 f8. f16 ees4 ees8 aes8 | bes4 bes,8. ees16 ees2 |
+bes,4 bes,8. bes,16 bes,8 bes,8 r8 bes,8 | ees4 ees8. ees16 ees8 ees4 r8 | f4 f8. f16 f4 f8 a8 | bes4 f8. f16 bes,2 |
+ees4 ees8. ees16 ees4 ees8 ees8 | bes,4 bes,8. bes,16 ees8 ees4. | aes4 f8. f16 ees4 ees8 aes8 | bes4 bes,8. ees16 ees2
+"""
+
+[lyrics.1]
+text = "Bright -- est and best of the sons of the morn -- ing, Dawn on our dark -- ness, and lend us Thine aid; Star of the East, the ho -- ri -- zon a -- dorn -- ing, Guide where our in -- fant Re -- deem -- er is laid. Cold on His cra -- dle the dew- -- drops are shin -- ing, Low lies His head with the beasts of the stall; An -- gels a -- dore Him, in slum -- ber re -- clin -- ing, Mak -- er, and Mon -- arch, and Sav -- ior of all."
+
+[lyrics.2]
+text = "Say, shall we yield Him, in cost -- ly de -- vo -- tion, O -- dors of E -- dom, and of -- f’rings di -- vine? Gems of the moun -- tain, and pearls of the o -- cean, Myrrh from the for -- est, and gold from the mine? Vain -- ly we of -- fer earth’s rich -- est ob -- la -- tion, Vain -- ly with gifts would His fa -- vor se -- cure; Rich -- er by far is the heart’s ad -- o -- ra -- tion, Dear -- er to God are the pray’rs of the poor."
