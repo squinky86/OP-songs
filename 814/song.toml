@@ -1,0 +1,99 @@
+title = "As Pants the Hart"
+copyrights = [
+  "Lyrics: Nahum Tate and Nicholas Brady, 1696 (public domain)",
+  "Alteration: Henry F. Lyte, 1834 (public domain)",
+  "Music: Rigdon M. McIntosh, 1885 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Bb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 80
+verse_count = 3
+phrase_breaks = ["5:40", "9:40", "11:40", "13:40", "15:40"]
+optional_phrase_breaks = ["3:40", "7:40"]
+non_breaking_phrase_breaks = ["12:40", "13:8", "16:8", "16:40"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s8 f'8 f'8 f'8 |
+f'2~ f'8 d'8 f'8 bes'8 | g'2~ g'8 g'8 a'8 g'8 | f'2( e'4) g'4 | f'2! r8 f'8 f'8 f'8 |
+f'2~ f'8 d''8 c''8 bes'8 | g'2~ g'8 g'8 a'8 g'8 | f'2( a'4) g'8[ f'8] | bes'2! r8 f'8@c f'8 f'8 |
+d''2~ d''8 f'8 g'8 f'8 | bes'2~ bes'8 f'8 f'8 f'8 | c''2~ c''8 d''8 bes'8 g'8 | f'2~ f'8 f'8 a'8 bes'8 |
+c''2~ c''8 f'8 bes'8 c''8 | d''2~ d''8 f''8 ees''8 d''8 | g'2~ g'8 c''8 bes'8\\rit a'8 | bes'2!\\spanend r8 s4.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s8 d'8 d'8 d'8 |
+d'2~ d'8 bes8 d'8 d'8 | ees'2~ ees'8 ees'8 f'8 ees'8 | d'2( c'4) bes4 | a2! r8 d'8 d'8 d'8 |
+d'2~ d'8 f'8 ees'8 d'8 | ees'2~ ees'8 ees'8 f'8 ees'8 | d'2( f'4) ees'4 | d'2! r8 d'8@c d'8 d'8 |
+f'2~ f'8 d'8 ees'8 d'8 | d'2~ d'8 d'8 d'8 d'8 | e'2~ e'8 e'8 e'8 e'8 | f'2~ f'8 d'8 f'8 d'8 |
+f'2~ f'8 d'8 d'8 ees'8 | f'2~ f'8 f'8 f'8 f'8 | ees'2~ ees'8 ees'8 d'8 c'8 | d'2! r8 s4.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 s8 r8 r4 |
+r1 | r2 r8 r4. | r1 | r2 r8 r4. |
+r1 | r2 r8 r4. | r1 | r2 r8 r8@c r4 |
+r8 bes8 bes8 bes8 bes8 r8 r4 | r8 g8 g8 g8 g8 r8 r4 | r8 g8 g8 g8 g8 g8 g8 bes8 | a8 a8 a8 a8 bes8 r8 r4 |
+r8 a8 a8 a8 a8 r8 r4 | r8 bes8 bes8 bes8 bes8 d'8 c'8 bes8 | bes8 bes8 bes8 bes8 bes8 g8 f8 f8 | f2! r8 s4.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 s8 r8 r4 |
+r1 | r2 r8 r4. | r1 | r2 r8 r4. |
+r1 | r2 r8 r4. | r1 | r2 r8 r8@c r4 |
+r8 bes,8 bes,8 bes,8 bes,8 r8 r4 | r8 g8 g8 g8 g8 r8 r4 | r8 c8 c8 c8 c8 c8 c8 c8 | f8 ees8 d8 c8 bes,8 r8 r4 |
+r8 f8 f8 f8 f8 r8 r4 | r8 bes8 bes8 bes8 bes8 bes,8 c8 d8 | ees8 ees8 ees8 ees8 ees8 ees8 f8 f8 | bes,2! r8 s4.
+"""
+
+[lyrics.1]
+text = "As pants the hart for cool -- ing streams, When heat -- ed in the chase, So pants my soul, O Lord, for Thee, And Thy re -- fresh -- ing grace."
+
+[parts.Tenor.lyrics.1]
+text = ""
+
+[parts.Bass.lyrics.1]
+text = ""
+
+[lyrics.2]
+text = "For Thee, my God, the liv -- ing God, My thirst -- y soul doth pine; O when shall I be -- hold Thy face, Thou Maj -- es -- ty di -- vine?"
+
+[parts.Tenor.lyrics.2]
+text = ""
+
+[parts.Bass.lyrics.2]
+text = ""
+
+[lyrics.3]
+text = "Why rest -- less, why cast down, my soul? Trust God and thou shalt sing His praise a -- gain, and find Him still Thy health’s e -- ter -- nal spring."
+
+[parts.Tenor.lyrics.3]
+text = ""
+
+[parts.Bass.lyrics.3]
+text = ""
+
+[lyrics.chorus]
+text = "As pants the hart for cool -- ing streams, So pants my soul, O Lord, for Thee, As pants the hart for cool -- ing streams, So pants my soul, O Lord, for Thee."
+
+[parts.Tenor.lyrics.chorus]
+text = "As pants the hart for cool -- ing streams, So pants my soul, O Lord, for Thee, O Lord, for Thee; As pants the hart for cool -- ing streams, So pants my soul, so pants my soul, O Lord, for Thee."
+
+[parts.Bass.lyrics.chorus]
+text = "As pants the hart for cool -- ing streams, So pants my soul, O Lord, for Thee, O Lord, for Thee; As pants the hart for cool -- ing streams, So pants my soul, so pants my soul, O Lord, for Thee."
