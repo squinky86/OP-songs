@@ -1,0 +1,98 @@
+title = "All Things Praise Thee"
+copyrights = [
+  "Lyrics: George W. Conder, 1874 (public domain)",
+  "Music: 'Dix' by Conrad Kocher, 1838; adapted by William H. Monk, 1861 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "A"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 3
+phrase_breaks = ["4:64", "8:64"]
+optional_phrase_breaks = ["2:64", "6:64", "10:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+a'4 gis'8[ a'8] b'4 a'4 |
+d''4 d''4 cis''2 |
+fis'4 gis'4 a'4 fis'4 |
+e'4 e'4 e'2 |
+a'4 gis'8[ a'8] b'4 a'4 |
+d''4 d''4 cis''2 |
+fis'4 gis'4 a'4 fis'4 |
+e'4 e'4 e'2 |
+cis''4 b'4 a'4 cis''4 |
+e''4. d''8 cis''2 |
+fis'4 gis'4 a'4 d''4 |
+cis''4 b'4 a'2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+e'4 e'4 e'4 e'4 |
+a'4 e'4 e'2 |
+d'4 e'4 e'4 d'4 |
+cis'4 b4 cis'2 |
+e'4 e'4 e'4 e'4 |
+d'4 e'4 e'2 |
+d'4 e'4 e'4 d'4 |
+cis'4 b4 cis'2 |
+e'4 e'4 e'4 e'4 |
+e'4 e'4/+24 e'2 |
+d'4 e'4 e'4 d'4 |
+e'4. d'8/-24 cis'2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+cis'4 d'8[ cis'8] b4 cis'4 |
+d'4 b4 a2 |
+a4 b4 a4 a4 |
+a4 gis4 a2 |
+cis'4 d'8[ cis'8] b4 cis'4 |
+a4 b4 a2 |
+a4 b4 a4 a4 |
+a4 gis4 a2 |
+a4 e'8[ d'8] cis'4 a4 |
+b4 gis4/+24 a2 |
+a4 b4 a4 a4 |
+a4 gis4 a2
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+a4 b8[ a8] gis4 a4 |
+fis4 gis4 a2 |
+d4 d4 cis4 d4 |
+e4 e4 a,2 |
+a4 b8[ a8] gis4 a4 |
+fis4 gis4 a2 |
+d4 d4 cis4 d4 |
+e4 e4 a,2 |
+a4 gis4 a4 a4 |
+gis4 e4/+24 a,2 |
+d4 d4 cis4 fis4 |
+e4 e4 a,2
+"""
+
+[lyrics.1]
+text = "All things praise Thee, Lord most high, Heav’n and earth, and sea and sky; All were for Thy glo -- ry made, That Thy great -- ness, thus dis -- played, Should all wor -- ship bring to Thee; All things praise Thee— Lord, may we!"
+
+[lyrics.2]
+text = "All things praise Thee— night to night Sings in si -- lent hymns of light; All things praise Thee— day by day Chants Thy pow’r in burn -- ing ray; Time and space are prais -- ing Thee, All things praise Thee— Lord, may we!"
+
+[lyrics.3]
+text = "All things praise Thee, heav’n’s high shrine Rings with mel -- o -- dy di -- vine; Low -- ly bend -- ing at Thy feet, Ser -- aph and arch -- an -- gel meet; This their high -- est bliss, to be Ev -- er prais -- ing— Lord, may we!"
