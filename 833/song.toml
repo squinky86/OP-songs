@@ -1,0 +1,78 @@
+title = "Faith of Our Fathers, Living Still"
+copyrights = [
+  "Lyrics: Frederick W. Faber, 1849 (public domain)",
+  "Music: 'St. Catherine' Henri F. Hemy, 1864 (public domain)",
+  "Arrangement: James G. Walton, 1874 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 3
+phrase_breaks = ["8:48", "16:48"]
+optional_phrase_breaks = ["4:48", "12:48", "20:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+b'4 a'4 g'4 | g'4( fis'4) g'4 | a'4( e'4) fis'4 | g'2. |
+g'4 fis'4 e'4 | d'2 g'4 | g'4( fis'4) g'4 | a'2. |
+b'4 a'4 g'4 | g'4( fis'4) g'4 | a'4( e'4) fis'4 | g'2. |
+g'4 fis'4 e'4 | d'2 b'4 | a'4( b'4) a'4 | g'2. |
+c''4@c c''4 c''4 | b'2 b'4 | a'2 a'4 | b'2. |
+b'4 a'4 g'4 | e'2 g'4 | a'2 a'4 | g'2. |
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+d'4 d'4 d'4 | d'2 d'4 | e'2 d'4 | d'2. |
+e'4 d'4 c'4 | b2 d'4 | cis'2 cis'4 | d'2. |
+d'4 d'4 d'4 | d'4( c'4) b4 | e'2 c'4 | b2. |
+e'4 d'4 c'4 | b4( d'4) d'4 | e'2 fis'4 | g'2. |
+g'4@c g'4 g'4 | g'2 g'4 | fis'2 fis'4 | g'2. |
+b4 c'4 d'4 | c'2 c'4 | d'2 c'4 | b2. |
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+d'4 c'4 b4 | b4( c'4) b4 | a2 c'4 | b2. |
+g4 g4 g4 | b2 b4 | g4( a4) g4 | fis2. |
+d'4 c'4 b4 | b4( a4) g4 | c'2 a4 | g2. |
+g4 g4 g4 | g4( b4) d'4 | cis'2 c'4 | b2. |
+e'4@c e'4 e'4 | d'2 d'4 | d'2 d'4 | d'2. |
+g4 g4 g4 | g2 g4 | g2 fis4 | g2. |
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+g4 g4 g4 | g4( a4) g4 | c2 d4 | g,2. |
+c4 c4 e4 | g2 g,4 | e2 e4 | d2. |
+g4 g4 g4 | d2 e4 | c2 d4 | e2. |
+c4 c4 c4 | d2 d4 | d2 d4 | g2. |
+c4@c c4 c4 | g2 g4 | d2 d4 | g2. |
+g,4 a,4 b,4 | c2 e4 | d2 d4 | g,2. |
+"""
+
+[lyrics.1]
+text = "Faith of our fa -- thers! liv -- ing still In spite of dun -- geon, fire and sword; O how our hearts beat high with joy, When -- e’er we hear that glo -- rious word:"
+
+[lyrics.2]
+text = "Our fa -- thers, chained in pris -- ons dark, Were still in heart and con -- science free; How sweet would be their chil -- dren’s fate If they, like them, could die for thee!"
+
+[lyrics.3]
+text = "Faith of our fa -- thers! we will love Both friend and foe in all our strife; And preach thee too, as love knows how, By kind -- ly words and vir -- tuous life."
+
+[lyrics.chorus]
+text = "Faith of our fa -- thers, ho -- ly faith! We will be true to thee till death."
