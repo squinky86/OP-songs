@@ -1,0 +1,89 @@
+title = "Go, Tell It on the Mountain"
+copyrights = [
+  "Words: John W. Work II, with traditional African-American refrain (public domain)",
+  "Music: 'Go Tell It', traditional African-American spiritual (public domain)",
+  "Obtained from [Timeless Truths](https://library.timelesstruths.org/music/Go_Tell_It_on_the_Mountain/) (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 112
+verse_count = 5
+default_verses = [1, 2, 4]
+phrase_breaks = ["5:48", "9:64", "13:64"]
+optional_phrase_breaks = ["3:48", "7:48", "11:64", "15:48"]
+non_breaking_phrase_breaks = ["10:32", "14:32"]
+non_breaking_format_resets = ["10:32", "14:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. f'4 | a'4 c''4 c''4 d''4 | c''4 a'2 f'4 | g'4 g'4 f'4 g'4 |
+a'2. f'4 | a'4 c''4 c''4 d''4 | c''4 a'2 f'4 | g'4 g'4 f'4 d'4 |
+c'2( bes'2) |
+a'2@c a'8 g'8 f'8 d'8 | c'2 f'2 | g'8 g'4 g'8 f'4 g'4 | a'8[ g'8] a'8[ g'8] f'2 |
+a'2 a'8 g'8 f'8 d'8 | c'2 f'4 f'4 | g'4 g'4 a'8[ f'8] g'4 | f'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. f'4 | f'4 f'4 f'4 f'4 | f'4 f'2 f'4 | e'4 e'4 f'4 e'4 |
+f'2. f'4 | f'4 f'4 f'4 f'4 | f'4 f'2 c'4 | b4 b4 b4 b4 |
+c'1 |
+a1~@c | a2.( c'4) | e'8 e'4 e'8 d'4 e'4 | f'4 d'4 c'2 |
+a1~ | a2. a8[ c'8] | d'4 d'4 f'4 e'4 | c'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. f4 | c'4 a4 a4 bes4 | a4 c'2 c'4 | c'4 c'4 a4 c'4 |
+c'2. a4 | c'4 a4 a4 bes4 | c'4 c'2 f4 | d4 d4 g4 f4 |
+g4( f4 e2) |
+c'1~@c | c'1 | c'8 c'4 bes8 a4 c'4 | c'4. bes8/-24 a2 |
+c'1~ | c'2. f8[ a8] | g4 bes4 c'8[ a8] bes4 | <a f>2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. f4 | f4 f4 f4 f4 | f4 f2 a,4 | c4 c4 d4 c4 |
+f2. f4 | f4 f4 f4 bes4 | a4 f2 a,4 | g,4 g,4 g,4 g,4 |
+e4( d4 c2) |
+f,1@c | f,8 f,8 f,8 f,8 f,4 a,4 | c8 c4 c8 d4 c4 | f4. f8/-24 f2 |
+f1 | f8 f8 f8 f8 f8 f8 d4 | bes,4 g,4 c4 c4 | f,2. s4
+"""
+
+[lyrics.1]
+text = "While shep -- herds kept their watch -- ing O’er si -- lent flocks by night, Be -- hold, through -- out the heav -- ens There shone a ho -- ly light."
+
+[lyrics.2]
+text = "The shep -- herds feared and trem -- bled, When lo! a -- bove the earth Rang out the an -- gel cho -- rus That hailed the Sav -- ior’s birth."
+
+[lyrics.3]
+text = "And lo, when they had seen it, They all bowed down and prayed; They trav -- elled on to -- geth -- er To where the babe was laid."
+
+[lyrics.4]
+text = "They trav -- elled on to -- geth -- er To where the Babe was raised. And lo, when they had seen Him, They re -- turned home and praised."
+
+[lyrics.5]
+text = "Down in a low -- ly man -- ger The hum -- ble Christ was born, And God sent us sal -- va -- tion That bless -- ed Christ -- mas morn."
+
+[lyrics.chorus]
+text = "Go, tell it on the moun -- tain, O -- ver the hills and ev -- 'ry -- where; Go, tell it on the moun -- tain, That Je -- sus Christ is born."
+
+[parts.Alto.lyrics.chorus]
+text = "Go, O -- ver the hills and ev -- 'ry -- where; Go, That Je -- sus Christ is born."
+
+[parts.Tenor.lyrics.chorus]
+text = "Go, O -- ver the hills and ev -- 'ry -- where; Go, That Je -- sus Christ is born."
