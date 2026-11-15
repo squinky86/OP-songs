@@ -109,7 +109,7 @@ g'2~ | g'4 ...      ← one sound held across the barline
 
 ## 8. Lyric-slot bookkeeping
 
-1. Every verse (and the chorus/coda) of a part must have exactly one syllable per lyric slot. Balance uneven verses with `_` placeholders (§2), never by altering the notes.
+1. Every verse (and the chorus/coda) of a part must fill its lyric capacities: one syllable per ordinary onset, N syllables for a reciting breve with `@N` (§15). Balance verse-dependent melismas with `_` placeholders (§2); placeholders cannot occur inside a recitation.
 2. When a voice sings the *same words* as another voice but rhythmically offset (e.g. a tenor eighth-note pickup), add a dedup tick offset (`f8/-24`) so the phrase dedups against the other voices. Never use `/±N` to paper over an actually-wrong rhythm.
 3. Use per-part `[parts.X.lyrics.N]` only when a part truly sings different words/timing (call-and-response); otherwise share the global `[lyrics.N]`.
 
@@ -220,7 +220,40 @@ in the format reference, including its exact field order:
 
 ---
 
+## 15. Reciting breves
+
+Use `b'0@7` for a printed breve carrying seven source syllables. Use
+`b'0*1/2@7` to keep the glyph but give it four quarter-note beats. Choose the
+timing editorially, keep the printed meter, and fill every measure using scaled
+time. Do not expand a recitation into repeated ordinary notes just to attach
+words. The count describes text allocation; playback sustains one pitch.
+
+Keep ` -- ` syllabification in the source lyrics. Grouping joins words once at
+import and preserves joins into the cadence (`for -- ev -- er`, `Hal -- le --
+lu -- jah`). This is distinct from a melisma (one syllable across notes), a tie
+(sustaining a syllable), and an undertie elision (one source token). All verses
+share the same counts. Translations may override a part's notes/counts.
+
+Recitations with N > 1 must have independent onsets, without ties, slurs,
+dashed slurs, beams, or consumed `_` placeholders. Keep the whole group on one
+system/slide and in one measure/section. Break at its end, never inside it;
+split overlong text into additional reciting notes. Phrase coordinates use
+scaled time: unscaled breve = 128 ticks, half-scaled breve = 64 ticks.
+
+Check [the full syntax and precision limits](song-toml-format.md#breves-and-recitations)
+before authoring factors. Review the Aiken hollow shapes with their breve side
+strokes, grouped-text spacing, both staves, and cadence alignment in PDF and
+slides. Song 839 illustrates this style. Run `audit_style.py`, `check_measures.py`,
+and `debug_lyrics.py`, then import into an isolated database and check all exports.
+The sibling OpenPsalmEditor and external sight-singing notation need their own
+support; do not assume they preserve the new source notation.
+
 ## Import checklist
+
+- For recitations, verify every verse against the authored `@N` capacities,
+  exact scaled measure sums, joins into the cadence, and all four voice pitches
+  in the scan. Check the time signature, breve bars, and phrase text in the
+  rendered score and slides. Keep source syllabification authoritative.
 
 Before committing a new `song.toml`:
 

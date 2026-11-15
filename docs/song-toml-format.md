@@ -394,7 +394,8 @@ carry several echoes; each is handed off and handed back independently.
 
 OpenPsalm uses a LilyPond-inspired notation. Notes are space-separated within a measure; measures are separated by ` | `.
 
-**Pitch**: `{step}{accidental}{octave_marks}{duration}{dots}{flags}`
+**Pitch**: `{step}{accidental}{octave_marks}{duration}{dots}[*N/D][@count]{flags}`
+The multiplier and numeric count currently apply only to breves (`0`).
 
 | Component | Syntax | Examples |
 |---|---|---|
@@ -402,7 +403,7 @@ OpenPsalm uses a LilyPond-inspired notation. Notes are space-separated within a 
 | Accidental | `is` = sharp, `es` = flat, `isis` = double sharp, `eses` = double flat | `fis` = F♯, `bes` = B♭, `fisis` = F𝄪, `beses` = B𝄫 |
 | Octave marks | `'` raises one octave above base (3), `,` lowers one | `c'` = C4, `c''` = C5, `c,` = C2 |
 | Base octave | No marks = octave 3 (C3) | `g` = G3 |
-| Duration | `1 2 4 8 16` | `4` = quarter, `8` = eighth |
+| Duration | `0 1 2 4 8 16 32 64` | `0` = breve (eight quarter beats), `4` = quarter, `8` = eighth |
 | Dots | `.` after duration | `2.` = dotted half |
 | Flags | `(` slur start, `)` slur end, `-(` dashed slur start, `-)` dashed slur end, `!` fermata, `-.` staccato, `^` accent, `^^` marcato | `d'8-( e'8-)` |
 
@@ -638,12 +639,79 @@ g'4/+48%mf  ← dedup offset +48, mezzo-forte dynamic
 ```
 
 **Syntax rules:**
-- The `/` must immediately follow the duration (and dot, if any): `a4./-24` is valid, `a4 /-24` is not.
+- The dedup `/` follows the duration and any breve multiplier/count, without whitespace: `a4./-24` and `b'0*1/2@7/+24` are valid. A multiplier's denominator slash is separate from the dedup offset.
 - N may have an explicit `+` sign or be bare positive: `/24` and `/+24` are equivalent.
 - N = 0 is a no-op but valid for documentation purposes.
 - Fractional values are not supported; use the nearest integer tick value.
 
 ---
+
+### Breves and recitations
+
+`b'0@7` prints a B breve, lasts eight quarter-note beats, and consumes seven
+authored lyric syllables at that onset. `b'0*1/2@7` prints the same undotted
+breve but lasts four quarter beats. Keep an explicit time signature and complete
+measures. The duration is an editorial choice for timed playback; the count
+does not prescribe seven equal attacks or a tuplet. `tempo_bpm` always counts
+quarter notes, even in 4/2.
+
+| Token | Quarter beats | Example meter for this note alone |
+|---|---:|---|
+| `b'0*1/4@7` | 2 | 2/4 |
+| `b'0*1/2@7` | 4 | 4/4 |
+| `b'0*3/4@7` | 6 | 3/2 |
+| `b'0*7/8@7` | 7 | 7/4 |
+| `b'0@7` | 8 | 4/2 |
+| `b'0*3/2@7` | 12 | 6/2 |
+| `b'0.@7` | 12 | 6/2 (a printed dot) |
+| `b'0*2@7` | 16 | 8/2 |
+
+Write dots, then one optional positive `*N[/D]`, then one optional positive
+`@count`, then existing flags: `b'0*1/2@7@c!%p`. Defaults are `*1/1` and `@1`.
+Operands and count must fit positive signed 32-bit integers; ratios are reduced.
+Dots apply before scaling. Effective durations must be whole sixteenth notes:
+`0*1/32` and `0.*1/3` work; `0*1/3` and `0*1/64` fail. Overflow, misplaced or
+duplicate factors/counts, and these additions on ordinary notes fail explicitly.
+`@c`/`@e` keep their section meanings, and lyric `@sN` references are unchanged.
+
+Chords share the duration/count (`<b' d''>0@7`); only the primary pitch consumes
+lyrics. Breve rests/spacers (`r0`, `s0*1/2`) can scale but cannot carry a numeric
+count. Breves inside explicit tuplets are unsupported. Ordinary `@1` breves
+allow ties and articulations. Recitations with count greater than one require
+an independent onset: no ties into/out of them, slurs (including dashed), beams,
+or `_` placeholders in their consumed text.
+
+Keep source syllabification in TOML. For `b'0@7 b'2 a'2 g'1`, the source
+`For all the saints who from their la -- bors rest,` attaches the first seven
+syllables as one phrase and leaves `la`, `bors`, `rest,` on the cadence. Internal
+syllables join into words; outer word boundaries survive: `Hal -- le` becomes
+`Halle --` before `lu -- jah!`, and a group ending `for --` still joins to
+`ev -- er`. Punctuation and undertie elisions are preserved.
+
+Each verse/chorus/coda in a part using breves must exactly fill its source
+syllable capacities. Per-part lyrics and shared sections resolve before grouping.
+Counts apply to every verse; a translation needing different counts must
+override that part's `notes`. There are no per-verse counts. Groups stay within
+one measure, section, and printed system/slide. Put phrase breaks or format
+resets at their ends; a coordinate strictly inside a recitation is an error.
+Phrase coordinates use effective duration: a four-quarter scaled breve spans
+64 ticks, an unscaled breve 128. Divide very long text across separate notes.
+
+LilyPond/PDF/SVG and slides print `\breve` with authored dots and scale, retaining
+the meter. Aiken breves add side strokes to the hollow shape; round heads use
+the standard breve. Grouped text is left aligned. MusicXML carries type `breve`,
+effective duration, and a time modification for scaling (without a tuplet bracket).
+Its layout and shape support depend on the reader. MIDI/generated MP3 sustain
+one pitch for the chosen time. Web lyrics/search retain the prose. The external
+sight-singing handoff receives timed notes and grouped text, but its present
+renderer has no breve glyph and does not preserve all meter changes.
+
+The database stores one phrase per onset/verse, with its outer word-join state
+and source count. It does not retain the phrase's internal syllable boundaries.
+TOML is authoritative: automatic per-syllable vocals and lossless lyric reimport
+are unsupported. MusicXML/LilyPond import tools stop on identified grouped lyrics
+and ask for manual syllabification/counts. OpenPsalmEditor needs separate support
+before editing these tokens safely. Song 839 is the catalog example.
 
 ## Lyrics
 
@@ -663,8 +731,10 @@ A coda's first note is marked with `@e` in the note stream (analogous to the `@c
 
 - Words are separated by spaces.
 - Multi-syllable words use ` -- ` (space-dash-dash-space) between syllables.
-- Each whitespace token (excluding `--` connectors) is one syllable that consumes one lyric slot.
-- There must be exactly as many syllables as lyric slots in the note stream. (Lyric slots = pitched, non-spacer, non-rest notes; slur-continuation notes do not count.)
+- Each whitespace token (excluding `--` connectors) is one authored syllable.
+- The syllable count must match the sum of onset capacities: ordinary lyric
+  onsets consume one syllable; a breve with `@N` consumes N. Rests, spacers,
+  chord partners, ties, and solid slur/beam continuations add no lyric onset.
 
 **Syllable slot counting example:**
 ```
@@ -674,7 +744,11 @@ A coda's first note is marked with `@e` in the note stream (analogous to the `@c
 
 ### Verse/Chorus Layout
 
-The seeder assigns each syllable to a note slot by index. Verse syllables start at slot 0. Chorus syllables start at slot `max_verse_length` (the syllable count of the longest verse). This means chorus lyrics share the same notes as the final verses — appropriate for hymns where the verse and chorus melody uses the same notes.
+Verse syllables normally start at source offset 0; chorus lyrics follow the
+verse at `@c`, and coda lyrics start at `@e`. A chorus-first song starts at `@c`
+and puts verses after the chorus. Offsets count source syllables, so a grouped
+breve consumes N positions while remaining one musical onset. Legacy imports
+without new notation retain their existing `max_verse_length` chorus fallback.
 
 ### Chorus Pickups (Rests)
 
@@ -1142,13 +1216,13 @@ notes = """
 ```
 
 The merged result is validated exactly like a base file: every measure must sum
-to its time signature, and every verse must have one syllable per lyric slot in
+to its time signature, and every verse must fill each lyric onset’s capacity (one normally, N for a breve `@N`) in
 every part. A mismatched syllable count is the most common authoring error in a
 translation and the seeder rejects it by name.
 
 ### Elisions (synalepha)
 
-A lyric slot cannot contain a space — syllables are split on whitespace. When
+A single authored syllable token cannot contain whitespace. When
 two words are sung on one note, as Spanish synalepha constantly requires, join
 them with an **undertie** `‿` (U+203F), the standard engraving mark for an
 elision:
