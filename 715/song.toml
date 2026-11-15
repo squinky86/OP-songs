@@ -10,7 +10,8 @@ time_sig_denominator = 4
 tempo_bpm = 88
 verse_count = 3
 phrase_breaks = ["3:40", "5:40", "7:40", "9:40", "12:8", "13:40", "16:8"]
-non_breaking_phrase_breaks = ["4:8", "4:40", "5:8", "9:8", "13:8", "16:40", "17:8"]
+non_breaking_phrase_breaks = ["4:8", "4:40", "5:8", "8:40", "9:8", "13:8", "16:40", "17:8"]
+non_breaking_format_resets = ["5:8", "9:8", "13:8"]
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -83,37 +84,28 @@ d8 f16 f16 a8 f8 d8 a,16 a,16 c8 c8 | f,2~ f,8 s8 s4
 """
 
 [lyrics.1]
+text = "In the Book we read that the Sav -- ior died, On the cru -- el cross He was cru -- ci -- fied He was cru -- ci -- fied And the crown they made for our Lord to wear, Was a crown of thorns as He suf -- fered there. as He suf -- fered there."
+
+[parts.Soprano.lyrics.1]
 text = "In the Book we read that the Sav -- ior died, On the cru -- el cross He was cru -- ci -- fied And the crown they made for our Lord to wear, Was a crown of thorns as He suf -- fered there."
-
-[parts.Alto.lyrics.1]
-text = "In the Book we read that the Sav -- ior died, On the cru -- el cross He was cru -- ci -- fied He was cru -- ci -- fied And the crown they made for our Lord to wear, Was a crown of thorns as He suf -- fered there. as He suf -- fered there."
-
-[parts.Tenor.lyrics.1]
-text = "In the Book we read that the Sav -- ior died, On the cru -- el cross He was cru -- ci -- fied He was cru -- ci -- fied And the crown they made for our Lord to wear, Was a crown of thorns as He suf -- fered there. as He suf -- fered there."
 
 [parts.Bass.lyrics.1]
 text = "In the Book we read that the Sav -- ior died, On the cru -- el cross He was cru -- ci -- fied He was cru -- ci -- fied And the crown they made for our Lord to wear, Was a crown of thorns as He suf -- fered there."
 
 [lyrics.2]
+text = "He was mocked and tried there in Pi -- late’s hall, But they found no fault in the Lord of All; in the Lord of All; Still con -- demned He stood, tho a per -- fect one. Bowed His head and died as He said “’Tis done.” as He said “’Tis done.”"
+
+[parts.Soprano.lyrics.2]
 text = "He was mocked and tried there in Pi -- late’s hall, But they found no fault in the Lord of All; Still con -- demned He stood, tho a per -- fect one. Bowed His head and died as He said “’Tis done.”"
-
-[parts.Alto.lyrics.2]
-text = "He was mocked and tried there in Pi -- late’s hall, But they found no fault in the Lord of All; in the Lord of All; Still con -- demned He stood, tho a per -- fect one. Bowed His head and died as He said “’Tis done.” as He said “’Tis done.”"
-
-[parts.Tenor.lyrics.2]
-text = "He was mocked and tried there in Pi -- late’s hall, But they found no fault in the Lord of All; in the Lord of All; Still con -- demned He stood, tho a per -- fect one. Bowed His head and died as He said “’Tis done.” as He said “’Tis done.”"
 
 [parts.Bass.lyrics.2]
 text = "He was mocked and tried there in Pi -- late’s hall, But they found no fault in the Lord of All; in the Lord of All; Still con -- demned He stood, tho a per -- fect one. Bowed His head and died as He said “’Tis done.”"
 
 [lyrics.3]
+text = "They could take the life of the Ho -- ly One, As the thorn- -- crown lay on God’s bless -- ed Son: on God’s bless -- ed Son: But the grave they made would not hold the King, Who a -- rose in pow’r end -- less joy to bring. end -- less joy to bring."
+
+[parts.Soprano.lyrics.3]
 text = "They could take the life of the Ho -- ly One, As the thorn- -- crown lay on God’s bless -- ed Son: But the grave they made would not hold the King, Who a -- rose in pow’r end -- less joy to bring."
-
-[parts.Alto.lyrics.3]
-text = "They could take the life of the Ho -- ly One, As the thorn- -- crown lay on God’s bless -- ed Son: on God’s bless -- ed Son: But the grave they made would not hold the King, Who a -- rose in pow’r end -- less joy to bring. end -- less joy to bring."
-
-[parts.Tenor.lyrics.3]
-text = "They could take the life of the Ho -- ly One, As the thorn- -- crown lay on God’s bless -- ed Son: on God’s bless -- ed Son: But the grave they made would not hold the King, Who a -- rose in pow’r end -- less joy to bring. end -- less joy to bring."
 
 [parts.Bass.lyrics.3]
 text = "They could take the life of the Ho -- ly One, As the thorn- -- crown lay on God’s bless -- ed Son: on God’s bless -- ed Son: But the grave they made would not hold the King, Who a -- rose in pow’r end -- less joy to bring."
