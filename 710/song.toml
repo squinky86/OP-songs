@@ -10,7 +10,8 @@ time_sig_denominator = 4
 tempo_bpm = 96
 verse_count = 3
 phrase_breaks = ["5:48", "9:48", "13:48", "17:48", "21:48", "25:48", "29:48"]
-non_breaking_phrase_breaks = ["13:64", "16:64", "20:64", "32:64"]
+non_breaking_phrase_breaks = ["13:64", "16:64", "20:64", "31:48", "32:64"]
+non_breaking_format_resets = ["32:64"]
 interleave_verse_lyrics = true
 
 [parts.Soprano]
