@@ -11,6 +11,7 @@ tempo_bpm = 92
 verse_count = 3
 phrase_breaks = ["5:24", "9:24", "11:40", "13:40", "15:40"]
 non_breaking_phrase_breaks = ["9:48", "10:24", "11:8", "13:64", "14:40", "15:8", "15:64", "16:8", "16:40", "17:8"]
+non_breaking_format_resets = ["10:24", "11:8", "14:40", "15:8", "16:40"]
 
 [[time_sig_changes]]
 measure = 10
