@@ -1,0 +1,86 @@
+title = "Hallelujah, Praise Jehovah!"
+copyrights = [
+  "Lyrics: Psalm 148, versified in The Book of Psalms, 1831 (public domain)",
+  "Music: William James Kirkpatrick, 1893 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 3
+phrase_breaks = ["5:48", "9:48", "13:48", "17:48", "21:48", "25:48"]
+optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48", "19:48", "23:48", "27:48"]
+non_breaking_phrase_breaks = ["18:64", "22:48", "24:48", "26:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. d'8. d'16 | g'4 d'4 g'4 a'4 | b'4.( a'8) g'4 b'8. c''16 | d''4 d''4 c''4 b'4
+| a'2. d'8. d'16 | g'4 d'4 g'4 a'4 | b'4.( a'8) g'4 b'8. b'16 | a'4 d''4 d''4 cis''4
+| d''2. d''8. d''16 | c''4 b'4 a'4 g'4 | fis'4.( e'8) d'4 d''8. d''16 | c''4 b'4 a'4 g'4
+| a'2. d'8. d'16 | g'4 b'4 a'4 c''4 | b'4( d''4) c''4 e''8. e''16 | d''4. g'8 g'4 fis'4
+| g'2. b'8.@c c''16 | d''2~ d''8. c''16 b'8. c''16 | d''2 b'4 d''8. d''16 | e''4 d''4 c''4 b'4
+| a'2. d'8. d'16 | g'2~ g'8. d'16 g'8. a'16 | b'2 g'4 g'8. a'16 | b'2~ b'8. a'16 b'8. c''16
+| d''2 b'4 g'8.%ff g'16 | e''2~ e''8. d''16 c''8. e''16 | d''2 b'4 d''8. d''16 | d''4. c''8 b'4 a'4
+| g'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. d'8. d'16 | b4 b4 d'4 d'4 | d'4.( c'8) b4 d'8. d'16 | d'4 g'4 fis'4 g'4
+| fis'2. d'8. d'16 | b4 b4 d'4 d'4 | d'4.( c'8) b4 g'8. g'16 | fis'4 fis'4 e'4 g'4
+| fis'2. d''8. d''16 | c''4 b'4 a'4 g'4 | fis'4.( e'8) d'4 b'8. b'16 | a'4 g'4 fis'4 e'4
+| fis'2. d'8. d'16 | d'4 g'4 fis'4 a'4 | g'2 g'4 g'8. g'16 | g'4. d'8 d'4 d'4
+| d'2. g'8.@c a'16 | b'2~ b'8. a'16 g'8. a'16 | b'2 g'4 g'8. g'16 | g'4 g'4 fis'4 g'4
+| fis'2. d'8. d'16 | b2~ b8. b16 b8. b16 | d'2 b4 g'8. g'16 | g'2~ g'8. d'16 g'8. a'16
+| g'2 g'4 g'8.%ff g'16 | g'2~ g'8. g'16 g'8. g'16 | g'2 g'4 g'8. g'16 | fis'4. fis'8 fis'4 fis'4
+| d'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. d8. d16 | d4 g4 g4 fis4 | g2 g4 g8. a16 | b4 d'4 d'4 d'4
+| d'2. d8. d16 | d4 g4 g4 fis4 | g2 g4 d'8. d'16 | d'4 a4 a4 a4
+| a2. d'8. d'16 | c'4 b4 a4 g4 | fis4.( e8) d4 d8. d16 | d'4 d'4 c'4 b8[ cis'8]
+| d'2. d8. d16 | b4 d'4 d'4 d'4 | d'4( b4) c'4 c'8. c'16 | b4. b8 a4 c'4
+| b2. r4@c | d'4 d'4 d'8. d'16 d'8. d'16 | d'2 d'4 b8. b16 | c'4 d'4 d'4 d'4
+| d'2. r4 | d4%pp d4 d8. d16 d8. d16 | g2 g4 r4 | d'4%p d'4 d'8. d'16 d'8. d'16
+| d'2 d'4 r4%ff | c'4 c'4 c'8. c'16 c'8. c'16 | b2 d'4 b8. b16 | a4. a8 d'4 c'4
+| b2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. d8. d16 | g,4 g,4 b,4 d4 | g2 g4 g8. g16 | g4 b4 a4 g4
+| d2. d8. d16 | g,4 g,4 b,4 d4 | g2 g4 g8. g16 | a4 a4 a,4 a,4
+| d2. d'8. d'16 | c'4 b4 a4 g4 | fis4.( e8) d4 d8. d16 | d4 d4 d4 e4
+| d2. d8. d16 | g,4 g,4 d4 d4 | g4( f4) e4 c8. c16 | d4. d8 d4 d4
+| g,2. r4@c | g4 g4 g8. g16 g8. g16 | g2 g4 g8. g16 | c'4 b4 a4 g4
+| d2. r4 | g,4%pp g,4 g,8. g,16 g,8. g,16 | g,2 g,4 r4 | g4%p g4 g8. g16 g8. g16
+| g2 g4 r4%ff | c4 c4 c8. d16 e8. c16 | g2 g4 g8. g16 | d4. d8 d4 d4
+| g,2. s4
+"""
+
+[lyrics.1]
+text = "Hal -- le -- lu -- jah, praise Je -- ho -- vah! From the heav -- ens praise His name; Praise Je -- ho -- vah in the high -- est, All His an -- gels praise pro -- claim. All His hosts to -- geth -- er praise Him, Sun and moon and stars on high; Praise Him, O ye heav’n of heav -- ens, And ye floods a -- bove the sky."
+
+[lyrics.2]
+text = "Let them prais -- es give Je -- ho -- vah! They were made at His com -- mand; Them for -- ev -- er He es -- tab -- lished, His de -- cree shall ev -- er stand. From the earth, O praise Je -- ho -- vah, All ye floods, ye drag -- ons all; Fire and hail and snow and va -- pors, Storm -- y winds that hear Him call."
+
+[lyrics.3]
+text = "All ye fruit -- ful trees and ce -- dars, All ye hills and moun -- tains high, Creep -- ing things and beasts and cat -- tle, Birds that in the heav -- ens fly; Kings of earth and all ye peo -- ple, Prin -- ces great, earth’s judg -- es all; Praise His name, young men and maid -- ens, A -- ged men, and chil -- dren small."
+
+[lyrics.chorus]
+text = "Let them prais -- es give Je -- ho -- vah, For His name a -- lone is high, And His glo -- ry is ex -- alt -- ed, And His glo -- ry is ex -- alt -- ed, And His glo -- ry is ex -- alt -- ed Far a -- bove the earth and sky."
