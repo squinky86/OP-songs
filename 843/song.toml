@@ -1,0 +1,86 @@
+# Source: Great Songs of the Church (1926), No. 80 (hymnary GSoC1926 page 52, lower
+#   half), seven-shape notes, low-res scan (~500 px wide). No 1921-edition printing.
+# Lyrics transcribed from the plate's five stanzas (plate spellings kept: bro’t,
+#   Im-man-uel, giv’n, heav’n).
+# Plate credits: "R. Wardlaw." / "William Knapp." / tune printed "(WAREHAM.)".
+# Lyrics date: Julian, Dictionary of Hymnology, New Supplement (via hymnary person
+#   page Wardlaw_R): "Hail, morning known amongst the blest" is in Wardlaw's
+#   Selection of Hymns, 1803. Ralph Wardlaw, 1779-1853.
+# Music date: hymnary tune page wareham_knapp: Knapp, A Set of New Psalm Tunes and
+#   Anthems, 1738.
+# Public domain: published in the US before 1930.
+# Melody: matches WAREHAM as printed in the Timeless Truths edition (Eternal Father,
+#   When to Thee, B-flat, 3/4) note for note; no plate differences in the melody.
+# Harmony read from the plate with a pitch ruler and shape checks (bar numbers
+#   count full bars after the pickup). It differs from the Timeless Truths harmony:
+#   bars 1-2 tenor repeated B-flat and bass G on beat 3 of bar 2; bar 6 tenor
+#   c' d' c'; bars 9-13 tenor bes2 c' / d'2 c' / bes2 a / bes2 a / bes2 a; bar 10
+#   alto f'4 (TT f'8 ees'8); bar 11 alto d'2; bass B-flat 3 in bar 11 and F in
+#   bar 12; alto f' on beat 3 of bars 13 and 15 and in bar 16.
+#   Low-res guesses: bar 1 alto g' (could be f'); bar 11 bass B-flat 3 shares the
+#   tenor's notehead (TT has G3); bar 12 bass f2 (open head hidden by the staff line).
+# Tempo: none printed; 92 is a guess.
+title = "Hail, Morning Known Among the Blest!"
+copyrights = [
+  "Lyrics: Ralph Wardlaw, 1803 (public domain)",
+  "Music: 'Wareham' by William Knapp, 1738 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Bb"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 98
+verse_count = 5
+phrase_breaks = ["9:32"]
+optional_phrase_breaks = ["5:32", "13:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 bes'4 | bes'4( a'4) g'4 | f'2 bes'4 | c''4( bes'4) a'4 | bes'2 c''4 | d''4( c''4) bes'4 | a'4( bes'4) c''4 | bes'4( a'4) g'4 | f'2 f'4
+| g'4( f'4) g'8[ a'8] | bes'2 a'4 | bes'2 c''4 | d''2 c''8[ d''8] | ees''4( d''4) c''4 | bes'4( a'4) bes'4 | c''4( bes'4) a'4 | bes'2 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 d'4 | g'4( f'4) ees'4 | d'2 d'4 | g'4( f'4) f'4 | f'2 f'4 | f'2 e'4 | f'2 f'4 | g'4( f'4) e'4 | f'2 d'4
+| ees'4( f'4) ees'4 | f'2 f'4 | d'2 f'4 | f'2 f'4 | ees'4( f'4) f'4 | f'4( ees'4) f'4 | g'4( f'4) f'4 | f'2 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 bes4 | bes2 bes4 | bes2 bes4 | ees'4( d'4) c'4 | d'2 a4 | bes4( c'4) c'4 | c'4( d'4) c'4 | d'4( c'4) bes4 | a2 bes4
+| bes2 c'4 | d'2 c'4 | bes2 a4 | bes2 a4 | bes2 a4 | bes4( c'4) d'4 | c'4( d'4) ees'4 | d'2 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 bes,4 | bes,2 bes,4 | bes,2 g4 | ees4( f4) f4 | bes,2 f4 | bes4( a4) g4 | f4( d4) a,4 | bes,4( c4) c4 | f2 bes,4
+| ees4( d4) c4 | bes,2 f4 | bes2 f4 | f2 f4 | g4( f4) ees4 | d4( c4) bes,4 | ees4( f4) f4 | bes,2 s4
+"""
+
+[lyrics.1]
+text = "Hail, morn -- ing known a -- mong the blest! Morn -- ing of hope and joy and love; Of heav’n -- ly peace and ho -- ly rest, The pledge of end -- less rest a -- bove."
+
+[lyrics.2]
+text = "Blest be the Fa -- ther of our Lord, Who from the dead has bro’t His Son! Hope to the lost was then re -- stored, And ev -- er -- last -- ing glo -- ry won."
+
+[lyrics.3]
+text = "Scarce morn -- ing twi -- light had be -- gun To chase the shades of night a -- way, When Christ a -- rose— un -- set -- ting Sun— The dawn of joy’s e -- ter -- nal day!"
+
+[lyrics.4]
+text = "Mer -- cy looked down with smil -- ing eye When our Im -- man -- uel left the dead; Faith marked His bright as -- cent on high, And Hope with glad -- ness raised her head."
+
+[lyrics.5]
+text = "God’s good -- ness let us bear in mind, Who to His saints this day has giv’n, For rest and se -- rious joy de -- signed, To fit us for the bliss of heav’n."

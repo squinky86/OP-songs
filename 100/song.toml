@@ -1,5 +1,4 @@
 title = "Stricken, Smitten, and Afflicted"
-subtitle = ""
 copyrights = [
   "Lyrics: Thomas Kelly, 1804 (public domain)",
   "Music: 'Austria' by Franz Joseph Haydn, 1797 (public domain)",
@@ -10,7 +9,8 @@ time_sig_numerator = 4
 time_sig_denominator = 2
 tempo_bpm = 145
 verse_count = 2
-phrase_breaks = ["2:128", "4:128", "6:128", "8:128", "10:128", "12:128", "14:128"]
+phrase_breaks = ["4:128", "8:128", "12:128"]
+optional_phrase_breaks = ["2:128", "6:128", "10:128", "14:128"]
 
 [parts.Soprano]
 choral_type = "soprano"
