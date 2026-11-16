@@ -12,6 +12,7 @@ verse_count = 4
 phrase_breaks = ["5:40", "9:40", "13:40"]
 optional_phrase_breaks = ["3:40", "7:40", "11:40", "15:40"]
 non_breaking_phrase_breaks = ["9:16", "11:16", "17:16"]
+non_breaking_format_resets = ["9:16"]
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -24,12 +25,6 @@ s4. s4 ees'8
 | ees''8. d''16 ees''8 c''4 aes'8 | c''4.~ c''4 c''8 | ees''8. d''16 ees''8 c''4 aes'8 | bes'4.~ bes'4 c''8
 | ees''8. d''16 ees''8 c''4 ees'8 | aes'8. aes'16 f'8 ees'4 aes'8 | c''16 ees''8. aes'8 c''4 bes'8 | aes'4.~ aes'4 s8
 """
-
-[parts.Soprano.lyrics.chorus]
-text = "Give Je -- sus a chance to -- day, Your sins He will take a -- way. No long -- er be sad: be par -- doned and glad, Give Je -- sus a chance to -- day"
-
-[parts.Soprano.lyrics.s1]
-text = "Give Je -- sus a chance to -- day"
 
 [parts.Alto]
 choral_type = "alto"
@@ -81,12 +76,18 @@ text = "This life is so brief, don’t spend it in grief, No long -- er the chan
 
 [lyrics.chorus]
 text = "Give Je -- sus a chance to -- day, to -- day, Your sins He will take a -- way. No long -- er be sad: be par -- doned and glad, Give Je -- sus a chance to -- day to -- day."
-[lyrics.s1]
-text = "Give Je -- sus a chance to -- day to -- day."
 
+[parts.Soprano.lyrics.chorus]
+text = "Give Je -- sus a chance to -- day, Your sins He will take a -- way. No long -- er be sad: be par -- doned and glad, Give Je -- sus a chance to -- day"
 
 [parts.Bass.lyrics.chorus]
 text = "Give Je -- sus a chance to -- day, to -- day, Your sins He will take a -- way. No long -- er be sad: be par -- doned and glad, Give Je -- sus a chance to -- day"
+
+[lyrics.s1]
+text = "Give Je -- sus a chance to -- day to -- day."
+
+[parts.Soprano.lyrics.s1]
+text = "Give Je -- sus a chance to -- day"
 
 [parts.Bass.lyrics.s1]
 text = "Give Je -- sus a chance to -- day"
