@@ -1,9 +1,9 @@
 title = "Praise the Lord: Ye Heavens, Adore Him"
-subtitle = "Austrian Hymn"
+subtitle = "Austria"
 copyrights = [
   "Lyrics: Foundling Hospital Collection, 1796 (public domain)",
   "Lyrics verse 3: Edward Osler, 1836 (public domain)",
-  "Music: 'Austrian Hymn' by Franz Josef Haydn, 1797 (public domain)",
+  "Music: 'Austria' by Franz Josef Haydn, 1797 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
 key_signature = "Eb"
@@ -11,8 +11,8 @@ time_sig_numerator = 4
 time_sig_denominator = 4
 tempo_bpm = 107
 verse_count = 3
-phrase_breaks = ["2:64", "4:64", "6:64", "8:64", "10:64", "12:64", "14:64"]
-
+phrase_breaks = ["4:64", "8:64", "12:64"]
+optional_phrase_breaks = ["2:64", "6:64", "10:64", "14:64"]
 commentary = "<p>This same song is also available with the <a href=\"/songs/25\">Perez</a> music which is the version I grew up singing.</p>"
 
 [parts.Soprano]
@@ -20,7 +20,7 @@ choral_type = "soprano"
 clef = "treble"
 staff_number = 1
 notes = """
-ees'4. f'8 g'4 f'4 | aes'4 g'4 f'8[ d'8] ees'4 | c''4 bes'4 aes'4 g'4 | f'4 g'8[ ees'8] bes'2 | ees'4. f'8 g'4 f'4 | aes'4 g'4 f'8[ d'8] ees'4 | c''4 bes'4 aes'4 g'4 | f'4 g'8[ ees'8] bes'2 | f'4 g'4 f'8[ d'8] bes4 | aes'4 g'4 f'8[ d'8] bes4 | bes'4 aes'4 g'4. g'8 | a'4. aes'8 bes'2 | ees''4. d''8 d''8[ c''8] bes'4 | c''4. bes'8 bes'8[ aes'8] g'4 | f'4 g'8[ aes'8] bes'8[ c''8] aes'8[ f'8] | ees'4 g'8[ f'8] ees'2
+ees'4. f'8 g'4 f'4 | aes'4 g'4 f'8[ d'8] ees'4 | c''4 bes'4 aes'4 g'4 | f'4 g'8[ ees'8] bes'2 | ees'4. f'8 g'4 f'4 | aes'4 g'4 f'8[ d'8] ees'4 | c''4 bes'4 aes'4 g'4 | f'4 g'8[ ees'8] bes'2 | f'4 g'4 f'8[ d'8] bes4 | aes'4 g'4 f'8[ d'8] bes4 | bes'4 aes'4 g'4. g'8 | a'4. a'8 bes'2 | ees''4. d''8 d''8[ c''8] bes'4 | c''4. bes'8 bes'8[ aes'8] g'4 | f'4 g'8[ aes'8] bes'8[ c''8] aes'8[ f'8] | ees'4 g'8[ f'8] ees'2
 """
 
 [parts.Alto]

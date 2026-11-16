@@ -1,0 +1,87 @@
+title = "Glorious Things of Thee Are Spoken"
+copyrights = [
+  "Lyrics: John Newton, 1779 (public domain)",
+  "Music: 'Austria' by Franz Joseph Haydn, 1797 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 3
+phrase_breaks = ["4:64", "8:64", "12:64"]
+optional_phrase_breaks = ["2:64", "6:64", "10:64", "14:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+f'4. g'8 a'4 g'4 | bes'4 a'4 g'8[ e'8] f'4 | d''4 c''4 bes'4 a'4 | g'4 a'8[ f'8] c''2 |
+f'4. g'8 a'4 g'4 | bes'4 a'4 g'8[ e'8] f'4 | d''4 c''4 bes'4 a'4 | g'4 a'8[ f'8] c''2 |
+g'4 a'4 g'8[ e'8] c'4 | bes'4 a'4 g'8[ e'8] c'4 | c''4 bes'4 a'4. a'8 | b'4. b'8 c''2 |
+f''4. e''8 e''8[ d''8] c''4 | d''4. c''8 c''8[ bes'8] a'4 | g'4 a'8[ bes'8] c''8[ d''8] bes'8[ g'8] | f'4 a'8[ g'8] f'2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+c'4. c'8 f'4 e'4 | g'4 f'4 e'4 c'4 | d'8[ e'8] f'4 g'4 f'4 | d'4 f'4 e'2 |
+c'4. c'8 f'4 e'4 | g'4 f'4 e'4 c'4 | d'8[ e'8] f'4 g'4 f'4 | d'4 f'4 e'2 |
+c'4 c'4 c'4 c'4 | d'8[ e'8] f'4 e'8[ c'8] c'4 | c'4 d'8[ e'8] f'4. f'8 | f'4. f'8 e'2 |
+f'4. f'8 f'4 f'4 | f'4. f'8 e'4 f'4 | e'4 e'4 f'4 d'4 | c'4 e'4 f'2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+a4. bes8 c'4 c'4 | c'4 c'4 bes4 a4 | bes4 c'4 c'4 c'4 | bes4 d'4 g2 |
+a4. bes8 c'4 c'4 | c'4 c'4 bes4 a4 | bes4 c'4 c'4 c'4 | bes4 d'4 g2 |
+e4 f4 e8[ g8] bes8[ a8] | g4 f8[ a8] c'8[ g8] e4 | a4 g4 f4. d'8 | d'4. g8 g2 |
+d'4. c'8 bes4 a4 | bes4. c'8 c'4 c'4 | c'4 c'4 c'4 d'8[ bes8] | a4 bes4 a2
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+f4. f8 f4 c4 | e4 f4 c4 f4 | bes4 a4 e4 f4 | bes,4 b,4 c2 |
+f4. f8 f4 c4 | e4 f4 c4 f4 | bes4 a4 e4 f4 | bes,4 b,4 c2 |
+c4 c4 c4 c4 | c4 c4 c4 c8[ bes,8] | a,4 bes,8[ c8] d4. d8 | g4. g,8 c2 |
+a4. a8 bes4 f4 | bes4. a8 g4 f4 | c4 bes,4 a,4 bes,4 | c4 c4 f,2
+"""
+
+[lyrics.1]
+text = """Glo -- rious things of thee are spok -- en,
+Zi -- on, cit -- y of our God;
+He whose word can -- not be brok -- en,
+Formed thee for His own a -- bode.
+On the Rock of a -- ges found -- ed,
+What can shake thy sure re -- pose?
+With sal -- va -- tion’s walls sur -- round -- ed,
+Thou mayst smile at all thy foes."""
+
+[lyrics.2]
+text = """See, the streams of liv -- ing wa -- ters,
+Spring -- ing from e -- ter -- nal love,
+Well sup -- ply thy sons and daugh -- ters,
+And all fear of want re -- move.
+Who can faint while such a riv -- er
+Ev -- er flows their thirst t’as -- suage?
+Grace, which, like the Lord the Giv -- er,
+Nev -- er fails from age to age?"""
+
+[lyrics.3]
+text = """Sav -- ior, since of Zi -- on’s cit -- y
+I, thro’ grace, a mem -- ber am,
+Let the world de -- ride or pit -- y,
+I will glo -- ry in Thy name.
+Fad -- ing is the world -- ling’s pleas -- ure,
+All his boast -- ed pomp and show;
+Sol -- id joys and last -- ing treas -- ure
+None but Zi -- on’s chil -- dren know."""

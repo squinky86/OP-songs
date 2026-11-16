@@ -6,14 +6,13 @@ copyrights = [
   "Music: Perez, Lowell Mason, c. 1850 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
-verse_count = 6
 key_signature = "A"
 time_sig_numerator = 4
 time_sig_denominator = 4
 tempo_bpm = 110
+verse_count = 6
 phrase_breaks = ["2:64", "4:64", "6:64", "8:48"]
 optional_phrase_breaks = ["9:48", "10:64"]
-
 commentary = "<p>This same song is also available with the <a href=\"/songs/23\">Austrian Hymn</a> music.</p>"
 
 [parts.Soprano]
