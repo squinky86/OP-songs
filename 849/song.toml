@@ -1,0 +1,87 @@
+title = "Hark! the Voice of Jesus Calling"
+copyrights = [
+  "Lyrics: Daniel March, 1868 (public domain)",
+  "Music: 'Autumn' by François Hippolyte Barthélemon, 1785 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 90
+verse_count = 3
+phrase_breaks = ["5:32", "9:32", "13:32"]
+optional_phrase_breaks = ["3:32", "7:32", "11:32", "15:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 aes'8. bes'16 | c''4. bes'8 aes'8 f'8 | ees'4 c'4 aes'8. bes'16 | c''4. bes'8 c''8 ees''8 | bes'2 aes'8. bes'16 |
+c''4. bes'8 aes'8 f'8 | ees'4 c'4 aes'8. f''16 | ees''4. c''8 bes'8 c''8 | aes'2 c''8. des''16 |
+ees''4. f''8 ees''8. c''16 | ees''4 c''4 aes'8. bes'16 | c''4( des''8) c''8 bes'8. aes'16 | aes'4( g'4) aes'8. bes'16 |
+c''4. bes'8 aes'8 f'8 | ees'4 c'4 aes'8. f''16 | ees''4. c''8 bes'8 c''8 | aes'2 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 c'8. ees'16 | ees'4. c'8 des'8 des'8 | c'4 c'4 ees'8. ees'16 | ees'4. ees'8 ees'8 aes'8 | g'2 c'8. des'16 |
+ees'4. ees'8 f'8 des'8 | c'4 c'4 f'8. f'16 | aes'4. ees'8 des'8 ees'8 | c'2 ees'8. ees'16 |
+aes'4. aes'8 aes'8. ees'16 | aes'4 ees'4 ees'8. ees'16 | ees'4( f'8) ees'8 des'8. c'16 | bes4( ees'8[ des'8]) c'8. des'16 |
+ees'4. ees'8 f'8 des'8 | c'4 c'4 f'8. f'16 | aes'4. ees'8 des'8 ees'8 | c'2 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 ees8. ees16 | aes4. ees8 f8 aes8 | aes4 ees4 aes8. g16 | aes4. g8 aes8 c'8 | ees'2 aes8. aes16 |
+aes4. aes8 aes8 aes8 | aes4 ees4 f8. aes16 | c'4. aes8 g8 g8 | aes2 aes8. bes16 |
+c'4. des'8 c'8. aes16 | c'4 aes4 aes8. g16 | aes4. aes8 f8. f16 | bes2 aes8. aes16 |
+aes4. aes8 aes8 aes8 | aes4 ees4 f8. aes16 | c'4. aes8 g8 g8 | aes2 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 aes,8. aes,16 | aes,4. aes,8 aes,8 aes,8 | aes,4 aes,4 c8. ees16 | aes4. ees8 c8 aes,8 | ees2 aes,8. aes,16 |
+aes,4. c8 des8 f8 | aes4 aes,4 des8. des16 | ees4. ees8 ees8 ees8 | aes,2 aes8. aes16 |
+aes4. aes8 aes8. aes16 | aes4 aes,4 c8. ees16 | aes4. aes8 des8. des16 | ees2 aes,8. aes,16 |
+aes,4. c8 des8 f8 | aes4 aes,4 des8. des16 | ees4. ees8 ees8 ees8 | aes,2 s4
+"""
+
+[lyrics.1]
+text = """Hark! the voice of Je -- sus call -- ing:
+“Who will go and work to -- day?
+Fields are white, the har -- vest wait -- ing—
+Who will bear the sheaves a -- way?”
+Loud and long the Mas -- ter call -- eth,
+Rich re -- ward He of -- fers free;
+Who will an -- swer glad -- ly say -- ing,
+“Here am I, O Lord, send me.”"""
+
+[lyrics.2]
+text = """If you can -- not cross the o -- cean,
+And the hea -- then lands ex -- plore,
+You can find the hea -- then near -- er,
+You can help them at your door;
+If you can -- not speak like an -- gels,
+If you can -- not preach like Paul,
+You can tell the love of Je -- sus,
+You can say “He died for all.”"""
+
+[lyrics.3]
+text = """While the souls of men are dy -- ing,
+And the Mas -- ter calls for you,
+Let none hear you i -- dly say -- ing,
+“There is noth -- ing I can do.”
+Glad -- ly take the task He gives you,
+Let His work your pleas -- ure be;
+An -- swer quick -- ly when He call -- eth,
+“Here am I, O Lord, send me.”"""
