@@ -1,0 +1,87 @@
+title = "Have You Any Room for Jesus?"
+copyrights = [
+  "Lyrics: Anonymous, adapted by Daniel Webster Whittle, 1871 (public domain)",
+  "Music: Charlie C. Williams, 1878 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "C"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 102
+verse_count = 3
+phrase_breaks = ["4:64", "8:64", "12:64"]
+optional_phrase_breaks = ["2:64", "6:56", "10:64", "14:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+g'4. a'8 g'8 c''8 b'8. a'16 | a'4 g'2 r4 | f'4. e'8 f'8 g'8 a'8. g'16 | g'2( e'4) r4 |
+g'4. a'8 g'8 c''8 b'8. a'16 | a'4 g'2 r8 f'8-( | f'4.-) e'8 f'8 g'8 a'8. b'16 | c''2. r4 |
+d''4.@c d''8 d''8 d''8 e''8. d''16 | c''2 g'4 r4 | a'4. a'8 a'8 a'8 b'8 c''8 | d''2. r4 |
+e''4. e''8 f''8 e''8 c''8. a'16 | g'2 e'4 r4 | f'4. a'8 g'8 c''8 b'8. b'16 | c''2. r4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+e'4. f'8 e'8 e'8 g'8. f'16 | f'4 e'2 r4 | d'4. cis'8 d'8 e'8 f'8. e'16 | e'2( c'4) r4 |
+e'4. f'8 e'8 e'8 g'8. f'16 | f'4 e'2 r8 d'8-( | d'4.-) cis'8 d'8 e'8 f'8. f'16 | e'2. r4 |
+f'4.@c f'8 f'8 f'8 g'8. f'16 | e'2 e'4 r4 | e'4. e'8 e'8 e'8 e'8 e'8 | f'2. r4 |
+g'4. g'8 a'8 g'8 e'8. f'16 | e'2 c'4 r4 | c'4. f'8 e'8 e'8 d'8. f'16 | e'2. r4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+r1 | r1 | r1 | r1 |
+r1 | r2.. r8 | r1 | r1 |
+b4.@c b8 b8 b8 c'8. g16 | g2 c'4 r4 | c'4. c'8 c'8 c'8 e'8 c'8 | b2. r4 |
+c'4. c'8 c'8 c'8 g8. c'16 | c'2 g4 r4 | a4. c'8 c'8 g8 g8. g16 | g2. r4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+r1 | r1 | r1 | r1 |
+r1 | r2.. r8 | r1 | r1 |
+g4.@c g8 g8 g8 g8. g16 | c2 c4 r4 | a4. a8 a8 a8 gis8 a8 | g2. r4 |
+c4. c8 c8 c8 c8. c16 | c2 c4 r4 | f4. f8 g8 g8 g8. g16 | c2. r4
+"""
+
+[lyrics.1]
+text = "Have you an -- y room for Je -- sus, He who bore your load of sin; As He knocks and asks ad -- mis -- sion, Sin -- _ -- ner, will you let Him in?"
+
+[parts.Tenor.lyrics.1]
+text = ""
+
+[parts.Bass.lyrics.1]
+text = ""
+
+[lyrics.2]
+text = "Room for pleas -- ure, room for busi -- ness, But for Christ the Cru -- ci -- fied— Not a place that He can en -- ter, In _ the heart for which He died!"
+
+[parts.Tenor.lyrics.2]
+text = ""
+
+[parts.Bass.lyrics.2]
+text = ""
+
+[lyrics.3]
+text = "Have you an -- y room for Je -- sus, As in grace He calls a -- gain? O to -- day is time ac -- cept -- ed, To -- mor -- row you may call in vain."
+
+[parts.Tenor.lyrics.3]
+text = ""
+
+[parts.Bass.lyrics.3]
+text = ""
+
+[lyrics.chorus]
+text = "Room for Je -- sus, King of glo -- ry, Hast -- en now, His word o -- bey; Swing the heart’s door wide -- ly o -- pen, Bid Him en -- ter while you may."
