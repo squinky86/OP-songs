@@ -1,0 +1,36 @@
+title = "Have You Heard?"
+copyrights = [
+  "Lyrics: Catherine Booth-Clibborn, 1913 (public domain)",
+  "Music: Émile Jaques-Dalcroze, 1915 (public domain)",
+  "Arrangement: Victoria Booth-Clibborn Demarest, 1918 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 3
+phrase_breaks = ["5:32", "9:32", "13:32"]
+optional_phrase_breaks = ["3:32", "7:32", "11:32", "15:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 c'8 c''8 | c''4. c''8 c''8 des''8 | c''4 bes'4 bes'8 c''8 | bes'4 aes'4 g'8 f'8
+| aes'4( g'4) c'8 c''8 | c''4. c''8 c''8 des''8 | c''4 bes'4 bes'8 c''8 | bes'4 aes'4 g'8 f'8
+| c''2 c''4 | c''4 bes'4 ees''8[ c''8] | bes'4 aes'4 ees'8 f'8 | f'8 ees'8 ees'4 f'8 g'8
+| f'8 ees'8 ees'4 c''4 | c''4 bes'4 ees''8[ c''8] | bes'4 aes'4 ees'8 f'8 | f'8 ees'8 ees'4 g'8 bes'8
+| bes'8 aes'8 aes'4! s4
+"""
+
+[lyrics.1]
+text = "Have you heard the glo -- rious ti -- dings, Je -- sus saves from doubt and fear? Have you heard the glo -- rious ti -- dings, Je -- sus saves from doubt and fear? Sal -- va -- tion, sal -- va -- tion, Thro’ the pre -- cious blood Of the Son of God; Sal -- va -- tion, sal -- va -- tion, Thro’ the pre -- cious blood Of the Son of God."
+
+[lyrics.2]
+text = "Since I met Thee, O my Sav -- ior, Earth has lost its charm for me; Since I met Thee, O my Sav -- ior, Earth has lost its charm for me. Thy glo -- ry, Thy glo -- ry, O re -- flect in me: I am one with Thee; Thy glo -- ry, Thy glo -- ry, O re -- flect in me: I am one with Thee."
+
+[lyrics.3]
+text = "Thou hast sought, and drawn and won me, Bless -- ed Bride -- groom of my soul; Thou hast sought, and drawn and won me, Bless -- ed Bride -- groom of my soul. I love Thee, I love Thee, All I have is Thine; All Thou hast is mine; I love Thee, I love Thee, All I have is Thine; All Thou hast is mine."
+
