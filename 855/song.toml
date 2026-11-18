@@ -1,0 +1,68 @@
+title = "Hold Thou My Hand"
+copyrights = [
+  "Lyrics: Frances Jane Crosby, 1874 (public domain)",
+  "Music: Hubert Platt Main, 1880 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 2
+time_sig_denominator = 4
+tempo_bpm = 95
+verse_count = 4
+phrase_breaks = ["4:32", "8:32", "12:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+ees'4 d'8 ees'8 | f'4. ees'8 | ees'8 c''8 bes'8 aes'8 | aes'4 g'4 |
+bes'4 g'8 aes'8 | bes'4 c''4 | ees'8 ees'8 g'8. f'16 | ees'2 |
+ees'4 d'8 ees'8 | f'4. ees'8 | aes'8 c''8 ees''8 des''8 | c''4 bes'4 |
+ees''4 des''8 c''8 | f'4 bes'4 | aes'8 g'8 c''8. bes'16 | aes'2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+c'4 b8 c'8 | des'4. c'8 | c'8 ees'8 ees'8 ees'8 | ees'4 ees'4 |
+ees'4 ees'8 ees'8 | ees'4 ees'4 | ees'8 ees'8 d'8. d'16 | ees'4( des'4) |
+c'4 b8 c'8 | des'4. c'8 | ees'8 ees'8 ees'8 f'8 | ees'4 ees'4 |
+ees'4 ees'8 ees'8 | des'4 f'4 | ees'8 ees'8 g'8. g'16 | aes'2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+aes4 aes8 aes8 | aes4. aes8 | aes8 aes8 aes8 aes8 | c'4 bes4 |
+g4 bes8 c'8 | g4 aes4 | g8 g8 bes8. aes16 | g2 |
+aes4 aes8 aes8 | aes4. aes8 | aes8 aes8 aes8 aes8 | aes4 g4 |
+aes4 g8 aes8 | aes4 des'4 | c'8 bes8 ees'8. des'16 | c'2
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+aes,4 aes,8 aes,8 | aes,4. aes,8 | aes,8 aes,8 c8 c8 | ees4 ees4 |
+ees4 ees8 ees8 | ees4 aes,4 | bes,8 bes,8 bes,8. bes,16 | ees2 |
+aes,4 aes,8 aes,8 | aes,4. aes,8 | c8 aes,8 c8 des8 | ees4 ees4 |
+c4 bes,8 aes,8 | des4 bes,4 | ees8 ees8 ees8. ees16 | aes,2
+"""
+
+[lyrics.1]
+text = "Hold Thou my hand, so weak I am, and help -- less, I dare not take one step with -- out Thine aid; Hold Thou my hand, for then, O lov -- ing Sav -- ior, No dread of ill shall make my soul a -- fraid."
+
+[lyrics.2]
+text = "Hold Thou my hand, and clos -- er, clos -- er draw me To Thy dear self— my hope, my joy, my all; Hold Thou my hand, lest hap -- ly I should wan -- der; And, miss -- ing Thee, my trem -- bling feet shall fall."
+
+[lyrics.3]
+text = "Hold Thou my hand, the way is dark be -- fore me With -- out the sun -- light of Thy face di -- vine; But when by faith I catch its ra -- diant glo -- ry, What heights of joy, what rap -- t’rous songs are mine!"
+
+[lyrics.4]
+text = "Hold Thou my hand, that when I reach the mar -- gin Of that lone riv -- er Thou didst cross for me, A heav’n -- ly light may flash a -- long its wa -- ters, And ev’ -- ry wave like crys -- tal bright shall be."
