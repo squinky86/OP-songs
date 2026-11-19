@@ -1,0 +1,97 @@
+title = "In Loving-Kindness Jesus Came"
+subtitle = "He Lifted Me"
+copyrights = [
+  "Lyrics and Music: Charles Hutchinson Gabriel, 1905 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 98
+verse_count = 4
+phrase_breaks = ["5:40", "9:40", "13:40"]
+optional_phrase_breaks = ["3:40", "7:40", "11:40", "15:40"]
+non_breaking_phrase_breaks = ["9:8"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s8 b'8 | b'8 b'8 b'4. b'8 | d''8 d''8 e''4. d''8 | c''8 c''8 c''4. c''8 | c''8 b'8 b'4. b'8
+| b'8 b'8 b'4. b'8 | d''8 d''8 e''4. d''8 | cis''8 cis''8 cis''4 cis''4 | c''8 d''8 fis''8 e''8 d''8 d'8@c
+| d'8 g'8 b'4. d''8 | d''8 fis'8 fis'4. d'8 | fis'8 a'8 c''4. e''8 | e''8 d''8 d''4. d'8
+| g'8 b'8 d''4. d''8 | e''8 d''8 c''4. c''8 | g'8 a'8 b'4. d''8 | b'8 a'8! g'4. s8
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s8 d'8 | d'8 e'8 e'4. d'8 | b'8 b'8 c''4. b'8 | b'8 a'8 d'4. a'8 | a'8 g'8 g'4. d'8
+| d'8 e'8 e'4. d'8 | b'8 b'8 c''4. b'8 | b'8 a'8 a'4 e'4 | a'2~ a'8 c'8@c
+| b8 d'8 g'4. g'8 | fis'8 d'8 d'4. d'8 | d'8 fis'8 fis'4. fis'8 | g'8 g'8 g'4. b8
+| d'8 g'8 g'4. g'8 | f'8 f'8 e'4. e'8 | e'8 ees'8 d'4. g'8 | g'8 fis'8! g'4. s8
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 s8 g8 | g8 g8 g4. g8 | g8 g8 g4. g8 | fis8 fis8 fis4. fis8 | g8 g8 g4. g8
+| g8 g8 g4. g8 | g8 g8 g4. g8 | g8 g8 g4 g4 | fis8 fis8 a8 g8 fis8 fis8@c
+| g8 b8 d'4. b8 | a8 c'8 c'4. fis8 | a8 d'8 a4. c'8 | c'8 b8 b4. g8
+| b8 d'8 b4. b8 | b8 g8 g4. g8 | g8 g8 g4. b8 | d'8 c'8! b4. s8
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 s8 g,8 | g,8 g,8 g,4. g,8 | g8 g8 g4. g8 | d8 d8 d4. d8 | g,8 g,8 g,4. g,8
+| g,8 g,8 g,4. g,8 | g8 g8 g4. g8 | a,8 a,8 a,4 a,4 | d2~ d8 d8@c
+| g,8 g,8 g4. g8 | d8 d8 d4. d8 | d8 d8 d4. d8 | g8 g8 g4. g8
+| g8 g8 g4. g8 | g8 b,8 c4. c8 | c8 c8 d4. d8 | d8 d8! g,4. s8
+"""
+
+[lyrics.1]
+text = "In lov -- ing -- kind -- ness Je -- sus came My soul in mer -- cy to re -- claim, And from the depths of sin and shame Thro’ grace He lift -- ed me. He lift -- ed me."
+
+[parts.Alto.lyrics.1]
+text = "In lov -- ing -- kind -- ness Je -- sus came My soul in mer -- cy to re -- claim, And from the depths of sin and shame Thro’ grace He lift -- ed me."
+
+[parts.Bass.lyrics.1]
+text = "In lov -- ing -- kind -- ness Je -- sus came My soul in mer -- cy to re -- claim, And from the depths of sin and shame Thro’ grace He lift -- ed me."
+
+[lyrics.2]
+text = "He called me long be -- fore I heard, Be -- fore my sin -- ful heart was stirred, But when I took Him at His word, For -- giv’n He lift -- ed me. He lift -- ed me."
+
+[parts.Alto.lyrics.2]
+text = "He called me long be -- fore I heard, Be -- fore my sin -- ful heart was stirred, But when I took Him at His word, For -- giv’n He lift -- ed me."
+
+[parts.Bass.lyrics.2]
+text = "He called me long be -- fore I heard, Be -- fore my sin -- ful heart was stirred, But when I took Him at His word, For -- giv’n He lift -- ed me."
+
+[lyrics.3]
+text = "His brow was pierced with man -- y‿a thorn, His hands by cru -- el nails were torn, When from my guilt and grief, for -- lorn, In love He lift -- ed me. He lift -- ed me."
+
+[parts.Alto.lyrics.3]
+text = "His brow was pierced with man -- y‿a thorn, His hands by cru -- el nails were torn, When from my guilt and grief, for -- lorn, In love He lift -- ed me."
+
+[parts.Bass.lyrics.3]
+text = "His brow was pierced with man -- y‿a thorn, His hands by cru -- el nails were torn, When from my guilt and grief, for -- lorn, In love He lift -- ed me."
+
+[lyrics.4]
+text = "Now on a high -- er plane I dwell, And with my soul I know ’tis well; Yet how or why, I can -- not tell, He should have lift -- ed me. He lift -- ed me."
+
+[parts.Alto.lyrics.4]
+text = "Now on a high -- er plane I dwell, And with my soul I know ’tis well; Yet how or why, I can -- not tell, He should have lift -- ed me."
+
+[parts.Bass.lyrics.4]
+text = "Now on a high -- er plane I dwell, And with my soul I know ’tis well; Yet how or why, I can -- not tell, He should have lift -- ed me."
+
+[lyrics.chorus]
+text = "From sink -- ing sand He lift -- ed me, With ten -- der hand He lift -- ed me, From shades of night to plains of light, O praise His name, He lift -- ed me!"
