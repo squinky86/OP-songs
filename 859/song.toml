@@ -1,0 +1,69 @@
+title = "I Ask Not, Lord, for Less to Bear"
+copyrights = [
+  "Lyrics: J. M. Hopkins, 1887 (public domain)",
+  "Music: James Henry Fillmore Sr., 1887 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 88
+verse_count = 3
+phrase_breaks = ["5:48", "9:64", "13:48"]
+optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. f'4 | a'4. a'8 bes'8 bes'8 a'8. g'16 | f'2. f'4 | g'4. e'8 f'4 a'4 | g'2. c'4
+| a'4. a'8 bes'8 bes'8 a'8. g'16 | f'2. f'4 | g'4. d'8 f'4 e'4 | f'2. r4
+| g'4@c e'8. f'16 g'8 a'8 bes'8 bes'8 | a'2( bes'4) c''4 | d''4 c''4 a'4 f'4 | g'2. c'4
+| a'4. a'8 bes'8 bes'8 a'8. g'16 | f'2. f'4 | g'4. d'8 f'4 e'4 | f'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. f'4 | f'4. f'8 f'8 f'8 f'8. c'16 | c'2. c'4 | e'4. c'8 c'4 f'4 | e'2. c'4
+| f'4. f'8 f'8 f'8 f'8. c'16 | c'2. c'4 | d'4. d'8 c'4 c'4 | c'2. r4
+| e'4@c c'8. d'16 e'8 f'8 g'8 g'8 | f'2. f'4 | f'4 f'4 c'4 d'4 | e'2. c'4
+| f'4. f'8 f'8 f'8 f'8. c'16 | c'2. c'4 | d'4. d'8 c'4 c'4 | c'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. a4 | c'4. c'8 d'8 d'8 c'8. bes16 | a2. a4 | c'4. bes8 a4 c'4 | c'2. c'4
+| c'4. c'8 d'8 d'8 c'8. bes16 | a2. a4 | bes4. bes8 a4 g4 | a2. r4
+| c'4@c c'8. c'16 c'8 c'8 c'8 c'8 | c'2. c'4 | bes4 c'4 c'4 b4 | c'2. c'4
+| c'4. c'8 d'8 d'8 c'8. bes16 | a2. a4 | bes4. bes8 a4 g4 | a2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. f4 | f4. f8 f8 f8 f8. f16 | f2. f4 | c4. c8 f4 f4 | c2. c4
+| f4. f8 f8 f8 f8. f16 | f2. f4 | bes,4. bes,8 c4 c4 | f2. r4
+| c4@c c8. c16 c8 c8 c8 c8 | f2( g4) a4 | bes4 a4 f4 d4 | c2. c4
+| f4. f8 f8 f8 f8. f16 | f2. f4 | bes,4. bes,8 c4 c4 | f2. s4
+"""
+
+[lyrics.1]
+text = "I ask not, Lord, for less to bear, Of bur -- dens here be -- low; Nor do I pray that I may share Earth’s pleas -- ures as I go."
+
+[lyrics.2]
+text = "I pray for naught that earth can give, Of wealth or fame or pow’r; Nor would I wish to ev -- er live In sin’s dark, try -- ing hour."
+
+[lyrics.3]
+text = "Give me a hum -- ble, peace -- ful heart, From pride and en -- vy free; From all im -- pu -- ri -- ties a -- part, And more, my God, like Thee."
+
+[lyrics.chorus]
+text = "Lord, this I pray: Make me to know Thy ho -- ly, sov -- ’reign will; And know -- ing, give me strength to do, And Thy be -- hests ful -- fil."
