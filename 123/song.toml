@@ -47,7 +47,7 @@ staff_number = 2
 suppress_verses = [2, 3, 4, 5]
 suppress_verses_when = ["soprano", "alto"]
 notes = """
-s2. r4 | r4 bes,4 bes,8. bes,16 bes,8. a,16 | a,4 a,4 a,8 r8 r4 | r8 f8 f8 f8 f4 f4 | bes,2. r4 | r4 bes,4 bes,8. bes,16 bes,8. a,16 | bes,4 bes,4 bes,4 bes,4 | c4 c4 c4 c4 | f2. f4@c | f4 f4 f8 f8 f8 f8 | bes,4 bes,4 bes,4 bes,4 | f4 f4 f8 f8 f8 f8 | bes,4 bes,4 bes,4 bes,4 | bes4 bes4 bes4 bes4 | ees4 ees4 g4 ges4 | f4 f4 f8 f4. | bes,2. s4
+s2. r4 | r4 bes,4 bes,8. bes,16 bes,8. bes,16 | bes,4 bes,4 bes,8 r8 r4 | r8 f8 f8 f8 f4 f4 | bes,2. r4 | r4 bes,4 bes,8. bes,16 bes,8. a,16 | bes,4 bes,4 bes,4 bes,4 | c4 c4 c4 c4 | f2. f4@c | f4 f4 f8 f8 f8 f8 | bes,4 bes,4 bes,4 bes,4 | f4 f4 f8 f8 f8 f8 | bes,4 bes,4 bes,4 bes,4 | bes4 bes4 bes4 bes4 | ees4 ees4 g4 ges4 | f4 f4 f8 f4. | bes,2. s4
 """
 
 [lyrics.1]
