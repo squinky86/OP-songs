@@ -1,0 +1,69 @@
+title = "If Human Kindness Meets Return"
+copyrights = [
+  "Lyrics: Gerard Thomas Noel, 1810 (public domain)",
+  "Music: 'Belmont' by William Gardiner, 1812 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 4
+phrase_breaks = ["9:32"]
+optional_phrase_breaks = ["5:32", "13:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 d'4 | b'2 a'4 | g'2 fis'4 | fis'4( e'4) g'4 | d'2 d''4 |
+d''4( c''4) b'4 | b'4( a'4) g'4 | g'2.( | fis'2) d'4 |
+b'2 a'4 | g'2 fis'4 | fis'4( e'4) g'4 | d'2 d''4 |
+d''4( c''4) a'4 | g'4( b'4) a'4 | g'2 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 d'4 | g'2 fis'4 | g'2 d'4 | c'2 c'4 | b2 d'4 |
+fis'2 g'4 | e'2 e'4 | d'2.~ | d'2 d'4 |
+d'2 c'4 | b2 d'4 | c'2 c'4 | d'2 f'4 |
+e'2 e'4 | d'4( g'4) fis'4 | g'2 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 b4 | d'2 c'4 | b2 b4 | g2 g4 | g2 b4 |
+c'2 d'4 | c'2 a4 | b2.( | a2) c'4 |
+b2 fis4 | g2 fis4 | g2 g4 | b2 g4 |
+a2 c'4 | b4( d'4) c'4 | b2 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 g4 | g2 d4 | e2 b,4 | c2 e4 | g2 g,4 |
+a,2 b,4 | c2 cis4 | d2.~ | d2 fis4 |
+g2 d4 | e2 b,4 | c2 e4 | g2 b,4 |
+c2 c4 | d2 d4 | g2 s4
+"""
+
+[lyrics.1]
+text = "If hu -- man kind -- ness meets re -- turn, And owns the grate -- ful tie; If ten -- der thoughts with -- in us burn, To feel a friend is nigh—"
+
+[lyrics.2]
+text = "O shall not warm -- er ac -- cents tell The grat -- i -- tude we owe To Him who died our fears to quell, Our more than or -- phan woe?"
+
+[lyrics.3]
+text = "While yet in an -- guish He sur -- veyed Those pangs He would not flee; What love His lat -- est words dis -- played: “Meet, and re -- mem -- ber Me.”"
+
+[lyrics.4]
+text = "Re -- mem -- ber Thee! Thy death, Thy shame, Our hearts’ sad load to bear! O mem -- ’ry! leave no oth -- er name Than His re -- cord -- ed there."

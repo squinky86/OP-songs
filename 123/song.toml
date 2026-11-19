@@ -53,44 +53,44 @@ s2. r4 | r4 bes,4 bes,8. bes,16 bes,8. bes,16 | bes,4 bes,4 bes,8 r8 r4 | r8 f8 
 [lyrics.1]
 text = "I know that my Re -- deem -- er lives, And ev -- er prays for me; I know e -- ter -- nal life He gives, From sin and sor -- row free."
 
-[lyrics.2]
-text = "He wills that I should ho -- ly be, In word, in tho't, in deed; Then I His ho -- ly face may see, When from this earth -- life freed."
-
-[lyrics.3]
-text = "I know that un -- to sin -- ful men His sav -- ing grace is nigh; I know that He will come a -- gain To take me home on high."
-
-[lyrics.4]
-text = "I know that o -- ver yon -- der stands A place pre -- pared for me; A home, a house not made with hands, Most won -- der -- ful to see."
-
-[lyrics.chorus]
-text = "I know, I know that my Re -- deem -- er lives, I know, I know e -- ter -- nal life He gives; I know, I know that my Re -- deem -- er lives."
-
 [parts.Tenor.lyrics.1]
 text = "(I know) that my Re -- deem -- er lives, (and ev -- er prays) for me; (I know) e -- ter -- nal life He gives, From sin and sor -- row free."
-
-[parts.Tenor.lyrics.2]
-text = "(He wills) that I should ho -- ly be, (in word, in tho't,) in deed; (then I) His ho -- ly face may see, When from this earth -- life freed."
-
-[parts.Tenor.lyrics.3]
-text = "(I know) that un -- to sin -- ful men (His sav -- ing grace) is nigh; (I know) that He will come a -- gain To take me home on high."
-
-[parts.Tenor.lyrics.4]
-text = "(I know) that o -- ver yon -- der stands (a place pre -- pared) for me; (a home,) a house not made with hands, Most won -- der -- ful to see."
-
-[parts.Tenor.lyrics.chorus]
-text = "I know, I know that my Re -- deem -- er lives, I know, I know e -- ter -- nal life He gives; I know that my Re -- deem -- er lives, that my Re -- deem -- er lives."
 
 [parts.Bass.lyrics.1]
 text = "(I know) that my Re -- deem -- er lives, (and ev -- er prays) for me; (I know) e -- ter -- nal life He gives, From sin and sor -- row free."
 
+[lyrics.2]
+text = "He wills that I should ho -- ly be, In word, in tho't, in deed; Then I His ho -- ly face may see, When from this earth -- life freed."
+
+[parts.Tenor.lyrics.2]
+text = "(He wills) that I should ho -- ly be, (in word, in tho't,) in deed; (then I) His ho -- ly face may see, When from this earth -- life freed."
+
 [parts.Bass.lyrics.2]
 text = "(He wills) that I should ho -- ly be, (in word, in tho't,) in deed; (then I) His ho -- ly face may see, When from this earth -- life freed."
+
+[lyrics.3]
+text = "I know that un -- to sin -- ful men His sav -- ing grace is nigh; I know that He will come a -- gain To take me home on high."
+
+[parts.Tenor.lyrics.3]
+text = "(I know) that un -- to sin -- ful men (His sav -- ing grace) is nigh; (I know) that He will come a -- gain To take me home on high."
 
 [parts.Bass.lyrics.3]
 text = "(I know) that un -- to sin -- ful men (His sav -- ing grace) is nigh; (I know) that He will come a -- gain To take me home on high."
 
+[lyrics.4]
+text = "I know that o -- ver yon -- der stands A place pre -- pared for me; A home, a house not made with hands, Most won -- der -- ful to see."
+
+[parts.Tenor.lyrics.4]
+text = "(I know) that o -- ver yon -- der stands (a place pre -- pared) for me; (a home,) a house not made with hands, Most won -- der -- ful to see."
+
 [parts.Bass.lyrics.4]
 text = "(I know) that o -- ver yon -- der stands (a place pre -- pared) for me; (a home,) a house not made with hands, Most won -- der -- ful to see."
+
+[lyrics.chorus]
+text = "I know, I know that my Re -- deem -- er lives, I know, I know e -- ter -- nal life He gives; I know, I know that my Re -- deem -- er lives."
+
+[parts.Tenor.lyrics.chorus]
+text = "I know, I know that my Re -- deem -- er lives, I know, I know e -- ter -- nal life He gives; I know that my Re -- deem -- er lives, that my Re -- deem -- er lives."
 
 [parts.Bass.lyrics.chorus]
 text = "I know, I know that my Re -- deem -- er lives, I know, I know e -- ter -- nal life He gives; I know that my Re -- deem -- er lives, that my Re -- deem -- er lives."
