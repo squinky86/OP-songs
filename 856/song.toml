@@ -1,0 +1,74 @@
+title = "How Happy Are They"
+copyrights = [
+  "Lyrics: Charles Wesley, 1749 (public domain)",
+  "Music: 'Rowley' by Lowell Mason, 1835 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 3
+phrase_breaks = ["5:32", "8:32", "12:32", "15:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 g'8.-( a'16-) | b'4 a'4 g'4 | d''2 b'8. d''16 | c''4 b'4 a'4 | b'2 d''8. d''16 | d''4 b'4 d''4
+| d''4 c''4 b'4 | a'2 a'8.-( a'16-) | a'4 b'4 c''4 | b'2 a'8. a'16 | b'4 b'4 cis''4
+| d''2 d''8. d''16 | d''4 b'4 d''4 | d''4 c''4 b'4 | a'2 d''8. d''16 | d''4 b'4 d''4 | c''4 b'4 a'4
+| g'2 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 d'8.-( d'16-) | d'4 fis'4 g'4 | fis'2 g'8. g'16 | a'4 g'4 fis'4 | g'2 g'8. g'16 | g'4 g'4 g'4
+| d'4 d'4 d'4 | d'2 fis'8.-( fis'16-) | fis'4 g'4 a'4 | g'2 fis'8. fis'16 | g'4 g'4 g'4
+| fis'2 b'8. b'16 | b'4 g'4 b'4 | b'4 a'4 g'4 | fis'2 fis'8. fis'16 | g'4 g'4 g'4 | a'4 g'4 fis'4
+| g'2 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 b8.-( c'16-) | d'4 c'4 b4 | d'2 d'8. b16 | e'4 d'4 d'4 | d'2 b8. b16 | b4 g4 b4
+| a4 a4 g4 | fis2 d'8.-( d'16-) | d'4 d'4 d'4 | d'2 d'8. d'16 | d'4 e'4 e'4
+| d'2 r4 | r2. | r2. | r2 a8. a16 | b4 g4 d'4 | e'4 d'4 c'4
+| b2 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 g8.-( g16-) | g4 d4 e4 | d2 g8. g16 | c4 d4 d4 | g2 g8. g16 | g4 g4 g4
+| fis4 fis4 g4 | d2 d8.-( d16-) | d4 d4 d4 | g2 d8. d16 | g4 e4 a4
+| d2 g8. g16 | g4 g4 g4 | fis4 fis4 g4 | d2 d8. d16 | g4 g4 b,4 | c4 d4 d4
+| <g, g>2 s4
+"""
+
+[lyrics.1]
+text = "How _ hap -- py are they who their Sav -- ior o -- bey, And have laid up their treas -- ures a -- bove! Tongue _ can -- not ex -- press the sweet com -- fort and peace Of a soul in its ear -- li -- est love, Of a soul in its ear -- li -- est love."
+
+[parts.Tenor.lyrics.1]
+text = "How _ hap -- py are they who their Sav -- ior o -- bey, And have laid up their treas -- ures a -- bove! Tongue _ can -- not ex -- press the sweet com -- fort and peace Of a soul in its ear -- li -- est love."
+
+[lyrics.2]
+text = "’Tis a heav -- en be -- low my Re -- deem -- er to know; And the an -- gels can do noth -- ing more Than to fall at His feet, and the sto -- ry re -- peat, And the Lov -- er of sin -- ners a -- dore, And the Lov -- er of sin -- ners a -- dore."
+
+[parts.Tenor.lyrics.2]
+text = "’Tis a heav -- en be -- low my Re -- deem -- er to know; And the an -- gels can do noth -- ing more Than to fall at His feet, and the sto -- ry re -- peat, And the Lov -- er of sin -- ners a -- dore."
+
+[lyrics.3]
+text = "Now my rem -- nant of days will I spend to His praise, Who has died, me from sin to re -- deem; Wheth -- er man -- y or few, all my years are His due— They shall all be de -- vot -- ed to Him, They shall all be de -- vot -- ed to Him."
+
+[parts.Tenor.lyrics.3]
+text = "Now my rem -- nant of days will I spend to His praise, Who has died, me from sin to re -- deem; Wheth -- er man -- y or few, all my years are His due— They shall all be de -- vot -- ed to Him."
