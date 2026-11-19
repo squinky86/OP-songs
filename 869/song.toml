@@ -22,7 +22,7 @@ b'8 b'8 b'8 b'8 d''8 c''8 a'8 b'8 | g'2 r8 g'8 fis'8 g'8 |
 a'4 d''4. c''8 b'8 a'8 | g'8.[ a'16] b'4. g'8 fis'8 g'8 |
 a'4 d''4. c''8 b'8 a'8 | g'8.[ a'16] b'4. r8@c g'8 a'8 |
 b'8[ g'8] g'4. g'8 a'8 b'8 | d''8[ c''8] a'2 d''8 c''8 |
-b'8 b'8 b'8 b'8 d''8 c''8 a'8 b'8 | g'2 r2
+b'8 b'8 b'8 b'8 d''8 c''8 a'8 b'8 | g'2 r4 s4
 """
 
 [parts.Alto]
@@ -35,7 +35,7 @@ g'8 g'8 g'8 g'8 b'8 a'8 fis'8 fis'8 | g'2 r8 d'8 d'8 d'8 |
 fis'4 fis'4. a'8 g'8 fis'8 | g'4 g'4. d'8 d'8 d'8 |
 fis'4 fis'4. a'8 g'8 fis'8 | g'4 g'4. r8@c d'8 d'8 |
 d'4 d'4. d'8 d'8 d'8 | fis'4 fis'2 b'8 a'8 |
-g'8 g'8 g'8 g'8 b'8 a'8 fis'8 fis'8 | g'2 r2
+g'8 g'8 g'8 g'8 b'8 a'8 fis'8 fis'8 | g'2 r4 s4
 """
 
 [parts.Tenor]
@@ -48,7 +48,7 @@ d'8 d'8 d'8 d'8 d'8 d'8 c'8 c'8 | b2 r8 b8 c'8 b8 |
 a4 a4. d'8 d'8 c'8 | b8.[ c'16] d'4. b8 c'8 b8 |
 a4 a4. d'8 d'8 c'8 | b8.[ c'16] d'4. r8@c b8 c'8 |
 d'8[ b8] b4. b8 a8 g8 | a4 d'2 d'8 d'8 |
-d'8 d'8 d'8 d'8 d'8 d'8 c'8 c'8 | b2 r2
+d'8 d'8 d'8 d'8 d'8 d'8 c'8 c'8 | b2 r4 s4
 """
 
 [parts.Bass]
@@ -61,7 +61,7 @@ g8 g8 g8 g8 d8 d8 d8 d8 | g2 r8 g8 a8 g8 |
 d4 d4. d8 d8 d8 | g4 g4. g8 a8 g8 |
 d4 d4. d8 d8 d8 | g4 g4. r8@c g8 g8 |
 g4 g4. g8 fis8 g8 | d4 d2 d8 d8 |
-g8 g8 g8 g8 d8 d8 d8 d8 | g2 r2
+g8 g8 g8 g8 d8 d8 d8 d8 | g2 r4 s4
 """
 
 [lyrics.1]
