@@ -1,0 +1,77 @@
+title = "I’m a Pilgrim"
+copyrights = [
+  "Lyrics: Mary Stanley Bunce Dana Shindler, 1841 (public domain)",
+  "Music: Italian Air, c. 1821 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 95
+verse_count = 3
+phrase_breaks = ["5:40", "9:40"]
+optional_phrase_breaks = ["3:48", "7:40", "11:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. g'8 a'8 | b'8[ g'8] g'4. g'8 a'8 b'8 | d''8[ c''8] a'2 d''8 c''8 |
+b'8 b'8 b'8 b'8 d''8 c''8 a'8 b'8 | g'2 r8 g'8 fis'8 g'8 |
+a'4 d''4. c''8 b'8 a'8 | g'8.[ a'16] b'4. g'8 fis'8 g'8 |
+a'4 d''4. c''8 b'8 a'8 | g'8.[ a'16] b'4. r8@c g'8 a'8 |
+b'8[ g'8] g'4. g'8 a'8 b'8 | d''8[ c''8] a'2 d''8 c''8 |
+b'8 b'8 b'8 b'8 d''8 c''8 a'8 b'8 | g'2 r2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. d'8 d'8 | d'4 d'4. d'8 d'8 d'8 | fis'4 fis'2 b'8 a'8 |
+g'8 g'8 g'8 g'8 b'8 a'8 fis'8 fis'8 | g'2 r8 d'8 d'8 d'8 |
+fis'4 fis'4. a'8 g'8 fis'8 | g'4 g'4. d'8 d'8 d'8 |
+fis'4 fis'4. a'8 g'8 fis'8 | g'4 g'4. r8@c d'8 d'8 |
+d'4 d'4. d'8 d'8 d'8 | fis'4 fis'2 b'8 a'8 |
+g'8 g'8 g'8 g'8 b'8 a'8 fis'8 fis'8 | g'2 r2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. b8 c'8 | d'8[ b8] b4. b8 a8 g8 | a4 d'2 d'8 d'8 |
+d'8 d'8 d'8 d'8 d'8 d'8 c'8 c'8 | b2 r8 b8 c'8 b8 |
+a4 a4. d'8 d'8 c'8 | b8.[ c'16] d'4. b8 c'8 b8 |
+a4 a4. d'8 d'8 c'8 | b8.[ c'16] d'4. r8@c b8 c'8 |
+d'8[ b8] b4. b8 a8 g8 | a4 d'2 d'8 d'8 |
+d'8 d'8 d'8 d'8 d'8 d'8 c'8 c'8 | b2 r2
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. g8 g8 | g4 g4. g8 fis8 g8 | d4 d2 d8 d8 |
+g8 g8 g8 g8 d8 d8 d8 d8 | g2 r8 g8 a8 g8 |
+d4 d4. d8 d8 d8 | g4 g4. g8 a8 g8 |
+d4 d4. d8 d8 d8 | g4 g4. r8@c g8 g8 |
+g4 g4. g8 fis8 g8 | d4 d2 d8 d8 |
+g8 g8 g8 g8 d8 d8 d8 d8 | g2 r2
+"""
+
+[lyrics.1]
+text = "I’m a pil -- grim and I’m a stran -- ger; I can tar -- ry, I can tar -- ry but a night. Do not de -- tain me, for I am go -- ing To where the foun -- tains are ev -- er flow -- ing."
+
+[lyrics.2]
+text = "Of that cit -- y to which I jour -- ney, My Re -- deem -- er my Re -- deem -- er is the light. There is no sor -- row nor an -- y sigh -- ing, Nor an -- y tears there, nor an -- y dy -- ing."
+
+[lyrics.3]
+text = "There the sun -- beams are ev -- er shin -- ing, O my long -- ing heart, my long -- ing heart is there. Here in this coun -- try, so dark and drear -- y, I long have wan -- dered, for -- lorn and wear -- y."
+
+[lyrics.chorus]
+text = "I’m a pil -- grim, and I’m a stran -- ger; I can tar -- ry, I can tar -- ry but a night."
