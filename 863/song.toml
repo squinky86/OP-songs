@@ -1,0 +1,78 @@
+title = "I Know I Love Thee Better, Lord"
+copyrights = [
+  "Lyrics: Frances Ridley Havergal, 1878 (public domain)",
+  "Music: Ralph Erskine Hudson, 1879 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license"
+]
+key_signature = "C"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 115
+verse_count = 3
+phrase_breaks = ["5:48", "9:48", "13:48"]
+optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
+non_breaking_phrase_breaks = ["11:16", "15:16", "17:16"]
+non_breaking_format_resets = ["17:16"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. c'4 | e'4. f'8 g'8 g'8 a'8 c''8 | c''2. c''4 | c''4. c''8 b'4 a'4 | g'2 r4 c'4 |
+e'4. f'8 g'8 g'8 a'8 c''8 | c''2. c''4 | d''4. g'8 b'4 a'8[ g'8] | c''2. g'4@c |
+e''4. c''8 d''8 c''8 c''8 a'8 | g'2. g'4 | b'4. b'8 a'4 g'4 | c''2. g'4 |
+e''4. c''8 d''8 c''8 c''8 a'8 | g'2. g'4 | b'4. b'8 a'4 g'4 | c''2. s4
+"""
+
+[parts.Soprano.lyrics.chorus]
+text = "The half has nev -- er yet been told, Of love so full and free; The half has nev -- er yet been told, The blood— it cleans -- eth me."
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. c'4 | c'4. d'8 e'8 e'8 f'8 f'8 | e'2. e'4 | e'4. a'8 g'4 fis'4 | g'2 r4 c'4 |
+c'4. d'8 e'8 e'8 f'8 f'8 | e'2. e'4 | g'4. g'8 f'4 f'4 | e'2. e'4@c |
+g'4. e'8 f'8 f'8 f'8 f'8 | e'4 d'8. d'16 e'4 e'4 | f'4. f'8 f'4 f'4 | e'2. e'4 |
+g'4. e'8 f'8 f'8 f'8 f'8 | e'4 d'8. d'16 e'4 e'4 | f'4. f'8 f'4 f'4 | e'4 f'8. f'16 e'4 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. e4 | g4. g8 g8 c'8 c'8 a8 | g2. g4 | g4. e'8 d'4 c'4 | b2 r4 e4 |
+g4. g8 g8 c'8 c'8 a8 | g2. g4 | b4. b8 d'4 c'8[ b8] | c'2. c'4@c |
+c'4. g8 a8 a8 a8 c'8 | c'4 b8. b16 c'4 c'4 | d'4. d'8 c'4 b4 | c'2. c'4 |
+c'4. g8 a8 a8 a8 c'8 | c'4 b8. b16 c'4 c'4 | d'4. d'8 c'4 b4 | c'4 a8. a16 g4 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. c4 | c4. c8 c8 c8 f8 f8 | c2. c4 | c4. c8 d4 d4 | g2 r4 c4 |
+c4. c8 c8 c8 f8 f8 | c2. c4 | g4. g8 g4 g4 | c2. c4@c |
+c4. c8 f8 f8 f8 f8 | c4 g8. g16 c4 c4 | g4. g8 g4 g4 | c2. c4 |
+c4. c8 f8 f8 f8 f8 | c4 g8. g16 c4 c4 | g4. g8 g4 g4 | c2. s4
+"""
+
+[lyrics.1]
+text = "I know I love Thee bet -- ter, Lord, Than an -- y earth -- ly joy; For Thou hast giv -- en me the peace Which noth -- ing can de -- stroy."
+
+[lyrics.2]
+text = "Thou hast put glad -- ness in my heart; Then well may I be glad! With -- out the se -- cret of Thy love, I could not but be sad."
+
+[lyrics.3]
+text = "O Sav -- ior, pre -- cious Sav -- ior mine! What will Thy pres -- ence be, If such a life of joy can crown Our walk on earth with Thee?"
+
+[lyrics.chorus]
+text = "The half has nev -- er yet been told, yet been told, Of love so full and free; The half has nev -- er yet been told, yet been told, The blood— it cleans -- eth me. cleans -- eth me."
+
+[parts.Bass.lyrics.chorus]
+text = "The half has nev -- er yet been told, yet been told, Of love so full and free; The half has nev -- er yet been told, yet been told, The blood— it cleans -- eth me."
