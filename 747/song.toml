@@ -13,7 +13,7 @@ optional_phrase_breaks = ["11:40", "15:40"]
 non_breaking_phrase_breaks = ["10:40", "12:40", "16:40"]
 non_breaking_format_resets = ["11:40"]
 optional_break_threshold_ticks = 104
-commentary = "<p>This song may contain an archaic meaning of word \"mansion\" or reflect a misunderstanding of its translation. See <a href=\"/blog/20261022-mansions-and-dwellings\">From Mansions to Dwellings</a>.</p>"
+commentary = "<p>This song may contain an archaic meaning of the word \"mansion\" or reflect a misunderstanding of its translation. See <a href=\"/blog/20261022-mansions-and-dwellings\">From Mansions to Dwellings</a>.</p>"
 
 [parts.Soprano]
 choral_type = "soprano"
