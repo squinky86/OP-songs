@@ -1,0 +1,70 @@
+title = "I Heard the Voice of Jesus Say"
+copyrights = [
+  "Lyrics: Horatius Bonar, 1846 (public domain)",
+  "Music: Louis Spohr, 1834 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Db"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 96
+verse_count = 3
+phrase_breaks = ["5:40", "9:40", "13:40"]
+optional_phrase_breaks = ["3:40", "7:40", "11:48", "15:40"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. s4 aes'8
+| aes'4 ges'8 f'4 des''8 | c''4 bes'8 bes'4 bes'8 | aes'4 f'8 aes'4 ges'8 | f'4.~ f'4 aes'8
+| aes'4 ges'8 f'4 des''8 | c''4 bes'8 bes'4 bes'8 | aes'4 des'8 f'4 ees'8 | des'4.~ des'4 f'8
+| f'4 ees'8 ees'8[ f'8] ges'8 | bes'4 aes'8 aes'4. | aes'8. ges'16 aes'8 c''4 bes'8 | aes'4.~ aes'4 aes'8
+| aes'4 ges'8 f'4 des''8 | c''4 bes'8 bes'4 bes'8 | aes'4 des'8 f'4 ees'8 | des'4.~ des'4 s8
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. s4 f'8
+| f'4 ees'8 des'4 f'8 | aes'4 ges'8 ges'4 ges'8 | f'4 des'8 f'4 ees'8 | des'4.~ des'4 f'8
+| f'4 ees'8 des'4 f'8 | aes'4 ges'8 ges'4 ges'8 | f'4 des'8 des'4 c'8 | des'4.~ des'4 des'8
+| des'4 c'8 c'8[ des'8] ees'8 | ges'4 f'8 f'4. | ees'8. ees'16 ees'8 ees'4 des'8 | c'4.~ c'4 ges'8
+| f'4 ees'8 des'4 f'8 | aes'4 ges'8 ges'4 ges'8 | f'4 des'8 des'4 c'8 | des'4.~ des'4 s8
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. s4 des'8
+| des'4 aes8 aes4 des'8 | des'4 des'8 des'4 des'8 | des'4 aes8 aes4 aes8 | aes4.~ aes4 des'8
+| des'4 aes8 aes4 des'8 | des'4 des'8 des'4 des'8 | des'4 f8 aes4 ges8 | f4.~ f4 aes8
+| aes4 aes8 aes4 c'8 | des'4 des'8 des'4. | c'8. bes16 c'8 aes4 g8 | aes4.~ aes4 c'8
+| des'4 aes8 aes4 des'8 | des'4 des'8 des'4 des'8 | des'4 f8 aes4 ges8 | f4.~ f4 s8
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. s4 des8
+| des4 des8 des4 des8 | ges4 ges8 ges4 ges8 | aes4 aes8 aes,4 aes,8 | des4.~ des4 des8
+| des4 des8 des4 des8 | ges4 ges8 ges4 ges8 | aes4 aes,8 aes,4 aes,8 | des4.~ des4 aes,8
+| aes,4 aes,8 aes,4 aes,8 | des4 des8 des4. | ees8. ees16 ees8 ees4 ees8 | aes,4.~ aes,4 aes,8
+| des4 des8 des4 des8 | ges4 ges8 ges4 ges8 | aes4 aes,8 aes,4 aes,8 | des4.~ des4 s8
+"""
+
+[lyrics.1]
+text = "I heard the voice of Je -- sus say, “Come un -- to Me and rest; Lay down, thou wea -- ry one, lay down Thy head up -- on My breast.” I came to Je -- sus as I was, Wea -- ry and worn and sad; I found in Him a rest -- ing- -- place, And He has made me glad."
+
+[lyrics.2]
+text = "I heard the voice of Je -- sus say, “Be -- hold, I free -- ly give The liv -- ing wa -- ter; thirst -- y one, Stoop down, and drink and live.” I came to Je -- sus and I drank Of that life- -- giv -- ing stream: My thirst was quenched, my soul re -- vived, And now I live in Him."
+
+[lyrics.3]
+text = "I heard the voice of Je -- sus say, “I am this dark world’s light: Look un -- to Me, thy morn shall rise, And all thy day be bright!” I looked to Je -- sus and I found In Him my Star, my Sun; And in that light of life I’ll walk Till trav’ -- ling days are done."
