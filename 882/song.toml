@@ -1,0 +1,57 @@
+title = "Jesus, and Didst Thou Leave the Sky"
+copyrights = [
+  "Lyrics: Anne Steele, 1760 (public domain)",
+  "Music: 'Arlington' by Thomas Augustine Arne, 1762 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 3
+time_sig_denominator = 2
+tempo_bpm = 108
+verse_count = 4
+phrase_breaks = ["5:64"]
+optional_phrase_breaks = ["3:64", "7:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s1 f'2 | a'4. a'8 a'2 g'2 | f'4. f'8 f'2 g'2 | a'4 c''4 bes'2 a'2 | a'2( g'2) bes'2 | a'4. a'8 a'2 d''2 | c''4. c''8 c''2 f'2 | g'4 bes'4 a'2 g'2 | f'1 s2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s1 f'2 | f'4. f'8 f'2 e'2 | d'4. d'8 d'2 e'2 | f'4 c'4 d'4( e'4) f'2 | f'2( e'2) g'2 | f'4. f'8 f'2 f'2 | f'4. f'8 f'2 c'2 | d'4 g'4 f'2 e'2 | f'1 s2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s1 a2 | c'4. c'8 c'2 bes2 | a4. a8 a2 c'2 | c'4 a4 bes2 c'2 | c'1 c'2 | c'4. c'8 c'2 bes2 | a4. a8 a2 c'2 | bes4 d'4 c'2 c'4( bes4) | a1 s2
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s1 f2 | f4. f8 f2 c2 | d4. d8 d2 c2 | f4 a4 g2 f2 | c1 e2 | f4. f8 f2 bes,2 | f4. f8 f2 a,2 | bes,4 g,4 c2 c2 | f1 s2
+"""
+
+[lyrics.1]
+text = "Je -- sus, and didst Thou leave the sky To bear our sins and woes! And didst Thou bleed and groan and die, For vile, re -- bel -- lious foes!"
+
+[lyrics.2]
+text = "Well might the skies with won -- der view A love so strange as Thine; No thought of an -- gels ev -- er knew Com -- pas -- sion so di -- vine."
+
+[lyrics.3]
+text = "Vic -- to -- rious love! can lan -- guage tell The won -- ders of Thy pow’r, Which con -- quered all the force of hell In that tre -- men -- dous hour!"
+
+[lyrics.4]
+text = "What glad re -- turn can I im -- part For fa -- vors so di -- vine? O take this heart, this worth -- less heart, And make it on -- ly Thine!"
