@@ -1,0 +1,90 @@
+title = "I’ve Found a Friend Who Is All to Me"
+subtitle = "Saved"
+copyrights = [
+  "Lyrics and Music: Jack P. Scholfield, 1911 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Bb"
+time_sig_numerator = 12
+time_sig_denominator = 8
+tempo_bpm = 100
+verse_count = 3
+phrase_breaks = ["5:88", "9:96", "13:48"]
+optional_phrase_breaks = ["3:88", "7:88", "11:48", "15:32"]
+non_breaking_phrase_breaks = ["10:32", "12:32"]
+
+[[time_sig_changes]]
+measure = 10
+numerator = 6
+denominator = 8
+duration = 8
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. s4. s4 f'8 | d''4. d''4. d''4.~ d''8 c''8 bes'8 | a'4. c''4. bes'4.~ bes'4 a'8
+| g'4. c''4. ees''4. c''4. | bes'2.( a'4.~ a'4) f'8 | d''4. d''4. d''4.~ d''8 c''8 bes'8
+| a'4. c''4. bes'4.~ bes'4 a'8 | g'4. ees''4. d''4. f'4. | g'4. d''4. c''4.~ c''4! r8
+| bes'4.~@c bes'8 a'8 g'8 | a'4 bes'8 c''4. | c''4.~ c''8 bes'8 a'8
+| bes'4 c''8 d''4. | f'8 d''8 d''8 d''8 c''8 bes'8 | g'8 ees''8\\< ees''8 ees''8 d''8\\rit c''8
+| f''4.^\\! f''4.^ | bes'2.\\spanend
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s1 s4. r8 | r1. | r1 r4. r8 | r1. | r1 r4. r8 | r1. | r1 r4. r8 | r1. | r1 r4. r8
+| d'8@c ees'8 e'8 f'8 f'8 f'8 | f'4 f'8 ees'4. | ees'8 c'8 d'8 ees'8 ees'8 ees'8
+| d'4 ees'8 f'4. | d'8 f'8 f'8 f'8 ees'8 f'8 | ees'8 g'8\\< g'8 g'8 f'8 g'8
+| bes'4.^\\! a'4.^ | d'2.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s1 s4. r8 | r1. | r1 r4. r8 | r1. | r1 r4. r8 | r1. | r1 r4. r8 | r1. | r1 r4. r8
+| f4.~@c f8 f8 f8 | f4 g8 a4. | a4.~ a8 g8 f8
+| f4 a8 bes4. | f8 bes8 bes8 bes8 a8 bes8 | ees'8 c'8\\< bes8 g8 bes8 ees'8
+| d'4.^\\! c'4.^ | bes2.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s1 s4. r8 | r1. | r1 r4. r8 | r1. | r1 r4. r8 | r1. | r1 r4. r8 | r1. | r1 r4. r8
+| bes,4.~@c bes,8 bes,8 bes,8 | c4 c8 <f, f>4. | f4.~ f8 f8 f8
+| bes,4 f8 bes,4. | bes,8 bes,8 bes,8 bes,8 c8 d8 | ees8 ees8\\< ees8 c8 d8 ees8
+| f4.^\\! <f, f>4.^ | bes,2.
+"""
+
+[lyrics.1]
+text = ""
+
+[parts.Soprano.lyrics.1]
+text = "I’ve found a Friend who is all to me, His love is ev -- er true; I love to tell how He lift -- ed me, And what His grace can do for you."
+
+[lyrics.2]
+text = ""
+
+[parts.Soprano.lyrics.2]
+text = "He saves me from ev -- ’ry sin and harm, Se -- cures my soul each day; I’m lean -- ing strong on His might -- y arm; I know He’ll guide me all the way."
+
+[lyrics.3]
+text = ""
+
+[parts.Soprano.lyrics.3]
+text = "When poor and need -- y and all a -- lone, In love He said to me, “Come un -- to Me and I’ll lead you home, To live with Me e -- ter -- nal -- ly.”"
+
+[lyrics.chorus]
+text = "Saved by His pow’r di -- vine, Saved to new life sub -- lime! Life now is sweet and my joy is com -- plete, for I’m Saved, saved, saved!"
+
+[parts.Alto.lyrics.chorus]
+text = "Saved by His pow’r, by His pow’r di -- vine, Saved to new life, to new life sub -- lime! Life now is sweet and my joy is com -- plete, for I’m Saved, saved, saved!"
