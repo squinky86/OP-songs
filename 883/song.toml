@@ -1,0 +1,73 @@
+title = "Jesus Is Calling, Calling, Calling"
+copyrights = [
+  "Lyrics: Palmer Hartsough, 1900 (public domain)",
+  "Music: James Henry Fillmore Sr., 1900 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "C"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 94
+verse_count = 3
+phrase_breaks = ["4:48", "8:48", "12:48"]
+optional_phrase_breaks = ["2:48", "6:48", "10:48", "14:48"]
+non_breaking_phrase_breaks = ["12:16"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+g'8. a'16 g'8 e'16 g'16~ g'4 | a'16 c''16~ c''4 a'16 g'16~ g'4 | g'8. fis'16 g'8 a'8 g'8 e'8 | d'4.~ d'4 r8 |
+g'8. a'16 g'8 e'16 g'16~ g'4 | a'16 c''16~ c''4 a'16 g'16~ g'4 | c''8. d''16 e''8 d''8 c''8 b'8 | c''4.~ c''4 r8 |
+c''8.@c d''16 e''8 d''16 c''16~ c''4 | a'16 c''16~ c''4 a'16 g'16~ g'4 | c''8. d''16 e''8 d''8 c''8 a'8 | d''4.~ d''4.! |
+g'8. a'16 g'8 e'16 g'16~ g'4 | a'16 c''16~ c''4 a'16 g'16~ g'4 | c''8. d''16 e''8 d''8 c''8 b'8 | c''4.~ c''4 r8
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+e'8. f'16 e'8 c'16 e'16~ e'4 | f'16 a'16~ a'4 f'16 e'16~ e'4 | e'8. dis'16 e'8 f'8 e'8 c'8 | b4.~ b4 r8 |
+e'8. f'16 e'8 c'16 e'16~ e'4 | f'16 a'16~ a'4 f'16 e'16~ e'4 | g'8. g'16 g'8 f'8 e'8 d'8 | e'4.~ e'4 r8 |
+e'8.@c f'16 g'8 f'16 e'16~ e'4 | f'16 a'16~ a'4 f'16 e'16~ e'4 | e'8. f'16 g'8 g'8 fis'8 fis'8 | g'4 fis'8 f'4.! |
+e'8. f'16 e'8 c'16 e'16~ e'4 | f'16 a'16~ a'4 f'16 e'16~ e'4 | g'8. g'16 g'8 f'8 e'8 d'8 | e'4.~ e'4 r8
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+c'8. c'16 c'8 g16 c'16~ c'4 | c'16 c'16~ c'4 c'16 c'16~ c'4 | c'8. c'16 c'8 c'8 c'8 g8 | g4.~ g4 r8 |
+c'8. c'16 c'8 g16 c'16~ c'4 | c'16 c'16~ c'4 c'16 c'16~ c'4 | c'8. b16 c'8 a8 g8 g8 | g4.~ g4 r8 |
+g8.@c g16 c'8 c'16 c'16~ c'4 | c'16 c'16~ c'4 c'16 c'16~ c'4 | g8. g16 c'8 b8 a8 c'8 | b4 c'8 b4.! |
+c'8. c'16 c'8 g16 c'16~ c'4 | c'16 c'16~ c'4 c'16 c'16~ c'4 | c'8. b16 c'8 a8 g8 g8 | g4.~ g4 r8
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+c8. c16 c8 c16 c16~ c4 | f16 f16~ f4 c16 c16~ c4 | c8. c16 c8 c8 c8 e8 | g4.~ g4 r8 |
+c8. c16 c8 c16 c16~ c4 | f16 f16~ f4 c16 c16~ c4 | e8. d16 c8 f8 g8 g8 | c4.~ c4 r8 |
+c8.@c c16 c8 c16 c16~ c4 | f16 f16~ f4 c16 c16~ c4 | c8. c16 c8 d8 d8 d8 | g4 a8 g4.! |
+c8. c16 c8 c16 c16~ c4 | f16 f16~ f4 c16 c16~ c4 | e8. d16 c8 f8 g8 g8 | c4.~ c4 r8
+"""
+
+[lyrics.1]
+text = "Je -- sus is call -- ing, call -- ing, call -- ing, Je -- sus is call -- ing to -- day; Why should I lin -- ger, lin -- ger, lin -- ger? I will a -- rise and a -- way."
+
+[lyrics.2]
+text = "Je -- sus is plead -- ing, plead -- ing, plead -- ing; Why should I wan -- der in sin? While to His glo -- ry, glo -- ry, glo -- ry, Glad He would wel -- come me in."
+
+[lyrics.3]
+text = "Je -- sus is wait -- ing, wait -- ing, wait -- ing, O -- pen now stand -- eth the door; Soon the night fall -- eth, fall -- eth, fall -- eth, Closed are the gates ev -- er -- more."
+
+[lyrics.chorus]
+text = "They are so hap -- py, hap -- py, hap -- py, Who do their Sav -- ior o -- bey; o -- bey; Why should I lin -- ger, lin -- ger, lin -- ger? I will a -- rise and a -- way."
+
+[parts.Soprano.lyrics.chorus]
+text = "They are so hap -- py, hap -- py, hap -- py, Who do their Sav -- ior o -- bey; Why should I lin -- ger, lin -- ger, lin -- ger? I will a -- rise and a -- way."
