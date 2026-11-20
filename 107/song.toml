@@ -2,6 +2,7 @@ title = "The Lord Has Been Mindful of Me"
 copyrights = [
   "Lyrics and Music: [L. O. Sanderson](/blog/20260815-lo-sanderson), 1948, renewed 1976",
   "This work is under copyright through 12/31/2043. Used by permission.",
+  # "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
 key_signature = "Bb"
 time_sig_numerator = 6

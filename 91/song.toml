@@ -3,6 +3,7 @@ copyrights = [
   "Lyrics: Thomas O. Chisholm, 1935, renewed 1963",
   "Music: [L. O. Sanderson](/blog/20260815-lo-sanderson), 1935, renewed 1963",
   "This work is under copyright through 12/31/2030. Used by permission.",
+  # "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
 key_signature = "F"
 time_sig_numerator = 3
