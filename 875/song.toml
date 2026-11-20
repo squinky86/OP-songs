@@ -1,0 +1,108 @@
+title = "In the Shadow of His Wings"
+copyrights = [
+  "Lyrics: Jonathan Bush Atchinson, 1881 (public domain)",
+  "Music: Edwin Othello Excell, 1881 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 3
+phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "13:48"]
+optional_phrase_breaks = ["4:48", "11:48", "15:48"]
+non_breaking_phrase_breaks = ["9:16", "10:16", "10:48", "11:16", "12:16", "12:48", "14:16", "14:48", "15:16", "16:16", "16:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. a'8 bes'8 | c''8 d''8 c''8 bes'8 a'4 a'8 g'8 | f'4 g'4 f'4 f'8 f'8
+| e'8 e'8 f'8 f'8 g'8 g'8 f'8 e'8 | f'8 f'8 g'8 g'8 a'8 a'8 a'8 bes'8
+| c''8 f''8 e''8 d''8 c''4 f'8 g'8 | a'4 bes'4 a'4 a'8 bes'8
+| c''8 d''8 c''8 bes'8 a'4 a'8 g'8 | f'2. a'8@c a'8
+| bes'4 r4 r4 a'8 bes'8 | c''4%p r4 r4 a'8 c''8 | f''2.%f c''8 bes'8
+| a'8 c''8 g'8 c''8 f'4 a'8 a'8
+| bes'4 r4 r4 a'8 bes'8 | c''4%p r4 r4 a'8 c''8 | f''2.%f c''8 bes'8
+| a'8 a'8 a'8 g'8 f'4! s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+splice_lyrics_into = "soprano"
+notes = """
+s2. f'8 g'8 | a'8 bes'8 a'8 g'8 f'4 f'8 e'8 | c'4 c'4 c'4 c'8 c'8
+| c'8 c'8 c'8 c'8 c'8 c'8 c'8 c'8 | c'8 c'8 e'8 e'8 f'8 f'8 f'8 g'8
+| a'8 a'8 bes'8 bes'8 a'4 f'8 f'8 | f'4 f'4 f'4 f'8 g'8
+| a'8 bes'8 a'8 g'8 f'4 e'8 e'8 | f'4 d'4 c'4 f'8@c f'8
+| g'4 e'4 g'4 f'8 g'8 | a'4%p e'4 f'4 f'8 a'8 | a'4%f a'4 bes'4 g'8 g'8
+| f'8 a'8 e'8 e'8 f'4 f'8 f'8
+| g'4 e'4 g'4 f'8 g'8 | a'4%p e'4 f'4 f'8 a'8 | a'4%f a'4 bes'4 g'8 g'8
+| f'8 f'8 f'8 e'8 c'4! s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. c'8 c'8 | c'8 c'8 c'8 c'8 c'4 c'8 bes8 | a4 bes4 a4 a8 a8
+| g8 g8 a8 a8 bes8 bes8 a8 g8 | a8 a8 bes8 bes8 c'8 c'8 c'8 c'8
+| c'8 c'8 c'8 c'8 c'4 a8 bes8 | c'4 d'4 c'4 c'8 c'8
+| c'8 c'8 c'8 c'8 c'4 bes8 bes8 | a4 bes4 a4 c'8@c c'8
+| c'4 g4 c'4 c'8 c'8 | c'4%p c'4 c'4 c'8 c'8 | c'4%f ees'4 d'4 d'8 d'8
+| c'8 c'8 c'8 bes8 a4 c'8 c'8
+| c'4 g4 c'4 c'8 c'8 | c'4%p c'4 c'4 c'8 c'8 | c'4%f ees'4 d'4 d'8 d'8
+| c'8 c'8 c'8 bes8 a4! s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. f8 f8 | f8 f8 f8 f8 c4 c8 c8 | f4 f4 f4 f8 f8
+| c8 c8 c8 c8 c8 c8 c8 c8 | f8 f8 f8 f8 f8 f8 f8 f8
+| f8 f8 c8 c8 f4 f8 f8 | f4 f4 f4 f8 f8
+| f8 f8 f8 f8 c4 c8 c8 | f2. f8@c f8
+| c4 c4 c4 f8 f8 | f4%p g4 a4 f8 f8 | f4%f f4 bes4 bes8 bes8
+| c'8 c'8 c8 c8 f4 f8 f8
+| c4 c4 c4 f8 f8 | f4%p g4 a4 f8 f8 | f4%f f4 bes4 bes8 bes8
+| c'8 c'8 c8 c8 f4! s4
+"""
+
+[lyrics.1]
+text = "In the shad -- ow of His wings There is rest, sweet rest; There is rest from care and la -- bor, There is rest for friend and neigh -- bor; In the shad -- ow of His wings There is rest, sweet rest, In the shad -- ow of His wings There is rest"
+
+[parts.Alto.lyrics.1]
+text = "In the shad -- ow of His wings There is rest, sweet rest; There is rest from care and la -- bor, There is rest for friend and neigh -- bor; In the shad -- ow of His wings There is rest, sweet rest, In the shad -- ow of His wings There is rest (sweet rest)."
+
+[parts.Tenor.lyrics.1]
+text = "In the shad -- ow of His wings There is rest, sweet rest; There is rest from care and la -- bor, There is rest for friend and neigh -- bor; In the shad -- ow of His wings There is rest, sweet rest, In the shad -- ow of His wings There is rest (sweet rest)."
+
+[lyrics.2]
+text = "In the shad -- ow of His wings There is peace, sweet peace, Peace that pass -- eth un -- der -- stand -- ing, Peace, sweet peace that knows no end -- ing; In the shad -- ow of His wings There is peace, sweet peace, In the shad -- ow of His wings There is peace"
+
+[parts.Alto.lyrics.2]
+text = "In the shad -- ow of His wings There is peace, sweet peace, Peace that pass -- eth un -- der -- stand -- ing, Peace, sweet peace that knows no end -- ing; In the shad -- ow of His wings There is peace, sweet peace, In the shad -- ow of His wings There is peace (sweet peace)."
+
+[parts.Tenor.lyrics.2]
+text = "In the shad -- ow of His wings There is peace, sweet peace, Peace that pass -- eth un -- der -- stand -- ing, Peace, sweet peace that knows no end -- ing; In the shad -- ow of His wings There is peace, sweet peace, In the shad -- ow of His wings There is peace (sweet peace)."
+
+[lyrics.3]
+text = "In the shad -- ow of His wings There is joy, glad joy; There is joy to tell the sto -- ry, Joy ex -- ceed -- ing, full of glo -- ry; In the shad -- ow of His wings There is joy, glad joy, In the shad -- ow of His wings There is joy"
+
+[parts.Alto.lyrics.3]
+text = "In the shad -- ow of His wings There is joy, glad joy; There is joy to tell the sto -- ry, Joy ex -- ceed -- ing, full of glo -- ry; In the shad -- ow of His wings There is joy, glad joy, In the shad -- ow of His wings There is joy (glad joy)."
+
+[parts.Tenor.lyrics.3]
+text = "In the shad -- ow of His wings There is joy, glad joy; There is joy to tell the sto -- ry, Joy ex -- ceed -- ing, full of glo -- ry; In the shad -- ow of His wings There is joy, glad joy, In the shad -- ow of His wings There is joy (glad joy)."
+
+[lyrics.chorus]
+text = "There is rest, sweet rest, There is peace, sweet peace, There is joy, glad joy, In the shad -- ow of His wings; There is rest, sweet rest, There is peace, sweet peace, There is joy, glad joy, In the shad -- ow of His wings."
+
+[parts.Soprano.lyrics.chorus]
+text = "There is rest, There is peace, There is joy, In the shad -- ow of His wings; There is rest, There is peace, There is joy, In the shad -- ow of His wings."
