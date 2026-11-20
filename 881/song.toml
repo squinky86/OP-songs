@@ -1,0 +1,67 @@
+title = "Jerusalem, the Golden"
+copyrights = [
+  "Lyrics: Bernard of Cluny, c. 1145 (public domain)",
+  "Translation: John Mason Neale, 1851 (public domain)",
+  "Music: Anthony Johnson Showalter, 1889 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Eb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 92
+verse_count = 3
+phrase_breaks = ["5:48", "9:48", "13:48"]
+optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. bes'4 | bes'4 bes'4 c''4 bes'4 | g'4.( f'8) ees'4 ees'4 | ees'4 c''4 bes'4 g'4 | f'2. f'4 |
+g'4 aes'4 bes'4 ees''4 | d''4.( c''8) bes'4 bes'4 | c''4 c''4 g'4 a'4 | bes'2. bes'4 |
+bes'4 bes'4 bes'4 bes'4 | bes'4.( c''8) bes'4 bes'4 | c''4 bes'4 d''4 ees''4 | d''2. d''4 |
+ees''4 bes'4 aes'4 g'4 | c''2 aes'4 f'4 | ees'4 g'4 f'4. f'8 | ees'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. ees'4 | ees'4 ees'4 ees'4 ees'4 | ees'4.( d'8) ees'4 des'4 | c'4 ees'4 ees'4 ees'4 | d'2. d'4 |
+ees'4 d'4 ees'4 g'4 | f'4.( ees'8) d'4 d'4 | ees'4 ees'4 ees'4 ees'4 | d'2. d'4 |
+d'4 ees'4 f'4 ees'4 | d'2 d'4 ees'4 | ees'4 ees'4 aes'4 g'4 | f'2. aes'4 |
+g'4 g'4 f'4 ees'4 | ees'2 ees'4 c'4 | bes4 ees'4 d'4. d'8 | ees'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. g4 | g4 g4 aes4 g4 | bes4.( aes8) g4 g4 | aes4 aes4 g4 bes4 | bes2. bes4 |
+bes4 bes4 bes4 bes4 | bes4.( a8) bes4 bes4 | g4 g4 f4 c'4 | bes2. f4 |
+f4 f4 f4 g4 | bes2 aes4 g4 | aes4 bes4 bes4 bes4 | bes2. bes4 |
+bes4 ees'8[ d'8] c'4 bes4 | aes2 c'4 aes4 | g4 bes4 bes4. aes8 | g2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. ees4 | ees4 ees4 ees4 ees4 | bes,2 ees4 ees4 | aes,4 aes,4 ees4 ees4 | bes,2. bes,4 |
+ees4 f4 g4 ees4 | f2 g4 g4 | ees4 ees4 f4 f4 | bes,2. bes,4 |
+bes,4 c4 d4 ees4 | g2 f4 ees4 | aes4 g4 f4 ees4 | bes,2. bes,4 |
+ees4 ees4 ees4 ees4 | aes,2 aes,4 aes,4 | bes,4 bes,4 bes,4. bes,8 | ees2. s4
+"""
+
+[lyrics.1]
+text = "Je -- ru -- sa -- lem, the gold -- en, With milk and hon -- ey blest, Be -- neath thy con -- tem -- pla -- tion Sink heart and voice op -- pressed: I know not, O I know not, What so -- cial joys are there, What ra -- dian -- cy of glo -- ry, What light be -- yond com -- pare."
+
+[lyrics.2]
+text = "They stand, those halls of Zi -- on, All ju -- bi -- lant with song, And bright with many an an -- gel, And all the mar -- tyr throng; The Prince is ev -- er in them, The day -- light is se -- rene; The pas -- tures of the bless -- ed Are decked in glo -- rious sheen."
+
+[lyrics.3]
+text = "There is the throne of Da -- vid; And there from care re -- leased, The shout of them that tri -- umph, The song of them that feast; And they, who, with their Lead -- er, Have con -- quered in the fight, For -- ev -- er and for -- ev -- er Are clad in robes of white."
