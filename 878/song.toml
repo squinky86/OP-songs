@@ -1,0 +1,113 @@
+# Source: Great Songs of the Church (1926), No. 156, p. 104 (hymnary GSoC1926), seven-shape
+#   notes, low-res scan (~470 px). The 1921 edition sets this text to a different tune; not used.
+# Plate credits: "Harriett Warner Re Qua." / "J. W. Dadmun." hymnary's person page: "Mrs.
+#   Harriett Warner Re Qua" (Harriett A. Warner Re Qua, 1843-1929); other books print "Harriet
+#   Warner ReQua". hymnary's text page also lists William Hunter as an attributed author; the
+#   plate's credit is kept.
+# Music: the plate credits J. W. Dadmun (Rev. John William Dadmun, 1819-1890), as do many
+#   books from 1902 on. hymnary has merged the tune into "[I am dwelling on the mountain]
+#   (Bradbury)", Timeless Truths calls it WATCHMAN "attr. to William B. Bradbury, pub. 1860";
+#   the plate's Dadmun is followed. 1860 is the tune's earliest documented printing (hymnary
+#   tune timeline; the 1860s instances carry "Watchman, tell me" and credit Bradbury), not a
+#   Dadmun-specific date.
+# Lyrics date: earliest hymnary instance is Gems of Gospel Song, 1881 (Cyber Hymnal's source
+#   is Salvation Echoes, Hudson, 1882).
+# Public domain: published in the US before 1930.
+# Lyrics: read from the 1926 plate (stanza 1 under system 1/2 and the D.C. row; stanza 2
+#   printed as words only beside system 2). The scan's right edge is cropped: "pleas[ures]," in
+#   stanza 2 is completed from hymnary's text (Revival Hymns and Choruses), and "bright?" (only
+#   partly visible) is confirmed by the same text. Splits normalised: "fon-dest" -> fond -- est,
+#   "always" (printed whole under two notes) -> al -- ways.
+# FORM, written out (plate: system 1 = one strain under a two-line brace, Fine; D.C. row under
+#   it; system 2 = a short repeated strain with a two-line brace, D.C.). Per stanza:
+#   A (m1-5, brace line 1) -> A (m5-9, brace line 2) -> B (m9-11, system 2 line 1)
+#   -> B (m11-13, system 2 line 2, last syllable slurred) -> A (m13-17, D.C. row) -> Fine.
+#   Stanza 2's eight printed lines map 1-2 / 3-4 / 5 / 6 / 7-8 onto those five passes.
+#   Stanza 1 opens with the familiar refrain words ("Is not this the land of Beulah"); the plate
+#   prints no separate chorus, so none is added after stanza 2. GSoC prints only these two
+#   stanzas (hymnary's text has five plus chorus; GSoC's stanza 2 is the usual stanza 3).
+# Notes: read from the plate; every pitch and rhythm I could make out matches the harmonization
+#   in the Timeless Truths MusicXML (WATCHMAN, "arr., pub. 1882"), which was used to settle
+#   readings the low-res scan leaves uncertain. The Fine/strain-end chord (m5, m9, m17) shows a
+#   third bass-staff notehead (G3) besides D3/G2; kept tenor D3, bass G2 (complete chord), the
+#   G3 doubling dropped.
+# Tempo: none printed; 96 is a guess.
+title = "Is Not This the Land of Beulah?"
+copyrights = [
+  "Lyrics: Harriett Warner Re Qua, 1881 (public domain)",
+  "Music: John William Dadmun, 1860 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 2
+phrase_breaks = ["5:32", "9:32", "13:32"]
+optional_phrase_breaks = ["3:32", "7:32", "11:32", "15:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 d'8 g'8 | b'4. g'8 a'8 g'8 | g'8 e'4. g'8 e'8 | d'4. d'8 e'8 g'8 | g'2 d'8 g'8
+| b'4. g'8 a'8 g'8 | g'8 e'4. g'8 e'8 | d'4. d'8 e'8 g'8 | g'2 g'8 b'8
+| d''4. d''8 e''8 d''8 | d''8 b'4. g'8 b'8
+| d''4. d''8 e''8 d''8 | d''8( b'4.) d'8 g'8
+| b'4. g'8 a'8 g'8 | g'8 e'4. g'8 e'8 | d'4. d'8 e'8 g'8 | g'2 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 d'8 d'8 | g'4. d'8 d'8 d'8 | e'8 c'4. e'8 c'8 | b4. b8 c'8 c'8 | b2 d'8 d'8
+| g'4. d'8 d'8 d'8 | e'8 c'4. e'8 c'8 | b4. b8 c'8 c'8 | b2 d'8 g'8
+| g'4. g'8 g'8 g'8 | g'8 g'4. d'8 g'8
+| g'4. g'8 g'8 g'8 | g'8~ g'4. d'8 d'8
+| g'4. d'8 d'8 d'8 | e'8 c'4. e'8 c'8 | b4. b8 c'8 c'8 | b2 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 b8 b8 | d'4. b8 c'8 b8 | c'8 g4. g8 g8 | g4. g8 g8 e8 | g2 b8 b8
+| d'4. b8 c'8 b8 | c'8 g4. g8 g8 | g4. g8 g8 e8 | g2 b8 d'8
+| b4. b8 c'8 b8 | b8 d'4. b8 d'8
+| b4. b8 c'8 b8 | b8( d'4.) b8 b8
+| d'4. b8 c'8 b8 | c'8 g4. g8 g8 | g4. g8 g8 e8 | d2 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 g8 g8 | g4. g8 g8 g8 | c8 c4. c8 c8 | g,4. g,8 c8 c8 | d2 g8 g8
+| g4. g8 g8 g8 | c8 c4. c8 c8 | g,4. g,8 c8 c8 | d2 g8 g8
+| g4. g8 g8 g8 | g8 g4. g8 g8
+| g4. g8 g8 g8 | g8~ g4. g8 g8
+| g4. g8 g8 g8 | c8 c4. c8 c8 | g,4. g,8 c8 c8 | g,2 s4
+"""
+
+[lyrics.1]
+text = """
+Is not this the land of Beu -- lah, Bless -- ed, bless -- ed land of light;
+Where the flow -- ers bloom for -- ev -- er, And the sun is al -- ways bright?
+I am dwell -- ing on the moun -- tain,
+Where the gold -- en sun -- light gleams
+O’er a land whose won -- drous beau -- ty Far ex -- ceeds my fond -- est dreams.
+"""
+
+[lyrics.2]
+text = """
+I am drink -- ing at the foun -- tain, Where I ev -- er would a -- bide;
+For I’ve tast -- ed life’s pure riv -- er, And my soul is sat -- is -- fied.
+There’s no thirst -- ing for life’s pleas -- ures,
+Nor a -- dorn -- ing, rich and gay,
+For I’ve found a rich -- er treas -- ure, One that fad -- eth not a -- way.
+"""
