@@ -1,0 +1,61 @@
+title = "In Memory of the Savior’s Love"
+copyrights = [
+  "Lyrics: Thomas Cotterill, 1805 (public domain)",
+  "Music: 'Winchester Old' from Este’s Psalter, 1592 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 92
+verse_count = 2
+phrase_breaks = ["5:48"]
+optional_phrase_breaks = ["3:48", "7:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. f'4 | a'4. a'8/-24 g'4 f'4 | bes'4 bes'4 a'4 g'4 | a'4 c''4 c''4 b'4 | c''2. a'4 |
+d''4. c''8 bes'4 a'4 | g'4 f'4 e'4 a'4 | g'4 f'4 f'4 e'4 | f'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. c'4 | f'4 f'4 e'4 d'4 | d'4 f'4 f'4 e'4 | f'4 g'4 g'4 d'4 | e'2. f'4 |
+f'4. e'8 f'4 f'4 | e'4 d'4 cis'4 c'4 | e'4 d'4 d'4 c'4 | c'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. a4 | c'4. c'8/-24 c'4 a4 | bes4 d'4 c'4 c'4 | c'4 c'4 d'4 g4 | g2. a4 |
+bes4. g8 f4 c'4 | c'4 a4 a4 a4 | c'4 a4 bes4 g4 | a2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. f4 | f4 a,4 c4 d4 | bes,4 bes,4 f4 c4 | f4 e4 g4 g,4 | c2. f4 |
+bes,4. c8 d4 f4 | c4 d4 a,4 f4 | c4 d4 bes,4 c4 | f2. s4
+"""
+
+[lyrics.1]
+text = """In mem -- ’ry of the Sav -- ior’s love
+We keep the sa -- cred feast,
+Where ev -- ’ry hum -- ble, con -- trite heart
+Is made a wel -- come guest."""
+
+[lyrics.2]
+text = """Be -- neath His ban -- ner thus we sing
+The won -- ders of His love;
+And here an -- ti -- ci -- pate by faith
+The heav’n -- ly feast a -- bove."""
