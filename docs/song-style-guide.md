@@ -243,7 +243,9 @@ scaled time: unscaled breve = 128 ticks, half-scaled breve = 64 ticks.
 Check [the full syntax and precision limits](song-toml-format.md#breves-and-recitations)
 before authoring factors. Review the Aiken hollow shapes with their breve side
 strokes, grouped-text spacing, both staves, and cadence alignment in PDF and
-slides. Song 894 uses `g'0@12 | =` across two 4/4 bars. Song 839 rebars its first three 4/2 recitations in 4/4. Run `audit_style.py`, `check_measures.py`,
+slides. In song 894 the plate's whole-note reciting tone is timed editorially
+as one eight-beat breve, `g'0@12 | =`, across two 4/4 bars. Song 839 rebars
+its first three 4/2 recitations in 4/4. Run `audit_style.py`, `check_measures.py`,
 and `debug_lyrics.py`, then import into an isolated database and check all exports.
 The sibling OpenPsalmEditor and external sight-singing notation need their own
 support; do not assume they preserve the new source notation.
