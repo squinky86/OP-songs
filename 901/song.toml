@@ -1,0 +1,82 @@
+title = "Lord Jesus, I Long to Be Perfectly Whole"
+subtitle = "Whiter Than Snow"
+copyrights = [
+  "Lyrics: James L. Nicholson, 1872 (public domain)",
+  "Music: William Gustavus Fischer, 1872 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 3
+phrase_breaks = ["5:32", "9:32", "13:32", "17:48"]
+optional_phrase_breaks = ["21:32"]
+optional_break_threshold_ticks = 208
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 ees'4 | ees'4 aes'4 bes'4 | c''4. bes'8 aes'4 | bes'4 c''4 bes'4 | aes'2 ees'4 |
+ees'4 aes'4 bes'4 | c''4. bes'8 aes'4 | bes'4 c''4 bes'4 | aes'2 c''4 |
+ees''4 c''4 aes'4 | f'8[ aes'8] aes'4 aes'4 | des''4 des''4 des''4 | c''2 ees'4 |
+ees'4 aes'4 c''4 | c''4. bes'8 aes'4 | bes'4. aes'8 bes'4 | aes'2. |
+bes'4@c bes'4 bes'4 | bes'2 aes'4 | c''4 aes'4 f'4 | ees'2 ees'4 |
+f'4 aes'4 des''4 | c''4. bes'8 aes'4 | bes'4. aes'8 bes'4 | aes'2.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 c'4 | c'4 ees'4 ees'4 | ees'4. des'8 c'4 | des'4 ees'4 des'4 | c'2 c'4 |
+c'4 ees'4 ees'4 | ees'4. des'8 c'4 | des'4 ees'4 des'4 | c'2 ees'4 |
+ees'4 ees'4 ees'4 | des'8[ f'8] f'4 f'4 | f'4 f'4 f'4 | ees'2 c'4 |
+c'4 ees'4 ees'4 | ees'4. des'8 c'4 | ees'4. ees'8 des'4 | c'2. |
+des'4@c des'4 des'4 | des'2 c'4 | c'4 c'4 des'4 | c'2 c'4 |
+des'4 f'4 f'4 | ees'4. des'8 c'4 | ees'4. ees'8 des'4 | c'2.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 aes4 | aes4 aes4 g4 | aes4. aes8 aes4 | g4 g4 g4 | aes2 aes4 |
+aes4 aes4 g4 | aes4. aes8 aes4 | g4 g4 g4 | aes2 aes4 |
+c'4 aes4 aes4 | aes4 aes4 aes4 | aes4 aes4 aes4 | aes2 aes4 |
+aes4 aes4 aes4 | aes4. g8 aes4 | g4. f8 g4 | aes2. |
+g4@c g4 g4 | g2 aes4 | aes4 aes4 aes4 | aes2 aes4 |
+aes4 aes4 aes4 | aes4. g8 aes4 | g4. f8 g4 | aes2.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 aes,4 | aes,4 c4 ees4 | aes4. aes8 aes4 | ees4 ees4 ees4 | aes,2 aes,4 |
+aes,4 c4 ees4 | aes4. aes8 aes4 | ees4 ees4 ees4 | aes,2 aes4 |
+aes4 aes4 c4 | des4 des4 des4 | des4 des4 des4 | aes,2 aes,4 |
+aes,4 c4 aes,4 | ees4. ees8 ees4 | ees4. ees8 ees4 | aes,2. |
+ees4@c ees4 ees4 | ees2 f4 | f4 f4 des4 | aes,2 aes,4 |
+des4 des4 des4 | ees4. ees8 ees4 | ees4. ees8 ees4 | aes,2.
+"""
+
+[lyrics.1]
+text = "Lord Je -- sus, I long to be per -- fect -- ly whole; I want Thee for -- ev -- er to live in my soul; Break down ev -- ’ry i -- dol, cast out ev -- ’ry foe; @s1"
+
+[lyrics.2]
+text = "Lord Je -- sus, look down from Thy throne in the skies, And help me to make a com -- plete sac -- ri -- fice; I give up my -- self and what -- ev -- er I know; @s1"
+
+[lyrics.3]
+text = "Lord Je -- sus, Thou seest I pa -- ti -- ent -- ly wait; Come now, and with -- in me a new heart cre -- ate; To those who have sought Thee, Thou nev -- er saidst No: @s1"
+
+[lyrics.chorus]
+text = "Whit -- er than snow, yes, whit -- er than snow; Now wash me, and I shall be whit -- er than snow."
+
+[lyrics.s1]
+text = "Now wash me, and I shall be whit -- er than snow."

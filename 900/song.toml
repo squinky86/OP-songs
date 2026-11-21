@@ -1,17 +1,17 @@
 title = "Lord, I Hear of Showers of Blessing"
 subtitle = "Even Me"
-verse_count = 3
-key_signature = "G"
-time_sig_numerator = 6
-time_sig_denominator = 4
-tempo_bpm = 104
-phrase_breaks = ["4:96", "8:96"]
-optional_phrase_breaks = ["2:96", "6:96", "10:96"]
 copyrights = [
   "Lyrics: Elizabeth Codner, 1860 (public domain)",
   "Music: William Batchelder Bradbury, 1862 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "G"
+time_sig_numerator = 6
+time_sig_denominator = 4
+tempo_bpm = 104
+verse_count = 3
+phrase_breaks = ["4:96", "8:96"]
+optional_phrase_breaks = ["2:96", "6:96", "10:96"]
 
 [parts.Soprano]
 choral_type = "soprano"
