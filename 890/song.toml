@@ -1,0 +1,74 @@
+title = "Lead, Holy Shepherd"
+copyrights = [
+  "Lyrics: Clement of Alexandria, c. 200 (public domain)",
+  "Translation: Hamilton Montgomerie MacGill, 1877 (public domain)",
+  "Music: 'St. Alphege' by Henry John Gauntlett, 1852 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 3
+phrase_breaks = ["5:48"]
+optional_phrase_breaks = ["3:48", "7:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. g'4 | b'4 c''4 d''4 g'4 | fis'2 g'4 g'4 | fis'4 g'4 c''4 b'4 | a'2. g'4 |
+b'4 c''4 d''4 d''4 | e''2 d''4 g'4 | g'4 a'4 b'4 a'4 | g'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. d'4 | g'4 e'4 d'4 c'4 | c'2 b4 d'4 | d'4 d'4 a'4 g'4 | fis'2. g'4 |
+g'4 g'4 fis'4 g'4 | g'4( fis'4) g'4 d'4 | g'4 g'4 g'4 fis'4 | g'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. b4 | g4 g4 g4 g4 | a2 g4 d'4 | c'4 b4 d'4 d'4 | d'2. b4 |
+d'4 g4 a4 b4 | c'4( a4) b4 b4 | b4 e'4 d'4 d'8[ c'8] | b2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. g4 | e4 c4 b,4 e4 | d2 g,4 b4 | a4 g4 fis4 g4 | d2. g4 |
+g4 e4 d4 g4 | c2 g4 b,4 | e4 c4 d4 d4 | g2. s4
+"""
+
+[lyrics.1]
+text = """
+Lead, ho -- ly Shep -- herd, lead us,
+Thy fee -- ble flock, we pray;
+Thou King of wea -- ry pil -- grims,
+Safe lead us all the way.
+"""
+
+[lyrics.2]
+text = """
+In Thy blest foot -- prints guide us
+A -- long the heav’n -- ward road;
+Thine age fills all the a -- ges,
+Un -- dy -- ing Word of God.
+"""
+
+[lyrics.3]
+text = """
+O fill us with Thy Spir -- it,
+Like morn -- ing dew shed down;
+And with our prais -- es loy -- al,
+King Je -- sus we shall crown.
+"""
