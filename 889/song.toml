@@ -1,0 +1,76 @@
+title = "Jesus, Thy Boundless Love to Me"
+copyrights = [
+  "Lyrics: Paul Gerhardt, 1653 (public domain)",
+  "Translation: John Wesley, 1739 (public domain)",
+  "Music: 'St. Catherine' by Henri Frederick Hemy, 1864 (public domain)",
+  "Arrangement: James George Walton, 1874 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 3
+phrase_breaks = ["8:48", "16:48"]
+optional_phrase_breaks = ["4:48", "12:48", "20:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+b'4 a'4 g'4 | g'4( fis'4) g'4 | a'4( e'4) fis'4 | g'2. |
+g'4 fis'4 e'4 | d'2 g'4 | g'4( fis'4) g'4 | a'2. |
+b'4 a'4 g'4 | g'4( fis'4) g'4 | a'4( e'4) fis'4 | g'2. |
+g'4 fis'4 e'4 | d'2 b'4 | a'4( b'4) a'4 | g'2. |
+c''4 c''4 c''4 | b'2 b'4 | a'2 a'4 | b'2. |
+b'4 a'4 g'4 | e'2 g'4 | a'2 a'4 | g'2. |
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+d'4 d'4 d'4 | d'2 d'4 | e'2 d'4 | d'2. |
+e'4 d'4 c'4 | b2 d'4 | cis'2 cis'4 | d'2. |
+d'4 d'4 d'4 | d'4( c'4) b4 | e'2 c'4 | b2. |
+e'4 d'4 c'4 | b4( d'4) d'4 | e'2 fis'4 | g'2. |
+g'4 g'4 g'4 | g'2 g'4 | fis'2 fis'4 | g'2. |
+b4 c'4 d'4 | c'2 c'4 | d'2 c'4 | b2. |
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+d'4 c'4 b4 | b4( c'4) b4 | a2 c'4 | b2. |
+g4 g4 g4 | b2 b4 | g4( a4) g4 | fis2. |
+d'4 c'4 b4 | b4( a4) g4 | c'2 a4 | g2. |
+g4 g4 g4 | g4( b4) d'4 | cis'2 c'4 | b2. |
+e'4 e'4 e'4 | d'2 d'4 | d'2 d'4 | d'2. |
+g4 g4 g4 | g2 g4 | g2 fis4 | g2. |
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+g4 g4 g4 | g4( a4) g4 | c2 d4 | g,2. |
+c4 c4 e4 | g2 g,4 | e2 e4 | d2. |
+g4 g4 g4 | d2 e4 | c2 d4 | e2. |
+c4 c4 c4 | d2 d4 | d2 d4 | g2. |
+c4 c4 c4 | g2 g4 | d2 d4 | g2. |
+g,4 a,4 b,4 | c2 e4 | d2 d4 | g,2. |
+"""
+
+[lyrics.1]
+text = "Je -- sus, Thy bound -- less love to me No tho’t can reach, no tongue de -- clare; O knit my thank -- ful heart to Thee, And reign with -- out a ri -- val there. Thine whol -- ly, Thine a -- lone, I’d live, My -- self to Thee en -- tire -- ly give."
+
+[lyrics.2]
+text = "O Lord! how gra -- cious is Thy sway; All fear be -- fore Thy pres -- ence flies; Care, an -- guish, sor -- row, pass a -- way Wher -- e’er Thy heal -- ing beams a -- rise. O Je -- sus! noth -- ing may I see, Noth -- ing de -- sire, a -- part from Thee."
+
+[lyrics.3]
+text = "In suf -- f’ring be Thy love my peace, In weak -- ness be Thine arm my strength; And when the storms of life shall cease, And Thou from heav’n shalt come at length, O Je -- sus! then this heart shall be For -- ev -- er sat -- is -- fied with Thee."
