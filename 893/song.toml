@@ -1,0 +1,88 @@
+title = "Let Every Heart Rejoice and Sing"
+copyrights = [
+  "Lyrics: Henry Stevenson Washburn, 1842 (public domain)",
+  "Music: George James Webb, 1848 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 110
+verse_count = 2
+phrase_breaks = ["5:40", "9:48", "13:40", "17:48", "21:48", "25:48"]
+optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48", "18:48", "19:48", "23:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s8 f'8 f'8 a'8 | c''4 c''4 c''4 c''4 | f''2. c''4 | a'4 f'8.[ g'16] a'4 g'4 |
+f'2 r8 f'8 f'8 a'8 | c''4 c''4 c''4 c''4 | f''2. c''4 | a'4 f'8.[ g'16] a'4 g'4 |
+f'2 r4 a'8.@c[ bes'16] | c''4 a'4 g'4 bes'8.[ c''16] | d''4 bes'4 a'4 a'8.[ bes'16] |
+c''4 f''8[ e''8] d''8[ c''8] bes'8[ a'8] | a'4( g'4) r8 f'8 f'8 a'8 |
+c''4 c''4 c''4 c''4 | f''2. c''8.[ bes'16] | a'4 f'8.[ g'16] a'4 g'4 | f'2. a'8. bes'16 |
+c''4 g'8. a'16 bes'4 f'8. g'16 | a'4 d'8. e'16 f'4 a'4 | g'4 c''4 e''8[ d''8] c''8[ b'8] |
+c''2. bes'4 | a'4 f''4 e''8[ d''8] c''8[ bes'8] | a'4 f''4 e''8[ d''8] c''8 bes'8 |
+a'8. a'16 a'4 bes'4 d''4 | c''2. f'8. f'16 | f'8. f'16 bes'4 a'4 g'4 | f'2! r8 s4.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s8 c'8 c'8 f'8 | a'4 a'4 a'4 a'4 | a'2. g'4 | f'4 f'4 f'4 e'4 |
+f'2 r8 c'8 c'8 f'8 | a'4 a'4 a'4 a'4 | a'2. g'4 | f'4 f'4 f'4 e'4 |
+f'2 r4 f'8.@c[ g'16] | a'4 f'4 e'4 g'8.[ a'16] | bes'4 g'4 f'4 f'8.[ g'16] |
+a'4 a'8[ c''8] bes'8[ a'8] g'8[ f'8] | f'4( e'4) r8 c'8 c'8 f'8 |
+a'4 a'4 a'4 a'4 | a'2. g'4 | f'4 f'4 f'4 e'4 | f'2. a'8. bes'16 |
+c''4 g'8. a'16 bes'4 f'8. g'16 | a'4 d'8. e'16 f'4 f'4 | g'4 e'4 g'8[ f'8] e'8[ d'8] |
+e'2. g'4 | f'4 f'4 g'8[ bes'8] a'8[ g'8] | f'4 f'4 g'8[ bes'8] a'8 g'8 |
+f'8. f'16 f'4 f'4 f'4 | f'2. f'8. f'16 | f'8. f'16 f'4 f'4 e'4 | f'2! r8 s4.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 s8 a8 a8 c'8 | c'4 c'4 c'4 c'4 | c'2. c'4 | c'4 c'8.[ d'16] c'4 bes4 |
+a2 r8 a8 a8 c'8 | c'4 c'4 c'4 c'4 | c'2. c'4 | c'4 c'8.[ d'16] c'4 bes4 |
+a2 r4 r4@c | r4 f8[ a8] c'4 r4 | r4 c'4 c'4 r4 |
+r4 c'4 c'4 c'4 | c'2 r8 a8 a8 c'8 |
+c'4 c'4 c'4 c'4 | c'2. c'4 | c'4 c'8.[ d'16] c'4 bes4 | a2. a8. bes16 |
+c'4 g8. a16 bes4 f8. g16 | a4 d8. e16 f4 c'4 | c'4 g4 g4 g4 |
+g2. c'4 | c'4 c'4 c'4 c'4 | c'4 c'4 c'4 c'8 c'8 |
+c'8. c'16 c'4 bes4 bes4 | a2. c'8. c'16 | a8. a16 d'4 c'4 bes4 | a2! r8 s4.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 s8 f8 f8 f8 | f4 f4 f4 f4 | f2. e4 | f8.[ g16] a8.[ bes16] c'4 c4 |
+f2 r8 f8 f8 f8 | f4 f4 f4 f4 | f2. e4 | f8.[ g16] a8.[ bes16] c'4 c4 |
+f2 r4 r4@c | r4 f4 c4 r4 | r4 c4 f4 r4 |
+r4 f4 f4 f4 | c2 r8 f8 f8 f8 |
+f4 f4 f4 f4 | f2. e4 | f8.[ g16] a8.[ bes16] c'4 c4 | f2. a8. bes16 |
+c'4 g8. a16 bes4 f8. g16 | a4 d8. e16 f4 f4 | e4 c4 g4 g4 |
+c2. e4 | f4 a4 c'4 c4 | f4 a4 c'4 c8 c8 |
+f8. f16 f4 d4 bes,4 | f2. a,8. a,16 | d8. d16 bes,4 c4 c4 | f2! r8 s4.
+"""
+
+[lyrics.1]
+text = "Let ev -- ’ry heart re -- joice and sing, Let cho -- ral an -- thems rise; Ye a -- ged men, and chil -- dren, bring To God your sac -- ri -- fice."
+
+[lyrics.2]
+text = "He bids the sun to rise and set; In heav’n His pow’r is known; And earth, sub -- dued to Him, shall yet Bow low be -- fore His throne."
+
+[lyrics.chorus]
+text = "For He is good, the Lord is good, And kind are all His ways; With songs and hon -- ors sound -- ing loud, The Lord Je -- ho -- vah praise. While the rocks and the rills, While the vales and the hills, A glo -- rious an -- them raise; Let each pro -- long the grate -- ful song, And the God of our fa -- thers praise, And the God of our fa -- thers praise."
+
+[parts.Tenor.lyrics.chorus]
+text = "is good, is good, are all His ways; With songs and hon -- ors sound -- ing loud, The Lord Je -- ho -- vah praise. While the rocks and the rills, While the vales and the hills, A glo -- rious an -- them raise; Let each pro -- long the grate -- ful song, And the God of our fa -- thers praise, And the God of our fa -- thers praise."
+
+[parts.Bass.lyrics.chorus]
+text = "is good, is good, are all His ways; With songs and hon -- ors sound -- ing loud, The Lord Je -- ho -- vah praise. While the rocks and the rills, While the vales and the hills, A glo -- rious an -- them raise; Let each pro -- long the grate -- ful song, And the God of our fa -- thers praise, And the God of our fa -- thers praise."
