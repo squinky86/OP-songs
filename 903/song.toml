@@ -1,0 +1,69 @@
+title = "Lord, Speak to Me"
+copyrights = [
+  "Lyrics: Frances Ridley Havergal, 1872 (public domain)",
+  "Music: 'Holly' by George Hews, 1835 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 4
+phrase_breaks = ["8:64"]
+optional_phrase_breaks = ["4:64", "12:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+a'2 gis'4 a'4 | f'2 a'2 | g'4( a'4) bes'4( c''4) | a'1 |
+c''2 b'4 c''4 | a'2 a'4( c''4) | c''4( bes'4) bes'4( a'4) | g'1 |
+a'2 g'4 g'4 | f'2 g'2 | a'4( bes'4) c''4( d''4) | g'1 |
+a'2 c''4 c''4 | bes'2. g'4 | f'2 e'2 | f'1
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+f'2 f'4 f'4 | f'2 f'2 | e'4( f'4) g'4( e'4) | f'1 |
+f'2 f'4 f'4 | f'2 f'4( a'4) | a'4( g'4) g'4( f'4) | e'1 |
+f'2 e'4 e'4 | d'2 e'2 | f'4( e'4) f'2 | f'2( e'2) |
+f'2 f'4 f'4 | f'2. d'4 | c'2 c'2 | c'1
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+c'2 b4 c'4 | a2 c'2 | c'2 c'2 | c'1 |
+a2 gis4 a4 | c'2 c'2 | c'2 c'2 | c'1 |
+c'2 c'4 bes4 | a2 c'2 | c'4( bes4) a4( d'4) | c'1 |
+c'2 ees'4 ees'4 | d'2. bes4 | a2 bes4( g4) | a1
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+f2 f4 f4 | f2 f2 | c'2 c2 | f1 |
+f2 f4 f4 | f2 f2 | e2 f2 | c1 |
+f2 c4 cis4 | d2 c2 | f4( g4) a4( bes4) | c'1 |
+f2 a4 a4 | bes2. bes,4 | c2 c2 | f1
+"""
+
+[lyrics.1]
+text = "Lord, speak to me, that I may speak In liv -- ing ech -- oes of Thy tone; As Thou hast sought, so let me seek Thy err -- ing chil -- dren, lost and lone."
+
+[lyrics.2]
+text = "O strength -- en me, that while I stand Firm on the Rock, and strong in Thee, I may stretch out a lov -- ing hand To wres -- tlers with the trou -- bled sea."
+
+[lyrics.3]
+text = "O teach me, Lord, that I may teach The pre -- cious things Thou dost im -- part; And wing my words, that they may reach The hid -- den depths of many a heart."
+
+[lyrics.4]
+text = "O fill me with Thy full -- ness, Lord, Un -- til my ver -- y heart o’er -- flow In kin -- dling tho’t and glow -- ing word, Thy love to tell, Thy praise to show."
