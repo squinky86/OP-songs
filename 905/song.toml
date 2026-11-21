@@ -1,0 +1,72 @@
+title = "Love for All"
+copyrights = [
+  "Lyrics: Samuel Longfellow, 1864 (public domain)",
+  "Music: 'Horton' by Franz Xaver Schnyder von Wartensee, 1826 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "A"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 5
+phrase_breaks = ["8:48"]
+optional_phrase_breaks = ["4:48", "12:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+e'2 a'4 | cis''2 a'4 | a'2 fis'4 | e'2. |
+e'4( d''4) b'4 | cis''4( a'4) fis'4 | e'4( gis'4) fis'4 | e'2. |
+cis''2 b'4 | a'2 b'8[ cis''8] | d''2 cis''4 | b'2. |
+e''4( cis''4) a'4 | a'4( fis'4) fis'4 | e'2 b'4 | a'2.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+cis'2 cis'4 | e'2 e'4 | fis'2 d'4 | cis'2. |
+e'2 e'4 | e'2 cis'4 | b4( e'4) dis'4 | e'2. |
+e'2 d'4 | cis'2 d'8[ e'8] | fis'4( e'4) e'4 | e'2. |
+e'2 e'4 | fis'4( d'4) d'4 | b2 d'4 | cis'2.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+a2 a4 | a2 a4 | a2 a4 | a2. |
+gis4( b4) gis4 | a4( cis'4) a4 | gis4( b4) a4 | gis2. |
+a2 gis4 | a2 fis8[ ais8] | b4( gis4) a4 | gis2. |
+cis'4( a4) a4 | a2 a4 | gis2 gis4 | a2.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+a,2 a,4 | a,2 cis4 | d2 d4 | a,2. |
+e2 e4 | a2 a,4 | b,2 b,4 | e2. |
+a2 e4 | fis2 d8[ cis8] | b,2 cis8[ d8] | e2. |
+a2 cis4 | d2 d4 | e2 e4 | a,2.
+"""
+
+[lyrics.1]
+text = "Love for all! and can it be? Can I hope it is for me— I, who strayed so long a -- go; Strayed so far, and fell so low."
+
+[lyrics.2]
+text = "I, the dis -- o -- be -- dient child, Way -- ward, pas -- sion -- ate, and wild; I, who left my Fa -- ther’s home, In for -- bid -- den ways to roam."
+
+[lyrics.3]
+text = "I, who spurned His lov -- ing hold; I, who would not be con -- trolled; I, who would not hear His call; I, the will -- ful prod -- i -- gal."
+
+[lyrics.4]
+text = "To my Fa -- ther can I go! At His feet my -- self I’ll throw; In His house there yet may be Place— a serv -- ant’s place— for me."
+
+[lyrics.5]
+text = "See! my Fa -- ther wait -- ing stands; See! He reach -- es out His hands: God is love, I know, I see, Love for me— yes, e -- ven me."
