@@ -1,0 +1,63 @@
+title = "My Gracious Redeemer I Love!"
+copyrights = [
+  "Lyrics: Benjamin Francis, 1787 (public domain)",
+  "Music: 'Contrast' by Lewis Edson, 1782 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 100
+verse_count = 2
+phrase_breaks = ["5:24", "9:24", "13:24"]
+optional_phrase_breaks = ["3:24", "7:24", "11:24", "15:24"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. g'4. | g'8 d'8 g'8 b'8 g'8 b'8 | d''4. c''4. | b'8 d''8 b'8 a'8 g'8 a'8 | g'4. g'4. |
+g'8 d'8 g'8 b'8 g'8 b'8 | d''4. c''4. | b'8 d''8 b'8 a'8 g'8 a'8 | g'4. b'4. |
+d''8 b'8 d''8 d''8 b'8 d''8 | e''4. c''4. | b'8 c''8 d''8 d''8 c''8 b'8 | a'4. g'4. |
+g'8 d'8 g'8 b'8 g'8 b'8 | d''4. c''4. | b'8 d''8 b'8 a'8 g'8 a'8 | g'4. s4.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. d'4. | d'8 d'8 d'8 g'8 d'8 g'8 | g'4. a'4. | g'8 g'8 g'8 fis'8 g'8 fis'8 | g'4. d'4. |
+d'8 d'8 d'8 g'8 d'8 g'8 | g'4. a'4. | g'8 g'8 g'8 fis'8 g'8 fis'8 | g'4. g'4. |
+g'8 g'8 g'8 g'8 g'8 g'8 | g'4. fis'4. | g'8 fis'8 g'8 g'8 fis'8 g'8 | fis'4. d'4. |
+d'8 d'8 d'8 g'8 d'8 g'8 | g'4. a'4. | g'8 g'8 g'8 fis'8 g'8 fis'8 | g'4. s4.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. b4. | b8 b8 b8 d'8 b8 d'8 | b4. e'4. | d'8 b8 d'8 c'8 b8 c'8 | b4. b4. |
+b8 b8 b8 d'8 b8 d'8 | b4. e'4. | d'8 b8 d'8 c'8 b8 c'8 | b4. b4. |
+b8 g8 b8 b8 g8 b8 | c'4. a4( d'8) | d'8 d'8 d'8 d'8 d'8 d'8 | d'4. b4. |
+b8 b8 b8 d'8 b8 d'8 | b4. e'4. | d'8 b8 d'8 c'8 b8 c'8 | b4. s4.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. g4. | g8 g8 g8 g8 g8 g8 | g4. c4. | d8 d8 d8 d8 d8 d8 | g,4. g4. |
+g8 g8 g8 g8 g8 g8 | g4. c4. | d8 d8 d8 d8 d8 d8 | g,4. g4. |
+g8 g8 g8 g8 g8 g8 | c4. d4. | g8 a8 b8 b8 a8 g8 | d4. g4. |
+g8 g8 g8 g8 g8 g8 | g4. c4. | d8 d8 d8 d8 d8 d8 | g,4. s4.
+"""
+
+[lyrics.1]
+text = "My gra -- cious Re -- deem -- er I love! His prais -- es a -- loud I’ll pro -- claim, And join with the ar -- mies a -- bove, To shout His a -- dor -- a -- ble name. To gaze on His glo -- ries di -- vine Shall be my e -- ter -- nal em -- ploy, And feel them in -- ces -- sant -- ly shine, My bound -- less, in -- ef -- fa -- ble joy."
+
+[lyrics.2]
+text = "Earth’s pal -- a -- ces, scep -- ters, and crowns, Their pride with dis -- dain I sur -- vey; Their pomps are but shad -- ows and sounds, And pass in a mo -- ment a -- way. The crown that my Sav -- ior be -- stows Yon per -- ma -- nent sun shall out -- shine; My joy ev -- er -- last -- ing -- ly flows— My God, my Re -- deem -- er, is mine."
