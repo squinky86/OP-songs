@@ -24,9 +24,6 @@ c''4@c c''4 ees''4 ees''4 | aes'4 aes'4 c''2 | bes'8. aes'16 aes'8. f'16 ees'4 a
 c''4 c''4 ees''4 ees''4 | aes'4 aes'4 c''2 | bes'8. aes'16 aes'8. f'16 ees'4 bes'4 | aes'2. r4
 """
 
-[parts.Soprano.lyrics.chorus]
-text = "What a glo -- rious change for me; Je -- sus leads my soul a -- right; From sin’s bond -- age I am free, Out of dark -- ness in -- to light."
-
 [parts.Alto]
 choral_type = "alto"
 clef = "treble"
@@ -71,3 +68,6 @@ text = "Out of weak -- ness in -- to strength, Out of shame to glo -- ry bright;
 
 [lyrics.chorus]
 text = "What a glo -- rious change for me; yes, Je -- sus leads my soul a -- right; From sin’s bond -- age I am free, yes, Out of dark -- ness in -- to light."
+
+[parts.Soprano.lyrics.chorus]
+text = "What a glo -- rious change for me; Je -- sus leads my soul a -- right; From sin’s bond -- age I am free, Out of dark -- ness in -- to light."

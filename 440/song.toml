@@ -1,32 +1,17 @@
 title = "Take the World, but Give Me Jesus"
-verse_count = 4
-key_signature = "F"
-time_sig_numerator = 3
-time_sig_denominator = 4
-tempo_bpm = 100
-phrase_breaks = ["5:32", "9:32", "13:32"]
-optional_phrase_breaks = ["3:32", "7:32", "11:32", "15:32"]
 copyrights = [
   "Lyrics: Fanny J. Crosby, 1879 (public domain)",
   "Music: John R. Sweney, 1879 (public domain)",
   "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
-
-[lyrics.1]
-text = "Take the world, but give me Je -- sus, All its joys are but a name; But His love a -- bid -- eth ev -- er, Through e -- ter -- nal years the same."
-
-[lyrics.2]
-text = "Take the world, but give me Je -- sus, Sweet -- est com -- fort of my soul; With my Sav -- ior watch -- ing o’er me, I can sing though bil -- lows roll."
-
-[lyrics.3]
-text = "Take the world, but give me Je -- sus, Let me view His con -- stant smile; Then through -- out my pil -- grim jour -- ney Light will cheer me all the while."
-
-[lyrics.4]
-text = "Take the world, but give me Je -- sus. In His cross my trust shall be, Till, with clear -- er, bright -- er vi -- sion, Face to face my Lord I see."
-
-[lyrics.chorus]
-text = "Oh, the height and depth of mer -- cy, Oh, the length and breadth of love! Oh, the full -- ness of re -- demp -- tion, Pledge of end -- less life a -- bove!"
+key_signature = "F"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 4
+phrase_breaks = ["5:32", "9:32", "13:32"]
+optional_phrase_breaks = ["3:32", "7:32", "11:32", "15:32"]
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -123,3 +108,18 @@ s2 f8. f16
 | c4. c8 c8. c16
 | f2 s4
 """
+
+[lyrics.1]
+text = "Take the world, but give me Je -- sus, All its joys are but a name; But His love a -- bid -- eth ev -- er, Through e -- ter -- nal years the same."
+
+[lyrics.2]
+text = "Take the world, but give me Je -- sus, Sweet -- est com -- fort of my soul; With my Sav -- ior watch -- ing o’er me, I can sing though bil -- lows roll."
+
+[lyrics.3]
+text = "Take the world, but give me Je -- sus, Let me view His con -- stant smile; Then through -- out my pil -- grim jour -- ney Light will cheer me all the while."
+
+[lyrics.4]
+text = "Take the world, but give me Je -- sus. In His cross my trust shall be, Till, with clear -- er, bright -- er vi -- sion, Face to face my Lord I see."
+
+[lyrics.chorus]
+text = "Oh, the height and depth of mer -- cy, Oh, the length and breadth of love! Oh, the full -- ness of re -- demp -- tion, Pledge of end -- less life a -- bove!"

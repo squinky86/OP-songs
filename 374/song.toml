@@ -1,18 +1,19 @@
+# Tune: Les Rameaux.
 title = "The Palms"
-verse_count = 3
+copyrights = [
+  "Lyrics: from the French 'Les Rameaux'; English by Theodore T. Barker (public domain)",
+  "Music: Jean-Baptiste Faure, 1872 (public domain)",
+  "Arrangement: Charles H. Gabriel, 1925 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "Ab"
 time_sig_numerator = 4
 time_sig_denominator = 4
 tempo_bpm = 84
+verse_count = 3
 phrase_breaks = ["2:64", "4:64", "6:64", "8:64", "10:64", "12:64", "14:64"]
 non_breaking_phrase_breaks = ["12:60"]
 converge_verses = false
-copyrights = [
-  "Lyrics: from the French 'Les Rameaux'; English by Theodore T. Barker (public domain)",
-  "Music: 'Les Rameaux' by Jean-Baptiste Faure, 1872 (public domain)",
-  "Arrangement: Charles H. Gabriel, 1925 (public domain)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -110,9 +111,6 @@ ees1 |
 aes,2. r4
 """
 
-[lyrics.chorus]
-text = "Join all, and sing Ho -- san -- na! Let ev -- 'ry voice re -- sound with u -- nit -- ed ac -- cla -- ma -- tion, Praised be the Lord, Ho -- san -- na! Bless Him who com -- eth to bring us sal -- va -- tion."
-
 [lyrics.1]
 text = "O'er all the way green palms and blos -- soms gay Are strewn this day in fes -- tal prep -- a -- ra -- tion, Where Je -- sus comes, to wipe our tears a -- way; E'en now the throng to wel -- come Him pre -- pare."
 
@@ -122,6 +120,8 @@ text = "His word goes forth, and peo -- ple by its might Once more their free --
 [lyrics.3]
 text = "Sing and re -- joice, O blest Je -- ru -- sa -- lem, Of all thy songs sing the e -- man -- ci -- pa -- tion; Thro' bound -- less love, the Christ of Beth -- le -- hem Brings forth the hope to thee for -- ev -- er -- more."
 
+[lyrics.chorus]
+text = "Join all, and sing Ho -- san -- na! Let ev -- 'ry voice re -- sound with u -- nit -- ed ac -- cla -- ma -- tion, Praised be the Lord, Ho -- san -- na! Bless Him who com -- eth to bring us sal -- va -- tion."
 
 [parts.Soprano.lyrics.chorus]
 text = "Join, sing His name di -- vine, Let ev -- 'ry voice re -- sound with u -- nit -- ed ac -- cla -- ma -- tion, Ho -- san -- na! Praised be the Lord, Bless Him who com -- eth to bring us sal -- va -- tion."

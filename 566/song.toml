@@ -25,9 +25,6 @@ aes'2 bes'4 c''2 c''4 | ees''4. des''8 c''4 c''4( bes'4) aes'4 | bes'2.~ bes'2 b
 bes'2 c''4 des''4( c''4) bes'4 | aes'4. g'8 aes'4 c''2 bes'4 | aes'2.~ aes'2 s4
 """
 
-[parts.Soprano.lyrics.chorus]
-text = "He died of a brok -- en heart for thee, He died of a brok -- en heart; O won -- drous love! it is for thee He died of a brok -- en heart."
-
 [parts.Alto]
 choral_type = "alto"
 clef = "treble"
@@ -81,3 +78,6 @@ text = "Have you read how He looked to heav'n and said, “'Tis fin -- ished,”
 
 [lyrics.chorus]
 text = "He died of a brok -- en heart for thee, He died He died of a brok -- en heart; O won -- drous love! it is for thee He died of a brok -- en heart."
+
+[parts.Soprano.lyrics.chorus]
+text = "He died of a brok -- en heart for thee, He died of a brok -- en heart; O won -- drous love! it is for thee He died of a brok -- en heart."

@@ -1,17 +1,17 @@
 title = "How Sweet the Name of Jesus Sounds"
-verse_count = 7
-key_signature = "G"
-time_sig_numerator = 6
-time_sig_denominator = 4
-tempo_bpm = 150
-phrase_breaks = ["5:80", "9:80"]
-optional_phrase_breaks = ["3:80", "7:80"]
 copyrights = [
   "Lyrics: John Newton, 1779 (public domain)",
   "Music: 'Ortonville' by Thomas Hastings, 1837 (public domain)",
   "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "G"
+time_sig_numerator = 6
+time_sig_denominator = 4
+tempo_bpm = 150
+verse_count = 7
+phrase_breaks = ["5:80", "9:80"]
+optional_phrase_breaks = ["3:80", "7:80"]
 
 [parts.Soprano]
 choral_type = "soprano"

@@ -1,17 +1,16 @@
 title = "More About Jesus"
-subtitle = ""
-verse_count = 4
+copyrights = [
+  "Lyrics: E. E. Hewitt, 1887 (public domain)",
+  "Music: John R. Sweney, 1887 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "Ab"
 time_sig_numerator = 6
 time_sig_denominator = 8
 tempo_bpm = 104
+verse_count = 4
 phrase_breaks = ["4:48", "8:48", "12:48", "16:48"]
 optional_phrase_breaks = ["2:48", "6:48", "10:48", "14:48"]
-copyrights = [
-  "Lyrics: Eliza E. Hewitt, 1887 (public domain)",
-  "Music: John R. Sweney, 1887 (public domain)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
 
 [parts.Soprano]
 choral_type = "soprano"

@@ -1,18 +1,18 @@
 title = "Transformed"
-verse_count = 4
+copyrights = [
+  "Lyrics: Ophelia Guyon Browning, 1920 (public domain)",
+  "Music: B. D. Ackley, 1920 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "F"
 time_sig_numerator = 4
 time_sig_denominator = 4
 tempo_bpm = 84
+verse_count = 4
 phrase_breaks = ["5:48", "9:48", "13:48"]
 optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
 non_breaking_phrase_breaks = ["10:16", "10:48", "12:64"]
-copyrights = [
-  "Lyrics: Ophelia Guyon Browning, 1920 (public domain)",
-  "Music: Bentley DeForest Ackley, 1920 (public domain)",
-  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
 
 [parts.Soprano]
 choral_type = "soprano"

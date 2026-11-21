@@ -1,16 +1,16 @@
 title = "Watchman, Tell Us of the Night"
-verse_count = 3
+copyrights = [
+  "Lyrics: John Bowring, 1825 (public domain)",
+  "Music: Lowell Mason, 1831 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "D"
 time_sig_numerator = 3
 time_sig_denominator = 2
 tempo_bpm = 130
+verse_count = 3
 phrase_breaks = ["4:96", "8:96", "12:96"]
-copyrights = [
-  "Lyrics: John Bowring, 1825 (public domain)",
-  "Music: 'Watchman' by Lowell Mason, 1831 (public domain)",
-  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
 optional_phrase_breaks = ["2:96", "6:96", "10:96", "14:96"]
 
 [parts.Soprano]

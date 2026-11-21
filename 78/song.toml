@@ -1,8 +1,7 @@
 title = "Blest Be the Tie That Binds"
-subtitle = ""
 copyrights = [
   "Lyrics: John Fawcett, 1782 (public domain)",
-  "Music: 'Dennis' by Johann G. Nägeli, 1828 (public domain)",
+  "Music: 'Dennis' by Hans Georg Nägeli, 1828 (public domain)",
   "Arrangement: Lowell Mason, 1845 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
@@ -11,8 +10,8 @@ time_sig_numerator = 3
 time_sig_denominator = 4
 tempo_bpm = 88
 verse_count = 6
-optional_phrase_breaks = ["4:32", "11:32"]
 phrase_breaks = ["7:32"]
+optional_phrase_breaks = ["4:32", "11:32"]
 
 [parts.Soprano]
 choral_type = "soprano"

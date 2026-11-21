@@ -1,5 +1,4 @@
 title = "Glory to Christ, Our King"
-subtitle = ""
 copyrights = [
   "Lyrics and Music: Austin Taylor, 1911 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license"
@@ -9,8 +8,8 @@ time_sig_numerator = 6
 time_sig_denominator = 8
 tempo_bpm = 103
 verse_count = 3
-optional_phrase_breaks = ["2:48", "6:48", "10:48", "14:48", "18:48", "22:48"]
 phrase_breaks = ["4:48", "8:48", "12:48", "16:48", "20:40", "24:48"]
+optional_phrase_breaks = ["2:48", "6:48", "10:48", "14:48", "18:48", "22:48"]
 
 [parts.Soprano]
 choral_type = "soprano"

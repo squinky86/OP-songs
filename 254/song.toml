@@ -1,17 +1,17 @@
 title = "All Hail, Thou Son of David!"
-verse_count = 3
-key_signature = "Bb"
-time_sig_numerator = 4
-time_sig_denominator = 4
-tempo_bpm = 96
-phrase_breaks = [ "5:16", "9:48", "13:16", "17:48", "21:48", "25:48" ]
-non_breaking_phrase_breaks = [ "5:48",
-  "6:64", "13:48", "14:64", "18:16", "18:48", "19:16", "22:16", "22:48", "23:16", "26:16", "26:48", "27:16" ]
 copyrights = [
   "Lyrics and Music: Charles H. Gabriel, 1928 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "Bb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 3
+phrase_breaks = [ "5:16", "9:48", "13:16", "17:48", "21:48", "25:48" ]
 optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48", "19:48", "23:48", "27:48"]
+non_breaking_phrase_breaks = [ "5:48",
+  "6:64", "13:48", "14:64", "18:16", "18:48", "19:16", "22:16", "22:48", "23:16", "26:16", "26:48", "27:16" ]
 
 [parts.Soprano]
 choral_type = "soprano"

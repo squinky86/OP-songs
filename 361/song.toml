@@ -1,15 +1,15 @@
 title = "’Til the Whole World Knows"
-verse_count = 4
+copyrights = [
+  "Lyrics: A. H. Ackley, 1923 (public domain)",
+  "Music: B. D. Ackley, 1923 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "Db"
 time_sig_numerator = 4
 time_sig_denominator = 4
 tempo_bpm = 112
+verse_count = 4
 phrase_breaks = ["5:48", "9:48", "11:48", "13:48"]
-copyrights = [
-  "Lyrics: Alfred Henry Ackley, 1923 (public domain)",
-  "Music: Bentley DeForest Ackley, 1923 (public domain)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
 optional_phrase_breaks = ["3:48", "7:48", "15:48"]
 
 [parts.Soprano]
@@ -60,12 +60,6 @@ s2. des4 | des4 des4 des4 des4 | des4 des4 des4 des8 des8 | ees4 aes4 aes4 aes4
 | <des aes>2. s4
 """
 
-[parts.Bass.lyrics.chorus]
-text = "’Til the world the whole world knows, ’Til the whole world knows, I will shout and sing of Christ my king, ’Til the whole world knows."
-
-[parts.Tenor.lyrics.chorus]
-text = "’Til the world, ’til the whole world knows, ’Til the world, ’til the whole world, whole world knows, I will shout and sing of Christ my king, ’Til the whole world knows."
-
 [lyrics.1]
 text = "I’ll tell to all that God is love; For the world has ne -- ver known The great com -- pas -- sion of His heart For the way -- ward and the lone."
 
@@ -80,3 +74,9 @@ text = "E -- ter -- nal glo -- ry is the goal That a -- waits the sons of light;
 
 [lyrics.chorus]
 text = "’Til the whole world knows, ’Til the whole world knows, I will shout and sing of Christ my king, ’Til the whole world knows."
+
+[parts.Tenor.lyrics.chorus]
+text = "’Til the world, ’til the whole world knows, ’Til the world, ’til the whole world, whole world knows, I will shout and sing of Christ my king, ’Til the whole world knows."
+
+[parts.Bass.lyrics.chorus]
+text = "’Til the world the whole world knows, ’Til the whole world knows, I will shout and sing of Christ my king, ’Til the whole world knows."

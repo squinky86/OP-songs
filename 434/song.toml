@@ -1,4 +1,11 @@
+# Tune: Tehran.
 title = "Is It for Me, Dear Savior?"
+copyrights = [
+  "Lyrics: Frances Ridley Havergal, 1871 (public domain)",
+  "Music: T. C. O’Kane, 1882 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "F"
 time_sig_numerator = 3
 time_sig_denominator = 4
@@ -6,12 +13,6 @@ tempo_bpm = 105
 verse_count = 4
 phrase_breaks = ["5:32", "9:32", "13:32"]
 optional_phrase_breaks = ["3:32", "7:32", "11:32", "15:32"]
-copyrights = [
-  "Lyrics: Frances Ridley Havergal, 1871 (public domain)",
-  "Music: 'Tehran' by Tullius Clinton O’Kane, 1882 (public domain)",
-  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
 
 [parts.Soprano]
 choral_type = "soprano"

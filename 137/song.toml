@@ -1,5 +1,4 @@
 title = "The Glorious By and By"
-subtitle = ""
 copyrights = [
   "Lyrics: Anonymous, 1883 (public domain)",
   "Music: R. M. McIntosh, 1883 (public domain)",
@@ -10,7 +9,6 @@ time_sig_numerator = 6
 time_sig_denominator = 8
 tempo_bpm = 80
 verse_count = 4
-
 phrase_breaks = ["3:24", "7:24", "5:24", "9:32", "11:32", "13:24", "15:24"]
 
 [parts.Soprano]
@@ -45,9 +43,6 @@ notes = """
 s4. e8 e8 e8 | e4. e8 e8 e8 | b,4. b,8 b,8 b,8 | b,4. b,8 b,8 b,8 | e4. e8 e8 e8 | e4. e8 e8 e8 | a,4. a,8 a,8 a,8 | b,4. b,8 b,8 b,8 | e4. r8 e8 e8 | e4. e8 e8 e8 | b,4. r8 b,8 b,8 | b,4. b,8 b,8 b,8 | e4. e8 e8 e8 | e4. e8 e8 e8 | a,4. a,8 a,8 a,8 | b,4. b,8 b,8 b,8 | e4. s4.
 """
 
-[lyrics.s1]
-text = "By and by, yes, \"by and by,\" By and by, yes, \"by and by;\""
-
 [lyrics.1]
 text = "It may be far, it may be near, There is a hope, there is a fear, But in the fu -- ture wait -- ing I Shall Je -- sus see, yes, \"by and by.\" @s1 But in the fu -- ture wait -- ing, I Shall Je -- sus see, yes, \"by and by.\""
 
@@ -59,3 +54,6 @@ text = "Yes, \"by and by\" will soon be now, And God will wipe each tear -- stai
 
 [lyrics.4]
 text = "O ver -- dant fields! O shin -- ing shore! The Lamb of God spreads wide the door; Ah, gold -- en cit -- y, sure -- ly I Shall see thy glo -- ries \"by and by.\" @s1 Ah, gold -- en cit -- y, sure -- ly I Shall see thy glo -- ries \"by and by.\""
+
+[lyrics.s1]
+text = "By and by, yes, \"by and by,\" By and by, yes, \"by and by;\""

@@ -1,9 +1,13 @@
 title = "As the Life of a Flower"
-subtitle = ""
-tempo_bpm = 90
+copyrights = [
+    "Lyrics: Laura E. Newell, 1904 (public domain)",
+    "Music: C. H. Ramsey, 1904 (public domain)",
+    "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license"
+]
 key_signature = "Bb"
 time_sig_numerator = 4
 time_sig_denominator = 4
+tempo_bpm = 90
 verse_count = 3
 phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "13:48"]
 optional_phrase_breaks = ["2:48", "4:48", "6:48", "8:48", "16:48"]
@@ -15,11 +19,6 @@ non_breaking_phrase_breaks = [
     "14:16", "14:48",
     "15:16", "15:48",
     "16:16",
-]
-copyrights = [
-    "Lyrics: Laura E. Newell, 1904 (public domain)",
-    "Music: C. H. Ramsey, 1904 (public domain)",
-    "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license"
 ]
 
 [parts.Soprano]

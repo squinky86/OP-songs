@@ -1,35 +1,17 @@
 title = "Jesus"
 subtitle = "There Is a Name I Love to Hear"
-verse_count = 4
-key_signature = "G"
-time_sig_numerator = 3
-time_sig_denominator = 4
-tempo_bpm = 96
-phrase_breaks = ["5:40", "9:24", "13:24"]
-optional_phrase_breaks = ["3:48", "7:48", "11:24", "15:48"]
 copyrights = [
   "Lyrics: Ina Duley Ogdon, 1912 (public domain)",
   "Music: B. D. Ackley, 1912 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
-
-[lyrics.s1]
-text = "Je -- sus, bless -- ed Je -- sus!"
-
-[lyrics.1]
-text = "There is a name I love to hear, @s1 It falls like mu -- sic on my ear, @s1"
-
-[lyrics.2]
-text = "There is a pic -- ture in my heart, @s1 It makes the lov -- ing tear- -- drops start, @s1"
-
-[lyrics.3]
-text = "There is a sa -- cred mem -- o -- ry, @s1 Of Beth -- le -- hem to Cal -- va -- ry, @s1"
-
-[lyrics.4]
-text = "There is a home in love di -- vine, @s1 I am so glad that He is mine, @s1"
-
-[lyrics.chorus]
-text = "No oth -- er is so dear to me, As Je -- sus, Lamb of Cal -- va -- ry, His pre -- cious life He gave for me, Je -- sus, bless -- ed Je -- sus!"
+key_signature = "G"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 4
+phrase_breaks = ["5:40", "9:24", "13:24"]
+optional_phrase_breaks = ["3:48", "7:48", "11:24", "15:48"]
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -126,3 +108,21 @@ c2 r4 |
 d4! d4! d8 d8 |
 d4 <d g,>4 s4
 """
+
+[lyrics.1]
+text = "There is a name I love to hear, @s1 It falls like mu -- sic on my ear, @s1"
+
+[lyrics.2]
+text = "There is a pic -- ture in my heart, @s1 It makes the lov -- ing tear- -- drops start, @s1"
+
+[lyrics.3]
+text = "There is a sa -- cred mem -- o -- ry, @s1 Of Beth -- le -- hem to Cal -- va -- ry, @s1"
+
+[lyrics.4]
+text = "There is a home in love di -- vine, @s1 I am so glad that He is mine, @s1"
+
+[lyrics.chorus]
+text = "No oth -- er is so dear to me, As Je -- sus, Lamb of Cal -- va -- ry, His pre -- cious life He gave for me, Je -- sus, bless -- ed Je -- sus!"
+
+[lyrics.s1]
+text = "Je -- sus, bless -- ed Je -- sus!"

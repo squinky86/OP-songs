@@ -1,6 +1,6 @@
 title = "When the Waiting Time"
 copyrights = [
-  "Lyrics: J. H. Fillmore, 1885 (public domain)",
+  "Lyrics: J. H. Fillmore, Sr., 1885 (public domain)",
   "Music: Fred A. Fillmore, 1885 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
@@ -41,9 +41,6 @@ f'8 aes'8 aes'8 aes'8 aes'8 f'8 f'8 des'8 | aes'8 ges'8 ges'8 ges'8 ges'8 ges'8 
 f'4. f'8 ges'4. ges'8 | f'8 f'8 ges'8 ges'8 f'4 s4
 """
 
-[parts.Alto.lyrics.chorus]
-text = "When the wait -- ing, wait -- ing, wait -- ing, When the wait -- ing time is o -- ver, When the wait -- ing time is o -- ver, When from sin and sor -- row free, We shall meet be -- yond the riv -- er, When the wait -- ing time is o -- ver, There to dwell e -- ter -- nal -- ly. e -- ter -- nal -- ly."
-
 [parts.Tenor]
 choral_type = "tenor"
 clef = "bass"
@@ -57,9 +54,6 @@ bes8 bes8 bes8 bes8 bes8 bes8 ees'8 des'8 | c'8 c'8 c'8 des'8 ees'4! c'8 c'8 |
 des'8 des'8 des'8 des'8 des'8 aes8 aes8 aes8 | bes8 des'8 des'8 des'8 des'8 des'8 des'8 des'8 |
 des'4. aes8 aes4. aes8 | aes8 aes8 bes8 bes8 aes4 s4
 """
-
-[parts.Tenor.lyrics.chorus]
-text = "When the wait -- ing, wait -- ing, wait -- ing, When the wait -- ing time is o -- ver, When the wait -- ing time is o -- ver, When from sin and sor -- row free, We shall meet be -- yond the riv -- er, When the wait -- ing time is o -- ver, There to dwell e -- ter -- nal -- ly. e -- ter -- nal -- ly."
 
 [parts.Bass]
 choral_type = "bass"
@@ -75,9 +69,6 @@ des8 des8 des8 des8 des8 des8 des8 f8 | ges8 ges8 ges8 ges8 ges8 ges8 ges8 ges8 
 aes4. aes8 aes4. aes8 | des2. s4
 """
 
-[parts.Bass.lyrics.chorus]
-text = "When the wait -- ing, wait -- ing, wait -- ing, When the wait -- ing time is o -- ver, When the wait -- ing time is o -- ver, When from sin and sor -- row free, We shall meet be -- yond the riv -- er, When the wait -- ing time is o -- ver, There to dwell e -- ter -- nal -- ly."
-
 [lyrics.1]
 text = "When the wait -- ing time is o -- ver, When the Mas -- ter bids us come, In the glad and bright for -- ev -- er, We shall rest in peace at home."
 
@@ -89,3 +80,12 @@ text = "When the wait -- ing time is o -- ver, When the toils of life are past, 
 
 [lyrics.chorus]
 text = "When the wait -- ing time is o -- ver, When from sin and sor -- row free, We shall meet be -- yond the riv -- er, There to dwell e -- ter -- nal -- ly."
+
+[parts.Alto.lyrics.chorus]
+text = "When the wait -- ing, wait -- ing, wait -- ing, When the wait -- ing time is o -- ver, When the wait -- ing time is o -- ver, When from sin and sor -- row free, We shall meet be -- yond the riv -- er, When the wait -- ing time is o -- ver, There to dwell e -- ter -- nal -- ly. e -- ter -- nal -- ly."
+
+[parts.Tenor.lyrics.chorus]
+text = "When the wait -- ing, wait -- ing, wait -- ing, When the wait -- ing time is o -- ver, When the wait -- ing time is o -- ver, When from sin and sor -- row free, We shall meet be -- yond the riv -- er, When the wait -- ing time is o -- ver, There to dwell e -- ter -- nal -- ly. e -- ter -- nal -- ly."
+
+[parts.Bass.lyrics.chorus]
+text = "When the wait -- ing, wait -- ing, wait -- ing, When the wait -- ing time is o -- ver, When the wait -- ing time is o -- ver, When from sin and sor -- row free, We shall meet be -- yond the riv -- er, When the wait -- ing time is o -- ver, There to dwell e -- ter -- nal -- ly."

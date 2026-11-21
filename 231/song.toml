@@ -1,16 +1,16 @@
 title = "The Church's One Foundation"
 subtitle = "Aurelia"
-verse_count = 4
+copyrights = [
+  "Lyrics: Samuel J. Stone, 1866 (public domain)",
+  "Music: Samuel Sebastian Wesley, 1864 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "Eb"
 time_sig_numerator = 4
 time_sig_denominator = 4
 tempo_bpm = 96
+verse_count = 4
 phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "11:48", "13:48", "15:48"]
-copyrights = [
-  "Lyrics: Samuel J. Stone, 1866 (public domain)",
-  "Music: 'Aurelia' by Samuel Sebastian Wesley, 1864 (public domain)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
 commentary = """
 <p>These same lyrics are also set to entirely different music, George James Webb's 1830 tune (the setting more familiar to many singers) also under the title <a href="/songs/235">The Church's One Foundation</a>.</p>
 """

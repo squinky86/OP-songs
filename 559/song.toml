@@ -29,9 +29,6 @@ ees'2 c''4 bes'8. c''16 | d''2 d''2 | d''2 ees''4 d''8. d''16 | c''4 g'4 a'4 bes
 d''4 {3 f'8 bes'8 d''8 } c''4 {3 f'8[ a'8] c''8 } | bes'2. r4
 """
 
-[parts.Soprano.lyrics.chorus]
-text = "Why will you lin -- ger here in bond -- age! Sin rules in the dark -- ness, Je -- sus will re -- deem you, Come in -- to the light while it is day. Why will you lin -- ger here in bond -- age? Let Him loose your fet -- ters, He o -- pens the pris -- on wide, Then come un -- to the Lord while you may."
-
 [parts.Alto]
 choral_type = "alto"
 clef = "treble"
@@ -103,3 +100,6 @@ text = "Why will you in bond -- age stay? Sin and death no hope can of -- fer Of
 
 [lyrics.chorus]
 text = "Come, come, come, come, come, come, come, Why in bond -- age will you lin -- ger? Sin rules in the drear -- y dark -- ness, Je -- sus Christ will now re -- deem you, Come, come, while ’tis day, Why in bond -- age will you lin -- ger? Won’t you let Him loose your gall -- ing fet -- ters, He now o -- pens the pris -- on wide, Then come, come, while you may."
+
+[parts.Soprano.lyrics.chorus]
+text = "Why will you lin -- ger here in bond -- age! Sin rules in the dark -- ness, Je -- sus will re -- deem you, Come in -- to the light while it is day. Why will you lin -- ger here in bond -- age? Let Him loose your fet -- ters, He o -- pens the pris -- on wide, Then come un -- to the Lord while you may."

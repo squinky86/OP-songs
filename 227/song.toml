@@ -1,16 +1,16 @@
 title = "Eternal King, Lead On!"
-verse_count = 3
+copyrights = [
+  "Lyrics: Charles H. Gabriel as Charlotte G. Homer, 1929 (public domain)",
+  "Music: Charles H. Gabriel, 1929 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "F"
 time_sig_numerator = 4
 time_sig_denominator = 4
 tempo_bpm = 100
+verse_count = 3
 phrase_breaks = ["5:48", "9:48", "13:32", "17:48", "21:48", "23:48"]
 optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48", "19:48"]
-copyrights = [
-  "Lyrics: Charlotte G. Homer, 1929 (public domain)",
-  "Music: Charles H. Gabriel, 1929 (public domain)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
 non_breaking_phrase_breaks = ["18:16", "18:48", "19:16"]
 
 [parts.Soprano]

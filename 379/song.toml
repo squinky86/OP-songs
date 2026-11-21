@@ -1,16 +1,16 @@
 title = "Angels, Roll the Rock Away"
-verse_count = 6
+copyrights = [
+  "Lyrics: Thomas Scott, 1769 (public domain)",
+  "Music: 'Hendon' by Henri Abraham César Malan, 1827 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "F"
 time_sig_numerator = 4
 time_sig_denominator = 4
 tempo_bpm = 110
+verse_count = 6
 phrase_breaks = ["2:64", "4:64", "6:64", "8:64", "10:64"]
-copyrights = [
-  "Lyrics: Thomas Scott, 1769 (public domain)",
-  "Music: Henri Abraham César Malan, 1827 (public domain)",
-  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
 
 [parts.Soprano]
 choral_type = "soprano"

@@ -1,16 +1,16 @@
+# Tune: Chouteau.
 title = "Just Outside the Door"
-subtitle = ""
-verse_count = 4
+copyrights = [
+  "Lyrics: James Rowe, 1910 (public domain)",
+  "Music: B. D. Ackley, 1910 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "A"
 time_sig_numerator = 3
 time_sig_denominator = 4
 tempo_bpm = 90
+verse_count = 4
 phrase_breaks = ["5:32", "9:32", "13:32"]
-copyrights = [
-  "Lyrics: James Rowe, 1910 (public domain)",
-  "Music: 'Chouteau' by Bentley D. Ackley, 1910 (public domain)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
 optional_phrase_breaks = ["3:32", "7:32", "11:32", "15:32"]
 
 [parts.Soprano]

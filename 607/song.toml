@@ -57,9 +57,6 @@ dis'8 dis'8 e'8 fis'8 e'4 dis'4 |
 e'2. r4
 """
 
-[parts.Alto.lyrics.chorus]
-text = "Where He leads I’ll fol -- low, Where He leads I’ll fol -- low, Fol -- low all the way, yes, fol -- low all the way. Where He leads I’ll fol -- low, Where He leads I’ll fol -- low, Fol -- low Je -- sus ev -- ’ry day."
-
 [parts.Tenor]
 choral_type = "tenor"
 clef = "bass"
@@ -82,9 +79,6 @@ gis8. gis16 gis8 gis8 e8 e8 r4 |
 fis8 b8 b8 b8 b4 a4 |
 gis2. r4
 """
-
-[parts.Tenor.lyrics.chorus]
-text = "Where He leads I’ll fol -- low, Where He leads I’ll fol -- low, Fol -- low all the way, yes, fol -- low all the way. Where He leads I’ll fol -- low, Where He leads I’ll fol -- low, Fol -- low Je -- sus ev -- ’ry day."
 
 [parts.Bass]
 choral_type = "bass"
@@ -109,9 +103,6 @@ b,8 b,8 b,8 b,8 b,4 b,4 |
 e2. r4
 """
 
-[parts.Bass.lyrics.chorus]
-text = "Where He leads I’ll fol -- low, Where He leads I’ll fol -- low, Fol -- low all the way, yes, fol -- low all the way. Where He leads I’ll fol -- low, Where He leads I’ll fol -- low, Fol -- low Je -- sus ev -- ’ry day."
-
 [lyrics.1]
 text = "Sweet are the prom -- is -- es, kind is the word, Dear -- er far than an -- y mes -- sage man ev -- er heard; Pure was the mind of Christ, sin -- less I see; He the great ex -- am -- ple is, and pat -- tern for me."
 
@@ -123,3 +114,12 @@ text = "List to His lov -- ing words, “Come un -- to Me”; Wear -- y, heav --
 
 [lyrics.chorus]
 text = "Where He leads I’ll fol -- low, Fol -- low all the way. Where He leads I’ll fol -- low, Fol -- low Je -- sus ev -- ’ry day."
+
+[parts.Alto.lyrics.chorus]
+text = "Where He leads I’ll fol -- low, Where He leads I’ll fol -- low, Fol -- low all the way, yes, fol -- low all the way. Where He leads I’ll fol -- low, Where He leads I’ll fol -- low, Fol -- low Je -- sus ev -- ’ry day."
+
+[parts.Tenor.lyrics.chorus]
+text = "Where He leads I’ll fol -- low, Where He leads I’ll fol -- low, Fol -- low all the way, yes, fol -- low all the way. Where He leads I’ll fol -- low, Where He leads I’ll fol -- low, Fol -- low Je -- sus ev -- ’ry day."
+
+[parts.Bass.lyrics.chorus]
+text = "Where He leads I’ll fol -- low, Where He leads I’ll fol -- low, Fol -- low all the way, yes, fol -- low all the way. Where He leads I’ll fol -- low, Where He leads I’ll fol -- low, Fol -- low Je -- sus ev -- ’ry day."

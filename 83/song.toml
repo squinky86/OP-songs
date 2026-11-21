@@ -1,15 +1,14 @@
 title = "Wondrous Love"
-subtitle = ""
-key_signature = "Eb"
-time_sig_numerator = 4
-time_sig_denominator = 4
-tempo_bpm = 80
-verse_count = 5
 copyrights = [
   "Lyrics: Martha M. Stockton, 1871 (public domain)",
   "Music: William G. Fischer, 1872 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "Eb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 80
+verse_count = 5
 phrase_breaks = ["5:48", "9:64", "13:48"]
 optional_phrase_breaks = ["3:56", "7:56", "11:32", "15:32"]
 

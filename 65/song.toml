@@ -1,16 +1,16 @@
 title = "Awake, and Sing the Song"
 subtitle = "Silver Street"
-verse_count = 4
+copyrights = [
+  "Lyrics: William Hammond, 1745 (public domain)",
+  "Music: Isaac Smith, c. 1770 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "Bb"
 time_sig_numerator = 4
 time_sig_denominator = 4
 tempo_bpm = 100
+verse_count = 4
 phrase_breaks = ["4:48"]
-copyrights = [
-  "Lyrics: William Hammond, 1745 (public domain)",
-  "Music: 'Silver Street' by Isaac Smith, c. 1770 (public domain)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
 commentary = "<p>This same hymn text is also available set to the tune <a href=\"/songs/64\">St. Thomas</a>.</p>"
 
 [parts.Soprano]

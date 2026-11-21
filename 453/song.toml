@@ -1,17 +1,17 @@
 title = "Sweet By-and-By"
-verse_count = 3
-key_signature = "G"
-time_sig_numerator = 4
-time_sig_denominator = 4
-tempo_bpm = 105
-phrase_breaks = ["5:48", "9:48", "13:48"]
-optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
-non_breaking_phrase_breaks = ["10:48", "11:16", "13:16", "14:48", "15:16"]
 copyrights = [
   "Lyrics: Sanford Fillmore Bennett, 1868 (public domain)",
   "Music: Joseph P. Webster, 1868 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "G"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 105
+verse_count = 3
+phrase_breaks = ["5:48", "9:48", "13:48"]
+optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
+non_breaking_phrase_breaks = ["10:48", "11:16", "13:16", "14:48", "15:16"]
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -49,9 +49,6 @@ d'4 d'8 d'8 d'4 r4 | r4 g8 a8 b4 d'8. d'16 | c'4 c'8 c'8 c'4 g8 g8 | g4 b8 d'8 c
 b2. s4
 """
 
-[parts.Tenor.lyrics.chorus]
-text = "In the sweet by and by, We shall meet on that beau -- ti -- ful shore; by and by; In the sweet by and by, by and by, We shall meet on that beau -- ti -- ful shore."
-
 [parts.Bass]
 choral_type = "bass"
 clef = "bass"
@@ -64,9 +61,6 @@ g4 g,8 g,8 g,4 r4 | r4 g,8 g,8 g,4 g,8. b,16 | c4 c8 c8 c4 c8 c8 | d4 d8 d8 d4 d
 <g, g>2. s4
 """
 
-[parts.Bass.lyrics.chorus]
-text = "In the sweet by and by, We shall meet on that beau -- ti -- ful shore; by and by; In the sweet by and by, by and by, We shall meet on that beau -- ti -- ful shore."
-
 [lyrics.1]
 text = "There’s a land that is fair -- er than day, And by faith we can see it a -- far; For the Fa -- ther waits o -- ver the way To pre -- pare us a dwell -- ing place there."
 
@@ -78,3 +72,9 @@ text = "To our boun -- ti -- ful Fa -- ther a -- bove, We will of -- fer our tri
 
 [lyrics.chorus]
 text = "In the sweet by and by, We shall meet on that beau -- ti -- ful shore; In the sweet by and by, We shall meet on that beau -- ti -- ful shore."
+
+[parts.Tenor.lyrics.chorus]
+text = "In the sweet by and by, We shall meet on that beau -- ti -- ful shore; by and by; In the sweet by and by, by and by, We shall meet on that beau -- ti -- ful shore."
+
+[parts.Bass.lyrics.chorus]
+text = "In the sweet by and by, We shall meet on that beau -- ti -- ful shore; by and by; In the sweet by and by, by and by, We shall meet on that beau -- ti -- ful shore."

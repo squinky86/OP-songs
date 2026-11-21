@@ -51,9 +51,6 @@ bes8 bes8 bes8 a8 bes16 bes8. c'8. c'16 | c'2. d'4 | ees'8 d'8 d'8 bes8 bes8 bes
 bes8 bes8 bes8. bes16 bes8 bes8 bes4 | bes8 bes8 bes8 bes8 bes8 bes8 a8. f16 | f2. s4
 """
 
-[parts.Tenor.lyrics.chorus]
-text = "I’m on the road to glo -- ry, hal -- le -- lu -- jah, praise the Lord, I’m on the road to glo -- ry, hal -- le -- lu -- jah, praise the Lord, I’m on the road to glo -- ry, praise the Lord! My past has been for -- giv -- en and my soul is fac -- ing heav -- en, I’m on the road to glo -- ry, praise the Lord."
-
 [parts.Bass]
 choral_type = "bass"
 clef = "bass"
@@ -67,9 +64,6 @@ bes,8 bes,8 d8 f8 bes16 bes8. a8. g16 | f2. bes4 | bes8 bes8 bes8 bes8 bes8 bes8
 ees8 ees8 ees8. ees16 bes,8 bes,8 bes4 | g8 bes8 g8 bes8 g8 d8 f8. f16 | bes,2. s4
 """
 
-[parts.Bass.lyrics.chorus]
-text = "I’m on the road to glo -- ry, hal -- le -- lu -- jah, praise the Lord, I’m on the road to glo -- ry, hal -- le -- lu -- jah, praise the Lord, I’m on the road to glo -- ry, praise the Lord! My past has been for -- giv -- en and my soul is fac -- ing heav -- en, I’m on the road to glo -- ry, praise the Lord."
-
 [lyrics.1]
 text = "I’ve left the vale of dark -- ness and am free from doubt and sin, I’m on the road to glo -- ry, praise the Lord! I’ve start -- ed out with cour -- age, life’s e -- ter -- nal crown to win, I’m on the road to glo -- ry, praise the Lord."
 
@@ -81,3 +75,9 @@ text = "The One Who made me hap -- py keeps be -- side me all the way, I’m on 
 
 [lyrics.chorus]
 text = "I’m on the road to glo -- ry, glo -- ry, glo -- ry, I’m on the road to glo -- ry, praise the Lord! My past has been for -- giv -- en and my soul is fac -- ing heav -- en, I’m on the road to glo -- ry, praise the Lord."
+
+[parts.Tenor.lyrics.chorus]
+text = "I’m on the road to glo -- ry, hal -- le -- lu -- jah, praise the Lord, I’m on the road to glo -- ry, hal -- le -- lu -- jah, praise the Lord, I’m on the road to glo -- ry, praise the Lord! My past has been for -- giv -- en and my soul is fac -- ing heav -- en, I’m on the road to glo -- ry, praise the Lord."
+
+[parts.Bass.lyrics.chorus]
+text = "I’m on the road to glo -- ry, hal -- le -- lu -- jah, praise the Lord, I’m on the road to glo -- ry, hal -- le -- lu -- jah, praise the Lord, I’m on the road to glo -- ry, praise the Lord! My past has been for -- giv -- en and my soul is fac -- ing heav -- en, I’m on the road to glo -- ry, praise the Lord."

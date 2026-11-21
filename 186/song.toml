@@ -1,5 +1,4 @@
 title = "God Holds the Future in His Hands"
-subtitle = ""
 copyrights = [
   "Lyrics: James Rowe, 1922 (public domain)",
   "Music: James D. Vaughan, 1922 (public domain)",
@@ -10,10 +9,8 @@ time_sig_numerator = 4
 time_sig_denominator = 4
 tempo_bpm = 100
 verse_count = 4
-
 phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "11:48", "13:40", "15:48"]
 non_breaking_phrase_breaks = ["11:8", "13:8"]
-
 commentary = ""
 
 [parts.Soprano]
@@ -76,9 +73,6 @@ r8 aes,8 aes,8 aes,8 aes,8 r8 r4 | r8 aes,8 c8 ees8 aes4 aes4 |
 aes4. aes8 f8 f8 ees8 ees8 | aes,2. s4
 """
 
-[lyrics.chorus]
-text = "God holds the fu -- ture in His hands, His bless -- èd hands, And ev -- ery heart He un -- der -- stands; He un -- der -- stands, On Him de -- pend; He is your Friend; He holds the fu -- ture in His hands."
-
 [lyrics.1]
 text = "Dread not the things that are a -- head, The bur -- dens great, the sink -- ing sands, The thorns that o’er the path are spread, God holds the fu -- ture in His hands."
 
@@ -90,6 +84,9 @@ text = "His hand cre -- at -- ed earth and sky, The ze -- phyrs and the storms t
 
 [lyrics.4]
 text = "Live close to Him and trust His love, As -- sured that while on earth we roam, What -- e’er may come, He bends a -- bove To guide His chil -- dren safe -- ly home."
+
+[lyrics.chorus]
+text = "God holds the fu -- ture in His hands, His bless -- èd hands, And ev -- ery heart He un -- der -- stands; He un -- der -- stands, On Him de -- pend; He is your Friend; He holds the fu -- ture in His hands."
 
 [parts.Soprano.lyrics.chorus]
 text = "God holds the fu -- ture in His hands, And ev -- ery heart He un -- der -- stands; On Him de -- pend; He is your Friend; He holds the fu -- ture in His hands."

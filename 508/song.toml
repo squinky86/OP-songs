@@ -1,7 +1,7 @@
 title = "Wondrous Love"
 copyrights = [
   "Lyrics: Orelia McKenzie, 1908 (public domain)",
-  "Music: J. W. Gaines, 1908 (public domain)",
+  "Music: James W. Gaines, 1908 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
 key_signature = "Ab"
@@ -24,9 +24,6 @@ aes'4 aes'4 c''8[ bes'8] aes'8[ c''8] | bes'2. c''4 |
 ees''2. ees''4 | c''2. aes'4 | c''2. c''4 | aes'2. ees'4 |
 aes'4 aes'4 c''4 bes'4 | aes'2. s4
 """
-
-[parts.Soprano.lyrics.chorus]
-text = "Of Thy great love, I'll ev -- er sing, Who died up -- on the tree, Sal -- va -- tion full, And free to bring, For all, yes, ev -- en me!"
 
 [parts.Alto]
 choral_type = "alto"
@@ -81,3 +78,6 @@ text = "Since Thou didst die that I might gain, Sal -- va -- tion full and free,
 
 [lyrics.chorus]
 text = "Of Thy great love, my song shall be, I'll ev -- er sing, dear Lord, of Thee, Who died up -- on the tree, Sal -- va -- tion full, Thy blood can give, And free that all may look and live, For all, yes, ev -- en me!"
+
+[parts.Soprano.lyrics.chorus]
+text = "Of Thy great love, I'll ev -- er sing, Who died up -- on the tree, Sal -- va -- tion full, And free to bring, For all, yes, ev -- en me!"

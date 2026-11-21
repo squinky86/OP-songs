@@ -1,14 +1,13 @@
 title = "Psalm 139"
-subtitle = ""
-tempo_bpm = 126
-time_sig_numerator = 6
-time_sig_denominator = 4
-key_signature = "D"
-verse_count = 3
-phrase_breaks = ["2:80", "4:80", "6:80", "8:80", "10:80", "12:96", "14:96", "16:96", "18:80"]
 copyrights = [
   "Lyrics and Music: Edwin B. Holder, 1998. All rights reserved. Used by permission."
 ]
+key_signature = "D"
+time_sig_numerator = 6
+time_sig_denominator = 4
+tempo_bpm = 126
+verse_count = 3
+phrase_breaks = ["2:80", "4:80", "6:80", "8:80", "10:80", "12:96", "14:96", "16:96", "18:80"]
 
 [parts.Soprano]
 choral_type = "soprano"

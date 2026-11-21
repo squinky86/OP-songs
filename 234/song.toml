@@ -1,19 +1,18 @@
 title = "Hark! 'Tis the Shepherd's Voice"
 subtitle = "Bring Them In"
-key_signature = "Ab"
-time_sig_numerator = 4
-time_sig_denominator = 4
-verse_count = 3
-bpm = 100
-
 copyrights = [
   "Lyrics: Alexcenah Thomas, 1885 (public domain)",
   "Music: William A. Ogden, 1885 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license"
 ]
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+verse_count = 3
 phrase_breaks = ["4:64", "8:64", "10:64", "12:64", "14:64"]
 optional_phrase_breaks = ["2:64", "6:64"]
 non_breaking_phrase_breaks = ["9:48", "9:64", "10:48", "11:48", "12:48", "13:48", "13:64", "14:48", "14:64"]
+bpm = 100
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -59,8 +58,8 @@ text = "Out in the des -- ert hear their cry, Out on the mount -- ains wild and 
 [lyrics.chorus]
 text = "Bring them in, Bring them in, Bring them in from the fields of sin! Bring them in, Bring them in, Bring the lit -- tle ones to Je -- sus."
 
-[parts.Bass.lyrics.chorus]
-text = "Bring them in, Bring them in, Bring them in from the fields of sin! fields of sin! Bring them in, Bring them in, Bring the lit -- tle ones to Je -- sus."
-
 [parts.Soprano.lyrics.chorus]
 text = "Bring them in, (Bring them in,) Bring them in, (Bring them in,) Bring them in from the fields of sin! Bring them in, (Bring them in,) Bring them in, (Bring them in,) Bring the lit -- tle ones to Je -- sus."
+
+[parts.Bass.lyrics.chorus]
+text = "Bring them in, Bring them in, Bring them in from the fields of sin! fields of sin! Bring them in, Bring them in, Bring the lit -- tle ones to Je -- sus."

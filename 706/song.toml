@@ -66,9 +66,6 @@ text = "Meet -- ing tri -- als sweet -- ly, trust -- ing grace com -- plete -- l
 [lyrics.3]
 text = "In the home -- land yon -- der, nev -- er more to wan -- der, With the friends we love al -- ways nigh, Rest -- ing by the riv -- er, safe at home for -- ev -- er, @s1"
 
-[lyrics.s1]
-text = "We shall see the King by and by."
-
 [lyrics.chorus]
 text = "We shall see the King by and by, by and by. Prais -- es we shall sing, in the sky; in the sky; Home the har -- vest bring -- ing, keep -- ing prais -- es ring -- ing, We shall see the King by and by. by and by."
 
@@ -77,3 +74,6 @@ text = "We shall see the King by and by, Prais -- es we shall sing, in the sky; 
 
 [parts.Bass.lyrics.chorus]
 text = "We shall see the King by and by, by and by. Prais -- es we shall sing, in the sky; in the sky; Home the har -- vest bring -- ing, keep -- ing prais -- es ring -- ing, We shall see the King by and by."
+
+[lyrics.s1]
+text = "We shall see the King by and by."

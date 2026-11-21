@@ -1,5 +1,5 @@
+# Tune: McCabe.
 title = "Send the Light"
-subtitle = ""
 copyrights = [
   "Lyrics and Music: Charles H. Gabriel, 1890 (public domain)",
   "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
@@ -40,9 +40,6 @@ fis'2~ fis'8. a'16 g'8. fis'16 | g'2. g'8. a'16 |
 b'2~ b'8. e''16 b'8. a'16 | g'4 g'4 g'4 a'8. g'16 |
 fis'2~ fis'8. e'16 d'8. c'16 | b8. e'16 d'8. c'16 b4! s4
 """
-
-[parts.Alto.lyrics.chorus]
-text = "Send the light! the bless -- ed Gos -- pel light; Let it shine from shore to shore! Send the light! the bless -- ed Gos -- pel light; Let it shine for -- ev -- er -- more! for -- ev -- er -- more!"
 
 [parts.Tenor]
 choral_type = "tenor"
@@ -86,6 +83,9 @@ text = "Let us not grow wea -- ry in the work of love: @s1 @s1 Let us ga -- ther
 
 [lyrics.chorus]
 text = "Send the light! the bless -- ed Gos -- pel light; Let it shine from shore to shore! Send the light! the bless -- ed Gos -- pel light; Let it shine for -- ev -- er -- more!"
+
+[parts.Alto.lyrics.chorus]
+text = "Send the light! the bless -- ed Gos -- pel light; Let it shine from shore to shore! Send the light! the bless -- ed Gos -- pel light; Let it shine for -- ev -- er -- more! for -- ev -- er -- more!"
 
 [lyrics.s1]
 text = "Send the light!"

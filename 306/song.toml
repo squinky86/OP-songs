@@ -1,17 +1,16 @@
 title = "There's a Wideness in God's Mercy"
-subtitle = ""
-verse_count = 4
-key_signature = "C"
-time_sig_numerator = 4
-time_sig_denominator = 4
-tempo_bpm = 108
-phrase_breaks = ["4:64"]
 copyrights = [
-  "Lyrics: Frederick W. Faber, 1854 (public domain)",
+  "Lyrics: Frederick William Faber, 1854 (public domain)",
   "Music: 'Wellesley' by Lizzie Shove Tourjée Estabrook, 1878 (public domain)",
   "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "C"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 108
+verse_count = 4
+phrase_breaks = ["4:64"]
 optional_phrase_breaks = ["2:64", "6:64"]
 
 [parts.Soprano]

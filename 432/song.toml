@@ -74,15 +74,6 @@ e'4 e'4 b4 b4 |
 b2! s2
 """
 
-[parts.Tenor.lyrics.1]
-text = "How shall the young se -- cure their hearts, And guard their lives from sin? Thy word the choic -- est rules im -- parts To keep the con -- science clean, (To keep the con -- science clean.)"
-
-[parts.Tenor.lyrics.2]
-text = "'Tis, like the sun, a heav'n -- ly light, That guides us all the day; And, thro' the dan -- gers of the night, A lamp to lead our way, (A lamp to lead our way.)"
-
-[parts.Tenor.lyrics.3]
-text = "Thy word is ev -- er -- last -- ing truth; How pure is ev -- 'ry page! That ho -- ly book shall guide our youth, And well sup -- port our age, (And well sup -- port our age.)"
-
 [parts.Bass]
 choral_type = "bass"
 clef = "bass"
@@ -107,8 +98,17 @@ e2! s2
 [lyrics.1]
 text = "How shall the young se -- cure their hearts, And guard their lives from sin? Thy word the choic -- est rules im -- parts To keep the con -- science clean, To keep the con -- science clean."
 
+[parts.Tenor.lyrics.1]
+text = "How shall the young se -- cure their hearts, And guard their lives from sin? Thy word the choic -- est rules im -- parts To keep the con -- science clean, (To keep the con -- science clean.)"
+
 [lyrics.2]
 text = "'Tis, like the sun, a heav'n -- ly light, That guides us all the day; And, thro' the dan -- gers of the night, A lamp to lead our way, A lamp to lead our way."
 
+[parts.Tenor.lyrics.2]
+text = "'Tis, like the sun, a heav'n -- ly light, That guides us all the day; And, thro' the dan -- gers of the night, A lamp to lead our way, (A lamp to lead our way.)"
+
 [lyrics.3]
 text = "Thy word is ev -- er -- last -- ing truth; How pure is ev -- 'ry page! That ho -- ly book shall guide our youth, And well sup -- port our age, And well sup -- port our age."
+
+[parts.Tenor.lyrics.3]
+text = "Thy word is ev -- er -- last -- ing truth; How pure is ev -- 'ry page! That ho -- ly book shall guide our youth, And well sup -- port our age, (And well sup -- port our age.)"

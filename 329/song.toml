@@ -1,17 +1,17 @@
+# Tune: Galilee.
 title = "Jesus Calls Us"
-subtitle = ""
-verse_count = 4
+copyrights = [
+  "Lyrics: Cecil Frances Alexander, 1852 (public domain)",
+  "Music: William Herbert Jude, 1874 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "Ab"
 time_sig_numerator = 3
 time_sig_denominator = 4
 tempo_bpm = 90
+verse_count = 4
 phrase_breaks = ["5:32"]
-copyrights = [
-  "Lyrics: Cecil Frances Alexander, 1852 (public domain)",
-  "Music: 'Galilee' by William Herbert Jude, 1874 (public domain)",
-  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
 optional_phrase_breaks = ["3:32", "7:32"]
 
 [parts.Soprano]

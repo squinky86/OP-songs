@@ -1,18 +1,17 @@
 
 title = "Under the Blood"
-subtitle = ""
-verse_count = 3
-key_signature = "C"
-time_sig_numerator = 6
-time_sig_denominator = 4
-tempo_bpm = 120
-phrase_breaks = ["4:96", "8:96", "12:96"]
-optional_phrase_breaks = ["2:96", "6:96", "10:96", "14:96"]
 copyrights = [
   "Lyrics: Ina Pearl Whaley, 1927 (public domain)",
   "Music: Homer Hammontree, 1927 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "C"
+time_sig_numerator = 6
+time_sig_denominator = 4
+tempo_bpm = 120
+verse_count = 3
+phrase_breaks = ["4:96", "8:96", "12:96"]
+optional_phrase_breaks = ["2:96", "6:96", "10:96", "14:96"]
 
 [parts.Soprano]
 choral_type = "soprano"

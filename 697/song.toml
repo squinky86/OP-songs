@@ -61,9 +61,6 @@ s2. c8 c8 | c8 c4 c8 c8 c8 c8 c8 | c8 c4 c8 c8 c8 c8 c8 | c8 c4 e8 f4 f4
 | c2. s4
 """
 
-[parts.Bass.lyrics.chorus]
-text = "I am work -- ing and sing -- ing, dai -- ly, Joy- -- bells are ring -- ing sweet -- ly, For He will keep my soul; I will cling to Him ev -- er, praise Him, Leave Him no nev -- er, praise Him, For He has made me whole."
-
 [lyrics.1]
 text = "I am work -- ing and sing -- ing, ev -- er trust -- ing and cling -- ing To the won -- der -- ful Friend a -- bove; And I know He will keep me when the storm- -- wave doth sweep me, I am hap -- py in His dear love."
 
@@ -75,3 +72,6 @@ text = "I shall go there to meet Him, where with glad -- ness I’ll greet Him, 
 
 [lyrics.chorus]
 text = "I am work -- ing and sing -- ing, Joy- -- bells are ring -- ing For He will keep my soul; I will cling to Him ev -- er, Leave Him no nev -- er, For He has made me whole."
+
+[parts.Bass.lyrics.chorus]
+text = "I am work -- ing and sing -- ing, dai -- ly, Joy- -- bells are ring -- ing sweet -- ly, For He will keep my soul; I will cling to Him ev -- er, praise Him, Leave Him no nev -- er, praise Him, For He has made me whole."

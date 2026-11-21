@@ -1,6 +1,6 @@
 title = "A Happy Time is Coming"
 copyrights = [
-  "Lyrics: John M. Henson, 1927 (public domain)",
+  "Lyrics: J. M. Henson, 1927 (public domain)",
   "Music: Homer F. Morris, 1927 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
@@ -65,26 +65,26 @@ f4 f4 bes,4! s4
 [lyrics.1]
 text = "O, a hap -- py time is com -- ing for the chil -- dren of the King, When He calls them up to meet Him in the air; We shall all go home re -- joic -- ing, there to ev -- er shout and sing, And for -- ev -- er we’ll be hap -- py, o -- ver there."
 
+[parts.Bass.lyrics.1]
+text = "O, a hap -- py time is com -- ing for the chil -- dren of the King, When He calls them up to meet Him in the air; We shall all go home re -- joic -- ing, there to ev -- er shout and sing, And for -- ev -- er we’ll be hap -- py, (hap -- py) o -- ver there."
+
 [lyrics.2]
 text = "One by one the throng is go -- ing to be pres -- ent at the feast, That the King will spread there on that wed -- ding day; Ev -- ’ry blood -- washed soul will an -- swer to the roll- -- call of the Priest, And to Him we all will ev -- er, hom -- age pay."
 
+[parts.Bass.lyrics.2]
+text = "One by one the throng is go -- ing to be pres -- ent at the feast, That the King will spread there on that wed -- ding day; Ev -- ’ry blood -- washed soul will an -- swer to the roll- -- call of the Priest, And to Him we all will ev -- er, (roy -- al) hom -- age pay."
+
 [lyrics.3]
 text = "All the fol -- low -- ers of Je -- sus will be pres -- ent on that day To re -- ceive from Him a roy -- al robe and crown; That great meet -- ing lasts for -- ev -- er, and no more we’ll preach or pray, And the sun in that white cit -- y, goes not down."
+
+[parts.Bass.lyrics.3]
+text = "All the fol -- low -- ers of Je -- sus will be pres -- ent on that day To re -- ceive from Him a roy -- al robe and crown; That great meet -- ing lasts for -- ev -- er, and no more we’ll preach or pray, And the sun in that white cit -- y, (oh! it) goes not down."
 
 [lyrics.chorus]
 text = "Yes, a hap -- py time is com -- ing when we gath -- er there, To re -- joice and sing for -- ev -- er with the an -- gels fair; There we’ll see our bless -- ed Sav -- ior, and will reign with Him for aye, Yes, a hap -- py time is com -- ing, some glad day."
 
 [parts.Tenor.lyrics.chorus]
 text = "Yes, a hap -- py time is com -- ing when we all shall gath -- er there, To re -- joice and sing for -- ev -- er with the an -- gels fair; There we’ll see our bless -- ed Sav -- ior, and will reign with Him for aye, Yes, a hap -- py time is com -- ing, some glad day."
-
-[parts.Bass.lyrics.1]
-text = "O, a hap -- py time is com -- ing for the chil -- dren of the King, When He calls them up to meet Him in the air; We shall all go home re -- joic -- ing, there to ev -- er shout and sing, And for -- ev -- er we’ll be hap -- py, (hap -- py) o -- ver there."
-
-[parts.Bass.lyrics.2]
-text = "One by one the throng is go -- ing to be pres -- ent at the feast, That the King will spread there on that wed -- ding day; Ev -- ’ry blood -- washed soul will an -- swer to the roll- -- call of the Priest, And to Him we all will ev -- er, (roy -- al) hom -- age pay."
-
-[parts.Bass.lyrics.3]
-text = "All the fol -- low -- ers of Je -- sus will be pres -- ent on that day To re -- ceive from Him a roy -- al robe and crown; That great meet -- ing lasts for -- ev -- er, and no more we’ll preach or pray, And the sun in that white cit -- y, (oh! it) goes not down."
 
 [parts.Bass.lyrics.chorus]
 text = "Yes, a hap -- py time is com -- ing when we all shall gath -- er there, yes, To re -- joice and sing for -- ev -- er with the an -- gels fair; There we’ll see our bless -- ed Sav -- ior, and will reign with Him for aye, Yes, a hap -- py time is com -- ing, com -- ing some glad day."

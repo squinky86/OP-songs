@@ -1,16 +1,17 @@
+# Tune: Assateague.
 title = "The Kingdom Is Coming"
-verse_count = 3
+copyrights = [
+  "Lyrics: Mary B. C. Slade, 1876 (public domain)",
+  "Music: R. M. McIntosh, 1876 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "Eb"
 time_sig_numerator = 4
 time_sig_denominator = 4
 tempo_bpm = 105
+verse_count = 3
 phrase_breaks = ["3:56", "5:48", "7:56", "9:48", "11:56", "13:48", "15:56"]
-copyrights = [
-  "Lyrics: Mary B. C. Slade, 1876 (public domain)",
-  "Music: 'Assateague' by Rigdon M. McIntosh, 1876 (public domain)",
-  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
 
 [parts.Soprano]
 choral_type = "soprano"

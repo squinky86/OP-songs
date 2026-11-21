@@ -11,8 +11,8 @@ time_sig_denominator = 4
 tempo_bpm = 115
 verse_count = 4
 phrase_breaks = ["5:48", "9:48", "13:48"]
-commentary = "<p>This same song is also available with music for <a href=\"/songs/350\">Munich</a>.</p>"
 optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
+commentary = "<p>This same song is also available with music for <a href=\"/songs/350\">Munich</a>.</p>"
 
 [parts.Soprano]
 choral_type = "soprano"

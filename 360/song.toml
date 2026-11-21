@@ -1,16 +1,16 @@
 title = "Let the Song Go 'Round the Earth"
-verse_count = 5
-key_signature = "F"
-time_sig_numerator = 4
-time_sig_denominator = 4
-tempo_bpm = 100
-phrase_breaks = ["5:48", "9:64", "13:48"]
-optional_phrase_breaks = ["3:64", "7:64", "11:48", "15:64"]
 copyrights = [
   "Lyrics: Sarah G. Stock, 1898 (public domain)",
   "Music: J. B. Herbert, 1926 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "F"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 5
+phrase_breaks = ["5:48", "9:64", "13:48"]
+optional_phrase_breaks = ["3:64", "7:64", "11:48", "15:64"]
 
 [parts.Soprano]
 choral_type = "soprano"

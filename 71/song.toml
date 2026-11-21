@@ -1,8 +1,8 @@
+# This setting uses the first of Troyte’s numbered chants.
 title = "Come, Weary, Anxious, Laden Soul"
-subtitle = ""
 copyrights = [
   "Lyrics: Anonymous, obtained from Messages of Love Hymn Book, 1920 (public domain)",
-  "Music: Arthur H. D. Troyte, 1857 (public domain)",
+  "Music: Arthur Henry Dyke Troyte, 1857 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
 key_signature = "F"

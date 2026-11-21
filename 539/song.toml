@@ -39,9 +39,6 @@ f'8 g'8 f'8 g'8 f'4 d'4 | f'4 bes'4 d'4 g'4 | f'8 g'8 f'8 g'8 f'4 d'4 |
 d'8 d'4. f'4. ees'8 | d'4 ees'8 ees'8 d'2
 """
 
-[parts.Alto.lyrics.chorus]
-text = "O be read -- y, read -- y for His com -- ing, read -- y for His com -- ing, Read -- y for His com -- ing; O be read -- y, read -- y for His com -- ing, Read -- y when He comes when He comes."
-
 [parts.Tenor]
 choral_type = "tenor"
 clef = "bass"
@@ -54,9 +51,6 @@ bes4@c f4 bes4 bes4 | bes4 bes4 bes4 f4 | a8 a8 a8 a8 a4 a4 |
 bes8 bes8 bes8 bes8 bes4 f4 | bes4 f4 bes4 bes4 | bes8 bes8 bes8 bes8 bes4 f4 |
 bes8 bes4. bes4. a8 | bes4 g8 g8 f2
 """
-
-[parts.Tenor.lyrics.chorus]
-text = "O be read -- y, for His com -- ing, read -- y for His com -- ing, Read -- y for His com -- ing; O be read -- y, read -- y for His com -- ing, Read -- y when He comes when He comes."
 
 [parts.Bass]
 choral_type = "bass"
@@ -71,9 +65,6 @@ bes,8 bes,8 bes,8 bes,8 bes,4 bes,4 | bes,4 bes,4 bes,4 bes,4 | bes,8 bes,8 bes,
 f8 f4. f4. f8 | bes,1
 """
 
-[parts.Bass.lyrics.chorus]
-text = "O be read -- y, for His com -- ing, read -- y for His com -- ing, Read -- y for His com -- ing; O be read -- y, read -- y for His com -- ing, Read -- y when He comes"
-
 [lyrics.1]
 text = "Je -- sus the Sav -- iour asks us to be Read -- y when He comes, Read -- y when He comes; Then from our sins O let us be free, Read -- y when He comes."
 
@@ -85,3 +76,12 @@ text = "Safe on His prom -- ise let us re -- ly, Read -- y when He comes, Read -
 
 [lyrics.chorus]
 text = "O be read -- y, read -- y for His com -- ing, read -- y for His com -- ing, Read -- y for His com -- ing; O be read -- y, read -- y for His com -- ing, Read -- y when He comes"
+
+[parts.Alto.lyrics.chorus]
+text = "O be read -- y, read -- y for His com -- ing, read -- y for His com -- ing, Read -- y for His com -- ing; O be read -- y, read -- y for His com -- ing, Read -- y when He comes when He comes."
+
+[parts.Tenor.lyrics.chorus]
+text = "O be read -- y, for His com -- ing, read -- y for His com -- ing, Read -- y for His com -- ing; O be read -- y, read -- y for His com -- ing, Read -- y when He comes when He comes."
+
+[parts.Bass.lyrics.chorus]
+text = "O be read -- y, for His com -- ing, read -- y for His com -- ing, Read -- y for His com -- ing; O be read -- y, read -- y for His com -- ing, Read -- y when He comes"

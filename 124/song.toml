@@ -1,8 +1,7 @@
 title = "We're Marching to Zion"
-subtitle = ""
 copyrights = [
   "Lyrics: Isaac Watts, 1707; refrain by Robert Lowry, 1867 (public domain)",
-  "Music: 'Marching to Zion' by Robert Lowry, 1867 (public domain)",
+  "Music: Robert Lowry, 1867 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
 key_signature = "F"
@@ -10,9 +9,9 @@ time_sig_numerator = 6
 time_sig_denominator = 8
 tempo_bpm = 108
 verse_count = 4
-non_breaking_phrase_breaks = ["18:48"]
-optional_phrase_breaks = ["3:40", "11:40", "15:40", "19:40"]
 phrase_breaks = ["5:40",  "7:40", "9:40", "13:40", "17:40"]
+optional_phrase_breaks = ["3:40", "11:40", "15:40", "19:40"]
+non_breaking_phrase_breaks = ["18:48"]
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -64,7 +63,6 @@ text = "Then let our songs a -- bound, and ev -- ery tear be dry; we're march --
 
 [lyrics.chorus]
 text = "We're march -- ing to Zi -- on, beau -- ti -- ful, beau -- ti -- ful Zi -- on; we're march -- ing up -- ward to Zi -- on, the beau -- ti -- ful ci -- ty of God."
-
 
 [parts.Tenor.lyrics.chorus]
 text = "We're march -- ing on to Zi -- on, beau -- ti -- ful, beau -- ti -- ful Zi -- on; we're march -- ing up -- ward to Zi -- on, Zi -- on, the beau -- ti -- ful ci -- ty of God."

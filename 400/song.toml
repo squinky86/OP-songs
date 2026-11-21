@@ -1,16 +1,16 @@
 title = "O, Happy Day"
-verse_count = 4
+copyrights = [
+  "Lyrics: Philip Doddridge, 1755 (public domain)",
+  "Music: attr. Edward Francis Rimbault, 1854 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "F"
 time_sig_numerator = 6
 time_sig_denominator = 4
 tempo_bpm = 142
+verse_count = 4
 phrase_breaks = ["5:48", "9:64", "13:48", "17:64"]
 optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48", "19:48"]
-copyrights = [
-  "Lyrics: Philip Doddridge, 1755 (public domain)",
-  "Music: attr. Edward F. Rimbault, 1854 (public domain)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
 
 [parts.Soprano]
 choral_type = "soprano"

@@ -49,9 +49,6 @@ c'8 c'8 a8 a8 g4( c'4) | c'8 c'4 c'8 c'8 b8 c'8 c'8 | c'4 c'4 c'2 | c'8 c'4 b8 c
 g2~ g4 s4
 """
 
-[parts.Tenor.lyrics.chorus]
-text = "Wait -- ing His com -- ing— It will not be long, Read -- y to join the hap -- py, Hap -- py, ran -- somed throng, Trust -- ing in Je -- sus as my all in all, Wait -- ing the boat -- man’s call."
-
 [parts.Bass]
 choral_type = "bass"
 clef = "bass"
@@ -64,9 +61,6 @@ c4 c4 c8 d8 e8 g8 | c'8 c'4 c'8 c'8 g8 a8 e8 | f4 f4 f8 d8 e8 f8 | g8 g4 g8 g4 g
 c2~ c4 s4
 """
 
-[parts.Bass.lyrics.chorus]
-text = "Wait -- ing His com -- ing— It will not be long, Read -- y to join the hap -- py, ran -- somed throng; I’m hap -- py Trust -- ing in Je -- sus as my all in all, I’m on -- ly Wait -- ing the boat -- man’s call."
-
 [lyrics.1]
 text = "I’m stand -- ing now _ on the si -- lent shore Wait -- ing the boat -- man’s call; I’m read -- y now for the voy -- age o’er, Wait -- ing the boat -- man’s call."
 
@@ -78,3 +72,9 @@ text = "My soul is long -- ing for the bet -- ter land, Wait -- ing the boat -- 
 
 [lyrics.chorus]
 text = "Wait -- ing His com -- ing— it will not be long, Read -- y to join the hap -- py, ran -- somed throng; Trust -- ing in Je -- sus as my all in all, Wait -- ing the boat -- man’s call."
+
+[parts.Tenor.lyrics.chorus]
+text = "Wait -- ing His com -- ing— It will not be long, Read -- y to join the hap -- py, Hap -- py, ran -- somed throng, Trust -- ing in Je -- sus as my all in all, Wait -- ing the boat -- man’s call."
+
+[parts.Bass.lyrics.chorus]
+text = "Wait -- ing His com -- ing— It will not be long, Read -- y to join the hap -- py, ran -- somed throng; I’m hap -- py Trust -- ing in Je -- sus as my all in all, I’m on -- ly Wait -- ing the boat -- man’s call."

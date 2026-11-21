@@ -1,16 +1,16 @@
 title = "Where Cross the Crowded Ways of Life"
-verse_count = 6
-key_signature = "Bb"
-time_sig_numerator = 3
-time_sig_denominator = 4
-tempo_bpm = 125
-phrase_breaks = ["4:48", "8:32", "12:32"]
 copyrights = [
   "Lyrics: Frank Mason North, 1903 (public domain)",
   "Music: 'Germany' by William Gardiner, 1815 (public domain)",
   "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "Bb"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 125
+verse_count = 6
+phrase_breaks = ["4:48", "8:32", "12:32"]
 
 [parts.Soprano]
 choral_type = "soprano"

@@ -1,16 +1,16 @@
 title = "O Little Town of Bethlehem"
-verse_count = 5
+copyrights = [
+  "Lyrics: Phillips Brooks, 1867 (public domain)",
+  "Music: Lewis H. Redner, 1868 (public domain)",
+  "Courtesy of the [Timeless Truths Free Online Library](https://library.timelesstruths.org)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "G"
 time_sig_numerator = 4
 time_sig_denominator = 4
 tempo_bpm = 92
+verse_count = 5
 phrase_breaks = ["5:48", "9:48", "13:48"]
-copyrights = [
-  "Lyrics: Phillips Brooks, 1867 (public domain)",
-  "Music: 'St. Lewis' by Lewis H. Redner, 1868 (public domain)",
-  "Courtesy of the [Timeless Truths Free Online Library](https://library.timelesstruths.org)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
 optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
 
 [parts.Soprano]

@@ -1,16 +1,16 @@
 title = "Glory and Honor"
-verse_count = 3
-key_signature = "Bb"
-time_sig_numerator = 6
-time_sig_denominator = 4
-tempo_bpm = 152
-phrase_breaks = ["4:96", "8:96", "12:96", "16:96", "20:96", "24:96", "28:96"]
-non_breaking_phrase_breaks = ["31:96"]
 copyrights = [
   "Words: Mabel J. Rosemon, 1916 (public domain)",
   "Music: Samuel W. Beazley, 1916 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "Bb"
+time_sig_numerator = 6
+time_sig_denominator = 4
+tempo_bpm = 152
+verse_count = 3
+phrase_breaks = ["4:96", "8:96", "12:96", "16:96", "20:96", "24:96", "28:96"]
+non_breaking_phrase_breaks = ["31:96"]
 commentary = ""
 
 [parts.Soprano]
@@ -76,39 +76,38 @@ g4 g4 g4 g4 g4 g4 | c2. c2 c4 | f4 f4 f4 f4 f4 f4 | bes,2.~ bes,2.
 [lyrics.1]
 text = "Raise we our voic -- es, the whole world re -- joic -- es In Christ the King, Tell we the love of the Sav -- ior a -- bove In the songs we sing; An -- gels a -- dore Him, ac -- know -- ledge be -- fore Him His match -- less worth, Je -- sus is King, and His prais -- es shall ring, O -- ver all the earth."
 
-[lyrics.2]
-text = "Tell we the sto -- ry, the news of His glo -- ry, O'er land and sea, Val -- ley and hill _ re -- ech -- o -- ing still, With His joy so free; Rev -- 'rence com -- mand -- ing, be -- yond un -- der -- stand -- ing, His won -- drous ways, He rules a -- lone, and His pow'r we will own, As we sing His praise."
-
-[lyrics.3]
-text = "Rul -- er e -- ter -- nal, ma -- jes -- tic, su -- per -- nal, Is Christ the Lord, Rev -- 'rent -- ly bow, while we wor -- ship Him now, As with one ac -- cord; Hope of the a -- ges, fore -- told by the sa -- ges, In days of old, Thy light di -- vine on our path -- way doth shine, And Thy love we hold."
-
-[lyrics.chorus]
-text = "Glo -- ry, glo -- ry and hon -- or to Christ the King! Praise Him, glad is the wor -- ship to Him we bring; Glo -- ry! An -- gels in heav -- en His name a -- dore; Hail Him, Je -- sus, our Sav -- ior for -- ev -- er -- more."
-
-
-[parts.Alto.lyrics.chorus]
-text = "Glo -- ry, glo -- ry and hon -- or to Christ the King! Praise Him, glad is the wor -- ship to Him we bring; Glo -- ry! An -- gels in heav -- en His name a -- dore; Hail Him, Je -- sus, our Sav -- ior for -- ev -- er -- more, ev -- er -- more."
-
 [parts.Tenor.lyrics.1]
 text = ""
 
-[parts.Tenor.lyrics.2]
-text = ""
-
-[parts.Tenor.lyrics.3]
-text = ""
-
-[parts.Tenor.lyrics.chorus]
-text = "Give to Him glo -- ry and hon -- or, Give glo -- ry and hon -- or to Je -- sus the King! Praise Him with rev -- er -- ent wor -- ship, He's wor -- thy the trib -- ute, the trib -- ute we bring; An -- gels in heav -- en -- ly glo -- ry Bow down at His feet while His name they a -- dore; Hail -- ing Him Je -- sus the Sav -- ior, the Sav -- ior and King ev -- er -- more, ev -- er -- more."
-
 [parts.Bass.lyrics.1]
+text = ""
+
+[lyrics.2]
+text = "Tell we the sto -- ry, the news of His glo -- ry, O'er land and sea, Val -- ley and hill _ re -- ech -- o -- ing still, With His joy so free; Rev -- 'rence com -- mand -- ing, be -- yond un -- der -- stand -- ing, His won -- drous ways, He rules a -- lone, and His pow'r we will own, As we sing His praise."
+
+[parts.Tenor.lyrics.2]
 text = ""
 
 [parts.Bass.lyrics.2]
 text = ""
 
+[lyrics.3]
+text = "Rul -- er e -- ter -- nal, ma -- jes -- tic, su -- per -- nal, Is Christ the Lord, Rev -- 'rent -- ly bow, while we wor -- ship Him now, As with one ac -- cord; Hope of the a -- ges, fore -- told by the sa -- ges, In days of old, Thy light di -- vine on our path -- way doth shine, And Thy love we hold."
+
+[parts.Tenor.lyrics.3]
+text = ""
+
 [parts.Bass.lyrics.3]
 text = ""
+
+[lyrics.chorus]
+text = "Glo -- ry, glo -- ry and hon -- or to Christ the King! Praise Him, glad is the wor -- ship to Him we bring; Glo -- ry! An -- gels in heav -- en His name a -- dore; Hail Him, Je -- sus, our Sav -- ior for -- ev -- er -- more."
+
+[parts.Alto.lyrics.chorus]
+text = "Glo -- ry, glo -- ry and hon -- or to Christ the King! Praise Him, glad is the wor -- ship to Him we bring; Glo -- ry! An -- gels in heav -- en His name a -- dore; Hail Him, Je -- sus, our Sav -- ior for -- ev -- er -- more, ev -- er -- more."
+
+[parts.Tenor.lyrics.chorus]
+text = "Give to Him glo -- ry and hon -- or, Give glo -- ry and hon -- or to Je -- sus the King! Praise Him with rev -- er -- ent wor -- ship, He's wor -- thy the trib -- ute, the trib -- ute we bring; An -- gels in heav -- en -- ly glo -- ry Bow down at His feet while His name they a -- dore; Hail -- ing Him Je -- sus the Sav -- ior, the Sav -- ior and King ev -- er -- more, ev -- er -- more."
 
 [parts.Bass.lyrics.chorus]
 text = "Give to Him glo -- ry and hon -- or, Give glo -- ry and hon -- or to Je -- sus the King! Praise Him with rev -- er -- ent wor -- ship, He's wor -- thy the trib -- ute, the trib -- ute we bring; An -- gels in heav -- en -- ly glo -- ry Bow down at His feet while His name they a -- dore; Hail -- ing Him Je -- sus the Sav -- ior, the Sav -- ior and King ev -- er -- more."

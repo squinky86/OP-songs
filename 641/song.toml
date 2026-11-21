@@ -69,9 +69,6 @@ text = "I can -- not but tell of His good -- ness to me, And how He my soul from
 [lyrics.3]
 text = "My Lord has re -- deemed me, He died not in vain; I’ll tell of His good -- ness a -- gain and a -- gain; I can -- not neg -- lect Him and si -- lent re -- main, @s1"
 
-[lyrics.s1]
-text = "I’ll tell it wher -- ev -- er I go."
-
 [lyrics.chorus]
 text = "I’ll tell it to -- day, wher -- ev -- er I go, How Je -- sus my soul has re -- deemed from its woe; So I’ll tell it to -- day, I’ll tell it to -- day, I’ll tell it I’ll tell it wher -- ev -- er I go."
 
@@ -80,3 +77,6 @@ text = "I’ll tell it wher -- ev -- er I go, How Je -- sus my soul has re -- de
 
 [parts.Bass.lyrics.chorus]
 text = "I’ll tell it to -- day, wher -- ev -- er I go, How Je -- sus my soul has re -- deemed from its woe; So I’ll tell it to -- day, I’ll tell it to -- day, I’ll tell it wher -- ev -- er I go."
+
+[lyrics.s1]
+text = "I’ll tell it wher -- ev -- er I go."

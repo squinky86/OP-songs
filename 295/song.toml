@@ -1,15 +1,16 @@
+# Tune: Joyful Song.
 title = "Praise Him! Praise Him!"
-verse_count = 3
+copyrights = [
+  "Lyrics: Fanny J. Crosby, 1869 (public domain)",
+  "Music: Chester G. Allen, 1869 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "Ab"
 time_sig_numerator = 6
 time_sig_denominator = 8
 tempo_bpm = 122
+verse_count = 3
 phrase_breaks = ["4:48", "8:48", "12:48", "16:48", "20:48", "24:48", "28:48"]
-copyrights = [
-  "Lyrics: Fanny J. Crosby, 1869 (public domain)",
-  "Music: 'Joyful Song' by Chester G. Allen, 1869 (public domain)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
 
 [parts.Soprano]
 choral_type = "soprano"

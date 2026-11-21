@@ -1,16 +1,17 @@
+# Tune: Terra Beata.
 title = "This Is My Father’s World"
-verse_count = 3
+copyrights = [
+  "Lyrics: Maltbie D. Babcock, 1901 (public domain)",
+  "Music: English melody, arranged by Franklin L. Sheppard, 1915 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "Eb"
 time_sig_numerator = 4
 time_sig_denominator = 4
 tempo_bpm = 100
+verse_count = 3
 phrase_breaks = ["5:48", "9:48", "13:48"]
 optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
-copyrights = [
-  "Lyrics: Maltbie D. Babcock, 1901 (public domain)",
-  "Music: 'Terra Beata', English melody, arranged by Franklin L. Sheppard, 1915 (public domain)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
 
 [parts.Soprano]
 choral_type = "soprano"

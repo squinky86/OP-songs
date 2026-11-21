@@ -49,9 +49,6 @@ aes8 aes8 aes8 aes8 aes8 aes8 g8 aes8 | aes8 des'8 des'8 des'8 des'4 des'4 | bes
 aes8 aes8 aes8 aes8 aes8 aes8 g8 aes8 | aes8 des'8 des'8 des'8 des'4 aes4 | aes8 aes8 aes8. aes16 aes4 g4 | aes2. s4
 """
 
-[parts.Tenor.lyrics.chorus]
-text = "The way is ver -- y nar -- row but I’ll fol -- low, all the way, I’ll fol -- low, all the way, I’ll fol -- low, all the way, The way is ver -- y nar -- row but I’ll fol -- low, all the way, I’ll fol -- low Je -- sus all the way."
-
 [parts.Bass]
 choral_type = "bass"
 clef = "bass"
@@ -64,9 +61,6 @@ aes,8 aes,8 aes,8 aes,8 aes,8 aes,8 bes,8 c8 | des8 des8 des8 des8 des4 des4 | e
 aes,8 aes,8 aes,8 aes,8 aes,8 aes,8 bes,8 c8 | des8 des8 des8 des8 des4 d4 | ees8 ees8 c8. des16 ees4 ees4 | aes,2. s4
 """
 
-[parts.Bass.lyrics.chorus]
-text = "The way is ver -- y nar -- row but I’ll fol -- low, all the way, I’ll fol -- low, all the way, I’ll fol -- low, all the way, The way is ver -- y nar -- row but I’ll fol -- low, all the way, I’ll fol -- low Je -- sus all the way."
-
 [lyrics.1]
 text = "I’ve heard my Sav -- ior _ call -- ing, “Take up thy _ cross fol -- low me,” In ten -- der tones He is plead -- ing, “Come now and from sin be free.”"
 
@@ -78,3 +72,9 @@ text = "Some -- times He leads to the con -- flict, Where foes, strong and might
 
 [lyrics.chorus]
 text = "The way is ver -- y nar -- row but I’ll fol -- low, I’ll fol -- low, I’ll fol -- low, The way is ver -- y nar -- row but I’ll fol -- low, I’ll fol -- low Je -- sus all the way."
+
+[parts.Tenor.lyrics.chorus]
+text = "The way is ver -- y nar -- row but I’ll fol -- low, all the way, I’ll fol -- low, all the way, I’ll fol -- low, all the way, The way is ver -- y nar -- row but I’ll fol -- low, all the way, I’ll fol -- low Je -- sus all the way."
+
+[parts.Bass.lyrics.chorus]
+text = "The way is ver -- y nar -- row but I’ll fol -- low, all the way, I’ll fol -- low, all the way, I’ll fol -- low, all the way, The way is ver -- y nar -- row but I’ll fol -- low, all the way, I’ll fol -- low Je -- sus all the way."

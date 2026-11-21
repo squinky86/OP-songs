@@ -76,8 +76,8 @@ text = "Free from the hor -- ri -- ble fet -- ters of sin, Hav -- ing the light 
 [lyrics.4]
 text = "Life’s lit -- tle day will be end -- ed ere long; Shall you be one of the glo -- ri -- fied throng, When the re -- deemed ones be -- gin the new song? @s1"
 
-[lyrics.s1]
-text = "How is it with you?"
-
 [lyrics.chorus]
 text = "How is it with you, friend? Won’t you take Je -- sus too? Souls are be -- liev -- ing, par -- don re -- ceiv -- ing, How is it with you? How is it with you, friend? Won’t you take Je -- sus too? Souls are be -- liev -- ing, par -- don re -- ceiv -- ing, How is it with you?"
+
+[lyrics.s1]
+text = "How is it with you?"

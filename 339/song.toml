@@ -1,18 +1,18 @@
 title = "Jesus, I My Cross Have Taken"
-verse_count = 4
-key_signature = "G"
-time_sig_numerator = 4
-time_sig_denominator = 4
-tempo_bpm = 115
-phrase_breaks = ["4:64", "8:64", "12:64"]
-optional_phrase_breaks = ["2:64", "6:64", "10:64", "14:64"]
 copyrights = [
-  "Lyrics: Henry F. Lyte, 1824 (public domain)",
+  "Lyrics: Henry Francis Lyte, 1824 (public domain)",
   "Music: 'Ellesdie' from Joshua Leavitt's The Christian Lyre, 1831 (public domain)",
   "Arrangement: Hubert P. Main, 1868 (public domain)",
   "Courtesy of [Hymnary.org](https://hymnary.org)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "G"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 115
+verse_count = 4
+phrase_breaks = ["4:64", "8:64", "12:64"]
+optional_phrase_breaks = ["2:64", "6:64", "10:64", "14:64"]
 
 [parts.Soprano]
 choral_type = "soprano"

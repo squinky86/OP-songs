@@ -1,18 +1,18 @@
 title = "On Jordan's Stormy Banks I Stand"
 subtitle = "I Am Bound for the Promised Land"
-verse_count = 4
+copyrights = [
+  "Lyrics: Samuel Stennett, 1787 (public domain)",
+  "Music: T. C. O’Kane, 1877 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "G"
 time_sig_numerator = 4
 time_sig_denominator = 4
 tempo_bpm = 100
+verse_count = 4
 phrase_breaks = ["5:48", "9:48", "11:48", "13:48", "15:48"]
-non_breaking_phrase_breaks = ["11:16", "12:64", "15:16"]
-copyrights = [
-  "Lyrics: Samuel Stennett, 1787 (public domain)",
-  "Music: Tullius C. O'Kane, 1877 (public domain)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
 optional_phrase_breaks = ["3:48", "7:48"]
+non_breaking_phrase_breaks = ["11:16", "12:64", "15:16"]
 
 [parts.Soprano]
 choral_type = "soprano"

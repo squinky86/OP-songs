@@ -1,16 +1,16 @@
 title = "Jesus, Lover of My Soul"
-verse_count = 4
+copyrights = [
+  "Lyrics: Charles Wesley, 1740 (public domain)",
+  "Music: 'Martyn' by Simeon Butler Marsh, 1834 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "F"
 time_sig_numerator = 3
 time_sig_denominator = 4
 tempo_bpm = 92
+verse_count = 4
 phrase_breaks = ["5:48", "10:48", "16:48"]
 optional_phrase_breaks = ["2:48", "7:48", "13:48", "18:48"]
-copyrights = [
-  "Lyrics: Charles Wesley, 1740 (public domain)",
-  "Music: Simeon Butler Marsh, 1834 (public domain)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
 
 [parts.Soprano]
 choral_type = "soprano"

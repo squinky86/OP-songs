@@ -1,17 +1,16 @@
 title = "Is It the Crowning Day?"
-subtitle = ""
-verse_count = 4
-key_signature = "Db"
-time_sig_numerator = 6
-time_sig_denominator = 4
-tempo_bpm = 192
-phrase_breaks = ["6:96", "10:96", "16:96"]
-optional_phrase_breaks = ["2:96", "4:96", "8:80", "12:96", "14:80", "18:96", "20:96"]
 copyrights = [
   "Lyrics: Henry Ostrom, 1910 (public domain)",
   "Music: Charles H. Marsh, 1910 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "Db"
+time_sig_numerator = 6
+time_sig_denominator = 4
+tempo_bpm = 192
+verse_count = 4
+phrase_breaks = ["6:96", "10:96", "16:96"]
+optional_phrase_breaks = ["2:96", "4:96", "8:80", "12:96", "14:80", "18:96", "20:96"]
 
 [parts.Soprano]
 choral_type = "soprano"

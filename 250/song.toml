@@ -1,17 +1,17 @@
 title = "Sun of My Soul"
-verse_count = 6
-key_signature = "F"
-time_sig_numerator = 3
-time_sig_denominator = 4
-tempo_bpm = 96
-phrase_breaks = ["8:48"]
-optional_phrase_breaks = ["4:48", "12:48"]
 copyrights = [
   "Lyrics: John Keble, 1820 (public domain)",
   "Music: 'Hursley' by Peter Ritter, c. 1774 (public domain)",
   "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "F"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 6
+phrase_breaks = ["8:48"]
+optional_phrase_breaks = ["4:48", "12:48"]
 
 [parts.Soprano]
 choral_type = "soprano"

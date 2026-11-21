@@ -1,6 +1,6 @@
 title = "He Will Go With Me"
 copyrights = [
-  "Lyrics and Music: Franklin L. Eiland, 1905 (public domain)",
+  "Lyrics and Music: F. L. Eiland, 1905 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
 key_signature = "Db"
@@ -73,7 +73,6 @@ s2. s4. des8 des8 des8 | des4 des8 des4 des8 des4 des8 des8 des8 des8
 | des4. des4.~ des4 r8 des8 des8 des8 | des4 des8 des4 ges8 aes4 aes8 aes,8 aes,8 aes,8
 | des2.~ des4 r8 s4.
 """
-
 
 [lyrics.1]
 text = "Je -- sus my Sav -- ior prom -- ised that He, there, would be with me, When I am called the shad -- owed vale of death to pass through! And I am ful -- ly trust -- ing Him for this, the ful -- fil -- ing, Yes, I be -- lieve that He to it will ev -- er be true!"

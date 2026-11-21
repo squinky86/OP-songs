@@ -1,5 +1,5 @@
+# Tune: Wir Pflügen.
 title = "We Plow the Fields and Scatter"
-subtitle = ""
 copyrights = [
   "Lyrics: Matthias Claudius, 1782 (public domain)",
   "Translation: Jane M. Campbell, 1861 (public domain)",
@@ -44,7 +44,6 @@ staff_number = 2
 notes = """
 s2. e4 | a4 a4 e4 e4 | cis'2 a4 e4 | d4 cis4 b,4 a,4 | e2. cis4 | b,4 a,4 gis,4 a,4 | gis4( fis4) cis4 gis,4 | a,4 a,4 b,4 b,4 | e2. e4 | d4 d4 cis4 cis4 | b,2 e4 d4 | cis4 cis4 b,4 a,4 | e2. e4 | a4 a4 e4 e4 | fis2 cis4 cis4 | d4. b,8 e4 e4 | a,1 | a,4@c e4 cis4 a,4 | e2 e4 e4 | a4. cis'8 b4 a4 | e2. e4 | a4 e4 a4. e8 | fis4 cis4 fis4. cis8 | d4( b,4 cis'4) b4 | a,2. s4
 """
-
 
 [lyrics.1]
 text = "We plow the fields and scat -- ter the good seed on the land, but it is fed and wa -- tered by God's al -- might -- y hand. God sends the snow in win -- ter, the warmth to swell the grain, the breez -- es, and the sun -- shine, and soft re -- fresh -- ing rain."

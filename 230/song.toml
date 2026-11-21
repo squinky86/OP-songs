@@ -1,17 +1,17 @@
+# Tune: Beecher.
 title = "Love Divine"
-subtitle = ""
-verse_count = 4
+copyrights = [
+  "Lyrics: Charles Wesley, 1747 (public domain)",
+  "Music: John Zundel, 1870 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "Bb"
 time_sig_numerator = 4
 time_sig_denominator = 4
 tempo_bpm = 96
+verse_count = 4
 phrase_breaks = ["2:64", "4:64", "6:64", "8:64", "10:64", "12:64", "14:64", "16:64"]
 optional_phrase_breaks = ["1:64", "3:64", "5:64", "7:64", "9:64", "11:64", "13:64", "15:64"]
-copyrights = [
-  "Lyrics: Charles Wesley, 1747 (public domain)",
-  "Music: 'Beecher' by John Zundel, 1870 (public domain)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
 
 [parts.Soprano]
 choral_type = "soprano"

@@ -1,15 +1,15 @@
 title = "I Think When I Read That Sweet Story"
-verse_count = 6
+copyrights = [
+  "Lyrics: Jemima Thompson Luke, 1841 (public domain)",
+  "Music: Arranged by William B. Bradbury, 1859 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "Eb"
 time_sig_numerator = 4
 time_sig_denominator = 4
 tempo_bpm = 110
+verse_count = 6
 phrase_breaks = ["3:48", "5:48", "7:48"]
-copyrights = [
-  "Lyrics: Jemima Thompson Luke, 1841 (public domain)",
-  "Music: 'Sweet Story', arranged by William Batchelder Bradbury, 1859 (public domain)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
 
 [parts.Soprano]
 choral_type = "soprano"

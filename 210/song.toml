@@ -1,3 +1,4 @@
+# Tune: Glory Song.
 title = "O That Will Be Glory"
 copyrights = [
   "Lyrics and Music: Charles H. Gabriel, 1900 (public domain)",
@@ -28,9 +29,6 @@ c'4 c'4 c'4 c'4 c'4 bes4 | aes4 c'4 c'4 ees'2. | ees'4 des'4 c'4 ees'4 des'4 des
 ees'2.~@c ees'4 aes'4 f'4 | ees'2. ees'4 g'4 f'4 | ees'2. ees'4 g'4 f'4 | ees'2. ees'4 aes'4 f'4 | ees'2.~ ees'4 des'4 ees'4 | f'4 des'4 f'4 e'2.! | des'4 des'4 des'4 ees'4 ees'4! f'4 | ees'4 c'4 des'4 c'2.
 """
 
-[parts.Alto.lyrics.chorus]
-text = "O that will be glo -- ry for me, Glo -- ry for me, glo -- ry for me; I shall look on His face, That will be glo -- ry, be glo -- ry for me."
-
 [parts.Tenor]
 choral_type = "tenor"
 clef = "bass"
@@ -60,3 +58,6 @@ text = "Friends will be there I have loved long a -- go; Joy like a riv -- er a 
 
 [lyrics.chorus]
 text = "O that will be glo -- ry for me, Glo -- ry for me, glo -- ry for me; When by His grace I shall look on His face, That will be glo -- ry, be glo -- ry for me."
+
+[parts.Alto.lyrics.chorus]
+text = "O that will be glo -- ry for me, Glo -- ry for me, glo -- ry for me; I shall look on His face, That will be glo -- ry, be glo -- ry for me."

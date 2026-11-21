@@ -1,6 +1,6 @@
 title = "In the Old Time"
 copyrights = [
-  "Lyrics and Music: Franklin L. Eiland, 1909 (public domain)",
+  "Lyrics and Music: F. L. Eiland, 1909 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
 key_signature = "Ab"
@@ -42,21 +42,6 @@ ees'8 ees'8 ees'8 ees'8 ees'8 des'8 c'8 c'8 | ees'8 ees'8 ees'8 des'8 c'8 c'8 c'
 ees'4.( d'8) ees'4 c'8 c'8 | des'2 c'4! s4
 """
 
-[parts.Alto.lyrics.1]
-text = "We want just the same re -- lig -- ion, That our fa -- thers used to know, (there,) In the old time, In the old time; And that they did car -- ry with them, Ev -- ’ry -- where that they did go, (there,) In the old time, In the old time!"
-
-[parts.Alto.lyrics.2]
-text = "They did preach and pray and sing it, In the home and all a -- broad, (there,) In the old time, In the old time; In the way that hear -- ing sin -- ners, Could dis -- cern the pow’r of God, (there,) In the old time, In the old time!"
-
-[parts.Alto.lyrics.3]
-text = "Moth -- ers to their sons and daugh -- ters Taught it, in its per -- fect way, (there,) In the old time, In the old time; As they talked it so they lived it, Out, be -- fore them day by day, (there,) In the old time, In the old time!"
-
-[parts.Alto.lyrics.4]
-text = "Then, ’twas not of fad or fan -- cy, Nor for fame, a preached ap -- peal, (there,) In the old time, In the old time; ’Twas re -- lig -- ion full of glo -- ry, From the heart, with burn -- ing zeal, (there,) In the old time, In the old time!"
-
-[parts.Alto.lyrics.chorus]
-text = "It made ev -- ’ry -- bod -- y hap -- py In the old time, Made them love and serve each oth -- er, In the old time, Yes, we want the same re -- lig -- ion, As was that of long a -- go, (there,) In the old time, In the old time!"
-
 [parts.Tenor]
 choral_type = "tenor"
 clef = "bass"
@@ -88,14 +73,29 @@ aes2 aes4 aes,8 aes,8 | ees2 aes,4! s4
 [lyrics.1]
 text = "We want just the same re -- lig -- ion, That our fa -- thers used to know, In the old time, In the old time; And that they did car -- ry with them, Ev -- ’ry -- where that they did go, In the old time, In the old time!"
 
+[parts.Alto.lyrics.1]
+text = "We want just the same re -- lig -- ion, That our fa -- thers used to know, (there,) In the old time, In the old time; And that they did car -- ry with them, Ev -- ’ry -- where that they did go, (there,) In the old time, In the old time!"
+
 [lyrics.2]
 text = "They did preach and pray and sing it, In the home and all a -- broad, In the old time, In the old time; In the way that hear -- ing sin -- ners, Could dis -- cern the pow’r of God, In the old time, In the old time!"
+
+[parts.Alto.lyrics.2]
+text = "They did preach and pray and sing it, In the home and all a -- broad, (there,) In the old time, In the old time; In the way that hear -- ing sin -- ners, Could dis -- cern the pow’r of God, (there,) In the old time, In the old time!"
 
 [lyrics.3]
 text = "Moth -- ers to their sons and daugh -- ters Taught it, in its per -- fect way, In the old time, In the old time; As they talked it so they lived it, Out, be -- fore them day by day, In the old time, In the old time!"
 
+[parts.Alto.lyrics.3]
+text = "Moth -- ers to their sons and daugh -- ters Taught it, in its per -- fect way, (there,) In the old time, In the old time; As they talked it so they lived it, Out, be -- fore them day by day, (there,) In the old time, In the old time!"
+
 [lyrics.4]
 text = "Then, ’twas not of fad or fan -- cy, Nor for fame, a preached ap -- peal, In the old time, In the old time; ’Twas re -- lig -- ion full of glo -- ry, From the heart, with burn -- ing zeal, In the old time, In the old time!"
 
+[parts.Alto.lyrics.4]
+text = "Then, ’twas not of fad or fan -- cy, Nor for fame, a preached ap -- peal, (there,) In the old time, In the old time; ’Twas re -- lig -- ion full of glo -- ry, From the heart, with burn -- ing zeal, (there,) In the old time, In the old time!"
+
 [lyrics.chorus]
 text = "It made ev -- ’ry -- bod -- y hap -- py In the old time, Made them love and serve each oth -- er, In the old time, Yes, we want the same re -- lig -- ion, As was that of long a -- go, In the old time, In the old time!"
+
+[parts.Alto.lyrics.chorus]
+text = "It made ev -- ’ry -- bod -- y hap -- py In the old time, Made them love and serve each oth -- er, In the old time, Yes, we want the same re -- lig -- ion, As was that of long a -- go, (there,) In the old time, In the old time!"

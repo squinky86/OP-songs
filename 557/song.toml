@@ -56,9 +56,6 @@ r4 ees'8. ees'16 ees'8. ees'16 des'8. c'16 | des'2 aes4 aes8. aes16 |
 aes8. aes16 aes8. aes16 aes8. aes16 aes8. bes16 | aes2. s4
 """
 
-[parts.Tenor.lyrics.chorus]
-text = "When the roll is called up yon -- der, I’ll be there. When the roll is called up yon -- der, I’ll be there. When the roll is called up yon -- der, When the roll is called up yon -- der, I’ll be there."
-
 [parts.Bass]
 choral_type = "bass"
 clef = "bass"
@@ -74,9 +71,6 @@ r4 aes8. aes16 aes8. aes16 aes8. aes16 | des2 des4 des8. des16 |
 ees8. ees16 ees8. ees16 ees8. ees16 ees8. ees16 | aes,2. s4
 """
 
-[parts.Bass.lyrics.chorus]
-text = "When the roll is called up yon -- der, I’ll be there. When the roll is called up yon -- der, I’ll be there. When the roll is called up yon -- der, When the roll is called up yon -- der, I’ll be there."
-
 [lyrics.1]
 text = "When the trum -- pet of the Lord shall sound, and time shall be no more, And the morn -- ing breaks, e -- ter -- nal, bright and fair; When the saved of earth shall gath -- er o -- ver on the o -- ther shore, And the roll is called up yon -- der, I’ll be there."
 
@@ -88,3 +82,9 @@ text = "Let us la -- bor for the Mas -- ter from the dawn till set -- ting sun, 
 
 [lyrics.chorus]
 text = "When the roll is called up yon -- der, When the roll is called up yon -- der, When the roll is called up yon -- der, When the roll is called up yon -- der, I’ll be there."
+
+[parts.Tenor.lyrics.chorus]
+text = "When the roll is called up yon -- der, I’ll be there. When the roll is called up yon -- der, I’ll be there. When the roll is called up yon -- der, When the roll is called up yon -- der, I’ll be there."
+
+[parts.Bass.lyrics.chorus]
+text = "When the roll is called up yon -- der, I’ll be there. When the roll is called up yon -- der, I’ll be there. When the roll is called up yon -- der, When the roll is called up yon -- der, I’ll be there."

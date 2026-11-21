@@ -1,16 +1,15 @@
 title = "Good Night and Good Morning"
-subtitle = ""
-verse_count = 3
-key_signature = "Db"
-time_sig_numerator = 6
-time_sig_denominator = 4
-tempo_bpm = 144
-phrase_breaks = ["3:80", "5:80", "7:80", "9:80", "11:80", "13:80", "15:80"]
 copyrights = [
   "Lyrics: Lizzie DeArmond, 1922 (public domain)",
   "Music: Homer A. Rodeheaver, 1922 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "Db"
+time_sig_numerator = 6
+time_sig_denominator = 4
+tempo_bpm = 144
+verse_count = 3
+phrase_breaks = ["3:80", "5:80", "7:80", "9:80", "11:80", "13:80", "15:80"]
 
 [parts.Soprano]
 choral_type = "soprano"

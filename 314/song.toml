@@ -26,9 +26,6 @@ des''4. des''4 bes'8 | f'4.~ f'4 aes'8 | bes'4 f'8 bes'4 aes'8 | ges'4.~ ges'4. 
 g'4. aes'4 bes'8 | c''4.( des''4) ges'8 | f'4 f'8 ees'4 ees'8 | des'2.
 """
 
-[parts.Soprano.lyrics.chorus]
-text = "Take Thou my heart, I would be Thine a -- lone; Take Thou my heart, and make it all Thine own. Purge me from sin, O Lord, I now im -- plore, Wash me and keep me Thine for -- ev -- er -- more."
-
 [parts.Alto]
 choral_type = "alto"
 clef = "treble"
@@ -85,3 +82,6 @@ text = "More like the Mas -- ter I would live and grow; More of His love to o --
 
 [lyrics.chorus]
 text = "Take my heart, O take my heart, I would be Thine a -- lone; Take my heart, O take my heart and make it all Thine own; Purge Thou me from ev -- 'ry sin, O Lord, I now im -- plore, Wash and keep, O wash and keep me Thine for -- ev -- er more."
+
+[parts.Soprano.lyrics.chorus]
+text = "Take Thou my heart, I would be Thine a -- lone; Take Thou my heart, and make it all Thine own. Purge me from sin, O Lord, I now im -- plore, Wash me and keep me Thine for -- ev -- er -- more."

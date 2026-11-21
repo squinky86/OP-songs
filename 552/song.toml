@@ -26,9 +26,6 @@ c''2. d'8[ ees'8] | f'4 f'4 bes'4 f'8-( f'8-) | g'4 g'4 bes'2 |
 d''4. f''8 d''16 bes'8. c''4 | bes'2. s4
 """
 
-[parts.Soprano.lyrics.s3]
-text = "I'll be sat -- is -- fied then,"
-
 [parts.Alto]
 choral_type = "alto"
 clef = "treble"
@@ -43,12 +40,6 @@ f'16 f'8. e'4 f'4 bes8[ c'8] | d'4 d'4 d'4 d'8-( d'8-) | ees'4 ees'4 ees'4( g'4)
 f'4. f'8 f'16 d'8. ees'4 | d'16 d'8. ees'4 d'4 s4
 """
 
-[parts.Alto.lyrics.s1]
-text = "I'll be sat -- is -- fied sat -- is -- fied then."
-
-[parts.Alto.lyrics.s2]
-text = "I'll be sat -- is -- fied sat -- is -- fied then,"
-
 [parts.Tenor]
 choral_type = "tenor"
 clef = "bass"
@@ -62,12 +53,6 @@ g4.@c g8 g16 g8. bes4 | bes16 bes8. a4 bes4 r4 | bes4. d'8 bes16 bes8. bes4 |
 a16 a8. g4 a4 f4 | bes4 bes4 f4 bes8-( bes8-) | bes4 bes4 g4( bes4) |
 bes4. d'8 bes16 bes8. f4 | f16 f8. g4 f4 s4
 """
-
-[parts.Tenor.lyrics.s1]
-text = "I'll be sat -- is -- fied sat -- is -- fied then."
-
-[parts.Tenor.lyrics.s2]
-text = "I'll be sat -- is -- fied sat -- is -- fied then,"
 
 [parts.Bass]
 choral_type = "bass"
@@ -94,8 +79,23 @@ text = "When I shall reach that _ home of rest, To dwell with all the _ saved an
 [lyrics.s1]
 text = "I'll be sat -- is -- fied then."
 
+[parts.Alto.lyrics.s1]
+text = "I'll be sat -- is -- fied sat -- is -- fied then."
+
+[parts.Tenor.lyrics.s1]
+text = "I'll be sat -- is -- fied sat -- is -- fied then."
+
 [lyrics.s2]
 text = "I'll be sat -- is -- fied then,"
 
+[parts.Alto.lyrics.s2]
+text = "I'll be sat -- is -- fied sat -- is -- fied then,"
+
+[parts.Tenor.lyrics.s2]
+text = "I'll be sat -- is -- fied sat -- is -- fied then,"
+
 [lyrics.s3]
 text = "I'll be sat -- is -- fied sat -- is -- fied then,"
+
+[parts.Soprano.lyrics.s3]
+text = "I'll be sat -- is -- fied then,"

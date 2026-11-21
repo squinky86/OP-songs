@@ -1,31 +1,15 @@
 title = "Receive My Cry"
-subtitle = ""
-verse_count = 4
-key_signature = "Eb"
-time_sig_numerator = 3
-time_sig_denominator = 4
-tempo_bpm = 126
-phrase_breaks = ["8:48", "16:48", "24:48"]
 copyrights = [
   "Lyrics and Music: Charles H. Gabriel, 1924 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "Eb"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 126
+verse_count = 4
+phrase_breaks = ["8:48", "16:48", "24:48"]
 optional_phrase_breaks = ["4:32", "12:32", "20:48", "28:32"]
-
-[lyrics.1]
-text = "Sav -- ior, be with me ev -- ’ry hour, For oh! I need Thy sav -- ing pow’r; Hold Thou my hand, Lord, speak to me, And cause my blind -- ed eyes to see."
-
-[lyrics.2]
-text = "Rough was Thy way to Cal -- va -- ry, Where Thou was lift -- ed up for me; Yet in Thy mer -- cy hear my cry, For with -- out Thee, Lord, I must die."
-
-[lyrics.3]
-text = "Tho’ I have man -- y times de -- nied Thy name, yet still with me a -- bide; Purge me from sin! oh, make me pure, That I temp -- ta -- tion may en -- dure."
-
-[lyrics.4]
-text = "When I have reached the riv -- er side, Be with me thro’ the swell -- ing tide; Then with the ran -- somed on that shore I’ll praise Thy name for -- ev -- er -- more."
-
-[lyrics.chorus]
-text = "Sav -- ior, I plead with Thee! My Guide and Keep -- er be! Mer -- ci -- ful One, re -- ceive my cry, For with -- out Thee I must die!"
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -86,3 +70,18 @@ bes,2. | f2 bes,4 | ees2 ees4 | ees2. |
 g4 g4 ges4 | f2 bes4 | ees2 ees4 | g,2 aes,4 |
 bes,4 bes,4 bes,4 | bes,2 bes,4 | ees2.~ | ees2 r4 |
 """
+
+[lyrics.1]
+text = "Sav -- ior, be with me ev -- ’ry hour, For oh! I need Thy sav -- ing pow’r; Hold Thou my hand, Lord, speak to me, And cause my blind -- ed eyes to see."
+
+[lyrics.2]
+text = "Rough was Thy way to Cal -- va -- ry, Where Thou was lift -- ed up for me; Yet in Thy mer -- cy hear my cry, For with -- out Thee, Lord, I must die."
+
+[lyrics.3]
+text = "Tho’ I have man -- y times de -- nied Thy name, yet still with me a -- bide; Purge me from sin! oh, make me pure, That I temp -- ta -- tion may en -- dure."
+
+[lyrics.4]
+text = "When I have reached the riv -- er side, Be with me thro’ the swell -- ing tide; Then with the ran -- somed on that shore I’ll praise Thy name for -- ev -- er -- more."
+
+[lyrics.chorus]
+text = "Sav -- ior, I plead with Thee! My Guide and Keep -- er be! Mer -- ci -- ful One, re -- ceive my cry, For with -- out Thee I must die!"

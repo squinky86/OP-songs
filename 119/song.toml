@@ -9,9 +9,9 @@ time_sig_numerator = 4
 time_sig_denominator = 4
 tempo_bpm = 90
 verse_count = 3
-non_breaking_phrase_breaks = ["12:40"]
-optional_phrase_breaks = ["2:48", "5:48", "7:64", "11:48", "14:48"]
 phrase_breaks = ["3:64", "6:48", "9:48","13:48", "15:64"]
+optional_phrase_breaks = ["2:48", "5:48", "7:64", "11:48", "14:48"]
+non_breaking_phrase_breaks = ["12:40"]
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -45,9 +45,6 @@ notes = """
 s2. bes,8 bes,8 | bes,8 bes,8 bes,8 bes,8 bes,4 bes,8 bes,8 | bes,8 d8 d8 g8 bes2 | bes4. f8 g8 d8 c8. c16 | f2. bes,8 bes,8 | bes,8 bes,8 bes,8 bes,8 bes,4 bes,8 bes,8 | bes,8 d8 ees8 g8 bes2 | bes4.\\rit f8 g8 d8 f8.! f16 | bes,2.\\spanend s4@c | bes,4 bes,4 bes,4 r4 | bes,4 f4 bes,4 r4 | bes4 a4 g8 d8 c8. c16 | f2. bes,8 bes,8 | bes,8 bes,8 bes,8 bes,8 bes,4 bes,8 bes,8 | bes,8 d8 d8 g8 bes2 | bes4.\\rit f8 g8 d8 f8.! f16 | bes,2.\\spanend s4
 """
 
-[lyrics.s1]
-text = "In Geth -- sem -- a -- ne, a -- lone."
-
 [lyrics.1]
 text = "Oh, what won -- drous love I see, Free -- ly shown for you and me, By the One Who did a -- tone! Just to show His match -- less grace, Je -- sus suf -- fered for the race, @s1"
 
@@ -59,3 +56,6 @@ text = "Long in an -- guish deep was He, Weep -- ing there for you and me, For o
 
 [lyrics.chorus]
 text = "Oh, what love, match -- less love, Oh, what love for me was shown! His for -- ev -- er I will be, For the love He gave to me, When He suf -- fered all a -- lone."
+
+[lyrics.s1]
+text = "In Geth -- sem -- a -- ne, a -- lone."

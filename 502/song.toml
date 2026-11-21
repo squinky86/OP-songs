@@ -35,9 +35,6 @@ d'4. d'8@c | d'8. d'16 d'8 f'8 | f'4. f'8 | f'8. f'16 f'8 f'8 |
 f'8 f'8 f'8 d'8 | f'8 f'8 f'8. f'16 | g'8 g'8 ees'8. cis'16 | d'8. d'16 d'8 ees'8 | d'4. s8
 """
 
-[parts.Alto.lyrics.chorus]
-text = "If I but do my part, Keep Je -- sus ev -- er in my heart, A crown will be be -- stowed on me, If I but do my part."
-
 [parts.Tenor]
 choral_type = "tenor"
 clef = "bass"
@@ -48,9 +45,6 @@ bes4. g8 | bes8 bes8 bes8. bes16 | ees'8 ees'8 ees'8. bes16 | bes8. bes16 bes8 a
 bes4. bes8@c | f8. f16 f8 bes8 | a4. a8 | a8. a16 a8 c'8 |
 bes8 bes8 bes8 bes8 | bes8 bes8 bes8. d'16 | ees'8 ees'8 bes8. bes16 | bes8. bes16 bes8 a8 | bes4. s8
 """
-
-[parts.Tenor.lyrics.chorus]
-text = "If I but do my part, Keep Je -- sus ev -- er in my heart, A crown will be be -- stowed on me, If I but do my part."
 
 [parts.Bass]
 choral_type = "bass"
@@ -77,3 +71,9 @@ text = "At heav -- en’s gate my Lord will wait, If I but do my part; And He wi
 
 [lyrics.chorus]
 text = "If I but do my part, Keep Je -- sus in my heart, A crown will be be -- stowed on me, If I but do my part."
+
+[parts.Alto.lyrics.chorus]
+text = "If I but do my part, Keep Je -- sus ev -- er in my heart, A crown will be be -- stowed on me, If I but do my part."
+
+[parts.Tenor.lyrics.chorus]
+text = "If I but do my part, Keep Je -- sus ev -- er in my heart, A crown will be be -- stowed on me, If I but do my part."

@@ -11,9 +11,6 @@ verse_count = 1
 phrase_breaks = ["5:48", "9:48", "13:48"]
 optional_phrase_breaks = ["3:64", "7:48", "11:48", "15:48"]
 
-[lyrics.1]
-text = "Oh, suf -- fer lit -- tle chil -- dren, And for -- bid them not, Oh, suf -- fer lit -- tle chil -- dren, To come un -- to Me; For of such is the king -- dom, The king -- dom of heav -- en, For of such is the king -- dom, The king -- dom of heav -- en."
-
 [parts.Soprano]
 choral_type = "soprano"
 clef = "treble"
@@ -57,3 +54,6 @@ c4. c8 e4 f4 | c2 c4 r8 c8 | c4( e4) f4 g4 | c2. g8. g16 |
 c'4.( d'8) c'8[ b8] a8[ g8] | c4 c2 c4 | g4 g2 g4 | c4 c2 g8. g16 |
 c'4.( d'8) c'8[ b8] a8[ g8] | c4 c2 c4 | g4 g2 g4 | g4! c2 s4
 """
+
+[lyrics.1]
+text = "Oh, suf -- fer lit -- tle chil -- dren, And for -- bid them not, Oh, suf -- fer lit -- tle chil -- dren, To come un -- to Me; For of such is the king -- dom, The king -- dom of heav -- en, For of such is the king -- dom, The king -- dom of heav -- en."

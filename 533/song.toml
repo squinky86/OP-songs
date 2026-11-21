@@ -87,14 +87,14 @@ text = "O what won -- der -- ful love, O what grace di -- vine, That Je -- sus s
 [parts.Alto.lyrics.3]
 text = "O what won -- der -- ful love, O what grace di -- vine, That Je -- sus should die for me; I was lost in sin, for the world I pined, But now I am set free, (set free)."
 
-[parts.Alto.lyrics.chorus]
-text = "“Who -- so -- ev -- er” sure -- ly mean -- eth me, Sure -- ly mean -- eth me, O sure -- ly mean -- eth me; “Who -- so -- ev -- er” sure -- ly mean -- eth me, “Who -- so -- ev -- er” mean -- eth mean -- eth me."
-
 [parts.Tenor.lyrics.3]
 text = "O what won -- der -- ful love, O what grace di -- vine, That Je -- sus should die for me; I was lost in sin, for the world I pined, But now I am set free, (set free)."
 
-[parts.Tenor.lyrics.chorus]
-text = "“Who -- so -- ev -- er” sure -- ly mean -- eth me, Sure -- ly mean -- eth me, O sure -- ly mean -- eth me; “Who -- so -- ev -- er” sure -- ly mean -- eth me, “Who -- so -- ev -- er” mean -- eth mean -- eth me."
-
 [lyrics.chorus]
 text = "“Who -- so -- ev -- er” sure -- ly mean -- eth me, Sure -- ly mean -- eth me, O sure -- ly mean -- eth me; “Who -- so -- ev -- er” sure -- ly mean -- eth me, “Who -- so -- ev -- er” mean -- eth me."
+
+[parts.Alto.lyrics.chorus]
+text = "“Who -- so -- ev -- er” sure -- ly mean -- eth me, Sure -- ly mean -- eth me, O sure -- ly mean -- eth me; “Who -- so -- ev -- er” sure -- ly mean -- eth me, “Who -- so -- ev -- er” mean -- eth mean -- eth me."
+
+[parts.Tenor.lyrics.chorus]
+text = "“Who -- so -- ev -- er” sure -- ly mean -- eth me, Sure -- ly mean -- eth me, O sure -- ly mean -- eth me; “Who -- so -- ev -- er” sure -- ly mean -- eth me, “Who -- so -- ev -- er” mean -- eth mean -- eth me."

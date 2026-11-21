@@ -34,9 +34,6 @@ bes'8. bes'16 bes'8. c''16 d''8. d''16 c''8. c''16 |
 bes'1
 """
 
-[parts.Soprano.lyrics.chorus]
-text = "Stand -- ing, stand -- ing, Stand -- ing on the prom -- is -- es of God my Sav -- ior; Stand -- ing, stand -- ing, I’m stand -- ing on the prom -- is -- es of God."
-
 [parts.Alto]
 choral_type = "alto"
 clef = "treble"
@@ -123,6 +120,9 @@ text = "Stand -- ing on the prom -- is -- es I can -- not fall, List’ -- ning 
 
 [lyrics.chorus]
 text = "Stand -- ing on the prom -- is -- es, stand -- ing on the prom -- is -- es, Stand -- ing on the prom -- is -- es of God my Sav -- ior; Stand -- ing on the prom -- is -- es, stand -- ing on the prom -- is -- es, I’m stand -- ing on the prom -- is -- es of God."
+
+[parts.Soprano.lyrics.chorus]
+text = "Stand -- ing, stand -- ing, Stand -- ing on the prom -- is -- es of God my Sav -- ior; Stand -- ing, stand -- ing, I’m stand -- ing on the prom -- is -- es of God."
+
 [lyrics.s1]
 text = "Stand -- ing on the prom -- is -- es of God."
-

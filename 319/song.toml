@@ -1,41 +1,18 @@
+# Tune: Merrial.
 title = "Now the Day is Over"
-verse_count = 8
+copyrights = [
+  "Lyrics: Sabine Baring-Gould, 1865 (public domain)",
+  "Music: Joseph Barnby, 1868 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "A"
 time_sig_numerator = 4
 time_sig_denominator = 4
 tempo_bpm = 110
+verse_count = 8
 phrase_breaks = ["4:64"]
-copyrights = [
-  "Lyrics: Sabine Baring-Gould, 1865 (public domain)",
-  "Music: 'Merrial' by Joseph Barnby, 1868 (public domain)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
 optional_phrase_breaks = ["2:64", "6:64"]
 non_breaking_phrase_breaks = ["5:64", "7:48"]
-
-[lyrics.1]
-text = "Now the day is o -- ver, Night is draw -- ing nigh, Sha -- dows of the eve -- ning Steal a -- cross the sky."
-
-[lyrics.2]
-text = "Now the dark -- ness gath -- ers, Stars be -- gin to peep, Birds, and beasts and flow -- ers Soon will be a -- sleep."
-
-[lyrics.3]
-text = "Je -- sus, give the wea -- ry Calm and sweet re -- pose; With Thy tend' -- rest bless -- ing May mine eye -- lids close."
-
-[lyrics.4]
-text = "Grant to lit -- tle chil -- dren Vi -- sions bright of Thee; Guard the sail -- ors toss -- ing On the deep, blue sea."
-
-[lyrics.5]
-text = "Com -- fort those who suf -- fer, Watch -- ing late in pain; Those who plan some e -- vil From their sin re -- strain."
-
-[lyrics.6]
-text = "Through the long night watch -- es May Thine an -- gels spread Their white wings a -- bove me, Watch -- ing round my bed."
-
-[lyrics.7]
-text = "When the morn -- ing wak -- ens, Then may I a -- rise Pure, and fresh, and sin -- less In Thy ho -- ly eyes."
-
-[lyrics.8]
-text = "Glo -- ry to the Fa -- ther, Glo -- ry to the Son, And to Thee, blest Spir -- it, While all a -- ges run."
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -70,8 +47,31 @@ clef = "bass"
 staff_number = 2
 suppress_verses = [2, 3, 4, 5, 6, 7, 8]
 suppress_verses_when = ["soprano", "alto", "tenor"]
-
 notes = """
 a4 e4 gis4 e4 | a4( e4) cis4( a,4) | fis,4 a,4 cis4 cis4 | fis1 |
 b,4. b,8 b,4 b,4 | e4 d4 cis4 c4 | b,2. b,4 | a,1
 """
+
+[lyrics.1]
+text = "Now the day is o -- ver, Night is draw -- ing nigh, Sha -- dows of the eve -- ning Steal a -- cross the sky."
+
+[lyrics.2]
+text = "Now the dark -- ness gath -- ers, Stars be -- gin to peep, Birds, and beasts and flow -- ers Soon will be a -- sleep."
+
+[lyrics.3]
+text = "Je -- sus, give the wea -- ry Calm and sweet re -- pose; With Thy tend' -- rest bless -- ing May mine eye -- lids close."
+
+[lyrics.4]
+text = "Grant to lit -- tle chil -- dren Vi -- sions bright of Thee; Guard the sail -- ors toss -- ing On the deep, blue sea."
+
+[lyrics.5]
+text = "Com -- fort those who suf -- fer, Watch -- ing late in pain; Those who plan some e -- vil From their sin re -- strain."
+
+[lyrics.6]
+text = "Through the long night watch -- es May Thine an -- gels spread Their white wings a -- bove me, Watch -- ing round my bed."
+
+[lyrics.7]
+text = "When the morn -- ing wak -- ens, Then may I a -- rise Pure, and fresh, and sin -- less In Thy ho -- ly eyes."
+
+[lyrics.8]
+text = "Glo -- ry to the Fa -- ther, Glo -- ry to the Son, And to Thee, blest Spir -- it, While all a -- ges run."

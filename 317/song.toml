@@ -1,5 +1,4 @@
 title = "The Old-Fashioned Meeting"
-subtitle = ""
 copyrights = [
   "Lyrics and Music: Herbert Buffum, 1922 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
@@ -11,21 +10,6 @@ tempo_bpm = 100
 verse_count = 4
 phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "11:48", "13:48", "15:48"]
 optional_phrase_breaks = ["2:56", "4:56", "6:56", "8:56", "10:56", "12:56", "14:56", "16:32"]
-
-[lyrics.1]
-text = "Oh, how well I re -- mem -- ber in the old- -- fash -- ioned days, When some old- -- fash -- ioned peo -- ple had some old- -- fash -- ioned ways; In the old- -- fash -- ioned meet -- ings, as they tar -- ried there, In the old- -- fash -- ioned man -- ner, how God an -- swered their pray'r."
-
-[lyrics.2]
-text = "There was sing -- ing, such sing -- ing, of those old- -- fash -- ioned airs! There was pow -- er, such pow -- er in those old- -- fash -- ioned pray'rs, An old- -- fash -- ioned con -- vic -- tion made the sin -- ner pray, And the Lord heard and saved Him, in the old- -- fash -- ioned way."
-
-[lyrics.3]
-text = "Well, they say it is bet -- ter, \"Things have changed, don't you know,\" And the peo -- ple in gen' -- ral, seem to think it is so; And they call me old- -- fash -- ioned when I dare to say, That I like it far bet -- ter in the old- -- fash -- ioned way."
-
-[lyrics.4]
-text = "If the Lord nev -- er chang -- es, as the fash -- ions of men, If He's al -- ways the same, why, He is old- -- fash -- ioned, then! As an old- -- fash -- ioned sin -- ner saved thro' old- -- time grace, Oh, I'm sure He will take me to an old- -- fash -- ioned place."
-
-[lyrics.chorus]
-text = "'Twas an old- -- fash -- ioned meet -- ing, in an old- -- fash -- ioned place, Where some old- -- fash -- ioned peo -- ple had some old- -- fash -- ioned grace: As an old- -- fash -- ioned sin -- ner I prayed and o -- beyed, And God heard me, and saved me in the old- -- fash -- ioned way."
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -58,3 +42,18 @@ staff_number = 2
 notes = """
 s2. ees8! ees8! | ees8 ees4 d8 ees8 ees8 ees8 ees8 | ees8 ees4 ees8 ees4 ees8 ees8 | aes8 aes4 aes8 ees8 ees8 ees8 ees8 | c8 f4 f8 bes,4! bes,8! bes,8! | ees8 ees4 ees8 ees8 ees8 ees8 ees8 | ees4 ees4 aes4 aes8 aes8 | aes8 aes4 aes8 ees8 ees8 c8 c8 | bes,8 bes,4 bes,8 ees4! ees8@c ees8 | ees8 ees4 ees8 ees8 ees8 ees8 ees8 | ees8 ees4 ees8 ees4 ees8 ees8 | ees8 ees4 ees8 ees8 ees8 ees8 ees8 | c8 f4 f8 bes,4! bes,8 bes,8 | ees8 ees4 ees8 ees8 ees8 ees8 ees8 | ees4 ees4 aes4 aes8 aes8 | aes8 aes4 aes8 ees8 ees8 c8 c8 | bes,8 bes,4 bes,8 ees4! s4
 """
+
+[lyrics.1]
+text = "Oh, how well I re -- mem -- ber in the old- -- fash -- ioned days, When some old- -- fash -- ioned peo -- ple had some old- -- fash -- ioned ways; In the old- -- fash -- ioned meet -- ings, as they tar -- ried there, In the old- -- fash -- ioned man -- ner, how God an -- swered their pray'r."
+
+[lyrics.2]
+text = "There was sing -- ing, such sing -- ing, of those old- -- fash -- ioned airs! There was pow -- er, such pow -- er in those old- -- fash -- ioned pray'rs, An old- -- fash -- ioned con -- vic -- tion made the sin -- ner pray, And the Lord heard and saved Him, in the old- -- fash -- ioned way."
+
+[lyrics.3]
+text = "Well, they say it is bet -- ter, \"Things have changed, don't you know,\" And the peo -- ple in gen' -- ral, seem to think it is so; And they call me old- -- fash -- ioned when I dare to say, That I like it far bet -- ter in the old- -- fash -- ioned way."
+
+[lyrics.4]
+text = "If the Lord nev -- er chang -- es, as the fash -- ions of men, If He's al -- ways the same, why, He is old- -- fash -- ioned, then! As an old- -- fash -- ioned sin -- ner saved thro' old- -- time grace, Oh, I'm sure He will take me to an old- -- fash -- ioned place."
+
+[lyrics.chorus]
+text = "'Twas an old- -- fash -- ioned meet -- ing, in an old- -- fash -- ioned place, Where some old- -- fash -- ioned peo -- ple had some old- -- fash -- ioned grace: As an old- -- fash -- ioned sin -- ner I prayed and o -- beyed, And God heard me, and saved me in the old- -- fash -- ioned way."

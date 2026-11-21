@@ -1,15 +1,14 @@
 title = "Where the Gates Swing Outward Never"
-subtitle = ""
-verse_count = 4
-key_signature = "Ab"
-time_sig_numerator = 4
-time_sig_denominator = 4
-tempo_bpm = 96
-phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "11:48", "13:48", "15:48", "17:48"]
 copyrights = [
   "Lyrics and Music: Charles H. Gabriel, 1917 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 4
+phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "11:48", "13:48", "15:48", "17:48"]
 
 [parts.Soprano]
 choral_type = "soprano"

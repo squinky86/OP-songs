@@ -1,17 +1,16 @@
 title = "God Is the Fountain Whence"
-subtitle = ""
-key_signature = "F"
-time_sig_numerator = 3
-time_sig_denominator = 4
-tempo_bpm = 100
-verse_count = 3
-phrase_breaks = ["3:32", "6:32", "10:32"]
 copyrights = [
   "Lyrics: Benjamin Beddome, 1817 (public domain)",
   "Music: 'Gerar' by Lowell Mason, 1839 (public domain)",
   "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "F"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 3
+phrase_breaks = ["3:32", "6:32", "10:32"]
 commentary = ""
 
 [parts.Soprano]

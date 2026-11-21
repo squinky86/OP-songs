@@ -1,17 +1,17 @@
 title = "Brighten the Corner Where You Are"
-verse_count = 3
-key_signature = "Eb"
-time_sig_numerator = 4
-time_sig_denominator = 4
-tempo_bpm = 105
-phrase_breaks = ["3:48", "5:48", "7:64", "9:64", "11:64", "13:64", "15:64"]
-optional_phrase_breaks = ["14:64"]
 copyrights = [
   "Lyrics: Ina Duley Ogdon, 1913 (public domain)",
   "Music: Charles H. Gabriel, 1913 (public domain)",
   "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "Eb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 105
+verse_count = 3
+phrase_breaks = ["3:48", "5:48", "7:64", "9:64", "11:64", "13:64", "15:64"]
+optional_phrase_breaks = ["14:64"]
 non_breaking_phrase_breaks = ["10:64"]
 
 [parts.Soprano]
@@ -66,9 +66,6 @@ ees4 ees4 ees2 | ees8 ees8 ees8 ees8 ees8 ees8 ees8 ees8 | aes8 aes8 aes8 aes8 a
 bes8 bes4 bes8 bes8 bes4. | bes,4 bes,4 ees4! s4
 """
 
-[parts.Bass.lyrics.chorus]
-text = "Bright -- en the cor -- ner Shine for Je -- sus where you are! Bright -- en the cor -- ner where you are! Some -- one far from har -- bor you may guide a -- cross the bar; Bright -- en the cor -- ner where you are!"
-
 [lyrics.1]
 text = "Do not wait un -- til some deed of great -- ness you may do, Do not wait to shed your light a -- far, To the ma -- ny du -- ties ev -- er near you now be true, Bright -- en the cor -- ner where you are."
 
@@ -80,3 +77,6 @@ text = "Here for all your tal -- ent you may sure -- ly find a need, Here re -- 
 
 [lyrics.chorus]
 text = "Bright -- en the cor -- ner where you are! Bright -- en the cor -- ner where you are! Some -- one far from har -- bor you may guide a -- cross the bar; Bright -- en the cor -- ner where you are!"
+
+[parts.Bass.lyrics.chorus]
+text = "Bright -- en the cor -- ner Shine for Je -- sus where you are! Bright -- en the cor -- ner where you are! Some -- one far from har -- bor you may guide a -- cross the bar; Bright -- en the cor -- ner where you are!"

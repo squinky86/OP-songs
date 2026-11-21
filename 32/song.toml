@@ -1,8 +1,7 @@
 title = "Abba, Father! We Approach Thee"
 subtitle = "Calon Lân"
-commentary = "<p>This same song is also available with music for <a href=\"/songs/33\">Beecher</a>, <a href=\"/songs/34\">Deerhurst</a>, and <a href=\"/songs/35\">Erie</a>.</p>"
 copyrights = [ "Lyrics: James G. Deck, 1841 (public domain)",
-  "Music: 'Calon Lân' by John Hughes c. 1900 (public domain)",
+  "Music: John Hughes c. 1900 (public domain)",
   "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license"
 ]
@@ -12,6 +11,7 @@ time_sig_denominator = 4
 tempo_bpm = 145
 verse_count = 4
 phrase_breaks = ["5:64", "9:64", "13:64"]
+commentary = "<p>This same song is also available with music for <a href=\"/songs/33\">Beecher</a>, <a href=\"/songs/34\">Deerhurst</a>, and <a href=\"/songs/35\">Erie</a>.</p>"
 
 [parts.Soprano]
 choral_type = "soprano"

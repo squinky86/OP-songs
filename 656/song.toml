@@ -24,9 +24,6 @@ s4. s4 f'8
 | f''4.~ f''4 d''8 | bes'4.~ bes'4 f'8 | bes'4 d''8 d''4 bes'8 | c''4 d''8 bes'4! s8
 """
 
-[parts.Soprano.lyrics.chorus]
-text = "Not long, not long Un -- til we’ll meet and sing His praise; Not long, not long, Oh! praise His name ’twill not be long."
-
 [parts.Alto]
 choral_type = "alto"
 clef = "treble"
@@ -77,3 +74,6 @@ text = "A few more days to strug -- gle on, And then the life- -- crown will be 
 
 [lyrics.chorus]
 text = "’Twill not be long, a few more days Un -- til we’ll meet and sing His praise; Just o -- ver in that land of song, Oh! praise His name ’twill not be long."
+
+[parts.Soprano.lyrics.chorus]
+text = "Not long, not long Un -- til we’ll meet and sing His praise; Not long, not long, Oh! praise His name ’twill not be long."

@@ -21,9 +21,6 @@ notes = """
 bes'4. bes'8 bes'4 c''4 bes'4 g'4 | bes'4 aes'4 f'4 ees'2 ees'4 | f'4. g'8 aes'4 aes'4 f'4 aes'4 | c''4 bes'4. g'8 bes'2 bes'4 | ees''4. ees''8 ees''4 ees''4 d''4 c''4 | bes'4. c''8 bes'4 g'2. | bes'4. c''8 d''4 ees''4 bes'4 g'4 | bes'4. aes'8 f'4 ees'2. | ees''2.~@c ees''2. | ees''2.~ ees''2 c''4 | d''4. d''8 d''4 d''4 c''4 bes'4 | bes'4. c''8 bes'4 ees''2. | ees''2.~ ees''2. | ees''2.~ ees''2! c''8 c''8 | bes'4. c''8 d''4 ees''4 bes'4 g'4 | bes'4. aes'8 f'4 ees'2.
 """
 
-[parts.Soprano.lyrics.chorus]
-text = "Saved! Saved! My sins are all par -- doned, my guilt is all gone! Saved! Saved! I am saved by the blood of the Cru -- ci -- fied One!"
-
 [parts.Alto]
 choral_type = "alto"
 clef = "treble"
@@ -62,3 +59,6 @@ text = "Saved by the blood of the Cru -- ci -- fied One! All hail to the Fa -- t
 
 [lyrics.chorus]
 text = "Glo -- ry, I’m saved! Glo -- ry, I’m saved! My sins are all par -- doned, my guilt is all gone! Glo -- ry, I’m saved! Glo -- ry, I’m saved! I am saved by the blood of the Cru -- ci -- fied One!"
+
+[parts.Soprano.lyrics.chorus]
+text = "Saved! Saved! My sins are all par -- doned, my guilt is all gone! Saved! Saved! I am saved by the blood of the Cru -- ci -- fied One!"

@@ -1,7 +1,6 @@
 title = "Father of Mercies"
-subtitle = ""
 copyrights = [
-  "Lyrics: Frederick W. Faber, et al. (public domain)",
+  "Lyrics: Frederick William Faber, et al. (public domain)",
   "Music: 'Elos' c. 1864 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
@@ -10,8 +9,8 @@ time_sig_numerator = 3
 time_sig_denominator = 4
 tempo_bpm = 96
 verse_count = 3
-optional_phrase_breaks = ["2:48", "6:48", "11:32", "13:32", "17:32"]
 phrase_breaks = ["4:32", "8:32", "12:32", "16:32"]
+optional_phrase_breaks = ["2:48", "6:48", "11:32", "13:32", "17:32"]
 
 [parts.Soprano]
 choral_type = "soprano"

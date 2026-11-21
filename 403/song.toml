@@ -1,19 +1,18 @@
 title = "Unsaved!"
-subtitle = ""
-verse_count = 4
+copyrights = [
+  "Lyrics: Charles H. Gabriel as Jennie Ree, 1928 (public domain)",
+  "Music: Charles H. Gabriel, 1892 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "Db"
 time_sig_numerator = 4
 time_sig_denominator = 4
 tempo_bpm = 100
+verse_count = 4
 phrase_breaks = ["5:48", "7:48", "11:48", "14:48"]
 optional_phrase_breaks = ["3:48", "9:48", "13:48", "15:48"]
 non_breaking_phrase_breaks = ["11:16", "13:16", "17:16"]
 non_breaking_format_resets = ["9:48"]
-copyrights = [
-  "Lyrics: Jennie Ree, 1928 (public domain)",
-  "Music: Charles H. Gabriel, 1892 (public domain)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -45,9 +44,6 @@ f'4 ges'8. ges'16 f'4 f'4 | ges'8 bes'8 aes'8[ ges'8] f'4 des'8 des'8 |
 des'8 f'4 f'8 des'4 c'4 | des'4 bes4 aes4 s4
 """
 
-[parts.Alto.lyrics.chorus]
-text = "You’re go -- ing a -- way un -- saved, un -- saved, You’re go -- ing a -- way un -- saved, un -- saved, Though still there is room, And Je -- sus says “Come!” You are go -- ing a -- way un -- saved! un -- saved!"
-
 [parts.Tenor]
 choral_type = "tenor"
 clef = "bass"
@@ -62,9 +58,6 @@ des'8 des'4 des'8 c'4 bes4 | aes4 aes4 aes4 aes4 |
 aes4 bes8. bes16 aes4 des'4 | des'8 des'8 des'4 des'4 aes8 bes8 |
 aes8 aes4 aes8 aes4 ges4 | f4 ges4 f4 s4
 """
-
-[parts.Tenor.lyrics.chorus]
-text = "You’re go -- ing a -- way un -- saved, un -- saved, You’re go -- ing a -- way un -- saved, un -- saved, Though still there is room, And Je -- sus says “Come!” You are go -- ing a -- way un -- saved! un -- saved!"
 
 [parts.Bass]
 choral_type = "bass"
@@ -81,9 +74,6 @@ des4 des8. des16 des4 des4 | ges8 ges8 ges4 des4 f8 ges8 |
 aes8 aes4 aes8 aes,4 aes,4 | des2. s4
 """
 
-[parts.Bass.lyrics.chorus]
-text = "You’re go -- ing a -- way un -- saved, You’re go -- ing a -- way un -- saved, Though still there is room, And Je -- sus says “Come!” You are go -- ing a -- way un -- saved!"
-
 [lyrics.1]
 text = "O why will you go a -- way to -- night Un -- saved— far a -- way from God? Why grope in the dark -- ness, re -- fus -- ing the light Where -- in all the saints have trod."
 
@@ -97,4 +87,13 @@ text = "O why will you go a -- way to -- night To wan -- der in path -- less glo
 text = "O why will you go a -- way to -- night? De -- cide, sin -- ner, while you may; From life ev -- er -- last -- ing from friends and from God, O why will you turn a -- way?"
 
 [lyrics.chorus]
+text = "You’re go -- ing a -- way un -- saved, You’re go -- ing a -- way un -- saved, Though still there is room, And Je -- sus says “Come!” You are go -- ing a -- way un -- saved!"
+
+[parts.Alto.lyrics.chorus]
+text = "You’re go -- ing a -- way un -- saved, un -- saved, You’re go -- ing a -- way un -- saved, un -- saved, Though still there is room, And Je -- sus says “Come!” You are go -- ing a -- way un -- saved! un -- saved!"
+
+[parts.Tenor.lyrics.chorus]
+text = "You’re go -- ing a -- way un -- saved, un -- saved, You’re go -- ing a -- way un -- saved, un -- saved, Though still there is room, And Je -- sus says “Come!” You are go -- ing a -- way un -- saved! un -- saved!"
+
+[parts.Bass.lyrics.chorus]
 text = "You’re go -- ing a -- way un -- saved, You’re go -- ing a -- way un -- saved, Though still there is room, And Je -- sus says “Come!” You are go -- ing a -- way un -- saved!"

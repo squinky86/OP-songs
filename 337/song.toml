@@ -1,16 +1,16 @@
 title = "Lamp of Our Feet"
-verse_count = 11
-key_signature = "G"
-time_sig_numerator = 3
-time_sig_denominator = 4
-tempo_bpm = 125
-phrase_breaks = ["8:48"]
 copyrights = [
   "Lyrics: Bernard Barton, 1826 (public domain)",
   "Music: 'Lambeth' by Wilhelm A. F. Schulthes, 1871 (public domain)",
   "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "G"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 125
+verse_count = 11
+phrase_breaks = ["8:48"]
 optional_phrase_breaks = ["4:48", "12:48"]
 
 [parts.Soprano]

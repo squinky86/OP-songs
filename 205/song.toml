@@ -1,7 +1,7 @@
+# Tune: Kenosis.
 title = "I Gave My Life for Thee"
-subtitle = ""
 copyrights = [
-  "Lyrics: Frances R. Havergal, 1858 (public domain)",
+  "Lyrics: Frances Ridley Havergal, 1858 (public domain)",
   "Music: Philip P. Bliss, 1873 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
@@ -44,6 +44,7 @@ staff_number = 2
 notes = """
 s4. s4 c8 | c4 c8 c4 c8 | f4.~ f4 f8 | g4 g8 g4 g8 | c4.~ c4 c8 | c4 c8 c4 c8 | f4.~ f4 f8 | g4 g8 g4 g8 | c4.~ c4 c8%f | g4 g8 g4 g8 | c4 c8 c4 c8 | g4 g8 g4 g8 | c4.~ c4 c8 | g4 g8 g4 g8 | c4 c8 c4 c8 | g4 g8 g4 g8 | c4.~ c4 s8
 """
+
 [lyrics.1]
 text = "I gave My life for thee, My pre -- cious blood I shed, That thou might'st ran -- somed be, And quick -- ened from the dead; I gave, I gave My life for thee, What hast thou giv'n for Me? I gave, I gave My life for thee, What hast thou giv'n for Me?"
 

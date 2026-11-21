@@ -1,17 +1,16 @@
 title = "Jesus, Thy Name I Love"
-subtitle = ""
-verse_count = 4
-key_signature = "Bb"
-time_sig_numerator = 4
-time_sig_denominator = 4
-tempo_bpm = 100
-phrase_breaks = ["4:64", "8:64", "12:64"]
-optional_phrase_breaks = ["2:64", "6:64", "10:64"]
 copyrights = [
   "Words: James G. Deck, 1842 (public domain)",
   "Music: 'Lyte' by Joseph P. Holbrook, 1865 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "Bb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 4
+phrase_breaks = ["4:64", "8:64", "12:64"]
+optional_phrase_breaks = ["2:64", "6:64", "10:64"]
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -100,35 +99,35 @@ bes,2. r4
 [lyrics.1]
 text = "Je -- sus, Thy name I love, All oth -- er names a -- bove, Je -- sus, my Lord: O Thou art all to me; Noth -- ing to please I see, Noth -- ing a -- part from Thee, Je -- sus, my Lord."
 
-[lyrics.2]
-text = "Thou, bless -- èd Son of God, Hast bought me with Thy blood, Je -- sus, my Lord: O how great is Thy love, All oth -- er loves a -- bove, Love that I dai -- ly prove, Je -- sus, my Lord."
-
-[lyrics.3]
-text = "When un -- to Thee I flee, Thou wilt my ref -- uge be, Je -- sus, my Lord: What need I now to fear, What earth -- ly grief or care, Since Thou art ev -- er near? Je -- sus, my Lord."
-
-[lyrics.4]
-text = "Soon Thou wilt come a -- gain; I shall be hap -- py then, Je -- sus, my Lord: Then Thine own face I'll see, Then I shall like Thee be, Then ev -- er -- more with Thee, Je -- sus, my Lord."
-
 [parts.Tenor.lyrics.1]
 text = "Je -- sus, my Lord: O Thou art all to me; Noth -- ing to please I see, Noth -- ing a -- part from Thee, Je -- sus, my Lord."
-
-[parts.Tenor.lyrics.2]
-text = "Je -- sus, my Lord: O how great is Thy love, All oth -- er loves a -- bove, Love that I dai -- ly prove, Je -- sus, my Lord."
-
-[parts.Tenor.lyrics.3]
-text = "Je -- sus, my Lord: What need I now to fear, What earth -- ly grief or care, Since Thou art ev -- er near? Je -- sus, my Lord."
-
-[parts.Tenor.lyrics.4]
-text = "Je -- sus, my Lord: Then Thine own face I'll see, Then I shall like Thee be, Then ev -- er -- more with Thee, Je -- sus, my Lord."
 
 [parts.Bass.lyrics.1]
 text = "Je -- sus, my Lord: O Thou art all to me; Noth -- ing to please I see, Noth -- ing a -- part from Thee, Je -- sus, my Lord."
 
+[lyrics.2]
+text = "Thou, bless -- èd Son of God, Hast bought me with Thy blood, Je -- sus, my Lord: O how great is Thy love, All oth -- er loves a -- bove, Love that I dai -- ly prove, Je -- sus, my Lord."
+
+[parts.Tenor.lyrics.2]
+text = "Je -- sus, my Lord: O how great is Thy love, All oth -- er loves a -- bove, Love that I dai -- ly prove, Je -- sus, my Lord."
+
 [parts.Bass.lyrics.2]
 text = "Je -- sus, my Lord: O how great is Thy love, All oth -- er loves a -- bove, Love that I dai -- ly prove, Je -- sus, my Lord."
 
+[lyrics.3]
+text = "When un -- to Thee I flee, Thou wilt my ref -- uge be, Je -- sus, my Lord: What need I now to fear, What earth -- ly grief or care, Since Thou art ev -- er near? Je -- sus, my Lord."
+
+[parts.Tenor.lyrics.3]
+text = "Je -- sus, my Lord: What need I now to fear, What earth -- ly grief or care, Since Thou art ev -- er near? Je -- sus, my Lord."
+
 [parts.Bass.lyrics.3]
 text = "Je -- sus, my Lord: What need I now to fear, What earth -- ly grief or care, Since Thou art ev -- er near? Je -- sus, my Lord."
+
+[lyrics.4]
+text = "Soon Thou wilt come a -- gain; I shall be hap -- py then, Je -- sus, my Lord: Then Thine own face I'll see, Then I shall like Thee be, Then ev -- er -- more with Thee, Je -- sus, my Lord."
+
+[parts.Tenor.lyrics.4]
+text = "Je -- sus, my Lord: Then Thine own face I'll see, Then I shall like Thee be, Then ev -- er -- more with Thee, Je -- sus, my Lord."
 
 [parts.Bass.lyrics.4]
 text = "Je -- sus, my Lord: Then Thine own face I'll see, Then I shall like Thee be, Then ev -- er -- more with Thee, Je -- sus, my Lord."

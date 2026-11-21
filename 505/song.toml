@@ -1,6 +1,6 @@
 title = "In the Sunlight!"
 copyrights = [
-  "Lyrics and Music: Franklin L. Eiland, 1907 (public domain)",
+  "Lyrics and Music: F. L. Eiland, 1907 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
 key_signature = "Bb"
@@ -23,9 +23,6 @@ f'4.@c f'8 | g'8 f'8 r4 | g'4. bes'8 | c''8 bes'8 a'8 g'8 | f'8 f'8 f'8 f'8 |
 bes'16 bes'8. d''16 d''8. | c''2! | d''4. d''8 | c''8 bes'8 r4 | bes'4. bes'8 |
 c''8 bes'8 a'8 g'8 | f'8 f'8 bes'8 bes'8 | d''16 d''8. c''8. c''16 | bes'4 s4
 """
-
-[parts.Soprano.lyrics.chorus]
-text = "In the sun -- light, In the sun -- light, In the sun -- light of His pres -- ence would I stay; In the sun -- light, in the sun -- light, In the sun -- light of His pres -- ence all the way!"
 
 [parts.Alto]
 choral_type = "alto"
@@ -77,3 +74,6 @@ text = "In the sun -- light of His pres -- ence, There is peace be -- yond com -
 
 [lyrics.chorus]
 text = "In the sun -- light, yes, ’tis In the sun -- light, In the sun -- light of His pres -- ence would I stay; In the sun -- light, ev -- er in the sun -- light, In the sun -- light of His pres -- ence all the way!"
+
+[parts.Soprano.lyrics.chorus]
+text = "In the sun -- light, In the sun -- light, In the sun -- light of His pres -- ence would I stay; In the sun -- light, in the sun -- light, In the sun -- light of His pres -- ence all the way!"

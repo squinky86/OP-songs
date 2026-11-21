@@ -1,15 +1,14 @@
 title = "Holy Spirit, Faithful Guide"
-subtitle = ""
-verse_count = 3
-key_signature = "G"
-time_sig_numerator = 3
-time_sig_denominator = 4
-tempo_bpm = 150
-phrase_breaks = ["8:48", "16:48", "24:48"]
 copyrights = [
   "Lyrics and Music: Marcus M. Wells, 1858 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "G"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 150
+verse_count = 3
+phrase_breaks = ["8:48", "16:48", "24:48"]
 optional_phrase_breaks = ["4:48", "12:48", "20:48", "28:48"]
 
 [parts.Soprano]
@@ -52,4 +51,3 @@ text = "Ev -- er pre -- sent, tru -- est Friend, Ev -- er near Thine aid to lend
 
 [lyrics.3]
 text = "When our days of toil shall cease, Wait -- ing still for sweet re -- lease, Noth -- ing left but heav’n and prayer, Wond -- ’ring if our names are there; Wad -- ing deep the dis -- mal flood, Plead -- ing naught but Je -- sus’ blood, Whis -- per soft -- ly, “Wan -- d’rer, come, Fol -- low Me, I’ll guide thee home.”"
-

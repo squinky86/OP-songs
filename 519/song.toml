@@ -12,21 +12,6 @@ verse_count = 4
 phrase_breaks = ["3:48", "5:56", "7:48", "9:56", "13:48"]
 optional_phrase_breaks = ["11:56", "15:48"]
 
-[lyrics.1]
-text = "Your cross that He gave may be heav -- y, But it ne’er out -- weighs His grace; The storm that you feared may sur -- round you, But it ne -- ver ex -- cludes His face."
-
-[lyrics.2]
-text = "The thorns on your path are not sharp -- er Than com -- posed His crown for you; The cup that you drink not more bit -- ter Than He drank in Geth -- sem -- a -- ne."
-
-[lyrics.3]
-text = "The light of His love shin -- eth bright -- er, As it falls on paths of woe; The toil of your work grow -- eth light -- er, As you stoop _ to raise the low."
-
-[lyrics.4]
-text = "His will you have joy in ful -- fill -- ing, As you're walk -- ing in His sight; Your all to the blood you are bring -- ing, It a -- lone _ can keep you right."
-
-[lyrics.chorus]
-text = "Your cross is not great -- er than His grace, The storm can -- not hide His bless -- ed face; You are sat -- is -- fied to know That with Je -- sus here be -- low, you can con -- quer ev -- ’ry foe."
-
 [parts.Soprano]
 choral_type = "soprano"
 clef = "treble"
@@ -82,3 +67,18 @@ ees4 ees8 ees8 ees8 ees8 ees8 ees8 | ees2. ees8 g8 |
 bes8 bes8 bes8 bes8 bes4 bes,8 bes,8 | ees8 ees8 ees8 ees8 ees4 ees8 ees8 |
 aes,4 aes,4 bes,4 bes,4 | ees2. s4
 """
+
+[lyrics.1]
+text = "Your cross that He gave may be heav -- y, But it ne’er out -- weighs His grace; The storm that you feared may sur -- round you, But it ne -- ver ex -- cludes His face."
+
+[lyrics.2]
+text = "The thorns on your path are not sharp -- er Than com -- posed His crown for you; The cup that you drink not more bit -- ter Than He drank in Geth -- sem -- a -- ne."
+
+[lyrics.3]
+text = "The light of His love shin -- eth bright -- er, As it falls on paths of woe; The toil of your work grow -- eth light -- er, As you stoop _ to raise the low."
+
+[lyrics.4]
+text = "His will you have joy in ful -- fill -- ing, As you're walk -- ing in His sight; Your all to the blood you are bring -- ing, It a -- lone _ can keep you right."
+
+[lyrics.chorus]
+text = "Your cross is not great -- er than His grace, The storm can -- not hide His bless -- ed face; You are sat -- is -- fied to know That with Je -- sus here be -- low, you can con -- quer ev -- ’ry foe."

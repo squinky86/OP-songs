@@ -1,6 +1,6 @@
 title = "His Grace Is Sufficient"
 copyrights = [
-  "Lyrics: Newton W. Allphin, 1907 (public domain)",
+  "Lyrics: N. W. Allphin, 1907 (public domain)",
   "Music: H. W. Elliott, 1907 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
@@ -24,9 +24,6 @@ f'2. c''4@c | c''4 c''8 d''8 a'8 g'8 f'4 | c''2~ c''4 d''8[ c''8] | a'4 a'8 a'8 
 g'2. c''8 c''8 | c''4 c''4 a'4 f'8 f'8 | f'4 d'4 c'4 c'8 c'8 | f'4 f'8 f'8 a'8 a'8 g'4 |
 f'2. s4
 """
-
-[parts.Soprano.lyrics.chorus]
-text = "His grace is suf -- fi -- cient for me, His grace is suf -- fi -- cient for me; Naught can harm me here, while, to Him, I’m near, For His grace is suf -- fi -- cient for me!"
 
 [parts.Alto]
 choral_type = "alto"
@@ -78,3 +75,6 @@ text = "When I’m bowed with care then I go in prayer, Un -- to Him, for He hea
 
 [lyrics.chorus]
 text = "His grace is suf -- fi -- cient for me, for me, His grace is suf -- fi -- cient for me; Naught can harm me here, while, to Him, I’m near, For His grace is suf -- fi -- cient for me!"
+
+[parts.Soprano.lyrics.chorus]
+text = "His grace is suf -- fi -- cient for me, His grace is suf -- fi -- cient for me; Naught can harm me here, while, to Him, I’m near, For His grace is suf -- fi -- cient for me!"

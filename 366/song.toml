@@ -1,16 +1,16 @@
 title = "In Christ There Is No East or West"
-verse_count = 4
-key_signature = "Eb"
-time_sig_numerator = 4
-time_sig_denominator = 4
-tempo_bpm = 110
-phrase_breaks = ["5:48"]
 copyrights = [
-  "Lyrics: John Oxenham, 1908 (public domain)",
+  "Lyrics: William Arthur Dunkerley as John Oxenham, 1908 (public domain)",
   "Music: 'St. Peter' by Alexander Robert Reinagle, 1836 (public domain)",
   "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "Eb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 110
+verse_count = 4
+phrase_breaks = ["5:48"]
 optional_phrase_breaks = ["3:48", "7:48"]
 
 [parts.Soprano]

@@ -1,16 +1,17 @@
+# The tune name Moody was assigned in the 1956 Baptist Hymnal (https://www.hymnologyarchive.com/grace-greater-than-our-sin).
 title = "Grace Greater Than Our Sin"
 subtitle = "Marvelous Grace of Our Loving Lord"
+copyrights = [
+  "Lyrics: Julia H. Johnston, 1911 (public domain)",
+  "Music: Daniel B. Towner, 1910 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "G"
 time_sig_numerator = 3
 time_sig_denominator = 4
-verse_count = 4
 tempo_bpm = 128
+verse_count = 4
 phrase_breaks = ["4:48", "8:48", "12:48", "16:48", "20:48", "24:48", "28:48"]
-copyrights = [
-  "Lyrics: Julia H. Johnston, 1911 (public domain)",
-  "Music: 'Moody' by Daniel B. Towner, 1910 (public domain)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
 
 [parts.Soprano]
 choral_type = "soprano"

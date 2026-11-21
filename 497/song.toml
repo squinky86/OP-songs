@@ -25,15 +25,6 @@ g'4 g'4 g'8 a'8 bes'8 d''8 | c''2 r2 | d''2~ d''8. c''16 bes'8. c''16 | d''2 bes
 bes'2~ bes'8. c''16 bes'8. g'16 | f'2 d''4 ees''8[ d''8] | c''8 bes'8 a'8 g'8 f'8 bes'8 c''8 ees''8 | d''4 c''4 bes'2
 """
 
-[parts.Soprano.lyrics.1]
-text = "Far from God my way -- ward soul has strayed, Lone -- ly, wea -- ry, bur -- dened and a -- fraid But no far -- ther I in sin may roam— Love Di -- vine has found me and I’m go -- ing home."
-
-[parts.Soprano.lyrics.2]
-text = "He has ban -- ished all my love for sin, Peace and glad -- ness now a -- bide with -- in How my heart is sing -- ing in His praise! More and more I’ll praise Him all my earth -- ly days."
-
-[parts.Soprano.lyrics.3]
-text = "Tho’ His love I may not un -- der -- stand, Trust -- ing, I will let Him hold my hand I will fol -- low, trust -- ing in His love, Till I sing His prais -- es with the saints a -- bove."
-
 [parts.Alto]
 choral_type = "alto"
 clef = "treble"
@@ -60,9 +51,6 @@ bes4 bes4 bes8 bes8 g8 bes8 | a8 bes8 c'8 d'8 ees'8 a8 bes8 c'8 | bes4 f4 bes4 r
 bes4 g4 bes4 bes8. bes16 | bes4 f4 bes4 f8[ bes8] | bes8 bes8 bes8 c'8 d'8 bes8 a8 bes8 | bes4 f4 f2
 """
 
-[parts.Tenor.lyrics.chorus]
-text = "Love Di -- vine, Love Di -- vine, His dear arms are ’round me; He will nev -- er let me roam; Will keep me His for -- ev -- er; He I know will keep me Safe from harm when the storm shall sweep, So, sing -- ing prais -- es to His name I’m go -- ing home."
-
 [parts.Bass]
 choral_type = "bass"
 clef = "bass"
@@ -76,17 +64,29 @@ ees4 ees4 ees8 d8 c8 bes,8 | f8 g8 a8 bes8 c'8 f8 g8 a8 | bes4 f4 bes,4 r4 | bes
 ees4 g4 ees4 ees8. g16 | bes4 f4 bes,4 c8[ d8] | ees8 f8 g8 a8 bes8 d8 ees8 c8 | f4 f,4 bes,2
 """
 
-[parts.Bass.lyrics.chorus]
-text = "Love Di -- vine, Love Di -- vine, Love Di -- vine has found me; His dear, lov -- ing arms are ’round me; He will nev -- er let me roam; Will keep me His for -- ev -- er; He I know will keep me Safe from harm when the storm shall sweep, So, sing -- ing prais -- es to His name I’m go -- ing home."
-
 [lyrics.1]
 text = "Far from God my way -- ward soul has strayed, Lone -- ly, wea -- ry, bur -- dened and a -- fraid (a -- fraid); But no far -- ther I in sin may roam— Love Di -- vine has found me and I’m go -- ing home."
+
+[parts.Soprano.lyrics.1]
+text = "Far from God my way -- ward soul has strayed, Lone -- ly, wea -- ry, bur -- dened and a -- fraid But no far -- ther I in sin may roam— Love Di -- vine has found me and I’m go -- ing home."
 
 [lyrics.2]
 text = "He has ban -- ished all my love for sin, Peace and glad -- ness now a -- bide with -- in (with -- in); How my heart is sing -- ing in His praise! More and more I’ll praise Him all my earth -- ly days."
 
+[parts.Soprano.lyrics.2]
+text = "He has ban -- ished all my love for sin, Peace and glad -- ness now a -- bide with -- in How my heart is sing -- ing in His praise! More and more I’ll praise Him all my earth -- ly days."
+
 [lyrics.3]
 text = "Tho’ His love I may not un -- der -- stand, Trust -- ing, I will let Him hold my hand (my hand); I will fol -- low, trust -- ing in His love, Till I sing His prais -- es with the saints a -- bove."
 
+[parts.Soprano.lyrics.3]
+text = "Tho’ His love I may not un -- der -- stand, Trust -- ing, I will let Him hold my hand I will fol -- low, trust -- ing in His love, Till I sing His prais -- es with the saints a -- bove."
+
 [lyrics.chorus]
 text = "Love Di -- vine has found me; His dear arms are ’round me; He will nev -- er let me roam; He I know will keep me When the storm shall sweep me, So, sing -- ing prais -- es to His name I’m go -- ing home."
+
+[parts.Tenor.lyrics.chorus]
+text = "Love Di -- vine, Love Di -- vine, His dear arms are ’round me; He will nev -- er let me roam; Will keep me His for -- ev -- er; He I know will keep me Safe from harm when the storm shall sweep, So, sing -- ing prais -- es to His name I’m go -- ing home."
+
+[parts.Bass.lyrics.chorus]
+text = "Love Di -- vine, Love Di -- vine, Love Di -- vine has found me; His dear, lov -- ing arms are ’round me; He will nev -- er let me roam; Will keep me His for -- ev -- er; He I know will keep me Safe from harm when the storm shall sweep, So, sing -- ing prais -- es to His name I’m go -- ing home."

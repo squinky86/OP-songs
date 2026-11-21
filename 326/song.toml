@@ -1,36 +1,18 @@
+# Tune: Marion.
 title = "Rejoice, O Pure in Heart"
-subtitle = ""
-verse_count = 5
+copyrights = [
+  "Lyrics: Edward H. Plumptre, 1865, alt. (public domain)",
+  "Music: Arthur H. Messiter, 1883 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "G"
 time_sig_numerator = 4
 time_sig_denominator = 4
 tempo_bpm = 108
+verse_count = 5
 phrase_breaks = ["5:48", "9:48"]
-copyrights = [
-  "Lyrics: Edward H. Plumptre, 1865, alt. (public domain)",
-  "Music: 'Marion' by Arthur H. Messiter, 1883 (public domain)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
 optional_phrase_breaks = ["3:48", "7:48"]
 non_breaking_phrase_breaks = ["10:16", "10:48", "11:16", "11:48"]
-
-[lyrics.1]
-text = "Re -- joice, O pure in heart, Re -- joice, give thanks, and sing; Your fes -- tal ban -- ner wave on high, The cross of Christ your King."
-
-[lyrics.2]
-text = "Bright youth and snow- -- crowned age, Both men and wom -- en, Raise on high your free, ex -- ult -- ing song, De -- clare God's won -- drous praise."
-
-[lyrics.3]
-text = "Still lift your stan -- dard high, Still chant -- ing as you go, From youth to age, by night and day, In glad -- ness and in woe."
-
-[lyrics.4]
-text = "At last the march shall end; The wea -- ried ones shall rest, The pil -- grims reach their home at last, Je -- ru -- sa -- lem the blest."
-
-[lyrics.5]
-text = "Praise God, Who reigns on high, The Lord Whom we a -- dore: The Fa -- ther, Son, and Ho -- ly Ghost, One God for -- ev -- er -- more."
-
-[lyrics.chorus]
-text = "Re -- joice, re -- joice, re -- joice, give thanks, and sing!"
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -63,3 +45,21 @@ staff_number = 2
 notes = """
 s2. g4 | fis4 d4 e4 d4 | g2. fis4 | e4 g8[ fis8] e4 e4 | d2. g4 | c4 c4 e4 e4 | fis4 b,4 e4 d4 | c4 b,4 a,4 b,4 | d2. r4@c | r4 d8[ e8] fis2 | r4 e8[ fis8] g4 f4 | e4 d8[ c8] d4 d4 | <g g,>2. s4
 """
+
+[lyrics.1]
+text = "Re -- joice, O pure in heart, Re -- joice, give thanks, and sing; Your fes -- tal ban -- ner wave on high, The cross of Christ your King."
+
+[lyrics.2]
+text = "Bright youth and snow- -- crowned age, Both men and wom -- en, Raise on high your free, ex -- ult -- ing song, De -- clare God's won -- drous praise."
+
+[lyrics.3]
+text = "Still lift your stan -- dard high, Still chant -- ing as you go, From youth to age, by night and day, In glad -- ness and in woe."
+
+[lyrics.4]
+text = "At last the march shall end; The wea -- ried ones shall rest, The pil -- grims reach their home at last, Je -- ru -- sa -- lem the blest."
+
+[lyrics.5]
+text = "Praise God, Who reigns on high, The Lord Whom we a -- dore: The Fa -- ther, Son, and Ho -- ly Ghost, One God for -- ev -- er -- more."
+
+[lyrics.chorus]
+text = "Re -- joice, re -- joice, re -- joice, give thanks, and sing!"

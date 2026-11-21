@@ -1,5 +1,4 @@
 title = "Deep Settled Peace"
-subtitle = ""
 copyrights = [
   "Lyrics: Neal A. McAulay, 1914 (public domain)",
   "Music: Samuel W. Beazley, 1914 (public domain)",
@@ -10,8 +9,8 @@ time_sig_numerator = 6
 time_sig_denominator = 4
 tempo_bpm = 108
 verse_count = 4
-optional_phrase_breaks = ["3:80", "7:80", "11:80", "15:80"]
 phrase_breaks = ["5:80", "9:80", "13:80"]
+optional_phrase_breaks = ["3:80", "7:80", "11:80", "15:80"]
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -69,8 +68,8 @@ text = "Since my all I have laid on the al -- tar; And to serve Him I choose to 
 [lyrics.4]
 text = "Since His Spir -- it my heart is sus -- tain -- ing, I _ know I shall reach the blest goal; And since glimps -- es of glo -- ry I'm gain -- ing, @s1"
 
-[lyrics.s1]
-text = "There's a deep set -- tled peace in my soul."
-
 [lyrics.chorus]
 text = "I shall praise Him for -- ev -- er and ev -- er For the cleans -- ing that mak -- eth me whole; Not a doubt can our friend -- ship now sev -- er Since this deep set -- tled peace fills my soul."
+
+[lyrics.s1]
+text = "There's a deep set -- tled peace in my soul."

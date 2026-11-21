@@ -1,17 +1,16 @@
 title = "Jesus Shall Reign"
-subtitle = ""
-verse_count = 5
-key_signature = "Eb"
-time_sig_numerator = 2
-time_sig_denominator = 2
-tempo_bpm = 145
-phrase_breaks = ["4:64", "8:64", "12:64"]
 copyrights = [
   "Lyrics: Isaac Watts, 1719, alt. (public domain)",
   "Music: 'Duke Street' by John Hatton, 1793 (public domain)",
   "Courtesy of [Hymnary.org](https://hymnary.org)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "Eb"
+time_sig_numerator = 2
+time_sig_denominator = 2
+tempo_bpm = 145
+verse_count = 5
+phrase_breaks = ["4:64", "8:64", "12:64"]
 
 [parts.Soprano]
 choral_type = "soprano"

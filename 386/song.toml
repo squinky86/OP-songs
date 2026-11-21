@@ -1,17 +1,17 @@
 title = "I’ll Live for Him"
-verse_count = 3
-key_signature = "F"
-time_sig_numerator = 3
-time_sig_denominator = 4
-tempo_bpm = 105
-phrase_breaks = ["5:32", "9:32", "13:32"]
-optional_phrase_breaks = ["3:40", "7:32", "11:40", "15:32"]
 copyrights = [
   "Lyrics: Ralph E. Hudson, 1882 (public domain)",
   "Music: Charles R. Dunbar, 1882 (public domain)",
   "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "F"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 105
+verse_count = 3
+phrase_breaks = ["5:32", "9:32", "13:32"]
+optional_phrase_breaks = ["3:40", "7:32", "11:40", "15:32"]
 
 [parts.Soprano]
 choral_type = "soprano"

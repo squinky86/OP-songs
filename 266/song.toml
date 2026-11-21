@@ -1,16 +1,15 @@
 title = "Consolation"
-subtitle = ""
-verse_count = 4
+copyrights = [
+  "Lyrics: Georgia Tillman Snead, 1929 (public domain)",
+  "Music: B. D. Ackley, 1929 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "C"
 time_sig_numerator = 3
 time_sig_denominator = 4
 tempo_bpm = 88
+verse_count = 4
 phrase_breaks = ["5:40"]
-copyrights = [
-  "Lyrics: Georgie Tillman Snead, 1929 (public domain)",
-  "Music: B. D. Ackley, 1929 (public domain)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
 optional_phrase_breaks = ["3:32", "7:24"]
 
 [parts.Soprano]

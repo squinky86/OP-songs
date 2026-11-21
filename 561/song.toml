@@ -1,6 +1,6 @@
 title = "He’s Coming Again"
 copyrights = [
-  "Lyrics and Music: Franklin L. Eiland, 1905 (public domain)",
+  "Lyrics and Music: F. L. Eiland, 1905 (public domain)",
   "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
@@ -27,9 +27,6 @@ ees''4. f''8 ees''8 c''8 | ees''4.~ ees''4! ees'8 |
 g'8 bes'8 bes'8 g'8 f'8 ees'8 | ees'8 f'8 g'8 bes'4 r8 |
 g'4. f'8 g'8 f'8 | ees'4.~ ees'4 s8
 """
-
-[parts.Soprano.lyrics.chorus]
-text = "He’s com -- ing a -- gain! He’s com -- ing a -- gain! Be watch -- ing and wait -- ing that sight to be -- hold; He’s com -- ing a -- gain!"
 
 [parts.Alto]
 choral_type = "alto"
@@ -90,3 +87,6 @@ text = "Risk not, an ac -- cept -- ance of Him in that day, All cov -- ered with
 
 [lyrics.chorus]
 text = "He’s com -- ing a -- gain! a -- gain! He’s com -- ing a -- gain! a -- gain! Be watch -- ing and wait -- ing that sight to be -- hold; He’s com -- ing a -- gain!"
+
+[parts.Soprano.lyrics.chorus]
+text = "He’s com -- ing a -- gain! He’s com -- ing a -- gain! Be watch -- ing and wait -- ing that sight to be -- hold; He’s com -- ing a -- gain!"

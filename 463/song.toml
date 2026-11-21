@@ -25,9 +25,6 @@ bes'2. c''8[ des''8] | ees''4. ees''8 ees''8 c''8 aes'8 c''8 | ees''4 ees''8. ee
 aes'2. s4
 """
 
-[parts.Soprano.lyrics.chorus]
-text = "Lift Him up, Lift Him up, Still He speaks from e -- ter -- ni -- ty: “And I, if I be lift -- ed up from the earth, Will draw all men un -- to Me.”"
-
 [parts.Alto]
 choral_type = "alto"
 clef = "treble"
@@ -78,3 +75,6 @@ text = "Lift Him up by liv -- ing as a Christ -- ian ought, Let the world in you
 
 [lyrics.chorus]
 text = "Lift the pre -- cious Sav -- ior up, Lift the pre -- cious Sav -- ior up, Still He speaks from e -- ter -- ni -- ty: “And I, if I be lift -- ed up from the earth, Will draw all men un -- to Me.”"
+
+[parts.Soprano.lyrics.chorus]
+text = "Lift Him up, Lift Him up, Still He speaks from e -- ter -- ni -- ty: “And I, if I be lift -- ed up from the earth, Will draw all men un -- to Me.”"

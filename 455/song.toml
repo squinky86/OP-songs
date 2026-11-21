@@ -40,9 +40,6 @@ f'4 {3 f'8 aes'8 ges'8 } f'4 des'8 des'8 | f'4 f'8 f'8 f'4 ges'8 ges'8 | f'2 f'4
 f'2. s4
 """
 
-[parts.Alto.lyrics.chorus]
-text = "They be -- lieved and were glad -- ly bap -- tized, glad -- ly bap -- tized, They be -- lieved and were glad -- ly bap -- tized, glad -- ly bap -- tized. When they learned what the Sav -- iour com -- mand -- ed, They be -- lieved and were glad -- ly bap -- tized."
-
 [parts.Tenor]
 choral_type = "tenor"
 clef = "bass"
@@ -56,9 +53,6 @@ aes2. aes8@c aes8 | aes4 aes8 aes8 des'4 {3 c'4 aes8 } | aes4 {3 g8 aes8 bes8 } 
 aes4 {3 des'8 c'8 bes8 } aes4 f8 aes8 | des'4 des'8 des'8 des'4 des'8 aes8 | aes2 des'4 des'8 des'8 | ees'4 ees'8 des'8 c'4 des'8 aes8 |
 des'2. s4
 """
-
-[parts.Tenor.lyrics.chorus]
-text = "They be -- lieved and were glad -- ly bap -- tized, glad -- ly bap -- tized, They be -- lieved and were glad -- ly bap -- tized, glad -- ly bap -- tized. When they learned what the Sav -- iour com -- mand -- ed, They be -- lieved and were glad -- ly bap -- tized."
 
 [parts.Bass]
 choral_type = "bass"
@@ -85,3 +79,9 @@ text = "The com -- mand -- ments of Je -- sus are bind -- ing, And He bless -- e
 
 [lyrics.chorus]
 text = "They be -- lieved and were glad -- ly bap -- tized, They be -- lieved and were glad -- ly bap -- tized, When they learned what the Sav -- iour com -- mand -- ed, They be -- lieved and were glad -- ly bap -- tized."
+
+[parts.Alto.lyrics.chorus]
+text = "They be -- lieved and were glad -- ly bap -- tized, glad -- ly bap -- tized, They be -- lieved and were glad -- ly bap -- tized, glad -- ly bap -- tized. When they learned what the Sav -- iour com -- mand -- ed, They be -- lieved and were glad -- ly bap -- tized."
+
+[parts.Tenor.lyrics.chorus]
+text = "They be -- lieved and were glad -- ly bap -- tized, glad -- ly bap -- tized, They be -- lieved and were glad -- ly bap -- tized, glad -- ly bap -- tized. When they learned what the Sav -- iour com -- mand -- ed, They be -- lieved and were glad -- ly bap -- tized."

@@ -1,16 +1,16 @@
 title = "Risen With Christ"
-verse_count = 3
-key_signature = "Eb"
-time_sig_numerator = 6
-time_sig_denominator = 8
-tempo_bpm = 87
-phrase_breaks = ["4:48", "8:48", "12:48", "16:48", "20:48"]
-optional_phrase_breaks = ["2:48", "6:48", "10:48", "14:48", "18:48", "22:48"]
 copyrights = [
   "Lyrics: Levi Mumaw, 1928 (public domain)",
   "Music: E. O. Sellers, 1928 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "Eb"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 87
+verse_count = 3
+phrase_breaks = ["4:48", "8:48", "12:48", "16:48", "20:48"]
+optional_phrase_breaks = ["2:48", "6:48", "10:48", "14:48", "18:48", "22:48"]
 
 [parts.Soprano]
 choral_type = "soprano"

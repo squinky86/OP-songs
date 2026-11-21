@@ -1,6 +1,6 @@
 title = "Angry Words"
 copyrights = [
-  "Lyrics and Music: Horatio Richmond Palmer, 1867 (public domain)",
+  "Lyrics and Music: H. R. Palmer, 1867 (public domain)",
   "Arrangement: Will W. Slater, 1944 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license"
 ]
@@ -9,7 +9,6 @@ time_sig_numerator = 3
 time_sig_denominator = 4
 tempo_bpm = 100
 verse_count = 3
-
 phrase_breaks = ["5:32", "9:32", "11:32", "13:32"]
 
 [parts.Soprano]

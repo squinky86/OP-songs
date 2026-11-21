@@ -1,16 +1,16 @@
+# Tune: Retreat.
 title = "From Every Stormy Wind That Blows"
-subtitle = ""
+copyrights = [
+  "Lyrics: Hugh Stowell, 1828 (public domain)",
+  "Music: Thomas Hastings, 1842 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "C"
 time_sig_numerator = 6
 time_sig_denominator = 4
 tempo_bpm = 88
 verse_count = 5
 phrase_breaks = ["3:80", "5:80", "7:80"]
-copyrights = [
-  "Lyrics: Hugh Stowell, 1828 (public domain)",
-  "Music: 'Retreat' by Thomas Hastings, 1842 (public domain)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
 
 [parts.Soprano]
 choral_type = "soprano"

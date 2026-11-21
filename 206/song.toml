@@ -1,5 +1,10 @@
 title = "Revive Us Again"
 subtitle = "We Praise Thee, O God"
+copyrights = [
+  "Lyrics: William P. Mackay, 1863 (public domain)",
+  "Music: John J. Husband, 1815 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license"
+]
 key_signature = "G"
 time_sig_numerator = 3
 time_sig_denominator = 4
@@ -7,11 +12,6 @@ tempo_bpm = 96
 verse_count = 5
 phrase_breaks = ["5:32", "9:32", "13:32"]
 optional_phrase_breaks = ["3:32", "7:32", "11:32", "16:32"]
-copyrights = [
-  "Lyrics: William P. Mackay, 1863 (public domain)",
-  "Music: John J. Husband, 1815 (public domain)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license"
-]
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -53,7 +53,6 @@ text = "We praise Thee, O God! For Thy Spir -- it of light, Who has shown us our
 
 [lyrics.3]
 text = "All glo -- ry and praise To the Lamb that was slain, Who hath borne all our sins, And has cleansed ev -- 'ry stain."
-
 
 [lyrics.4]
 text = "All glo -- ry and praise To the God of all grace, Who has bought us and sought us and guid -- ed our ways."

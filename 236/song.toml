@@ -1,16 +1,16 @@
 title = "Somebody Cares"
-verse_count = 3
-key_signature = "G"
-time_sig_numerator = 6
-time_sig_denominator = 8
-tempo_bpm = 88
-phrase_breaks = ["4:48", "8:48", "12:48"]
 copyrights = [
   "Lyrics: Fannie Edna Stafford, 1905 (public domain)",
   "Music: Homer A. Rodeheaver, 1910 (public domain)",
   "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "G"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 88
+verse_count = 3
+phrase_breaks = ["4:48", "8:48", "12:48"]
 optional_phrase_breaks = ["2:40", "6:40", "10:48", "14:40"]
 
 [parts.Soprano]

@@ -1,7 +1,6 @@
 title = "Dwelling in Beulah Land"
-subtitle = ""
 copyrights = [
-  "Lyrics and Music: Charles Austin Miles, 1911 (public domain)",
+  "Lyrics and Music: C. Austin Miles, 1911 (public domain)",
   "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
@@ -10,9 +9,9 @@ time_sig_numerator = 4
 time_sig_denominator = 4
 tempo_bpm = 104
 verse_count = 4
-non_breaking_phrase_breaks = ["20:16"]
 phrase_breaks = ["4:64", "8:64", "12:64", "16:48", "20:48", "24:16", "28:16"]
 optional_phrase_breaks = ["2:48", "6:48", "14:48", "18:48", "22:48", "26:48"]
+non_breaking_phrase_breaks = ["20:16"]
 
 [parts.Soprano]
 choral_type = "soprano"

@@ -1,6 +1,6 @@
 title = "From the Cross to the Crown"
 copyrights = [
-  "Lyrics and Music: Franklin L. Eiland, 1899 (public domain)",
+  "Lyrics and Music: F. L. Eiland, 1899 (public domain)",
   "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
@@ -26,9 +26,6 @@ e''2. cis''8. d''16 | e''2. a'8. a'16 | a'4 a'8. a'16 b'16 a'8. fis'4 |
 e'2. cis''8. d''16 | e''2. cis''8. d''16 | e''2. a'8. b'16 |
 cis''4 cis''8. a'16 b'16 b'8. b'4 | a'2. s4
 """
-
-[parts.Soprano.lyrics.chorus]
-text = "Look a -- way, look a -- way, From the cross to the glit -- ter -- ing crown, Look a -- way, look a -- way, From the cross to the glit -- ter -- ing crown."
 
 [parts.Alto]
 choral_type = "alto"
@@ -83,3 +80,6 @@ text = "’Mid the con -- flicts, the bat -- tles, The strug -- gles and strife,
 
 [lyrics.chorus]
 text = "Wea -- ry one, look a -- way from the cross to the crown, From the cross to the glit -- ter -- ing glit -- ter -- ing crown, Wea -- ry one, look a -- way from the cross to the crown, From the cross to the glit -- ter -- ing crown."
+
+[parts.Soprano.lyrics.chorus]
+text = "Look a -- way, look a -- way, From the cross to the glit -- ter -- ing crown, Look a -- way, look a -- way, From the cross to the glit -- ter -- ing crown."

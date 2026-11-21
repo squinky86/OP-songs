@@ -1,35 +1,17 @@
+# Tune: Ordu.
 title = "Closer Still"
-subtitle = ""
-verse_count = 5
+copyrights = [
+  "Lyrics: David J. Beattie, 1913 (public domain)",
+  "Music: Charles H. Gabriel, 1913 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "Db"
 time_sig_numerator = 3
 time_sig_denominator = 4
 tempo_bpm = 80
+verse_count = 5
 phrase_breaks = ["4:48", "8:48", "12:48"]
-copyrights = [
-  "Lyrics: David J. Beattie, 1913 (public domain)",
-  "Music: 'Ordu' by Charles H. Gabriel, 1913 (public domain)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
 optional_phrase_breaks = ["2:48", "6:48", "10:48", "14:48"]
-
-[lyrics.1]
-text = "Sav -- ior, draw me to Thy side, Near -- er still, near -- er still! There would I in peace a -- bide, Near -- er still, near -- er still!"
-
-[lyrics.2]
-text = "Songs of prais -- es I would sing Loud -- er still, loud -- er still! Praise to glo -- ri -- fy my King, Loud -- er still, loud -- er still!"
-
-[lyrics.3]
-text = "May Thy love with -- in me shine Bright -- er still, bright -- er still! As a bea -- con light of Thine, Bright -- er still, bright -- er still!"
-
-[lyrics.4]
-text = "Lord I would be in Thy sight Pur -- er still, pur -- er still! Make and keep me by Thy might, Pur -- er still, pur -- er still!"
-
-[lyrics.5]
-text = "More than life Thou art to me, Dear -- er still, dear -- er still! Dai -- ly grows my walk with Thee Dear -- er still, dear -- er still!"
-
-[lyrics.chorus]
-text = "Draw me clos -- er, Lord, to Thee, Let me now Thy beau -- ty see; Help me, Lord, to know Thy will, Draw me clos -- er, clos -- er still."
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -74,3 +56,21 @@ des4. des8 des8 des8 | des8 des8 des2 | des8 des8 des2 | aes,8 des8 des2 |
 des4.@c des8 des8 des8 | ges,8 bes,8 des2 | des4. des8 des8 des8 | des8 des8 aes,2 |
 des4. des8 des8 des8 | des8 des8 des2 | des8 des8 des4. des8 | aes,8 des8 des2
 """
+
+[lyrics.1]
+text = "Sav -- ior, draw me to Thy side, Near -- er still, near -- er still! There would I in peace a -- bide, Near -- er still, near -- er still!"
+
+[lyrics.2]
+text = "Songs of prais -- es I would sing Loud -- er still, loud -- er still! Praise to glo -- ri -- fy my King, Loud -- er still, loud -- er still!"
+
+[lyrics.3]
+text = "May Thy love with -- in me shine Bright -- er still, bright -- er still! As a bea -- con light of Thine, Bright -- er still, bright -- er still!"
+
+[lyrics.4]
+text = "Lord I would be in Thy sight Pur -- er still, pur -- er still! Make and keep me by Thy might, Pur -- er still, pur -- er still!"
+
+[lyrics.5]
+text = "More than life Thou art to me, Dear -- er still, dear -- er still! Dai -- ly grows my walk with Thee Dear -- er still, dear -- er still!"
+
+[lyrics.chorus]
+text = "Draw me clos -- er, Lord, to Thee, Let me now Thy beau -- ty see; Help me, Lord, to know Thy will, Draw me clos -- er, clos -- er still."

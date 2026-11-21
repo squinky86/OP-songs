@@ -1,6 +1,6 @@
 title = "Don’t Let Your Light Burn Low"
 copyrights = [
-  "Lyrics: Mark D. Ussery, 1928 (public domain)",
+  "Lyrics: M. D. Ussery, 1928 (public domain)",
   "Music: J. E. Williams, 1928 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
@@ -24,9 +24,6 @@ f'4 f'8 f'4 f'8 | g'4 a'8 bes'4 bes'8 | d''4 d''8 d''8[ bes'8] c''8 | bes'4.~ be
 d''4 d''8 d''8[ bes'8] c''8 | bes'4.~ bes'4 bes'8 | bes'4 bes'8 c''8[ bes'8] g'8 | f'4.~ f'4 f'8 |
 f'4 f'8 f'4 f'8 | g'4 a'8 bes'4 bes'8 | d''4 d''8 d''8[ bes'8] c''8 | bes'4.~ bes'4 s8
 """
-
-[parts.Soprano.lyrics.chorus]
-text = "Don’t let your light burn low, Don’t let your light burn low; Be con -- stant in God’s serv -- ice here, Don’t let your light burn low."
 
 [parts.Alto]
 choral_type = "alto"
@@ -75,3 +72,6 @@ text = "The lov -- ing Sav -- ior needs your aid, In let -- ting sin -- ners kno
 
 [lyrics.chorus]
 text = "Don’t let your light burn low, burn low, Don’t let your light burn low; burn low; Be con -- stant in God’s serv -- ice here, Don’t let your light burn low."
+
+[parts.Soprano.lyrics.chorus]
+text = "Don’t let your light burn low, Don’t let your light burn low; Be con -- stant in God’s serv -- ice here, Don’t let your light burn low."

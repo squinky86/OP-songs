@@ -1,17 +1,16 @@
 title = "Since Jesus Came into My Heart"
-subtitle = ""
-verse_count = 5
+copyrights = [
+  "Lyrics: Rufus H. McDaniel, 1914 (public domain)",
+  "Music: Charles H. Gabriel, 1914 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "A"
 time_sig_numerator = 4
 time_sig_denominator = 4
 tempo_bpm = 104
+verse_count = 5
 phrase_breaks = ["3:56", "5:48", "7:56", "9:48", "11:48", "13:48", "15:48"]
 optional_phrase_breaks = ["14:48"]
-copyrights = [
-  "Lyrics: Rufus H. McDaniel, 1914 (public domain)",
-  "Music: 'McDaniel' by Charles H. Gabriel, 1914 (public domain)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -20,9 +19,6 @@ staff_number = 1
 notes = """
 s2. cis'8 d'8 | e'4 fis'8 gis'8 a'4 a'8 b'8 | cis''4 cis''8 d''8 cis''4. b'8 | a'8 a'4 fis'8 a'8 a'4 a'8 | e'2. cis'8 d'8 | e'4 fis'8 gis'8 a'4 a'8 b'8 | cis''4 cis''8 d''8 cis''4. cis''8 | cis''8 b'4 b'8 dis''8 dis''4 b'8 | e''2~ e''4! e''4!@c | cis''8 cis''4 b'8 cis''8 cis''4 a'8 | cis''2. b'4 | a'8 a'4 fis'8 a'8 a'4 a'8 | e'2. cis'8 d'8 | e'4 fis'8 gis'8 a'4 a'8 b'8 | cis''4 cis''8 d''8 e''4! d''4 | cis''8 cis''4 a'8 cis''8 cis''4 b'8 | a'2. s4
 """
-
-[parts.Soprano.lyrics.chorus]
-text = "Since Je -- sus came in -- to my heart, Since Je -- sus came in -- to my heart; Floods of joy o’er my soul like the sea bil -- lows roll, Since Je -- sus came in -- to my heart."
 
 [parts.Alto]
 choral_type = "alto"
@@ -65,3 +61,6 @@ text = "I shall go there to dwell in that ci -- ty, I know, Since Je -- sus came
 
 [lyrics.chorus]
 text = "Since Je -- sus came in, came in -- to my heart, Since Je -- sus came in, came in -- to my heart; Floods of joy o’er my soul like the sea bil -- lows roll, Since Je -- sus came in -- to my heart."
+
+[parts.Soprano.lyrics.chorus]
+text = "Since Je -- sus came in -- to my heart, Since Je -- sus came in -- to my heart; Floods of joy o’er my soul like the sea bil -- lows roll, Since Je -- sus came in -- to my heart."

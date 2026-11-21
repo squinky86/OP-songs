@@ -1,5 +1,9 @@
+# Tune: My Savior’s Love.
 title = "I Stand Amazed in the Presence"
-subtitle = ""
+copyrights = [
+  "Lyrics and Music: Charles H. Gabriel, 1905 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "Ab"
 time_sig_numerator = 4
 time_sig_denominator = 4
@@ -7,10 +11,6 @@ tempo_bpm = 96
 verse_count = 5
 phrase_breaks = ["5:48", "9:64", "13:64"]
 optional_phrase_breaks = ["3:48", "7:48", "10:64", "11:64", "14:64", "15:64"]
-copyrights = [
-  "Lyrics and Music: Charles H. Gabriel, 1905 (public domain)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
 
 [parts.Soprano]
 choral_type = "soprano"

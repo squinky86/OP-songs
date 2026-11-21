@@ -1,17 +1,17 @@
 title = "Have Thine Own Way, Lord"
-verse_count = 4
-key_signature = "Eb"
-time_sig_numerator = 9
-time_sig_denominator = 4
-tempo_bpm = 124
-phrase_breaks = ["3:96", "5:96", "7:96", "9:96"]
-optional_phrase_breaks = ["2:96", "4:96", "6:96", "8:96"]
 copyrights = [
   "Lyrics: Adelaide A. Pollard, 1901 (public domain)",
   "Music: George C. Stebbins, 1907 (public domain)",
   "Courtesy of [Hymnary.org](https://hymnary.org)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "Eb"
+time_sig_numerator = 9
+time_sig_denominator = 4
+tempo_bpm = 124
+verse_count = 4
+phrase_breaks = ["3:96", "5:96", "7:96", "9:96"]
+optional_phrase_breaks = ["2:96", "4:96", "6:96", "8:96"]
 
 [parts.Soprano]
 choral_type = "soprano"

@@ -1,17 +1,16 @@
 title = "Safely Through Another Week"
-subtitle = ""
-verse_count = 4
-key_signature = "G"
-time_sig_numerator = 3
-time_sig_denominator = 4
-tempo_bpm = 88
-phrase_breaks = ["5:32", "9:32", "13:32"]
-optional_phrase_breaks = ["3:32", "7:32", "11:32", "15:32"]
 copyrights = [
   "Lyrics: John Newton, 1774 (public domain)",
   "Music: 'Sabbath' by Lowell Mason, 1824 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "G"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 88
+verse_count = 4
+phrase_breaks = ["5:32", "9:32", "13:32"]
+optional_phrase_breaks = ["3:32", "7:32", "11:32", "15:32"]
 
 [parts.Soprano]
 choral_type = "soprano"

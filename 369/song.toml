@@ -1,16 +1,16 @@
 title = "Hide Me, Lord, in Thy Pavilion!"
-verse_count = 3
-key_signature = "Bb"
-time_sig_numerator = 3
-time_sig_denominator = 4
-tempo_bpm = 96
-phrase_breaks = ["8:48", "16:48", "24:48"]
 copyrights = [
   "Lyrics: Frank W. Gunsaulus, 1916 (public domain)",
   "Music: 'Hyfrydol' by Rowland H. Prichard, 1830 (public domain)",
   "Arrangement: Homer A. Rodeheaver, 1926 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "Bb"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 3
+phrase_breaks = ["8:48", "16:48", "24:48"]
 optional_phrase_breaks = ["4:48", "12:48", "20:48", "28:48"]
 
 [parts.Tenor1]

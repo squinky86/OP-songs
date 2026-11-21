@@ -65,9 +65,6 @@ g2. c4 | a2. g8[ e8] | d2. d8 d8 | e4 f4 a8[ g8] f4 |
 c4.! f8 f4! s4
 """
 
-[parts.Bass.lyrics.chorus]
-text = "Who will, who will, May have the morn -- ing star, And know its glo -- ry- -- beam -- ing rays; Be -- hold, its rays shine from a -- far, Heav -- en’s ra -- diant, ev -- er last -- ing day!"
-
 [lyrics.1]
 text = "Who will, may have life’s shin -- ing day, And joy with him shall ev -- er dwell; His heart shall know love’s bless -- ed sway, Yea, “God with us,”— Im -- man -- u -- el."
 
@@ -82,3 +79,6 @@ text = "O shin -- ing day! O morn -- ing star? Shed forth on all thy heal -- ing
 
 [lyrics.chorus]
 text = "Who will, who will, May have the bright and morn -- ing star, And know its glo -- ry- -- beam -- ing rays; Be -- hold its rays shine from a -- far, Heav -- en’s ra -- diant, ev -- er last -- ing day!"
+
+[parts.Bass.lyrics.chorus]
+text = "Who will, who will, May have the morn -- ing star, And know its glo -- ry- -- beam -- ing rays; Be -- hold, its rays shine from a -- far, Heav -- en’s ra -- diant, ev -- er last -- ing day!"

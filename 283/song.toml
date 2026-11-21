@@ -1,17 +1,16 @@
 title = "Love Opened Wide the Door"
-subtitle = ""
-verse_count = 4
+copyrights = [
+  "Lyrics: A. H. Ackley, 1922 (public domain)",
+  "Music: B. D. Ackley, 1922 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "F"
 time_sig_numerator = 4
 time_sig_denominator = 4
 tempo_bpm = 100
+verse_count = 4
 phrase_breaks = ["4:56", "8:64", "12:56"]
 optional_phrase_breaks = ["2:56", "6:56", "10:56", "14:56"]
-copyrights = [
-  "Lyrics: Alfred H. Ackley, 1922 (public domain)",
-  "Music: B. D. Ackley, 1922 (public domain)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
 
 [parts.Soprano]
 choral_type = "soprano"

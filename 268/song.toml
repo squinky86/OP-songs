@@ -1,16 +1,16 @@
 title = "Savior, More than Life to Me"
 subtitle = "Every Day and Hour"
-verse_count = 3
-key_signature = "Ab"
-time_sig_numerator = 3
-time_sig_denominator = 4
-tempo_bpm = 80
-phrase_breaks = ["5:32", "9:32", "13:32"]
 copyrights = [
   "Lyrics: Fanny J. Crosby, 1875 (public domain)",
   "Music: William H. Doane, 1875 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "Ab"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 80
+verse_count = 3
+phrase_breaks = ["5:32", "9:32", "13:32"]
 optional_phrase_breaks = ["3:32", "7:32", "11:32", "15:32"]
 
 [parts.Soprano]
@@ -45,12 +45,6 @@ notes = """
 s2 aes,8. aes,16 | aes,4. c8 des8. des16 | aes,2 aes,8 aes,8 | des16 des8. c16 c8. ees8.! ees16 | ees2 aes,8. aes,16 | aes,4. c8 des8. des16 | aes,2 aes,8 aes,8 | des16 des8. c16 c8. ees8.! ees16 | aes,2 aes8.@c aes16 | aes8 aes8 aes4 aes8. aes16 | aes8 aes8 aes4 ees8. ees16 | aes,4. c8 bes,8 aes,8 | ees2 aes,8. aes,16 | aes,4. c8 des8. des16 | aes,2 aes,8 aes,8 | des16 des8. c16 c8. ees8.! ees16 | aes,2 s4 | 
 """
 
-[parts.Tenor.lyrics.chorus]
-text = "Ev -- ery day and hour, ev -- ery day and hour, Let me feel Thy cleans -- ing pow'r; May Thy ten -- der love to me Bind me clos -- er, clos -- er, Lord, to Thee."
-
-[parts.Bass.lyrics.chorus]
-text = "Ev -- ery day and hour, ev -- ery day and hour, Let me feel Thy cleans -- ing pow'r; May Thy ten -- der love to me Bind me clos -- er, clos -- er, Lord, to Thee."
-
 [lyrics.1]
 text = "Sav -- ior, more than life to me, I am cling -- ing, cling -- ing close to Thee; Let Thy pre -- cious blood ap -- plied, Keep me ev -- er, ev -- er near Thy side."
 
@@ -62,3 +56,9 @@ text = "Let me love Thee more and more, Till this fleet -- ing, fleet -- ing lif
 
 [lyrics.chorus]
 text = "Ev -- ery day, ev -- ery hour, Let me feel Thy cleans -- ing pow'r; May Thy ten -- der love to me Bind me clos -- er, clos -- er, Lord, to Thee."
+
+[parts.Tenor.lyrics.chorus]
+text = "Ev -- ery day and hour, ev -- ery day and hour, Let me feel Thy cleans -- ing pow'r; May Thy ten -- der love to me Bind me clos -- er, clos -- er, Lord, to Thee."
+
+[parts.Bass.lyrics.chorus]
+text = "Ev -- ery day and hour, ev -- ery day and hour, Let me feel Thy cleans -- ing pow'r; May Thy ten -- der love to me Bind me clos -- er, clos -- er, Lord, to Thee."

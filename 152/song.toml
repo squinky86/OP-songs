@@ -1,17 +1,16 @@
 title = "Father, Hear Thy Children's Call"
-subtitle = ""
+copyrights = [
+  "Lyrics: Thomas Benson Pollock, 1875 (public domain)",
+  "Music: John Henry Gower, 1891 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "D"
 time_sig_numerator = 4
 time_sig_denominator = 4
 tempo_bpm = 84
 verse_count = 5
-optional_phrase_breaks = ["2:64", "6:64"]
 phrase_breaks = ["4:64"]
-copyrights = [
-  "Lyrics: Thomas Benson Pollock, 1875 (public domain)",
-  "Music: 'Gower's Litany' by John Henry Gower, 1891 (public domain)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
+optional_phrase_breaks = ["2:64", "6:64"]
 
 [parts.Soprano]
 choral_type = "soprano"

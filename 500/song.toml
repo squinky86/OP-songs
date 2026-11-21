@@ -71,8 +71,8 @@ text = "Ma -- ny are build -- ing, at men’s com -- mand, Lay -- ing foun -- da
 [lyrics.5]
 text = "Hope of man -- kind in the a -- ges past, Hope of to -- day with its needs more vast, He will all sys -- tems and creeds out -- last, @s1"
 
-[lyrics.s1]
-text = "Je -- sus, the Hope of the world."
-
 [lyrics.chorus]
 text = "Hearts that are wea -- ry and long for rest, Haunt -- ed by fears and by guilt op -- pressed, Here is the balm for each troub -- led breast, Je -- sus, the Hope of the world."
+
+[lyrics.s1]
+text = "Je -- sus, the Hope of the world."

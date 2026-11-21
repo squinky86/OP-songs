@@ -1,16 +1,15 @@
 title = "I Love Thee"
-subtitle = ""
+copyrights = [
+  "Lyrics: Anonymous, 1805 (public domain)",
+  "Music: From Jeremiah Ingalls' Christian Harmony, 1805 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "Eb"
 time_sig_numerator = 3
 time_sig_denominator = 4
 tempo_bpm = 96
 verse_count = 4
 phrase_breaks = ["5:32", "9:32", "13:32"]
-copyrights = [
-  "Lyrics: Anonymous, 1805 (public domain)",
-  "Music: 'I Love Thee' from Jeremiah Ingalls' Christian Harmony, 1805 (public domain)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
 commentary = ""
 
 [parts.Soprano]

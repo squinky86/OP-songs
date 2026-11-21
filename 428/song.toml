@@ -1,17 +1,18 @@
+# Tune: St. Margaret.
 title = "O Love That Wilt Not Let Me Go"
-verse_count = 4
+copyrights = [
+  "Lyrics: George Matheson, 1882 (public domain)",
+  "Music: Albert Lister Peace, 1884 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "Ab"
 time_sig_numerator = 4
 time_sig_denominator = 4
 tempo_bpm = 100
+verse_count = 4
 phrase_breaks = ["5:48", "9:24"]
 optional_phrase_breaks = ["3:48", "7:48"]
-copyrights = [
-  "Lyrics: George Matheson, 1882 (public domain)",
-  "Music: 'St. Margaret' by Albert L. Peace, 1884 (public domain)",
-  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
 
 [parts.Soprano]
 choral_type = "soprano"

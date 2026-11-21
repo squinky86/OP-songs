@@ -1,16 +1,15 @@
 title = "Abide in Thee"
-subtitle = ""
 copyrights = [
   "Lyrics: Joseph Denham Smith, 1869 (public domain)",
   "Music: 'Birmingham' by Francis Cunningham, 1834 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license"
 ]
-phrase_breaks = ["4:48", "8:64", "12:48", "16:64"]
 key_signature = "Db"
 time_sig_numerator = 4
 time_sig_denominator = 4
 tempo_bpm = 117
 verse_count = 4
+phrase_breaks = ["4:48", "8:64", "12:48", "16:64"]
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -59,6 +58,7 @@ How love of Thine, so vast, in me may flow:
 My emp -- ty ves -- sel run -- ning o’er with joy,
 Now o -- ver -- flows to Thee with -- out al -- loy.
 """
+
 [lyrics.3]
 text = """
 A -- bide in Thee, nor doubt, nor self, nor sin,
@@ -66,6 +66,7 @@ Can e’er pre -- vail with Thy blest life with -- in;
 Joined to Thy -- self, com -- mun -- ing deep, my soul
 Knows naught be -- sides its mo -- tions to con -- trol.
 """
+
 [lyrics.4]
 text = """
 A -- bide in Thee, ’tis thus a -- lone I know

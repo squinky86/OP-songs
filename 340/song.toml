@@ -1,17 +1,17 @@
 title = "O Jesus, Thou Art Standing"
-verse_count = 3
-key_signature = "Eb"
-time_sig_numerator = 4
-time_sig_denominator = 4
-tempo_bpm = 115
-phrase_breaks = ["5:48", "9:48", "13:48"]
-optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
 copyrights = [
   "Lyrics: William Walsham How, 1867 (public domain)",
   "Music: 'St. Hilda' by Justin H. Knecht, 1799 (public domain)",
   "Courtesy of [Hymnary.org](https://hymnary.org)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "Eb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 115
+verse_count = 3
+phrase_breaks = ["5:48", "9:48", "13:48"]
+optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
 
 [parts.Soprano]
 choral_type = "soprano"

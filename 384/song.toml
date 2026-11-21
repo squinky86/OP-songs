@@ -1,16 +1,17 @@
+# Tune: Blessed Quietness.
 title = "Holy Quietness"
-verse_count = 5
-key_signature = "A"
-time_sig_numerator = 3
-time_sig_denominator = 4
-tempo_bpm = 105
-phrase_breaks = ["5:32", "9:32", "13:32"]
-optional_phrase_breaks = ["3:32", "7:32", "11:32", "15:32"]
 copyrights = [
   "Lyrics: Manie P. Ferguson, 1885 (public domain)",
   "Music: William S. Marshall, 1897 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "A"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 105
+verse_count = 5
+phrase_breaks = ["5:32", "9:32", "13:32"]
+optional_phrase_breaks = ["3:32", "7:32", "11:32", "15:32"]
 
 [parts.Soprano]
 choral_type = "soprano"

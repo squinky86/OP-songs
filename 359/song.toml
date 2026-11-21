@@ -1,16 +1,16 @@
 title = "Who Is on the Lord's Side?"
-verse_count = 5
-key_signature = "C"
-time_sig_numerator = 4
-time_sig_denominator = 4
-tempo_bpm = 110
-phrase_breaks = ["4:64", "8:64", "12:64", "16:64", "20:64"]
-optional_phrase_breaks = ["2:64", "6:64", "10:64", "14:32", "18:64", "22:64"]
 copyrights = [
   "Lyrics: Frances Ridley Havergal, 1877 (public domain)",
   "Music: 'Armageddon' by C. Luise Reichardt, arr. John Goss, 1871 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "C"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 110
+verse_count = 5
+phrase_breaks = ["4:64", "8:64", "12:64", "16:64", "20:64"]
+optional_phrase_breaks = ["2:64", "6:64", "10:64", "14:32", "18:64", "22:64"]
 
 [parts.Soprano]
 choral_type = "soprano"

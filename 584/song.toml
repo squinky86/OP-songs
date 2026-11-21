@@ -39,12 +39,6 @@ cis''4 cis''8. cis''16 b'4 cis''8. b'16 |
 a'2. s4
 """
 
-[parts.Soprano.lyrics.s1]
-text = ""
-
-[parts.Soprano.lyrics.s2]
-text = ""
-
 [parts.Alto]
 choral_type = "alto"
 clef = "treble"
@@ -68,12 +62,6 @@ r4 fis'8. fis'16 fis'4 fis'4 |
 fis'4 a'8. a'16 gis'4 e'8. e'16 |
 e'2. s4
 """
-
-[parts.Alto.lyrics.s1]
-text = ""
-
-[parts.Alto.lyrics.s3]
-text = ""
 
 [parts.Tenor]
 choral_type = "tenor"
@@ -99,9 +87,6 @@ a8[ cis'8] e'8. e'16 e'4 e'8. d'16 |
 cis'2. s4
 """
 
-[parts.Tenor.lyrics.s2]
-text = ""
-
 [parts.Bass]
 choral_type = "bass"
 clef = "bass"
@@ -126,9 +111,6 @@ e4 e8. e16 e4 e8. e16 |
 a,2. s4
 """
 
-[parts.Bass.lyrics.s3]
-text = ""
-
 [lyrics.1]
 text = "O think of the home o -- ver there, By the side of the riv -- er of light, @s1 Where the saints, all im -- mor -- tal and fair, Are _ robed in their gar -- ments of light. @s2 O -- ver there, o -- ver there, O think of the home o -- ver there, @s2 O -- ver there, o -- ver there, @s3 O think of the home o -- ver there."
 
@@ -144,8 +126,26 @@ text = "I’ll soon be at home o -- ver there, For the end of my jour -- ney I s
 [lyrics.s1]
 text = "o -- ver there,"
 
+[parts.Soprano.lyrics.s1]
+text = ""
+
+[parts.Alto.lyrics.s1]
+text = ""
+
 [lyrics.s2]
 text = "o -- ver there,"
 
+[parts.Soprano.lyrics.s2]
+text = ""
+
+[parts.Tenor.lyrics.s2]
+text = ""
+
 [lyrics.s3]
 text = "o -- ver there,"
+
+[parts.Alto.lyrics.s3]
+text = ""
+
+[parts.Bass.lyrics.s3]
+text = ""

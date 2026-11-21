@@ -87,7 +87,7 @@ title = "Jesus Loves Me"
 subtitle = "Optional subtitle or tune name"
 copyrights = [
   "Words: Anna B. Warner, 1860 (public domain)",
-  "Music: 'untitled' by William B. Bradbury, 1862 (public domain)",
+  "Music: William B. Bradbury, 1862 (public domain)",
   "Obtained from the Open Hymnal Project, 2006 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
@@ -1067,16 +1067,25 @@ Copyright lines should follow this standard format:
 
 ```toml
 copyrights = [
-  "Words: [Author], [year] (public domain)",
-  "Music: '[TuneName]' by [Composer], [year] (public domain)",
+  "Lyrics: Howard B. Grose, 1902 (public domain)",
+  "Music: Charlotte Alington Barnard as Claribel, 1864 (public domain)",
   "Obtained from the Open Hymnal Project, [year] (public domain)",   # only if from Open Hymnal
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
 ```
 
 Rules:
+- Select each person's preferred publishing name, the pen name used for that
+  contribution, and the common name of the specific tune according to the
+  [song style guide](song-style-guide.md#16-author-names-and-tune-credits).
+  Give the composer directly when the tune name appears in the title or
+  subtitle, the music was written for these words, the tune label is a
+  contributor's name or pen name, or no distinct tune name is established.
+  Keep the composer's credited pen name. Omit a tune-only subtitle that merely
+  names a contributor.
 - No trailing periods on individual lines.
-- Year and source on the same line as the author: `"Words by Henry F. Lyte, 1847 (public domain)"`.
+- Keep the year and source on the same line as the author, as in
+  `"Lyrics: Henry Francis Lyte, 1847 (public domain)"`.
 - For public-domain works, include `(public domain)` inline.
 - The OpenPsalm arrangement line is always last.
 - Lines may embed links with `[text](url)` markup, e.g.
@@ -1106,7 +1115,7 @@ Rules:
 title = "Jesus Loves Me"
 copyrights = [
   "Words: Anna B. Warner, 1860 (public domain)",
-  "Music: 'untitled' by William B. Bradbury, 1862 (public domain)",
+  "Music: William B. Bradbury, 1862 (public domain)",
   "Obtained from the Open Hymnal Project, 2006 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
@@ -1177,7 +1186,7 @@ title = "En presencia estar de Cristo"
 copyrights = [
   "Letra: Carrie E. Breck, 1898 (dominio público)",
   "Traducción: Vicente Mendoza, 1905 (dominio público)",
-  "Música: 'Face to Face' de Grant Colfax Tullar, 1898 (dominio público)",
+  "Música: Grant Colfax Tullar, 1898 (dominio público)",
   "Arreglo de OpenPsalm, 2026, publicado bajo la licencia CC-BY 4.0",
 ]
 
@@ -1190,9 +1199,9 @@ text = "¡Ca -- ra‿a ca -- ra‿es -- pe -- ro ver -- le, …"
 
 **Write the `copyrights` block in the translation's own language.** The page is
 in Spanish, so its credits are too — `Letra:`, `Música:`, `Traducción:`,
-`(dominio público)`. Only proper names stay as they are: people, and the tune
-name (`'Face to Face'`). This is the main reason a translation restates the
-block instead of appending a line to it.
+`(dominio público)`. Keep personal names and any separately credited tune name
+in their established forms. Here ‘Face to Face’ already appears in the base
+song's title, so both editions credit Grant Colfax Tullar directly.
 
 | Construct | Rule |
 |---|---|

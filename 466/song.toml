@@ -1,6 +1,7 @@
+# Allphinâ€™s Gospel Advocate obituary identifies Lawrence Love and Carl Cross as his pen names (https://www.therestorationmovement.com/ga/gaa.htm).
 title = "Make Somebody Happy"
 copyrights = [
-  "Lyrics: Lawrence Love, 1918 (public domain)",
+  "Lyrics: N. W. Allphin as Lawrence Love, 1918 (public domain)",
   "Music: Raymond T. Ward, 1918 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
@@ -75,6 +76,6 @@ text = "There is much that you can do As your jour -- ney you pur -- sue, Throâ€
 
 [lyrics.chorus]
 text = "Strive to cheer some soul a -- long, With a hap -- py song, Scat -- ter sun -- shine on your way be -- low; By some kind -- ly deed each day, Scat -- ter cheer a -- long your way, Try to make some -- bod -- y hap -- py as you go."
+
 [lyrics.s1]
 text = "Try to make some -- bod -- y hap -- py as you go."
-

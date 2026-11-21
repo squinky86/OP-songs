@@ -1,16 +1,17 @@
+# Tune: Carol.
 title = "It Came Upon the Midnight Clear"
-verse_count = 5
+copyrights = [
+  "Lyrics: Edmund H. Sears, 1849 (public domain)",
+  "Music: Richard S. Willis, 1850 (public domain)",
+  "Courtesy of the [Timeless Truths Free Online Library](https://library.timelesstruths.org/)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "Bb"
 time_sig_numerator = 6
 time_sig_denominator = 8
 tempo_bpm = 76
+verse_count = 5
 phrase_breaks = ["5:40", "9:40", "13:40"]
-copyrights = [
-  "Lyrics: Edmund H. Sears, 1849 (public domain)",
-  "Music: 'Carol' by Richard S. Willis, 1850 (public domain)",
-  "Courtesy of the [Timeless Truths Free Online Library](https://library.timelesstruths.org/)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
 optional_phrase_breaks = ["3:40", "7:40", "11:40", "15:40"]
 
 [parts.Soprano]

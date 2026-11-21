@@ -1,18 +1,17 @@
 title = "God Moves in a Mysterious Way"
-subtitle = ""
-key_signature = "Eb"
-time_sig_numerator = 4
-time_sig_denominator = 4
-tempo_bpm = 88
-verse_count = 6
-optional_phrase_breaks = ["3:48", "7:48"]
-phrase_breaks = ["5:48"]
 copyrights = [
   "Lyrics: William Cowper, 1774 (public domain)",
   "Music: 'Dundee' by Guillaume Franc, 1545; Scottish Psalter edition, 1615 (public domain)",
   "Harmony: Thomas Ravenscroft, 1621 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "Eb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 88
+verse_count = 6
+phrase_breaks = ["5:48"]
+optional_phrase_breaks = ["3:48", "7:48"]
 commentary = ""
 
 [parts.Soprano]

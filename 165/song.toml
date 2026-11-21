@@ -1,5 +1,10 @@
 title = "Far Away In the Depths"
 subtitle = "Wonderful Peace"
+copyrights = [
+  "Lyrics: Warren D. Cornell, 1889 (public domain)",
+  "Music: W. George Cooper, 1889 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "Ab"
 time_sig_numerator = 6
 time_sig_denominator = 8
@@ -7,11 +12,6 @@ tempo_bpm = 84
 verse_count = 5
 phrase_breaks = ["3:40", "5:40", "7:40", "9:48", "13:40", "15:40"]
 optional_phrase_breaks = ["2:36", "6:40", "11:40", "14:40"]
-copyrights = [
-  "Lyrics: Warren D. Cornell, 1889 (public domain)",
-  "Music: W. George Cooper, 1889 (public domain)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
 
 [parts.Soprano]
 choral_type = "soprano"

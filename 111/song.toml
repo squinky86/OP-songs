@@ -1,16 +1,16 @@
+# Tune: Nims Lake.
 title = "O Church of God Triumphant"
-subtitle = ""
-verse_count = 3
+copyrights = [
+  "Lyrics: E. M. Bangs, 1926 (public domain)",
+  "Music: Charles H. Gabriel, 1926 (public domain, courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch))",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "F"
 time_sig_numerator = 4
 time_sig_denominator = 4
 tempo_bpm = 108
+verse_count = 3
 phrase_breaks = ["5:48", "9:48", "13:48", "17:48", "21:48"]
-copyrights = [
-  "Lyrics: E. M. Bangs, 1926 (public domain)",
-  "Music: 'Nims Lake' by Chas. H. Gabriel, 1926 (public domain, courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch))",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
 
 [parts.Soprano]
 choral_type = "soprano"

@@ -1,17 +1,17 @@
 title = "How Beautiful Heaven Must Be"
-verse_count = 4
-key_signature = "G"
-time_sig_numerator = 6
-time_sig_denominator = 8
-tempo_bpm = 90
-phrase_breaks = ["5:40", "9:40", "13:40"]
-optional_phrase_breaks = ["3:40", "7:40", "11:40", "15:40"]
-non_breaking_phrase_breaks = ["11:16"]
 copyrights = [
   "Lyrics: Cordelia J. Whiteside Bridgewater, 1920 (public domain)",
   "Music: Andy Pickens Bland, 1920 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "G"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 90
+verse_count = 4
+phrase_breaks = ["5:40", "9:40", "13:40"]
+optional_phrase_breaks = ["3:40", "7:40", "11:40", "15:40"]
+non_breaking_phrase_breaks = ["11:16"]
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -61,9 +61,6 @@ g'8. g'16 g'8 g'8 g'8 d'8 |
 d'4.~ d'4 s8
 """
 
-[parts.Alto.lyrics.chorus]
-text = "How beau -- ti -- ful Hea -- ven must be, must be, Sweet home of the hap -- py and free; Fair ha -- ven of rest for the wea -- ry, How beau -- ti -- ful Hea -- ven must be."
-
 [parts.Tenor]
 choral_type = "tenor"
 clef = "bass"
@@ -87,9 +84,6 @@ g4( a8) b4! g8 |
 b8. d'16 b8 d'8 b8 c'8 |
 b4.~ b4 s8
 """
-
-[parts.Tenor.lyrics.chorus]
-text = "How beau -- ti -- ful Hea -- ven must be, must be, Sweet home of the hap -- py and free; Fair ha -- ven of rest for the wea -- ry, How beau -- ti -- ful Hea -- ven must be."
 
 [parts.Bass]
 choral_type = "bass"
@@ -129,3 +123,9 @@ text = "The an -- gels so sweet -- ly are sing -- ing, Up there by the beau -- t
 
 [lyrics.chorus]
 text = "How beau -- ti -- ful Hea -- ven must be, Sweet home of the hap -- py and free; Fair ha -- ven of rest for the wea -- ry, How beau -- ti -- ful Hea -- ven must be."
+
+[parts.Alto.lyrics.chorus]
+text = "How beau -- ti -- ful Hea -- ven must be, must be, Sweet home of the hap -- py and free; Fair ha -- ven of rest for the wea -- ry, How beau -- ti -- ful Hea -- ven must be."
+
+[parts.Tenor.lyrics.chorus]
+text = "How beau -- ti -- ful Hea -- ven must be, must be, Sweet home of the hap -- py and free; Fair ha -- ven of rest for the wea -- ry, How beau -- ti -- ful Hea -- ven must be."

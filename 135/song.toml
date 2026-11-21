@@ -1,5 +1,4 @@
 title = "Bringing in the Sheaves"
-subtitle = ""
 copyrights = [
   "Lyrics: Knowles Shaw, 1874 (public domain)",
   "Music: George A. Minor, 1880 (public domain)",
@@ -54,8 +53,8 @@ text = "Sow -- ing in the sun -- shine, sow -- ing in the sha -- dows, Fear -- i
 [lyrics.3]
 text = "Go -- ing forth with weep -- ing, sow -- ing for the Mas -- ter, Though the loss sus -- tained our spir -- it of -- ten grieves; When our weep -- ing’s o -- ver, He will bid us wel -- come, @s1"
 
-[lyrics.s1]
-text = "We shall come re -- joic -- ing, bring -- ing in the sheaves."
-
 [lyrics.chorus]
 text = "Bring -- ing in the sheaves, bring -- ing in the sheaves, We shall come re -- joic -- ing, bring -- ing in the sheaves; Bring -- ing in the sheaves, bring -- ing in the sheaves, We shall come re -- joic -- ing, bring -- ing in the sheaves."
+
+[lyrics.s1]
+text = "We shall come re -- joic -- ing, bring -- ing in the sheaves."

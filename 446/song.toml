@@ -1,7 +1,7 @@
 title = "I Know My Name Is There"
 copyrights = [
-  "Lyrics: Daniel Sidney Warner, 1893 (public domain)",
-  "Music: Barney Elliott Warren, 1893 (public domain)",
+  "Lyrics: Daniel S. Warner, 1893 (public domain)",
+  "Music: Barney E. Warren, 1893 (public domain)",
   "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
@@ -34,9 +34,6 @@ s2 s8 f'8 | f'4 f'8 bes'8[ aes'8] ges'8 | f'4 e'8 f'4 f'8 | ees'4 ees'8 ges'4 ge
 | aes'4.~ aes'4 aes'8 | bes'4.~ bes'8[ aes'8] ges'8 | f'4 f'8 ges'4 ges'8 | f'4.~ f'4 s8
 """
 
-[parts.Alto.lyrics.chorus]
-text = "I know, I know my name is there; is there; I know, I know, my name is writ -- ten there."
-
 [parts.Tenor]
 choral_type = "tenor"
 clef = "bass"
@@ -47,9 +44,6 @@ s2 s8 aes8 | aes4 aes8 des'4 des'8 | des'4 bes8 aes4 aes8 | aes4 des'8 c'8~ c'8 
 | r4 des'8 des'4 des'8 | des'4 des'8 des'4 des'8 | des'4 des'8 c'8[ des'8] aes8 | aes4.~ aes4 s8
 """
 
-[parts.Tenor.lyrics.chorus]
-text = "I know, I tru -- ly know I know my name is there; I know my name is there. my name is writ -- ten there."
-
 [parts.Bass]
 choral_type = "bass"
 clef = "bass"
@@ -59,9 +53,6 @@ s2 s8 des8 | des4 des8 des4 des8 | des4 des8 des4 des8 | aes,4 aes,8 aes,4 c8 | 
 | des4 des8 des4 des8 | des4 des8 des4 des8 | aes,4 aes,8 aes,4 aes,8 | des4.~ des4 r8@c | r4 des8 des4 des8 | des4 des8 des4 r8 | r4 aes8 aes4 aes8 | des4 des8 des4 r8
 | r4 des8 des8[ ees8] f8 | ges4 ges8 ges4 ges8 | aes4 aes8 aes,4 aes,8 | des4.~ des4 s8
 """
-
-[parts.Bass.lyrics.chorus]
-text = "I know, I tru -- ly know I know my name is there; I know my name is there. my name is writ -- ten there."
 
 [lyrics.1]
 text = "My name is in the Book of Life, O bless the name of Je -- sus! I rise a -- bove all doubt and strife, And read my ti -- tle clear."
@@ -77,3 +68,12 @@ text = "While o -- thers climb thro’ world -- ly strife, To carve a name of ho
 
 [lyrics.chorus]
 text = "I know, I know my name is there; I know, I know, my name is writ -- ten there."
+
+[parts.Alto.lyrics.chorus]
+text = "I know, I know my name is there; is there; I know, I know, my name is writ -- ten there."
+
+[parts.Tenor.lyrics.chorus]
+text = "I know, I tru -- ly know I know my name is there; I know my name is there. my name is writ -- ten there."
+
+[parts.Bass.lyrics.chorus]
+text = "I know, I tru -- ly know I know my name is there; I know my name is there. my name is writ -- ten there."

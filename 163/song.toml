@@ -1,16 +1,16 @@
 title = "Everybody Will Be Happy Over There"
 subtitle = "There’s a Happy Land of Promise"
-verse_count = 4
-key_signature = "C"
-time_sig_numerator = 4
-time_sig_denominator = 4
-tempo_bpm = 93
-phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "13:48", "15:48"]
-non_breaking_phrase_breaks = ["11:64"]
 copyrights = [
   "Lyrics and Music: E. M. Bartlett, 1921 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "C"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 93
+verse_count = 4
+phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "13:48", "15:48"]
+non_breaking_phrase_breaks = ["11:64"]
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -56,9 +56,6 @@ c2. g8@c g8 | c'8 g8 a8 b8 c'8 g8 a8 b8 | c'4 g8 e8 c4( e4) | f4 f4 f4 f4 | c4 c
 c'8 g8 a8 b8 c'8 g8 a8 b8 | c'8 c'8 c'8 g8 e8 c8 c8 c8 | <g g,>8 <g g,>8 <g g,>8 <g g,>8 <g g,>8 <g g,>8 <g g,>8 <g g,>8 | c2. s4
 """
 
-[parts.Bass.lyrics.chorus]
-text = "Ev -- 'ry -- bod -- y will be hap -- py o -- ver there, o -- ver there, will be hap -- py o -- ver there, We will shout and sing His prais -- es thro’ the nev -- er end -- ing ag -- es, Ev -- 'ry -- bod -- y will be hap -- py o -- ver there."
-
 [lyrics.1]
 text = "There’s a hap -- py land of prom -- ise o -- ver in the great be -- yond, Where the saved of earth shall soon the glo -- ry share; Where the souls of men shall en -- ter and live on for -- ev -- er -- more, @s1"
 
@@ -71,8 +68,11 @@ text = "We will hear no -- bod -- y pray -- ing, and no mourn -- ing in that lan
 [lyrics.4]
 text = "There we’ll meet the One who saved us and who kept us by His grace, And who brought us to that land so bright and fair; We will praise His name for -- ev -- er as we look up -- on His face, @s1"
 
-[lyrics.s1]
-text = "Ev -- 'ry -- bod -- y will be hap -- py o -- ver there."
-
 [lyrics.chorus]
 text = "Ev -- 'ry -- bod -- y will be hap -- py, will be hap -- py o -- ver there, We will shout and sing His praise, Ev -- 'ry -- bod -- y will be hap -- py o -- ver there."
+
+[parts.Bass.lyrics.chorus]
+text = "Ev -- 'ry -- bod -- y will be hap -- py o -- ver there, o -- ver there, will be hap -- py o -- ver there, We will shout and sing His prais -- es thro’ the nev -- er end -- ing ag -- es, Ev -- 'ry -- bod -- y will be hap -- py o -- ver there."
+
+[lyrics.s1]
+text = "Ev -- 'ry -- bod -- y will be hap -- py o -- ver there."

@@ -1,15 +1,14 @@
 title = "Oh What a Gift the Father Gave"
-subtitle = ""
+copyrights = [
+  "Lyrics: Albert Midlane, 1860 (public domain)",
+  "Music: 'Wondrous Love' by William G. Fischer, 1871 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "Eb"
 time_sig_numerator = 4
 time_sig_denominator = 4
 tempo_bpm = 80
 verse_count = 4
-copyrights = [
-  "Lyrics: Albert Midlane, 1860 (public domain)",
-  "Music: William G. Fischer, 1871 (public domain)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
 phrase_breaks = ["3:56", "5:48", "7:56", "9:64", "11:56", "13:48", "15:48"]
 
 [parts.Soprano]

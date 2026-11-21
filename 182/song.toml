@@ -1,5 +1,9 @@
 title = "In Heavenly Love Abiding"
-subtitle = ""
+copyrights = [
+  "Lyrics: Anna Letitia Waring, 1850 (public domain)",
+  "Music: 'Seasons' by Felix Mendelssohn, 1840 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "Eb"
 time_sig_numerator = 4
 time_sig_denominator = 4
@@ -7,11 +11,6 @@ tempo_bpm = 95
 verse_count = 3
 phrase_breaks = ["5:48", "9:48", "13:48"]
 non_breaking_phrase_breaks = ["14:64", "15:48"]
-copyrights = [
-  "Lyrics: Anna Letitia Waring, 1850 (public domain)",
-  "Music: 'Seasons' by Felix Mendelssohn, 1840 (public domain)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
 
 [parts.Soprano]
 choral_type = "soprano"

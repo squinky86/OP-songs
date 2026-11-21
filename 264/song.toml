@@ -1,16 +1,16 @@
 title = "What Did He Do?"
 subtitle = "O, Listen To the Wondrous Story"
-verse_count = 4
+copyrights = [
+  "Lyrics: James M. Gray, 1903 (public domain)",
+  "Music: 'Bryn Calfaria' by William Owen, 1852 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "Db"
 time_sig_numerator = 2
 time_sig_denominator = 2
 tempo_bpm = 146
+verse_count = 4
 phrase_breaks = ["6:64", "12:64", "17:32", "20:64", "24:64"]
-copyrights = [
-  "Lyrics: James M. Gray, 1903 (public domain)",
-  "Music: William Owen, 1852 (public domain)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
 optional_phrase_breaks = ["3:64", "9:64", "15:64", "18:64"]
 non_breaking_phrase_breaks = ["21:48", "22:32"]
 
@@ -59,9 +59,6 @@ bes4 aes4 ges8( bes4.) | r2 c'2 | c'4 bes4 aes4 des'4 |
 des'4 c'4 des'4 bes4 | aes1 | aes1
 """
 
-[parts.Tenor.lyrics.chorus]
-text = "Who but God’s Son up -- on the cross? He died for you! Be -- lieve it thou, In heav -- en in -- ter -- ced -- ing!"
-
 [parts.Bass]
 choral_type = "bass"
 clef = "bass"
@@ -77,9 +74,6 @@ ges4 f4 ees2 | r2 aes2 | aes4 ges4 f4 aes4 |
 des'4 aes4 bes4 ges4 | aes2( aes,2) | des1
 """
 
-[parts.Bass.lyrics.chorus]
-text = "Who but God’s Son up -- on the cross? He died for you! Be -- lieve it thou, In heav -- en in -- ter -- ced -- ing!"
-
 [lyrics.1]
 text = "O lis -- ten to our won -- drous sto -- ry, Count -- ed once a -- mong the lost; Yet One came down from heav -- en’s glo -- ry, Sav -- ing us at aw -- ful cost!"
 
@@ -94,3 +88,9 @@ text = "Will you sur -- ren -- der to this Sav -- ior? To His scep -- ter hum --
 
 [lyrics.chorus]
 text = "Who saved us from e -- ter -- nal loss? What did He do? Where is He now? In heav -- en in -- ter -- ced -- ing!"
+
+[parts.Tenor.lyrics.chorus]
+text = "Who but God’s Son up -- on the cross? He died for you! Be -- lieve it thou, In heav -- en in -- ter -- ced -- ing!"
+
+[parts.Bass.lyrics.chorus]
+text = "Who but God’s Son up -- on the cross? He died for you! Be -- lieve it thou, In heav -- en in -- ter -- ced -- ing!"

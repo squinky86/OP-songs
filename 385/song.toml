@@ -1,17 +1,17 @@
 title = "I Am Thine, O Lord"
 subtitle = "Draw Me Nearer"
-verse_count = 4
-key_signature = "Ab"
-time_sig_numerator = 4
-time_sig_denominator = 4
-tempo_bpm = 96
-phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "11:48", "13:48", "15:48", "17:48"]
-non_breaking_phrase_breaks = ["9:64", "10:64"]
 copyrights = [
   "Lyrics: Fanny J. Crosby, 1875 (public domain)",
   "Music: William H. Doane, 1875 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 4
+phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "11:48", "13:48", "15:48", "17:48"]
+non_breaking_phrase_breaks = ["9:64", "10:64"]
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -37,12 +37,6 @@ clef = "bass"
 staff_number = 2
 notes = """s2. aes,8. aes,16 | aes,4 ees4 ees4 ees8. ees16 | ees4 aes,4 aes,4 c8. c16 | des4 des4 des4 des4 | aes,2. aes,8. aes,16 | aes,4 ees4 ees4 ees8. ees16 | ees4 aes,4 aes,4 aes,8 aes,8 | des4 bes,4 ees4 ees4 | aes,2. aes8.@c aes16 | aes4 aes4 aes,4 aes,4 | des8 des8 des8 des8 aes,4 c8 c8 | des4 c4 bes,4 aes,4 | ees2. aes8. aes16 | aes4 aes4 aes,4 aes,4 | des8 des8 des8 des8 des4 des8. des16 | ees4 ees4 ees4. ees8 | aes,2. r4"""
 
-[parts.Tenor.lyrics.chorus]
-text = "Draw me near -- er, near -- er, near -- er, bless -- ed Lord, To the cross where Thou hast died; Draw me near -- er, near -- er, near -- er, bless -- ed Lord, To Thy pre -- cious, bleed -- ing side."
-
-[parts.Bass.lyrics.chorus]
-text = "Draw me near -- er, near -- er, near -- er, bless -- ed Lord, To the cross where Thou hast died; Draw me near -- er, near -- er, near -- er, bless -- ed Lord, To Thy pre -- cious, bleed -- ing side."
-
 [lyrics.1]
 text = "I am Thine, O Lord, I have heard Thy voice, And it told Thy love to me; But I long to rise in the arms of faith, And be clos -- er drawn to Thee."
 
@@ -57,3 +51,9 @@ text = "There are depths of love that I can -- not know Till I cross the nar -- 
 
 [lyrics.chorus]
 text = "Draw me near -- er, near -- er, bless -- ed Lord, To the cross where Thou hast died; Draw me near -- er, near -- er, near -- er, bless -- ed Lord, To Thy pre -- cious, bleed -- ing side."
+
+[parts.Tenor.lyrics.chorus]
+text = "Draw me near -- er, near -- er, near -- er, bless -- ed Lord, To the cross where Thou hast died; Draw me near -- er, near -- er, near -- er, bless -- ed Lord, To Thy pre -- cious, bleed -- ing side."
+
+[parts.Bass.lyrics.chorus]
+text = "Draw me near -- er, near -- er, near -- er, bless -- ed Lord, To the cross where Thou hast died; Draw me near -- er, near -- er, near -- er, bless -- ed Lord, To Thy pre -- cious, bleed -- ing side."

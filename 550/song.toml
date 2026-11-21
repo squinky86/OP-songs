@@ -49,9 +49,6 @@ c''8 bes'8 a'8 g'8 a'8 g'8 | f'8 e'8 f'8 f'8 g'8 g'8 |
 g'8 g'8 g'8 f'4 ees'8 | d'4 ees'8 d'4.
 """
 
-[parts.Alto.lyrics.chorus]
-text = "Touched by His love, Touched by His love, By the great love of my Fa -- ther a -- bove, Heart- -- bells are ring -- ing, I’m joy -- ous -- ly sing -- ing, I’m touched by my Sav -- iour’s pre -- cious love."
-
 [parts.Tenor]
 choral_type = "tenor"
 clef = "bass"
@@ -66,9 +63,6 @@ bes8 bes8 f8 f8 f8 f8 | f8 f8 f8 c'4. |
 a8 bes8 c'8 c'8 c'8 a8 | bes8 bes8 bes8 b8 b8 b8 |
 c'8 b8 c'16[ g16] bes4 f8 | f4 g8 f4.
 """
-
-[parts.Tenor.lyrics.chorus]
-text = "Touched by His love, Touched by His love, By the great love of my Fa -- ther a -- bove, Heart- -- bells are ring -- ing, I’m joy -- ous -- ly sing -- ing, I’m touched by my Sav -- iour’s pre -- cious love."
 
 [parts.Bass]
 choral_type = "bass"
@@ -96,3 +90,9 @@ text = "When I des -- paired it was then He o’er -- toook me, Or then I knew t
 
 [lyrics.chorus]
 text = "Touched by His love, Touched by His love, By the great love of my Fa -- ther a -- bove, Heart- -- bells are ring -- ing, I’m joy -- ous -- ly sing -- ing, I’m touched by my Sav -- iour’s love."
+
+[parts.Alto.lyrics.chorus]
+text = "Touched by His love, Touched by His love, By the great love of my Fa -- ther a -- bove, Heart- -- bells are ring -- ing, I’m joy -- ous -- ly sing -- ing, I’m touched by my Sav -- iour’s pre -- cious love."
+
+[parts.Tenor.lyrics.chorus]
+text = "Touched by His love, Touched by His love, By the great love of my Fa -- ther a -- bove, Heart- -- bells are ring -- ing, I’m joy -- ous -- ly sing -- ing, I’m touched by my Sav -- iour’s pre -- cious love."

@@ -1,16 +1,17 @@
+# Tune: Ortonville.
 title = "Majestic Sweetness Sits Enthroned"
-verse_count = 4
+copyrights = [
+  "Lyrics: Samuel Stennett, 1787 (public domain)",
+  "Music: Thomas Hastings, 1837 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "G"
 time_sig_numerator = 6
 time_sig_denominator = 4
 tempo_bpm = 150
+verse_count = 4
 phrase_breaks = ["5:80", "9:80"]
-copyrights = [
-  "Lyrics: Samuel Stennett, 1787 (public domain)",
-  "Music: 'Ortonville' by Thomas Hastings, 1837 (public domain)",
-  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
 optional_phrase_breaks = ["3:80", "7:80"]
 
 [parts.Soprano]

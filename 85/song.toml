@@ -1,49 +1,15 @@
 title = "Father, Hear the Prayer We Offer"
-subtitle = ""
-tempo_bpm = 96
+copyrights = [
+  "Lyrics: Love M. Whitcomb Willis, 1859 (public domain)",
+  "Music: 'St. Sylvester' by John Bacchus Dykes, 1862 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license"
+]
 key_signature = "F"
 time_sig_numerator = 3
 time_sig_denominator = 2
-phrase_breaks = ["2:96", "4:96", "6:96", "8:96"]
-copyrights = [
-  "Lyrics: Love M. Whitcomb Willis, 1859 (public domain)",
-  "Music: 'St. Sylvester' by John B. Dykes, 1862 (public domain)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license"
-]
-
+tempo_bpm = 96
 verse_count = 4
-
-[lyrics.1]
-text = """
-Fa -- ther, hear the prayer we of -- fer:
-not for ease that prayer shall be,
-but for strength that we may ev -- er
-live our lives cour -- a -- geous -- ly.
-"""
-
-[lyrics.2]
-text = """
-Not for ev -- er in green pas -- tures
-do we ask our way to be;
-but the steep and rug -- ged path -- way
-may we tread re -- joi -- cing -- ly.
-"""
-
-[lyrics.3]
-text = """
-Not for ev -- er by still wa -- ters
-would we id -- ly rest and stay;
-but would smite the liv -- ing foun -- tains
-from the rocks a -- long our way.
-"""
-
-[lyrics.4]
-text = """
-Be our strength in hours of weak -- ness,
-in our wan -- d'rings be our guide;
-through en -- dea -- vour, fai -- lure, dan -- ger,
-Fa -- ther, be thou at our side.
-"""
+phrase_breaks = ["2:96", "4:96", "6:96", "8:96"]
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -75,4 +41,36 @@ clef = "bass"
 staff_number = 2
 notes = """
 f4. f8 f4 f4 g4 f4 | c2 f1 | d4. d8 d4 d4 g4 g4 | c1. | f4. f8 f4 f4 f4 f4 | bes,2 f1 | g4. g8 g4 d4 c4 c4 | f1.
+"""
+
+[lyrics.1]
+text = """
+Fa -- ther, hear the prayer we of -- fer:
+not for ease that prayer shall be,
+but for strength that we may ev -- er
+live our lives cour -- a -- geous -- ly.
+"""
+
+[lyrics.2]
+text = """
+Not for ev -- er in green pas -- tures
+do we ask our way to be;
+but the steep and rug -- ged path -- way
+may we tread re -- joi -- cing -- ly.
+"""
+
+[lyrics.3]
+text = """
+Not for ev -- er by still wa -- ters
+would we id -- ly rest and stay;
+but would smite the liv -- ing foun -- tains
+from the rocks a -- long our way.
+"""
+
+[lyrics.4]
+text = """
+Be our strength in hours of weak -- ness,
+in our wan -- d'rings be our guide;
+through en -- dea -- vour, fai -- lure, dan -- ger,
+Fa -- ther, be thou at our side.
 """

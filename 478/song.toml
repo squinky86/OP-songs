@@ -27,9 +27,6 @@ c''4 c''4 aes'4. ees'8 | f'8 bes'8 aes'8 f'8 ees'4. r8 |
 aes'8 aes'8 c''8 aes'8 ees'4 bes'4 | aes'2. r4
 """
 
-[parts.Soprano.lyrics.chorus]
-text = "He's a friend, a pre -- cious friend in -- deed, To the end He knows our ev -- 'ry need, O bless -- ed be His name, U -- nit -- ed we will be With the King of Glo -- ry -- land."
-
 [parts.Alto]
 choral_type = "alto"
 clef = "treble"
@@ -86,3 +83,6 @@ text = "Praise His name, the name of Christ, o -- bey -- ing each com -- mand, S
 
 [lyrics.chorus]
 text = "He's a friend, a lov -- ing friend, a pre -- cious friend in -- deed, in -- deed; Love and serve Him to the end, He knows our ev -- 'ry need, Bless -- ed be His ho -- ly name, U -- nit -- ed we some day will be With the King of Glo -- ry -- land."
+
+[parts.Soprano.lyrics.chorus]
+text = "He's a friend, a pre -- cious friend in -- deed, To the end He knows our ev -- 'ry need, O bless -- ed be His name, U -- nit -- ed we will be With the King of Glo -- ry -- land."

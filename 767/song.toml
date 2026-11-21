@@ -1,6 +1,6 @@
 title = "Look For Me, For I’ll Be There"
 copyrights = [
-  "Lyrics and Music: Virgil O. Stamps, 1921 (public domain)",
+  "Lyrics and Music: V. O. Stamps, 1921 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
 key_signature = "Bb"
@@ -97,9 +97,9 @@ text = "Won’t there be a joy -- ous joy -- ous sing -- ing, In that home so br
 
 [lyrics.chorus]
 text = "Look for me, Look for me, You will find me with the an -- gels fair, Look for me, Look for me, Don’t for -- get to look for me up there."
-[lyrics.s1]
-text = "You may look for me, for I’ll be there."
-
 
 [parts.Tenor.lyrics.chorus]
 text = "Look for me, (Oh, look for me,) Look for me, (For I’ll be there;) You will find me with the an -- gels fair, Look for me, (Oh, look for me,) Look for me, (For I’ll be there;) Don’t for -- get to look for me up there."
+
+[lyrics.s1]
+text = "You may look for me, for I’ll be there."

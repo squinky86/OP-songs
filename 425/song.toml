@@ -1,17 +1,17 @@
 title = "Send Us the Light"
-verse_count = 4
-key_signature = "G"
-time_sig_numerator = 4
-time_sig_denominator = 4
-tempo_bpm = 100
-phrase_breaks = ["4:64", "8:64", "10:64", "12:64"]
-optional_phrase_breaks = ["2:64", "6:64", "14:64"]
 copyrights = [
   "Lyrics: Charles S. Brown, 1899 (public domain)",
   "Music: John William Dadmun, 1890 (public domain)",
   "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "G"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 4
+phrase_breaks = ["4:64", "8:64", "10:64", "12:64"]
+optional_phrase_breaks = ["2:64", "6:64", "14:64"]
 
 [parts.Soprano]
 choral_type = "soprano"

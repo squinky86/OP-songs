@@ -1,27 +1,18 @@
 title = "We Gather Together to Ask the Lord's Blessing"
 subtitle = "Prayer of Thanksgiving"
-verse_count = 3
-key_signature = "C"
-time_sig_numerator = 3
-time_sig_denominator = 4
-tempo_bpm = 100
-phrase_breaks = ["5:32", "9:32", "13:32"]
 copyrights = [
   "Lyrics: Netherlands folk hymn, 1626; tr. Theodore Baker, 1894 (public domain)",
-  "Music: 'Kremser', Netherlands folk song from Adrianus Valerius' Nederlandtsch Gedenckclanck, 1626 (public domain)",
+  "Music: Netherlands folk song from Adrianus Valerius' Nederlandtsch Gedenckclanck, 1626 (public domain)",
   "Arrangement: Edward Kremser, 1877 (public domain)",
   "Courtesy of [Hymnary.org](https://hymnary.org)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
-
-[lyrics.1]
-text = "We gath -- er to -- geth -- er to ask the Lord's bless -- ing; He chas -- tens and has -- tens His will to make known; the wick -- ed op -- press -- ing now cease from dis -- tress -- ing. Sing prais -- es to His name, He for -- gets not His own."
-
-[lyrics.2]
-text = "Be -- side us to guide us, our God with us join -- ing, or -- dain -- ing, main -- tain -- ing His king -- dom di -- vine; so from the be -- gin -- ning the fight we were win -- ning: the Lord was at our side— the _ glo -- ry be Thine!"
-
-[lyrics.3]
-text = "We all do ex -- tol Thee, Thou Lead -- er tri -- um -- phant, and pray that Thou still our De -- fend -- er wilt be. Let Thy con -- gre -- ga -- tion es -- cape trib -- u -- la -- tion; Thy name be ev -- er praised! O _ Lord, make us free!"
+key_signature = "C"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 3
+phrase_breaks = ["5:32", "9:32", "13:32"]
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -70,3 +61,12 @@ g,2 g4 | f4. f8 f4 | e4 e4 e4 | d2 g8 g8 |
 c4 c4 c4 | a,4. e8 f8 f8 | b,2 c8-( c8-) | d4 g,4. c8 |
 c2 s4
 """
+
+[lyrics.1]
+text = "We gath -- er to -- geth -- er to ask the Lord's bless -- ing; He chas -- tens and has -- tens His will to make known; the wick -- ed op -- press -- ing now cease from dis -- tress -- ing. Sing prais -- es to His name, He for -- gets not His own."
+
+[lyrics.2]
+text = "Be -- side us to guide us, our God with us join -- ing, or -- dain -- ing, main -- tain -- ing His king -- dom di -- vine; so from the be -- gin -- ning the fight we were win -- ning: the Lord was at our side— the _ glo -- ry be Thine!"
+
+[lyrics.3]
+text = "We all do ex -- tol Thee, Thou Lead -- er tri -- um -- phant, and pray that Thou still our De -- fend -- er wilt be. Let Thy con -- gre -- ga -- tion es -- cape trib -- u -- la -- tion; Thy name be ev -- er praised! O _ Lord, make us free!"

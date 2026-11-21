@@ -1,6 +1,6 @@
 title = "He Cares for Me"
 copyrights = [
-  "Lyrics: Newton W. Allphin, 1921 (public domain)",
+  "Lyrics: N. W. Allphin, 1921 (public domain)",
   "Music: Lorena Allphin, 1921 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
@@ -24,9 +24,6 @@ f'4.~ f'4 c''8@c | c''4 bes'8 g'4 d''8 | c''4 a'8 a'4 a'8 | g'8 g'8 c''8 b'4 d''
 c''4( b'8 bes'4!) a'8 | c''8 b'8 c''8 a'8 g'8 f'8 | f''8 e''8 d''8 c''8 a'8 f'8 |
 g'8 a'8 bes'8 a'4 g'8 | f'4.~ f'4 s8
 """
-
-[parts.Soprano.lyrics.chorus]
-text = "He cares for me, He cares for me, I know that He cares for me; Thro' storms oft as -- sail -- ing, His love is un -- fail -- ing, I know that He cares for me."
 
 [parts.Alto]
 choral_type = "alto"
@@ -64,9 +61,6 @@ c4 d8 e4! f8 | f8 f8 f8 f8 f8 f8 | bes,8 c8 d8 f8 f8 f8 |
 bes8 a8 g8 c'4 c8 | f4.~ f4 s8
 """
 
-[parts.Bass.lyrics.chorus]
-text = "He cares for me, He cares for me, I know that He cares for me; for me; Thro' storms oft as -- sail -- ing, His love is un -- fail -- ing, I know that He cares for me."
-
 [lyrics.1]
 text = "The Lord is my ref -- uge, in Him I'll con -- fide, No oth -- er friend like Him can be; He keep -- eth me safe -- ly, no ill can be -- tide, @s1"
 
@@ -76,8 +70,14 @@ text = "My heart is ex -- ult -- ant, with hope it can sing, Of mer -- cy so ful
 [lyrics.3]
 text = "When trou -- bles and tri -- als en -- com -- pass me here, His mer -- cy is ev -- er my plea; His prom -- is -- es quell all my doubts and my fear, @s1"
 
-[lyrics.s1]
-text = "I know that He cares for me."
-
 [lyrics.chorus]
 text = "He cares for me, He cares for me, I know that He cares for me; for me; Thro' storms oft as -- sail -- ing, His love is un -- fail -- ing, I know that He cares for me. for me."
+
+[parts.Soprano.lyrics.chorus]
+text = "He cares for me, He cares for me, I know that He cares for me; Thro' storms oft as -- sail -- ing, His love is un -- fail -- ing, I know that He cares for me."
+
+[parts.Bass.lyrics.chorus]
+text = "He cares for me, He cares for me, I know that He cares for me; for me; Thro' storms oft as -- sail -- ing, His love is un -- fail -- ing, I know that He cares for me."
+
+[lyrics.s1]
+text = "I know that He cares for me."

@@ -34,9 +34,6 @@ g'4 g'8 g'4 g'8 | g'4 f'8 e'4 e'8 | f'4 f'8 f'4 f'8 | e'4 d'8 e'4 r8 |
 e'8 f'8 e'8 c'8 d'8 e'8 | f'4 f'8 f'4 f'8 | e'4 g'8 fis'4 f'8 | e'4 dis'8 e'4.
 """
 
-[parts.Alto.lyrics.chorus]
-text = "’Tis faith that works by pre -- cious love, ’Tis faith that works by bound -- less love; When we o -- bey from the heart the Lord, ’Tis faith that works by love, by love."
-
 [parts.Tenor]
 choral_type = "tenor"
 clef = "bass"
@@ -48,9 +45,6 @@ c'4 c'8 c'4 b8 | c'4 a8 g4 g8 | a4 a8 a4 c'8 | c'4 b8 c'4 r8 |
 c'8 c'8 c'8 g8 g8 c'8 | c'4 a8 a4 c'8 | c'4 c'8 a4 g8 | g4 a8 g4.
 """
 
-[parts.Tenor.lyrics.chorus]
-text = "’Tis faith that works by pre -- cious love, ’Tis faith that works by bound -- less love; When we o -- bey from the heart the Lord, ’Tis faith that works by love, by love."
-
 [parts.Bass]
 choral_type = "bass"
 clef = "bass"
@@ -61,9 +55,6 @@ c8 c8 c8 c8 c8 c8 | f4 f8 f4 f8 | c4 e8 d4 g8 | c4.~ c4 c8@c |
 c4 c8 c4 d8 | e4 f8 c4 c8 | f4 f8 f4 f8 | c4 g,8 c4 r8 |
 c8 c8 c8 c8 c8 c8 | f4 f8 f4 f8 | c4 e8 d4 g8 | c2.
 """
-
-[parts.Bass.lyrics.chorus]
-text = "’Tis faith that works by pre -- cious love, ’Tis faith that works by bound -- less love; When we o -- bey from the heart the Lord, ’Tis faith that works by love."
 
 [lyrics.1]
 text = "When we o -- bey from the heart the Lord, Take Je -- sus as guide a -- bove; When we strive ev -- er to do His will, ’Tis faith that works by love."
@@ -79,3 +70,12 @@ text = "When we as -- sem -- ble up -- on the day Our Sav -- iour com -- mands u
 
 [lyrics.chorus]
 text = "’Tis faith that works by love, ’Tis faith that works by love; When we o -- bey from the heart the Lord, ’Tis faith that works by love."
+
+[parts.Alto.lyrics.chorus]
+text = "’Tis faith that works by pre -- cious love, ’Tis faith that works by bound -- less love; When we o -- bey from the heart the Lord, ’Tis faith that works by love, by love."
+
+[parts.Tenor.lyrics.chorus]
+text = "’Tis faith that works by pre -- cious love, ’Tis faith that works by bound -- less love; When we o -- bey from the heart the Lord, ’Tis faith that works by love, by love."
+
+[parts.Bass.lyrics.chorus]
+text = "’Tis faith that works by pre -- cious love, ’Tis faith that works by bound -- less love; When we o -- bey from the heart the Lord, ’Tis faith that works by love."

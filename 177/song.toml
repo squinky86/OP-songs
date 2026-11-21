@@ -1,5 +1,10 @@
+# Tune: Rathbun.
 title = "In the Cross of Christ I Glory"
-subtitle = ""
+copyrights = [
+  "Lyrics: John Bowring, 1825 (public domain)",
+  "Music: Ithamar Conkey, 1849 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "C"
 time_sig_numerator = 3
 time_sig_denominator = 4
@@ -7,11 +12,6 @@ tempo_bpm = 96
 verse_count = 4
 phrase_breaks = ["8:48"]
 optional_phrase_breaks = ["4:48", "12:48"]
-copyrights = [
-  "Lyrics: John Bowring, 1825 (public domain)",
-  "Music: 'Rathbun' by Ithamar Conkey, 1849 (public domain)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
 
 [parts.Soprano]
 choral_type = "soprano"

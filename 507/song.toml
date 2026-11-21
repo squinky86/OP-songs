@@ -38,9 +38,6 @@ r4 d'8 d'8 d'4 r4 | r4 ees'8 ees'8 d'4 d'8 f'8 | ees'4 ees'8 f'8 g'4 f'8 ees'8 |
 r4 d'8 d'8 d'4 r4 | r4 ees'8 ees'8 d'4 d'8 ees'8 | f'4 f'8 g'8 f'4 ees'8 ees'8 | d'4 ees'8 ees'8 d'4 s4
 """
 
-[parts.Alto.lyrics.chorus]
-text = "Not a step will I take, Not a step with -- out Him will I go; will I go; He will lead me a -- long, To that beau -- ti -- ful home o -- ver there. o -- ver there."
-
 [parts.Tenor]
 choral_type = "tenor"
 clef = "bass"
@@ -53,9 +50,6 @@ bes4 bes8 bes8 bes4 f4 | f2. r4@c |
 r4 bes8 bes8 bes4 r4 | r4 g8 g8 f4 f8 bes8 | bes4 bes8 bes8 ees'4 bes8 bes8 | bes4 bes8 bes8 bes4 r4 |
 r4 bes8 bes8 bes4 r4 | r4 g8 g8 f4 bes8 bes8 | bes4 bes8 bes8 bes4 f8 f8 | f4 g8 g8 f4 s4
 """
-
-[parts.Tenor.lyrics.chorus]
-text = "Not a step will I take, Not a step with -- out Him will I go; will I go; He will lead me a -- long, To that beau -- ti -- ful home o -- ver there. o -- ver there."
 
 [parts.Bass]
 choral_type = "bass"
@@ -81,3 +75,9 @@ text = "Not a step will I take with -- out Je -- sus, Where He leads I can nev -
 
 [lyrics.chorus]
 text = "Not a step will I take, Not a step with -- out Him will I go; He will lead me a -- long, To that beau -- ti -- ful home o -- ver there."
+
+[parts.Alto.lyrics.chorus]
+text = "Not a step will I take, Not a step with -- out Him will I go; will I go; He will lead me a -- long, To that beau -- ti -- ful home o -- ver there. o -- ver there."
+
+[parts.Tenor.lyrics.chorus]
+text = "Not a step will I take, Not a step with -- out Him will I go; will I go; He will lead me a -- long, To that beau -- ti -- ful home o -- ver there. o -- ver there."

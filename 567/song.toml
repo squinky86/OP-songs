@@ -29,12 +29,6 @@ aes'2. {3 aes'8[ bes'8] c''8 } | ees''2. {3 c''8[ bes'8] aes'8 } |
 c''2( aes'4) {3 ees'8[ f'8] g'8 } | aes'2. s4
 """
 
-[parts.Soprano.lyrics.chorus]
-text = "Bless -- ed thought, there to dwell, In that home of the soul; End -- less praise we shall swell, In that home of the soul."
-
-[parts.Soprano.lyrics.s1]
-text = "In that home of the soul;"
-
 [parts.Alto]
 choral_type = "alto"
 clef = "treble"
@@ -95,5 +89,11 @@ text = "While the a -- ges on -- ward roll, Round the shin -- ing throne we’ll
 [lyrics.chorus]
 text = "Bless -- ed tho’t, there to ev -- er dwell, In that home of the soul; of the soul; End -- less praise we shall glad -- ly swell, In that home of the soul."
 
+[parts.Soprano.lyrics.chorus]
+text = "Bless -- ed thought, there to dwell, In that home of the soul; End -- less praise we shall swell, In that home of the soul."
+
 [lyrics.s1]
 text = "In that home of the soul; of the soul;"
+
+[parts.Soprano.lyrics.s1]
+text = "In that home of the soul;"

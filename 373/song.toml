@@ -1,19 +1,20 @@
+# Tune: Adeste Fideles.
 title = "O Come, All Ye Faithful"
-verse_count = 4
+copyrights = [
+  "Lyrics: John F. Wade, 1743 (public domain)",
+  "Translation: Frederick Oakeley, 1841 (public domain)",
+  "Music: John F. Wade, 1743 (public domain)",
+  "Courtesy of [Hymnary.org](https://hymnary.org)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "G"
 time_sig_numerator = 4
 time_sig_denominator = 4
 tempo_bpm = 96
+verse_count = 4
 phrase_breaks = ["5:48", "9:64", "13:48", "15:48", "17:48", "21:64"]
 optional_phrase_breaks = ["3:64"]
 non_breaking_phrase_breaks = ["13:64", "14:16", "15:32", "17:32"]
-copyrights = [
-  "Lyrics: John F. Wade, 1743 (public domain)",
-  "Translation: Frederick Oakeley, 1841 (public domain)",
-  "Music: 'Adeste Fideles' by John F. Wade, 1743 (public domain)",
-  "Courtesy of [Hymnary.org](https://hymnary.org)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -127,15 +128,6 @@ d2~ d4. g,8 |
 g,1
 """
 
-[parts.Alto.lyrics.chorus]
-text = "O come, O come, let us a -- dore Him O, come, let us a -- dore Him, Christ the Lord!"
-
-[parts.Tenor.lyrics.chorus]
-text = "O come, let us a -- dore O come, let us a -- dore Him O, come, let us a -- dore Him, Christ the Lord!"
-
-[parts.Bass.lyrics.chorus]
-text = "O, come, let us a -- dore Him, Christ the Lord!"
-
 [lyrics.1]
 text = "O come, all ye faith -- ful, joy -- ful and tri -- um -- phant! O come ye, O come ye to Beth -- le -- hem! Come and be -- hold Him _ born the King of an -- gels;"
 
@@ -150,3 +142,12 @@ text = "_ Yea, Lord, we greet Thee, born this hap -- py morn -- ing; _ Je -- sus
 
 [lyrics.chorus]
 text = "O come, let us a -- dore Him, O come, let us a -- dore Him O, come, let us a -- dore Him, Christ the Lord!"
+
+[parts.Alto.lyrics.chorus]
+text = "O come, O come, let us a -- dore Him O, come, let us a -- dore Him, Christ the Lord!"
+
+[parts.Tenor.lyrics.chorus]
+text = "O come, let us a -- dore O come, let us a -- dore Him O, come, let us a -- dore Him, Christ the Lord!"
+
+[parts.Bass.lyrics.chorus]
+text = "O, come, let us a -- dore Him, Christ the Lord!"

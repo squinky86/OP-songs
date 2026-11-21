@@ -1,16 +1,16 @@
 title = "Can the Master Call Me Faithful?"
-verse_count = 4
-key_signature = "Ab"
-time_sig_numerator = 4
-time_sig_denominator = 4
-tempo_bpm = 96
-phrase_breaks = ["4:64", "8:64", "12:64"]
-non_breaking_phrase_breaks = ["12:16", "16:16"]
 copyrights = [
   "Lyrics: Jennie Wilson, 1907 (public domain)",
   "Music: Leonard Daugherty, 1907 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 4
+phrase_breaks = ["4:64", "8:64", "12:64"]
+non_breaking_phrase_breaks = ["12:16", "16:16"]
 
 [parts.Soprano]
 choral_type = "soprano"

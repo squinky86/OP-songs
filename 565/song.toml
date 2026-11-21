@@ -1,7 +1,8 @@
+# Tune: Clarendon.
 title = "Holy Father, Cheer our Way"
 copyrights = [
   "Lyrics: Richard H. Robinson, 1869 (public domain)",
-  "Music: 'Clarendon' by Carroll King, 1914 (public domain)",
+  "Music: Carroll King, 1914 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
 key_signature = "G"
@@ -11,18 +12,6 @@ tempo_bpm = 92
 verse_count = 4
 phrase_breaks = ["4:64"]
 optional_phrase_breaks = ["2:64", "6:64"]
-
-[lyrics.1]
-text = "Ho -- ly Fa -- ther, cheer our way With Thy love’s per -- pet -- ual ray: Grant us ev -- ’ry clos -- ing day Light at eve -- ning- -- time."
-
-[lyrics.2]
-text = "Ho -- ly Sav -- iour, calm our fears When earth’s bright -- ness dis -- ap -- pears: Grant us in our la -- ter years Light at eve -- ning- -- time."
-
-[lyrics.3]
-text = "Ho -- ly Spir -- it be Thou nigh When in mor -- tal pains we lie; Grant us, as we come to die, Light at eve -- ning- -- time."
-
-[lyrics.4]
-text = "Ho -- ly, bless -- ed Trin -- i -- ty, Dark -- ness is not dark to Thee: Those Thou keep -- est al -- ways see Light at eve -- ning- -- time."
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -59,3 +48,15 @@ notes = """
 g4 d8[ c8] b,4 d4 | g4 a4 b4( c'4) | b4 a4 g4 g4 | a4 a4 d2 |
 g4 g4 g4 dis4 | e4 c4 b,2 | a,4 b,4 c4 d4 | g,2. r4
 """
+
+[lyrics.1]
+text = "Ho -- ly Fa -- ther, cheer our way With Thy love’s per -- pet -- ual ray: Grant us ev -- ’ry clos -- ing day Light at eve -- ning- -- time."
+
+[lyrics.2]
+text = "Ho -- ly Sav -- iour, calm our fears When earth’s bright -- ness dis -- ap -- pears: Grant us in our la -- ter years Light at eve -- ning- -- time."
+
+[lyrics.3]
+text = "Ho -- ly Spir -- it be Thou nigh When in mor -- tal pains we lie; Grant us, as we come to die, Light at eve -- ning- -- time."
+
+[lyrics.4]
+text = "Ho -- ly, bless -- ed Trin -- i -- ty, Dark -- ness is not dark to Thee: Those Thou keep -- est al -- ways see Light at eve -- ning- -- time."

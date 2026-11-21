@@ -1,17 +1,17 @@
 title = "Mother’s Prayers Have Followed Me"
-verse_count = 3
+copyrights = [
+  "Lyrics: Lizzie DeArmond, 1912 (public domain)",
+  "Music: B. D. Ackley, 1912 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "D"
 time_sig_numerator = 3
 time_sig_denominator = 4
 tempo_bpm = 95
+verse_count = 3
 phrase_breaks = ["5:24", "9:24", "13:24"]
 optional_phrase_breaks = ["3:24", "7:24", "11:24", "15:24"]
-copyrights = [
-  "Lyrics: Lizzie Douglas Foulks DeArmond, 1912 (public domain)",
-  "Music: Bentley DeForest Ackley, 1912 (public domain)",
-  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
 
 [parts.Soprano]
 choral_type = "soprano"

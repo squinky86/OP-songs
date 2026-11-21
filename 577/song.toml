@@ -82,9 +82,6 @@ a4. c'8 bes4 a8. a16 |
 bes1
 """
 
-[parts.Tenor.lyrics.chorus]
-text = "There is pow'r, There is pow'r. won -- der work -- ing pow'r in the blood of the Lamb, There is pow'r, There is pow'r, won -- der work -- ing pow'r In the pre -- cious blood of the Lamb."
-
 [parts.Bass]
 choral_type = "bass"
 clef = "bass"
@@ -108,9 +105,6 @@ f4. f8 f4 f8. f16 |
 <bes, f>1
 """
 
-[parts.Bass.lyrics.chorus]
-text = "There is pow'r, There is pow'r. won -- der work -- ing pow'r in the blood of the Lamb, There is pow'r, There is pow'r, won -- der work -- ing pow'r In the pre -- cious blood of the Lamb."
-
 [lyrics.1]
 text = "Would you be free from the bur -- den of sin? There’s pow'r in the blood, pow'r in the blood; Would you o’er e -- vil a vic -- to -- ry win? There’s won -- der -- ful pow'r in the blood."
 
@@ -125,3 +119,9 @@ text = "Would you do ser -- vice for Je -- sus your King? There’s pow'r in the
 
 [lyrics.chorus]
 text = "There is pow'r, pow'r, won -- der work -- ing pow'r In the blood of the Lamb; There is pow'r, pow'r, won -- der work -- ing pow'r In the pre -- cious blood of the Lamb."
+
+[parts.Tenor.lyrics.chorus]
+text = "There is pow'r, There is pow'r. won -- der work -- ing pow'r in the blood of the Lamb, There is pow'r, There is pow'r, won -- der work -- ing pow'r In the pre -- cious blood of the Lamb."
+
+[parts.Bass.lyrics.chorus]
+text = "There is pow'r, There is pow'r. won -- der work -- ing pow'r in the blood of the Lamb, There is pow'r, There is pow'r, won -- der work -- ing pow'r In the pre -- cious blood of the Lamb."

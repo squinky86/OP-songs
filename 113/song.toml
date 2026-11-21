@@ -1,16 +1,16 @@
 title = "Alone In The Garden"
-verse_count = 4
+copyrights = [
+  "Words: C. Louise Bell as Birdie Bell, 1923 (public domain)",
+  "Music: Leonard Daugherty, 1923 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "Ab"
 time_sig_numerator = 6
 time_sig_denominator = 8
 tempo_bpm = 76
-non_breaking_phrase_breaks = ["10:8", "10:40", "11:8"]
+verse_count = 4
 phrase_breaks = ["3:40", "5:40", "7:40", "9:40", "11:40", "13:40", "15:40"]
-copyrights = [
-  "Words: Birdie Bell, 1923 (public domain)",
-  "Music: Leonard Daugherty, 1923 (public domain)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
+non_breaking_phrase_breaks = ["10:8", "10:40", "11:8"]
 commentary = ""
 
 [parts.Soprano]
@@ -43,9 +43,6 @@ ees'8. ees'16 ees'8 ees'8 d'8 ees'8 | ees'8. ges'16 ges'8 f'4! f'16 f'16 |
 ees'8. ees'16 ees'8 des'8 des'8.! des'16! | c'4.~ c'4 s8
 """
 
-[parts.Alto.lyrics.chorus]
-text = "A -- lone in the gar -- den, a -- lone in His woe, He sor -- rowed that no one such an -- guish might know; To the Sav -- ior my life and my serv -- ice I owe, In the gar -- den He suf -- fered for me!"
-
 [parts.Tenor]
 choral_type = "tenor"
 clef = "bass"
@@ -60,9 +57,6 @@ bes8. bes16 bes8 bes8 bes8 bes8 | aes8. aes16 aes8 aes4 aes16 aes16 |
 aes8. aes16 aes8 aes8 aes8 aes8 | aes8. aes16 aes8 aes4! aes16 aes16 |
 aes8. aes16 aes8 g8 g8.! g16! | aes4.~ aes4 s8
 """
-
-[parts.Tenor.lyrics.chorus]
-text = "A -- lone a -- lone in His woe, He sor -- rowed that no one such an -- guish might know; To the Sav -- ior my life and my serv -- ice I owe, In the gar -- den He suf -- fered for me!"
 
 [parts.Bass]
 choral_type = "bass"
@@ -79,9 +73,6 @@ aes,8. aes,16 aes,8 aes,8 aes,8 aes,8 | c8. c16 c8 des4! des16 des16 |
 ees8. ees16 ees8 ees8 ees8.! ees16! | aes,4.~ aes,4 s8
 """
 
-[parts.Bass.lyrics.chorus]
-text = "A -- lone a -- lone in His woe, He sor -- rowed that no one such an -- guish might know; To the Sav -- ior my life and my serv -- ice I owe, In the gar -- den He suf -- fered for me!"
-
 [lyrics.1]
 text = "A -- lone in the gar -- den, where dark shad -- ows crept, He longed for the com -- fort of oth -- ers who slept; With -- out a com -- pan -- ion the vig -- il He kept,— @s1"
 
@@ -94,8 +85,17 @@ text = "A -- lone in the gar -- den, He suf -- fered for me, That I from my bur 
 [lyrics.4]
 text = "A -- lone in the gar -- den, He plead -- ed for me, In an -- guish of spir -- it the world could not see; Oh, love of the Sav -- ior be -- yond all de -- gree! @s1"
 
-[lyrics.s1]
-text = "In the gar -- den He suf -- fered a -- lone."
-
 [lyrics.chorus]
 text = "A -- lone a -- lone He sor -- rowed that no one such an -- guish might know; To the Sav -- ior my life and my serv -- ice I owe, In the gar -- den He suf -- fered for me!"
+
+[parts.Alto.lyrics.chorus]
+text = "A -- lone in the gar -- den, a -- lone in His woe, He sor -- rowed that no one such an -- guish might know; To the Sav -- ior my life and my serv -- ice I owe, In the gar -- den He suf -- fered for me!"
+
+[parts.Tenor.lyrics.chorus]
+text = "A -- lone a -- lone in His woe, He sor -- rowed that no one such an -- guish might know; To the Sav -- ior my life and my serv -- ice I owe, In the gar -- den He suf -- fered for me!"
+
+[parts.Bass.lyrics.chorus]
+text = "A -- lone a -- lone in His woe, He sor -- rowed that no one such an -- guish might know; To the Sav -- ior my life and my serv -- ice I owe, In the gar -- den He suf -- fered for me!"
+
+[lyrics.s1]
+text = "In the gar -- den He suf -- fered a -- lone."

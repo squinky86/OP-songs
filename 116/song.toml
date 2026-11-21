@@ -1,5 +1,4 @@
 title = "His Love Is Mine"
-subtitle = ""
 copyrights = [
   "Lyrics: Thomas O. Chisholm, 1926 (public domain)",
   "Music: Charles H. Gabriel, 1926 (public domain)",
@@ -10,8 +9,8 @@ time_sig_numerator = 3
 time_sig_denominator = 4
 tempo_bpm = 96
 verse_count = 4
-optional_phrase_breaks = ["3:40", "7:40", "11:24", "15:24"]
 phrase_breaks = ["5:32", "9:24", "13:24"]
+optional_phrase_breaks = ["3:40", "7:40", "11:24", "15:24"]
 commentary = """
 <p>These same lyrics are also set to entirely different music by James Williams in the same 1926 collection, <em>Sweeter Than All Songs</em> (Gospel Advocate
 Co., 1926) under the title <a href="/songs/115">What Need I More</a>.</p>

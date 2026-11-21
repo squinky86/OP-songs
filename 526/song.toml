@@ -14,18 +14,6 @@ optional_phrase_breaks = ["11:48", "15:48"]
 non_breaking_phrase_breaks = ["5:16", "9:16", "13:16"]
 optional_break_threshold_ticks = 148
 
-[lyrics.1]
-text = "The life be -- yond will be e -- ter -- nal, And O what joy there we will share, When we have reached that home su -- per -- nal, A shin -- ing crown to ev -- er wear"
-
-[lyrics.2]
-text = "When there, we are in love u -- nit -- ed, Where sor -- row nev -- er more we’ll know, We’ll drink of life’s pure, liv -- ing wa -- ter, And rest be -- side its peace -- ful flow"
-
-[lyrics.3]
-text = "’Tis there we’ll dwell with shin -- ing an -- gels, And with them we will ev -- er sing Of Him who saved us through His mer -- cy, Who did to us sal -- va -- tion bring"
-
-[lyrics.chorus]
-text = "That life, that hap -- py life e -- ter -- nal, If faith -- ful, it will sure -- ly gain, That life with -- in that home su -- per -- nal Is free from ev’ -- ry grief and pain."
-
 [parts.Soprano]
 choral_type = "soprano"
 clef = "treble"
@@ -64,18 +52,6 @@ bes4 bes8 bes8 ees'4 ees'4 | bes4. g8 aes8 bes8 bes8 bes8 | aes4 c'2 ees'4 | ees
 g2~ g4 s4
 """
 
-[parts.Tenor.lyrics.1]
-text = "The life be -- yond will be e -- ter -- nal, And O what joy there we will share, we will share, When we have reached that home su -- per -- nal, A shin -- ing crown to ev -- er wear"
-
-[parts.Tenor.lyrics.2]
-text = "When there, we are in love u -- nit -- ed, Where sor -- row nev -- er more we’ll know, more we’ll know, We’ll drink of life’s pure, liv -- ing wa -- ter, And rest be -- side its peace -- ful flow"
-
-[parts.Tenor.lyrics.3]
-text = "’Tis there we’ll dwell with shin -- ing an -- gels, And with them we will ev -- er sing ev -- er sing Of Him who saved us through His mer -- cy, Who did to us sal -- va -- tion bring"
-
-[parts.Tenor.lyrics.chorus]
-text = "That life, that hap -- py life e -- ter -- nal, If faith -- ful, it will sure -- ly gain, sure -- ly gain, That life with -- in that home su -- per -- nal Is free from ev’ -- ry grief and pain."
-
 [parts.Bass]
 choral_type = "bass"
 clef = "bass"
@@ -90,14 +66,38 @@ ees4 ees8 ees8 ees4 ees4 | ees4. ees8 ees8 ees8 f8 g8 | aes4 aes2 aes4 | bes4. b
 ees2~ ees4 s4
 """
 
+[lyrics.1]
+text = "The life be -- yond will be e -- ter -- nal, And O what joy there we will share, When we have reached that home su -- per -- nal, A shin -- ing crown to ev -- er wear"
+
+[parts.Tenor.lyrics.1]
+text = "The life be -- yond will be e -- ter -- nal, And O what joy there we will share, we will share, When we have reached that home su -- per -- nal, A shin -- ing crown to ev -- er wear"
+
 [parts.Bass.lyrics.1]
 text = "The life be -- yond will be e -- ter -- nal, And O what joy there we will share, we will share, When we have reached that home su -- per -- nal, A shin -- ing crown to ev -- er wear ev -- er wear."
+
+[lyrics.2]
+text = "When there, we are in love u -- nit -- ed, Where sor -- row nev -- er more we’ll know, We’ll drink of life’s pure, liv -- ing wa -- ter, And rest be -- side its peace -- ful flow"
+
+[parts.Tenor.lyrics.2]
+text = "When there, we are in love u -- nit -- ed, Where sor -- row nev -- er more we’ll know, more we’ll know, We’ll drink of life’s pure, liv -- ing wa -- ter, And rest be -- side its peace -- ful flow"
 
 [parts.Bass.lyrics.2]
 text = "When there, we are in love u -- nit -- ed, Where sor -- row nev -- er more we’ll know, more we’ll know, We’ll drink of life’s pure, liv -- ing wa -- ter, And rest be -- side its peace -- ful flow peace -- ful flow."
 
+[lyrics.3]
+text = "’Tis there we’ll dwell with shin -- ing an -- gels, And with them we will ev -- er sing Of Him who saved us through His mer -- cy, Who did to us sal -- va -- tion bring"
+
+[parts.Tenor.lyrics.3]
+text = "’Tis there we’ll dwell with shin -- ing an -- gels, And with them we will ev -- er sing ev -- er sing Of Him who saved us through His mer -- cy, Who did to us sal -- va -- tion bring"
+
 [parts.Bass.lyrics.3]
 text = "’Tis there we’ll dwell with shin -- ing an -- gels, And with them we will ev -- er sing ev -- er sing Of Him who saved us through His mer -- cy, Who did to us sal -- va -- tion bring va -- tion bring."
+
+[lyrics.chorus]
+text = "That life, that hap -- py life e -- ter -- nal, If faith -- ful, it will sure -- ly gain, That life with -- in that home su -- per -- nal Is free from ev’ -- ry grief and pain."
+
+[parts.Tenor.lyrics.chorus]
+text = "That life, that hap -- py life e -- ter -- nal, If faith -- ful, it will sure -- ly gain, sure -- ly gain, That life with -- in that home su -- per -- nal Is free from ev’ -- ry grief and pain."
 
 [parts.Bass.lyrics.chorus]
 text = "That life, that hap -- py life e -- ter -- nal, If faith -- ful, it will sure -- ly gain, sure -- ly gain, That life with -- in that home su -- per -- nal Is free from ev’ -- ry grief and pain."

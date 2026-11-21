@@ -42,9 +42,6 @@ g'8. g'16 g'8 d'8 d'8 d'8 | e'8 e'8 c'8 b4 b8 |
 c'8 e'8 e'8 d'4! c'8 | b4.~ b4 s8
 """
 
-[parts.Alto.lyrics.chorus]
-text = "O won -- der -- ful light of sal -- va -- tion, sal -- va -- tion, So full and so free, He gave un -- to me; My soul He re -- deemed in that life -- giv -- ing stream That flowed from Mount Cal -- va -- ry."
-
 [parts.Tenor]
 choral_type = "tenor"
 clef = "bass"
@@ -86,3 +83,6 @@ text = "O sin -- ner, be -- ware, 'tis a dan -- ger -- ous path, 'Twill lead you
 
 [lyrics.chorus]
 text = "O won -- der -- ful light of sal -- va -- tion, So full and so free, He gave un -- to me; My soul He re -- deemed in that life -- giv -- ing stream That flowed from Mount Cal -- va -- ry."
+
+[parts.Alto.lyrics.chorus]
+text = "O won -- der -- ful light of sal -- va -- tion, sal -- va -- tion, So full and so free, He gave un -- to me; My soul He re -- deemed in that life -- giv -- ing stream That flowed from Mount Cal -- va -- ry."

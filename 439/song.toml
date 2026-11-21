@@ -13,18 +13,6 @@ phrase_breaks = ["3:40", "5:40", "7:40", "9:40", "13:40"]
 optional_phrase_breaks = ["11:40", "15:40"]
 commentary = "<p>The term <em>for aye</em> is pronounced <em>for ā</em> coming from the Norse word <em>ey</em> meaning <em>ever</em> or <em>always</em>.</p>"
 
-[lyrics.1]
-text = "I am a stran -- ger here, with -- in a for -- eign land; My home is far a -- way, up -- on a gold -- en strand; Am -- bas -- sa -- dor to be of realms be -- yond the sea, I’m here on busi -- ness for my King."
-
-[lyrics.2]
-text = "This is the King’s com -- mand: that all men, ev -- ery -- where, Re -- pent and turn a -- way from sin’s se -- duct -- ive snare; That all who will o -- bey, with Him shall reign for aye, And that’s my busi -- ness for my King."
-
-[lyrics.3]
-text = "My home is bright -- er far than Sha -- ron’s ro -- sy plain, E -- ter -- nal life and joy through -- out its vast do -- main; My Sov -- ereign bids me tell how mor -- tals there may dwell, And that’s my busi -- ness for my King."
-
-[lyrics.chorus]
-text = "This is the mes -- sage that I bring, A mes -- sage an -- gels fain would sing: “Oh, be ye re -- con -- ciled,” Thus saith my Lord and King, “Oh, be ye re -- con -- ciled to God.”"
-
 [parts.Soprano]
 choral_type = "soprano"
 clef = "treble"
@@ -120,3 +108,15 @@ a8. a16 a4.! a,8 a,8 a,8 |
 b,8 b,8 b,2 b,4 |
 e2~ e8 s4 s8
 """
+
+[lyrics.1]
+text = "I am a stran -- ger here, with -- in a for -- eign land; My home is far a -- way, up -- on a gold -- en strand; Am -- bas -- sa -- dor to be of realms be -- yond the sea, I’m here on busi -- ness for my King."
+
+[lyrics.2]
+text = "This is the King’s com -- mand: that all men, ev -- ery -- where, Re -- pent and turn a -- way from sin’s se -- duct -- ive snare; That all who will o -- bey, with Him shall reign for aye, And that’s my busi -- ness for my King."
+
+[lyrics.3]
+text = "My home is bright -- er far than Sha -- ron’s ro -- sy plain, E -- ter -- nal life and joy through -- out its vast do -- main; My Sov -- ereign bids me tell how mor -- tals there may dwell, And that’s my busi -- ness for my King."
+
+[lyrics.chorus]
+text = "This is the mes -- sage that I bring, A mes -- sage an -- gels fain would sing: “Oh, be ye re -- con -- ciled,” Thus saith my Lord and King, “Oh, be ye re -- con -- ciled to God.”"

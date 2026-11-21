@@ -68,8 +68,8 @@ text = "There’s a bright day com -- ing, A bright day com -- ing, There’s a 
 [lyrics.3]
 text = "There’s a sad day com -- ing, A sad day com -- ing, There’s a sad day com -- ing by and by, When the sin -- ner shall hear his doom, “de -- part, I know ye not;” @s1"
 
-[lyrics.s1]
-text = "Are you read -- y for that day to come?"
-
 [lyrics.chorus]
 text = "Are you read -- y, are you read -- y, Are you read -- y for the judg -- ment day? Are you read -- y, are you read -- y For the judg -- ment day?"
+
+[lyrics.s1]
+text = "Are you read -- y for that day to come?"

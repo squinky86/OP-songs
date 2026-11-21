@@ -1,15 +1,15 @@
 title = "Yield Not to Temptation"
-verse_count = 3
+copyrights = [
+  "Lyrics and Music: H. R. Palmer, 1868 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "Bb"
 time_sig_numerator = 6
 time_sig_denominator = 8
 tempo_bpm = 115
+verse_count = 3
 phrase_breaks = ["4:48", "8:48", "12:48", "16:48", "20:48"]
-copyrights = [
-  "Lyrics and Music: Horatio R. Palmer, 1868 (public domain)",
-  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -66,29 +66,29 @@ ees4 ees8 ees8 ees8 ees8 | bes,4. bes,4. | f4 f8 f8 f8 f8 | bes,2.
 [lyrics.1]
 text = "Yield not to temp -- ta -- tion, for yield -- ing is sin; Each vic -- tory will help you some oth -- er to win; Fight man -- ful -- ly on -- ward, dark pas -- sions sub -- due, Look ev -- er to Je -- sus, He'll car -- ry you through."
 
-[lyrics.2]
-text = "Shun e -- vil com -- pan -- ions, bad lan -- guage dis -- dain, God's name hold in rev -- erence, nor take it in vain; Be thought -- ful and ear -- nest, kind -- heart -- ed and true, Look ev -- er to Je -- sus, He'll car -- ry you through."
-
-[lyrics.3]
-text = "To him that o'er -- com -- eth, God giv -- eth a crown; Through faith we shall con -- quer, though of -- ten cast down; He who is our Sav -- ior our strength will re -- new; Look ev -- er to Je -- sus, He'll car -- ry you through."
-
-[lyrics.chorus]
-text = "Ask the Sav -- ior to help you, Com -- fort, strength -- en and keep you; He is will -- ing to aid you, He will car -- ry you through."
-
 [parts.Tenor.lyrics.1]
-text = ""
-
-[parts.Tenor.lyrics.2]
-text = ""
-
-[parts.Tenor.lyrics.3]
 text = ""
 
 [parts.Bass.lyrics.1]
 text = ""
 
+[lyrics.2]
+text = "Shun e -- vil com -- pan -- ions, bad lan -- guage dis -- dain, God's name hold in rev -- erence, nor take it in vain; Be thought -- ful and ear -- nest, kind -- heart -- ed and true, Look ev -- er to Je -- sus, He'll car -- ry you through."
+
+[parts.Tenor.lyrics.2]
+text = ""
+
 [parts.Bass.lyrics.2]
+text = ""
+
+[lyrics.3]
+text = "To him that o'er -- com -- eth, God giv -- eth a crown; Through faith we shall con -- quer, though of -- ten cast down; He who is our Sav -- ior our strength will re -- new; Look ev -- er to Je -- sus, He'll car -- ry you through."
+
+[parts.Tenor.lyrics.3]
 text = ""
 
 [parts.Bass.lyrics.3]
 text = ""
+
+[lyrics.chorus]
+text = "Ask the Sav -- ior to help you, Com -- fort, strength -- en and keep you; He is will -- ing to aid you, He will car -- ry you through."

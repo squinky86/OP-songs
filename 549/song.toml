@@ -26,9 +26,6 @@ bes'2. c''8 des''8 | ees''4 c''4 bes'8 aes'8 aes'8 aes'8 | aes'4 aes'4 f'8 ees'8
 c''8 c''4.~ c''4 aes'8 bes'8 | aes'2. s4
 """
 
-[parts.Soprano.lyrics.chorus]
-text = "Hear the sto -- ry that the an -- gels, And the saints in glo -- ry sing! On your ear ’tis fall -- ing, You from sin’s way call -- ing,— Hear the mes -- sage of the King!"
-
 [parts.Alto]
 choral_type = "alto"
 clef = "treble"
@@ -88,3 +85,6 @@ text = "’Tis the same old sto -- ry, Full of death -- less glo -- ry, That un 
 
 [lyrics.chorus]
 text = "Hear the bless -- ed sto -- ry that the an -- gels, ho -- ly an -- gels, And the hap -- py saints in glo -- ry sing! On your ear ’tis fall -- ing, You from sin’s way call -- ing,— Hear the mes -- sage of the King!"
+
+[parts.Soprano.lyrics.chorus]
+text = "Hear the sto -- ry that the an -- gels, And the saints in glo -- ry sing! On your ear ’tis fall -- ing, You from sin’s way call -- ing,— Hear the mes -- sage of the King!"

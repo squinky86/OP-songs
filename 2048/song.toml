@@ -1,7 +1,7 @@
 title = "The Star of Hope"
 copyrights = [
   "Lyrics: Mrs. R. D. George, 1929 (public domain)",
-  "Music: Mavin T. Baird, 1929 (public domain)",
+  "Music: Marvin T. Baird, 1929 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
 key_signature = "Eb"
@@ -23,9 +23,6 @@ bes'4 c''8 bes'4 des''8 | c''4 d''8 ees''4! c''8 | bes'4 ees'8 g'4 f'8 | ees'4.~
 bes'4 c''8 bes'4 g'8 | bes'4.~ bes'4 c''8 | bes'4 g'8 g'8[ f'8] ees'8 | bes'4.~ bes'4 aes'8 |
 g'4 fis'8 g'4 bes'8 | c''4 d''8 ees''4! c''8 | bes'4 ees'8 g'4 f'8 | ees'4.~ ees'4 s8
 """
-
-[parts.Soprano.lyrics.chorus]
-text = "Thou Star of Hope shine on, While in this world I roam; When life is o’er, my race is run, Then guide my spir -- it home."
 
 [parts.Alto]
 choral_type = "alto"
@@ -71,3 +68,6 @@ text = "Un -- til my la -- test sun is set, And I have reached the goal; The Sta
 
 [lyrics.chorus]
 text = "Thou Star of Hope shine on, shine on, While in this world I roam; When life is o’er, my race is run, Then guide my spir -- it home."
+
+[parts.Soprano.lyrics.chorus]
+text = "Thou Star of Hope shine on, While in this world I roam; When life is o’er, my race is run, Then guide my spir -- it home."

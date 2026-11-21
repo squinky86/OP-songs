@@ -1,17 +1,17 @@
 title = "Why Not Now?"
-verse_count = 4
-key_signature = "D"
-time_sig_numerator = 9
-time_sig_denominator = 8
-tempo_bpm = 110
-phrase_breaks = ["5:48", "9:48", "13:48"]
-optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
 copyrights = [
-  "Lyrics: Daniel W. Whittle, 1891 (public domain)",
+  "Lyrics: Daniel Webster Whittle as El Nathan, 1891 (public domain)",
   "Music: Charles C. Case, 1891 (public domain)",
   "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "D"
+time_sig_numerator = 9
+time_sig_denominator = 8
+tempo_bpm = 110
+verse_count = 4
+phrase_breaks = ["5:48", "9:48", "13:48"]
+optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
 
 [parts.Soprano]
 choral_type = "soprano"

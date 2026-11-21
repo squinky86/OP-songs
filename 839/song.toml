@@ -1,9 +1,9 @@
-# The 4/2 chant is editorially barred in 4/4. Each of the first three
+# This is Troyte’s second chant. The 4/2 chant is editorially barred in 4/4. Each of the first three
 # reciting tones fills two bars with one attack. The final strain keeps its shorter recitation.
 title = "For All the Saints"
 copyrights = [
   "Lyrics: William Walsham How, 1864 (public domain)",
-  "Music: 'Troyte's Chant No. 2' by Arthur Henry Dyke Troyte, 1857 (public domain)",
+  "Music: Arthur Henry Dyke Troyte, 1857 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
 key_signature = "G"
@@ -77,4 +77,3 @@ text = "But lo! there breaks a yet more glo -- rious day: The saints tri -- um -
 
 [lyrics.s1]
 text = "Hal -- le -- lu -- jah!"
-

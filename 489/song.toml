@@ -79,8 +79,8 @@ text = "'Tis that glo -- ri -- ous place where no shade can dim, Where e -- ter 
 [lyrics.4]
 text = "Tho' the bur -- dens are great that I oft must bear, Trust -- ing Je -- sus, I'll ne'er de -- spond Heav -- en's won -- der -- ful bless -- ings, my soul shall share, @s1"
 
-[lyrics.s1]
-text = "In the beau -- ti -- ful life be -- yond."
-
 [lyrics.chorus]
 text = "Oh, the beau -- ti -- ful life be -- yond! Oh, the beau -- ti -- ful life be -- yond! I am look -- ing a -- way from earth's shad -- ow -- y day, To the beau -- ti -- ful life be -- yond!"
+
+[lyrics.s1]
+text = "In the beau -- ti -- ful life be -- yond."

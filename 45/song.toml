@@ -1,7 +1,6 @@
 title = "A Soul Winner for Jesus"
-subtitle = ""
 copyrights = [
-  "Lyrics and Music: James Welch Ferrill, 1907 (public domain)",
+  "Lyrics and Music: J. W. Ferrill, 1907 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license"
 ]
 key_signature = "Bb"
@@ -35,9 +34,6 @@ notes = """
 s2 s4 bes4 | bes8. bes16 bes8. f16 bes4 {3 bes8 bes8 bes8 } | bes8. bes16 bes8. bes16 bes4 bes4 | bes4 <d' bes>4 bes4 bes4 | a2. a4 | bes8. bes16 bes8. f16 bes4 {3 bes8 bes8 bes8 } | bes8. bes16 bes8. bes16 bes4 bes4 | bes4 bes4 bes4 f4 | f2. bes4@c | bes4 {3 bes8 bes8 bes8 } bes4 bes4 | <d' f'>4 <d' f'>4 bes4 bes4 | bes4 {3 bes8 bes8 bes8 } bes4 bes4 | bes4 bes4 bes4 bes4 | bes4 d'4 bes4 bes4 | a2. bes4 | bes4 {3 bes8 bes8 bes8 } bes4 bes4 | <bes d'>4 <bes d'>4 bes4 bes4 | bes4 {3 bes8 bes8 bes8 } bes4 bes4 | bes4 bes4 f4 bes4 | bes4 bes4 bes4 f4 | f2. s4
 """
 
-[parts.Tenor.lyrics.chorus]
-text = "A soul win -- ner for Je -- sus Christ the Lord, A soul win -- ner for Je -- sus Christ the Lord, O let me be each day, A soul win -- ner for Je -- sus Christ the Lord, A soul win -- ner for Je -- sus Christ the Lord, He’s done so much for me."
-
 [parts.Bass]
 choral_type = "bass"
 clef = "bass"
@@ -45,9 +41,6 @@ staff_number = 2
 notes = """
 s2 s4 bes,4 | bes,8. bes,16 bes,8. bes,16 bes,4 {3 bes,8 bes,8 d8 } | ees8. ees16 ees8. ees16 bes,4 bes,4 | bes,4 bes,4 bes4 bes4 | f2. f4 | bes,8. bes,16 bes,8. bes,16 bes,4 {3 bes,8 bes,8 d8 } | ees8. ees16 ees8. g16 bes4 d4 | ees4 c4 f4 f,4 | bes,2. bes,4@c | bes,4 {3 bes,8 bes,8 bes,8 } bes,4 bes,4 | bes,4 bes,4 bes,4 d4 | ees4 {3 ees8 ees8 ees8 } ees4 ees4 | bes,4 bes,4 bes,4 d4 | bes,4 bes,4 bes4 bes4 | f2. bes,4 | bes,4 {3 bes,8 bes,8 bes,8 } bes,4 bes,4 | bes,4 bes,4 bes,4 d4 | ees4 {3 ees8 ees8 ees8 } ees4 ees4 | bes,4 bes,4 bes,4 d4 | ees4 c4 f4 f,4 | bes,2. s4
 """
-
-[parts.Bass.lyrics.chorus]
-text = "A soul win -- ner for Je -- sus Christ the Lord, A soul win -- ner for Je -- sus Christ the Lord, O let me be each day, A soul win -- ner for Je -- sus Christ the Lord, A soul win -- ner for Je -- sus Christ the Lord, He’s done so much for me."
 
 [lyrics.1]
 text = "I want to be a soul win -- ner For Je -- sus ev' -- ry day, He does so much for me; I want to aid the lost sin -- ner To leave his er -- ring way, And be from bond -- age free."
@@ -60,3 +53,9 @@ text = "I want to be a soul win -- ner Till Je -- sus calls for me, To lay my bu
 
 [lyrics.chorus]
 text = "A soul win -- ner for Je -- sus, A soul win -- ner for Je -- sus, O let me be each day, A soul win -- ner for Je -- sus, A soul win -- ner for Je -- sus, He’s done so much for me."
+
+[parts.Tenor.lyrics.chorus]
+text = "A soul win -- ner for Je -- sus Christ the Lord, A soul win -- ner for Je -- sus Christ the Lord, O let me be each day, A soul win -- ner for Je -- sus Christ the Lord, A soul win -- ner for Je -- sus Christ the Lord, He’s done so much for me."
+
+[parts.Bass.lyrics.chorus]
+text = "A soul win -- ner for Je -- sus Christ the Lord, A soul win -- ner for Je -- sus Christ the Lord, O let me be each day, A soul win -- ner for Je -- sus Christ the Lord, A soul win -- ner for Je -- sus Christ the Lord, He’s done so much for me."

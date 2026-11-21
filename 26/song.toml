@@ -1,9 +1,8 @@
 title = "Living All for Jesus, ’Tis the Golden Way"
-subtitle = ""
 copyrights = [
-  "Lyrics: Eliza Edmunds Hewitt, 1909 (public domain)",
-  "Editor: Edwin Othello Excell, 1909 (public domain)",
-  "Music: John Robson Sweney, 1909 (public domain)",
+  "Lyrics: E. E. Hewitt, 1909 (public domain)",
+  "Editor: E. O. Excell, 1909 (public domain)",
+  "Music: John R. Sweney, 1909 (public domain)",
   "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license"
 ]
@@ -29,7 +28,6 @@ staff_number = 1
 notes = """
 d'8 d'8 f'8 ees'8 ees'8 d'8 d'8 f'8 | ees'4 ees'4 ees'2 | ees'8 ees'8 ees'8 d'8 d'8 c'8 c'8 ees'8 | ees'4 d'4 bes2 | d'8 d'8 f'8 ees'8 ees'8 d'8 d'8 d'8 | f'4 ees'4 g'2 | g'8 g'8 g'8 g'8 f'8 ees'8 d'8 e'8 | f'4 ees'4 d'4 f'8@c f'8 | f'4. f'8 f'8 f'8 ees'8 ees'8 | ees'4 d'4 d'2 | ees'8 ees'8 c'8 ees'8 ees'8 d'8 d'8 c'8 | bes4 d'4 d'4 d'8 d'8 | f'4. f'8 ees'8 d'8 d'8 d'8 | f'4 ees'4 g'2 | g'8 g'8 g'8 g'8 f'8 ees'8 d'8 e'8 | f'4 ees'4 d'2
 """
-
 
 [parts.Tenor]
 choral_type = "tenor"

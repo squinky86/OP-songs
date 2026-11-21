@@ -1,16 +1,16 @@
 title = "Savior, Like a Shepherd Lead Us"
-verse_count = 4
-key_signature = "D"
-time_sig_numerator = 4
-time_sig_denominator = 4
-tempo_bpm = 96
-phrase_breaks = ["2:64", "4:64", "6:64", "8:48", "10:48", "12:48", "14:48", "16:64"]
 copyrights = [
   "Lyrics: Attr. Dorothy A. Thrupp, 1836 (public domain)",
   "Music: William B. Bradbury, 1859 (public domain)",
   "Courtesy of [Hymnary.org](https://hymnary.org)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "D"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 4
+phrase_breaks = ["2:64", "4:64", "6:64", "8:48", "10:48", "12:48", "14:48", "16:64"]
 
 [parts.Soprano]
 choral_type = "soprano"

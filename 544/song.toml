@@ -11,21 +11,6 @@ verse_count = 4
 phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "11:48", "13:48", "15:48"]
 non_breaking_phrase_breaks = ["9:64", "10:48", "10:64", "11:64", "12:48", "12:64", "13:64", "14:48", "14:64", "15:64", "16:48"]
 
-[lyrics.1]
-text = "There’s a home for the soul where no sor -- row can come, ’Tis the land where the Sav -- iour doth reign; O what joy wait -- ing there for the chil -- dren of God, When they meet on that bright, gold -- en plain."
-
-[lyrics.2]
-text = "Let us la -- bor and pray for the cause of the Lord, Tho’ the way oft -- en seems dark and drear; If we’re faith -- ful to Him He will give us a crown, In that home for the soul o -- ver there."
-
-[lyrics.3]
-text = "Some bright day we shall meet with the Sav -- iour so dear, If we’ll on -- ly live faith -- ful and true; ’Tis the home for the soul He has gone to pre -- pare, And it’s wait -- ing for me and for you."
-
-[lyrics.4]
-text = "Brave -- ly on -- ward we’ll go, tho’ the clouds may ap -- pear, And our bur -- dens may seem hard to bear; Bless -- ed hope, O how sweet, we will meet loved ones gone, In that home for the soul o -- ver there."
-
-[lyrics.chorus]
-text = "O that home for the soul, Where we’ll rest by and by; O what joy it will be, Bless -- ed Lord, there with Thee."
-
 [parts.Soprano]
 choral_type = "soprano"
 clef = "treble"
@@ -58,9 +43,6 @@ a'8 a'8 a'8 bes'8 a'4 r4 | a'8 a'8 g'8 bes'8 a'4 f'8. e'16 |
 d'8 d'8 d'8 d'8 d'4 e'8. e'16 | e'8 c'8 d'8 b8 c'4 s4
 """
 
-[parts.Alto.lyrics.chorus]
-text = "Bless -- ed, heav’n -- ly home, home so bright and fair, In that home of rest, by and yes, we’ll sweet -- ly rest; O what joy so sweet, when we all shall meet. Bless -- ed Sav -- iour, there with Thee, bless -- ed Sav -- iour, there with Thee."
-
 [parts.Tenor]
 choral_type = "tenor"
 clef = "bass"
@@ -77,9 +59,6 @@ c'8 c'8 c'8 d'8 c'4 r4 | f'8 f'8 e'8 g'8 f'4 c'8. bes16 |
 a8 a8 a8 a8 a4 c'8. bes16 | a8 a8 bes8 g8 a4 s4
 """
 
-[parts.Tenor.lyrics.chorus]
-text = "Bless -- ed, heav’n -- ly home, home so bright and fair, In that home of rest, yes, we’ll sweet -- ly rest; O what joy so sweet, when we all shall meet. Bless -- ed Sav -- iour, there with Thee, bless -- ed Sav -- iour, there with Thee."
-
 [parts.Bass]
 choral_type = "bass"
 clef = "bass"
@@ -95,6 +74,27 @@ bes,8 bes,8 bes,8 bes,8 bes,4 r4 | f8 f8 c8 c8 f4 r4 |
 f8 f8 f8 f8 f4 r4 | f8 f8 c8 c8 f4 f8. c16 |
 d8 d8 d8 d8 d4 c8. c16 | f2. s4
 """
+
+[lyrics.1]
+text = "There’s a home for the soul where no sor -- row can come, ’Tis the land where the Sav -- iour doth reign; O what joy wait -- ing there for the chil -- dren of God, When they meet on that bright, gold -- en plain."
+
+[lyrics.2]
+text = "Let us la -- bor and pray for the cause of the Lord, Tho’ the way oft -- en seems dark and drear; If we’re faith -- ful to Him He will give us a crown, In that home for the soul o -- ver there."
+
+[lyrics.3]
+text = "Some bright day we shall meet with the Sav -- iour so dear, If we’ll on -- ly live faith -- ful and true; ’Tis the home for the soul He has gone to pre -- pare, And it’s wait -- ing for me and for you."
+
+[lyrics.4]
+text = "Brave -- ly on -- ward we’ll go, tho’ the clouds may ap -- pear, And our bur -- dens may seem hard to bear; Bless -- ed hope, O how sweet, we will meet loved ones gone, In that home for the soul o -- ver there."
+
+[lyrics.chorus]
+text = "O that home for the soul, Where we’ll rest by and by; O what joy it will be, Bless -- ed Lord, there with Thee."
+
+[parts.Alto.lyrics.chorus]
+text = "Bless -- ed, heav’n -- ly home, home so bright and fair, In that home of rest, by and yes, we’ll sweet -- ly rest; O what joy so sweet, when we all shall meet. Bless -- ed Sav -- iour, there with Thee, bless -- ed Sav -- iour, there with Thee."
+
+[parts.Tenor.lyrics.chorus]
+text = "Bless -- ed, heav’n -- ly home, home so bright and fair, In that home of rest, yes, we’ll sweet -- ly rest; O what joy so sweet, when we all shall meet. Bless -- ed Sav -- iour, there with Thee, bless -- ed Sav -- iour, there with Thee."
 
 [parts.Bass.lyrics.chorus]
 text = "Bless -- ed, heav’n -- ly home, home so bright and fair, In that home of rest, yes, we’ll sweet -- ly rest; O what joy so sweet, when we all shall meet. Bless -- ed Sav -- iour, there with Thee, there with Thee."

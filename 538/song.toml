@@ -42,9 +42,6 @@ aes'8 aes'8 aes'8 aes'8 aes'8 aes'8 | ges'8 ges'8 ges'8 ges'8~ ges'8 ges'8 |
 f'8 f'8 f'8 ees'8 ges'8 ges'8 | f'8 aes'8 ges'8 f'4 r8
 """
 
-[parts.Alto.lyrics.chorus]
-text = "Oh, won -- der -- ful won -- der -- ful love, Oh, won -- der -- ful love, Each day it is sweet -- er, in rich -- ness com -- plete, Oh, won -- der -- ful, won -- der -- ful won -- der -- ful love."
-
 [parts.Tenor]
 choral_type = "tenor"
 clef = "bass"
@@ -59,9 +56,6 @@ r4 des'8 des'8 des'8 des'8 | des'8 des'8 des'8 des'4 des'8 |
 des'8 des'8 des'8 des'8 c'8 des'8 | bes8 bes8 bes8 bes8( c'8) des'8 |
 des'8 des'8 des'8 aes8 aes8 aes8 | aes8 c'8 bes8 aes4 r8
 """
-
-[parts.Tenor.lyrics.chorus]
-text = "Oh, won -- der -- ful, won -- der -- ful love, Oh, won -- der -- ful, won -- der -- ful love, Each day it is sweet -- er, in rich -- ness com -- plete, Oh, won -- der -- ful, won -- der -- ful won -- der -- ful love."
 
 [parts.Bass]
 choral_type = "bass"
@@ -78,9 +72,6 @@ des8 des8 des8 des8 ees8 f8 | ges8 ges8 ges8 ges8~ ges8 ges8 |
 aes8 aes8 aes8 aes,8 aes,8 aes,8 | des4.~ des4 r8
 """
 
-[parts.Bass.lyrics.chorus]
-text = "Oh, won -- der -- ful, won -- der -- ful love, Oh, won -- der -- ful, won -- der -- ful love, Each day it is sweet -- er, in rich -- ness com -- plete, Oh, won -- der -- ful, won -- der -- ful love."
-
 [lyrics.1]
 text = "Won -- der -- ful love is the theme of my song, Je -- sus has paid all for me; Now I am prais -- ing Him all the day long, Won -- der -- ful, how could it be?"
 
@@ -92,3 +83,12 @@ text = "Won -- der -- ful love that can nev -- er grow old, Tho' oft re -- peat 
 
 [lyrics.chorus]
 text = "Oh, won -- der -- ful love, Oh, won -- der -- ful love, Each day it is sweet -- er, in rich -- ness com -- plete, Oh, won -- der -- ful, won -- der -- ful love."
+
+[parts.Alto.lyrics.chorus]
+text = "Oh, won -- der -- ful won -- der -- ful love, Oh, won -- der -- ful love, Each day it is sweet -- er, in rich -- ness com -- plete, Oh, won -- der -- ful, won -- der -- ful won -- der -- ful love."
+
+[parts.Tenor.lyrics.chorus]
+text = "Oh, won -- der -- ful, won -- der -- ful love, Oh, won -- der -- ful, won -- der -- ful love, Each day it is sweet -- er, in rich -- ness com -- plete, Oh, won -- der -- ful, won -- der -- ful won -- der -- ful love."
+
+[parts.Bass.lyrics.chorus]
+text = "Oh, won -- der -- ful, won -- der -- ful love, Oh, won -- der -- ful, won -- der -- ful love, Each day it is sweet -- er, in rich -- ness com -- plete, Oh, won -- der -- ful, won -- der -- ful love."

@@ -1,15 +1,14 @@
 title = "Somehow"
-subtitle = ""
-verse_count = 4
-key_signature = "F"
-time_sig_numerator = 4
-time_sig_denominator = 4
-tempo_bpm = 85
-phrase_breaks = ["4:64", "8:40", "10:40", "12:64", "14:40"]
 copyrights = [
   "Lyrics and Music: A. H. Ackley, 1928 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "F"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 85
+verse_count = 4
+phrase_breaks = ["4:64", "8:40", "10:40", "12:64", "14:40"]
 optional_phrase_breaks = ["2:40", "6:40"]
 non_breaking_phrase_breaks = ["10:16", "12:16", "14:16", "16:16"]
 
@@ -66,18 +65,6 @@ b4 b4 bes8 bes4. |
 a4 bes4 a2
 """
 
-[parts.Tenor.lyrics.1]
-text = ""
-
-[parts.Tenor.lyrics.2]
-text = ""
-
-[parts.Tenor.lyrics.3]
-text = ""
-
-[parts.Tenor.lyrics.4]
-text = ""
-
 [parts.Bass]
 choral_type = "bass"
 clef = "bass"
@@ -101,29 +88,41 @@ g4 g4 c8 c4. |
 f2~ f2
 """
 
+[lyrics.1]
+text = "Some -- how I know that Christ is mine, No pow'r can take me out of His care, He holds me with His arm di -- vine, And in His King -- dom I have a share."
+
+[parts.Tenor.lyrics.1]
+text = ""
+
 [parts.Bass.lyrics.1]
+text = ""
+
+[lyrics.2]
+text = "Some -- how I feel that He is near, When -- e'er I'm tempt -- ed to go a -- stray, His pres -- ence calms my ev' -- ry fear, And keeps me sing -- ing a -- long the way."
+
+[parts.Tenor.lyrics.2]
 text = ""
 
 [parts.Bass.lyrics.2]
 text = ""
 
+[lyrics.3]
+text = "Some -- how I hear Him gent -- ly call, When -- e'er I'm lone -- ly and need a friend, His mer -- cy lifts me when I fall, And will sup -- port me un -- til the end."
+
+[parts.Tenor.lyrics.3]
+text = ""
+
 [parts.Bass.lyrics.3]
+text = ""
+
+[lyrics.4]
+text = "Some -- how I trust Him for to -- day, And for to -- mor -- row what -- e'er it be, My anx -- ious fears up -- on Him lay, For Je -- sus watch -- es and cares for me."
+
+[parts.Tenor.lyrics.4]
 text = ""
 
 [parts.Bass.lyrics.4]
 text = ""
-
-[lyrics.1]
-text = "Some -- how I know that Christ is mine, No pow'r can take me out of His care, He holds me with His arm di -- vine, And in His King -- dom I have a share."
-
-[lyrics.2]
-text = "Some -- how I feel that He is near, When -- e'er I'm tempt -- ed to go a -- stray, His pres -- ence calms my ev' -- ry fear, And keeps me sing -- ing a -- long the way."
-
-[lyrics.3]
-text = "Some -- how I hear Him gent -- ly call, When -- e'er I'm lone -- ly and need a friend, His mer -- cy lifts me when I fall, And will sup -- port me un -- til the end."
-
-[lyrics.4]
-text = "Some -- how I trust Him for to -- day, And for to -- mor -- row what -- e'er it be, My anx -- ious fears up -- on Him lay, For Je -- sus watch -- es and cares for me."
 
 [lyrics.chorus]
 text = "Some -- how His love will nev -- er let me go, let me go, Some -- how He loves me bet -- ter than I know, than I know, Some -- how, some day when life is o'er, life is o'er, I'll dwell with Him for ev -- er -- more some day."

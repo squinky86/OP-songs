@@ -1,17 +1,17 @@
 title = "Ring the Bells of Heaven"
-verse_count = 3
+copyrights = [
+  "Lyrics: William Orcutt Cushing, 1866 (public domain)",
+  "Music: George F. Root, 1866 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "Bb"
 time_sig_numerator = 4
 time_sig_denominator = 4
 tempo_bpm = 100
+verse_count = 3
 phrase_breaks = ["2:64", "4:64", "6:64", "8:64", "12:64"]
 optional_phrase_breaks = ["10:64", "14:64"]
-copyrights = [
-  "Lyrics: William Orcutt Cushing, 1866 (public domain)",
-  "Music: George Frederick Root, 1866 (public domain)",
-  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
 
 [parts.Soprano]
 choral_type = "soprano"

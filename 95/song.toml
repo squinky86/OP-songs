@@ -1,16 +1,15 @@
 title = "God Is Everywhere"
-subtitle = ""
 copyrights = [
   "Lyrics: James C. Wallace, 1825 (public domain)",
   "Music: 'Green Hills' by Albert Lister Peace, 1885 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
-phrase_breaks = ["5:48"]
 key_signature = "Eb"
 time_sig_numerator = 4
 time_sig_denominator = 4
 tempo_bpm = 90
 verse_count = 4
+phrase_breaks = ["5:48"]
 
 [parts.Soprano]
 choral_type = "soprano"

@@ -1,17 +1,15 @@
 title = "Fear Not, Little Flock"
 subtitle = "Whiter Than the Snow"
+copyrights = [
+  "Lyrics: Mary A. Kidder, 1893 (public domain)",
+  "Music: J. G. Dailey, 1893 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license"
+]
 key_signature = "Ab"
 time_sig_numerator = 4
 time_sig_denominator = 4
 tempo_bpm = 100
 verse_count = 4
-
-copyrights = [
-  "Lyrics: M. A. Kidder, 1893 (public domain)",
-  "Music: J. G. Dailey, 1893 (public domain)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license"
-]
-
 phrase_breaks = ["3:56", "5:56", "7:56", "9:64", "11:64", "13:64", "15:64"]
 
 [parts.Soprano]

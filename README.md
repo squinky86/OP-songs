@@ -25,7 +25,7 @@ Each song is one directory named by its integer ID, holding a `song.toml`:
 ```toml
 title = "Abide With Me"
 copyrights = [
-  "Lyrics: Henry F. Lyte, 1847 (public domain)",
+  "Lyrics: Henry Francis Lyte, 1847 (public domain)",
   "Music: William H. Monk, 1861 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]

@@ -1,16 +1,17 @@
+# Tune: Diademata.
 title = "Crown Him with Many Crowns"
-verse_count = 4
+copyrights = [
+  "Lyrics: Matthew Bridges, 1851 (public domain)",
+  "Music: George J. Elvey, 1868 (public domain)",
+  "Courtesy of [Hymnary.org](https://hymnary.org)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "D"
 time_sig_numerator = 4
 time_sig_denominator = 4
 tempo_bpm = 92
+verse_count = 4
 phrase_breaks = ["4:48", "8:48", "12:48"]
-copyrights = [
-  "Lyrics: Matthew Bridges, 1851 (public domain)",
-  "Music: 'Diademata' by George J. Elvey, 1868 (public domain)",
-  "Courtesy of [Hymnary.org](https://hymnary.org)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
 optional_phrase_breaks = ["2:48", "6:48", "10:48", "14:48"]
 
 [parts.Soprano]

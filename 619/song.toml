@@ -1,6 +1,6 @@
 title = "The Victory to Win"
 copyrights = [
-  "Lyrics and Music: Mark D. Ussery, 1913 (public domain)",
+  "Lyrics and Music: M. D. Ussery, 1913 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
 key_signature = "Bb"
@@ -88,18 +88,18 @@ text = "​​Press -- ing the bat -- tle in Je -- sus’ name, Till vic -- to -
 
 [lyrics.chorus]
 text = "Tramp, tramp, tramp, tramp, The vic -- to -- ry to win; Tramp, tramp, tramp, tramp, O’er fields of vice and sin; On -- ward, our sol -- diers, in bright ar -- ray, March -- ing, yes, march -- ing from day to day; Tramp, tramp, tramp, tramp, the vic -- to -- ry to win."
-[lyrics.s1]
-text = "Tramp, tramp, tramp, tramp, The vic -- to -- ry to win."
-
 
 [parts.Alto.lyrics.chorus]
 text = "Press -- ing the bat -- tle in Je -- sus’ name, The vic -- to -- ry to win; to win; Rais -- ing the ban -- ner of Truth and Love, O’er fields of vice and sin; On -- ward, our sol -- diers, in bright ar -- ray, March -- ing, yes, march -- ing from day to day; Tramp, tramp, tramp, tramp, the vic -- to -- ry to win. to win."
 
-[parts.Alto.lyrics.s1]
-text = "Tramp, tramp, tramp, tramp, The vic -- to -- ry to win. to win."
-
 [parts.Tenor.lyrics.chorus]
 text = "Tramp, tramp, tramp, tramp, The vic -- to -- ry to win; to win; Tramp, tramp, tramp, tramp, O’er fields of vice and sin; On -- ward, our sol -- diers, in bright ar -- ray, March -- ing, yes, march -- ing from day to day; Tramp, tramp, tramp, tramp, the vic -- to -- ry to win. to win."
+
+[lyrics.s1]
+text = "Tramp, tramp, tramp, tramp, The vic -- to -- ry to win."
+
+[parts.Alto.lyrics.s1]
+text = "Tramp, tramp, tramp, tramp, The vic -- to -- ry to win. to win."
 
 [parts.Tenor.lyrics.s1]
 text = "Tramp, tramp, tramp, tramp, The vic -- to -- ry to win. to win."

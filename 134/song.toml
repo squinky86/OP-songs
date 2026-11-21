@@ -1,18 +1,18 @@
 title = "Moment by Moment"
 subtitle = "Dying with Jesus"
-verse_count = 4
+copyrights = [
+  "Lyrics: Daniel Webster Whittle, 1893 (public domain)",
+  "Music: May Whittle Moody, 1893 (public domain)",
+  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "F"
 time_sig_numerator = 3
 time_sig_denominator = 4
 tempo_bpm = 100
-optional_phrase_breaks = ["20:48", "28:48"]
+verse_count = 4
 phrase_breaks = ["4:48", "8:48", "12:48", "16:48", "24:48"]
-copyrights = [
-  "Lyrics: Daniel W. Whittle, 1893 (public domain)",
-  "Music: 'Moment by Moment' by May Whittle Moody, 1893 (public domain)",
-  "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
+optional_phrase_breaks = ["20:48", "28:48"]
 
 [parts.Soprano]
 choral_type = "soprano"

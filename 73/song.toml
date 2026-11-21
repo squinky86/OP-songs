@@ -1,16 +1,15 @@
 title = "On Calvary's Cross, Behold the One"
-subtitle = ""
 copyrights = [
   "Lyrics: Anonymous, obtained from Messages of Love Hymn Book, 1920 (public domain)",
   "Music: 'Hamburg' by Lowell Mason, 1824 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license"
 ]
-phrase_breaks = ["4:48", "8:48", "12:48"]
 key_signature = "G"
 time_sig_numerator = 4
 time_sig_denominator = 4
 tempo_bpm = 120
 verse_count = 4
+phrase_breaks = ["4:48", "8:48", "12:48"]
 
 [parts.Soprano]
 choral_type = "soprano"

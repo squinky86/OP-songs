@@ -1,7 +1,7 @@
 title = "Singing All the While"
 copyrights = [
   "Lyrics: James Rowe, 1910 (public domain)",
-  "Music: Richard M. Morgan, 1910 (public domain)",
+  "Music: R. M. Morgan, 1910 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
 key_signature = "C"
@@ -42,9 +42,6 @@ e'16 e'8. e'8. e'16 e'4 r4 | e'16 e'8. f'8. f'16 e'4 r4 |
 g'16 g'8. g'8. g'16 g'4 f'4 | e'16 e'8. f'8. f'16 e'4 r4
 """
 
-[parts.Alto.lyrics.chorus]
-text = "Sing -- ing all the way, sing -- ing all the way, Sing -- ing ev -- ’ry day, Sing -- ing ev -- ’ry day, Sing -- ing with a smile, sing -- ing with a smile, Sing -- ing all the while, yes, sing -- ing all the while."
-
 [parts.Tenor]
 choral_type = "tenor"
 clef = "bass"
@@ -59,9 +56,6 @@ c'16 c'8. c'8. c'16 c'4 r4 | b16 b8. c'8. c'16 b4 r4 |
 g16 g8. g8. g16 g4 r4 | c'16 c'8. b8. b16 c'4 r4 |
 c'16 c'8. c'8. c'16 c'4 b4 | c'16 c'8. a8. a16 g4 r4
 """
-
-[parts.Tenor.lyrics.chorus]
-text = "Sing -- ing all the way, sing -- ing all the way, Sing -- ing ev -- ’ry day, Sing -- ing ev -- ’ry day, Sing -- ing with a smile, sing -- ing with a smile, Sing -- ing all the while, yes, sing -- ing all the while."
 
 [parts.Bass]
 choral_type = "bass"
@@ -78,9 +72,6 @@ c16 c8. c8. c16 c4 r4 | c16 c8. g8. g16 c4 r4 |
 c16 c8. c8. e16 g4 g,8. g,16 | c2. r4
 """
 
-[parts.Bass.lyrics.chorus]
-text = "Sing -- ing all the way, sing -- ing all the way, Sing -- ing ev -- ’ry day, Sing -- ing ev -- ’ry day, Sing -- ing with a smile, sing -- ing with a smile, Sing -- ing all the while, all the while."
-
 [lyrics.1]
 text = "O the peace that fills me, ’Mid the strug -- gling throng, O the joy that thrills me, As I go a -- long; Close to Him who loves me, See -- ing oft His smile, Sure that He will faith -- ful be, I’m sing -- ing all the while."
 
@@ -92,3 +83,12 @@ text = "Je -- sus, faith -- ful Lov -- er! All my heart is Thine, Full to run --
 
 [lyrics.chorus]
 text = "Sing -- ing all the way, Sing -- ing ev -- ’ry day, Sing -- ing with a smile, Sing -- ing all the while."
+
+[parts.Alto.lyrics.chorus]
+text = "Sing -- ing all the way, sing -- ing all the way, Sing -- ing ev -- ’ry day, Sing -- ing ev -- ’ry day, Sing -- ing with a smile, sing -- ing with a smile, Sing -- ing all the while, yes, sing -- ing all the while."
+
+[parts.Tenor.lyrics.chorus]
+text = "Sing -- ing all the way, sing -- ing all the way, Sing -- ing ev -- ’ry day, Sing -- ing ev -- ’ry day, Sing -- ing with a smile, sing -- ing with a smile, Sing -- ing all the while, yes, sing -- ing all the while."
+
+[parts.Bass.lyrics.chorus]
+text = "Sing -- ing all the way, sing -- ing all the way, Sing -- ing ev -- ’ry day, Sing -- ing ev -- ’ry day, Sing -- ing with a smile, sing -- ing with a smile, Sing -- ing all the while, all the while."

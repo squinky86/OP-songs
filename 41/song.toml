@@ -6,8 +6,8 @@ copyrights = [
 key_signature = "Ab"
 time_sig_numerator = 4
 time_sig_denominator = 4
-verse_count = 3
 tempo_bpm = 106
+verse_count = 3
 phrase_breaks = ["5:48", "9:48", "13:48", "17:48", "21:48"]
 optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48", "19:48", "23:48"]
 

@@ -68,9 +68,6 @@ bes,4 bes,8 bes,8 bes,4 bes,8. d16 | ees4 ees8 ees8 ees4 e8. e16 |
 f4 f8 f8 f4 f8. f16 | bes,2. s4
 """
 
-[parts.Bass.lyrics.chorus]
-text = "There the sun nev -- er sets, And the leaves nev -- er fade, nev -- er fade, There the right -- eous for -- ev -- er shall shine like the stars, In that beau -- ti -- ful cit -- y of gold."
-
 [lyrics.1]
 text = "There’s a cit -- y that looks o’er the val -- ley of death, And its glo -- ries may nev -- er be told; There the sun nev -- er sets, and the leaves nev -- er fade, In that beau -- ti -- ful cit -- y of gold."
 
@@ -85,3 +82,6 @@ text = "There all sick -- ness, and sor -- row, and death are un -- known, There
 
 [lyrics.chorus]
 text = "There the sun nev -- er sets, And the leaves nev -- er fade, There the right -- eous for -- ev -- er shall shine like the stars, In that beau -- ti -- ful cit -- y of gold."
+
+[parts.Bass.lyrics.chorus]
+text = "There the sun nev -- er sets, And the leaves nev -- er fade, nev -- er fade, There the right -- eous for -- ev -- er shall shine like the stars, In that beau -- ti -- ful cit -- y of gold."

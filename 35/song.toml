@@ -1,7 +1,6 @@
 title = "Abba, Father! We Approach Thee"
 subtitle = "Erie"
-commentary = "<p>This same song is also available with music for <a href=\"/songs/32\">Calon Lân</a>, <a href=\"/songs/33\">Beecher</a>, and <a href=\"/songs/34\">Deerhurst</a>.</p>"
-copyrights = [ "Lyrics: James G. Deck, 1841 (public domain)", "Music: 'Erie' by Charles C. Converse, 1868 (public domain)", "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)", "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",]
+copyrights = [ "Lyrics: James G. Deck, 1841 (public domain)", "Music: Charles C. Converse, 1868 (public domain)", "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)", "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",]
 key_signature = "F"
 time_sig_numerator = 4
 time_sig_denominator = 4
@@ -9,6 +8,7 @@ tempo_bpm = 98
 verse_count = 4
 phrase_breaks = ["4:64", "8:64", "12:64"]
 optional_phrase_breaks = ["2:64", "6:64", "10:64", "14:64"]
+commentary = "<p>This same song is also available with music for <a href=\"/songs/32\">Calon Lân</a>, <a href=\"/songs/33\">Beecher</a>, and <a href=\"/songs/34\">Deerhurst</a>.</p>"
 
 [parts.Soprano]
 choral_type = "soprano"

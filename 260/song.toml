@@ -1,5 +1,10 @@
 title = "God Is Everywhere"
 subtitle = "In the Gladness of the Morning"
+copyrights = [
+  "Lyrics: Ina Duley Ogdon, 1929 (public domain)",
+  "Music: Charles H. Gabriel, 1929 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "Db"
 time_sig_numerator = 3
 time_sig_denominator = 4
@@ -7,11 +12,6 @@ tempo_bpm = 100
 verse_count = 4
 phrase_breaks = ["5:32", "9:32", "13:32", "16:48"]
 optional_phrase_breaks = ["3:32", "7:32", "11:32"]
-copyrights = [
-  "Lyrics: Ina Duley Ogdon, 1929 (public domain)",
-  "Music: Charles H. Gabriel, 1929 (public domain)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
 non_breaking_phrase_breaks = ["15:16"]
 
 [parts.Soprano]

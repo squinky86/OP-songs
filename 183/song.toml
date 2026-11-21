@@ -1,5 +1,9 @@
 title = "Give Me Thy Heart"
-subtitle = ""
+copyrights = [
+  "Lyrics: E. E. Hewitt, 1898 (public domain)",
+  "Music: William J. Kirkpatrick, 1898 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "F"
 time_sig_numerator = 6
 time_sig_denominator = 8
@@ -7,11 +11,6 @@ tempo_bpm = 80
 verse_count = 3
 phrase_breaks = ["3:24", "5:24", "7:24", "9:24", "13:24", "15:24"]
 optional_phrase_breaks = ["10:24", "11:24"]
-copyrights = [
-  "Lyrics: Eliza E. Hewitt, 1898 (public domain)",
-  "Music: William J. Kirkpatrick, 1898 (public domain)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
 commentary = ""
 
 [parts.Soprano]

@@ -1,18 +1,17 @@
 title = "How You Will Love Him!"
-subtitle = ""
-verse_count = 4
+copyrights = [
+  "Lyrics: Eben E. Rexford, 1910 (public domain)",
+  "Music: B. D. Ackley, 1910 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "Ab"
 time_sig_numerator = 4
 time_sig_denominator = 4
 tempo_bpm = 112
+verse_count = 4
 phrase_breaks = ["2:64", "4:64", "6:64", "8:64", "10:64", "12:64"]
 optional_phrase_breaks = ["14:64"]
 non_breaking_phrase_breaks = ["11:64", "12:48"]
-copyrights = [
-  "Lyrics: Eben E. Rexford, 1910 (public domain)",
-  "Music: Bentley D. Ackley, 1910 (public domain)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -46,12 +45,6 @@ notes = """
 aes,4 aes,4 des4 des8 c8 | ees8[ f8] g8[ ees8] aes4 aes4 | c4 c8 c8 f4 f8 f8 | f4 bes,4 ees2 | aes,4 aes,4 des4 des8 c8 | ees8[ f8] g8[ ees8] aes4 aes4 | aes,4 a,4 bes,4 bes,8 bes,8 | bes,4 bes,4 ees2 | ees4@c ees8 ees8 ees8 ees8 ees8 ees8 | aes2 aes2 | bes8 bes8 bes8 bes8 bes,8 bes,8 bes,8 bes,8 | ees2. r4 | aes,4 aes,8 aes,8 des8 des8 des8 des8 | aes2 aes2 | ees8 ees8 ees8 des8 ees4.! ees8 | aes,1
 """
 
-[parts.Alto.lyrics.chorus]
-text = "O, how you’ll love Him when you know Him! Know the Christ Who died to set you free; to set you free On Cal -- v’ry’s cross His heart was brok -- en, Brok -- en there for you, for me!"
-
-[parts.Tenor.lyrics.chorus]
-text = "O, how you’ll love Him when you know Him! Know the Christ Who died to set you free; to set you free On Cal -- v’ry’s cross His heart was brok -- en, Brok -- en there for you, for me!"
-
 [lyrics.1]
 text = "Ye who wan -- der, of sin grown wear -- y, Lone -- ly and far from the safe home -- fold, Come and learn what the love of Christ is, Love whose glad -- ness can ne’er be told."
 
@@ -66,3 +59,9 @@ text = "Come, and find that you can -- not fa -- thom Love li -- ke Christ’s t
 
 [lyrics.chorus]
 text = "O, how you’ll love Him when you know Him! Know the Christ Who died to set you free; On Cal -- v’ry’s cross His heart was brok -- en, Brok -- en there for you, for me!"
+
+[parts.Alto.lyrics.chorus]
+text = "O, how you’ll love Him when you know Him! Know the Christ Who died to set you free; to set you free On Cal -- v’ry’s cross His heart was brok -- en, Brok -- en there for you, for me!"
+
+[parts.Tenor.lyrics.chorus]
+text = "O, how you’ll love Him when you know Him! Know the Christ Who died to set you free; to set you free On Cal -- v’ry’s cross His heart was brok -- en, Brok -- en there for you, for me!"

@@ -1,15 +1,15 @@
 title = "Baptism"
-verse_count = 3
-key_signature = "A"
-time_sig_numerator = 2
-time_sig_denominator = 2
-tempo_bpm = 108
-phrase_breaks = ["5:32", "9:32", "13:32", "17:32", "21:32"]
 copyrights = [
   "Lyrics: George W. Bethune, 1857 (public domain)",
   "Music: 'Foundation', American melody, 1832 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "A"
+time_sig_numerator = 2
+time_sig_denominator = 2
+tempo_bpm = 108
+verse_count = 3
+phrase_breaks = ["5:32", "9:32", "13:32", "17:32", "21:32"]
 
 [parts.Soprano]
 choral_type = "soprano"

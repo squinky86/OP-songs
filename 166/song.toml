@@ -1,18 +1,17 @@
 title = "Fairest Lord Jesus"
-subtitle = ""
-key_signature = "E"
-time_sig_numerator = 4
-time_sig_denominator = 4
-tempo_bpm = 100
-verse_count = 4
-optional_phrase_breaks = ["2:64", "8:64", "12:64"]
-phrase_breaks = ["4:64", "8:64", "10:64"]
 copyrights = [
   "Lyrics: Anonymous, 1677 (public domain)",
   "Translation: Anonymous, 1850 (public domain)",
   "Music: 'Crusaders' Hymn' by Anonymous, 1677 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "E"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 4
+phrase_breaks = ["4:64", "8:64", "10:64"]
+optional_phrase_breaks = ["2:64", "8:64", "12:64"]
 
 [parts.Soprano]
 choral_type = "soprano"

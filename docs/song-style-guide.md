@@ -250,6 +250,95 @@ and `debug_lyrics.py`, then import into an isolated database and check all expor
 The sibling OpenPsalmEditor and external sight-singing notation need their own
 support; do not assume they preserve the new source notation.
 
+## 16. Author names and tune credits
+
+Use one **preferred name per person** in every lyric, music, translation,
+adaptation, and arrangement credit, including translation overlays. Prefer the
+personal byline that occurs most often across independent hymnals and editions
+of that person's work. A familiar given name or initials can be the best choice, as
+with **Fanny J. Crosby** and **L. O. Sanderson**. When no distinctive
+publishing form is established, use the person's documented full name.
+Keep initials spaced and punctuated. Retain diacritics and identifying
+suffixes, and use the same spelling in every role.
+
+Check the byline for the particular text or tune, then compare other hymnals,
+a biographical reference, and credits already in the catalog. When two forms
+are equally well attested, keep the established catalog form. Use dates and
+publication history to distinguish people who share initials or a surname.
+Treat ordinary initials, nicknames, and maiden or married forms as variants
+once the identity is established. Preserve a significant source spelling in a
+TOML comment. If only initials or an unidentified pen name are documented,
+credit them as printed. Preserve any uncertainty expressed in the source.
+
+When someone **published this contribution under a documented pseudonym**,
+write `Preferred Name as Pseudonym`. Use the established spelling of the pen
+name wherever it occurs. Check words and music separately, even when one
+person wrote both. For a linked biography, link the preferred name and put
+`as Pseudonym` after the link. Song 864 credits the lyrics to Daniel Webster
+Whittle as El Nathan. Song 876 shows how the bylines can differ in one hymn.
+
+```toml
+  "Lyrics: Edmund Simon Lorenz as E. D. Mund, 1883 (public domain)",
+  "Music: Edmund Simon Lorenz, 1883 (public domain)",
+```
+
+Start the music credit with the musician's preferred name. Add `as Pseudonym`
+when the musician signed this setting under a pen name, then give the date
+and rights. For a distinct, independently established melody used for these
+words, write `Music: 'Tune Name' by Preferred Name`. When its composer signed
+under a pen name, write `Music: 'Tune Name' by Preferred Name as Pseudonym`.
+
+Give the musician directly when any of the following applies.
+
+- The tune name is the song title or subtitle, or is already contained in
+  either one. Allow for spelling, punctuation, and capitalization. Keep the
+  printed song title and any alternate title for the words. In song 132,
+  ‘Buried with Christ’ is the subtitle of ‘A New Creature’, so the music
+  credit begins with L. O. Sanderson.
+- The composer wrote the music expressly for this text. This applies even
+  when a tune index gives the setting a distinctive name or later hymnals
+  use it for other words. ‘Silent Night’ (1631) credits Franz X. Gruber
+  directly. ‘The Wanderer No More Will Roam’ (112) credits ‘Stille Nacht’
+  by Gruber because it sets different words to that existing melody.
+- The tune label names someone who contributed words or music to the setting.
+  This includes a surname such as ‘Sanderson’, a pen name such as ‘Leoni’,
+  or a description such as ‘Troyte’s Chant No. 1’. Omit a subtitle that
+  serves only as this tune label. Keep an identifying chant number or a printed
+  tune direction in a source comment when it helps identify the score.
+  When a catalog adds the composer's name in parentheses to distinguish
+  tunes with the same title, use the documented title on its own, as in
+  `Music: 'Love Divine' by George F. Le Jeune` (348).
+
+Check a score, tune index, or documented use of the same melody to establish
+the tune's common name and its relationship to the text. A bracketed first
+line in an index alone cannot establish a tune name. If the evidence does
+not establish a distinct tune to credit, give the musician directly. Record
+a historically useful tune name or source detail in a TOML comment. Apply
+the same decision to translations of the hymn.
+
+| Evidence | Credit as it appears in the song |
+|---|---|
+| Composer's surname used as the tune label (88) | `Music: [L. O. Sanderson](/blog/20260815-lo-sanderson), 1935, renewed 1963` |
+| Composer's surname used as the tune label, music signed as Claribel (352) | `Music: Charlotte Alington Barnard as Claribel, 1864 (public domain)` |
+| Tune named in the subtitle (132) | `Music: [L. O. Sanderson](/blog/20260815-lo-sanderson), 1935` |
+| Music composed for the words (864) | `Music: James McGranahan, 1883 (public domain)` |
+| Same pen name for words and music, ‘Whispering Hope’ in the subtitle (962) | `Lyrics and Music: Septimus Winner as Alice Hawthorne, 1868 (public domain)` |
+| Traditional melody indexed under the transcriber's stage name (975) | `Music: Hebrew melody, transcribed by Meyer Lyon as Leoni, 1770 (public domain)` |
+
+‘List to the Voice’ in *Precious Hymns* sets new words to the melody of
+‘Whispering Hope’. Its music credit would read
+`Music: 'Whispering Hope' by Septimus Winner as Alice Hawthorne, 1868 (public domain)`.
+The hymnal credits B. B. McKinney separately for the arrangement.
+[1938 hymnal entry](https://hymnary.org/hymn/PH1938/140) and [original sheet music record](https://manuscripts.truman.edu/repositories/2/archival_objects/58955).
+
+Use separate lyric and music lines when giving a tune name, or when the
+bylines, dates, or rights differ. A combined `Lyrics and Music` line works
+when both credits are identical and the quoted tune name is omitted. For a
+traditional tune or a tune known only from a collection, credit the tradition
+or collection and identify any documented arranger in that role. Translate
+the role labels and connecting words in overlays (Spanish `Música`, `de`,
+`como`), and keep the same personal names, tune names, and link destinations.
+
 ## Import checklist
 
 - For recitations, verify every verse against the authored `@N` capacities,
@@ -259,6 +348,7 @@ support; do not assume they preserve the new source notation.
 
 Before committing a new `song.toml`:
 
+- [ ] Use each person's preferred name and the pen name documented for each role. Check the tune label against the song headings, contributors' names, and origin of the setting (§16).
 - [ ] Fields and sections follow canonical order (§14); each default lyric section is followed by its voice overrides; no empty subtitle
 - [ ] Roles and clefs match the source; shared staves agree on clef; TTBB is not labeled SATB
 - [ ] Every measure in every part sums to the time signature (parser will rebar/reject otherwise)

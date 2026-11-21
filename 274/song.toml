@@ -1,5 +1,4 @@
 title = "Jesus, Rose of Sharon"
-subtitle = ""
 copyrights = [
   "Lyrics: Ida A. Guirey, 1922 (public domain)",
   "Music: Charles H. Gabriel, 1922 (public domain)",
@@ -24,9 +23,6 @@ e''4( dis''4) cis''4 | b'4. cis''8 b'8 gis'8 | e'8 a'8 gis'4 fis'4 | e'2. |
 b'4@c b'2~ | b'2 cis''8 b'8 | b'4 b'2~ | b'2. |
 e''4( dis''4) cis''4 | b'4. cis''8 b'8 gis'8 | e'8 a'8 gis'4 fis'4 | e'2. |
 """
-
-[parts.Soprano.lyrics.chorus]
-text = "Je -- sus, Rose of Shar -- on, Bloom in ra -- diance and in love with -- in my heart."
 
 [parts.Alto]
 choral_type = "alto"
@@ -81,3 +77,6 @@ text = "Je -- sus, Rose of Shar -- on, bloom for -- ev -- er -- more; Be Thy glo
 
 [lyrics.chorus]
 text = "bless -- ed Je -- sus, Rose of Shar -- on, Bloom in ra -- diance and in love with -- in my heart."
+
+[parts.Soprano.lyrics.chorus]
+text = "Je -- sus, Rose of Shar -- on, Bloom in ra -- diance and in love with -- in my heart."

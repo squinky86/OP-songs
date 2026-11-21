@@ -1,5 +1,9 @@
 title = "Abide in Me, O Lord"
-subtitle = ""
+copyrights = [
+    "Lyrics: Harriet Beecher Stowe, 1855 (public domain)",
+    "Music: 'Longwood' by Joseph Barnby, 1872 (public domain)",
+    "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license"
+]
 key_signature = "Eb"
 time_sig_numerator = 4
 time_sig_denominator = 4
@@ -9,11 +13,6 @@ phrase_breaks = [
     "8:64",
     "12:64",
     "16:64"
-]
-copyrights = [
-    "Lyrics: Harriet Beecher Stowe, 1855 (public domain)",
-    "Music: Longwood by Joseph Barnby, 1872 (public domain)",
-    "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license"
 ]
 
 [parts.Soprano]

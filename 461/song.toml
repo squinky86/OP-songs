@@ -37,9 +37,6 @@ g'2. g'8 g'8 | g'16 g'8. e'8. e'16 e'16 e'8. g'8 g'8 | g'16 g'8. fis'4 g'4 g'8 g
 d'2. s4
 """
 
-[parts.Alto.lyrics.chorus]
-text = "There'll be sing -- ing, Hal -- le -- lu -- jah, There'll be sing -- ing, (o -- ver there) when the ran -- somed of the earth gath -- er in, There'll be sing -- ing, Hal -- le -- lu -- jah, There'll be sing -- ing a -- men! At the mar -- riage sup -- per of the Lamb!"
-
 [parts.Tenor]
 choral_type = "tenor"
 clef = "bass"
@@ -51,9 +48,6 @@ b2 r4 b8@c b8 | c'16 c'8. g8. g16 g16 g8. c'8. c'16 | b16 b8. r2 d'8 d'8 | d'8 d
 d'2. b8 b8 | c'16 c'8. g8. g16 g16 g8. c'8 c'8 | b16 b8. a4 b4 d'8 d'8 | d'8 d'8 d'16 e'8. d'4 c'4 |
 b2. s4
 """
-
-[parts.Tenor.lyrics.chorus]
-text = "There'll be sing -- ing, Hal -- le -- lu -- jah, There'll be sing -- ing, when the ran -- somed of the earth gath -- er in, There'll be sing -- ing, Hal -- le -- lu -- jah, There'll be sing -- ing a -- men! At the mar -- riage sup -- per of the Lamb!"
 
 [parts.Bass]
 choral_type = "bass"
@@ -67,9 +61,6 @@ g2. g8 g8 | c16 c8. c8. c16 c16 c8. c8 c8 | g16 g8. d4 g4 g8 g8 | d8 d8 g16 c8. 
 g,2. s4
 """
 
-[parts.Bass.lyrics.chorus]
-text = "There'll be sing -- ing, Hal -- le -- lu -- jah, There'll be sing -- ing, when the ran -- somed of the earth gath -- er in, There'll be sing -- ing, Hal -- le -- lu -- jah, There'll be sing -- ing a -- men! At the mar -- riage sup -- per of the Lamb!"
-
 [lyrics.1]
 text = "What re -- joic -- ing 'round the throne of the “King of kings,” When the church, the roy -- al bride shall ap -- pear! All the courts of heav -- en shout -- ing with a glad a -- men! Shall we be a -- mong that num -- ber o -- ver there?"
 
@@ -81,3 +72,12 @@ text = "Ev -- 'ry na -- tion, tribe and tongue, shall the an -- them swell, In t
 
 [lyrics.chorus]
 text = "There'll be sing -- ing, There'll be sing -- ing, (o -- ver there) when the ran -- somed of the earth gath -- er in, There'll be sing -- ing, There'll be sing -- ing At the mar -- riage sup -- per of the Lamb!"
+
+[parts.Alto.lyrics.chorus]
+text = "There'll be sing -- ing, Hal -- le -- lu -- jah, There'll be sing -- ing, (o -- ver there) when the ran -- somed of the earth gath -- er in, There'll be sing -- ing, Hal -- le -- lu -- jah, There'll be sing -- ing a -- men! At the mar -- riage sup -- per of the Lamb!"
+
+[parts.Tenor.lyrics.chorus]
+text = "There'll be sing -- ing, Hal -- le -- lu -- jah, There'll be sing -- ing, when the ran -- somed of the earth gath -- er in, There'll be sing -- ing, Hal -- le -- lu -- jah, There'll be sing -- ing a -- men! At the mar -- riage sup -- per of the Lamb!"
+
+[parts.Bass.lyrics.chorus]
+text = "There'll be sing -- ing, Hal -- le -- lu -- jah, There'll be sing -- ing, when the ran -- somed of the earth gath -- er in, There'll be sing -- ing, Hal -- le -- lu -- jah, There'll be sing -- ing a -- men! At the mar -- riage sup -- per of the Lamb!"

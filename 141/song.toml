@@ -1,16 +1,15 @@
 title = "Christ’s Love Is All I Need"
-subtitle = ""
-verse_count = 3
-key_signature = "Eb"
-time_sig_numerator = 6
-time_sig_denominator = 8
-tempo_bpm = 100
-optional_phrase_breaks = ["3:40", "7:40","11:40", "15:40", "19:40", "23:40", "27:40"]
-phrase_breaks = ["5:40", "9:40", "13:40", "17:40", "21:40", "25:40", "29:40"]
 copyrights = [
   "Lyrics and Music: George William Sides, 1923 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "Eb"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 100
+verse_count = 3
+phrase_breaks = ["5:40", "9:40", "13:40", "17:40", "21:40", "25:40", "29:40"]
+optional_phrase_breaks = ["3:40", "7:40","11:40", "15:40", "19:40", "23:40", "27:40"]
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -31,9 +30,6 @@ s2 s8 bes8 | ees'4 ees'8 ees'4 ees'8 | ees'4 ees'8 ees'4 g'8 | aes'4 bes'8 c''4 
 | d'4 cis'8 d'4 e'8 | f'4 ees'8 ees'4 ees'8 | d'4 d'8 ees'4 ees'8 | d'4.~ d'4 bes8 | ees'4 ees'8 ees'4 ees'8 | ees'4 bes8 ees'4 g'8 | aes'4 bes'8 c''4 aes'8 | g'4.~ g'4 bes'8 | a'4 g'8 f'4 bes'8 | a'4 g'8 f'4 d'8 | bes4 f'8 ees'4 d'8 | ees'4.~ ees'4 bes8@c
 | g'4.~ g'4 f'8 | ees'4.~ ees'4 d'8 | c'4.~ c'4 ees'8 | bes4.~ bes4 ees'8 | f'4.~ f'4 e'8 | f'4.~ f'4 g'8 | f'4 bes8 f'4 bes8 | f'4 ees'8 d'4! bes8 | g'4.~ g'4 f'8 | ees'4.~ ees'4 d'8 | c'4.~ c'4 ees'8 | bes4.~ bes4 ees'8 | f'4 e'8 f'4 g'8 | f'4 ees'8 d'4 c'8 | bes4 aes'8 g'4 f'8 | ees'4.~ ees'4 s8
 """
-
-[parts.Alto.lyrics.chorus]
-text = "Christ’s love is all I need each day, I know, I know, Christ’s pre -- cious love is all I need, He’ll lead me safe -- ly on life’s way, I know, I know, Christ’s pre -- cious, pre -- cious love is all I need."
 
 [parts.Tenor]
 choral_type = "tenor"
@@ -62,3 +58,6 @@ text = "And when I hear the boat -- man’s call Come cross the chil -- ly tide,
 
 [lyrics.chorus]
 text = "Oh, His love, pre -- cious love’s all I need, need each day, Yes, I know, pre -- cious love is all, all I need, Oh, He’ll lead, yes, He’ll lead safe -- ly on, on life’s way; Oh, I know His love is all I need; I need."
+
+[parts.Alto.lyrics.chorus]
+text = "Christ’s love is all I need each day, I know, I know, Christ’s pre -- cious love is all I need, He’ll lead me safe -- ly on life’s way, I know, I know, Christ’s pre -- cious, pre -- cious love is all I need."

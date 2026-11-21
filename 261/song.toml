@@ -1,16 +1,15 @@
 title = "Make Somebody Happy Today"
-subtitle = ""
-verse_count = 3
-key_signature = "Eb"
-time_sig_numerator = 6
-time_sig_denominator = 8
-tempo_bpm = 100
-phrase_breaks = ["4:48", "8:48", "10:48", "12:48", "16:40", "20:40"]
 copyrights = [
   "Lyrics: Calia Altstaetter, 1915 (public domain)",
   "Music: Charles H. Gabriel, 1915 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "Eb"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 100
+verse_count = 3
+phrase_breaks = ["4:48", "8:48", "10:48", "12:48", "16:40", "20:40"]
 optional_phrase_breaks = ["2:40", "6:40", "14:40", "18:40", "22:40"]
 non_breaking_phrase_breaks = ["18:16"]
 

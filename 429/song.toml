@@ -61,9 +61,6 @@ a4 a4 a8. a16 a8. r16 | f'4 ees'4 f'8. f'16 f'8. f'16 | <f' bes'>2. <g' bes'>4 |
 <d' f'>2. s4
 """
 
-[parts.Alto.lyrics.chorus]
-text = "Hail to the King we love so well! Hail! Im -- man -- u -- el! Hail to the King we love so well! Hail! Im -- man -- u -- el! Glo -- ry and maj -- es -- ty, Wis -- dom be un -- to Thee, Now and ev -- er -- more! Hail to the King we love so well! Hail! Im -- man -- u -- el! Hail to the King we love so well! Hail! Im -- man -- u -- el! King of kings and Lord of lords, All hail, Im -- man -- u -- el!"
-
 [parts.Tenor]
 choral_type = "tenor"
 clef = "bass"
@@ -82,9 +79,6 @@ a2( bes4 a4!) | {3 bes8 bes8 bes8 } f8. f16 bes8. bes16 bes8. r16 | d'2.~ d'8. r
 ees'2.~ ees'8. r16 | bes4 f4 bes8. a16 bes8. c'16 | d'2. ees'4 | d'4. d'8 bes4! a4! |
 bes2. s4
 """
-
-[parts.Tenor.lyrics.chorus]
-text = "Hail to the King we love so well! Hail! Hail to the King we love so well! Hail! Glo -- ry and maj -- es -- ty, Wis -- dom be un -- to Thee, Now and ev -- er -- more! Hail to the King we love so well! Hail! Hail to the King we love so well! Hail! King of kings and Lord of lords, All hail, Im -- man -- u -- el!"
 
 [parts.Bass]
 choral_type = "bass"
@@ -105,9 +99,6 @@ f4 f4 f8. f16 f8. r16 | bes,4 c4 d8. f16 bes8. bes16 | bes2. ees4 | f4. f8 f4! f
 bes,2. s4
 """
 
-[parts.Bass.lyrics.chorus]
-text = "Hail to the King we love so well! Hail! Im -- man -- u -- el! Hail to the King we love so well! Hail! Im -- man -- u -- el! Glo -- ry and maj -- es -- ty, Wis -- dom be un -- to Thee, Now and ev -- er -- more! Hail to the King we love so well! Hail! Im -- man -- u -- el! Hail to the King we love so well! Hail! Im -- man -- u -- el! King of kings and Lord of lords, All hail, Im -- man -- u -- el!"
-
 [lyrics.1]
 text = "All hail to Thee, Im -- man -- u -- el, We cast our crowns be -- fore Thee; Let ev -- 'ry heart o -- bey Thy will, And ev -- 'ry voice a -- dore Thee. In praise to Thee, our Sav -- ior King, The vi -- brant chords of Heav -- en ring, And ech -- o back the might -- y strain: All hail! All hail! @s1"
 
@@ -119,6 +110,15 @@ text = "‌‌All hail to Thee, Im -- man -- u -- el, Our ris -- en King and Sav
 
 [lyrics.chorus]
 text = "Hail! Im -- man -- u -- el! Im -- man -- u -- el! Hail! Im -- man -- u -- el! Im -- man -- u -- el! Glo -- ry and hon -- or and maj -- es -- ty, Wis -- dom and pow -- er be un -- to Thee, Now and ev -- er -- more! Hail! Im -- man -- u -- el! Im -- man -- u -- el! Hail! Im -- man -- u -- el! Im -- man -- u -- el! King of kings and Lord of lords, All hail, Im -- man -- u -- el!"
+
+[parts.Alto.lyrics.chorus]
+text = "Hail to the King we love so well! Hail! Im -- man -- u -- el! Hail to the King we love so well! Hail! Im -- man -- u -- el! Glo -- ry and maj -- es -- ty, Wis -- dom be un -- to Thee, Now and ev -- er -- more! Hail to the King we love so well! Hail! Im -- man -- u -- el! Hail to the King we love so well! Hail! Im -- man -- u -- el! King of kings and Lord of lords, All hail, Im -- man -- u -- el!"
+
+[parts.Tenor.lyrics.chorus]
+text = "Hail to the King we love so well! Hail! Hail to the King we love so well! Hail! Glo -- ry and maj -- es -- ty, Wis -- dom be un -- to Thee, Now and ev -- er -- more! Hail to the King we love so well! Hail! Hail to the King we love so well! Hail! King of kings and Lord of lords, All hail, Im -- man -- u -- el!"
+
+[parts.Bass.lyrics.chorus]
+text = "Hail to the King we love so well! Hail! Im -- man -- u -- el! Hail to the King we love so well! Hail! Im -- man -- u -- el! Glo -- ry and maj -- es -- ty, Wis -- dom be un -- to Thee, Now and ev -- er -- more! Hail to the King we love so well! Hail! Im -- man -- u -- el! Hail to the King we love so well! Hail! Im -- man -- u -- el! King of kings and Lord of lords, All hail, Im -- man -- u -- el!"
+
 [lyrics.s1]
 text = "All hail! All hail! Im -- man -- u -- el!"
-

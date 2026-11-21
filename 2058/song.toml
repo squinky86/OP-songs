@@ -44,9 +44,6 @@ aes8 ees8 ees8 aes8 ees8 ees8 | aes4 aes8 aes4 r8 | aes4 g8 g4 r8 | ees4 ees8 ee
 | aes8 aes8 aes8 aes8 aes8 aes8 | aes4 ees8 aes4 r8 | ees8 aes8 aes8 aes4! ees8 | ees4.~ ees4 r8
 """
 
-[parts.Tenor.lyrics.chorus]
-text = "Je -- sus, the Sav -- iour is at your door, Wait -- ing, dear sin -- ner, to cleanse you from sin; Hear Him, Oh! turn Him a -- way no more, O -- pen, and let Him in."
-
 [parts.Bass]
 choral_type = "bass"
 clef = "bass"
@@ -57,9 +54,6 @@ aes,8 aes,8 aes,8 aes,8 aes,8 aes,8 | aes,4 aes,8 aes,4 r8 | ees4 ees8 ees4 r8 |
 | aes,8@c aes,8 aes,8 aes,8 aes,8 aes,8 | bes,4 bes,8 bes,4 r8 | ees8 ees8 ees8 ees8 ees8 ees8 | aes,8 aes,8 aes,8 aes,4 r8
 | des8 des8 des8 des8 des8 des8 | aes,4 aes,8 aes,4 r8 | aes,8 c8 des8 ees4! ees8 | aes,4.~ aes,4 r8
 """
-
-[parts.Bass.lyrics.chorus]
-text = "Je -- sus, the Sav -- iour is at your door, Wait -- ing, dear sin -- ner, to cleanse you from sin; Hear Him, Oh! turn Him a -- way no more, O -- pen, and let Him in."
 
 [lyrics.1]
 text = "Sin -- ner, the Sav -- iour is at your door, Hear Him plead, hear Him plead; O -- pen, Oh! turn Him a -- way no more, He is the Friend you need."
@@ -75,3 +69,9 @@ text = "O -- pen the door and let Je -- sus in, Come to -- day, why de -- lay? F
 
 [lyrics.chorus]
 text = "Je -- sus is at your door, Wait -- ing to cleanse you from sin; Turn Him a -- way no more, O -- pen, and let Him in."
+
+[parts.Tenor.lyrics.chorus]
+text = "Je -- sus, the Sav -- iour is at your door, Wait -- ing, dear sin -- ner, to cleanse you from sin; Hear Him, Oh! turn Him a -- way no more, O -- pen, and let Him in."
+
+[parts.Bass.lyrics.chorus]
+text = "Je -- sus, the Sav -- iour is at your door, Wait -- ing, dear sin -- ner, to cleanse you from sin; Hear Him, Oh! turn Him a -- way no more, O -- pen, and let Him in."

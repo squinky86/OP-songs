@@ -1,18 +1,17 @@
 title = "Somebody Else Needs Him, Too"
-subtitle = ""
-verse_count = 4
-key_signature = "Bb"
-time_sig_numerator = 6
-time_sig_denominator = 4
-tempo_bpm = 138
-phrase_breaks = ["4:96", "8:96", "10:96", "12:96", "14:96", "16:96"]
-optional_phrase_breaks = ["2:96", "6:96", "13:96", "15:48"]
-non_breaking_phrase_breaks = ["7:96", "11:80", "15:96"]
 copyrights = [
   "Lyrics: Susan R. Peck, 1929 (public domain)",
   "Music: B. D. Ackley, 1929 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "Bb"
+time_sig_numerator = 6
+time_sig_denominator = 4
+tempo_bpm = 138
+verse_count = 4
+phrase_breaks = ["4:96", "8:96", "10:96", "12:96", "14:96", "16:96"]
+optional_phrase_breaks = ["2:96", "6:96", "13:96", "15:48"]
+non_breaking_phrase_breaks = ["7:96", "11:80", "15:96"]
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -58,23 +57,23 @@ text = "If you have com -- fort in be -- ing God's child, If He is faith -- ful 
 [lyrics.4]
 text = "When the Lord gives you His love and His care, Some -- thing He gives you to do; You have the gos -- pel with oth -- ers to share, @s1"
 
-[lyrics.s1]
-text = "Some -- bod -- y else needs Him, too."
-
 [lyrics.chorus]
 text = "Some -- bod -- y some -- where, per -- haps at your side; Some -- one is wait -- ing for you; Say that for all Je -- sus suf -- fered and died; They need Him, they need Him, too."
 
-[parts.Alto.lyrics.s1]
-text = "Some -- bod -- y else needs Him, needs Him, too."
-
 [parts.Alto.lyrics.chorus]
 text = "Some -- bod -- y some -- where, per -- haps at your side; Some -- one is wait -- ing yes, wait -- ing for you: Say that for all Je -- sus suf -- fered and died; They need Him, they need Him, they need Him, too."
-
-[parts.Tenor.lyrics.s1]
-text = "Some -- bod -- y else needs Him, needs Him, too."
 
 [parts.Tenor.lyrics.chorus]
 text = "Some -- bod -- y some -- where, per -- haps at your side; Some -- one is wait -- ing yes, wait -- ing for you: Say that for all Je -- sus suf -- fered and died; They need Him, they need Him, they need Him, too."
 
 [parts.Bass.lyrics.chorus]
 text = "Some -- bod -- y some -- where, per -- haps at your side; Some -- one is wait -- ing yes, wait -- ing for you: Say that for all Je -- sus suf -- fered and died; They need Him, they need Him, too."
+
+[lyrics.s1]
+text = "Some -- bod -- y else needs Him, too."
+
+[parts.Alto.lyrics.s1]
+text = "Some -- bod -- y else needs Him, needs Him, too."
+
+[parts.Tenor.lyrics.s1]
+text = "Some -- bod -- y else needs Him, needs Him, too."

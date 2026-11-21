@@ -1,15 +1,15 @@
 title = "Wandering Child, O Come Home"
-verse_count = 3
-key_signature = "Ab"
-time_sig_numerator = 4
-time_sig_denominator = 4
-tempo_bpm = 100
-phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "11:48", "13:48", "15:48", "17:48", "19:48", "21:48", "23:48"]
-non_breaking_phrase_breaks = ["16:32", "17:16", "23:64", "24:48", "25:16"]
 copyrights = [
   "Lyrics and Music: Kem G. Bottorf, 1914 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 3
+phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "11:48", "13:48", "15:48", "17:48", "19:48", "21:48", "23:48"]
+non_breaking_phrase_breaks = ["16:32", "17:16", "23:64", "24:48", "25:16"]
 
 [parts.Tenor1]
 choral_type = "tenor1"
@@ -24,9 +24,6 @@ c'4 des'4 c'4 r4%pp | r4 c'8. c'16 c'4 r4 | r4 des'8. des'16 des'4 r4 | c'4 c'4 
 ees'4 ees'4 ees'4 r4 | ees'4 ees'4 ees'4 ees'4 | des'4 des'4 des'4 f'8. fes'16 | ees'2 ees'4 des'4 |
 c'4 des'4 c'4 s4
 """
-
-[parts.Tenor1.lyrics.chorus]
-text = "Child, come home, child, come home, Wan -- d'ring child, why long -- er roam? 'Tis thy Fa -- ther now en -- treats— Wan -- d'ring child, O come home. come home. Child, come home, child, come home, Wan -- d'ring child, why long -- er roam? 'Tis thy Fa -- ther now en -- treats— Wan -- d'ring child, O come home. come home."
 
 [parts.Tenor2]
 choral_type = "tenor2"
@@ -56,9 +53,6 @@ bes2. aes8. bes16 | c'2 bes4 aes4 | f2. aes8. bes16 | c'2 c'4 bes4 |
 aes2. s4
 """
 
-[parts.Baritone.lyrics.chorus]
-text = "Child, come home, child, come home, Wan -- d'ring child, why long -- er roam? 'Tis thy Fa -- ther en -- treats— Wan -- d'ring child, O come home. Child, come home, child, come home, Wan -- d'ring child, why long -- er roam? 'Tis thy Fa -- ther en -- treats— Wan -- d'ring child, O come home."
-
 [parts.Bass]
 choral_type = "bass"
 clef = "bass"
@@ -82,8 +76,14 @@ text = "Is your frail bark a -- drift on life's rag -- ing sea, Are you tossed o
 [lyrics.3]
 text = "He is plead -- ing to -- day, heed His gen -- tle voice, As He bids you no long -- er to roam, To that dear Fa -- ther's house haste with -- out de -- lay— @s1"
 
-[lyrics.s1]
-text = "Wan -- d'ring child, wan -- d'ring child, O come home."
-
 [lyrics.chorus]
 text = "Child, come home, child, come home, Wan -- d'ring child, why long -- er roam? 'Tis thy Fa -- ther now en -- treats— Wan -- d'ring child, come home, come home. Child, come home, child, come home, Wan -- d'ring child, why long -- er roam? 'Tis thy Fa -- ther now en -- treats— Wan -- d'ring child, come home. come home."
+
+[parts.Tenor1.lyrics.chorus]
+text = "Child, come home, child, come home, Wan -- d'ring child, why long -- er roam? 'Tis thy Fa -- ther now en -- treats— Wan -- d'ring child, O come home. come home. Child, come home, child, come home, Wan -- d'ring child, why long -- er roam? 'Tis thy Fa -- ther now en -- treats— Wan -- d'ring child, O come home. come home."
+
+[parts.Baritone.lyrics.chorus]
+text = "Child, come home, child, come home, Wan -- d'ring child, why long -- er roam? 'Tis thy Fa -- ther en -- treats— Wan -- d'ring child, O come home. Child, come home, child, come home, Wan -- d'ring child, why long -- er roam? 'Tis thy Fa -- ther en -- treats— Wan -- d'ring child, O come home."
+
+[lyrics.s1]
+text = "Wan -- d'ring child, wan -- d'ring child, O come home."

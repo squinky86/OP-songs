@@ -1,17 +1,17 @@
 title = "Shall I Crucify Him?"
-verse_count = 4
-key_signature = "G"
-time_sig_numerator = 4
-time_sig_denominator = 4
-tempo_bpm = 100
-phrase_breaks = ["4:64", "8:64", "12:64"]
-optional_phrase_breaks = ["2:64", "6:64", "10:64", "14:64"]
 copyrights = [
   "Lyrics: Carrie E. Breck, 1900 (public domain)",
   "Music: Grant Colfax Tullar, 1900 (public domain)",
   "Arrangement: Isaac H. Meredith, 1900 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "G"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 4
+phrase_breaks = ["4:64", "8:64", "12:64"]
+optional_phrase_breaks = ["2:64", "6:64", "10:64", "14:64"]
 
 [parts.Tenor1]
 choral_type = "tenor1"

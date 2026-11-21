@@ -1,16 +1,16 @@
 title = "Blessed Lord, In Thee Is Refuge"
-verse_count = 4
-key_signature = "Gm"
-time_sig_numerator = 3
-time_sig_denominator = 2
-tempo_bpm = 96
-phrase_breaks = ["4:96", "8:96", "11:96"]
-optional_phrase_breaks = ["2:96", "6:96", "9:96", "10:96", "13:64"]
 copyrights = [
   "Lyrics: Herbert Booth, 1886 (public domain)",
   "Music: 'Bryn Calfaria' by William Owen, 1852 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "Gm"
+time_sig_numerator = 3
+time_sig_denominator = 2
+tempo_bpm = 96
+verse_count = 4
+phrase_breaks = ["4:96", "8:96", "11:96"]
+optional_phrase_breaks = ["2:96", "6:96", "9:96", "10:96", "13:64"]
 non_breaking_phrase_breaks = ["9:32", "10:32"]
 
 [parts.Soprano]
@@ -59,6 +59,6 @@ text = "In the past, too, un -- be -- liev -- ing, 'Midst the tem -- pest I have
 
 [lyrics.3]
 text = "Oh, for trust that brings the tri -- umph When de -- feat seems strange -- ly near; Oh, for faith that chang -- es fight -- ing In -- to vic -- t'ry's ring -- ing cheer! Faith tri -- um -- phant, Faith tri -- um -- phant, Faith tri -- um -- phant, Know -- ing not de -- feat or fear, Know -- ing not de -- feat or fear."
+
 [lyrics.4]
 text = "Faith tri -- um -- phant— bless -- ed vic -- t'ry! Ev -- 'ry bar -- rier swept a -- way! Heav'n de -- scend -- ing, joy at -- tend -- ing, Dawn of ev -- er -- last -- ing day! Je -- sus on -- ly— Je -- sus on -- ly— Je -- sus on -- ly— Him to love and Him o -- bey, Him to love and Him o -- bey."
-

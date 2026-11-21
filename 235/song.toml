@@ -1,18 +1,17 @@
 title = "The Church's One Foundation"
-subtitle = "Webb"
-verse_count = 4
-key_signature = "Bb"
-time_sig_numerator = 4
-time_sig_denominator = 4
-tempo_bpm = 100
-phrase_breaks = ["5:48", "9:48", "13:48"]
-optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
 copyrights = [
   "Lyrics: Samuel J. Stone, 1866 (public domain)",
   "Music: George James Webb, 1830 (public domain)",
   "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "Bb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 4
+phrase_breaks = ["5:48", "9:48", "13:48"]
+optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
 commentary = """
 <p>These same lyrics are also set to entirely different music, Samuel Sebastian Wesley's 1864 tune 'Aurelia', also under the title <a href="/songs/231">The Church's One Foundation</a>.</p>
 """

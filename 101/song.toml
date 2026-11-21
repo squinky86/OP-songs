@@ -1,7 +1,7 @@
 title = "He Bore It All"
 copyrights = [
   "Lyrics: J. R. Baxter, Jr., 1926 (public domain)",
-  "Music: Virgil O. Stamps, 1926 (public domain)",
+  "Music: V. O. Stamps, 1926 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
 key_signature = "F"
@@ -36,12 +36,6 @@ notes = """
 s2 s8 a8 bes8 a8 | c'4 d'4 c'4 bes4 | a8 a8 a8 c'8 c'8 r4. | c'8 d'8 f'8 d'8 c'8 r4. | b8 b8 b8 b8 c'8 g8 g8 c'8 | c'4 d'4 c'4 bes4 | a8 a8 a8 c'8 c'8 r4. | r8 c'8 r8 c'8 r8 c'8 r8 c'8 | r8 c'16 c'16 d'8 d'8 c'8 r4.@c | c'8 c'8 f'8 d'8 c'8 r4. | c'8 c'8 bes8 bes8 a8 r4. | c'8 d'8 e'8 d'8 c'8 r4. | c'8 c'8 f'8 e'8 d'8 r4. | c'8 c'8 f'8 d'8 c'8 r4. | c'8 c'8 b8 b8 b8 r4. | r8 c'8 r8 c'8 r8 c'8 r8 c'8 | r8 c'16 c'16 d'8 d'8 c'8 s4 s8
 """
 
-[parts.Tenor.lyrics.chorus]
-text = "Je -- sus bore it all, see His shin -- ing face, Free -- ly bore it all, I with Him might live; Stood con -- demned to die, free -- ly took my place, All that I might in His pres -- ence live."
-
-[parts.Tenor.lyrics.s1]
-text = "Free -- ly bore it all I with Him might live;"
-
 [parts.Bass]
 choral_type = "bass"
 clef = "bass"
@@ -49,15 +43,6 @@ staff_number = 2
 notes = """
 s2 s8 f8 f8 f8 | f4 f4 f4 c4 | d8 d8 d8 c8 f8 r4. | f8 f8 f8 f8 f8 r4. | g8 g8 g8 g8 c8 c8 d8 e8 | f4 f4 f4 c4 | d8 d8 d8 c8 f8 a8 g8 f8 | e4/+24 c4/+24 d4/+24 e4/+24 | f2/+24~ f8 r4.@c | f8 f8 f8 f8 f8 r4. | f8 f8 c8 c8 d8 c8 d8 c8 | g2~ g8 c8 d8 c8 | f2~ f8 r4. | f8 f8 f8 f8 f8 r4. | f8 f8 g8 g8 g8 a8 g8 f8 | e4/+24 c4/+24 d4/+24 e4/+24 | f2/+24~ f8 s4 s8
 """
-
-[parts.Bass.lyrics.chorus]
-text = "Je -- sus bore it all, see His shin -- ing face, He bore it all that I might live; Stood con -- demned to die, free -- ly took my place, He bore it all that I might live."
-
-[parts.Bass.lyrics.s1]
-text = "Free -- ly bore it all I with Him might live;"
-
-[parts.Bass.lyrics.s2]
-text = "He bore it all that I might live"
 
 [lyrics.1]
 text = "My pre -- cious Sav -- ior suf -- fered pain and ag -- o -- ny, @s1 He broke the bonds of sin and set the cap -- tive free, @s2"
@@ -71,8 +56,23 @@ text = "Up Cal -- v’ry’s hill in shame the bless -- ed Sav -- ior trod, @s1 
 [lyrics.chorus]
 text = "He bore it all that I might see His shin -- ing face, Free -- ly bore it all, I with Him might live; I stood con -- demned to die, But Je -- sus took my place, All that I might in His pres -- ence live."
 
+[parts.Tenor.lyrics.chorus]
+text = "Je -- sus bore it all, see His shin -- ing face, Free -- ly bore it all, I with Him might live; Stood con -- demned to die, free -- ly took my place, All that I might in His pres -- ence live."
+
+[parts.Bass.lyrics.chorus]
+text = "Je -- sus bore it all, see His shin -- ing face, He bore it all that I might live; Stood con -- demned to die, free -- ly took my place, He bore it all that I might live."
+
 [lyrics.s1]
 text = "He bore it all that I might live;"
 
+[parts.Tenor.lyrics.s1]
+text = "Free -- ly bore it all I with Him might live;"
+
+[parts.Bass.lyrics.s1]
+text = "Free -- ly bore it all I with Him might live;"
+
 [lyrics.s2]
 text = "All that I might in His pres -- ence live."
+
+[parts.Bass.lyrics.s2]
+text = "He bore it all that I might live"

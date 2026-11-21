@@ -1,6 +1,6 @@
 title = "Crowded Out"
 copyrights = [
-  "Lyrics and Music: Mrs. C. H. Morris, 1912 (public domain)",
+  "Lyrics and Music: Lelia N. Morris, 1912 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
 key_signature = "Db"
@@ -41,9 +41,6 @@ ges'4 bes'4 ges'4 | ges'8 f'4. f'4 | aes'4 aes'4 aes'4 | ges'2 ges'4 |
 f'2 des'8 ees'8 | ees'4( f'4) ges'4 | f'2.~ | f'2 s4
 """
 
-[parts.Alto.lyrics.chorus]
-text = "Is Christ crowd -- ed out? Is Christ crowd -- ed out? You’ve no time for His serv -- ice, you say; you say: While for pleas -- ure and busi -- ness you al -- ways have time, Is Christ crowd -- ed out to -- day?"
-
 [parts.Tenor]
 choral_type = "tenor"
 clef = "bass"
@@ -59,9 +56,6 @@ c'4 des'4 ees'4 | des'8 aes4. des'4 | des'4 des'4 des'4 | des'2 bes4 |
 des'2 des'8 des'8 | c'4( des'4) ees'4 | des'2.~ | des'2 s4
 """
 
-[parts.Tenor.lyrics.chorus]
-text = "Is Christ crowd -- ed out? Is Christ crowd -- ed out? You’ve no time for His serv -- ice, you say; you say: While for pleas -- ure and busi -- ness you al -- ways have time, Is Christ crowd -- ed out to -- day?"
-
 [parts.Bass]
 choral_type = "bass"
 clef = "bass"
@@ -76,9 +70,6 @@ bes,4 c4 des4 | ees4 ees4 ees4 | aes,2.( | aes2) aes8 aes8 |
 aes4 aes4 aes4 | des8 des4. des4 | f4 f4 f4 | ges2 ges4 |
 aes2 bes8 beses8 | aes2 aes,4 | des2.~ | des2 s4
 """
-
-[parts.Bass.lyrics.chorus]
-text = "Is Christ crowd -- ed out? Is Christ crowd -- ed out? You’ve no time for His serv -- ice, you say; While for pleas -- ure and busi -- ness you al -- ways have time, Is Christ crowd -- ed out to -- day?"
 
 [lyrics.1]
 text = "Is Christ crowd -- ed out of your bus -- y life With the toil -- ing that each day brings? With the strain and stress of the cares that press You’ve no time for the King of kings."
@@ -97,3 +88,12 @@ text = "There’s com -- ing a day in the great some -- time If for Christ you h
 
 [lyrics.chorus]
 text = "Crowd -- ed out! crowd -- ed out! You’ve no time for His serv -- ice, you say; While for pleas -- ure and busi -- ness you al -- ways have time, Is Christ crowd -- ed out to -- day?"
+
+[parts.Alto.lyrics.chorus]
+text = "Is Christ crowd -- ed out? Is Christ crowd -- ed out? You’ve no time for His serv -- ice, you say; you say: While for pleas -- ure and busi -- ness you al -- ways have time, Is Christ crowd -- ed out to -- day?"
+
+[parts.Tenor.lyrics.chorus]
+text = "Is Christ crowd -- ed out? Is Christ crowd -- ed out? You’ve no time for His serv -- ice, you say; you say: While for pleas -- ure and busi -- ness you al -- ways have time, Is Christ crowd -- ed out to -- day?"
+
+[parts.Bass.lyrics.chorus]
+text = "Is Christ crowd -- ed out? Is Christ crowd -- ed out? You’ve no time for His serv -- ice, you say; While for pleas -- ure and busi -- ness you al -- ways have time, Is Christ crowd -- ed out to -- day?"

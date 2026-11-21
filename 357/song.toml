@@ -1,16 +1,16 @@
 title = "Come, Ye Thankful People"
-verse_count = 4
-key_signature = "G"
-time_sig_numerator = 4
-time_sig_denominator = 4
-tempo_bpm = 110
-phrase_breaks = ["4:64", "8:64", "12:64"]
 copyrights = [
   "Lyrics: Henry Alford, 1844, alt. (public domain)",
   "Music: 'St. George's Windsor' by George J. Elvey, 1858 (public domain)",
   "Courtesy of [Hymnary.org](https://hymnary.org)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "G"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 110
+verse_count = 4
+phrase_breaks = ["4:64", "8:64", "12:64"]
 optional_phrase_breaks = ["2:64", "6:64", "10:64", "14:64"]
 
 [parts.Soprano]

@@ -1,13 +1,13 @@
 title = "Abba, Father! We Approach Thee"
 subtitle = "Deerhurst"
-commentary = "<p>This same song is also available with music for <a href=\"/songs/32\">Calon Lân</a>, <a href=\"/songs/33\">Beecher</a>, and <a href=\"/songs/35\">Erie</a>.</p>"
-copyrights = [ "Lyrics: James G. Deck, 1841 (public domain)", "Music: 'Deerhurst' by James Langran, 1859 (public domain)", "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)", "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",]
+copyrights = [ "Lyrics: James G. Deck, 1841 (public domain)", "Music: James Langran, 1859 (public domain)", "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)", "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",]
 key_signature = "F"
 time_sig_numerator = 4
 time_sig_denominator = 2
 tempo_bpm = 110
 verse_count = 4
 phrase_breaks = ["2:64", "4:64", "6:64", "8:64"]
+commentary = "<p>This same song is also available with music for <a href=\"/songs/32\">Calon Lân</a>, <a href=\"/songs/33\">Beecher</a>, and <a href=\"/songs/35\">Erie</a>.</p>"
 
 [parts.Soprano]
 choral_type = "soprano"

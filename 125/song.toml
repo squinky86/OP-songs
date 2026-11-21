@@ -1,5 +1,4 @@
 title = "All Who Believe and Are Baptized"
-subtitle = ""
 copyrights = [
   "Lyrics: Thomas Hansen Kingo, 1689 (public domain)",
   "Translation: George Alfred Taylor Rygh, 1909 (public domain)",
@@ -10,9 +9,9 @@ key_signature = "Eb"
 time_sig_numerator = 4
 time_sig_denominator = 4
 tempo_bpm = 100
-optional_phrase_breaks = ["11:56"]
-phrase_breaks = ["5:56", "9:56", "13:56"]
 verse_count = 2
+phrase_breaks = ["5:56", "9:56", "13:56"]
+optional_phrase_breaks = ["11:56"]
 
 [parts.Soprano]
 choral_type = "soprano"

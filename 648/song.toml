@@ -24,9 +24,6 @@ ees'8. ees'16 ees'8. f'16 aes'8. aes'16 aes'8. bes'16 | c''8. c''16 c''8. bes'16
 | ees'8. ees'16 ees'8. f'16 aes'8. aes'16 aes'8. bes'16 | c''8. c''16 c''8. bes'16 aes'4 r4 | c''4. c''8 aes'4 bes'4 | aes'2. r4
 """
 
-[parts.Soprano.lyrics.chorus]
-text = "I’ll be sat -- is -- fied, I’ll be sat -- is -- fied; When my soul is rest -- ing In the pres -- ence of the Lord, I’ll be sat -- is -- fied."
-
 [parts.Alto]
 choral_type = "alto"
 clef = "treble"
@@ -74,3 +71,6 @@ text = "When I meet the ran -- somed O -- ver on the gold -- en shore, I’ll be
 
 [lyrics.chorus]
 text = "I’ll be sat -- is -- fied, sat -- is -- fied, I’ll be sat -- is -- fied; sat -- is -- fied; When my soul is rest -- ing In the pres -- ence of the Lord, I’ll be sat -- is -- fied."
+
+[parts.Soprano.lyrics.chorus]
+text = "I’ll be sat -- is -- fied, I’ll be sat -- is -- fied; When my soul is rest -- ing In the pres -- ence of the Lord, I’ll be sat -- is -- fied."

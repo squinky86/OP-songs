@@ -38,18 +38,6 @@ f'2. f'8 g'8 | f'4 d'8 ees'8 d'4 bes8 c'8 | ees'4 f'4 ees'4 ees'8 g'8 | f'4 d'8 
 d'4( ees'4 d'4) s4
 """
 
-[parts.Alto.lyrics.1]
-text = "When the sun of your life has gone down, And the clouds in the west turn to gold, (turn to gold,) End -- less night then to you will have come, If the light has gone out in your soul."
-
-[parts.Alto.lyrics.2]
-text = "When you come to the end of the way, And life’s sto -- ry for you has been told, (has been told,) O how sad all to you will ap -- pear, If the light has gone out in your soul."
-
-[parts.Alto.lyrics.3]
-text = "When be -- fore judg -- ment’s bar you shall stand, And the deeds that have here had con -- trol, (had con -- trol,) Good and e -- vil ap -- pear, O what then, If the light has gone out in your soul?"
-
-[parts.Alto.lyrics.chorus]
-text = "O just think how in death you will feel, you will feel, With the light grow -- ing dim in your soul; O how lone -- ly ’twill be! O how still! how still! When the light has gone out of your soul."
-
 [parts.Tenor]
 choral_type = "tenor"
 clef = "bass"
@@ -62,18 +50,6 @@ bes4( g4 f4) bes8@c f8 | f4 f8 f8 bes4 bes8 bes8 | bes4 bes8 f8 bes4 f8 bes8 | g
 a4 c'8 bes8 a4 bes8 bes8 | bes4 f8 f8 f4 f8 bes8 | bes4 b4 c'4 c'8 c'8 | a4 bes8 bes8 g4 a8 a8 |
 bes4( g4 f4) s4
 """
-
-[parts.Tenor.lyrics.1]
-text = "When the sun of your life has gone down, And the clouds in the west turn to gold, (turn to gold,) End -- less night then to you will have come, If the light has gone out in your soul."
-
-[parts.Tenor.lyrics.2]
-text = "When you come to the end of the way, And life’s sto -- ry for you has been told, (has been told,) O how sad all to you will ap -- pear, If the light has gone out in your soul."
-
-[parts.Tenor.lyrics.3]
-text = "When be -- fore judg -- ment’s bar you shall stand, And the deeds that have here had con -- trol, (had con -- trol,) Good and e -- vil ap -- pear, O what then, If the light has gone out in your soul?"
-
-[parts.Tenor.lyrics.chorus]
-text = "O just think how in death you will feel, you will feel, With the light grow -- ing dim in your soul; in your soul; O how lone -- ly ’twill be! O how still! how still! When the light has gone out of your soul."
 
 [parts.Bass]
 choral_type = "bass"
@@ -88,17 +64,41 @@ f4 a8 g8 f4 bes,8 bes,8 | bes,4 bes,8 bes,8 bes,4 bes,8 bes,8 | ees4 d4 c4 ees8 
 bes,2. s4
 """
 
-[parts.Bass.lyrics.chorus]
-text = "O just think how in death you will feel, With the light grow -- ing dim in your soul; in your soul; O how lone -- ly ’twill be! O how still! how still! When the light has gone out of your soul."
-
 [lyrics.1]
 text = "When the sun of your life has gone down, And the clouds in the west turn to gold, End -- less night then to you will have come, If the light has gone out in your soul."
+
+[parts.Alto.lyrics.1]
+text = "When the sun of your life has gone down, And the clouds in the west turn to gold, (turn to gold,) End -- less night then to you will have come, If the light has gone out in your soul."
+
+[parts.Tenor.lyrics.1]
+text = "When the sun of your life has gone down, And the clouds in the west turn to gold, (turn to gold,) End -- less night then to you will have come, If the light has gone out in your soul."
 
 [lyrics.2]
 text = "When you come to the end of the way, And life’s sto -- ry for you has been told, O how sad all to you will ap -- pear, If the light has gone out in your soul."
 
+[parts.Alto.lyrics.2]
+text = "When you come to the end of the way, And life’s sto -- ry for you has been told, (has been told,) O how sad all to you will ap -- pear, If the light has gone out in your soul."
+
+[parts.Tenor.lyrics.2]
+text = "When you come to the end of the way, And life’s sto -- ry for you has been told, (has been told,) O how sad all to you will ap -- pear, If the light has gone out in your soul."
+
 [lyrics.3]
 text = "When be -- fore judg -- ment’s bar you shall stand, And the deeds that have here had con -- trol, Good and e -- vil ap -- pear, O what then, If the light has gone out in your soul?"
 
+[parts.Alto.lyrics.3]
+text = "When be -- fore judg -- ment’s bar you shall stand, And the deeds that have here had con -- trol, (had con -- trol,) Good and e -- vil ap -- pear, O what then, If the light has gone out in your soul?"
+
+[parts.Tenor.lyrics.3]
+text = "When be -- fore judg -- ment’s bar you shall stand, And the deeds that have here had con -- trol, (had con -- trol,) Good and e -- vil ap -- pear, O what then, If the light has gone out in your soul?"
+
 [lyrics.chorus]
 text = "O just think how in death you will feel, With the light grow -- ing dim in your soul; O how lone -- ly ’twill be! O how still! When the light has gone out of your soul."
+
+[parts.Alto.lyrics.chorus]
+text = "O just think how in death you will feel, you will feel, With the light grow -- ing dim in your soul; O how lone -- ly ’twill be! O how still! how still! When the light has gone out of your soul."
+
+[parts.Tenor.lyrics.chorus]
+text = "O just think how in death you will feel, you will feel, With the light grow -- ing dim in your soul; in your soul; O how lone -- ly ’twill be! O how still! how still! When the light has gone out of your soul."
+
+[parts.Bass.lyrics.chorus]
+text = "O just think how in death you will feel, With the light grow -- ing dim in your soul; in your soul; O how lone -- ly ’twill be! O how still! how still! When the light has gone out of your soul."

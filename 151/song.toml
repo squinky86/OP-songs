@@ -1,17 +1,17 @@
+# Tune: Rest.
 title = "Dear Lord and Father of Mankind"
-subtitle = ""
+copyrights = [
+  "Lyrics: John Greenleaf Whittier, 1872 (public domain)",
+  "Music: Frederick C. Maker, 1887 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "Db"
 time_sig_numerator = 4
 time_sig_denominator = 4
 tempo_bpm = 80
 verse_count = 6
-optional_phrase_breaks = ["3:48", "7:48"]
 phrase_breaks = ["5:48", "9:48"]
-copyrights = [
-  "Lyrics: John Greenleaf Whittier, 1872 (public domain)",
-  "Music: 'Rest' by Frederick Charles Maker, 1887 (public domain)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
+optional_phrase_breaks = ["3:48", "7:48"]
 
 [parts.Soprano]
 choral_type = "soprano"

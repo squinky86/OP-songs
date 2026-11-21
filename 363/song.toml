@@ -1,16 +1,16 @@
 title = "O Zion, Haste"
-verse_count = 4
-key_signature = "Bb"
-time_sig_numerator = 4
-time_sig_denominator = 4
-tempo_bpm = 130
-phrase_breaks = ["4:64", "8:64", "12:64", "16:64", "20:64"]
 copyrights = [
   "Lyrics: Mary Ann Thomson, 1868, 1871 (public domain)",
   "Music: 'Tidings' by James Walch, 1875 (public domain)",
   "Courtesy of the [Cyber Hymnal™](http://www.hymntime.com/tch)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "Bb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 130
+verse_count = 4
+phrase_breaks = ["4:64", "8:64", "12:64", "16:64", "20:64"]
 
 [parts.Soprano]
 choral_type = "soprano"

@@ -1,16 +1,16 @@
 title = "Encamped About the Saints Below"
-verse_count = 3
+copyrights = [
+  "Lyrics: E. L. Jorgenson, 1926 (public domain)",
+  "Music: 'Germany' by Ludwig van Beethoven, arr. William Gardiner, 1815 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "Bb"
 time_sig_numerator = 3
 time_sig_denominator = 4
 tempo_bpm = 125
+verse_count = 3
 phrase_breaks = ["8:32"]
 optional_phrase_breaks = ["4:48", "12:32"]
-copyrights = [
-  "Lyrics: Elmer L. Jorgenson, 1926 (public domain)",
-  "Music: 'Germany' by Ludwig van Beethoven, arr. William Gardiner, 1815 (public domain)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
 
 [parts.Soprano]
 choral_type = "soprano"

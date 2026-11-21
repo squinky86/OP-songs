@@ -8,7 +8,6 @@ time_sig_numerator = 4
 time_sig_denominator = 4
 tempo_bpm = 96
 verse_count = 5
-
 phrase_breaks = ["4:64", "8:64"]
 optional_phrase_breaks = ["2:64", "6:48"]
 

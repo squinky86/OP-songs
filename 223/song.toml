@@ -1,16 +1,17 @@
+# Tune: Olivet.
 title = "My Faith Looks Up to Thee"
-verse_count = 4
+copyrights = [
+  "Lyrics: Ray Palmer, 1830 (public domain)",
+  "Music: Lowell Mason, 1832 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
 key_signature = "Eb"
 time_sig_numerator = 4
 time_sig_denominator = 4
 tempo_bpm = 92
+verse_count = 4
 phrase_breaks = ["6:64", "10:64", "14:64"]
 optional_phrase_breaks = ["2:64", "8:64", "12:48"]
-copyrights = [
-  "Lyrics: Ray Palmer, 1830 (public domain)",
-  "Music: 'Olivet' by Lowell Mason, 1832 (public domain)",
-  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
-]
 
 [parts.Soprano]
 choral_type = "soprano"

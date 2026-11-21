@@ -1,6 +1,7 @@
+# Tune: Plainfield.
 title = "Nothing But the Blood of Jesus"
 copyrights = [
-  "Words and Music: 'Plainfield' by Robert Lowry, 1876 (public domain)",
+  "Words and Music: Robert Lowry, 1876 (public domain)",
   "Courtesy of the [Timeless Truths Free Online Library](https://library.timelesstruths.org/)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
@@ -63,11 +64,11 @@ text = "Now by this I’ll o -- ver -- come— @s1 Now by this I’ll reach my h
 [lyrics.6]
 text = "Glo -- ry! Glo -- ry! This I sing— @s1 All my praise for this I bring— @s2"
 
+[lyrics.chorus]
+text = "Oh! pre -- cious is the flow That makes me white as snow; No oth -- er fount I know, Noth -- ing but the blood of Je -- sus."
+
 [lyrics.s1]
 text = "Noth -- ing but the blood of Je -- sus;"
 
 [lyrics.s2]
 text = "Noth -- ing but the blood of Je -- sus."
-
-[lyrics.chorus]
-text = "Oh! pre -- cious is the flow That makes me white as snow; No oth -- er fount I know, Noth -- ing but the blood of Je -- sus."

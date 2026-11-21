@@ -1,17 +1,17 @@
 title = "The Wealth of All Heaven Is Mine"
 subtitle = "I Own Not the Riches of Silver or Gold"
-verse_count = 4
-key_signature = "G"
-time_sig_numerator = 6
-time_sig_denominator = 8
-tempo_bpm = 92
-phrase_breaks = ["3:40", "5:40", "7:40", "9:48", "13:48"]
-optional_phrase_breaks = ["11:48", "15:40"]
 copyrights = [
   "Lyrics: A. H. Ackley, 1928 (public domain)",
   "Music: B. D. Ackley, 1928 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "G"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 92
+verse_count = 4
+phrase_breaks = ["3:40", "5:40", "7:40", "9:48", "13:48"]
+optional_phrase_breaks = ["11:48", "15:40"]
 
 [parts.Soprano]
 choral_type = "soprano"

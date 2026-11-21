@@ -43,9 +43,6 @@ c'2 c'4 {3 c'4 ees'8 } | des'2 des'2 |
 {3 des'8 des'8 des'8 } des'8. c'16 des'4 ees'8. des'16 | c'4%pp des'8. des'16 c'2
 """
 
-[parts.Alto.lyrics.chorus]
-text = "Sow -- ing in the morn -- ing, Sow -- ing at the noon -- tide; Sow -- ing in the even -- ing, Sow -- ing the pre -- cious seed by the way. by the way."
-
 [parts.Tenor]
 choral_type = "tenor"
 clef = "bass"
@@ -60,9 +57,6 @@ notes = """
 {3 aes8 aes8 aes8 } aes8. aes16 aes4 r4 | {3 f8 f8 f8 } f8. f16 aes2 |
 {3 g8 g8 g8 } bes8. aes16 g4 g8. ees16 | ees4%pp f8. f16 ees2
 """
-
-[parts.Tenor.lyrics.chorus]
-text = "Sow -- ing the pre -- cious seed, Sow -- ing the pre -- cious seed, Sow -- ing the seed at noon -- tide, Sow -- ing the pre -- cious seed; Sow -- ing the pre -- cious seed, Sow -- ing the pre -- cious seed, Sow -- ing the pre -- cious seed by the way. by the way."
 
 [parts.Bass]
 choral_type = "bass"
@@ -79,9 +73,6 @@ notes = """
 {3 ees8 ees8 ees8 } ees8. ees16 ees4 ees8. ees16 | aes,1%pp
 """
 
-[parts.Bass.lyrics.chorus]
-text = "Sow -- ing the pre -- cious seed, Sow -- ing the pre -- cious seed, Sow -- ing the seed at noon -- tide, Sow -- ing the pre -- cious seed; Sow -- ing the pre -- cious seed, Sow -- ing the pre -- cious seed, Sow -- ing the pre -- cious seed by the way."
-
 [lyrics.1]
 text = "Scat -- ter -- ing pre -- cious seed by the way -- side, Scat -- ter -- ing pre -- cious seed by the hill -- side; Scat -- ter -- ing pre -- cious seed o’er the field, wide, Scat -- ter -- ing pre -- cious seed by the way."
 
@@ -93,3 +84,12 @@ text = "Scat -- ter -- ing pre -- cious seed, doubt -- ing nev -- er, Scat -- te
 
 [lyrics.chorus]
 text = "Sow -- ing in the morn -- ing, Sow -- ing at the noon -- tide; Sow -- ing in the even -- ing, Sow -- ing the pre -- cious seed by the way."
+
+[parts.Alto.lyrics.chorus]
+text = "Sow -- ing in the morn -- ing, Sow -- ing at the noon -- tide; Sow -- ing in the even -- ing, Sow -- ing the pre -- cious seed by the way. by the way."
+
+[parts.Tenor.lyrics.chorus]
+text = "Sow -- ing the pre -- cious seed, Sow -- ing the pre -- cious seed, Sow -- ing the seed at noon -- tide, Sow -- ing the pre -- cious seed; Sow -- ing the pre -- cious seed, Sow -- ing the pre -- cious seed, Sow -- ing the pre -- cious seed by the way. by the way."
+
+[parts.Bass.lyrics.chorus]
+text = "Sow -- ing the pre -- cious seed, Sow -- ing the pre -- cious seed, Sow -- ing the seed at noon -- tide, Sow -- ing the pre -- cious seed; Sow -- ing the pre -- cious seed, Sow -- ing the pre -- cious seed, Sow -- ing the pre -- cious seed by the way."

@@ -92,18 +92,18 @@ text = "He pur -- chased my sal -- va -- tion, To Him I make my plea, @s1"
 
 [lyrics.chorus]
 text = "Ev -- ’ry -- thing, ev -- ’ry -- thing to me, to me! Ev -- ’ry -- thing, ev -- ’ry -- thing, Yes, ev -- ’ry -- thing to me. to me."
-[lyrics.s1]
-text = "The pre -- cious name of Je -- sus, Is ev -- ’ry -- thing to me, to me,"
-
 
 [parts.Soprano.lyrics.chorus]
 text = "Ev -- ’ry -- thing, ev -- ’ry -- thing to me, to me! Ev -- ’ry -- thing, ev -- ’ry -- thing, Yes, ev -- ’ry -- thing to me."
 
-[parts.Soprano.lyrics.s1]
-text = "The pre -- cious name of Je -- sus, Is ev -- ’ry -- thing to me,"
-
 [parts.Bass.lyrics.chorus]
 text = "Ev -- ’ry -- thing, ev -- ’ry -- thing to me, to me! Ev -- ’ry -- thing, ev -- ’ry -- thing, Yes, ev -- ’ry -- thing to me."
+
+[lyrics.s1]
+text = "The pre -- cious name of Je -- sus, Is ev -- ’ry -- thing to me, to me,"
+
+[parts.Soprano.lyrics.s1]
+text = "The pre -- cious name of Je -- sus, Is ev -- ’ry -- thing to me,"
 
 [parts.Bass.lyrics.s1]
 text = "The pre -- cious name of Je -- sus, Is ev -- ’ry -- thing to me,"

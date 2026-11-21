@@ -1,17 +1,16 @@
 title = "While Shepherds Watched Their Flocks"
-subtitle = ""
-verse_count = 5
-key_signature = "Ab"
-time_sig_numerator = 3
-time_sig_denominator = 4
-tempo_bpm = 96
-phrase_breaks = ["9:32"]
-optional_phrase_breaks = ["5:32", "13:32"]
 copyrights = [
   "Lyrics: Nahum Tate, c. 1700 (public domain)",
   "Music: 'Avon' by Hugh Wilson, c. 1800, adapt. Robert Smith, 1825 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "Ab"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 5
+phrase_breaks = ["9:32"]
+optional_phrase_breaks = ["5:32", "13:32"]
 commentary = ""
 
 [parts.Soprano]

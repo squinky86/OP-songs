@@ -1,16 +1,16 @@
 title = "Broken Is the Seal"
-verse_count = 3
-key_signature = "Eb"
-time_sig_numerator = 4
-time_sig_denominator = 4
-tempo_bpm = 94
-phrase_breaks = ["4:48", "8:48", "12:48", "16:48"]
-optional_phrase_breaks = ["2:48", "6:48", "10:48", "14:48"]
 copyrights = [
   "Lyrics: Alma Johnson, 1929 (public domain)",
   "Music: C. S. Brown, 1929 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
+key_signature = "Eb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 94
+verse_count = 3
+phrase_breaks = ["4:48", "8:48", "12:48", "16:48"]
+optional_phrase_breaks = ["2:48", "6:48", "10:48", "14:48"]
 
 [parts.Soprano]
 choral_type = "soprano"
@@ -116,9 +116,6 @@ bes2 bes,2 |
 ees1
 """
 
-[lyrics.chorus]
-text = "The Lord a -- rose! from death He came A might -- y Vic -- tor, praise His name. He lives! be -- hold the emp -- ty bed That pil -- lowed once His sa -- cred head; He lives, our Lord who once was dead."
-
 [lyrics.1]
 text = "Bro -- ken is the seal of death that bound The tomb where Je -- sus lay; For, lo, the an -- gel of the Lord came down And rolled the stone a -- way."
 
@@ -127,3 +124,6 @@ text = "Gone from death for -- ev -- er is its sting; To life 'tis now the door;
 
 [lyrics.3]
 text = "He in tri -- umph from the grave a -- rose, And thro' the grace He gives, We, too, may rise a -- bove the last of foes, And live as now He lives."
+
+[lyrics.chorus]
+text = "The Lord a -- rose! from death He came A might -- y Vic -- tor, praise His name. He lives! be -- hold the emp -- ty bed That pil -- lowed once His sa -- cred head; He lives, our Lord who once was dead."
