@@ -1,0 +1,61 @@
+title = "Jesus, Meek and Gentle"
+copyrights = [
+  "Lyrics: George Rundle Prynne, 1856 (public domain)",
+  "Music: 'Dowston Castle' by Clarence Hudson, 1891 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Eb"
+time_sig_numerator = 6
+time_sig_denominator = 4
+tempo_bpm = 120
+verse_count = 4
+phrase_breaks = ["4:96"]
+optional_phrase_breaks = ["2:96", "6:96"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+bes'4( a'4) bes'4 ees''4( d''4) c''4 | bes'2( aes'4) g'2. | f'4( g'4) f'4 d''2 c''4 | bes'1. |
+bes'4( a'4) bes'4 ees''4( d''4) c''4 | bes'2( aes'4) g'2. | bes'4( aes'4) c'4 g'2 f'4 | ees'1.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+g'4( fis'4) g'4 g'4( aes'4) aes'4 | g'2( ees'4) ees'2. | ees'2 ees'4 ees'2 ees'4 | d'4( ees'4 f'4 aes'4 g'4 f'4) |
+ees'2 ees'4 g'4( aes'4) aes'4 | g'2( ees'4) ees'2( des'4) | c'2 c'4 d'2 d'4 | bes1.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+bes4( c'4) bes4 bes4( c'4) d'4 | ees'4( d'4 c'4) bes2. | a2 a4 a2 a4 | f4( g4 aes4 c'4 bes4 aes4) |
+g4( fis4) g4 bes8[ g8 aes8 bes8] c'8[ d'8] | ees'4( d'4 c'4) bes2. | aes2 aes4 bes2 aes4 | g1.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+ees2 ees4 ees2 ees4 | ees2. ees2. | f2 f4 f2 f4 | bes,1. |
+ees2 ees4 ees2 ees4 | ees2. ees2( e4) | f2 f4 bes,2 bes,4 | ees1.
+"""
+
+[lyrics.1]
+text = "Je -- sus, meek and gen -- tle, Son of God most high, Pity -- ing, lov -- ing Sav -- ior, Hear Thy chil -- dren’s cry."
+
+[lyrics.2]
+text = "Par -- don our of -- fen -- ses, Loose our cap -- tive chains, Break down ev -- ’ry i -- dol Which our soul de -- tains."
+
+[lyrics.3]
+text = "Give us ho -- ly free -- dom, Fill our hearts with love; Draw us, ho -- ly Je -- sus, To the realms a -- bove."
+
+[lyrics.4]
+text = "Lead us on our jour -- ney, Be Thy -- self the Way, Thro’ ter -- res -- trial dark -- ness To ce -- les -- tial day."
