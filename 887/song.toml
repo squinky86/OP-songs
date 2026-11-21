@@ -1,0 +1,67 @@
+title = "Jesus, Merciful and Mild"
+copyrights = [
+  "Lyrics: Thomas Hastings, 1858 (public domain)",
+  "Music: 'Wilson' by William Thomas Moore, 1877 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 9
+time_sig_denominator = 8
+tempo_bpm = 96
+verse_count = 2
+phrase_breaks = ["5:48", "9:48", "13:48"]
+optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. ees'8[ f'8] aes'8
+| c''4. c''4. bes'8[ aes'8] f'8 | ees'2. c''8[ bes'8] c''8 | ees''4. ees''4. c''8[ bes'8] aes'8 | bes'2. ees'8[ f'8] aes'8
+| c''4. c''4. bes'8[ aes'8] f'8 | ees'2. c''8[ bes'8] c''8 | ees''4. ees''4. c''4 bes'8 | aes'2. des''4 des''8
+| c''4. c''4. bes'4 aes'8 | bes'2. des''4 des''8 | c''4. c''4. ees''4 c''8 | bes'2. ees'8[ f'8] aes'8
+| c''4. c''4. bes'8[ aes'8] f'8 | ees'2. c''8[ bes'8] c''8 | ees''4. ees''4. c''4 bes'8 | aes'2. s4.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. c'8[ des'8] c'8
+| ees'4. ees'4. f'4 des'8 | c'2. ees'4 ees'8 | ees'4. ees'4. ees'4 ees'8 | ees'2. c'8[ des'8] c'8
+| ees'4. ees'4. f'4 des'8 | c'2. ees'4 ees'8 | ees'4. ees'4. ees'4 des'8 | c'2. f'4 f'8
+| ees'4. ees'4. des'4 c'8 | ees'2. ees'4 ees'8 | ees'4. ees'4. ees'4 ees'8 | ees'2. c'8[ des'8] c'8
+| ees'4. ees'4. f'4 des'8 | c'2. ees'4 ees'8 | ees'4. ees'4. ees'4 des'8 | c'2. s4.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. aes4 aes8
+| aes4. aes4. aes4 aes8 | aes2. aes8[ bes8] aes8 | c'4. c'4. aes8[ g8] aes8 | g2. aes4 aes8
+| aes4. aes4. aes4 aes8 | aes2. aes8[ bes8] aes8 | c'4. c'4. aes4 g8 | aes2. aes4 aes8
+| aes4. aes4. g4 aes8 | g2. bes4 bes8 | aes4. aes4. c'4 aes8 | g2. aes4 aes8
+| aes4. aes4. aes4 aes8 | aes2. aes8[ bes8] aes8 | c'4. c'4. aes4 g8 | aes2. s4.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. aes,4 aes,8
+| aes,4. aes,4. des4 des8 | aes,2. aes8[ g8] aes8 | aes4. aes4. aes,8[ bes,8] c8 | ees2. aes,4 aes,8
+| aes,4. aes,4. des4 des8 | aes,2. aes8[ g8] aes8 | aes4. aes4. ees4 ees8 | aes,2. des4 des8
+| aes,4. aes,4. ees4 f8 | ees2. g4 g8 | aes4. aes4. aes,4 c8 | ees2. aes,4 aes,8
+| aes,4. aes,4. des4 des8 | aes,2. aes8[ g8] aes8 | aes4. aes4. ees4 ees8 | aes,2. s4.
+"""
+
+[lyrics.1]
+text = "Je -- sus, mer -- ci -- ful and mild, Lead me as a help -- less child; On no oth -- er arm but Thine Would my wea -- ry soul re -- cline; Thou art read -- y to for -- give, Thou canst bid the sin -- ner live— Guide the wan -- d’rer, day by day, In the straight and nar -- row way."
+
+[lyrics.2]
+text = "Thou canst fit me by Thy grace, For the heav’n -- ly dwell -- ing- -- place; All Thy prom -- is -- es are sure, Ev -- er shall Thy love en -- dure; Then what more could I de -- sire? How to great -- er bliss as -- pire? All I need in Thee I see; Thou art all in all to me."
