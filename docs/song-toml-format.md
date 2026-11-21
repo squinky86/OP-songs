@@ -217,7 +217,7 @@ duration = 1
 
 ### Validation
 
-During import, each measure is validated against its effective time signature. If a measure's notes don't sum to the expected tick count for its time signature, the seeder will report an error with the correct expected time signature (not just the song default).
+During import, each measure is validated against its effective time signature. A whole-bar breve supplies the sounding time for its starting bar and every explicit `=` continuation. If a measure's notes don't sum to the expected tick count for its time signature, the seeder will report an error with the correct expected time signature (not just the song default).
 
 ---
 
@@ -655,6 +655,16 @@ measures. The duration is an editorial choice for timed playback; the count
 does not prescribe seven equal attacks or a tuplet. `tempo_bpm` always counts
 quarter notes, even in 4/2.
 
+To span whole bars, write the breve alone on the downbeat and put `=` alone
+in every bar it sustains. In 4/4, `g'0@12 | = | fis'2 g'2` puts the cadence
+in bar 3. Every part must cover the same bars in the same effective meter.
+Use meters with denominator 1, 2, 4, 8 or 16. Dots and scale must produce
+exactly the combined duration. Rests, spacers and mid-bar starts cannot
+span. A chord counts as one onset. Meter changes may precede or follow the
+span. A pickup may precede it. The hidden barlines still count in authored
+coordinates. For this example `1:64` and `2:0` fall inside the held note,
+while `2:64` (also `3:0`) puts a break immediately before the cadence.
+
 | Token | Quarter beats | Example meter for this note alone |
 |---|---:|---|
 | `b'0*1/4@7` | 2 | 2/4 |
@@ -692,7 +702,7 @@ Each verse/chorus/coda in a part using breves must exactly fill its source
 syllable capacities. Per-part lyrics and shared sections resolve before grouping.
 Counts apply to every verse; a translation needing different counts must
 override that part's `notes`. There are no per-verse counts. Groups stay within
-one measure, section, and printed system/slide. Put phrase breaks or format
+one measure or whole-bar span, one section and one printed system/slide. Put phrase breaks or format
 resets at their ends; a coordinate strictly inside a recitation is an error.
 Phrase coordinates use effective duration: a four-quarter scaled breve spans
 64 ticks, an unscaled breve 128. Divide very long text across separate notes.
@@ -701,6 +711,8 @@ LilyPond/PDF/SVG and slides print `\breve` with authored dots and scale, retaini
 the meter. Aiken breves add side strokes to the hollow shape; round heads use
 the standard breve. Grouped text is left aligned. MusicXML carries type `breve`,
 effective duration, and a time modification for scaling (without a tuplet bracket).
+A whole-bar span occupies one MusicXML measure. The following measure keeps its
+authored number in the export. Some readers renumber it on import or re-export.
 Its layout and shape support depend on the reader. MIDI/generated MP3 sustain
 one pitch for the chosen time. Web lyrics/search retain the prose. The external
 sight-singing handoff receives timed notes and grouped text, but its present
@@ -1215,8 +1227,8 @@ notes = """
 """
 ```
 
-The merged result is validated exactly like a base file: every measure must sum
-to its time signature, and every verse must fill each lyric onset’s capacity (one normally, N for a breve `@N`) in
+The merged result is validated exactly like a base file: every bar must fill
+its meter, counting time sustained into an explicit `=` bar, and every verse must fill each lyric onset’s capacity (one normally, N for a breve `@N`) in
 every part. A mismatched syllable count is the most common authoring error in a
 translation and the seeder rejects it by name.
 

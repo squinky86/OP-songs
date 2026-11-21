@@ -81,7 +81,7 @@ g'2~ | g'4 ...      ← one sound held across the barline
 
 ## 4. Barlines and measures
 
-1. Every measure is explicit, separated by ` | `, and must sum **exactly** to the time signature's tick count (64ths: quarter = 16). No short or overfull measures anywhere, including the first and last.
+1. Every measure is explicit, separated by ` | `, and must sum **exactly** to the time signature's tick count (64ths: quarter = 16). Count time sustained into each explicit `=` bar of a whole-bar breve (§15).
 2. **Anacrusis (pickup):** pad the front of measure 1 with spacers so it is full: `s2. d'4 |` in 4/4. Never write a short pickup measure.
 3. **Repeats are unrolled.** There is no repeat syntax; write the music out in full and let verse lyrics carry the repetition.
 4. Mid-song meter changes use `time_sig_changes`; never fake them with over/under-full measures.
@@ -236,14 +236,14 @@ share the same counts. Translations may override a part's notes/counts.
 
 Recitations with N > 1 must have independent onsets, without ties, slurs,
 dashed slurs, beams, or consumed `_` placeholders. Keep the whole group on one
-system/slide and in one measure/section. Break at its end, never inside it;
+system/slide and in one section. A breve can fill one measure or span whole bars. Break at its end, never inside it;
 split overlong text into additional reciting notes. Phrase coordinates use
 scaled time: unscaled breve = 128 ticks, half-scaled breve = 64 ticks.
 
 Check [the full syntax and precision limits](song-toml-format.md#breves-and-recitations)
 before authoring factors. Review the Aiken hollow shapes with their breve side
 strokes, grouped-text spacing, both staves, and cadence alignment in PDF and
-slides. Song 839 illustrates this style. Run `audit_style.py`, `check_measures.py`,
+slides. Song 894 uses `g'0@12 | =` across two 4/4 bars. Song 839 rebars its first three 4/2 recitations in 4/4. Run `audit_style.py`, `check_measures.py`,
 and `debug_lyrics.py`, then import into an isolated database and check all exports.
 The sibling OpenPsalmEditor and external sight-singing notation need their own
 support; do not assume they preserve the new source notation.

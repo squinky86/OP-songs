@@ -1,3 +1,5 @@
+# The 4/2 chant is editorially barred in 4/4. Each of the first three
+# reciting tones fills two bars with one attack. The final strain keeps its shorter recitation.
 title = "For All the Saints"
 copyrights = [
   "Lyrics: William Walsham How, 1864 (public domain)",
@@ -6,25 +8,19 @@ copyrights = [
 ]
 key_signature = "G"
 time_sig_numerator = 4
-time_sig_denominator = 2
+time_sig_denominator = 4
 tempo_bpm = 92
 verse_count = 6
-phrase_breaks = ["2:128", "4:128", "6:128"]
-
-[[time_sig_changes]]
-measure = 7
-numerator = 4
-denominator = 4
-duration = 3
+phrase_breaks = ["4:64", "8:64", "12:64"]
 
 [parts.Soprano]
 choral_type = "soprano"
 clef = "treble"
 staff_number = 1
 notes = """
-b'0@7 | b'2 a'2 g'1 |
-c''0@7 | c''2 b'2 a'1 |
-d''0@7 | d''2 c''2 b'1 |
+b'0@7 | = | b'2 a'2 | g'1 |
+c''0@7 | = | c''2 b'2 | a'1 |
+d''0@7 | = | d''2 c''2 | b'1 |
 a'0*1/2@2 | a'1 | g'1 |
 """
 
@@ -33,9 +29,9 @@ choral_type = "alto"
 clef = "treble"
 staff_number = 1
 notes = """
-g'0@7 | g'2 fis'2 g'1 |
-e'0@7 | d'2 g'2 fis'1 |
-fis'0@7 | g'2 a'2 g'1 |
+g'0@7 | = | g'2 fis'2 | g'1 |
+e'0@7 | = | d'2 g'2 | fis'1 |
+fis'0@7 | = | g'2 a'2 | g'1 |
 e'0*1/2@2 | fis'1 | g'1 |
 """
 
@@ -44,9 +40,9 @@ choral_type = "tenor"
 clef = "bass"
 staff_number = 2
 notes = """
-b0@7 | b2 a2 g1 |
-g0@7 | a2 d'2 d'1 |
-d'0@7 | b2 d'2 d'1 |
+b0@7 | = | b2 a2 | g1 |
+g0@7 | = | a2 d'2 | d'1 |
+d'0@7 | = | b2 d'2 | d'1 |
 c'0*1/2@2 | c'1 | b1 |
 """
 
@@ -55,9 +51,9 @@ choral_type = "bass"
 clef = "bass"
 staff_number = 2
 notes = """
-e0@7 | e2 b,2 c1 |
-e0@7 | fis2 g2 d1 |
-b0@7 | e2 fis2 g1 |
+e0@7 | = | e2 b,2 | c1 |
+e0@7 | = | fis2 g2 | d1 |
+b0@7 | = | e2 fis2 | g1 |
 c0*1/2@2 | d1 | g,1 |
 """
 

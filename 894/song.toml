@@ -1,0 +1,56 @@
+title = "Let the Words of My Mouth"
+copyrights = [
+  "Lyrics: Psalm 19:14 (public domain)",
+  "Music: Anonymous (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 80
+verse_count = 1
+phrase_breaks = ["4:64"]
+optional_phrase_breaks = ["9:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+g'0@12 | = | fis'2 g'2 | a'1 |
+a'0@11 | = | b'2 a'2 | g'2 fis'2 | g'2 g'2 |
+g'2 g'2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+d'0@12 | = | d'2 d'2 | fis'1 |
+fis'0@11 | = | g'2 e'2 | d'2 d'2 | d'2 d'2 |
+e'2 d'2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+b0@12 | = | c'2 b2 | d'1 |
+d'0@11 | = | d'2 c'2 | b2 a2 | b2 b2 |
+c'2 b2
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+g0@12 | = | a2 g2 | d1 |
+d0@11 | = | g2 c2 | d2 d2 | g,2 g,2 |
+c2 g,2
+"""
+
+[lyrics.1]
+text = "Let the words of my mouth, and the med -- i -- ta -- tion of my heart, Be ac -- cept -- a -- ble in Thy sight, O Lord, my Rock and my Re -- deem -- er. A -- men."
