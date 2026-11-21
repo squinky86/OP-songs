@@ -1,0 +1,85 @@
+# Source: Great Songs of the Church (1926), No. 224, p. 148 (hymnary GSoC1926), seven-shape
+#   notes, read together with the same engraving in round notes in the 1921 edition
+#   (GSoC1921 No. 203, p. 138: same tune, key, meter and harmony). Notes were read
+#   from the high-resolution 1921 page; title, stanzas and lyrics from the 1926 page.
+# Lyrics transcribed from the 1926 plate (3 stanzas). hymnary's text page gives the
+#   first line as "My sins, my sins, my Savior!".
+# Form: 1921 prints one strain with a repeat and 1st/2nd endings (stanza lines 1-2 on
+#   the 1st ending, lines 3-4 on the 2nd, "(Omit ...)" under the 1st ending of the
+#   second pass); 1926 writes it out in four systems, followed here.
+# 1921 vs 1926 text: 1921 prints "pleading prayer"; 1926 "plead-ing pray'r" (used).
+# Plate credits: "J. S. Monsell." / "E. L. Jorgenson."; "Copyright, 1921, by E. L. Jorgenson."
+# Lyrics date: hymnary text page dates the text 1863 (John S. B. Monsell).
+# Music date: the plate's 1921 copyright; the tune first appears in the 1921 edition.
+# Public domain: published in the US before 1930.
+# Tempo: plate marks "Slowly."; 72 bpm is a guess.
+# Alto bar 16 beat 4: the plate beams b8 g8 under one syllable ("row") - kept as a melisma.
+# Bass bars 6 and 14: the bass moves on beat 2 under the soprano's dotted figure; the
+#   /+24 dedup offset aligns it with the soprano's beat-2.5 syllable.
+title = "My Sins, My Sins, My Savior"
+subtitle = "Dolores"
+copyrights = [
+  "Lyrics: John Samuel Bewley Monsell, 1863 (public domain)",
+  "Music: E. L. Jorgenson, 1921 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "C"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 72
+verse_count = 3
+phrase_breaks = ["5:48", "9:48", "13:48"]
+optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. e'8[ f'8] | g'4 g'4 a'4 e'4 | g'2 g'4 e'8[ f'8] | g'4 g'4 a'4 e'4 | f'2. g'4 |
+b'4. b'8 a'4 g'4 | c''2 g'4 a'4 | b'4 a'4 g'4 f'4 | e'2. e'8[ f'8] |
+g'4 g'4 a'4 e'4 | g'2 g'4 e'8[ f'8] | g'4 g'4 a'4 e'4 | f'2. g'4 |
+b'4. b'8 a'4 g'4 | c''2 c''4! a'4 | g'4. f'8 e'4 d'4 | c'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. c'8[ d'8] | e'4 e'4 e'4 c'4 | e'2 e'4 c'8[ d'8] | e'4 e'4 e'4 c'4 | b2. g'4 |
+f'4. f'8 f'4 f'4 | e'2 e'4 e'4 | g'4 f'4 e'4 d'4 | c'2. c'8[ d'8] |
+e'4 e'4 e'4 c'4 | e'2 e'4 c'8[ d'8] | e'4 e'4 e'4 c'4 | b2. g'4 |
+f'4. f'8 f'4 f'4 | e'2 dis'4! dis'4 | e'4. d'8 c'4 b8[ g8] | g2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. g4 | c'4 c'4 c'4 g4 | c'2 c'4 g4 | c'4 c'4 c'4 g4 | g2. b4 |
+d'4. d'8 c'4 b4 | g2 c'4 c'4 | b4 d'4 c'4 b8[ g8] | g2. g4 |
+c'4 c'4 c'4 g4 | c'2 c'4 g4 | c'4 c'4 c'4 g4 | g2. b4 |
+d'4. d'8 c'4 b4 | g4( bes4) a4! c'4 | c'4. g8 g4 f4 | e2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. c4 | c4 c4 c4 c4 | c2 c4 c4 | c4 c4 c4 c4 | d2. d4 |
+g4 g,4/+24 a,4 b,4 | c2 c4 e4 | d4 g4 g,4 g,4 | c2. c4 |
+c4 c4 c4 c4 | c2 c4 c4 | c4 c4 c4 c4 | d2. d4 |
+g4 g,4/+24 a,4 b,4 | c4( e4) f4! fis4 | g4. g8 g,4 g,4 | c2. s4
+"""
+
+[lyrics.1]
+text = "My sins, my sins, my Sav -- ior, Their guilt I nev -- er knew; Till with Thee in the des -- ert, I near Thy pas -- sion drew; Till with Thee in the gar -- den, I heard Thy plead -- ing pray’r, And saw Thy blood- -- sweat fall -- ing, That told Thy sor -- row there."
+
+[lyrics.2]
+text = "My sins, my sins, my Sav -- ior! How sad on Thee they fall! Seen thro’ Thy gen -- tle pa -- tience, I ten -- fold feel them all; I know they are for -- giv -- en, But still, their pain to me Is all the grief and an -- guish They laid, my Lord, on Thee."
+
+[lyrics.3]
+text = "My songs, my songs, my Sav -- ior, E’en in the time of woe, Shall tell of all Thy good -- ness To suff -- ’ring man be -- low; Thy good -- ness and Thy fa -- vor, Whose pres -- ence from a -- bove Re -- joice those hearts, my Sav -- ior, That live in Thee and love."
