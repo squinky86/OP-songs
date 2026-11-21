@@ -1,0 +1,82 @@
+title = "Lead, Kindly Light"
+copyrights = [
+  "Lyrics: John Henry Newman, 1833 (public domain)",
+  "Music: 'Lux Benigna' by John Bacchus Dykes, 1865 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 66
+verse_count = 3
+phrase_breaks = ["5:24", "9:48", "13:48"]
+
+[lyrics.1]
+text = """
+Lead, kind -- ly Light, a -- mid th’en -- cir -- cling gloom,
+Lead Thou me on;
+The night is dark, and I am far from home;
+Lead Thou me on.
+Keep Thou my feet; I do not ask to see
+The dis -- tant scene— one step e -- nough for me.
+"""
+
+[lyrics.2]
+text = """
+I was not ev -- er thus, nor prayed that Thou
+Shouldst lead me on;
+I loved to choose and see my path; but now
+Lead Thou me on.
+I loved the gar -- ish day, and spite of fears,
+Pride ruled my will: Re -- mem -- ber not past years.
+"""
+
+[lyrics.3]
+text = """
+So long Thy pow’r has blest me, sure it still
+Will lead me on
+O’er moor and fen, o’er crag and tor -- rent, till
+The night is gone.
+And with the morn those an -- gel fa -- ces smile,
+Which I have loved long since, and lost a -- while.
+"""
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. ees'8 aes'8 bes'8 | c''8. c''16 bes'8 aes'8 f'8 aes'8 | f'4( ees'2) | aes'4 g'4 aes'4 | bes'4. ees'8 aes'8 bes'8 |
+c''8. c''16 bes'8 aes'8 f'8 aes'8 | f'4( ees'2) | ees'4 aes'4. g'8 | g'4( aes'2) | bes'4 bes'4 bes'4 | bes'2 bes'4 |
+bes'8 c''8 bes'8[ aes'8] g'8[ f'8] | ees'2. | c''4 bes'4 aes'4 | aes'4. aes'8 g'8 f'8 | ees'4( aes'4.) g'8 | g'4( aes'8!) s4.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s4. ees'8 ees'8 ees'8 | ees'8. c'16 des'8 ees'8 ees'8 des'8 | des'4( ees'2) | ees'4 ees'4 ees'8[ c'8] | des'4. ees'8 ees'8 ees'8 |
+ees'8. c'16 des'8 ees'8 ees'8 des'8 | des'4( c'2) | c'4 ees'4. ees'8 | ees'2. | ees'4 d'4 ees'4 | f'2 ees'4 |
+ees'8 ees'8 d'4 d'4 | ees'4( c'4 des'4) | c'4 des'4 ees'8[ e'8] | f'4. f'8 ees'8 des'8 | c'4( ees'4.) des'8 | des'4( c'8!) s4.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. c'8 c'8 des'8 | c'8. aes16 aes8 aes8 aes8 aes8 | aes4( c'4 des'4) | ees'4 des'4 c'8[ aes8] | aes4( g8) des'8 des'8 des'8 |
+c'8. aes16 aes8 aes8 aes8 aes8 | aes2. | aes4 c'4. bes8 | des'4( c'2) | bes4 aes4 g8[ c'8] | bes4( aes4) g4 |
+g8 g8 aes4 aes4 | g4( aes4 bes4) | aes4 f8[ g8] aes4 | aes4. f8 g8 aes8 | aes4( c'4.) bes8 | bes4( aes8!) s4.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. aes8 aes8 aes8 | aes8. aes,16 bes,8 c8 des8 f8 | aes2( bes4) | c'4 bes4 aes4 | ees4. ees8 f8 g8 |
+aes8. aes,16 bes,8 c8 des8 f8 | aes4( aes,4 c4) | ees4 ees4. ees8 | ees4( aes2) | g4 f4 ees4 | d2 ees4 |
+bes,8 bes,8 bes,4 bes,4 | ees2. | aes,4 bes,4 c4 | des4. des8 des8 des8 | ees2 ees4/+24 | ees4( aes,8!) s4.
+"""
