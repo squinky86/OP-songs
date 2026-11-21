@@ -1,0 +1,83 @@
+title = "Light of the World"
+copyrights = [
+  "Lyrics: Laura Ormiston Chant, 1901 (public domain)",
+  "Music: 'Sandon' by Charles Henry Purday, 1857 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 76
+verse_count = 3
+phrase_breaks = ["6:64", "12:64", "16:48"]
+optional_phrase_breaks = ["4:48", "10:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+b'2 b'4 b'4 | c''2. b'4 | b'4 a'4 g'4 a'4 | b'2. g'4 | a'2 fis'2 | g'1 |
+b'2 b'4 b'4 | c''2. b'4 | b'4 a'4 g'4 a'4 | b'2. g'4 | a'2 fis'2 | g'1 |
+a'2 a'4 b'4 | c''2 a'2 | d''4 c''4 b'4 a'4 | b'2. d''4 | e''2 d''2 | c''2. b'4 | d''4 c''4 b'4 a'4 | g'1
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+g'2 g'4 g'4 | g'2. g'4 | fis'4 fis'4 g'4 fis'4 | g'2. b4 | e'2 d'2 | d'1 |
+g'2 g'4 g'4 | g'2. g'4 | fis'4 fis'4 g'4 fis'4 | g'2. b4 | e'2 d'2 | d'1 |
+fis'2 fis'4 g'4 | fis'2 fis'2 | g'4 fis'4 g'4 fis'4 | g'2. g'4 | g'2 g'2 | fis'2. g'4 | g'4 a'4 g'4 fis'4 | d'1
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+d'2 d'4 d'4 | e'2. d'4 | c'4 c'4 b4 a4 | g2. g4 | c'2 c'2 | b1 |
+d'2 d'4 d'4 | e'2. d'4 | c'4 c'4 b4 a4 | g2. g4 | c'2 c'2 | b1 |
+d'2 c'4 b4 | a2 d'2 | d'4 d'4 d'4 d'4 | d'2. d'4 | c'2 d'2 | d'2. d'4 | e'4 e'4 d'4 c'4 | b1
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+g2 g4 g4 | g2. g4 | d4 d4 d4 d4 | g2. e4 | c2 d2 | g1 |
+g2 g4 g4 | g2. g4 | d4 d4 d4 d4 | g2. e4 | c2 d2 | g1 |
+d2 d4 d4 | d2 d2 | b4 a4 g4 d4 | g2. b4 | c'2 b2 | a2. g4 | c4 c4 d4 d4 | g1
+"""
+
+[lyrics.1]
+text = """
+Light of the world! Faint were our wea -- ry feet
+With wand’ -- ring far;
+But Thou didst come, our lone -- ly hearts to greet,
+Our Morn -- ing Star;
+And Thou didst bid us lift our gaze on high,
+And see the glo -- ry of the glow -- ing sky.
+"""
+
+[lyrics.2]
+text = """
+In days long passed we missed our home -- ward way,
+We could not see;
+Blind were our eyes— our feet were bound to stray—
+How blind to Thee!
+But Thou didst pit -- y, Lord, our gloom -- y plight,
+And Thou didst touch our eyes and give them sight.
+"""
+
+[lyrics.3]
+text = """
+Where is death’s sting, where grave thy vic -- to -- ry?
+Where all the pain?
+Now that thy King the veil that hung o’er thee
+Hath rent in twain:
+Light of the world, we hear Thee bid us come
+To light and love, in Thine e -- ter -- nal home.
+"""
