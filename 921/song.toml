@@ -1,0 +1,68 @@
+title = "O for the Peace"
+copyrights = [
+  "Lyrics: Jane Fox Crewdson, 1860 (public domain)",
+  "Music: Paul Kellogg, 1921 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 2
+time_sig_denominator = 4
+tempo_bpm = 80
+verse_count = 4
+phrase_breaks = ["4:32", "8:32", "12:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+a'4 a'8 a'8 | a'4 g'4 | f'8 f'8 e'8 d'8 | d'4 c'4 |
+a'4 a'8 a'8 | bes'4 a'4 | g'8 g'8 a'8 g'8 | g'4( c''4) |
+a'4 a'8 a'8 | a'4 g'4 | f'8 f'8 e'8 d'8 | d'4 c'4 |
+a'4 c''8 c''8 | c''8 bes'8 a'8 g'8 | f'4 e'4 | f'2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+f'4 f'8 f'8 | e'4 e'4 | d'8 d'8 c'8 bes8 | bes4 a4 |
+f'4 f'8 f'8 | f'4 f'4 | g'8 g'8 f'8 f'8 | e'2 |
+f'4 f'8 f'8 | e'4 e'4 | d'8 d'8 c'8 bes8 | bes4 a4 |
+f'4 f'8 f'8 | f'8 f'8 d'8 d'8 | c'4 c'4 | c'2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+c'4 c'8 c'8 | cis'4 a4 | a8 a8 bes8 f8 | f4 f4 |
+c'4 c'8 c'8 | d'4 c'4 | c'8 c'8 b8 b8 | c'2 |
+c'4 c'8 c'8 | cis'4 a4 | a8 a8 bes8 f8 | f4 f4 |
+c'4 ees'8 ees'8 | ees'8 d'8 c'8 bes8 | a4 bes4 | a2
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+f4 f8 f8 | a4 cis4 | d8 d8 bes,8 bes,8 | f4 f4 |
+f4 f8 f8 | f4 f4 | e8 e8 d8 d8 | c2 |
+f4 f8 f8 | a4 cis4 | d8 d8 bes,8 bes,8 | f4 f4 |
+f4 a8 a8 | bes8 bes8 bes,8 bes,8 | c4 c4 | f,2
+"""
+
+[lyrics.1]
+text = "O for the peace which flow -- eth like a riv -- er, Mak -- ing life’s des -- ert pla -- ces bloom and smile! O for the faith to grasp heav’n’s bright for -- ev -- er, A -- mid the shad -- ows of earth’s “lit -- tle while.”"
+
+[lyrics.2]
+text = "A lit -- tle while for pa -- tient vig -- il- -- keep -- ing, To face the storm, to bat -- tle with the strong; A lit -- tle while to sow the seed with weep -- ing, Then bind the sheaves and sing the har -- vest song!"
+
+[lyrics.3]
+text = "A lit -- tle while to keep the oil from fail -- ing, A lit -- tle while faith’s flick’ -- ring lamp to trim; And then, the Bride -- groom’s com -- ing foot -- steps hail -- ing, To haste to meet Him with the bri -- dal hymn!"
+
+[lyrics.4]
+text = "And He who is Him -- self the Gift and Giv -- er— The fu -- ture glo -- ry and the pres -- ent smile— With the bright prom -- ise of the glad “for -- ev -- er,” Will light the shad -- ows of the “lit -- tle while!”"
