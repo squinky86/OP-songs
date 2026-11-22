@@ -1,0 +1,71 @@
+title = "Nearer, Still Nearer"
+copyrights = [
+  "Lyrics and Music: Lelia N. Morris, 1898 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Db"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 80
+verse_count = 4
+phrase_breaks = ["4:64", "8:64", "12:64", "16:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+f'2 f'4 f'4 | aes'2 aes'2 | des'2 ges'4 ges'4 | f'2. r4 |
+bes'2 bes'4 bes'4 | aes'2 f'4 f'4 | f'2 ees'4 ees'4 | ees'2. r4 |
+f'2 f'4 f'4 | aes'2 aes'2 | bes'2 c''4 des''4 | c''2. r4 |
+des''2 c''4 bes'4 | aes'2 f'4 aes'4 | aes'2 aes'4. ges'8 | f'2. r4 |
+bes'2 c''4 des''4 | des''2 des'4 ees'4 | f'2 f'4. ees'8 | des'2. r4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+des'2 des'4 des'4 | ees'2 ees'2 | des'2 des'4 des'4 | des'2. r4 |
+des'2 ges'4 ges'4 | f'2 des'4 des'4 | des'2 bes4 des'4 | c'2. r4 |
+des'2 des'4 des'4 | ees'2 f'2 | ges'2 ges'4 f'4 | ees'2. r4 |
+aes'2 aes'4 ges'4 | f'2 des'4 des'4 | c'2 c'4. c'8 | des'2. r4 |
+ges'2 ges'4 ges'4 | f'2 des'4 des'4 | des'2 c'4. c'8 | des'2. r4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+aes2 aes4 aes4 | aes2 ees2 | f2 bes4 bes4 | aes2. r4 |
+ges4( bes4) des'4 des'4 | des'2 aes4 aes4 | bes2 g4 g4 | aes2. r4 |
+aes2 aes4 aes4 | aes2 des'2 | des'2 aes4 aes4 | aes2. r4 |
+aes4( des'4) des'4 des'4 | des'2 aes4 f4 | ees2 ees4. aes8 | aes2. r4 |
+des'2 c'4 bes4 | aes2 g4 g4 | aes2 aes4. ges8 | f2. r4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+des2 des4 des4 | c2 c2 | bes,2 ges,4 ges,8[ bes,8] | des2. r4 |
+ges2 ges4 ges4 | des2 des4 des4 | bes,2 ees4 ees4 | aes,2. r4 |
+des2 des4 des4 | c2 des2 | ges2 ees4 des4 | aes2. r4 |
+f2 ges4 ges4 | des2 des4 des4 | aes,2 aes,4. aes,8 | des2. r4 |
+ges,2 ges,4 ges,4 | aes,2 beses,4 beses,4 | aes,2 aes,4. aes,8 | des2. r4
+"""
+
+[lyrics.1]
+text = "Near -- er, still near -- er, close to Thy heart, Draw me, my Sav -- ior, so pre -- cious Thou art; Fold me, O fold me close to Thy breast, Shel -- ter me safe in that ha -- ven of rest, Shel -- ter me safe in that ha -- ven of rest."
+
+[lyrics.2]
+text = "Near -- er, still near -- er, noth -- ing I bring, Naught as an off’ -- ring to Je -- sus my King; On -- ly my sin -- ful, now con -- trite heart, Grant me the cleans -- ing Thy blood doth im -- part, Grant me the cleans -- ing Thy blood doth im -- part."
+
+[lyrics.3]
+text = "Near -- er, still near -- er, Lord, to be Thine, Sin, with its fol -- lies, I glad -- ly re -- sign; All of its pleas -- ures, pomp and its pride, Give me but Je -- sus, my Lord cru -- ci -- fied, Give me but Je -- sus, my Lord cru -- ci -- fied."
+
+[lyrics.4]
+text = "Near -- er, still near -- er, while life shall last, Till safe in glo -- ry my an -- chor is cast; Thro’ end -- less a -- ges, ev -- er to be, Near -- er, my Sav -- ior, still near -- er to Thee, Near -- er, my Sav -- ior, still near -- er to Thee."
