@@ -1,26 +1,7 @@
-# Source: Great Songs of the Church (1926), No. 224, p. 148 (hymnary GSoC1926), seven-shape
-#   notes, read together with the same engraving in round notes in the 1921 edition
-#   (GSoC1921 No. 203, p. 138: same tune, key, meter and harmony). Notes were read
-#   from the high-resolution 1921 page; title, stanzas and lyrics from the 1926 page.
-# Lyrics transcribed from the 1926 plate (3 stanzas). hymnary's text page gives the
-#   first line as "My sins, my sins, my Savior!".
-# Form: 1921 prints one strain with a repeat and 1st/2nd endings (stanza lines 1-2 on
-#   the 1st ending, lines 3-4 on the 2nd, "(Omit ...)" under the 1st ending of the
-#   second pass); 1926 writes it out in four systems, followed here.
-# 1921 vs 1926 text: 1921 prints "pleading prayer"; 1926 "plead-ing pray'r" (used).
-# Plate credits: "J. S. Monsell." / "E. L. Jorgenson."; "Copyright, 1921, by E. L. Jorgenson."
-# Lyrics date: hymnary text page dates the text 1863 (John S. B. Monsell).
-# Music date: the plate's 1921 copyright; the tune first appears in the 1921 edition.
-# Public domain: published in the US before 1930.
-# Tempo: plate marks "Slowly."; 72 bpm is a guess.
-# Alto bar 16 beat 4: the plate beams b8 g8 under one syllable ("row") - kept as a melisma.
-# Bass bars 6 and 14: the bass moves on beat 2 under the soprano's dotted figure; the
-#   /+24 dedup offset aligns it with the soprano's beat-2.5 syllable.
 title = "My Sins, My Sins, My Savior"
-subtitle = "Dolores"
 copyrights = [
   "Lyrics: John Samuel Bewley Monsell, 1863 (public domain)",
-  "Music: E. L. Jorgenson, 1921 (public domain)",
+  "Music: 'Dolores' by E. L. Jorgenson, 1921 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
 key_signature = "C"

@@ -1,0 +1,113 @@
+title = "My Stubborn Will at Last Hath Yielded"
+copyrights = [
+  "Lyrics and Music: Lelia N. Morris, 1900 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Bb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 95
+verse_count = 4
+phrase_breaks = ["5:40", "9:48", "17:32"]
+optional_phrase_breaks = ["3:40", "7:40", "13:32", "21:32"]
+
+[[time_sig_changes]]
+measure = 10
+numerator = 3
+denominator = 4
+duration = 16
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s8 f'8 d'8 ees'8 | f'4. g'8 f'8[ bes'8] f'8[ g'8] | a'4 a'4. a'8 g'8 f'8 |
+a'4. g'8 f'8[ g'8] ees'8[ f'8] | d'2 r8 d''8 d''8 d''8 | d''2~ d''8 a'8 bes'8 c''8 |
+d''4 d''4. ees''8 d''8 c''8 | bes'8 g'8 f'4( bes'4) a'4 | bes'2 r4 f'4@c |
+f'4.( g'8) f'8[ g'8] | f'4 r4 f'4 | f'4.( g'8) f'8[ g'8] | f'4 d'4 f'4 |
+bes'2 bes'4 | bes'4.( a'8) g'4 | f'2 ees'4 | d'2 f'4 |
+f'4.( a'8) c''8[ ees''8] | ees''4( d''4) f'4 | f'4.( a'8) c''8[ ees''8] | ees''4 d''4 bes'4 |
+bes'4.( a'8) g'4 | f'4( bes'4) c''8[ ees''8] | d''2 c''4 | bes'2 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 s8 d'8 bes8 c'8 | d'4. d'8 d'4 d'4 | ees'4 ees'4. ees'8 ees'8 ees'8 |
+ees'4. ees'8 d'8[ ees'8] c'8[ d'8] | bes2 r8 bes'8 a'8 g'8 | fis'2~ fis'8 f'8 g'8 g'8 |
+fis'4 fis'4. g'8 f'8 ees'8 | cis'8 cis'8 d'2 c'8[ ees'8] | d'2 r4 d'4@c |
+ees'2 ees'4 | d'4 r4 d'4 | ees'2 ees'4 | d'4 bes4 d'4 |
+d'2 f'4 | g'4.( f'8) ees'4 | d'2 c'4 | bes2 d'4 |
+ees'2 ees'8[ g'8] | g'4( f'4) d'4 | ees'2 ees'8[ g'8] | g'4 f'4 aes'4 |
+g'4.( f'8) ees'4 | d'4( f'4) g'4 | f'2 ees'4 | d'2 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s1 | s1 | s1 |
+s1 | s1 | s1 |
+s1 | s1 | s2 s4 bes4@c |
+a2 a4 | bes4 r4 bes4 | a2 a4 | bes4 f4 bes4 |
+f2 bes4 | bes2 bes4 | bes2 a4 | f2 bes4 |
+a2 a4 | bes2 bes4 | a2 a4 | bes4 bes4 bes4 |
+bes2 bes4 | bes2 bes4 | bes2 a4 | bes2 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s1 | s1 | s1 |
+s1 | s1 | s1 |
+s1 | s1 | s2 s4 bes,4@c |
+c2 f4 | bes,4 r4 bes,4 | c2 f4 | bes,4 bes,4 bes,4 |
+bes,2 d4 | ees2 ees4 | f2 f4 | bes,2 bes,4 |
+f2 f4 | bes,2 bes,4 | f2 f4 | bes,4 bes,4 d4 |
+ees2 ees4 | bes,4( d4) ees4 | f2 f4 | bes,2 s4
+"""
+
+[lyrics.1]
+text = "My stub -- born will at last hath yield -- ed; I would be Thine and Thine a -- lone; And this the prayer my lips are bring -- ing, “Lord, let in me Thy will be done.”"
+
+[parts.Tenor.lyrics.1]
+text = ""
+
+[parts.Bass.lyrics.1]
+text = ""
+
+[lyrics.2]
+text = "I’m tired of sin, foot -- sore and wear -- y, The dark -- some path hath drear -- y grown, But now a light has ris’n to cheer me; I find in Thee my Star, my Sun."
+
+[parts.Tenor.lyrics.2]
+text = ""
+
+[parts.Bass.lyrics.2]
+text = ""
+
+[lyrics.3]
+text = "Thy pre -- cious will, O con -- qu’ring Sav -- ior, Doth now em -- brace and com -- pass me; All dis -- cords hushed, my peace a riv -- er, My soul a pris -- oned bird set free."
+
+[parts.Tenor.lyrics.3]
+text = ""
+
+[parts.Bass.lyrics.3]
+text = ""
+
+[lyrics.4]
+text = "Shut in with Thee, O Lord, for -- ev -- er, My way -- ward feet no more to roam; What pow’r from Thee my soul can sev -- er? The cen -- ter of God’s will my home."
+
+[parts.Tenor.lyrics.4]
+text = ""
+
+[parts.Bass.lyrics.4]
+text = ""
+
+[lyrics.chorus]
+text = "Sweet will of God, still fold me clo -- ser, Till I am whol -- ly lost in Thee; Sweet will of God, still fold me clo -- ser, Till I am whol -- ly lost in Thee."
