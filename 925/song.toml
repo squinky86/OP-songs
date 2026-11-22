@@ -1,0 +1,75 @@
+title = "O Lord of Heaven, and Earth, and Sea"
+copyrights = [
+  "Lyrics: Christopher Wordsworth, 1863 (public domain)",
+  "Music: 'Almsgiving' by John Bacchus Dykes, 1865 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 113
+verse_count = 6
+phrase_breaks = ["8:48"]
+optional_phrase_breaks = ["4:48", "12:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+b'4 b'4 a'4 | g'2 d'4 | g'2 a'4 | b'2. |
+d'4 g'4 b'4 | d''2 c''4 | b'4( a'4) g'4 | a'2. |
+fis'4 g'4 a'4 | g'2 g'4 | b'4( c''4) d''4 | e''2. |
+g'4 b'4. a'8 | g'2.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+d'4 d'4 d'8[ c'8] | b4.( c'8) d'4 | d'4( c'4) c'4 | b2. |
+d'4 d'4 g'4 | g'4( fis'8[ e'8]) fis'4 | d'2 cis'4 | fis'2. |
+a4 b4 c'4 | b2 c'4 | d'4( g'4) f'4 | e'2. |
+b8[ d'8] g'4. fis'8 | g'2.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+g4 g4 fis4 | g4.( a8) b8[ a8] | g2 fis4 | g2. |
+b4 b4 b4 | b4( a8[ g8]) a4 | g4( a4) b4 | fis2. |
+c'4 b4 fis4 | g4( d'4) c'4 | b4( g4) a8[ b8] | c'4( g4 a4) |
+b8[ g8] d'4. c'8 | b2.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+g,4 b,4 d4 | g2 g8[ fis8] | e2 d4 | g,2. |
+g4 g4 e4 | d2 d4 | g4( fis4) e4 | d2. |
+d4 d4 d4 | g4( b4) a4 | g8([ f8] e4) d4 | c2. |
+d4 d4 d4/+24 | g2.
+"""
+
+[lyrics.1]
+text = "O Lord of heav’n, and earth, and sea, To Thee all praise and glo -- ry be; How shall we show our love to Thee, Who giv -- est all?"
+
+[lyrics.2]
+text = "The gold -- en sun -- shine, ver -- nal air, Sweet flow’rs and fruits Thy love de -- clare, Where har -- vests rip -- en, Thou art there, Who giv -- est all!"
+
+[lyrics.3]
+text = "For peace -- ful homes, and health -- ful days, For all the bless -- ings earth dis -- plays, We owe Thee thank -- ful -- ness and praise, Who giv -- est all!"
+
+[lyrics.4]
+text = "Thou didst not spare Thine on -- ly Son, But gav’st Him for a world un -- done, And free -- ly with that bless -- ed One Thou giv -- est all!"
+
+[lyrics.5]
+text = "For souls re -- deemed, for sins for -- giv’n, For means of grace and hopes of heav’n, O Lord, what can to Thee be giv’n Who giv -- est all?"
+
+[lyrics.6]
+text = "What -- ev -- er, Lord, we lend to Thee, Re -- paid a thou -- sand- -- fold will be; Then glad -- ly will we give to Thee, Who giv -- est all!"
