@@ -1,0 +1,63 @@
+title = "O How Kindly Hast Thou Led Me"
+copyrights = [
+  "Lyrics: Thomas Grinfield, 1836 (public domain)",
+  "Music: 'Middletown' by William Arnold, c. 1807 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 84
+verse_count = 2
+phrase_breaks = ["4:64", "8:64", "12:64"]
+optional_phrase_breaks = ["2:64", "6:64", "10:64", "14:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+g'4. a'8 b'4 b'4 | b'8[ a'8] a'8[ g'8] a'4 a'4 | g'4. b'8 d''4. b'8 | a'8[ g'8] a'8[ b'8] g'2 |
+g'4. a'8 b'4 b'4 | b'8[ a'8] a'8[ g'8] a'4 a'4 | g'4. b'8 d''4. b'8 | a'8[ g'8] a'8[ b'8] g'2 |
+b'4. c''8 d''4 d''4 | d''8[ c''8] c''8[ b'8] c''4 c''4 | a'4. c''8 b'4 d''4 | d''8[ c''8] c''8[ b'8] b'4( a'4) |
+g'4. a'8 b'4 b'4 | b'8[ a'8] a'8[ g'8] a'4 a'4 | g'4. b'8 d''4. b'8 | a'8[ g'8] a'8[ b'8] g'2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+d'4. d'8 g'4 g'4 | g'8[ d'8] d'8[ g'8] fis'4 fis'4 | g'4. g'8 g'4. g'8 | fis'8[ g'8] fis'4 g'2 |
+d'4. d'8 g'4 g'4 | g'8[ d'8] d'8[ g'8] fis'4 fis'4 | g'4. g'8 g'4. g'8 | fis'8[ g'8] fis'4 g'2 |
+g'4. a'8 b'4 b'4 | b'8[ a'8] a'8[ g'8] a'4 a'4 | fis'4. a'8 g'4 g'4 | fis'4 g'4 g'4( fis'4) |
+d'4. d'8 g'4 g'4 | g'8[ d'8] d'8[ g'8] fis'4 fis'4 | g'4. g'8 g'4. g'8 | fis'8[ g'8] fis'4 g'2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+b4. c'8 d'4 d'4 | d'8[ c'8] c'8[ b8] d'4 d'4 | b4. b8 b4. d'8 | c'8[ b8] c'8[ d'8] b2 |
+b4. c'8 d'4 d'4 | d'8[ c'8] c'8[ b8] d'4 d'4 | b4. b8 b4. d'8 | c'8[ b8] c'8[ d'8] b2 |
+d'4. d'8 d'4 d'4 | d'4 d'4 d'4 d'4 | d'4. d'8 d'4 d'4 | d'4 d'4 d'2 |
+b4. c'8 d'4 d'4 | d'8[ c'8] c'8[ b8] d'4 d'4 | b4. b8 b4. d'8 | c'8[ b8] c'8[ d'8] b2
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+g4. g8 g4 g4 | d4 d4 d4 d4 | g4. g8 g4. g8 | d4 d4 g2 |
+g4. g8 g4 g4 | d4 d4 d4 d4 | g4. g8 g4. g8 | d4 d4 g2 |
+g4. g8 g4 g4 | d4 d4 d4 d4 | d4. d8 g4 b4 | a4 g4 d2 |
+g4. g8 g4 g4 | d4 d4 d4 d4 | g4. g8 g4. g8 | d4 d4 g2
+"""
+
+[lyrics.1]
+text = "O how kind -- ly hast Thou led me, Heav’n -- ly Fa -- ther, day by day; Found my dwell -- ing, clothed and fed me, Fur -- nished friends to cheer my way! Didst Thou bless me, didst Thou chas -- ten, With Thy smile or with Thy rod, ’Twas that still my step might has -- ten Home -- ward, heav’n -- ward, to my God."
+
+[lyrics.2]
+text = "O how slow -- ly have I oft -- en Fol -- lowed where Thy hand would draw! How Thy kind -- ness failed to soft -- en! How Thy chas -- t’ning failed to awe! Make me for Thy rest more read -- y, As Thy path is lon -- ger trod; Keep me in Thy friend -- ship stead -- y, Till Thou call me home, my God."
