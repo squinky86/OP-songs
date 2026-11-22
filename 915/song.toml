@@ -1,0 +1,71 @@
+title = "Nearer the Cross"
+copyrights = [
+  "Lyrics: Fanny J. Crosby, 1873 (public domain)",
+  "Music: Phoebe Palmer Knapp, 1873 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "D"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 104
+verse_count = 3
+phrase_breaks = ["4:48", "8:48", "12:48", "14:48"]
+optional_phrase_breaks = ["2:48", "6:48", "10:48", "16:48"]
+optional_break_threshold_ticks = 192
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+fis'8. e'16 d'8 e'4 fis'8 | a'4 a'8 a'4. | d''4 a'8 a'4 fis'8 | fis'4. e'4. |
+fis'8. e'16 d'8 e'4 fis'8 | a'4 a'8 a'4. | d''4 a'8 a'4 fis'8 | e'4. d'4. |
+a'8. a'16 b'8 cis''4 b'8 | a'4 d''8 d''4. | a'8. a'16 b'8 cis''4 b'8 | a'4 d''8 d''4. |
+d''8. cis''16 b'8 d''4 b'8 | a'4 fis'8 d'4. | b'4 a'8 a'4 g'8 | g'4. fis'4. |
+d''4 a'8 a'4 fis'8 | e'4. d'4.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+d'8. cis'16 d'8 cis'4 d'8 | fis'4 g'8 fis'4. | fis'4 fis'8 fis'4 d'8 | d'4. cis'4. |
+d'8. cis'16 d'8 cis'4 d'8 | fis'4 g'8 fis'4. | fis'4 fis'8 fis'4 d'8 | cis'4. d'4. |
+g'8. g'16 g'8 g'4 g'8 | g'4 fis'8 fis'4. | g'8. g'16 g'8 g'4 g'8 | fis'4 fis'8 fis'4. |
+fis'8. a'16 g'8 g'4 g'8 | fis'4 d'8 d'4. | d'4 d'8 d'4 cis'8 | cis'4. d'4. |
+fis'4 fis'8 d'4 d'8 | cis'4. d'4.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+a8. g16 fis8 a4 a8 | a4 cis'8 d'4. | a4 a8 d'4 a8 | a4. a4. |
+a8. g16 fis8 a4 a8 | a4 cis'8 d'4. | a4 a8 d'4 a8 | g4. fis4. |
+cis'8. cis'16 d'8 e'4 d'8 | cis'4 a8 a4. | cis'8. cis'16 d'8 e'4 cis'8 | d'4 a8 a4. |
+d'8. d'16 d'8 b4 d'8 | d'4 a8 fis4. | g4 a8 a4 a8 | a4. a4. |
+a4 d'8 d'4 a8 | a4. fis4.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+d8. d16 d8 a,4 d8 | d4 a,8 d4. | d4 d8 d4 d8 | a,4. a,4. |
+d8. d16 d8 a,4 d8 | d4 a,8 d4. | d4 d8 d4 d8 | a,4. d4. |
+a,8. a,16 a,8 a4 a8 | a4 d8 d4. | a8. a16 a8 a4 a8 | d4 d8 d4. |
+d8. d16 d8 d4 d8 | d4 d8 d4. | g4 fis8 fis4 e8 | a,4. d4. |
+d4 d8 fis4 d8 | a,4. d4.
+"""
+
+[lyrics.1]
+text = "Near -- er the cross, my heart can say, I am com -- ing near -- er; Near -- er the cross from day to day, I am com -- ing near -- er; Near -- er the cross where Je -- sus died, Near -- er the foun -- tain’s crim -- son tide, Near -- er my Sav -- ior’s wound -- ed side, I am com -- ing near -- er, I am com -- ing near -- er."
+
+[lyrics.2]
+text = "Near -- er the Chris -- tian’s mer -- cy- -- seat, I am com -- ing near -- er; Feast -- ing my soul on man -- na sweet, I am com -- ing near -- er; Strong -- er in faith, more clear I see Je -- sus, who gave Him -- self for me; Near -- er to Him I still would be, Still I’m com -- ing near -- er, Still I’m com -- ing near -- er."
+
+[lyrics.3]
+text = "Near -- er in pray’r my hope as -- pires, I am com -- ing near -- er; Deep -- er the love my soul de -- sires, I am com -- ing near -- er; Near -- er the end of toil and care, Near -- er the joy I long to share, Near -- er the crown I soon shall wear, I am com -- ing near -- er, I am com -- ing near -- er."
