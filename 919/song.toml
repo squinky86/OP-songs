@@ -1,0 +1,57 @@
+title = "O for a Faith That Will Not Shrink"
+copyrights = [
+  "Lyrics: William Hiley Bathurst, 1831 (public domain)",
+  "Music: 'Azmon' by Carl Gotthilf Gläser, 1828; adapted by Lowell Mason, 1839 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 3
+time_sig_denominator = 2
+tempo_bpm = 160
+verse_count = 4
+phrase_breaks = ["5:64"]
+optional_phrase_breaks = ["3:64", "7:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s1 ees'2 | aes'4 aes'4 bes'2 bes'2 | c''4 bes'4 aes'2 bes'2 | c''4 c''4 des''2 c''2 | bes'1 ees''2 | ees''4 c''4 c''2 aes'2 | aes'4 f'4 f'2 aes'4( f'4) | ees'4 aes'4 aes'2 bes'2 | aes'1 s2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s1 ees'2 | ees'4 c'4 ees'2 ees'2 | ees'4 des'4 c'2 ees'2 | ees'4 ees'4 ees'2 ees'2 | ees'1 g'2 | aes'4 ees'4 ees'2 ees'2 | f'4 des'4 des'2 f'4( des'4) | c'4 c'4 c'2 des'2 | c'1 s2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s1 ees2 | ees4 aes4 g2 g2 | aes4 g4 aes2 g2 | aes4 aes4 bes2 aes2 | g1 bes2 | c'4 aes4 aes2 aes2 | aes4 aes4 aes2 aes2 | aes4 aes4 aes2 g2 | aes1 s2
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s1 ees2 | c4 aes,4 ees2 ees2 | aes4 ees4 f2 ees2 | aes4 aes4 g2 aes2 | ees1 ees2 | aes4 aes4 aes2 c2 | des4 des4 des2 des2 | ees4 ees4 ees2 ees2 | aes,1 s2
+"""
+
+[lyrics.1]
+text = "O for a faith that will not shrink, Tho’ pressed by ev -- ’ry foe; That will not trem -- ble on the brink Of an -- y earth -- ly woe."
+
+[lyrics.2]
+text = "That will not mur -- mur or com -- plain Be -- neath the chast’ -- ning rod; But, in the hour of grief or pain, Will lean up -- on its God."
+
+[lyrics.3]
+text = "A faith that shines more bright and clear When tem -- pests rage with -- out; That, when in dan -- ger, knows no fear, In dark -- ness, feels no doubt!"
+
+[lyrics.4]
+text = "Lord, give us such a faith as this; And then, what -- e’er may come, We’ll taste, e’en here, the hal -- lowed bliss Of an e -- ter -- nal home."
