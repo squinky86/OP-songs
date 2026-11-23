@@ -1,0 +1,69 @@
+title = "Out of My Bondage"
+copyrights = [
+  "Lyrics: William True Sleeper, 1886 (public domain)",
+  "Music: 'Jesus, I Come' by George C. Stebbins, 1886 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "A"
+time_sig_numerator = 6
+time_sig_denominator = 4
+tempo_bpm = 112
+verse_count = 4
+phrase_breaks = ["4:96", "8:96", "12:96"]
+optional_phrase_breaks = ["2:96", "6:96", "10:96", "14:96"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+e'4. dis'8 e'4 cis''2 b'4 | a'4. gis'8 fis'4 e'2. | a'4. gis'8 a'4 b'2. | b'4. a'8 b'4 cis''2. |
+e'4. dis'8 e'4 cis''2 b'4 | a'4. gis'8 fis'4 e'2. | a'4. gis'8 a'4 cis''2 b'4 | a'2.~ a'2 r4 |
+a'4. gis'8 a'4 d''2 fis'4 | e'4. dis'8 e'4 cis''2. | b'4. ais'8 b'4 e''2 gis'8-( gis'8-) | b'4. a'8 fis'4 e'2. |
+e'4. dis'8 e'4 cis''2 b'4 | a'4. gis'8 fis'4 e'2. | a'4. gis'8 a'4 cis''2 b'4 | a'2.~ a'2 r4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+cis'4. bis8 cis'4 e'2 e'4 | fis'4. e'8 d'4 cis'2. | cis'4. b8 cis'4 d'2. | d'4. cis'8 d'4 e'2. |
+cis'4. bis8 cis'4 e'2 e'4 | fis'4. e'8 d'4 cis'2. | cis'4. b8 cis'4 e'2 d'4 | cis'2.~ cis'2 r4 |
+fis'4. eis'8 fis'4 fis'2 d'4 | cis'4. bis8 cis'4 e'2. | e'4. e'8 e'4 gis'2 e'8-( e'8-) | dis'4. dis'8 dis'4 e'2( dis'4) |
+cis'4. bis8 cis'4 e'2 e'4 | fis'4. e'8 d'4 cis'2. | cis'4. b8 cis'4 e'2 d'4 | cis'2.~ cis'2 r4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+a4. a8 a4 a2 a4 | a4. a8 a4 a2. | a4. e8 a4 gis2. | gis4. e8 gis4 a2. |
+a4. a8 a4 a2 a4 | a4. a8 a4 a2. | a4. e8 a4 a2 gis4 | a2.~ a2 r4 |
+a4. b8 a4 a2 a4 | a4. a8 a4 a2. | gis4. fisis8 gis4 b2 b8-( b8-) | a4. fis8 a4 gis2. |
+a4. a8 a4 a2 a4 | a4. a8 a4 a2. | a4. e8 a4 a2 gis4 | a2.~ a2 r4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+a,4. a,8 a,4 a,2 cis4 | d4. d8 d4 a,2. | e4. e8 e4 e2. | e4. e8 e4 a,2. |
+a,4. a,8 a,4 a,2 cis4 | d4. d8 d4 a,2. | e4. e8 e4 e2 e4 | a,2.~ a,2 r4 |
+d4. d8 d4 d2 d4 | a,4. a,8 a,4 a,2. | e4. e8 e4 e2 e8-( e8-) | b,4. b,8 b,4 e2. |
+a,4. a,8 a,4 a,2 cis4 | d4. d8 d4 a,2. | e4. e8 e4 e2 e4 | a,2.~ a,2 r4
+"""
+
+[lyrics.1]
+text = "Out of my bon -- dage, sor -- row and night, Je -- sus, I come, Je -- sus, I come; In -- to Thy free -- dom, glad -- ness and light, Je -- sus, I come to Thee; Out of my sick -- ness in -- to Thy health, Out of my want, and _ in -- to Thy wealth, Out of my sin and in -- to Thy -- self, Je -- sus, I come to Thee."
+
+[lyrics.2]
+text = "Out of my shame -- ful fail -- ure and loss, Je -- sus, I come, Je -- sus, I come; In -- to the glo -- rious gain of Thy cross, Je -- sus I come to Thee. Out of earth’s sor -- rows in -- to Thy balm, Out of life’s storms and _ in -- to Thy calm, Out of dis -- tress to ju -- bi -- lant psalm, Je -- sus, I come to Thee."
+
+[lyrics.3]
+text = "Out of un -- rest and ar -- ro -- gant pride, Je -- sus, I come, Je -- sus, I come; In -- to Thy bless -- ed will to a -- bide, Je -- sus, I come to Thee. Out of my -- self to dwell in Thy love, Out of des -- pair in -- to rap -- tures a -- bove, Up -- ward for aye on wings like a dove, Je -- sus, I come to Thee."
+
+[lyrics.4]
+text = "Out of the fear and dread of the tomb, Je -- sus, I come, Je -- sus, I come; In -- to the joy and light of Thy home, Je -- sus, I come to Thee. Out of the depths of ru -- in un -- told, In -- to the peace of Thy shel -- ter -- ing fold, Ev -- er Thy glo -- rious face to be -- hold, Je -- sus, I come to Thee."
