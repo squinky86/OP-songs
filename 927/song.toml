@@ -1,0 +1,73 @@
+title = "O Mother Dear, Jerusalem"
+copyrights = [
+  "Lyrics: F. B. P., 16th century (public domain)",
+  "Music: 'Materna' by Samuel Augustus Ward, 1882 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "C"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 105
+verse_count = 4
+phrase_breaks = ["5:48", "9:48", "13:48"]
+optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. g'4 |
+g'4. e'8 e'4 g'4 | g'4. d'8 d'4 e'4 | f'4 g'4 a'4 b'4 | g'2. g'4 |
+g'4. e'8 e'4 g'4 | g'4. d'8 d'4 d''4 | cis''4 d''4 e''4 a'4 | d''2. g'4 |
+e''4. e''8 d''4 c''4 | c''4. b'8 b'4 c''4 | d''4 b'4 a'4 g'4 | c''2. c''4 |
+c''4. a'8 a'4 c''4 | c''4. g'8 g'4 g'4 | a'4 c''4 g'4 d''4 | c''2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. e'4 |
+e'4. c'8 c'4 e'4 | d'4. b8 b4 c'4 | d'4 d'4 f'4 f'4 | e'2( f'4) d'4 |
+e'4. c'8 c'4 e'4 | d'4. d'8 d'4 g'4 | g'4 g'4 fis'4 fis'4 | g'4( fis'4 f'4) g'4 |
+g'4. g'8 g'4 e'4 | f'4. g'8 g'4 g'4 | f'4 f'4 f'4 f'4 | e'2( f'4) g'4 |
+f'4. f'8 f'4 f'4 | e'4. e'8 e'4 g'4 | a'4 c''4 g'4 f'4 | e'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. c'4 |
+c'4. g8 g4 c'4 | b4. g8 g4 g4 | b4 b4 d'4 d'4 | c'4( bes4 b4) b4 |
+c'4. g8 g4 c'4 | b4. b8 b4 b4 | b4 b4 c'4 c'4 | b4( c'4 d'4) g4 |
+c'4. c'8 c'4 c'4 | d'4. d'8 d'4 c'4 | b4 b4 c'4 d'4 | c'4( g4 a4) bes4 |
+a4. a8 a4 a4 | g4. c'8 c'4 g4 | a4 c'4 g4 b4 | c'2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. c4 |
+c4. c8 c4 g,4 | d4. d8 d4 g,4 | d4 d4 g,4 g,4 | c4( cis4 d4) g,4 |
+c4. c8 c4 a,4 | d4. d8 d4 d4 | d4 d4 d4 a4 | g4( a4 b4) g4 |
+g4. e8 e4 g4 | g4. d8 d4 e4 | f4 g4 a4 b4 | c'4( c2) c4 |
+f4. f8 f4 d4 | g4. g8 g4 g4 | a4 c'4 g4 g,4 | c2. s4
+"""
+
+[lyrics.1]
+text = "O moth -- er dear, Je -- ru -- sa -- lem, When shall I come to thee? When shall my sor -- rows have an end? Thy joys when shall I see? O hap -- py har -- bor of the saints! O sweet and pleas -- ant soil! In thee no sor -- row may be found, No grief, no care, no toil."
+
+[lyrics.2]
+text = "No murk -- y cloud o’er -- shad -- ows thee, Nor gloom, nor dark -- some night; But ev -- ’ry soul shines as the sun, For God Him -- self gives light. O my sweet home, Je -- ru -- sa -- lem, Thy joys when shall I see? The King that sit -- teth on thy throne In His fe -- lic -- i -- ty?"
+
+[lyrics.3]
+text = "Thy gar -- dens and thy good -- ly walks Con -- tin -- ual -- ly are green; There grow such sweet and pleas -- ant flow’rs As no -- where else are seen. Right thro’ the streets, with sil -- ver sound, The liv -- ing wa -- ters flow; And on the banks, on ei -- ther side, The tree of life doth grow."
+
+[lyrics.4]
+text = "There trees for ev -- er -- more bear fruit, And ev -- er -- more do spring; And all the na -- tions of the earth To thee their hon -- ors bring. Je -- ru -- sa -- lem, my hap -- py home, When shall I come to thee? When shall my sor -- rows have an end? Thy joys when shall I see?"
