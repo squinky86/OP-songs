@@ -1,0 +1,109 @@
+title = "One Day!"
+copyrights = [
+  "Lyrics: John Wilbur Chapman, 1910 (public domain)",
+  "Music: Charles H. Marsh, 1909 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Db"
+time_sig_numerator = 9
+time_sig_denominator = 4
+tempo_bpm = 166
+verse_count = 5
+phrase_breaks = ["2:144", "4:144", "6:144", "8:144", "12:144"]
+optional_phrase_breaks = ["10:144", "14:144"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+aes'4 f'4 ges'4 aes'2. bes'2 c''4 | des''4 c''4 bes'4 aes'2. f'2. |
+ges'4 ees'4 f'4 ges'2. f'2 ges'4 | aes'4 aes'4 ges'4 f'2.~ f'2. |
+aes'4 f'4 ges'4 aes'2. bes'2 c''4 | des''4 c''4 bes'4 aes'2. f'2. |
+ees'4 aes'4 bes'4 c''2. bes'2 aes'4 | bes'4 ees'4 bes'4 aes'2.~ aes'2. |
+des''4@c bes'4 des''4 c''2. ges'2. | bes'4 c''4 bes'4 aes'2. f'2. |
+aes'4 ges'4 f'4 bes'2. bes'2 bes'4 | des''4 c''4 bes'4 ees''2.~ ees''2. |
+des''4 bes'4 des''4 c''2 ges'4 ges'2. | bes'4 c''4 ees''4 des''2. aes'2.\\< |
+bes'4^ bes'4^ bes'4^ ees''2.^ bes'2^ des''4^\\! | c''4\\rit aes'4^ ees''4^ des''2.^~ des''2.\\spanend
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+f'4 des'4 ees'4 f'2. f'2 f'4 | f'4 f'4 f'4 f'2. des'2. |
+c'4 c'4 des'4 ees'2. d'2 ees'4 | c'4 des'4 ees'4 des'2.~ des'2. |
+f'4 des'4 ees'4 f'2. f'2 f'4 | f'4 f'4 f'4 f'2. des'2. |
+c'4 ees'4 ees'4 ees'2. ees'2 ees'4 | des'4 des'4 des'4 c'2.( ges'2.) |
+f'4@c f'4 f'4 ges'2. c'2. | c'4 c'4 c'4 des'2. des'2. |
+des'4 c'4 des'4 des'2. d'2 d'4 | f'4 ees'4 ees'4 ees'2.( ges'2.) |
+f'4 f'4 f'4 ges'2 ees'4 ees'2. | ges'4 ges'4 ges'4 f'2. f'2.\\< |
+ges'4^ ges'4^ aes'4^ g'2.^ g'2^ g'4^\\! | ges'4 ges'4^ ges'4^ f'2.^~ f'2.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+aes4 aes4 aes4 des'2. des'2 aes4 | aes4 aes4 aes4 des'2. aes2. |
+aes4 aes4 aes4 aes2. aes2 aes4 | aes4 aes4 aes4 aes2.~ aes2. |
+aes4 aes4 aes4 des'2. des'2 aes4 | aes4 aes4 aes4 des'2. aes2. |
+aes4 aes4 g4 aes2. g2 aes4 | g4 g4 g4 aes2.~ aes2. |
+aes4@c aes4 aes4 aes2. aes2. | ges4 aes4 ges4 f2. aes2. |
+aes4 aes4 aes4 ges2. aes2 aes4 | g4 aes4 g4 aes2.~ aes2. |
+aes4 aes4 aes4 aes2 c'4 c'2. | c'4 ees'4 c'4 des'2. des'2.\\< |
+des'4^ des'4^ d'4^ ees'2.^ ees'2^ ees'4^\\! | ees'4 c'4^ c'4^ des'2.^~ des'2.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+des4 des4 des4 des2. des2 des4 | des4 des4 des4 des2. des2. |
+aes,4 aes,4 aes,4 c2. aes,2 aes,4 | aes,4 bes,4 c4 des2.~ des2. |
+des4 des4 des4 des2. des2 des4 | des4 des4 des4 des2. des2. |
+ees4 c4 bes,4 aes,2. bes,2 c4 | ees4 ees4 ees4 aes,2.( c2.) |
+des4@c des4 des4 ees2. aes,2. | aes,4 aes,4 aes,4 des2. des2. |
+f4 ees4 des4 ges2. f2 bes,4 | ees4 ees4 ees4 c2.( aes,2.) |
+des4 des4 des4 ees2 aes4 aes2. | aes4 aes4 aes4 des2. des2.\\< |
+ges4^ ges4^ f4^ ees2.^ ees2^ ees4^\\! | aes4 aes4^ aes4^ des2.^~ des2.
+"""
+
+[lyrics.1]
+text = """One day when heav -- en was filled with His prais -- es,
+One day when sin was as black as could be,
+Je -- sus came forth to be born of a vir -- gin—
+Dwelt a -- mongst men, my ex -- am -- ple is He!"""
+
+[lyrics.2]
+text = """One day they led Him up Cal -- va -- ry’s moun -- tain,
+One day they nailed Him to die on the tree;
+Suf -- fer -- ing an -- guish, de -- spised and re -- ject -- ed:
+Bear -- ing our sins, my Re -- deem -- er is He!"""
+
+[lyrics.3]
+text = """One day they left Him a -- lone in the gar -- den,
+One day He rest -- ed, from suf -- fer -- ing free;
+An -- gels came down o’er His tomb to keep vig -- il;
+Hope of the hope -- less, my Sav -- ior is He!"""
+
+[lyrics.4]
+text = """One day the grave could con -- ceal Him no lon -- ger,
+One day the stone rolled a -- way from the door;
+Then He a -- rose, o -- ver death He had con -- quered;
+Now is as -- cend -- ed, my Lord ev -- er -- more!"""
+
+[lyrics.5]
+text = """One day the trump -- et will sound for His com -- ing,
+One day the skies with His glo -- ry will shine;
+Won -- der -- ful day, my be -- lov -- ed ones bring -- ing;
+Glo -- ri -- ous Sav -- ior, this Je -- sus is mine!"""
+
+[lyrics.chorus]
+text = """Liv -- ing, He loved me; dy -- ing, He saved me;
+Bur -- ied, He car -- ried my sins far a -- way;
+Ris -- ing, He jus -- ti -- fied free -- ly for -- ev -- er:
+One day He’s com -- ing— O glo -- ri -- ous day!"""
