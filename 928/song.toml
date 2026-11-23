@@ -1,0 +1,73 @@
+title = "O My Soul Is Filled With Rapture"
+copyrights = [
+  "Lyrics: Laura Bell Ogilvie Hunter, 1911 (public domain)",
+  "Music: John R. Bryant, 1911 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 3
+phrase_breaks = ["5:32", "9:32", "13:32"]
+optional_phrase_breaks = ["3:32", "7:32", "11:32", "15:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 f'8. g'16 | a'4. a'8 d''8. b'16 | c''4 a'4 a'8. bes'16 | c''4. d''8 bes'8. c''16 |
+a'2 c''8. c''16 | d''4. d''8 e''8. d''16 | d''4 c''4 c''8. d''16 | e''4. f''8 e''8. d''16 |
+c''2 d''8.@c c''16 | c''4. g'8 d''8. c''16 | c''4 a'4 d''8. c''16 | g'4. a'8 bes'8. bes'16 |
+a'2 a'8. a'16 | a'4. a'8 a'8. a'16 | d''4 d''4 e''8. e''16 | f''4. a'8 a'8. g'16 |
+f'2 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 f'8. f'16 | f'4. f'8 f'8. f'16 | a'4 f'4 f'8. f'16 | f'4. f'8 e'8. e'16 |
+f'2 f'8. f'16 | f'4. f'8 f'8. f'16 | f'4 f'4 a'8. a'16 | g'4. a'8 g'8. f'16 |
+e'2 e'8.@c e'16 | e'4. e'8 e'8. e'16 | f'4 f'4 e'8. e'16 | e'4. e'8 e'8. e'16 |
+f'2 f'8. g'16 | f'4. f'8 f'8. f'16 | f'4 f'4 g'8. g'16 | a'4. f'8 f'8. e'16 |
+f'2 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 a8. bes16 | c'4. c'8 b8. c'16 | c'4 c'4 f8. g16 | a4. a8 g8. a16 |
+f2 a8. a16 | bes4. bes8 c'8. bes16 | bes4 a4 c'8. c'16 | c'4. c'8 c'8. b16 |
+c'2 bes8.@c a16 | g4. c'8 bes8. a16 | a4 c'4 bes8. a16 | c'4. c'8 c'8. c'16 |
+c'2 c'8. cis'16 | d'4. d'8 d'8. d'16 | bes4 bes4 c'8. c'16 | c'4. c'8 c'8. bes16 |
+a2 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 f8. f16 | f4. f8 f8. f16 | f4 f4 f8. f16 | f4. f8 c8. c16 |
+f2 f8. f16 | bes,4. bes,8 bes,8. bes,16 | f4 f4 f8. f16 | g4. g8 g8. g16 |
+c2 c8.@c c16 | c4. c8 c8. c16 | f4 f4 c8. c16 | c4. c8 c8. c16 |
+f2 f8. e16 | d4. d8 d8. d16 | bes4 bes4 g8. g16 | f4. c8 c8. c16 |
+f2 s4
+"""
+
+[lyrics.1]
+text = "O my soul is filled with rap -- ture As I think of God’s great love; Love that pur -- chased my re -- demp -- tion, Fit -- ted up my home a -- bove."
+
+[lyrics.2]
+text = "I was lost in sin and sor -- row, Ne’er could I have seen His face; With His own life- -- blood He bought me, Saved me by His won -- drous grace."
+
+[lyrics.3]
+text = "Can I ev -- er cease to love Him, Ev -- er cease to sound His praise? O that ev -- ’ry soul might know Him, And in -- cline to right -- eous ways."
+
+[lyrics.chorus]
+text = "Love of Je -- sus, O how pre -- cious! Love that res -- cued e -- ven me; Lord, my soul looks up in glad -- ness, And my heart sings praise to Thee."
