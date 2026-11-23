@@ -1,0 +1,76 @@
+title = "O to Be Like Thee!"
+copyrights = [
+  "Lyrics: Thomas O. Chisholm, 1897 (public domain)",
+  "Music: William J. Kirkpatrick, 1897 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "D"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 72
+verse_count = 4
+phrase_breaks = ["5:32", "9:32", "13:32"]
+optional_phrase_breaks = ["3:32", "7:32", "11:32", "15:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 {3 d'8 fis'8 a'8 } | a'4 a'4 {3 b'8 cis''8 d''8 } | a'4 fis'4 {3 d'8 fis'8 a'8 } | a'4 fis'4 {3 fis'8 g'8 fis'8 } |
+e'2 {3 d'8 fis'8 a'8 } | a'4 a'4 {3 b'8 cis''8 d''8 } | a'4 fis'4 {3 a'8 g'8 fis'8 } | e'4 d''4 {3 d''8 cis''8 b'8 } |
+a'2! {3 a'8@c gis'8 a'8 } | b'4 g'4 {3 d''8 cis''8 b'8 } | b'4 a'4 {3 a'8 g'8 fis'8 } | g'4 g'4 {3 b'8 a'8 g'8 } |
+fis'2 {3 a'8 gis'8 a'8 } | b'4 g'4 {3 d''8 cis''8 b'8 } | b'4 a'4 {3 d'8 fis'8 a'8 } | a'4 fis'4\\rit {3 fis'8 d'8 e'8 } |
+d'2\\spanend s4 |
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 {3 d'8 d'8 fis'8 } | fis'4 fis'4 {3 eis'8 eis'8 eis'8 } | fis'4 d'4 {3 d'8 d'8 fis'8 } | fis'4 d'4 {3 d'8 e'8 d'8 } |
+cis'2 {3 d'8 d'8 fis'8 } | fis'4 fis'4 {3 eis'8 eis'8 eis'8 } | fis'4 d'4 {3 fis'8 e'8 d'8 } | cis'4 gis'4 {3 gis'8 gis'8 gis'8 } |
+e'4!( g'4) {3 fis'8@c eis'8 fis'8 } | g'4 d'4 {3 b'8 a'8 g'8 } | g'4 fis'4 {3 fis'8 e'8 d'8 } | e'4 e'4 {3 g'8 fis'8 e'8 } |
+d'2 {3 fis'8 eis'8 fis'8 } | g'4 d'4 {3 b'8 a'8 g'8 } | g'4 fis'4 {3 d'8 fis'8 a'8 } | a'4 d'4 {3 d'8 a8 a8 } |
+a2 s4 |
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 {3 fis8 a8 d'8 } | d'4 a4 {3 gis8 gis8 gis8 } | a4 a4 {3 fis8 a8 d'8 } | d'4 a4 {3 a8 a8 a8 } |
+a2 {3 fis8 a8 d'8 } | d'4 a4 {3 gis8 gis8 gis8 } | a4 a4 {3 a8 a8 a8 } | a4 b4 {3 b8 cis'8 d'8 } |
+cis'2! {3 d'8@c d'8 d'8 } | d'4 b4 {3 d'8 d'8 d'8 } | d'4 d'4 {3 a8 a8 a8 } | cis'4 cis'4 {3 a8 a8 a8 } |
+a2 {3 d'8 d'8 d'8 } | d'4 b4 {3 d'8 d'8 d'8 } | d'4 d'4 {3 d8 fis8 a8 } | a4 a4 {3 a8 fis8 g8 } |
+fis2 s4 |
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 {3 d8 d8 d8 } | d4 d4 {3 d8 d8 d8 } | d4 d4 {3 d8 d8 d8 } | d4 d4 {3 d8 cis8 d8 } |
+a,2 {3 d8 d8 d8 } | d4 d4 {3 d8 d8 d8 } | d4 d4 {3 d8 d8 d8 } | e4 e4 {3 e8 e8 e8 } |
+a,2! {3 d8@c d8 d8 } | g4 g4 {3 g8 g8 g8 } | d4 d4 {3 d8 d8 d8 } | a,4 a,4 {3 a,8 b,8 cis8 } |
+d2 {3 d8 d8 d8 } | g4 g4 {3 g8 g8 g8 } | d4 d4 {3 d8 fis8 a8 } | a4 a4 {3 a,8 a,8 a,8 } |
+d2 s4 |
+"""
+
+[lyrics.1]
+text = "O to be like Thee! bless -- ed Re -- deem -- er, This is my con -- stant long -- ing and pray’r; Glad -- ly I’ll for -- feit all of earth’s treas -- ures, Je -- sus, Thy per -- fect like -- ness to wear."
+
+[lyrics.2]
+text = "O to be like Thee! full of com -- pas -- sion, Lov -- ing, for -- giv -- ing, ten -- der and kind; Help -- ing the help -- less, cheer -- ing the faint -- ing, Seek -- ing the wan -- d’ring sin -- ner to find."
+
+[lyrics.3]
+text = "O to be like Thee! low -- ly in spir -- it, Ho -- ly and harm -- less, pa -- tient and brave; Meek -- ly en -- dur -- ing cru -- el re -- proach -- es, Will -- ing to suf -- fer, oth -- ers to save."
+
+[lyrics.4]
+text = "O to be like Thee! Lord, I am com -- ing, Now to re -- ceive th’a -- noint -- ing di -- vine; All that I am and have I am bring -- ing; Lord, from this mo -- ment all shall be Thine."
+
+[lyrics.chorus]
+text = "O to be like Thee! O to be like Thee! bless -- ed Re -- deem -- er, pure as Thou art; Come in Thy sweet -- ness, come in Thy full -- ness; Stamp Thine own im -- age deep on my heart."
