@@ -1,0 +1,66 @@
+title = "Purer Yet and Purer"
+copyrights = [
+  "Lyrics: Anne R. Bennett, 1851 (public domain)",
+  "Music: 'Lyndhurst' by Silas J. Vail, 1882 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 3
+phrase_breaks = ["4:64", "8:64", "12:64"]
+optional_phrase_breaks = ["2:64", "6:64", "10:64", "14:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+ees'4 ees'4 aes'4 bes'4 | c''2 aes'2 | aes'4 g'4 aes'4 f'4 | ees'1 |
+ees'4 ees'4 aes'4 bes'4 | c''2 ees''2 | des''4 bes'4 aes'4 g'4 | aes'1 |
+bes'4 bes'4 bes'4 c''4 | des''2 bes'2 | c''4 c''4 c''4 d''4 | ees''1 |
+ees'4 ees'4 aes'4 bes'4 | c''2 ees''2 | des''4 bes'4 aes'4 g'4 | aes'1
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+c'4 c'4 ees'4 ees'4 | ees'2 ees'2 | f'4 e'4 f'4 des'4 | c'1 |
+c'4 c'4 ees'4 ees'4 | ees'2 ges'2 | f'4 des'4 c'4 des'4 | c'1 |
+ees'4 ees'4 ees'4 ees'4 | ees'2 ees'2 | ees'4 ees'4 ees'4 aes'4 | g'1 |
+c'4 c'4 ees'4 ees'4 | ees'2 ges'2 | f'4 des'4 c'4 des'4 | c'1
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+aes4 aes4 aes4 g4 | aes2 aes2 | aes4 aes4 aes4 aes4 | aes1 |
+aes4 aes4 aes4 g4 | aes2 aes2 | aes4 f4 ees4 ees4 | ees1 |
+g4 g4 g4 aes4 | bes2 g2 | aes4 aes4 aes4 bes4 | bes1 |
+aes4 aes4 aes4 g4 | aes2 aes2 | aes4 f4 ees4 ees4 | ees1
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+aes,4 aes,4 c4 ees4 | aes2 c2 | des4 des4 des4 des4 | aes,1 |
+aes,4 aes,4 c4 ees4 | aes2 c2 | des4 des4 ees4 ees4 | aes,1 |
+ees4 ees4 ees4 ees4 | ees2 ees2 | aes4 aes4 aes4 f4 | ees1 |
+aes,4 aes,4 c4 ees4 | aes2 c2 | des4 des4 ees4 ees4 | aes,1
+"""
+
+[lyrics.1]
+text = "Pur -- er yet and pur -- er, I would be in mind; Dear -- er yet and dear -- er, Ev’ -- ry du -- ty find; Hop -- ing still, and trust -- ing God with -- out a fear; Pa -- tient -- ly be -- liev -- ing He will make all clear."
+
+[lyrics.2]
+text = "Calm -- er yet and calm -- er, Tri -- al bear and pain; Sur -- er yet and sur -- er, Peace at last to gain; Suff’ -- ring still and do -- ing, To His will re -- signed, And to God sub -- du -- ing Heart and will and mind."
+
+[lyrics.3]
+text = "High -- er yet and high -- er, Out of clouds and night; Near -- er yet and near -- er, Ris -- ing to the light; Oft these ear -- nest long -- ings Swell with -- in my breast; Yet their in -- ner mean -- ing Ne’er can be ex -- pressed."
