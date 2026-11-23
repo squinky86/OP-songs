@@ -1,0 +1,73 @@
+title = "None of Self and All of Thee"
+copyrights = [
+  "Lyrics: Theodore Monod, 1874 (public domain)",
+  "Music: James McGranahan, 1876 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "C"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 92
+verse_count = 4
+phrase_breaks = ["5:32", "9:32", "13:32"]
+optional_phrase_breaks = ["3:32", "7:32", "11:32", "15:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 e'8. f'16 | g'4. a'8 g'8. e'16 | d'4 c'4 e'8. g'16 | c''4. d''8 c''8 g'8
+| a'2 a'8. a'16 | g'4. g'8 a'8. g'16 | c''4 e'4 g'8. c''16 | b'4. g'8 a'8. b'16
+| c''2 g'8.%mf g'16 | c''4. d''8 c''8. g'16 | a'2 a'8.%f a'16 | d''4. e''8 d''8. a'16
+| b'2 g'8.%ff g'16 | e''4. e''8 d''8. c''16 | b'4 a'4 a'8. a'16 | g'4.\\rit c''8 c''8. b'16
+| c''2\\spanend s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 c'8. d'16 | e'4. f'8 e'8. c'16 | c'4 c'4 c'8. e'16 | e'4. e'8 e'8 e'8
+| f'2 f'8. f'16 | e'4. e'8 f'8. e'16 | e'4 c'4 e'8. e'16 | d'4. f'8 f'8. f'16
+| e'2 e'8.%mf e'16 | e'4. e'8 e'8. e'16 | f'2 f'8.%f f'16 | fis'4. fis'8 fis'8. fis'16
+| g'2 g'8.%ff g'16 | g'4. g'8 g'8. g'16 | g'4 f'4 f'8. f'16 | e'4. e'8 e'8. f'16
+| e'2 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 g8. g16 | c'4. c'8 c'8. g16 | f4 e4 g8. c'16 | g4. g8 g8 c'8
+| c'2 c'8. c'16 | c'4. c'8 c'8. c'16 | g4 g4 c'8. g16 | g4. b8 b8. g16
+| g2 c'8.%mf c'16 | g4. g8 g8. c'16 | c'2 c'8.%f a16 | a4. a8 a8. d'16
+| d'2 c'8.%ff b16 | c'4. c'8 b8. c'16 | c'4 c'4 c'8. c'16 | c'4. g8 g8. g16
+| g2 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 c8. c16 | c4. c8 c8. c16 | c4 c4 c8. c16 | c4. c8 c8 c8
+| f2 f8. f16 | c4. c8 c8. c16 | c4 c4 c8. c16 | g,4. g,8 g,8. g,16
+| c2 c8.%mf c16 | c4. c8 c8. c16 | f2 f8.%f f16 | d4. d8 d8. d16
+| g2 e8.%ff d16 | c4. c8 d8. e16 | f4 f4 f8. f16 | g4. g8 g8. g,16
+| c2 s4
+"""
+
+[lyrics.1]
+text = "O the bit -- ter pain and sor -- row That a time could ev -- er be, When I proud -- ly said to Je -- sus “All of self, and none of Thee,” All of self and none of Thee, All of self and none of Thee, When I proud -- ly said to Je -- sus “All of self and none of Thee.”"
+
+[lyrics.2]
+text = "Yet He found me; I be -- held Him Bleed -- ing on th’ac -- curs -- ed tree, And my wist -- ful heart said faint -- ly, “Some of self, and some of Thee,” Some of self and some of Thee, Some of self and some of Thee, And my wist -- ful heart said faint -- ly “Some of self and some of Thee.”"
+
+[lyrics.3]
+text = "Day by day His ten -- der mer -- cy Heal -- ing, help -- ing, full and free, Bro’t me low -- er while I whis -- pered “Less of self, and more of Thee,” Less of self and more of Thee, Less of self and more of Thee, Bro’t me low -- er while I whis -- pered, “Less of self and more of Thee.”"
+
+[lyrics.4]
+text = "High -- er than the high -- est heav -- ens, Deep -- er than the deep -- est sea, Lord, Thy love at last has con -- quered “None of self, and all of Thee,” None of self and all of Thee, None of self and all of Thee, Lord, Thy love at last has con -- quered “None of self and all of Thee.”"
