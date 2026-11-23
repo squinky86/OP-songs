@@ -1,0 +1,79 @@
+title = "Onward, Christian, Though the Region"
+copyrights = [
+  "Lyrics: Samuel Johnson, 1846 (public domain)",
+  "Music: 'St. Asaph' by William Samuel Bambridge, 1872 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "D"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 110
+verse_count = 2
+phrase_breaks = ["4:64", "8:64", "12:64"]
+optional_phrase_breaks = ["2:64", "6:64", "10:64", "14:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+fis'4 fis'4 fis'4. g'8 | a'4 a'4 a'4 d''4 |
+d''4 b'4 a'4 b'4 | a'4 fis'4 e'2 |
+fis'4 fis'4 fis'4. g'8 | a'4 a'4 a'4 d''4 |
+cis''4 b'4 e''4 d''4 | cis''4 b'4 a'2 |
+a'4 b'4 cis''4 d''4 | cis''4. cis''8 cis''4 gis'4 |
+a'4 b'4 cis''4 d''4 | cis''4 b'4 a'2 |
+fis'4 fis'4 fis'4. g'8 | a'4 a'4 a'4 d''4 |
+d''4 b'4 a'4 b'4 | fis'4 e'4 d'2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+d'4 d'4 d'4. cis'8 | d'4 e'4 fis'4 fis'4 |
+g'4 g'4 d'4 d'4 | e'4 d'4 cis'2 |
+d'4 d'4 d'4. cis'8 | d'4 e'4 fis'4 d'4 |
+e'4 e'4 e'4 fis'4 | e'4. d'8/-24 cis'2 |
+fis'4 fis'4 fis'4 fis'4 | eis'4. fis'8 gis'4 eis'4 |
+fis'4 fis'4 fis'4 fis'4 | eis'4 eis'4 cis'2 |
+d'4 d'4 d'4. cis'8 | d'4 e'4 fis'4 fis'4 |
+g'4 g'4 d'4 d'4 | d'4 cis'4 d'2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+a4 a4 a4. a8 | a4 cis'4 d'4 a4 |
+b4 d'4 d'4 fis4 | a4 a4 a2 |
+a4 a4 a4. a8 | a4 cis'4 d'4 b4 |
+a4 gis4 a4 a4 | a4 gis4 a2 |
+cis'4 d'4 cis'4 b4 | gis4 cis'4/+24 cis'4 cis'4 |
+cis'4 b4 a4 b4 | gis4 gis4 fis2 |
+a4 a4 a4. a8 | a4 cis'4 d'4 a4 |
+b4 d'4 d'4 fis8[ g8] | a4. g8/-24 fis2
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+d4 a,4 d4. e8 | fis4 g4 fis4 d4 |
+g4 g4 fis4 b,4 | cis4 d4 a,2 |
+d4 a,4 d4. e8 | fis4 g4 fis4 b,4 |
+e4 d4 cis4 d4 | e4 e4 a,2 |
+fis4 d4 a,4 b,4 | cis4. dis8 eis4 cis4 |
+fis4 d4 cis4 b,4 | cis4 cis4 fis2 |
+d4 a,4 d4. e8 | fis4 g4 fis4 d4 |
+g4 g4 fis4 b,4 | a,4 a,4 d2
+"""
+
+[lyrics.1]
+text = "On -- ward, Chris -- tian, though the re -- gion Where thou art be drear and lone; God has set a guard -- ian le -- gion Ver -- y near thee: press thou on. Lis -- ten, Chris -- tian! their ho -- san -- na Roll -- eth o’er thee: “God is Love;” Write up -- on Thy red- -- cross ban -- ner, “Up -- ward ev -- er; heav’n’s a -- bove.”"
+
+[lyrics.2]
+text = "By the thorn- -- road, and none oth -- er, Is the mount of vi -- sion won; Tread it with -- out shrink -- ing, broth -- er— Je -- sus trod it— press thou on. By thy trust -- ful, calm en -- deav -- or, Guid -- ing, cheer -- ing, like the sun, Earth- -- bound hearts thou shalt de -- liv -- er; O, for their sake press thou on!"
