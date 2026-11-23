@@ -1,0 +1,60 @@
+title = "Praise God, From Whom All Blessings Flow"
+copyrights = [
+  "Lyrics: Thomas Ken, 1694 (public domain)",
+  "Music: 'Old Hundredth' by Louis Bourgeois, 1551 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 112
+verse_count = 1
+phrase_breaks = ["7:32"]
+optional_phrase_breaks = ["4:32", "10:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 g'2 | g'4 fis'4 e'4 d'4 | g'2 a'2 | b'2 b'2 |
+b'4 b'4 a'4 g'4 | c''2 b'2 | a'2 g'2 | a'4 b'4 a'4 g'4 |
+e'2 fis'2 | g'2 d''2 | b'4 g'4 a'4 c''4 | b'2 a'2 |
+g'2 s2 |
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 d'2 | d'4 d'4 b4 b4 | b2 d'2 | d'2 d'2 |
+d'4 g'4 fis'4 g'4 | g'2 g'2 | fis'2 g'2 | fis'4 g'4 fis'4 d'4 |
+e'2 d'2 | d'2 d'2 | d'4 g'4 fis'4 e'8[ fis'8] | g'2 fis'2 |
+g'2 s2 |
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 b2 | b4 a4 g4 fis4 | e2 fis2 | g2 g2 |
+b4 d'4 d'4 b4 | e'2 d'2 | d'2 b2 | d'4 d'4 d'4 d'4 |
+c'4( b4) a2 | b2 b2 | g4 b4 d'4 e'4 | d'2 d'4( c'4) |
+b2 s2 |
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 g2 | g4 d4 e4 b,4 | e2 d2 | g,2 g2 |
+g4 g4 d4 e4 | c2 g,2 | d2 e2 | d4 g4 d4 b,4 |
+c2 d2 | g,2 g2 | g4 e4 d4 a,4 | b,4( c4) d2 |
+g,2 s2 |
+"""
+
+[lyrics.1]
+text = "Praise God from whom all bless -- ings flow; Praise Him, all crea -- tures here be -- low; Praise Him a -- bove, ye heav’n -- ly host; Praise Fa -- ther, Son, and Ho -- ly Ghost."
