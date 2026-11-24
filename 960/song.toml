@@ -1,0 +1,94 @@
+title = "Sing On"
+copyrights = [
+  "Lyrics: Fanny J. Crosby as Carrie M. Wilson, 1885 (public domain)",
+  "Music: John R. Sweney, 1885 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 110
+verse_count = 3
+phrase_breaks = ["5:48", "9:48", "13:48", "17:64", "21:64", "25:64", "29:64"]
+optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48", "19:64", "23:48", "27:64", "31:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. c''4 | c''4. a'8 bes'4 a'4 | a'2 g'4 c'4 | f'4. f'8 g'4 f'4 | c''2. c''4
+| d''4. d''8 c''4 c''4 | c''4.( bes'8) a'4 a'4 | g'4. e''8 e''4 d''4 | c''2. c''4
+| d''4 c''4 bes'4 a'4 | c''4.( bes'8) a'4 a'4 | a'4. e'8 f'4 d'4 | e'2. e'4
+| f'4. f'8 f'4 bes'4 | a'2 c''4 c''4 | c''4. bes'8 a'4 g'4 | f'2. r4
+| a'2@c g'8. f'16 g'8. a'16 | f'2 c'2 | c''2 b'8. c''16 d''8. c''16 | c''2( a'2)
+| g'2 g'8. a'16 bes'8. c''16 | a'4( c''4) f''4 f''4 | e''4. d''8 c''4 b'4 | c''2. r4
+| a'2 g'8. f'16 g'8. a'16 | f'2 c'2 | c''2 b'8. c''16 d''8. c''16 | c''2( a'2)
+| g'2 g'8. a'16 bes'8. c''16 | a'4( c''4) f''4 d''4 | c''4. c''8 c''4 e'4 | f'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. f'4 | f'4. f'8 f'4 f'4 | f'2 e'4 c'4 | c'4. c'8 c'4 d'4 | e'2. e'4
+| e'4. e'8 f'4 f'4 | e'2 f'4 f'4 | e'4. g'8 g'4 f'4 | e'2. e'4
+| e'4 f'4 g'4 f'4 | e'2 f'4 a'4 | a'4. e'8 f'4 d'4 | cis'2. cis'4
+| d'4. d'8 d'4 d'4 | c'2 f'4 f'4 | e'4. g'8 f'4 e'4 | f'2. r4
+| r1@c | r1 | a'2 gis'8. a'16 bes'8. a'16 | a'2( f'2)
+| e'2 e'8. f'16 g'8. e'16 | f'4( a'4) a'4 a'4 | g'4. g'8 g'4 f'4 | e'2. r4
+| f'4 f'4 c'8. c'16 c'8. c'16 | c'2 c'2 | a'2 gis'8. a'16 bes'8. a'16 | a'2( f'2)
+| e'2 e'8. f'16 g'8. e'16 | f'4( a'4) a'4 f'4 | f'4. f'8 e'4 c'4 | c'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. a4 | a4. c'8 d'4 c'4 | c'2 c'4 bes4 | a4. a8 bes4 b4 | c'2. c'4
+| c'4. c'8 c'4 c'4 | c'2 c'4 c'4 | c'4. c'8 c'4 b4 | c'2. c'4
+| c'4 c'4 c'4 c'4 | c'2 c'4 a4 | a4. e8 f4 d4 | a2. a4
+| a4. a8 bes4 f4 | f2 a4 a4 | g4. c'8 c'4 bes4 | a2. r4
+| c'2@c bes8. a16 bes8. c'16 | a2 a2 | r1 | r1
+| c'2 c'8. c'16 c'8. c'16 | c'2 c'4 c'4 | c'4. f'8 e'4 d'4 | c'2. r4
+| c'4 c'4 bes8. a16 bes8. c'16 | a2 a2 | c'2 c'8. c'16 c'8. c'16 | f'2( c'2)
+| c'2 c'8. c'16 c'8. c'16 | c'2 c'4 bes4 | a4. a8 g4 bes4 | a2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. f4 | f4. f8 f4 f4 | c2 c4 e4 | f4. f8 e4 d4 | c2. c'4
+| bes4. bes8 a4 a4 | g2 f4 f4 | g4. g8 g4 g,4 | c2. c'4
+| bes4 a4 e4 f4 | c2 f4 a4 | a4. e8 f4 d4 | a,2. a,4
+| d4. d8 bes,4 bes,4 | f2 f4 f4 | c4. c8 c4 c4 | f2. r4
+| r1@c | r1 | r1 | r1
+| c2 c8. c16 c8. c16 | f2 f4 f4 | g4. g8 g4 g4 | c'4( bes4 a4 g4)
+| f4 f4 f8. f16 f8. f16 | f2 f2 | f2 f8. f16 f8. f16 | f1
+| c2 c8. c16 c8. c16 | f2 f4 bes,4 | c4. c8 c4 c4 | f2. s4
+"""
+
+[lyrics.1]
+text = "Sing on, ye joy -- ful pil -- grims, Nor think the mo -- ments long; My faith is heav’n -- ward ris -- ing With ev -- ’ry tune -- ful song; Lo! on the mount of bless -- ing, The glo -- rious mount, I stand; And look -- ing o -- ver Jor -- dan, I see the prom -- ised land."
+
+[lyrics.2]
+text = "Sing on, ye joy -- ful pil -- grims, While here on earth we stay; Let songs of home and Je -- sus Be -- guile each fleet -- ing day; Sing on the grand old sto -- ry Of His Re -- deem -- ing love, The ev -- er -- last -- ing cho -- rus That fills the realms a -- bove."
+
+[lyrics.3]
+text = "Sing on, ye joy -- ful pil -- grims, The time will not be long, Till in our Fa -- ther’s king -- dom We swell a no -- bler song, Where those we love are wait -- ing To greet us on the shore, We’ll meet be -- yond the riv -- er, Where surg -- es roll no more."
+
+[lyrics.chorus]
+text = "Sing on, O bliss -- ful mu -- sic! With ev -- ’ry note you raise My heart is filled with rap -- ture, My soul is lost in praise; Sing on, O bliss -- ful mu -- sic! With ev -- ’ry note you raise My heart is filled with rap -- ture, My soul is lost in praise."
+
+[parts.Alto.lyrics.chorus]
+text = "With ev -- ’ry note you raise My heart is filled with rap -- ture, My soul is lost in praise; Sing on, bliss -- ful, bliss -- ful mu -- sic! With ev -- ’ry note you raise My heart is filled with rap -- ture, My soul is lost in praise."
+
+[parts.Tenor.lyrics.chorus]
+text = "Sing on, O bliss -- ful mu -- sic! My heart is filled with rap -- ture, My soul is lost in praise; Sing on, bliss -- ful, bliss -- ful mu -- sic! With ev -- ’ry note you raise My heart is filled with rap -- ture, My soul is lost in praise."
+
+[parts.Bass.lyrics.chorus]
+text = "My heart is filled with rap -- ture, My soul is lost in praise; Sing on, bliss -- ful, bliss -- ful mu -- sic! With ev -- ’ry note you raise My heart is filled with rap -- ture, My soul is lost in praise."
