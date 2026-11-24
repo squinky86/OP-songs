@@ -1,0 +1,103 @@
+title = "Seek Ye First the Kingdom"
+copyrights = [
+  "Lyrics: E. E. Hewitt, 1901 (public domain)",
+  "Music: John R. Sweney, 1901 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 112
+verse_count = 3
+phrase_breaks = ["4:48", "8:48", "12:48", "16:48", "20:48", "24:48", "28:48"]
+optional_phrase_breaks = ["2:48", "6:48", "10:48", "14:48", "18:48", "22:48", "26:48", "30:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+b'4 b'8 d''4 c''8 | c''4. b'4. | b'4 a'8 d'4 a'8 | g'4.~ g'4 r8
+| g'4 a'8 g'4 e'8 | d'4. g'4. | b'4 a'8 e'4 a'8 | a'4.~ a'4 r8
+| b'4 b'8 d''4 c''8 | c''4. b'4. | b'4 fis'8 b'4 a'8 | a'4.( g'4.)
+| g'4 a'8 g'4 e'8 | d'4( c''8) b'4. | b'4 a'8 d'4 a'8 | g'4.~ g'4 r8
+| d''4@c cis''8 e''4 d''8 | d''4. c''4. | c''4 b'8 d''4 c''8 | b'4.~ b'4 r8
+| b'4 fis'8 b'4 a'8 | a'4. g'4. | b'4 a'8 cis''4 a'8 | d''4.~ d''4 r8
+| d''4 e''8 d''4 a'8 | c''4 b'8 b'4. | b'4 c''8 b'4 fis'8 | a'4 g'8 g'4.
+| g'4 a'8 g'4 e'8 | d'4( c''8) b'4. | d''4 c''8 e'4 fis'8 | g'4.~ g'4 r8
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+d'4 d'8 fis'4 e'8 | e'4. d'4. | c'4 c'8 c'4 c'8 | b4.~ b4 r8
+| e'4 dis'8 e'4 c'8 | b4. b4. | cis'4 cis'8 cis'4 cis'8 | c'4.~ c'4 r8
+| d'4 d'8 fis'4 e'8 | e'4. d'4. | dis'4 dis'8 dis'4 dis'8 | fis'4.( e'4.)
+| e'4 dis'8 e'4 c'8 | b4( e'8) d'4. | c'4 c'8 c'4 c'8 | b4.~ b4 r8
+| g'4@c g'8 g'4 g'8 | fis'4. fis'4. | d'4 d'8 d'4 d'8 | d'4.~ d'4 r8
+| dis'4 dis'8 dis'4 fis'8 | fis'4. e'4. | g'4 g'8 g'4 g'8 | fis'4.~ fis'4 r8
+| fis'4 fis'8 fis'4 d'8 | d'4 d'8 d'4. | dis'4 dis'8 dis'4 dis'8 | fis'4 e'8 e'4.
+| e'4 e'8 e'4 c'8 | d'4. d'4. | fis'4 fis'8 d'4 d'8 | d'4.~ d'4 r8
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. s4. | s4. s4. | s4. s4. | s4. s4.
+| s4. s4. | s4. s4. | s4. s4. | s4. s4.
+| s4. s4. | s4. s4. | s4. s4. | s4. s4.
+| s4. s4. | s4. s4. | s4. s4. | s4. s4.
+| b4@c ais8 c'4 b8 | a4. a4. | a4 g8 b4 a8 | g4.~ g4 r8
+| fis4 fis8 fis4 b8 | b4. b4. | cis'4 cis'8 e'4 cis'8 | a4.~ a4 r8
+| a4 a8 a4 fis8 | a4 g8 g4. | fis4 fis8 fis4 b8 | b4 b8 b4.
+| c'4 c'8 c'4 g8 | g4( fis8) g4. | a4 a8 c'4 c'8 | b4.~ b4 r8
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s4. s4. | s4. s4. | s4. s4. | s4. s4.
+| s4. s4. | s4. s4. | s4. s4. | s4. s4.
+| s4. s4. | s4. s4. | s4. s4. | s4. s4.
+| s4. s4. | s4. s4. | s4. s4. | s4. s4.
+| g4@c g8 g4 g8 | d4. d4. | d4 d8 d4 d8 | g4.~ g4 r8
+| b,4 b,8 b,4 dis8 | e4. e4. | a4 a8 a4 a8 | d4.~ d4 r8
+| d4 d8 d4 d8 | fis4 g8 g4. | b,4 b,8 b,4 b,8 | dis4 e8 e4.
+| c4 c8 c4 c8 | b,4( a,8) g,4. | d4 d8 d4 d8 | g,4.~ g,4 r8
+"""
+
+[lyrics.1]
+text = "Seek ye first the king -- dom, Not the things of earth; Price -- less are the treas -- ures Of im -- mor -- tal worth. Like a flit -- ting shad -- ow, Time will pass a -- way, But the heav’n -- ly rich -- es Change not, nor de -- cay."
+
+[parts.Tenor.lyrics.1]
+text = ""
+
+[parts.Bass.lyrics.1]
+text = ""
+
+[lyrics.2]
+text = "Seek ye first the king -- dom; Ev -- er -- last -- ing love Woos you to the bless -- ings From the land a -- bove. Par -- don and re -- new -- al, Right -- eous -- ness and peace, Grace for ev -- ’ry tri -- al, Joys that nev -- er cease."
+
+[parts.Tenor.lyrics.2]
+text = ""
+
+[parts.Bass.lyrics.2]
+text = ""
+
+[lyrics.3]
+text = "Seek ye first the king -- dom, Seek the “Gift of God”; ’Tis the Sav -- ior’s of -- fer, Pur -- chased by His blood. Seek ye first His glo -- ry; Be it life’s sweet aim Him to serve and hon -- or, Trust -- ing in His name."
+
+[parts.Tenor.lyrics.3]
+text = ""
+
+[parts.Bass.lyrics.3]
+text = ""
+
+[lyrics.chorus]
+text = "“Seek ye first the king -- dom:” ’Tis the Mas -- ter’s voice; In His pre -- cious prom -- ise Ev -- er -- more re -- joice. “All things else,” His word is true, “Shall be add -- ed un -- to you,” In His pre -- cious prom -- ise Ev -- er -- more re -- joice."
