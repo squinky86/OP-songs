@@ -582,6 +582,16 @@ e''4\!%f   ← hairpin ends, forte dynamic begins
 | `\allegro` | Allegro | 1.30 × |
 | `\vivace` | Vivace | 1.45 × |
 | `\presto` | Presto | 1.60 × |
+| `\dottedbeat` | ♩ = ♩. | 1.50 × |
+
+`\dottedbeat` is a metric modulation rather than a tempo word. It prints a beat
+equation in note glyphs and keeps the pulse steady when the meter turns
+compound: the old quarter becomes the new dotted quarter. Use it on the first
+lead note of a 6/8, 9/8 or 12/8 section that follows simple time, including a
+chorus pickup. Without it, playback keeps the quarter at `tempo_bpm`, so the
+dotted-quarter beat slows to two-thirds. Its ratio is fixed to `tempo_bpm`,
+like the other step marks, so it assumes the simple-time section is at the
+song tempo.
 
 Ending and restoring:
 
@@ -595,6 +605,7 @@ c''4\rit d''4 e''4 f''4\spanend   ← "rit." spans four notes
 c''2.(\pocorit d''4) | c''2~ c''4\spanend r4  ← a gentler slowdown at the ending
 g''2\spanend\atempo               ← end the span and restore tempo here
 bes4@c%f\allegro                  ← "Allegro" from here to the end
+fis'8@c[\dottedbeat               ← 3/4 verse, 12/8 refrain: ♩ = ♩. from the pickup on
 ```
 
 A mark that is not ended by `\spanend` runs until the next mark begins. A step mark hands its tempo on, so `\allegro … \rit … \spanend` slows down *from* Allegro and then returns to `tempo_bpm`. End a gradual span with `\spanend` before starting another mark, so that its dashed extender is closed. `\spanend` after a step mark prints nothing; add `\atempo` on the following note if the return should be marked in the score.
