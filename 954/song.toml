@@ -1,0 +1,67 @@
+title = "Savior, Blessed Savior"
+copyrights = [
+  "Lyrics: Godfrey Thring, 1862 (public domain)",
+  "Music: 'Princethorpe' by William Pitts, 1871 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 3
+phrase_breaks = ["4:64", "8:64", "12:64"]
+optional_phrase_breaks = ["2:64", "6:64", "10:64", "14:64"]
+optional_break_threshold_ticks = 256
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+a'4 f'4 bes'4 g'4 | c''4.( bes'8) a'2 | g'4 a'8[ bes'8] a'4 g'4 | f'1 |
+a'4 f'4 bes'4 g'4 | c''4.( d''8) c''2 | a'8[ b'8] c''4 c''4 b'4 | c''1 |
+c''4 g'4 g'8[ a'8] bes'4 | a'4.( g'8) f'2 | d''4 c''4 bes'4 a'4 | g'1 |
+a'4 f'4 bes'4 g'4 | c''4.( bes'8) a'2 | g'4 a'8[ bes'8] a'4 g'4 | f'1
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+f'4 f'4 e'4 e'4 | f'4( e'4) f'2 | f'4 f'4 f'4 e'4 | f'1 |
+f'4 f'4 e'4 e'4 | f'4.( e'8) f'2 | f'4 g'4 f'4 f'4 | e'1 |
+e'4 e'4 e'4 e'4 | f'4( e'4) f'2 | f'4 a'4 g'4 fis'4 | g'2( e'2) |
+f'4 f'4 e'4 e'4 | f'4( e'4) f'2 | f'4 f'4 f'4 e'4 | f'1
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+c'4 c'4 c'4 c'4 | c'2 c'2 | d'4 c'8[ bes8] c'4 bes4 | a1 |
+c'4 c'4 c'4 c'4 | c'2 c'2 | c'4 g4 a4 g4 | g1 |
+c'4 c'4 c'4 c'4 | c'4( bes4) a2 | bes4 ees'4 d'4 c'4 | bes1 |
+c'4 c'4 c'4 c'4 | c'2 c'2 | d'4 c'8[ bes8] c'4 bes4 | a1
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+f4 a4 g4 bes4 | a4( g4) f2 | bes,4 a,8[ g,8] c4 c4 | f1 |
+f4 a4 g4 bes4 | a4.( bes8) a2 | f4 e4 d4 g,4 | c1 |
+c4 bes4 bes8[ a8] g4 | f4( c4) d2 | bes,4 c4 d4 d4 | g,2( c2) |
+f4 a4 g4 bes4 | a4( g4) f2 | bes,4 a,8[ g,8] c4 c4 | f1
+"""
+
+[lyrics.1]
+text = "Sav -- ior, bless -- ed Sav -- ior, Lis -- ten while we sing; Hearts and voi -- ces rais -- ing Prais -- es to our King. All we have we of -- fer, All we hope to be; Bod -- y, soul, and spir -- it, All, we yield to Thee."
+
+[lyrics.2]
+text = "Near -- er, ev -- er near -- er, Christ, we draw to Thee, Deep in ad -- o -- ra -- tion— Bend -- ing low the knee: Thou for our re -- demp -- tion Cam’st on earth to die: Thou, that we might fol -- low, Hast gone up on high."
+
+[lyrics.3]
+text = "Great, and ev -- er great -- er Are Thy mer -- cies here; True and ev -- er -- last -- ing Are the glo -- ries there; Where no pain, or sor -- row, Toil, or care, is known, Where the an -- gel le -- gions Cir -- cle round Thy throne."
