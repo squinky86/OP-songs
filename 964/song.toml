@@ -1,0 +1,70 @@
+title = "Some Time the Burden Will Be Lifted"
+copyrights = [
+  "Lyrics: Elizabeth E. Richardson, 1920 (public domain)",
+  "Music: 'Excell's Last Song' by E. O. Excell, 1920 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 88
+verse_count = 3
+phrase_breaks = ["5:48", "9:48", "13:48"]
+optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. ees'4 | ees'4. ees'8 f'8 aes'8 g'8. aes'16 | c''4 bes'2 f'4 | aes'4. g'8 f'8 g'8 aes'8. bes'16 |
+aes'2. ees'4 | ees'4. ees'8 f'8 aes'8 des''8. c''16 | c''4 bes'2 bes'4 | bes'4. f'8 g'8 aes'8 g'8. f'16 |
+ees'2. ees'4 | des''4. des''8 des''8 f'8 g'8. f'16 | ees'4 c''2 c''4 | c''4. g'8 fis'8 g'8 aes'8. g'16 |
+f'2. f'4 | aes'4. aes'8 g'8 f'8 ees'8. ees'16 | ees''4 ees''2 ees'4 | f'4. aes'8 g'8 aes'8 c''8. bes'16 |
+aes'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. c'4 | c'4. ees'8 des'8 ees'8 des'8. c'16 | ees'4 des'2 des'4 | des'4. des'8 des'8 des'8 ees'8. des'16 |
+c'2. c'4 | c'4. ees'8 des'8 ees'8 ees'8. ees'16 | ees'4 ees'2 ees'4 | d'4. d'8 d'8 d'8 d'8. d'16 |
+ees'2. ees'4 | ees'4. f'8 g'8 des'8 des'8. des'16 | c'4 ees'2 ees'4 | e'4. e'8 dis'8 e'8 f'8. c'16 |
+c'2. des'4 | f'4. f'8 ees'8 des'8 ees'8. des'16 | ees'4 ees'2 ees'4 | des'4. ees'8 des'8 c'8 ees'8. des'16 |
+c'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. aes4 | aes4. aes8 aes8 aes8 ees8. ees16 | ees4 g2 bes4 | bes4. bes8 aes8 bes8 c'8. g16 |
+aes2. aes4 | aes4. aes8 aes8 aes8 g8. aes16 | aes4 g2 g4 | aes4. aes8 bes8 c'8 bes8. aes16 |
+g2. g4 | g4. aes8 bes8 g8 bes8. g16 | aes4 aes2 aes4 | g4. bes8 a8 bes8 c'8. bes16 |
+aes2. aes4 | aes4. aes8 aes8 aes8 aes8. g16 | aes4 a2 aes4 | aes4. aes8 ees8 ees8 ees8. g16 |
+aes2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. aes,4 | aes,4. c8 des8 c8 bes,8. aes,16 | ees4 ees2 ees4 | ees4. ees8 ees8 ees8 ees8. ees16 |
+aes,2. aes,4 | aes,4. c8 des8 c8 bes,8. aes,16 | ees4 ees2 ees4 | bes,4. bes,8 bes,8 bes,8 bes,8. bes,16 |
+ees2. ees4 | ees4. ees8 ees8 ees8 ees8. ees16 | aes,4 aes,2 aes,4 | c4. c8 c8 c8 c8. c16 |
+f2. des4 | des4. des8 des8 des8 c8. bes,16 | c4 b,2 c4 | des4. c8 bes,8 aes,8 ees8. ees16 |
+aes,2. s4
+"""
+
+[lyrics.1]
+text = "Some time the bur -- den will be lift -- ed, Some time my pil -- grim -- age shall cease, Some time the dark cloud will be rift -- ed, And I shall en -- ter in -- to peace. Some time my foes will all be van -- quished, And I shall lay my ar -- mor down; Some time my task will be com -- plet -- ed, And I shall wear the vic -- tor’s crown."
+
+[lyrics.2]
+text = "Some time my sor -- row will be end -- ed, Some time with tear -- less eyes I’ll see The wear -- y path I have as -- cend -- ed, Though steep, was far the best for me. Some time my weep -- ing will be o -- ver, Like shin -- ing pearls my tears shall be, Like gems my di -- a -- dem a -- dorn -- ing, Each drop a jew -- el bright shall be."
+
+[lyrics.3]
+text = "Till then I’ll rest up -- on His prom -- ise, My Sav -- ior who re -- deems from sin; He knows, ah yes, He knows and guides me, And I will trust my way to Him; Till all my earth -- ly tasks are end -- ed, And I shall en -- ter in -- to rest, And meet a -- gain with friends long part -- ed, And with them join the saved and blest."
