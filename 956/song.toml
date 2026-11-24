@@ -1,0 +1,58 @@
+title = "Savior, Grant Me Rest and Peace"
+copyrights = [
+  "Lyrics: Lucinda M. Beal Bateman as Grace Glenn, 1877 (public domain)",
+  "Music: J. H. Fillmore, Sr., 1877 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 72
+verse_count = 3
+phrase_breaks = ["5:32"]
+optional_phrase_breaks = ["3:32", "7:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 d'8 d'8 | g'4. g'8 fis'8 g'8 | a'2 d'8 d'8 | a'4. a'8 g'8 a'8 | b'2 d'8 d'8 |
+b'4. b'8 a'8 b'8 | c''2 b'8 a'8 | g'8 g'8 fis'4 a'4 | g'2 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 d'8 d'8 | d'4. d'8 d'8 d'8 | fis'2 d'8 d'8 | fis'4. fis'8 g'8 fis'8 | g'2 d'8 d'8 |
+g'4. g'8 g'8 fis'8 | e'2 e'8 e'8 | d'8 d'8 d'4 d'4 | d'2 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 b8 b8 | b4. d'8 c'8 b8 | c'2 fis8 fis8 | d'4. d'8 d'8 d'8 | d'2 b8 b8 |
+d'4. d'8 c'8 b8 | a2 g8 a8 | b8 b8 a4 c'4 | b2 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 g8 g8 | g4. b8 a8 g8 | d2 d8 d8 | d4. c'8 b8 a8 | g2 g8 g8 |
+g4. f8 e8 d8 | c2 c8 c8 | d8 d8 d4 d4 | g,2 s4
+"""
+
+[lyrics.1]
+text = "Sav -- ior, grant me rest and peace, Let my troub -- led dream -- ings cease; With the chim -- ing mid -- night bell, Teach my heart that “All is well.”"
+
+[lyrics.2]
+text = "I would trust my all with Thee, All my cares and sor -- rows flee, Till the break -- ing light shall tell, Night is past, and “All is well.”"
+
+[lyrics.3]
+text = "I would seek Thy serv -- ice, Lord, Lean -- ing on Thy prom -- ise- -- word; Let my hour -- ly la -- bors tell, I am Thine, and “All is well.”"
