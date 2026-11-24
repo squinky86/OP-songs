@@ -1,0 +1,62 @@
+title = "Sound, Sound the Truth Abroad"
+copyrights = [
+  "Lyrics: Thomas Kelly, 1820 (public domain)",
+  "Music: 'Italian Hymn' by Felice de Giardini, 1769 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 3
+phrase_breaks = ["6:48", "12:48"]
+optional_phrase_breaks = ["3:48", "10:48", "14:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+d''4 b'4 g'4 | a'4( g'4) fis'4 | g'2. | g'4 a'4 b'4 | c''8( d''8 c''4) b'4 | a'2. |
+d''4 b'4 g'4 | d'2. | a'4 b'4 c''4 | b'4. a'8 g'4 | a'4 b'4 c''4 | b'4. a'8 g'4 |
+g'4 b'4 d''4 | d''4. e''8 d''4 | c''4 b'4 a'4 | g'2.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+g'4 d'4 d'4 | e'4( d'4) d'4 | d'2. | d'4 d'4 d'4 | fis'4( a'4) g'4 | fis'2. |
+d''4 b'4 g'4 | d'2. | fis'4 g'4 a'4 | g'4. d'8 d'4 | fis'4 g'4 a'4 | g'4. d'8 d'4 |
+d'4 g'4 g'4 | g'4. g'8 g'4 | a'4 g'4 d'4 | g'2.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+b4 g4 d'4 | c'4( b4) a4 | b2. | b4 d'4 d'4 | d'2 d'4 | d'2. |
+d'4 b4 g4 | d2. | d'4 d'4 d'4 | d'4. c'8 b4 | d'4 d'4 d'4 | d'4. c'8 b4 |
+b4 d'4 b4 | b4. c'8 b4 | e'4 d'4 c'4 | b2.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+g4 g4 b,4 | c4( d4) d4 | g,2. | g4 fis4 g4 | a4( fis4) g4 | d2. |
+d'4 b4 g4 | d2. | d4 d4 d4 | g4. g8 g4 | d4 d4 d4 | g4. g8 g4 |
+g4 g4 g4 | g4. g8 g4 | c4 d4 d4 | g,2.
+"""
+
+[lyrics.1]
+text = "Sound, sound the truth a -- broad; Bear ye the word of God Thro’ the wide world; Tell what our Lord has done, Tell how the day is won, Tell from his loft -- y throne Sa -- tan is hurled."
+
+[lyrics.2]
+text = "Far o -- ver sea and land, Go at your Lord’s com -- mand; Bear ye His name; Bear it to ev -- ’ry shore, Re -- gions un -- known ex -- plore, En -- ter at ev -- ’ry door: Si -- lence is shame."
+
+[lyrics.3]
+text = "Speed on the wings of love: Je -- sus, Who reigns a -- bove, Bids us to fly; They who His mes -- sage bear Should nei -- ther doubt nor fear; He will their Friend ap -- pear, He will be nigh."
