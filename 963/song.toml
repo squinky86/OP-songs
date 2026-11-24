@@ -1,0 +1,88 @@
+title = "Soldiers of Christ, Arise"
+copyrights = [
+  "Lyrics: Charles Wesley, 1749 (public domain)",
+  "Music: 'Kirkwood' by William B. Bradbury, 1858 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 5
+phrase_breaks = ["4:64", "7:64"]
+optional_phrase_breaks = ["9:48"]
+non_breaking_phrase_breaks = ["2:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+g'4 g'8. a'16 b'4 c''4 | c''2( b'4) b'4 | d''4 b'4 a'4 c''4 | b'2. r4 |
+a'4 a'8 b'8 c''4 fis'4 | g'2 a'2 | b'2. r4 |
+e''4 e''8 e''8 d''4 d''4 | d''4 c''4 b'4 a'4 | g'4. a'8 b'4 a'4 | g'2. r4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+d'4 d'8. d'16 d'4 g'4 | g'2. g'4 | b'4 g'4 fis'4 a'4 | g'2. r4 |
+fis'4 fis'8 g'8 a'4 d'4 | e'2 fis'2 | g'2. r4 |
+g'4 g'8 g'8 g'4 g'4 | a'4 fis'4 g'4 fis'4 | g'4. g'8 g'4 fis'8[ d'8] | d'2. r4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3, 4, 5]
+suppress_verses_when = ["soprano", "alto"]
+notes = """
+b4 b8. c'16 d'4 e'4 | e'2( d'2~) | d'1~ | d'2. r4 |
+r1 | b4 b8 b8 d'4 d'4 | d'4 d'4 d'4 r4 |
+c'4 c'8 c'8 b4 b4 | a4 a4 g4 d'4 | d'4 e'4/+24 d'4 c'4 | b2. r4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+suppress_verses = [2, 3, 4, 5]
+suppress_verses_when = ["soprano", "alto", "tenor"]
+notes = """
+g4 g8. g16 g4 g4 | g4 g4 g4 g4 | d2. d4 | g2. r4 |
+r1 | e4 e8 e8 d4 d4 | g4 g4 g4 r4 |
+c8[ d8] e8 fis8 g4 g4 | fis4 d4 g4 d4 | b,4 c4/+24 d4 d4 | g,2. r4
+"""
+
+[lyrics.1]
+text = "Sol -- diers of Christ, a -- rise, And put your ar -- mor on; Strong in the strength which God sup -- plies, Strong in the strength which God sup -- plies Thro’ His be -- lov -- ed Son."
+
+[parts.Tenor.lyrics.1]
+text = "Sol -- diers of Christ, a -- rise, Strong in the strength which God sup -- plies, Strong in the strength which God sup -- plies Thro’ His be -- lov -- ed Son."
+
+[lyrics.2]
+text = "Strong in the Lord of hosts, And in His might -- y pow’r; Who in the strength of Je -- sus trusts, Who in the strength of Je -- sus trusts, Is more than con -- quer -- or."
+
+[parts.Tenor.lyrics.2]
+text = "Strong in the Lord of hosts, Who in the strength of Je -- sus trusts, Who in the strength of Je -- sus trusts, Is more than con -- quer -- or."
+
+[lyrics.3]
+text = "Stand, then, in His great might, With all His strength en -- dued; But take, to arm you for the fight, But take, to arm you for the fight, The pan -- o -- ply of God."
+
+[parts.Tenor.lyrics.3]
+text = "Stand, then, in His great might, But take, to arm you for the fight, But take, to arm you for the fight, The pan -- o -- ply of God."
+
+[lyrics.4]
+text = "Leave no un -- guard -- ed place, No weak -- ness of the soul; Take ev’ -- ry vir -- tue, ev’ -- ry grace, Take ev’ -- ry vir -- tue, ev’ -- ry grace, And for -- ti -- fy the whole."
+
+[parts.Tenor.lyrics.4]
+text = "Leave no un -- guard -- ed place, Take ev’ -- ry vir -- tue, ev’ -- ry grace, Take ev’ -- ry vir -- tue, ev’ -- ry grace, And for -- ti -- fy the whole."
+
+[lyrics.5]
+text = "That hav -- ing all things done, And all your con -- flicts past, You may o’er -- come through Christ a -- lone, You may o’er -- come through Christ a -- lone, And stand en -- tire at last."
+
+[parts.Tenor.lyrics.5]
+text = "That hav -- ing all things done, You may o’er -- come through Christ a -- lone, You may o’er -- come through Christ a -- lone, And stand en -- tire at last."
