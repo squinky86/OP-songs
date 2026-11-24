@@ -1,0 +1,66 @@
+title = "Savior, Teach Me"
+copyrights = [
+  "Lyrics: Jane Eliza Leeson, 1842 (public domain)",
+  "Music: 'Seymour' by Carl Maria von Weber, 1826 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 2
+time_sig_denominator = 4
+tempo_bpm = 80
+verse_count = 3
+phrase_breaks = ["8:32"]
+optional_phrase_breaks = ["4:32", "12:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+a'4 g'4 | bes'4 a'4 | d''4 c''8[ a'8] | g'2 |
+a'4 a'4 | a'4 a'4 | bes'4 e'4 | f'2 |
+a'4 g'4 | bes'4 a'4 | d''4 c''8[ a'8] | g'2 |
+a'4 c''4 | c''8[ bes'8] a'8[ g'8] | f'4 e'4 | f'2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+f'4 f'4 | f'4 f'4 | aes'4 a'8[ f'8] | e'2 |
+f'4 f'4 | e'4 ees'4 | d'4 c'4 | c'2 |
+f'4 f'4 | f'4 f'4 | aes'4 a'8[ f'8] | e'2 |
+f'4 a'4 | g'4 d'4 | c'4 c'4 | c'2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+c'4 bes4 | d'4 c'4 | b4 c'4 | bes2 |
+a4 d'4 | cis'4 c'4 | bes4 bes4 | a2 |
+c'4 bes4 | d'4 c'4 | b4 c'4 | bes2 |
+a4 ees'4 | d'4 bes4 | a4 bes4 | a2
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+f4 f4 | f4 f4 | f4 f4 | c2 |
+f4 d4 | a,4 fis4 | g4 c4 | f2 |
+f4 f4 | f4 f4 | f4 f4 | c2 |
+f4 fis4 | g4 bes,4 | c4 c4 | f2
+"""
+
+[lyrics.1]
+text = "Sav -- ior, teach me day by day, Love’s sweet les -- son to o -- bey: Sweet -- er les -- son can -- not be, Lov -- ing Him who first loved me."
+
+[lyrics.2]
+text = "With a child -- like heart of love, At Thy bid -- ding may I move; Prompt to serve and fol -- low Thee, Lov -- ing Him who first loved me."
+
+[lyrics.3]
+text = "Love in lov -- ing finds em -- ploy, In o -- be -- dience all her joy; Ev -- er new that joy will be, Lov -- ing Him who first loved me."
