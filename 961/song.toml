@@ -1,0 +1,105 @@
+title = "Sinners Jesus Will Receive"
+copyrights = [
+  "Lyrics: Erdmann Neumeister, 1718 (public domain)",
+  "Translation: Emma Frances Bevan, 1858 (public domain)",
+  "Music: James McGranahan, 1882 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "D"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 4
+phrase_breaks = ["5:32", "9:32", "12:72", "14:72", "16:72"]
+optional_phrase_breaks = ["3:32", "7:32"]
+non_breaking_phrase_breaks = ["13:72"]
+
+[[time_sig_changes]]
+measure = 9
+numerator = 2
+denominator = 4
+duration = 1
+
+[[time_sig_changes]]
+measure = 10
+numerator = 3
+denominator = 8
+duration = 1
+
+[[time_sig_changes]]
+measure = 11
+numerator = 12
+denominator = 8
+duration = 8
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 fis'8. g'16 | a'4. b'8 fis'8. b'16 | a'2 a'8. d''16 | cis''4. b'8 a'8. g'16 | fis'2 fis'8. g'16
+| a'4. b'8 fis'8. b'16 | a'2 a'8. d''16 | cis''4. a'8 b'8. cis''16 | d''2
+| fis'8@c[\\dottedbeat g'8] a'8
+| b'2.(~ b'8[ d''8]) d''8 d''8[ cis''8] b'8 | a'2.~ a'4. a'8[ b'8] fis'8 | a'2.~ a'4 a'8 a'8[ b'8] fis'8 | a'2.~ a'4. fis'8[ g'8] a'8
+| b'2.(~ b'8[ d''8]) d''8 d''8[ cis''8] b'8 | a'2.~ a'4. d''4 d''8 | e''4.~ e''4 e''8 d''4. cis''4. | d''2.~ d''4. s4.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 d'8. e'16 | fis'4. g'8 d'8. g'16 | fis'2 fis'8. fis'16 | e'4. g'8 fis'8. e'16 | d'2 d'8. e'16
+| fis'4. g'8 d'8. g'16 | fis'2 fis'8. fis'16 | e'4. fis'8 g'8. g'16 | fis'2
+| d'8@c[ e'8] fis'8
+| g'2.(~ g'8[ b'8]) b'8 b'8[ a'8] g'8 | fis'2.~ fis'4. fis'4 fis'8 | g'4 g'8 g'4 g'8 fis'4. fis'4 fis'8 | e'4 fis'8 g'4 g'8 fis'4. d'8[ e'8] fis'8
+| g'2.(~ g'8[ b'8]) b'8 b'8[ a'8] g'8 | fis'2.~ fis'4. a'4 a'8 | g'4.~ g'4 g'8 fis'4. e'4( g'8) | fis'2.~ fis'4. s4.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 a8. a16 | d'4. d'8 d'8. d'16 | d'2 d'8. a16 | a4. a8 a8. a16 | a2 a8. a16
+| d'4. d'8 d'8. d'16 | d'2 d'8. a16 | a4. a8 a8. a16 | a2
+| r4@c r8
+| d'4 d'8 d'4 d'8 d'4 r8 r4 r8 | d'4 d'8 d'4 d'8 d'4. d'4 d'8 | cis'4 cis'8 cis'4 cis'8 d'4. d'4 d'8 | cis'4 d'8 e'4 e'8 d'4. r4 r8
+| d'4 d'8 d'4 d'8 d'4. r4 r8 | d'4 d'8 d'4 d'8 d'4. c'4 c'8 | b4. b4./+48 a4. a4. | a2.~ a4. s4.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 d8. d16 | d4. d8 d8. d16 | d2 d8. d16 | a,4. a,8 a,8. a,16 | d2 d8. d16
+| d4. d8 d8. d16 | d2 d8. d16 | a,4. a,8 a,8. a,16 | d2
+| r4@c r8
+| g4 g8 g4 g8 g4 r8 r4 r8 | d4 d8 d4 d8 d4. d4 d8 | e4 e8 a,4 a,8 d4. d4 d8 | a,4 a,8 a,4 a,8 d4. r4 r8
+| g4 g8 g4 g8 g4. r4 r8 | d4 d8 d4 d8 d4. fis4 fis8 | g4. e4./+48 a4. a,4. | d2.~ d4. s4.
+"""
+
+[lyrics.1]
+text = "Sin -- ners Je -- sus will re -- ceive: Sound this word of grace to all Who the heav’n -- ly path -- way leave, All who lin -- ger, all who fall."
+
+[lyrics.2]
+text = "Come, and He will give you rest; Trust Him, for His word is plain; He will take the sin -- ful -- est; Christ re -- ceiv -- eth sin -- ful men."
+
+[lyrics.3]
+text = "Now my heart con -- demns me not, Pure be -- fore the law I stand; He who cleansed me from all spot, Sat -- is -- fied its last de -- mand."
+
+[lyrics.4]
+text = "Christ re -- ceiv -- eth sin -- ful men, E -- ven me with all my sin; Purged from ev -- ’ry spot and stain, Heav’n with Him I en -- ter in."
+
+[lyrics.chorus]
+text = "Sing it o’er and o’er a -- gain; Christ re -- ceiv -- eth sin -- ful men; Make the mes -- sage clear and plain: Christ re -- ceiv -- eth sin -- ful men."
+
+[parts.Alto.lyrics.chorus]
+text = "Sing it o’er and o’er a -- gain; Christ re -- ceiv -- eth sin -- ful men, Christ re -- ceiv -- eth sin -- ful men; Make the mes -- sage clear and plain: Christ re -- ceiv -- eth sin -- ful men."
+
+[parts.Tenor.lyrics.chorus]
+text = "Sing it o’er a -- gain, Sing it o’er a -- gain; Christ re -- ceiv -- eth sin -- ful men, Christ re -- ceiv -- eth sin -- ful men; Make the mes -- sage plain, Make the mes -- sage plain: Christ re -- ceiv -- eth sin -- ful men."
+
+[parts.Bass.lyrics.chorus]
+text = "Sing it o’er a -- gain, Sing it o’er a -- gain; Christ re -- ceiv -- eth sin -- ful men, Christ re -- ceiv -- eth sin -- ful men; Make the mes -- sage plain, Make the mes -- sage plain: Christ re -- ceiv -- eth sin -- ful men."
