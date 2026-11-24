@@ -1,0 +1,86 @@
+title = "Speak to My Soul"
+copyrights = [
+  "Lyrics: Leander Lycurgus Pickett, 1897 (public domain)",
+  "Music: F. Campana, before 1897 (public domain)",
+  "Arrangement: Leander Lycurgus Pickett, 1897 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Eb"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 84
+verse_count = 3
+phrase_breaks = ["4:48", "8:48", "12:48", "16:48", "20:48", "24:48", "28:48"]
+optional_phrase_breaks = ["2:48", "6:48", "10:48", "14:48", "18:48", "22:48", "26:48", "30:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+bes'8 c''8 bes'8 g'4 bes'8 | aes'4. aes'4 r8 | aes'8 bes'8 aes'8 f'4 aes'8 | g'4.~ g'4 r8 |
+g'8 aes'8 g'8 ees'4 g'8 | f'4. f'4 r8 | f'8 g'8 aes'8 g'4 f'8 | g'4.~ g'4 r8 |
+bes'8 c''8 bes'8 g'4 bes'8 | aes'4. aes'4 r8 | aes'8 bes'8 aes'8 f'4 aes'8 | g'4.~ g'4 r8 |
+g'8 aes'8 g'8 ees'4 g'8 | f'4. f'4 r8 | f'8 g'8 aes'8 g'4 f'8 | ees'4.~ ees'4 r8 |
+bes'8@c c''8 d''8 ees''4 ees''8 | d''4. aes'4 r8 | aes'8 bes'8 c''8 d''4 c''8 | bes'4.~ bes'4 r8 |
+g'8 aes'8 bes'8 c''4 g'8 | bes'4. aes'4 r8 | f'8 g'8 aes'8 g'4 f'8 | g'4.~ g'4 r8 |
+bes'8 c''8 d''8 ees''4 ees''8 | d''4. aes'4 r8 | aes'8 bes'8 c''8 d''4 c''8 | bes'4.~ bes'4 r8 |
+g'8 aes'8 bes'8 c''4 g'8 | bes'4. aes'4 r8 | f'8 g'8 aes'8 g'4 f'8 | ees'4.~ ees'4 r8
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+g'8 aes'8 g'8 ees'4 ees'8 | d'4. d'4 r8 | f'8 g'8 f'8 d'4 f'8 | ees'4.~ ees'4 r8 |
+ees'8 ees'8 ees'8 ees'4 ees'8 | ees'4. ees'4 r8 | d'8 ees'8 f'8 ees'4 d'8 | ees'4.~ ees'4 r8 |
+g'8 aes'8 g'8 ees'4 ees'8 | d'4. d'4 r8 | f'8 g'8 f'8 d'4 f'8 | ees'4.~ ees'4 r8 |
+ees'8 ees'8 ees'8 ees'4 ees'8 | ees'4. ees'4 r8 | d'8 ees'8 f'8 ees'4 d'8 | ees'4.~ ees'4 r8 |
+g'8@c g'8 g'8 g'4 g'8 | aes'4. d'4 r8 | f'8 g'8 aes'8 aes'4 aes'8 | g'4.~ g'4 r8 |
+ees'8 f'8 g'8 e'4 e'8 | g'4. f'4 r8 | d'8 ees'8 f'8 ees'4 d'8 | ees'4.~ ees'4 r8 |
+g'8 g'8 g'8 g'4 g'8 | aes'4. d'4 r8 | f'8 g'8 aes'8 aes'4 aes'8 | g'4.~ g'4 r8 |
+ees'8 f'8 g'8 e'4 e'8 | g'4. f'4 r8 | d'8 ees'8 f'8 ees'4 d'8 | ees'4.~ ees'4 r8
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+ees'8 ees'8 ees'8 bes4 g8 | bes4. bes4 r8 | bes8 bes8 bes8 bes4 bes8 | bes4.~ bes4 r8 |
+bes8 c'8 bes8 g4 bes8 | c'4. c'4 r8 | bes8 bes8 bes8 bes4 bes8 | bes4.~ bes4 r8 |
+ees'8 ees'8 ees'8 bes4 g8 | bes4. bes4 r8 | bes8 bes8 bes8 bes4 bes8 | bes4.~ bes4 r8 |
+bes8 c'8 bes8 g4 bes8 | c'4. c'4 r8 | bes8 bes8 bes8 bes4 aes8 | g4.~ g4 r8 |
+bes8@c bes8 bes8 bes4 bes8 | bes4. bes4 r8 | bes8 bes8 bes8 bes8[ c'8] d'8 | ees'4.~ ees'4 r8 |
+bes8 bes8 g8 g4 c'8 | c'4. c'4 r8 | bes8 bes8 bes8 bes4 bes8 | bes4.~ bes4 r8 |
+bes8 bes8 bes8 bes4 bes8 | bes4. bes4 r8 | bes8 bes8 bes8 bes8[ c'8] d'8 | ees'4.~ ees'4 r8 |
+bes8 bes8 g8 g4 c'8 | c'4. c'4 r8 | bes8 bes8 bes8 bes4 aes8 | g4.~ g4 r8
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+ees8 ees8 ees8 ees4 ees8 | f4. f4 r8 | bes,8 bes,8 bes,8 bes,4 bes,8 | ees4.~ ees4 r8 |
+ees8 ees8 ees8 ees4 ees8 | aes,4. aes,4 r8 | bes,8 bes,8 bes,8 bes,4 bes,8 | ees4.~ ees4 r8 |
+ees8 ees8 ees8 ees4 ees8 | f4. f4 r8 | bes,8 bes,8 bes,8 bes,4 bes,8 | ees4.~ ees4 r8 |
+ees8 ees8 ees8 ees4 ees8 | aes,4. aes,4 r8 | bes,8 bes,8 bes,8 bes,4 bes,8 | ees4.~ ees4 r8 |
+ees8@c ees8 ees8 ees4 ees8 | f4. f4 r8 | bes,8 bes,8 bes,8 bes,4 bes,8 | ees4.~ ees4 r8 |
+ees8 ees8 ees8 c4 c8 | ees4. f4 r8 | bes,8 bes,8 bes,8 bes,4 bes,8 | ees4.~ ees4 r8 |
+ees8 ees8 ees8 ees4 ees8 | f4. f4 r8 | bes,8 bes,8 bes,8 bes,4 bes,8 | ees4.~ ees4 r8 |
+ees8 ees8 ees8 c4 c8 | ees4. f4 r8 | bes,8 bes,8 bes,8 bes,4 bes,8 | ees4.~ ees4 r8
+"""
+
+[lyrics.1]
+text = "Speak to my soul, dear Je -- sus, Speak now in ten -- d’rest tone; Whis -- per in lov -- ing kind -- ness, “Thou art not left a -- lone.” O -- pen my heart to hear Thee, Quick -- ly to hear Thy voice, Fill Thou my soul with prais -- es, Let me in Thee re -- joice."
+
+[lyrics.2]
+text = "Speak to Thy chil -- dren ev -- er, Lead in the ho -- ly way; Fill them with joy and glad -- ness, Teach them to watch and pray; May they in con -- se -- cra -- tion Yield their whole lives to Thee; Has -- ten Thy com -- ing king -- dom, Till our dear Lord we see."
+
+[lyrics.3]
+text = "Speak now as in the old time Thou didst re -- veal Thy will; Let me know all my du -- ty, Let me Thy law ful -- fill. Lead me to glo -- ri -- fy Thee, Help me to show Thy praise, Glad -- ly to do Thy bid -- ding, Hon -- or Thee all my days."
+
+[lyrics.chorus]
+text = "Speak Thou in soft -- est whis -- pers, Whis -- pers of love to me; “Thou shalt be al -- ways con -- q’ror, Thou shalt be al -- ways free.” Speak Thou to me each day, Lord, Al -- ways in ten -- d’rest tone; Let me now hear Thy whis -- per, “Thou art not left a -- lone.”"
