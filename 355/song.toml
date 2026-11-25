@@ -7,9 +7,9 @@ copyrights = [
 key_signature = "A"
 time_sig_numerator = 2
 time_sig_denominator = 2
-tempo_bpm = 108
+tempo_bpm = 118
 verse_count = 5
-phrase_breaks = ["5:32", "9:32", "13:32", "17:32"]
+phrase_breaks = ["5:32", "9:32", "13:32"]
 
 [parts.Soprano]
 choral_type = "soprano"
