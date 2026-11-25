@@ -1,0 +1,76 @@
+title = "Speed Away"
+copyrights = [
+  "Lyrics: Fanny J. Crosby, 1890 (public domain)",
+  "Music: Isaac Baker Woodbury, 1848 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 3
+phrase_breaks = ["5:32", "9:32", "13:32", "17:32", "21:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 c''8. c''16 | c''2 c''8. c''16 | c''2 c''8 c''8 | c''4 b'4 c''4 | a'2 a'8 a'8 |
+a'4 gis'4 a'4 | f'4 f'4 g'4 | a'4 bes'4 a'4 | g'2 g'8 g'8 |
+g'4 a'4 bes'4 | bes'4 a'4 g'4 | a'4 bes'4 c''4 | a'2 g'8-( g'8-) |
+g'4 a'4 bes'4 | bes'4 a'4 g'4 | a'4 bes'4 c''4 | a'2 c''8 c''8 |
+c''4 b'4 c''4 | a'2 c''8. c''16 | c''4 b'4 c''4 | a'2 d''8. d''16 |
+d''2! c''8. c''16 | c''2.! | c''4( g'4) bes'4 | a'2! s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 a'8. a'16 | a'2 a'8. a'16 | a'2 a'8 a'8 | a'4 gis'4 a'4 | f'2 f'8 f'8 |
+f'4 f'4 f'4 | f'4 f'4 e'4 | f'4 g'4 f'4 | e'2 e'8 e'8 |
+e'4 f'4 g'4 | g'4 f'4 e'4 | f'4 g'4 a'4 | f'2 e'8-( e'8-) |
+e'4 f'4 g'4 | g'4 f'4 e'4 | f'4 g'4 a'4 | f'2 a'8 a'8 |
+a'4 gis'4 a'4 | f'2 a'8. a'16 | a'4 gis'4 a'4 | f'2 f'8. f'16 |
+f'2! f'8. f'16 | f'2.! | e'2 g'4 | f'2! s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 f'8. f'16 | f'2 f'8. f'16 | f'2 f'8 f'8 | f'4 d'4 c'4 | c'2 c'8 c'8 |
+c'4 b4 c'4 | a4 c'4 c'4 | c'4 c'4 c'4 | c'2 c'8 c'8 |
+c'4 c'4 c'4 | c'4 c'4 c'4 | c'4 c'4 f'4 | c'2 c'8-( c'8-) |
+c'4 c'4 c'4 | c'4 c'4 c'4 | c'4 c'4 f'4 | c'2 f'8 f'8 |
+f'4 d'4 c'4 | c'2 c'8. c'16 | f'4 d'4 c'4 | c'2 bes8. bes16 |
+bes2! a8. a16 | a2.! | g4( c'4) c'4 | c'2! s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 f8. f16 | f2 f8. f16 | f2 f8 f8 | f4 f4 f4 | f2 f8 f8 |
+f4 f4 f4 | f4 a,4 c4 | f4 e4 f4 | c2 c8 c8 |
+c4 c4 c4 | c4 c4 c4 | f4 f4 f4 | f2 c8-( c8-) |
+c4 c4 c4 | c4 c4 c4 | f4 f4 f4 | f2 f8 f8 |
+f4 f4 f4 | f2 f8. f16 | f4 f4 f4 | f2 bes8. bes16 |
+bes2! f8. f16 | f2.! | c2 c4 | f2! s4
+"""
+
+[lyrics.1]
+text = "Speed a -- way, speed a -- way on your mis -- sion of light, To the lands that are ly -- ing in dark -- ness and night; ’Tis the Mas -- ter’s com -- mand; go ye forth in His name, The _ won -- der -- ful Gos -- pel of Je -- sus pro -- claim; Take your lives in your hand, to the work while ’tis day; @s1"
+
+[lyrics.2]
+text = "Speed a -- way, speed a -- way with the life- -- giv -- ing word, To the na -- tions that know not the voice of the Lord; Take the wings of the morn -- ing and fly o’er the wave, In the strength of your Mas -- ter the lost ones to save; He is call -- ing once more, not a mo -- ment’s de -- lay; @s1"
+
+[lyrics.3]
+text = "Speed a -- way, speed a -- way with the mes -- sage of rest, To the souls by the tempt -- er in bond -- age op -- pressed; For the Sav -- ior has pur -- chased their ran -- som from sin, And the ban -- quet is read -- y, O gath -- er them in; To the res -- cue make haste, there’s no time for de -- lay; @s1"
+
+[lyrics.s1]
+text = "Speed a -- way, speed a -- way, speed a -- way."
