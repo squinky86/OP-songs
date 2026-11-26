@@ -1,0 +1,69 @@
+title = "Take Time to Be Holy"
+copyrights = [
+  "Lyrics: William Dunn Longstaff, 1882 (public domain)",
+  "Music: George C. Stebbins, 1889 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 84
+verse_count = 4
+phrase_breaks = ["4:48", "8:48", "12:48"]
+optional_phrase_breaks = ["2:48", "6:48", "10:48", "14:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+a'4. a'8 g'8 a'8 | bes'4. a'4. | f'4. g'8 f'8 e'8 | f'2. |
+a'4. a'8 g'8 a'8 | bes'4. a'4. | g'4. g'8 g'8 g'8 | g'2. |
+bes'4. bes'8 a'8 g'8 | a'4. c''4. | bes'4. bes'8 a'8 g'8 | a'2. |
+c''4. c''8 bes'8 a'8 | d''4. bes'4. | a'4. g'8 f'8 e'8 | f'2.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+f'4. f'8 f'8 f'8 | f'4. f'4. | f'4. c'8 c'8 c'8 | c'2. |
+f'4. f'8 f'8 f'8 | f'4. f'4. | e'4. d'8 e'8 f'8 | e'2. |
+g'4. g'8 f'8 e'8 | f'4. f'4. | e'4. e'8 f'8 e'8 | f'2. |
+f'4. f'8 e'8 f'8 | f'4. f'4. | f'4. c'8 c'8 c'8 | c'2.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+c'4. c'8 bes8 c'8 | d'4. c'4. | a4. bes8 a8 g8 | a2. |
+c'4. c'8 bes8 c'8 | d'4. c'4. | c'4. b8 c'8 d'8 | c'2. |
+c'4. c'8 c'8 c'8 | c'4. a4. | g4. g8 c'8 c'8 | c'2. |
+a4. c'8 c'8 c'8 | bes4. d'4. | c'4. bes8 a8 g8 | a2.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+f4. f8 f8 f8 | f4. f4. | c4. c8 c8 c8 | f2. |
+f4. f8 f8 f8 | f4. f4. | g4. g8 g8 g8 | c2. |
+c4. c8 c8 c8 | f4. f4. | c4. c8 c8 c8 | f2. |
+f4. a8 g8 f8 | bes4. bes,4. | c4. c8 c8 c8 | f2.
+"""
+
+[lyrics.1]
+text = "Take time to be ho -- ly, Speak oft with thy Lord; A -- bide in Him al -- ways, And feed on His Word. Make friends of God’s chil -- dren; Help those who are weak; For -- get -- ting in noth -- ing His bless -- ing to seek."
+
+[lyrics.2]
+text = "Take time to be ho -- ly, The world rush -- es on, Spend much time in se -- cret With Je -- sus a -- lone. By look -- ing to Je -- sus, Like Him thou shalt be; Thy friends in thy con -- duct His like -- ness shall see."
+
+[lyrics.3]
+text = "Take time to be ho -- ly, Let Him be thy Guide; And run not be -- fore Him, What -- ev -- er be -- tide; In joy or in sor -- row, Still fol -- low thy Lord; And, look -- ing to Je -- sus, Still trust in His Word."
+
+[lyrics.4]
+text = "Take time to be ho -- ly, Be calm in thy soul; Each tho’t and each mo -- tive Be -- neath His con -- trol; Thus led by His Spir -- it To foun -- tains of love, Thou soon shalt be fit -- ted For serv -- ice a -- bove."
