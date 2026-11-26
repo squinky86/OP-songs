@@ -1,0 +1,96 @@
+title = "When Days of Toil Have All Gone By"
+subtitle = "Heaven for Me"
+copyrights = [
+  "Lyrics: Civilla D. Martin, 1907 (public domain)",
+  "Music: W. Stillman Martin, 1907 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Db"
+time_sig_numerator = 6
+time_sig_denominator = 4
+tempo_bpm = 120
+verse_count = 3
+phrase_breaks = ["5:80", "9:96", "13:96", "17:96", "21:96"]
+optional_phrase_breaks = ["3:80", "7:80", "11:96", "19:96"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s1 s4 des'4 |
+f'2 f'4 f'4( e'4) f'4 | aes'2 ges'4 f'2 ees'4 | des'4. c'8 des'4 f'2 ees'4 |
+ees'2.~ ees'2 des'4 |
+f'2 f'4 f'4 e'4 f'4 | aes'2 ges'4 f'2 ees'4 | des'4 aes'4 ges'4 f'2 ees'4 |
+des'2.~ des'2 r4 |
+aes'2.~@c aes'4 des''4 ees''4 | f''2.~ f''2. | ees''2.~ ees''4 des''4 bes'4 | aes'2.~ aes'2. |
+aes'2. bes'2 aes'4 | aes'2. f'2 des''4 | c''2. des''2 bes'4 | ees''2.~ ees''2. |
+aes'2.~ aes'4 des''4 ees''4 | f''2.~ f''2. | ees''2.~ ees''4 des''4 bes'4 | aes'2.~ aes'2. |
+des''2. aes'2 des''4 | des''2. des'2 ees'4 | f'2. ges'2 c'4 | des'2.~ des'2 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s1 s4 des'4 |
+des'2 des'4 des'2 des'4 | c'2 c'4 c'2 c'4 | bes4. bes8 bes4 des'2 des'4 |
+c'2.~ c'2 des'4 |
+des'2 des'4 des'4 des'4 des'4 | c'2 c'4 c'2 c'4 | bes4 ees'4 ees'4 des'2 c'4 |
+des'2.~ des'2 r4 |
+f'2.~@c f'4 f'4 ges'4 | aes'2.~ aes'2. | ges'2.~ ges'4 bes'4 ges'4 | f'2.~ f'2. |
+ges'2. ges'2 ges'4 | f'2. des'2 f'4 | aes'2. g'2 g'4 | aes'2.( ges'2.) |
+f'2.~ f'4 f'4 ges'4 | aes'2.~ aes'2. | ges'2.~ ges'4 bes'4 ges'4 | f'2.~ f'2. |
+f'2. f'2 f'4 | ges'2. des'2 des'4 | des'2. c'2 aes4 | aes2.~ aes2 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s1 s4 f4 |
+aes2 aes4 aes4( g4) aes4 | aes2 bes4 aes2 ges4 | f4. f8 f4 g2 g4 |
+aes2.~ aes2 f4 |
+aes2 aes4 aes4 g4 aes4 | aes2 bes4 aes2 ges4 | f4 bes4 bes4 aes2 ges4 |
+f2.~ f2 r4 |
+des'4@c des'4 des'4 des'4 r2 | des'4 des'4 des'4 des'2. | bes4 bes4 bes4 bes4 r2 | des'4 des'4 des'4 des'2. |
+c'4 c'4 c'4 c'2 c'4 | des'4 des'4 des'4 aes2 aes4 | ees'4 ees'4 ees'4 ees'4 ees'4 des'4 | c'2 c'4 c'2. |
+des'4 des'4 des'4 des'4 r2 | des'4 des'4 des'4 des'2. | bes4 bes4 bes4 bes4 r2 | des'4 des'4 des'4 des'2. |
+aes4 aes4 aes4 ces'2 ces'4 | bes4 bes4 bes4 beses2 beses4 | aes4 aes4 aes4 aes4 aes4 ges4 | f2.~ f2 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s1 s4 des4 |
+des2 des4 des2 des4 | ees2 aes4 aes2 aes,4 | bes,4. bes,8 bes,4 ees2 ees4 |
+aes,2.~ aes,2 des4 |
+des2 des4 des4 des4 des4 | ees2 aes4 aes2 aes,4 | bes,4 ges,4 ges,4 aes,2 aes,4 |
+des2.~ des2 r4 |
+des4@c des4 des4 des4 r2 | des4 des4 des4 des2. | ges4 ges4 ges4 ges4 r2 | des4 des4 des4 des2. |
+ees4 ees4 ees4 aes2 aes4 | des4 des4 des4 des2 des4 | ees4 ees4 ees4 ees4 ees4 ees4 | aes2 aes4 aes2. |
+des4 des4 des4 des4 r2 | des4 des4 des4 des2. | ges4 ges4 ges4 ges4 r2 | des4 des4 des4 des2. |
+des4 des4 des4 des2 des4 | ges4 ges4 ges4 ges2 ges4 | aes4 aes4 aes4 aes,4 aes,4 aes,4 | des2.~ des2 s4
+"""
+
+[lyrics.1]
+text = "When days of toil have all gone by, And I my dear Lord shall see, A word of wel -- come when we shall meet I know will make heav’n for me."
+
+[lyrics.2]
+text = "The Fa -- ther’s house, the man -- sions fair, My home shall for -- ev -- er be; But one sweet word from the Lord I love I know will make heav’n for me."
+
+[lyrics.3]
+text = "He saved me from my lost es -- tate, From sin He has set me free, And just to see Him when He shall come I know will be heav’n for me."
+
+[lyrics.chorus]
+text = "Heav -- en for me, O it will be! When Je -- sus whis -- pers a wel -- come to me, Heav -- en for me, O it will be! When Je -- sus whis -- pers a wel -- come to me."
+
+[parts.Tenor.lyrics.chorus]
+text = "Heav -- en for me, O it will be! Heav -- en for me, O it will be! When Je -- sus gives a wel -- come to me, a smile and a wel -- come to me, to me. Heav -- en for me, O it will be! Heav -- en for me, O it will be! When Je -- sus gives a wel -- come to me, a smile and a wel -- come to me."
+
+[parts.Bass.lyrics.chorus]
+text = "Heav -- en for me, O it will be! Heav -- en for me, O it will be! When Je -- sus gives a wel -- come to me, a smile and a wel -- come to me, to me. Heav -- en for me, O it will be! Heav -- en for me, O it will be! When Je -- sus gives a wel -- come to me, a smile and a wel -- come to me."
