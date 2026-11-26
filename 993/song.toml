@@ -1,0 +1,68 @@
+title = "We Would See Jesus"
+copyrights = [
+  "Lyrics: Anna B. Warner, 1852 (public domain)",
+  "Music: 'Henley' by Lowell Mason, 1854 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 2
+time_sig_denominator = 4
+tempo_bpm = 76
+verse_count = 3
+phrase_breaks = ["4:32", "8:32", "12:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+c''4 a'8 a'8 | a'4 g'4 | f'8 f'8 g'8 g'8 | a'4 f'4
+| c''4 a'8 a'8 | a'4 f'4 | g'8 f'8 g'8 a'8 | f'2
+| g'4 g'8 a'8 | bes'4 g'4 | a'8 a'8 a'8 bes'8 | c''4 a'4
+| c''4 a'8 a'8 | a'4 f'4 | g'8 f'8 g'8 a'8 | f'2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+splice_lyrics_into = "soprano"
+notes = """
+f'4 f'8 f'8 | f'4 e'4 | f'8 f'8 e'8 e'8 | f'4 c'4
+| f'4 f'8 f'8 | f'4 c'4 | c'8 c'8 c'8 c'8 | c'2
+| e'4 e'8 f'8 | g'4 e'4 | f'8 f'8 f'8 g'8 | a'4 f'4
+| f'4 f'8 f'8 | f'4 c'4 | c'8 c'8 c'8 c'8 | c'2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+splice_lyrics_into = "soprano"
+notes = """
+a4 c'8 c'8 | c'4 c'4 | c'8 c'8 c'8 c'8 | c'4 a4
+| a4 c'8 c'8 | c'4 a4 | bes8 a8 bes8 c'8 | a2
+| c'4 c'8 c'8 | c'4 c'4 | c'8 c'8 c'8 c'8 | c'4 c'4
+| a4 c'8 c'8 | c'4 a4 | bes8 a8 bes8 c'8 | a2
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+splice_lyrics_into = "soprano"
+notes = """
+f4 f8 f8 | f4 c4 | a,8 a,8 c8 c8 | f4 f4
+| f4 f8 f8 | f4 f4 | c8 c8 c8 c8 | f2
+| c4 c8 c8 | c4 c4 | f8 f8 f8 f8 | f4 f4
+| f4 f8 f8 | f4 f4 | c8 c8 c8 c8 | f2
+"""
+
+[lyrics.1]
+text = "We would see Je -- sus— for the shad -- ows length -- en A -- cross the lit -- tle land -- scape of our life; We would see Je -- sus, our weak faith to strength -- en, For the last wear -- i -- ness, the fi -- nal strife."
+
+[lyrics.2]
+text = "We would see Je -- sus— the great Rock foun -- da -- tion, On which our feet were set with sov -- ereign grace; Nor life, nor death, with all their ag -- i -- ta -- tion, Can thence re -- move us, if we see His face."
+
+[lyrics.3]
+text = "We would see Je -- sus— this is all we’re need -- ing, Strength, joy, and will -- ing -- ness come with the sight; We would see Je -- sus, dy -- ing, ris -- en, plead -- ing, Then wel -- come day, and fare -- well mor -- tal night!"
