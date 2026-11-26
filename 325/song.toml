@@ -1,10 +1,9 @@
-# Tune: Laudes Domini.
 title = "May Jesus Christ Be Praised"
 subtitle = "When Morning Gilds the Skies"
 copyrights = [
   "Lyrics: Anonymous c. 1800 (public domain)",
   "Translation: Edward Caswall, 1858 (public domain)",
-  "Music: Joseph Barnby, 1868 (public domain)",
+  "Music: 'Laudes Domini' by Joseph Barnby, 1868 (public domain)",
   "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
 ]
 key_signature = "C"
