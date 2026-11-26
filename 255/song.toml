@@ -9,7 +9,7 @@ time_sig_numerator = 6
 time_sig_denominator = 4
 tempo_bpm = 110
 verse_count = 3
-phrase_breaks = ["3:80", "5:80", "7:80", "9:80", "11:80", "13:80", "15:80", "17:80"]
+phrase_breaks = ["3:80", "5:80", "7:80", "9:80", "11:80", "13:80", "15:80"]
 optional_phrase_breaks = ["10:80", "14:80"]
 
 [parts.Soprano]

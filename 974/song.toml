@@ -1,0 +1,68 @@
+title = "The Day Thou Gavest, Lord, Is Ended"
+copyrights = [
+  "Lyrics: John Ellerton, 1870 (public domain)",
+  "Music: Clement Cotterill Scholefield, 1874 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 4
+phrase_breaks = ["5:32", "9:32", "13:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 ees'4 | c''4( des''4) c''4 | ees''4( c''4) bes'4 | aes'4( bes'4) f'4 | aes'4 g'4 f'4 |
+ees'2 ees'4 | aes'4( bes'4) c''4 | bes'2 aes'4 | g'2 ees'4 |
+c''4( des''4) c''4 | ees''4( c''4) bes'4 | aes'4( bes'4) f'4 | aes'4 g'4 f'4 |
+ees'4( f'4) g'4 | aes'4( c''4) bes'4 | f'4( aes'4) g'4 | aes'2 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 ees'4 | ees'2 aes'4 | g'2 g'4 | aes'4( f'4) f'4 | des'4 des'4 des'4 |
+des'4( c'4) ees'4 | f'2 ees'4 | d'2 d'4 | ees'2 ees'4 |
+ees'2 aes'4 | g'2 g'4 | aes'4( f'4) f'4 | des'4 des'4 bes4 |
+ees'2 des'4 | c'4( ees'4) f'4 | f'2 ees'4 | ees'2 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 ees4 | aes2 aes4 | bes4( ees'4) des'4 | c'4( des'4) bes4 | bes4 bes4 aes4 |
+bes4( c'4) bes4 | c'2 aes4 | f2 bes4 | bes2 ees4 |
+aes2 aes4 | bes4( ees'4) des'4 | c'4( des'4) bes4 | bes4 bes4 g4 |
+aes2 bes4 | aes2 des'4 | des'2 des'4 | c'2 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 ees4 | aes,2 aes4 | ees2 ees4 | f4( bes,4) des4 | ees4 ees4 f4 |
+g4( aes4) g4 | f2 f4 | bes,2 bes,4 | ees2 ees4 |
+aes,2 aes4 | ees2 ees4 | f4( bes,4) des4 | ees4 ees4 des4 |
+c2 ees4 | f4( c4) des4 | bes,2 ees4 | aes,2 s4
+"""
+
+[lyrics.1]
+text = "The day Thou gav -- est, Lord, is end -- ed, The dark -- ness falls at Thy be -- hest; To Thee our morn -- ing hymns as -- cend -- ed, Thy praise shall hal -- low now our rest."
+
+[lyrics.2]
+text = "We thank Thee that Thy Church, un -- sleep -- ing, While earth rolls on -- ward in -- to light, Thro’ all the world her watch is keep -- ing, And rests not now by day or night."
+
+[lyrics.3]
+text = "The sun that bids us rest is wak -- ing Our breth -- ren ’neath the west -- ern sky; And hour by hour fresh lips are mak -- ing Thy won -- drous do -- ings heard on high."
+
+[lyrics.4]
+text = "So be it, Lord: Thy throne shall nev -- er, Like earth’s proud em -- pires, pass a -- way; But stand and rule and grow for -- ev -- er, Till all Thy crea -- tures own Thy sway."

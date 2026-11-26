@@ -8,7 +8,7 @@ key_signature = "G"
 time_sig_numerator = 4
 time_sig_denominator = 4
 verse_count = 4
-phrase_breaks = ["5:48", "9:48", "13:48", "17:48"]
+phrase_breaks = ["5:48", "9:48", "13:48"]
 
 [parts.Soprano]
 choral_type = "soprano"
