@@ -1,0 +1,69 @@
+title = "The Sun Declines"
+copyrights = [
+  "Lyrics: Robert Walmsley, 1893 (public domain)",
+  "Music: 'Vincent' by H. R. Palmer, 1887 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Eb"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 110
+verse_count = 2
+phrase_breaks = ["4:64", "8:64", "12:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+g'4 g'8. g'16 aes'4 g'4 | g'4. f'8 ees'2 | ees'2 ees'4 f'4 | g'1 |
+bes'4 bes'8. bes'16 c''4 bes'4 | bes'4. aes'8 g'2 | f'2 c'4. f'8 | f'1 |
+f'4 f'8. f'16 f'8[ bes'8] bes'4 | bes'4. c''8 bes'2 | bes'2 c''4. c''8 | d''2( bes'2) |
+ees''4 g'8. g'16 aes'4 g'4 | g'4. f'8 ees'2 | c'2 ees'4. f'8 | ees'1 |
+ees'2@e ees'2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+ees'4 ees'8. ees'16 ees'4 ees'4 | d'4. d'8 c'2 | c'2 c'4 c'4 | d'1 |
+d'4 d'8. d'16 f'4 f'4 | ees'4. d'8 ees'2 | c'2 c'4. c'8 | d'1 |
+d'4 ees'8. ees'16 f'4 ees'4 | d'4. d'8 ees'2 | d'2 ees'4. ees'8 | d'2( f'2) |
+ees'4 ees'8. ees'16 ees'4 ees'4 | d'4. d'8 c'2 | c'2 c'4. bes8 | bes1 |
+c'2@e bes2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+bes4 bes8. bes16 c'4 bes4 | bes4. aes8 g2 | aes2 aes4 c'4 | b1 |
+bes4 bes8. bes16 d'4 d'4 | ees'4. bes8 bes2 | aes2 f4. f8 | f1 |
+f4 a8. a16 bes4 g4 | aes4. aes8 bes2 | bes2 a4. a8 | bes2~ bes2 |
+bes4 bes8. bes16 c'4 bes4 | bes4. aes8 g2 | aes2 aes4. bes8 | g1 |
+aes2@e g2
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+ees4 ees8. ees16 ees4 ees4 | bes,4. b,8 c2 | aes,2 aes4 aes4 | g1 |
+f4 f8. f16 aes4 aes4 | g4. f8 ees2 | aes,2 a,4. a,8 | bes,1 |
+bes,4 c8. c16 d4 ees4 | f4. f8 g2 | f2 f4. f8 | bes2( aes2) |
+g4 ees8. ees16 ees4 ees4 | bes,4. b,8 c2 | aes,2 c4. d8 | ees1 |
+aes,2@e ees2
+"""
+
+[lyrics.1]
+text = "The sun de -- clines o’er land and sea Creeps on the night; The twin -- kling stars come one by one To shed their light; With Thee there is no dark -- ness, Lord: With us a -- bide; And ’neath Thy wings we rest se -- cure This e -- ven -- tide."
+
+[lyrics.2]
+text = "And when with morn -- ing light we rise, Kept by Thy care, We’ll lift to Thee, with grate -- ful hearts, Our morn -- ing pray’r. Be Thou thro’ life our Strength and Stay, Our Guard and Guide To that dear home where there will be No e -- ven -- tide."
+
+[lyrics.coda]
+text = "A -- men."
