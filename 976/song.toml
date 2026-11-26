@@ -1,0 +1,87 @@
+title = "The Hand That Was Nailed to the Cross"
+copyrights = [
+  "Lyrics: Harriett H. Pierson and Fred P. Morris, 1905 (public domain)",
+  "Music: Daniel B. Towner, 1905 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "D"
+time_sig_numerator = 6
+time_sig_denominator = 4
+tempo_bpm = 76
+verse_count = 4
+phrase_breaks = ["3:80", "5:80", "7:80", "9:80", "13:80", "15:80"]
+optional_phrase_breaks = ["11:80"]
+non_breaking_phrase_breaks = ["16:80"]
+optional_break_threshold_ticks = 209
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s1 s4 a'4 | a'4 fis'4 g'4 a'4 b'4 fis'4 | a'2 gis'4 g'2 g'4 | g'4 e'4 fis'4 g'4 cis''4 b'4
+| b'2 gis'4 a'2 a'4 | a'4 fis'4 g'4 a'4 d''4 cis''4 | cis''2 b'4 b'2 b'4 | d''4 cis''4 b'4 a'4 fis'4 d'4
+| fis'2 e'4 d'2! a'4@c | a'4 fis'4 g'4 a'4 d''4 b'4 | a'2.~ a'2 a'4 | g'4 e'4 fis'4 g'4 cis''4 b'4
+| a'2.~ a'2 a'4 | a'4 gis'4 a'4 d''4 cis''4 d''4 | e''4 d''4 b'4 a'2 a'4 | b'4 d''4 b'4 a'4\\rall fis'4 e'4
+| d'2.~ d'2\\spanend s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s1 s4 fis'4 | fis'4 d'4 e'4 fis'4 g'4 d'4 | fis'2 eis'4 e'2 e'4 | e'4 cis'4 d'4 e'4 g'4 g'4
+| g'2 eis'4 fis'2 fis'4 | fis'4 d'4 e'4 fis'4 fis'4 a'4 | a'2 g'4 g'2 g'4 | g'4 a'4 g'4 fis'4 d'4 d'4
+| d'2 cis'4 d'2! fis'4@c | fis'4 d'4 e'4 fis'4 g'4 g'4 | fis'2.~ fis'2 fis'4 | e'4 cis'4 d'4 e'4 g'4 g'4
+| fis'2.~ fis'2 fis'4 | fis'4 eis'4 fis'4 fis'4 g'4 a'4 | g'4 g'4 g'4 fis'2 fis'4 | g'4 g'4 g'4 fis'4 d'4 cis'4
+| d'4 cis'4 b4 a2 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s1 s4 d'4 | d'4 a4 a4 d'4 d'4 d'4 | d'2 d'4 cis'2 cis'4 | cis'4 a4 a4 cis'4 e'4 cis'4
+| d'2 b4 a2 d'4 | d'4 a4 a4 d'4 a4 d'4 | d'2 d'4 d'2 d'4 | b4 cis'4 d'4 d'4 a4 gis4
+| a2 g4 fis2! d'4@c | d'4 a4 a4 d'4 b4 d'4 | d'4 cis'4 b4 a2 d'4 | cis'4 a4 a4 cis'4 e'4 cis'4
+| d'4 cis'4 b4 a2 d'4 | d'4 b4 a4 a4 a4 a4 | b4 b4 d'4 d'2 d'4 | d'4 b4 d'4 d'4 a4 g4
+| fis4 a4 g4 fis2 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s1 s4 d4 | d4 d4 d4 d4 d4 d4 | a2 a4 a2 a4 | a4 a4 a4 a4 a4 a4
+| d2 d4 d2 d4 | d4 d4 d4 d4 d4 fis4 | g2 g4 g2 g4 | g4 g4 g4 d4 d4 b,4
+| a,2 a,4 d2! d4@c | d4 d4 d4 d4 d4 d4 | d2 d4 d2 d4 | a,4 a,4 a,4 a,4 a,4 a,4
+| d2 d4 d2 d4 | d4 d4 d4 d4 e4 fis4 | g4 g4 g4 d2 d4 | g4 g4 g4 a4 a4 a,4
+| d2.~ d2 s4
+"""
+
+[lyrics.1]
+text = "The hand that was nailed to the cross of woe, In love reach -- es down to the world be -- low; ’Tis beck -- on -- ing now to the souls that roam, And point -- ing the way to the heav’n -- ly home."
+
+[lyrics.2]
+text = "E’en now I can see, thro’ a mist of tears, That hand still out -- stretched o’er a gulf of years, With heal -- ing and hope for my sin -- sick soul; One touch of its fin -- ger will make me whole."
+
+[lyrics.3]
+text = "The hand that wrought won -- ders in days of old Holds treas -- ures more pre -- cious than gems of gold; The price of re -- demp -- tion from sin and shame, The gift of sal -- va -- tion thro’ Je -- sus’ name."
+
+[lyrics.4]
+text = "Tri -- um -- phant thro’ grace I shall some day stand, With Je -- sus at home on that gold -- en strand, His face in its beau -- ty at last to see, My hand in the hand that was pierced for me."
+
+[lyrics.chorus]
+text = "The hand of my Sav -- ior I see, The hand that was wound -- ed for me: ’Twill lead me in love to the man -- sions a -- bove, The hand that was wound -- ed for me!"
+
+[parts.Alto.lyrics.chorus]
+text = "The hand of my Sav -- ior I see, The hand that was wound -- ed for me: ’Twill lead me in love to the man -- sions a -- bove, The hand that was wound -- ed was wound -- ed for me!"
+
+[parts.Tenor.lyrics.chorus]
+text = "The hand of my Sav -- ior my Sav -- ior I see, The hand that was wound -- ed was wound -- ed for me: ’Twill lead me in love to the man -- sions a -- bove, The hand that was wound -- ed was wound -- ed for me!"
+
+[parts.Bass.lyrics.chorus]
+text = "The hand of my Sav -- ior I see, I see, The hand that was wound -- ed for me: for me: ’Twill lead me in love to the man -- sions a -- bove, The hand that was wound -- ed for me!"
