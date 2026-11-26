@@ -1,0 +1,84 @@
+title = "The Lion of Judah"
+copyrights = [
+  "Lyrics: William C. Martin, 1899 (public domain)",
+  "Music: Matthew Lindsay McPhail, 1899 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F#"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 100
+verse_count = 3
+phrase_breaks = ["3:56", "5:56", "7:56", "9:56", "11:56", "13:56", "15:56"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. s8 cis''8 | cis''4 dis''8. cis''16 ais'4 gis'8 fis'8 | fis'4 dis'8. fis'16 cis'4. cis'8 |
+fis'4 fis'8. gis'16 ais'4 cis''8. ais'16 | gis'4 gis'8. ais'16 gis'4. cis''8 |
+cis''4 dis''8. cis''16 ais'4 gis'8 fis'8 | fis'4 dis'8. fis'16 cis'4. cis'8 |
+fis'4 fis'8 gis'8 ais'8 cis''4 b'8 | ais'4 gis'8. fis'16 fis'4.! ais'8@c |
+ais'4 ais'8 ais'8 ais'8 dis''4 ais'8 | ais'8[ gis'8] fis'8 eis'8 dis'4. gis'8 |
+gis'4 gis'8 gis'8 gis'8 cis''4 gis'8 | gis'8[ fis'8] eis'8 dis'8 cis'4. cis''8 |
+cis''4 dis''8. cis''16 ais'4 gis'8 fis'8 | fis'4 dis'8. fis'16 cis'4. cis'8 |
+fis'4 fis'8 gis'8 ais'8 cis''4 b'8 | ais'4 gis'8. fis'16 fis'4.! s8
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. s8 fis'8 | fis'4 fis'8. fis'16 fis'4 cis'8 cis'8 | dis'4 b8. b16 ais4. cis'8 |
+dis'4 dis'8. eis'16 fis'4 fis'8. fis'16 | eis'4 fis'8. fis'16 eis'4. eis'8 |
+fis'4 fis'8. fis'16 fis'4 cis'8 cis'8 | dis'4 b8. b16 ais4. cis'8 |
+dis'4 dis'8 eis'8 fis'8 fis'4 gis'8 | fis'4 eis'8. cis'16 cis'4.! ais'8@c |
+ais'4 ais'8 ais'8 ais'8 fis'4 fis'8 | fis'8[ eis'8] dis'8 cisis'8 dis'4. gis'8 |
+gis'4 gis'8 gis'8 gis'8 eis'4 eis'8 | eis'8[ dis'8] cis'8 bis8 cis'4. eis'8 |
+fis'4 fis'8. fis'16 fis'4 cis'8 cis'8 | dis'4 b8. b16 ais4. cis'8 |
+dis'4 dis'8 eis'8 fis'8 fis'4 gis'8 | fis'4 eis'8. cis'16 cis'4.! s8
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. s8 ais8 | ais4 b8. ais16 cis'4 b8 ais8 | b4 fis8. fis16 fis4. ais8 |
+ais4 ais8. cis'16 cis'4 ais8. cis'16 | cis'4 bis8. bis16 cis'4. b8 |
+ais4 b8. ais16 cis'4 b8 ais8 | b4 fis8. fis16 fis4. ais8 |
+ais4 ais8 cis'8 cis'8 cis'4 dis'8 | cis'4 b8. ais16 ais4.! ais8@c |
+ais4 ais8 ais8 ais8 ais4 dis'8 | dis'8[ b8] ais8 gis8 fis4. gis8 |
+gis4 gis8 gis8 gis8 gis4 cis'8 | cis'8[ ais8] gis8 fis8 eis4. b8 |
+ais4 b8. ais16 cis'4 b8 ais8 | b4 fis8. fis16 fis4. ais8 |
+ais4 ais8 cis'8 cis'8 cis'4 dis'8 | cis'4 b8. ais16 ais4.! s8
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. s8 fis8 | fis4 fis8. fis16 fis4 fis8 fis8 | b,4 b,8. dis16 fis4. fis8 |
+dis4 dis8. cis16 fis4 fis8. fis16 | gis4 gis8. gis16 cis4. cis8 |
+fis4 fis8. fis16 fis4 fis8 fis8 | b,4 b,8. dis16 fis4. fis8 |
+dis4 dis8 cis8 fis8 ais4 b8 | cis'4 cis8. fis16 fis4.! ais8@c |
+ais4 ais8 ais8 ais8 dis4 dis8 | fis8[ gis8] ais8 ais,8 dis4. gis8 |
+gis4 gis8 gis8 gis8 cis4 cis8 | eis8[ fis8] gis8 gis,8 cis4. cis8 |
+fis4 fis8. fis16 fis4 fis8 fis8 | b,4 b,8. dis16 fis4. fis8 |
+dis4 dis8 cis8 fis8 ais4 b8 | cis'4 cis8. fis16 fis4.! s8
+"""
+
+[lyrics.1]
+text = "The Li -- on of Ju -- dah goes forth in His might, To van -- quish the wrong and es -- tab -- lish the right, To shat -- ter the chains of the poor and op -- pressed, And mil -- lions from Sa -- tan’s do -- min -- ion to wrest."
+
+[lyrics.2]
+text = "The Li -- on of Ju -- dah shall con -- quer the world, The slay -- er of souls from his throne shall be hurled; The pow -- ers of dark -- ness shall ut -- ter -- ly fail, For wor -- thy and a -- ble is Christ to pre -- vail."
+
+[lyrics.3]
+text = "The Li -- on of Ju -- dah shall reign o -- ver all, And low at His feet ev -- ’ry crea -- ture shall fall; His glo -- ry shall saints and arch -- an -- gels pro -- claim, O ho -- ly, thrice ho -- ly, His won -- der -- ful name."
+
+[lyrics.chorus]
+text = "The glo -- ri -- ous ban -- ner of Christ is un -- furled, The Li -- on of Ju -- dah shall con -- quer the world; So free to the breez -- es with bold -- ness we fling The ban -- ner of Ju -- dah’s all- -- con -- quer -- ing King."
