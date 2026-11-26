@@ -1,0 +1,66 @@
+title = "When at Thy Foot-Stool, Lord, I Bend"
+copyrights = [
+  "Lyrics: Henry Francis Lyte, 1833 (public domain)",
+  "Music: 'Ernan' by Lowell Mason, 1850 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Bb"
+time_sig_numerator = 2
+time_sig_denominator = 2
+tempo_bpm = 120
+verse_count = 3
+phrase_breaks = ["8:64"]
+optional_phrase_breaks = ["4:64", "12:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+f'2 d'4 ees'4 | f'2 bes'2 | bes'4( a'4) g'4( a'4) | bes'1 |
+g'2 g'4 g'4 | f'2 f'4( a'4) | c''4( bes'4) a'4( g'4) | f'1 |
+f'2 d'4 ees'4 | f'2 bes'2 | bes'4( a'4) g'4( a'4) | bes'1 |
+g'2 g'4 g'4 | f'2 bes'4( d''4) | d''4( c''4) bes'4( a'4) | bes'1 |
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+d'2 bes4 c'4 | d'2 f'2 | ees'2 ees'2 | d'1 |
+ees'2 ees'4 ees'4 | d'2 c'4( f'4) | f'2 f'4( e'4) | f'1 |
+d'2 bes4 c'4 | d'2 f'2 | ees'2 ees'2 | d'1 |
+ees'2 ees'4 ees'4 | f'2 d'4( f'4) | f'4( ees'4) d'4( c'4) | d'1 |
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+bes2 bes4 bes4 | bes2 d'2 | c'2 c'2 | bes1 |
+bes2 bes4 bes4 | bes2 a4( c'4) | c'4( d'4) c'4( bes4) | a1 |
+bes2 bes4 bes4 | bes2 d'2 | c'2 c'2 | bes1 |
+bes2 bes4 bes4 | bes2 f2 | f2 f2 | f1 |
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+bes,2 bes,4 bes,4 | bes,2 bes,2 | f2 f2 | bes,1 |
+ees2 ees4 ees4 | bes,2 f2 | a,4( bes,4) c2 | f1 |
+bes,2 bes,4 bes,4 | bes,2 bes,2 | f2 f2 | bes,1 |
+ees2 ees4 ees4 | d2 bes,2 | f2 f2 | bes,1 |
+"""
+
+[lyrics.1]
+text = "When at Thy foot- -- stool, Lord, I bend, And plead with Thee for mer -- cy there, Think of the sin -- ner’s dy -- ing Friend, And for His sake re -- ceive my pray’r."
+
+[lyrics.2]
+text = "O think up -- on Thy ho -- ly word, And ev -- ’ry plight -- ed prom -- ise there! How pray’r should ev -- er -- more be heard, And how Thy glo -- ry is, to spare."
+
+[lyrics.3]
+text = "O think not of my doubts and fears, My striv -- ings with Thy grace di -- vine; Think up -- on Je -- sus’ woes and tears, And let His mer -- its stand for mine."
