@@ -1,0 +1,63 @@
+title = "We Give Thee But Thine Own"
+copyrights = [
+  "Lyrics: William Walsham How, 1858 (public domain)",
+  "Music: Robert Schumann (attributed), 1850 (public domain)",
+  "Arrangement: Lowell Mason, 1850 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 92
+verse_count = 3
+phrase_breaks = ["5:48"]
+optional_phrase_breaks = ["3:48", "7:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. ees'4 | aes'4 ees'4 f'4 g'4 | aes'2. aes'4 | des''4 c''4 bes'4 aes'4 |
+aes'4( g'2) g'4 | aes'4 ees'4 f'4 g'4 | aes'4 bes'4 c''4 ees''4 |
+des''4 bes'4 aes'4 g'4 | aes'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. c'4 | ees'4 ees'4 ees'4 des'4 | ees'2. ees'4 | des'4 ees'4 f'4 f'4 |
+ees'2. ees'4 | ees'4 ees'4 ees'4 des'4 | c'4 ees'4 ees'4 ges'4 |
+f'4 f'4 ees'4 des'4 | c'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. aes4 | c'4 aes4 aes4 bes4 | c'2. c'4 | aes4 aes4 des'4 ces'4 |
+bes2. des'4 | c'4 aes4 aes4 bes4 | aes4 g4 aes4 aes4 |
+bes4 des'4 c'4 bes4 | aes2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. aes,4 | aes4 c4 des4 bes,4 | aes,2. ges4 | f4 ees4 des4 d4 |
+ees2. ees4 | aes,4 c4 des4 bes,4 | f4 ees4 aes4 c4 |
+des4 des4 ees4 ees4 | aes,2. s4
+"""
+
+[lyrics.1]
+text = "We give Thee but Thine own, What -- e’er the gift may be; All that we have is Thine a -- lone, A trust, O Lord, from Thee."
+
+[lyrics.2]
+text = "May we Thy boun -- ties thus As stew -- ards true re -- ceive; And glad -- ly, as Thou bless -- est us, To Thee our first- -- fruits give."
+
+[lyrics.3]
+text = "And we be -- lieve Thy word, Tho’ dim our faith may be; What -- e’er for Thine we do, O Lord, We do it un -- to Thee."
