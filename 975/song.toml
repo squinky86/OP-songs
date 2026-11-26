@@ -1,0 +1,70 @@
+title = "The God of Abraham Praise"
+copyrights = [
+  "Lyrics: Thomas Olivers, 1770 (public domain)",
+  "Music: Traditional Yigdal melody transcribed by Meyer Lyon as Leoni, 1770 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Fm"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 3
+phrase_breaks = ["5:48", "9:48", "13:48"]
+optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. c'4 | f'4 g'4 aes'4 bes'4 | c''2. aes'4 | bes'4 c''4 des''4 ees''4 |
+c''2. g'4 | aes'4 bes'4 c''4 des''4 | ees''4 g'4 aes'4 des''4 | c''2 bes'2 |
+aes'2. aes'4 | c''4 c''4 c''4 c''4 | bes'2. aes'8[ g'8] | f'8[ g'8] aes'8[ bes'8] c''4 g'4 |
+e'2. c'4 | f'4 g'4 aes'4 bes'4 | c''4 bes'8[ c''8] des''4 c''8[ bes'8] | aes'2 g'2 |
+f'2. s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. c'4 | c'4 c'4 c'4 f'4 | e'2. ees'4 | f'4 ees'4 f'4 ees'4 |
+ees'2. c'4 | c'4 ees'4 ees'4 f'4 | ees'4 des'4 c'4 f'4 | ees'2 ees'4( des'4) |
+c'2. ees'4 | ees'4 g'4 f'4 ees'4 | ees'2. c'4 | c'4 f'4 f'4 des'4 |
+c'2. c'4 | c'4 c'4 c'4 ees'4 | ees'4 f'8[ ees'8] f'4 g'4 | f'2 e'2 |
+f'2. s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. aes4 | aes4 g4 f4 f4 | g2. aes4 | f8[ g8] a4 bes4 g4 |
+aes2. e4 | f4 g4 aes4 aes4 | aes4 bes4 aes4 aes4 | aes2 g2 |
+aes2. c'4 | aes4 bes4 aes4 aes4 | g2. bes4 | aes4 f8[ g8] aes4 g4 |
+g2. e4 | f4 e4 f4 g4 | aes4 f8[ a8] bes4 c'4 | c'2 c'4( bes4) |
+aes2. s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. <f, f>4 | f4 e4 f4 des4 | c2. c4 | des4 c4 bes,4 ees4 |
+aes,2. c4 | f4 ees4 aes4 f4 | c4 ees4 f4 des4 | ees2 ees2 |
+aes,2. aes,4 | aes4 e4 f4 c4 | ees2. e4 | f4 des4 aes,4 bes,4 |
+c2. c8[ bes,8] | aes,4 c4 f4 ees4 | aes,4 des8[ c8] bes,4 bes,4 | c2 c2 |
+<f, f>2. s4
+"""
+
+[lyrics.1]
+text = "The God of A -- braham praise, Who reigns en -- throned a -- bove; An -- cient of ev -- er -- last -- ing days, And God of love; Je -- ho -- vah, great I AM, By earth and heav’n con -- fessed; I bow and bless the sa -- cred name, For -- ev -- er blest."
+
+[lyrics.2]
+text = "The God of A -- braham praise, At whose su -- preme com -- mand From earth I rise, and seek the joys, At His right hand: I all on earth for -- sake, Its wis -- dom, fame and pow’r; And Him my on -- ly por -- tion make, My shield and tow’r."
+
+[lyrics.3]
+text = "He by Him -- self hath sworn, I on His oath de -- pend; I shall, on an -- gel- -- wings up -- borne, To heav’n as -- cend; I shall be -- hold His face, I shall His pow’r a -- dore, And sing the won -- ders of His grace For -- ev -- er -- more."
