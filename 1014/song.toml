@@ -1,0 +1,82 @@
+title = "I Would Be of Use to Thee"
+copyrights = [
+  "Lyrics: H. N. Lincoln, 1892 (public domain)",
+  "Music: Francis A. Blackmer, 1892 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "A"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 4
+phrase_breaks = ["4:64", "8:64", "12:64"]
+optional_phrase_breaks = ["2:64", "6:64", "10:64", "14:64"]
+non_breaking_phrase_breaks = ["10:8", "12:8", "16:16"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+e'4. e'8 fis'8 e'8 cis'8 d'8 | e'4 a'2 r4 | fis'4. a'8 gis'8 fis'8 e'8 dis'8 | e'2. r4
+| e'4. e'8 fis'8 e'8 cis'8 d'8 | e'4 a'2 r4 | gis'4. gis'8 gis'8 gis'8 fis'8 b'8 | b'2. r4
+| cis''4.@c cis''8 b'8 a'8 e'8 fis'8 | e'2. r4 | cis''4. e''8 d''8 cis''8 b'8 ais'8 | b'2. r4
+| cis''4. cis''8 d''8 cis''8 b'8 a'8 | fis'4 d''2 r4 | b'4. d''8 cis''8 b'8 fis'8 gis'8 | a'2. r4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+cis'4. cis'8 d'8 cis'8 a8 b8 | cis'4 cis'2 r4 | d'4. d'8 d'8 d'8 cis'8 bis8 | cis'2. r4
+| cis'4. cis'8 d'8 cis'8 a8 b8 | cis'4 cis'2 r4 | e'4. e'8 e'8 e'8 dis'8 dis'8 | e'2. r4
+| e'4.@c e'8 d'8 cis'8 cis'8 d'8 | cis'2. r4 | a'4. a'8 gis'8 a'8 gis'8 fisis'8 | gis'2. r4
+| a'4. e'8 e'8 e'8 d'8 cis'8 | d'4 fis'2 r4 | e'4. e'8 e'8 e'8 d'8 d'8 | cis'4 d'4 cis'4 r4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+a4. a8 a8 a8 e8 e8 | a4 a2 r4 | a4. fis8 gis8 a8 a8 a8 | a2. r4
+| a4. a8 a8 a8 e8 e8 | a4 a2 r4 | b4. b8 b8 b8 b8 a8 | gis2. r4
+| a4.@c a8 a8 a8 a8 a8 | a8 a8 a8 a8 a4 r4 | e'4. e'8 e'8 e'8 e'8 e'8 | e'8 e'8 e'8 e'8 e'4 r4
+| a4. a8 b8 a8 gis8 a8 | a4 a2 r4 | gis4. b8 a8 gis8 a8 b8 | a4 fis4 e4 r4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+a,4. a,8 a,8 a,8 a,8 a,8 | a,4 a,2 r4 | d4. d8 d8 d8 a,8 a,8 | a,2. r4
+| a,4. a,8 a,8 a,8 a,8 a,8 | a,4 a,2 r4 | e4. e8 b,8 b,8 b,8 b,8 | e2. r4
+| a,4.@c a,8 a,8 a,8 a,8 a,8 | a,8 a,8 a,8 a,8 a,4 r4 | a4. cis'8 b8 a8 e8 e8 | e8 e8 e8 e8 e4 r4
+| a4. a8 a8 a8 e8 fis8 | d4 d2 r4 | e4. e8 e8 e8 e8 e8 | a,2. r4
+"""
+
+[lyrics.1]
+text = "In the vine -- yard of the Mas -- ter Is there an -- y work for me? Lord, ac -- cept my grate -- ful serv -- ice, I would be of use to Thee."
+
+[lyrics.2]
+text = "I would serve Thee, bless -- ed Je -- sus, At Thy feet I fain would be, Hum -- bly learn -- ing wis -- dom’s les -- son,— I would be of use to Thee."
+
+[lyrics.3]
+text = "Win -- ning souls for Thy dear king -- dom; Un -- de -- serv -- ing tho’ I be, Let me ev -- er be found faith -- ful, I would be of use to Thee."
+
+[lyrics.4]
+text = "O the joy of such a serv -- ice,— Soon my Mas -- ter’s face I’ll see, Till Thou call’st me, bless -- ed Je -- sus, I would be of use to Thee."
+
+[lyrics.chorus]
+text = "I would be of use to Thee, I would be of use to Thee; Lord, ac -- cept my grate -- ful serv -- ice, I would be of use to Thee."
+
+[parts.Alto.lyrics.chorus]
+text = "I would be of use to Thee, I would be of use to Thee; Lord, ac -- cept my grate -- ful serv -- ice, I would be of use to Thee. to Thee."
+
+[parts.Tenor.lyrics.chorus]
+text = "I would be of use to Thee, of use to Thee, I would be of use to Thee; of use to Thee; Lord, ac -- cept my grate -- ful serv -- ice, I would be of use to Thee. to Thee."
+
+[parts.Bass.lyrics.chorus]
+text = "I would be of use to Thee, of use to Thee, I would be of use to Thee; of use to Thee; Lord, ac -- cept my grate -- ful serv -- ice, I would be of use to Thee."
