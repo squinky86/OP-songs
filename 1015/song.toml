@@ -1,0 +1,86 @@
+title = "To Christ Be True"
+copyrights = [
+  "Lyrics: Elisha A. Hoffman, 1900 (public domain)",
+  "Music: D. M. Wilson, 1900 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "C"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 4
+phrase_breaks = ["5:48", "9:48", "13:48"]
+optional_phrase_breaks = ["3:48", "7:48", "11:48", "15:48"]
+non_breaking_phrase_breaks = ["11:16", "17:16"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. e'8[ f'8] | g'4 g'4 g'4 e'8[ f'8] | g'4 c''4 c''4 g'4 | a'4 c''4 b'4 a'4
+| g'2. e'8[ f'8] | g'4 c''4 c''4 g'4 | a'4 d''4 d''4 c''4 | b'4. b'8 a'4 b'4
+| c''2. b'8[@c c''8] | d''4. d''8 c''4 d''4 | e''2. e''4 | d''4. c''8 b'4 a'4
+| g'2. e'8[ f'8] | g'4 c''4 c''4 g'4 | a'4 d''4 d''4 c''4 | b'4. b'8 a'4 b'4
+| c''2.! s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. c'8[ d'8] | e'4 e'4 e'4 c'8[ d'8] | e'4 e'4 e'4 e'4 | f'4 a'4 g'4 f'4
+| e'2. c'8[ d'8] | e'4 e'4 e'4 e'4 | f'4 f'4 f'4 a'4 | g'4. g'8 f'4 f'4
+| e'2. d'4@c | g'4. g'8 g'4 g'4 | g'2. g'4 | g'4. a'8 g'4 fis'4
+| g'2. c'8[ d'8] | e'4 e'4 e'4 e'4 | f'4 f'4 f'4 a'4 | g'4. g'8 f'4 f'4
+| e'4 f'16 f'8. e'4! s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. g4 | c'4 c'4 c'4 g4 | c'4 g4 g4 c'4 | c'4 c'4 c'4 c'4
+| c'2. g4 | c'4 g4 g4 c'4 | c'4 a4 a4 d'4 | d'4. d'8 d'4 d'4
+| c'2. g8[@c a8] | b4. b8 c'4 b4 | c'4 c'8 c'8 c'4 c'4 | d'4. e'8 d'4 c'4
+| b4 c'4 b4 c'8[ b8] | c'4 g4 g4 c'4 | c'4 a4 a4 d'4 | d'4. d'8 d'4 d'4
+| c'4 a16 a8. g4! s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. c4 | c4 c4 c4 c4 | c4 c4 c4 c4 | f4 f4 f4 f4
+| c2. c4 | c4 c4 c4 c4 | f4 f4 f4 fis4 | g4. g8 g4 g4
+| c2. g8[@c a8] | g4. g8 e4 g4 | c'4 g8 e8 c4 c4 | b,4. c8 d4 d4
+| g4 a4 g8[ f8] e8[ d8] | c4 c4 c4 c4 | f4 f4 f4 fis4 | g4. g8 g4 g4
+| c2.! s4
+"""
+
+[lyrics.1]
+text = "To Christ be loy -- al and be true; His ban -- ner be un -- furled, And borne a -- loft till is se -- cured The con -- quest of the world."
+
+[lyrics.2]
+text = "To Christ be loy -- al and be true; He needs brave vol -- un -- teers To stand a -- gainst the pow’rs of sin, Moved not by frowns or fears."
+
+[lyrics.3]
+text = "To Christ be loy -- al and be true; In no -- ble serv -- ice prove Your faith or your fi -- del -- i -- ty, The fer -- vor of your love."
+
+[lyrics.4]
+text = "To Christ be loy -- al and be true, And He will be your friend, De -- fend -- ing and pro -- tect -- ing you To life’s tri -- umph -- ant end."
+
+[lyrics.chorus]
+text = "To Christ, the Lord, be true, For He will go with you, And help you all your con -- flicts thro’; To Christ, the Lord, be true."
+
+[parts.Alto.lyrics.chorus]
+text = "To Christ, the Lord, be true, For He will go with you, And help you all your con -- flicts thro’; To Christ, the Lord, be true. ev -- er true."
+
+[parts.Tenor.lyrics.chorus]
+text = "To Christ, the Lord, be true, ev -- er true, For He will ev -- er go with you, And help you all your con -- flicts thro’; To Christ, the Lord, be true. ev -- er true."
+
+[parts.Bass.lyrics.chorus]
+text = "To Christ, the Lord, be true, ev -- er true, For He will ev -- er go with you, And help you all your con -- flicts thro’; To Christ, the Lord, be true."
