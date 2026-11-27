@@ -1,0 +1,65 @@
+title = "When This Passing World Is Done"
+copyrights = [
+  "Lyrics: Robert Murray McCheyne, 1837 (public domain)",
+  "Music: 'Spanish Hymn' arr. by Benjamin Carr, 1824 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Ab"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 96
+verse_count = 4
+phrase_breaks = ["4:64", "8:64"]
+optional_phrase_breaks = ["2:64", "6:64", "10:64"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+aes'4. aes'8 g'4 aes'4 | f'4 aes'4 ees'2 | c''4 aes'4 des''4 bes'4 | aes'4 g'4 aes'2
+| c''4. c''8 bes'4 c''4 | des''4 c''4 bes'2 | c''4. c''8 bes'4 c''4 | des''4 c''4 bes'2
+| aes'4. aes'8 g'4 aes'4 | f'4 aes'4 ees'2 | c''4 aes'4 des''4 bes'4 | aes'4 g'4 aes'2
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+ees'4. ees'8 ees'4 ees'4 | des'4 des'4 c'2 | ees'4 ees'4 f'4 f'4 | ees'4 des'4 c'2
+| ees'4. ees'8 ees'4 ees'4 | ees'4 ees'4 ees'2 | ees'4. ees'8 ees'4 ees'4 | ees'4 ees'4 ees'2
+| ees'4. ees'8 ees'4 ees'4 | des'4 des'4 c'2 | ees'4 ees'4 f'4 f'4 | ees'4 des'4 c'2
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+c'4. c'8 des'4 c'4 | aes4 aes4 aes2 | aes4 aes4 aes4 des'4 | c'4 bes4 aes2
+| aes4. aes8 g4 aes4 | bes4 aes4 g2 | aes4. aes8 g4 aes4 | bes4 aes4 g2
+| c'4. c'8 des'4 c'4 | aes4 aes4 aes2 | aes4 aes4 aes4 des'4 | c'4 bes4 aes2
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+aes,4. aes,8 bes,4 c4 | des4 f4 aes2 | aes,4 c4 des4 des4 | ees4 ees4 aes,2
+| aes4. aes8 ees4 aes4 | g4 aes4 ees2 | aes4. aes8 ees4 aes4 | g4 aes4 ees2
+| aes,4. aes,8 bes,4 c4 | des4 f4 aes2 | aes,4 c4 des4 des4 | ees4 ees4 aes,2
+"""
+
+[lyrics.1]
+text = "When this pass -- ing world is done, When has sunk yon glar -- ing sun, When I stand with Christ on high, Look -- ing o’er life’s his -- to -- ry— Then, Lord, shall I ful -- ly know, Not till then, how much I owe."
+
+[lyrics.2]
+text = "When I stand be -- fore the throne, Dressed in beau -- ty not my own, When I see Thee as Thou art, Love Thee with un -- sin -- ning heart— Then, Lord, shall I ful -- ly know, Not till then, how much I owe."
+
+[lyrics.3]
+text = "When the praise of heav’n I hear, Loud as thun -- ders to the ear, Loud as ma -- ny wa -- ters’ noise, Sweet as harp’s me -- lo -- dious voice— Then, Lord, shall I ful -- ly know, Not till then, how much I owe."
+
+[lyrics.4]
+text = "E’en on earth, as thro’ a glass, Dark -- ly let Thy glo -- ry pass; Make for -- give -- ness feel so sweet; Make Thy Spir -- it’s help so meet; E’en on earth, Lord, make me know Some -- thing of how much I owe."
