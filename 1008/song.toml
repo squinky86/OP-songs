@@ -1,0 +1,32 @@
+title = "In the Trees the Birds Are Singing"
+copyrights = [
+  "Lyrics: Charles I. Junkin, 1900 (public domain)",
+  "Music: Grace Wilbur Conant, 1905 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "D"
+time_sig_numerator = 12
+time_sig_denominator = 8
+tempo_bpm = 90
+verse_count = 3
+phrase_breaks = ["3:72", "5:72", "7:72"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. s4. d'4 e'8 | fis'4 a'8 fis'4 e'8 e'4 d'8 d'4 e'8 | fis'4 a'8 fis'4 e'8 d'4. fis'4 gis'8
+| a'4 e'8 e'4 a'8 b'4 fis'8 fis'4 cis''8 | a'2.~ a'4. b'4 cis''8
+| d''4 cis''8 b'4 d''8 cis''4 b'8 a'4 cis''8 | b'4 a'8 fis'4 b'8 a'4. fis'4 e'8
+| d'4-( d'8-) e'4 fis'8 b'4. a'4. | d'2.~ d'4 r8 s4.
+"""
+
+[lyrics.1]
+text = "In the trees the birds are sing -- ing, in the moun -- tains and the glens, By the riv -- ers and the brooks and by the sea; But there’s food for all the rob -- ins and the ti -- ny lit -- tle wrens, And there’s bread _ in His hand for me."
+
+[lyrics.2]
+text = "All the mead -- ows bloom with dai -- sies and with dan -- de -- li -- ons bold, And the clo -- ver blos -- soms cov -- er all the lea; But there’s cloth -- ing for the lil -- ies and the but -- ter -- cups of gold, And there’s rai -- ment in His hand for me."
+
+[lyrics.3]
+text = "And the world is full of chil -- dren, O so ma -- ny and so fair! Like the sun -- beams as they spar -- kle on the sea; But there’s room for all the chil -- dren in the Fa -- ther’s ten -- der care, And there’s room _ in His heart for me."
