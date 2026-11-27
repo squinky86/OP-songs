@@ -1,0 +1,65 @@
+title = "Now the Day Is Dying"
+copyrights = [
+  "Lyrics: Georgia Tillman Snead, 1917 (public domain)",
+  "Music: B. D. Ackley, 1917 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "Eb"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 80
+verse_count = 3
+phrase_breaks = ["4:48", "8:48", "12:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+g'4 bes'8 c''4 g'8 | bes'4 ees'8 f'4 ees'8 | d'4. bes'4. | aes'2.
+| d'4 f'8 aes'4 bes'8 | d''4 c''8 f'4 g'8 | bes'4. aes'4. | g'2.
+| g'4 bes'8 c''4 g'8 | bes'4 ees'8 d'4 des'8 | c'4. bes'4. | aes'2.
+| c''4 c''8 d''4 c''8 | bes'4 ees'8 aes'4 g'8 | g'4. f'4. | ees'2.
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+ees'4 g'8 g'4 g'8 | ees'4 ees'8 ees'4 ees'8 | d'4. d'4. | d'2.
+| d'4 d'8 d'4 d'8 | d'4 d'8 d'4 d'8 | d'4. d'4. | ees'2.
+| ees'4 g'8 g'4 g'8 | ees'4 ees'8 d'4 des'8 | c'4. e'4. | f'2.
+| f'4 f'8 fis'4 fis'8 | g'4 ees'8 d'4 ees'8 | ees'4. d'4. | ees'2.
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+ees4 bes8 ees'4 bes8 | g4 g8 aes4 g8 | aes4. f4. | bes2.
+| f4 f8 bes4 bes8 | f4 f8 aes4 g8 | f4. bes4. | bes4( c'8 bes4.)
+| ees4 bes8 ees'4 bes8 | g4 g8 aes4 bes8 | aes4. c'4. | c'4( d'8 c'4.)
+| c'4 c'8 c'4 c'8 | ees'4 bes8 bes4 bes8 | bes4. aes4. | g2.
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+ees4 bes8 ees'4 bes8 | ees4 ees8 ees4 ees8 | f4. bes,4. | bes,2.
+| bes,4 bes,8 bes,4 bes,8 | bes,4 bes,8 bes,4 bes,8 | bes,4. bes,4. | ees2.
+| ees4 bes8 ees'4 bes8 | ees4 ees8 f4 g8 | aes4. g4. | f2.
+| aes4 aes8 a4 a8 | bes4 g8 f4 ees8 | bes,4. bes,4. | ees2.
+"""
+
+[lyrics.1]
+text = "Now the day is dy -- ing in the gold -- en west, Lit -- tle birds are fly -- ing home -- ward to their nest; Lit -- tle chil -- dren gath -- er round the hearth -- stone bright, Sweet -- ly they are say -- ing now, “Good- -- night, good- -- night.”"
+
+[lyrics.2]
+text = "In God’s care so ten -- der they will fall a -- sleep, For the Lord doth safe -- ly lit -- tle chil -- dren keep; Gives them sweet -- est slum -- bers, guards them in their bed, And from ev -- ’ry dan -- ger shields each lit -- tle head."
+
+[lyrics.3]
+text = "When the morn is break -- ing in the ros -- y east, They will thank the Fa -- ther for their pleas -- ant rest; Hap -- py, hap -- py chil -- dren in His lov -- ing care, They need fear no dan -- ger, God is ev -- ’ry -- where."
