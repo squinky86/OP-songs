@@ -1,0 +1,26 @@
+title = "O Worship the Lord"
+copyrights = [
+  "Lyrics: Psalm 110:3 (public domain)",
+  "Music: Fanny B. Earle, 1911 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 80
+verse_count = 1
+phrase_breaks = ["5:48"]
+optional_phrase_breaks = ["9:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 c'4 | a'4 a'4 a'4 | a'2 a'8 bes'8 | c''4 bes'4 a'4 | a'4. g'8 g'4
+| g'4 a'4 bes'4 | c''2 d''4 | f'2 e'4 | g'4 f'2
+| bes'2. | a'2. | g'2( c'4) | f'2! s4
+"""
+
+[lyrics.1]
+text = "O wor -- ship the Lord, in the beau -- ty of ho -- li -- ness; Let us ex -- alt His name to -- geth -- er. A -- men, A -- men."
