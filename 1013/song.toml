@@ -1,0 +1,111 @@
+title = "He Loves Me So"
+copyrights = [
+  "Lyrics: Mrs. Marion C. Chew, 1914 (public domain)",
+  "Music: J. H. Rosecrans, 1914 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "G"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 92
+verse_count = 4
+phrase_breaks = ["5:48", "9:40", "13:40", "15:40"]
+optional_phrase_breaks = ["3:40", "7:40", "11:48"]
+non_breaking_phrase_breaks = ["10:40", "13:16", "14:40", "16:40", "17:16"]
+non_breaking_format_resets = ["17:16"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. d'4 | d'4. d'8 e'8 g'8 c''8 g'8 | b'2~ b'8 b'8 b'8 b'8 | a'2. b'4 |
+g'2. g'4 | g'4. g'8 g'8 e'8 g'8 c''8 | d''2~ d''8 b'8 b'8 b'8 | a'2( b'4) cis''4 |
+d''2~ d''8! d''8@c e''8 cis''8 | d''2~ d''8 b'8 c''8 ais'8 | b'2~ b'4 g'4 |
+g'4. g'8 g'8 e'8 g'8 c''8 | b'2~ b'8 d''8 cis''8 d''8 | b'2~ b'8 g'8 g'8 fis'8 |
+e'2~ e'8 e''8 d''8 c''8 | b'2~ b'8 d'8 e'8! fis'8! | g'2~ g'4 s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. b4 | b4. b8 c'8 e'8 e'8 ees'8 | d'2~ d'8 g'8 g'8 g'8 | fis'2. fis'8[ d'8] |
+b2. b4 | e'4. e'8 e'8 c'8 e'8 g'8 | b'2~ b'8 g'8 g'8 g'8 | fis'2( g'4) g'4 |
+fis'2~ fis'8! r8@c r4 | r8 g'8 g'8 g'8 g'8 r8 r4 | r8 g'8 g'8 g'8 g'4 d'4 |
+e'4. e'8 e'8 c'8 e'8 e'8 | d'2~ d'8 r8 r4 | r8 d'8 d'8 d'8 d'8 b8 b8 d'8 |
+c'2~ c'8 r8 r4 | r8 d'8 d'8 d'8 d'8 d'8 cis'8! c'8! | b4 c'8 ais8 b4 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. r4 | r1 | r1 | r1 |
+r1 | r1 | r1 | r1 |
+r2 r8 b8@c c'8 ais8 | b2~ b8 d'8 e'8 cis'8 | d'2~ d'4 b4 |
+c'4. c'8 c'8 g8 g8 g8 | g4 g8 g8 g8 b8 ais8 b8 | g2~ g8 r8 r4 |
+r8 g8 g8 g8 g8 c'8 b8 a8 | g2~ g8 fis8 a8! a8! | g4 e8 cis8 d4 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. r4 | r1 | r1 | r1 |
+r1 | r1 | r1 | r1 |
+r2 r8 r8@c r4 | r8 g,8 b,8 d8 g8 r8 r4 | r8 g,8 b,8 d8 g4 g,4 |
+c4. c8 c8 c8 c8 c8 | g,4 b,8 d8 g8 r8 r4 | r8 g,8 b,8 d8 g,8 r8 r4 |
+r8 c8 e8 g8 c8 r8 r4 | r8 g,8 b,8 d8 g,8 d8 a,8! d8! | g,2~ g,4 s4
+"""
+
+[lyrics.1]
+text = "Will He, Who sees each spar -- row fall, For -- get to care for me? Oh, no! He’ll hear my fee -- blest call, His love is full and free."
+
+[parts.Tenor.lyrics.1]
+text = ""
+
+[parts.Bass.lyrics.1]
+text = ""
+
+[lyrics.2]
+text = "He sees what griefs I have to bear, And whis -- pers words of cheer, He al -- ways will my sor -- rows share, My heart need have no fear."
+
+[parts.Tenor.lyrics.2]
+text = ""
+
+[parts.Bass.lyrics.2]
+text = ""
+
+[lyrics.3]
+text = "He watch -- es o’er me day by day, Stands ev -- er by my side, Thro’ storm and sun -- shine all the way, He is my on -- ly guide."
+
+[parts.Tenor.lyrics.3]
+text = ""
+
+[parts.Bass.lyrics.3]
+text = ""
+
+[lyrics.4]
+text = "He nev -- er will for -- get His child, I can -- not well de -- spair; Se -- cure I’ll rest when storms grow wild, I’ll trust my Fa -- ther’s care."
+
+[parts.Tenor.lyrics.4]
+text = ""
+
+[parts.Bass.lyrics.4]
+text = ""
+
+[lyrics.chorus]
+text = "He loves me so, my Fa -- ther, dear, To Him I car -- ry all my woes, Why should I fear when He is near, He loves me so, He loves me so"
+
+[parts.Alto.lyrics.chorus]
+text = "He loves me so, my Fa -- ther, dear, To Him I car -- ry all my woes, Why should I fear when He is near, He loves me so, He loves me so loves me so."
+
+[parts.Tenor.lyrics.chorus]
+text = "He loves me so, my Fa -- ther, dear, To Him I car -- ry all my woes, all my woes, Why should I fear when He is near, He loves me so, He loves me so loves me so."
+
+[parts.Bass.lyrics.chorus]
+text = "He loves me so, my Fa -- ther, dear, To Him I car -- ry all my woes, all my woes, Why should I fear when He is near, He loves me so, He loves me so"
