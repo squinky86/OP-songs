@@ -1,0 +1,80 @@
+title = "When the Early Morning Breaking"
+subtitle = "In His Keeping"
+copyrights = [
+  "Lyrics and Music: Lelia N. Morris, 1898 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 3
+time_sig_denominator = 4
+tempo_bpm = 102
+verse_count = 3
+phrase_breaks = ["5:32", "9:32", "13:32", "17:32", "21:32"]
+optional_phrase_breaks = ["3:32", "7:48", "11:32", "15:48", "19:32", "23:32"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 c'8.-( d'16-) | c'4. a'8 g'8 f'8 | e'4 c''4 c'8. d'16 | c'4. bes'8 a'8 g'8 | f'4 c''4 c''8. c''16
+| d''4. c''8 bes'8 a'8 | g'4 d'2! | f'4. e'8 f'8 a'8 | a'4 g'4! c'8. d'16
+| c'4. a'8 g'8 f'8 | e'4 c''4 c'8. d'16 | c'4. bes'8 a'8 g'8 | f'4 c''4 c''8. c''16
+| d''4. c''8 b'8 c''8 | f''4! b'2! | c''4. bes'8 d'8 e'8 | f'2 f'8.@c g'16
+| a'4. a'8 bes'8 a'8 | a'4 g'4 e'8. f'16 | g'4. bes'8 a'8 g'8 | a'2 a'8. bes'16
+| c''4. c''8 bes'8 a'8 | g'4 bes'4! a'8 g'8 | f'4.(\\rit g'8) e'4 | f'2\\spanend s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2 a8.-( bes16-) | a4. c'8 c'8 c'8 | c'4 e'4 bes8. bes16 | bes4. e'8 f'8 e'8 | c'4 f'4 f'8. f'16
+| f'4. f'8 e'8 f'8 | d'4 bes2! | d'4. d'8 d'8 f'8 | f'4 e'4! bes8. bes16
+| a4. c'8 c'8 c'8 | c'4 e'4 bes8. bes16 | bes4. e'8 f'8 e'8 | c'4 f'4 f'8. f'16
+| f'4. f'8 f'8 f'8 | f'4! f'2! | f'4. e'8 d'8 c'8 | c'2 f'8.@c e'16
+| f'4. f'8 f'8 f'8 | f'4 e'4 c'8. c'16 | e'4. e'8 f'8 e'8 | f'2 f'8. f'16
+| f'4. f'8 f'8 f'8 | d'4 g'4! f'8 d'8 | c'2 c'4 | c'2 s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 f8.-( f16-) | f4. c'8 bes8 a8 | g4 g4 e8. f16 | e4. g8 c'8 bes8 | a4 a4 a8. a16
+| bes4. c'8 c'8 c'8 | bes4 f2! | b4. b8 b8 b8 | c'4 c'4! e8. e16
+| f4. c'8 bes8 a8 | g4 g4 e8. f16 | e4. g8 c'8 bes8 | a4 a4 a8. a16
+| bes4. a8 gis8 a8 | aes4! aes2! | a4. g8 bes8 bes8 | a2 a8.@c bes16
+| c'4. c'8 d'8 c'8 | c'4 bes4 g8. a16 | bes4. g8 c'8 c'8 | c'2 f8. g16
+| a4. a8 d'8 c'8 | bes4 d'4! c'8 bes8 | a4.( bes8) g4 | a2 s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2 f8.-( f16-) | f4. f8 f8 f8 | c4 c4 c8. c16 | c4. c8 c8 c8 | f4 f4 f8. f16
+| bes4. a8 g8 f8 | bes,4 bes,2! | g,4. g,8 g,8 g,8 | c4 c4! c8. c16
+| f4. f8 f8 f8 | c4 c4 c8. c16 | c4. c8 c8 c8 | f4 f4 f8. f16
+| f4. f8 f8 f8 | des4! des2! | c4. c8 c8 c8 | f2 f8.@c f16
+| f4. f8 f8 f8 | c4 c4 c8. c16 | c4. c8 c8 c8 | f2 f8. f16
+| f4. f8 f8 f8 | bes,4 g,4! a,8 bes,8 | c2 c4 | f2 s4
+"""
+
+[lyrics.1]
+text = "When the ear -- ly morn -- ing break -- ing, Slum -- ber from my eye -- lids shak -- ing, Comes the bless -- ed tho’t with wak -- ing, I am in His keep -- ing. Day ad -- vanc -- es, la -- bor bring -- ing, Care, her man -- tle ’round me fling -- ing, Yet midst all my soul keeps sing -- ing, @s1"
+
+[lyrics.2]
+text = "Some -- _ -- times dark clouds hang o’er me, Not one step I see be -- fore me, Still, my Sav -- ior, I a -- dore Thee, I am in His keep -- ing. I can trust His hand to guide me, ’Neath His wings He’ll safe -- ly hide me, And no harm can e’er be -- tide me, @s1"
+
+[lyrics.3]
+text = "Gen -- tle e -- ven -- tide is near -- ing, Light from Heav -- en dis -- ap -- pear -- ing, Still the bless -- ed tho’t so cheer -- ing, I am in His keep -- ing. Now night’s cur -- tains gath -- er ’round me, Yet its dan -- gers have not found me, For His an -- gel guards sur -- round me, @s1"
+
+[lyrics.chorus]
+text = "I am in my Fa -- ther’s keep -- ing, I am in His ten -- der care; Wheth -- er wak -- ing, wheth -- er sleep -- ing, I am in His care."
+
+[lyrics.s1]
+text = "I am in His care."
