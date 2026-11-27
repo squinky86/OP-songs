@@ -1,0 +1,64 @@
+title = "When My Love to Christ Grows Weak"
+copyrights = [
+  "Lyrics: John Reynell Wreford, 1837 (public domain)",
+  "Music: 'Albertson' by Phoebe Palmer Knapp, 1878 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "C"
+time_sig_numerator = 3
+time_sig_denominator = 2
+tempo_bpm = 120
+verse_count = 5
+phrase_breaks = ["4:96"]
+optional_phrase_breaks = ["2:96", "6:96"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+e'4 e'4 e'2 e'2 | f'4 f'4 f'1 | d'4 d'4 g'2 f'2 | f'4 e'4 e'1 |
+c''4 c''4 c''2 b'2 | b'4 a'4 c''2( a'2) | g'4 g'4 g'2 e'2 | d'4 f'4 e'1
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+c'4 c'4 c'2 c'2 | d'4 d'4 d'1 | b4 b4 b2 d'2 | d'4 c'4 c'1 |
+e'4 e'4 e'2 g'2 | g'4 f'4 f'1 | e'4 e'4 e'2 c'2 | b4 d'4 c'1
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+g4 g4 g2 g2 | g4 g4 g1 | g4 g4 g2 g2 | g4 g4 g1 |
+g4 g4 g2 c'2 | c'4 c'4 a2( c'2) | c'4 c'4 c'2 g2 | g4 g4 g1
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+c4 c4 c2 c2 | g,4 g,4 g,1 | g,4 g,4 g,2 b,2 | c4 c4 c1 |
+c4 c4 c2 e2 | f4 f4 f1 | g4 g4 g2 g2 | g,4 g,4 c1
+"""
+
+[lyrics.1]
+text = "When my love to Christ grows weak, When for deep -- er faith I seek, Then in tho’t I go to thee, Gar -- den of Geth -- sem -- a -- ne!"
+
+[lyrics.2]
+text = "There I walk a -- mid the shades, While the ling’ -- ring twi -- light fades, See that suff’ -- ring, friend -- less One, Weep -- ing, pray -- ing there a -- lone."
+
+[lyrics.3]
+text = "When my love for man grows weak, When for strong -- er faith I seek, Hill of Cal -- va -- ry! I go To thy scenes of fear and woe."
+
+[lyrics.4]
+text = "There be -- hold His ag -- o -- ny, Suf -- fered on the bit -- ter tree; See His an -- guish, see His faith, Love tri -- um -- phant still in death."
+
+[lyrics.5]
+text = "Then to life I turn a -- gain, Learn -- ing all the worth of pain; Learn -- ing all the might that lies In a full self- -- sac -- ri -- fice."
