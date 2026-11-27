@@ -1,0 +1,86 @@
+title = "In His Rude Manger-Bed Sleeping"
+copyrights = [
+  "Lyrics: Palmer Hartsough, 1906 (public domain)",
+  "Music: J. H. Fillmore, Sr., 1906 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 6
+time_sig_denominator = 8
+tempo_bpm = 85
+verse_count = 3
+phrase_breaks = ["4:48", "8:48", "12:48", "16:48", "20:48"]
+optional_phrase_breaks = ["2:48", "6:48", "10:48", "14:48", "18:48", "22:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+c'8 d'8 e'8 f'8 g'8 a'8 | c''4. c''4 r8 | a'8 g'8 f'8 a'8 g'8 c'8 | f'4.~ f'4 r8 |
+c'8 d'8 e'8 f'8 g'8 a'8 | c''4. c''4 r8 | c''8 b'8 a'8 b'8 e'8 b'8 | a'4.~ a'4 r8 |
+bes'8 g'8 f'8 e'8 d'8 c'8 | a'4. a'4 r8 | a'8 a'8 a'8 b'8 a'8 b'8 | c''4.~ c''4 r8 |
+c'8 d'8 e'8 f'8 g'8 a'8 | c''4. c''4 r8 | a'8 g'8 f'8 a'8 g'8 c'8 | f'4.~ f'4 r8 |
+c''8@c bes'8 g'8 e'8 d'8 c'8 | a'4. a'4 r8 | a'8 a'8 a'8 b'8 a'8 b'8 | c''4.~ c''4 r8 |
+c'8 d'8 e'8 f'8 g'8 a'8 | c''4. c''4 r8 | a'8 g'8 f'8 a'8 g'8 c'8 | f'4.~ f'4 r8
+"""
+
+[parts.Soprano.lyrics.1]
+text = "In His rude man -- ger- -- bed sleep -- ing See Him, the heav -- en -- ly Child; O’er Him her si -- lent watch keep -- ing, Ma -- ry, the moth -- er, so mild; Round Him the zeph -- yrs are sigh -- ing, O’er Him the bright ha -- los shine; Moth -- er in won -- der re -- ply -- ing, Ba -- by, O Ba -- by di -- vine."
+
+[parts.Soprano.lyrics.2]
+text = "Moth -- er, a star now is ris -- ing, Clear on the lis -- ten -- ing night; See how its beau -- ty sur -- pris -- ing, Makes all the heav -- ens so bright; Moth -- er, it comes and is stand -- ing O -- ver thy poor man -- ger- -- bed; Wise men the way now are find -- ing, By it they hith -- er are led."
+
+[parts.Soprano.lyrics.3]
+text = "See them, their treas -- ures out -- pour -- ing, Gold, with their in -- cense so sweet; See them, in wor -- ship a -- dor -- ing, Low at the lit -- tle One’s feet; Moth -- er, so poor and so low -- ly, Take the glad gifts that we bring; He is the bless -- ed and ho -- ly, He is the Sav -- ior and King."
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. | s2. | s2. | s2. |
+s2. | s2. | s2. | s2. |
+s2. | s2. | s2. | s2. |
+s2. | s2. | s2. | s2. |
+e'8@c e'8 e'8 c'8 c'8 c'8 | c'4. c'4 r8 | f'8 f'8 f'8 f'8 f'8 f'8 | e'4.~ e'4 r8 |
+c'8 c'8 c'8 c'8 c'8 c'8 | a'4( g'8) f'4 r8 | f'8 e'8 f'8 e'8 e'8 c'8 | c'4.~ c'4 r8
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. | s2. | s2. | s2. |
+s2. | s2. | s2. | s2. |
+s2. | s2. | s2. | s2. |
+s2. | s2. | s2. | s2. |
+bes8@c bes8 bes8 bes8 bes8 bes8 | a4. a4 r8 | a8 a8 a8 g8 g8 g8 | g4.~ g4 r8 |
+a8 a8 a8 a8 a8 a8 | c'4( bes8) a4 r8 | c'8 bes8 a8 c'8 bes8 bes8 | a4.~ a4 r8
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. | s2. | s2. | s2. |
+s2. | s2. | s2. | s2. |
+s2. | s2. | s2. | s2. |
+s2. | s2. | s2. | s2. |
+c8@c c8 c8 c8 c8 c8 | f4. f4 r8 | d8 d8 d8 g,8 g,8 g,8 | c4.~ c4 r8 |
+f8 f8 f8 f8 f8 f8 | f4. f4 r8 | c8 c8 c8 c8 c8 c8 | f4.~ f4 r8
+"""
+
+[lyrics.1]
+text = ""
+
+[lyrics.2]
+text = ""
+
+[lyrics.3]
+text = ""
+
+[lyrics.chorus]
+text = "Moth -- er, the Babe that Thou hold -- est Shall for a lost world a -- tone; Moth -- er, the Son thou en -- fold -- est Scep -- ters and king -- doms shall own."
