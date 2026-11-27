@@ -1,0 +1,94 @@
+title = "Nailed to the Cross"
+copyrights = [
+  "Lyrics: Carrie E. Breck, 1899 (public domain)",
+  "Music: Grant Colfax Tullar, 1899 (public domain)",
+  "Arrangement by OpenPsalm, 2026 and released under the CC-BY 4.0 license",
+]
+key_signature = "F"
+time_sig_numerator = 4
+time_sig_denominator = 4
+tempo_bpm = 75
+verse_count = 3
+phrase_breaks = ["3:48", "5:48", "7:48", "9:48", "11:48", "13:48", "15:48"]
+
+[parts.Soprano]
+choral_type = "soprano"
+clef = "treble"
+staff_number = 1
+notes = """
+s2. a'8. a'16 | a'4 f'8. g'16 a'8 a'4 a'8 | bes'4 f'8. g'16 a'4 a'8. a'16
+| a'4 g'8. f'16 e'4 f'8. g'16 | f'2. a'8. a'16 | a'4 f'8. g'16 a'4 a'8. c''16
+| bes'4 f'8. g'16 a'4 a'8. a'16 | a'4 g'8. f'16 e'4 a'8. g'16 | f'2. c''8.@c c''16
+| c''4 b'8. d''16 c''4 a'8.%p a'16 | a'4 gis'8. bes'16 a'4 a'8.\\< a'16 | a'4 g'8. g'16 g'8 a'4 b'8
+| c''2. d''8.%f\\! e''16 | f''4 e''8. d''16 c''4 c''8. c''16 | d''4 c''8. bes'16 a'4 a'8.\\> a'16
+| a'4\\rit g'8. g'16 f'4 e'8. e'16 | f'2.\\spanend\\! s4
+"""
+
+[parts.Alto]
+choral_type = "alto"
+clef = "treble"
+staff_number = 1
+notes = """
+s1 | s1 | s1
+| s1 | s1 | s1
+| s1 | s1 | s2. a'8.@c a'16
+| a'4 gis'8. bes'16 a'4 f'8.%p f'16 | f'4 f'8. f'16 f'4 f'8.\\< f'16 | f'4 f'8. f'16 f'8 f'4 f'8
+| e'2. bes'8.%f\\! bes'16 | a'4 c''8. bes'16 a'4 f'8. f'16 | f'4 f'8. e'16 f'4 f'8.\\> ees'16
+| d'4 d'8. des'16 c'4 c'8. c'16 | c'2.\\! s4
+"""
+
+[parts.Tenor]
+choral_type = "tenor"
+clef = "bass"
+staff_number = 2
+notes = """
+s2. c'8. c'16 | c'4 a8. bes16 c'8 c'4 ees'8 | d'4 d'8. des'16 c'4 c'8. c'16
+| c'4 bes8. a16 g4 a8. bes16 | a2. c'8. c'16 | c'4 a8. bes16 c'4 f'8. e'16
+| d'4 d'8. des'16 c'4 c'8. c'16 | c'4 bes8. a16 g4 c'8. bes16 | a2. c'8.@c c'16
+| c'4 d'8. e'16 f'4 c'8.%p c'16 | c'4 b8. d'16 c'4 c'8.\\< c'16 | b4 b8. b16 b8 c'4 d'8
+| c'2. c'8.%f\\! c'16 | c'4 d'8. e'16 f'4 c'8. c'16 | bes4 c'8. c'16 c'4 c'8.\\> c'16
+| c'4 bes8. bes16 a4 g8. bes16 | a2.\\! s4
+"""
+
+[parts.Bass]
+choral_type = "bass"
+clef = "bass"
+staff_number = 2
+notes = """
+s1 | s1 | s1
+| s1 | s1 | s1
+| s1 | s1 | s2. f8.@c f16
+| f4 f8. f16 f4 f8.%p f16 | f4 f8. f16 f4 f8.\\< f16 | g4 g8. g16 g8 g4 g8
+| c2. c8.%f\\! c16 | f4 f8. f16 f4 a8. a16 | bes4 a8. g16 f4 f8.\\> f16
+| bes,4 bes,8. bes,16 c4 c8. c16 | f,2.\\! s4
+"""
+
+[lyrics.1]
+text = "There was One Who was will -- ing to die in my stead, That a soul so un -- wor -- thy might live, And the path to the cross He was will -- ing to tread, All the sins of my life to for -- give."
+
+[parts.Alto.lyrics.1]
+text = ""
+
+[parts.Bass.lyrics.1]
+text = ""
+
+[lyrics.2]
+text = "He is ten -- der and lov -- ing and pa -- tient with me, While He cleans -- es my heart of its dross, But “there’s no con -- dem -- na -- tion”— I know I am free, For my sins are all nail’d to the cross."
+
+[parts.Alto.lyrics.2]
+text = ""
+
+[parts.Bass.lyrics.2]
+text = ""
+
+[lyrics.3]
+text = "I will cling to my Sav -- iour and nev -- er de -- part— I will joy -- ful -- ly jour -- ney each day, With a song on my lips and a song in my heart, That my sins have been tak -- en a -- way."
+
+[parts.Alto.lyrics.3]
+text = ""
+
+[parts.Bass.lyrics.3]
+text = ""
+
+[lyrics.chorus]
+text = "They are nail’d to the cross, They are nail’d to the cross, O how much He was will -- ing to bear! With what an -- guish and loss, Je -- sus went to the cross! But He car -- ried my sins with Him there."
